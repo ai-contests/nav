@@ -1,0 +1,78 @@
+{
+  "sources": [
+    {
+      "name": "modelscope",
+      "displayName": "ModelScope",
+      "baseUrl": "https://modelscope.cn",
+      "contestListUrl": "https://modelscope.cn/competition",
+      "selectors": {
+        "contestItems": ".competition-item",
+        "title": ".competition-title",
+        "description": ".competition-desc",
+        "deadline": ".deadline",
+        "prize": ".prize-info",
+        "link": "a[href]"
+      },
+      "enabled": true,
+      "delay": 2.0,
+      "maxRetries": 3
+    },
+    {
+      "name": "civitai",
+      "displayName": "Civitai",
+      "baseUrl": "https://civitai.com",
+      "contestListUrl": "https://civitai.com/events",
+      "selectors": {
+        "contestItems": "[data-testid=\"event-card\"]",
+        "title": "h3",
+        "description": ".event-description",
+        "deadline": ".event-deadline",
+        "prize": ".prize-amount",
+        "link": "a[href]"
+      },
+      "enabled": true,
+      "delay": 1.5,
+      "maxRetries": 3
+    },
+    {
+      "name": "openart",
+      "displayName": "OpenArt",
+      "baseUrl": "https://openart.ai",
+      "contestListUrl": "https://contest.openart.ai",
+      "selectors": {
+        "contestItems": ".contest-card",
+        "title": ".contest-title",
+        "description": ".contest-description",
+        "deadline": ".contest-deadline",
+        "prize": ".prize-amount",
+        "link": "a[href]"
+      },
+      "enabled": true,
+      "delay": 1.0,
+      "maxRetries": 3
+    }
+  ],
+  "aiProcessor": {
+    "apiEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation",
+    "maxTokens": 1000,
+    "batchSize": 5
+  },
+  "storage": {
+    "dataDir": "./data",
+    "enableGitLFS": false,
+    "maxFileSize": 50,
+    "backupCount": 10
+  },
+  "site": {
+    "title": "AI Contest Navigator",
+    "description": "Discover the latest AI/ML competitions and challenges",
+    "pageSize": 20,
+    "enableBanner": true,
+    "bannerContent": "🚀 Welcome to AI Contest Navigator - Your gateway to AI competitions!"
+  },
+  "enableValidation": true,
+  "schedule": {
+    "crawlInterval": 8,
+    "enableAutoRun": false
+  }
+}

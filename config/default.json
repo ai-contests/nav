@@ -1,0 +1,66 @@
+{
+  "sources": {
+    "configFile": "./config/sources.json",
+    "enabledPlatforms": ["modelscope", "civitai", "openart"],
+    "updateInterval": 24
+  },
+  "scrapers": {
+    "maxRetries": 3,
+    "delay": 2,
+    "timeout": 30000,
+    "userAgent": "Mozilla/5.0 (compatible; AI-Contest-Bot/1.0)"
+  },
+  "processors": {
+    "apiEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation",
+    "model": "qwen-turbo",
+    "maxTokens": 1000,
+    "temperature": 0.3,
+    "batchSize": 5,
+    "enableTranslation": true,
+    "targetLanguage": "zh-CN"
+  },
+  "storage": {
+    "dataDir": "./data",
+    "backupDir": "./data/backup",
+    "maxBackups": 10,
+    "enableGitSync": true,
+    "compressionEnabled": false,
+    "autoBackup": true,
+    "backupInterval": 24
+  },
+  "generators": {
+    "siteTitle": "AI Contests Navigator",
+    "siteDescription": "Discover the latest AI competition opportunities",
+    "siteUrl": "https://ai-contests.github.io/nav",
+    "author": "AI Contests Team",
+    "theme": "auto",
+    "layout": "grid",
+    "itemsPerPage": 20,
+    "enableSearch": true,
+    "enableFilters": true,
+    "enableSorting": true,
+    "enableAnalytics": false
+  },
+  "validators": {
+    "strict": false,
+    "autoFix": true,
+    "enableQualityCheck": true,
+    "enableUrlCheck": true,
+    "enableDuplicateCheck": true,
+    "maxRetries": 3,
+    "timeout": 10000,
+    "qualityThreshold": 5
+  },
+  "mode": "full",
+  "enableValidation": true,
+  "enableHealthCheck": true,
+  "maxConcurrency": 3,
+  "timeout": 300000,
+  "logLevel": "info",
+  "logFile": "./logs/app.log",
+  "enableConsoleLog": true,
+  "schedule": {
+    "crawlInterval": 8,
+    "enableAutoRun": true
+  }
+}

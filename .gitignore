@@ -73,8 +73,8 @@ data/backup/*.json
 temp/
 tmp/
 
-# Generated documentation
-docs/generated/
+# Documentation
+docs/
 
 # Test artifacts
 test-results/

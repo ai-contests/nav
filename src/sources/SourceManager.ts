@@ -11,7 +11,9 @@ export class SourceManager {
   private configPath: string;
   private platforms: Map<string, PlatformConfig>;
 
-  constructor(configPathOrPlatforms: string | PlatformConfig[] = 'config/sources.json') {
+  constructor(
+    configPathOrPlatforms: string | PlatformConfig[] = 'config/sources.json'
+  ) {
     if (typeof configPathOrPlatforms === 'string') {
       this.configPath = configPathOrPlatforms;
       this.platforms = new Map();
@@ -50,7 +52,7 @@ export class SourceManager {
     try {
       const configData = this.serializeConfig();
       const configDir = path.dirname(this.configPath);
-      
+
       await fs.ensureDir(configDir);
       await fs.writeJson(this.configPath, configData, { spaces: 2 });
     } catch (error) {
@@ -85,7 +87,10 @@ export class SourceManager {
   /**
    * Update platform configuration
    */
-  async updatePlatform(platformName: string, updates: Partial<PlatformConfig>): Promise<boolean> {
+  async updatePlatform(
+    platformName: string,
+    updates: Partial<PlatformConfig>
+  ): Promise<boolean> {
     const platform = this.platforms.get(platformName);
     if (!platform) {
       return false;
@@ -136,7 +141,7 @@ export class SourceManager {
         config: platform,
         taskId: `${platform.name}_${new Date().toISOString().replace(/[:.]/g, '_')}`,
         createdAt: new Date().toISOString(),
-        priority: 1
+        priority: 1,
       };
       tasks.push(task);
     }
@@ -162,15 +167,16 @@ export class SourceManager {
       errors.push('Contest list URL cannot be empty');
     }
 
-    if (!platformConfig.selectors.contestItems) {
+    // selectors may be undefined in test fixtures; guard access
+    if (!platformConfig.selectors || !platformConfig.selectors.contestItems) {
       errors.push('Contest items selector cannot be empty');
     }
 
-    if (!platformConfig.selectors.title) {
+    if (!platformConfig.selectors || !platformConfig.selectors.title) {
       errors.push('Title selector cannot be empty');
     }
 
-    if (!platformConfig.selectors.link) {
+    if (!platformConfig.selectors || !platformConfig.selectors.link) {
       errors.push('Link selector cannot be empty');
     }
 
@@ -195,23 +201,28 @@ export class SourceManager {
     if (configData.platforms) {
       for (const [name, data] of Object.entries(configData.platforms)) {
         const platformData = data as any;
-        
+
         const platform: PlatformConfig = {
           name,
-          displayName: platformData.displayName || platformData.display_name || name,
+          displayName:
+            platformData.displayName || platformData.display_name || name,
           baseUrl: platformData.baseUrl || platformData.base_url || '',
-          contestListUrl: platformData.contestListUrl || platformData.contest_list_url || '',
+          contestListUrl:
+            platformData.contestListUrl || platformData.contest_list_url || '',
           selectors: {
-            contestItems: platformData.selectors?.contestItems || platformData.selectors?.contest_items || '',
+            contestItems:
+              platformData.selectors?.contestItems ||
+              platformData.selectors?.contest_items ||
+              '',
             title: platformData.selectors?.title || '',
             description: platformData.selectors?.description,
             deadline: platformData.selectors?.deadline,
             prize: platformData.selectors?.prize,
-            link: platformData.selectors?.link || ''
+            link: platformData.selectors?.link || '',
           },
           enabled: platformData.enabled !== false,
           delay: platformData.delay || 2.0,
-          maxRetries: platformData.maxRetries || platformData.max_retries || 3
+          maxRetries: platformData.maxRetries || platformData.max_retries || 3,
         };
 
         platforms.set(name, platform);
@@ -225,10 +236,10 @@ export class SourceManager {
    * Serialize configuration data
    */
   private serializeConfig(): any {
-    const configData: any = { 
+    const configData: any = {
       platforms: {},
       lastUpdated: new Date().toISOString(),
-      version: '1.0.0'
+      version: '1.0.0',
     };
 
     for (const [name, platform] of this.platforms) {
@@ -242,11 +253,11 @@ export class SourceManager {
           description: platform.selectors.description,
           deadline: platform.selectors.deadline,
           prize: platform.selectors.prize,
-          link: platform.selectors.link
+          link: platform.selectors.link,
         },
         enabled: platform.enabled,
         delay: platform.delay,
-        maxRetries: platform.maxRetries
+        maxRetries: platform.maxRetries,
       };
     }
 
@@ -269,11 +280,11 @@ export class SourceManager {
           description: '.competition-desc',
           deadline: '.deadline',
           prize: '.prize-info',
-          link: 'a[href]'
+          link: 'a[href]',
         },
         enabled: true,
         delay: 2.0,
-        maxRetries: 3
+        maxRetries: 3,
       },
       {
         name: 'civitai',
@@ -286,11 +297,11 @@ export class SourceManager {
           description: '.event-description',
           deadline: '.event-deadline',
           prize: '.prize-amount',
-          link: 'a[href]'
+          link: 'a[href]',
         },
         enabled: true,
         delay: 1.5,
-        maxRetries: 3
+        maxRetries: 3,
       },
       {
         name: 'openart',
@@ -303,12 +314,12 @@ export class SourceManager {
           description: '.contest-description',
           deadline: '.contest-deadline',
           prize: '.prize-amount',
-          link: 'a[href]'
+          link: 'a[href]',
         },
         enabled: true,
         delay: 1.0,
-        maxRetries: 3
-      }
+        maxRetries: 3,
+      },
     ];
 
     // Add default platforms

@@ -15,7 +15,9 @@ const program = new Command();
 /**
  * Load application configuration
  */
-async function loadConfig(configPath: string = 'config/app.json'): Promise<AppConfig> {
+async function loadConfig(
+  configPath: string = 'config/app.json'
+): Promise<AppConfig> {
   try {
     const configExists = await fs.pathExists(configPath);
     if (!configExists) {
@@ -24,11 +26,11 @@ async function loadConfig(configPath: string = 'config/app.json'): Promise<AppCo
     }
 
     const config = await fs.readJson(configPath);
-    
+
     // Ensure required directories exist
     await fs.ensureDir(config.storage.dataDir);
     await fs.ensureDir('logs');
-    
+
     return config;
   } catch (error) {
     logger.error(`Failed to load configuration: ${error}`);
@@ -42,30 +44,33 @@ async function loadConfig(configPath: string = 'config/app.json'): Promise<AppCo
 async function showStatus(pipeline: ContestPipeline): Promise<void> {
   try {
     const status = await pipeline.getStatus();
-    
+
     console.log('\n📊 AI Contest Navigator - System Status');
     console.log('═'.repeat(50));
-    
+
     console.log('\n📂 Storage:');
     console.log(`  Raw Files: ${status.storage.rawFiles || 0}`);
     console.log(`  Processed Files: ${status.storage.processedFiles || 0}`);
     console.log(`  Backup Files: ${status.storage.backupFiles || 0}`);
-    console.log(`  Total Size: ${((status.storage.totalSize || 0) / 1024 / 1024).toFixed(2)} MB`);
+    console.log(
+      `  Total Size: ${((status.storage.totalSize || 0) / 1024 / 1024).toFixed(2)} MB`
+    );
     console.log(`  Last Update: ${status.storage.lastUpdate || 'Never'}`);
-    
+
     console.log('\n🌐 Platforms:');
     (status.storage.platforms || []).forEach((platform: string) => {
       console.log(`  ✓ ${platform}`);
     });
-    
+
     console.log('\n🤖 AI Processor:');
-    console.log(`  Endpoint: ${status.aiProcessor?.config?.apiEndpoint || 'Not configured'}`);
+    console.log(
+      `  Endpoint: ${status.aiProcessor?.config?.apiEndpoint || 'Not configured'}`
+    );
     console.log(`  Max Tokens: ${status.aiProcessor?.config?.maxTokens || 0}`);
     console.log(`  Batch Size: ${status.aiProcessor?.config?.batchSize || 0}`);
-    
+
     console.log('\n⏰ Last Check:', status.lastCheck);
     console.log('═'.repeat(50));
-    
   } catch (error) {
     logger.error('Failed to get status', { error });
     console.error('❌ Failed to get system status');
@@ -77,7 +82,7 @@ async function showStatus(pipeline: ContestPipeline): Promise<void> {
  */
 function displayResults(result: any): void {
   const { success, duration, stats, errors, warnings } = result;
-  
+
   console.log('\n🎯 Execution Results');
   console.log('═'.repeat(50));
   console.log(`Status: ${success ? '✅ SUCCESS' : '❌ FAILED'}`);
@@ -91,17 +96,17 @@ function displayResults(result: any): void {
   console.log(`  Generated: ${stats.generated} items`);
   console.log(`  Errors: ${stats.errors}`);
   console.log(`  Warnings: ${stats.warnings}`);
-  
+
   if (errors.length > 0) {
     console.log('\n❌ Errors:');
     errors.forEach((error: string) => console.log(`  • ${error}`));
   }
-  
+
   if (warnings.length > 0) {
     console.log('\n⚠️  Warnings:');
     warnings.forEach((warning: string) => console.log(`  • ${warning}`));
   }
-  
+
   console.log('═'.repeat(50));
 }
 
@@ -115,19 +120,23 @@ program
   .command('run')
   .description('Run the complete pipeline (crawl, process, generate)')
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
-  .option('-m, --mode <mode>', 'Execution mode (full|crawl-only|process-only|generate-only)', 'full')
-  .action(async (options) => {
+  .option(
+    '-m, --mode <mode>',
+    'Execution mode (full|crawl-only|process-only|generate-only)',
+    'full'
+  )
+  .action(async options => {
     try {
       console.log('🚀 Starting AI Contest Navigator...');
-      
+
       const config = await loadConfig(options.config);
       const pipeline = new ContestPipeline(config);
-      
+
       logger.info(`Starting pipeline execution in ${options.mode} mode`);
-      
+
       const result = await pipeline.execute(options.mode);
       displayResults(result);
-      
+
       if (!result.success) {
         process.exit(1);
       }
@@ -142,11 +151,11 @@ program
   .command('status')
   .description('Show system status and statistics')
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
-  .action(async (options) => {
+  .action(async options => {
     try {
       const config = await loadConfig(options.config);
       const pipeline = new ContestPipeline(config);
-      
+
       await showStatus(pipeline);
     } catch (error) {
       logger.error('Failed to get status', { error });
@@ -159,16 +168,16 @@ program
   .command('crawl')
   .description('Crawl contest data from all platforms')
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
-  .action(async (options) => {
+  .action(async options => {
     try {
       console.log('🕷️  Starting data crawling...');
-      
+
       const config = await loadConfig(options.config);
       const pipeline = new ContestPipeline(config);
-      
+
       const result = await pipeline.execute('crawl-only');
       displayResults(result);
-      
+
       if (!result.success) {
         process.exit(1);
       }
@@ -183,16 +192,16 @@ program
   .command('process')
   .description('Process existing raw data with AI')
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
-  .action(async (options) => {
+  .action(async options => {
     try {
       console.log('🤖 Starting AI processing...');
-      
+
       const config = await loadConfig(options.config);
       const pipeline = new ContestPipeline(config);
-      
+
       const result = await pipeline.execute('process-only');
       displayResults(result);
-      
+
       if (!result.success) {
         process.exit(1);
       }
@@ -209,15 +218,20 @@ program
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
   .option('-f, --format <format>', 'Export format (json|csv)', 'json')
   .option('-p, --platform <platform>', 'Platform to export (optional)')
-  .action(async (options) => {
+  .action(async options => {
     try {
-      console.log(`📤 Exporting data in ${options.format.toUpperCase()} format...`);
-      
+      console.log(
+        `📤 Exporting data in ${options.format.toUpperCase()} format...`
+      );
+
       const config = await loadConfig(options.config);
       const pipeline = new ContestPipeline(config);
-      
-      const filePath = await pipeline.exportData(options.format, options.platform);
-      
+
+      const filePath = await pipeline.exportData(
+        options.format,
+        options.platform
+      );
+
       console.log(`✅ Data exported successfully: ${filePath}`);
     } catch (error) {
       logger.error('Export failed', { error });
@@ -231,15 +245,15 @@ program
   .description('Clean up old data files')
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
   .option('-d, --days <days>', 'Days to keep (default: 30)', '30')
-  .action(async (options) => {
+  .action(async options => {
     try {
       console.log(`🧹 Cleaning up data older than ${options.days} days...`);
-      
+
       const config = await loadConfig(options.config);
       const pipeline = new ContestPipeline(config);
-      
+
       await pipeline.cleanup(parseInt(options.days));
-      
+
       console.log('✅ Cleanup completed successfully');
     } catch (error) {
       logger.error('Cleanup failed', { error });

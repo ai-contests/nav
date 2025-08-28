@@ -3,7 +3,13 @@
  * Validates contest data integrity and consistency
  */
 
-import { RawContest, ProcessedContest, ValidationResult, ValidationRule, ValidationIssue } from '../types';
+import {
+  RawContest,
+  ProcessedContest,
+  ValidationResult,
+  ValidationRule,
+  ValidationIssue,
+} from '../types';
 import { logger } from '../utils/logger';
 
 export class DataValidator {
@@ -21,33 +27,33 @@ export class DataValidator {
       {
         name: 'required_fields',
         description: 'Check required fields are present',
-        validator: this.validateRequiredFields.bind(this)
+        validator: this.validateRequiredFields.bind(this),
       },
       {
         name: 'url_format',
         description: 'Validate URL format',
-        validator: this.validateUrlFormat.bind(this)
+        validator: this.validateUrlFormat.bind(this),
       },
       {
         name: 'date_format',
         description: 'Validate date format and logic',
-        validator: this.validateDateFormat.bind(this)
+        validator: this.validateDateFormat.bind(this),
       },
       {
         name: 'status_values',
         description: 'Validate status values',
-        validator: this.validateStatusValues.bind(this)
+        validator: this.validateStatusValues.bind(this),
       },
       {
         name: 'platform_consistency',
         description: 'Validate platform consistency',
-        validator: this.validatePlatformConsistency.bind(this)
+        validator: this.validatePlatformConsistency.bind(this),
       },
       {
         name: 'duplicate_detection',
         description: 'Detect duplicate contests',
-        validator: this.validateDuplicates.bind(this)
-      }
+        validator: this.validateDuplicates.bind(this),
+      },
     ];
   }
 
@@ -63,8 +69,8 @@ export class DataValidator {
         totalContests: contests.length,
         validContests: 0,
         invalidContests: 0,
-        warningContests: 0
-      }
+        warningContests: 0,
+      },
     };
 
     logger.info(`Starting validation of ${contests.length} raw contests`);
@@ -78,11 +84,11 @@ export class DataValidator {
       for (const rule of this.rules) {
         try {
           const ruleResult = await rule.validator(contest, i, contests);
-          
+
           if (ruleResult.errors && ruleResult.errors.length > 0) {
             contestErrors.push(...ruleResult.errors);
           }
-          
+
           if (ruleResult.warnings && ruleResult.warnings.length > 0) {
             contestWarnings.push(...ruleResult.warnings);
           }
@@ -96,7 +102,7 @@ export class DataValidator {
         result.errors.push({
           index: i,
           contest: contest.title || `Contest #${i}`,
-          issues: contestErrors
+          issues: contestErrors,
         });
         result.summary.invalidContests++;
         result.isValid = false;
@@ -104,7 +110,7 @@ export class DataValidator {
         result.warnings.push({
           index: i,
           contest: contest.title || `Contest #${i}`,
-          issues: contestWarnings
+          issues: contestWarnings,
         });
         result.summary.warningContests++;
         result.summary.validContests++;
@@ -120,7 +126,9 @@ export class DataValidator {
   /**
    * Validate processed contest data
    */
-  async validateProcessedContests(contests: ProcessedContest[]): Promise<ValidationResult> {
+  async validateProcessedContests(
+    contests: ProcessedContest[]
+  ): Promise<ValidationResult> {
     // Convert to raw format for validation
     const rawContests: RawContest[] = contests.map(contest => ({
       platform: contest.platform,
@@ -131,9 +139,9 @@ export class DataValidator {
       status: contest.status,
       prize: contest.prize,
       scrapedAt: contest.scrapedAt,
-      metadata: {}
+      metadata: {},
     }));
-    
+
     const result = await this.validateRawContests(rawContests);
 
     // Additional validation for processed contests
@@ -155,14 +163,16 @@ export class DataValidator {
       }
 
       if (additionalErrors.length > 0) {
-        const existingError = result.errors.find((e: ValidationIssue) => e.index === i);
+        const existingError = result.errors.find(
+          (e: ValidationIssue) => e.index === i
+        );
         if (existingError) {
           existingError.issues.push(...additionalErrors);
         } else {
           result.errors.push({
             index: i,
             contest: contest.title || `Contest #${i}`,
-            issues: additionalErrors
+            issues: additionalErrors,
           });
           result.summary.invalidContests++;
           result.summary.validContests--;
@@ -177,7 +187,10 @@ export class DataValidator {
   /**
    * Validate required fields
    */
-  private async validateRequiredFields(contest: RawContest, index: number): Promise<{ errors?: string[], warnings?: string[] }> {
+  private async validateRequiredFields(
+    contest: RawContest,
+    index: number
+  ): Promise<{ errors?: string[]; warnings?: string[] }> {
     const errors: string[] = [];
     const warnings: string[] = [];
 
@@ -204,15 +217,20 @@ export class DataValidator {
   /**
    * Validate URL format
    */
-  private async validateUrlFormat(contest: RawContest): Promise<{ errors?: string[], warnings?: string[] }> {
+  private async validateUrlFormat(
+    contest: RawContest
+  ): Promise<{ errors?: string[]; warnings?: string[] }> {
     const errors: string[] = [];
 
     if (contest.url) {
       try {
         new URL(contest.url);
-        
+
         // Check if URL is accessible (basic check)
-        if (!contest.url.startsWith('http://') && !contest.url.startsWith('https://')) {
+        if (
+          !contest.url.startsWith('http://') &&
+          !contest.url.startsWith('https://')
+        ) {
           errors.push('URL must start with http:// or https://');
         }
       } catch {
@@ -226,7 +244,9 @@ export class DataValidator {
   /**
    * Validate date format and logic
    */
-  private async validateDateFormat(contest: RawContest): Promise<{ errors?: string[], warnings?: string[] }> {
+  private async validateDateFormat(
+    contest: RawContest
+  ): Promise<{ errors?: string[]; warnings?: string[] }> {
     const errors: string[] = [];
     const warnings: string[] = [];
 
@@ -234,10 +254,10 @@ export class DataValidator {
 
     for (const field of dateFields) {
       const dateValue = contest[field as keyof RawContest] as string;
-      
+
       if (dateValue) {
         const date = new Date(dateValue);
-        
+
         if (isNaN(date.getTime())) {
           errors.push(`Invalid date format in ${field}: ${dateValue}`);
         } else {
@@ -245,7 +265,7 @@ export class DataValidator {
           if (field === 'deadline' && date < new Date()) {
             warnings.push(`Deadline is in the past: ${dateValue}`);
           }
-          
+
           // Check if start date is after end date
           if (field === 'startDate' && contest.endDate) {
             const endDate = new Date(contest.endDate);
@@ -263,12 +283,16 @@ export class DataValidator {
   /**
    * Validate status values
    */
-  private async validateStatusValues(contest: RawContest): Promise<{ errors?: string[], warnings?: string[] }> {
+  private async validateStatusValues(
+    contest: RawContest
+  ): Promise<{ errors?: string[]; warnings?: string[] }> {
     const errors: string[] = [];
     const validStatuses = ['active', 'upcoming', 'ended', 'cancelled'];
 
     if (contest.status && !validStatuses.includes(contest.status)) {
-      errors.push(`Invalid status value: ${contest.status}. Must be one of: ${validStatuses.join(', ')}`);
+      errors.push(
+        `Invalid status value: ${contest.status}. Must be one of: ${validStatuses.join(', ')}`
+      );
     }
 
     return { errors };
@@ -277,23 +301,32 @@ export class DataValidator {
   /**
    * Validate platform consistency
    */
-  private async validatePlatformConsistency(contest: RawContest): Promise<{ errors?: string[], warnings?: string[] }> {
+  private async validatePlatformConsistency(
+    contest: RawContest
+  ): Promise<{ errors?: string[]; warnings?: string[] }> {
     const errors: string[] = [];
     const platformDomains = {
-      'modelscope': ['modelscope.cn'],
-      'civitai': ['civitai.com'],
-      'openart': ['openart.ai']
+      modelscope: ['modelscope.cn'],
+      civitai: ['civitai.com'],
+      openart: ['openart.ai'],
     };
 
     if (contest.platform && contest.url) {
-      const expectedDomains = platformDomains[contest.platform.toLowerCase() as keyof typeof platformDomains];
-      
+      const expectedDomains =
+        platformDomains[
+          contest.platform.toLowerCase() as keyof typeof platformDomains
+        ];
+
       if (expectedDomains) {
         const urlDomain = new URL(contest.url).hostname.toLowerCase();
-        const isValidDomain = expectedDomains.some(domain => urlDomain.includes(domain));
-        
+        const isValidDomain = expectedDomains.some(domain =>
+          urlDomain.includes(domain)
+        );
+
         if (!isValidDomain) {
-          errors.push(`URL domain doesn't match platform: expected ${expectedDomains.join(' or ')}, got ${urlDomain}`);
+          errors.push(
+            `URL domain doesn't match platform: expected ${expectedDomains.join(' or ')}, got ${urlDomain}`
+          );
         }
       }
     }
@@ -304,7 +337,11 @@ export class DataValidator {
   /**
    * Detect duplicate contests
    */
-  private async validateDuplicates(contest: RawContest, index: number, allContests?: RawContest[]): Promise<{ errors?: string[], warnings?: string[] }> {
+  private async validateDuplicates(
+    contest: RawContest,
+    index: number,
+    allContests?: RawContest[]
+  ): Promise<{ errors?: string[]; warnings?: string[] }> {
     const warnings: string[] = [];
 
     if (!allContests) {
@@ -312,8 +349,8 @@ export class DataValidator {
     }
 
     // Check for duplicates by URL
-    const duplicatesByUrl = allContests.filter((c, i) => 
-      i !== index && c.url === contest.url
+    const duplicatesByUrl = allContests.filter(
+      (c, i) => i !== index && c.url === contest.url
     );
 
     if (duplicatesByUrl.length > 0) {
@@ -322,10 +359,11 @@ export class DataValidator {
 
     // Check for duplicates by title (similar titles)
     if (contest.title && contest.title.length > 10) {
-      const duplicatesByTitle = allContests.filter((c, i) => 
-        i !== index && 
-        c.title && 
-        this.calculateSimilarity(contest.title!, c.title) > 0.8
+      const duplicatesByTitle = allContests.filter(
+        (c, i) =>
+          i !== index &&
+          c.title &&
+          this.calculateSimilarity(contest.title!, c.title) > 0.8
       );
 
       if (duplicatesByTitle.length > 0) {
@@ -342,9 +380,9 @@ export class DataValidator {
   private calculateSimilarity(str1: string, str2: string): number {
     const longer = str1.length > str2.length ? str1 : str2;
     const shorter = str1.length > str2.length ? str2 : str1;
-    
+
     if (longer.length === 0) return 1.0;
-    
+
     const distance = this.levenshteinDistance(longer, shorter);
     return (longer.length - distance) / longer.length;
   }
@@ -353,7 +391,9 @@ export class DataValidator {
    * Calculate Levenshtein distance
    */
   private levenshteinDistance(str1: string, str2: string): number {
-    const matrix = Array(str2.length + 1).fill(null).map(() => Array(str1.length + 1).fill(null));
+    const matrix = Array(str2.length + 1)
+      .fill(null)
+      .map(() => Array(str1.length + 1).fill(null));
 
     for (let i = 0; i <= str1.length; i++) matrix[0][i] = i;
     for (let j = 0; j <= str2.length; j++) matrix[j][0] = j;
@@ -362,8 +402,8 @@ export class DataValidator {
       for (let i = 1; i <= str1.length; i++) {
         const indicator = str1[i - 1] === str2[j - 1] ? 0 : 1;
         matrix[j][i] = Math.min(
-          matrix[j][i - 1] + 1,     // deletion
-          matrix[j - 1][i] + 1,     // insertion
+          matrix[j][i - 1] + 1, // deletion
+          matrix[j - 1][i] + 1, // insertion
           matrix[j - 1][i - 1] + indicator // substitution
         );
       }
@@ -377,7 +417,7 @@ export class DataValidator {
    */
   getValidationSummary(result: ValidationResult): string {
     const { summary } = result;
-    
+
     return `
 Validation Summary:
 - Total Contests: ${summary.totalContests}
@@ -386,15 +426,23 @@ Validation Summary:
 - Contests with Warnings: ${summary.warningContests}
 - Overall Status: ${result.isValid ? 'PASS' : 'FAIL'}
 
-${result.errors.length > 0 ? `
+${
+  result.errors.length > 0
+    ? `
 Errors Found:
 ${result.errors.map((e: ValidationIssue) => `- Contest "${e.contest}" (${e.index}): ${e.issues.join(', ')}`).join('\n')}
-` : ''}
+`
+    : ''
+}
 
-${result.warnings.length > 0 ? `
+${
+  result.warnings.length > 0
+    ? `
 Warnings:
 ${result.warnings.map((w: ValidationIssue) => `- Contest "${w.contest}" (${w.index}): ${w.issues.join(', ')}`).join('\n')}
-` : ''}
+`
+    : ''
+}
     `.trim();
   }
 }

@@ -4,7 +4,12 @@
  */
 
 import axios from 'axios';
-import { RawContest, ProcessedContest, AIProcessorConfig, AIProcessResult } from '../types';
+import {
+  RawContest,
+  ProcessedContest,
+  AIProcessorConfig,
+  AIProcessResult,
+} from '../types';
 import { logger } from '../utils/logger';
 import { generateId } from '../utils';
 
@@ -19,18 +24,22 @@ export class AIProcessor {
   /**
    * Process multiple raw contests
    */
-  async processContests(rawContests: RawContest[]): Promise<ProcessedContest[]> {
+  async processContests(
+    rawContests: RawContest[]
+  ): Promise<ProcessedContest[]> {
     logger.info(`Starting AI processing for ${rawContests.length} contests`);
-    
+
     const processed: ProcessedContest[] = [];
     const batchSize = this.config.batchSize || 5;
 
     // Process in batches to avoid overwhelming the API
     for (let i = 0; i < rawContests.length; i += batchSize) {
       const batch = rawContests.slice(i, i + batchSize);
-      
-      logger.info(`Processing batch ${Math.floor(i / batchSize) + 1}/${Math.ceil(rawContests.length / batchSize)}`);
-      
+
+      logger.info(
+        `Processing batch ${Math.floor(i / batchSize) + 1}/${Math.ceil(rawContests.length / batchSize)}`
+      );
+
       const batchResults = await Promise.all(
         batch.map(async (contest, index) => {
           try {
@@ -38,10 +47,12 @@ export class AIProcessor {
             if (index > 0) {
               await this.delay(this.rateLimitDelay);
             }
-            
+
             return await this.processContest(contest);
           } catch (error) {
-            logger.error(`Failed to process contest: ${contest.title}`, { error });
+            logger.error(`Failed to process contest: ${contest.title}`, {
+              error,
+            });
             // Return minimal processed contest on error
             return this.createFallbackContest(contest);
           }
@@ -51,7 +62,9 @@ export class AIProcessor {
       processed.push(...batchResults);
     }
 
-    logger.info(`AI processing completed. Processed ${processed.length} contests`);
+    logger.info(
+      `AI processing completed. Processed ${processed.length} contests`
+    );
     return processed;
   }
 
@@ -62,44 +75,45 @@ export class AIProcessor {
     try {
       // Get AI analysis
       const aiResult = await this.getAIAnalysis(rawContest);
-      
+
       // Create processed contest
       const processed: ProcessedContest = {
         id: generateId('contest'),
         title: rawContest.title || 'Untitled Contest',
         platform: rawContest.platform,
         url: rawContest.url || '',
-        
+
         // Content
         description: rawContest.description || '',
         summary: aiResult.summary,
-        
+
         // Classification
         contestType: this.mapContestType(aiResult.contestType),
         status: this.mapStatus(rawContest.status),
         difficulty: this.mapDifficulty(aiResult.difficulty),
-        
+
         // Timing and rewards
         deadline: rawContest.deadline,
         prize: rawContest.prize,
-        
+
         // Enhanced information
         tags: aiResult.tags,
         aiTools: aiResult.aiTools,
         requirements: this.extractRequirements(rawContest.description || ''),
-        
+
         // Metadata
         qualityScore: aiResult.qualityScore,
         processedAt: new Date().toISOString(),
         scrapedAt: rawContest.scrapedAt,
         lastUpdated: new Date().toISOString(),
-        version: 1
+        version: 1,
       };
 
       return processed;
-
     } catch (error) {
-      logger.error(`AI processing failed for contest: ${rawContest.title}`, { error });
+      logger.error(`AI processing failed for contest: ${rawContest.title}`, {
+        error,
+      });
       return this.createFallbackContest(rawContest);
     }
   }
@@ -110,7 +124,7 @@ export class AIProcessor {
   private async getAIAnalysis(contest: RawContest): Promise<AIProcessResult> {
     try {
       const prompt = this.buildAnalysisPrompt(contest);
-      
+
       const response = await axios.post(
         this.config.apiEndpoint,
         {
@@ -118,29 +132,29 @@ export class AIProcessor {
           messages: [
             {
               role: 'system',
-              content: 'You are an AI contest analysis expert. Analyze contest information and provide structured output in JSON format.'
+              content:
+                'You are an AI contest analysis expert. Analyze contest information and provide structured output in JSON format.',
             },
             {
               role: 'user',
-              content: prompt
-            }
+              content: prompt,
+            },
           ],
           max_tokens: this.config.maxTokens,
-          temperature: 0.3
+          temperature: 0.3,
         },
         {
           headers: {
-            'Authorization': `Bearer ${this.config.apiKey}`,
-            'Content-Type': 'application/json'
+            Authorization: `Bearer ${this.config.apiKey}`,
+            'Content-Type': 'application/json',
           },
-          timeout: 30000
+          timeout: 30000,
         }
       );
 
       // Parse the AI response
       const aiResponse = response.data.choices[0].message.content;
       return this.parseAIResponse(aiResponse);
-
     } catch (error) {
       logger.warn('AI analysis failed, using fallback analysis', { error });
       return this.getFallbackAnalysis(contest);
@@ -196,7 +210,7 @@ Respond with valid JSON only.
       }
 
       const parsed = JSON.parse(jsonMatch[0]);
-      
+
       // Validate and normalize the response
       return {
         contestType: parsed.contestType || 'mixed',
@@ -204,12 +218,20 @@ Respond with valid JSON only.
         summary: parsed.summary || 'AI/ML contest analysis not available',
         tags: Array.isArray(parsed.tags) ? parsed.tags : [],
         aiTools: Array.isArray(parsed.aiTools) ? parsed.aiTools : [],
-        qualityScore: Math.max(1, Math.min(10, parseInt(parsed.qualityScore) || 5)),
-        confidence: Math.max(0, Math.min(1, parseFloat(parsed.confidence) || 0.5))
+        qualityScore: Math.max(
+          1,
+          Math.min(10, parseInt(parsed.qualityScore) || 5)
+        ),
+        confidence: Math.max(
+          0,
+          Math.min(1, parseFloat(parsed.confidence) || 0.5)
+        ),
       };
-
     } catch (error) {
-      logger.warn('Failed to parse AI response, using defaults', { error, response });
+      logger.warn('Failed to parse AI response, using defaults', {
+        error,
+        response,
+      });
       return {
         contestType: 'mixed',
         difficulty: 'intermediate',
@@ -217,7 +239,7 @@ Respond with valid JSON only.
         tags: [],
         aiTools: [],
         qualityScore: 5,
-        confidence: 0.1
+        confidence: 0.1,
       };
     }
   }
@@ -232,33 +254,64 @@ Respond with valid JSON only.
 
     // Simple keyword-based classification
     let contestType: string = 'mixed';
-    if (content.includes('image') || content.includes('vision') || content.includes('图像')) {
+    if (
+      content.includes('image') ||
+      content.includes('vision') ||
+      content.includes('图像')
+    ) {
       contestType = 'image';
     } else if (content.includes('video') || content.includes('视频')) {
       contestType = 'video';
-    } else if (content.includes('audio') || content.includes('speech') || content.includes('音频')) {
+    } else if (
+      content.includes('audio') ||
+      content.includes('speech') ||
+      content.includes('音频')
+    ) {
       contestType = 'audio';
-    } else if (content.includes('text') || content.includes('nlp') || content.includes('language')) {
+    } else if (
+      content.includes('text') ||
+      content.includes('nlp') ||
+      content.includes('language')
+    ) {
       contestType = 'text';
-    } else if (content.includes('code') || content.includes('programming') || content.includes('代码')) {
+    } else if (
+      content.includes('code') ||
+      content.includes('programming') ||
+      content.includes('代码')
+    ) {
       contestType = 'code';
     }
 
     // Simple difficulty assessment
     let difficulty = 'intermediate';
-    if (content.includes('beginner') || content.includes('入门') || content.includes('初级')) {
+    if (
+      content.includes('beginner') ||
+      content.includes('入门') ||
+      content.includes('初级')
+    ) {
       difficulty = 'beginner';
-    } else if (content.includes('advanced') || content.includes('expert') || content.includes('高级')) {
+    } else if (
+      content.includes('advanced') ||
+      content.includes('expert') ||
+      content.includes('高级')
+    ) {
       difficulty = 'advanced';
     }
 
     // Extract basic tags
     const tags: string[] = [];
     const tagKeywords = [
-      'machine-learning', 'ai', 'deep-learning', 'computer-vision', 
-      'nlp', 'pytorch', 'tensorflow', 'huggingface', 'llm'
+      'machine-learning',
+      'ai',
+      'deep-learning',
+      'computer-vision',
+      'nlp',
+      'pytorch',
+      'tensorflow',
+      'huggingface',
+      'llm',
     ];
-    
+
     tagKeywords.forEach(keyword => {
       if (content.includes(keyword.toLowerCase())) {
         tags.push(keyword);
@@ -271,20 +324,24 @@ Respond with valid JSON only.
     return {
       contestType,
       difficulty,
-      summary: contest.description?.substring(0, 200) + '...' || 'Contest details not available',
+      summary:
+        contest.description?.substring(0, 200) + '...' ||
+        'Contest details not available',
       tags,
       aiTools,
       qualityScore: 6, // Default medium quality
-      confidence: 0.3 // Low confidence for fallback
+      confidence: 0.3, // Low confidence for fallback
     };
   }
 
   /**
    * Map contest type to valid enum value
    */
-  private mapContestType(type: string): 'image' | 'video' | 'audio' | 'text' | 'code' | 'mixed' {
+  private mapContestType(
+    type: string
+  ): 'image' | 'video' | 'audio' | 'text' | 'code' | 'mixed' {
     const validTypes = ['image', 'video', 'audio', 'text', 'code', 'mixed'];
-    return validTypes.includes(type) ? type as any : 'mixed';
+    return validTypes.includes(type) ? (type as any) : 'mixed';
   }
 
   /**
@@ -292,11 +349,17 @@ Respond with valid JSON only.
    */
   private mapStatus(status?: string): 'active' | 'upcoming' | 'ended' {
     if (!status) return 'active';
-    
+
     const normalizedStatus = status.toLowerCase();
-    if (normalizedStatus.includes('upcoming') || normalizedStatus.includes('未开始')) {
+    if (
+      normalizedStatus.includes('upcoming') ||
+      normalizedStatus.includes('未开始')
+    ) {
       return 'upcoming';
-    } else if (normalizedStatus.includes('ended') || normalizedStatus.includes('结束')) {
+    } else if (
+      normalizedStatus.includes('ended') ||
+      normalizedStatus.includes('结束')
+    ) {
       return 'ended';
     }
     return 'active';
@@ -305,9 +368,13 @@ Respond with valid JSON only.
   /**
    * Map difficulty to valid enum value
    */
-  private mapDifficulty(difficulty: string): 'beginner' | 'intermediate' | 'advanced' {
+  private mapDifficulty(
+    difficulty: string
+  ): 'beginner' | 'intermediate' | 'advanced' {
     const validDifficulties = ['beginner', 'intermediate', 'advanced'];
-    return validDifficulties.includes(difficulty) ? difficulty as any : 'intermediate';
+    return validDifficulties.includes(difficulty)
+      ? (difficulty as any)
+      : 'intermediate';
   }
 
   /**
@@ -315,23 +382,24 @@ Respond with valid JSON only.
    */
   private extractRequirements(description: string): string[] {
     const requirements: string[] = [];
-    
+
     // Look for common requirement patterns
     const requirementPatterns = [
       /requirements?:?\s*(.+)/i,
       /需要:?\s*(.+)/,
       /must have:?\s*(.+)/i,
-      /prerequisites?:?\s*(.+)/i
+      /prerequisites?:?\s*(.+)/i,
     ];
 
     for (const pattern of requirementPatterns) {
       const match = description.match(pattern);
       if (match) {
         // Split by common delimiters
-        const reqs = match[1].split(/[,;，；\n]/)
+        const reqs = match[1]
+          .split(/[,;，；\n]/)
           .map(req => req.trim())
           .filter(req => req.length > 0 && req.length < 100);
-        
+
         requirements.push(...reqs);
         break; // Only use first match
       }
@@ -349,26 +417,26 @@ Respond with valid JSON only.
       title: rawContest.title || 'Untitled Contest',
       platform: rawContest.platform,
       url: rawContest.url || '',
-      
+
       description: rawContest.description || '',
       summary: 'Contest analysis unavailable',
-      
+
       contestType: 'mixed',
       status: this.mapStatus(rawContest.status),
       difficulty: 'intermediate',
-      
+
       deadline: rawContest.deadline,
       prize: rawContest.prize,
-      
+
       tags: [],
       aiTools: [],
       requirements: [],
-      
+
       qualityScore: 3, // Low quality for failed processing
       processedAt: new Date().toISOString(),
       scrapedAt: rawContest.scrapedAt,
       lastUpdated: new Date().toISOString(),
-      version: 1
+      version: 1,
     };
   }
 
@@ -394,10 +462,10 @@ Respond with valid JSON only.
       config: {
         apiEndpoint: this.config.apiEndpoint,
         maxTokens: this.config.maxTokens,
-        batchSize: this.config.batchSize
+        batchSize: this.config.batchSize,
       },
       rateLimitDelay: this.rateLimitDelay,
-      lastProcessed: new Date().toISOString()
+      lastProcessed: new Date().toISOString(),
     };
   }
 }

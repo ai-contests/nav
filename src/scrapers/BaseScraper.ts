@@ -14,7 +14,8 @@ export abstract class BaseScraper implements ContestScraper {
 
   constructor(config: PlatformConfig, userAgent?: string, timeout = 30000) {
     this.config = config;
-    this.userAgent = userAgent || 'Mozilla/5.0 (compatible; AI-Contest-Bot/1.0)';
+    this.userAgent =
+      userAgent || 'Mozilla/5.0 (compatible; AI-Contest-Bot/1.0)';
     this.timeout = timeout;
   }
 
@@ -46,8 +47,11 @@ export abstract class BaseScraper implements ContestScraper {
         }
       } catch (error) {
         lastError = error as Error;
-        console.warn(`Attempt ${attempt}/${maxRetries} failed for ${url}:`, error);
-        
+        console.warn(
+          `Attempt ${attempt}/${maxRetries} failed for ${url}:`,
+          error
+        );
+
         if (attempt < maxRetries) {
           // Wait before retry with exponential backoff
           const delay = Math.min(1000 * Math.pow(2, attempt - 1), 10000);
@@ -56,7 +60,9 @@ export abstract class BaseScraper implements ContestScraper {
       }
     }
 
-    throw new Error(`Failed to fetch ${url} after ${maxRetries} attempts: ${lastError?.message}`);
+    throw new Error(
+      `Failed to fetch ${url} after ${maxRetries} attempts: ${lastError?.message}`
+    );
   }
 
   /**
@@ -71,7 +77,7 @@ export abstract class BaseScraper implements ContestScraper {
       try {
         const $element = $(element);
         const contest = this.extractContestData($element, $);
-        
+
         if (contest.title && contest.url) {
           contests.push(contest);
         }
@@ -86,21 +92,41 @@ export abstract class BaseScraper implements ContestScraper {
   /**
    * Extract contest data from a single element
    */
-  protected extractContestData($element: cheerio.Cheerio<any>, $: cheerio.CheerioAPI): RawContest {
+  protected extractContestData(
+    $element: cheerio.Cheerio<any>,
+    $: cheerio.CheerioAPI
+  ): RawContest {
     const title = this.extractText($element, this.config.selectors.title);
-    const description = this.extractText($element, this.config.selectors.description);
+    const description = this.extractText(
+      $element,
+      this.config.selectors.description
+    );
     const deadline = this.extractText($element, this.config.selectors.deadline);
     const prize = this.extractText($element, this.config.selectors.prize);
-    
+
     // Extract URL
     let url = '';
-    if (this.config.selectors.link) {
+    // If the element itself is an <a>, prefer its href
+    if ($element.is('a')) {
+      url = $element.attr('href') || '';
+    }
+
+    if (!url && this.config.selectors.link) {
       const linkElement = $element.find(this.config.selectors.link).first();
       url = linkElement.attr('href') || '';
-      
-      // Convert relative URLs to absolute URLs
-      if (url && !url.startsWith('http')) {
+    }
+
+    // Convert relative URLs to absolute URLs
+    if (url && !url.startsWith('http')) {
+      try {
         url = new URL(url, this.config.baseUrl).toString();
+      } catch (e) {
+        // fallback: prefix baseUrl
+        if (url.startsWith('/')) {
+          url = `${this.config.baseUrl}${url}`;
+        } else {
+          url = `${this.config.baseUrl}/${url}`;
+        }
       }
     }
 
@@ -113,7 +139,7 @@ export abstract class BaseScraper implements ContestScraper {
       prize: prize?.trim(),
       rawHtml: $element.html() || '',
       scrapedAt: new Date().toISOString(),
-      metadata: {}
+      metadata: {},
     };
 
     return contest;
@@ -122,9 +148,12 @@ export abstract class BaseScraper implements ContestScraper {
   /**
    * Extract text content from element using selector
    */
-  protected extractText($element: cheerio.Cheerio<any>, selector?: string): string | undefined {
+  protected extractText(
+    $element: cheerio.Cheerio<any>,
+    selector?: string
+  ): string | undefined {
     if (!selector) return undefined;
-    
+
     const targetElement = $element.find(selector).first();
     return targetElement.length > 0 ? targetElement.text().trim() : undefined;
   }
@@ -153,7 +182,7 @@ export abstract class BaseScraper implements ContestScraper {
     if (!contest.title || contest.title.trim().length === 0) {
       return false;
     }
-    
+
     if (!contest.url || !this.isValidUrl(contest.url)) {
       return false;
     }
@@ -174,7 +203,7 @@ export abstract class BaseScraper implements ContestScraper {
    */
   protected cleanText(text: string): string {
     if (!text) return '';
-    
+
     return text
       .replace(/\s+/g, ' ') // Replace multiple whitespaces with single space
       .replace(/\n+/g, ' ') // Replace newlines with space
@@ -184,9 +213,11 @@ export abstract class BaseScraper implements ContestScraper {
   /**
    * Extract additional metadata from element
    */
-  protected extractMetadata($element: cheerio.Cheerio<any>): Record<string, any> {
+  protected extractMetadata(
+    $element: cheerio.Cheerio<any>
+  ): Record<string, any> {
     const metadata: Record<string, any> = {};
-    
+
     // Extract data attributes
     const dataAttributes = $element.get(0)?.attribs || {};
     for (const [key, value] of Object.entries(dataAttributes)) {

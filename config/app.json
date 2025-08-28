@@ -6,15 +6,15 @@
       "baseUrl": "https://modelscope.cn",
       "contestListUrl": "https://modelscope.cn/competition",
       "selectors": {
-        "contestItems": ".competition-item",
-        "title": ".competition-title",
-        "description": ".competition-desc",
-        "deadline": ".deadline",
-        "prize": ".prize-info",
+  "contestItems": "a[href*=\"/competition/\"], [class*=\"competition\"], [class*=\"contest\"], .acss-ukjaiy",
+  "title": "a[href*=\"/competition/\"] .acss-1m97cav, h3, h4, .title, [class*=\"title\"]",
+        "description": ".description, .desc, p",
+        "deadline": ".deadline, .time, [class*=\"deadline\"], [class*=\"time\"]",
+        "prize": ".prize, .reward, [class*=\"prize\"], [class*=\"reward\"]",
         "link": "a[href]"
       },
       "enabled": true,
-      "delay": 2.0,
+      "delay": 3.0,
       "maxRetries": 3
     },
     {
@@ -23,32 +23,32 @@
       "baseUrl": "https://civitai.com",
       "contestListUrl": "https://civitai.com/events",
       "selectors": {
-        "contestItems": "[data-testid=\"event-card\"]",
-        "title": "h3",
-        "description": ".event-description",
-        "deadline": ".event-deadline",
-        "prize": ".prize-amount",
-        "link": "a[href]"
+        "contestItems": ".AspectRatioImageCard_content__IGj_A, .AspectRatioImageCard_linkOrClick__d_K_4, [class*='AspectRatioImageCard']",
+        "title": "[class*=\"AspectRatioImageCard_footer__FOU7a\"], h3, h4, .title",
+        "description": ".AspectRatioImageCard_header__Mmd__, .description, .content, p",
+        "deadline": ".mantine-Text-root, .date, [class*=\"date\"], .Cards_statChip__hnbES",
+        "prize": ".Cards_statChip__hnbES, .prize, .reward",
+        "link": "a, .AspectRatioImageCard_linkOrClick__d_K_4"
       },
       "enabled": true,
-      "delay": 1.5,
+      "delay": 2.0,
       "maxRetries": 3
     },
     {
       "name": "openart",
       "displayName": "OpenArt",
       "baseUrl": "https://openart.ai",
-      "contestListUrl": "https://contest.openart.ai",
+      "contestListUrl": "https://openart.ai/workflows",
       "selectors": {
-        "contestItems": ".contest-card",
-        "title": ".contest-title",
-        "description": ".contest-description",
-        "deadline": ".contest-deadline",
-        "prize": ".prize-amount",
+        "contestItems": ".workflow-item, [class*=\"workflow\"], [class*=\"contest\"]",
+        "title": "h1, h2, h3, h4, .title, [class*=\"title\"]",
+        "description": ".description, .content, p",
+        "deadline": ".deadline, .date, [class*=\"deadline\"], [class*=\"date\"]",
+        "prize": ".prize, .reward, [class*=\"prize\"], [class*=\"reward\"]",
         "link": "a[href]"
       },
-      "enabled": true,
-      "delay": 1.0,
+      "enabled": false,
+      "delay": 1.5,
       "maxRetries": 3
     }
   ],

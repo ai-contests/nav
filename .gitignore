@@ -1,4 +1,40 @@
-# Dependencies
+# Ignore debug artifacts created during development
+/src/debug*
+/src/debug/
+/src/debug-*.*
+/src/*debug*.*
+/src/debug-run-*.ts
+/src/debug-snapshot-*.ts
+/src/debug-scrapers.ts
+/src/inspect-*.ts
+/src/mock-data-generator.ts
+/src/quick-test.ts
+/src/real-competition-scraper.ts
+/src/run-full-pipeline.ts
+/src/simple-test.js
+/src/test-real-scraping.ts
+/src/test-specific-sites.ts
+/src/test-websites.ts
+/src/tools/
+
+# Ignore generated debug data files under data/
+/data/debug-*.*
+/data/*debug*.*
+/data/*-debug*.*
+/data/modelscope-debug.png
+/data/*.png
+/data/*.log
+/data/*.bak
+/data/*.backup*
+
+# Personal helper/instructions (local only)
+/.github/copilot-instructions.md
+
+# Common local ignores
+node_modules/
+dist/
+.env
+.vscode/# Dependencies
 node_modules/
 npm-debug.log*
 yarn-debug.log*

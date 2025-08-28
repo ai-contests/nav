@@ -15,11 +15,11 @@ export function sleep(ms: number): Promise<void> {
  */
 export function formatBytes(bytes: number): string {
   if (bytes === 0) return '0 B';
-  
+
   const k = 1024;
   const sizes = ['B', 'KB', 'MB', 'GB'];
   const i = Math.floor(Math.log(bytes) / Math.log(k));
-  
+
   return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
 }
 
@@ -45,7 +45,7 @@ export function isValidUrl(url: string): boolean {
  */
 export function cleanText(text: string): string {
   if (!text) return '';
-  
+
   return text
     .replace(/\s+/g, ' ') // Replace multiple whitespaces with single space
     .replace(/\n+/g, ' ') // Replace newlines with space
@@ -76,29 +76,32 @@ export async function retry<T>(
   baseDelay = 1000
 ): Promise<T> {
   let lastError: Error;
-  
+
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
       return await fn();
     } catch (error) {
       lastError = error as Error;
-      
+
       if (attempt === maxAttempts) {
         throw lastError;
       }
-      
+
       const delay = Math.min(baseDelay * Math.pow(2, attempt - 1), 10000);
       await sleep(delay);
     }
   }
-  
+
   throw lastError!;
 }
 
 /**
  * Create error with additional context
  */
-export function createError(message: string, context?: Record<string, any>): Error {
+export function createError(
+  message: string,
+  context?: Record<string, any>
+): Error {
   const error = new Error(message);
   if (context) {
     (error as any).context = context;
@@ -122,14 +125,18 @@ export function safeJsonParse<T>(json: string, fallback: T): T {
  */
 export function deepMerge<T>(target: T, source: Partial<T>): T {
   const result = { ...target };
-  
+
   for (const key in source) {
-    if (source[key] && typeof source[key] === 'object' && !Array.isArray(source[key])) {
+    if (
+      source[key] &&
+      typeof source[key] === 'object' &&
+      !Array.isArray(source[key])
+    ) {
       result[key] = deepMerge(result[key], source[key] as any);
     } else {
       result[key] = source[key] as any;
     }
   }
-  
+
   return result;
 }

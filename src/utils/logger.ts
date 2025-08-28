@@ -24,14 +24,18 @@ export class Logger {
     debug: 0,
     info: 1,
     warn: 2,
-    error: 3
+    error: 3,
   };
 
-  constructor(level: LogLevel = 'info', logFile?: string, enableConsole = true) {
+  constructor(
+    level: LogLevel = 'info',
+    logFile?: string,
+    enableConsole = true
+  ) {
     this.level = level;
     this.logFile = logFile;
     this.enableConsole = enableConsole;
-    
+
     if (this.logFile) {
       this.ensureLogDir();
     }
@@ -63,7 +67,7 @@ export class Logger {
    */
   error(message: string, error?: Error | Record<string, any>): void {
     let context: Record<string, any> | undefined;
-    
+
     if (error instanceof Error) {
       context = {
         error: error.message,
@@ -72,14 +76,18 @@ export class Logger {
     } else if (error) {
       context = error;
     }
-    
+
     this.log('error', message, context);
   }
 
   /**
    * Core logging method
    */
-  private log(level: LogLevel, message: string, context?: Record<string, any>): void {
+  private log(
+    level: LogLevel,
+    message: string,
+    context?: Record<string, any>
+  ): void {
     if (this.levels[level] < this.levels[this.level]) {
       return;
     }
@@ -88,7 +96,7 @@ export class Logger {
       timestamp: new Date().toISOString(),
       level,
       message,
-      context
+      context,
     };
 
     // Console output
@@ -108,19 +116,19 @@ export class Logger {
   private logToConsole(entry: LogEntry): void {
     const colors = {
       debug: '\x1b[36m', // Cyan
-      info: '\x1b[32m',  // Green
-      warn: '\x1b[33m',  // Yellow
+      info: '\x1b[32m', // Green
+      warn: '\x1b[33m', // Yellow
       error: '\x1b[31m', // Red
     };
-    
+
     const reset = '\x1b[0m';
     const color = colors[entry.level];
-    
+
     const timestamp = entry.timestamp.substring(11, 19); // HH:MM:SS
     const levelStr = entry.level.toUpperCase().padEnd(5);
-    
+
     let logMessage = `${color}${timestamp} ${levelStr}${reset} ${entry.message}`;
-    
+
     if (entry.context) {
       logMessage += `\n${JSON.stringify(entry.context, null, 2)}`;
     }
@@ -157,7 +165,7 @@ export class Logger {
    */
   private ensureLogDir(): void {
     if (!this.logFile) return;
-    
+
     const logDir = path.dirname(this.logFile);
     if (!fs.existsSync(logDir)) {
       fs.mkdirSync(logDir, { recursive: true });
@@ -168,15 +176,23 @@ export class Logger {
    * Create child logger with context
    */
   child(context: Record<string, any>): Logger {
-    const childLogger = new Logger(this.level, this.logFile, this.enableConsole);
-    
+    const childLogger = new Logger(
+      this.level,
+      this.logFile,
+      this.enableConsole
+    );
+
     // Override log method to include context
     const originalLog = childLogger.log.bind(childLogger);
-    (childLogger as any).log = (level: LogLevel, message: string, additionalContext?: Record<string, any>) => {
+    (childLogger as any).log = (
+      level: LogLevel,
+      message: string,
+      additionalContext?: Record<string, any>
+    ) => {
       const mergedContext = { ...context, ...additionalContext };
       originalLog(level, message, mergedContext);
     };
-    
+
     return childLogger;
   }
 }

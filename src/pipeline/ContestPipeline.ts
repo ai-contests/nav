@@ -8,13 +8,13 @@ import { ScraperManager } from '../scrapers/ScraperManager';
 import { AIProcessor } from '../processors/AIProcessor';
 import { StorageManager } from '../storage/StorageManager';
 import { DataValidator } from '../validators/DataValidator';
-import { 
-  AppConfig, 
-  ExecutionResult, 
-  ExecutionStats, 
-  RawContest, 
+import {
+  AppConfig,
+  ExecutionResult,
+  ExecutionStats,
+  RawContest,
   ProcessedContest,
-  ValidationResult 
+  ValidationResult,
 } from '../types';
 import { logger } from '../utils/logger';
 
@@ -45,7 +45,9 @@ export class ContestPipeline {
   /**
    * Execute the complete pipeline
    */
-  async execute(mode?: 'full' | 'crawl-only' | 'process-only' | 'generate-only'): Promise<ExecutionResult> {
+  async execute(
+    mode?: 'full' | 'crawl-only' | 'process-only' | 'generate-only'
+  ): Promise<ExecutionResult> {
     const startTime = new Date();
     const stats: ExecutionStats = {
       crawled: 0,
@@ -54,7 +56,7 @@ export class ContestPipeline {
       generated: 0,
       saved: 0,
       errors: 0,
-      warnings: 0
+      warnings: 0,
     };
     const errors: string[] = [];
     const warnings: string[] = [];
@@ -75,16 +77,22 @@ export class ContestPipeline {
 
           // Save raw data
           for (const platform of this.getEnabledPlatforms()) {
-            const platformContests = rawContests.filter(c => c.platform === platform);
+            const platformContests = rawContests.filter(
+              c => c.platform === platform
+            );
             if (platformContests.length > 0) {
-              const result = await this.storageManager.saveRawContests(platformContests, platform);
+              const result = await this.storageManager.saveRawContests(
+                platformContests,
+                platform
+              );
               if (!result.success) {
-                errors.push(`Failed to save raw data for ${platform}: ${result.message}`);
+                errors.push(
+                  `Failed to save raw data for ${platform}: ${result.message}`
+                );
                 stats.errors++;
               }
             }
           }
-
         } catch (error) {
           const errorMsg = `Data crawling failed: ${error}`;
           errors.push(errorMsg);
@@ -99,26 +107,32 @@ export class ContestPipeline {
           logger.info('Step 2: Validating raw data');
           const validationResult = await this.validateData(rawContests);
           stats.validated = validationResult.summary.validContests;
-          
+
           if (validationResult.errors.length > 0) {
-            errors.push(`Validation errors: ${validationResult.errors.length} contests have issues`);
+            errors.push(
+              `Validation errors: ${validationResult.errors.length} contests have issues`
+            );
             stats.errors += validationResult.errors.length;
           }
-          
+
           if (validationResult.warnings.length > 0) {
-            warnings.push(`Validation warnings: ${validationResult.warnings.length} contests have warnings`);
+            warnings.push(
+              `Validation warnings: ${validationResult.warnings.length} contests have warnings`
+            );
             stats.warnings += validationResult.warnings.length;
           }
 
           // Filter out invalid contests for processing
           const validIndices = new Set(
-            Array.from({length: rawContests.length}, (_, i) => i)
-              .filter(i => !validationResult.errors.some(e => e.index === i))
+            Array.from({ length: rawContests.length }, (_, i) => i).filter(
+              i => !validationResult.errors.some(e => e.index === i)
+            )
           );
           rawContests = rawContests.filter((_, i) => validIndices.has(i));
-          
-          logger.info(`Validation completed. ${rawContests.length} valid contests will be processed`);
 
+          logger.info(
+            `Validation completed. ${rawContests.length} valid contests will be processed`
+          );
         } catch (error) {
           const errorMsg = `Data validation failed: ${error}`;
           warnings.push(errorMsg);
@@ -128,13 +142,15 @@ export class ContestPipeline {
       }
 
       // Step 3: AI Processing
-      if ((mode === 'full' || mode === 'process-only' || !mode) && rawContests.length > 0) {
+      if (
+        (mode === 'full' || mode === 'process-only' || !mode) &&
+        rawContests.length > 0
+      ) {
         try {
           logger.info('Step 3: Processing contests with AI');
           processedContests = await this.processContests(rawContests);
           stats.processed = processedContests.length;
           logger.info(`Processed ${processedContests.length} contests`);
-
         } catch (error) {
           const errorMsg = `AI processing failed: ${error}`;
           errors.push(errorMsg);
@@ -144,11 +160,16 @@ export class ContestPipeline {
       }
 
       // Load existing processed data if needed
-      if (processedContests.length === 0 && (mode === 'generate-only' || mode === 'process-only')) {
+      if (
+        processedContests.length === 0 &&
+        (mode === 'generate-only' || mode === 'process-only')
+      ) {
         try {
           logger.info('Loading existing processed data');
           processedContests = await this.storageManager.loadProcessedContests();
-          logger.info(`Loaded ${processedContests.length} existing processed contests`);
+          logger.info(
+            `Loaded ${processedContests.length} existing processed contests`
+          );
         } catch (error) {
           const errorMsg = `Failed to load existing data: ${error}`;
           errors.push(errorMsg);
@@ -161,30 +182,39 @@ export class ContestPipeline {
       if (processedContests.length > 0 && mode !== 'generate-only') {
         try {
           logger.info('Step 4: Saving processed data');
-          
+
           // Save by platform
           for (const platform of this.getEnabledPlatforms()) {
-            const platformContests = processedContests.filter(c => c.platform === platform);
+            const platformContests = processedContests.filter(
+              c => c.platform === platform
+            );
             if (platformContests.length > 0) {
-              const result = await this.storageManager.saveProcessedContests(platformContests, platform);
+              const result = await this.storageManager.saveProcessedContests(
+                platformContests,
+                platform
+              );
               if (result.success) {
                 stats.saved += result.contestCount || 0;
               } else {
-                errors.push(`Failed to save processed data for ${platform}: ${result.message}`);
+                errors.push(
+                  `Failed to save processed data for ${platform}: ${result.message}`
+                );
                 stats.errors++;
               }
             }
           }
 
           // Save consolidated data
-          const consolidatedResult = await this.storageManager.saveProcessedContests(processedContests);
+          const consolidatedResult =
+            await this.storageManager.saveProcessedContests(processedContests);
           if (!consolidatedResult.success) {
-            errors.push(`Failed to save consolidated data: ${consolidatedResult.message}`);
+            errors.push(
+              `Failed to save consolidated data: ${consolidatedResult.message}`
+            );
             stats.errors++;
           }
 
           logger.info(`Saved ${stats.saved} processed contests`);
-
         } catch (error) {
           const errorMsg = `Data saving failed: ${error}`;
           errors.push(errorMsg);
@@ -200,7 +230,6 @@ export class ContestPipeline {
           // TODO: Implement website generation
           stats.generated = processedContests.length;
           logger.info('Website generation completed');
-
         } catch (error) {
           const errorMsg = `Website generation failed: ${error}`;
           warnings.push(errorMsg);
@@ -219,18 +248,17 @@ export class ContestPipeline {
         endTime: endTime.toISOString(),
         stats,
         errors,
-        warnings
+        warnings,
       };
 
       this.logExecutionSummary(result);
       return result;
-
     } catch (error) {
       const endTime = new Date();
       const duration = endTime.getTime() - startTime.getTime();
 
       logger.error('Pipeline execution failed', { error });
-      
+
       return {
         success: false,
         duration,
@@ -238,7 +266,7 @@ export class ContestPipeline {
         endTime: endTime.toISOString(),
         stats,
         errors: [...errors, `Pipeline execution failed: ${error}`],
-        warnings
+        warnings,
       };
     }
   }
@@ -251,7 +279,7 @@ export class ContestPipeline {
 
     // Generate crawl tasks
     const tasks = await this.sourceManager.generateCrawlTasks();
-    
+
     if (tasks.length === 0) {
       logger.warn('No crawl tasks generated. Check platform configurations.');
       return [];
@@ -264,14 +292,15 @@ export class ContestPipeline {
       try {
         logger.info(`Crawling ${task.platformName}...`);
         const contests = await this.scraperManager.scrapeTask(task);
-        
+
         if (contests.length > 0) {
           allContests.push(...contests);
-          logger.info(`Successfully crawled ${contests.length} contests from ${task.platformName}`);
+          logger.info(
+            `Successfully crawled ${contests.length} contests from ${task.platformName}`
+          );
         } else {
           logger.warn(`No contests found for ${task.platformName}`);
         }
-
       } catch (error) {
         logger.error(`Failed to crawl ${task.platformName}`, { error });
         // Continue with other platforms
@@ -285,20 +314,24 @@ export class ContestPipeline {
   /**
    * Validate scraped data
    */
-  private async validateData(contests: RawContest[]): Promise<ValidationResult> {
+  private async validateData(
+    contests: RawContest[]
+  ): Promise<ValidationResult> {
     const result = await this.dataValidator.validateRawContests(contests);
-    
+
     // Log validation summary
     const summary = this.dataValidator.getValidationSummary(result);
     logger.info('Data validation completed', { summary });
-    
+
     return result;
   }
 
   /**
    * Process contests with AI
    */
-  private async processContests(rawContests: RawContest[]): Promise<ProcessedContest[]> {
+  private async processContests(
+    rawContests: RawContest[]
+  ): Promise<ProcessedContest[]> {
     return await this.aiProcessor.processContests(rawContests);
   }
 
@@ -310,7 +343,7 @@ export class ContestPipeline {
       const [storageStats, scraperStats, aiStats] = await Promise.all([
         this.storageManager.getStorageStats(),
         this.scraperManager.healthCheck(),
-        Promise.resolve(this.aiProcessor.getStats())
+        Promise.resolve(this.aiProcessor.getStats()),
       ]);
 
       return {
@@ -318,13 +351,13 @@ export class ContestPipeline {
         scrapers: scraperStats,
         aiProcessor: aiStats,
         platforms: this.getEnabledPlatforms(),
-        lastCheck: new Date().toISOString()
+        lastCheck: new Date().toISOString(),
       };
     } catch (error) {
       logger.error('Failed to get pipeline status', { error });
       return {
         error: `Failed to get status: ${error}`,
-        lastCheck: new Date().toISOString()
+        lastCheck: new Date().toISOString(),
       };
     }
   }
@@ -360,8 +393,9 @@ export class ContestPipeline {
    */
   private logExecutionSummary(result: ExecutionResult): void {
     const { stats, duration, success } = result;
-    
-    logger.info(`
+
+    logger.info(
+      `
 Pipeline Execution Summary:
 - Status: ${success ? 'SUCCESS' : 'FAILED'}
 - Duration: ${(duration / 1000).toFixed(1)}s
@@ -372,7 +406,8 @@ Pipeline Execution Summary:
 - Generated: ${stats.generated} items
 - Errors: ${stats.errors}
 - Warnings: ${stats.warnings}
-    `.trim());
+    `.trim()
+    );
 
     if (result.errors.length > 0) {
       logger.error('Pipeline errors:', { errors: result.errors });
@@ -388,15 +423,15 @@ Pipeline Execution Summary:
    */
   async refreshConfig(newConfig: AppConfig): Promise<void> {
     this.config = newConfig;
-    
+
     // Update components with new configuration
     this.sourceManager = new SourceManager(newConfig.sources);
     this.aiProcessor = new AIProcessor(newConfig.aiProcessor);
     this.storageManager = new StorageManager(newConfig.storage);
-    
+
     // Refresh scraper configurations
     await this.scraperManager.refresh();
-    
+
     logger.info('Pipeline configuration refreshed');
   }
 }

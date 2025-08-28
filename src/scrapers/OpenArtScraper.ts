@@ -20,20 +20,25 @@ export class OpenArtScraper extends BaseScraper {
    * Scrape contests from OpenArt platform
    */
   async scrape(): Promise<RawContest[]> {
-    logger.info(`Starting scrape for ${this.platform}`, { url: this.config.contestListUrl });
+    logger.info(`Starting scrape for ${this.platform}`, {
+      url: this.config.contestListUrl,
+    });
 
     try {
       await this.applyDelay();
 
       const html = await this.fetchHtml(this.config.contestListUrl);
       const contests = this.parseContests(html);
-      const validContests = contests.filter(contest => this.validateContest(contest));
+      const validContests = contests.filter(contest =>
+        this.validateContest(contest)
+      );
       const enrichedContests = await this.enrichContestData(validContests);
 
-      logger.info(`Successfully scraped ${enrichedContests.length} contests from ${this.platform}`);
-      
-      return enrichedContests;
+      logger.info(
+        `Successfully scraped ${enrichedContests.length} contests from ${this.platform}`
+      );
 
+      return enrichedContests;
     } catch (error) {
       logger.error(`Failed to scrape ${this.platform}`, { error });
       throw error;
@@ -45,16 +50,19 @@ export class OpenArtScraper extends BaseScraper {
    */
   protected extractContestData($element: any, $: any): RawContest {
     const title = this.extractText($element, this.config.selectors.title);
-    const description = this.extractText($element, this.config.selectors.description);
+    const description = this.extractText(
+      $element,
+      this.config.selectors.description
+    );
     const deadline = this.extractText($element, this.config.selectors.deadline);
     const prize = this.extractText($element, this.config.selectors.prize);
-    
+
     // Extract URL with OpenArt specific logic
     let url = '';
     const linkElement = $element.find(this.config.selectors.link).first();
     if (linkElement.length > 0) {
       url = linkElement.attr('href') || '';
-      
+
       if (url && !url.startsWith('http')) {
         if (url.startsWith('/')) {
           url = `${this.config.baseUrl}${url}`;
@@ -76,7 +84,7 @@ export class OpenArtScraper extends BaseScraper {
       prize: this.cleanText(prize || ''),
       rawHtml: $element.html() || '',
       scrapedAt: new Date().toISOString(),
-      metadata
+      metadata,
     };
 
     return contest;
@@ -90,13 +98,17 @@ export class OpenArtScraper extends BaseScraper {
 
     try {
       // Extract contest status
-      const statusElement = $element.find('.status, .contest-status, [class*="status"]');
+      const statusElement = $element.find(
+        '.status, .contest-status, [class*="status"]'
+      );
       if (statusElement.length > 0) {
         metadata.status = this.cleanText(statusElement.text());
       }
 
       // Extract entry count
-      const entryElement = $element.find('.entries, .submissions, .entry-count');
+      const entryElement = $element.find(
+        '.entries, .submissions, .entry-count'
+      );
       if (entryElement.length > 0) {
         const entryText = entryElement.text();
         const entryMatch = entryText.match(/(\d+)/);
@@ -124,7 +136,9 @@ export class OpenArtScraper extends BaseScraper {
       }
 
       // Extract difficulty level
-      const difficultyElement = $element.find('.difficulty, .level, .skill-level');
+      const difficultyElement = $element.find(
+        '.difficulty, .level, .skill-level'
+      );
       if (difficultyElement.length > 0) {
         metadata.difficulty = this.cleanText(difficultyElement.text());
       }
@@ -157,7 +171,6 @@ export class OpenArtScraper extends BaseScraper {
       if (tags.length > 0) {
         metadata.tags = tags;
       }
-
     } catch (error) {
       logger.warn('Failed to extract OpenArt metadata', { error });
     }
@@ -205,13 +218,18 @@ export class OpenArtScraper extends BaseScraper {
       }
 
       // Handle MM/DD/YYYY format
-      const mmddyyyyMatch = cleanDateString.match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+      const mmddyyyyMatch = cleanDateString.match(
+        /(\d{1,2})\/(\d{1,2})\/(\d{4})/
+      );
       if (mmddyyyyMatch) {
         const [, month, day, year] = mmddyyyyMatch;
-        const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+        const date = new Date(
+          parseInt(year),
+          parseInt(month) - 1,
+          parseInt(day)
+        );
         return date.toISOString();
       }
-
     } catch (error) {
       logger.warn('Failed to parse OpenArt date', { dateString, error });
     }
@@ -222,7 +240,9 @@ export class OpenArtScraper extends BaseScraper {
   /**
    * Enrich contest data with additional details
    */
-  private async enrichContestData(contests: RawContest[]): Promise<RawContest[]> {
+  private async enrichContestData(
+    contests: RawContest[]
+  ): Promise<RawContest[]> {
     const enrichedContests: RawContest[] = [];
 
     for (const contest of contests) {
@@ -231,14 +251,18 @@ export class OpenArtScraper extends BaseScraper {
 
         if (contest.url && this.isValidUrl(contest.url)) {
           const detailHtml = await this.fetchHtml(contest.url);
-          const enrichedContest = await this.extractDetailedInfo(contest, detailHtml);
+          const enrichedContest = await this.extractDetailedInfo(
+            contest,
+            detailHtml
+          );
           enrichedContests.push(enrichedContest);
         } else {
           enrichedContests.push(contest);
         }
-
       } catch (error) {
-        logger.warn(`Failed to enrich contest data for: ${contest.title}`, { error });
+        logger.warn(`Failed to enrich contest data for: ${contest.title}`, {
+          error,
+        });
         enrichedContests.push(contest);
       }
     }
@@ -249,37 +273,54 @@ export class OpenArtScraper extends BaseScraper {
   /**
    * Extract detailed information from individual contest page
    */
-  private async extractDetailedInfo(contest: RawContest, html: string): Promise<RawContest> {
+  private async extractDetailedInfo(
+    contest: RawContest,
+    html: string
+  ): Promise<RawContest> {
     try {
       const cheerio = await import('cheerio');
       const $ = cheerio.load(html);
 
       // Extract detailed description
-      const detailedDesc = $('.contest-description, .challenge-description, .full-description').text();
-      if (detailedDesc && detailedDesc.length > (contest.description || '').length) {
+      const detailedDesc = $(
+        '.contest-description, .challenge-description, .full-description'
+      ).text();
+      if (
+        detailedDesc &&
+        detailedDesc.length > (contest.description || '').length
+      ) {
         contest.description = this.cleanText(detailedDesc);
       }
 
       // Extract detailed prize breakdown
       const prizeBreakdown = $('.prize-breakdown, .awards, .prize-pool').text();
-      if (prizeBreakdown && prizeBreakdown.length > (contest.prize || '').length) {
+      if (
+        prizeBreakdown &&
+        prizeBreakdown.length > (contest.prize || '').length
+      ) {
         contest.prize = this.cleanText(prizeBreakdown);
       }
 
       // Extract submission guidelines
-      const guidelines = $('.guidelines, .submission-rules, .how-to-enter').text();
+      const guidelines = $(
+        '.guidelines, .submission-rules, .how-to-enter'
+      ).text();
       if (guidelines) {
         contest.metadata.guidelines = this.cleanText(guidelines);
       }
 
       // Extract judging criteria
-      const judgingCriteria = $('.judging-criteria, .evaluation, .scoring').text();
+      const judgingCriteria = $(
+        '.judging-criteria, .evaluation, .scoring'
+      ).text();
       if (judgingCriteria) {
         contest.metadata.judgingCriteria = this.cleanText(judgingCriteria);
       }
 
       // Extract technical requirements
-      const techRequirements = $('.tech-requirements, .requirements, .specifications').text();
+      const techRequirements = $(
+        '.tech-requirements, .requirements, .specifications'
+      ).text();
       if (techRequirements) {
         contest.metadata.techRequirements = this.cleanText(techRequirements);
       }
@@ -295,7 +336,6 @@ export class OpenArtScraper extends BaseScraper {
       if (faq) {
         contest.metadata.faq = this.cleanText(faq);
       }
-
     } catch (error) {
       logger.warn('Failed to extract detailed OpenArt information', { error });
     }
@@ -324,8 +364,10 @@ export class OpenArtScraper extends BaseScraper {
     }
 
     // Filter out closed contests if status is available
-    if (contest.metadata.status && 
-        contest.metadata.status.toLowerCase().includes('closed')) {
+    if (
+      contest.metadata.status &&
+      contest.metadata.status.toLowerCase().includes('closed')
+    ) {
       logger.debug('Contest is closed', { title: contest.title });
       return false;
     }

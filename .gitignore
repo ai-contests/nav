@@ -18,14 +18,11 @@
 /src/tools/
 
 # Ignore generated debug data files under data/
-/data/debug-*.*
-/data/*debug*.*
-/data/*-debug*.*
-/data/modelscope-debug.png
-/data/*.png
-/data/*.log
-/data/*.bak
-/data/*.backup*
+/data/
+/data/**
+
+# Root-level debug images
+/modelscope-debug.png
 
 # Personal helper/instructions (local only)
 /.github/copilot-instructions.md

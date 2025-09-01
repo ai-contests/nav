@@ -223,7 +223,7 @@ export class ScraperManager {
   /**
    * Get scraping statistics
    */
-  getScrapingStats(): Record<string, any> {
+  getScrapingStats(): Record<string, unknown> {
     const stats = {
       totalPlatforms: this.scrapers.size,
       enabledPlatforms: this.sourceManager
@@ -274,7 +274,11 @@ export class ScraperManager {
         // Simple connectivity test - try to fetch the platform's main page
         const config = this.sourceManager.getPlatform(platformName);
         if (config) {
-          await (scraper as any).fetchHtml(config.baseUrl);
+          await (
+            scraper as unknown as {
+              fetchHtml: (url: string) => Promise<string>;
+            }
+          ).fetchHtml(config.baseUrl);
           healthResults.set(platformName, true);
         } else {
           healthResults.set(platformName, false);

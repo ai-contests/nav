@@ -20,7 +20,7 @@ export function formatBytes(bytes: number): string {
   const sizes = ['B', 'KB', 'MB', 'GB'];
   const i = Math.floor(Math.log(bytes) / Math.log(k));
 
-  return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+  return `${parseFloat((bytes / Math.pow(k, i)).toFixed(2))} ${sizes[i]}`;
 }
 
 /**
@@ -92,7 +92,10 @@ export async function retry<T>(
     }
   }
 
-  throw lastError!;
+  if (lastError) {
+    throw lastError;
+  }
+  throw new Error('All retry attempts failed');
 }
 
 /**
@@ -100,11 +103,11 @@ export async function retry<T>(
  */
 export function createError(
   message: string,
-  context?: Record<string, any>
+  context?: Record<string, unknown>
 ): Error {
   const error = new Error(message);
   if (context) {
-    (error as any).context = context;
+    (error as Error & { context: Record<string, unknown> }).context = context;
   }
   return error;
 }
@@ -132,9 +135,12 @@ export function deepMerge<T>(target: T, source: Partial<T>): T {
       typeof source[key] === 'object' &&
       !Array.isArray(source[key])
     ) {
-      result[key] = deepMerge(result[key], source[key] as any);
+      (result as Record<string, unknown>)[key] = deepMerge(
+        (result as Record<string, unknown>)[key],
+        source[key] as Partial<unknown>
+      );
     } else {
-      result[key] = source[key] as any;
+      (result as Record<string, unknown>)[key] = source[key];
     }
   }
 

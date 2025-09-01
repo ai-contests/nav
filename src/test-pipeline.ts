@@ -9,14 +9,14 @@ import { StorageManager } from './storage/StorageManager';
 import { DataValidator } from './validators/DataValidator';
 import { AppConfig, RawContest } from './types';
 import { logger } from './utils/logger';
+import fs from 'fs-extra';
 
 async function testPipeline() {
   console.log('🧪 Testing AI Contest Navigator Pipeline');
 
   try {
-    // Load configuration
-    const fs = require('fs-extra');
-    const config: AppConfig = await fs.readJson('config/app.json');
+  // Load configuration
+  const config: AppConfig = await fs.readJson('config/app.json');
 
     // Initialize components
     const sourceManager = new SourceManager(config.sources);
@@ -79,7 +79,8 @@ async function testPipeline() {
 
     console.log('\n✅ All tests completed successfully!');
   } catch (error) {
-    console.error('❌ Test failed:', error);
+    if (error instanceof Error) console.error('❌ Test failed:', error.message);
+    else console.error('❌ Test failed:', String(error));
     process.exit(1);
   }
 }

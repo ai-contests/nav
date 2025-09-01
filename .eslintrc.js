@@ -31,6 +31,9 @@ module.exports = {
   ignorePatterns: [
     'dist/',
     'node_modules/',
-    '*.js'
+  '*.js',
+  'src/debug/**',
+  'src/**/debug*.ts',
+  'src/**/test*.ts'
   ]
 };

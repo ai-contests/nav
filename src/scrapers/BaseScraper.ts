@@ -2,6 +2,7 @@
  * Base scraper class for all platform scrapers
  * Provides common functionality for web scraping
  */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 import axios, { AxiosResponse } from 'axios';
 import * as cheerio from 'cheerio';
@@ -73,7 +74,7 @@ export abstract class BaseScraper implements ContestScraper {
     const contests: RawContest[] = [];
     const contestItems = $(this.config.selectors.contestItems);
 
-    contestItems.each((index, element) => {
+    contestItems.each((index, element: any) => {
       try {
         const $element = $(element);
         const contest = this.extractContestData($element, $);
@@ -94,7 +95,7 @@ export abstract class BaseScraper implements ContestScraper {
    */
   protected extractContestData(
     $element: cheerio.Cheerio<any>,
-    $: cheerio.CheerioAPI
+    _$: cheerio.CheerioAPI
   ): RawContest {
     const title = this.extractText($element, this.config.selectors.title);
     const description = this.extractText(
@@ -215,11 +216,13 @@ export abstract class BaseScraper implements ContestScraper {
    */
   protected extractMetadata(
     $element: cheerio.Cheerio<any>
-  ): Record<string, any> {
-    const metadata: Record<string, any> = {};
+  ): Record<string, unknown> {
+    const metadata: Record<string, unknown> = {};
 
     // Extract data attributes
-    const dataAttributes = $element.get(0)?.attribs || {};
+    const dataAttributes =
+      ($element.get(0) as unknown as { attribs?: Record<string, string> })
+        .attribs || ({} as Record<string, string>);
     for (const [key, value] of Object.entries(dataAttributes)) {
       if (key.startsWith('data-')) {
         metadata[key] = value;

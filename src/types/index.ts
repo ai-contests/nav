@@ -63,7 +63,7 @@ export interface RawContest {
   prize?: string;
   rawHtml?: string; // 保留原始HTML用于调试
   scrapedAt: string;
-  metadata: Record<string, any>; // 额外抓取的数据
+  metadata: Record<string, unknown>; // 额外抓取的数据
 }
 
 // ==================== 平台配置 ====================
@@ -338,9 +338,9 @@ export interface AppError {
   type: ErrorType;
   code: string;
   message: string;
-  details?: any;
+  details?: unknown;
   timestamp: string;
-  context?: Record<string, any>;
+  context?: Record<string, unknown>;
   retry?: boolean;
 }
 

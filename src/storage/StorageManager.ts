@@ -324,7 +324,7 @@ export class StorageManager {
   /**
    * Get storage statistics
    */
-  async getStorageStats(): Promise<Record<string, any>> {
+  async getStorageStats(): Promise<Record<string, unknown>> {
     try {
       const stats = {
         rawFiles: 0,

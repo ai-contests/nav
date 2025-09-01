@@ -189,7 +189,7 @@ export class DataValidator {
    */
   private async validateRequiredFields(
     contest: RawContest,
-    index: number
+    _index: number
   ): Promise<{ errors?: string[]; warnings?: string[] }> {
     const errors: string[] = [];
     const warnings: string[] = [];
@@ -339,7 +339,7 @@ export class DataValidator {
    */
   private async validateDuplicates(
     contest: RawContest,
-    index: number,
+    _index: number,
     allContests?: RawContest[]
   ): Promise<{ errors?: string[]; warnings?: string[] }> {
     const warnings: string[] = [];
@@ -350,7 +350,7 @@ export class DataValidator {
 
     // Check for duplicates by URL
     const duplicatesByUrl = allContests.filter(
-      (c, i) => i !== index && c.url === contest.url
+      (c, i) => i !== _index && c.url === contest.url
     );
 
     if (duplicatesByUrl.length > 0) {
@@ -361,9 +361,9 @@ export class DataValidator {
     if (contest.title && contest.title.length > 10) {
       const duplicatesByTitle = allContests.filter(
         (c, i) =>
-          i !== index &&
+          i !== _index &&
           c.title &&
-          this.calculateSimilarity(contest.title!, c.title) > 0.8
+          this.calculateSimilarity(contest.title ?? '', c.title) > 0.8
       );
 
       if (duplicatesByTitle.length > 0) {

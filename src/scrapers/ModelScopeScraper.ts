@@ -4,6 +4,7 @@
  */
 
 import { EnhancedScraper } from './EnhancedScraper';
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { RawContest, PlatformConfig } from '../types';
 import { logger } from '../utils/logger';
 
@@ -55,6 +56,7 @@ export class ModelScopeScraper extends EnhancedScraper {
   /**
    * Extract contest data from ModelScope specific HTML structure
    */
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   protected extractContestData($element: any, $: any): RawContest {
     const title = this.extractTextFlexible($element, [
       this.config.selectors.title,
@@ -88,12 +90,16 @@ export class ModelScopeScraper extends EnhancedScraper {
         const fullText = $element.text();
 
         // 1) Try ISO-like in full text: 2025-09-21 14:59
-        const isoMatch = fullText.match(/(\d{4}-\d{1,2}-\d{1,2}\s*\d{1,2}:\d{2})/);
+        const isoMatch = fullText.match(
+          /(\d{4}-\d{1,2}-\d{1,2}\s*\d{1,2}:\d{2})/
+        );
         if (isoMatch) deadlineText = isoMatch[1];
 
         // 2) Try Chinese date in full text: 2025年9月21日 或 带时间
         if (!deadlineText) {
-          const chineseMatch = fullText.match(/(\d{4}年\d{1,2}月\d{1,2}日(?:\s*\d{1,2}:\d{2})?)/);
+          const chineseMatch = fullText.match(
+            /(\d{4}年\d{1,2}月\d{1,2}日(?:\s*\d{1,2}:\d{2})?)/
+          );
           if (chineseMatch) deadlineText = chineseMatch[1];
         }
 
@@ -103,7 +109,9 @@ export class ModelScopeScraper extends EnhancedScraper {
           const htmlIso = html.match(/(\d{4}-\d{1,2}-\d{1,2}\s*\d{1,2}:\d{2})/);
           if (htmlIso) deadlineText = htmlIso[1];
           if (!deadlineText) {
-            const htmlChinese = html.match(/(\d{4}年\d{1,2}月\d{1,2}日(?:\s*\d{1,2}:\d{2})?)/);
+            const htmlChinese = html.match(
+              /(\d{4}年\d{1,2}月\d{1,2}日(?:\s*\d{1,2}:\d{2})?)/
+            );
             if (htmlChinese) deadlineText = htmlChinese[1];
           }
         }
@@ -118,12 +126,16 @@ export class ModelScopeScraper extends EnhancedScraper {
                 const prev = $(el).prev();
                 if (prev && prev.length > 0) {
                   const t = prev.text().trim();
-                  const iso = t.match(/(\d{4}-\d{1,2}-\d{1,2}\s*\d{1,2}:\d{2})/);
+                  const iso = t.match(
+                    /(\d{4}-\d{1,2}-\d{1,2}\s*\d{1,2}:\d{2})/
+                  );
                   if (iso) {
                     deadlineText = iso[1];
                     return;
                   }
-                  const chinese = t.match(/(\d{4}年\d{1,2}月\d{1,2}日(?:\s*\d{1,2}:\d{2})?)/);
+                  const chinese = t.match(
+                    /(\d{4}年\d{1,2}月\d{1,2}日(?:\s*\d{1,2}:\d{2})?)/
+                  );
                   if (chinese) {
                     deadlineText = chinese[1];
                     return;
@@ -135,12 +147,16 @@ export class ModelScopeScraper extends EnhancedScraper {
                   parent.children().each((_: number, sib: any) => {
                     if (deadlineText) return;
                     const t2 = $(sib).text().trim();
-                    const iso2 = t2.match(/(\d{4}-\d{1,2}-\d{1,2}\s*\d{1,2}:\d{2})/);
+                    const iso2 = t2.match(
+                      /(\d{4}-\d{1,2}-\d{1,2}\s*\d{1,2}:\d{2})/
+                    );
                     if (iso2) {
                       deadlineText = iso2[1];
                       return;
                     }
-                    const ch2 = t2.match(/(\d{4}年\d{1,2}月\d{1,2}日(?:\s*\d{1,2}:\d{2})?)/);
+                    const ch2 = t2.match(
+                      /(\d{4}年\d{1,2}月\d{1,2}日(?:\s*\d{1,2}:\d{2})?)/
+                    );
                     if (ch2) {
                       deadlineText = ch2[1];
                       return;
@@ -165,7 +181,9 @@ export class ModelScopeScraper extends EnhancedScraper {
                 deadlineText = iso[1];
                 return;
               }
-              const chinese = t.match(/(\d{4}年\d{1,2}月\d{1,2}日(?:\s*\d{1,2}:\d{2})?)/);
+              const chinese = t.match(
+                /(\d{4}年\d{1,2}月\d{1,2}日(?:\s*\d{1,2}:\d{2})?)/
+              );
               if (chinese) {
                 deadlineText = chinese[1];
                 return;
@@ -217,12 +235,15 @@ export class ModelScopeScraper extends EnhancedScraper {
     }
 
     // Extract ModelScope specific metadata
-  const metadata = this.extractModelScopeMetadata($element, $);
+    const metadata = this.extractModelScopeMetadata($element, $);
     // Inject debug extraction info to help diagnose missing deadlines when enabled in config
-    const debugEnabled = Boolean(this.config && (this.config as any).debugExtraction);
+    const debugEnabled = Boolean(
+      this.config && (this.config as any).debugExtraction
+    );
     if (debugEnabled) {
       metadata.debugExtraction = metadata.debugExtraction || {};
-      metadata.debugExtraction.attempts = metadata.debugExtraction.attempts || [];
+      metadata.debugExtraction.attempts =
+        metadata.debugExtraction.attempts || [];
     }
 
     const contest: RawContest = {
@@ -256,6 +277,7 @@ export class ModelScopeScraper extends EnhancedScraper {
   /**
    * Extract ModelScope specific metadata
    */
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   private extractModelScopeMetadata(
     $element: any,
     $: any
@@ -349,9 +371,11 @@ export class ModelScopeScraper extends EnhancedScraper {
       // Handle ISO-like formats
       // Handle ISO-like formats and normalize common "YYYY-MM-DD HH:mm" to ISO
       // e.g. "2025-09-21 14:59" -> "2025-09-21T14:59:00"
-      const isoLike = cleanDateString.match(/^\d{4}-\d{1,2}-\d{1,2}\s*\d{1,2}:\d{2}$/);
+      const isoLike = cleanDateString.match(
+        /^\d{4}-\d{1,2}-\d{1,2}\s*\d{1,2}:\d{2}$/
+      );
       if (isoLike) {
-        const normalized = cleanDateString.replace(/\s+/, 'T') + ':00';
+        const normalized = `${cleanDateString.replace(/\s+/, 'T')}:00`;
         const dt = new Date(normalized);
         if (!isNaN(dt.getTime())) return dt.toISOString();
       }

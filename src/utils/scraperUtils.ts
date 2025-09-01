@@ -5,9 +5,9 @@ export function normalizeUrl(rawUrl: string, baseUrl: string): string {
   rawUrl = rawUrl.trim();
   if (/^https?:\/\//i.test(rawUrl)) return rawUrl;
   const base = baseUrl.replace(/\/$/, '');
-  if (rawUrl.startsWith('/')) return base + rawUrl;
+  if (rawUrl.startsWith('/')) return `${base}${rawUrl}`;
   // if no protocol and no leading slash, assume relative as well
-  return base + '/' + rawUrl;
+  return `${base}/${rawUrl}`;
 }
 
 export function normalizePrize(input?: string): {

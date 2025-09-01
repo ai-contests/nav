@@ -3,6 +3,9 @@
  */
 
 import * as puppeteer from 'puppeteer';
+import cheerio, { CheerioAPI } from 'cheerio';
+import * as fs from 'fs';
+import * as path from 'path';
 import { BaseScraper } from './BaseScraper';
 import { RawContest, PlatformConfig } from '../types';
 import { logger } from '../utils/logger';
@@ -157,14 +160,13 @@ export class EnhancedScraper extends BaseScraper {
    * Enhanced contest parsing with better error handling
    */
   protected parseContests(html: string): RawContest[] {
-    const cheerio = require('cheerio');
-    const $ = cheerio.load(html);
+    const $: CheerioAPI = cheerio.load(html);
     const contests: RawContest[] = [];
 
     // Debug: log page structure
     logger.debug('Page structure debug info', {
       title: $('title').text(),
-      bodyText: $('body').text().substring(0, 200) + '...',
+      bodyText: `${$('body').text().substring(0, 200)}...`,
       itemsFound: $(this.config.selectors.contestItems).length,
     });
 
@@ -173,8 +175,6 @@ export class EnhancedScraper extends BaseScraper {
 
     // Diagnostic: save small samples of the first few matched nodes to data for debugging
     try {
-      const fs = require('fs');
-      const path = require('path');
       const outDir = path.resolve(process.cwd(), 'data');
       if (!fs.existsSync(outDir)) {
         fs.mkdirSync(outDir, { recursive: true });
@@ -205,6 +205,7 @@ export class EnhancedScraper extends BaseScraper {
       logger.warn('Failed to write parse samples', { error: e });
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     contestItems.each((index: number, element: any) => {
       try {
         const $element = $(element);
@@ -237,7 +238,8 @@ export class EnhancedScraper extends BaseScraper {
   /**
    * Enhanced contest data extraction with more flexible selectors
    */
-  protected extractContestData($element: any, $: any): RawContest {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  protected extractContestData($element: any, _$: CheerioAPI): RawContest {
     // Try multiple selector patterns for each field
     const title = this.extractTextFlexible($element, [
       this.config.selectors.title,
@@ -303,7 +305,7 @@ export class EnhancedScraper extends BaseScraper {
    * Try multiple selectors to extract text
    */
   protected extractTextFlexible(
-    $element: any,
+    $element: cheerio.Cheerio<unknown>,
     selectors: (string | undefined)[]
   ): string | undefined {
     for (const selector of selectors) {

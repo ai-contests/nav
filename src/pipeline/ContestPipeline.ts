@@ -338,7 +338,7 @@ export class ContestPipeline {
   /**
    * Get pipeline status
    */
-  async getStatus(): Promise<Record<string, any>> {
+  async getStatus(): Promise<Record<string, unknown>> {
     try {
       const [storageStats, scraperStats, aiStats] = await Promise.all([
         this.storageManager.getStorageStats(),

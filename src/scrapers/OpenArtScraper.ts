@@ -4,6 +4,7 @@
  */
 
 import { BaseScraper } from './BaseScraper';
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { RawContest, PlatformConfig } from '../types';
 import { logger } from '../utils/logger';
 

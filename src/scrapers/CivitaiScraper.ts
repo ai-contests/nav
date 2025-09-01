@@ -81,9 +81,8 @@ export class CivitaiScraper extends EnhancedScraper {
       // Ensure Puppeteer browser is closed so the process can exit cleanly
       try {
         // closeBrowser is defined on EnhancedScraper
-        // @ts-ignore
         if (typeof this.closeBrowser === 'function')
-          await (this as any).closeBrowser();
+          await (this as { closeBrowser: () => Promise<void> }).closeBrowser();
       } catch (e) {
         logger.warn('Failed to close browser in scrape finally block', {
           error: e,
@@ -114,7 +113,7 @@ export class CivitaiScraper extends EnhancedScraper {
 
       // The TRPC response wraps the actual data; try to dig into common shapes
       const body = resp.data;
-      const items: any[] = [];
+      const items: unknown[] = [];
 
       // If it's an array, assume it's announcements
       if (Array.isArray(body)) {
@@ -154,9 +153,9 @@ export class CivitaiScraper extends EnhancedScraper {
         // ignore debug write errors
       }
 
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const contests: RawContest[] = items.map((it: any) => {
         const title = it.title || it.name || '';
-        const startsAt = it.startsAt || it.startDate || undefined;
         const endsAt = it.endsAt || it.endDate || undefined;
 
         // Prefer explicit action links if present (many announcements include actions -> [{ link: '/articles/123' }])
@@ -167,7 +166,11 @@ export class CivitaiScraper extends EnhancedScraper {
             Array.isArray(it.actions) &&
             it.actions.length > 0
           ) {
-            const act = it.actions.find((a: any) => a && (a.link || a.url));
+            const act = it.actions.find((a: unknown) => {
+              if (!a || typeof a !== 'object') return false;
+              const action = a as Record<string, unknown>;
+              return action.link || action.url;
+            });
             if (act) urlPath = act.link || act.url || '';
           }
         } catch (e) {
@@ -199,10 +202,14 @@ export class CivitaiScraper extends EnhancedScraper {
             Array.isArray(it.metadata.actions)
           ) {
             // sometimes prize is encoded in link text or label
-            const act = it.metadata.actions.find(
-              (a: any) =>
-                a && a.linkText && /prize|reward|enter|win/i.test(a.linkText)
-            );
+            const act = it.metadata.actions.find((a: unknown) => {
+              if (!a || typeof a !== 'object') return false;
+              const action = a as Record<string, unknown>;
+              return (
+                action.linkText &&
+                /prize|reward|enter|win/i.test(action.linkText as string)
+              );
+            });
             if (act && act.linkText) prizeField = act.linkText;
           }
         } catch (e) {
@@ -298,7 +305,10 @@ export class CivitaiScraper extends EnhancedScraper {
   /**
    * Extract contest data from Civitai specific HTML structure
    */
-  protected extractContestData($element: any, $: any): RawContest {
+  protected extractContestData(
+    $element: any, // eslint-disable-line @typescript-eslint/no-explicit-any
+    $: any // eslint-disable-line @typescript-eslint/no-explicit-any
+  ): RawContest {
     const title = this.extractText($element, this.config.selectors.title);
     const description = this.extractText(
       $element,
@@ -342,11 +352,12 @@ export class CivitaiScraper extends EnhancedScraper {
     let finalTitle = title || '';
     if (!finalTitle || finalTitle.length < 3) {
       const footer = $element
-        .find('[class*=\"AspectRatioImageCard_footer__\"]')
+        .find('[class*="AspectRatioImageCard_footer__"]')
         .first();
       if (footer && footer.length > 0) finalTitle = footer.text();
       const header = $element
-        .find('[class*=\"AspectRatioImageCard_header__\"]')
+        .find('[class*="AspectRatioImageCard_header__"]')
+        .find('[class*="AspectRatioImageCard_header__"]')
         .first();
       if ((!finalTitle || finalTitle.length < 3) && header && header.length > 0)
         finalTitle = header.text();
@@ -376,8 +387,12 @@ export class CivitaiScraper extends EnhancedScraper {
   /**
    * Extract Civitai specific metadata
    */
-  private extractCivitaiMetadata($element: any, $: any): Record<string, any> {
-    const metadata: Record<string, any> = {};
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  private extractCivitaiMetadata(
+    $element: any, // eslint-disable-line @typescript-eslint/no-explicit-any
+    _$: any // eslint-disable-line @typescript-eslint/no-explicit-any
+  ): Record<string, unknown> {
+    const metadata: Record<string, unknown> = {};
 
     try {
       // Extract event type (contest, challenge, bounty, etc.)
@@ -536,7 +551,7 @@ export class CivitaiScraper extends EnhancedScraper {
       const currencyMatch = joined.match(/\$\s?[\d,]+(?:\.\d+)?/);
       if (currencyMatch) return currencyMatch[0].replace(/[,\s]/g, '');
 
-      const compactMatch = joined.match(/(\d+[\.,]?\d*\s*(?:k|m|K|M))/);
+      const compactMatch = joined.match(/(\d+[.,]?\d*\s*(?:k|m|K|M))/);
       if (compactMatch) return compactMatch[0];
 
       const plainNum = joined.match(/\b(\d{3,})(?:\b|\s|,)/);
@@ -556,7 +571,7 @@ export class CivitaiScraper extends EnhancedScraper {
       s = s.replace(/<[^>]*>/g, '').trim();
 
       // currency like $1,234.56
-      const currencyMatch = s.match(/([$€£¥])\s*([\d,\.]+)/);
+      const currencyMatch = s.match(/([$€£¥])\s*([\d,.]+)/);
       if (currencyMatch) {
         const num = currencyMatch[2].replace(/,/g, '');
         if (!isNaN(Number(num))) return String(Math.round(Number(num)));
@@ -673,9 +688,11 @@ export class CivitaiScraper extends EnhancedScraper {
     }
 
     // Filter out expired events (if we can determine the status)
+    const metadata = contest.metadata as Record<string, unknown> | undefined;
     if (
-      contest.metadata.status &&
-      contest.metadata.status.toLowerCase().includes('expired')
+      metadata &&
+      typeof metadata.status === 'string' &&
+      metadata.status.toLowerCase().includes('expired')
     ) {
       logger.debug('Contest is expired', { title: contest.title });
       return false;

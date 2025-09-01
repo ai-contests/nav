@@ -5,7 +5,6 @@
 
 import { Command } from 'commander';
 import * as fs from 'fs-extra';
-import * as path from 'path';
 import { ContestPipeline } from './pipeline/ContestPipeline';
 import { AppConfig } from './types';
 import { logger } from './utils/logger';
@@ -80,6 +79,7 @@ async function showStatus(pipeline: ContestPipeline): Promise<void> {
 /**
  * Display execution results
  */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function displayResults(result: any): void {
   const { success, duration, stats, errors, warnings } = result;
 

@@ -179,7 +179,9 @@ export class MockAIProcessor {
     type: string
   ): 'image' | 'video' | 'audio' | 'text' | 'code' | 'mixed' {
     const validTypes = ['image', 'video', 'audio', 'text', 'code', 'mixed'];
-    return validTypes.includes(type) ? (type as any) : 'mixed';
+    return validTypes.includes(type as (typeof validTypes)[number])
+      ? (type as 'image' | 'video' | 'audio' | 'text' | 'code' | 'mixed')
+      : 'mixed';
   }
 
   /**
@@ -210,8 +212,10 @@ export class MockAIProcessor {
     difficulty: string
   ): 'beginner' | 'intermediate' | 'advanced' {
     const validDifficulties = ['beginner', 'intermediate', 'advanced'];
-    return validDifficulties.includes(difficulty)
-      ? (difficulty as any)
+    return validDifficulties.includes(
+      difficulty as (typeof validDifficulties)[number]
+    )
+      ? (difficulty as 'beginner' | 'intermediate' | 'advanced')
       : 'intermediate';
   }
 
@@ -276,7 +280,7 @@ export class MockAIProcessor {
   /**
    * Get stats
    */
-  getStats(): Record<string, any> {
+  getStats(): Record<string, unknown> {
     return {
       config: {
         apiEndpoint: 'mock-processor',

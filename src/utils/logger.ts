@@ -12,7 +12,7 @@ interface LogEntry {
   timestamp: string;
   level: LogLevel;
   message: string;
-  context?: Record<string, any>;
+  context?: Record<string, unknown>;
 }
 
 export class Logger {
@@ -44,29 +44,29 @@ export class Logger {
   /**
    * Log debug message
    */
-  debug(message: string, context?: Record<string, any>): void {
+  debug(message: string, context?: Record<string, unknown>): void {
     this.log('debug', message, context);
   }
 
   /**
    * Log info message
    */
-  info(message: string, context?: Record<string, any>): void {
+  info(message: string, context?: Record<string, unknown>): void {
     this.log('info', message, context);
   }
 
   /**
    * Log warning message
    */
-  warn(message: string, context?: Record<string, any>): void {
+  warn(message: string, context?: Record<string, unknown>): void {
     this.log('warn', message, context);
   }
 
   /**
    * Log error message
    */
-  error(message: string, error?: Error | Record<string, any>): void {
-    let context: Record<string, any> | undefined;
+  error(message: string, error?: Error | Record<string, unknown>): void {
+    let context: Record<string, unknown> | undefined;
 
     if (error instanceof Error) {
       context = {
@@ -86,7 +86,7 @@ export class Logger {
   private log(
     level: LogLevel,
     message: string,
-    context?: Record<string, any>
+    context?: Record<string, unknown>
   ): void {
     if (this.levels[level] < this.levels[this.level]) {
       return;
@@ -130,7 +130,7 @@ export class Logger {
     let logMessage = `${color}${timestamp} ${levelStr}${reset} ${entry.message}`;
 
     if (entry.context) {
-      logMessage += `\n${JSON.stringify(entry.context, null, 2)}`;
+      logMessage = `${logMessage}\n${JSON.stringify(entry.context, null, 2)}`;
     }
 
     switch (entry.level) {
@@ -152,9 +152,11 @@ export class Logger {
    * Output to file
    */
   private logToFile(entry: LogEntry): void {
+    if (!this.logFile) return;
+
     try {
-      const logLine = JSON.stringify(entry) + '\n';
-      fs.appendFileSync(this.logFile!, logLine, 'utf-8');
+      const logLine = `${JSON.stringify(entry)}\n`;
+      fs.appendFileSync(this.logFile, logLine, 'utf-8');
     } catch (error) {
       console.error('Failed to write to log file:', error);
     }
@@ -175,7 +177,7 @@ export class Logger {
   /**
    * Create child logger with context
    */
-  child(context: Record<string, any>): Logger {
+  child(context: Record<string, unknown>): Logger {
     const childLogger = new Logger(
       this.level,
       this.logFile,
@@ -183,14 +185,47 @@ export class Logger {
     );
 
     // Override log method to include context
-    const originalLog = childLogger.log.bind(childLogger);
-    (childLogger as any).log = (
-      level: LogLevel,
+    // Wrap public methods to include provided context without touching private members
+    const originalDebug = childLogger.debug.bind(childLogger);
+    const originalInfo = childLogger.info.bind(childLogger);
+    const originalWarn = childLogger.warn.bind(childLogger);
+    const originalError = childLogger.error.bind(childLogger);
+
+    type PublicLogger = {
+      debug: (message: string, ctx?: Record<string, unknown>) => void;
+      info: (message: string, ctx?: Record<string, unknown>) => void;
+      warn: (message: string, ctx?: Record<string, unknown>) => void;
+      error: (message: string, err?: Error | Record<string, unknown>) => void;
+    };
+
+    const publicLogger = childLogger as unknown as PublicLogger;
+
+    publicLogger.debug = (
       message: string,
-      additionalContext?: Record<string, any>
+      additionalContext?: Record<string, unknown>
     ) => {
-      const mergedContext = { ...context, ...additionalContext };
-      originalLog(level, message, mergedContext);
+      originalDebug(message, { ...context, ...additionalContext });
+    };
+
+    publicLogger.info = (
+      message: string,
+      additionalContext?: Record<string, unknown>
+    ) => {
+      originalInfo(message, { ...context, ...additionalContext });
+    };
+
+    publicLogger.warn = (
+      message: string,
+      additionalContext?: Record<string, unknown>
+    ) => {
+      originalWarn(message, { ...context, ...additionalContext });
+    };
+
+    publicLogger.error = (
+      message: string,
+      err?: Error | Record<string, unknown>
+    ) => {
+      originalError(message, err ? { ...context, ...err } : { ...context });
     };
 
     return childLogger;

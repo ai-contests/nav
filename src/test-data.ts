@@ -4,12 +4,12 @@
 
 import { StorageManager } from './storage/StorageManager';
 import { AppConfig } from './types';
+import fs from 'fs-extra';
 
 async function testDataLoading() {
   console.log('📂 Testing data loading...');
 
   try {
-    const fs = require('fs-extra');
     const config: AppConfig = await fs.readJson('config/app.json');
 
     const storageManager = new StorageManager(config.storage);
@@ -34,7 +34,8 @@ async function testDataLoading() {
 
     console.log('\n✅ Data loading test completed!');
   } catch (error) {
-    console.error('❌ Test failed:', error);
+    if (error instanceof Error) console.error('❌ Test failed:', error.message);
+    else console.error('❌ Test failed:', String(error));
   }
 }
 

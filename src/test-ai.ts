@@ -5,12 +5,12 @@
 import { StorageManager } from './storage/StorageManager';
 import { MockAIProcessor } from './processors/MockAIProcessor';
 import { AppConfig } from './types';
+import fs from 'fs-extra';
 
 async function testAIProcessing() {
   console.log('🤖 Testing AI processing...');
 
   try {
-    const fs = require('fs-extra');
     const config: AppConfig = await fs.readJson('config/app.json');
 
     const storageManager = new StorageManager(config.storage);
@@ -58,7 +58,8 @@ async function testAIProcessing() {
 
     console.log('\n✅ AI processing test completed!');
   } catch (error) {
-    console.error('❌ Test failed:', error);
+    if (error instanceof Error) console.error('❌ Test failed:', error.message);
+    else console.error('❌ Test failed:', String(error));
   }
 }
 

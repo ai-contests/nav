@@ -195,12 +195,20 @@ export class SourceManager {
   /**
    * Parse configuration data
    */
-  private parseConfig(configData: any): Map<string, PlatformConfig> {
+  private parseConfig(
+    configData: any // eslint-disable-line @typescript-eslint/no-explicit-any
+  ): Map<string, PlatformConfig> {
     const platforms = new Map<string, PlatformConfig>();
 
-    if (configData.platforms) {
+    if (
+      configData &&
+      typeof configData === 'object' &&
+      'platforms' in configData &&
+      configData.platforms &&
+      typeof configData.platforms === 'object'
+    ) {
       for (const [name, data] of Object.entries(configData.platforms)) {
-        const platformData = data as any;
+        const platformData = data as any; // eslint-disable-line @typescript-eslint/no-explicit-any
 
         const platform: PlatformConfig = {
           name,
@@ -235,15 +243,15 @@ export class SourceManager {
   /**
    * Serialize configuration data
    */
-  private serializeConfig(): any {
-    const configData: any = {
+  private serializeConfig(): unknown {
+    const configData: Record<string, unknown> = {
       platforms: {},
       lastUpdated: new Date().toISOString(),
       version: '1.0.0',
     };
 
     for (const [name, platform] of this.platforms) {
-      configData.platforms[name] = {
+      (configData.platforms as Record<string, unknown>)[name] = {
         displayName: platform.displayName,
         baseUrl: platform.baseUrl,
         contestListUrl: platform.contestListUrl,

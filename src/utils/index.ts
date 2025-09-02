@@ -75,7 +75,7 @@ export async function retry<T>(
   maxAttempts = 3,
   baseDelay = 1000
 ): Promise<T> {
-  let lastError: Error;
+  let lastError: Error | undefined;
 
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {

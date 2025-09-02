@@ -367,6 +367,7 @@ export class OpenArtScraper extends BaseScraper {
     // Filter out closed contests if status is available
     if (
       contest.metadata.status &&
+      typeof contest.metadata.status === 'string' &&
       contest.metadata.status.toLowerCase().includes('closed')
     ) {
       logger.debug('Contest is closed', { title: contest.title });

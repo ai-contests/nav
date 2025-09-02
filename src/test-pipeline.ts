@@ -70,11 +70,15 @@ async function testPipeline() {
 
     // Test 6: Storage stats
     console.log('\n📊 Storage statistics:');
-    const stats = await storageManager.getStorageStats();
+    const stats = await storageManager.getStorageStats() as {
+      rawFiles?: number;
+      processedFiles?: number;
+      totalSize?: number;
+    };
     console.log(`- Raw files: ${stats.rawFiles}`);
     console.log(`- Processed files: ${stats.processedFiles}`);
     console.log(
-      `- Total size: ${(stats.totalSize / 1024 / 1024).toFixed(2)} MB`
+      `- Total size: ${(stats.totalSize || 0 / 1024 / 1024).toFixed(2)} MB`
     );
 
     console.log('\n✅ All tests completed successfully!');

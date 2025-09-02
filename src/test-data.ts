@@ -26,11 +26,15 @@ async function testDataLoading() {
     }
 
     // Test storage stats
-    const stats = await storageManager.getStorageStats();
+    const stats = await storageManager.getStorageStats() as {
+      rawFiles?: number;
+      platforms?: string[];
+      totalSize?: number;
+    };
     console.log('\n📊 Storage stats:');
     console.log(`- Raw files: ${stats.rawFiles}`);
-    console.log(`- Platforms: ${stats.platforms.join(', ')}`);
-    console.log(`- Total size: ${(stats.totalSize / 1024).toFixed(2)} KB`);
+    console.log(`- Platforms: ${stats.platforms?.join(', ')}`);
+    console.log(`- Total size: ${(stats.totalSize || 0 / 1024).toFixed(2)} KB`);
 
     console.log('\n✅ Data loading test completed!');
   } catch (error) {

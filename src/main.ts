@@ -48,25 +48,40 @@ async function showStatus(pipeline: ContestPipeline): Promise<void> {
     console.log('═'.repeat(50));
 
     console.log('\n📂 Storage:');
-    console.log(`  Raw Files: ${status.storage.rawFiles || 0}`);
-    console.log(`  Processed Files: ${status.storage.processedFiles || 0}`);
-    console.log(`  Backup Files: ${status.storage.backupFiles || 0}`);
+    const storage = status.storage as {
+      rawFiles?: number;
+      processedFiles?: number;
+      backupFiles?: number;
+      totalSize?: number;
+      lastUpdate?: string | null;
+      platforms?: string[];
+    };
+    console.log(`  Raw Files: ${storage.rawFiles || 0}`);
+    console.log(`  Processed Files: ${storage.processedFiles || 0}`);
+    console.log(`  Backup Files: ${storage.backupFiles || 0}`);
     console.log(
-      `  Total Size: ${((status.storage.totalSize || 0) / 1024 / 1024).toFixed(2)} MB`
+      `  Total Size: ${((storage.totalSize || 0) / 1024 / 1024).toFixed(2)} MB`
     );
-    console.log(`  Last Update: ${status.storage.lastUpdate || 'Never'}`);
+    console.log(`  Last Update: ${storage.lastUpdate || 'Never'}`);
 
     console.log('\n🌐 Platforms:');
-    (status.storage.platforms || []).forEach((platform: string) => {
+    (storage.platforms || []).forEach((platform: string) => {
       console.log(`  ✓ ${platform}`);
     });
 
     console.log('\n🤖 AI Processor:');
+    const aiProcessor = status.aiProcessor as {
+      config?: {
+        apiEndpoint?: string;
+        maxTokens?: number;
+        batchSize?: number;
+      };
+    };
     console.log(
-      `  Endpoint: ${status.aiProcessor?.config?.apiEndpoint || 'Not configured'}`
+      `  Endpoint: ${aiProcessor.config?.apiEndpoint || 'Not configured'}`
     );
-    console.log(`  Max Tokens: ${status.aiProcessor?.config?.maxTokens || 0}`);
-    console.log(`  Batch Size: ${status.aiProcessor?.config?.batchSize || 0}`);
+    console.log(`  Max Tokens: ${aiProcessor.config?.maxTokens || 0}`);
+    console.log(`  Batch Size: ${aiProcessor.config?.batchSize || 0}`);
 
     console.log('\n⏰ Last Check:', status.lastCheck);
     console.log('═'.repeat(50));

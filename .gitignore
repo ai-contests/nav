@@ -1,8 +1,52 @@
-# Ignore debug artifacts created during development
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc / OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.fleet
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local env files
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug/dev artifacts
 /src/debug*
 /src/debug/
-/src/debug-*.*
-/src/*debug*.*
+/src/debug-*.* 
+/src/*debug*.* 
 /src/debug-run-*.ts
 /src/debug-snapshot-*.ts
 /src/debug-scrapers.ts
@@ -18,98 +62,53 @@
 /src/tools/
 
 # Ignore generated debug data files under data/
-/data/
-/data/**
+data/
+data/**
+# Keep structure but ignore content for specific folders
+data/raw/*.json
+data/processed/*.json
+data/backup/*.json
 
 # Root-level debug images
 /modelscope-debug.png
 
 # Personal helper/instructions (local only)
-/.github/copilot-instructions.md
-
-# Common local ignores
-node_modules/
-dist/
-.env
-.vscode/# Dependencies
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+.github/copilot-instructions.md
 
 # Production builds
-dist/
 build/
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Logs
+# Logs / runtime
 logs/
 *.log
-
-# Runtime data
 pids/
 *.pid
 *.seed
 *.pid.lock
 
-# Coverage directory used by tools like istanbul
+# Coverage
 coverage/
 .nyc_output
 
-# Dependency directories
+# Dependency dirs and caches
 jspm_packages/
-
-# Optional npm cache directory
 .npm
-
-# Optional REPL history
 .node_repl_history
-
-# Output of 'npm pack'
-*.tgz
-
-# Yarn Integrity file
 .yarn-integrity
+
+# Optional files
+*.tgz
 
 # Local configuration overrides
 config/local.json
 config/production.json
 
-# Data files (keep structure but ignore content)
-data/raw/*.json
-data/processed/*.json
-data/backup/*.json
-
 # Temporary files
 temp/
 tmp/
 
-# Documentation
+# Documentation / test artifacts
 docs/
-
-# Test artifacts
 test-results/
 .jest-cache/
 

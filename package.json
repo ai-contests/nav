@@ -15,13 +15,16 @@
     "test:coverage": "jest --coverage",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
-    "format": "prettier --write src/**/*.ts",
+    "format": "prettier --write \"src/**/*.{ts,js,vue,json}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,js,vue,json}\"",
     "crawl": "ts-node src/main.ts crawl",
     "process": "ts-node src/main.ts process",
     "status": "ts-node src/main.ts status",
     "export": "ts-node src/main.ts export",
     "cleanup": "ts-node src/main.ts cleanup",
     "run": "ts-node src/main.ts run",
+    "run:civitai": "ts-node src/scripts/run-civitai.ts",
+    "run:modelscope": "ts-node src/scripts/run-modelscope.ts",
     "clean": "rimraf dist",
     "prepare": "husky install"
   },
@@ -55,6 +58,7 @@
     "typescript": "^5.3.10"
   },
   "dependencies": {
+    "@nuxtjs/color-mode": "^3.5.2",
     "autoprefixer": "^10.4.19",
     "axios": "^1.5.0",
     "cheerio": "^1.0.0-rc.12",

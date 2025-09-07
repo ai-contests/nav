@@ -1,18 +1,34 @@
 module.exports = {
+  root: true,
   parser: '@typescript-eslint/parser',
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'prettier'
+    'prettier',
   ],
-  plugins: ['@typescript-eslint', 'prettier'],
+  plugins: ['@typescript-eslint'],
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
-    project: './tsconfig.json'
+    project: ['./tsconfig.json'],
+    extraFileExtensions: ['.vue'],
   },
   rules: {
-    'prettier/prettier': 'error',
+    // 完全禁用所有格式化相关规则，让 Prettier 独立处理
+    'linebreak-style': 'off',
+    'arrow-body-style': 'off',
+    'prefer-arrow-callback': 'off',
+    quotes: 'off',
+    indent: 'off',
+    'comma-dangle': 'off',
+    'object-curly-spacing': 'off',
+    semi: 'off',
+    '@typescript-eslint/quotes': 'off',
+    '@typescript-eslint/indent': 'off',
+    '@typescript-eslint/comma-dangle': 'off',
+    '@typescript-eslint/object-curly-spacing': 'off',
+    '@typescript-eslint/semi': 'off',
+    // 只保留非格式化相关的规则
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
@@ -21,19 +37,19 @@ module.exports = {
     'prefer-const': 'error',
     'no-var': 'error',
     'object-shorthand': 'error',
-    'prefer-template': 'error'
+    'prefer-template': 'error',
   },
   env: {
     node: true,
     es6: true,
-    jest: true
+    jest: true,
   },
   ignorePatterns: [
     'dist/',
     'node_modules/',
-  '*.js',
-  'src/debug/**',
-  'src/**/debug*.ts',
-  'src/**/test*.ts'
-  ]
+    '.nuxt/',
+    'coverage/',
+    'logs/',
+    '*.md',
+  ],
 };

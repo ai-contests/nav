@@ -96,6 +96,8 @@ pids/
 # Coverage
 coverage/
 .nyc_output
+.vercel/
+.vercel/output/
 
 # Dependency dirs and caches
 jspm_packages/

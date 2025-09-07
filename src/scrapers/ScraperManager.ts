@@ -269,10 +269,12 @@ export class ScraperManager {
       return healthResults;
     }
 
-    for (const [platformName, scraper] of this.scrapers) {
+    const scraperEntries = Array.from(this.scrapers.entries());
+    for (let i = 0; i < scraperEntries.length; i++) {
+      const [platformName, scraper] = scraperEntries[i];
       try {
         // Simple connectivity test - try to fetch the platform's main page
-        const config = this.sourceManager.getPlatform(platformName);
+        const config = this.sourceManager?.getPlatform(platformName);
         if (config) {
           await (
             scraper as unknown as {

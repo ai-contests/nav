@@ -250,7 +250,7 @@ export class SourceManager {
       version: '1.0.0',
     };
 
-    for (const [name, platform] of this.platforms) {
+    this.platforms.forEach((platform, name) => {
       (configData.platforms as Record<string, unknown>)[name] = {
         displayName: platform.displayName,
         baseUrl: platform.baseUrl,
@@ -267,7 +267,7 @@ export class SourceManager {
         delay: platform.delay,
         maxRetries: platform.maxRetries,
       };
-    }
+    });
 
     return configData;
   }

@@ -3,10 +3,13 @@
  * Scrapes AI competition data from ModelScope.cn
  */
 
-import { EnhancedScraper } from './EnhancedScraper';
+import * as cheerio from 'cheerio';
+import * as fs from 'fs-extra';
+import * as puppeteer from 'puppeteer';
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { RawContest, PlatformConfig } from '../types';
 import { logger } from '../utils/logger';
+import { EnhancedScraper } from './EnhancedScraper';
 
 export class ModelScopeScraper extends EnhancedScraper {
   constructor(config: PlatformConfig) {
@@ -28,13 +31,82 @@ export class ModelScopeScraper extends EnhancedScraper {
     try {
       await this.applyDelay();
 
-      // Use Puppeteer for ModelScope since it's a dynamic site
-      const html = await this.fetchHtmlWithPuppeteer(
-        this.config.contestListUrl,
-        '[class*="competition"], [class*="contest"]' // Wait for contest elements
-      );
+      // Use Puppeteer for SPA content - ModelScope requires dynamic loading
+      let html: string;
+      try {
+        // Use Puppeteer to handle carousel navigation and collect slide links
+        const navResult = await this.fetchHtmlWithCarouselNavigation(
+          this.config.contestListUrl
+        );
+        html = navResult.html;
+        // attach slide links to config for later enrichment
+        (this as any)._carouselSlideLinks = navResult.links || [];
+        logger.info(
+          'Successfully fetched HTML with carousel navigation for ModelScope',
+          { slideLinks: (this as any)._carouselSlideLinks.length }
+        );
+      } catch (puppeteerError) {
+        logger.warn(
+          'Puppeteer carousel navigation failed, falling back to simple Puppeteer',
+          { error: puppeteerError }
+        );
+        try {
+          html = await this.fetchHtmlWithPuppeteer(this.config.contestListUrl);
+          logger.info(
+            'Successfully fetched HTML with Puppeteer for ModelScope'
+          );
+        } catch (fallbackError) {
+          logger.warn('Puppeteer failed, falling back to simple HTTP', {
+            error: fallbackError,
+          });
+          html = await this.fetchHtml(this.config.contestListUrl);
+        }
+      }
 
       const contests = this.parseContests(html);
+      // If carousel provided explicit slide links, fetch their detail pages and merge
+      try {
+        const slideLinks: string[] = (this as any)._carouselSlideLinks || [];
+        for (const link of slideLinks) {
+          try {
+            // Normalize
+            const normalized = this.isValidUrl(link)
+              ? link
+              : `${this.config.baseUrl}${link.startsWith('/') ? '' : '/'}${link}`;
+            // Skip if already present
+            if (contests.find(c => c.url === normalized)) continue;
+            await this.applyDelay();
+            const detailHtml = await this.fetchHtml(normalized);
+            const minimal: RawContest = {
+              platform: this.platform,
+              title: '',
+              description: '',
+              url: normalized,
+              deadline: undefined,
+              prize: '',
+              rawHtml: '',
+              scrapedAt: new Date().toISOString(),
+              metadata: {},
+            };
+            const enriched = await this.extractDetailedInfo(
+              minimal,
+              detailHtml
+            );
+            // Only add if validated
+            if (this.validateContest(enriched)) {
+              contests.push(enriched);
+            } else {
+              // still push minimally so it's not lost
+              contests.push(enriched);
+            }
+          } catch (e) {
+            logger.warn('Failed to fetch/parse slide link', { link, error: e });
+          }
+        }
+      } catch (e) {
+        // ignore carousel enrichment errors
+        logger.warn('Carousel enrichment failed', { error: e });
+      }
       const validContests = contests.filter(contest =>
         this.validateContest(contest)
       );
@@ -46,7 +118,17 @@ export class ModelScopeScraper extends EnhancedScraper {
 
       return enrichedContests;
     } catch (error) {
-      logger.error(`Failed to scrape ${this.platform}`, { error });
+      logger.error(`Failed to scrape ${this.platform}`, {
+        error:
+          error instanceof Error
+            ? {
+                name: error.name,
+                message: error.message,
+                stack: error.stack,
+              }
+            : error,
+        url: this.config.contestListUrl,
+      });
       throw error;
     } finally {
       await this.closeBrowser();
@@ -54,11 +136,93 @@ export class ModelScopeScraper extends EnhancedScraper {
   }
 
   /**
+   * Custom parseContests for ModelScope - handles SPA structure
+   */
+  protected parseContests(html: string): RawContest[] {
+    const $ = cheerio.load(html);
+    const contests: RawContest[] = [];
+
+    logger.info('Parsing ModelScope contests with custom logic');
+
+    // ModelScope uses dynamic class names, try multiple selectors
+    const possibleSelectors = [
+      'div.antd5-col a[href*="/competition/"]', // Column containers with competition links
+      'a[href*="/competition/"]', // All competition links
+      'div[class*="acss-ukjaiy"]', // Competition card containers
+      '.antd5-col', // Grid columns that might contain competitions
+      this.config.selectors.contestItems, // Fallback to config
+    ];
+
+    let foundContests = false;
+
+    for (const selector of possibleSelectors) {
+      logger.info(`Trying selector: ${selector}`);
+      const elements = $(selector);
+      logger.info(
+        `Found ${elements.length} elements with selector: ${selector}`
+      );
+
+      if (elements.length > 0) {
+        elements.each((index: number, element: any) => {
+          try {
+            const $element = $(element);
+
+            // Skip if this doesn't look like a contest
+            const text = $element.text().toLowerCase();
+            if (
+              !text.includes('竞赛') &&
+              !text.includes('比赛') &&
+              !text.includes('挑战') &&
+              !text.includes('competition')
+            ) {
+              return;
+            }
+
+            const contest = this.extractContestData($element, $);
+
+            // Validate basic contest data
+            if (contest.title && contest.title.trim().length > 3) {
+              contests.push(contest);
+              logger.info(`Extracted contest: ${contest.title}`);
+            }
+          } catch (error) {
+            logger.warn(`Failed to extract contest ${index}`, { error });
+          }
+        });
+
+        if (contests.length > 0) {
+          foundContests = true;
+          logger.info(
+            `Successfully found ${contests.length} contests with selector: ${selector}`
+          );
+          break; // Stop trying other selectors if we found contests
+        }
+      }
+    }
+
+    if (!foundContests) {
+      logger.warn('No contests found with any selector, saving debug info');
+      // Save HTML for debugging
+      try {
+        fs.writeFileSync('debug-modelscope-no-contests.html', html);
+        logger.info('Saved debug HTML to debug-modelscope-no-contests.html');
+      } catch (e) {
+        // ignore
+      }
+    }
+
+    logger.info(`Total contests parsed: ${contests.length}`);
+    return contests;
+  }
+
+  /**
    * Extract contest data from ModelScope specific HTML structure
+   * Updated based on real website structure analysis
    */
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   protected extractContestData($element: any, $: any): RawContest {
     const title = this.extractTextFlexible($element, [
+      '.acss-1m97cav.acss-dwyc50.acss-igsxg0', // Real title selector from debug
       this.config.selectors.title,
       '.acss-1m97cav',
       '.acss-1wv93nj',
@@ -67,6 +231,7 @@ export class ModelScopeScraper extends EnhancedScraper {
     ]);
 
     const description = this.extractTextFlexible($element, [
+      '.acss-1m97cav.acss-1iac2ic.acss-1dboag6', // Real description selector from debug
       this.config.selectors.description,
       '.acss-1puit0p',
       '.acss-1d7mkp3 + p',
@@ -505,5 +670,133 @@ export class ModelScopeScraper extends EnhancedScraper {
     }
 
     return true;
+  }
+
+  /**
+   * Fetch HTML with carousel navigation - handles ModelScope's slick carousel
+   */
+  private async fetchHtmlWithCarouselNavigation(
+    url: string
+  ): Promise<{ html: string; links: string[] }> {
+    let browser = null;
+    let page = null;
+
+    try {
+      browser = await puppeteer.launch({
+        headless: true,
+        args: [
+          '--no-sandbox',
+          '--disable-setuid-sandbox',
+          '--disable-dev-shm-usage',
+          '--disable-accelerated-2d-canvas',
+          '--no-first-run',
+          '--no-zygote',
+          '--single-process',
+          '--disable-gpu',
+        ],
+      });
+
+      page = await browser.newPage();
+
+      // Set user agent to avoid detection
+      await page.setUserAgent(
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+      );
+
+      // Navigate to the page
+      await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
+
+      // Wait for carousel to load
+      await page.waitForSelector('.slick-slider', { timeout: 10000 });
+
+      logger.info('Carousel loaded, starting navigation');
+
+      // Get all carousel dot buttons
+      // Prefer iterating slides directly (exclude cloned slides) to collect anchors
+      const slides = await page.$$('.slick-slide:not(.slick-cloned)');
+      logger.info(`Found ${slides.length} carousel slides`);
+
+      const allHtmlContent: string[] = [];
+      const collectedLinks = new Set<string>();
+
+      // Iterate slides: activate each slide (via dot or click) then collect anchors within the active slide
+      for (let i = 0; i < Math.max(slides.length, 1); i++) {
+        try {
+          logger.info(`Navigating to carousel slide ${i + 1}/${slides.length}`);
+
+          // Try to activate using corresponding dot if present
+          const dot = await page.$(`.slick-dots li:nth-child(${i + 1}) button`);
+          if (dot) {
+            await dot.click().catch(() => {});
+          } else {
+            // fallback: click the slide itself
+            const slideHandle = slides[i];
+            if (slideHandle) {
+              await slideHandle.click().catch(() => {});
+            }
+          }
+
+          // Wait for carousel transition to complete
+          await page.waitForTimeout(800);
+
+          // Collect anchors within the active slide
+          const linksInSlide: string[] = await page.evaluate(() => {
+            const out: string[] = [];
+            try {
+              const doc: any = (globalThis as any).document;
+              if (!doc) return out;
+              const active: any = doc.querySelector(
+                '.slick-slide.slick-active'
+              );
+              if (active) {
+                const anchors: any = active.querySelectorAll('a[href]');
+                anchors.forEach((a: any) => {
+                  const href =
+                    (a && a.href) ||
+                    (a && a.getAttribute && a.getAttribute('href')) ||
+                    '';
+                  if (href) out.push(href);
+                });
+              }
+            } catch (e) {
+              // ignore
+            }
+            return out;
+          });
+
+          linksInSlide.forEach(l => {
+            if (l && l.includes('/competition/')) collectedLinks.add(l);
+          });
+
+          // Get the current page HTML snapshot
+          const currentHtml = await page.content();
+          allHtmlContent.push(currentHtml);
+
+          logger.info(
+            `Collected HTML and ${linksInSlide.length} anchors for carousel slide ${i + 1}`
+          );
+        } catch (error) {
+          logger.warn(`Failed to navigate carousel slide ${i + 1}`, { error });
+          // Continue with next slide
+        }
+      }
+
+      // Combine all HTML content and return collected links
+      const combinedHtml = allHtmlContent.join(
+        '\n<!-- Carousel Slide Separator -->\n'
+      );
+
+      logger.info(
+        `Successfully collected HTML from ${allHtmlContent.length} carousel slides and ${collectedLinks.size} slide links`
+      );
+
+      return { html: combinedHtml, links: Array.from(collectedLinks) };
+    } catch (error) {
+      logger.error('Failed to fetch HTML with carousel navigation', { error });
+      throw error;
+    } finally {
+      if (page) await page.close().catch(() => {});
+      if (browser) await browser.close().catch(() => {});
+    }
   }
 }

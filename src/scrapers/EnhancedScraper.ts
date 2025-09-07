@@ -3,7 +3,7 @@
  */
 
 import * as puppeteer from 'puppeteer';
-import cheerio, { CheerioAPI } from 'cheerio';
+import * as cheerio from 'cheerio';
 import * as fs from 'fs';
 import * as path from 'path';
 import { BaseScraper } from './BaseScraper';
@@ -98,14 +98,16 @@ export class EnhancedScraper extends BaseScraper {
         }
       }
 
-      // Wait a bit more for dynamic content to load
-      await page.waitForTimeout(2000);
+      // Wait longer for dynamic content to load (especially for SPA)
+      await page.waitForTimeout(8000);
 
       // Auto-scroll to bottom to trigger lazy loading if any
       try {
         await autoScroll(page);
+        // Wait after scrolling for content to load
+        await page.waitForTimeout(3000);
       } catch (e) {
-        // don't fail the scrape on scroll errors
+        logger.warn('Auto-scroll failed, continuing without scrolling');
       }
 
       // Get HTML content
@@ -160,7 +162,7 @@ export class EnhancedScraper extends BaseScraper {
    * Enhanced contest parsing with better error handling
    */
   protected parseContests(html: string): RawContest[] {
-    const $: CheerioAPI = cheerio.load(html);
+    const $ = cheerio.load(html);
     const contests: RawContest[] = [];
 
     // Debug: log page structure
@@ -239,7 +241,7 @@ export class EnhancedScraper extends BaseScraper {
    * Enhanced contest data extraction with more flexible selectors
    */
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  protected extractContestData($element: any, _$: CheerioAPI): RawContest {
+  protected extractContestData($element: any, _$: any): RawContest {
     // Try multiple selector patterns for each field
     const title = this.extractTextFlexible($element, [
       this.config.selectors.title,
@@ -340,11 +342,14 @@ async function autoScroll(page: puppeteer.Page): Promise<void> {
       let totalHeight = 0;
       const distance = 200;
       const timer = setInterval(() => {
-        const scrollHeight = document.body.scrollHeight;
-        window.scrollBy(0, distance);
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const scrollHeight = (document as any).body.scrollHeight;
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        (window as any).scrollBy(0, distance);
         totalHeight += distance;
 
-        if (totalHeight >= scrollHeight - window.innerHeight) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        if (totalHeight >= scrollHeight - (window as any).innerHeight) {
           clearInterval(timer);
           resolve();
         }

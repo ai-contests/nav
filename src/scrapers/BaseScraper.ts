@@ -95,7 +95,7 @@ export abstract class BaseScraper implements ContestScraper {
    */
   protected extractContestData(
     $element: cheerio.Cheerio<any>,
-    _$: cheerio.CheerioAPI
+    _$: any
   ): RawContest {
     const title = this.extractText($element, this.config.selectors.title);
     const description = this.extractText(

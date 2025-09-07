@@ -1,4 +1,11 @@
-# Nuxt dev/build outputs
+node_modules/
+dist/
+dist-debug/
+.nuxt/
+*.log
+tsconfig.tsbuildinfo
+.DS_Store
+/.vscode/# Nuxt dev/build outputs
 .output
 .data
 .nuxt

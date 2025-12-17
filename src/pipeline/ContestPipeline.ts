@@ -307,7 +307,14 @@ export class ContestPipeline {
           logger.warn(`No contests found for ${task.platformName}`);
         }
       } catch (error) {
-        logger.error(`Failed to crawl ${task.platformName}`, { error });
+        if (error instanceof Error) {
+          logger.error(`Failed to crawl ${task.platformName}`, {
+            message: error.message,
+            stack: error.stack,
+          });
+        } else {
+          logger.error(`Failed to crawl ${task.platformName}`, { error });
+        }
         // Continue with other platforms
       }
     }

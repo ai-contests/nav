@@ -33,6 +33,7 @@ export class SourceManager {
    */
   async loadConfig(): Promise<void> {
     try {
+      if (!this.configPath) return;
       if (await fs.pathExists(this.configPath)) {
         const configData = await fs.readJson(this.configPath);
         this.platforms = this.parseConfig(configData);
@@ -50,6 +51,7 @@ export class SourceManager {
    */
   async saveConfig(): Promise<void> {
     try {
+      if (!this.configPath) return;
       const configData = this.serializeConfig();
       const configDir = path.dirname(this.configPath);
 

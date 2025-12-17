@@ -69,12 +69,13 @@ Thumbs.db
 /src/tools/
 
 # Ignore generated debug data files under data/
-data/
-data/**
-# Keep structure but ignore content for specific folders
-data/raw/*.json
-data/processed/*.json
-data/backup/*.json
+# Ignore generated debug data files under data/
+data/*
+!data/raw/
+!data/processed/
+!data/raw/*.json
+!data/processed/*.json
+!data/.keep
 
 # Root-level debug images
 /modelscope-debug.png

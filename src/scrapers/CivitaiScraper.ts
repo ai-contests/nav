@@ -75,7 +75,14 @@ export class CivitaiScraper extends EnhancedScraper {
       );
       return enrichedContests;
     } catch (error) {
-      logger.error(`Failed to scrape ${this.platform}`, { error });
+      if (error instanceof Error) {
+        logger.error(`Failed to scrape ${this.platform}`, {
+          message: error.message,
+          stack: error.stack,
+        });
+      } else {
+        logger.error(`Failed to scrape ${this.platform}`, { error });
+      }
       throw error;
     } finally {
       // Ensure Puppeteer browser is closed so the process can exit cleanly

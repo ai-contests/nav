@@ -46,7 +46,8 @@ export class ContestPipeline {
    * Execute the complete pipeline
    */
   async execute(
-    mode?: 'full' | 'crawl-only' | 'process-only' | 'generate-only'
+    mode?: 'full' | 'crawl-only' | 'process-only' | 'generate-only',
+    platformFilter?: string
   ): Promise<ExecutionResult> {
     const startTime = new Date();
     const stats: ExecutionStats = {
@@ -71,7 +72,7 @@ export class ContestPipeline {
       if (mode === 'full' || mode === 'crawl-only' || !mode) {
         try {
           logger.info('Step 1: Starting data crawling');
-          rawContests = await this.crawlData();
+          rawContests = await this.crawlData(platformFilter);
           stats.crawled = rawContests.length;
           logger.info(`Crawled ${rawContests.length} contests`);
 
@@ -274,11 +275,15 @@ export class ContestPipeline {
   /**
    * Crawl data from all enabled platforms
    */
-  private async crawlData(): Promise<RawContest[]> {
+  private async crawlData(platformFilter?: string): Promise<RawContest[]> {
     const allContests: RawContest[] = [];
 
     // Generate crawl tasks
-    const tasks = await this.sourceManager.generateCrawlTasks();
+    let tasks = await this.sourceManager.generateCrawlTasks();
+
+    if (platformFilter) {
+      tasks = tasks.filter(t => t.platformName.toLowerCase() === platformFilter.toLowerCase());
+    }
 
     if (tasks.length === 0) {
       logger.warn('No crawl tasks generated. Check platform configurations.');

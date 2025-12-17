@@ -23,9 +23,7 @@
     "export": "ts-node src/main.ts export",
     "cleanup": "ts-node src/main.ts cleanup",
     "run": "ts-node src/main.ts run",
-    "run:civitai": "ts-node src/scripts/run-civitai.ts",
-    "run:modelscope": "ts-node src/scripts/run-modelscope.ts",
-  "aggregate:contests": "ts-node src/scripts/aggregate-contests.ts",
+    "aggregate:contests": "ts-node src/scripts/aggregate-contests.ts",
     "clean": "rimraf dist",
     "prepare": "husky install"
   },

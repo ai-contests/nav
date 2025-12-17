@@ -183,6 +183,7 @@ program
   .command('crawl')
   .description('Crawl contest data from all platforms')
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
+  .option('-p, --platform <platform>', 'Platform to crawl (optional)')
   .action(async options => {
     try {
       console.log('🕷️  Starting data crawling...');
@@ -190,7 +191,7 @@ program
       const config = await loadConfig(options.config);
       const pipeline = new ContestPipeline(config);
 
-      const result = await pipeline.execute('crawl-only');
+      const result = await pipeline.execute('crawl-only', options.platform);
       displayResults(result);
 
       if (!result.success) {
@@ -276,6 +277,8 @@ program
       process.exit(1);
     }
   });
+
+
 
 // Parse command line arguments
 program.parse();

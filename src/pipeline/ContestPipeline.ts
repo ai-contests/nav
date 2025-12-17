@@ -29,7 +29,7 @@ export class ContestPipeline {
   constructor(config: AppConfig) {
     this.config = config;
     this.sourceManager = new SourceManager(config.sources);
-    this.scraperManager = new ScraperManager();
+    this.scraperManager = new ScraperManager(this.sourceManager);
     this.aiProcessor = new AIProcessor(config.aiProcessor);
     this.storageManager = new StorageManager(config.storage);
     this.dataValidator = new DataValidator();
@@ -277,6 +277,9 @@ export class ContestPipeline {
    */
   private async crawlData(platformFilter?: string): Promise<RawContest[]> {
     const allContests: RawContest[] = [];
+
+    // Ensure scrapers are up to date with config
+    await this.scraperManager.refresh();
 
     // Generate crawl tasks
     let tasks = await this.sourceManager.generateCrawlTasks();

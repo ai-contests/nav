@@ -49,7 +49,14 @@ export class EnhancedScraper extends BaseScraper {
       });
       logger.info('Puppeteer browser initialized (Stealth Mode)');
     } catch (error) {
-      logger.error('Failed to initialize browser', { error });
+      if (error instanceof Error) {
+        logger.error('Failed to initialize browser', {
+          message: error.message,
+          stack: error.stack,
+        });
+      } else {
+        logger.error('Failed to initialize browser', { error });
+      }
       throw error;
     }
   }

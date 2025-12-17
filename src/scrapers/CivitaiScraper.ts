@@ -97,6 +97,11 @@ export class CivitaiScraper extends EnhancedScraper {
   private async fetchCivitaiAnnouncements(): Promise<RawContest[]> {
     try {
       const axios = await import('axios');
+      const { HttpsProxyAgent } = await import('https-proxy-agent');
+
+      // Check for proxy in environment
+      const proxyUrl = process.env.HTTPS_PROXY || process.env.HTTP_PROXY;
+      const httpsAgent = proxyUrl ? new HttpsProxyAgent(proxyUrl) : undefined;
 
       const input = encodeURIComponent(
         JSON.stringify({ json: { domain: 'blue' } })
@@ -105,9 +110,16 @@ export class CivitaiScraper extends EnhancedScraper {
 
       const resp = await axios.default.get(url, {
         headers: {
-          'User-Agent': this.userAgent,
+          'User-Agent':
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
           Accept: 'application/json, text/plain, */*',
+          Referer: 'https://civitai.com/',
+          Origin: 'https://civitai.com',
+          'Sec-Fetch-Dest': 'empty',
+          'Sec-Fetch-Mode': 'cors',
+          'Sec-Fetch-Site': 'same-origin',
         },
+        httpsAgent, // Apply proxy agent if available
         timeout: 15000,
       });
 

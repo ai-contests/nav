@@ -2,7 +2,9 @@
  * Enhanced scraper with Puppeteer support for dynamic content
  */
 
-import * as puppeteer from 'puppeteer';
+import puppeteer from 'puppeteer-extra';
+import { Page } from 'puppeteer';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 import * as cheerio from 'cheerio';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -10,8 +12,12 @@ import { BaseScraper } from './BaseScraper';
 import { RawContest, PlatformConfig } from '../types';
 import { logger } from '../utils/logger';
 
+// Add stealth plugin
+puppeteer.use(StealthPlugin());
+
 export class EnhancedScraper extends BaseScraper {
-  protected browser: puppeteer.Browser | null = null;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  protected browser: any | null = null;
   protected headless: boolean = true;
 
   constructor(config: PlatformConfig, userAgent?: string, timeout = 30000) {
@@ -23,24 +29,25 @@ export class EnhancedScraper extends BaseScraper {
   }
 
   /**
-   * Initialize Puppeteer browser
+   * Initialize Puppeteer browser with Stealth mode
    */
   async initBrowser(): Promise<void> {
     if (this.browser) return;
 
     try {
       this.browser = await puppeteer.launch({
-        headless: this.headless,
+        headless: this.headless ? 'new' : false, // Use new headless mode
         args: [
           '--no-sandbox',
           '--disable-setuid-sandbox',
           '--disable-dev-shm-usage',
           '--disable-web-security',
-          '--disable-features=VizDisplayCompositor',
+          '--disable-features=IsolateOrigins,site-per-process', // Often helps with frames
+          '--disable-blink-features=AutomationControlled', // Critical for anti-bot
         ],
         timeout: this.timeout,
       });
-      logger.info('Puppeteer browser initialized');
+      logger.info('Puppeteer browser initialized (Stealth Mode)');
     } catch (error) {
       logger.error('Failed to initialize browser', { error });
       throw error;
@@ -336,7 +343,7 @@ export class EnhancedScraper extends BaseScraper {
 /**
  * Auto-scroll helper for Puppeteer pages to trigger lazy loading
  */
-async function autoScroll(page: puppeteer.Page): Promise<void> {
+async function autoScroll(page: Page): Promise<void> {
   await page.evaluate(async () => {
     await new Promise<void>(resolve => {
       let totalHeight = 0;

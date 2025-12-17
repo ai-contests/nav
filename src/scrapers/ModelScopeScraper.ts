@@ -5,7 +5,7 @@
 
 import * as cheerio from 'cheerio';
 import * as fs from 'fs-extra';
-import * as puppeteer from 'puppeteer';
+
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { RawContest, PlatformConfig } from '../types';
 import { logger } from '../utils/logger';
@@ -678,38 +678,34 @@ export class ModelScopeScraper extends EnhancedScraper {
   private async fetchHtmlWithCarouselNavigation(
     url: string
   ): Promise<{ html: string; links: string[] }> {
-    let browser = null;
+    // Ensure browser is initialized (using EnhancedScraper logic with Stealth)
+    await this.initBrowser();
+
+    if (!this.browser) {
+      throw new Error('Browser not initialized');
+    }
+
     let page = null;
 
     try {
-      browser = await puppeteer.launch({
-        headless: true,
-        args: [
-          '--no-sandbox',
-          '--disable-setuid-sandbox',
-          '--disable-dev-shm-usage',
-          '--disable-accelerated-2d-canvas',
-          '--no-first-run',
-          '--no-zygote',
-          '--single-process',
-          '--disable-gpu',
-        ],
-      });
+      page = await this.browser.newPage();
 
-      page = await browser.newPage();
-
-      // Set user agent to avoid detection
+      // Set user agent to avoid detection (if not already set globally)
       await page.setUserAgent(
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
       );
 
       // Navigate to the page
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
 
-      // Wait for carousel to load
-      await page.waitForSelector('.slick-slider', { timeout: 10000 });
-
-      logger.info('Carousel loaded, starting navigation');
+      // Wait for carousel to load - be more resilient
+      try {
+        await page.waitForSelector('.slick-slider', { timeout: 10000 });
+        logger.info('Carousel loaded, starting navigation');
+      } catch (e) {
+        logger.warn('Carousel selector not found, attempting fallback to simple page content');
+        return { html: await page.content(), links: [] };
+      }
 
       // Get all carousel dot buttons
       // Prefer iterating slides directly (exclude cloned slides) to collect anchors
@@ -722,6 +718,9 @@ export class ModelScopeScraper extends EnhancedScraper {
       // Iterate slides: activate each slide (via dot or click) then collect anchors within the active slide
       for (let i = 0; i < Math.max(slides.length, 1); i++) {
         try {
+          // Check if page is still open
+          if (page.isClosed()) break;
+
           logger.info(`Navigating to carousel slide ${i + 1}/${slides.length}`);
 
           // Try to activate using corresponding dot if present
@@ -737,19 +736,23 @@ export class ModelScopeScraper extends EnhancedScraper {
           }
 
           // Wait for carousel transition to complete
-          await page.waitForTimeout(800);
+          await page.waitForTimeout(1000);
 
           // Collect anchors within the active slide
           const linksInSlide: string[] = await page.evaluate(() => {
             const out: string[] = [];
             try {
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
               const doc: any = (globalThis as any).document;
               if (!doc) return out;
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
               const active: any = doc.querySelector(
                 '.slick-slide.slick-active'
               );
               if (active) {
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 const anchors: any = active.querySelectorAll('a[href]');
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 anchors.forEach((a: any) => {
                   const href =
                     (a && a.href) ||
@@ -796,7 +799,7 @@ export class ModelScopeScraper extends EnhancedScraper {
       throw error;
     } finally {
       if (page) await page.close().catch(() => {});
-      if (browser) await browser.close().catch(() => {});
+      // Do NOT close browser here, as it's managed by the class
     }
   }
 }

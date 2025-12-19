@@ -302,7 +302,7 @@ export class SourceManager {
         baseUrl: 'https://civitai.com',
         contestListUrl: 'https://civitai.com/events',
         selectors: {
-          contestItems: '[data-testid="event-card"]',
+          contestItems: 'a[href^="/events/"], [data-testid="event-card"]',
           title: 'h3',
           description: '.event-description',
           deadline: '.event-deadline',

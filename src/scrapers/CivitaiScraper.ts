@@ -33,16 +33,24 @@ export class CivitaiScraper extends EnhancedScraper {
         html = await this.fetchHtmlWithPuppeteer(this.config.contestListUrl);
         logger.info('Fetched HTML with Puppeteer for Civitai');
       } catch (e) {
+        const err = e as Error;
         logger.warn(
           'Puppeteer fetch failed for Civitai, falling back to HTTP fetch',
-          { error: e }
+          { message: err.message, stack: err.stack }
         );
         html = await this.fetchHtml(this.config.contestListUrl);
       }
 
-      let contests = this.parseContests(html).filter(contest =>
-        this.validateContest(contest)
-      );
+      const rawContests = this.parseContests(html);
+      logger.info(`Parsed ${rawContests.length} raw contests from HTML`);
+      
+      let contests = rawContests.filter(contest => {
+        const isValid = this.validateContest(contest);
+        if (!isValid) {
+            logger.debug('Contest validation failed', { title: contest.title, url: contest.url });
+        }
+        return isValid;
+      });
 
       // If parsing produced no usable contests, try announcement API as a robust fallback
       if (!contests || contests.length === 0) {
@@ -241,9 +249,45 @@ export class CivitaiScraper extends EnhancedScraper {
             ? this.extractPrizeHeuristic([title || '', it.content || ''])
             : '';
 
+        // Initial extraction from raw data
+        let cleanTitle = this.cleanText(title || '');
+
+        // Fix common Civitai title formatting issues where metadata is prepended
+        // e.g. "FaeiaDec 12, 2025🎄Winter Festival Contest 2025❄️..."
+        if (cleanTitle) {
+          // Try to split by date patterns if title looks like "AuthorMonth Day, YearReal Title"
+          // Matches "AuthorNameMonth Day, YearTitle"
+          // This Regex looks for a Date followed by the rest of the title
+          const messyTitleMatch = cleanTitle.match(/^([a-zA-Z0-9_]+)((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2},?\s+\d{4})(.*)/i);
+
+          if (messyTitleMatch) {
+            // Group 1: Author (e.g. Faeia)
+            // Group 2: Date (e.g. Dec 12, 2025)
+            // Group 3: Real Title (e.g. 🎄Winter Festival Contest 2025❄️56503896k)
+            const extractedDate = messyTitleMatch[2];
+            let realTitle = messyTitleMatch[3].trim();
+
+            // If realTitle ends with stats like "56503896k", try to strip them
+            // Look for a sequence of digits and 'k'/'m' at the end
+            const statsMatch = realTitle.match(/^(.*?)(\d+(?:\.\d+)?[kmKM]?\d*[kmKM]?)$/);
+            if (statsMatch) {
+              realTitle = statsMatch[1];
+            }
+
+            if (realTitle.length > 3) {
+              cleanTitle = realTitle.trim();
+              if (!endsAt) {
+                // Use the extracted date as a fallback for deadline if missing
+                // Note: The date at start of title is often the POST date or START date, not deadline.
+                // But sometimes it's the only date we have.
+                // Better to leave deadline undefined if we aren't sure it's an end date.
+              }
+            }
+          }
+        }
         const rc: RawContest = {
           platform: this.platform,
-          title: this.cleanText(title || ''),
+          title: cleanTitle,
           description: this.cleanText(
             it.content || it.description || it.summary || ''
           ),

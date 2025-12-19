@@ -117,6 +117,7 @@ export interface AIProcessorConfig {
   apiKey?: string; // API密钥（如需要）
   maxTokens: number; // 最大token数
   batchSize: number; // 批处理大小
+  modelName?: string; // 模型名称
 }
 
 /**

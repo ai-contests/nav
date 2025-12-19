@@ -36,7 +36,7 @@ export class EnhancedScraper extends BaseScraper {
 
     try {
       this.browser = await puppeteer.launch({
-        headless: this.headless ? 'new' : false, // Use new headless mode
+        headless: this.headless, // Use new headless mode (default true)
         args: [
           '--no-sandbox',
           '--disable-setuid-sandbox',
@@ -113,13 +113,13 @@ export class EnhancedScraper extends BaseScraper {
       }
 
       // Wait longer for dynamic content to load (especially for SPA)
-      await page.waitForTimeout(8000);
+      await new Promise(r => setTimeout(r, 8000));
 
       // Auto-scroll to bottom to trigger lazy loading if any
       try {
         await autoScroll(page);
         // Wait after scrolling for content to load
-        await page.waitForTimeout(3000);
+        await new Promise(r => setTimeout(r, 3000));
       } catch (e) {
         logger.warn('Auto-scroll failed, continuing without scrolling');
       }

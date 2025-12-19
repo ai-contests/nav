@@ -3,15 +3,13 @@
  * Handles AI-powered content analysis and enhancement
  */
 
-import axios from 'axios';
-import {
-  RawContest,
-  ProcessedContest,
-  AIProcessorConfig,
-  AIProcessResult,
-} from '../types';
+import { AIProcessorConfig, AIProcessResult, RawContest, ProcessedContest } from '../types';
 import { logger } from '../utils/logger';
+import axios from 'axios';
 import { generateId } from '../utils';
+
+import ModelClient, { isUnexpected } from "@azure-rest/ai-inference";
+import { AzureKeyCredential } from "@azure/core-auth";
 
 export class AIProcessor {
   private config: AIProcessorConfig;
@@ -119,42 +117,52 @@ export class AIProcessor {
   }
 
   /**
-   * Get AI analysis from ModelScope API
+   * Get AI analysis from Github Models (via Azure AI Inference SDK)
    */
   private async getAIAnalysis(contest: RawContest): Promise<AIProcessResult> {
     try {
       const prompt = this.buildAnalysisPrompt(contest);
 
-      const response = await axios.post(
-        this.config.apiEndpoint,
-        {
-          model: 'qwen-plus',
-          messages: [
-            {
-              role: 'system',
-              content:
-                'You are an AI contest analysis expert. Analyze contest information and provide structured output in JSON format.',
-            },
-            {
-              role: 'user',
-              content: prompt,
-            },
-          ],
-          max_tokens: this.config.maxTokens,
-          temperature: 0.3,
-        },
-        {
-          headers: {
-            Authorization: `Bearer ${this.config.apiKey}`,
-            'Content-Type': 'application/json',
-          },
-          timeout: 30000,
-        }
+      // Use Github Models endpoint
+      const endpoint = this.config.apiEndpoint || 'https://models.github.ai/inference';
+      const modelName = this.config.modelName || 'ai21-labs/AI21-Jamba-1.5-Large';
+      const apiKey = this.config.apiKey || process.env.GITHUB_TOKEN || process.env.OPENAI_API_KEY;
+
+      if (!apiKey) {
+        throw new Error('API key is missing. Please set GITHUB_TOKEN or OPENAI_API_KEY for GitHub Models.');
+      }
+
+      const client = ModelClient(
+        endpoint,
+        new AzureKeyCredential(apiKey)
       );
 
+      const response = await client.path("/chat/completions").post({
+        body: {
+          messages: [
+            {
+              role: "system",
+              content: "You are an AI contest analysis expert. Analyze contest information and provide structured output in JSON format."
+            },
+            {
+              role: "user",
+              content: prompt
+            }
+          ],
+          model: modelName,
+          max_tokens: this.config.maxTokens || 1000,
+          temperature: 0.1
+        }
+      });
+
+      if (isUnexpected(response)) {
+        throw new Error(JSON.stringify(response.body));
+      }
+
       // Parse the AI response
-      const aiResponse = response.data.choices[0].message.content;
-      return this.parseAIResponse(aiResponse);
+      const content = response.body.choices[0].message.content;
+      return this.parseAIResponse(content);
+
     } catch (error) {
       logger.warn('AI analysis failed, using fallback analysis', { error });
       return this.getFallbackAnalysis(contest);

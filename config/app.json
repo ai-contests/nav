@@ -6,8 +6,8 @@
       "baseUrl": "https://modelscope.cn",
       "contestListUrl": "https://modelscope.cn/competition",
       "selectors": {
-        "contestItems": "a[href*=\"/competition/\"], [class*=\"competition\"], [class*=\"contest\"], .acss-ukjaiy",
-        "title": "a[href*=\"/competition/\"] .acss-1m97cav, h3, h4, .title, [class*=\"title\"]",
+        "contestItems": "a[href*=\"/competition/\"], [class*=\"competition\"], [class*=\"contest\"]",
+        "title": "h3, h4, .title, [class*=\"title\"]",
         "description": ".description, .desc, p",
         "deadline": ".deadline, .time, [class*=\"deadline\"], [class*=\"time\"]",
         "prize": ".prize, .reward, [class*=\"prize\"], [class*=\"reward\"]",

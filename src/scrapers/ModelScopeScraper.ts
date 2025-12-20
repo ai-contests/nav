@@ -5,6 +5,7 @@
 
 import * as cheerio from 'cheerio';
 import * as fs from 'fs-extra';
+import axios from 'axios';
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { RawContest, PlatformConfig } from '../types';
@@ -24,92 +25,34 @@ export class ModelScopeScraper extends EnhancedScraper {
    * Scrape contests from ModelScope platform
    */
   async scrape(): Promise<RawContest[]> {
-    logger.info(`Starting scrape for ${this.platform}`, {
-      url: this.config.contestListUrl,
+    logger.info(`Starting scrape for ${this.platform} via API`, {
+      url: 'https://modelscope.cn/api/v1/competitions',
     });
 
     try {
-      await this.applyDelay();
+      // Direct API call
+      const response = await axios.get('https://modelscope.cn/api/v1/competitions', {
+        headers: {
+          'User-Agent': this.userAgent,
+          'Referer': 'https://modelscope.cn/',
+          'Accept': 'application/json, text/plain, */*'
+        },
+        timeout: 30000
+      });
 
-      // Use Puppeteer for SPA content - ModelScope requires dynamic loading
-      let html: string;
-      try {
-        // Use Puppeteer to handle carousel navigation and collect slide links
-        const navResult = await this.fetchHtmlWithCarouselNavigation(
-          this.config.contestListUrl
-        );
-        html = navResult.html;
-        // attach slide links to config for later enrichment
-        (this as any)._carouselSlideLinks = navResult.links || [];
-        logger.info(
-          'Successfully fetched HTML with carousel navigation for ModelScope',
-          { slideLinks: (this as any)._carouselSlideLinks.length }
-        );
-      } catch (puppeteerError) {
-        logger.warn(
-          'Puppeteer carousel navigation failed, falling back to simple Puppeteer',
-          { error: puppeteerError }
-        );
-        try {
-          html = await this.fetchHtmlWithPuppeteer(this.config.contestListUrl);
-          logger.info(
-            'Successfully fetched HTML with Puppeteer for ModelScope'
-          );
-        } catch (fallbackError) {
-          logger.warn('Puppeteer failed, falling back to simple HTTP', {
-            error: fallbackError,
-          });
-          html = await this.fetchHtml(this.config.contestListUrl);
-        }
+      if (!response.data || !response.data.Data || !response.data.Data.Races) {
+        logger.warn('ModelScope API returned unexpected structure', { data: response.data });
+        return [];
       }
 
-      const contests = this.parseContests(html);
-      // If carousel provided explicit slide links, fetch their detail pages and merge
-      try {
-        const slideLinks: string[] = (this as any)._carouselSlideLinks || [];
-        for (const link of slideLinks) {
-          try {
-            // Normalize
-            const normalized = this.isValidUrl(link)
-              ? link
-              : `${this.config.baseUrl}${link.startsWith('/') ? '' : '/'}${link}`;
-            // Skip if already present
-            if (contests.find(c => c.url === normalized)) continue;
-            await this.applyDelay();
-            const detailHtml = await this.fetchHtml(normalized);
-            const minimal: RawContest = {
-              platform: this.platform,
-              title: '',
-              description: '',
-              url: normalized,
-              deadline: undefined,
-              prize: '',
-              rawHtml: '',
-              scrapedAt: new Date().toISOString(),
-              metadata: {},
-            };
-            const enriched = await this.extractDetailedInfo(
-              minimal,
-              detailHtml
-            );
-            // Only add if validated
-            if (this.validateContest(enriched)) {
-              contests.push(enriched);
-            } else {
-              // still push minimally so it's not lost
-              contests.push(enriched);
-            }
-          } catch (e) {
-            logger.warn('Failed to fetch/parse slide link', { link, error: e });
-          }
-        }
-      } catch (e) {
-        // ignore carousel enrichment errors
-        logger.warn('Carousel enrichment failed', { error: e });
-      }
-      const validContests = contests.filter(contest =>
-        this.validateContest(contest)
-      );
+      const races = response.data.Data.Races;
+      logger.info(`Fetched ${races.length} races from ModelScope API`);
+
+      const contests: RawContest[] = races.map((race: any) => this.mapRaceToContest(race));
+      
+      const validContests = contests.filter(contest => this.validateContest(contest));
+      
+      // Enrich with detailed info if valid (ModelScope list data is already quite rich, but we pass through)
       const enrichedContests = await this.enrichContestData(validContests);
 
       logger.info(
@@ -117,22 +60,130 @@ export class ModelScopeScraper extends EnhancedScraper {
       );
 
       return enrichedContests;
+
     } catch (error) {
       logger.error(`Failed to scrape ${this.platform}`, {
-        error:
-          error instanceof Error
-            ? {
-                name: error.name,
-                message: error.message,
-                stack: error.stack,
-              }
-            : error,
-        url: this.config.contestListUrl,
+        error: error instanceof Error ? { message: error.message, stack: error.stack } : error
       });
       throw error;
-    } finally {
-      await this.closeBrowser();
     }
+  }
+
+  /**
+   * Map API race object to RawContest
+   */
+  private mapRaceToContest(race: any): RawContest {
+    // Construct URL: https://modelscope.cn/competition/{CompetitionId}
+    // Some responses use 'Id' instead of 'CompetitionId'
+    const id = race.CompetitionId || race.Id;
+    const url = `https://modelscope.cn/competition/${id}`;
+    
+    // Parse deadline: RegistrationDeadline is unix timestamp in seconds
+    let deadline: string | undefined;
+    if (race.RegistrationDeadline) {
+      deadline = new Date(race.RegistrationDeadline * 1000).toISOString();
+    }
+
+    // Try to extract image from Content if ImageUrl is missing
+    let imageUrl = race.ImageUrl || race.Icon;
+    if (!imageUrl && race.Content) {
+      try {
+        const contentStr = typeof race.Content === 'string' ? race.Content : JSON.stringify(race.Content);
+        // Simple regex to find the first image src in the JSON string
+        // Looking for "src":"https://..."
+        const imgMatch = contentStr.match(/"src"\s*:\s*"([^"]+)"/);
+        if (imgMatch && imgMatch[1]) {
+          imageUrl = imgMatch[1];
+        }
+      } catch (e) {
+        // ignore parsing error
+      }
+    }
+
+      // Map status
+    let status: 'active' | 'upcoming' | 'ended' | 'cancelled' = 'active';
+    if (race.Status === 1) {
+      status = 'active';
+    } else if (race.Status === 2) {
+      status = 'ended'; // Assumption, verified later or by deadline
+    }
+
+    // Double check with deadline
+    if (deadline && new Date(deadline) < new Date()) {
+      status = 'ended';
+    }
+
+    // Extract rich description from Content
+    let fullDescription = this.cleanText(race.Brief || '');
+    if (race.Content) {
+      const contentText = this.parseContentText(typeof race.Content === 'string' ? race.Content : JSON.stringify(race.Content));
+      if (contentText.length > fullDescription.length) {
+        fullDescription = fullDescription + '\n\n' + contentText;
+      }
+    }
+
+    // Extract Organizer info
+    let organizerName = '';
+    if (race.OrganizerInfo && Array.isArray(race.OrganizerInfo) && race.OrganizerInfo.length > 0) {
+      organizerName = race.OrganizerInfo.map((o: any) => o.Name).join(', ');
+    }
+
+    return {
+      platform: this.platform,
+      title: this.cleanText(race.Title || race.CompetitionName || ''),
+      description: fullDescription.substring(0, 5000), // Limit length but keep enough for AI
+      url: url,
+      deadline: deadline,
+      status: status, // Populate top-level status
+      prize: this.cleanText(race.BonusDesc || ''),
+      rawHtml: '', // No raw HTML from API
+      scrapedAt: new Date().toISOString(),
+      metadata: {
+        rawRace: race,
+        difficulty: race.TaskType,
+        tags: race.CategoryCn ? [race.CategoryCn] : [],
+        status: race.Status, // Keep original status in metadata
+        imageUrl: imageUrl,
+        organizer: organizerName
+      }
+    };
+  }
+
+  /**
+   * Parse Content JSON string to extract pure text
+   */
+  private parseContentText(contentStr: string): string {
+    try {
+      const content = JSON.parse(contentStr);
+      if (!Array.isArray(content)) return '';
+
+      let text = '';
+      for (const section of content) {
+        if (section.content) {
+            text += this.extractTextFromNode(section.content) + '\n';
+        }
+      }
+      return text.trim();
+    } catch (e) {
+      return '';
+    }
+  }
+
+  /**
+   * Recursively extract text from Content node structure
+   * Node format: [tag, attrs, child1, child2...] or string
+   */
+  private extractTextFromNode(node: any): string {
+    if (typeof node === 'string') return node;
+    if (!Array.isArray(node)) return '';
+    
+    // node is [tag, attrs, child1, child2...]
+    // children start at index 2
+    let text = '';
+    for (let i = 2; i < node.length; i++) {
+        text += this.extractTextFromNode(node[i]);
+    }
+    return text;
   }
 
   /**
@@ -148,7 +199,6 @@ export class ModelScopeScraper extends EnhancedScraper {
     const possibleSelectors = [
       'div.antd5-col a[href*="/competition/"]', // Column containers with competition links
       'a[href*="/competition/"]', // All competition links
-      'div[class*="acss-ukjaiy"]', // Competition card containers
       '.antd5-col', // Grid columns that might contain competitions
       this.config.selectors.contestItems, // Fallback to config
     ];
@@ -736,7 +786,7 @@ export class ModelScopeScraper extends EnhancedScraper {
           }
 
           // Wait for carousel transition to complete
-          await page.waitForTimeout(1000);
+          await new Promise(r => setTimeout(r, 1000));
 
           // Collect anchors within the active slide
           const linksInSlide: string[] = await page.evaluate(() => {

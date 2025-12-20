@@ -191,16 +191,29 @@ export class StorageManager {
           `${platform}-latest.json`
         );
       } else {
-        // Load all latest raw data
+        // Load all latest raw data, optionally filtered by platform
         const rawDir = path.join(this.config.dataDir, 'raw');
+        
+        if (!(await fs.pathExists(rawDir))) {
+            return [];
+        }
+
         const files = await fs.readdir(rawDir);
-        const latestFiles = files.filter(file => file.endsWith('-latest.json'));
+        let latestFiles = files.filter(file => file.endsWith('-latest.json'));
+
+        if (platform) {
+            latestFiles = latestFiles.filter(file => file.startsWith(`${platform}-`));
+        }
 
         const allContests: RawContest[] = [];
         for (const file of latestFiles) {
-          const data = await fs.readJson(path.join(rawDir, file));
-          if (data.contests && Array.isArray(data.contests)) {
-            allContests.push(...data.contests);
+          try {
+            const data = await fs.readJson(path.join(rawDir, file));
+            if (data.contests && Array.isArray(data.contests)) {
+                allContests.push(...data.contests);
+            }
+          } catch (e) {
+             logger.warn(`Failed to read raw file ${file}`, {error: e});
           }
         }
         return allContests;

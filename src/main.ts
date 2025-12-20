@@ -208,6 +208,7 @@ program
   .command('process')
   .description('Process existing raw data with AI')
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
+  .option('-p, --platform <platform>', 'Platform to process (optional)')
   .action(async options => {
     try {
       console.log('🤖 Starting AI processing...');
@@ -215,7 +216,7 @@ program
       const config = await loadConfig(options.config);
       const pipeline = new ContestPipeline(config);
 
-      const result = await pipeline.execute('process-only');
+      const result = await pipeline.execute('process-only', options.platform);
       displayResults(result);
 
       if (!result.success) {

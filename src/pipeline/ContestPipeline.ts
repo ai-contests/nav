@@ -144,19 +144,43 @@ export class ContestPipeline {
 
       // Step 3: AI Processing
       if (
-        (mode === 'full' || mode === 'process-only' || !mode) &&
-        rawContests.length > 0
+        (mode === 'full' || mode === 'process-only' || !mode)
       ) {
-        try {
-          logger.info('Step 3: Processing contests with AI');
-          processedContests = await this.processContests(rawContests);
-          stats.processed = processedContests.length;
-          logger.info(`Processed ${processedContests.length} contests`);
-        } catch (error) {
-          const errorMsg = `AI processing failed: ${error}`;
-          errors.push(errorMsg);
-          stats.errors++;
-          logger.error(errorMsg, { error });
+            // Load raw data for processing if not already loaded (e.g. process-only mode)
+            if (rawContests.length === 0 && mode === 'process-only') {
+                try {
+                logger.info(`Loading raw data for processing${platformFilter ? ` (filter: ${platformFilter})` : ''}`);
+                // Fix: passing platformFilter to loadRawContests to only load relevant files
+                rawContests = await this.storageManager.loadRawContests(platformFilter); // Need to update StorageManager.loadRawContests signature or filter after loading
+                
+                // Filter manually if StorageManager doesn't support it yet (safe fallback)
+                if (platformFilter) {
+                    rawContests = rawContests.filter(c => c.platform.toLowerCase() === platformFilter.toLowerCase());
+                }
+                
+                logger.info(`Loaded ${rawContests.length} raw contests for processing`);
+                } catch (error) {
+                const errorMsg = `Failed to load raw data: ${error}`;
+                errors.push(errorMsg);
+                stats.errors++;
+                logger.error(errorMsg, { error });
+                }
+            }
+
+        if (rawContests.length > 0) {
+            try {
+            logger.info('Step 3: Processing contests with AI');
+            processedContests = await this.processContests(rawContests);
+            stats.processed = processedContests.length;
+            logger.info(`Processed ${processedContests.length} contests`);
+            } catch (error) {
+            const errorMsg = `AI processing failed: ${error}`;
+            errors.push(errorMsg);
+            stats.errors++;
+            logger.error(errorMsg, { error });
+            }
+        } else {
+             logger.warn('No raw contests available for processing');
         }
       }
 

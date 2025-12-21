@@ -264,7 +264,7 @@ export class CivitaiScraper extends EnhancedScraper {
             // Group 1: Author (e.g. Faeia)
             // Group 2: Date (e.g. Dec 12, 2025)
             // Group 3: Real Title (e.g. 🎄Winter Festival Contest 2025❄️56503896k)
-            const extractedDate = messyTitleMatch[2];
+            // const extractedDate = messyTitleMatch[2]; // Unused
             let realTitle = messyTitleMatch[3].trim();
 
             // If realTitle ends with stats like "56503896k", try to strip them

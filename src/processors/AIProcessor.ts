@@ -5,7 +5,6 @@
 
 import { AIProcessorConfig, AIProcessResult, RawContest, ProcessedContest } from '../types';
 import { logger } from '../utils/logger';
-import axios from 'axios';
 import { generateId } from '../utils';
 
 import ModelClient, { isUnexpected } from "@azure-rest/ai-inference";

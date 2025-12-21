@@ -118,7 +118,7 @@ export class ModelScopeScraper extends EnhancedScraper {
     if (race.Content) {
       const contentText = this.parseContentText(typeof race.Content === 'string' ? race.Content : JSON.stringify(race.Content));
       if (contentText.length > fullDescription.length) {
-        fullDescription = fullDescription + '\n\n' + contentText;
+        fullDescription = `${fullDescription}\n\n${contentText}`;
       }
     }
 
@@ -132,9 +132,9 @@ export class ModelScopeScraper extends EnhancedScraper {
       platform: this.platform,
       title: this.cleanText(race.Title || race.CompetitionName || ''),
       description: fullDescription.substring(0, 5000), // Limit length but keep enough for AI
-      url: url,
-      deadline: deadline,
-      status: status, // Populate top-level status
+      url,
+      deadline,
+      status, // Populate top-level status
       prize: this.cleanText(race.BonusDesc || ''),
       rawHtml: '', // No raw HTML from API
       scrapedAt: new Date().toISOString(),
@@ -143,7 +143,7 @@ export class ModelScopeScraper extends EnhancedScraper {
         difficulty: race.TaskType,
         tags: race.CategoryCn ? [race.CategoryCn] : [],
         status: race.Status, // Keep original status in metadata
-        imageUrl: imageUrl,
+        imageUrl,
         organizer: organizerName
       }
     };
@@ -160,7 +160,7 @@ export class ModelScopeScraper extends EnhancedScraper {
       let text = '';
       for (const section of content) {
         if (section.content) {
-            text += this.extractTextFromNode(section.content) + '\n';
+            text += `${this.extractTextFromNode(section.content)}\n`;
         }
       }
       return text.trim();

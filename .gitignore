@@ -70,12 +70,10 @@ Thumbs.db
 
 # Ignore generated debug data files under data/
 # Ignore generated debug data files under data/
+# Data directory
 data/*
-!data/raw/
 !data/processed/
-!data/raw/*.json
 !data/processed/*.json
-!data/.keep
 
 # Root-level debug images
 /modelscope-debug.png

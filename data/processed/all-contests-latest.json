@@ -1,0 +1,304 @@
+{
+  "platform": "all",
+  "timestamp": "2025-12-20T22:39:51.958Z",
+  "contestCount": 10,
+  "contests": [
+    {
+      "id": "contest_mjevsb62_rzg1qummt",
+      "title": "2025文旅智能体创新大赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/175",
+      "description": "大赛是以场景应用为牵引的文旅智能体竞赛平台，鼓励全球开发者围绕文旅真实场景，推动“需求—研发—验证—落地”全链条贯通，促进人工智能与智能体技术与文旅产业的深度应用。\n\n（一）大赛简介2025文旅智能体创新大赛（2025 Culture and Tourism Agent Innovation Competition）由杭州市文化广电旅游局指导，数字文旅产业（杭州）联盟、魔搭社区联合主办。大赛是以场景应用为牵引的文旅智能体竞赛平台，鼓励全球开发者围绕文旅真实场景，推动“需求—研发—验证—落地”全链条贯通，促进人工智能与智能体技术与文旅产业的深度应用。（二）赛事设置1、参赛组别（1）企业组参赛对象：企业团队。成果形式：可运行的解决方案，提供完整商业模式。（2）项目组参赛对象：高校/青少年团队，个人开发者。成果形式：可运行的解决方案，提供商业计划书。2、赛道方向（1）行程规划根据用户需求生成合理行程，包括动态行程优化（天气/流量）、个性化偏好匹配、多维度资源整合（吃住行游购娱）。（2）伴游讲解根据用户定位触发内容介绍，结合情感计算、多模态交互，准确识别并解答用户深度追问。（3）创意赛道针对除行程规划和伴游讲解外的文旅实际场景及具体问题，提供相应的智能体解决方案。3、参赛要求（1）本次大赛需把作品提交在魔搭创空间，作品名称包含“2025文旅智能体创新大赛”。（2）在比赛过程中发现或者被举报认定存在如下违规行为，即刻取消比赛资格：包含但不限于参赛报名信息作弊或造假、在参赛过程中出现违反相关法律、法规、政策规定的行为、涉嫌抄袭或侵犯他人知识产权的行为、提交的作品涉及不健康、淫秽、色情、毁谤第三方以及侵犯个人隐私的内容等。（三）大赛流程1、报名启动2025年12月15日2、报名截止&提交作品截止2026年3月13日3、初赛评审2026年3月中旬4、公布入围名单2026年3月下旬5、决赛路演&颁奖2026年4月上旬（四）比赛奖励1、大赛设丰厚奖金池。2、其它奖励：荣誉证书，多渠道重点推广。（五）评选标准1、技术实现（准确率、稳定性、响应速度）2、用户体验（交互能力、深度追问处理）3、市场价值（商业价值、社会价值）（六）赛事报名官方报名入口官方赛事群（微信群）（七）参赛权益新用户注册赠送： 100小时免费 GPU算力（36 DSW + 64 EAIS）https://modelscope.cn/docs/notebook/intro       魔搭免费资源 listhttps://modelscope.cn/learn/1409优秀参赛作品有机会获得媒体报道（八）组织机构指导单位：杭州市文化广电旅游局主办单位：数字文旅产业（杭州）联盟、魔搭社区\n（一）报名提交报名及初赛作品提交入口：2025文旅智能体创新大赛报名表截止时间：2026年3月13日⭐说明：（1）如果作品已经完成，请在报名表中填写作品信息。（2）如果作品尚未完成，可以先提交报名信息。等完成后，再次进入报名表提交作品信息。（二）官方资源魔搭免费资源listhttps://modelscope.cn/learn/1409（三）官方赛事群",
+      "summary": "大赛是以场景应用为牵引的文旅智能体竞赛平台，鼓励全球开发者围绕文旅真实场景，推动“需求—研发—验证—落地”全链条贯通，促进人工智能与智能体技术与文旅产业的深度应用。\n\n（一）大赛简介2025文旅智能体创新大赛（2025 Culture and Tourism Agent Innovation Competition）由杭州市文化广电旅游局指导，数字文旅产业（杭州）联盟、魔搭社区联合主办。大赛是以场...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-03-13T15:59:00.000Z",
+      "prize": "丰厚奖金池",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2025-12-20T22:39:49.899Z",
+      "scrapedAt": "2025-12-20T22:20:44.299Z",
+      "lastUpdated": "2025-12-20T22:39:49.899Z",
+      "version": 1
+    },
+    {
+      "id": "contest_mjevsbru_io41dktut",
+      "title": "AI+互动游戏挑战赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/135",
+      "description": "随着AI技术的快速发展，游戏创作门槛正在大幅降低。本次AI+互动游戏挑战赛以\"用AI赋能创意，让游戏连接世界\"为主题，旨在激发开发者运用AI技术创作融合多媒体元素的互动游戏。在此节点，开放原子开源基金会携手阿里云旗下魔搭社区共同发起「 AI+互动游戏挑战赛」，推动AI技术在游戏行业的创新应用，孵化和助力下一个现象级AI+游戏产品，让技术真正成为连接创意与现实的桥梁。\n\n最终入围决赛答辩的名单如下（排名不分先后）：赛题一：AI游戏作品创作赛道作品名称作品链接AI 侦探：谜镇奇案https://www.modelscope.cn/studios/JINN648674544/AIDetectiveMysteriousTownCase寂静终焉https://modelscope.cn/studios/Monsterdie/Silencewakwka娃娃机https://modelscope.cn/studios/qingshanyu/wakwkaAI平行幻境https://modelscope.cn/studios/androidest/ai-paracosm空号：吾心归处https://www.modelscope.cn/studios/jerryhzy/NULL_Where_Soul_Rests麻将贪食蛇https://www.modelscope.cn/studios/sojipi/Snakjong🐺 狼人杀杀杀（WereWolf Kill）https://modelscope.cn/studios/lucy666666/werewolf/summary云梦山学院https://modelscope.cn/studios/lapoeta/YunmengshanAcademy/summary智能汽车驾驶模拟游戏(AI-vollständiges-Modell)https://modelscope.cn/studios/weiyumm/aidrivergame赛题二：AI游戏创作工具赛道作品名称作品链接一站式游戏工具箱https://www.modelscope.cn/studios/Karlzhy/AIGameBox/IntelliVNG Studio · 基于 AI 多智能体的视觉小说游戏创作工坊https://modelscope.cn/studios/melxy1997/InteliVNG_Docker/从灵感到可玩https://modelscope.cn/studios/junyulingmo/AI_Game_Tools我的AI世界https://modelscope.cn/studios/agentland/AgentlandAetherWeave一个全栈Ai游戏开发工具https://modelscope.cn/studios/xmccln/GameobjGenerate星云引擎https://www.modelscope.cn/studios/phoenixdna/nebula-engine\n\n📅 一、【报名提交】全流程指南报名入口：AI+互动游戏挑战赛官方报名入口报名截止日期：2025 年 12 月 9 日初赛提交入口：2025 AI+互动游戏挑战赛初赛材料提交提交作品截止日期：2025 年 12 月 9日赛事问题FAQ：https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBDEydnQU5B43OXn81DK0g6l?utm_scene=team_space比赛答疑专区：https://modelscope.cn/competition/135/talkArea📚 二、【快速入门】官方资源推荐学习课程AIGC多模态生成：从实践到原理（附：从0手搓一个AI互动剧情小游戏）魔搭免费资源魔搭平台免费资源list魔搭Docker资源注意选择后需要添加Dockerfile， 并且使用7860端口🎁 三、【奖励说明】别错过你的算力！本次赛事提供两类算力奖励，发放流程如下：✅ 1. 【参赛启动包】20 小时 GPU 算力发放条件：在开放原子平台成功报名 如何领取：点击填写登记表 👉 参赛启动包：20小时魔搭GPU算力截止时间：请于 2025年12 月9日 23:59 前 完成登记，逾期视为放弃✅ 2. 【作品提交奖】50 小时 GPU 算力发放条件：已成功报名+在赛事截止前提交有效作品作品提交：2025 AI+互动游戏挑战赛初赛材料提交截止时间：请于 2025年12 月 9日 23:59 前 完成登记，逾期视为放弃⏰发放时间：审核通过后 3个工作日内发放💬 四、【加入社群】找到你的同路人官方赛事群：扫码加入 👇（群内赛事信息 + 赛事周报推送等）\n一个游戏的开发需要编写大量代码，但并非所有人都能投入足够的时间与精力，扎实掌握所需的编程基本功。这不仅让许多对游戏开发怀揣热情的人望而却步，无法将创意转化为实际的游戏作品，还在一定程度上限制了游戏开发领域新鲜血液的注入，使不少有潜力的游戏想法被埋没。Vibe Coding的出现，恰好为解决这一问题提供了可能，它能让不懂代码的人也有机会参与到游戏开发中，即便没有扎实的编程基本功，也能尝试打造属于自己的游戏Demo，这无疑为更多人打开了游戏开发的大门。即便对于编程功底扎实的专业程序员而言，借助 Vibe Coding 也能显著减少重复编码工作，大幅提升游戏开发的效率。1、Vibe Coding 你的第一个游戏！接下来，我们会一起 vibe coding，快速搭建项目Demo （新手友好，无需任何编程能力） ：使用 AI 聊天助手【千问】只要 构思好idea，即可从 0 到 1 落地第一版作品。仅需三步👉🏻 组织提示词👉🏻 Vibe Coding with Chatbot👉🏻 部署到魔搭创空间Step1：设计游戏游戏更重要的是传达一种体验，所以应通过用户的主观体验来评价。那么如何从体验出发设计好的AI游戏？用设计师的思维去设计游戏：设计能力就是人们与生俱来的，是人的天性。或许我们可以将“设计能力”定义为：面对不确定的问题，提出假设方案并反复迭代，最终获得满意结果的能力。延伸阅读：https://zhuanlan.zhihu.com/p/544326581我们这里给出一个案例，供你参考，你可以根据这个思路设计你自己的游戏~首先，一个游戏一般包含：创意想法 + 可执行的程序 + 文字图像 + 声音。根据类型可大致这样分类游戏及游戏策划的职能：你可以想自己的创意，我们接下来的示例基于一个天才的创意—— 把贪吃蛇与AI结合在一起，👀思考一下贪吃蛇是一个没有任何故事背景的游戏，没有需要介绍的主要角色，没有需要打败的反派，没有什么惊天动地的背景故事，它就是贪吃蛇。我们要么在玩法机制上做一些深入的融合：贪吃蛇的胜利规则和玩法机制可以被AI所动态改变；要么在叙事上做一些融合。将贪吃蛇、或者俄罗斯方块与AI结合，你有什么想法？做玩法还是叙事？关注规则设计和传递？还是关注独特的互动叙事媒介？我们示例的玩法很简单：控制贪吃蛇吃果子（汉字），可根据所吃的汉字生成独一无二的作文。Step2：打开通义千问写游戏（点击跳转）链接：https://www.tongyi.com/目前多款 AI 聊天助手（Qwen Chat）已支持网页开发功能，在生成 code 的同时，可以一键式预览生成网页，这为我们的 demo 网页开发带来了极大的便利，本节教程选择 Qwen 进行 vibe coding。接下来写上自己对游戏的构想作为提示词让AI生成代码。因为最后的作品是以网页的形式部署到魔搭创空间，因此需要在提示词中强调以下内容以生成一个可运行的网页。做一个【描述你想要的游戏】游戏，要求【在这里描述你想要的具体游戏设定、细节】\n\n要求仅交付一个HTML网页文件，名为index.html，可在浏览器中运行点击预览，检查AI写的游戏能否运行，是否符合你的期待。若运行有问题则列出问题让AI修改。下面是一个测试后能正常运行的游戏demo。Step3：将游戏上架魔搭创空间魔搭创空间是一个可托管我们游戏代码的平台，将我们的游戏代码上架魔搭创空间，则可免费将游戏公开分发给其他人。首先点击这个链接，点击右上角登陆/注册魔搭https://www.modelscope.cn/home接着点击这个链接：https://www.modelscope.cn/studios/create然后，进入模型创空间的创建页面，填入 英文名称 并选择接入 Static SDK后创建创空间。注意： 中文名称 必填，必须包含：【AI+互动游戏挑战赛-赛道一】，比如【XXX游戏作品昵称- AI+互动游戏挑战赛赛道一】接下来我们会进入自己的“游戏空间”，现在它还是空白项目，我们点击 空间文件 ，并上传我们的游戏代码。点击添加文件、创建新文件。该文件的文件名称必须是 index.html ，这是我们游戏的主页面。之后将Qwen生成的游戏代码复制到 index.html 中，点击 创建新文件 保存代码。之后点开设计页面，点击上线，将我们的空间进行上线。接下来我们就能在空间内容栏目看到这个页面，等待一段时间后，即可在这个空间上看到你所编写的游戏这是最终的创空间游戏效果这篇教程所演示的创空间页面在此：https://www.modelscope.cn/studios/nuonuo/AI_game/summaryStep4：提交作品点击提交初赛作品：❗注意：创空间名称必须包含：【AI+互动游戏挑战赛-赛道一】Step5：提交作品创作思路打开魔搭研习社，点开右上角的“创建文章”，在里面写你的作品的创作思路https://modelscope.cn/learn/创作思路文章要求要有这4点：游戏开发流程：清晰描述从最初构思到最终完成的整体开发步骤，包括关键节点与迭代过程AI如何参与创作：具体说明AI在策划（如剧情/关卡生成）、美术（如角色/场景设计）、程序（如代码辅助）、音效（如配乐/音效生成）等环节的实际应用与价值使用的AI工具：列出你所采用的AI工具（例如魔搭社区模型、通义千问等），并简要说明每项工具在项目中的用途和效果作品演示视频：提供一段清晰、完整的视频（可附链接或上传文件），直观展示游戏玩法、核心功能及AI生成内容的实际呈现效果提交作品同步至开放原子（建议同步提交）在比赛入围后，需将源代码提交至：https://atomgit.com/点击下方链接，点击“提交作品”，会自动生成一个属于你的AtomGit仓库，后续入围需将自己的项目源码上传到这个仓库。https://competition.openatom.tech/competitionInfo?id=00fd8962f9ec3f60e82c167390e0be9a#heading-6-0更多教程案例可前往【 Datawhale 秋训营】查看秋训营作品墙：https://www.datawhale.cn/activity/445",
+      "summary": "随着AI技术的快速发展，游戏创作门槛正在大幅降低。本次AI+互动游戏挑战赛以\"用AI赋能创意，让游戏连接世界\"为主题，旨在激发开发者运用AI技术创作融合多媒体元素的互动游戏。在此节点，开放原子开源基金会携手阿里云旗下魔搭社区共同发起「 AI+互动游戏挑战赛」，推动AI技术在游戏行业的创新应用，孵化和助力下一个现象级AI+游戏产品，让技术真正成为连接创意与现实的桥梁。\n\n最终入围决赛答辩的名单如下（...",
+      "contestType": "image",
+      "status": "ended",
+      "difficulty": "beginner",
+      "deadline": "2025-12-09T15:59:00.000Z",
+      "prize": "¥20万元",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "添加Dockerfile",
+        "并且使用7860端口🎁 三、【奖励说明】别错过你的算力！本次赛事提供两类算力奖励",
+        "逾期视为放弃⏰发放时间：审核通过后 3个工作日内发放💬 四、【加入社群】找到你的同路人官方赛事群：扫码加入 👇（群内赛事信息 + 赛事周报推送等）"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2025-12-20T22:39:50.682Z",
+      "scrapedAt": "2025-12-20T22:20:44.299Z",
+      "lastUpdated": "2025-12-20T22:39:50.682Z",
+      "version": 1
+    },
+    {
+      "id": "contest_mjevsbwp_qfs11hwg5",
+      "title": "AI+科研创新开源挑战赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/144",
+      "description": "构建开源科研生态，加速科学发现，参赛者需要开发并开源具有科研价值的AI模型、应用或框架。\n\n最终入围决赛答辩的名单如下（排名不分先后）：赛题一：AI+科研创新赛道团队名称作品链接带飞的菜苗子https://modelscope.cn/models/ZHangang1/MambaClimateNet药渊智探https://www.modelscope.cn/studios/daydayupzzl/drugsm3https://modelscope.cn/studios/little0/MatPilot-Pro小小队https://modelscope.cn/studios/lcclxy/lunwentocodeEarthExplorerhttps://modelscope.cn/studios/VoyagerX/EarthExplorer/summary\n\n📅 一、【报名提交】全流程指南报名入口：AI+科研创新开源挑战赛官方报名入口报名截止日期：2025 年 12 月 10 日初赛提交入口：AI+科研创新开源挑战赛初赛材料提交提交作品截止日期：2025 年 12 月 10 日赛事问题汇总FAQ：https://modelscope.cn/learn/2365比赛答疑专区：https://modelscope.cn/competition/144/talkArea答疑钉钉群号：44837352📚 二、【快速入门】官方资源魔搭免费资源魔搭平台免费资源list魔搭Docker资源请按照以下教程部署：1、Docker类型配置了怎么查看：可以在配置了Docker类型的创空间的设置页面里面，看到SDK类型为Docker2、 怎么开发：在创空间的git仓库里面编写Dockerfile描述镜像打包过程， 注意需要配置ENTRYPOINT， 在代码中将服务启动在0.0.0.0  端口7860。  配置完成后上线创空间。可以在日志里面查看镜像构建日志和运行日志🎁 三、【奖励说明】别错过你的算力！本次赛事提供两类算力奖励，发放流程如下：✅ 1. 【参赛启动包】20 小时 GPU 算力发放条件：在开放原子平台成功报名 如何领取：点击填写登记表 👉 参赛启动包：20小时魔搭GPU算力截止时间：请于 2025年12 月10 日 23:59 前 完成登记，逾期视为放弃✅ 2. 【作品提交奖】50 小时 GPU 算力发放条件：已成功报名+在赛事截止前提交有效作品作品提交：AI+科研创新开源挑战赛初赛材料提交截止时间：请于 2025年12 月 10 日 23:59 前 完成登记，逾期视为放弃⏰发放时间：审核通过后 3个工作日内发放💬 四、【加入官方赛事群】官方赛事群：扫码加入 👇（群内赛事信息 + 赛事周报推送等）\nStep1：了解赛事要求赛题名称：AI+科研创新赛道赛题主题：\"构建开源科研生态,加速科学发现\"参赛类别：模型、应用、工具框架赛题要求：主题： “构建开源科研生态，加速科学发现”参赛要求： 参赛者需要开发并开源具有科研价值的AI模型、应用或框架，重点关注：科研模型：针对特定科研领域的创新AI模型（如分子发现、天体物理、气候预测等）科研应用：基于AI技术的科研工具或平台（如文献分析、实验设计、数据可视化等）科研框架：支持科研工作流的开源框架（如AutoML for Science、实验管理系统等）技术要求：必须在魔搭社区发布开源项目，包含完整代码、文档和使用示例提供可复现的实验结果和评估基准需要有实际科研场景的应用验证提交物清单：📦 提交材料检查清单\n├── ✅ 开源项目代码包（含模型、工具、框架）\n├── ✅ 完整技术文档（安装指南、API说明、使用示例）\n├── ✅ 可复现的实验报告（数据集、训练流程、评估指标）\n├── ✅ 应用验证案例（真实科研任务演示）\n└── ✅ 视频或图文说明（应用价值展示）Step2：根据赛事需求开发模型、应用、工具框架均可，可参考其他实践案例注意必须开源在魔搭社区上，应用必须部署在魔搭创空间。魔搭模型、数据集、创空间使用指南详见官方文档：https://www.modelscope.cn/docs/models/intro💡如何通过git更新你的创空间应用？（模型、数据集也类似）参考资料：https://modelscope.cn/docs/studios/create首先你得有一个创空间，没有的话，参考Step1Step1：创建一个创空间（点击跳转）链接：https://modelscope.cn/studios/create登录后进入魔搭社区首页，点击【创建创空间】，填写内容，点击【创建创空间】即可创建成功💡或者复制一个已有的创空间Step2：魔改创空间将创空间的代码git clone到 开发环境（本地 or 魔搭Notebook等）按需魔改代码最后将代码push到创空间中依次使用如下命令：最后再重启创空间即可Step3：提交作品点击提交作品：Al+科研创新赛道【初赛材料提交】Step4：提交作品创作思路打开魔搭研习社，点开右上角的“创建文章”，在里面写你的作品的创作思路https://modelscope.cn/learn/提交作品同步至开放原子（建议同步提交）在比赛入围后，需将源代码提交至：https://atomgit.com/点击下方链接，点击“提交作品”，会自动生成一个属于你的AtomGit仓库，后续入围需将自己的项目源码上传到这个仓库。https://competition.openatom.tech/competitionInfo?id=00fd8962f9ec3f60e82c167390e0be9a#heading-6-0更多教程案例可前往【 Datawhale 秋训营】查看秋训营作品墙：https://www.datawhale.cn/activity/447\n💡SciResearcher：基于Muti-Agent 协作的科研文献深度理解框架参赛类别：科研框架（Scientific Framework） 项目定位：首个基于 smolagents 与 Qwen3 系列模型、Mineru2.5 的科研文献研究框架，一个轻量、开源、可验证的科研 Agent 协作框架——让每一次 AI 回答经得起推敲一、比赛入门1.1比赛介绍赛题名称：AI+科研创新赛道赛题主题：\"构建开源科研生态,加速科学发现\"参赛类别：科研框架（Scientific Framework）1.2 赛题要求主题： “构建开源科研生态，加速科学发现”参赛要求： 参赛者需要开发并开源具有科研价值的AI模型、应用或框架，重点关注：科研模型：针对特定科研领域的创新AI模型（如分子发现、天体物理、气候预测等）科研应用：基于AI技术的科研工具或平台（如文献分析、实验设计、数据可视化等）科研框架：支持科研工作流的开源框架（如AutoML for Science、实验管理系统等）技术要求：必须在魔搭社区发布开源项目，包含完整代码、文档和使用示例提供可复现的实验结果和评估基准需要有实际科研场景的应用验证1.3 提交物清单📦 提交材料检查清单\n├── ✅ 开源项目代码包（含模型、工具、框架）\n├── ✅ 完整技术文档（安装指南、API说明、使用示例）\n├── ✅ 可复现的实验报告（数据集、训练流程、评估指标）\n├── ✅ 应用验证案例（真实科研任务演示）\n└── ✅ 视频或图文说明（应用价值展示）二. 项目背景与定位SciResearcher：基于Muti-Agent 协作的科研文献深度理解框架参赛类别：科研框架（Scientific Framework）1项目定位：首个基于 smolagents 与 Qwen3 系列模型、Mineru2.5 的科研文献研究框架，一个轻量、开源、可验证的科研 Agent 协作框架——让每一次 AI 回答经得起推敲2.1 科研工作者的痛点信息过载：arXiv 每日新增 200+ 论文，人工阅读效率低下；理解深度比较低：现有工具（如 ChatPDF、ChatPaper等）仅支持摘要/关键词检索，无法回答“方法对比”“结果归因”“局限性分析”等高阶科研问题；AI 问答幻觉比较高：通用 RAG 系统常无引用、虚构结论，导致科研误判风险；多模态信息处理比较片面：图表、公式、表格等关键证据未被系统利用——而超 60% 的科研结论依赖图表支撑。当前开源项目问题：单点工具（如 MinerU 解析、LlamaIndex 检索、RAG检索等）通用 Agent 框架（如 AutoGen、LangGraph），缺乏科研场景特化设计封闭商业系统（如 Scite、Consensus），定制化、很难扩展2.2项目目标维度MVP 目标拓展思路功能性实现 Planning agent+4个sub agent 协作进行处理任务支持 PDF 多模态解析 + 图像理解输出带引用、置信度的答案mcp支持多文档综述实验设计建议idea，研究空白探测Hugging Face daily paper支持每种agent tool封装为mcp技术实现Qwen3 家族模型smolagents 框架mvp实现支持SFT、 LoRA 、GRPO微调vllm、sglang本地部署2.3这个系统是什么?SciResearcher = 一个会\"读论文\"的AI助手,可以理解PDF中的文字、图表、公式,然后回答你的问题。能做什么?你问: \"这篇论文的创新点是什么?\"\n    ↓\n系统: 1️⃣ 解析PDF (提取文字+图表+公式)\n     2️⃣ 理解图表 (用AI看懂图)\n     3️⃣ 检索证据 (找相关内容)\n     4️⃣ 生成答案 (基于证据回答)\n     5️⃣ 质量检查 (确保答案可靠)\n    ↓\n输出: \"这篇论文的创新点是...\n      - 创新点1: xxx (见第3页图2)\n      - 创新点2: xxx (见表1)\n      置信度: 0.85\"为什么特别?传统方法SciResearcher❌ 只能读文字,看不懂图表✅ 文字+图表+公式全都懂❌ 容易瞎编答案✅ 有证据+引用+置信度❌ 一个AI做所有事✅ 5个AI协作(专业分工)三. 核心概念解析4.1 什么是Multi-Agent?简单理解：就像一个研究团队,每个人负责不同的任务传统方式：一个AI做所有事情\n    AI → 读论文 → 理解图表 → 回答问题 → 检查答案\n    问题：样样通,样样松\n\nMulti-Agent方式：多个AI各司其职\n    Planner → 拆解任务\n    Retriever → 检索内容\n    Caption Agent → 理解图像\n    Reasoner → 推理生成\n    Reviewer → 质量检查\n    优势：专业分工,质量更高3.2 什么是smolagents?官方定义：Hugging Face开发的轻量级Agent框架为什么选它：✅ 简单易用,代码量少✅ 与Hugging Face生态集成好✅ 支持Qwen3等开源模型✅ 文档齐全,社区活跃基础示例：from smolagents import CodeAgent, HfApiModel\n\n# 创建一个Agent\nmodel = HfApiModel(\"Qwen/Qwen2.5-Coder-32B-Instruct\")\nagent = CodeAgent(tools=[], model=model)\n\n# 运行Agent\nagent.run(\"分析这篇论文的主要贡献\")3.3 什么是MinerU?官方定义：PDF解析工具,支持文字、图片、表格、公式提取为什么需要它：📄 科研论文是PDF格式📊 包含大量图表、公式🔍 普通PDF解析器无法准确提取解析效果对比：解析器文字图片表格公式PyPDF2✅❌❌❌pdfplumber✅⚠️⚠️❌MinerU✅✅✅✅3.4 什么是RAG?全称：Retrieval-Augmented Generation（检",
+      "summary": "构建开源科研生态，加速科学发现，参赛者需要开发并开源具有科研价值的AI模型、应用或框架。\n\n最终入围决赛答辩的名单如下（排名不分先后）：赛题一：AI+科研创新赛道团队名称作品链接带飞的菜苗子https://modelscope.cn/models/ZHangang1/MambaClimateNet药渊智探https://www.modelscope.cn/studios/daydayupzzl/d...",
+      "contestType": "image",
+      "status": "ended",
+      "difficulty": "beginner",
+      "deadline": "2025-12-10T15:59:00.000Z",
+      "prize": "80000",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "开发并开源具有科研价值的AI模型、应用或框架。"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2025-12-20T22:39:50.857Z",
+      "scrapedAt": "2025-12-20T22:20:44.300Z",
+      "lastUpdated": "2025-12-20T22:39:50.857Z",
+      "version": 1
+    },
+    {
+      "id": "contest_mjevsbwt_4p90tynm0",
+      "title": "AI+硬件具身智能开源挑战赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/143",
+      "description": "开源驱动具身智能，硬件赋能AI创新，参赛者需要开发具身智能相关的开源模型、应用或框架。\n\n最终入围决赛答辩的名单如下（排名不分先后）：赛题二：AI+硬件具身智能赛道团队名称作品链接贵富开花https://www.modelscope.cn/learn/2952#4ever-bi-944Yulanhttps://modelscope.cn/datasets/OceanZhengYang/grasp_strawberry_into_basket张瑞鹏https://modelscope.cn/studios/TitaniumZH/Embodied-Planner-Proai创意发动机https://modelscope.cn/learn/3180#4ever-bi-1403SoloBot0xAIhttps://www.modelscope.cn/models/lGcheng6/Aibot_lGcheng6\n\n📅 一、【报名提交】全流程指南报名入口：AI+硬件具身智能开源挑战赛官方报名入口报名截止日期：2025 年 12 月 10 日初赛提交入口：AI+硬件具身智能开源挑战赛初赛材料提交提交作品截止日期：2025 年 12 月 10 日赛事问题汇总FAQ：https://modelscope.cn/learn/2365比赛答疑专区：https://modelscope.cn/competition/143/talkArea答疑钉钉群号：44837352📚 二、【快速入门】官方资源魔搭免费资源魔搭平台免费资源list魔搭Docker资源请按照以下教程部署：1、Docker类型配置了怎么查看：可以在配置了Docker类型的创空间的设置页面里面，看到SDK类型为Docker2、 怎么开发：在创空间的git仓库里面编写Dockerfile描述镜像打包过程， 注意需要配置ENTRYPOINT， 在代码中将服务启动在0.0.0.0  端口7860。  配置完成后上线创空间。可以在日志里面查看镜像构建日志和运行日志🎁 三、【奖励说明】别错过你的算力！本次赛事提供两类算力奖励，发放流程如下：✅ 1. 【参赛启动包】20 小时 GPU 算力发放条件：在开放原子平台成功报名 如何领取：点击填写登记表 👉 参赛启动包：20小时魔搭GPU算力截止时间：请于 2025年12 月10 日 23:59 前 完成登记，逾期视为放弃✅ 2. 【作品提交奖】50 小时 GPU 算力发放条件：已成功报名+在赛事截止前提交有效作品作品提交：AI+硬件具身智能开源挑战赛初赛材料提交截止时间：请于 2025年12 月 10 日 23:59 前 完成登记，逾期视为放弃⏰发放时间：审核通过后 3个工作日内发放💬 四、【加入官方赛事群】官方赛事群：扫码加入 👇（群内赛事信息 + 赛事周报推送等）\nStep1：了解赛事要求Step2：根据赛事需求开发模型、应用、工具框架均可，可参考其他实践案例注意必须开源在魔搭社区上，应用必须部署在魔搭创空间。魔搭模型、数据集、创空间使用指南详见官方文档：https://www.modelscope.cn/docs/models/intro💡如何通过git更新你的创空间应用？（模型、数据集也类似）参考资料：https://modelscope.cn/docs/studios/create首先你得有一个创空间，没有的话，参考Step1Step1：创建一个创空间（点击跳转）链接：https://modelscope.cn/studios/create登录后进入魔搭社区首页，点击【创建创空间】，填写内容，点击【创建创空间】即可创建成功💡或者复制一个已有的创空间Step2：魔改创空间将创空间的代码git clone到 开发环境（本地 or 魔搭Notebook等）按需魔改代码最后将代码push到创空间中依次使用如下命令：最后再重启创空间即可Step3：提交作品点击提交初赛作品：AI+科研创新赛道【初赛材料提交】Step4：提交作品创作思路打开魔搭研习社，点开右上角的“创建文章”，在里面写你的作品的创作思路https://modelscope.cn/learn/提交作品同步至开放原子（建议同步提交）在比赛入围后，需将源代码提交至：https://atomgit.com/点击下方链接，点击“提交作品”，会自动生成一个属于你的AtomGit仓库，后续入围需将自己的项目源码上传到这个仓库。https://competition.openatom.tech/competitionInfo?id=00fd8962f9ec3f60e82c167390e0be9a#heading-6-0更多教程案例可前往【 Datawhale 秋训营】查看\n💡参与AI+具身智能方向的小伙伴请注意：我们动手实践教程给到的是参考案例，不是baseline demo～案例不能在魔搭社区上跑通，需要在仿真环境上学习哈另外，大家开发出具身智能相关的开源模型、应用或框架之后，需要开源到魔搭社区，然后在我们的动手实践教程右侧提交作品打卡。文档参考：https://www.modelscope.cn/docs/models/intro赛题二：AI+硬件具身智能赛道主题： “开源驱动具身智能，硬件赋能AI创新”参赛要求：参赛者需要开发具身智能相关的开源模型、应用或框架，包括：感知模型：3D视觉理解、多模态感知、SLAM建图等决策规划模型：路径规划、任务规划、多智能体协调等控制执行模型：机械臂控制、灵巧手操作、移动机器人控制等端到端应用：完整的具身智能解决方案（如服务机器人、工业自动化等）开发框架：具身智能开发工具链、仿真环境、部署框架等特色要求：必须结合实际硬件平台或详细的硬件规范在社区开源，包含硬件配置清单和装配指南提供仿真环境演示或实物展示视频这里我们先制作一个抓取香蕉的demo，后续可以抓取实验器材，大家可以发挥想象教程：基于睿尔曼机械臂的具身智能抓取 Baseline欢迎来到“AI + 硬件具身智能开源挑战赛”的官方 Baseline 教程！本教程旨在带大家深入理解这个端到端的机器人抓取项目，为大家在比赛中的创新提供坚实的基础。第一章：项目介绍与快速上手1.1 什么是具身智能？具身智能（Embodied AI）是人工智能研究的前沿领域，旨在让智能体（如机器人）通过物理实体与环境进行交互，从而学习和理解世界。它不仅仅是关于算法，更是关于算法、感知和物理执行的深度融合。本次“AI + 硬件具身智能开源挑战赛”鼓励开发者将AI算法与硬件结合，创造出能够在真实世界中执行任务的智能系统。1.2 项目目标本项目作为一个官方 Baseline，旨在为大家提供一个完整的、端到端的具身智能应用案例。我们将通过 ManiSkill3 仿真环境，控制睿尔曼（RealMan）机械臂，实现从“看”（视觉感知）到“抓”（物理执行）的全流程。1.3 成果展示第二章：核心技术栈解析本项目融合了仿真、感知、规划和控制四大模块，以下是关键技术点的解析。2.1 仿真环境：ManiSkill3 与 SAPIENSAPIEN: 一个提供实时物理模拟和逼真渲染的物理引擎。ManiSkill3: 一个专为具身智能研究设计的、基于SAPIEN的强化学习环境框架。它提供了丰富的机器人、场景和任务，是验证算法的理想平台。为什么选择它?: 物理真实性高、渲染效果好、社区活跃，非常适合进行Sim2Real（从仿真到现实）的研究。在我们的项目中，ppo_my_ok_demo15_all_pipe_ok_only_grasp_to_do/two_robot_stack_cube_env.py 文件定义了我们自己的 ManiSkill 环境。1# ...\nfrom mani_skill.utils.registration import register_env\n# ...\n@register_env(\"TwoRobotStackCube-v1\", max_episode_steps=100)\nclass TwoRobotStackCubeEnv(BaseEnv):\n    \"\"\"\n    双臂堆叠立方体环境 - 使用 GEN72-EG2 机器人\n    \n    任务描述: 两个机器人合作堆叠两个立方体。一个机器人需要拾取蓝色立方体放在目标区域，\n    另一个机器人需要拾取绿色立方体并放置在蓝色立方体上方。\n    \"\"\"\n    \n    # 支持的机器人配置 - 使用新的带相机的 UID\n    SUPPORTED_ROBOTS = [(robot_wristcam_uid, robot_wristcam_uid)]\n    # ...1@register_env 装饰器将我们的自定义环境类 TwoRobotStackCubeEnv 注册到 ManiSkill 框架中，使其可以通过 gym.make() 等标准方法被调用。同时，为了更好地观察我们的仿真器，需要设置一下render的camera的位置。2.2 机器人模型：URDFURDF (Unified Robot Description Format): 一种XML格式文件，用于描述机器人的所有物理属性，包括连杆（link）、关节（joint）、视觉模型（visual mesh）和碰撞模型（collision mesh）。在本项目中: 我们使用睿尔曼官方提供的 rm_models。但 SAPIEN 引擎在加载包含 package:// 协议（常用于ROS）的URDF时会遇到问题。因此，我们在 register_gen72_robot.py 中编写了一个预处理函数 get_processed_urdf_path，它会动态地找到 mani_skill 包的路径，替换掉 package:// 引用，并生成一个 SAPIEN 可以直接加载的 .processed.urdf 文件。# --- 动态路径处理 ---\n# 1. 自动查找 mani_skill 包的根路径\n_mani_skill_root_dir = Path(mani_skill.__path__[0])\n# 2. 自动查找项目根目录，以定位原始URDF文件\n_this_file = Path(__file__).resolve()\n# realman-grasp/ppo.../register... -> realman-grasp\n_project_root = _this_file.parent.parent \ndef get_processed_urdf_path(original_urdf_path: Path) -> str:\n    \"\"\"\n    读取 URDF 文件，将 'package://mani_skill/' 替换为找到的绝对路径，\n    并将其保存到一个新的 \".processed.urdf\" 文件中。\n    返回这个新文件的路径。\n    \"\"\"\n    # ... (省略具体实现) ...\n    processed_content = content.replace(\n        \"package://mani_skill/\", f\"{str(_mani_skill_root_dir)}/\"\n    )\n    # ...\n    return str(processed_path)\n# 3. 定义原始URDF文件的路径并生成处理后的路径\n_original_urdf_path = _project_root / \"urdf_01/GEN72-EG2.urdf\"\n_processed_urdf_path = get_processed_urdf_path(_original_urdf_path)然后，我们使用 @register_agent 装饰器将这个自定义机器人“注册”到 ManiSkill 框架中，并在类定义中指定使用处理后的URDF路径。@register_ag",
+      "summary": "开源驱动具身智能，硬件赋能AI创新，参赛者需要开发具身智能相关的开源模型、应用或框架。\n\n最终入围决赛答辩的名单如下（排名不分先后）：赛题二：AI+硬件具身智能赛道团队名称作品链接贵富开花https://www.modelscope.cn/learn/2952#4ever-bi-944Yulanhttps://modelscope.cn/datasets/OceanZhengYang/grasp_...",
+      "contestType": "video",
+      "status": "ended",
+      "difficulty": "beginner",
+      "deadline": "2025-12-10T15:59:00.000Z",
+      "prize": "¥8万元",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "开发具身智能相关的开源模型、应用或框架。"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2025-12-20T22:39:50.861Z",
+      "scrapedAt": "2025-12-20T22:20:44.300Z",
+      "lastUpdated": "2025-12-20T22:39:50.861Z",
+      "version": 1
+    },
+    {
+      "id": "contest_mjevsbwr_pm2uxvxud",
+      "title": "社区智能答疑Agent开源挑战赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/142",
+      "description": "构建最懂开发者的AI助手，开发专门为社区设计的智能答疑系统，能够准确回答开发者关于：模型使用、技术问题、平台功能、项目指导等问题。\n\n最终入围决赛答辩的名单如下（排名不分先后）：赛题三：社区智能答疑Agent赛道团队名称作品链接last炫https://modelscope.cn/studios/kirito1223/modelscope_agent/summary经度116°3https://modelscope.cn/studios/dudubutaiyuan/dxyAnswerAgentBaseline/summary魔搭全栈开发 Copilothttps://modelscope.cn/studios/nier37/ModelScope-QA-Agent/summary煎酿豆腐https://www.modelscope.cn/studios/dm13988/AnswerAgentBaseline一隅斋斋主https://modelscope.cn/studios/modelscope_mp_351139193/AnswerAgent\n\n📅 一、【报名提交】全流程指南报名入口：社区智能答疑Agent开源挑战赛官方报名入口报名截止日期：2025 年 12 月 10 日初赛提交入口：社区智能答疑Agent开源挑战赛初赛材料提交提交作品截止日期：2025 年 12 月 10 日赛事问题汇总FAQ：https://modelscope.cn/learn/2365比赛答疑专区：https://modelscope.cn/competition/142/talkArea答疑钉钉群号：44837352📚 二、【快速入门】官方资源魔搭免费资源魔搭平台免费资源list魔搭Docker资源请按照以下教程部署：1、Docker类型配置了怎么查看：可以在配置了Docker类型的创空间的设置页面里面，看到SDK类型为Docker2、 怎么开发：在创空间的git仓库里面编写Dockerfile描述镜像打包过程， 注意需要配置ENTRYPOINT， 在代码中将服务启动在0.0.0.0  端口7860。  配置完成后上线创空间。可以在日志里面查看镜像构建日志和运行日志🎁 三、【奖励说明】别错过你的算力！本次赛事提供两类算力奖励，发放流程如下：✅ 1. 【参赛启动包】20 小时 GPU 算力发放条件：在开放原子平台成功报名 如何领取：点击填写登记表 👉 参赛启动包：20小时魔搭GPU算力截止时间：请于 2025年12 月10 日 23:59 前 完成登记，逾期视为放弃✅ 2. 【作品提交奖】50 小时 GPU 算力发放条件：已成功报名+在赛事截止前提交有效作品作品提交：社区智能答疑Agent开源挑战赛初赛材料提交截止时间：请于 2025年12 月 10 日 23:59 前 完成登记，逾期视为放弃⏰发放时间：审核通过后 3个工作日内发放💬 四、【加入官方赛事群】官方赛事群：扫码加入 👇（群内赛事信息 + 赛事周报推送等）\n一、训练知识库来源文档中心（魔搭平台功能介绍）：https://www.modelscope.cn/docs/overview研习社（模型解读与最佳实践）：https://modelscope.cn/learngithub（魔搭开源项目技术类文档）：https://github.com/modelscope模型库：https://modelscope.cn/models数据集：https://modelscope.cn/datasets创空间应用：https://modelscope.cn/studiosMCP：https://www.modelscope.cn/mcpAIGC 生图和训练：https://www.modelscope.cn/aigc二、标准问答示范示范demo：https://www.modelscope.cn/studios/AI-ModelScope/modelscope_copilot_beta问题人工答案魔搭平台是做什么的？魔搭平台（ModelScope）是一个开源的AI社区，致力于加速人工智能技术的发展。它提供了以下服务和功能：1. **模型和数据集探索**：用户可以探索行业最新和最优秀的模型、数据集以及AI应用。2. **计算基础设施**：提供模型服务所需的计算基础设施，帮助用户开始构建自己的模型和应用。3. **Python库**：ModelScope Library是一个Python库，它提供高效的模型推理、微调和评估功能，是访问各种AI模型的统一门户。4. **开源中心**：ModelHub作为开源中心，托管AI模型、数据集等资源。5. **Studio**：ModelScope的Studio为用户提供了一个免费的、灵活的AI应用展示空间，用户可以基于平台上的模型构建和展示不同的AI应用。6. **开源框架**：提供了一个全面的开源框架，帮助开发者进行模型开发和AI应用的构建，包括但不限于Eval-Scope、Swift和ModelScope-Agent等工具。简而言之，魔搭平台是一个促进AI技术共享、开发和应用的社区，旨在帮助开发者和研究人员更高效地进行AI模型的研究和开发。魔搭和通义实验室的关系魔搭社区是国内中文AI模型开源社区，由阿里巴巴通义实验室联合CCF开源发展委员会发起的模型开源社区及创新平台，旨在通过开放的社区合作，构建深度学习相关的模型开源社区，并开放给全球的开发者使用。通义实验室在魔搭平台上贡献了许多模型、数据集和应用，比如通义千问系列模型。魔搭和阿里云的关系阿里云为魔搭社区提供了免费的算力支持，促进社区的快速发展。魔搭社区与阿里云的多种云产品结合，如阿里云弹性加速计算EAIS和机器学习平台PAI，覆盖了模型开发的各个方面。如何搭建创空间前置依赖：请先在魔搭社完成账号注册并登录。确认您的设备已经安装好 Git 和 Git LFS.创空间创建步骤：当前魔搭社区主要提供“编程式创建”、“交互式创建”两种创建创空间的方式，本文主要介绍“编程式创建”。编程式创建主要分为四个步骤：使用站点页面创建创空间创空间开发上传创空间项目文件部署创空间创空间搭建文档：https://www.modelscope.cn/docs/studios/intro如何训练一个模型在魔搭平台（ModelScope）上训练一个模型的流程大致可以分为以下几个步骤：1. **环境安装**：首先需要确保你的开发环境已经安装了必要的库和依赖，包括Python环境、深度学习框架（如Tensorflow或Pytorch），以及ModelScope Library。如果选择在ModelScope提供的在线Notebook中开发，则可以跳过这一步 。2. **数据集上传**：用户可以通过SDK或者WEB端的方式上传数据集。如果是文本分类任务，可以按照特定的格式组织数据，并通过ModelScope平台上传 。3. **选择模型**：从ModelScope的模型库中选择一个适合你任务的预训练模型。例如，对于文本分类任务，可以选择StructBert预训练模型 。4. **配置训练参数**：根据所选模型和具体任务，调整配置文件中的参数，如学习率、批次大小、训练轮数等 。5. **开始训练**：使用ModelScope提供的API接口，如`build_trainer`，来构建训练器并开始训练过程。训练过程中，可以监控模型的性能并根据需要进行调整 。6. **评估模型**：训练完成后，使用评估数据集来测试模型的性能。ModelScope支持在训练时同步进行交叉验证，也可以在训练完成后单独进行评估 。7. **微调和部署**：根据评估结果，对模型进行微调以优化性能。之后，可以将训练好的模型部署到实际应用中 。此外，ModelScope还提供了一些工具和框架来辅助模型的开发和训练，如Swift用于大模型训练推理的工具箱，CogVLM图生文模型的架构和训练流程，以及Datawhale X 魔搭 AI夏令营提供的文生图方向的实践指南 。请注意，具体的训练步骤可能会根据模型的类型和任务的需求有所不同，上述步骤提供了一个大致的框架。更详细的操作指南和最佳实践可以在ModelScope社区找到，包括如何使用特定的模型和工具进行训练 。如何微调一个模型要在魔搭ModelScope上微调一个模型，你可以遵循以下步骤：环境准备：确保你的Python环境符合要求，通常需要Python 3.8或以上版本。你可以通过pip安装所需的库，例如modelscope和swift。模型选择：在ModelScope社区中选择合适的预训练模型。例如，你可以选择qwen系列、llama系列或其他支持的模型。数据集准备：选择或准备适合你任务的数据集。ModelScope社区提供了多种数据集，你可以根据需要选择。微调配置：根据你的模型和数据集，配置微调参数。这可能包括学习率、批次大小、训练轮数等。微调执行：使用swift工具执行微调。例如，你可以使用以下命令开始微调：swift sft \\--model_id_or_path <model_id> \\--dataset <dataset_id> \\--num_train_epochs <num_epochs> \\--output_dir <output_dir> \\--lora_rank <lora_rank> \\--learning_rate <learning_rate> \\--max_length <max_length>其中<model_id>、<dataset_id>、<num_epochs>、<output_dir>、<lora_rank>和<learning_rate>需要替换为实际的值。模型评估与推理：微调完成后，你可以使用ModelScope提供的工具进行模型评估和推理。模型保存与分享：如果微调结果满意，你可以将模型保存并分享到ModelScope社区，供他人使用。以上步骤是一个大致的流程，具体操作可能会根据你选择的模型和数据集有所不同。你可以在ModelScope社区找到更详细的教程和脚本，例如在这篇文章中，有关于如何使用Qwen2模型进行指令微调的详细步骤。此外，SWIFT框架提供了轻量级的微调和推理工具，可以帮助你在消费级显卡上进行大模型的训练和推理，更多信息可以参考SWIFT的介绍。开源和闭源模型哪个更好？开源模型和闭源模型各有优势和劣势，选择哪个更好取决于具体的使用场景和需求。以下是两者的一些对比：### 开源模型的优势：1. **社区支持**：开源模型通常有更活跃的社区，提供支持和持续的改进。2. **透明度**：用户可以查看和理解模型的内部工作原理，有助于建立信任。3. **可定制性**：用户可以根据自己的需求修改和优化模型。4. **成本效益**：开源模型通常是免费的，有助于降低成本。5. **教育价值**：对于学习和研究，开源模型提供了实践和实验的机会。### 开源模型的劣势：1. **支持限制**：可能没有官方的技术支持。2. **更新频率**：依赖社区力量，更新可能不定期或不稳定。3. **性能保证**：性能可能不如某些经过专业优化的闭源模型。### 闭源模型的优势：1. **专业支持**：通常提供官方的技术支持和客户服务。2. **性能优化**：闭源模型可能经过专业的优化，提供更好的性能。3. **持续更新**：定期更新和维护，提供最新的功能和安全修复。4. **易用性**：用户可能不需要深入了解技术细节即可使用模型。### 闭源模型的劣势：1. **成本**：可能需要支付许可证费用或其他使用成本。2. **缺乏透明度**：用户无法查看模型的内部工作原理，可能影响信任度。3. **定制性限制**：可能无法根据特定需求进行定制。### 选择建议：- 如果您重视社区支持、透明度和定制性，且预算有限，开源模型可能是更好的选择。- 如果您需要专业支持、性能保证和易用性，且对成",
+      "summary": "构建最懂开发者的AI助手，开发专门为社区设计的智能答疑系统，能够准确回答开发者关于：模型使用、技术问题、平台功能、项目指导等问题。\n\n最终入围决赛答辩的名单如下（排名不分先后）：赛题三：社区智能答疑Agent赛道团队名称作品链接last炫https://modelscope.cn/studios/kirito1223/modelscope_agent/summary经度116°3https://m...",
+      "contestType": "code",
+      "status": "ended",
+      "difficulty": "beginner",
+      "deadline": "2025-12-10T15:59:00.000Z",
+      "prize": "¥4万元",
+      "tags": [
+        "ai",
+        "pytorch",
+        "tensorflow"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "配置ENTRYPOINT",
+        "在代码中将服务启动在0.0.0.0  端口7860。  配置完成后上线创空间。可以在日志里面查看镜像构建日志和运行日志🎁 三、【奖励说明】别错过你的算力！本次赛事提供两类算力奖励",
+        "逾期视为放弃⏰发放时间：审核通过后 3个工作日内发放💬 四、【加入官方赛事群】官方赛事群：扫码加入 👇（群内赛事信息 + 赛事周报推送等）"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2025-12-20T22:39:50.859Z",
+      "scrapedAt": "2025-12-20T22:20:44.302Z",
+      "lastUpdated": "2025-12-20T22:39:50.859Z",
+      "version": 1
+    },
+    {
+      "id": "contest_mjevsbzg_1w9h3p527",
+      "title": "蚂蚁百宝箱&通义灵码MCP插件开发大赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/155",
+      "description": "我国正处于AI发展的热潮之中，关于智能体的讨论热度持续高涨。 蚂蚁百宝箱联合通义灵码启动首届「智能插件开发大赛」，本次活动联合NVIDIA，基于NVIDIA成熟生态，稳定支持本次赛事技术基座。\n\n竞赛背景我国正处于AI发展的热潮之中，关于智能体的讨论热度持续高涨。蚂蚁百宝箱联合通义灵码启动首届「智能插件开发大赛」，本次活动联合NVIDIA，基于NVIDIA成熟生态，稳定支持本次赛事技术基座。● 蚂蚁百宝箱是专业智能体开发平台，我们力争让AI+服务，成为更可靠的生产力● 通义灵码是阿里云智能编码工具，我们致力于让天下没有难做的开发● 赛事活动主页：https://tbox.alipay.com/inc-about/MCP-competition● 赛事报名：天池平台● 工具使用：百宝箱（tbox.alipay.com）日程安排报名提交阶段2025年10月27日- 2025年11月27日延长到2025年12月7日，参赛者通过天池平台进行报名，确保报名信息准确有效，否则会被取消参赛资格及激励；本次不支持多人组队，选手以个人模式参赛，选手报名成功后，按赛题要求进行开发并在蚂蚁百宝箱发布MCP，同时通过赛题页左侧提交结果入口进行提交作品压缩包，每队每天限制最多提交5次。本赛道所有选手需在12月7日前完成实名认证（实名认证入口：天池网站-个人中心-认证-支付宝实名认证），未按要求完成实名认证选手，将被取消参赛资格；12月7日23:59 天池平台将停止提交初赛结果，超时提交将视为无效，请参赛选手合理安排时间。评选阶段：2025年 12月8日-12月15日，根据赛事规则评选作品，产出获奖用户公示阶段：2025年 12月 15日-18日期间公示获奖信息比赛激励：本次比赛共计人民币16万元（税前），具体安排如下：第1名，共1名，每支获奖团队奖金3万元人民币（税前）第2-3名，共2名，每支获奖团队奖金2万元人民币（税前）第4-6名，共3名，每支获奖团队奖金1万元人民币（税前）第7-10名，共4名，每支获奖团队奖金5千元人民币（税前）第11-30名，共20名，每支获奖团队奖金2千元人民币（税前）参赛资格本次大赛欢迎国内企业、高校、科研院所、创新团队、科研开发者等人员参加。以百宝箱登录账号为一个主体，主体成员发布的插件均属于一个参赛ID。与本次比赛有合作关系的公司或个人不允许参赛。提交指南\n报名和提交过程第一步：参赛选手登陆阿里云天池平台报名参赛\n第二步：参赛选手基于通义灵码开发+蚂蚁百宝箱发布部署MCP，并在插件市场上架\na. 【必须】选手基于通义灵码开发MCP，指南详见文档：ⅰ. 如何利用通义灵码开发一个MCP https://developer.aliyun.com/article/1678575\nb. 【必须】选手成功开发完，蚂蚁百宝箱发布部署MCP，并在插件市场上架，指南详见文档：ⅰ. 如何发布MCP服务：https://alipaytbox.yuque.com/sxs0ba/huntb8/hwhtg4sp1mdppsib\nⅱ. 如何上架插件市场：https://alipaytbox.yuque.com/sxs0ba/huntb8/ohqgnh2gt1qhymqb\n第三步：在百宝箱/NeMo Agent Toolkit平台创建智能体（需要带插件功能），验证插件效果\na. 蚂蚁百宝箱：tbox.alipay.com?channel=1048\nb. NeMo Agent Toolkit：https://github.com/NVIDIA/NeMo-Agent-Toolkit第四步：参赛选手在阿里云天池平台大赛页面提交参赛作品zip包\n资料包含【通义灵码开发的复现资料（可以为开发截图或视频录制）】+【蚂蚁百宝箱账号】+【百宝箱MCP发布key，txt文件】+【通过百宝箱/NeMo Agent Toolkit开发智能体的体验链接】等。作品规则\n本次赛事为插件+应用作品赛事，您需按照活动规则提交对应作品，其中应遵循：作品原创性\n您应保证提报参与活动的作品及内容均为您本人原创，并保证您提供的内容不侵犯任何第三方的合法权益（该权益包括但不限于著作权、商标权、形象权和名誉权等权益），赛事主办方有权要求你提供内容权属证明。如赛事主办方发现投稿作品或内容为搬运、抄袭、洗稿等非原创内容，或存在或导致任何法律纠纷，您将自动丧失参赛资格，由此造成的一切后果及损失由您自行承担，且您由此给我们造成损失的，我们有权向您追偿。作品合法性\n在参赛过程中不得出现违反相关法律、法规的行为。作品不得涉及不健康、淫秽、色情或毁谤第三方等内容。投稿内容需遵守国家法律法规、平台规则 《百宝箱用户协议》《百宝箱隐私政策》、尊重公序良俗、不得侵犯第三方权益、禁止色情、标题党、商业广告、 等行为。禁止参赛者以非法、不正当及舞弊等手段影响活动的统计数据、以主办方统计的数据为依据。违规将导致取消参赛资格、限制登录、封禁账号等处罚。内容授权\n您表示及同意将插件/应用（包括用所投稿的案例文档内容等）授权百宝箱及其关联方一项全国范围内、免费、非独家、可再许可的权利，包括复制权、翻译权、修改权、汇编权、信息网络传播权、改编权及制作衍生品、表演和展示的权利等。上述授权使用范围包括但不限于转载、在百宝箱模版库收录，并提供给其他百宝箱用户复制和使用， 以及用于与百宝箱或百宝箱有关的宣传推广活动。此外，您同意百宝箱在进行前述宣传推广时，可以在您上传内容上添加百宝箱及/或关联方的商业标识。评审规则\n作品评审阶段，组委会将组织专家对选手作品进行打分评审，最终公布竞赛名次算力与工具1 、算力资源（1）300元代金券适用人群：在校大学生、研究生和博士生等用户，完成在线学生认证后即可免费领取代金券 300元/年，用于抵扣购买阿里云公共及AI产品。领取地址：天池领券中心（2）5折优惠券适用人群：高校教师（含博士后）及科研团队等在线提交申请，可免费领取优惠券5折/年，用于购买阿里云公共及AI产品。领取地址：天池领券中心2、AI编码工具工具介绍：通义灵码兼容 Visual Studio Code、Visual Studio、JetBrains IDEs 等主流编程工具，并提供 Lingma IDE，开发者可以自由选择。下载地址：https://lingma.aliyun.com/download组织机构● 合作方：蚂蚁百宝箱、通义灵码● 赞助商：NVIDIA● 竞赛平台：阿里云天池平台● 模型支持：阿里云通义千问大模型、蚂蚁百灵大模型竞赛讨论群赛（全量赛事信息只在本群发布）",
+      "summary": "我国正处于AI发展的热潮之中，关于智能体的讨论热度持续高涨。 蚂蚁百宝箱联合通义灵码启动首届「智能插件开发大赛」，本次活动联合NVIDIA，基于NVIDIA成熟生态，稳定支持本次赛事技术基座。\n\n竞赛背景我国正处于AI发展的热潮之中，关于智能体的讨论热度持续高涨。蚂蚁百宝箱联合通义灵码启动首届「智能插件开发大赛」，本次活动联合NVIDIA，基于NVIDIA成熟生态，稳定支持本次赛事技术基座。● 蚂...",
+      "contestType": "video",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "deadline": "2025-12-07T15:59:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "带插件功能）",
+        "验证插件效果"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2025-12-20T22:39:50.956Z",
+      "scrapedAt": "2025-12-20T22:20:44.302Z",
+      "lastUpdated": "2025-12-20T22:39:50.956Z",
+      "version": 1
+    },
+    {
+      "id": "contest_mjevscr5_0xd403dp8",
+      "title": "高德空间智能开发者大赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/154",
+      "description": "当数字化浪潮推动技术迭代加速，全球开发者规模突破3000万，中国开发者以超30%占比成为亚太创新核心力量，而空间智能作为数字经济的关键赛道，正亟待更多创意与技术突破赋能行业升级。 “以匠心致创新，用技术创未来”为主题的高德空间智能开发者大赛正式启幕！我们在此诚邀个人、高校、企业开发者共赴赛场，以匠心打磨作品，用技术开拓空间智能新未来！",
+      "summary": "当数字化浪潮推动技术迭代加速，全球开发者规模突破3000万，中国开发者以超30%占比成为亚太创新核心力量，而空间智能作为数字经济的关键赛道，正亟待更多创意与技术突破赋能行业升级。 “以匠心致创新，用技术创未来”为主题的高德空间智能开发者大赛正式启幕！我们在此诚邀个人、高校、企业开发者共赴赛场，以匠心打磨作品，用技术开拓空间智能新未来！...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2025-12-21T15:59:00.000Z",
+      "prize": "¥40万元",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2025-12-20T22:39:51.953Z",
+      "scrapedAt": "2025-12-20T22:20:44.302Z",
+      "lastUpdated": "2025-12-20T22:39:51.953Z",
+      "version": 1
+    },
+    {
+      "id": "contest_mjevscr8_5ktu7nekr",
+      "title": "魔搭研习社11月征文赛：Vibe Coding",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/153",
+      "description": "AI赋能，让灵感落地。\n\n一、优秀示例范文1：Vibe Coding Workshop 学习手册 —— Qoder+魔搭版本 👈点击学习范文2：AI驱动的DevOps实践：从静态页面到Docker化全栈应用，并一键部署至魔搭社区 👈点击学习范文3：和 AI 一起做个好玩的东西：给创造者的编程入门指南 👈点击学习结构拆解示例：二、作品要求✅ 基础要求（必须满足，否则视为无效投稿）相关性：在研习社发布的文章需关联到研习社专题征文赛·Vibe Coding原创性：必须为本人原创，未在其他平台首发（允许同步发布，但需注明“首发于魔搭研习社”）✅ 提交要求（必须满足，确保作品顺利参赛）请按以下步骤完成文章创建、标签绑定与发布。✔️ 第一步：创建文章1️⃣点击社区按钮，进入【研习社】板块2️⃣点击右上角 「创建文章」 按钮3️⃣开始撰写分享内容📌 提示：建议先在本地写好草稿，再复制粘贴至编辑器，避免内容丢失。✔️ 第二步：发布前关联专题标签（关键❗️）为确保文章进入赛事评审池，必须手动关联标签：征文赛·Vibe Coding1️⃣编辑好文章后，点击「下一步」2️⃣找到「专题」区域，选择：征文赛·Vibe Coding3️⃣填写好其他信息，最后点击「发布」⚠️ 重要提醒：未关联“征文赛·Vibe Coding”标签的文章，将无法进入赛事评选流程！✔️ 发布后如需修改，可按此路径操作1️⃣从首页-我创建的-【研习社板块】找到已发布的文章，点击「编辑按钮」2️⃣修改内容后，点击「发布」即可🔔 温馨提示：请在 投稿截止前 完成所有修改三、优秀案例📚 优秀内容已沉淀👉 前往【魔搭研习社征文赛第一期获奖作品】 ，查看优秀文章，获取灵感四、作品合集👉查看参赛作品集（链接）五、比赛交流群关于比赛的最新信息都在这里！👾速速扫码上车～✅ 版权与授权说明为保障双方权益，请所有投稿者同意以下授权条款：✅ 投稿即视为同意：魔搭有权在官网、小红书、公众号、知乎、B站等社媒平台免费使用、修改、传播该文章魔搭可在宣传中使用作者昵称、头像、简介（如提供）作者保留署名权，魔搭将标注“作者：XXX”❌ 不允许：投稿他人作品或大量引用未授权内容发布广告、营销、敏感或违规信息",
+      "summary": "AI赋能，让灵感落地。\n\n一、优秀示例范文1：Vibe Coding Workshop 学习手册 —— Qoder+魔搭版本 👈点击学习范文2：AI驱动的DevOps实践：从静态页面到Docker化全栈应用，并一键部署至魔搭社区 👈点击学习范文3：和 AI 一起做个好玩的东西：给创造者的编程入门指南 👈点击学习结构拆解示例：二、作品要求✅ 基础要求（必须满足，否则视为无效投稿）相关性：在研习...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "beginner",
+      "deadline": "2025-11-29T16:00:00.000Z",
+      "prize": "10000",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2025-12-20T22:39:51.956Z",
+      "scrapedAt": "2025-12-20T22:20:44.302Z",
+      "lastUpdated": "2025-12-20T22:39:51.956Z",
+      "version": 1
+    },
+    {
+      "id": "contest_mjevscr7_ek6gw5dqc",
+      "title": "琶洲算法大赛高校巡回赛（广东财经大学站）",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/152",
+      "description": "此次比赛是琶洲算法库定向小型学习赛，非全网公开赛，仅限定向广东财经大学学生参与。",
+      "summary": "此次比赛是琶洲算法库定向小型学习赛，非全网公开赛，仅限定向广东财经大学学生参与。...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "deadline": "2025-12-20T15:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2025-12-20T22:39:51.955Z",
+      "scrapedAt": "2025-12-20T22:20:44.302Z",
+      "lastUpdated": "2025-12-20T22:39:51.955Z",
+      "version": 1
+    },
+    {
+      "id": "contest_mjevscr8_gd9qslp7u",
+      "title": "智能 Agent 创新大赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/151",
+      "description": "大赛旨在通过技术竞赛推动 Agent 技术创新和工程化落地，鼓励参赛者融合大模型能力，构建具备高适应性、强交互能力、自进化能力的新一代智能Agen技术生态。",
+      "summary": "大赛旨在通过技术竞赛推动 Agent 技术创新和工程化落地，鼓励参赛者融合大模型能力，构建具备高适应性、强交互能力、自进化能力的新一代智能Agen技术生态。...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "deadline": "2025-12-11T15:59:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2025-12-20T22:39:51.956Z",
+      "scrapedAt": "2025-12-20T22:20:44.302Z",
+      "lastUpdated": "2025-12-20T22:39:51.956Z",
+      "version": 1
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "dataStructure": "ProcessedContest",
+    "lastUpdated": "2025-12-20T22:39:51.958Z"
+  }
+}

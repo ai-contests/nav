@@ -8,12 +8,9 @@
 - [ ] Implement email notifications for new contests
 
 ## 🏗️ In Progress
-- [x] **Fix ModelScope Scraper**
-    - [x] Remove brittle `acss-` class selectors
-    - [x] Replace deprecated `waitForTimeout` with Promise-based delay
-    - [x] Investigate valid stable selectors for current ModelScope site layout
 - [ ] **Data Pipeline Optimization**
-    - [ ] Validate AI enrichment data quality
+    - [x] Validate AI enrichment data quality
+    - [x] Implement platform filtering for `process` command
     - [ ] Monitor GitHub Models API usage/limits
 - [ ] **Civitai Scraper Proxy Configuration**
     - [ ] Implement `HTTPS_PROXY` support in `CivitaiScraper.ts`
@@ -32,6 +29,14 @@
     - Switch to GitHub Models (gpt-4o / Jamba)
     - Integrate `@azure-rest/ai-inference` SDK
     - Configurable API keys and endpoints
+- [x] **ModelScope Scraper Fixes**
+    - API-based data extraction (Title, Desc, Url, Status, Organizer)
+    - Rich text description parsing
+    - Robust date validations
+- [x] **Code Quality & Maintenance**
+    - Fix ESLint errors in Scrapers and Processors
+    - Pass all unit tests (4/4 suites)
+    - Clean up unused imports/variables
 
 ## 🐛 Known Issues
 - [ ] **Civitai Scraper**: 

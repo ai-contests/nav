@@ -3,7 +3,6 @@
 ## 📋 Backlog
 - [ ] Implement robust retry logic for Civitai API (451 error)
 - [ ] Add proxy rotation support for scrapers
-- [ ] Design and implement Web UI (Static Site Generation)
 - [ ] Add "OpenArt" platform scraper support
 - [ ] Add "Devpost" platform scraper support
 - [ ] Add "DrivenData" platform scraper support

@@ -1,67 +1,44 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './components/**/*.{js,vue,ts}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './plugins/**/*.{js,ts}',
-    './nuxt.config.{js,ts}',
-    './app.vue',
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
-        // Catppuccin Mocha - Complete Color Palette
-        // Accent Colors
-        rosewater: {
-          DEFAULT: '#f5e0dc',
-          50: '#fef7f5',
-          100: '#fef0eb',
-          200: '#fde1d7',
-          300: '#f5e0dc',
-          400: '#f2cdcd',
-          500: '#f5c2e7',
-          600: '#cba6f7',
-          700: '#f38ba8',
-          800: '#eba0ac',
-          900: '#fab387',
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+        // Deep Ocean Palette
+        canvas: "#02040a", // Midnight Blue - Global Background
+        surface: "#0f172a", // Steel Azure - Card/Nav Background
+        primary: {
+          DEFAULT: "#0047AB", // Cobalt Blue
+          foreground: "#ffffff",
         },
-        flamingo: '#f2cdcd',
-        pink: '#f5c2e7',
-        mauve: '#cba6f7',
-        red: '#f38ba8',
-        maroon: '#eba0ac',
-        peach: '#fab387',
-        yellow: '#f9e2af',
-        green: '#a6e3a1',
-        teal: '#94e2d5',
-        sky: '#89dceb',
-        sapphire: '#74c7ec',
-        blue: '#89b4fa',
-        lavender: '#b4befe',
-
-        // Text Colors
-        text: '#cdd6f4',
-        'subtext-1': '#bac2de',
-        'subtext-0': '#a6adc8',
-
-        // Overlay Colors
-        'overlay-2': '#9399b2',
-        'overlay-1': '#7f849c',
-        'overlay-0': '#6c7086',
-
-        // Surface Colors
-        'surface-2': '#585b70',
-        'surface-1': '#45475a',
-        'surface-0': '#313244',
-
-        // Base Colors
-        base: '#1e1e2e',
-        mantle: '#181825',
-        crust: '#11111b',
+        secondary: {
+          DEFAULT: "#6495ED", // Cornflower Blue
+          foreground: "#ffffff",
+        },
+        accent: {
+          DEFAULT: "#00BFFF", // Electric Cyan
+          deep: "#4169E1", // Royal Blue
+        },
+        text: {
+          main: "#e2e8f0", // Pale Blue
+          muted: "#94a3b8", // Slate Blue
+        },
+        border: {
+          DEFAULT: "#1e3a8a", // Indigo Ink
+          light: "#bfdbfe", // Cloud Blue
+        }
       },
-      animation: {
-        'spin-slow': 'spin 3s linear infinite',
+      fontFamily: {
+        mono: ['var(--font-jetbrains-mono)', 'monospace'],
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'deep-ocean': 'linear-gradient(to bottom, #02040a, #0f172a)',
       },
     },
   },

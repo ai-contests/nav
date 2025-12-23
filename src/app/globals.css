@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #02040a;
+  --foreground: #e2e8f0;
+}
+
+@layer base {
+  body {
+    @apply bg-canvas text-text-main font-mono antialiased;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(0, 191, 255, 0.5);
+  }
+  .box-glow {
+    box-shadow: 0 0 15px rgba(6, 182, 212, 0.15);
+  }
+}

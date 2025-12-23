@@ -1,30 +1,40 @@
 {
-  // Project tsconfig - adjusted for local development and editor diagnostics
-  // This file intentionally avoids referencing generated .nuxt tsconfigs so
-  // developers can run tsc/ts-node locally without first building Nuxt.
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "commonjs",
-    "lib": ["es2020", "dom"],
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true,
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
     "skipLibCheck": true,
+    "strict": true,
     "noEmit": true,
-    "strict": false,
-    "noImplicitAny": false,
-    "noImplicitOverride": false,
-    "verbatimModuleSyntax": false,
-    "forceConsistentCasingInFileNames": false,
-    "incremental": true
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
   },
   "include": [
-    "src/**/*.ts",
-    "scripts/**/*.ts",
-    "tests/**/*.ts",
-    ".eslintrc.js",
-    "server/**/*.ts"
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
   ],
-  "exclude": ["node_modules", "dist", ".nuxt", "coverage"]
+  "exclude": [
+    "node_modules"
+  ]
 }

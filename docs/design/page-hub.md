@@ -11,39 +11,37 @@
 *   **背景**: `bg-slate-950`，无干扰元素。
 
 ### B. Advanced Filter Sidebar (侧边筛选栏)
-*   **位置**: 桌面端左侧固定 (Sticky)，移动端从下方弹出 (Drawer)。
-*   **交互**: 实时响应，无需点击 "Apply"。
-*   **筛选维度**:
-    *   **Platform**: Checkbox list (ModelScope, Civitai, Kaggle, Others).
-    *   **Contest Type**: Checkbox list (CV, NLP, Multi-modal, Audio).
-    *   **Difficulty**: Slider (Range 1-3) 或 Checkbox (Beginner, Intermediate, Advanced).
-    *   **Status**: Radio (Active Only, Include Ended).
-    *   **Prize Range**: Slider (Min - Max).
+*   **交互**: 左侧固定，带有 "FILTERS" 标题和 "Reset" 按钮。
+*   **筛选维度 (参考原型)**:
+    *   **Platform**: Checkbox list (Kaggle Node, DrivenData, AIcrowd).
+    *   **Type**: Checkbox list (Computer Vision, NLP, Reinforcement).
+    *   **Difficulty**: Slider (Range Lvl 1-10) with "Novice" to "Grandmaster" labels.
+    *   **Status**: Radio (All Signals, Active Only, Completed).
+    *   **Prize Pool**: Slider (Any to $25k+).
 
-### C. Data Grid / List Toggle (主内容区)
-*   **Top Bar**:
-    *   **Total Count**: "Showing 42 contests".
-    *   **View Toggle**: 切换图标，支持 [Grid View (网格)] 和 [List View (列表)]。
-        *   **Grid View**: 使用标准的 `ContestCard`。
-        *   **List View**: 类似表格的紧凑行布局，方便快速扫视 Deadlines 和 Prizes。
-    *   **Sort**: "Sort by Newest", "Sort by Deadline (Asc)".
+### C. Data List (主内容区)
+*   **Header**: "142 Contests Found" (Left), View Mode Icons (Right).
+*   **List Layout**: Vertical stack of **Horizontal Cards**.
 
-## 3. 组件规格 (基于 Deep Ocean Theme)
+## 3. 组件规格 (Deep Ocean Theme)
+
+### Contest Card (Prototype Match)
+*   **Container**: `flex flex-row` (Horizontal), `bg-[#0f172a]` (Surface), `border border-slate-800`.
+*   **Layout**:
+    1.  **Left (Thumbnail)**: Square or 16:9 box (`w-48 h-32`), dark placeholder with icon if no image.
+    2.  **Middle (Content)**: `flex-1 p-4`.
+        *   **Meta**: "KAGGLE NODE • Lvl 7" (Small, uppercase, muted).
+        *   **Title**: Large, White, JetBrains Mono.
+        *   **Desc**: Two lines, slate-400.
+        *   **Tags**: Bottom row, rectangular pills (`bg-slate-800`).
+    3.  **Right (Stats)**: `w-48 p-4 text-right flex flex-col justify-between`.
+        *   **Prize**: `$5,000 CR` (Cyan/Green).
+        *   **Time**: "24h remaining" (Green dot indicator).
+        *   **Link**: "DETAILS ->" link at bottom.
 
 ### Sidebar Components
 *   **Checkbox**: 选中时 `bg-cobalt-blue`, 边框 `border-cornflower-blue`.
 *   **Slider**: 轨道 `bg-slate-800`, 填充 `bg-cobalt-blue`.
-
-### List View Item (列表视图专用)
-*   **布局**: Flex Row.
-*   **Columns**:
-    1.  **Icon**: 平台 Logo (24px).
-    2.  **Title**: 粗体文字，截断。
-    3.  **Tags**: 仅显示主要 Tag (1个)。
-    4.  **Prize**: 文本颜色 `#00BFFF` (Electric Cyan).
-    5.  **Status**: 小圆点指示器 (Green/Gray).
-    6.  **Action**: "Details" 箭头图标。
-*   **交互**: 鼠标悬停整行变色 `bg-slate-900`。
 
 ## 4. 技术实现
 *   **状态管理**: URL Query String (e.g. `/hub?platform=modelscope&type=cv`)，确保筛选结果可分享。

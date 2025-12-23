@@ -8,13 +8,17 @@
 - [ ] Implement email notifications for new contests
 
 ## 🏗️ In Progress
+- [ ] **Design and implement Web UI (Static Site Generation)**
+    - [x] Create Design System (Deep Ocean / JetBrains Mono)
+    - [x] Initialize Next.js Project Structure
+    - [x] Implement Landing Page (Home)
+    - [ ] Implement Contest Hub Page (Grid/List View & Filters)
+    - [ ] Implement Detail Page
+    - [ ] Implement Documentation Page
 - [ ] **Data Pipeline Optimization**
     - [x] Validate AI enrichment data quality
     - [x] Implement platform filtering for `process` command
     - [ ] Monitor GitHub Models API usage/limits
-- [ ] **Civitai Scraper Proxy Configuration**
-    - [ ] Implement `HTTPS_PROXY` support in `CivitaiScraper.ts`
-    - [ ] Test with residential proxy to bypass 451 error
 
 ## ✅ Completed
 - [x] **Project Infrastructure**

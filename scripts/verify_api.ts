@@ -25,7 +25,7 @@ async function verifyApi() {
                 const firstRace = response.data.Data.Races[0];
                 console.log('First Race Schema:', JSON.stringify(firstRace, null, 2));
             }
-        } catch (e) {
+        } catch (e: any) {
             console.error(`Error fetching ${url}:`, e.message);
         }
         console.log('---');

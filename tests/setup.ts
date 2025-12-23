@@ -34,5 +34,5 @@ expect.extend({
 });
 
 // Environment variables for testing
-process.env.NODE_ENV = 'test';
+// process.env.NODE_ENV = 'test'; // Jest sets this automatically
 process.env.LOG_LEVEL = 'error'; // Reduce log noise during tests

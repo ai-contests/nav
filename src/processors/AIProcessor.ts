@@ -159,7 +159,7 @@ export class AIProcessor {
       }
 
       // Parse the AI response
-      const content = response.body.choices[0].message.content;
+      const content = response.body.choices[0].message.content || '';
       return this.parseAIResponse(content);
 
     } catch (error) {

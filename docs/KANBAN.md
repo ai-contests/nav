@@ -10,19 +10,19 @@
 - [ ] Implement email notifications for new contests
 
 ## 🏗️ In Progress
-- [ ] **Design and implement Web UI (Static Site Generation)**
-    - [x] Create Design System (Deep Ocean / JetBrains Mono)
-    - [x] Initialize Next.js Project Structure
-    - [x] Implement Landing Page (Home)
-    - [ ] Implement Contest Hub Page (Grid/List View & Filters)
-    - [ ] Implement Detail Page
-    - [ ] Implement Documentation Page
 - [ ] **Data Pipeline Optimization**
     - [x] Validate AI enrichment data quality
     - [x] Implement platform filtering for `process` command
     - [ ] Monitor GitHub Models API usage/limits
 
 ## ✅ Completed
+- [x] **Design and implement Web UI (Static Site Generation)**
+    - [x] Create Design System (Deep Ocean / JetBrains Mono)
+    - [x] Initialize Next.js Project Structure
+    - [x] Implement Landing Page (Home)
+    - [x] Implement Contest Hub Page (Grid/List View & Filters)
+    - [x] Implement Detail Page
+    - [x] Implement Documentation Page
 - [x] **Project Infrastructure**
     - Initial project setup with TypeScript
     - ESLint/Prettier configuration

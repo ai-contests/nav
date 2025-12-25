@@ -112,11 +112,7 @@ export class CivitaiScraper extends EnhancedScraper {
   private async fetchCivitaiAnnouncements(): Promise<RawContest[]> {
     try {
       const axios = await import('axios');
-      const { HttpsProxyAgent } = await import('https-proxy-agent');
-
-      // Check for proxy in environment
-      const proxyUrl = process.env.HTTPS_PROXY || process.env.HTTP_PROXY;
-      const httpsAgent = proxyUrl ? new HttpsProxyAgent(proxyUrl) : undefined;
+      // Proxy support removed as per user request
 
       const input = encodeURIComponent(
         JSON.stringify({ json: { domain: 'blue' } })
@@ -134,7 +130,6 @@ export class CivitaiScraper extends EnhancedScraper {
           'Sec-Fetch-Mode': 'cors',
           'Sec-Fetch-Site': 'same-origin',
         },
-        httpsAgent, // Apply proxy agent if available
         timeout: 15000,
       });
 

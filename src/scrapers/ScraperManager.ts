@@ -7,6 +7,7 @@ import { SourceManager } from '../sources/SourceManager';
 import { ModelScopeScraper } from './ModelScopeScraper';
 import { CivitaiScraper } from './CivitaiScraper';
 import { OpenArtScraper } from './OpenArtScraper';
+import { DevpostScraper } from './DevpostScraper';
 import { BaseScraper } from './BaseScraper';
 import { RawContest, PlatformConfig, CrawlTask } from '../types';
 import { logger } from '../utils/logger';
@@ -52,6 +53,8 @@ export class ScraperManager {
         return new CivitaiScraper(config);
       case 'openart':
         return new OpenArtScraper(config);
+      case 'devpost':
+        return new DevpostScraper(config);
       default:
         logger.warn(
           `No scraper implementation found for platform: ${config.name}`

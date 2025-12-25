@@ -1,55 +1,55 @@
 /**
- * 核心数据类型定义
- * AI竞赛导航站点 - 数据结构定义
+ * Core Data Type Definitions
+ * AI Contest Navigator - Data Structure Definitions
  */
 
-// ==================== 竞赛数据模型 ====================
+// ==================== Contest Data Models ====================
 
 /**
- * 处理后的竞赛数据结构
+ * Processed Contest Data Structure
  */
 export interface ProcessedContest {
-  // 基础标识
-  id: string; // 唯一标识
-  title: string; // 竞赛标题
-  platform: string; // 来源平台
-  url: string; // 竞赛链接
+  // Basic Identifiers
+  id: string; // Unique Identifier
+  title: string; // Contest Title
+  platform: string; // Source Platform
+  url: string; // Contest URL
 
-  // 内容信息
-  description: string; // 详细描述
-  summary?: string; // AI生成摘要（可选）
+  // Content Information
+  description: string; // Detailed Description
+  summary?: string; // AI Generated Summary (Optional)
 
-  // 分类信息
+  // Category Information
   contestType: 'image' | 'video' | 'audio' | 'text' | 'code' | 'mixed';
   status: 'active' | 'upcoming' | 'ended';
   difficulty: 'beginner' | 'intermediate' | 'advanced';
 
-  // 时间和奖励
-  deadline?: string; // 截止时间（ISO字符串）
-  registrationEnd?: string; // 报名截止时间
-  prize?: string; // 奖金描述（简单字符串）
+  // Time and Prizes
+  deadline?: string; // Deadline (ISO String)
+  registrationEnd?: string; // Registration End Time
+  prize?: string; // Prize Description (Simple String)
 
-  // 扩展信息
-  tags: string[]; // 标签（比赛、类型、主题、工具等）
-  aiTools?: string[]; // 推荐AI工具
-  requirements?: string[]; // 参赛要求
+  // Extended Information
+  tags: string[]; // Tags (Contest, Type, Topic, Tools, etc.)
+  aiTools?: string[]; // Recommended AI Tools
+  requirements?: string[]; // Participation Requirements
   organizerInfo?: {
-    // 主办方信息
+    // Organizer Information
     name: string;
     website?: string;
     contact?: string;
   };
 
-  // 元数据
-  qualityScore: number; // 1-10质量评分
-  processedAt: string; // 处理时间
-  scrapedAt: string; // 抓取时间
-  lastUpdated: string; // 最后更新时间
-  version: number; // 数据版本号
+  // Metadata
+  qualityScore: number; // 1-10 Quality Score
+  processedAt: string; // Processed Time
+  scrapedAt: string; // Scraped Time
+  lastUpdated: string; // Last Updated Time
+  version: number; // Data Version Number
 }
 
 /**
- * 原始竞赛数据结构
+ * Raw Contest Data Structure
  */
 export interface RawContest {
   platform: string;
@@ -61,82 +61,82 @@ export interface RawContest {
   endDate?: string;
   status?: 'active' | 'upcoming' | 'ended' | 'cancelled';
   prize?: string;
-  rawHtml?: string; // 保留原始HTML用于调试
+  rawHtml?: string; // Keep raw HTML for debugging
   scrapedAt: string;
-  metadata: Record<string, unknown>; // 额外抓取的数据
+  metadata: Record<string, unknown>; // Extra scraped data
 }
 
-// ==================== 平台配置 ====================
+// ==================== Platform Configuration ====================
 
 /**
- * 平台配置接口
+ * Platform Configuration Interface
  */
 export interface PlatformConfig {
-  // 基础信息
-  name: string; // 平台名称
-  displayName: string; // 显示名称
-  baseUrl: string; // 基础URL
-  contestListUrl: string; // 竞赛列表页
+  // Basic Information
+  name: string; // Platform Name
+  displayName: string; // Display Name
+  baseUrl: string; // Base URL
+  contestListUrl: string; // Contest List Page URL
 
-  // 抓取配置
+  // Scraping Configuration
   selectors: {
-    contestItems: string; // 竞赛项目选择器
-    title: string; // 标题选择器
-    description?: string; // 描述选择器（可选）
-    deadline?: string; // 截止日期选择器（可选）
-    prize?: string; // 奖金选择器（可选）
-    link: string; // 链接选择器
+    contestItems: string; // Contest Items Selector
+    title: string; // Title Selector
+    description?: string; // Description Selector (Optional)
+    deadline?: string; // Deadline Selector (Optional)
+    prize?: string; // Prize Selector (Optional)
+    link: string; // Link Selector
   };
 
-  // 简单控制
-  enabled: boolean; // 是否启用
-  delay: number; // 请求延迟（秒）
-  maxRetries: number; // 最大重试次数
+  // Simple Controls
+  enabled: boolean; // Is Enabled
+  delay: number; // Request Delay (Seconds)
+  maxRetries: number; // Max Retries
 }
 
 /**
- * 爬取任务接口
+ * Crawl Task Interface
  */
 export interface CrawlTask {
-  platformName: string; // 平台名称
-  url: string; // 目标URL
-  selectors: PlatformConfig['selectors']; // 选择器配置
-  config: PlatformConfig; // 平台配置
-  taskId: string; // 任务ID
-  createdAt: string; // 创建时间
-  priority: number; // 任务优先级 (1-10)
+  platformName: string; // Platform Name
+  url: string; // Target URL
+  selectors: PlatformConfig['selectors']; // Selector Configuration
+  config: PlatformConfig; // Platform Configuration
+  taskId: string; // Task ID
+  createdAt: string; // Created Time
+  priority: number; // Task Priority (1-10)
 }
 
-// ==================== AI处理相关 ====================
+// ==================== AI Processing Related ====================
 
 /**
- * AI处理配置
+ * AI Processing Configuration
  */
 export interface AIProcessorConfig {
-  apiEndpoint: string; // ModelScope API端点
-  apiKey?: string; // API密钥（如需要）
-  maxTokens: number; // 最大token数
-  batchSize: number; // 批处理大小
-  modelName?: string; // 模型名称
+  apiEndpoint: string; // ModelScope API Endpoint
+  apiKey?: string; // API Key (If needed)
+  maxTokens: number; // Max Tokens
+  batchSize: number; // Batch Size
+  modelName?: string; // Model Name
 }
 
 /**
- * AI处理结果
+ * AI Process Result
  */
 export interface AIProcessResult {
-  contestType: string; // 识别的竞赛类型
-  difficulty: string; // 评估的难度
-  summary: string; // 生成的摘要
-  tags: string[]; // 提取的标签
-  aiTools: string[]; // 推荐的工具
-  qualityScore: number; // 质量评分
-  confidence: number; // 置信度
+  contestType: string; // Identified Contest Type
+  difficulty: string; // Assessed Difficulty
+  summary: string; // Generated Summary
+  tags: string[]; // Extracted Tags
+  aiTools: string[]; // Recommended Tools
+  qualityScore: number; // Quality Score
+  confidence: number; // Confidence Score
 }
 
-// ==================== 数据验证相关 ====================
+// ==================== Data Validation Related ====================
 
 /**
- * 验证规则接口
+ * Validation Rule Interface
  */
 export interface ValidationRule {
   name: string;
@@ -149,7 +149,7 @@ export interface ValidationRule {
 }
 
 /**
- * 验证问题
+ * Validation Issue
  */
 export interface ValidationIssue {
   index: number;
@@ -158,7 +158,7 @@ export interface ValidationIssue {
 }
 
 /**
- * 验证结果
+ * Validation Result
  */
 export interface ValidationResult {
   isValid: boolean;
@@ -172,20 +172,20 @@ export interface ValidationResult {
   };
 }
 
-// ==================== 存储相关 ====================
+// ==================== Storage Related ====================
 
 /**
- * 存储配置
+ * Storage Configuration
  */
 export interface StorageConfig {
-  dataDir: string; // 数据目录
-  enableGitLFS: boolean; // 是否启用Git LFS
-  maxFileSize: number; // 最大文件大小（MB）
-  backupCount: number; // 备份文件数量
+  dataDir: string; // Data Directory
+  enableGitLFS: boolean; // Enable Git LFS
+  maxFileSize: number; // Max File Size (MB)
+  backupCount: number; // Backup Count
 }
 
 /**
- * 存储结果
+ * Storage Result
  */
 export interface StorageResult {
   success: boolean;
@@ -194,21 +194,21 @@ export interface StorageResult {
   contestCount?: number;
 }
 
-// ==================== 网站生成相关 ====================
+// ==================== Site Generation Related ====================
 
 /**
- * 网站配置
+ * Site Configuration
  */
 export interface SiteConfig {
-  title: string; // 网站标题
-  description: string; // 网站描述
-  pageSize: number; // 每页显示数量
-  enableBanner: boolean; // 是否显示Banner
-  bannerContent?: string; // Banner内容
+  title: string; // Site Title
+  description: string; // Site Description
+  pageSize: number; // Items Per Page
+  enableBanner: boolean; // Enable Banner
+  bannerContent?: string; // Banner Content
 }
 
 /**
- * 页面数据
+ * Page Data
  */
 export interface PageData {
   contests: ProcessedContest[];
@@ -218,10 +218,10 @@ export interface PageData {
   contestTypes: string[];
 }
 
-// ==================== 主程序配置 ====================
+// ==================== Main Program Configuration ====================
 
 /**
- * 主程序配置
+ * Main Program Configuration
  */
 export interface MainConfig {
   mode: 'full' | 'crawl-only' | 'process-only' | 'generate-only';
@@ -233,7 +233,7 @@ export interface MainConfig {
 }
 
 /**
- * 执行结果
+ * Execution Result
  */
 export interface ExecutionResult {
   success: boolean;
@@ -246,7 +246,7 @@ export interface ExecutionResult {
 }
 
 /**
- * 执行统计
+ * Execution Stats
  */
 export interface ExecutionStats {
   crawled: number;
@@ -259,24 +259,24 @@ export interface ExecutionStats {
 }
 
 /**
- * 应用配置
+ * App Configuration
  */
 export interface AppConfig {
-  sources: PlatformConfig[]; // 平台配置
-  aiProcessor: AIProcessorConfig; // AI处理配置
-  storage: StorageConfig; // 存储配置
-  site: SiteConfig; // 网站配置
-  enableValidation?: boolean; // 是否启用验证
+  sources: PlatformConfig[]; // Platform Configs
+  aiProcessor: AIProcessorConfig; // AI Processor Config
+  storage: StorageConfig; // Storage Config
+  site: SiteConfig; // Site Config
+  enableValidation?: boolean; // Is Validation Enabled
   schedule: {
-    crawlInterval: number; // 爬取间隔（小时）
-    enableAutoRun: boolean; // 是否自动运行
+    crawlInterval: number; // Crawl Interval (Hours)
+    enableAutoRun: boolean; // Enable Auto Run
   };
 }
 
-// ==================== 接口定义 ====================
+// ==================== Interface Definitions ====================
 
 /**
- * 爬虫接口
+ * Scraper Interface
  */
 export interface ContestScraper {
   platform: string;
@@ -284,7 +284,7 @@ export interface ContestScraper {
 }
 
 /**
- * AI处理器接口
+ * AI Processor Interface
  */
 export interface AIProcessor {
   process(rawContests: RawContest[]): Promise<ProcessedContest[]>;
@@ -292,7 +292,7 @@ export interface AIProcessor {
 }
 
 /**
- * 存储器接口
+ * Storage Interface
  */
 export interface ContestStorage {
   save(contests: ProcessedContest[], platform: string): Promise<StorageResult>;
@@ -301,7 +301,7 @@ export interface ContestStorage {
 }
 
 /**
- * 网站生成器接口
+ * Site Generator Interface
  */
 export interface SiteGenerator {
   generate(contests: ProcessedContest[]): Promise<void>;
@@ -310,7 +310,7 @@ export interface SiteGenerator {
 }
 
 /**
- * 主应用接口
+ * Contest App Interface
  */
 export interface ContestApp {
   run(): Promise<ExecutionResult>;
@@ -319,10 +319,10 @@ export interface ContestApp {
   generateSite(contests: ProcessedContest[]): Promise<void>;
 }
 
-// ==================== 错误处理 ====================
+// ==================== Error Handling ====================
 
 /**
- * 错误类型
+ * Error Type
  */
 export type ErrorType =
   | 'NETWORK'
@@ -333,7 +333,7 @@ export type ErrorType =
   | 'RATE_LIMIT';
 
 /**
- * 应用错误
+ * App Error
  */
 export interface AppError {
   type: ErrorType;
@@ -346,12 +346,12 @@ export interface AppError {
 }
 
 /**
- * 重试策略
+ * Retry Policy
  */
 export interface RetryPolicy {
   maxAttempts: number;
-  initialDelay: number; // 初始延迟（毫秒）
-  backoffMultiplier: number; // 退避倍数
-  maxDelay: number; // 最大延迟
-  retryableErrors: ErrorType[]; // 可重试的错误类型
+  initialDelay: number; // Initial Delay (ms)
+  backoffMultiplier: number; // Backoff Multiplier
+  maxDelay: number; // Max Delay
+  retryableErrors: ErrorType[]; // Retryable Error Types
 }

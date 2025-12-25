@@ -51,6 +51,23 @@
       "enabled": false,
       "delay": 1.5,
       "maxRetries": 3
+    },
+    {
+      "name": "devpost",
+      "displayName": "Devpost",
+      "baseUrl": "https://devpost.com",
+      "contestListUrl": "https://devpost.com/hackathons",
+      "selectors": {
+        "contestItems": ".hackathon-tile",
+        "title": ".main-content h3",
+        "description": ".challenge-overview",
+        "link": "a.tile-anchor",
+        "deadline": ".time-left",
+        "prize": ".prize-amount"
+      },
+      "enabled": true,
+      "delay": 5.0,
+      "maxRetries": 3
     }
   ],
   "aiProcessor": {

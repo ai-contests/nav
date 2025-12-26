@@ -4,7 +4,6 @@
 - [ ] Implement robust retry logic for Civitai API (451 error)
 - [ ] Add proxy rotation support for scrapers
 - [ ] Add "OpenArt" platform scraper support
-- [ ] Add "Devpost" platform scraper support
 - [ ] Add "DrivenData" platform scraper support
 - [ ] Implement email notifications for new contests
 
@@ -15,6 +14,15 @@
     - [ ] Monitor GitHub Models API usage/limits
 
 ## ✅ Completed
+- [x] **Devpost Scraper Implementation**
+    - [x] Puppeteer-based crawling for dynamic content
+    - [x] Detail enrichment (URL scraping)
+    - [x] Configurable selectors in `app.json`
+- [x] **Pipeline & Infrastructure Refactoring**
+    - [x] Resolved CLI execution environment issues (`tsconfig.cli.json`)
+    - [x] Fixed `npm run crawl` pipeline consistency
+    - [x] Refactored and translated core Type definitions to English
+    - [x] Standardized ScraperManager and PlatformConfig
 - [x] **Design and implement Web UI (Static Site Generation)**
     - [x] Create Design System (Deep Ocean / JetBrains Mono)
     - [x] Initialize Next.js Project Structure

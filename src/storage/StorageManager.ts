@@ -492,7 +492,6 @@ export class StorageManager {
    */
   async archiveEndedContests(archiveDays = 30): Promise<StorageResult> {
     try {
-      const processedDir = path.join(this.config.dataDir, 'processed');
       const archiveDir = path.join(this.config.dataDir, 'archive');
       
       // Load all processed contests

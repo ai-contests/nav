@@ -1,6 +1,7 @@
 import { EnhancedScraper } from './EnhancedScraper';
-import { RawContest, PlatformConfig } from '../types';
+import { RawContest } from '../types';
 import { logger } from '../utils/logger';
+import * as cheerio from 'cheerio';
 
 export class DevpostScraper extends EnhancedScraper {
     get platform(): string {
@@ -34,8 +35,9 @@ export class DevpostScraper extends EnhancedScraper {
                     if (this.validateContest(contest)) {
                         enrichedContests.push(contest);
                     }
-                 } catch (e: any) {
-                     logger.warn(`Failed to enrich Devpost contest ${contest.title}`, { error: e.message || e });
+                 } catch (e: unknown) {
+                     const errorMessage = e instanceof Error ? e.message : String(e);
+                     logger.warn(`Failed to enrich Devpost contest ${contest.title}`, { error: errorMessage });
                      // Push basic version if enrichment fails
                      if (this.validateContest(contest)) enrichedContests.push(contest);
                  }
@@ -49,10 +51,11 @@ export class DevpostScraper extends EnhancedScraper {
     }
 
     private extractContestDataList(html: string): RawContest[] {
-        const $ = this.loadHtml(html);
+        const $ = cheerio.load(html);
         const contests: RawContest[] = [];
 
         // Devpost hackathon tiles
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         $('.hackathon-tile').each((_: number, el: any) => {
             const $el = $(el);
             
@@ -66,17 +69,12 @@ export class DevpostScraper extends EnhancedScraper {
             
             // Themes/Tags
             const themes: string[] = [];
-            $el.find('.theme-label').each((_: number, t: any) => themes.push($(t).text().trim()));
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            $el.find('.theme-label').each((_: number, t: any) => { themes.push($(t).text().trim()); });
 
             if (title && url) {
                 // Calculate rough deadline from time left if possible, or leave undefined for AI enrichment
-                // "28 days left"
-                let deadline: string | undefined;
-                if (timeLeft.includes('left')) {
-                     // Very rough estimation, better to parse specific date from detail page if available.
-                     // But list page usually gives relative time.
-                }
-
+                
                 contests.push({
                     platform: this.platform,
                     title,
@@ -100,7 +98,7 @@ export class DevpostScraper extends EnhancedScraper {
     }
 
     private enrichContestDetails(contest: RawContest, html: string) {
-        const $ = this.loadHtml(html);
+        const $ = cheerio.load(html);
         
         // Description
         const desc = $('#challenge-overview').text().trim() || $('.hyphenate').first().text().trim();
@@ -108,15 +106,8 @@ export class DevpostScraper extends EnhancedScraper {
 
         // Tags
         const tags: string[] = [];
-        $('#built-with li').each((_: number, el: any) => tags.push($(el).text().trim()));
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        $('#built-with li').each((_: number, el: any) => { tags.push($(el).text().trim()); });
         if (tags.length > 0) contest.metadata = { ...contest.metadata, stack: tags };
-    }
-
-    // Helper to load cheerio (since base class doesn't expose it directly as a public method, but we can import it)
-    private loadHtml(html: string) {
-        // We need to import cheerio dynamically or statically. 
-        // Assuming cheerio is in dependencies.
-        const cheerio = require('cheerio');
-        return cheerio.load(html);
     }
 }

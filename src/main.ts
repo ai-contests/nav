@@ -308,6 +308,49 @@ program
     }
   });
 
+program
+  .command('notify')
+  .description('Send notification about new contests')
+  .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
+  .option('-t, --test', 'Send a test email to verify configuration')
+  .action(async options => {
+    try {
+      const config = await loadConfig(options.config);
+      const pipeline = new ContestPipeline(config);
+
+      if (options.test) {
+        console.log('📧 Sending test notification...');
+        const result = await pipeline.sendTestNotification();
+        if (result.success) {
+          console.log(`✅ ${result.message}`);
+        } else {
+          console.log(`❌ ${result.message}`);
+        }
+        return;
+      }
+
+      // Load current contests and detect new ones
+      console.log('🔍 Detecting new contests...');
+      const currentContests = await pipeline.getStatus();
+      
+      // For now, just show status - actual notification would be triggered after crawl
+      if (!config.notifications?.enabled) {
+        console.log('⚠️  Notifications are disabled in config.');
+        console.log('   To enable, set notifications.enabled = true in config/app.json');
+        console.log('   and provide your Resend API key.');
+      } else {
+        console.log('✅ Notifications are enabled.');
+        console.log(`   From: ${config.notifications.fromEmail}`);
+        console.log(`   To: ${config.notifications.toEmails.join(', ')}`);
+        console.log('\n   Use --test to send a test email.');
+      }
+    } catch (error) {
+      logger.error('Notify command failed', { error });
+      console.error('❌ Failed:', error);
+      process.exit(1);
+    }
+  });
+
 
 
 // Parse command line arguments

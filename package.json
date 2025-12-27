@@ -16,6 +16,7 @@
     "export": "ts-node --project tsconfig.cli.json src/main.ts export",
     "cleanup": "ts-node --project tsconfig.cli.json src/main.ts cleanup",
     "archive": "ts-node --project tsconfig.cli.json src/main.ts archive",
+    "notify": "ts-node --project tsconfig.cli.json src/main.ts notify",
     "run": "ts-node --project tsconfig.cli.json src/main.ts run",
     "aggregate:contests": "ts-node --project tsconfig.cli.json src/scripts/aggregate-contests.ts",
     "clean": "rimraf dist .next",
@@ -82,6 +83,7 @@
     "react-dom": "^18.2.0",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1",
+    "resend": "^6.6.0",
     "tailwind-merge": "^2.0.0"
   },
   "engines": {

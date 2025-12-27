@@ -480,4 +480,78 @@ Pipeline Execution Summary:
   async archiveContests(archiveDays = 30): Promise<import('../types').StorageResult> {
     return this.storageManager.archiveEndedContests(archiveDays);
   }
+
+  /**
+   * Detect new contests by comparing current IDs with previous IDs
+   */
+  async detectNewContests(
+    currentContests: ProcessedContest[]
+  ): Promise<ProcessedContest[]> {
+    try {
+      // Load previously stored contests
+      const previousContests = await this.storageManager.loadProcessedContests();
+      const previousIds = new Set(previousContests.map(c => c.id));
+
+      // Find contests with IDs not in previous set
+      const newContests = currentContests.filter(c => !previousIds.has(c.id));
+
+      logger.info(`Detected ${newContests.length} new contests out of ${currentContests.length} total`);
+      return newContests;
+    } catch (error) {
+      logger.warn('Failed to detect new contests, treating all as new', { error });
+      return currentContests;
+    }
+  }
+
+  /**
+   * Send notification for new contests
+   */
+  async notifyNewContests(contests: ProcessedContest[]): Promise<{
+    success: boolean;
+    message: string;
+    sentCount?: number;
+  }> {
+    if (!this.config.notifications?.enabled) {
+      return {
+        success: true,
+        message: 'Notifications disabled in config',
+        sentCount: 0,
+      };
+    }
+
+    // Dynamic import to avoid loading if not needed
+    const { NotificationService } = await import('../notifications/NotificationService');
+    
+    const notificationService = new NotificationService({
+      enabled: this.config.notifications.enabled,
+      resendApiKey: this.config.notifications.resendApiKey,
+      fromEmail: this.config.notifications.fromEmail,
+      toEmails: this.config.notifications.toEmails,
+    });
+
+    return notificationService.notifyNewContests(contests);
+  }
+
+  /**
+   * Send test notification
+   */
+  async sendTestNotification(): Promise<{ success: boolean; message: string }> {
+    if (!this.config.notifications?.enabled) {
+      return {
+        success: false,
+        message: 'Notifications not enabled in config',
+      };
+    }
+
+    const { NotificationService } = await import('../notifications/NotificationService');
+    
+    const notificationService = new NotificationService({
+      enabled: this.config.notifications.enabled,
+      resendApiKey: this.config.notifications.resendApiKey,
+      fromEmail: this.config.notifications.fromEmail,
+      toEmails: this.config.notifications.toEmails,
+    });
+
+    return notificationService.sendTestEmail();
+  }
 }

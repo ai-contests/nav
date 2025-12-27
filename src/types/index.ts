@@ -271,6 +271,12 @@ export interface AppConfig {
     crawlInterval: number; // Crawl Interval (Hours)
     enableAutoRun: boolean; // Enable Auto Run
   };
+  notifications?: {
+    enabled: boolean;
+    resendApiKey: string;
+    fromEmail: string;
+    toEmails: string[];
+  };
 }
 
 // ==================== Interface Definitions ====================

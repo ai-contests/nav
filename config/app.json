@@ -93,5 +93,11 @@
   "schedule": {
     "crawlInterval": 8,
     "enableAutoRun": false
+  },
+  "notifications": {
+    "enabled": false,
+    "resendApiKey": "",
+    "fromEmail": "AI Contest Navigator <onboarding@resend.dev>",
+    "toEmails": []
   }
 }

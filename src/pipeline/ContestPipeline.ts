@@ -524,7 +524,6 @@ Pipeline Execution Summary:
     
     const notificationService = new NotificationService({
       enabled: this.config.notifications.enabled,
-      resendApiKey: this.config.notifications.resendApiKey,
       fromEmail: this.config.notifications.fromEmail,
       toEmails: this.config.notifications.toEmails,
     });
@@ -547,7 +546,6 @@ Pipeline Execution Summary:
     
     const notificationService = new NotificationService({
       enabled: this.config.notifications.enabled,
-      resendApiKey: this.config.notifications.resendApiKey,
       fromEmail: this.config.notifications.fromEmail,
       toEmails: this.config.notifications.toEmails,
     });

@@ -273,7 +273,6 @@ export interface AppConfig {
   };
   notifications?: {
     enabled: boolean;
-    resendApiKey: string;
     fromEmail: string;
     toEmails: string[];
   };

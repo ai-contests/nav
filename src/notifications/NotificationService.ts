@@ -8,7 +8,6 @@ import { ProcessedContest } from '../types';
 import { logger } from '../utils/logger';
 
 export interface NotificationConfig {
-  resendApiKey: string;
   fromEmail: string;
   toEmails: string[];
   enabled: boolean;
@@ -28,11 +27,16 @@ export class NotificationService {
   constructor(config: NotificationConfig) {
     this.config = config;
     
-    if (config.enabled && config.resendApiKey) {
-      this.resend = new Resend(config.resendApiKey);
+    // Read API key from environment variable
+    const apiKey = process.env.RESEND_API_KEY;
+    
+    if (config.enabled && apiKey) {
+      this.resend = new Resend(apiKey);
       logger.info('NotificationService initialized with Resend');
+    } else if (config.enabled && !apiKey) {
+      logger.warn('NotificationService enabled but RESEND_API_KEY not set');
     } else {
-      logger.warn('NotificationService disabled or missing API key');
+      logger.debug('NotificationService disabled');
     }
   }
 

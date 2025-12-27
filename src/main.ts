@@ -329,11 +329,9 @@ program
         return;
       }
 
-      // Load current contests and detect new ones
-      console.log('🔍 Detecting new contests...');
-      const currentContests = await pipeline.getStatus();
+      // Show notification configuration status
+      console.log('📧 Notification Configuration Status:');
       
-      // For now, just show status - actual notification would be triggered after crawl
       if (!config.notifications?.enabled) {
         console.log('⚠️  Notifications are disabled in config.');
         console.log('   To enable, set notifications.enabled = true in config/app.json');

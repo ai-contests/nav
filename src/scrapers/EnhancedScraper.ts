@@ -113,13 +113,13 @@ export class EnhancedScraper extends BaseScraper {
       }
 
       // Wait longer for dynamic content to load (especially for SPA)
-      await new Promise(r => setTimeout(r, 8000));
+      await new Promise(r => setTimeout(r, 5000));
 
       // Auto-scroll to bottom to trigger lazy loading if any
       try {
         await autoScroll(page);
         // Wait after scrolling for content to load
-        await new Promise(r => setTimeout(r, 3000));
+        await new Promise(r => setTimeout(r, 2000));
       } catch (e) {
         logger.warn('Auto-scroll failed, continuing without scrolling');
       }
@@ -355,15 +355,22 @@ async function autoScroll(page: Page): Promise<void> {
     await new Promise<void>(resolve => {
       let totalHeight = 0;
       const distance = 200;
+      const maxScrolls = 150; // Limit scrolling to avoid timeouts (~30s)
+      let currentScroll = 0;
+
       const timer = setInterval(() => {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         const scrollHeight = (document as any).body.scrollHeight;
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         (window as any).scrollBy(0, distance);
         totalHeight += distance;
+        currentScroll++;
 
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        if (totalHeight >= scrollHeight - (window as any).innerHeight) {
+        if (
+          totalHeight >= scrollHeight - (window as any).innerHeight ||
+          currentScroll >= maxScrolls
+        ) {
           clearInterval(timer);
           resolve();
         }

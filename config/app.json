@@ -39,14 +39,14 @@
       "name": "openart",
       "displayName": "OpenArt",
       "baseUrl": "https://openart.ai",
-      "contestListUrl": "https://openart.ai/workflows",
+      "contestListUrl": "https://openart.ai/workflows/challenges",
       "selectors": {
-        "contestItems": ".workflow-item, [class*=\"workflow\"], [class*=\"contest\"]",
-        "title": "h1, h2, h3, h4, .title, [class*=\"title\"]",
-        "description": ".description, .content, p",
-        "deadline": ".deadline, .date, [class*=\"deadline\"], [class*=\"date\"]",
-        "prize": ".prize, .reward, [class*=\"prize\"], [class*=\"reward\"]",
-        "link": "a[href]"
+        "contestItems": "h6, .MuiTypography-h6, [class*='challenge']",
+        "title": "h6, .MuiTypography-h6",
+        "description": "p, .MuiTypography-body1",
+        "deadline": ".date, [class*='date']",
+        "prize": ".prize, .reward",
+        "link": "a[href*='challenge']"
       },
       "enabled": false,
       "delay": 1.5,

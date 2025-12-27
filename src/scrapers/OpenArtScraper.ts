@@ -3,12 +3,12 @@
  * Scrapes AI contest data from OpenArt.ai
  */
 
-import { BaseScraper } from './BaseScraper';
+import { EnhancedScraper } from './EnhancedScraper';
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { RawContest, PlatformConfig } from '../types';
 import { logger } from '../utils/logger';
 
-export class OpenArtScraper extends BaseScraper {
+export class OpenArtScraper extends EnhancedScraper {
   constructor(config: PlatformConfig) {
     super(config);
   }
@@ -28,7 +28,11 @@ export class OpenArtScraper extends BaseScraper {
     try {
       await this.applyDelay();
 
-      const html = await this.fetchHtml(this.config.contestListUrl);
+      // OpenArt is a SPA, use Puppeteer for dynamic content
+      const html = await this.fetchHtmlWithPuppeteer(
+        this.config.contestListUrl,
+        this.config.selectors.contestItems
+      );
       const contests = this.parseContests(html);
       const validContests = contests.filter(contest =>
         this.validateContest(contest)
@@ -43,6 +47,8 @@ export class OpenArtScraper extends BaseScraper {
     } catch (error) {
       logger.error(`Failed to scrape ${this.platform}`, { error });
       throw error;
+    } finally {
+      await this.closeBrowser();
     }
   }
 

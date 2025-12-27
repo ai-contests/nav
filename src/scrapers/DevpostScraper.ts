@@ -25,24 +25,44 @@ export class DevpostScraper extends EnhancedScraper {
             
             // Enrich details
             const enrichedContests: RawContest[] = [];
-            for (const contest of contests.slice(0, 10)) { // Limit to 10 for now to be polite
-                 try {
+            let consecutiveFailures = 0;
+            const maxConsecutiveFailures = 3;
+
+            for (const contest of contests.slice(0, 10)) {
+                // Limit to 10 for now to be polite
+                try {
+                    // If we have too many failures, skip enrichment for the rest
+                    if (consecutiveFailures >= maxConsecutiveFailures) {
+                        if (this.validateContest(contest)) {
+                            enrichedContests.push(contest);
+                        }
+                        continue;
+                    }
+
                     await this.applyDelay();
                     if (contest.url) {
+                        // Use a shorter timeout for enrichment to fail fast
                         const detailHtml = await this.fetchHtml(contest.url);
                         this.enrichContestDetails(contest, detailHtml);
+                        consecutiveFailures = 0; // Reset counter on success
                     }
                     if (this.validateContest(contest)) {
                         enrichedContests.push(contest);
                     }
-                 } catch (e: unknown) {
-                     const errorMessage = e instanceof Error ? e.message : String(e);
-                     logger.warn(`Failed to enrich Devpost contest ${contest.title}`, { error: errorMessage });
-                     // Push basic version if enrichment fails
-                     if (this.validateContest(contest)) enrichedContests.push(contest);
-                 }
+                } catch (e: unknown) {
+                    consecutiveFailures++;
+                    const errorMessage =
+                        e instanceof Error ? e.message : String(e);
+                    logger.warn(
+                        `Failed to enrich Devpost contest ${contest.title}`,
+                        { error: errorMessage }
+                    );
+                    // Push basic version if enrichment fails
+                    if (this.validateContest(contest))
+                        enrichedContests.push(contest);
+                }
             }
-            
+
             return enrichedContests;
         } catch (error) {
              logger.error(`Failed to scrape ${this.platform}`, { error });

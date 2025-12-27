@@ -23,10 +23,18 @@ export function formatBytes(bytes: number): string {
   return `${parseFloat((bytes / Math.pow(k, i)).toFixed(2))} ${sizes[i]}`;
 }
 
+import * as crypto from 'crypto';
+
 /**
  * Generate unique ID
+ * If content is provided, generates a deterministic hash.
+ * Otherwise generates a random ID.
  */
-export function generateId(prefix = ''): string {
+export function generateId(prefix = '', content?: string): string {
+  if (content) {
+    const hash = crypto.createHash('md5').update(content).digest('hex').substring(0, 12);
+    return prefix ? `${prefix}_${hash}` : hash;
+  }
   const timestamp = Date.now().toString(36);
   const random = Math.random().toString(36).substr(2, 9);
   return prefix ? `${prefix}_${timestamp}_${random}` : `${timestamp}_${random}`;

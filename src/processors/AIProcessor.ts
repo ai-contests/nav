@@ -75,7 +75,8 @@ export class AIProcessor {
 
       // Create processed contest
       const processed: ProcessedContest = {
-        id: generateId('contest'),
+        // Generate deterministic ID based on platform and URL/Title to prevent duplicates/changes
+        id: generateId('c', `${rawContest.platform}_${rawContest.url || rawContest.title || ''}`),
         title: rawContest.title || 'Untitled Contest',
         platform: rawContest.platform,
         url: rawContest.url || '',

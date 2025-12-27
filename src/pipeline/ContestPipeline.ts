@@ -473,4 +473,11 @@ Pipeline Execution Summary:
 
     logger.info('Pipeline configuration refreshed');
   }
+
+  /**
+   * Archive ended contests older than specified days
+   */
+  async archiveContests(archiveDays = 30): Promise<import('../types').StorageResult> {
+    return this.storageManager.archiveEndedContests(archiveDays);
+  }
 }

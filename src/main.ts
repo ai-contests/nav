@@ -279,6 +279,35 @@ program
     }
   });
 
+program
+  .command('archive')
+  .description('Archive ended contests older than specified days')
+  .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
+  .option('-d, --days <days>', 'Days threshold for archiving ended contests (default: 30)', '30')
+  .action(async options => {
+    try {
+      console.log(`📦 Archiving ended contests older than ${options.days} days...`);
+
+      const config = await loadConfig(options.config);
+      const pipeline = new ContestPipeline(config);
+
+      const result = await pipeline.archiveContests(parseInt(options.days));
+
+      if (result.success) {
+        console.log(`✅ Archive completed: ${result.message}`);
+        if (result.filePath) {
+          console.log(`   📄 Archive file: ${result.filePath}`);
+        }
+      } else {
+        console.log(`⚠️  Archive: ${result.message}`);
+      }
+    } catch (error) {
+      logger.error('Archive failed', { error });
+      console.error('❌ Archive failed:', error);
+      process.exit(1);
+    }
+  });
+
 
 
 // Parse command line arguments

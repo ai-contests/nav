@@ -31,6 +31,7 @@ export class StorageManager {
       await fs.ensureDir(path.join(this.config.dataDir, 'raw'));
       await fs.ensureDir(path.join(this.config.dataDir, 'processed'));
       await fs.ensureDir(path.join(this.config.dataDir, 'backup'));
+      await fs.ensureDir(path.join(this.config.dataDir, 'archive'));
 
       logger.info('Storage directories initialized', {
         dataDir: this.config.dataDir,
@@ -482,6 +483,150 @@ export class StorageManager {
           logger.info(`Cleaned up old file: ${file}`);
         }
       }
+    }
+  }
+
+  /**
+   * Archive ended contests that are older than specified days
+   * Moves them from processed to archive directory
+   */
+  async archiveEndedContests(archiveDays = 30): Promise<StorageResult> {
+    try {
+      const processedDir = path.join(this.config.dataDir, 'processed');
+      const archiveDir = path.join(this.config.dataDir, 'archive');
+      
+      // Load all processed contests
+      const allContests = await this.loadProcessedContests();
+      
+      if (allContests.length === 0) {
+        return {
+          success: true,
+          message: 'No contests to archive',
+          contestCount: 0,
+        };
+      }
+
+      const now = new Date();
+      const cutoffDate = new Date();
+      cutoffDate.setDate(cutoffDate.getDate() - archiveDays);
+
+      // Separate active and archivable contests
+      const activeContests: ProcessedContest[] = [];
+      const contestsToArchive: ProcessedContest[] = [];
+
+      for (const contest of allContests) {
+        const shouldArchive = 
+          contest.status === 'ended' &&
+          contest.deadline &&
+          new Date(contest.deadline) < cutoffDate;
+        
+        if (shouldArchive) {
+          contestsToArchive.push(contest);
+        } else {
+          activeContests.push(contest);
+        }
+      }
+
+      if (contestsToArchive.length === 0) {
+        logger.info('No contests eligible for archiving');
+        return {
+          success: true,
+          message: 'No contests eligible for archiving',
+          contestCount: 0,
+        };
+      }
+
+      // Load existing archive or create new
+      const archiveFilename = `archive-${now.toISOString().split('T')[0]}.json`;
+      const archiveFilePath = path.join(archiveDir, archiveFilename);
+      
+      let existingArchive: ProcessedContest[] = [];
+      if (await fs.pathExists(archiveFilePath)) {
+        const archiveData = await fs.readJson(archiveFilePath);
+        existingArchive = archiveData.contests || [];
+      }
+
+      // Merge with existing archive (avoid duplicates by ID)
+      const existingIds = new Set(existingArchive.map(c => c.id));
+      const newArchiveEntries = contestsToArchive.filter(c => !existingIds.has(c.id));
+      const mergedArchive = [...existingArchive, ...newArchiveEntries];
+
+      // Save updated archive
+      await fs.writeJson(
+        archiveFilePath,
+        {
+          timestamp: now.toISOString(),
+          contestCount: mergedArchive.length,
+          contests: mergedArchive,
+        },
+        { spaces: 2 }
+      );
+
+      // Update the processed file with only active contests
+      if (activeContests.length > 0) {
+        await this.saveProcessedContests(activeContests);
+      }
+
+      logger.info(`Archived ${newArchiveEntries.length} ended contests`, {
+        archiveFile: archiveFilename,
+        remainingActive: activeContests.length,
+      });
+
+      return {
+        success: true,
+        filePath: archiveFilePath,
+        message: `Archived ${newArchiveEntries.length} contests`,
+        contestCount: newArchiveEntries.length,
+      };
+    } catch (error) {
+      logger.error('Failed to archive contests', { error });
+      return {
+        success: false,
+        message: `Failed to archive contests: ${error}`,
+      };
+    }
+  }
+
+  /**
+   * Load archived contests
+   */
+  async loadArchivedContests(date?: string): Promise<ProcessedContest[]> {
+    try {
+      const archiveDir = path.join(this.config.dataDir, 'archive');
+      
+      if (!(await fs.pathExists(archiveDir))) {
+        return [];
+      }
+
+      if (date) {
+        const archivePath = path.join(archiveDir, `archive-${date}.json`);
+        if (await fs.pathExists(archivePath)) {
+          const data = await fs.readJson(archivePath);
+          return data.contests || [];
+        }
+        return [];
+      }
+
+      // Load all archives
+      const files = await fs.readdir(archiveDir);
+      const archiveFiles = files.filter(f => f.startsWith('archive-') && f.endsWith('.json'));
+      
+      const allArchived: ProcessedContest[] = [];
+      for (const file of archiveFiles) {
+        try {
+          const data = await fs.readJson(path.join(archiveDir, file));
+          if (data.contests && Array.isArray(data.contests)) {
+            allArchived.push(...data.contests);
+          }
+        } catch (e) {
+          logger.warn(`Failed to read archive file ${file}`, { error: e });
+        }
+      }
+
+      return allArchived;
+    } catch (error) {
+      logger.error('Failed to load archived contests', { error });
+      return [];
     }
   }
 }

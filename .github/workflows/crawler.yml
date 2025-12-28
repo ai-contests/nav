@@ -2,14 +2,19 @@ name: Scheduled Data Pipeline
 
 on:
   schedule:
-    # Run every 6 hours
-    - cron: '0 */6 * * *'
+    # Run every 8 hours
+    - cron: '0 */8 * * *'
   workflow_dispatch:
     inputs:
       platform:
         description: 'Specific platform to crawl (optional)'
         required: false
         type: string
+      notify:
+        description: 'Send email notification for new contests'
+        required: false
+        type: boolean
+        default: true
 
 jobs:
   run-pipeline:
@@ -44,13 +49,19 @@ jobs:
           # Secrets for proxies if needed for Civitai
           HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }} 
           HTTP_PROXY: ${{ secrets.HTTP_PROXY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: |
+          NOTIFY_FLAG=""
+          if [ "${{ inputs.notify }}" = "true" ] || [ -z "${{ inputs.notify }}" ]; then
+            NOTIFY_FLAG="--notify"
+          fi
+          
           if [ -n "${{ inputs.platform }}" ]; then
             echo "Crawling specific platform: ${{ inputs.platform }}"
-            npm run crawl -- --platform ${{ inputs.platform }}
+            npm run crawl -- --platform ${{ inputs.platform }} $NOTIFY_FLAG
           else
             echo "Crawling all platforms..."
-            npm run crawl
+            npm run crawl -- $NOTIFY_FLAG
           fi
 
       - name: Process Data (AI Enrichment)

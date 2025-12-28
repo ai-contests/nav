@@ -3,6 +3,7 @@
  * AI Contest Navigator - Command Line Interface
  */
 
+import 'dotenv/config';
 import { Command } from 'commander';
 import * as fs from 'fs-extra';
 import { ContestPipeline } from './pipeline/ContestPipeline';

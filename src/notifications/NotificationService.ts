@@ -209,7 +209,7 @@ https://github.com/ai-contests/nav
     }
 
     try {
-      const { error } = await this.resend.emails.send({
+      const { data, error } = await this.resend.emails.send({
         from: this.config.fromEmail,
         to: this.config.toEmails,
         subject: '✅ AI Contest Navigator - Test Email',
@@ -224,18 +224,22 @@ https://github.com/ai-contests/nav
       });
 
       if (error) {
+        logger.error('Resend API error', { error });
         return {
           success: false,
           message: `Test failed: ${error.message}`,
         };
       }
 
+      logger.info('Test email sent successfully', { emailId: data?.id });
+
       return {
         success: true,
-        message: `Test email sent to ${this.config.toEmails.join(', ')}`,
+        message: `Test email sent to ${this.config.toEmails.join(', ')} (ID: ${data?.id})`,
       };
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : String(error);
+      logger.error('Failed to send test email', { error: errorMessage });
       return {
         success: false,
         message: `Test failed: ${errorMessage}`,

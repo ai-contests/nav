@@ -95,8 +95,8 @@
     "enableAutoRun": false
   },
   "notifications": {
-    "enabled": false,
-    "fromEmail": "AI Contest Navigator <onboarding@resend.dev>",
-    "toEmails": []
+    "enabled": true,
+    "fromEmail": "AI Contest Navigator <notify@emoai.co.uk>",
+    "toEmails": ["neverbiasu@yeah.net"]
   }
 }

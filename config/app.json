@@ -68,6 +68,23 @@
       "enabled": true,
       "delay": 5.0,
       "maxRetries": 3
+    },
+    {
+      "name": "aicrowd",
+      "displayName": "AICrowd",
+      "baseUrl": "https://www.aicrowd.com",
+      "contestListUrl": "https://www.aicrowd.com/challenges?challenge_filter=active",
+      "selectors": {
+        "contestItems": ".card-challenge",
+        "title": ".card-title a",
+        "description": ".card-text, .card-intro",
+        "deadline": ".badge, .card-img-overlay span",
+        "prize": ".card-body",
+        "link": ".card-title a[href], a.card-img-overlay"
+      },
+      "enabled": true,
+      "delay": 3.0,
+      "maxRetries": 3
     }
   ],
   "aiProcessor": {

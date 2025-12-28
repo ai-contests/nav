@@ -552,4 +552,11 @@ Pipeline Execution Summary:
 
     return notificationService.sendTestEmail();
   }
+
+  /**
+   * Load processed contests from storage
+   */
+  async loadProcessedContests(): Promise<ProcessedContest[]> {
+    return this.storageManager.loadProcessedContests();
+  }
 }

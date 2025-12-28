@@ -185,6 +185,7 @@ program
   .description('Crawl contest data from all platforms')
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
   .option('-p, --platform <platform>', 'Platform to crawl (optional)')
+  .option('-n, --notify', 'Send email notification for new contests')
   .action(async options => {
     try {
       console.log('🕷️  Starting data crawling...');
@@ -192,8 +193,33 @@ program
       const config = await loadConfig(options.config);
       const pipeline = new ContestPipeline(config);
 
+      // Load existing contests before crawl to detect new ones
+      const previousContests = await pipeline.loadProcessedContests();
+      const previousIds = new Set(previousContests.map((c: { id: string }) => c.id));
+
       const result = await pipeline.execute('crawl-only', options.platform);
       displayResults(result);
+
+      // Detect and notify new contests if --notify flag is set
+      if (options.notify && result.success && result.stats.saved > 0) {
+        console.log('\n📧 Checking for new contests to notify...');
+        
+        const currentContests = await pipeline.loadProcessedContests();
+        const newContests = currentContests.filter((c: { id: string }) => !previousIds.has(c.id));
+
+        if (newContests.length > 0) {
+          console.log(`   Found ${newContests.length} new contest(s)`);
+          const notifyResult = await pipeline.notifyNewContests(newContests);
+          
+          if (notifyResult.success) {
+            console.log(`   ✅ ${notifyResult.message}`);
+          } else {
+            console.log(`   ⚠️  ${notifyResult.message}`);
+          }
+        } else {
+          console.log('   No new contests to notify');
+        }
+      }
 
       if (!result.success) {
         process.exit(1);

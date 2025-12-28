@@ -102,6 +102,23 @@
       "enabled": true,
       "delay": 2.0,
       "maxRetries": 3
+    },
+    {
+      "name": "zindi",
+      "displayName": "Zindi Africa",
+      "baseUrl": "https://zindi.africa",
+      "contestListUrl": "https://zindi.africa/competitions",
+      "selectors": {
+        "contestItems": "[class*='competition'], [class*='card'], a[href*='/competitions/']",
+        "title": "h3, h4, .title",
+        "description": "p, .description",
+        "deadline": ".deadline, .time",
+        "prize": ".prize",
+        "link": "a[href*='/competitions/']"
+      },
+      "enabled": false,
+      "delay": 3.0,
+      "maxRetries": 3
     }
   ],
   "aiProcessor": {

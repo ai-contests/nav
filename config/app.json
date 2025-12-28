@@ -85,6 +85,23 @@
       "enabled": true,
       "delay": 3.0,
       "maxRetries": 3
+    },
+    {
+      "name": "drivendata",
+      "displayName": "DrivenData",
+      "baseUrl": "https://www.drivendata.org",
+      "contestListUrl": "https://www.drivendata.org/competitions/",
+      "selectors": {
+        "contestItems": "h3.panel-competition-title",
+        "title": "h3.panel-competition-title",
+        "description": "p",
+        "deadline": ".time-left",
+        "prize": ".prize",
+        "link": "a.text-decoration-none"
+      },
+      "enabled": true,
+      "delay": 2.0,
+      "maxRetries": 3
     }
   ],
   "aiProcessor": {

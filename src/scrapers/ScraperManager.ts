@@ -9,6 +9,7 @@ import { CivitaiScraper } from './CivitaiScraper';
 import { OpenArtScraper } from './OpenArtScraper';
 import { DevpostScraper } from './DevpostScraper';
 import { AICrowdScraper } from './AICrowdScraper';
+import { DrivenDataScraper } from './DrivenDataScraper';
 import { BaseScraper } from './BaseScraper';
 import { RawContest, PlatformConfig, CrawlTask } from '../types';
 import { logger } from '../utils/logger';
@@ -58,6 +59,8 @@ export class ScraperManager {
         return new DevpostScraper(config);
       case 'aicrowd':
         return new AICrowdScraper(config);
+      case 'drivendata':
+        return new DrivenDataScraper(config);
       default:
         logger.warn(
           `No scraper implementation found for platform: ${config.name}`

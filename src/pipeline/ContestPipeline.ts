@@ -298,6 +298,7 @@ export class ContestPipeline {
 
   /**
    * Crawl data from all enabled platforms
+   * Uses parallel execution with concurrency control for faster crawling
    */
   private async crawlData(platformFilter?: string): Promise<RawContest[]> {
     const allContests: RawContest[] = [];
@@ -319,30 +320,46 @@ export class ContestPipeline {
 
     logger.info(`Generated ${tasks.length} crawl tasks`);
 
-    // Execute tasks with scraper manager
-    for (const task of tasks) {
-      try {
-        logger.info(`Crawling ${task.platformName}...`);
-        const contests = await this.scraperManager.scrapeTask(task);
+    // Execute tasks in parallel with concurrency control
+    const maxConcurrency = 3;
+    
+    for (let i = 0; i < tasks.length; i += maxConcurrency) {
+      const batch = tasks.slice(i, i + maxConcurrency);
+      logger.info(`Processing batch ${Math.floor(i / maxConcurrency) + 1}: ${batch.map(t => t.platformName).join(', ')}`);
+      
+      const batchPromises = batch.map(async task => {
+        try {
+          logger.info(`Crawling ${task.platformName}...`);
+          const contests = await this.scraperManager.scrapeTask(task);
+          return { platformName: task.platformName, contests, error: null };
+        } catch (error) {
+          return { platformName: task.platformName, contests: [] as RawContest[], error };
+        }
+      });
 
-        if (contests.length > 0) {
-          allContests.push(...contests);
-          logger.info(
-            `Successfully crawled ${contests.length} contests from ${task.platformName}`
-          );
+      const batchResults = await Promise.allSettled(batchPromises);
+
+      for (const result of batchResults) {
+        if (result.status === 'fulfilled') {
+          const { platformName, contests, error } = result.value;
+          if (error) {
+            if (error instanceof Error) {
+              logger.error(`Failed to crawl ${platformName}`, {
+                message: error.message,
+                stack: error.stack,
+              });
+            } else {
+              logger.error(`Failed to crawl ${platformName}`, { error });
+            }
+          } else if (contests.length > 0) {
+            allContests.push(...contests);
+            logger.info(`Successfully crawled ${contests.length} contests from ${platformName}`);
+          } else {
+            logger.warn(`No contests found for ${platformName}`);
+          }
         } else {
-          logger.warn(`No contests found for ${task.platformName}`);
+          logger.error('Unexpected batch failure', { reason: result.reason });
         }
-      } catch (error) {
-        if (error instanceof Error) {
-          logger.error(`Failed to crawl ${task.platformName}`, {
-            message: error.message,
-            stack: error.stack,
-          });
-        } else {
-          logger.error(`Failed to crawl ${task.platformName}`, { error });
-        }
-        // Continue with other platforms
       }
     }
 

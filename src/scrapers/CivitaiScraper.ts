@@ -244,42 +244,9 @@ export class CivitaiScraper extends EnhancedScraper {
             ? this.extractPrizeHeuristic([title || '', it.content || ''])
             : '';
 
-        // Initial extraction from raw data
-        let cleanTitle = this.cleanText(title || '');
+        // Clean the title using centralized method
+        const cleanTitle = this.cleanCivitaiTitle(this.cleanText(title || ''));
 
-        // Fix common Civitai title formatting issues where metadata is prepended
-        // e.g. "FaeiaDec 12, 2025🎄Winter Festival Contest 2025❄️..."
-        if (cleanTitle) {
-          // Try to split by date patterns if title looks like "AuthorMonth Day, YearReal Title"
-          // Matches "AuthorNameMonth Day, YearTitle"
-          // This Regex looks for a Date followed by the rest of the title
-          const messyTitleMatch = cleanTitle.match(/^([a-zA-Z0-9_]+)((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2},?\s+\d{4})(.*)/i);
-
-          if (messyTitleMatch) {
-            // Group 1: Author (e.g. Faeia)
-            // Group 2: Date (e.g. Dec 12, 2025)
-            // Group 3: Real Title (e.g. 🎄Winter Festival Contest 2025❄️56503896k)
-            // const extractedDate = messyTitleMatch[2]; // Unused
-            let realTitle = messyTitleMatch[3].trim();
-
-            // If realTitle ends with stats like "56503896k", try to strip them
-            // Look for a sequence of digits and 'k'/'m' at the end
-            const statsMatch = realTitle.match(/^(.*?)(\d+(?:\.\d+)?[kmKM]?\d*[kmKM]?)$/);
-            if (statsMatch) {
-              realTitle = statsMatch[1];
-            }
-
-            if (realTitle.length > 3) {
-              cleanTitle = realTitle.trim();
-              if (!endsAt) {
-                // Use the extracted date as a fallback for deadline if missing
-                // Note: The date at start of title is often the POST date or START date, not deadline.
-                // But sometimes it's the only date we have.
-                // Better to leave deadline undefined if we aren't sure it's an end date.
-              }
-            }
-          }
-        }
         const rc: RawContest = {
           platform: this.platform,
           title: cleanTitle,
@@ -427,9 +394,12 @@ export class CivitaiScraper extends EnhancedScraper {
         ? this.extractPrizeHeuristic([finalTitle || '', $element.text() || ''])
         : '';
 
+    // Clean the title to remove noise (author, date, stats)
+    const cleanedTitle = this.cleanCivitaiTitle(this.cleanText(finalTitle || ''));
+
     const contest: RawContest = {
       platform: this.platform,
-      title: this.cleanText(finalTitle || ''),
+      title: cleanedTitle,
       description: this.cleanText(description || ''),
       url,
       deadline: this.parseCivitaiDate(deadline),
@@ -657,6 +627,47 @@ export class CivitaiScraper extends EnhancedScraper {
     } catch (e) {
       return (input || '').toString().trim();
     }
+  }
+
+  /**
+   * Clean Civitai title by removing noise:
+   * - Author name at the beginning (e.g. "Faeia", "theally", "CivBot")
+   * - Date (e.g. "Dec 12, 2025")
+   * - Trailing statistics (e.g. "667840011.4k", "1231010.3k")
+   * 
+   * Input: "FaeiaDec 12, 2025🎄Winter Festival Contest 2025❄️667840011.4k"
+   * Output: "🎄Winter Festival Contest 2025❄️"
+   */
+  private cleanCivitaiTitle(title: string): string {
+    if (!title) return '';
+
+    let cleaned = title;
+
+    // Pattern: AuthorMonth Day, YearRealTitle...
+    // E.g., "FaeiaDec 12, 2025🎄Winter Festival Contest 2025❄️667840011.4k"
+    const messyTitleMatch = cleaned.match(
+      /^([a-zA-Z0-9_]+)((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2},?\s+\d{4})(.*)/i
+    );
+
+    if (messyTitleMatch) {
+      // Group 3 is the real title + trailing stats
+      cleaned = messyTitleMatch[3].trim();
+    }
+
+    // Remove trailing statistics: sequences of digits, dots, 'k', 'm' at the end
+    // E.g., "Winter Festival❄️667840011.4k" -> "Winter Festival❄️"
+    // Match: digits possibly with dots and k/m suffixes, repeated
+    cleaned = cleaned.replace(/[\d.]+[kKmM]?(?:[\d.]+[kKmM]?)*$/, '').trim();
+
+    // Also handle pure digit sequences at the end (e.g., "12345678")
+    cleaned = cleaned.replace(/\d{4,}$/, '').trim();
+
+    // If the cleaning made it too short, fall back to original
+    if (cleaned.length < 5 && title.length >= 5) {
+      return title;
+    }
+
+    return cleaned || title;
   }
 
   /**

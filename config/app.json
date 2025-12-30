@@ -119,6 +119,23 @@
       "enabled": true,
       "delay": 3.0,
       "maxRetries": 3
+    },
+    {
+      "name": "kaggle",
+      "displayName": "Kaggle",
+      "baseUrl": "https://www.kaggle.com",
+      "contestListUrl": "https://www.kaggle.com/competitions",
+      "selectors": {
+        "contestItems": "",
+        "title": "",
+        "description": "",
+        "deadline": "",
+        "prize": "",
+        "link": ""
+      },
+      "enabled": false,
+      "delay": 1.0,
+      "maxRetries": 3
     }
   ],
   "aiProcessor": {

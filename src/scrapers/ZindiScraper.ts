@@ -54,84 +54,73 @@ export class ZindiScraper extends EnhancedScraper {
 
   /**
    * Parse contest data from Zindi HTML
+   * Zindi uses CSS Modules with hashed class names (e.g. Competition__container___9d8Mz)
    */
   private parseZindiContests(html: string): RawContest[] {
     const $ = cheerio.load(html);
     const contests: RawContest[] = [];
 
-    // Find competition cards - Zindi uses various card structures
-    $(this.config.selectors.contestItems).each((_index, element) => {
+    // Find competition cards using partial class match
+    $('div[class*="Competition__container"]').each((_index, element) => {
       try {
         const $card = $(element);
 
-        // Extract title - try multiple selectors
-        const title = $card.find('h3, h4, .title, [class*="title"]').first().text().trim() ||
-                      $card.find('a').first().text().trim();
+        // Extract title from Competition__title
+        const title = $card.find('div[class*="Competition__title"]').first().text().trim();
 
-        // Extract URL
-        let url = $card.find('a').first().attr('href') || '';
+        // Extract URL from link inside the card or parent a tag
+        let url = $card.find('a[href^="/competitions/"]').first().attr('href') ||
+                  $card.parent('a').attr('href') || '';
         if (url && !url.startsWith('http')) {
           url = `https://zindi.africa${url}`;
         }
 
-        // Get card text for parsing
-        const cardText = $card.text();
-
-        // Extract description
-        const description = $card.find('p, .description, [class*="description"]')
-          .first()
-          .text()
-          .trim();
-
-        // Extract prize from text patterns
-        const prizeMatch = cardText.match(/\$[\d,]+|USD\s*[\d,]+|[\d,]+\s*USD/i);
-        const prize = prizeMatch ? prizeMatch[0] : undefined;
-
-        // Extract time/deadline patterns
-        const timeMatch = cardText.match(/(\d+)\s*(days?|weeks?|months?)\s*(left|remaining)/i);
+        // Extract deadline/time info from Competition__dates
+        const datesText = $card.find('div[class*="Competition__dates"]').text().trim();
         let deadline: string | undefined;
-        if (timeMatch) {
-          const amount = parseInt(timeMatch[1], 10);
-          const unit = timeMatch[2].toLowerCase();
+        let status: 'active' | 'upcoming' | 'ended' = 'active';
+
+        // Parse time patterns
+        const daysLeftMatch = datesText.match(/(\d+)\s*days?\s*left/i);
+        const startsInMatch = datesText.match(/starts\s*in\s*(\d+)\s*days?/i);
+        
+        if (datesText.toLowerCase().includes('challenge completed') || 
+            datesText.toLowerCase().includes('closed')) {
+          status = 'ended';
+        } else if (startsInMatch) {
+          status = 'upcoming';
+          const daysUntil = parseInt(startsInMatch[1], 10);
           const deadlineDate = new Date();
-          
-          if (unit.startsWith('day')) {
-            deadlineDate.setDate(deadlineDate.getDate() + amount);
-          } else if (unit.startsWith('week')) {
-            deadlineDate.setDate(deadlineDate.getDate() + amount * 7);
-          } else if (unit.startsWith('month')) {
-            deadlineDate.setMonth(deadlineDate.getMonth() + amount);
-          }
-          
+          deadlineDate.setDate(deadlineDate.getDate() + daysUntil);
+          deadline = deadlineDate.toISOString();
+        } else if (daysLeftMatch) {
+          status = 'active';
+          const daysLeft = parseInt(daysLeftMatch[1], 10);
+          const deadlineDate = new Date();
+          deadlineDate.setDate(deadlineDate.getDate() + daysLeft);
           deadline = deadlineDate.toISOString();
         }
 
-        // Determine status
-        let status: 'active' | 'upcoming' | 'ended' = 'active';
-        const lowerText = cardText.toLowerCase();
-        if (lowerText.includes('ended') || lowerText.includes('closed') || lowerText.includes('completed')) {
-          status = 'ended';
-        } else if (lowerText.includes('coming soon') || lowerText.includes('upcoming')) {
-          status = 'upcoming';
-        }
+        // Extract prize from Competition__right (contains prize amount like "$3 500 USD")
+        const prizeText = $card.find('div[class*="Competition__right"]').text().trim();
+        const prizeMatch = prizeText.match(/[$€£][\s\d,]+(?:USD|EUR|ZAR)?|[\d,]+\s*(?:USD|EUR|ZAR)/i);
+        const prize = prizeMatch ? prizeMatch[0].trim() : undefined;
 
-        // Extract type/category
-        const typeMatch = cardText.match(/prize|practice|knowledge|hiring/i);
-        const competitionType = typeMatch ? typeMatch[0].toLowerCase() : undefined;
+        // Description might be in Competition__blurb (only for some cards)
+        const description = $card.find('div[class*="Competition__blurb"]').text().trim() || undefined;
 
         if (title && url && title.length > 3) {
           contests.push({
             title,
             url,
             platform: this.platform,
-            description: description || undefined,
+            description,
             deadline,
             prize,
             status,
             scrapedAt: new Date().toISOString(),
             metadata: {
-              competitionType,
-              timeLeft: timeMatch ? `${timeMatch[1]} ${timeMatch[2]}` : undefined,
+              timeInfo: datesText,
             },
           });
         }

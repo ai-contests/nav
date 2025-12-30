@@ -38,7 +38,7 @@ export class KaggleScraper extends BaseScraper {
   constructor(config: PlatformConfig) {
     super(config);
     this.username = process.env.KAGGLE_USERNAME || '';
-    this.apiKey = process.env.KAGGLE_KEY || '';
+    this.apiKey = process.env.KAGGLE_KEY || process.env.KAGGLE_API_TOKEN || '';
   }
 
   get platform(): string {

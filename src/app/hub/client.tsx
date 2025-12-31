@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
+import { useAuth } from '@clerk/nextjs';
 import { Contest } from '@/lib/data';
 import { ContestCard } from '@/components/ui/ContestCard';
 import { FilterSidebar } from '@/components/ui/FilterSidebar';
@@ -12,6 +13,34 @@ interface HubClientProps {
 }
 
 export function HubClient({ initialContests }: HubClientProps) {
+    const { isSignedIn } = useAuth();
+    const [subscribedIds, setSubscribedIds] = useState<string[]>([]);
+    
+    // Fetch subscriptions on mount
+    useEffect(() => {
+        if (!isSignedIn) {
+            setSubscribedIds([]);
+            return;
+        }
+
+        fetch('/api/subscription')
+            .then(res => res.json())
+            .then(data => {
+                if (Array.isArray(data)) {
+                    setSubscribedIds(data);
+                }
+            })
+            .catch(err => console.error("Failed to fetch subscriptions:", err));
+    }, [isSignedIn]);
+
+    const handleToggleSubscription = (contestId: string, newState: boolean) => {
+        if (newState) {
+            setSubscribedIds(prev => [...prev, contestId]);
+        } else {
+            setSubscribedIds(prev => prev.filter(id => id !== contestId));
+        }
+    };
+
     const [filters, setFilters] = useState({
         platforms: [] as string[],
         types: [] as string[],
@@ -85,7 +114,12 @@ export function HubClient({ initialContests }: HubClientProps) {
                         <div className={`grid gap-4 ${viewMode === 'grid' ? 'grid-cols-1 md:grid-cols-2 xl:grid-cols-3' : 'grid-cols-1'}`}>
                             {filteredContests.length > 0 ? (
                                 filteredContests.map(contest => (
-                                    <ContestCard key={contest.id} contest={contest} />
+                                    <ContestCard 
+                                        key={contest.id} 
+                                        contest={contest} 
+                                        isSubscribed={subscribedIds.includes(contest.id)}
+                                        onToggleSubscription={(status) => handleToggleSubscription(contest.id, status)}
+                                    />
                                 ))
                             ) : (
                                 <div className="py-20 text-center border border-dashed border-slate-800 rounded-sm">

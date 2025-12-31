@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
+import { ClerkProvider } from "@clerk/nextjs";
+
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-jetbrains-mono",
@@ -18,10 +20,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${jetbrainsMono.variable} bg-canvas text-text-main font-mono antialiased selection:bg-primary selection:text-white`}>
-        {children}
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <body className={`${jetbrainsMono.variable} bg-canvas text-text-main font-mono antialiased selection:bg-primary selection:text-white`}>
+          {children}
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }

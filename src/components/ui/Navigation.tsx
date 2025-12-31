@@ -1,5 +1,8 @@
+'use client';
+
 import Link from 'next/link';
 import { Terminal } from 'lucide-react';
+import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 
 export function Navigation() {
     return (
@@ -32,6 +35,27 @@ export function Navigation() {
                      <span className="text-[10px] text-emerald-500 font-bold border border-emerald-500/20 bg-emerald-500/10 px-2 py-0.5 rounded">
                         NET_ONLINE
                      </span>
+                 </div>
+
+                 <div className="flex items-center gap-4 ml-4 pl-4 border-l border-white/10">
+                     <SignedOut>
+                         <SignInButton mode="modal">
+                             <button className="text-sm font-bold text-primary hover:text-white transition-colors uppercase tracking-wider">
+                                 [ Login ]
+                             </button>
+                         </SignInButton>
+                     </SignedOut>
+                     <SignedIn>
+                         <UserButton 
+                             appearance={{
+                                 elements: {
+                                     avatarBox: "w-8 h-8 rounded-sm border border-primary/20",
+                                     userButtonPopoverCard: "bg-surface border border-slate-800 shadow-xl",
+                                     userButtonTrigger: "rounded-sm focus:shadow-none"
+                                 }
+                             }}
+                         />
+                     </SignedIn>
                  </div>
             </div>
         </header>

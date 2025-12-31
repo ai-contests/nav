@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { ArrowRight, Terminal, Globe, Cpu, BarChart3 } from "lucide-react";
 
+import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col relative overflow-hidden bg-canvas">
@@ -13,10 +15,30 @@ export default function Home() {
           <Terminal className="w-5 h-5" />
           <span>AI_NAV</span>
         </div>
-        <nav className="flex gap-6 text-sm text-text-muted">
+        <nav className="flex items-center gap-6 text-sm text-text-muted">
           <Link href="/hub" className="hover:text-primary transition-colors">/hub</Link>
           <Link href="/docs" className="hover:text-primary transition-colors">/docs</Link>
           <Link href="https://github.com/ai-contests/nav" className="hover:text-primary transition-colors">/github</Link>
+          
+          <div className="pl-6 ml-2 border-l border-white/10 flex items-center">
+            <SignedOut>
+                <SignInButton mode="modal">
+                    <button className="text-primary hover:text-white font-bold transition-colors">
+                        [ LOGIN ]
+                    </button>
+                </SignInButton>
+            </SignedOut>
+            <SignedIn>
+                <UserButton 
+                    appearance={{
+                        elements: {
+                            avatarBox: "w-8 h-8 rounded-sm border border-primary/20",
+                            userButtonTrigger: "rounded-sm focus:shadow-none"
+                        }
+                    }}
+                />
+            </SignedIn>
+          </div>
         </nav>
       </header>
 

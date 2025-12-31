@@ -156,6 +156,7 @@ program
       if (!result.success) {
         process.exit(1);
       }
+      process.exit(0);
     } catch (error) {
       logger.error('Pipeline execution failed', { error });
       console.error('❌ Pipeline execution failed:', error);
@@ -224,6 +225,7 @@ program
       if (!result.success) {
         process.exit(1);
       }
+      process.exit(0);
     } catch (error) {
       logger.error('Crawling failed', { error });
       console.error('❌ Crawling failed:', error);
@@ -249,6 +251,7 @@ program
       if (!result.success) {
         process.exit(1);
       }
+      process.exit(0);
     } catch (error) {
       logger.error('Processing failed', { error });
       console.error('❌ Processing failed:', error);
@@ -277,6 +280,7 @@ program
       );
 
       console.log(`✅ Data exported successfully: ${filePath}`);
+      process.exit(0);
     } catch (error) {
       logger.error('Export failed', { error });
       console.error('❌ Export failed:', error);
@@ -299,6 +303,7 @@ program
       await pipeline.cleanup(parseInt(options.days));
 
       console.log('✅ Cleanup completed successfully');
+      process.exit(0);
     } catch (error) {
       logger.error('Cleanup failed', { error });
       console.error('❌ Cleanup failed:', error);
@@ -328,6 +333,7 @@ program
       } else {
         console.log(`⚠️  Archive: ${result.message}`);
       }
+      process.exit(0);
     } catch (error) {
       logger.error('Archive failed', { error });
       console.error('❌ Archive failed:', error);
@@ -353,7 +359,7 @@ program
         } else {
           console.log(`❌ ${result.message}`);
         }
-        return;
+        process.exit(0);
       }
 
       // Show notification configuration status
@@ -369,6 +375,7 @@ program
         console.log(`   To: ${config.notifications.toEmails.join(', ')}`);
         console.log('\n   Use --test to send a test email.');
       }
+      process.exit(0);
     } catch (error) {
       logger.error('Notify command failed', { error });
       console.error('❌ Failed:', error);

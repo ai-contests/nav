@@ -23,44 +23,48 @@ export class DevpostScraper extends EnhancedScraper {
             
             logger.info(`Parsed ${contests.length} contests from Devpost HTML`);
             
-            // Enrich details
+            // Enrich details in parallel chunks
             const enrichedContests: RawContest[] = [];
-            let consecutiveFailures = 0;
-            const maxConsecutiveFailures = 3;
+            
+            // Limit to 10 for now
+            const toProcess = contests.slice(0, 10);
+            const CONCURRENCY_LIMIT = 5; // Devpost handles standard HTTP well
+            
+            for (let i = 0; i < toProcess.length; i += CONCURRENCY_LIMIT) {
+                const chunk = toProcess.slice(i, i + CONCURRENCY_LIMIT);
+                
+                const chunkResults = await Promise.all(
+                    chunk.map(async (contest) => {
+                        try {
+                            if (!contest.url) return contest;
 
-            for (const contest of contests.slice(0, 10)) {
-                // Limit to 10 for now to be polite
-                try {
-                    // If we have too many failures, skip enrichment for the rest
-                    if (consecutiveFailures >= maxConsecutiveFailures) {
-                        if (this.validateContest(contest)) {
-                            enrichedContests.push(contest);
+                            await this.applyDelay();
+                            // Use a shorter timeout for enrichment to fail fast logic inside fetchHtml if supported?
+                            // fetchHtml has default timeout.
+                            
+                            const detailHtml = await this.fetchHtml(contest.url);
+                            this.enrichContestDetails(contest, detailHtml);
+                            
+                            if (this.validateContest(contest)) {
+                                return contest;
+                            }
+                            return null;
+                        } catch (e: unknown) {
+                            // If failed, just return the basic contest if valid
+                            const errorMessage = e instanceof Error ? e.message : String(e);
+                             logger.warn(
+                                `Failed to enrich Devpost contest ${contest.title}`,
+                                { error: errorMessage }
+                            );
+                            return this.validateContest(contest) ? contest : null;
                         }
-                        continue;
-                    }
-
-                    await this.applyDelay();
-                    if (contest.url) {
-                        // Use a shorter timeout for enrichment to fail fast
-                        const detailHtml = await this.fetchHtml(contest.url);
-                        this.enrichContestDetails(contest, detailHtml);
-                        consecutiveFailures = 0; // Reset counter on success
-                    }
-                    if (this.validateContest(contest)) {
-                        enrichedContests.push(contest);
-                    }
-                } catch (e: unknown) {
-                    consecutiveFailures++;
-                    const errorMessage =
-                        e instanceof Error ? e.message : String(e);
-                    logger.warn(
-                        `Failed to enrich Devpost contest ${contest.title}`,
-                        { error: errorMessage }
-                    );
-                    // Push basic version if enrichment fails
-                    if (this.validateContest(contest))
-                        enrichedContests.push(contest);
-                }
+                    })
+                );
+                
+                // Filter out nulls
+                chunkResults.forEach(r => {
+                    if (r) enrichedContests.push(r);
+                });
             }
 
             return enrichedContests;

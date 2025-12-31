@@ -123,3 +123,5 @@ test-results/
 # Husky
 .husky/_
 .next
+
+/src/generated/prisma

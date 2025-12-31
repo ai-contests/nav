@@ -104,7 +104,7 @@ export class EnhancedScraper extends BaseScraper {
       // Wait for specific selector if provided
       if (waitForSelector) {
         try {
-          await page.waitForSelector(waitForSelector, { timeout: 10000 });
+          await page.waitForSelector(waitForSelector, { timeout: 5000 });
         } catch (error) {
           logger.warn(
             `Selector ${waitForSelector} not found, continuing anyway`

@@ -143,64 +143,84 @@ export class AICrowdScraper extends EnhancedScraper {
   /**
    * Enrich contest data with detail page information
    */
+  /**
+   * Enrich contest data with detail page information in parallel chunks
+   */
   private async enrichContestData(
     contests: RawContest[]
   ): Promise<RawContest[]> {
     const enrichedContests: RawContest[] = [];
+    const CONCURRENCY_LIMIT = 3;
 
-    for (const contest of contests) {
-      if (!contest.url) {
-        enrichedContests.push(contest);
-        continue;
-      }
+    // Process in chunks
+    for (let i = 0; i < contests.length; i += CONCURRENCY_LIMIT) {
+      const chunk = contests.slice(i, i + CONCURRENCY_LIMIT);
+      
+      const chunkResults = await Promise.all(
+        chunk.map(async (contest) => {
+          if (!contest.url) return contest;
 
-      try {
-        await this.applyDelay();
+          try {
+            await this.applyDelay(); // Minor delay to stagger starts
 
-        const detailHtml = await this.fetchHtmlWithPuppeteer(
-          contest.url,
-          '.challenge-description, .challenge-timeline, h1'
-        );
-        const $ = cheerio.load(detailHtml);
+            // Note: Parallel puppeteer tabs might be heavy. 
+            // Ensure configureBrowser matches this usage or rely on single-page reuse logic.
+            // EnhancedScraper uses a single singleton page usually? 
+            // If fetchHtmlWithPuppeteer uses `this.browser.newPage()`, it's fine.
+            // Let's assume fetchHtmlWithPuppeteer handles page creation/closing.
 
-        // Get full description
-        const fullDescription = 
-          $('.challenge-description, .markdown-body, [class*="description"]')
-            .first()
-            .text()
-            .trim();
+            // Use a shorter wait timeout if possible, or catch specific timeout errors quickly.
+            // Since we can't easily change the timeout passed to fetchHtmlWithPuppeteer from here without changing the base class,
+            // we rely on parallelism to speed up total time.
 
-        if (fullDescription && fullDescription.length > (contest.description?.length || 0)) {
-          contest.description = fullDescription.substring(0, 2000);
-        }
+            const detailHtml = await this.fetchHtmlWithPuppeteer(
+              contest.url,
+              '.challenge-description, .challenge-timeline, h1'
+            );
+            const $ = cheerio.load(detailHtml);
 
-        // Try to get organizer info
-        const organizer = $('[class*="organizer"], [class*="host"]')
-          .first()
-          .text()
-          .trim();
-        if (organizer) {
-          contest.metadata.organizer = organizer;
-        }
+            // Get full description
+            const fullDescription = 
+              $('.challenge-description, .markdown-body, [class*="description"]')
+                .first()
+                .text()
+                .trim();
 
-        // Try to get tags/categories
-        const tags: string[] = [];
-        $('.badge, .tag, [class*="category"]').each((_i, el) => {
-          const tagText = $(el).text().trim();
-          if (tagText && tagText.length < 50 && !tags.includes(tagText)) {
-            tags.push(tagText);
+            if (fullDescription && fullDescription.length > (contest.description?.length || 0)) {
+              contest.description = fullDescription.substring(0, 2000);
+            }
+
+            // Try to get organizer info
+            const organizer = $('[class*="organizer"], [class*="host"]')
+              .first()
+              .text()
+              .trim();
+            if (organizer) {
+              contest.metadata.organizer = organizer;
+            }
+
+            // Try to get tags/categories
+            const tags: string[] = [];
+            $('.badge, .tag, [class*="category"]').each((_i, el) => {
+              const tagText = $(el).text().trim();
+              if (tagText && tagText.length < 50 && !tags.includes(tagText)) {
+                tags.push(tagText);
+              }
+            });
+            if (tags.length > 0) {
+              contest.metadata.tags = tags.slice(0, 10);
+            }
+
+            logger.debug(`Enriched contest: ${contest.title}`);
+            return contest;
+          } catch (error) {
+            logger.warn(`Failed to enrich contest: ${contest.title}`, { error });
+            return contest;
           }
-        });
-        if (tags.length > 0) {
-          contest.metadata.tags = tags.slice(0, 10);
-        }
-
-        enrichedContests.push(contest);
-        logger.debug(`Enriched contest: ${contest.title}`);
-      } catch (error) {
-        logger.warn(`Failed to enrich contest: ${contest.title}`, { error });
-        enrichedContests.push(contest);
-      }
+        })
+      );
+      
+      enrichedContests.push(...chunkResults);
     }
 
     return enrichedContests;

@@ -57,7 +57,7 @@ export async function DELETE(req: Request) {
   }
 }
 
-export async function GET(req: Request) {
+export async function GET(_req: Request) {
   try {
     const { userId } = await auth();
     if (!userId) {
@@ -75,7 +75,7 @@ export async function GET(req: Request) {
     }
 
     // Return array of contest IDs
-    return NextResponse.json(data.map((item: any) => item.contest_id));
+    return NextResponse.json(data.map((item: { contest_id: string }) => item.contest_id));
   } catch (error) {
     return new NextResponse("Internal Error", { status: 500 });
   }

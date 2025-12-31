@@ -1,0 +1,269 @@
+{
+  "platform": "aicrowd",
+  "timestamp": "2025-12-31T18:18:56.565Z",
+  "contestCount": 10,
+  "contests": [
+    {
+      "id": "c_4509ddd58d5c",
+      "title": "Round 1: 5 hours left",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/global-chess-challenge-2025",
+      "description": "Global Chess Challenge 2025\n              \n                Train LLMs to Play Chess\n          Train LLMs to Play Chess",
+      "summary": "Global Chess Challenge 2025\n              \n                Train LLMs to Play Chess\n          Train LLMs to Play Chess...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "prize": "USD 17,000",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2025-12-31T18:18:26.733Z",
+      "scrapedAt": "2025-12-31T18:17:09.012Z",
+      "lastUpdated": "2025-12-31T18:18:26.733Z",
+      "version": 1
+    },
+    {
+      "id": "c_1eeb284bc07c",
+      "title": "Phase 1: 32 days left",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/orak-game-agent-challenge-2025",
+      "description": "Orak Game Agent Challenge 2025\n              \n                Build an LLM agent for five real-world games\n          Build an LLM agent for five real-world games",
+      "summary": "Orak Game Agent Challenge 2025\n              \n                Build an LLM agent for five real-world games\n          Build an LLM agent for five real-world games...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-02-01T18:17:09.012Z",
+      "prize": "USD 20,000",
+      "tags": [
+        "llm"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2025-12-31T18:18:27.562Z",
+      "scrapedAt": "2025-12-31T18:17:09.012Z",
+      "lastUpdated": "2025-12-31T18:18:27.562Z",
+      "version": 1
+    },
+    {
+      "id": "c_8028e73d2ed6",
+      "title": "Benchmark Challenge: Running",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge",
+      "description": "Spotify Million Playlist Dataset Challenge\n              \n                A dataset and open-ended challenge for music recommendation research\n          A dataset and open-ended challenge for music recommendation research",
+      "summary": "Spotify Million Playlist Dataset Challenge\n              \n                A dataset and open-ended challenge for music recommendation research\n          A dataset and open-ended challenge for music re...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2025-12-31T18:18:27.586Z",
+      "scrapedAt": "2025-12-31T18:17:09.013Z",
+      "lastUpdated": "2025-12-31T18:18:27.586Z",
+      "version": 1
+    },
+    {
+      "id": "c_219544c1c5a3",
+      "title": "Round 3: 1687 days left",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge",
+      "description": "Trajnet++ (A Trajectory Forecasting Challenge)",
+      "summary": "Trajnet++ (A Trajectory Forecasting Challenge)...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2030-08-14T18:17:09.014Z",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2025-12-31T18:18:27.738Z",
+      "scrapedAt": "2025-12-31T18:17:09.014Z",
+      "lastUpdated": "2025-12-31T18:18:27.738Z",
+      "version": 1
+    },
+    {
+      "id": "c_4609e3e111ee",
+      "title": "2025: 47 days left",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/epfl-ml-road-segmentation",
+      "description": "EPFL ML Road Segmentation\n              \n                Project 2: Road extraction from satellite images\n          Project 2: Road extraction from satellite images",
+      "summary": "EPFL ML Road Segmentation\n              \n                Project 2: Road extraction from satellite images\n          Project 2: Road extraction from satellite images...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-02-16T18:17:09.014Z",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2025-12-31T18:18:27.698Z",
+      "scrapedAt": "2025-12-31T18:17:09.014Z",
+      "lastUpdated": "2025-12-31T18:18:27.698Z",
+      "version": 1
+    },
+    {
+      "id": "c_34f7150a85bd",
+      "title": "2025: 47 days left",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/epfl-ml-text-classification",
+      "description": "EPFL ML Text Classification\n              \n                Project 2: build our own text classifier system, and test its performance.\n          Project 2: build our own text classifier system, and test its performance.",
+      "summary": "EPFL ML Text Classification\n              \n                Project 2: build our own text classifier system, and test its performance.\n          Project 2: build our own text classifier system, and tes...",
+      "contestType": "text",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-02-16T18:17:09.015Z",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2025-12-31T18:18:27.807Z",
+      "scrapedAt": "2025-12-31T18:17:09.015Z",
+      "lastUpdated": "2025-12-31T18:18:27.807Z",
+      "version": 1
+    },
+    {
+      "id": "c_ef4f31b33152",
+      "title": "Post challenge submissions: 7183 days left",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/eccv-2020-commands-4-autonomous-vehicles",
+      "description": "ECCV 2020 Commands 4 Autonomous Vehicles",
+      "summary": "ECCV 2020 Commands 4 Autonomous Vehicles...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2045-08-31T18:17:09.015Z",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2025-12-31T18:18:28.811Z",
+      "scrapedAt": "2025-12-31T18:17:09.015Z",
+      "lastUpdated": "2025-12-31T18:18:28.811Z",
+      "version": 1
+    },
+    {
+      "id": "c_03552b946309",
+      "title": "Post Challenge Round: 1825 days left",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/mediqa-2021-question-summarization-qs",
+      "description": "MEDIQA 2021 - Question Summarization (QS)\n              \n                ACL-BioNLP Shared Task\n          ACL-BioNLP Shared Task",
+      "summary": "MEDIQA 2021 - Question Summarization (QS)\n              \n                ACL-BioNLP Shared Task\n          ACL-BioNLP Shared Task...",
+      "contestType": "text",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2030-12-30T18:17:09.016Z",
+      "tags": [
+        "nlp"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2025-12-31T18:18:28.807Z",
+      "scrapedAt": "2025-12-31T18:17:09.016Z",
+      "lastUpdated": "2025-12-31T18:18:28.807Z",
+      "version": 1
+    },
+    {
+      "id": "c_aa2c7b5cbc46",
+      "title": "Round 1: Starting soon",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/multi-agent-reinforcement-learning-for-iterative-reasoning",
+      "description": "Multi-Agent Reinforcement Learning for Iterative Reasoning",
+      "summary": "Multi-Agent Reinforcement Learning for Iterative Reasoning...",
+      "contestType": "mixed",
+      "status": "upcoming",
+      "difficulty": "intermediate",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2025-12-31T18:18:28.800Z",
+      "scrapedAt": "2025-12-31T18:17:09.016Z",
+      "lastUpdated": "2025-12-31T18:18:28.800Z",
+      "version": 1
+    },
+    {
+      "id": "c_c2e0f8ab8d91",
+      "title": ": Starting soon",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/track-1-improve-training-speed",
+      "description": "Track 1: Improve Training Speed",
+      "summary": "Track 1: Improve Training Speed...",
+      "contestType": "mixed",
+      "status": "upcoming",
+      "difficulty": "intermediate",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2025-12-31T18:18:28.876Z",
+      "scrapedAt": "2025-12-31T18:17:09.016Z",
+      "lastUpdated": "2025-12-31T18:18:28.876Z",
+      "version": 1
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "dataStructure": "ProcessedContest",
+    "lastUpdated": "2025-12-31T18:18:56.565Z"
+  }
+}

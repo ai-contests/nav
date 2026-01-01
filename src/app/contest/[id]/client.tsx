@@ -140,7 +140,7 @@ export function ContestDetailClient({ contest }: ContestDetailClientProps) {
                         {['overview', 'rules', 'timeline'].map(tab => (
                             <button
                                 key={tab}
-                                onClick={() => setActiveTab(tab as any)}
+                                onClick={() => setActiveTab(tab as 'overview' | 'rules' | 'timeline')}
                                 className={`px-6 py-4 text-sm font-bold uppercase tracking-wider border-b-2 transition-colors ${
                                     activeTab === tab 
                                         ? 'border-primary text-white' 

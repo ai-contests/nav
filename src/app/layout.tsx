@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider publishableKey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || "pk_test_placeholder_for_build"}>
+    <ClerkProvider>
       <html lang="en">
         <body className={`${jetbrainsMono.variable} bg-canvas text-text-main font-mono antialiased selection:bg-primary selection:text-white`}>
           {children}

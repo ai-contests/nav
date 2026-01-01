@@ -14,6 +14,8 @@ export const metadata: Metadata = {
   description: "The definitive terminal for global AI competitions.",
 };
 
+import { Analytics } from "@vercel/analytics/react"
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -24,6 +26,7 @@ export default function RootLayout({
       <html lang="en">
         <body className={`${jetbrainsMono.variable} bg-canvas text-text-main font-mono antialiased selection:bg-primary selection:text-white`}>
           {children}
+          <Analytics />
         </body>
       </html>
     </ClerkProvider>

@@ -68,6 +68,7 @@
     "@clerk/nextjs": "^6.36.5",
     "@supabase/supabase-js": "^2.89.0",
     "@types/crypto-js": "^4.2.2",
+    "@vercel/analytics": "^1.6.1",
     "axios": "^1.5.0",
     "cheerio": "^1.0.0-rc.12",
     "clsx": "^2.0.0",

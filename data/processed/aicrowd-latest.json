@@ -1,8 +1,37 @@
 {
   "platform": "aicrowd",
-  "timestamp": "2026-01-02T02:11:12.282Z",
+  "timestamp": "2026-01-02T08:40:22.577Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_4509ddd58d5c",
+      "title": "Round 2: 29 days left",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/global-chess-challenge-2025",
+      "description": "Global Chess Challenge 2025\n              \n                Train LLMs to Play Chess\n          Train LLMs to Play Chess",
+      "summary": "Global Chess Challenge 2025\n              \n                Train LLMs to Play Chess\n          Train LLMs to Play Chess...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-01-31T08:38:37.921Z",
+      "prize": "USD 17,000",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-01-02T08:39:53.682Z",
+      "scrapedAt": "2026-01-02T08:38:37.921Z",
+      "lastUpdated": "2026-01-02T08:39:53.682Z",
+      "version": 1
+    },
     {
       "id": "c_1eeb284bc07c",
       "title": "Phase 1: 30 days left",
@@ -13,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-02-01T02:09:24.360Z",
+      "deadline": "2026-02-01T08:38:37.921Z",
       "prize": "USD 20,000",
       "tags": [
         "llm"
@@ -26,9 +55,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-02T02:10:42.106Z",
-      "scrapedAt": "2026-01-02T02:09:24.360Z",
-      "lastUpdated": "2026-01-02T02:10:42.106Z",
+      "processedAt": "2026-01-02T08:39:54.465Z",
+      "scrapedAt": "2026-01-02T08:38:37.921Z",
+      "lastUpdated": "2026-01-02T08:39:54.465Z",
       "version": 1
     },
     {
@@ -50,9 +79,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-02T02:10:42.764Z",
-      "scrapedAt": "2026-01-02T02:09:24.360Z",
-      "lastUpdated": "2026-01-02T02:10:42.764Z",
+      "processedAt": "2026-01-02T08:39:54.532Z",
+      "scrapedAt": "2026-01-02T08:38:37.921Z",
+      "lastUpdated": "2026-01-02T08:39:54.532Z",
       "version": 1
     },
     {
@@ -65,7 +94,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T02:09:24.360Z",
+      "deadline": "2030-08-15T08:38:37.922Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -75,9 +104,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-02T02:10:42.900Z",
-      "scrapedAt": "2026-01-02T02:09:24.360Z",
-      "lastUpdated": "2026-01-02T02:10:42.900Z",
+      "processedAt": "2026-01-02T08:39:54.506Z",
+      "scrapedAt": "2026-01-02T08:38:37.922Z",
+      "lastUpdated": "2026-01-02T08:39:54.506Z",
       "version": 1
     },
     {
@@ -90,7 +119,7 @@
       "contestType": "image",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-02-17T02:09:24.361Z",
+      "deadline": "2026-02-17T08:38:37.922Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -100,9 +129,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-02T02:10:42.902Z",
-      "scrapedAt": "2026-01-02T02:09:24.361Z",
-      "lastUpdated": "2026-01-02T02:10:42.902Z",
+      "processedAt": "2026-01-02T08:39:54.443Z",
+      "scrapedAt": "2026-01-02T08:38:37.922Z",
+      "lastUpdated": "2026-01-02T08:39:54.443Z",
       "version": 1
     },
     {
@@ -115,7 +144,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-02-17T02:09:24.361Z",
+      "deadline": "2026-02-17T08:38:37.922Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -125,9 +154,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-02T02:10:42.860Z",
-      "scrapedAt": "2026-01-02T02:09:24.362Z",
-      "lastUpdated": "2026-01-02T02:10:42.860Z",
+      "processedAt": "2026-01-02T08:39:54.563Z",
+      "scrapedAt": "2026-01-02T08:38:37.922Z",
+      "lastUpdated": "2026-01-02T08:39:54.563Z",
       "version": 1
     },
     {
@@ -140,7 +169,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T02:09:24.362Z",
+      "deadline": "2045-09-01T08:38:37.922Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -150,9 +179,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-02T02:10:42.984Z",
-      "scrapedAt": "2026-01-02T02:09:24.362Z",
-      "lastUpdated": "2026-01-02T02:10:42.984Z",
+      "processedAt": "2026-01-02T08:39:55.567Z",
+      "scrapedAt": "2026-01-02T08:38:37.922Z",
+      "lastUpdated": "2026-01-02T08:39:55.567Z",
       "version": 1
     },
     {
@@ -165,7 +194,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T02:09:24.362Z",
+      "deadline": "2030-12-31T08:38:37.923Z",
       "tags": [
         "nlp"
       ],
@@ -177,9 +206,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-02T02:10:43.988Z",
-      "scrapedAt": "2026-01-02T02:09:24.362Z",
-      "lastUpdated": "2026-01-02T02:10:43.988Z",
+      "processedAt": "2026-01-02T08:39:55.570Z",
+      "scrapedAt": "2026-01-02T08:38:37.923Z",
+      "lastUpdated": "2026-01-02T08:39:55.570Z",
       "version": 1
     },
     {
@@ -201,9 +230,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-02T02:10:43.993Z",
-      "scrapedAt": "2026-01-02T02:09:24.363Z",
-      "lastUpdated": "2026-01-02T02:10:43.993Z",
+      "processedAt": "2026-01-02T08:39:55.569Z",
+      "scrapedAt": "2026-01-02T08:38:37.923Z",
+      "lastUpdated": "2026-01-02T08:39:55.569Z",
       "version": 1
     },
     {
@@ -227,39 +256,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-02T02:10:44.000Z",
-      "scrapedAt": "2026-01-02T02:09:24.363Z",
-      "lastUpdated": "2026-01-02T02:10:44.000Z",
-      "version": 1
-    },
-    {
-      "id": "c_a865a4ce3f80",
-      "title": ": Starting soon",
-      "platform": "aicrowd",
-      "url": "https://www.aicrowd.com/challenges/track-2-reduce-inference-latency",
-      "description": "Track 2: Reduce Inference Latency",
-      "summary": "Track 2: Reduce Inference Latency...",
-      "contestType": "mixed",
-      "status": "upcoming",
-      "difficulty": "intermediate",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-01-02T02:10:43.991Z",
-      "scrapedAt": "2026-01-02T02:09:24.364Z",
-      "lastUpdated": "2026-01-02T02:10:43.991Z",
+      "processedAt": "2026-01-02T08:39:55.572Z",
+      "scrapedAt": "2026-01-02T08:38:37.924Z",
+      "lastUpdated": "2026-01-02T08:39:55.572Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-01-02T02:11:12.282Z"
+    "lastUpdated": "2026-01-02T08:40:22.577Z"
   }
 }

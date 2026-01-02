@@ -12,6 +12,8 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "AI Contests Navigator",
   description: "The definitive terminal for global AI competitions.",
+  authors: [{ name: "nev4rb14su", url: "https://github.com/nev4rb14su" }],
+  creator: "nev4rb14su",
 };
 
 import { Analytics } from "@vercel/analytics/react"

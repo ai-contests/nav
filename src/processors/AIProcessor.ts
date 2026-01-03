@@ -80,6 +80,7 @@ export class AIProcessor {
         title: rawContest.title || 'Untitled Contest',
         platform: rawContest.platform,
         url: rawContest.url || '',
+        imageUrl: rawContest.imageUrl || '',
 
         // Content
         description: rawContest.description || '',
@@ -95,7 +96,10 @@ export class AIProcessor {
         prize: rawContest.prize,
 
         // Enhanced information
-        tags: aiResult.tags,
+        tags: this.refineTags(Array.from(new Set([
+            ...(rawContest.metadata?.tags as string[] || []), 
+            ...aiResult.tags
+        ]))),
         aiTools: aiResult.aiTools,
         requirements: this.extractRequirements(rawContest.description || ''),
 
@@ -479,5 +483,48 @@ Respond with valid JSON only.
       rateLimitDelay: this.rateLimitDelay,
       lastProcessed: new Date().toISOString(),
     };
+  }
+  /**
+   * Refine tags by splitting compounds, removing generic terms, and sorting
+   */
+  private refineTags(tags: string[]): string[] {
+    // 1. Split compound tags (e.g., "Machine Learning/AI" -> ["Machine Learning", "AI"])
+    const splitTags: string[] = [];
+    tags.forEach(tag => {
+      if (tag.includes('/')) {
+        splitTags.push(...tag.split('/').map(t => t.trim()));
+      } else {
+        splitTags.push(tag);
+      }
+    });
+    
+    // 2. Deduplicate (case-insensitive)
+    const uniqueTags = Array.from(new Set(splitTags.map(t => t.toLowerCase())))
+        .map(lower => splitTags.find(t => t.toLowerCase() === lower)!);
+    
+    // 3. Define generic and specific tags
+    const genericTags = ['ai', 'artificial intelligence', 'machine learning', 'ml', 'deep learning', 'dl'];
+    const specificTags = uniqueTags.filter(t => !genericTags.includes(t.toLowerCase()));
+    
+    // 4. If we have >= 2 specific tags, remove all generic ones
+    let finalTags = specificTags.length >= 2 ? specificTags : uniqueTags;
+    
+    // 5. Sort: Prioritize domain-specific tags (CV, NLP, LLM, etc.)
+    const domainPriority = ['computer vision', 'cv', 'nlp', 'natural language processing', 
+                           'llm', 'large language model', 'reinforcement learning', 'rl',
+                           'time series', 'recommendation', 'graph', 'audio', 'speech'];
+    
+    finalTags.sort((a, b) => {
+      const aLower = a.toLowerCase();
+      const bLower = b.toLowerCase();
+      const aPriority = domainPriority.some(d => aLower.includes(d));
+      const bPriority = domainPriority.some(d => bLower.includes(d));
+      
+      if (aPriority && !bPriority) return -1;
+      if (!aPriority && bPriority) return 1;
+      return 0; // Maintain original order for equal priority
+    });
+    
+    return finalTags.slice(0, 8); // Limit to 8 tags
   }
 }

@@ -79,6 +79,14 @@ export class AICrowdScraper extends EnhancedScraper {
           url = `https://www.aicrowd.com${url}`;
         }
 
+        // Clean up title
+        // Remove ": Starting soon" or similar prefixes which seem to be concatenated text
+        let cleanTitle = title;
+        cleanTitle = cleanTitle.replace(/^:\s*Starting soon\s*/i, '');
+        cleanTitle = cleanTitle.replace(/^:\s*/, ''); // Remove leading colons
+        cleanTitle = cleanTitle.replace(/Track \d+:/i, ''); // Optional: remove "Track X:"
+
+        
         // Extract deadline/status from badge
         const statusBadge = $card.find('.badge, .card-img-overlay span').first();
         const statusText = statusBadge.text().trim();
@@ -89,7 +97,7 @@ export class AICrowdScraper extends EnhancedScraper {
         // Extract prize from card body text
         const cardBodyText = $card.find('.card-body').text();
         const prizeMatch = cardBodyText.match(/(\$[\d,]+|USD\s*[\d,]+|[\d,]+\s*USD)/i);
-        const prize = prizeMatch ? prizeMatch[0] : undefined;
+        const prize = prizeMatch ? prizeMatch[0] : 'TBD';
 
         // Extract image
         const imageUrl = $card.find('img').attr('src') || '';
@@ -100,7 +108,8 @@ export class AICrowdScraper extends EnhancedScraper {
             statusText.toLowerCase().includes('ended')) {
           status = 'ended';
         } else if (statusText.toLowerCase().includes('coming') ||
-                   statusText.toLowerCase().includes('starting')) {
+                   statusText.toLowerCase().includes('starting') ||
+                   statusText.toLowerCase().includes('soon')) {
           status = 'upcoming';
         }
 
@@ -112,13 +121,17 @@ export class AICrowdScraper extends EnhancedScraper {
           const deadlineDate = new Date();
           deadlineDate.setDate(deadlineDate.getDate() + daysLeft);
           deadline = deadlineDate.toISOString();
+        } else if (status === 'upcoming') {
+           // For upcoming contests without specific date, leave deadline undefined
+           // UI should handle this as "TBA"
         }
 
-        if (title && url) {
+          if (cleanTitle && url) {
           contests.push({
-            title,
+            title: cleanTitle.trim(),
             url,
             platform: this.platform,
+            imageUrl, // Extracted from list card
             description: description || undefined,
             deadline,
             prize,
@@ -140,9 +153,6 @@ export class AICrowdScraper extends EnhancedScraper {
     return contests;
   }
 
-  /**
-   * Enrich contest data with detail page information
-   */
   /**
    * Enrich contest data with detail page information in parallel chunks
    */
@@ -179,15 +189,64 @@ export class AICrowdScraper extends EnhancedScraper {
             );
             const $ = cheerio.load(detailHtml);
 
-            // Get full description
-            const fullDescription = 
-              $('.challenge-description, .markdown-body, [class*="description"]')
+            // 1. Better Title Extraction (Detail Page often has the real H1)
+            // Use strict text extraction to avoid concatenated child text
+            let detailTitle = $('h1').first().contents()
+                .filter((_, el) => el.type === 'text')
+                .text().trim();
+            
+            // Fallback: if text node extraction failed, try standard text() but clean known suffixes
+            if (!detailTitle) {
+                 detailTitle = $('h1').first().text().trim();
+            }
+
+            if (detailTitle && 
+                !detailTitle.toLowerCase().includes('round') && 
+                !detailTitle.toLowerCase().includes('phase') &&
+                detailTitle.length > 5) {
+                // Heuristic: If title is super long, it might still have junk. 
+                // AICrowd titles are usually < 100 chars.
+                if (detailTitle.length < 150) {
+                     contest.title = detailTitle;
+                }
+            }
+
+            // 2. Full Description Extraction
+            // AICrowd often uses these classes for the main content
+            let fullDescription = 
+              $('.challenge-description, .prose, .markdown-body, article')
+                .first()
+                .text()
+                // Replace multiple newlines/spaces
+                .replace(/\s+/g, ' ')
+                .trim();
+            
+            // Clean Description: Remove Title repeat at start
+            if (contest.title && fullDescription.startsWith(contest.title)) {
+                fullDescription = fullDescription.substring(contest.title.length).trim();
+            }
+            // Remove common duplicate subtitles often found in AICrowd intro
+            // e.g. "Global Chess Challenge 2025 Train LLMs..." -> "Train LLMs..."
+            // We can try to split by newline if we preserved them, but since we flattened, use simple heuristic?
+            // Actually, let's capture description WITH newlines preserved for better formatting
+            const descriptionWithNewlines = $('.challenge-description, .prose, .markdown-body, article')
                 .first()
                 .text()
                 .trim();
+                
+             if (descriptionWithNewlines && descriptionWithNewlines.length > (contest.description?.length || 0)) {
+                let cleanDesc = descriptionWithNewlines;
+                // aggressive start cleanup
+                 if (contest.title && cleanDesc.startsWith(contest.title)) {
+                    cleanDesc = cleanDesc.substring(contest.title.length).trim();
+                }
+                contest.description = cleanDesc;
+            }
 
-            if (fullDescription && fullDescription.length > (contest.description?.length || 0)) {
-              contest.description = fullDescription.substring(0, 2000);
+            // Extract high-res image from meta tags (og:image)
+            const ogImage = $('meta[property="og:image"]').attr('content');
+            if (ogImage) {
+              contest.imageUrl = ogImage;
             }
 
             // Try to get organizer info
@@ -199,12 +258,23 @@ export class AICrowdScraper extends EnhancedScraper {
               contest.metadata.organizer = organizer;
             }
 
-            // Try to get tags/categories
+            // 3. Smart Tag Extraction & Filtering
             const tags: string[] = [];
-            $('.badge, .tag, [class*="category"]').each((_i, el) => {
+            $('.badge, .tag, [class*="badge"], [class*="label"]').each((_i, el) => {
               const tagText = $(el).text().trim();
-              if (tagText && tagText.length < 50 && !tags.includes(tagText)) {
-                tags.push(tagText);
+              if (tagText && tagText.length < 40) {
+                 // Filter out junk
+                 const lower = tagText.toLowerCase();
+                 if (
+                     lower.includes('round') || 
+                     lower.includes('days left') || 
+                     lower.includes('completed') || 
+                     lower.includes('starting soon') ||
+                     lower.match(/^\d{4}$/) // Remove just "2025" or similar
+                 ) {
+                     return;
+                 }
+                 if (!tags.includes(tagText)) tags.push(tagText);
               }
             });
             if (tags.length > 0) {

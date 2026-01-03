@@ -103,6 +103,7 @@ export class DevpostScraper extends EnhancedScraper {
                     platform: this.platform,
                     title,
                     url,
+                    imageUrl: thumbnail || '', // Initial image from list view
                     description: '', // Will get from details
                     prize: prize || 'See Details',
                     rawHtml: $el.html() || '',
@@ -125,13 +126,69 @@ export class DevpostScraper extends EnhancedScraper {
         const $ = cheerio.load(html);
         
         // Description
-        const desc = $('#challenge-overview').text().trim() || $('.hyphenate').first().text().trim();
+        // Description - Try multiple selectors as Devpost templates vary
+        let desc = '';
+        const selectors = [
+            '#challenge-overview',          // Standard
+            '#challenge-description',       // Variation
+            '.challenge-body',             // Variation
+            '#main-content .description',   // Generic
+            '.hyphenate',                   // Fallback (often catches the intro text)
+            'div[class*="description"]'     // Loose match
+        ];
+
+        for (const selector of selectors) {
+            const text = $(selector).first().text().trim();
+            if (text && text.length > 50) { // arbitrary threshold to avoid empty junk
+                desc = text;
+                break;
+            }
+        }
+        
         if (desc) contest.description = this.cleanText(desc);
 
-        // Tags
-        const tags: string[] = [];
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        $('#built-with li').each((_: number, el: any) => { tags.push($(el).text().trim()); });
-        if (tags.length > 0) contest.metadata = { ...contest.metadata, stack: tags };
+        // Extract high-res image from meta tags (og:image)
+        const ogImage = $('meta[property="og:image"]').attr('content');
+        if (ogImage) {
+            contest.imageUrl = ogImage;
+        }
+
+        // Try JSON-LD first (Most reliable for Deadline & Tags)
+        try {
+            const rawJson = $('script[type="application/ld+json"]').html();
+            if (rawJson) {
+                const data = JSON.parse(rawJson);
+                // Schema.org/Event
+                if (data.endDate) {
+                    contest.deadline = new Date(data.endDate).toISOString();
+                }
+                if (data.keywords) {
+                    // Keywords can be comma-separated string or array
+                    const keywords = Array.isArray(data.keywords) 
+                        ? data.keywords 
+                        : (typeof data.keywords === 'string' ? data.keywords.split(',') : []);
+                    const cleanTags = keywords.map((k: string) => k.trim()).filter((k: string) => k.length > 0);
+                    if (cleanTags.length > 0) {
+                        contest.metadata = { ...contest.metadata, tags: cleanTags };
+                    }
+                }
+                if (data.organizer && data.organizer.name) {
+                    contest.metadata = { ...contest.metadata, organizer: data.organizer.name };
+                }
+            }
+        } catch (e) {
+            logger.warn('Failed to parse Devpost JSON-LD', { error: e });
+        }
+
+        // DOM Fallback for Tags (if JSON-LD metadata didn't set it)
+        if (!contest.metadata?.tags) {
+             const tags: string[] = [];
+             $('#built-with li').each((_: number, el: any) => { tags.push($(el).text().trim()); });
+             // Also try theme tags if not present
+             if (tags.length === 0) {
+                 $('.theme-label').each((_: number, el: any) => { tags.push($(el).text().trim()); });
+             }
+             if (tags.length > 0) contest.metadata = { ...contest.metadata, tags };
+        }
     }
 }

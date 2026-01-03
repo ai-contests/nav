@@ -13,7 +13,7 @@ interface ContestDetailClientProps {
 }
 
 export function ContestDetailClient({ contest }: ContestDetailClientProps) {
-    const [activeTab, setActiveTab] = useState<'overview' | 'rules' | 'timeline'>('overview');
+
 
     // Parse deadline
     const daysLeft = contest.deadline 
@@ -24,7 +24,28 @@ export function ContestDetailClient({ contest }: ContestDetailClientProps) {
         <div className="min-h-screen bg-canvas font-mono flex flex-col">
             <Navigation />
             
-            {/* A. Intelligent Header (Top Banner) */}
+            {/* A. Image Banner (Added based on user feedback) */}
+            {contest.image_url && (
+                <div className="w-full h-48 md:h-80 relative overflow-hidden bg-black shrink-0">
+                    {/* 1. Blurred Background Layer (Fills the container) */}
+                    <div 
+                        className="absolute inset-0 bg-cover bg-center blur-xl opacity-50 scale-110"
+                        style={{ backgroundImage: `url(${contest.image_url})` }}
+                    ></div>
+                    
+                    {/* 2. Visual Overlay (Darken slightly) */}
+                    <div className="absolute inset-0 bg-black/20"></div>
+
+                    {/* 3. Main Image (Contain - No Cropping) */}
+                    <img 
+                        src={contest.image_url} 
+                        alt={contest.title}
+                        className="absolute inset-0 w-full h-full object-contain relative z-10"
+                    />
+                </div>
+            )}
+
+            {/* B. Intelligent Header (Top Banner) */}
             <header className="relative w-full border-b border-white/5 bg-surface/50 overflow-hidden">
                 {/* Background Grid */}
                 <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] opacity-20 pointer-events-none"></div>
@@ -134,22 +155,12 @@ export function ContestDetailClient({ contest }: ContestDetailClientProps) {
             {/* C. Content Split */}
             <div className="container mx-auto px-6 py-12 flex flex-col lg:flex-row gap-12">
                  {/* Left Column (Main Content) */}
-                 <div className="flex-1 min-w-0">
-                    {/* Tabs */}
-                    <div className="flex border-b border-slate-800 mb-8">
-                        {['overview', 'rules', 'timeline'].map(tab => (
-                            <button
-                                key={tab}
-                                onClick={() => setActiveTab(tab as 'overview' | 'rules' | 'timeline')}
-                                className={`px-6 py-4 text-sm font-bold uppercase tracking-wider border-b-2 transition-colors ${
-                                    activeTab === tab 
-                                        ? 'border-primary text-white' 
-                                        : 'border-transparent text-slate-500 hover:text-slate-300'
-                                }`}
-                            >
-                                {tab}
-                            </button>
-                        ))}
+                {/* Left Column (Main Content) */}
+                <div className="flex-1 min-w-0">
+                    <div className="mb-8 border-b border-slate-800 pb-4">
+                        <h2 className="text-xl font-bold text-white uppercase tracking-widest">
+                            Description
+                        </h2>
                     </div>
 
                     {/* Markdown Content */}
@@ -158,16 +169,7 @@ export function ContestDetailClient({ contest }: ContestDetailClientProps) {
                             {contest.description || '*No description available.*'}
                         </ReactMarkdown>
                     </div>
-
-                    {/* Mock Content for other tabs */}
-                    {activeTab === 'rules' && (
-                        <div className="mt-8 p-6 bg-slate-900/50 border border-slate-800 rounded-sm">
-                            <h3 className="text-xl font-bold text-white mb-4">Official Rules</h3>
-                            <p className="text-slate-400">Please visit the official contest page for the full set of rules and regulations.</p>
-                            <a href={contest.url} className="text-primary hover:underline mt-2 inline-block">View Rules on {contest.platform} -&gt;</a>
-                        </div>
-                    )}
-                 </div>
+                </div>
 
                  {/* Right Column (Sidebar) */}
                  <aside className="w-full lg:w-80 flex-shrink-0 space-y-8">

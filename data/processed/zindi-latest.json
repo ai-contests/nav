@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-01-04T02:27:20.376Z",
+  "timestamp": "2026-01-04T08:38:27.752Z",
   "contestCount": 20,
   "contests": [
     {
@@ -13,7 +13,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-01-17T02:25:38.514Z",
+      "deadline": "2026-01-17T08:36:37.912Z",
       "prize": "$3 500 USD",
       "tags": [],
       "aiTools": [
@@ -24,9 +24,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:16.268Z",
-      "scrapedAt": "2026-01-04T02:25:38.514Z",
-      "lastUpdated": "2026-01-04T02:27:16.268Z",
+      "processedAt": "2026-01-04T08:38:23.374Z",
+      "scrapedAt": "2026-01-04T08:36:37.912Z",
+      "lastUpdated": "2026-01-04T08:38:23.374Z",
       "version": 1
     },
     {
@@ -39,7 +39,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-01-19T02:25:38.514Z",
+      "deadline": "2026-01-19T08:36:37.913Z",
       "prize": "€8 250 EUR",
       "tags": [],
       "aiTools": [
@@ -50,9 +50,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:16.288Z",
-      "scrapedAt": "2026-01-04T02:25:38.514Z",
-      "lastUpdated": "2026-01-04T02:27:16.288Z",
+      "processedAt": "2026-01-04T08:38:23.462Z",
+      "scrapedAt": "2026-01-04T08:36:37.913Z",
+      "lastUpdated": "2026-01-04T08:38:23.462Z",
       "version": 1
     },
     {
@@ -65,7 +65,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-01-26T02:25:38.514Z",
+      "deadline": "2026-01-26T08:36:37.913Z",
       "prize": "$11 000 USD",
       "tags": [],
       "aiTools": [
@@ -76,35 +76,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:17.295Z",
-      "scrapedAt": "2026-01-04T02:25:38.514Z",
-      "lastUpdated": "2026-01-04T02:27:17.295Z",
-      "version": 1
-    },
-    {
-      "id": "c_d22f37bfbffa",
-      "title": "UNIDO AfricaRice Quality Assessment Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/unido-africarice-quality-assessment-challenge",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-02-02T02:25:38.514Z",
-      "prize": "$5 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:17.290Z",
-      "scrapedAt": "2026-01-04T02:25:38.514Z",
-      "lastUpdated": "2026-01-04T02:27:17.290Z",
+      "processedAt": "2026-01-04T08:38:24.472Z",
+      "scrapedAt": "2026-01-04T08:36:37.913Z",
+      "lastUpdated": "2026-01-04T08:38:24.472Z",
       "version": 1
     },
     {
@@ -117,7 +91,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-02-02T02:25:38.514Z",
+      "deadline": "2026-02-02T08:36:37.913Z",
       "prize": "€35 000 EUR",
       "tags": [
         "ai"
@@ -130,9 +104,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:17.296Z",
-      "scrapedAt": "2026-01-04T02:25:38.514Z",
-      "lastUpdated": "2026-01-04T02:27:17.296Z",
+      "processedAt": "2026-01-04T08:38:24.468Z",
+      "scrapedAt": "2026-01-04T08:36:37.913Z",
+      "lastUpdated": "2026-01-04T08:38:24.468Z",
+      "version": 1
+    },
+    {
+      "id": "c_d22f37bfbffa",
+      "title": "UNIDO AfricaRice Quality Assessment Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/unido-africarice-quality-assessment-challenge",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-02-02T08:36:37.913Z",
+      "prize": "$5 000 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-01-04T08:38:24.472Z",
+      "scrapedAt": "2026-01-04T08:36:37.914Z",
+      "lastUpdated": "2026-01-04T08:38:24.472Z",
       "version": 1
     },
     {
@@ -155,9 +155,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:17.289Z",
-      "scrapedAt": "2026-01-04T02:25:38.515Z",
-      "lastUpdated": "2026-01-04T02:27:17.289Z",
+      "processedAt": "2026-01-04T08:38:24.464Z",
+      "scrapedAt": "2026-01-04T08:36:37.914Z",
+      "lastUpdated": "2026-01-04T08:38:24.464Z",
       "version": 1
     },
     {
@@ -170,7 +170,7 @@
       "contestType": "mixed",
       "status": "upcoming",
       "difficulty": "intermediate",
-      "deadline": "2026-01-20T02:25:38.515Z",
+      "deadline": "2026-01-20T08:36:37.914Z",
       "prize": "$10 000 USD",
       "tags": [
         "ai"
@@ -183,9 +183,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:17.309Z",
-      "scrapedAt": "2026-01-04T02:25:38.515Z",
-      "lastUpdated": "2026-01-04T02:27:17.309Z",
+      "processedAt": "2026-01-04T08:38:24.555Z",
+      "scrapedAt": "2026-01-04T08:36:37.914Z",
+      "lastUpdated": "2026-01-04T08:38:24.555Z",
       "version": 1
     },
     {
@@ -208,9 +208,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:18.319Z",
-      "scrapedAt": "2026-01-04T02:25:38.515Z",
-      "lastUpdated": "2026-01-04T02:27:18.319Z",
+      "processedAt": "2026-01-04T08:38:25.558Z",
+      "scrapedAt": "2026-01-04T08:36:37.914Z",
+      "lastUpdated": "2026-01-04T08:38:25.558Z",
       "version": 1
     },
     {
@@ -232,9 +232,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:18.313Z",
-      "scrapedAt": "2026-01-04T02:25:38.515Z",
-      "lastUpdated": "2026-01-04T02:27:18.313Z",
+      "processedAt": "2026-01-04T08:38:25.555Z",
+      "scrapedAt": "2026-01-04T08:36:37.915Z",
+      "lastUpdated": "2026-01-04T08:38:25.555Z",
       "version": 1
     },
     {
@@ -257,9 +257,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:18.317Z",
-      "scrapedAt": "2026-01-04T02:25:38.515Z",
-      "lastUpdated": "2026-01-04T02:27:18.317Z",
+      "processedAt": "2026-01-04T08:38:25.554Z",
+      "scrapedAt": "2026-01-04T08:36:37.915Z",
+      "lastUpdated": "2026-01-04T08:38:25.554Z",
       "version": 1
     },
     {
@@ -282,9 +282,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:18.314Z",
-      "scrapedAt": "2026-01-04T02:25:38.515Z",
-      "lastUpdated": "2026-01-04T02:27:18.314Z",
+      "processedAt": "2026-01-04T08:38:25.554Z",
+      "scrapedAt": "2026-01-04T08:36:37.915Z",
+      "lastUpdated": "2026-01-04T08:38:25.554Z",
       "version": 1
     },
     {
@@ -307,9 +307,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:18.330Z",
-      "scrapedAt": "2026-01-04T02:25:38.516Z",
-      "lastUpdated": "2026-01-04T02:27:18.330Z",
+      "processedAt": "2026-01-04T08:38:25.643Z",
+      "scrapedAt": "2026-01-04T08:36:37.915Z",
+      "lastUpdated": "2026-01-04T08:38:25.643Z",
       "version": 1
     },
     {
@@ -332,9 +332,59 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:19.343Z",
-      "scrapedAt": "2026-01-04T02:25:38.516Z",
-      "lastUpdated": "2026-01-04T02:27:19.343Z",
+      "processedAt": "2026-01-04T08:38:26.640Z",
+      "scrapedAt": "2026-01-04T08:36:37.916Z",
+      "lastUpdated": "2026-01-04T08:38:26.640Z",
+      "version": 1
+    },
+    {
+      "id": "c_0b2aa2642ab4",
+      "title": "Adaptation Atlas Data Storytelling Challenge (Track 4): Infectious Diseases",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/adaptation-atlas-data-storytelling-challenge-track-4-infectious-diseases",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$1 500 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-01-04T08:38:26.638Z",
+      "scrapedAt": "2026-01-04T08:36:37.916Z",
+      "lastUpdated": "2026-01-04T08:38:26.638Z",
+      "version": 1
+    },
+    {
+      "id": "c_e289f6a27919",
+      "title": "Adaptation Atlas Data Storytelling Challenge (Track 6): Forest Cover",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/adaptation-atlas-data-storytelling-challenge-track-6-forest-cover",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$1 500 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-01-04T08:38:26.641Z",
+      "scrapedAt": "2026-01-04T08:36:37.916Z",
+      "lastUpdated": "2026-01-04T08:38:26.641Z",
       "version": 1
     },
     {
@@ -359,59 +409,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:19.341Z",
-      "scrapedAt": "2026-01-04T02:25:38.516Z",
-      "lastUpdated": "2026-01-04T02:27:19.341Z",
-      "version": 1
-    },
-    {
-      "id": "c_0b2aa2642ab4",
-      "title": "Adaptation Atlas Data Storytelling Challenge (Track 4): Infectious Diseases",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/adaptation-atlas-data-storytelling-challenge-track-4-infectious-diseases",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$1 500 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:19.341Z",
-      "scrapedAt": "2026-01-04T02:25:38.516Z",
-      "lastUpdated": "2026-01-04T02:27:19.341Z",
-      "version": 1
-    },
-    {
-      "id": "c_e289f6a27919",
-      "title": "Adaptation Atlas Data Storytelling Challenge (Track 6): Forest Cover",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/adaptation-atlas-data-storytelling-challenge-track-6-forest-cover",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$1 500 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:19.336Z",
-      "scrapedAt": "2026-01-04T02:25:38.516Z",
-      "lastUpdated": "2026-01-04T02:27:19.336Z",
+      "processedAt": "2026-01-04T08:38:26.643Z",
+      "scrapedAt": "2026-01-04T08:36:37.916Z",
+      "lastUpdated": "2026-01-04T08:38:26.643Z",
       "version": 1
     },
     {
@@ -434,9 +434,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:19.359Z",
-      "scrapedAt": "2026-01-04T02:25:38.516Z",
-      "lastUpdated": "2026-01-04T02:27:19.359Z",
+      "processedAt": "2026-01-04T08:38:26.722Z",
+      "scrapedAt": "2026-01-04T08:36:37.916Z",
+      "lastUpdated": "2026-01-04T08:38:26.722Z",
       "version": 1
     },
     {
@@ -459,9 +459,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:20.366Z",
-      "scrapedAt": "2026-01-04T02:25:38.517Z",
-      "lastUpdated": "2026-01-04T02:27:20.366Z",
+      "processedAt": "2026-01-04T08:38:27.736Z",
+      "scrapedAt": "2026-01-04T08:36:37.917Z",
+      "lastUpdated": "2026-01-04T08:38:27.736Z",
       "version": 1
     },
     {
@@ -485,9 +485,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:20.366Z",
-      "scrapedAt": "2026-01-04T02:25:38.517Z",
-      "lastUpdated": "2026-01-04T02:27:20.366Z",
+      "processedAt": "2026-01-04T08:38:27.722Z",
+      "scrapedAt": "2026-01-04T08:36:37.917Z",
+      "lastUpdated": "2026-01-04T08:38:27.722Z",
       "version": 1
     },
     {
@@ -509,15 +509,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-04T02:27:20.363Z",
-      "scrapedAt": "2026-01-04T02:25:38.517Z",
-      "lastUpdated": "2026-01-04T02:27:20.363Z",
+      "processedAt": "2026-01-04T08:38:27.729Z",
+      "scrapedAt": "2026-01-04T08:36:37.917Z",
+      "lastUpdated": "2026-01-04T08:38:27.729Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-01-04T02:27:20.376Z"
+    "lastUpdated": "2026-01-04T08:38:27.752Z"
   }
 }

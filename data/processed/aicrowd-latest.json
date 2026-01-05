@@ -1,6 +1,6 @@
 {
   "platform": "aicrowd",
-  "timestamp": "2026-01-05T08:44:56.927Z",
+  "timestamp": "2026-01-05T16:38:11.040Z",
   "contestCount": 10,
   "contests": [
     {
@@ -13,7 +13,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-01-31T08:43:11.665Z",
+      "deadline": "2026-01-31T16:36:27.029Z",
       "prize": "USD 17,000",
       "tags": [
         "ai",
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-05T08:44:28.083Z",
-      "scrapedAt": "2026-01-05T08:43:11.665Z",
-      "lastUpdated": "2026-01-05T08:44:28.083Z",
+      "processedAt": "2026-01-05T16:37:42.387Z",
+      "scrapedAt": "2026-01-05T16:36:27.029Z",
+      "lastUpdated": "2026-01-05T16:37:42.387Z",
       "version": 1
     },
     {
@@ -42,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-02-01T08:43:11.665Z",
+      "deadline": "2026-02-01T16:36:27.029Z",
       "prize": "USD 20,000",
       "tags": [
         "llm"
@@ -55,9 +55,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-05T08:44:28.820Z",
-      "scrapedAt": "2026-01-05T08:43:11.665Z",
-      "lastUpdated": "2026-01-05T08:44:28.820Z",
+      "processedAt": "2026-01-05T16:37:43.021Z",
+      "scrapedAt": "2026-01-05T16:36:27.029Z",
+      "lastUpdated": "2026-01-05T16:37:43.021Z",
       "version": 1
     },
     {
@@ -79,14 +79,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-05T08:44:28.832Z",
-      "scrapedAt": "2026-01-05T08:43:11.665Z",
-      "lastUpdated": "2026-01-05T08:44:28.832Z",
+      "processedAt": "2026-01-05T16:37:43.115Z",
+      "scrapedAt": "2026-01-05T16:36:27.030Z",
+      "lastUpdated": "2026-01-05T16:37:43.115Z",
       "version": 1
     },
     {
       "id": "c_219544c1c5a3",
-      "title": "Round 3: 1683 days left",
+      "title": "Round 3: 1682 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge",
       "description": "Trajnet++ (A Trajectory Forecasting Challenge)",
@@ -94,7 +94,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T08:43:11.674Z",
+      "deadline": "2030-08-14T16:36:27.030Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -104,14 +104,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-05T08:44:28.857Z",
-      "scrapedAt": "2026-01-05T08:43:11.674Z",
-      "lastUpdated": "2026-01-05T08:44:28.857Z",
+      "processedAt": "2026-01-05T16:37:43.115Z",
+      "scrapedAt": "2026-01-05T16:36:27.030Z",
+      "lastUpdated": "2026-01-05T16:37:43.115Z",
       "version": 1
     },
     {
       "id": "c_4609e3e111ee",
-      "title": "2025: 43 days left",
+      "title": "2025: 42 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/epfl-ml-road-segmentation",
       "description": "EPFL ML Road Segmentation\n              \n                Project 2: Road extraction from satellite images\n          Project 2: Road extraction from satellite images",
@@ -119,7 +119,7 @@
       "contestType": "image",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-02-17T08:43:11.675Z",
+      "deadline": "2026-02-16T16:36:27.030Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -129,14 +129,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-05T08:44:28.856Z",
-      "scrapedAt": "2026-01-05T08:43:11.675Z",
-      "lastUpdated": "2026-01-05T08:44:28.856Z",
+      "processedAt": "2026-01-05T16:37:43.042Z",
+      "scrapedAt": "2026-01-05T16:36:27.030Z",
+      "lastUpdated": "2026-01-05T16:37:43.042Z",
       "version": 1
     },
     {
       "id": "c_34f7150a85bd",
-      "title": "2025: 43 days left",
+      "title": "2025: 42 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/epfl-ml-text-classification",
       "description": "EPFL ML Text Classification\n              \n                Project 2: build our own text classifier system, and test its performance.\n          Project 2: build our own text classifier system, and test its performance.",
@@ -144,7 +144,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-02-17T08:43:11.675Z",
+      "deadline": "2026-02-16T16:36:27.030Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -154,14 +154,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-05T08:44:28.890Z",
-      "scrapedAt": "2026-01-05T08:43:11.675Z",
-      "lastUpdated": "2026-01-05T08:44:28.890Z",
+      "processedAt": "2026-01-05T16:37:43.147Z",
+      "scrapedAt": "2026-01-05T16:36:27.030Z",
+      "lastUpdated": "2026-01-05T16:37:43.147Z",
       "version": 1
     },
     {
       "id": "c_ef4f31b33152",
-      "title": "Post challenge submissions: 7179 days left",
+      "title": "Post challenge submissions: 7178 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/eccv-2020-commands-4-autonomous-vehicles",
       "description": "ECCV 2020 Commands 4 Autonomous Vehicles",
@@ -169,7 +169,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T08:43:11.676Z",
+      "deadline": "2045-08-31T16:36:27.031Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -179,14 +179,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-05T08:44:29.895Z",
-      "scrapedAt": "2026-01-05T08:43:11.676Z",
-      "lastUpdated": "2026-01-05T08:44:29.895Z",
+      "processedAt": "2026-01-05T16:37:44.157Z",
+      "scrapedAt": "2026-01-05T16:36:27.031Z",
+      "lastUpdated": "2026-01-05T16:37:44.157Z",
       "version": 1
     },
     {
       "id": "c_03552b946309",
-      "title": "Post Challenge Round: 1821 days left",
+      "title": "Post Challenge Round: 1820 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/mediqa-2021-question-summarization-qs",
       "description": "MEDIQA 2021 - Question Summarization (QS)\n              \n                ACL-BioNLP Shared Task\n          ACL-BioNLP Shared Task",
@@ -194,7 +194,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T08:43:11.676Z",
+      "deadline": "2030-12-30T16:36:27.031Z",
       "tags": [
         "nlp"
       ],
@@ -206,9 +206,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-05T08:44:29.892Z",
-      "scrapedAt": "2026-01-05T08:43:11.676Z",
-      "lastUpdated": "2026-01-05T08:44:29.892Z",
+      "processedAt": "2026-01-05T16:37:44.141Z",
+      "scrapedAt": "2026-01-05T16:36:27.031Z",
+      "lastUpdated": "2026-01-05T16:37:44.141Z",
       "version": 1
     },
     {
@@ -230,9 +230,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-05T08:44:29.895Z",
-      "scrapedAt": "2026-01-05T08:43:11.676Z",
-      "lastUpdated": "2026-01-05T08:44:29.895Z",
+      "processedAt": "2026-01-05T16:37:44.143Z",
+      "scrapedAt": "2026-01-05T16:36:27.031Z",
+      "lastUpdated": "2026-01-05T16:37:44.143Z",
       "version": 1
     },
     {
@@ -256,15 +256,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-05T08:44:29.897Z",
-      "scrapedAt": "2026-01-05T08:43:11.677Z",
-      "lastUpdated": "2026-01-05T08:44:29.897Z",
+      "processedAt": "2026-01-05T16:37:44.139Z",
+      "scrapedAt": "2026-01-05T16:36:27.032Z",
+      "lastUpdated": "2026-01-05T16:37:44.139Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-01-05T08:44:56.927Z"
+    "lastUpdated": "2026-01-05T16:38:11.040Z"
   }
 }

@@ -88,7 +88,9 @@ export class AIProcessor {
 
         // Classification
         contestType: this.mapContestType(aiResult.contestType),
-        status: this.mapStatus(rawContest.status),
+        status: (this.mapStatus(rawContest.status) === 'active' && !rawContest.deadline) 
+                ? 'ended' 
+                : this.mapStatus(rawContest.status),
         difficulty: this.mapDifficulty(aiResult.difficulty),
 
         // Timing and rewards

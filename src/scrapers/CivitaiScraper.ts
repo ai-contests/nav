@@ -397,11 +397,24 @@ export class CivitaiScraper extends EnhancedScraper {
     // Clean the title to remove noise (author, date, stats)
     const cleanedTitle = this.cleanCivitaiTitle(this.cleanText(finalTitle || ''));
 
+    // Extract image URL
+    let imageUrl = '';
+    const imgElement = $element.find('img').first();
+    if (imgElement.length > 0) {
+        imageUrl = imgElement.attr('src') || '';
+        // Civitai images often have /width=450/ in URL, we might want original or larger
+        // But usually src is fine.
+        if (imageUrl && !imageUrl.startsWith('http')) {
+             // Handle relative if any (unlikely for Civitai CDN)
+        }
+    }
+
     const contest: RawContest = {
       platform: this.platform,
       title: cleanedTitle,
       description: this.cleanText(description || ''),
       url,
+      imageUrl,
       deadline: this.parseCivitaiDate(deadline),
       prize: this.normalizePrize(this.cleanText(prize || heuristic || '')),
       rawHtml: $element.html() || '',

@@ -1,0 +1,31 @@
+name: Daily Subscriber Notifications
+
+on:
+  schedule:
+    - cron: '0 9 * * *' # Run at 09:00 UTC daily
+  workflow_dispatch: # Enable manual run
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Send Daily Notifications
+      run: npm run notify-subs
+      env:
+        RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+        SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}

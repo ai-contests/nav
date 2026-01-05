@@ -14,6 +14,7 @@ export interface ProcessedContest {
   title: string; // Contest Title
   platform: string; // Source Platform
   url: string; // Contest URL
+  imageUrl?: string; // Contest Image URL
 
   // Content Information
   description: string; // Detailed Description
@@ -56,6 +57,7 @@ export interface RawContest {
   title?: string;
   description?: string;
   url?: string;
+  imageUrl?: string; // Contest Image URL
   deadline?: string;
   startDate?: string;
   endDate?: string;

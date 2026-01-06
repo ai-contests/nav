@@ -39,7 +39,7 @@ export async function getAllContests(): Promise<Contest[]> {
       if (Array.isArray(data.contests)) {
         const platform = file.split('-')[0]; // Extract platform from filename
         
-        const normalized = data.contests.map((c: any) => ({
+        const normalized = data.contests.map((c: Record<string, unknown>) => ({
           id: `${platform}-${c.id || c.competition_id || Math.random().toString(36).slice(2)}`,
           title: c.title || 'Untitled Contest',
           url: c.url,

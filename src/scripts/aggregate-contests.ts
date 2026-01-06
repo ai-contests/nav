@@ -77,8 +77,8 @@ async function aggregate() {
           all.push(normalizeContest(it as RawContest));
         }
       }
-    } catch (err: any) {
-      console.warn('skip', f, err.message);
+    } catch (err: unknown) {
+      console.warn('skip', f, err instanceof Error ? err.message : String(err));
     }
   }
 

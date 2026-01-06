@@ -367,8 +367,7 @@ async function autoScroll(page: Page): Promise<void> {
         currentScroll++;
 
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        if (
-          totalHeight >= scrollHeight - (window as any).innerHeight ||
+        if (totalHeight >= scrollHeight - (window as any).innerHeight ||
           currentScroll >= maxScrolls
         ) {
           clearInterval(timer);

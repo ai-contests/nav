@@ -84,7 +84,15 @@ async function main() {
   }
 
   // Render Contest HTML
-  const renderContestHtml = (c: any) => `
+  const renderContestHtml = (c: { 
+    id: string; 
+    title: string; 
+    platform: string; 
+    deadline?: string; 
+    status: string; 
+    summary?: string; 
+    url: string; 
+  }) => `
     <div class="contest-card">
         <a href="${c.url}" class="contest-title" target="_blank">${c.title}</a>
         <div class="meta">

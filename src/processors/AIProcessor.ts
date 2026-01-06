@@ -502,14 +502,15 @@ Respond with valid JSON only.
     
     // 2. Deduplicate (case-insensitive)
     const uniqueTags = Array.from(new Set(splitTags.map(t => t.toLowerCase())))
-        .map(lower => splitTags.find(t => t.toLowerCase() === lower)!);
+        .map(lower => splitTags.find(t => t.toLowerCase() === lower) || '')
+        .filter(t => t !== '');
     
     // 3. Define generic and specific tags
     const genericTags = ['ai', 'artificial intelligence', 'machine learning', 'ml', 'deep learning', 'dl'];
     const specificTags = uniqueTags.filter(t => !genericTags.includes(t.toLowerCase()));
     
     // 4. If we have >= 2 specific tags, remove all generic ones
-    let finalTags = specificTags.length >= 2 ? specificTags : uniqueTags;
+    const finalTags = specificTags.length >= 2 ? specificTags : uniqueTags;
     
     // 5. Sort: Prioritize domain-specific tags (CV, NLP, LLM, etc.)
     const domainPriority = ['computer vision', 'cv', 'nlp', 'natural language processing', 

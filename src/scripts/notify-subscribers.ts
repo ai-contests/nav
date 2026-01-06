@@ -47,7 +47,7 @@ async function loadContestMap(): Promise<Map<string, ContestData>> {
     if (file.endsWith('-latest.json')) {
       const content = await fs.readJson(path.join(dataDir, file));
       if (Array.isArray(content.contests)) {
-        content.contests.forEach((c: any) => {
+        content.contests.forEach((c: ContestData) => {
           contestMap.set(c.id, {
             id: c.id,
             title: c.title,
@@ -203,7 +203,7 @@ async function main() {
       // Replace Placeholders
       const emailHtml = template
         .replace('{{date}}', new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }))
-        .replace('{{subscriptionList}}', userContests.length > 0 ? userContests.map(c => renderContestHtml(c!)).join('') : '<p style="color: #666; font-size: 14px;">No active subscriptions. Try exploring new challenges below!</p>')
+        .replace('{{subscriptionList}}', userContests.length > 0 ? userContests.map(c => renderContestHtml(c as ContestData)).join('') : '<p style="color: #666; font-size: 14px;">No active subscriptions. Try exploring new challenges below!</p>')
         .replace('{{latestList}}', discoveries.length > 0 ? discoveries.map(c => renderContestHtml(c)).join('') : '<p style="color: #666; font-size: 14px;">No new contests discovered today. Check back tomorrow!</p>');
 
       // Send Email

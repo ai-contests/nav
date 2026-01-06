@@ -183,10 +183,10 @@ export class DevpostScraper extends EnhancedScraper {
         // DOM Fallback for Tags (if JSON-LD metadata didn't set it)
         if (!contest.metadata?.tags) {
              const tags: string[] = [];
-             $('#built-with li').each((_: number, el: any) => { tags.push($(el).text().trim()); });
+             $('#built-with li').each((_: number, el) => { tags.push($(el).text().trim()); });
              // Also try theme tags if not present
              if (tags.length === 0) {
-                 $('.theme-label').each((_: number, el: any) => { tags.push($(el).text().trim()); });
+                 $('.theme-label').each((_: number, el) => { tags.push($(el).text().trim()); });
              }
              if (tags.length > 0) contest.metadata = { ...contest.metadata, tags };
         }

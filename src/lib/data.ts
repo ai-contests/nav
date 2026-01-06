@@ -18,6 +18,26 @@ export interface Contest {
   source_id?: string;
 }
 
+interface RawContestJSON {
+  id?: string;
+  competition_id?: string;
+  title?: string;
+  url: string;
+  platform?: string;
+  description?: string;
+  deadline?: string;
+  end_time?: string;
+  prize?: string;
+  reward?: string;
+  tags?: string[];
+  status?: string;
+  image_url?: string;
+  cover_url?: string;
+  ai_analysis?: {
+    difficulty?: string | number;
+  };
+}
+
 const DATA_DIR = path.join(process.cwd(), 'data', 'processed');
 
 // Helper to get all processed files
@@ -39,7 +59,7 @@ export async function getAllContests(): Promise<Contest[]> {
       if (Array.isArray(data.contests)) {
         const platform = file.split('-')[0]; // Extract platform from filename
         
-        const normalized = data.contests.map((c: Record<string, unknown>) => ({
+        const normalized = data.contests.map((c: RawContestJSON) => ({
           id: `${platform}-${c.id || c.competition_id || Math.random().toString(36).slice(2)}`,
           title: c.title || 'Untitled Contest',
           url: c.url,

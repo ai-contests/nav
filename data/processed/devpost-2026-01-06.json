@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-01-06T02:01:27.280Z",
+  "timestamp": "2026-01-06T12:55:52.880Z",
   "contestCount": 10,
   "contests": [
     {
@@ -8,14 +8,18 @@
       "title": "Gemini 3 Hackathon",
       "platform": "devpost",
       "url": "https://gemini3.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/098/038/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/098/038/datas/original.png",
+      "description": "Welcome to the era of Gemini 3. Google DeepMind is thrilled to invite you to the Gemini 3 global hackathon. We are pushing the boundaries of what AI can do by enhancing reasoning capabilities, unlocking multimodal experiences and reducing latency. Now, we want to see what you can create with our most capable and intelligent model family to date. Whether you are a seasoned AI engineer or writing your first line of code, this is your invitation to build the future. We are looking for more than just another chat interface. We want to see fun, creative, next-generation applications built with the Gemini 3 family Why participate? Be First: Get hands-on access to the Gemini 3 API before the rest of the world catches up. Build Something New: This challenge is strictly for new applications. It’s a level playing field for everyone. Win Big: We have a prize pool of $100,000 + interviews with the AI Futures Fund team for an opportunity to fund your project.",
+      "summary": "Welcome to the era of Gemini 3. Google DeepMind is thrilled to invite you to the Gemini 3 global hackathon. We are pushing the boundaries of what AI can do by enhancing reasoning capabilities, unlocki...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-02-10T01:00:00.000Z",
       "prize": "$100,000",
-      "tags": [],
+      "tags": [
+        "Open Ended",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -24,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-06T02:01:04.664Z",
-      "scrapedAt": "2026-01-06T01:58:55.163Z",
-      "lastUpdated": "2026-01-06T02:01:04.664Z",
+      "processedAt": "2026-01-06T12:55:30.277Z",
+      "scrapedAt": "2026-01-06T12:53:18.188Z",
+      "lastUpdated": "2026-01-06T12:55:30.277Z",
       "version": 1
     },
     {
@@ -34,14 +38,18 @@
       "title": "Tableau Hackathon",
       "platform": "devpost",
       "url": "https://tableau2025.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/972/211/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/972/211/datas/original.png",
+      "description": "About the challenge Step into the next era of analytics. This is your opportunity to pioneer innovative solutions and tackle real-world business problems using the full power of Tableau. We encourage you to utilize: Tableau Next: Leverage cutting-edge capabilities built directly on the secure Salesforce platform, designed to deliver actionable insights everywhere work happens. Note that access to specific Salesforce orgs is required. Tableau Cloud: Harness the full extensibility of the Tableau Developer Platform and its robust APIs to extend, strengthen, or integrate existing Tableau functionality. Your mission: build something groundbreaking with Tableau. Push the limits by connecting it with Salesforce solutions—with free access to Slack, Agentforce, and Data 360. Prove your skills, showcase your imagination, and win your share of $45,000. The platform is yours—it's time to build the future of data.",
+      "summary": "About the challenge Step into the next era of analytics. This is your opportunity to pioneer innovative solutions and tackle real-world business problems using the full power of Tableau. We encourage ...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-01-12T20:00:00.000Z",
       "prize": "$45,000",
-      "tags": [],
+      "tags": [
+        "Databases",
+        "Enterprise"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -50,9 +58,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-06T02:01:04.663Z",
-      "scrapedAt": "2026-01-06T01:58:55.164Z",
-      "lastUpdated": "2026-01-06T02:01:04.663Z",
+      "processedAt": "2026-01-06T12:55:30.269Z",
+      "scrapedAt": "2026-01-06T12:53:18.189Z",
+      "lastUpdated": "2026-01-06T12:55:30.269Z",
       "version": 1
     },
     {
@@ -60,14 +68,18 @@
       "title": "LMA EDGE Hackathon",
       "platform": "devpost",
       "url": "https://lmaedgehackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/032/944/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/032/944/datas/original.png",
+      "description": "The Loan Market Association is the authoritative voice of the loan markets across Europe, the Middle East and Africa. Our mission is to advance liquidity, efficiency, transparency and sustainability. The LMA Edge Hackathon invites a diverse mix of participants, from loan markets novice to subject matter expert, from fledgeling web developer to technology wizard, to reimagine how loans are originated, documented, traded and managed. This hackathon is a call to build commercially viable, desktop-based prototypes, wireframes, or applications. The LMA website and our many LinkedIn posts can help you understand current practices, uncover pain points, and ideate bold solutions. With $25,000 USD in prizes, we’re looking for high-impact, scalable ideas that align with our values and our mission. If you’re motivated to apply technical creativity and cross-disciplinary thinking to a multi-trillion dollar market, this is your moment to shine. Get Started Register for the LMA Edge Hackathon. Join the Devpost Discord community to partner up with other participants. Review category briefs for inspiration. Brainstorm what you’re going to create.",
+      "summary": "The Loan Market Association is the authoritative voice of the loan markets across Europe, the Middle East and Africa. Our mission is to advance liquidity, efficiency, transparency and sustainability. ...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-01-14T23:45:00.000Z",
       "prize": "$25,000",
-      "tags": [],
+      "tags": [
+        "Blockchain",
+        "Fintech"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -76,9 +88,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-06T02:01:04.663Z",
-      "scrapedAt": "2026-01-06T01:58:55.164Z",
-      "lastUpdated": "2026-01-06T02:01:04.663Z",
+      "processedAt": "2026-01-06T12:55:30.272Z",
+      "scrapedAt": "2026-01-06T12:53:18.190Z",
+      "lastUpdated": "2026-01-06T12:55:30.272Z",
       "version": 1
     },
     {
@@ -86,14 +98,18 @@
       "title": "Hex-a-thon",
       "platform": "devpost",
       "url": "https://hex-a-thon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/051/792/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/051/792/datas/original.jpg",
+      "description": "About the challenge Use Hex and publicly available datasets to build insights, dashboards, or applications that solve real-world problems or uncover new opportunities. Bring your own dataset, explore a topic you care about, or experiment with something completely new. Whether you’re solving a real-world problem, testing a wild idea, or just having fun with data, this is your chance to build something that makes an impact — with Hex as your canvas. What is Hex? Step into the future of analytics with Hex, the only unified platform for data impact. Hex combines the best of analytics, data science, and AI — all in one collaborative workspace. In Hex, you can: Analyze & Explore: Work end-to-end in a powerful, flexible notebook for analysts, engineers, and data scientists. Build & Share: Turn analyses into beautiful, interactive data apps for teammates or the world. Discover with AI: Use AI-powered data exploration to enable true self-serve analytics and make insights accessible to everyone. Hex is redefining what analytics tools look like in the AI era — empowering you to go beyond dashboards and build intelligent, conversational, and connected data experiences.",
+      "summary": "About the challenge Use Hex and publicly available datasets to build insights, dashboards, or applications that solve real-world problems or uncover new opportunities. Bring your own dataset, explore ...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-01-22T07:00:00.000Z",
       "prize": "$10,000",
-      "tags": [],
+      "tags": [
+        "Databases",
+        "Open Ended"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -102,9 +118,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-06T02:01:04.737Z",
-      "scrapedAt": "2026-01-06T01:58:55.165Z",
-      "lastUpdated": "2026-01-06T02:01:04.737Z",
+      "processedAt": "2026-01-06T12:55:30.336Z",
+      "scrapedAt": "2026-01-06T12:53:18.191Z",
+      "lastUpdated": "2026-01-06T12:55:30.336Z",
       "version": 1
     },
     {
@@ -112,14 +128,18 @@
       "title": "MNEE Hackathon: Programmable Money for Agents, Commerce, and Automated Finance",
       "platform": "devpost",
       "url": "https://mnee-eth.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/973/628/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/973/628/datas/original.png",
+      "description": "The MNEE Hackathon: Programmable Money for Agents, Commerce, and Automated Finance invites developers, builders, and innovators to shape the next era of digital commerce and autonomous coordination. Money is becoming programmable — not just for humans, but for AI agents, online communities, businesses, and decentralized networks. This hackathon challenges teams to build real applications where value moves automatically, transparently, and reliably. Using MNEE, a USD-backed stablecoin live on Ethereum, participants will create systems that enable: AI agents to transact and pay for services autonomously Creators and businesses to accept stablecoin payments Smart contracts to automate financial workflows and settlements The goal: Design the future of commerce infrastructure — stable, programmable, and accessible to everyone. Whether you’re an AI engineer, web3 developer, fintech builder, or designer shaping user experiences, this hackathon is your platform to build tools that power the next generation of economic interactions.Learn more at https://mnee.io",
+      "summary": "The MNEE Hackathon: Programmable Money for Agents, Commerce, and Automated Finance invites developers, builders, and innovators to shape the next era of digital commerce and autonomous coordination. M...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-01-12T22:00:00.000Z",
       "prize": "$50,000",
-      "tags": [],
+      "tags": [
+        "Blockchain",
+        "Gaming"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -128,9 +148,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-06T02:01:05.742Z",
-      "scrapedAt": "2026-01-06T01:58:55.166Z",
-      "lastUpdated": "2026-01-06T02:01:05.742Z",
+      "processedAt": "2026-01-06T12:55:31.336Z",
+      "scrapedAt": "2026-01-06T12:53:18.191Z",
+      "lastUpdated": "2026-01-06T12:55:31.336Z",
       "version": 1
     },
     {
@@ -138,14 +158,19 @@
       "title": "Build your Flutter Butler with Serverpod",
       "platform": "devpost",
       "url": "https://serverpod.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/876/643/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/876/643/datas/original.png",
+      "description": "About the challenge We’re celebrating the release of Serverpod 3 with a global hackathon. Join developers from around the world to create your own digital assistant or automation tool using Flutter and Serverpod. Combine the power of Flutter’s front end with Serverpod’s Dart-based backend to craft your very own Flutter Butler that serves, automates, and delights. Whether it’s an AI helper, a productivity app, or a creative automation, this hackathon is your chance to explore the full potential of the Flutter + Serverpod stack and celebrate the next evolution of Dart on the backend. Get started Register on Devpost and review the rules. Install Serverpod and set up your Flutter + Serverpod project. Join our Discord server and find the hackathon channel for all communications. Build your Flutter Butler — an app that acts as your digital assistant or automation partner. Submit your project on Devpost with a short demo video and project description. Need inspiration? Think beyond chatbots — your butler could manage schedules, automate workflows, fetch insights, or even run your smart home. The only limit is your imagination. Free resources After signing up, you’ll receive an email with everything you need to get started, including Serverpod Cloud credits to host your backend during the hackathon, Gemini API credits to power your AI features, and an invite to the Serverpod Discord, where you can connect with the team and get support throughout the hackathon.",
+      "summary": "About the challenge We’re celebrating the release of Serverpod 3 with a global hackathon. Join developers from around the world to create your own digital assistant or automation tool using Flutter an...",
+      "contestType": "video",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-01-30T16:00:00.000Z",
       "prize": "$10,000",
-      "tags": [],
+      "tags": [
+        "Mobile",
+        "Productivity",
+        "Lifehacks"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -154,9 +179,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-06T02:01:05.741Z",
-      "scrapedAt": "2026-01-06T01:58:55.166Z",
-      "lastUpdated": "2026-01-06T02:01:05.741Z",
+      "processedAt": "2026-01-06T12:55:31.341Z",
+      "scrapedAt": "2026-01-06T12:53:18.192Z",
+      "lastUpdated": "2026-01-06T12:55:31.341Z",
       "version": 1
     },
     {
@@ -164,15 +189,17 @@
       "title": "Sky’s the Limit - Cloud9 x JetBrains Hackathon",
       "platform": "devpost",
       "url": "https://cloud9.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/016/236/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/016/236/datas/original.png",
+      "description": "Welcome to Sky’s the Limit - Cloud9 x JetBrains Hackathon Cloud9 is bringing its competitive spirit from the arena to the dev world—with a global hackathon built to ignite creativity, sharpen skills, and bring bold ideas to life. As one of the most storied organizations in esports, Cloud9 is known for championship rosters, fierce innovation, and a community that pushes the boundaries of what’s possible. Whether you’re a gamer, a builder, or a curious creator, this is your chance to level up alongside a team that never stops evolving. In this hackathon, entrants will build or update a working application using the tools of their choice—plus optional support from JetBrains’ AI Coding Agent, Junie. Junie can help accelerate your workflow and unlock new ways to create, but the real spotlight is on you and the ideas you bring to the table. With exclusive resources like official esports data for League of Legends and VALORANT provided by GRID, expert guidance, and a prize pool that rewards innovation, this is your arena. Pick a category, lock in, and show Cloud9 what you can build. Why join? Experiment with JetBrains IDEs + AI Coding Agent Junie Official data provided by GRID Compete for $25k cash prizes, GDC tickets + travel, and Cloud9 swag Get Started Review our Submission Specifics tab Apply here to get access to the official esports data from GRID Download and open your JetBrains IDE and start coding! Learn how to create an AI-powered app with AI Coding Agent Junie",
+      "summary": "Welcome to Sky’s the Limit - Cloud9 x JetBrains Hackathon Cloud9 is bringing its competitive spirit from the arena to the dev world—with a global hackathon built to ignite creativity, sharpen skills, ...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-02-03T19:00:00.000Z",
       "prize": "$25,000",
       "tags": [
-        "ai"
+        "Gaming",
+        "Databases"
       ],
       "aiTools": [
         "Python",
@@ -182,9 +209,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-06T02:01:05.740Z",
-      "scrapedAt": "2026-01-06T01:58:55.167Z",
-      "lastUpdated": "2026-01-06T02:01:05.740Z",
+      "processedAt": "2026-01-06T12:55:31.339Z",
+      "scrapedAt": "2026-01-06T12:53:18.192Z",
+      "lastUpdated": "2026-01-06T12:55:31.339Z",
       "version": 1
     },
     {
@@ -192,41 +219,19 @@
       "title": "Play Everywhere: The Build with Snap Games Lensathon",
       "platform": "devpost",
       "url": "https://snapgames.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/061/826/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/061/826/datas/original.png",
+      "description": "About the challenge Build a game on the most fun messaging platform: Snapchat. You’ve built games for mobile, and now bring them to hundreds of millions ready to play, post, and share. Snapchat isn’t just for selfies; it’s a hub for mobile games between friends. Check out the guide on building games for Snapchat. This Lensathon asks you to build Game Lenses that turn a friendly challenge into games worth sharing. Your submission needs to belong to one of the following categories: 2D Games (Leaderboard, Quick Play), 3D Games (Bitmoji-centric, character controller), Turn Based (Multiplayer), Longform (Daily Challenges, Persistent data, story games). Design games that will be popular with Snapchatters. There is a pool of over $30,000 in prizes! Get started Build games for Snapchat with the powerful, free tool, Lens Studio, which is easy to pick up for anyone familiar with other game engines. The tool is based in Javascript and Typescript. But there are lots of ways to build without coding too. Download Lens Studio here Find tutorials and documentation for Lens Studio here Watch a tutorial series about building games on Snapchat here Learn more about the advantages of developing games for Snapchat here Get inspired by seeing the winners of a previous Snapchat Games Lensathon here",
+      "summary": "About the challenge Build a game on the most fun messaging platform: Snapchat. You’ve built games for mobile, and now bring them to hundreds of millions ready to play, post, and share. Snapchat isn’t ...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-02-03T07:45:00.000Z",
       "prize": "$30,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-01-06T02:01:05.741Z",
-      "scrapedAt": "2026-01-06T01:58:55.168Z",
-      "lastUpdated": "2026-01-06T02:01:05.741Z",
-      "version": 1
-    },
-    {
-      "id": "c_75a7b4d76037",
-      "title": "VisaVerse AI Hackathon",
-      "platform": "devpost",
-      "url": "https://visaverse.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/018/575/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$10,000",
       "tags": [
-        "ai"
+        "AR",
+        "VR",
+        "Gaming",
+        "Mobile"
       ],
       "aiTools": [
         "Python",
@@ -236,9 +241,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-06T02:01:05.804Z",
-      "scrapedAt": "2026-01-06T01:58:55.168Z",
-      "lastUpdated": "2026-01-06T02:01:05.804Z",
+      "processedAt": "2026-01-06T12:55:31.337Z",
+      "scrapedAt": "2026-01-06T12:53:18.193Z",
+      "lastUpdated": "2026-01-06T12:55:31.337Z",
       "version": 1
     },
     {
@@ -246,14 +251,18 @@
       "title": "Code Spring",
       "platform": "devpost",
       "url": "https://code-spring.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/944/179/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
-      "contestType": "code",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/944/179/datas/original.jpg",
+      "description": "This winter, innovation meets renewal. ❄️🌷CodeSpring Hackathon is not your typical weekend sprint , it’s a month-long innovation journey where ideas grow, evolve, and blossom into real-world solutions. From winters to spring, creators, coders, and changemakers from across the globe will collaborate to design, build, and deploy projects that redefine what’s possible. Whether you’re a coder,developer,hacker,designer taking your first step into development, a startup founder testing an idea, or a tech enthusiast chasing curiosity , CodeSpring gives you time and mentorship to let your imagination breathe and bloom. 🌿 NOTE: We are looking for judges and sponsors! Please email codebloomhackathon@gmail.com if you are interested in supporting our event. 🗓️ Hackathon Timeline Phase Date Highlights Registrations Open Nov 15 – Dec 15 Sign up, form your dream team & get onboarded! 🚀 Hackathon Begins Dec 1 Theme reveal + kickoff livestream 🌟 Ideation & Research Phase Dec 1 – Dec 30 Explore your idea, validate it, and share early drafts 💭 Development Phase JAN Build, test, and refine your prototype 💻 Final Submissions Due JAN Submit your demo, video, and repository links 📦 Judging & Results JAN Jury review, top picks & closing ceremony 🏆",
+      "summary": "This winter, innovation meets renewal. ❄️🌷CodeSpring Hackathon is not your typical weekend sprint , it’s a month-long innovation journey where ideas grow, evolve, and blossom into real-world solution...",
+      "contestType": "video",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-01-14T22:00:00.000Z",
       "prize": "$5,800",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Productivity"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -262,15 +271,46 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-06T02:01:06.816Z",
-      "scrapedAt": "2026-01-06T01:58:55.169Z",
-      "lastUpdated": "2026-01-06T02:01:06.816Z",
+      "processedAt": "2026-01-06T12:55:31.393Z",
+      "scrapedAt": "2026-01-06T12:53:18.194Z",
+      "lastUpdated": "2026-01-06T12:55:31.393Z",
+      "version": 1
+    },
+    {
+      "id": "c_cbd7e2f7db34",
+      "title": "SAP Business AI Innovation Challenge",
+      "platform": "devpost",
+      "url": "https://sap.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/922/940/datas/original.png",
+      "description": "Welcome, enterprise developers! SAP invites you to the Business AI Innovation Challenge. This is your chance to move beyond the buzzwords and get hands-on with the powerful, intuitive AI tools integrated into the SAP Business Technology Platform (BTP). We're calling on our customer and partner ecosystem—that's you—to build the next wave of intelligent applications. This is an opportunity to show the world—and your company—what's possible when you combine your enterprise expertise with SAP's cutting-edge AI. You might already have access to these tools. Now's the time to unlock their potential, create new use cases, and build a working application that could redefine your business processes. Ride the AI wave with a platform you already trust. Why join? Learn how to rapidly integrate powerful AI into your SAP environment Experiment with SAP's leading Business AI tools on BTP Generate innovative, real-world use cases for your own organization. Get Started Learn how to launch your first AI project with our tutorials (30 minutes) Review the Resources tab to find SAP Business AI, AI Core, generative AI hub, tutorials and tools, and SAP AI tool documentation (60 minutes) Review example projects on our YouTube Channel or brainstorm your own (20 minutes)",
+      "summary": "Welcome, enterprise developers! SAP invites you to the Business AI Innovation Challenge. This is your chance to move beyond the buzzwords and get hands-on with the powerful, intuitive AI tools integra...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-02-24T01:00:00.000Z",
+      "prize": "$0",
+      "tags": [
+        "Enterprise",
+        "Low",
+        "No Code"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-01-06T12:55:32.412Z",
+      "scrapedAt": "2026-01-06T12:53:18.194Z",
+      "lastUpdated": "2026-01-06T12:55:32.412Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-01-06T02:01:27.280Z"
+    "lastUpdated": "2026-01-06T12:55:52.880Z"
   }
 }

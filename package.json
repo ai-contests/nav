@@ -19,6 +19,7 @@
     "notify": "ts-node --project tsconfig.cli.json src/main.ts notify",
     "run": "ts-node --project tsconfig.cli.json src/main.ts run",
     "notify-subs": "ts-node --project tsconfig.cli.json src/scripts/notify-subscribers.ts",
+    "test-notify": "ts-node --project tsconfig.cli.json src/scripts/test-notification.ts",
     "aggregate:contests": "ts-node --project tsconfig.cli.json src/scripts/aggregate-contests.ts",
     "clean": "rimraf dist .next",
     "prepare": "husky install",

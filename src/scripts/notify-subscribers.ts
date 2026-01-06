@@ -25,6 +25,7 @@ interface ContestData {
   status: string;
   summary?: string;
   url: string;
+  scrapedAt: string;
 }
 
 /**
@@ -54,7 +55,8 @@ async function loadContestMap(): Promise<Map<string, ContestData>> {
             deadline: c.deadline,
             status: c.status,
             summary: c.summary,
-            url: c.url
+            url: c.url,
+            scrapedAt: c.scrapedAt || new Date().toISOString()
           });
         });
       }
@@ -129,8 +131,14 @@ async function main() {
 
   // 5. Load Contest Data
   const contestMap = await loadContestMap();
+  const allContests = Array.from(contestMap.values());
 
-  // 6. Load Template
+  // 6. Identify Latest Contests (Top 5 newly scraped, not ended)
+  const latestContests = allContests
+    .filter(c => c.status.toLowerCase() === 'active')
+    .sort((a, b) => new Date(b.scrapedAt).getTime() - new Date(a.scrapedAt).getTime());
+
+  // 7. Load Template
   let template = '';
   try {
      template = await fs.readFile(TEMPLATE_PATH, 'utf-8');
@@ -139,7 +147,22 @@ async function main() {
      process.exit(1);
   }
 
-  // 7. Process Each User
+  // 8. Helper to Render Contest HTML
+  const renderContestHtml = (c: ContestData) => `
+    <div class="contest-card">
+        <a href="${c.url}" class="contest-title" target="_blank">${c.title}</a>
+        <div class="meta">
+            <span class="badge">${c.platform}</span>
+            <span class="countdown">⏳ ${getTimeRemaining(c.deadline)} left</span>
+            ${c.deadline ? `<span style="font-size: 13px; color: #6b7280;">(Due: ${new Date(c.deadline).toLocaleDateString()})</span>` : ''}
+        </div>
+        <div class="summary">
+            ${c.summary || 'No summary available.'}
+        </div>
+    </div>
+  `;
+
+  // 9. Process Each User
   for (const [userId, contestIds] of userSubs.entries()) {
     try {
       // Fetch User Email from Clerk
@@ -157,52 +180,44 @@ async function main() {
         continue;
       }
 
-      // Filter and Sort Contests
+      // Filter and Sort Subscribed Contests
       const userContests = contestIds
         .map(id => contestMap.get(id))
-        .filter(c => c !== undefined && c.status !== 'ended') // Filter ended? Or keep them to show "Ended"? User said "filter ended".
+        .filter(c => c !== undefined && c.status.toLowerCase() === 'active')
         .sort((a, b) => {
-            // Sort by upcoming deadline
             if (!a?.deadline) return 1;
             if (!b?.deadline) return -1;
             return new Date(a.deadline).getTime() - new Date(b.deadline).getTime();
         })
-        .slice(0, 5); // Max 5
+        .slice(0, 5); // Strictly Limit to 5
 
-      if (userContests.length === 0) continue;
+      // Prepare Latest Contests (Limit to 5)
+      // Exclude ones the user is already subscribed to for "Discovery"
+      const subIds = new Set(contestIds);
+      const discoveries = latestContests
+        .filter(c => !subIds.has(c.id))
+        .slice(0, 5);
 
-      // Generate HTML List
-      const contestListHtml = userContests.map(c => `
-        <div class="contest-card">
-            <a href="${c!.url}" class="contest-title" target="_blank">${c!.title}</a>
-            <div class="meta">
-                <span class="badge">${c!.platform}</span>
-                <span class="countdown">⏳ ${getTimeRemaining(c!.deadline)} left</span>
-                ${c!.deadline ? `<span>(Due: ${new Date(c!.deadline).toLocaleDateString()})</span>` : ''}
-            </div>
-            <div class="summary">
-                ${c!.summary || 'No summary available.'}
-            </div>
-        </div>
-      `).join('');
+      if (userContests.length === 0 && discoveries.length === 0) continue;
 
       // Replace Placeholders
       const emailHtml = template
         .replace('{{date}}', new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }))
-        .replace('{{contestList}}', contestListHtml);
+        .replace('{{subscriptionList}}', userContests.length > 0 ? userContests.map(c => renderContestHtml(c!)).join('') : '<p style="color: #666; font-size: 14px;">No active subscriptions. Try exploring new challenges below!</p>')
+        .replace('{{latestList}}', discoveries.length > 0 ? discoveries.map(c => renderContestHtml(c)).join('') : '<p style="color: #666; font-size: 14px;">No new contests discovered today. Check back tomorrow!</p>');
 
       // Send Email
       const { error: sendError } = await resend.emails.send({
         from: config.notifications?.fromEmail || 'AI Contest Navigator <notify@emoai.co.uk>',
         to: email,
-        subject: `📅 Daily Brief: ${userContests.length} Active Contests`,
+        subject: `📅 Daily Brief: ${userContests.length} Subscriptions & ${discoveries.length} New Challenges`,
         html: emailHtml,
       });
 
       if (sendError) {
         console.error(`Failed to send email to ${email}`, sendError);
       } else {
-        console.log(`✅ Sent summary to ${email} (${userContests.length} contests)`);
+        console.log(`✅ Sent summary to ${email} (${userContests.length} subs, ${discoveries.length} new)`);
       }
 
     } catch (err) {

@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-01-07T02:01:16.500Z",
+  "timestamp": "2026-01-07T12:56:50.667Z",
   "contestCount": 10,
   "contests": [
     {
@@ -8,14 +8,18 @@
       "title": "Gemini 3 Hackathon",
       "platform": "devpost",
       "url": "https://gemini3.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/098/038/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/098/038/datas/original.png",
+      "description": "Welcome to the era of Gemini 3. Google DeepMind is thrilled to invite you to the Gemini 3 global hackathon. We are pushing the boundaries of what AI can do by enhancing reasoning capabilities, unlocking multimodal experiences and reducing latency. Now, we want to see what you can create with our most capable and intelligent model family to date. Whether you are a seasoned AI engineer or writing your first line of code, this is your invitation to build the future. We are looking for more than just another chat interface. We want to see fun, creative, next-generation applications built with the Gemini 3 family Why participate? Be First: Get hands-on access to the Gemini 3 API before the rest of the world catches up. Build Something New: This challenge is strictly for new applications. It’s a level playing field for everyone. Win Big: We have a prize pool of $100,000 + interviews with the AI Futures Fund team for an opportunity to fund your project.",
+      "summary": "Welcome to the era of Gemini 3. Google DeepMind is thrilled to invite you to the Gemini 3 global hackathon. We are pushing the boundaries of what AI can do by enhancing reasoning capabilities, unlocki...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-02-10T01:00:00.000Z",
       "prize": "$100,000",
-      "tags": [],
+      "tags": [
+        "Open Ended",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -24,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:54.698Z",
-      "scrapedAt": "2026-01-07T01:58:42.888Z",
-      "lastUpdated": "2026-01-07T02:00:54.698Z",
+      "processedAt": "2026-01-07T12:56:28.800Z",
+      "scrapedAt": "2026-01-07T12:54:18.084Z",
+      "lastUpdated": "2026-01-07T12:56:28.800Z",
       "version": 1
     },
     {
@@ -34,14 +38,18 @@
       "title": "Tableau Hackathon",
       "platform": "devpost",
       "url": "https://tableau2025.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/972/211/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/972/211/datas/original.png",
+      "description": "About the challenge Step into the next era of analytics. This is your opportunity to pioneer innovative solutions and tackle real-world business problems using the full power of Tableau. We encourage you to utilize: Tableau Next: Leverage cutting-edge capabilities built directly on the secure Salesforce platform, designed to deliver actionable insights everywhere work happens. Note that access to specific Salesforce orgs is required. Tableau Cloud: Harness the full extensibility of the Tableau Developer Platform and its robust APIs to extend, strengthen, or integrate existing Tableau functionality. Your mission: build something groundbreaking with Tableau. Push the limits by connecting it with Salesforce solutions—with free access to Slack, Agentforce, and Data 360. Prove your skills, showcase your imagination, and win your share of $45,000. The platform is yours—it's time to build the future of data.",
+      "summary": "About the challenge Step into the next era of analytics. This is your opportunity to pioneer innovative solutions and tackle real-world business problems using the full power of Tableau. We encourage ...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-01-12T20:00:00.000Z",
       "prize": "$45,000",
-      "tags": [],
+      "tags": [
+        "Databases",
+        "Enterprise"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -50,9 +58,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:54.706Z",
-      "scrapedAt": "2026-01-07T01:58:42.889Z",
-      "lastUpdated": "2026-01-07T02:00:54.706Z",
+      "processedAt": "2026-01-07T12:56:28.799Z",
+      "scrapedAt": "2026-01-07T12:54:18.085Z",
+      "lastUpdated": "2026-01-07T12:56:28.799Z",
       "version": 1
     },
     {
@@ -60,14 +68,18 @@
       "title": "LMA EDGE Hackathon",
       "platform": "devpost",
       "url": "https://lmaedgehackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/032/944/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/032/944/datas/original.png",
+      "description": "The Loan Market Association is the authoritative voice of the loan markets across Europe, the Middle East and Africa. Our mission is to advance liquidity, efficiency, transparency and sustainability. The LMA Edge Hackathon invites a diverse mix of participants, from loan markets novice to subject matter expert, from fledgeling web developer to technology wizard, to reimagine how loans are originated, documented, traded and managed. This hackathon is a call to build commercially viable, desktop-based prototypes, wireframes, or applications. The LMA website and our many LinkedIn posts can help you understand current practices, uncover pain points, and ideate bold solutions. With $25,000 USD in prizes, we’re looking for high-impact, scalable ideas that align with our values and our mission. If you’re motivated to apply technical creativity and cross-disciplinary thinking to a multi-trillion dollar market, this is your moment to shine. Get Started Register for the LMA Edge Hackathon. Join the Devpost Discord community to partner up with other participants. Review category briefs for inspiration. Brainstorm what you’re going to create.",
+      "summary": "The Loan Market Association is the authoritative voice of the loan markets across Europe, the Middle East and Africa. Our mission is to advance liquidity, efficiency, transparency and sustainability. ...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-01-14T23:45:00.000Z",
       "prize": "$25,000",
-      "tags": [],
+      "tags": [
+        "Blockchain",
+        "Fintech"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -76,9 +88,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:54.703Z",
-      "scrapedAt": "2026-01-07T01:58:42.890Z",
-      "lastUpdated": "2026-01-07T02:00:54.703Z",
+      "processedAt": "2026-01-07T12:56:28.800Z",
+      "scrapedAt": "2026-01-07T12:54:18.086Z",
+      "lastUpdated": "2026-01-07T12:56:28.800Z",
       "version": 1
     },
     {
@@ -86,14 +98,18 @@
       "title": "Hex-a-thon",
       "platform": "devpost",
       "url": "https://hex-a-thon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/051/792/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/051/792/datas/original.jpg",
+      "description": "About the challenge Use Hex and publicly available datasets to build insights, dashboards, or applications that solve real-world problems or uncover new opportunities. Bring your own dataset, explore a topic you care about, or experiment with something completely new. Whether you’re solving a real-world problem, testing a wild idea, or just having fun with data, this is your chance to build something that makes an impact — with Hex as your canvas. What is Hex? Step into the future of analytics with Hex, the only unified platform for data impact. Hex combines the best of analytics, data science, and AI — all in one collaborative workspace. In Hex, you can: Analyze & Explore: Work end-to-end in a powerful, flexible notebook for analysts, engineers, and data scientists. Build & Share: Turn analyses into beautiful, interactive data apps for teammates or the world. Discover with AI: Use AI-powered data exploration to enable true self-serve analytics and make insights accessible to everyone. Hex is redefining what analytics tools look like in the AI era — empowering you to go beyond dashboards and build intelligent, conversational, and connected data experiences.",
+      "summary": "About the challenge Use Hex and publicly available datasets to build insights, dashboards, or applications that solve real-world problems or uncover new opportunities. Bring your own dataset, explore ...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-01-22T07:00:00.000Z",
       "prize": "$10,000",
-      "tags": [],
+      "tags": [
+        "Databases",
+        "Open Ended"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -102,9 +118,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:54.731Z",
-      "scrapedAt": "2026-01-07T01:58:42.891Z",
-      "lastUpdated": "2026-01-07T02:00:54.731Z",
+      "processedAt": "2026-01-07T12:56:28.824Z",
+      "scrapedAt": "2026-01-07T12:54:18.087Z",
+      "lastUpdated": "2026-01-07T12:56:28.824Z",
       "version": 1
     },
     {
@@ -112,14 +128,18 @@
       "title": "MNEE Hackathon: Programmable Money for Agents, Commerce, and Automated Finance",
       "platform": "devpost",
       "url": "https://mnee-eth.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/973/628/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/973/628/datas/original.png",
+      "description": "The MNEE Hackathon: Programmable Money for Agents, Commerce, and Automated Finance invites developers, builders, and innovators to shape the next era of digital commerce and autonomous coordination. Money is becoming programmable — not just for humans, but for AI agents, online communities, businesses, and decentralized networks. This hackathon challenges teams to build real applications where value moves automatically, transparently, and reliably. Using MNEE, a USD-backed stablecoin live on Ethereum, participants will create systems that enable: AI agents to transact and pay for services autonomously Creators and businesses to accept stablecoin payments Smart contracts to automate financial workflows and settlements The goal: Design the future of commerce infrastructure — stable, programmable, and accessible to everyone. Whether you’re an AI engineer, web3 developer, fintech builder, or designer shaping user experiences, this hackathon is your platform to build tools that power the next generation of economic interactions.Learn more at https://mnee.io",
+      "summary": "The MNEE Hackathon: Programmable Money for Agents, Commerce, and Automated Finance invites developers, builders, and innovators to shape the next era of digital commerce and autonomous coordination. M...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-01-12T22:00:00.000Z",
       "prize": "$50,000",
-      "tags": [],
+      "tags": [
+        "Blockchain",
+        "Gaming"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -128,9 +148,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:55.733Z",
-      "scrapedAt": "2026-01-07T01:58:42.891Z",
-      "lastUpdated": "2026-01-07T02:00:55.733Z",
+      "processedAt": "2026-01-07T12:56:29.833Z",
+      "scrapedAt": "2026-01-07T12:54:18.087Z",
+      "lastUpdated": "2026-01-07T12:56:29.833Z",
       "version": 1
     },
     {
@@ -154,9 +174,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:55.737Z",
-      "scrapedAt": "2026-01-07T01:58:42.892Z",
-      "lastUpdated": "2026-01-07T02:00:55.737Z",
+      "processedAt": "2026-01-07T12:56:29.834Z",
+      "scrapedAt": "2026-01-07T12:54:18.088Z",
+      "lastUpdated": "2026-01-07T12:56:29.834Z",
       "version": 1
     },
     {
@@ -182,9 +202,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:55.742Z",
-      "scrapedAt": "2026-01-07T01:58:42.893Z",
-      "lastUpdated": "2026-01-07T02:00:55.742Z",
+      "processedAt": "2026-01-07T12:56:29.832Z",
+      "scrapedAt": "2026-01-07T12:54:18.088Z",
+      "lastUpdated": "2026-01-07T12:56:29.832Z",
       "version": 1
     },
     {
@@ -208,9 +228,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:55.747Z",
-      "scrapedAt": "2026-01-07T01:58:42.893Z",
-      "lastUpdated": "2026-01-07T02:00:55.747Z",
+      "processedAt": "2026-01-07T12:56:29.840Z",
+      "scrapedAt": "2026-01-07T12:54:18.089Z",
+      "lastUpdated": "2026-01-07T12:56:29.840Z",
       "version": 1
     },
     {
@@ -234,9 +254,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:55.772Z",
-      "scrapedAt": "2026-01-07T01:58:42.894Z",
-      "lastUpdated": "2026-01-07T02:00:55.772Z",
+      "processedAt": "2026-01-07T12:56:29.870Z",
+      "scrapedAt": "2026-01-07T12:54:18.089Z",
+      "lastUpdated": "2026-01-07T12:56:29.870Z",
       "version": 1
     },
     {
@@ -262,15 +282,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:56.779Z",
-      "scrapedAt": "2026-01-07T01:58:42.894Z",
-      "lastUpdated": "2026-01-07T02:00:56.779Z",
+      "processedAt": "2026-01-07T12:56:30.881Z",
+      "scrapedAt": "2026-01-07T12:54:18.090Z",
+      "lastUpdated": "2026-01-07T12:56:30.881Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-01-07T02:01:16.500Z"
+    "lastUpdated": "2026-01-07T12:56:50.667Z"
   }
 }

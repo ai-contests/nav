@@ -1,6 +1,6 @@
 {
   "platform": "aicrowd",
-  "timestamp": "2026-01-07T02:01:16.501Z",
+  "timestamp": "2026-01-07T12:56:50.669Z",
   "contestCount": 10,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-01-31T01:59:30.910Z",
+      "deadline": "2026-01-31T12:55:05.299Z",
       "prize": "USD 17,000",
       "tags": [
         "llm",
@@ -28,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:47.692Z",
-      "scrapedAt": "2026-01-07T01:59:30.910Z",
-      "lastUpdated": "2026-01-07T02:00:47.692Z",
+      "processedAt": "2026-01-07T12:56:21.484Z",
+      "scrapedAt": "2026-01-07T12:55:05.299Z",
+      "lastUpdated": "2026-01-07T12:56:21.484Z",
       "version": 1
     },
     {
@@ -44,7 +44,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-02-01T01:59:30.910Z",
+      "deadline": "2026-02-01T12:55:05.300Z",
       "prize": "USD 20,000",
       "tags": [
         "llm"
@@ -57,14 +57,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:48.342Z",
-      "scrapedAt": "2026-01-07T01:59:30.910Z",
-      "lastUpdated": "2026-01-07T02:00:48.342Z",
+      "processedAt": "2026-01-07T12:56:22.169Z",
+      "scrapedAt": "2026-01-07T12:55:05.300Z",
+      "lastUpdated": "2026-01-07T12:56:22.169Z",
       "version": 1
     },
     {
       "id": "c_8028e73d2ed6",
-      "title": "Benchmark Challenge: Running",
+      "title": "Spotify Million Playlist Dataset Challenge",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/277/MPD2.png",
@@ -74,7 +74,9 @@
       "status": "ended",
       "difficulty": "intermediate",
       "prize": "TBD",
-      "tags": [],
+      "tags": [
+        "Benchmark Challenge: Running"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -83,9 +85,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:48.385Z",
-      "scrapedAt": "2026-01-07T01:59:30.910Z",
-      "lastUpdated": "2026-01-07T02:00:48.385Z",
+      "processedAt": "2026-01-07T12:56:22.219Z",
+      "scrapedAt": "2026-01-07T12:55:05.300Z",
+      "lastUpdated": "2026-01-07T12:56:22.219Z",
       "version": 1
     },
     {
@@ -99,7 +101,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T01:59:30.911Z",
+      "deadline": "2030-08-14T12:55:05.301Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -110,9 +112,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:48.395Z",
-      "scrapedAt": "2026-01-07T01:59:30.911Z",
-      "lastUpdated": "2026-01-07T02:00:48.395Z",
+      "processedAt": "2026-01-07T12:56:22.227Z",
+      "scrapedAt": "2026-01-07T12:55:05.301Z",
+      "lastUpdated": "2026-01-07T12:56:22.227Z",
       "version": 1
     },
     {
@@ -126,7 +128,7 @@
       "contestType": "image",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-02-17T01:59:30.911Z",
+      "deadline": "2026-02-17T12:55:05.301Z",
       "prize": "TBD",
       "tags": [
         "#classroom"
@@ -139,9 +141,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:48.394Z",
-      "scrapedAt": "2026-01-07T01:59:30.911Z",
-      "lastUpdated": "2026-01-07T02:00:48.394Z",
+      "processedAt": "2026-01-07T12:56:22.218Z",
+      "scrapedAt": "2026-01-07T12:55:05.301Z",
+      "lastUpdated": "2026-01-07T12:56:22.218Z",
       "version": 1
     },
     {
@@ -155,7 +157,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-02-17T01:59:30.911Z",
+      "deadline": "2026-02-17T12:55:05.301Z",
       "prize": "TBD",
       "tags": [
         "#classroom"
@@ -168,9 +170,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:48.493Z",
-      "scrapedAt": "2026-01-07T01:59:30.911Z",
-      "lastUpdated": "2026-01-07T02:00:48.493Z",
+      "processedAt": "2026-01-07T12:56:22.388Z",
+      "scrapedAt": "2026-01-07T12:55:05.301Z",
+      "lastUpdated": "2026-01-07T12:56:22.388Z",
       "version": 1
     },
     {
@@ -184,7 +186,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T01:59:30.911Z",
+      "deadline": "2045-09-01T12:55:05.302Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -195,9 +197,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:49.522Z",
-      "scrapedAt": "2026-01-07T01:59:30.912Z",
-      "lastUpdated": "2026-01-07T02:00:49.522Z",
+      "processedAt": "2026-01-07T12:56:23.272Z",
+      "scrapedAt": "2026-01-07T12:55:05.302Z",
+      "lastUpdated": "2026-01-07T12:56:23.272Z",
       "version": 1
     },
     {
@@ -211,7 +213,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T01:59:30.912Z",
+      "deadline": "2030-12-30T12:55:05.302Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -225,9 +227,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:49.433Z",
-      "scrapedAt": "2026-01-07T01:59:30.912Z",
-      "lastUpdated": "2026-01-07T02:00:49.433Z",
+      "processedAt": "2026-01-07T12:56:23.270Z",
+      "scrapedAt": "2026-01-07T12:55:05.302Z",
+      "lastUpdated": "2026-01-07T12:56:23.270Z",
       "version": 1
     },
     {
@@ -253,9 +255,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:49.497Z",
-      "scrapedAt": "2026-01-07T01:59:30.912Z",
-      "lastUpdated": "2026-01-07T02:00:49.497Z",
+      "processedAt": "2026-01-07T12:56:23.266Z",
+      "scrapedAt": "2026-01-07T12:55:05.303Z",
+      "lastUpdated": "2026-01-07T12:56:23.266Z",
       "version": 1
     },
     {
@@ -279,15 +281,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-07T02:00:49.485Z",
-      "scrapedAt": "2026-01-07T01:59:30.913Z",
-      "lastUpdated": "2026-01-07T02:00:49.485Z",
+      "processedAt": "2026-01-07T12:56:23.271Z",
+      "scrapedAt": "2026-01-07T12:55:05.304Z",
+      "lastUpdated": "2026-01-07T12:56:23.271Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-01-07T02:01:16.501Z"
+    "lastUpdated": "2026-01-07T12:56:50.669Z"
   }
 }

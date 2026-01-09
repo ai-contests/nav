@@ -68,7 +68,7 @@ export async function getAllContests(): Promise<Contest[]> {
           deadline: c.deadline || c.end_time || '',
           prize: c.prize || c.reward || 'TBD',
           tags: c.tags || [],
-          status: calculateStatus(c.status, c.deadline || c.end_time),
+          status: calculateStatus(c.status || '', c.deadline || c.end_time || ''),
           image_url: c.image_url || c.cover_url || '',
           // Mock difficulty for now if not present, usually AIProcessor adds it
           difficulty: c.ai_analysis?.difficulty ? parseDifficulty(c.ai_analysis.difficulty) : Math.floor(Math.random() * 5) + 3 // Rand 3-8

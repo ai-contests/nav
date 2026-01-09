@@ -1,6 +1,10 @@
 {
   "platform": "aicrowd",
+<<<<<<< Updated upstream
   "timestamp": "2026-01-09T12:56:00.338Z",
+=======
+  "timestamp": "2026-01-09T21:28:52.811Z",
+>>>>>>> Stashed changes
   "contestCount": 10,
   "contests": [
     {
@@ -14,7 +18,11 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
+<<<<<<< Updated upstream
       "deadline": "2026-01-31T12:54:17.209Z",
+=======
+      "deadline": "2026-01-31T21:27:19.217Z",
+>>>>>>> Stashed changes
       "prize": "USD 17,000",
       "tags": [
         "llm",
@@ -28,9 +36,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
+<<<<<<< Updated upstream
       "processedAt": "2026-01-09T12:55:30.645Z",
       "scrapedAt": "2026-01-09T12:54:17.209Z",
       "lastUpdated": "2026-01-09T12:55:30.645Z",
+=======
+      "processedAt": "2026-01-09T21:28:32.732Z",
+      "scrapedAt": "2026-01-09T21:27:19.218Z",
+      "lastUpdated": "2026-01-09T21:28:32.732Z",
+>>>>>>> Stashed changes
       "version": 1
     },
     {
@@ -44,7 +58,11 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
+<<<<<<< Updated upstream
       "deadline": "2026-02-01T12:54:17.210Z",
+=======
+      "deadline": "2026-02-01T21:27:19.218Z",
+>>>>>>> Stashed changes
       "prize": "USD 20,000",
       "tags": [
         "llm"
@@ -57,9 +75,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
+<<<<<<< Updated upstream
       "processedAt": "2026-01-09T12:55:32.624Z",
       "scrapedAt": "2026-01-09T12:54:17.210Z",
       "lastUpdated": "2026-01-09T12:55:32.624Z",
+=======
+      "processedAt": "2026-01-09T21:28:33.734Z",
+      "scrapedAt": "2026-01-09T21:27:19.218Z",
+      "lastUpdated": "2026-01-09T21:28:33.734Z",
+>>>>>>> Stashed changes
       "version": 1
     },
     {
@@ -85,9 +109,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
+<<<<<<< Updated upstream
       "processedAt": "2026-01-09T12:55:32.632Z",
       "scrapedAt": "2026-01-09T12:54:17.210Z",
       "lastUpdated": "2026-01-09T12:55:32.632Z",
+=======
+      "processedAt": "2026-01-09T21:28:33.735Z",
+      "scrapedAt": "2026-01-09T21:27:19.218Z",
+      "lastUpdated": "2026-01-09T21:28:33.735Z",
+>>>>>>> Stashed changes
       "version": 1
     },
     {
@@ -101,7 +131,11 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
+<<<<<<< Updated upstream
       "deadline": "2030-08-14T12:54:17.211Z",
+=======
+      "deadline": "2030-08-14T20:27:19.218Z",
+>>>>>>> Stashed changes
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -112,14 +146,24 @@
       ],
       "requirements": [],
       "qualityScore": 6,
+<<<<<<< Updated upstream
       "processedAt": "2026-01-09T12:55:31.386Z",
       "scrapedAt": "2026-01-09T12:54:17.211Z",
       "lastUpdated": "2026-01-09T12:55:31.386Z",
+=======
+      "processedAt": "2026-01-09T21:28:33.735Z",
+      "scrapedAt": "2026-01-09T21:27:19.218Z",
+      "lastUpdated": "2026-01-09T21:28:33.735Z",
+>>>>>>> Stashed changes
       "version": 1
     },
     {
       "id": "c_4609e3e111ee",
+<<<<<<< Updated upstream
       "title": "2025: 39 days left",
+=======
+      "title": "2025: 38 days left",
+>>>>>>> Stashed changes
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/epfl-ml-road-segmentation",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/68/machinelearning_final_viz_7.1__linkpreview_C.jpg",
@@ -128,7 +172,11 @@
       "contestType": "image",
       "status": "active",
       "difficulty": "intermediate",
+<<<<<<< Updated upstream
       "deadline": "2026-02-17T12:54:17.211Z",
+=======
+      "deadline": "2026-02-16T21:27:19.218Z",
+>>>>>>> Stashed changes
       "prize": "TBD",
       "tags": [
         "#classroom"
@@ -141,14 +189,24 @@
       ],
       "requirements": [],
       "qualityScore": 6,
+<<<<<<< Updated upstream
       "processedAt": "2026-01-09T12:55:32.634Z",
       "scrapedAt": "2026-01-09T12:54:17.211Z",
       "lastUpdated": "2026-01-09T12:55:32.634Z",
+=======
+      "processedAt": "2026-01-09T21:28:33.735Z",
+      "scrapedAt": "2026-01-09T21:27:19.218Z",
+      "lastUpdated": "2026-01-09T21:28:33.735Z",
+>>>>>>> Stashed changes
       "version": 1
     },
     {
       "id": "c_34f7150a85bd",
+<<<<<<< Updated upstream
       "title": "2025: 39 days left",
+=======
+      "title": "2025: 38 days left",
+>>>>>>> Stashed changes
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/epfl-ml-text-classification",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/67/machinelearning_final_viz_7.1__linkpreview_B.jpg",
@@ -157,7 +215,11 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
+<<<<<<< Updated upstream
       "deadline": "2026-02-17T12:54:17.212Z",
+=======
+      "deadline": "2026-02-16T21:27:19.218Z",
+>>>>>>> Stashed changes
       "prize": "TBD",
       "tags": [
         "#classroom"
@@ -170,9 +232,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
+<<<<<<< Updated upstream
       "processedAt": "2026-01-09T12:55:32.775Z",
       "scrapedAt": "2026-01-09T12:54:17.212Z",
       "lastUpdated": "2026-01-09T12:55:32.775Z",
+=======
+      "processedAt": "2026-01-09T21:28:33.736Z",
+      "scrapedAt": "2026-01-09T21:27:19.218Z",
+      "lastUpdated": "2026-01-09T21:28:33.736Z",
+>>>>>>> Stashed changes
       "version": 1
     },
     {
@@ -186,7 +254,11 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
+<<<<<<< Updated upstream
       "deadline": "2045-09-01T12:54:17.212Z",
+=======
+      "deadline": "2045-08-31T20:27:19.218Z",
+>>>>>>> Stashed changes
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -197,9 +269,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
+<<<<<<< Updated upstream
       "processedAt": "2026-01-09T12:55:33.657Z",
       "scrapedAt": "2026-01-09T12:54:17.212Z",
       "lastUpdated": "2026-01-09T12:55:33.657Z",
+=======
+      "processedAt": "2026-01-09T21:28:34.737Z",
+      "scrapedAt": "2026-01-09T21:27:19.218Z",
+      "lastUpdated": "2026-01-09T21:28:34.737Z",
+>>>>>>> Stashed changes
       "version": 1
     },
     {
@@ -213,7 +291,11 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
+<<<<<<< Updated upstream
       "deadline": "2030-12-30T12:54:17.213Z",
+=======
+      "deadline": "2030-12-30T21:27:19.218Z",
+>>>>>>> Stashed changes
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -227,9 +309,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
+<<<<<<< Updated upstream
       "processedAt": "2026-01-09T12:55:33.661Z",
       "scrapedAt": "2026-01-09T12:54:17.213Z",
       "lastUpdated": "2026-01-09T12:55:33.661Z",
+=======
+      "processedAt": "2026-01-09T21:28:34.737Z",
+      "scrapedAt": "2026-01-09T21:27:19.218Z",
+      "lastUpdated": "2026-01-09T21:28:34.737Z",
+>>>>>>> Stashed changes
       "version": 1
     },
     {
@@ -255,9 +343,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
+<<<<<<< Updated upstream
       "processedAt": "2026-01-09T12:55:33.668Z",
       "scrapedAt": "2026-01-09T12:54:17.213Z",
       "lastUpdated": "2026-01-09T12:55:33.668Z",
+=======
+      "processedAt": "2026-01-09T21:28:34.737Z",
+      "scrapedAt": "2026-01-09T21:27:19.218Z",
+      "lastUpdated": "2026-01-09T21:28:34.737Z",
+>>>>>>> Stashed changes
       "version": 1
     },
     {
@@ -281,15 +375,25 @@
       ],
       "requirements": [],
       "qualityScore": 6,
+<<<<<<< Updated upstream
       "processedAt": "2026-01-09T12:55:33.666Z",
       "scrapedAt": "2026-01-09T12:54:17.214Z",
       "lastUpdated": "2026-01-09T12:55:33.666Z",
+=======
+      "processedAt": "2026-01-09T21:28:34.738Z",
+      "scrapedAt": "2026-01-09T21:27:19.218Z",
+      "lastUpdated": "2026-01-09T21:28:34.738Z",
+>>>>>>> Stashed changes
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
+<<<<<<< Updated upstream
     "lastUpdated": "2026-01-09T12:56:00.338Z"
+=======
+    "lastUpdated": "2026-01-09T21:28:52.811Z"
+>>>>>>> Stashed changes
   }
 }

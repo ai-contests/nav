@@ -31,27 +31,36 @@ export class ModelScopeScraper extends EnhancedScraper {
 
     try {
       // Direct API call
-      const response = await axios.get('https://modelscope.cn/api/v1/competitions', {
-        headers: {
-          'User-Agent': this.userAgent,
-          'Referer': 'https://modelscope.cn/',
-          'Accept': 'application/json, text/plain, */*'
-        },
-        timeout: 30000
-      });
+      const response = await axios.get(
+        'https://modelscope.cn/api/v1/competitions',
+        {
+          headers: {
+            'User-Agent': this.userAgent,
+            Referer: 'https://modelscope.cn/',
+            Accept: 'application/json, text/plain, */*',
+          },
+          timeout: 30000,
+        }
+      );
 
       if (!response.data || !response.data.Data || !response.data.Data.Races) {
-        logger.warn('ModelScope API returned unexpected structure', { data: response.data });
+        logger.warn('ModelScope API returned unexpected structure', {
+          data: response.data,
+        });
         return [];
       }
 
       const races = response.data.Data.Races;
       logger.info(`Fetched ${races.length} races from ModelScope API`);
 
-      const contests: RawContest[] = races.map((race: any) => this.mapRaceToContest(race));
-      
-      const validContests = contests.filter(contest => this.validateContest(contest));
-      
+      const contests: RawContest[] = races.map((race: any) =>
+        this.mapRaceToContest(race)
+      );
+
+      const validContests = contests.filter((contest) =>
+        this.validateContest(contest)
+      );
+
       // Enrich with detailed info if valid (ModelScope list data is already quite rich, but we pass through)
       const enrichedContests = await this.enrichContestData(validContests);
 
@@ -60,10 +69,12 @@ export class ModelScopeScraper extends EnhancedScraper {
       );
 
       return enrichedContests;
-
     } catch (error) {
       logger.error(`Failed to scrape ${this.platform}`, {
-        error: error instanceof Error ? { message: error.message, stack: error.stack } : error
+        error:
+          error instanceof Error
+            ? { message: error.message, stack: error.stack }
+            : error,
       });
       throw error;
     }
@@ -77,7 +88,7 @@ export class ModelScopeScraper extends EnhancedScraper {
     // Some responses use 'Id' instead of 'CompetitionId'
     const id = race.CompetitionId || race.Id;
     const url = `https://modelscope.cn/competition/${id}`;
-    
+
     // Parse deadline: RegistrationDeadline is unix timestamp in seconds
     let deadline: string | undefined;
     if (race.RegistrationDeadline) {
@@ -88,7 +99,10 @@ export class ModelScopeScraper extends EnhancedScraper {
     let imageUrl = race.ImageUrl || race.Icon;
     if (!imageUrl && race.Content) {
       try {
-        const contentStr = typeof race.Content === 'string' ? race.Content : JSON.stringify(race.Content);
+        const contentStr =
+          typeof race.Content === 'string'
+            ? race.Content
+            : JSON.stringify(race.Content);
         // Simple regex to find the first image src in the JSON string
         // Looking for "src":"https://..."
         const imgMatch = contentStr.match(/"src"\s*:\s*"([^"]+)"/);
@@ -100,7 +114,7 @@ export class ModelScopeScraper extends EnhancedScraper {
       }
     }
 
-      // Map status
+    // Map status
     let status: 'active' | 'upcoming' | 'ended' | 'cancelled' = 'active';
     if (race.Status === 1) {
       status = 'active';
@@ -116,7 +130,11 @@ export class ModelScopeScraper extends EnhancedScraper {
     // Extract rich description from Content
     let fullDescription = this.cleanText(race.Brief || '');
     if (race.Content) {
-      const contentText = this.parseContentText(typeof race.Content === 'string' ? race.Content : JSON.stringify(race.Content));
+      const contentText = this.parseContentText(
+        typeof race.Content === 'string'
+          ? race.Content
+          : JSON.stringify(race.Content)
+      );
       if (contentText.length > fullDescription.length) {
         fullDescription = `${fullDescription}\n\n${contentText}`;
       }
@@ -124,7 +142,11 @@ export class ModelScopeScraper extends EnhancedScraper {
 
     // Extract Organizer info
     let organizerName = '';
-    if (race.OrganizerInfo && Array.isArray(race.OrganizerInfo) && race.OrganizerInfo.length > 0) {
+    if (
+      race.OrganizerInfo &&
+      Array.isArray(race.OrganizerInfo) &&
+      race.OrganizerInfo.length > 0
+    ) {
       organizerName = race.OrganizerInfo.map((o: any) => o.Name).join(', ');
     }
 
@@ -144,8 +166,8 @@ export class ModelScopeScraper extends EnhancedScraper {
         tags: race.CategoryCn ? [race.CategoryCn] : [],
         status: race.Status, // Keep original status in metadata
         imageUrl,
-        organizer: organizerName
-      }
+        organizer: organizerName,
+      },
     };
   }
 
@@ -160,7 +182,7 @@ export class ModelScopeScraper extends EnhancedScraper {
       let text = '';
       for (const section of content) {
         if (section.content) {
-            text += `${this.extractTextFromNode(section.content)}\n`;
+          text += `${this.extractTextFromNode(section.content)}\n`;
         }
       }
       return text.trim();
@@ -176,12 +198,12 @@ export class ModelScopeScraper extends EnhancedScraper {
   private extractTextFromNode(node: any): string {
     if (typeof node === 'string') return node;
     if (!Array.isArray(node)) return '';
-    
+
     // node is [tag, attrs, child1, child2...]
     // children start at index 2
     let text = '';
     for (let i = 2; i < node.length; i++) {
-        text += this.extractTextFromNode(node[i]);
+      text += this.extractTextFromNode(node[i]);
     }
     return text;
   }
@@ -753,7 +775,9 @@ export class ModelScopeScraper extends EnhancedScraper {
         await page.waitForSelector('.slick-slider', { timeout: 10000 });
         logger.info('Carousel loaded, starting navigation');
       } catch (e) {
-        logger.warn('Carousel selector not found, attempting fallback to simple page content');
+        logger.warn(
+          'Carousel selector not found, attempting fallback to simple page content'
+        );
         return { html: await page.content(), links: [] };
       }
 
@@ -786,7 +810,7 @@ export class ModelScopeScraper extends EnhancedScraper {
           }
 
           // Wait for carousel transition to complete
-          await new Promise(r => setTimeout(r, 1000));
+          await new Promise((r) => setTimeout(r, 1000));
 
           // Collect anchors within the active slide
           const linksInSlide: string[] = await page.evaluate(() => {
@@ -817,7 +841,7 @@ export class ModelScopeScraper extends EnhancedScraper {
             return out;
           });
 
-          linksInSlide.forEach(l => {
+          linksInSlide.forEach((l) => {
             if (l && l.includes('/competition/')) collectedLinks.add(l);
           });
 

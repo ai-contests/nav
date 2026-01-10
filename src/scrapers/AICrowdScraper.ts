@@ -35,7 +35,7 @@ export class AICrowdScraper extends EnhancedScraper {
       );
 
       const contests = this.parseAICrowdContests(html);
-      const validContests = contests.filter(contest =>
+      const validContests = contests.filter((contest) =>
         this.validateContest(contest)
       );
 
@@ -70,10 +70,12 @@ export class AICrowdScraper extends EnhancedScraper {
         const $card = $(element);
 
         // Extract title and URL from card-title link
-        const titleLink = $card.find('.card-title a, a.card-img-overlay').first();
-        const title = titleLink.text().trim() || 
-                      $card.find('.card-title').text().trim();
-        
+        const titleLink = $card
+          .find('.card-title a, a.card-img-overlay')
+          .first();
+        const title =
+          titleLink.text().trim() || $card.find('.card-title').text().trim();
+
         let url = titleLink.attr('href') || '';
         if (url && !url.startsWith('http')) {
           url = `https://www.aicrowd.com${url}`;
@@ -86,9 +88,10 @@ export class AICrowdScraper extends EnhancedScraper {
         cleanTitle = cleanTitle.replace(/^:\s*/, ''); // Remove leading colons
         cleanTitle = cleanTitle.replace(/Track \d+:/i, ''); // Optional: remove "Track X:"
 
-        
         // Extract deadline/status from badge
-        const statusBadge = $card.find('.badge, .card-img-overlay span').first();
+        const statusBadge = $card
+          .find('.badge, .card-img-overlay span')
+          .first();
         const statusText = statusBadge.text().trim();
 
         // Extract description
@@ -96,7 +99,9 @@ export class AICrowdScraper extends EnhancedScraper {
 
         // Extract prize from card body text
         const cardBodyText = $card.find('.card-body').text();
-        const prizeMatch = cardBodyText.match(/(\$[\d,]+|USD\s*[\d,]+|[\d,]+\s*USD)/i);
+        const prizeMatch = cardBodyText.match(
+          /(\$[\d,]+|USD\s*[\d,]+|[\d,]+\s*USD)/i
+        );
         const prize = prizeMatch ? prizeMatch[0] : 'TBD';
 
         // Extract image
@@ -104,12 +109,16 @@ export class AICrowdScraper extends EnhancedScraper {
 
         // Parse status
         let status: 'active' | 'upcoming' | 'ended' = 'active';
-        if (statusText.toLowerCase().includes('completed') || 
-            statusText.toLowerCase().includes('ended')) {
+        if (
+          statusText.toLowerCase().includes('completed') ||
+          statusText.toLowerCase().includes('ended')
+        ) {
           status = 'ended';
-        } else if (statusText.toLowerCase().includes('coming') ||
-                   statusText.toLowerCase().includes('starting') ||
-                   statusText.toLowerCase().includes('soon')) {
+        } else if (
+          statusText.toLowerCase().includes('coming') ||
+          statusText.toLowerCase().includes('starting') ||
+          statusText.toLowerCase().includes('soon')
+        ) {
           status = 'upcoming';
         }
 
@@ -122,11 +131,11 @@ export class AICrowdScraper extends EnhancedScraper {
           deadlineDate.setDate(deadlineDate.getDate() + daysLeft);
           deadline = deadlineDate.toISOString();
         } else if (status === 'upcoming') {
-           // For upcoming contests without specific date, leave deadline undefined
-           // UI should handle this as "TBA"
+          // For upcoming contests without specific date, leave deadline undefined
+          // UI should handle this as "TBA"
         }
 
-          if (cleanTitle && url) {
+        if (cleanTitle && url) {
           contests.push({
             title: cleanTitle.trim(),
             url,
@@ -165,7 +174,7 @@ export class AICrowdScraper extends EnhancedScraper {
     // Process in chunks
     for (let i = 0; i < contests.length; i += CONCURRENCY_LIMIT) {
       const chunk = contests.slice(i, i + CONCURRENCY_LIMIT);
-      
+
       const chunkResults = await Promise.all(
         chunk.map(async (contest) => {
           if (!contest.url) return contest;
@@ -173,9 +182,9 @@ export class AICrowdScraper extends EnhancedScraper {
           try {
             await this.applyDelay(); // Minor delay to stagger starts
 
-            // Note: Parallel puppeteer tabs might be heavy. 
+            // Note: Parallel puppeteer tabs might be heavy.
             // Ensure configureBrowser matches this usage or rely on single-page reuse logic.
-            // EnhancedScraper uses a single singleton page usually? 
+            // EnhancedScraper uses a single singleton page usually?
             // If fetchHtmlWithPuppeteer uses `this.browser.newPage()`, it's fine.
             // Let's assume fetchHtmlWithPuppeteer handles page creation/closing.
 
@@ -191,56 +200,70 @@ export class AICrowdScraper extends EnhancedScraper {
 
             // 1. Better Title Extraction (Detail Page often has the real H1)
             // Use strict text extraction to avoid concatenated child text
-            let detailTitle = $('h1').first().contents()
-                .filter((_, el) => el.type === 'text')
-                .text().trim();
-            
+            let detailTitle = $('h1')
+              .first()
+              .contents()
+              .filter((_, el) => el.type === 'text')
+              .text()
+              .trim();
+
             // Fallback: if text node extraction failed, try standard text() but clean known suffixes
             if (!detailTitle) {
-                 detailTitle = $('h1').first().text().trim();
+              detailTitle = $('h1').first().text().trim();
             }
 
-            if (detailTitle && 
-                !detailTitle.toLowerCase().includes('round') && 
-                !detailTitle.toLowerCase().includes('phase') &&
-                detailTitle.length > 5) {
-                // Heuristic: If title is super long, it might still have junk. 
-                // AICrowd titles are usually < 100 chars.
-                if (detailTitle.length < 150) {
-                     contest.title = detailTitle;
-                }
+            if (
+              detailTitle &&
+              !detailTitle.toLowerCase().includes('round') &&
+              !detailTitle.toLowerCase().includes('phase') &&
+              detailTitle.length > 5
+            ) {
+              // Heuristic: If title is super long, it might still have junk.
+              // AICrowd titles are usually < 100 chars.
+              if (detailTitle.length < 150) {
+                contest.title = detailTitle;
+              }
             }
 
             // 2. Full Description Extraction
             // AICrowd often uses these classes for the main content
-            let fullDescription = 
-              $('.challenge-description, .prose, .markdown-body, article')
-                .first()
-                .text()
-                // Replace multiple newlines/spaces
-                .replace(/\s+/g, ' ')
-                .trim();
-            
+            let fullDescription = $(
+              '.challenge-description, .prose, .markdown-body, article'
+            )
+              .first()
+              .text()
+              // Replace multiple newlines/spaces
+              .replace(/\s+/g, ' ')
+              .trim();
+
             // Clean Description: Remove Title repeat at start
             if (contest.title && fullDescription.startsWith(contest.title)) {
-                fullDescription = fullDescription.substring(contest.title.length).trim();
+              fullDescription = fullDescription
+                .substring(contest.title.length)
+                .trim();
             }
             // Remove common duplicate subtitles often found in AICrowd intro
             // e.g. "Global Chess Challenge 2025 Train LLMs..." -> "Train LLMs..."
             // We can try to split by newline if we preserved them, but since we flattened, use simple heuristic?
             // Actually, let's capture description WITH newlines preserved for better formatting
-            const descriptionWithNewlines = $('.challenge-description, .prose, .markdown-body, article')
-                .first()
-                .text()
-                .trim();
-                
-             if (descriptionWithNewlines && descriptionWithNewlines.length > (contest.description?.length || 0)) {
-                let cleanDesc = descriptionWithNewlines;
-                // aggressive start cleanup
-                 if (contest.title && cleanDesc.startsWith(contest.title)) {
-                    cleanDesc = cleanDesc.substring(contest.title.length).trim();
-                }
-                contest.description = cleanDesc;
+            const descriptionWithNewlines = $(
+              '.challenge-description, .prose, .markdown-body, article'
+            )
+              .first()
+              .text()
+              .trim();
+
+            if (
+              descriptionWithNewlines &&
+              descriptionWithNewlines.length >
+                (contest.description?.length || 0)
+            ) {
+              let cleanDesc = descriptionWithNewlines;
+              // aggressive start cleanup
+              if (contest.title && cleanDesc.startsWith(contest.title)) {
+                cleanDesc = cleanDesc.substring(contest.title.length).trim();
+              }
+              contest.description = cleanDesc;
             }
 
             // Extract high-res image from meta tags (og:image)
@@ -260,23 +283,25 @@ export class AICrowdScraper extends EnhancedScraper {
 
             // 3. Smart Tag Extraction & Filtering
             const tags: string[] = [];
-            $('.badge, .tag, [class*="badge"], [class*="label"]').each((_i, el) => {
-              const tagText = $(el).text().trim();
-              if (tagText && tagText.length < 40) {
-                 // Filter out junk
-                 const lower = tagText.toLowerCase();
-                 if (
-                     lower.includes('round') || 
-                     lower.includes('days left') || 
-                     lower.includes('completed') || 
-                     lower.includes('starting soon') ||
-                     lower.match(/^\d{4}$/) // Remove just "2025" or similar
-                 ) {
-                     return;
-                 }
-                 if (!tags.includes(tagText)) tags.push(tagText);
+            $('.badge, .tag, [class*="badge"], [class*="label"]').each(
+              (_i, el) => {
+                const tagText = $(el).text().trim();
+                if (tagText && tagText.length < 40) {
+                  // Filter out junk
+                  const lower = tagText.toLowerCase();
+                  if (
+                    lower.includes('round') ||
+                    lower.includes('days left') ||
+                    lower.includes('completed') ||
+                    lower.includes('starting soon') ||
+                    lower.match(/^\d{4}$/) // Remove just "2025" or similar
+                  ) {
+                    return;
+                  }
+                  if (!tags.includes(tagText)) tags.push(tagText);
+                }
               }
-            });
+            );
             if (tags.length > 0) {
               contest.metadata.tags = tags.slice(0, 10);
             }
@@ -284,12 +309,14 @@ export class AICrowdScraper extends EnhancedScraper {
             logger.debug(`Enriched contest: ${contest.title}`);
             return contest;
           } catch (error) {
-            logger.warn(`Failed to enrich contest: ${contest.title}`, { error });
+            logger.warn(`Failed to enrich contest: ${contest.title}`, {
+              error,
+            });
             return contest;
           }
         })
       );
-      
+
       enrichedContests.push(...chunkResults);
     }
 

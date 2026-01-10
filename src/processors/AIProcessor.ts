@@ -3,12 +3,17 @@
  * Handles AI-powered content analysis and enhancement
  */
 
-import { AIProcessorConfig, AIProcessResult, RawContest, ProcessedContest } from '../types';
+import {
+  AIProcessorConfig,
+  AIProcessResult,
+  RawContest,
+  ProcessedContest,
+} from '../types';
 import { logger } from '../utils/logger';
 import { generateId } from '../utils';
 
-import ModelClient, { isUnexpected } from "@azure-rest/ai-inference";
-import { AzureKeyCredential } from "@azure/core-auth";
+import ModelClient, { isUnexpected } from '@azure-rest/ai-inference';
+import { AzureKeyCredential } from '@azure/core-auth';
 
 export class AIProcessor {
   private config: AIProcessorConfig;
@@ -76,7 +81,10 @@ export class AIProcessor {
       // Create processed contest
       const processed: ProcessedContest = {
         // Generate deterministic ID based on platform and URL/Title to prevent duplicates/changes
-        id: generateId('c', `${rawContest.platform}_${rawContest.url || rawContest.title || ''}`),
+        id: generateId(
+          'c',
+          `${rawContest.platform}_${rawContest.url || rawContest.title || ''}`
+        ),
         title: rawContest.title || 'Untitled Contest',
         platform: rawContest.platform,
         url: rawContest.url || '',
@@ -88,9 +96,10 @@ export class AIProcessor {
 
         // Classification
         contestType: this.mapContestType(aiResult.contestType),
-        status: (this.mapStatus(rawContest.status) === 'active' && !rawContest.deadline) 
-                ? 'ended' 
-                : this.mapStatus(rawContest.status),
+        status:
+          this.mapStatus(rawContest.status) === 'active' && !rawContest.deadline
+            ? 'ended'
+            : this.mapStatus(rawContest.status),
         difficulty: this.mapDifficulty(aiResult.difficulty),
 
         // Timing and rewards
@@ -98,10 +107,14 @@ export class AIProcessor {
         prize: rawContest.prize,
 
         // Enhanced information
-        tags: this.refineTags(Array.from(new Set([
-            ...(rawContest.metadata?.tags as string[] || []), 
-            ...aiResult.tags
-        ]))),
+        tags: this.refineTags(
+          Array.from(
+            new Set([
+              ...((rawContest.metadata?.tags as string[]) || []),
+              ...aiResult.tags,
+            ])
+          )
+        ),
         aiTools: aiResult.aiTools,
         requirements: this.extractRequirements(rawContest.description || ''),
 
@@ -130,35 +143,40 @@ export class AIProcessor {
       const prompt = this.buildAnalysisPrompt(contest);
 
       // Use Github Models endpoint
-      const endpoint = this.config.apiEndpoint || 'https://models.github.ai/inference';
-      const modelName = this.config.modelName || 'ai21-labs/AI21-Jamba-1.5-Large';
-      const apiKey = this.config.apiKey || process.env.GITHUB_TOKEN || process.env.OPENAI_API_KEY;
+      const endpoint =
+        this.config.apiEndpoint || 'https://models.github.ai/inference';
+      const modelName =
+        this.config.modelName || 'ai21-labs/AI21-Jamba-1.5-Large';
+      const apiKey =
+        this.config.apiKey ||
+        process.env.GITHUB_TOKEN ||
+        process.env.OPENAI_API_KEY;
 
       if (!apiKey) {
-        throw new Error('API key is missing. Please set GITHUB_TOKEN or OPENAI_API_KEY for GitHub Models.');
+        throw new Error(
+          'API key is missing. Please set GITHUB_TOKEN or OPENAI_API_KEY for GitHub Models.'
+        );
       }
 
-      const client = ModelClient(
-        endpoint,
-        new AzureKeyCredential(apiKey)
-      );
+      const client = ModelClient(endpoint, new AzureKeyCredential(apiKey));
 
-      const response = await client.path("/chat/completions").post({
+      const response = await client.path('/chat/completions').post({
         body: {
           messages: [
             {
-              role: "system",
-              content: "You are an AI contest analysis expert. Analyze contest information and provide structured output in JSON format."
+              role: 'system',
+              content:
+                'You are an AI contest analysis expert. Analyze contest information and provide structured output in JSON format.',
             },
             {
-              role: "user",
-              content: prompt
-            }
+              role: 'user',
+              content: prompt,
+            },
           ],
           model: modelName,
           max_tokens: this.config.maxTokens || 1000,
-          temperature: 0.1
-        }
+          temperature: 0.1,
+        },
       });
 
       if (isUnexpected(response)) {
@@ -168,7 +186,6 @@ export class AIProcessor {
       // Parse the AI response
       const content = response.body.choices[0].message.content || '';
       return this.parseAIResponse(content);
-
     } catch (error) {
       logger.warn('AI analysis failed, using fallback analysis', { error });
       return this.getFallbackAnalysis(contest);
@@ -326,7 +343,7 @@ Respond with valid JSON only.
       'llm',
     ];
 
-    tagKeywords.forEach(keyword => {
+    tagKeywords.forEach((keyword) => {
       if (content.includes(keyword.toLowerCase())) {
         tags.push(keyword);
       }
@@ -415,8 +432,8 @@ Respond with valid JSON only.
         // Split by common delimiters
         const reqs = match[1]
           .split(/[,;，；\n]/)
-          .map(req => req.trim())
-          .filter(req => req.length > 0 && req.length < 100);
+          .map((req) => req.trim())
+          .filter((req) => req.length > 0 && req.length < 100);
 
         requirements.push(...reqs);
         break; // Only use first match
@@ -462,7 +479,7 @@ Respond with valid JSON only.
    * Add delay between requests
    */
   private async delay(ms: number): Promise<void> {
-    return new Promise(resolve => setTimeout(resolve, ms));
+    return new Promise((resolve) => setTimeout(resolve, ms));
   }
 
   /**
@@ -492,42 +509,65 @@ Respond with valid JSON only.
   private refineTags(tags: string[]): string[] {
     // 1. Split compound tags (e.g., "Machine Learning/AI" -> ["Machine Learning", "AI"])
     const splitTags: string[] = [];
-    tags.forEach(tag => {
+    tags.forEach((tag) => {
       if (tag.includes('/')) {
-        splitTags.push(...tag.split('/').map(t => t.trim()));
+        splitTags.push(...tag.split('/').map((t) => t.trim()));
       } else {
         splitTags.push(tag);
       }
     });
-    
+
     // 2. Deduplicate (case-insensitive)
-    const uniqueTags = Array.from(new Set(splitTags.map(t => t.toLowerCase())))
-        .map(lower => splitTags.find(t => t.toLowerCase() === lower) || '')
-        .filter(t => t !== '');
-    
+    const uniqueTags = Array.from(
+      new Set(splitTags.map((t) => t.toLowerCase()))
+    )
+      .map((lower) => splitTags.find((t) => t.toLowerCase() === lower) || '')
+      .filter((t) => t !== '');
+
     // 3. Define generic and specific tags
-    const genericTags = ['ai', 'artificial intelligence', 'machine learning', 'ml', 'deep learning', 'dl'];
-    const specificTags = uniqueTags.filter(t => !genericTags.includes(t.toLowerCase()));
-    
+    const genericTags = [
+      'ai',
+      'artificial intelligence',
+      'machine learning',
+      'ml',
+      'deep learning',
+      'dl',
+    ];
+    const specificTags = uniqueTags.filter(
+      (t) => !genericTags.includes(t.toLowerCase())
+    );
+
     // 4. If we have >= 2 specific tags, remove all generic ones
     const finalTags = specificTags.length >= 2 ? specificTags : uniqueTags;
-    
+
     // 5. Sort: Prioritize domain-specific tags (CV, NLP, LLM, etc.)
-    const domainPriority = ['computer vision', 'cv', 'nlp', 'natural language processing', 
-                           'llm', 'large language model', 'reinforcement learning', 'rl',
-                           'time series', 'recommendation', 'graph', 'audio', 'speech'];
-    
+    const domainPriority = [
+      'computer vision',
+      'cv',
+      'nlp',
+      'natural language processing',
+      'llm',
+      'large language model',
+      'reinforcement learning',
+      'rl',
+      'time series',
+      'recommendation',
+      'graph',
+      'audio',
+      'speech',
+    ];
+
     finalTags.sort((a, b) => {
       const aLower = a.toLowerCase();
       const bLower = b.toLowerCase();
-      const aPriority = domainPriority.some(d => aLower.includes(d));
-      const bPriority = domainPriority.some(d => bLower.includes(d));
-      
+      const aPriority = domainPriority.some((d) => aLower.includes(d));
+      const bPriority = domainPriority.some((d) => bLower.includes(d));
+
       if (aPriority && !bPriority) return -1;
       if (!aPriority && bPriority) return 1;
       return 0; // Maintain original order for equal priority
     });
-    
+
     return finalTags.slice(0, 8); // Limit to 8 tags
   }
 }

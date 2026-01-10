@@ -22,7 +22,7 @@ export class SourceManager {
       // Initialize with provided platform configs
       this.configPath = '';
       this.platforms = new Map();
-      configPathOrPlatforms.forEach(platform => {
+      configPathOrPlatforms.forEach((platform) => {
         this.platforms.set(platform.name, platform);
       });
     }
@@ -121,7 +121,7 @@ export class SourceManager {
    */
   listPlatforms(enabledOnly = true): PlatformConfig[] {
     const platforms = Array.from(this.platforms.values());
-    return enabledOnly ? platforms.filter(p => p.enabled) : platforms;
+    return enabledOnly ? platforms.filter((p) => p.enabled) : platforms;
   }
 
   /**
@@ -132,7 +132,7 @@ export class SourceManager {
     let platforms = this.listPlatforms(true);
 
     if (platformNames) {
-      platforms = platforms.filter(p => platformNames.includes(p.name));
+      platforms = platforms.filter((p) => platformNames.includes(p.name));
     }
 
     for (const platform of platforms) {
@@ -345,8 +345,8 @@ export class SourceManager {
    */
   getEnabledPlatforms(): string[] {
     return Array.from(this.platforms.values())
-      .filter(platform => platform.enabled)
-      .map(platform => platform.name);
+      .filter((platform) => platform.enabled)
+      .map((platform) => platform.name);
   }
 
   /**

@@ -11,11 +11,11 @@ interface SubscribeButtonProps {
   className?: string;
 }
 
-export const SubscribeButton: React.FC<SubscribeButtonProps> = ({ 
-  contestId, 
-  isSubscribed, 
-  onToggle, 
-  className = '' 
+export const SubscribeButton: React.FC<SubscribeButtonProps> = ({
+  contestId,
+  isSubscribed,
+  onToggle,
+  className = '',
 }) => {
   const { isSignedIn } = useAuth();
   const { openSignIn } = useClerk();
@@ -34,7 +34,7 @@ export const SubscribeButton: React.FC<SubscribeButtonProps> = ({
 
     try {
       const newState = !isSubscribed;
-      
+
       const method = newState ? 'POST' : 'DELETE';
       const res = await fetch('/api/subscription', {
         method,
@@ -68,11 +68,11 @@ export const SubscribeButton: React.FC<SubscribeButtonProps> = ({
       }}
       disabled={loading}
       className={`p-2 rounded-full transition-all border ${
-        isSubscribed 
-          ? 'bg-primary/20 text-primary border-primary/30 hover:bg-primary/30' 
+        isSubscribed
+          ? 'bg-primary/20 text-primary border-primary/30 hover:bg-primary/30'
           : 'bg-slate-900 text-slate-400 border-slate-700 hover:text-white hover:border-slate-500'
       } ${className}`}
-      title={isSubscribed ? "Remove bookmark" : "Bookmark contest"}
+      title={isSubscribed ? 'Remove bookmark' : 'Bookmark contest'}
     >
       {loading ? (
         <Loader2 className="w-4 h-4 animate-spin" />
@@ -82,4 +82,3 @@ export const SubscribeButton: React.FC<SubscribeButtonProps> = ({
     </button>
   );
 };
-

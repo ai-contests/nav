@@ -1,7 +1,7 @@
 /**
  * Kaggle platform scraper
  * Uses official Kaggle API to fetch competition data
- * 
+ *
  * Requires KAGGLE_USERNAME and KAGGLE_KEY environment variables
  * Get your API token from https://www.kaggle.com/settings/account -> API -> Create New Token
  */
@@ -56,7 +56,9 @@ export class KaggleScraper extends BaseScraper {
    * Get Basic Auth header for Kaggle API
    */
   private getAuthHeader(): string {
-    const credentials = Buffer.from(`${this.username}:${this.apiKey}`).toString('base64');
+    const credentials = Buffer.from(`${this.username}:${this.apiKey}`).toString(
+      'base64'
+    );
     return `Basic ${credentials}`;
   }
 
@@ -65,8 +67,12 @@ export class KaggleScraper extends BaseScraper {
    */
   async scrape(): Promise<RawContest[]> {
     if (!this.hasCredentials()) {
-      logger.warn('Kaggle API credentials not configured. Set KAGGLE_USERNAME and KAGGLE_KEY environment variables.');
-      logger.info('Get your API token from https://www.kaggle.com/settings/account -> API -> Create New Token');
+      logger.warn(
+        'Kaggle API credentials not configured. Set KAGGLE_USERNAME and KAGGLE_KEY environment variables.'
+      );
+      logger.info(
+        'Get your API token from https://www.kaggle.com/settings/account -> API -> Create New Token'
+      );
       return [];
     }
 
@@ -76,7 +82,7 @@ export class KaggleScraper extends BaseScraper {
 
     try {
       const allContests: RawContest[] = [];
-      
+
       // Fetch active competitions
       const activeContests = await this.fetchCompetitions('active');
       allContests.push(...activeContests);
@@ -84,28 +90,38 @@ export class KaggleScraper extends BaseScraper {
       // Optionally fetch featured competitions
       const featuredContests = await this.fetchCompetitions('featured');
       // Deduplicate by ref
-      const existingRefs = new Set(allContests.map(c => c.metadata?.ref));
+      const existingRefs = new Set(allContests.map((c) => c.metadata?.ref));
       for (const contest of featuredContests) {
         if (!existingRefs.has(contest.metadata?.ref)) {
           allContests.push(contest);
         }
       }
 
-      logger.info(`Successfully scraped ${allContests.length} contests from ${this.platform}`);
+      logger.info(
+        `Successfully scraped ${allContests.length} contests from ${this.platform}`
+      );
       return allContests;
-
     } catch (error) {
       if (axios.isAxiosError(error)) {
         if (error.response?.status === 401) {
-          logger.error('Kaggle API authentication failed. Check KAGGLE_USERNAME and KAGGLE_KEY.');
+          logger.error(
+            'Kaggle API authentication failed. Check KAGGLE_USERNAME and KAGGLE_KEY.'
+          );
         } else if (error.response?.status === 403) {
-          logger.error('Kaggle API access forbidden. API credentials may be invalid.');
+          logger.error(
+            'Kaggle API access forbidden. API credentials may be invalid.'
+          );
         } else {
-          logger.error(`Kaggle API error: ${error.response?.status} ${error.response?.statusText}`);
+          logger.error(
+            `Kaggle API error: ${error.response?.status} ${error.response?.statusText}`
+          );
         }
       }
       logger.error(`Failed to scrape ${this.platform}`, {
-        error: error instanceof Error ? { message: error.message, stack: error.stack } : error
+        error:
+          error instanceof Error
+            ? { message: error.message, stack: error.stack }
+            : error,
       });
       throw error;
     }
@@ -114,35 +130,43 @@ export class KaggleScraper extends BaseScraper {
   /**
    * Fetch competitions from Kaggle API
    */
-  private async fetchCompetitions(category: string = 'active'): Promise<RawContest[]> {
+  private async fetchCompetitions(
+    category: string = 'active'
+  ): Promise<RawContest[]> {
     const contests: RawContest[] = [];
     let page = 1;
     const pageSize = 20;
     let hasMore = true;
 
-    while (hasMore && page <= 5) { // Limit to 5 pages (100 competitions max)
+    while (hasMore && page <= 5) {
+      // Limit to 5 pages (100 competitions max)
       try {
-        const response = await axios.get('https://www.kaggle.com/api/v1/competitions/list', {
-          headers: {
-            'Authorization': this.getAuthHeader(),
-            'Accept': 'application/json',
-          },
-          params: {
-            category,
-            sortBy: 'latestDeadline',
-            page,
-          },
-          timeout: 30000,
-        });
+        const response = await axios.get(
+          'https://www.kaggle.com/api/v1/competitions/list',
+          {
+            headers: {
+              Authorization: this.getAuthHeader(),
+              Accept: 'application/json',
+            },
+            params: {
+              category,
+              sortBy: 'latestDeadline',
+              page,
+            },
+            timeout: 30000,
+          }
+        );
 
         const competitions: KaggleCompetition[] = response.data || [];
-        
+
         if (competitions.length === 0) {
           hasMore = false;
           break;
         }
 
-        logger.info(`Fetched page ${page}: ${competitions.length} competitions (category: ${category})`);
+        logger.info(
+          `Fetched page ${page}: ${competitions.length} competitions (category: ${category})`
+        );
 
         for (const comp of competitions) {
           contests.push(this.mapToRawContest(comp));
@@ -153,10 +177,9 @@ export class KaggleScraper extends BaseScraper {
         }
 
         page++;
-        
-        // Rate limiting
-        await new Promise(resolve => setTimeout(resolve, 500));
 
+        // Rate limiting
+        await new Promise((resolve) => setTimeout(resolve, 500));
       } catch (error) {
         logger.error(`Failed to fetch page ${page}`, { error });
         hasMore = false;
@@ -171,8 +194,8 @@ export class KaggleScraper extends BaseScraper {
    */
   private mapToRawContest(comp: KaggleCompetition): RawContest {
     // Construct full URL
-    const url = comp.url.startsWith('http') 
-      ? comp.url 
+    const url = comp.url.startsWith('http')
+      ? comp.url
       : `https://www.kaggle.com${comp.url}`;
 
     // Determine status based on deadline
@@ -188,7 +211,7 @@ export class KaggleScraper extends BaseScraper {
     }
 
     // Extract tags
-    const tags = comp.tags?.map(t => t.name) || [];
+    const tags = comp.tags?.map((t) => t.name) || [];
     if (comp.category) {
       tags.unshift(comp.category);
     }
@@ -233,4 +256,3 @@ export class KaggleScraper extends BaseScraper {
     return true;
   }
 }
-

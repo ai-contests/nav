@@ -141,7 +141,7 @@ program
     'Execution mode (full|crawl-only|process-only|generate-only)',
     'full'
   )
-  .action(async options => {
+  .action(async (options) => {
     try {
       console.log('🚀 Starting AI Contest Navigator...');
 
@@ -168,7 +168,7 @@ program
   .command('status')
   .description('Show system status and statistics')
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
-  .action(async options => {
+  .action(async (options) => {
     try {
       const config = await loadConfig(options.config);
       const pipeline = new ContestPipeline(config);
@@ -187,7 +187,7 @@ program
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
   .option('-p, --platform <platform>', 'Platform to crawl (optional)')
   .option('-n, --notify', 'Send email notification for new contests')
-  .action(async options => {
+  .action(async (options) => {
     try {
       console.log('🕷️  Starting data crawling...');
 
@@ -196,7 +196,9 @@ program
 
       // Load existing contests before crawl to detect new ones
       const previousContests = await pipeline.loadProcessedContests();
-      const previousIds = new Set(previousContests.map((c: { id: string }) => c.id));
+      const previousIds = new Set(
+        previousContests.map((c: { id: string }) => c.id)
+      );
 
       const result = await pipeline.execute('crawl-only', options.platform);
       displayResults(result);
@@ -204,14 +206,16 @@ program
       // Detect and notify new contests if --notify flag is set
       if (options.notify && result.success && result.stats.saved > 0) {
         console.log('\n📧 Checking for new contests to notify...');
-        
+
         const currentContests = await pipeline.loadProcessedContests();
-        const newContests = currentContests.filter((c: { id: string }) => !previousIds.has(c.id));
+        const newContests = currentContests.filter(
+          (c: { id: string }) => !previousIds.has(c.id)
+        );
 
         if (newContests.length > 0) {
           console.log(`   Found ${newContests.length} new contest(s)`);
           const notifyResult = await pipeline.notifyNewContests(newContests);
-          
+
           if (notifyResult.success) {
             console.log(`   ✅ ${notifyResult.message}`);
           } else {
@@ -238,7 +242,7 @@ program
   .description('Process existing raw data with AI')
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
   .option('-p, --platform <platform>', 'Platform to process (optional)')
-  .action(async options => {
+  .action(async (options) => {
     try {
       console.log('🤖 Starting AI processing...');
 
@@ -265,7 +269,7 @@ program
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
   .option('-f, --format <format>', 'Export format (json|csv)', 'json')
   .option('-p, --platform <platform>', 'Platform to export (optional)')
-  .action(async options => {
+  .action(async (options) => {
     try {
       console.log(
         `📤 Exporting data in ${options.format.toUpperCase()} format...`
@@ -293,7 +297,7 @@ program
   .description('Clean up old data files')
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
   .option('-d, --days <days>', 'Days to keep (default: 30)', '30')
-  .action(async options => {
+  .action(async (options) => {
     try {
       console.log(`🧹 Cleaning up data older than ${options.days} days...`);
 
@@ -315,10 +319,16 @@ program
   .command('archive')
   .description('Archive ended contests older than specified days')
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
-  .option('-d, --days <days>', 'Days threshold for archiving ended contests (default: 30)', '30')
-  .action(async options => {
+  .option(
+    '-d, --days <days>',
+    'Days threshold for archiving ended contests (default: 30)',
+    '30'
+  )
+  .action(async (options) => {
     try {
-      console.log(`📦 Archiving ended contests older than ${options.days} days...`);
+      console.log(
+        `📦 Archiving ended contests older than ${options.days} days...`
+      );
 
       const config = await loadConfig(options.config);
       const pipeline = new ContestPipeline(config);
@@ -346,7 +356,7 @@ program
   .description('Send notification about new contests')
   .option('-c, --config <path>', 'Configuration file path', 'config/app.json')
   .option('-t, --test', 'Send a test email to verify configuration')
-  .action(async options => {
+  .action(async (options) => {
     try {
       const config = await loadConfig(options.config);
       const pipeline = new ContestPipeline(config);
@@ -364,10 +374,12 @@ program
 
       // Show notification configuration status
       console.log('📧 Notification Configuration Status:');
-      
+
       if (!config.notifications?.enabled) {
         console.log('⚠️  Notifications are disabled in config.');
-        console.log('   To enable, set notifications.enabled = true in config/app.json');
+        console.log(
+          '   To enable, set notifications.enabled = true in config/app.json'
+        );
         console.log('   and provide your Resend API key.');
       } else {
         console.log('✅ Notifications are enabled.');
@@ -382,8 +394,6 @@ program
       process.exit(1);
     }
   });
-
-
 
 // Parse command line arguments
 program.parse();

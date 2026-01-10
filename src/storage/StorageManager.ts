@@ -194,16 +194,18 @@ export class StorageManager {
       } else {
         // Load all latest raw data, optionally filtered by platform
         const rawDir = path.join(this.config.dataDir, 'raw');
-        
+
         if (!(await fs.pathExists(rawDir))) {
-            return [];
+          return [];
         }
 
         const files = await fs.readdir(rawDir);
-        let latestFiles = files.filter(file => file.endsWith('-latest.json'));
+        let latestFiles = files.filter((file) => file.endsWith('-latest.json'));
 
         if (platform) {
-            latestFiles = latestFiles.filter(file => file.startsWith(`${platform}-`));
+          latestFiles = latestFiles.filter((file) =>
+            file.startsWith(`${platform}-`)
+          );
         }
 
         const allContests: RawContest[] = [];
@@ -211,10 +213,10 @@ export class StorageManager {
           try {
             const data = await fs.readJson(path.join(rawDir, file));
             if (data.contests && Array.isArray(data.contests)) {
-                allContests.push(...data.contests);
+              allContests.push(...data.contests);
             }
           } catch (e) {
-             logger.warn(`Failed to read raw file ${file}`, {error: e});
+            logger.warn(`Failed to read raw file ${file}`, { error: e });
           }
         }
         return allContests;
@@ -311,7 +313,7 @@ export class StorageManager {
       if (files.length > this.config.backupCount) {
         // Sort by creation time and remove oldest
         const fileStats = await Promise.all(
-          files.map(async file => {
+          files.map(async (file) => {
             const filePath = path.join(backupDir, file);
             const stats = await fs.stat(filePath);
             return { file, mtime: stats.mtime };
@@ -357,7 +359,7 @@ export class StorageManager {
 
         // Extract platforms from filenames
         const platforms = new Set<string>();
-        rawFiles.forEach(file => {
+        rawFiles.forEach((file) => {
           const match = file.match(
             /^(.+?)-(?:latest|\d{4}-\d{2}-\d{2})\.json$/
           );
@@ -433,7 +435,7 @@ export class StorageManager {
       const csvHeader =
         'Title,Platform,URL,Status,Deadline,Prize,Description\n';
       const csvRows = contests
-        .map(contest =>
+        .map((contest) =>
           [
             `"${(contest.title || '').replace(/"/g, '""')}"`,
             `"${contest.platform}"`,
@@ -493,10 +495,10 @@ export class StorageManager {
   async archiveEndedContests(archiveDays = 30): Promise<StorageResult> {
     try {
       const archiveDir = path.join(this.config.dataDir, 'archive');
-      
+
       // Load all processed contests
       const allContests = await this.loadProcessedContests();
-      
+
       if (allContests.length === 0) {
         return {
           success: true,
@@ -514,11 +516,11 @@ export class StorageManager {
       const contestsToArchive: ProcessedContest[] = [];
 
       for (const contest of allContests) {
-        const shouldArchive = 
+        const shouldArchive =
           contest.status === 'ended' &&
           contest.deadline &&
           new Date(contest.deadline) < cutoffDate;
-        
+
         if (shouldArchive) {
           contestsToArchive.push(contest);
         } else {
@@ -538,7 +540,7 @@ export class StorageManager {
       // Load existing archive or create new
       const archiveFilename = `archive-${now.toISOString().split('T')[0]}.json`;
       const archiveFilePath = path.join(archiveDir, archiveFilename);
-      
+
       let existingArchive: ProcessedContest[] = [];
       if (await fs.pathExists(archiveFilePath)) {
         const archiveData = await fs.readJson(archiveFilePath);
@@ -546,8 +548,10 @@ export class StorageManager {
       }
 
       // Merge with existing archive (avoid duplicates by ID)
-      const existingIds = new Set(existingArchive.map(c => c.id));
-      const newArchiveEntries = contestsToArchive.filter(c => !existingIds.has(c.id));
+      const existingIds = new Set(existingArchive.map((c) => c.id));
+      const newArchiveEntries = contestsToArchive.filter(
+        (c) => !existingIds.has(c.id)
+      );
       const mergedArchive = [...existingArchive, ...newArchiveEntries];
 
       // Save updated archive
@@ -592,7 +596,7 @@ export class StorageManager {
   async loadArchivedContests(date?: string): Promise<ProcessedContest[]> {
     try {
       const archiveDir = path.join(this.config.dataDir, 'archive');
-      
+
       if (!(await fs.pathExists(archiveDir))) {
         return [];
       }
@@ -608,8 +612,10 @@ export class StorageManager {
 
       // Load all archives
       const files = await fs.readdir(archiveDir);
-      const archiveFiles = files.filter(f => f.startsWith('archive-') && f.endsWith('.json'));
-      
+      const archiveFiles = files.filter(
+        (f) => f.startsWith('archive-') && f.endsWith('.json')
+      );
+
       const allArchived: ProcessedContest[] = [];
       for (const file of archiveFiles) {
         try {

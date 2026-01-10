@@ -1,4 +1,3 @@
-
 import 'dotenv/config';
 import fs from 'fs-extra';
 import path from 'path';
@@ -9,7 +8,10 @@ import { AppConfig } from '../types';
 
 // Configuration
 const CONFIG_PATH = 'config/app.json';
-const TEMPLATE_PATH = path.join(process.cwd(), 'src/templates/daily-summary.html');
+const TEMPLATE_PATH = path.join(
+  process.cwd(),
+  'src/templates/daily-summary.html'
+);
 
 // Interfaces
 interface Subscription {
@@ -56,7 +58,7 @@ async function loadContestMap(): Promise<Map<string, ContestData>> {
             status: c.status,
             summary: c.summary,
             url: c.url,
-            scrapedAt: c.scrapedAt || new Date().toISOString()
+            scrapedAt: c.scrapedAt || new Date().toISOString(),
           });
         });
       }
@@ -91,9 +93,12 @@ async function main() {
 
   // 1. Validate Env Vars
   if (!process.env.RESEND_API_KEY) throw new Error('Missing RESEND_API_KEY');
-  if (!process.env.NEXT_PUBLIC_SUPABASE_URL) throw new Error('Missing NEXT_PUBLIC_SUPABASE_URL');
-  if (!process.env.SUPABASE_SERVICE_ROLE_KEY) throw new Error('Missing SUPABASE_SERVICE_ROLE_KEY');
-  if (!process.env.CLERK_SECRET_KEY) throw new Error('Missing CLERK_SECRET_KEY');
+  if (!process.env.NEXT_PUBLIC_SUPABASE_URL)
+    throw new Error('Missing NEXT_PUBLIC_SUPABASE_URL');
+  if (!process.env.SUPABASE_SERVICE_ROLE_KEY)
+    throw new Error('Missing SUPABASE_SERVICE_ROLE_KEY');
+  if (!process.env.CLERK_SECRET_KEY)
+    throw new Error('Missing CLERK_SECRET_KEY');
 
   const config = await loadConfig();
 
@@ -113,7 +118,7 @@ async function main() {
   if (error || !subscriptions) {
     throw new Error(`Failed to fetch subscriptions: ${error?.message}`);
   }
-  
+
   if (subscriptions.length === 0) {
     console.log('No subscriptions found. Exiting.');
     return;
@@ -135,16 +140,19 @@ async function main() {
 
   // 6. Identify Latest Contests (Top 5 newly scraped, not ended)
   const latestContests = allContests
-    .filter(c => c.status.toLowerCase() === 'active')
-    .sort((a, b) => new Date(b.scrapedAt).getTime() - new Date(a.scrapedAt).getTime());
+    .filter((c) => c.status.toLowerCase() === 'active')
+    .sort(
+      (a, b) =>
+        new Date(b.scrapedAt).getTime() - new Date(a.scrapedAt).getTime()
+    );
 
   // 7. Load Template
   let template = '';
   try {
-     template = await fs.readFile(TEMPLATE_PATH, 'utf-8');
+    template = await fs.readFile(TEMPLATE_PATH, 'utf-8');
   } catch (e) {
-     console.error('Template file not found at', TEMPLATE_PATH);
-     process.exit(1);
+    console.error('Template file not found at', TEMPLATE_PATH);
+    process.exit(1);
   }
 
   // 8. Helper to Render Contest HTML
@@ -169,7 +177,11 @@ async function main() {
       let email = '';
       try {
         const user = await clerk.users.getUser(userId);
-        email = user.emailAddresses.find(e => e.id === user.primaryEmailAddressId)?.emailAddress || user.emailAddresses[0]?.emailAddress || '';
+        email =
+          user.emailAddresses.find((e) => e.id === user.primaryEmailAddressId)
+            ?.emailAddress ||
+          user.emailAddresses[0]?.emailAddress ||
+          '';
       } catch (e) {
         console.error(`Failed to fetch user ${userId} from Clerk`, e);
         continue;
@@ -182,12 +194,14 @@ async function main() {
 
       // Filter and Sort Subscribed Contests
       const userContests = contestIds
-        .map(id => contestMap.get(id))
-        .filter(c => c !== undefined && c.status.toLowerCase() === 'active')
+        .map((id) => contestMap.get(id))
+        .filter((c) => c !== undefined && c.status.toLowerCase() === 'active')
         .sort((a, b) => {
-            if (!a?.deadline) return 1;
-            if (!b?.deadline) return -1;
-            return new Date(a.deadline).getTime() - new Date(b.deadline).getTime();
+          if (!a?.deadline) return 1;
+          if (!b?.deadline) return -1;
+          return (
+            new Date(a.deadline).getTime() - new Date(b.deadline).getTime()
+          );
         })
         .slice(0, 5); // Strictly Limit to 5
 
@@ -195,20 +209,42 @@ async function main() {
       // Exclude ones the user is already subscribed to for "Discovery"
       const subIds = new Set(contestIds);
       const discoveries = latestContests
-        .filter(c => !subIds.has(c.id))
+        .filter((c) => !subIds.has(c.id))
         .slice(0, 5);
 
       if (userContests.length === 0 && discoveries.length === 0) continue;
 
       // Replace Placeholders
       const emailHtml = template
-        .replace('{{date}}', new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }))
-        .replace('{{subscriptionList}}', userContests.length > 0 ? userContests.map(c => renderContestHtml(c as ContestData)).join('') : '<p style="color: #666; font-size: 14px;">No active subscriptions. Try exploring new challenges below!</p>')
-        .replace('{{latestList}}', discoveries.length > 0 ? discoveries.map(c => renderContestHtml(c)).join('') : '<p style="color: #666; font-size: 14px;">No new contests discovered today. Check back tomorrow!</p>');
+        .replace(
+          '{{date}}',
+          new Date().toLocaleDateString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+          })
+        )
+        .replace(
+          '{{subscriptionList}}',
+          userContests.length > 0
+            ? userContests
+                .map((c) => renderContestHtml(c as ContestData))
+                .join('')
+            : '<p style="color: #666; font-size: 14px;">No active subscriptions. Try exploring new challenges below!</p>'
+        )
+        .replace(
+          '{{latestList}}',
+          discoveries.length > 0
+            ? discoveries.map((c) => renderContestHtml(c)).join('')
+            : '<p style="color: #666; font-size: 14px;">No new contests discovered today. Check back tomorrow!</p>'
+        );
 
       // Send Email
       const { error: sendError } = await resend.emails.send({
-        from: config.notifications?.fromEmail || 'AI Contest Navigator <notify@emoai.co.uk>',
+        from:
+          config.notifications?.fromEmail ||
+          'AI Contest Navigator <notify@emoai.co.uk>',
         to: email,
         subject: `📅 Daily Brief: ${userContests.length} Subscriptions & ${discoveries.length} New Challenges`,
         html: emailHtml,
@@ -217,9 +253,10 @@ async function main() {
       if (sendError) {
         console.error(`Failed to send email to ${email}`, sendError);
       } else {
-        console.log(`✅ Sent summary to ${email} (${userContests.length} subs, ${discoveries.length} new)`);
+        console.log(
+          `✅ Sent summary to ${email} (${userContests.length} subs, ${discoveries.length} new)`
+        );
       }
-
     } catch (err) {
       console.error(`Error processing user ${userId}`, err);
     }

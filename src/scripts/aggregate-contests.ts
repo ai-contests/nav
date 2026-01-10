@@ -17,7 +17,11 @@ function asArray(v: unknown): unknown[] {
 }
 
 function normalizeContest(c: RawContest) {
-  const id = asString(c.id) || asString(c.url) || asString(c.originalUrl) || `${asStringLower(c.platform)}-${Math.random().toString(36).slice(2, 9)}`;
+  const id =
+    asString(c.id) ||
+    asString(c.url) ||
+    asString(c.originalUrl) ||
+    `${asStringLower(c.platform)}-${Math.random().toString(36).slice(2, 9)}`;
   const title = asString(c.title) || asString(c.name) || 'Untitled contest';
   const platform = asStringLower(c.platform || (c.source as unknown));
   const status = asString(c.status) || 'active';
@@ -25,11 +29,22 @@ function normalizeContest(c: RawContest) {
   const startDate = asString(c.startDate) || null;
   const endDate = asString(c.endDate) || asString(c.deadline) || null;
   const prize = asString(c.prize) || null;
-  const tagsSrc = (c.tags !== undefined) ? c.tags : ((c.metadata as { tags?: unknown } | undefined)?.tags ?? undefined);
-  const tags = asArray(tagsSrc as unknown).map(t => asString(t) || '').filter(Boolean);
+  const tagsSrc =
+    c.tags !== undefined
+      ? c.tags
+      : ((c.metadata as { tags?: unknown } | undefined)?.tags ?? undefined);
+  const tags = asArray(tagsSrc as unknown)
+    .map((t) => asString(t) || '')
+    .filter(Boolean);
   const url = asString(c.url) || asString(c.originalUrl) || null;
-  const qualityScore = typeof c.qualityScore === 'number' ? c.qualityScore : (typeof c.quality === 'number' ? c.quality : null);
-  const lastUpdated = asString(c.lastUpdated) || asString(c.processedAt) || null;
+  const qualityScore =
+    typeof c.qualityScore === 'number'
+      ? c.qualityScore
+      : typeof c.quality === 'number'
+        ? c.quality
+        : null;
+  const lastUpdated =
+    asString(c.lastUpdated) || asString(c.processedAt) || null;
 
   return {
     id,
@@ -52,12 +67,12 @@ async function aggregate() {
   const processedDir = path.join(process.cwd(), 'data', 'processed');
   await fs.ensureDir(processedDir);
 
-  if (!await fs.pathExists(rawDir)) {
+  if (!(await fs.pathExists(rawDir))) {
     console.error('no raw data directory:', rawDir);
     process.exit(1);
   }
 
-  const files = (await fs.readdir(rawDir)).filter(f => f.endsWith('.json'));
+  const files = (await fs.readdir(rawDir)).filter((f) => f.endsWith('.json'));
   const all: ReturnType<typeof normalizeContest>[] = [];
 
   for (const f of files) {
@@ -84,7 +99,7 @@ async function aggregate() {
 
   // dedupe by url or id
   const seen = new Set<string>();
-  const deduped = all.filter(c => {
+  const deduped = all.filter((c) => {
     const key = (c.url || c.id || '').toString();
     if (!key) return true;
     if (seen.has(key)) return false;
@@ -98,13 +113,18 @@ async function aggregate() {
     contests: deduped,
   };
 
-  const outPath = path.join(process.cwd(), 'data', 'processed', 'all-contests-latest.json');
+  const outPath = path.join(
+    process.cwd(),
+    'data',
+    'processed',
+    'all-contests-latest.json'
+  );
   await fs.writeJson(outPath, out, { spaces: 2 });
   console.log(`wrote ${deduped.length} contests -> ${outPath}`);
 }
 
 if (require.main === module) {
-  aggregate().catch(err => {
+  aggregate().catch((err) => {
     console.error(err);
     process.exit(1);
   });

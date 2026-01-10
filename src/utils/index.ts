@@ -7,7 +7,7 @@
  * Sleep for specified milliseconds
  */
 export function sleep(ms: number): Promise<void> {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 /**
@@ -32,7 +32,11 @@ import * as crypto from 'crypto';
  */
 export function generateId(prefix = '', content?: string): string {
   if (content) {
-    const hash = crypto.createHash('md5').update(content).digest('hex').substring(0, 12);
+    const hash = crypto
+      .createHash('md5')
+      .update(content)
+      .digest('hex')
+      .substring(0, 12);
     return prefix ? `${prefix}_${hash}` : hash;
   }
   const timestamp = Date.now().toString(36);

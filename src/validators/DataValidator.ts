@@ -130,7 +130,7 @@ export class DataValidator {
     contests: ProcessedContest[]
   ): Promise<ValidationResult> {
     // Convert to raw format for validation
-    const rawContests: RawContest[] = contests.map(contest => ({
+    const rawContests: RawContest[] = contests.map((contest) => ({
       platform: contest.platform,
       title: contest.title,
       description: contest.description,
@@ -319,7 +319,7 @@ export class DataValidator {
 
       if (expectedDomains) {
         const urlDomain = new URL(contest.url).hostname.toLowerCase();
-        const isValidDomain = expectedDomains.some(domain =>
+        const isValidDomain = expectedDomains.some((domain) =>
           urlDomain.includes(domain)
         );
 

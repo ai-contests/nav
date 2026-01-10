@@ -45,7 +45,7 @@ export const AddToCalendar: React.FC<AddToCalendarProps> = ({
     const endDate = new Date(deadline);
     const startDate = endDate;
     const finalDate = new Date(endDate.getTime() + 60 * 60 * 1000);
-    
+
     // Simple ICS format
     const icsContent = [
       'BEGIN:VCALENDAR',
@@ -58,10 +58,12 @@ export const AddToCalendar: React.FC<AddToCalendarProps> = ({
       `DESCRIPTION:${description.replace(/\n/g, '\\n')} - Link: ${url}`,
       `URL:${url}`,
       'END:VEVENT',
-      'END:VCALENDAR'
+      'END:VCALENDAR',
     ].join('\r\n');
 
-    const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+    const blob = new Blob([icsContent], {
+      type: 'text/calendar;charset=utf-8',
+    });
     const link = document.createElement('a');
     link.href = window.URL.createObjectURL(blob);
     link.download = `contest-deadline.ics`;
@@ -77,7 +79,17 @@ export const AddToCalendar: React.FC<AddToCalendarProps> = ({
         className="flex items-center gap-1 text-xs font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
         title="Add to Calendar"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
           <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
           <line x1="16" y1="2" x2="16" y2="6"></line>
           <line x1="8" y1="2" x2="8" y2="6"></line>
@@ -88,9 +100,9 @@ export const AddToCalendar: React.FC<AddToCalendarProps> = ({
 
       {isOpen && (
         <>
-          <div 
-            className="fixed inset-0 z-10" 
-            onClick={() => setIsOpen(false)} 
+          <div
+            className="fixed inset-0 z-10"
+            onClick={() => setIsOpen(false)}
           />
           <div className="absolute right-0 mt-2 w-48 bg-white dark:bg-gray-800 rounded-md shadow-lg border border-gray-100 dark:border-gray-700 z-20 py-1 animate-in fade-in zoom-in-95 duration-100">
             <a

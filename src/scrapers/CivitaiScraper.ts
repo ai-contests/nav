@@ -43,11 +43,14 @@ export class CivitaiScraper extends EnhancedScraper {
 
       const rawContests = this.parseContests(html);
       logger.info(`Parsed ${rawContests.length} raw contests from HTML`);
-      
-      let contests = rawContests.filter(contest => {
+
+      let contests = rawContests.filter((contest) => {
         const isValid = this.validateContest(contest);
         if (!isValid) {
-            logger.debug('Contest validation failed', { title: contest.title, url: contest.url });
+          logger.debug('Contest validation failed', {
+            title: contest.title,
+            url: contest.url,
+          });
         }
         return isValid;
       });
@@ -60,7 +63,7 @@ export class CivitaiScraper extends EnhancedScraper {
         try {
           const apiContests = await this.fetchCivitaiAnnouncements();
           if (apiContests && apiContests.length > 0) {
-            contests = apiContests.filter(c => this.validateContest(c));
+            contests = apiContests.filter((c) => this.validateContest(c));
             logger.info(
               `Converted ${apiContests.length} announcement items into contests`
             );
@@ -283,8 +286,8 @@ export class CivitaiScraper extends EnhancedScraper {
 
         // Also write validated vs unvalidated lists to help debugging why items may be dropped
         try {
-          const validated = contests.filter(c => this.validateContest(c));
-          const unvalidated = contests.filter(c => !this.validateContest(c));
+          const validated = contests.filter((c) => this.validateContest(c));
+          const unvalidated = contests.filter((c) => !this.validateContest(c));
           const debugValid = path.join(
             outDir,
             'debug-civitai-announcements-validated.json'
@@ -395,18 +398,20 @@ export class CivitaiScraper extends EnhancedScraper {
         : '';
 
     // Clean the title to remove noise (author, date, stats)
-    const cleanedTitle = this.cleanCivitaiTitle(this.cleanText(finalTitle || ''));
+    const cleanedTitle = this.cleanCivitaiTitle(
+      this.cleanText(finalTitle || '')
+    );
 
     // Extract image URL
     let imageUrl = '';
     const imgElement = $element.find('img').first();
     if (imgElement.length > 0) {
-        imageUrl = imgElement.attr('src') || '';
-        // Civitai images often have /width=450/ in URL, we might want original or larger
-        // But usually src is fine.
-        if (imageUrl && !imageUrl.startsWith('http')) {
-             // Handle relative if any (unlikely for Civitai CDN)
-        }
+      imageUrl = imgElement.attr('src') || '';
+      // Civitai images often have /width=450/ in URL, we might want original or larger
+      // But usually src is fine.
+      if (imageUrl && !imageUrl.startsWith('http')) {
+        // Handle relative if any (unlikely for Civitai CDN)
+      }
     }
 
     const contest: RawContest = {
@@ -647,7 +652,7 @@ export class CivitaiScraper extends EnhancedScraper {
    * - Author name at the beginning (e.g. "Faeia", "theally", "CivBot")
    * - Date (e.g. "Dec 12, 2025")
    * - Trailing statistics (e.g. "667840011.4k", "1231010.3k")
-   * 
+   *
    * Input: "FaeiaDec 12, 2025🎄Winter Festival Contest 2025❄️667840011.4k"
    * Output: "🎄Winter Festival Contest 2025❄️"
    */

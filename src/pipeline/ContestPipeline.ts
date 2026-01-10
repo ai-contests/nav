@@ -79,7 +79,7 @@ export class ContestPipeline {
           // Save raw data
           for (const platform of this.getEnabledPlatforms()) {
             const platformContests = rawContests.filter(
-              c => c.platform === platform
+              (c) => c.platform === platform
             );
             if (platformContests.length > 0) {
               const result = await this.storageManager.saveRawContests(
@@ -126,7 +126,7 @@ export class ContestPipeline {
           // Filter out invalid contests for processing
           const validIndices = new Set(
             Array.from({ length: rawContests.length }, (_, i) => i).filter(
-              i => !validationResult.errors.some(e => e.index === i)
+              (i) => !validationResult.errors.some((e) => e.index === i)
             )
           );
           rawContests = rawContests.filter((_, i) => validIndices.has(i));
@@ -143,44 +143,49 @@ export class ContestPipeline {
       }
 
       // Step 3: AI Processing
-      if (
-        (mode === 'full' || mode === 'process-only' || !mode)
-      ) {
-            // Load raw data for processing if not already loaded (e.g. process-only mode)
-            if (rawContests.length === 0 && mode === 'process-only') {
-                try {
-                logger.info(`Loading raw data for processing${platformFilter ? ` (filter: ${platformFilter})` : ''}`);
-                // Fix: passing platformFilter to loadRawContests to only load relevant files
-                rawContests = await this.storageManager.loadRawContests(platformFilter); // Need to update StorageManager.loadRawContests signature or filter after loading
-                
-                // Filter manually if StorageManager doesn't support it yet (safe fallback)
-                if (platformFilter) {
-                    rawContests = rawContests.filter(c => c.platform.toLowerCase() === platformFilter.toLowerCase());
-                }
-                
-                logger.info(`Loaded ${rawContests.length} raw contests for processing`);
-                } catch (error) {
-                const errorMsg = `Failed to load raw data: ${error}`;
-                errors.push(errorMsg);
-                stats.errors++;
-                logger.error(errorMsg, { error });
-                }
+      if (mode === 'full' || mode === 'process-only' || !mode) {
+        // Load raw data for processing if not already loaded (e.g. process-only mode)
+        if (rawContests.length === 0 && mode === 'process-only') {
+          try {
+            logger.info(
+              `Loading raw data for processing${platformFilter ? ` (filter: ${platformFilter})` : ''}`
+            );
+            // Fix: passing platformFilter to loadRawContests to only load relevant files
+            rawContests =
+              await this.storageManager.loadRawContests(platformFilter); // Need to update StorageManager.loadRawContests signature or filter after loading
+
+            // Filter manually if StorageManager doesn't support it yet (safe fallback)
+            if (platformFilter) {
+              rawContests = rawContests.filter(
+                (c) => c.platform.toLowerCase() === platformFilter.toLowerCase()
+              );
             }
 
+            logger.info(
+              `Loaded ${rawContests.length} raw contests for processing`
+            );
+          } catch (error) {
+            const errorMsg = `Failed to load raw data: ${error}`;
+            errors.push(errorMsg);
+            stats.errors++;
+            logger.error(errorMsg, { error });
+          }
+        }
+
         if (rawContests.length > 0) {
-            try {
+          try {
             logger.info('Step 3: Processing contests with AI');
             processedContests = await this.processContests(rawContests);
             stats.processed = processedContests.length;
             logger.info(`Processed ${processedContests.length} contests`);
-            } catch (error) {
+          } catch (error) {
             const errorMsg = `AI processing failed: ${error}`;
             errors.push(errorMsg);
             stats.errors++;
             logger.error(errorMsg, { error });
-            }
+          }
         } else {
-             logger.warn('No raw contests available for processing');
+          logger.warn('No raw contests available for processing');
         }
       }
 
@@ -211,7 +216,7 @@ export class ContestPipeline {
           // Save by platform
           for (const platform of this.getEnabledPlatforms()) {
             const platformContests = processedContests.filter(
-              c => c.platform === platform
+              (c) => c.platform === platform
             );
             if (platformContests.length > 0) {
               const result = await this.storageManager.saveProcessedContests(
@@ -310,7 +315,9 @@ export class ContestPipeline {
     let tasks = await this.sourceManager.generateCrawlTasks();
 
     if (platformFilter) {
-      tasks = tasks.filter(t => t.platformName.toLowerCase() === platformFilter.toLowerCase());
+      tasks = tasks.filter(
+        (t) => t.platformName.toLowerCase() === platformFilter.toLowerCase()
+      );
     }
 
     if (tasks.length === 0) {
@@ -322,18 +329,24 @@ export class ContestPipeline {
 
     // Execute tasks in parallel with concurrency control
     const maxConcurrency = 3;
-    
+
     for (let i = 0; i < tasks.length; i += maxConcurrency) {
       const batch = tasks.slice(i, i + maxConcurrency);
-      logger.info(`Processing batch ${Math.floor(i / maxConcurrency) + 1}: ${batch.map(t => t.platformName).join(', ')}`);
-      
-      const batchPromises = batch.map(async task => {
+      logger.info(
+        `Processing batch ${Math.floor(i / maxConcurrency) + 1}: ${batch.map((t) => t.platformName).join(', ')}`
+      );
+
+      const batchPromises = batch.map(async (task) => {
         try {
           logger.info(`Crawling ${task.platformName}...`);
           const contests = await this.scraperManager.scrapeTask(task);
           return { platformName: task.platformName, contests, error: null };
         } catch (error) {
-          return { platformName: task.platformName, contests: [] as RawContest[], error };
+          return {
+            platformName: task.platformName,
+            contests: [] as RawContest[],
+            error,
+          };
         }
       });
 
@@ -353,7 +366,9 @@ export class ContestPipeline {
             }
           } else if (contests.length > 0) {
             allContests.push(...contests);
-            logger.info(`Successfully crawled ${contests.length} contests from ${platformName}`);
+            logger.info(
+              `Successfully crawled ${contests.length} contests from ${platformName}`
+            );
           } else {
             logger.warn(`No contests found for ${platformName}`);
           }
@@ -494,7 +509,9 @@ Pipeline Execution Summary:
   /**
    * Archive ended contests older than specified days
    */
-  async archiveContests(archiveDays = 30): Promise<import('../types').StorageResult> {
+  async archiveContests(
+    archiveDays = 30
+  ): Promise<import('../types').StorageResult> {
     return this.storageManager.archiveEndedContests(archiveDays);
   }
 
@@ -506,16 +523,21 @@ Pipeline Execution Summary:
   ): Promise<ProcessedContest[]> {
     try {
       // Load previously stored contests
-      const previousContests = await this.storageManager.loadProcessedContests();
-      const previousIds = new Set(previousContests.map(c => c.id));
+      const previousContests =
+        await this.storageManager.loadProcessedContests();
+      const previousIds = new Set(previousContests.map((c) => c.id));
 
       // Find contests with IDs not in previous set
-      const newContests = currentContests.filter(c => !previousIds.has(c.id));
+      const newContests = currentContests.filter((c) => !previousIds.has(c.id));
 
-      logger.info(`Detected ${newContests.length} new contests out of ${currentContests.length} total`);
+      logger.info(
+        `Detected ${newContests.length} new contests out of ${currentContests.length} total`
+      );
       return newContests;
     } catch (error) {
-      logger.warn('Failed to detect new contests, treating all as new', { error });
+      logger.warn('Failed to detect new contests, treating all as new', {
+        error,
+      });
       return currentContests;
     }
   }
@@ -537,8 +559,10 @@ Pipeline Execution Summary:
     }
 
     // Dynamic import to avoid loading if not needed
-    const { NotificationService } = await import('../notifications/NotificationService');
-    
+    const { NotificationService } = await import(
+      '../notifications/NotificationService'
+    );
+
     const notificationService = new NotificationService({
       enabled: this.config.notifications.enabled,
       fromEmail: this.config.notifications.fromEmail,
@@ -559,8 +583,10 @@ Pipeline Execution Summary:
       };
     }
 
-    const { NotificationService } = await import('../notifications/NotificationService');
-    
+    const { NotificationService } = await import(
+      '../notifications/NotificationService'
+    );
+
     const notificationService = new NotificationService({
       enabled: this.config.notifications.enabled,
       fromEmail: this.config.notifications.fromEmail,

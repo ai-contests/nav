@@ -1,4 +1,3 @@
-
 import 'dotenv/config';
 import fs from 'fs-extra';
 import path from 'path';
@@ -7,7 +6,10 @@ import { AppConfig } from '../types';
 
 // Configuration
 const CONFIG_PATH = 'config/app.json';
-const TEMPLATE_PATH = path.join(process.cwd(), 'src/templates/daily-summary.html');
+const TEMPLATE_PATH = path.join(
+  process.cwd(),
+  'src/templates/daily-summary.html'
+);
 
 /**
  * Load App Config
@@ -26,8 +28,9 @@ const mockContests = [
     platform: 'AICrowd',
     deadline: new Date(Date.now() + 1000 * 60 * 60 * 24 * 3).toISOString(), // 3 days later
     status: 'active',
-    summary: 'A reinforcement learning challenge to build the smartest snake engine.',
-    url: 'https://www.aicrowd.com'
+    summary:
+      'A reinforcement learning challenge to build the smartest snake engine.',
+    url: 'https://www.aicrowd.com',
   },
   {
     id: 'test-2',
@@ -35,9 +38,10 @@ const mockContests = [
     platform: 'Kaggle',
     deadline: new Date(Date.now() + 1000 * 60 * 60 * 24 * 12).toISOString(), // 12 days later
     status: 'active',
-    summary: 'Identify diseases from X-ray images using advanced CNN architectures.',
-    url: 'https://www.kaggle.com'
-  }
+    summary:
+      'Identify diseases from X-ray images using advanced CNN architectures.',
+    url: 'https://www.kaggle.com',
+  },
 ];
 
 /**
@@ -77,21 +81,21 @@ async function main() {
   // Load Template
   let template = '';
   try {
-     template = await fs.readFile(TEMPLATE_PATH, 'utf-8');
+    template = await fs.readFile(TEMPLATE_PATH, 'utf-8');
   } catch (e) {
-     console.error('Template file not found at', TEMPLATE_PATH);
-     process.exit(1);
+    console.error('Template file not found at', TEMPLATE_PATH);
+    process.exit(1);
   }
 
   // Render Contest HTML
-  const renderContestHtml = (c: { 
-    id: string; 
-    title: string; 
-    platform: string; 
-    deadline?: string; 
-    status: string; 
-    summary?: string; 
-    url: string; 
+  const renderContestHtml = (c: {
+    id: string;
+    title: string;
+    platform: string;
+    deadline?: string;
+    status: string;
+    summary?: string;
+    url: string;
   }) => `
     <div class="contest-card">
         <a href="${c.url}" class="contest-title" target="_blank">${c.title}</a>
@@ -106,17 +110,29 @@ async function main() {
     </div>
   `;
 
-  const subscriptionListHtml = mockContests.map(c => renderContestHtml(c)).join('');
-  const latestListHtml = mockContests.map(c => renderContestHtml(c)).join(''); // Use same for test
+  const subscriptionListHtml = mockContests
+    .map((c) => renderContestHtml(c))
+    .join('');
+  const latestListHtml = mockContests.map((c) => renderContestHtml(c)).join(''); // Use same for test
 
   const emailHtml = template
-    .replace('{{date}}', new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }))
+    .replace(
+      '{{date}}',
+      new Date().toLocaleDateString('en-US', {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      })
+    )
     .replace('{{subscriptionList}}', subscriptionListHtml)
     .replace('{{latestList}}', latestListHtml);
 
   // Send Email
   const { error } = await resend.emails.send({
-    from: config.notifications?.fromEmail || 'AI Contest Navigator <notify@emoai.co.uk>',
+    from:
+      config.notifications?.fromEmail ||
+      'AI Contest Navigator <notify@emoai.co.uk>',
     to: testEmail,
     subject: `🧪 Test Brief: AI Contest Navigator Template Verification`,
     html: emailHtml,

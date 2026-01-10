@@ -26,10 +26,10 @@ export class NotificationService {
 
   constructor(config: NotificationConfig) {
     this.config = config;
-    
+
     // Read API key from environment variable
     const apiKey = process.env.RESEND_API_KEY;
-    
+
     if (config.enabled && apiKey) {
       this.resend = new Resend(apiKey);
       logger.info('NotificationService initialized with Resend');
@@ -101,7 +101,8 @@ export class NotificationService {
         sentCount: newContests.length,
       };
     } catch (error) {
-      const errorMessage = error instanceof Error ? error.message : String(error);
+      const errorMessage =
+        error instanceof Error ? error.message : String(error);
       logger.error('Failed to send notification', { error: errorMessage });
       return {
         success: false,
@@ -117,7 +118,7 @@ export class NotificationService {
   private generateEmailHtml(contests: ProcessedContest[]): string {
     const contestCards = contests
       .map(
-        contest => `
+        (contest) => `
         <div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 16px; margin-bottom: 16px; background: #fafafa;">
           <h3 style="margin: 0 0 8px 0; color: #1a1a1a;">
             <a href="${contest.url}" style="color: #2563eb; text-decoration: none;">${contest.title}</a>
@@ -129,11 +130,21 @@ export class NotificationService {
           </p>
           ${contest.prize ? `<p style="margin: 0 0 8px 0; color: #059669; font-weight: bold;">💰 ${contest.prize}</p>` : ''}
           <p style="margin: 0; color: #444; font-size: 14px;">${(contest.description || '').substring(0, 200)}${(contest.description || '').length > 200 ? '...' : ''}</p>
-          ${contest.tags && contest.tags.length > 0 ? `
+          ${
+            contest.tags && contest.tags.length > 0
+              ? `
             <p style="margin: 8px 0 0 0;">
-              ${contest.tags.slice(0, 5).map(tag => `<span style="background: #e0e7ff; color: #3730a3; padding: 2px 8px; border-radius: 4px; font-size: 12px; margin-right: 4px;">${tag}</span>`).join('')}
+              ${contest.tags
+                .slice(0, 5)
+                .map(
+                  (tag) =>
+                    `<span style="background: #e0e7ff; color: #3730a3; padding: 2px 8px; border-radius: 4px; font-size: 12px; margin-right: 4px;">${tag}</span>`
+                )
+                .join('')}
             </p>
-          ` : ''}
+          `
+              : ''
+          }
         </div>
       `
       )
@@ -180,7 +191,7 @@ ${index + 1}. ${contest.title}
    ${contest.deadline ? `Deadline: ${new Date(contest.deadline).toLocaleDateString()}` : ''}
    ${contest.prize ? `Prize: ${contest.prize}` : ''}
    URL: ${contest.url}
-   ${contest.description ? `Description: ${(contest.description).substring(0, 150)}...` : ''}
+   ${contest.description ? `Description: ${contest.description.substring(0, 150)}...` : ''}
 `
       )
       .join('\n');
@@ -238,7 +249,8 @@ https://github.com/ai-contests/nav
         message: `Test email sent to ${this.config.toEmails.join(', ')} (ID: ${data?.id})`,
       };
     } catch (error) {
-      const errorMessage = error instanceof Error ? error.message : String(error);
+      const errorMessage =
+        error instanceof Error ? error.message : String(error);
       logger.error('Failed to send test email', { error: errorMessage });
       return {
         success: false,

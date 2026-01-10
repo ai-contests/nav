@@ -35,7 +35,7 @@ export class DrivenDataScraper extends EnhancedScraper {
       );
 
       const contests = this.parseDrivenDataContests(html);
-      const validContests = contests.filter(contest =>
+      const validContests = contests.filter((contest) =>
         this.validateContest(contest)
       );
 
@@ -63,13 +63,13 @@ export class DrivenDataScraper extends EnhancedScraper {
     $(this.config.selectors.contestItems).each((_index, element) => {
       try {
         const $title = $(element);
-        
+
         // Get the card container (parent elements)
         const $card = $title.closest('div').parent().closest('div');
-        
+
         // Extract title
         const title = $title.text().trim();
-        
+
         // Extract URL from the link
         const $link = $title.closest('a');
         let url = $link.attr('href') || '';
@@ -90,16 +90,20 @@ export class DrivenDataScraper extends EnhancedScraper {
 
         // Extract prize from "in prizes" pattern
         const prizeMatch = cardText.match(/\$[\d,]+(?:\s+in\s+prizes)?/i);
-        const prize = prizeMatch ? prizeMatch[0].replace(/\s+in\s+prizes/i, '') : undefined;
+        const prize = prizeMatch
+          ? prizeMatch[0].replace(/\s+in\s+prizes/i, '')
+          : undefined;
 
         // Extract time left from "X weeks/days left" pattern
-        const timeMatch = cardText.match(/(\d+)\s*(weeks?|days?|months?)\s*left/i);
+        const timeMatch = cardText.match(
+          /(\d+)\s*(weeks?|days?|months?)\s*left/i
+        );
         let deadline: string | undefined;
         if (timeMatch) {
           const amount = parseInt(timeMatch[1], 10);
           const unit = timeMatch[2].toLowerCase();
           const deadlineDate = new Date();
-          
+
           if (unit.startsWith('day')) {
             deadlineDate.setDate(deadlineDate.getDate() + amount);
           } else if (unit.startsWith('week')) {
@@ -107,20 +111,22 @@ export class DrivenDataScraper extends EnhancedScraper {
           } else if (unit.startsWith('month')) {
             deadlineDate.setMonth(deadlineDate.getMonth() + amount);
           }
-          
+
           deadline = deadlineDate.toISOString();
         }
 
         // Extract participants count
         const participantsMatch = cardText.match(/([\d,]+)\s*joined/i);
-        const participants = participantsMatch 
-          ? parseInt(participantsMatch[1].replace(/,/g, ''), 10) 
+        const participants = participantsMatch
+          ? parseInt(participantsMatch[1].replace(/,/g, ''), 10)
           : undefined;
 
         // Determine status based on section or text
         let status: 'active' | 'upcoming' | 'ended' = 'active';
-        if (cardText.toLowerCase().includes('ended') || 
-            cardText.toLowerCase().includes('completed')) {
+        if (
+          cardText.toLowerCase().includes('ended') ||
+          cardText.toLowerCase().includes('completed')
+        ) {
           status = 'ended';
         } else if (cardText.toLowerCase().includes('coming soon')) {
           status = 'upcoming';
@@ -139,7 +145,9 @@ export class DrivenDataScraper extends EnhancedScraper {
             metadata: {
               category,
               participants,
-              timeLeft: timeMatch ? `${timeMatch[1]} ${timeMatch[2]}` : undefined,
+              timeLeft: timeMatch
+                ? `${timeMatch[1]} ${timeMatch[2]}`
+                : undefined,
             },
           });
         }

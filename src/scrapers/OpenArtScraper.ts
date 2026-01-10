@@ -34,7 +34,7 @@ export class OpenArtScraper extends EnhancedScraper {
         this.config.selectors.contestItems
       );
       const contests = this.parseContests(html);
-      const validContests = contests.filter(contest =>
+      const validContests = contests.filter((contest) =>
         this.validateContest(contest)
       );
       const enrichedContests = await this.enrichContestData(validContests);

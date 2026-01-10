@@ -43,7 +43,7 @@ const DATA_DIR = path.join(process.cwd(), 'data', 'processed');
 // Helper to get all processed files
 function getProcessedFiles() {
   if (!fs.existsSync(DATA_DIR)) return [];
-  return fs.readdirSync(DATA_DIR).filter(f => f.endsWith('-latest.json'));
+  return fs.readdirSync(DATA_DIR).filter((f) => f.endsWith('-latest.json'));
 }
 
 export async function getAllContests(): Promise<Contest[]> {
@@ -58,7 +58,7 @@ export async function getAllContests(): Promise<Contest[]> {
 
       if (Array.isArray(data.contests)) {
         const platform = file.split('-')[0]; // Extract platform from filename
-        
+
         const normalized = data.contests.map((c: RawContestJSON) => ({
           id: `${platform}-${c.id || c.competition_id || Math.random().toString(36).slice(2)}`,
           title: c.title || 'Untitled Contest',
@@ -68,12 +68,17 @@ export async function getAllContests(): Promise<Contest[]> {
           deadline: c.deadline || c.end_time || '',
           prize: c.prize || c.reward || 'TBD',
           tags: c.tags || [],
-          status: calculateStatus(c.status || '', c.deadline || c.end_time || ''),
+          status: calculateStatus(
+            c.status || '',
+            c.deadline || c.end_time || ''
+          ),
           image_url: c.image_url || c.cover_url || '',
           // Mock difficulty for now if not present, usually AIProcessor adds it
-          difficulty: c.ai_analysis?.difficulty ? parseDifficulty(c.ai_analysis.difficulty) : Math.floor(Math.random() * 5) + 3 // Rand 3-8
+          difficulty: c.ai_analysis?.difficulty
+            ? parseDifficulty(c.ai_analysis.difficulty)
+            : Math.floor(Math.random() * 5) + 3, // Rand 3-8
         }));
-        
+
         allContests = [...allContests, ...normalized];
       }
     } catch (e) {
@@ -90,26 +95,26 @@ export async function getAllContests(): Promise<Contest[]> {
 }
 
 export async function getContestById(id: string): Promise<Contest | undefined> {
-   const all = await getAllContests();
-   return all.find(c => c.id === id);
+  const all = await getAllContests();
+  return all.find((c) => c.id === id);
 }
 
 // Helpers
 function calculateStatus(status: string, deadline: string): Contest['status'] {
-   if (status && status.toLowerCase().includes('run')) return 'Active';
-   if (status && status.toLowerCase().includes('end')) return 'Ended';
-   
-   if (!deadline) return 'Active';
-   const now = new Date();
-   const end = new Date(deadline);
-   return end > now ? 'Active' : 'Ended';
+  if (status && status.toLowerCase().includes('run')) return 'Active';
+  if (status && status.toLowerCase().includes('end')) return 'Ended';
+
+  if (!deadline) return 'Active';
+  const now = new Date();
+  const end = new Date(deadline);
+  return end > now ? 'Active' : 'Ended';
 }
 
 function parseDifficulty(diff: string | number): number {
-    if (typeof diff === 'number') return diff;
-    if (diff.toLowerCase().includes('expert')) return 8;
-    if (diff.toLowerCase().includes('advanced')) return 7;
-    if (diff.toLowerCase().includes('intermediate')) return 5;
-    if (diff.toLowerCase().includes('beginner')) return 3;
-    return 5;
+  if (typeof diff === 'number') return diff;
+  if (diff.toLowerCase().includes('expert')) return 8;
+  if (diff.toLowerCase().includes('advanced')) return 7;
+  if (diff.toLowerCase().includes('intermediate')) return 5;
+  if (diff.toLowerCase().includes('beginner')) return 3;
+  return 5;
 }

@@ -14,6 +14,11 @@ export const metadata: Metadata = {
   description: 'The definitive terminal for global AI competitions.',
   authors: [{ name: 'nev4rb14su', url: 'https://github.com/nev4rb14su' }],
   creator: 'nev4rb14su',
+  alternates: {
+    types: {
+      'application/rss+xml': '/feed.xml',
+    },
+  },
 };
 
 import { Analytics } from '@vercel/analytics/react';

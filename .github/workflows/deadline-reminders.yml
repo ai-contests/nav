@@ -1,0 +1,30 @@
+name: Deadline Reminders
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # Daily at 08:00 UTC
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run deadline reminders
+        run: npm run remind
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}

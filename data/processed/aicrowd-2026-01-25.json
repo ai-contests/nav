@@ -1,6 +1,6 @@
 {
   "platform": "aicrowd",
-  "timestamp": "2026-01-25T02:13:20.088Z",
+  "timestamp": "2026-01-25T12:55:34.755Z",
   "contestCount": 10,
   "contests": [
     {
@@ -8,13 +8,13 @@
       "title": "Round 2: 6 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/global-chess-challenge-2025",
-      "imageUrl": "https://images.aicrowd.com/raw_images/challenges/social_media_image_file/1166/a4a6aaf8ab15af56cc81.png",
+      "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/1166/Link_preview.jpg",
       "description": "Global Chess Challenge 2025\n              \n                Train LLMs to Play Chess\n          Train LLMs to Play Chess",
       "summary": "Global Chess Challenge 2025\n              \n                Train LLMs to Play Chess\n          Train LLMs to Play Chess...",
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-01-31T02:11:37.309Z",
+      "deadline": "2026-01-31T12:52:46.587Z",
       "prize": "USD 17,000",
       "tags": [
         "llm",
@@ -28,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-25T02:12:51.656Z",
-      "scrapedAt": "2026-01-25T02:11:37.309Z",
-      "lastUpdated": "2026-01-25T02:12:51.656Z",
+      "processedAt": "2026-01-25T12:55:05.759Z",
+      "scrapedAt": "2026-01-25T12:52:46.587Z",
+      "lastUpdated": "2026-01-25T12:55:05.759Z",
       "version": 1
     },
     {
@@ -38,13 +38,13 @@
       "title": "Phase 1: 7 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/orak-game-agent-challenge-2025",
-      "imageUrl": "https://images.aicrowd.com/raw_images/challenges/social_media_image_file/1172/d7e88fdb24345bdbd026.jpg",
+      "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/1172/Card__1_.jpg",
       "description": "Orak Game Agent Challenge 2025\n              \n                Build an LLM agent for five real-world games\n          Build an LLM agent for five real-world games",
       "summary": "Orak Game Agent Challenge 2025\n              \n                Build an LLM agent for five real-world games\n          Build an LLM agent for five real-world games...",
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-02-01T02:11:37.310Z",
+      "deadline": "2026-02-01T12:52:46.588Z",
       "prize": "USD 20,000",
       "tags": [
         "llm"
@@ -57,14 +57,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-25T02:12:52.334Z",
-      "scrapedAt": "2026-01-25T02:11:37.310Z",
-      "lastUpdated": "2026-01-25T02:12:52.334Z",
+      "processedAt": "2026-01-25T12:55:06.600Z",
+      "scrapedAt": "2026-01-25T12:52:46.588Z",
+      "lastUpdated": "2026-01-25T12:55:06.600Z",
       "version": 1
     },
     {
       "id": "c_8028e73d2ed6",
-      "title": "Spotify Million Playlist Dataset Challenge",
+      "title": "Benchmark Challenge: Running",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/277/MPD2.png",
@@ -73,35 +73,6 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
-      "prize": "TBD",
-      "tags": [
-        "Benchmark Challenge: Running"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-01-25T02:12:52.455Z",
-      "scrapedAt": "2026-01-25T02:11:37.310Z",
-      "lastUpdated": "2026-01-25T02:12:52.455Z",
-      "version": 1
-    },
-    {
-      "id": "c_219544c1c5a3",
-      "title": "Trajnet++ (A Trajectory Forecasting Challenge)",
-      "platform": "aicrowd",
-      "url": "https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge",
-      "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/13/Pedestrians.jpg",
-      "description": "Trajnet++ (A Trajectory Forecasting Challenge)",
-      "summary": "Trajnet++ (A Trajectory Forecasting Challenge)...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2030-08-15T02:11:37.310Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -112,9 +83,36 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-25T02:12:52.423Z",
-      "scrapedAt": "2026-01-25T02:11:37.310Z",
-      "lastUpdated": "2026-01-25T02:12:52.423Z",
+      "processedAt": "2026-01-25T12:55:06.607Z",
+      "scrapedAt": "2026-01-25T12:52:46.588Z",
+      "lastUpdated": "2026-01-25T12:55:06.608Z",
+      "version": 1
+    },
+    {
+      "id": "c_219544c1c5a3",
+      "title": "Round 3: 1662 days left",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge",
+      "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/13/Pedestrians.jpg",
+      "description": "Trajnet++ (A Trajectory Forecasting Challenge)",
+      "summary": "Trajnet++ (A Trajectory Forecasting Challenge)...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2030-08-14T12:52:46.589Z",
+      "prize": "TBD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-01-25T12:55:06.657Z",
+      "scrapedAt": "2026-01-25T12:52:46.589Z",
+      "lastUpdated": "2026-01-25T12:55:06.657Z",
       "version": 1
     },
     {
@@ -128,11 +126,9 @@
       "contestType": "image",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-02-17T02:11:37.310Z",
+      "deadline": "2026-02-17T12:52:46.589Z",
       "prize": "TBD",
-      "tags": [
-        "#classroom"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -141,9 +137,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-25T02:12:52.352Z",
-      "scrapedAt": "2026-01-25T02:11:37.310Z",
-      "lastUpdated": "2026-01-25T02:12:52.352Z",
+      "processedAt": "2026-01-25T12:55:06.602Z",
+      "scrapedAt": "2026-01-25T12:52:46.589Z",
+      "lastUpdated": "2026-01-25T12:55:06.602Z",
       "version": 1
     },
     {
@@ -157,36 +153,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-02-17T02:11:37.311Z",
-      "prize": "TBD",
-      "tags": [
-        "#classroom"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-01-25T02:12:52.475Z",
-      "scrapedAt": "2026-01-25T02:11:37.311Z",
-      "lastUpdated": "2026-01-25T02:12:52.475Z",
-      "version": 1
-    },
-    {
-      "id": "c_ef4f31b33152",
-      "title": "ECCV 2020 Commands 4 Autonomous Vehicles",
-      "platform": "aicrowd",
-      "url": "https://www.aicrowd.com/challenges/eccv-2020-commands-4-autonomous-vehicles",
-      "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/382/val_1030.jpg",
-      "description": "ECCV 2020 Commands 4 Autonomous Vehicles",
-      "summary": "ECCV 2020 Commands 4 Autonomous Vehicles...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2045-09-01T02:11:37.318Z",
+      "deadline": "2026-02-17T12:52:46.590Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -197,14 +164,41 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-25T02:12:53.476Z",
-      "scrapedAt": "2026-01-25T02:11:37.318Z",
-      "lastUpdated": "2026-01-25T02:12:53.476Z",
+      "processedAt": "2026-01-25T12:55:06.747Z",
+      "scrapedAt": "2026-01-25T12:52:46.590Z",
+      "lastUpdated": "2026-01-25T12:55:06.747Z",
+      "version": 1
+    },
+    {
+      "id": "c_ef4f31b33152",
+      "title": "Post challenge submissions: 7159 days left",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/eccv-2020-commands-4-autonomous-vehicles",
+      "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/382/val_1030.jpg",
+      "description": "ECCV 2020 Commands 4 Autonomous Vehicles",
+      "summary": "ECCV 2020 Commands 4 Autonomous Vehicles...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2045-09-01T12:52:46.591Z",
+      "prize": "TBD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-01-25T12:55:07.694Z",
+      "scrapedAt": "2026-01-25T12:52:46.591Z",
+      "lastUpdated": "2026-01-25T12:55:07.694Z",
       "version": 1
     },
     {
       "id": "c_03552b946309",
-      "title": "MEDIQA 2021 - Question Summarization (QS)",
+      "title": "Post Challenge Round: 1800 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/mediqa-2021-question-summarization-qs",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/644/MEDIQA-Background.jpg",
@@ -213,11 +207,10 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T02:11:37.319Z",
+      "deadline": "2030-12-30T12:52:46.591Z",
       "prize": "TBD",
       "tags": [
-        "nlp",
-        "Weight: 1.0"
+        "nlp"
       ],
       "aiTools": [
         "Python",
@@ -227,14 +220,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-25T02:12:53.480Z",
-      "scrapedAt": "2026-01-25T02:11:37.319Z",
-      "lastUpdated": "2026-01-25T02:12:53.480Z",
+      "processedAt": "2026-01-25T12:55:07.702Z",
+      "scrapedAt": "2026-01-25T12:52:46.592Z",
+      "lastUpdated": "2026-01-25T12:55:07.702Z",
       "version": 1
     },
     {
       "id": "c_aa2c7b5cbc46",
-      "title": "Multi-Agent Reinforcement Learning for Iterative Reasoning",
+      "title": "Round 1: Starting soon",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/multi-agent-reinforcement-learning-for-iterative-reasoning",
       "imageUrl": "https://www.aicrowd.com/assets/images/challenges/AIcrowd-ProblemStatements-0.jpeg",
@@ -244,9 +237,7 @@
       "status": "upcoming",
       "difficulty": "intermediate",
       "prize": "TBD",
-      "tags": [
-        "#reinforcement_learning"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -255,9 +246,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-25T02:12:53.476Z",
-      "scrapedAt": "2026-01-25T02:11:37.319Z",
-      "lastUpdated": "2026-01-25T02:12:53.476Z",
+      "processedAt": "2026-01-25T12:55:07.701Z",
+      "scrapedAt": "2026-01-25T12:52:46.592Z",
+      "lastUpdated": "2026-01-25T12:55:07.701Z",
       "version": 1
     },
     {
@@ -281,15 +272,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-25T02:12:53.539Z",
-      "scrapedAt": "2026-01-25T02:11:37.320Z",
-      "lastUpdated": "2026-01-25T02:12:53.539Z",
+      "processedAt": "2026-01-25T12:55:07.720Z",
+      "scrapedAt": "2026-01-25T12:52:46.594Z",
+      "lastUpdated": "2026-01-25T12:55:07.720Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-01-25T02:13:20.088Z"
+    "lastUpdated": "2026-01-25T12:55:34.755Z"
   }
 }

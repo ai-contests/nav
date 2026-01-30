@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-01-30T02:27:20.297Z",
+  "timestamp": "2026-01-30T13:07:09.388Z",
   "contestCount": 10,
   "contests": [
     {
@@ -8,18 +8,14 @@
       "title": "Gemini 3 Hackathon",
       "platform": "devpost",
       "url": "https://gemini3.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/098/038/datas/original.png",
-      "description": "Welcome to the era of Gemini 3. Google DeepMind is thrilled to invite you to the Gemini 3 global hackathon. We are pushing the boundaries of what AI can do by enhancing reasoning capabilities, unlocking multimodal experiences and reducing latency. Now, we want to see what you can create with our most capable and intelligent model family to date. Whether you are a seasoned AI engineer or writing your first line of code, this is your invitation to build the future. We are looking for more than just another chat interface. We want to see fun, creative, next-generation applications built with the Gemini 3 family Why participate? Be First: Get hands-on access to the Gemini 3 API before the rest of the world catches up. Build Something New: This challenge is strictly for new applications. It’s a level playing field for everyone. Win Big: We have a prize pool of $100,000 + interviews with the AI Futures Fund team for an opportunity to fund your project.",
-      "summary": "Welcome to the era of Gemini 3. Google DeepMind is thrilled to invite you to the Gemini 3 global hackathon. We are pushing the boundaries of what AI can do by enhancing reasoning capabilities, unlocki...",
-      "contestType": "code",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/098/038/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-02-10T01:00:00.000Z",
       "prize": "$100,000",
-      "tags": [
-        "Open Ended",
-        "Social Good"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -28,9 +24,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-30T02:26:58.485Z",
-      "scrapedAt": "2026-01-30T02:24:52.661Z",
-      "lastUpdated": "2026-01-30T02:26:58.485Z",
+      "processedAt": "2026-01-30T13:06:46.368Z",
+      "scrapedAt": "2026-01-30T13:04:28.356Z",
+      "lastUpdated": "2026-01-30T13:06:46.368Z",
       "version": 1
     },
     {
@@ -38,37 +34,25 @@
       "title": "RevenueCat Shipyard: Creator Contest",
       "platform": "devpost",
       "url": "https://revenuecat-shipyard-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/146/721/datas/original.png",
-      "description": "⛴️ Welcome to Shipyard: Creator Contest — an app-building challenge where real influencers enlist you to build, launch, and monetize an MVP app for their audience. In four weeks or less. ABOUT THE CHALLENGE Shipyard: Creator Contest is about building real, monetizable apps for influencers’ and their audiences. Rather than creating demos for judges, you’re tasked with shipping a working MVP for an influencer and their community. We’ve partnered with seven creators representing different niches, who’ve provided seven briefs about the kind of mobile app they — and their followers — are looking for. Browse the briefs, learn about the problem each influencer’s app is hoping to solve, and get stuck into building something real for a pre-validated audience willing to try (and pay for!) your app. Alongside our panel of judges, the influencers will pick seven winning apps. But you don’t just get cash. You gain real-world credibility, distribution through an established creator, and the opportunity to continue developing and monetizing your app beyond the hackathon. All participants will also receive our Shipping Container 📦 a digital bundle packed with exclusive perks and offers from our partners. Ready to cast off? Haul the anchor up and let’s go! ⚓️ HOW TO GET INVOLVED On January 15 the influencer briefs will drop: read summaries here on Devpost or watch the full brief on the official Shipyard website. Choose one influencer to build an app for, and get ideating! Design and build a working MVP mobile app for iOS or Android that fits your chosen brief Integrate RevenueCat and monetize your app — this can be in-app purchases or subscription offerings Submit your app on Devpost by February 12: include a demo video, written proposal, and access to the build (head to the Submission Requirements section for more detail) On February 26, we’ll announce our seven winners. You’ll be evaluated not just on technical execution, but on audience fit, product quality, and monetization potential — just like a real app launch. THE PRIZES The 7 winning app-builders don't just get paid, they get the opportunity to build and monetize their app with the creator and unlock a primed audience. $20,000 per winning app 7 winners Feature on RevenueCat official channels Long-term credibility (and bragging rights) Opportunity to connect with the briefing influencer These creators aren't just looking for a one-and-done MVP — they want a long-term, profitable app. If you ship the right thing, you might just discover a whole fleet of opportunities. THE TIMELINE Here's the shipping route for your challenge... Anchors aweigh January 15: Briefs are out and registration is open. Time to start building! All hands on deck January 15 – February 12: Four weeks to build and monetize your MVP. Land ho! February 12: Submit your link and demo video by 11:59pm PST. Captain's review February 12–14: Submissions are reviewed by judging panel and the creators. Dividing the loot February 26: Winners are announced! THE BRIEFS Each creator has provided you with a video brief, a problem statement, and some insights on their audience. You can watch all the briefs on the Shipyard website here. We’ve summarized each influencer’s brief below: Sam Beckman: Cross-platform power reminders Watch the brief Sam lives by reminders, but switching between Android and iOS means rebuilding his entire system from scratch. He wants a beautiful, fully functional reminders app on both iOS + Android* with custom snoozes from notifications, powerful recurring rules, and true sync so dismissing once clears everywhere. *For the purpose of the hackathon, you only need to build an MVP for iOS or Android Gabby Beckford (PacksLight): Dream-to-do challenges for ambitious women Watch the brief Gabby’s community is full of smart, adventurous women who want big trips and big life upgrades, but often get stuck between inspiration and action. Build an upbeat, motivating app that turns goals into daily micro-actions, with challenges, streaks/wins, tracking, and gamified moments that make progress feel fun (yes, confetti welcome). Josh (VisualFaktory): One portfolio to track them all Watch the brief Investors juggle stocks, gold, funds, fixed income, real estate, and more across multiple platforms — messy to track and hard to understand at a glance. Josh wants a single app where users can log everything, get real-time price updates where possible, set amortization/reminder alerts for non-listed products, and unlock premium risk + diversification analysis (like country/sector exposure). Simon (Better Creating): Minimalist AI coaching in your pocket Watch the brief Simon’s audience loves productivity, great design, and building systems — and he wants to bring coaching to more people. Create a clean, minimal mobile app where users can browse, create, and share AI coaches, add personal context/values, and start chatting immediately. No complex setup, just guidance at the right moment. Eitan Bernath: From saved recipe to dinner made Watch the brief Eitan wants to help people actually cook what they’ve been meaning to make. Think tools that turn inspiration into action: an app that can generate a grocery list from a recipe video/link, organize what you want to cook, and make it simple to go from “I saw this” to “it’s on the table.” Quin Gable: A trusted community for van-lifers to connect Watch the brief Dating and making friends on the road is hard when you’re always moving—and van life is a tight, protective community. Quin wants a van-life app with nomadic dating, activity-based friend finding, and even a paid 'builder help' section for van projects, with invite-only or verified access to keep it safe and intentional. Rebecca Louise: Money confidence for busy mums Watch the brief Rebecca hears it constantly: mums are short on time, want financial independence, and need practical help. Build an app that offers everyday money-saving guidance (shopping swaps, batch cooking, cost comparisons, home reno savings) plus an approachable path into investing basics so users can grow what they have, without overwhelm. RULES We're keeping it simple: Build the app you want. The only catch? You must use RevenueCat and monetize through RevenueCat. For full rules and all the Ts&Cs, go to the Rules tab on Devpost. FREQUENTLY ASKED QUESTIONS How many briefs can I create a submission for? You can submit up to seven submissions in total e.g. one submission per creator. You cannot submit more than one project per creator. You will not gain extra points in judging for having submitted multiple apps. We suggest focusing your efforts on one brief to make the best possible MVP! Can my app be on an app store? Do I gain/lose points for having the app live on the app stores? Your app does not need to be on any app store prior to submission. If it is live on an app store, this will not impact the judging of your submission (positively or negatively). However, your app cannot have been submitted to an app store prior to January 15, as all apps must have been started during the hackathon timeframe. How does judging work? When do the creators get involved? All submissions will go through initial judging against a technical review and review against the briefs. The partner creators will then review the top 10–15 submissions for their brief and select a winner. Do you get extra points for submitting on both iOS and Android? While some creator briefs specifically call out app compatibility on both iOS and Android, for the purpose of the hackathon you are only required to create the app on one platform, and will not gain extra points for submitting an iOS and Android version. If relevant to your brief, it may be beneficial to include reference to other platform compatibility in your written proposal. Can I submit a web app? No, all submissions must be mobile apps, for iOS or Android. Follow RevenueCat on Twitter @RevenueCat for the latest updates. Use #Shipyard2026 to join the conversation. You can also join the Shipyard Discord community here to connect with other participants.",
-      "summary": "⛴️ Welcome to Shipyard: Creator Contest — an app-building challenge where real influencers enlist you to build, launch, and monetize an MVP app for their audience. In four weeks or less. ABOUT THE CHA...",
-      "contestType": "video",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/146/721/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-02-13T04:45:00.000Z",
       "prize": "$140,000",
-      "tags": [
-        "Mobile",
-        "Design",
-        "Low",
-        "No Code"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [
-        "section for more detail) On February 26",
-        "we’ll announce our seven winners. You’ll be evaluated not just on technical execution",
-        "but on audience fit",
-        "product quality",
-        "profitable app. If you ship the right thing"
-      ],
+      "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-30T02:26:58.486Z",
-      "scrapedAt": "2026-01-30T02:24:52.662Z",
-      "lastUpdated": "2026-01-30T02:26:58.486Z",
+      "processedAt": "2026-01-30T13:06:46.365Z",
+      "scrapedAt": "2026-01-30T13:04:28.357Z",
+      "lastUpdated": "2026-01-30T13:06:46.365Z",
       "version": 1
     },
     {
@@ -76,17 +60,15 @@
       "title": "Sky’s the Limit - Cloud9 x JetBrains Hackathon",
       "platform": "devpost",
       "url": "https://cloud9.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/016/236/datas/original.png",
-      "description": "Welcome to Sky’s the Limit - Cloud9 x JetBrains Hackathon Cloud9 is bringing its competitive spirit from the arena to the dev world—with a global hackathon built to ignite creativity, sharpen skills, and bring bold ideas to life. As one of the most storied organizations in esports, Cloud9 is known for championship rosters, fierce innovation, and a community that pushes the boundaries of what’s possible. Whether you’re a gamer, a builder, or a curious creator, this is your chance to level up alongside a team that never stops evolving. In this hackathon, entrants will build or update a working application using the tools of their choice—plus optional support from JetBrains’ AI Coding Agent, Junie. Junie can help accelerate your workflow and unlock new ways to create, but the real spotlight is on you and the ideas you bring to the table. With exclusive resources like official esports data for League of Legends and VALORANT provided by GRID, expert guidance, and a prize pool that rewards innovation, this is your arena. Pick a category, lock in, and show Cloud9 what you can build. Why join? Experiment with JetBrains IDEs + AI Coding Agent Junie Official data provided by GRID Compete for $25k cash prizes, GDC tickets + travel, and Cloud9 swag Get Started Review our Submission Specifics tab Apply here to get access to the official esports data from GRID Download and open your JetBrains IDE and start coding! Learn how to create an AI-powered app with AI Coding Agent Junie",
-      "summary": "Welcome to Sky’s the Limit - Cloud9 x JetBrains Hackathon Cloud9 is bringing its competitive spirit from the arena to the dev world—with a global hackathon built to ignite creativity, sharpen skills, ...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/016/236/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-02-03T19:00:00.000Z",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$25,000",
       "tags": [
-        "Gaming",
-        "Databases"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -96,9 +78,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-30T02:26:58.480Z",
-      "scrapedAt": "2026-01-30T02:24:52.663Z",
-      "lastUpdated": "2026-01-30T02:26:58.480Z",
+      "processedAt": "2026-01-30T13:06:46.373Z",
+      "scrapedAt": "2026-01-30T13:04:28.358Z",
+      "lastUpdated": "2026-01-30T13:06:46.373Z",
       "version": 1
     },
     {
@@ -106,18 +88,15 @@
       "title": "The Reddit Daily Games Hackathon",
       "platform": "devpost",
       "url": "https://redditdailygames2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/147/444/datas/original.png",
-      "description": "Overview Reddit is hosting a virtual hackathon from January 15th to February 12th. We’re offering developers $40,000 in prizes for games built to delight users with daily play. What to Build Create a new Reddit daily game, experience, or social experiment for the communities of Reddit using our Developer Platform. For this hackathon, we're asking developers to use Devvit Web, which allows you to build Devvit apps using web technologies you’re already familiar with (e.g. React, Phaser, three.js), or your favorite game engine (GameMaker, Unity, Godot, etc). Participants will also have access to GameMaker to make their game shine. While using GameMaker is not required, the best app to use GameMaker will be eligible for a special award. Winners are also eligible to recieve a GameMaker License. The Challenge: Daily Games Built for Reddit Build a game on Devvit using our Interactive Posts feature. We’re looking for daily games that range from puzzles to idlers to brain teasers, and more. The best games get people talking and sharing in the comments! What Counts as a Daily Game: Apps that deliver a strong daily mechanic while being seamlessly integrated into Reddit’s ecosystem. While content doesn’t have to strictly be daily, the game should make smart use of fresh, recurring content. Note that we’re still looking for something that is unique to Reddit and will drive redditor discussion here. Examples of existing Devvit games that include recurring challenges include: r/hotandcold, r/syllacrostic, r/ninigrams and r/pocketgrids. Sub-Categories In addition to an excellent daily experience, we’re looking for standout apps that also achieve the following: Best Use of GameMaker: Best Use of GameMaker: Recognizes the most innovative use of the GameMaker suite of tools in creating a game for the Reddit Devvit platform. Best Mobile Game Play: For an app that has impeccable mobile design and UX. This means the game is optimized for a mobile layout, as well as working seamlessly with mobile keyboards and gestures. Best Use of User Contributions: Apps that enable users to generate content (comments, posts, drawings, puzzles, levels) drive redditor engagement and conversation. This award will go to the app that makes the best use of user-generated content. Requirements Games must be built on Devvit Web and be compliant with our Devvit Rules. Read our guide on how to build games for Reddit for more guidance on building for our platform. For this event we are looking for polish, meaning apps that are as close to launch-ready as possible (bonus points for a good mobile experience). We understand that not all projects will reach this threshold, but projects that are well tested and concept-complete will score higher. While we are accepting existing projects for this event, please note the game should be significantly updated during the hackathon period to qualify for this event. Getting started Get started with the Quickstart You can get started with GameMaker here Browse our Template Library for building with a familiar framework View examples of existing games on r/GameOnReddit Join us on Discord for live support and office hours Sustaining Success Successful apps built during the hackathon can become eligible for Reddit Developer Funds, which rewards apps for reaching engagement milestones. Learn more about the program here. Eligible developers also have access to our Payments sandbox APIs to build premium layers or goods into their apps. To qualify for Developer Funds or Payments API access, developers need to meet our earn eligibility requirements. Once your game has been published and approved, it may be considered for the Featuring Program, which you can apply for here. Need inspiration? Our previous hackathons (including our previous daily games challenge) have great examples of games that lean on user creativity. You can also browse exciting Devvit-built games here. Join our Discord to chat with other developers and get live support from the Reddit team.",
-      "summary": "Overview Reddit is hosting a virtual hackathon from January 15th to February 12th. We’re offering developers $40,000 in prizes for games built to delight users with daily play. What to Build Create a ...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/147/444/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-02-13T02:00:00.000Z",
       "prize": "$40,000",
       "tags": [
-        "Beginner Friendly",
-        "Gaming",
-        "Web"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -125,13 +104,11 @@
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [
-        "it may be considered for the Featuring Program"
-      ],
+      "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-30T02:26:58.521Z",
-      "scrapedAt": "2026-01-30T02:24:52.664Z",
-      "lastUpdated": "2026-01-30T02:26:58.521Z",
+      "processedAt": "2026-01-30T13:06:46.452Z",
+      "scrapedAt": "2026-01-30T13:04:28.359Z",
+      "lastUpdated": "2026-01-30T13:06:46.452Z",
       "version": 1
     },
     {
@@ -139,20 +116,14 @@
       "title": "Play Everywhere: The Build with Snap Games Lensathon",
       "platform": "devpost",
       "url": "https://snapgames.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/061/826/datas/original.png",
-      "description": "About the challenge Build a game on the most fun messaging platform: Snapchat. You’ve built games for mobile, and now bring them to hundreds of millions ready to play, post, and share. Snapchat isn’t just for selfies; it’s a hub for mobile games between friends. Check out the guide on building games for Snapchat. This Lensathon asks you to build Game Lenses that turn a friendly challenge into games worth sharing. Your submission needs to belong to one of the following categories: 2D Games (Leaderboard, Quick Play), 3D Games (Bitmoji-centric, character controller), Turn Based (Multiplayer), Longform (Daily Challenges, Persistent data, story games). Design games that will be popular with Snapchatters. There is a pool of over $30,000 in prizes! Get started Build games for Snapchat with the powerful, free tool, Lens Studio, which is easy to pick up for anyone familiar with other game engines. The tool is based in Javascript and Typescript. But there are lots of ways to build without coding too. Download Lens Studio here Find tutorials and documentation for Lens Studio here Watch a tutorial series about building games on Snapchat here Learn more about the advantages of developing games for Snapchat here Get inspired by seeing the winners of a previous Snapchat Games Lensathon here",
-      "summary": "About the challenge Build a game on the most fun messaging platform: Snapchat. You’ve built games for mobile, and now bring them to hundreds of millions ready to play, post, and share. Snapchat isn’t ...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/061/826/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-02-03T07:45:00.000Z",
       "prize": "$30,000",
-      "tags": [
-        "AR",
-        "VR",
-        "Gaming",
-        "Mobile"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -161,9 +132,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-30T02:26:59.519Z",
-      "scrapedAt": "2026-01-30T02:24:52.664Z",
-      "lastUpdated": "2026-01-30T02:26:59.519Z",
+      "processedAt": "2026-01-30T13:06:47.465Z",
+      "scrapedAt": "2026-01-30T13:04:28.359Z",
+      "lastUpdated": "2026-01-30T13:06:47.465Z",
       "version": 1
     },
     {
@@ -171,19 +142,14 @@
       "title": "Build your Flutter Butler with Serverpod",
       "platform": "devpost",
       "url": "https://serverpod.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/876/643/datas/original.png",
-      "description": "About the challenge We’re celebrating the release of Serverpod 3 with a global hackathon. Join developers from around the world to create your own digital assistant or automation tool using Flutter and Serverpod. Combine the power of Flutter’s front end with Serverpod’s Dart-based backend to craft your very own Flutter Butler that serves, automates, and delights. Whether it’s an AI helper, a productivity app, or a creative automation, this hackathon is your chance to explore the full potential of the Flutter + Serverpod stack and celebrate the next evolution of Dart on the backend. Get started Register on Devpost and review the rules. Install Serverpod and set up your Flutter + Serverpod project. Join our Discord server and find the hackathon channel for all communications. Build your Flutter Butler — an app that acts as your digital assistant or automation partner. Submit your project on Devpost with a short demo video and project description. Need inspiration? Think beyond chatbots — your butler could manage schedules, automate workflows, fetch insights, or even run your smart home. The only limit is your imagination. Free resources After signing up, you’ll receive an email with everything you need to get started, including Serverpod Cloud credits to host your backend during the hackathon and an invite to the Serverpod Discord, where you can connect with the team and get support throughout the hackathon.",
-      "summary": "About the challenge We’re celebrating the release of Serverpod 3 with a global hackathon. Join developers from around the world to create your own digital assistant or automation tool using Flutter an...",
-      "contestType": "video",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/876/643/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-01-30T16:00:00.000Z",
       "prize": "$10,000",
-      "tags": [
-        "Mobile",
-        "Productivity",
-        "Lifehacks"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -192,73 +158,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-30T02:26:59.527Z",
-      "scrapedAt": "2026-01-30T02:24:52.665Z",
-      "lastUpdated": "2026-01-30T02:26:59.527Z",
-      "version": 1
-    },
-    {
-      "id": "c_90883506f4a2",
-      "title": "DevStudio 2026 by Logitech",
-      "platform": "devpost",
-      "url": "https://devstudiologitech2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/192/157/datas/original.png",
-      "description": "Welcome to the DevStudio 2026 by Logitech Challenge. Logitech invites all software developers to explore its ecosystem of devices, enabling the creation of innovative interactions, seamless connections between apps and devices, and entirely new ways of working. Why Participate Collaborate with Logitech Experts: Engage with Logitech’s passionate professionals who are dedicated to creating impactful, cutting-edge solutions for user interaction. Global Reach for Your Application: Gain the opportunity to have your application reach 40+ millions of users through the Logitech Marketplace or the Meta App Store—making your work accessible worldwide. Open Doors to Future Opportunities: Kickstart a potential collaboration with Logitech! Whether you’re an individual, a team, or a company, this challenge could be the beginning of something extraordinary.",
-      "summary": "Welcome to the DevStudio 2026 by Logitech Challenge. Logitech invites all software developers to explore its ecosystem of devices, enabling the creation of innovative interactions, seamless connection...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-02-25T16:00:00.000Z",
-      "prize": "$20,000",
-      "tags": [
-        "AR",
-        "VR",
-        "Open Ended",
-        "Productivity"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-01-30T02:26:59.524Z",
-      "scrapedAt": "2026-01-30T02:24:52.665Z",
-      "lastUpdated": "2026-01-30T02:26:59.524Z",
-      "version": 1
-    },
-    {
-      "id": "c_b46894591f00",
-      "title": "AI Vibe Coding Hackathon",
-      "platform": "devpost",
-      "url": "https://vibe.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/136/979/datas/original.png",
-      "description": "┊ ┊ ┊ ┊ ┊ ┊ .𖥔 ݁ ˖ִ ࣪⚝₊ ⊹˚ ┊ ┊ ┊ ┊ ┊ ˚★⋆｡˚ ⋆ ┊ ┊ ┊ ⋆ ┊ ┊ ★⋆ ┊ ◦ ┊ ★⋆ ┊ . ˚ ˚★⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀ ╰┈➤ 𝚆𝚎'𝚛𝚎 𝚑𝚒𝚛𝚒𝚗𝚐 𝙹𝚞𝚍𝚐𝚎𝚜, 𝙼𝚎𝚗𝚝𝚘𝚛𝚜, 𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚝𝚢 𝙼𝚊𝚗𝚊𝚐𝚎𝚛𝚜, 𝙰𝚖𝚋𝚊𝚜𝚜𝚊𝚍𝚘𝚛𝚜. 𝙴𝚖𝚊𝚒𝚕 𝚖𝚎 𝚊𝚋𝚍𝚒𝚋𝚛𝚘𝚔𝚑𝚒𝚖@𝚐𝚖𝚊𝚒𝚕.𝚌𝚘𝚖 ╰┈➤ 𝚆𝚎'𝚛𝚎 𝚕𝚘𝚘𝚔𝚒𝚗𝚐 𝚏𝚘𝚛 𝚂𝚙𝚘𝚗𝚜𝚘𝚛𝚜, 𝙱𝚛𝚊𝚗𝚍 𝙿𝚊𝚛𝚝𝚗𝚎𝚛𝚜𝚑𝚒𝚙𝚜, 𝙲𝚘𝚘𝚕 𝙿𝚛𝚘𝚍𝚞𝚌𝚝𝚜 𝚝𝚘 𝚖𝚊𝚔𝚎 𝚝𝚑𝚒𝚜 𝚎𝚟𝚎𝚗𝚝 𝚎𝚟𝚎𝚗 𝚋𝚒𝚐𝚐𝚎𝚛 𝚊𝚗𝚍 𝚞𝚗𝚏𝚘𝚛𝚐𝚎𝚝𝚊𝚋𝚕𝚎 𝚏𝚘𝚛 𝚙𝚊𝚛𝚝𝚒𝚌𝚒𝚙𝚊𝚗𝚝𝚜 𝚊𝚗𝚍 𝚒𝚗 𝚝𝚑𝚎 𝚑𝚒𝚜𝚝𝚘𝚛𝚢 𝚘𝚏 𝙰𝙸 𝚑𝚊𝚌𝚔𝚊𝚝𝚑𝚘𝚗𝚜. 𝙴𝚖𝚊𝚒𝚕 𝚖𝚎 𝚊𝚋𝚍𝚒𝚋𝚛𝚘𝚔𝚑𝚒𝚖@𝚐𝚖𝚊𝚒𝚕.𝚌𝚘𝚖 𒅒 𝙰𝙱𝙾𝚄𝚃 𝚃𝙷𝙴 𝙲𝙷𝙰𝙻𝙻𝙴𝙽𝙶𝙴 ╰┈➤ 𝙹𝚘𝚒𝚗 𝚊 𝚌𝚘𝚖𝚖𝚞𝚗𝚒𝚝𝚢 𝚘𝚏 𝚒𝚗𝚗𝚘𝚟𝚊𝚝𝚘𝚛𝚜 𝚊𝚗𝚍 𝚎𝚡𝚙𝚎𝚛𝚝𝚜 𝚒𝚗 𝙰𝙸 𝚊𝚗𝚍 𝚅𝚒𝚋𝚎 𝙲𝚘𝚍𝚒𝚗𝚐! 𝚃𝚑𝚒𝚜 𝚑𝚊𝚌𝚔𝚊𝚝𝚑𝚘𝚗 𝚒𝚜 𝚊𝚗 𝚘𝚙𝚙𝚘𝚛𝚝𝚞𝚗𝚒𝚝𝚢 𝚝𝚘 𝚌𝚘𝚕𝚕𝚊𝚋𝚘𝚛𝚊𝚝𝚎 𝚠𝚒𝚝𝚑 𝚕𝚎𝚊𝚍𝚒𝚗𝚐 𝚖𝚒𝚗𝚍𝚜 𝚒𝚗 𝚖𝚊𝚌𝚑𝚒𝚗𝚎 𝚕𝚎𝚊𝚛𝚗𝚒𝚗𝚐, 𝚜𝚘𝚏𝚝𝚠𝚊𝚛𝚎 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝, 𝚊𝚗𝚍 𝚟𝚊𝚛𝚒𝚘𝚞𝚜 𝚝𝚎𝚌𝚑𝚗𝚒𝚌𝚊𝚕 𝚏𝚒𝚎𝚕𝚍𝚜. 𝚆𝚑𝚎𝚝𝚑𝚎𝚛 𝚢𝚘𝚞'𝚛𝚎 𝚊𝚗 𝙰𝙸 𝚎𝚗𝚝𝚑𝚞𝚜𝚒𝚊𝚜𝚝, 𝚊 𝚜𝚎𝚊𝚜𝚘𝚗𝚎𝚍 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛, 𝚘𝚛 𝚜𝚒𝚖𝚙𝚕𝚢 𝚙𝚊𝚜𝚜𝚒𝚘𝚗𝚊𝚝𝚎 𝚊𝚋𝚘𝚞𝚝 𝚋𝚞𝚒𝚕𝚍𝚒𝚗𝚐 𝚐𝚛𝚘𝚞𝚗𝚍𝚋𝚛𝚎𝚊𝚔𝚒𝚗𝚐 𝚙𝚛𝚘𝚓𝚎𝚌𝚝𝚜, 𝚝𝚑𝚒𝚜 𝚎𝚟𝚎𝚗𝚝 𝚒𝚜 𝚍𝚎𝚜𝚒𝚐𝚗𝚎𝚍 𝚏𝚘𝚛 𝚢𝚘𝚞. 𝙱𝚛𝚒𝚗𝚐 𝚢𝚘𝚞𝚛 𝚒𝚍𝚎𝚊𝚜 𝚝𝚘 𝚕𝚒𝚏𝚎 𝚊𝚗𝚍 𝚌𝚛𝚎𝚊𝚝𝚎 𝚜𝚘𝚖𝚎𝚝𝚑𝚒𝚗𝚐 𝚎𝚡𝚝𝚛𝚊𝚘𝚛𝚍𝚒𝚗𝚊𝚛𝚢—𝙰𝙸-𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚘𝚛 𝚗𝚘𝚝. ✎ᝰ. 𝚂𝙿𝙾𝙽𝚂𝙾𝚁𝚂 𝙴𝚕𝚎𝚟𝚎𝚗𝙻𝚊𝚋𝚜: 𝚃𝚑𝚎 𝚖𝚘𝚜𝚝 𝚛𝚎𝚊𝚕𝚒𝚜𝚝𝚒𝚌 𝙰𝙸 𝚟𝚘𝚒𝚌𝚎 𝚙𝚕𝚊𝚝𝚏𝚘𝚛𝚖. 𝙰𝙸 𝚟𝚘𝚒𝚌𝚎 𝚖𝚘𝚍𝚎𝚕𝚜 𝚊𝚗𝚍 𝚙𝚛𝚘𝚍𝚞𝚌𝚝𝚜 𝚙𝚘𝚠𝚎𝚛𝚒𝚗𝚐 𝚖𝚒𝚕𝚕𝚒𝚘𝚗𝚜 𝚘𝚏 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜, 𝚌𝚛𝚎𝚊𝚝𝚘𝚛𝚜, 𝚊𝚗𝚍 𝚎𝚗𝚝𝚎𝚛𝚙𝚛𝚒𝚜𝚎𝚜. 𝙵𝚛𝚘𝚖 𝚕𝚘𝚠‑𝚕𝚊𝚝𝚎𝚗𝚌𝚢 𝚌𝚘𝚗𝚟𝚎𝚛𝚜𝚊𝚝𝚒𝚘𝚗𝚊𝚕 𝚊𝚐𝚎𝚗𝚝𝚜 𝚝𝚘 𝚝𝚑𝚎 𝚕𝚎𝚊𝚍𝚒𝚗𝚐 𝙰𝙸 𝚟𝚘𝚒𝚌𝚎 𝚐𝚎𝚗𝚎𝚛𝚊𝚝𝚘𝚛 𝚏𝚘𝚛 𝚟𝚘𝚒𝚌𝚎𝚘𝚟𝚎𝚛𝚜 𝚊𝚗𝚍 𝚊𝚞𝚍𝚒𝚘𝚋𝚘𝚘𝚔𝚜. 𝚃𝚛𝚞𝚜𝚝𝚎𝚍 𝚋𝚢 𝚕𝚎𝚊𝚍𝚒𝚗𝚐 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 𝚊𝚗𝚍 𝚎𝚗𝚝𝚎𝚛𝚙𝚛𝚒𝚜𝚎𝚜. 𝚄𝚜𝚎𝚍 𝚋𝚢 𝚖𝚒𝚕𝚕𝚒𝚘𝚗𝚜 𝚘𝚏 𝚝𝚑𝚎 𝚋𝚎𝚜𝚝 𝚌𝚛𝚎𝚊𝚝𝚘𝚛𝚜 𝙵𝚘𝚕𝚕𝚘𝚠 𝚘𝚗 𝚇 ➥ @𝙴𝚕𝚎𝚟𝚎𝚗𝙻𝚊𝚋𝚜 𝙳𝚊𝚢𝚝𝚘𝚗𝚊: 𝚂𝚎𝚌𝚞𝚛𝚎 𝚊𝚗𝚍 𝙴𝚕𝚊𝚜𝚝𝚒𝚌 𝙸𝚗𝚏𝚛𝚊𝚜𝚝𝚛𝚞𝚌𝚝𝚞𝚛𝚎 𝚏𝚘𝚛 𝚁𝚞𝚗𝚗𝚒𝚗𝚐 𝚈𝚘𝚞𝚛 𝙰𝙸-𝙶𝚎𝚗𝚎𝚛𝚊𝚝𝚎𝚍 𝙲𝚘𝚍𝚎. 𝚄𝚜𝚎𝚍 𝚋𝚢 𝚟𝚒𝚛𝚊𝚕 𝚌𝚘𝚖𝚙𝚊𝚗𝚒𝚎𝚜 𝚕𝚒𝚔𝚎 𝙻𝚊𝚗𝚐𝙲𝚑𝚊𝚒𝚗, 𝙱𝚛𝚘𝚠𝚜𝚎𝚛 𝚄𝚜𝚎, 𝚂𝚊𝚖𝚋𝚊𝙽𝚘𝚟𝚊, 𝙿𝚛𝚘𝚜𝚞𝚜, 𝚊𝚗𝚍 𝙾𝚛𝚌𝚑𝚒𝚍𝚜. 𝙼𝚘𝚛𝚎 𝚃𝚑𝚊𝚗 𝚊 𝚂𝚊𝚗𝚍𝚋𝚘𝚡. 𝚃𝚑𝚎 𝚁𝚞𝚗𝚝𝚒𝚖𝚎 𝙰𝙸 𝙰𝚐𝚎𝚗𝚝𝚜 𝙰𝚌𝚝𝚞𝚊𝚕𝚕𝚢 𝙽𝚎𝚎𝚍. 𝙰𝚐𝚎𝚗𝚝𝚜 𝚌𝚊𝚗 𝚗𝚘𝚠 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚜𝚊𝚖𝚎 𝚝𝚘𝚘𝚕𝚜 𝚊𝚜 𝚑𝚞𝚖𝚊𝚗𝚜. 𝙴𝚟𝚎𝚛𝚢𝚝𝚑𝚒𝚗𝚐 𝙳𝚘𝚌𝚔𝚎𝚛 𝙿𝚛𝚘𝚟𝚒𝚍𝚎𝚜 𝙽𝚊𝚝𝚒𝚟𝚎𝚕𝚢 𝙽𝚘𝚠 𝚊𝚜 𝙿𝚊𝚛𝚝 𝚘𝚏 𝙳𝚊𝚢𝚝𝚘𝚗𝚊. 𝙵𝚘𝚕𝚕𝚘𝚠 𝚘𝚗 𝚇 ➥ @𝙳𝚊𝚢𝚝𝚘𝚗𝚊 𝙽𝚘𝚛𝚍 𝚂𝚎𝚌𝚞𝚛𝚒𝚝𝚢: 𝙻𝚒𝚏𝚎 𝚒𝚜 𝙾𝚗𝚕𝚒𝚗𝚎. 𝙾𝚠𝚗 𝚒𝚝. 𝚃𝚑𝚎 𝚝𝚎𝚊𝚖 𝚋𝚎𝚑𝚒𝚗𝚍 𝙽𝚘𝚛𝚍𝚅𝙿𝙽, 𝙽𝚘𝚛𝚍𝙿𝚊𝚜𝚜, 𝚂𝚊𝚒𝚕𝚢, 𝙸𝚗𝚌𝚘𝚐𝚗𝚒 𝚎𝚝𝚌. 𝙽𝚘𝚛𝚍 𝚂𝚎𝚌𝚞𝚛𝚒𝚝𝚢'𝚜 𝚕𝚎𝚊𝚍𝚒𝚗𝚐 𝚍𝚒𝚐𝚒𝚝𝚊𝚕 𝚙𝚛𝚘𝚍𝚞𝚌𝚝𝚜 𝚑𝚊𝚟𝚎 𝚋𝚎𝚎𝚗 𝚖𝚊𝚔𝚒𝚗𝚐 𝚠𝚊𝚟𝚎𝚜 𝚠𝚒𝚝𝚑 𝚋𝚒𝚐 𝚖𝚎𝚗𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝙿𝙲𝙼𝚊𝚐, 𝙱𝙱𝙲, 𝙵𝚘𝚛𝚋𝚎𝚜, 𝚆𝚒𝚛𝚎𝚍, 𝚊𝚗𝚍 𝚖𝚘𝚛𝚎. 𝙵𝚘𝚕𝚕𝚘𝚠 𝚘𝚗 𝚇 ➥ @𝙽𝚘𝚛𝚍𝚅𝙿𝙽 ┆ @𝙽𝚘𝚛𝚍𝙿𝚊𝚜𝚜 ┆ @𝙸𝚗𝚌𝚘𝚐𝚗𝚒 ┆ @𝚂𝚊𝚒𝚕𝚢 ┆ @𝙽𝚎𝚡𝚘𝚜𝙰𝙸 𝙾𝚕𝚊.𝚌𝚟: .𝚌𝚟 – 𝙾𝚠𝚗 𝚈𝚘𝚞𝚛 𝙾𝚗𝚕𝚒𝚗𝚎 𝙸𝚍𝚎𝚗𝚝𝚒𝚝𝚢. 𝙳𝚘𝚖𝚊𝚒𝚗 𝚗𝚊𝚖𝚎 𝚒𝚗𝚏𝚛𝚊𝚜𝚝𝚛𝚞𝚌𝚝𝚞𝚛𝚎 𝚏𝚘𝚛 𝚘𝚗𝚕𝚒𝚗𝚎 𝚙𝚛𝚘𝚏𝚒𝚕𝚎𝚜. 𝙱𝚞𝚒𝚕𝚍 𝚒𝚗𝚍𝚎𝚙𝚎𝚗𝚍𝚎𝚗𝚝 𝚙𝚛𝚘𝚍𝚞𝚌𝚝𝚜 𝚘𝚗 𝚒𝚝. 𝙿𝚊𝚛𝚝𝚒𝚌𝚒𝚙𝚊𝚗𝚝𝚜 𝚊𝚛𝚎 𝚌𝚑𝚊𝚕𝚕𝚎𝚗𝚐𝚎𝚍 𝚝𝚘 𝚋𝚞𝚒𝚕𝚍 𝚝𝚘𝚘𝚕𝚜, 𝚊𝚐𝚎𝚗𝚝𝚜, 𝚊𝚗𝚍 𝚜𝚢𝚜𝚝𝚎𝚖𝚜 𝚝𝚑𝚊𝚝 𝚝𝚛𝚎𝚊𝚝 .𝚌𝚟 𝚍𝚘𝚖𝚊𝚒𝚗𝚜 𝚊𝚜 𝚝𝚑𝚎 𝚌𝚊𝚗𝚘𝚗𝚒𝚌𝚊𝚕 𝚒𝚍𝚎𝚗𝚝𝚒𝚝𝚢 𝚕𝚊𝚢𝚎𝚛, 𝚞𝚜𝚒𝚗𝚐 𝚍𝚘𝚖𝚊𝚒𝚗 𝚘𝚠𝚗𝚎𝚛𝚜𝚑𝚒𝚙, 𝙳𝙽𝚂, 𝚊𝚗𝚍 𝚙𝚛𝚘𝚏𝚒𝚕𝚎 𝚙𝚞𝚋𝚕𝚒𝚜𝚑𝚒𝚗𝚐 𝚊𝚜 𝚙𝚛𝚒𝚖𝚒𝚝𝚒𝚟𝚎𝚜. 𝙵𝚘𝚕𝚕𝚘𝚠 𝚘𝚗 X ➥ @𝙾𝚕𝚊.𝚌𝚟 𝙻𝚎𝚊𝚗𝙼𝙲𝙿: 𝙸𝚗𝚏𝚛𝚊𝚜𝚝𝚛𝚞𝚌𝚝𝚞𝚛𝚎 𝚏𝚘𝚛 𝙰𝙸 𝚊𝚐𝚎𝚗𝚝𝚜. 𝙱𝚞𝚒𝚕𝚍 & 𝙳𝚎𝚙𝚕𝚘𝚢 𝙿𝚛𝚘𝚍𝚞𝚌𝚝𝚒𝚘𝚗-𝚁𝚎𝚊𝚍𝚢 𝙼𝙲𝙿 𝙰𝚐𝚎𝚗𝚝 𝚒𝚗 𝟹 𝚖𝚒𝚗𝚞𝚝𝚎𝚜 𝚘𝚛 𝚕𝚎𝚜𝚜. 𝙵𝚘𝚕𝚕𝚘𝚠 𝚘𝚗 𝙻𝚒𝚗𝚔𝚎𝚍𝙸𝚗 ➥ @𝙻𝚎𝚊𝚗𝙼𝙲𝙿 𝙰𝙸/𝙼𝙻 𝙰𝙿𝙸: 𝙾𝚗𝚎 𝙰𝙿𝙸 𝟺𝟶𝟶+ 𝙰𝙸 𝙼𝚘𝚍𝚎𝚕𝚜. 𝙰 𝚙𝚕𝚊𝚝𝚏𝚘𝚛𝚖 𝚝𝚑𝚊𝚝 𝚙𝚛𝚘𝚟𝚒𝚍𝚎𝚜 𝚊 𝚞𝚗𝚒𝚏𝚒𝚎𝚍 𝚐𝚊𝚝𝚎𝚠𝚊𝚢 𝚝𝚘 𝚑𝚞𝚗𝚍𝚛𝚎𝚍𝚜 𝚘𝚏 𝚍𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚝 𝙰𝙸/𝙼𝙻 𝚖𝚘𝚍𝚎𝚕𝚜 𝚝𝚑𝚛𝚘𝚞𝚐𝚑 𝚊 𝚜𝚒𝚗𝚐𝚕𝚎 𝚒𝚗𝚝𝚎𝚛𝚏𝚊𝚌𝚎. 𝙵𝚘𝚕𝚕𝚘𝚠 𝚘𝚗 X ➥ @𝙰𝙸/𝙼𝙻 𝙰𝙿𝙸 𝙲𝚘𝚖𝚎𝚝𝙰𝙿𝙸: 𝙰𝚌𝚌𝚎𝚜𝚜 𝚃𝚘𝚙 𝙼𝚘𝚍𝚎𝚕𝚜 𝚊𝚝 𝙻𝚘𝚠 𝙲𝚘𝚜𝚝. 𝙰𝚕𝚕-𝚒𝚗-𝚘𝚗𝚎 𝙰𝙸 𝙰𝙿𝙸 𝚙𝚕𝚊𝚝𝚏𝚘𝚛𝚖 𝚍𝚎𝚍𝚒𝚌𝚊𝚝𝚎𝚍 𝚝𝚘 𝚙𝚛𝚘𝚟𝚒𝚍𝚒𝚗𝚐 𝚢𝚘𝚞 𝚠𝚒𝚝𝚑 𝚊 𝚜𝚝𝚊𝚋𝚕𝚎, 𝚎𝚏𝚏𝚒𝚌𝚒𝚎𝚗𝚝, 𝚊𝚗𝚍 𝚌𝚘𝚜𝚝-𝚎𝚏𝚏𝚎𝚌𝚝𝚒𝚟𝚎 𝚜𝚘𝚕𝚞𝚝𝚒𝚘𝚗. 𝚆𝚒𝚝𝚑 𝙲𝚘𝚖𝚎𝚝𝙰𝙿𝙸, 𝚢𝚘𝚞 𝚘𝚗𝚕𝚢 𝚗𝚎𝚎𝚍 𝚘𝚗𝚎 𝙰𝙿𝙸 𝙺𝚎𝚢 𝚝𝚘 𝚎𝚊𝚜𝚒𝚕𝚢 𝚊𝚌𝚌𝚎𝚜𝚜 𝚘𝚟𝚎𝚛 𝟻𝟶𝟶 𝚒𝚗𝚍𝚞𝚜𝚝𝚛𝚢-𝚕𝚎𝚊𝚍𝚒𝚗𝚐 𝙰𝙸 𝚖𝚘𝚍𝚎𝚕𝚜, 𝚊𝚕𝚕 𝚠𝚑𝚒𝚕𝚎 𝚎𝚗𝚓𝚘𝚢𝚒𝚗𝚐 𝚖𝚘𝚛𝚎 𝚌𝚘𝚖𝚙𝚎𝚝𝚒𝚝𝚒𝚟𝚎 𝚙𝚛𝚒𝚌𝚒𝚗𝚐 𝚝𝚑𝚊𝚗 𝚘𝚏𝚏𝚒𝚌𝚒𝚊𝚕 𝚌𝚑𝚊𝚗𝚗𝚎𝚕𝚜. 𝙵𝚘𝚕𝚕𝚘𝚠 𝚘𝚗 𝙻𝚒𝚗𝚔𝚎𝚍𝙸𝚗 ➥ @CometAPI 𝙺𝚛𝚘𝚜𝙰𝙸: 𝚃𝚑𝚎 𝚟𝚘𝚒𝚌𝚎 𝚊𝚗𝚍 𝚕𝚊𝚗𝚐𝚞𝚊𝚐𝚎 𝚒𝚗𝚏𝚛𝚊𝚜𝚝𝚛𝚞𝚌𝚝𝚞𝚛𝚎 𝚏𝚘𝚛 𝚎𝚖𝚎𝚛𝚐𝚒𝚗𝚐 𝚖𝚊𝚛𝚔𝚎𝚝𝚜. 𝚃𝚑𝚎𝚢’𝚛𝚎 𝚘𝚗 𝚊 𝚖𝚒𝚜𝚜𝚒𝚘𝚗 𝚝𝚘 𝚑𝚎𝚕𝚙 𝚋𝚞𝚜𝚒𝚗𝚎𝚜𝚜𝚎𝚜 𝚌𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚎 𝚖𝚘𝚛𝚎 𝚎𝚏𝚏𝚎𝚌𝚝𝚒𝚟𝚎𝚕𝚢 𝚠𝚒𝚝𝚑 𝚝𝚑𝚎 𝚗𝚎𝚡𝚝 𝚋𝚒𝚕𝚕𝚒𝚘𝚗 𝚞𝚜𝚎𝚛𝚜 𝚋𝚢 𝚖𝚊𝚔𝚒𝚗𝚐 𝙰𝙸 𝚜𝚙𝚎𝚊𝚔 𝚊𝚗𝚍 𝚞𝚗𝚍𝚎𝚛𝚜𝚝𝚊𝚗𝚍 𝚕𝚘𝚠-𝚛𝚎𝚜𝚘𝚞𝚛𝚌𝚎 𝚕𝚊𝚗𝚐𝚞𝚊𝚐𝚎𝚜, 𝚏𝚕𝚞𝚎𝚗𝚝𝚕𝚢, 𝚌𝚘𝚗𝚝𝚎𝚡𝚝𝚞𝚊𝚕𝚕𝚢, 𝚊𝚗𝚍 𝚊𝚏𝚏𝚘𝚛𝚍𝚊𝚋𝚕𝚢. 𝙵𝚘𝚕𝚕𝚘𝚠 𝚘𝚗 𝙻𝚒𝚗𝚔𝚎𝚍𝙸𝚗 ➥ @𝙺𝚛𝚘𝚜𝙰𝙸 𝙸𝚕𝚘𝚗𝚊 𝙱𝚎𝚛𝚗𝚘𝚝𝚊𝚒𝚝𝚎 — 𝙿𝚊𝚛𝚝𝚗𝚎𝚛 𝚊𝚝 𝙻𝚘𝚜𝚝 𝙰𝚜𝚝𝚛𝚘𝚗𝚊𝚞𝚝 𝚊𝚗𝚍 𝙲𝚘-𝙲𝚛𝚎𝚊𝚝𝚘𝚛 𝚘𝚏 𝙱𝚊𝚜𝚎𝙹𝚞𝚖𝚙. 𝙱𝚊𝚜𝚎𝚍 𝚒𝚗 𝙼𝚎𝚕𝚋𝚘𝚞𝚛𝚗𝚎, 𝙰𝚞𝚜𝚝𝚛𝚊𝚕𝚒𝚊, 𝚜𝚑𝚎 𝚜𝚌𝚘𝚞𝚝𝚜 𝚊𝚗𝚍 𝚒𝚗𝚟𝚎𝚜𝚝𝚜 𝚒𝚗 𝚏𝚘𝚞𝚗𝚍𝚎𝚛𝚜 𝚐𝚕𝚘𝚋𝚊𝚕𝚕𝚢. 𝚂𝚑𝚎 𝚍𝚎𝚜𝚌𝚛𝚒𝚋𝚎𝚜 𝚑𝚎𝚛 𝚖𝚒𝚜𝚜𝚒𝚘𝚗 𝚊𝚜 𝚏𝚒𝚗𝚍𝚒𝚗𝚐 \"𝙵𝚞𝚝𝚞𝚛𝚎 𝙵𝚘𝚞𝚗𝚍𝚎𝚛𝚜\" 𝚊𝚗𝚍 𝚑𝚎𝚕𝚙𝚒𝚗𝚐 𝚝𝚑𝚎𝚖 𝚕𝚊𝚞𝚗𝚌𝚑 𝚞𝚗𝚒𝚌𝚘𝚛𝚗𝚜. 𝙰𝚝 𝙱𝚊𝚜𝚎𝙹𝚞𝚖𝚙 𝚞𝚗𝚕𝚒𝚔𝚎 𝚝𝚛𝚊𝚍𝚒𝚝𝚒𝚘𝚗𝚊𝚕 𝚅𝙲𝚜, 𝚝𝚑𝚎𝚢 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚋𝚘𝚝𝚑 𝚝𝚑𝚎 𝚒𝚍𝚎𝚊 𝚊𝚗𝚍 𝚝𝚑𝚎 𝚏𝚞𝚗𝚍𝚒𝚗𝚐, 𝚊𝚜𝚔𝚒𝚗𝚐 𝚈𝙾𝚄 𝚝𝚘 𝚑𝚊𝚗𝚍𝚕𝚎 𝚝𝚑𝚎 𝚎𝚡𝚎𝚌𝚞𝚝𝚒𝚘𝚗. 𝙹𝚞𝚜𝚝 𝚋𝚞𝚒𝚕𝚍 𝚒𝚝. 𝚘𝚏𝚏𝚎𝚛𝚜 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝚝𝚛𝚊𝚌𝚔𝚜 𝚏𝚘𝚛 𝙵𝚘𝚞𝚗𝚍𝚎𝚛𝚜 (𝚙𝚛𝚘𝚟𝚒𝚗𝚐 𝚒𝚗𝚜𝚝𝚒𝚗𝚌𝚝 𝚊𝚗𝚍 𝚜𝚙𝚘𝚝𝚝𝚒𝚗𝚐 𝚘𝚙𝚙𝚘𝚛𝚝𝚞𝚗𝚒𝚝𝚒𝚎𝚜), 𝚂𝚝𝚞𝚍𝚎𝚗𝚝𝚜 (𝚊 𝟹-𝚖𝚘𝚗𝚝𝚑 𝚜𝚌𝚑𝚘𝚕𝚊𝚛𝚜𝚑𝚒𝚙 𝚙𝚛𝚘𝚐𝚛𝚊𝚖 𝚏𝚘𝚛 𝚞𝚗𝚍𝚎𝚛-𝟸𝟻𝚜), 𝚊𝚗𝚍 𝙲𝚛𝚎𝚊𝚝𝚘𝚛𝚜 (𝚊 𝚛𝚎𝚊𝚕𝚒𝚝𝚢 𝚜𝚑𝚘𝚠 𝚏𝚘𝚛𝚖𝚊𝚝 𝚏𝚘𝚛 𝚜𝚝𝚘𝚛𝚢𝚝𝚎𝚕𝚕𝚎𝚛𝚜/𝚐𝚛𝚘𝚠𝚝𝚑 𝚑𝚊𝚌𝚔𝚎𝚛𝚜). 𝙻𝚘𝚜𝚝 𝙰𝚜𝚝𝚛𝚘𝚗𝚊𝚞𝚝 𝚜𝚎𝚛𝚟𝚎 𝚊𝚜 𝚊𝚗 𝚒𝚗𝚟𝚎𝚜𝚝𝚖𝚎𝚗𝚝 𝚊𝚗𝚍 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝 𝚙𝚕𝚊𝚝𝚏𝚘𝚛𝚖 𝚝𝚑𝚊𝚝 𝚙𝚛𝚒𝚘𝚛𝚒𝚝𝚒𝚣𝚎𝚜 𝚙𝚎𝚘𝚙𝚕𝚎 (\"𝚊𝚜𝚝𝚛𝚘𝚗𝚊𝚞𝚝𝚜\") 𝚏𝚒𝚛𝚜𝚝, 𝚙𝚛𝚘𝚟𝚒𝚍𝚒𝚗𝚐 𝚝𝚑𝚎 𝚏𝚞𝚗𝚍𝚒𝚗𝚐, 𝚖𝚎𝚗𝚝𝚘𝚛𝚜𝚑𝚒𝚙, 𝚘𝚛 𝚌𝚘-𝚏𝚘𝚞𝚗𝚍𝚎𝚛 𝚘𝚙𝚙𝚘𝚛𝚝𝚞𝚗𝚒𝚝𝚒𝚎𝚜 𝚗𝚎𝚎𝚍𝚎𝚍 𝚝𝚘 𝚕𝚊𝚞𝚗𝚌𝚑 𝚎𝚡𝚝𝚛𝚊𝚘𝚛𝚍𝚒𝚗𝚊𝚛𝚢 𝚟𝚎𝚗𝚝𝚞𝚛𝚎𝚜. 𝙵𝚘𝚛𝚋𝚎𝚜 𝙵𝚘𝚕𝚕𝚘𝚠 𝚘𝚗 𝙻𝚒𝚗𝚔𝚎𝚍𝙸𝚗 ➥ @𝙻𝚘𝚜𝚝 𝙰𝚜𝚝𝚛𝚘𝚗𝚊𝚞𝚝 𝙽𝚘𝚟𝚒𝚝𝚊 𝙰𝙸 – 𝚊𝚗 𝚊𝚕𝚕-𝚒𝚗-𝚘𝚗𝚎 𝙰𝙸 𝚌𝚕𝚘𝚞𝚍 𝚙𝚕𝚊𝚝𝚏𝚘𝚛𝚖 𝚙𝚛𝚘𝚟𝚒𝚍𝚒𝚗𝚐 𝙼𝚘𝚍𝚎𝚕 𝙰𝙿𝙸𝚜, 𝚂𝚎𝚛𝚟𝚎𝚛𝚕𝚎𝚜𝚜 𝚘𝚙𝚝𝚒𝚘𝚗𝚜, 𝚊𝚗𝚍 𝙶𝙿𝚄 𝙸𝚗𝚜𝚝𝚊𝚗𝚌𝚎𝚜. 𝙽𝚘𝚟𝚒𝚝𝚊𝙰𝙸 𝚙𝚊𝚛𝚝𝚗𝚎𝚛 𝚠𝚒𝚝𝚑 𝚕𝚎𝚊𝚍𝚎𝚛𝚜 𝚕𝚒𝚔𝚎 𝚟𝙻𝙻𝙼, 𝚂𝙶𝙻𝚊𝚗𝚐, 𝙾𝚙𝚎𝚗𝚁𝚘𝚞𝚝𝚎𝚛, 𝚊𝚗𝚍 𝙿𝚘𝚎, 𝚊𝚗𝚍 𝚊𝚛𝚎 𝚌𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚛𝚊𝚗𝚔𝚎𝚍 𝚊𝚜 𝚝𝚑𝚎 #𝟷 𝙸𝚗𝚏𝚎𝚛𝚎𝚗𝚌𝚎 𝙿𝚛𝚘𝚟𝚒𝚍𝚎𝚛 𝚘𝚗 𝙷𝚞𝚐𝚐𝚒𝚗𝚐 𝙵𝚊𝚌𝚎. 𝙵𝚘𝚕𝚕𝚘𝚠 𝚘𝚗 X ➥ @𝙽𝚘𝚟𝚒𝚝𝚊𝙰𝙸 𝚂𝚞𝚛𝚐𝚎𝚗𝚝: 𝙼𝚊𝚔𝚎 𝚒𝚝 𝚎𝚊𝚜𝚢 𝚏𝚘𝚛 𝚊𝚗𝚢𝚘𝚗𝚎 𝚝𝚘 𝚋𝚞𝚒𝚕𝚍 𝚊𝚗𝚍 𝚖𝚘𝚗𝚎𝚝𝚒𝚣𝚎 𝚜𝚘𝚏𝚝𝚠𝚊𝚛𝚎. 𝙲𝚛𝚎𝚊𝚝𝚘𝚛𝚜 𝚑𝚊𝚟𝚎 𝚒𝚍𝚎𝚊𝚜 𝚊𝚗𝚍 𝚊𝚞𝚍𝚒𝚎𝚗𝚌𝚎𝚜. 𝚆𝚑𝚊𝚝 𝚝𝚑𝚎𝚢 𝚍𝚘𝚗'𝚝 𝚑𝚊𝚟𝚎 𝚒𝚜 𝚊 𝚠𝚊𝚢 𝚝𝚘 𝚜𝚑𝚒𝚙 𝚛𝚎𝚊𝚕 𝚙𝚛𝚘𝚍𝚞𝚌𝚝𝚜 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝚌𝚘𝚍𝚎, 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝚑𝚒𝚛𝚒𝚗𝚐, 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝚓𝚞𝚖𝚙𝚒𝚗𝚐 𝚝𝚑𝚛𝚘𝚞𝚐𝚑 𝚑𝚘𝚘𝚙𝚜. 𝙳𝚎𝚜𝚌𝚛𝚒𝚋𝚎 𝚠𝚑𝚊𝚝 𝚢𝚘𝚞 𝚠𝚊𝚗𝚝. 𝚆𝚎 𝚋𝚞𝚒𝚕𝚍 𝚒𝚝. 𝚈𝚘𝚞 𝚜𝚎𝚕𝚕 𝚒𝚝. 𝚆𝚎 𝚑𝚊𝚗𝚍𝚕𝚎 𝚙𝚊𝚢𝚖𝚎𝚗𝚝𝚜 𝚊𝚗𝚍 𝚑𝚘𝚜𝚝𝚒𝚗𝚐. 𝙽𝚘 𝚂𝚝𝚛𝚒𝚙𝚎. 𝙽𝚘 𝚌𝚘𝚍𝚒𝚗𝚐 𝚔𝚗𝚘𝚠𝚕𝚎𝚍𝚐𝚎. 𝚃𝚑𝚎𝚢'𝚛𝚎 𝚑𝚒𝚛𝚒𝚗𝚐. 𝙱𝚞𝚒𝚕𝚍 𝚌𝚘𝚘𝚕 𝚜𝚝𝚞𝚏𝚏 𝚊𝚗𝚍 𝚢𝚘𝚞 𝚖𝚒𝚐𝚑𝚝 𝚓𝚘𝚒𝚗 𝚝𝚑𝚎 𝚃𝚎𝚊𝚖! 𝚂𝚒𝚛𝚊𝚢.𝚊𝚒: 𝚄𝚗𝚒𝚏𝚒𝚎𝚍 𝙰𝙿𝙸 𝚂𝚘𝚕𝚞𝚝𝚒𝚘𝚗 𝚏𝚘𝚛 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 𝙰 𝚞𝚗𝚒𝚏𝚒𝚎𝚍 𝙰𝙸 𝙰𝙿𝙸 𝚙𝚕𝚊𝚝𝚏𝚘𝚛𝚖 𝚋𝚞𝚒𝚕𝚝 𝚏𝚘𝚛 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜. 𝚃𝚑𝚎𝚢 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚌𝚘𝚜𝚝-𝚎𝚏𝚏𝚎𝚌𝚝𝚒𝚟𝚎, 𝚎𝚗𝚝𝚎𝚛𝚙𝚛𝚒𝚜𝚎-𝚐𝚛𝚊𝚍𝚎 𝙰𝙿𝙸𝚜 𝚜𝚘𝚞𝚛𝚌𝚎𝚍 𝚍𝚒𝚛𝚎𝚌𝚝𝚕𝚢 𝚏𝚛𝚘𝚖 𝚖𝚊𝚓𝚘𝚛 𝚌𝚕𝚘𝚞𝚍 𝚙𝚕𝚊𝚝𝚏𝚘𝚛𝚖𝚜 𝚊𝚗𝚍 𝚘𝚏𝚏𝚒𝚌𝚒𝚊𝚕 𝙰𝙸 𝚖𝚘𝚍𝚎𝚕 𝚙𝚛𝚘𝚟𝚒𝚍𝚎𝚛𝚜. 𝚂𝚒𝚛𝚊𝚢 𝚜𝚞𝚙𝚙𝚘𝚛𝚝𝚜 𝚊 𝚏𝚞𝚕𝚕 𝚖𝚘𝚍𝚎𝚕 𝚌𝚊𝚝𝚊𝚕𝚘𝚐—𝚒𝚗𝚌𝚕𝚞𝚍𝚒𝚗𝚐 𝙻𝙻𝙼𝚜, 𝙾𝙲𝚁, 𝚒𝚖𝚊𝚐𝚎 𝚐𝚎𝚗𝚎𝚛𝚊𝚝𝚒𝚘𝚗, 𝚊𝚗𝚍 𝚟𝚒𝚍𝚎𝚘 𝚐𝚎𝚗𝚎𝚛𝚊𝚝𝚒𝚘𝚗—𝚝𝚑𝚛𝚘𝚞𝚐𝚑 𝚊 𝚜𝚒𝚗𝚐𝚕𝚎 𝙰𝙿𝙸. 𝙱𝚢 𝚌𝚘𝚗𝚜𝚘𝚕𝚒𝚍𝚊𝚝𝚒𝚗𝚐 𝚖𝚞𝚕𝚝𝚒𝚙𝚕𝚎 𝚙𝚛𝚘𝚟𝚒𝚍𝚎𝚛𝚜 𝚒𝚗𝚝𝚘 𝚘𝚗𝚎 𝚒𝚗𝚝𝚎𝚐𝚛𝚊𝚝𝚒𝚘𝚗, 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 𝚌𝚊𝚗 𝚜𝚒𝚖𝚙𝚕𝚒𝚏𝚢 𝚠𝚘𝚛𝚔𝚏𝚕𝚘𝚠𝚜 𝚊𝚗𝚍 𝚛𝚎𝚍𝚞𝚌𝚎 𝙰𝙿𝙸 𝚌𝚘𝚜𝚝𝚜 𝚋𝚢 𝚞𝚙 𝚝𝚘 𝟽𝟶%, 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝚜𝚊𝚌𝚛𝚒𝚏𝚒𝚌𝚒𝚗𝚐 𝚛𝚎𝚕𝚒𝚊𝚋𝚒𝚕𝚒𝚝𝚢 𝚘𝚛 𝚙𝚎𝚛𝚏𝚘𝚛𝚖𝚊𝚗𝚌𝚎. 𝚈𝚊𝚙𝚜 𝙶𝙶: 𝚈𝚘𝚞𝚛 𝚐𝚘-𝚝𝚘 𝚠𝚎𝚋𝚜𝚒𝚝𝚎 𝚏𝚘𝚛 𝚎𝚟𝚎𝚛𝚢𝚝𝚑𝚒𝚗𝚐. 𝚃𝚑𝚎 𝚖𝚘𝚜𝚝 𝚟𝚒𝚛𝚊𝚕 𝚘𝚙𝚎𝚗-𝚜𝚘𝚞𝚛𝚌𝚎 𝚙𝚛𝚘𝚓𝚎𝚌𝚝𝚜. 𝙾𝚟𝚎𝚛 𝟻𝟶 𝚊𝚙𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚘𝚗𝚜 𝚠𝚒𝚝𝚑 𝚜𝚝𝚎𝚙-𝚋𝚢-𝚜𝚝𝚎𝚙 𝚐𝚞𝚒𝚍𝚊𝚗𝚌𝚎. 𝚁𝚎𝚊𝚕 𝚕𝚒𝚏𝚎 𝚜𝚝𝚘𝚛𝚒𝚎𝚜 𝚏𝚛𝚘𝚖 𝚍𝚊𝚒𝚕𝚢 𝙷𝚞𝚖𝚊𝚗 𝚕𝚒𝚏𝚎. 𝙲𝚛𝚎𝚊𝚝𝚒𝚟𝚎 𝚒𝚍𝚎𝚊𝚜 𝚠𝚒𝚝𝚑 𝚝𝚞𝚝𝚘𝚛𝚒𝚊𝚕𝚜. 𝙰𝚗𝚍 𝚖𝚞𝚌𝚑 𝚖𝚘𝚛𝚎 𝚜𝚝𝚞𝚏𝚏. 𝙾𝚙𝚎𝚗 𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚝𝚢: 𝚃𝚛𝚞𝚎𝚕𝚢-𝚘𝚙𝚎𝚗 𝚌𝚘𝚖𝚖𝚞𝚗𝚒𝚝𝚢 𝚝𝚘 𝚕𝚎𝚊𝚛𝚗 𝚝𝚑𝚒𝚗𝚐𝚜 𝚒𝚗𝚜𝚊𝚗𝚎𝚕𝚢 𝚏𝚊𝚜𝚝. 𝙰𝙽𝙾𝚁𝙰 𝙻𝚊𝚋𝚜: FLORA 𝚊𝚕𝚝𝚎𝚛𝚗𝚊𝚝𝚒𝚟𝚎. .𓋼𓍊 𝙿𝙰𝚁𝚃𝙽𝙴𝚁𝚂 𝙼𝚒𝚛𝚣𝚘 𝚄𝚕𝚞𝚐𝚑 𝙱𝚎𝚐'𝚜 𝙻𝚎𝚐𝚊𝚌𝚢: 𝙼𝚄𝙱𝙻 𝚒𝚜 𝚋𝚞𝚒𝚕𝚍𝚒𝚗𝚐 𝚝𝚑𝚎 𝚗𝚎𝚡𝚝 𝚐𝚎𝚗𝚎𝚛𝚊𝚝𝚒𝚘𝚗 𝚘𝚏 𝚛𝚘𝚋𝚘𝚝𝚒𝚌𝚜 𝚊𝚗𝚍 𝙰𝙸 𝚝𝚊𝚕𝚎𝚗𝚝 — 𝚌𝚘𝚗𝚗𝚎𝚌𝚝𝚒𝚗𝚐 𝚋𝚞𝚒𝚕𝚍𝚎𝚛𝚜 𝚝𝚘 𝚝𝚘𝚙 𝚖𝚎𝚗𝚝𝚘𝚛𝚜, 𝚛𝚎𝚊𝚕-𝚠𝚘𝚛𝚕𝚍 𝚎𝚡𝚙𝚎𝚛𝚒𝚎𝚗𝚌𝚎, 𝚊𝚗𝚍 𝚐𝚕𝚘𝚋𝚊𝚕 𝚘𝚙𝚙𝚘𝚛𝚝𝚞𝚗𝚒𝚝𝚒𝚎𝚜. 𝙸𝚗𝚝𝚎𝚛𝚗𝙳𝙱 𝚒𝚜 𝚍𝚎𝚍𝚒𝚌𝚊𝚝𝚎𝚍 𝚝𝚘 𝚛𝚎𝚟𝚘𝚕𝚞𝚝𝚒𝚘𝚗𝚒𝚣𝚒𝚗𝚐 𝚝𝚑𝚎 𝚠𝚊𝚢 𝚝𝚎𝚌𝚑 𝚜𝚝𝚞𝚍𝚎𝚗𝚝𝚜 𝚊𝚗𝚍 𝚎𝚊𝚛𝚕𝚢 𝚌𝚊𝚛𝚎𝚎𝚛 𝚙𝚛𝚘𝚏𝚎𝚜𝚜𝚒𝚘𝚗𝚊𝚕𝚜 𝚗𝚊𝚟𝚒𝚐𝚊𝚝𝚎 𝚝𝚑𝚎 𝚒𝚗𝚝𝚎𝚛𝚗𝚜𝚑𝚒𝚙 𝚕𝚊𝚗𝚍𝚜𝚌𝚊𝚙𝚎. 𝙸𝚗𝚝𝚎𝚛𝚗𝙳𝙱’𝚜 𝚙𝚞𝚛𝚙𝚘𝚜𝚎 𝚒𝚜 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 𝚊 𝚌𝚘𝚖𝚙𝚛𝚎𝚑𝚎𝚗𝚜𝚒𝚟𝚎, 𝚞𝚜𝚎𝚛-𝚏𝚛𝚒𝚎𝚗𝚍𝚕𝚢 𝚙𝚕𝚊𝚝𝚏𝚘𝚛𝚖 𝚝𝚑𝚊𝚝 𝚙𝚛𝚘𝚟𝚒𝚍𝚎𝚜 𝚍𝚎𝚝𝚊𝚒𝚕𝚎𝚍 𝚒𝚗𝚜𝚒𝚐𝚑𝚝𝚜 𝚒𝚗𝚝𝚘 𝚒𝚗𝚝𝚎𝚛𝚗𝚜𝚑𝚒𝚙 𝚙𝚛𝚘𝚌𝚎𝚜𝚜𝚎𝚜, 𝚒𝚗𝚝𝚎𝚛𝚟𝚒𝚎𝚠 𝚎𝚡𝚙𝚎𝚛𝚒𝚎𝚗𝚌𝚎𝚜, 𝚊𝚗𝚍 𝚘𝚏𝚏𝚎𝚛 𝚍𝚎𝚝𝚊𝚒𝚕𝚜. 𝙱𝚞𝚒𝚕𝚍𝚌𝚕𝚞𝚋 𝚋𝚞𝚒𝚕𝚍𝚎𝚛𝚜 𝚐𝚘 𝚘𝚗 𝚝𝚘 𝚍𝚘 𝚒𝚗𝚌𝚛𝚎𝚍𝚒𝚋𝚕𝚎 𝚝𝚑𝚒𝚗𝚐𝚜. 𝙵𝚛𝚘𝚖 𝚝𝚘𝚝𝚊𝚕 𝚗𝚎𝚠𝚋𝚒𝚎𝚜 𝚝𝚘 𝙰𝙸 𝙴𝚗𝚐𝚒𝚗𝚎𝚎𝚛𝚜 𝚊𝚝 𝚁𝚎𝚕𝚎𝚟𝚊𝚗𝚌𝚎 𝙰𝙸, 𝙵𝚘𝚞𝚗𝚍𝚎𝚛𝚜 𝚊𝚌𝚌𝚎𝚙𝚝𝚎𝚍 𝚒𝚗𝚝𝚘 𝚈𝙲 (𝚄𝚗𝚜𝚕𝚘𝚝𝚑 𝙰𝙸), 𝙴𝚗𝚐𝚒𝚗𝚎𝚎𝚛𝚜 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 𝚊𝚝 𝙶𝚘𝚘𝚐𝚕𝚎, 𝙿𝚊𝚕𝚊𝚗𝚝𝚒𝚛, 𝚊𝚗𝚍 𝙾𝚙𝚎𝚗𝙰𝙸. 𝙰𝙸 𝚒𝚜 𝚛𝚎𝚜𝚑𝚊𝚙𝚒𝚗𝚐 𝚑𝚘𝚠 𝚠𝚎 𝚕𝚒𝚟𝚎. 𝙸𝚝’𝚜 𝚎𝚡𝚌𝚒𝚝𝚒𝚗𝚐, 𝚋𝚞𝚝 𝚒𝚝 𝚌𝚊𝚗 𝚋𝚎 𝚜𝚌𝚊𝚛𝚢. 𝙹𝚘𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚖𝚖𝚞𝚗𝚒𝚝𝚢 𝚝𝚑𝚊𝚝 𝚑𝚎𝚕𝚙𝚜 𝚢𝚘𝚞 𝚖𝚊𝚔𝚎 𝚜𝚎𝚗𝚜𝚎 𝚘𝚏 𝚝𝚑𝚒𝚜 𝚗𝚎𝚠 𝚎𝚛𝚊. 𓊝﹏ 𝚆𝙷𝚈 𝙿𝙰𝚁𝚃𝙸𝙲𝙸𝙿𝙰𝚃𝙴? 𝙽𝚎𝚝𝚠𝚘𝚛𝚔 𝚠𝚒𝚝𝚑 𝚝𝚘𝚙 𝚒𝚗𝚍𝚞𝚜𝚝𝚛𝚢 𝚙𝚛𝚘𝚏𝚎𝚜𝚜𝚒𝚘𝚗𝚊𝚕𝚜 𝚊𝚗𝚍 𝚛𝚎𝚜𝚎𝚊𝚛𝚌𝚑𝚎𝚛𝚜 𝙶𝚊𝚒𝚗 𝚑𝚊𝚗𝚍𝚜-𝚘𝚗 𝚎𝚡𝚙𝚎𝚛𝚒𝚎𝚗𝚌𝚎 𝚠𝚒𝚝𝚑 𝚌𝚞𝚝𝚝𝚒𝚗𝚐-𝚎𝚍𝚐𝚎 𝚝𝚎𝚌𝚑𝚗𝚘𝚕𝚘𝚐𝚒𝚎𝚜 𝚁𝚎𝚌𝚎𝚒𝚟𝚎 𝚎𝚡𝚙𝚎𝚛𝚝 𝚖𝚎𝚗𝚝𝚘𝚛𝚜𝚑𝚒𝚙 𝚊𝚗𝚍 𝚐𝚞𝚒𝚍𝚊𝚗𝚌𝚎 𝙲𝚘𝚖𝚙𝚎𝚝𝚎 𝚏𝚘𝚛 𝚎𝚡𝚌𝚒𝚝𝚒𝚗𝚐 𝚙𝚛𝚒𝚣𝚎𝚜, 𝚠𝚒𝚝𝚑 𝚊𝚍𝚍𝚒𝚝𝚒𝚘𝚗𝚊𝚕 𝚛𝚎𝚠𝚊𝚛𝚍𝚜 𝚏𝚘𝚛 𝚘𝚙𝚎𝚗-𝚜𝚘𝚞𝚛𝚌𝚎 𝚌𝚘𝚗𝚝𝚛𝚒𝚋𝚞𝚝𝚒𝚘𝚗𝚜 𓆡⋆.˚ 𝙶𝙴𝚃 𝚂𝚃𝙰𝚁𝚃𝙴𝙳 𝙹𝚘𝚒𝚗 𝚝𝚑𝚎 𝙳𝚒𝚜𝚌𝚘𝚛𝚍 𝚌𝚘𝚖𝚖𝚞𝚗𝚒𝚝𝚢 𝚊𝚗𝚍 𝚌𝚘𝚗𝚗𝚎𝚌𝚝 𝚠𝚒𝚝𝚑 𝚏𝚎𝚕𝚕𝚘𝚠 𝚙𝚊𝚛𝚝𝚒𝚌𝚒𝚙𝚊𝚗𝚝𝚜, 𝚛𝚎𝚌𝚎𝚒𝚟𝚎 𝚛𝚎𝚊𝚕-𝚝𝚒𝚖𝚎 𝚞𝚙𝚍𝚊𝚝𝚎𝚜, 𝚊𝚌𝚌𝚎𝚜𝚜 𝚝𝚞𝚝𝚘𝚛𝚒𝚊𝚕𝚜, 𝚊𝚗𝚍 𝚌𝚘𝚕𝚕𝚊𝚋𝚘𝚛𝚊𝚝𝚎 𝚠𝚒𝚝𝚑 𝚎𝚡𝚙𝚎𝚛𝚝𝚜. 𝙵𝚘𝚛𝚖 𝚝𝚎𝚊𝚖𝚜, 𝚎𝚡𝚌𝚑𝚊𝚗𝚐𝚎 𝚒𝚍𝚎𝚊𝚜, 𝚊𝚗𝚍 𝚜𝚝𝚊𝚢 𝚒𝚗𝚏𝚘𝚛𝚖𝚎𝚍 𝚝𝚑𝚛𝚘𝚞𝚐𝚑𝚘𝚞𝚝 𝚝𝚑𝚎 𝚌𝚑𝚊𝚕𝚕𝚎𝚗𝚐𝚎. 𝙴𝚡𝚙𝚕𝚘𝚛𝚎 𝚁𝚎𝚜𝚘𝚞𝚛𝚌𝚎𝚜 𝚊𝚌𝚌𝚎𝚜𝚜 𝚊 𝚌𝚘𝚖𝚙𝚛𝚎𝚑𝚎𝚗𝚜𝚒𝚟𝚎 𝚜𝚞𝚒𝚝𝚎 𝚘𝚏 𝚝𝚘𝚘𝚕𝚜, 𝚍𝚊𝚝𝚊𝚜𝚎𝚝𝚜, 𝚊𝚗𝚍 𝚝𝚞𝚝𝚘𝚛𝚒𝚊𝚕𝚜 𝚊𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝚒𝚗 𝚝𝚑𝚎 𝚁𝚎𝚜𝚘𝚞𝚛𝚌𝚎𝚜 𝚝𝚊𝚋 𝚊𝚋𝚘𝚟𝚎. 𝙶𝚎𝚝 𝚝𝚑𝚎 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚢𝚘𝚞 𝚗𝚎𝚎𝚍 𝚝𝚘 𝚝𝚞𝚛𝚗 𝚢𝚘𝚞𝚛 𝚒𝚍𝚎𝚊𝚜 𝚒𝚗𝚝𝚘 𝚛𝚎𝚊𝚕𝚒𝚝𝚢. ╰┈➤ 𝚃𝚊𝚔𝚎 𝚝𝚑𝚎 𝚏𝚒𝚛𝚜𝚝 𝚜𝚝𝚎𝚙 𝚝𝚘𝚠𝚊𝚛𝚍𝚜 𝚒𝚗𝚗𝚘𝚟𝚊𝚝𝚒𝚘𝚗. 𝙱𝚎 𝚙𝚊𝚛𝚝 𝚘𝚏 𝚊 𝚌𝚑𝚊𝚕𝚕𝚎𝚗𝚐𝚎 𝚝𝚑𝚊𝚝 𝚌𝚘𝚞𝚕𝚍 𝚜𝚑𝚊𝚙𝚎 𝚝𝚑𝚎 𝚏𝚞𝚝𝚞𝚛𝚎 𝚘𝚏 𝙰𝙸 𝚊𝚗𝚍 𝚋𝚎𝚢𝚘𝚗𝚍!",
-      "summary": "┊ ┊ ┊ ┊ ┊ ┊ .𖥔 ݁ ˖ִ ࣪⚝₊ ⊹˚ ┊ ┊ ┊ ┊ ┊ ˚★⋆｡˚ ⋆ ┊ ┊ ┊ ⋆ ┊ ┊ ★⋆ ┊ ◦ ┊ ★⋆ ┊ . ˚ ˚★⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀ ╰┈➤ 𝚆𝚎'𝚛𝚎 𝚑𝚒𝚛𝚒𝚗𝚐 𝙹𝚞𝚍𝚐𝚎𝚜, 𝙼𝚎𝚗𝚝𝚘𝚛𝚜, 𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚝𝚢 𝙼𝚊𝚗𝚊𝚐𝚎𝚛𝚜, 𝙰𝚖𝚋𝚊𝚜𝚜𝚊...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-02-01T19:00:00.000Z",
-      "prize": "$1,800",
-      "tags": [
-        "Beginner Friendly",
-        "Low",
-        "No Code",
-        "Open Ended"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-01-30T02:26:59.515Z",
-      "scrapedAt": "2026-01-30T02:24:52.665Z",
-      "lastUpdated": "2026-01-30T02:26:59.515Z",
+      "processedAt": "2026-01-30T13:06:47.461Z",
+      "scrapedAt": "2026-01-30T13:04:28.359Z",
+      "lastUpdated": "2026-01-30T13:06:47.461Z",
       "version": 1
     },
     {
@@ -266,18 +168,67 @@
       "title": "Elasticsearch Agent Builder Hackathon",
       "platform": "devpost",
       "url": "https://elasticsearch.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/156/365/datas/original.jpg",
-      "description": "About the challenge Welcome to the Elasticsearch Agent Builder Hackathon, running from January 22 to February 27, 2026. Build context-driven, multi-step AI agents that combine search, workflows, tools, and reasoning to automate real-world tasks. This isn’t about single prompt answers, it’s about agents that retrieve the most relevant context, select the right tools, and execute tasks across multiple steps. Your mission is to design agents that actually get work done. Compete for a share of $20,000 in prizes, collaborate with Elastic engineers, and get featured on our blog and social channels. We can’t wait to see the agents you develop Why participate ? Build agents for real work: Design agents that reason, use tools, keep context, and actually finish tasks. Level up fast: Practice multi-step reasoning, tool orchestration, and stateful workflows under real constraints. Win and get seen There is $20,000 on the table, plus exposure on blogs and social channels. What's Elasticsearch and Agent Builder Elasticsearch is an open source, distributed search and analytics engine built for speed, scale, and AI applications. As a retrieval platform, it stores structured, unstructured, and vector data in real time. It delivers fast hybrid and vector search, real-time analytics on logs, metrics or events, and enables AI-driven applications with high performance, accuracy, and relevance. Agent Builder is a framework to rapidly create custom agents that connect LLMs to private Elasticsearch data. Tailor tools to query indexes, trigger workflows, or use piped query language for logic, relevance, and personalization. It supports custom agents accessible via Kibana, APIs, MCP, and A2A.",
-      "summary": "About the challenge Welcome to the Elasticsearch Agent Builder Hackathon, running from January 22 to February 27, 2026. Build context-driven, multi-step AI agents that combine search, workflows, tools...",
-      "contestType": "text",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/156/365/datas/medium_square.jpg",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-02-27T18:00:00.000Z",
       "prize": "$20,000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-01-30T13:06:47.450Z",
+      "scrapedAt": "2026-01-30T13:04:28.360Z",
+      "lastUpdated": "2026-01-30T13:06:47.450Z",
+      "version": 1
+    },
+    {
+      "id": "c_90883506f4a2",
+      "title": "DevStudio 2026 by Logitech",
+      "platform": "devpost",
+      "url": "https://devstudiologitech2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/192/157/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$20,000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-01-30T13:06:47.455Z",
+      "scrapedAt": "2026-01-30T13:04:28.360Z",
+      "lastUpdated": "2026-01-30T13:06:47.455Z",
+      "version": 1
+    },
+    {
+      "id": "c_b46894591f00",
+      "title": "AI Vibe Coding Hackathon",
+      "platform": "devpost",
+      "url": "https://vibe.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/136/979/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$1,800",
       "tags": [
-        "Serverless",
-        "llm",
-        "Databases"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -287,9 +238,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-30T02:26:59.554Z",
-      "scrapedAt": "2026-01-30T02:24:52.666Z",
-      "lastUpdated": "2026-01-30T02:26:59.554Z",
+      "processedAt": "2026-01-30T13:06:47.544Z",
+      "scrapedAt": "2026-01-30T13:04:28.361Z",
+      "lastUpdated": "2026-01-30T13:06:47.544Z",
       "version": 1
     },
     {
@@ -297,19 +248,14 @@
       "title": "Octopus Hackathon",
       "platform": "devpost",
       "url": "https://octopushack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/032/393/datas/original.jpg",
-      "description": "Welcome to Octopus Hackathon 2026, a global innovation sprint designed to challenge, inspire, and empower developers, designers, marketers, and creators from all walks of the tech ecosystem. Inspired by the octopus , a symbol of intelligent multitasking, adaptability, and creativity this hackathon encourages participants to build meaningful solutions that address real-world challenges. Over the course of the event, teams will work across diverse domains such as Strategic Management Innovation, AI, Sustainability, Infrastructure, Cybersecurity, Web3, Health Tech, Environmental Solutions, and more. Whether you are a beginner, professional, or hobbyist, Octopus Hackathon provides a platform to: Build impactful, real-world projects Collaborate with talented participants from around the globe Access exclusive workshops and technical resources Present your work to experienced industry mentors and jury members Expand your professional network and portfolio 📅 Hackathon Schedule Highlights Kickoff Session: December 1 Workshops & Tech Talks: Weekly throughout December Project Submission Deadline: February 15, 11:59 PM (UTC) Judging & Demo Week: February Winners Announcement: First week of March Judges, mentors, and sponsors are welcome : octopushackathon@gmail.com Let’s code with purpose and tentacles-wide creativity! 🐙💻",
-      "summary": "Welcome to Octopus Hackathon 2026, a global innovation sprint designed to challenge, inspire, and empower developers, designers, marketers, and creators from all walks of the tech ecosystem. Inspired ...",
-      "contestType": "code",
-      "status": "active",
-      "difficulty": "beginner",
-      "deadline": "2026-01-31T22:00:00.000Z",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/032/393/datas/medium_square.jpg",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$3,500",
-      "tags": [
-        "Beginner Friendly",
-        "Enterprise",
-        "Productivity"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -318,15 +264,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-01-30T02:27:00.557Z",
-      "scrapedAt": "2026-01-30T02:24:52.667Z",
-      "lastUpdated": "2026-01-30T02:27:00.557Z",
+      "processedAt": "2026-01-30T13:06:48.556Z",
+      "scrapedAt": "2026-01-30T13:04:28.361Z",
+      "lastUpdated": "2026-01-30T13:06:48.556Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-01-30T02:27:20.298Z"
+    "lastUpdated": "2026-01-30T13:07:09.388Z"
   }
 }

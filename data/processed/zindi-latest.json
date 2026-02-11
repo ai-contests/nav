@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-02-11T02:43:05.787Z",
+  "timestamp": "2026-02-11T13:22:02.421Z",
   "contestCount": 20,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-03-01T02:41:37.318Z",
+      "deadline": "2026-02-28T13:20:25.394Z",
       "prize": "€8 250 EUR",
       "tags": [
         "ai"
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:01.619Z",
-      "scrapedAt": "2026-02-11T02:41:37.318Z",
-      "lastUpdated": "2026-02-11T02:43:01.619Z",
+      "processedAt": "2026-02-11T13:21:57.992Z",
+      "scrapedAt": "2026-02-11T13:20:25.394Z",
+      "lastUpdated": "2026-02-11T13:21:57.992Z",
       "version": 1
     },
     {
@@ -53,9 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:01.622Z",
-      "scrapedAt": "2026-02-11T02:41:37.318Z",
-      "lastUpdated": "2026-02-11T02:43:01.622Z",
+      "processedAt": "2026-02-11T13:21:57.993Z",
+      "scrapedAt": "2026-02-11T13:20:25.394Z",
+      "lastUpdated": "2026-02-11T13:21:57.993Z",
       "version": 1
     },
     {
@@ -69,7 +69,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-03-01T02:41:37.318Z",
+      "deadline": "2026-02-28T13:20:25.394Z",
       "prize": "$1 500 USD",
       "tags": [],
       "aiTools": [
@@ -80,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:01.652Z",
-      "scrapedAt": "2026-02-11T02:41:37.318Z",
-      "lastUpdated": "2026-02-11T02:43:01.652Z",
+      "processedAt": "2026-02-11T13:21:58.114Z",
+      "scrapedAt": "2026-02-11T13:20:25.394Z",
+      "lastUpdated": "2026-02-11T13:21:58.114Z",
       "version": 1
     },
     {
@@ -96,7 +96,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-03-07T02:41:37.318Z",
+      "deadline": "2026-03-06T13:20:25.394Z",
       "prize": "€8 250 EUR",
       "tags": [],
       "aiTools": [
@@ -107,9 +107,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:02.671Z",
-      "scrapedAt": "2026-02-11T02:41:37.319Z",
-      "lastUpdated": "2026-02-11T02:43:02.671Z",
+      "processedAt": "2026-02-11T13:21:59.094Z",
+      "scrapedAt": "2026-02-11T13:20:25.394Z",
+      "lastUpdated": "2026-02-11T13:21:59.094Z",
       "version": 1
     },
     {
@@ -135,37 +135,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:02.655Z",
-      "scrapedAt": "2026-02-11T02:41:37.319Z",
-      "lastUpdated": "2026-02-11T02:43:02.655Z",
-      "version": 1
-    },
-    {
-      "id": "c_4deb13893d42",
-      "title": "IAIO Crop Yield Estimation Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/iaio-crop-yield-estimation-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-02-24T02:41:37.319Z",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:02.654Z",
-      "scrapedAt": "2026-02-11T02:41:37.319Z",
-      "lastUpdated": "2026-02-11T02:43:02.654Z",
+      "processedAt": "2026-02-11T13:21:59.090Z",
+      "scrapedAt": "2026-02-11T13:20:25.394Z",
+      "lastUpdated": "2026-02-11T13:21:59.090Z",
       "version": 1
     },
     {
@@ -189,9 +161,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:02.661Z",
-      "scrapedAt": "2026-02-11T02:41:37.319Z",
-      "lastUpdated": "2026-02-11T02:43:02.661Z",
+      "processedAt": "2026-02-11T13:21:59.099Z",
+      "scrapedAt": "2026-02-11T13:20:25.395Z",
+      "lastUpdated": "2026-02-11T13:21:59.099Z",
       "version": 1
     },
     {
@@ -217,9 +189,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:02.686Z",
-      "scrapedAt": "2026-02-11T02:41:37.319Z",
-      "lastUpdated": "2026-02-11T02:43:02.686Z",
+      "processedAt": "2026-02-11T13:21:59.091Z",
+      "scrapedAt": "2026-02-11T13:20:25.395Z",
+      "lastUpdated": "2026-02-11T13:21:59.091Z",
       "version": 1
     },
     {
@@ -243,9 +215,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:03.706Z",
-      "scrapedAt": "2026-02-11T02:41:37.319Z",
-      "lastUpdated": "2026-02-11T02:43:03.706Z",
+      "processedAt": "2026-02-11T13:21:59.188Z",
+      "scrapedAt": "2026-02-11T13:20:25.395Z",
+      "lastUpdated": "2026-02-11T13:21:59.188Z",
       "version": 1
     },
     {
@@ -269,9 +241,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:03.688Z",
-      "scrapedAt": "2026-02-11T02:41:37.319Z",
-      "lastUpdated": "2026-02-11T02:43:03.688Z",
+      "processedAt": "2026-02-11T13:22:00.191Z",
+      "scrapedAt": "2026-02-11T13:20:25.395Z",
+      "lastUpdated": "2026-02-11T13:22:00.191Z",
       "version": 1
     },
     {
@@ -295,9 +267,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:03.702Z",
-      "scrapedAt": "2026-02-11T02:41:37.320Z",
-      "lastUpdated": "2026-02-11T02:43:03.702Z",
+      "processedAt": "2026-02-11T13:22:00.192Z",
+      "scrapedAt": "2026-02-11T13:20:25.396Z",
+      "lastUpdated": "2026-02-11T13:22:00.192Z",
       "version": 1
     },
     {
@@ -321,9 +293,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:03.689Z",
-      "scrapedAt": "2026-02-11T02:41:37.320Z",
-      "lastUpdated": "2026-02-11T02:43:03.689Z",
+      "processedAt": "2026-02-11T13:22:00.191Z",
+      "scrapedAt": "2026-02-11T13:20:25.396Z",
+      "lastUpdated": "2026-02-11T13:22:00.191Z",
       "version": 1
     },
     {
@@ -346,35 +318,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:03.724Z",
-      "scrapedAt": "2026-02-11T02:41:37.320Z",
-      "lastUpdated": "2026-02-11T02:43:03.724Z",
-      "version": 1
-    },
-    {
-      "id": "c_09a885f20644",
-      "title": "Adaptation Atlas Data Storytelling Challenge (Track 1): Water Security, Agriculture and Health",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/adaptation-atlas-data-storytelling-challenge-track-1-water-security-agriculture-and-health",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$1 500 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:04.739Z",
-      "scrapedAt": "2026-02-11T02:41:37.320Z",
-      "lastUpdated": "2026-02-11T02:43:04.739Z",
+      "processedAt": "2026-02-11T13:22:00.188Z",
+      "scrapedAt": "2026-02-11T13:20:25.396Z",
+      "lastUpdated": "2026-02-11T13:22:00.188Z",
       "version": 1
     },
     {
@@ -398,9 +344,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:04.750Z",
-      "scrapedAt": "2026-02-11T02:41:37.321Z",
-      "lastUpdated": "2026-02-11T02:43:04.750Z",
+      "processedAt": "2026-02-11T13:22:00.275Z",
+      "scrapedAt": "2026-02-11T13:20:25.396Z",
+      "lastUpdated": "2026-02-11T13:22:00.275Z",
+      "version": 1
+    },
+    {
+      "id": "c_09a885f20644",
+      "title": "Adaptation Atlas Data Storytelling Challenge (Track 1): Water Security, Agriculture and Health",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/adaptation-atlas-data-storytelling-challenge-track-1-water-security-agriculture-and-health",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$1 500 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-02-11T13:22:01.282Z",
+      "scrapedAt": "2026-02-11T13:20:25.396Z",
+      "lastUpdated": "2026-02-11T13:22:01.282Z",
       "version": 1
     },
     {
@@ -424,9 +396,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:04.743Z",
-      "scrapedAt": "2026-02-11T02:41:37.321Z",
-      "lastUpdated": "2026-02-11T02:43:04.743Z",
+      "processedAt": "2026-02-11T13:22:01.296Z",
+      "scrapedAt": "2026-02-11T13:20:25.396Z",
+      "lastUpdated": "2026-02-11T13:22:01.296Z",
       "version": 1
     },
     {
@@ -452,9 +424,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:04.728Z",
-      "scrapedAt": "2026-02-11T02:41:37.321Z",
-      "lastUpdated": "2026-02-11T02:43:04.728Z",
+      "processedAt": "2026-02-11T13:22:01.276Z",
+      "scrapedAt": "2026-02-11T13:20:25.396Z",
+      "lastUpdated": "2026-02-11T13:22:01.276Z",
       "version": 1
     },
     {
@@ -478,9 +450,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:04.764Z",
-      "scrapedAt": "2026-02-11T02:41:37.321Z",
-      "lastUpdated": "2026-02-11T02:43:04.764Z",
+      "processedAt": "2026-02-11T13:22:01.290Z",
+      "scrapedAt": "2026-02-11T13:20:25.397Z",
+      "lastUpdated": "2026-02-11T13:22:01.290Z",
       "version": 1
     },
     {
@@ -504,9 +476,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:05.776Z",
-      "scrapedAt": "2026-02-11T02:41:37.321Z",
-      "lastUpdated": "2026-02-11T02:43:05.776Z",
+      "processedAt": "2026-02-11T13:22:01.382Z",
+      "scrapedAt": "2026-02-11T13:20:25.397Z",
+      "lastUpdated": "2026-02-11T13:22:01.382Z",
       "version": 1
     },
     {
@@ -530,15 +502,41 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-11T02:43:05.777Z",
-      "scrapedAt": "2026-02-11T02:41:37.322Z",
-      "lastUpdated": "2026-02-11T02:43:05.777Z",
+      "processedAt": "2026-02-11T13:22:02.397Z",
+      "scrapedAt": "2026-02-11T13:20:25.397Z",
+      "lastUpdated": "2026-02-11T13:22:02.397Z",
+      "version": 1
+    },
+    {
+      "id": "c_de434a64b5bb",
+      "title": "Barbados Lands and Surveys Plot Automation Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/barbados-lands-and-surveys-plot-automation-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$10 000 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-02-11T13:22:02.407Z",
+      "scrapedAt": "2026-02-11T13:20:25.397Z",
+      "lastUpdated": "2026-02-11T13:22:02.407Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-02-11T02:43:05.787Z"
+    "lastUpdated": "2026-02-11T13:22:02.421Z"
   }
 }

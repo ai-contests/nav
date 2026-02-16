@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-02-16T02:35:14.165Z",
+  "timestamp": "2026-02-16T13:15:02.128Z",
   "contestCount": 10,
   "contests": [
     {
@@ -28,9 +28,39 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-16T02:34:50.516Z",
-      "scrapedAt": "2026-02-16T02:32:48.717Z",
-      "lastUpdated": "2026-02-16T02:34:50.516Z",
+      "processedAt": "2026-02-16T13:14:39.445Z",
+      "scrapedAt": "2026-02-16T13:12:38.848Z",
+      "lastUpdated": "2026-02-16T13:14:39.445Z",
+      "version": 1
+    },
+    {
+      "id": "c_2277c5ec9581",
+      "title": "GitLab AI Hackathon",
+      "platform": "devpost",
+      "url": "https://gitlab.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/188/179/datas/original.png",
+      "description": "AI writes code. That's expected now. The real opportunity? Everything else. Planning. Security. Compliance. Deployments. These are the bottlenecks that slow teams down every day. And they're wide open for automation. We're opening up the GitLab Duo Agent Platform and inviting developers worldwide to build AI agents that help you and your team to build secure software faster. Not chatbots that answer questions. Agents that jump into workflows, respond to events, and take action on your behalf. Think of it as building a digital teammate for every developer using GitLab. Why Join? Be early: Get access to the GitLab Duo Agent Platform for the duration of the hackathon while it’s fresh! Learn it. Build on it. Shape it. Learn how to build agents that assist you with tedious tasks such as creating tests Learn how to build a flow of agents and orchestrate an entire team of purpose-built agents to build & deploy feature requests from creating, testing, security scanning to deployment. Make an impact: Your agent could ship to thousands of GitLab users. This isn't just a side project that sits in a repo. Win $65,000 in prizes. Compete for the Grand Prize or win one of our category prices Get Started Join Discord and get to know each other in #ai-hackathon. Explore GitLab Duo Agent Platform. Request Access to the GitLab AI Hackathon group. Learn how to create GitLab custom Agents. Learn how to create GitLab Flows. Discover what’s possible in our GitLab Duo prompt library.",
+      "summary": "AI writes code. That's expected now. The real opportunity? Everything else. Planning. Security. Compliance. Deployments. These are the bottlenecks that slow teams down every day. And they're wide open...",
+      "contestType": "code",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-03-25T18:00:00.000Z",
+      "prize": "$65,000",
+      "tags": [
+        "Databases",
+        "Productivity"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-02-16T13:14:40.456Z",
+      "scrapedAt": "2026-02-16T13:12:38.848Z",
+      "lastUpdated": "2026-02-16T13:14:40.456Z",
       "version": 1
     },
     {
@@ -59,39 +89,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-16T02:34:51.523Z",
-      "scrapedAt": "2026-02-16T02:32:48.717Z",
-      "lastUpdated": "2026-02-16T02:34:51.523Z",
-      "version": 1
-    },
-    {
-      "id": "c_2277c5ec9581",
-      "title": "GitLab AI Hackathon",
-      "platform": "devpost",
-      "url": "https://gitlab.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/188/179/datas/original.png",
-      "description": "AI writes code. That's expected now. The real opportunity? Everything else. Planning. Security. Compliance. Deployments. These are the bottlenecks that slow teams down every day. And they're wide open for automation. We're opening up the GitLab Duo Agent Platform and inviting developers worldwide to build AI agents that help you and your team to build secure software faster. Not chatbots that answer questions. Agents that jump into workflows, respond to events, and take action on your behalf. Think of it as building a digital teammate for every developer using GitLab. Why Join? Be early: Get access to the GitLab Duo Agent Platform for the duration of the hackathon while it’s fresh! Learn it. Build on it. Shape it. Learn how to build agents that assist you with tedious tasks such as creating tests Learn how to build a flow of agents and orchestrate an entire team of purpose-built agents to build & deploy feature requests from creating, testing, security scanning to deployment. Make an impact: Your agent could ship to thousands of GitLab users. This isn't just a side project that sits in a repo. Win $65,000 in prizes. Compete for the Grand Prize or win one of our category prices Get Started Join Discord and get to know each other in #ai-hackathon. Explore GitLab Duo Agent Platform. Request Access to the GitLab AI Hackathon group. Learn how to create GitLab custom Agents. Learn how to create GitLab Flows. Discover what’s possible in our GitLab Duo prompt library.",
-      "summary": "AI writes code. That's expected now. The real opportunity? Everything else. Planning. Security. Compliance. Deployments. These are the bottlenecks that slow teams down every day. And they're wide open...",
-      "contestType": "code",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-25T18:00:00.000Z",
-      "prize": "$65,000",
-      "tags": [
-        "Databases",
-        "Productivity"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-16T02:34:51.520Z",
-      "scrapedAt": "2026-02-16T02:32:48.718Z",
-      "lastUpdated": "2026-02-16T02:34:51.520Z",
+      "processedAt": "2026-02-16T13:14:40.454Z",
+      "scrapedAt": "2026-02-16T13:12:38.849Z",
+      "lastUpdated": "2026-02-16T13:14:40.454Z",
       "version": 1
     },
     {
@@ -121,9 +121,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-16T02:34:51.523Z",
-      "scrapedAt": "2026-02-16T02:32:48.719Z",
-      "lastUpdated": "2026-02-16T02:34:51.523Z",
+      "processedAt": "2026-02-16T13:14:40.450Z",
+      "scrapedAt": "2026-02-16T13:12:38.850Z",
+      "lastUpdated": "2026-02-16T13:14:40.450Z",
       "version": 1
     },
     {
@@ -151,9 +151,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-16T02:34:51.518Z",
-      "scrapedAt": "2026-02-16T02:32:48.719Z",
-      "lastUpdated": "2026-02-16T02:34:51.518Z",
+      "processedAt": "2026-02-16T13:14:40.452Z",
+      "scrapedAt": "2026-02-16T13:12:38.851Z",
+      "lastUpdated": "2026-02-16T13:14:40.452Z",
       "version": 1
     },
     {
@@ -182,9 +182,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-16T02:34:51.593Z",
-      "scrapedAt": "2026-02-16T02:32:48.720Z",
-      "lastUpdated": "2026-02-16T02:34:51.593Z",
+      "processedAt": "2026-02-16T13:14:40.472Z",
+      "scrapedAt": "2026-02-16T13:12:38.851Z",
+      "lastUpdated": "2026-02-16T13:14:40.472Z",
       "version": 1
     },
     {
@@ -214,9 +214,9 @@
         "before the deadline."
       ],
       "qualityScore": 6,
-      "processedAt": "2026-02-16T02:34:52.589Z",
-      "scrapedAt": "2026-02-16T02:32:48.721Z",
-      "lastUpdated": "2026-02-16T02:34:52.589Z",
+      "processedAt": "2026-02-16T13:14:41.486Z",
+      "scrapedAt": "2026-02-16T13:12:38.852Z",
+      "lastUpdated": "2026-02-16T13:14:41.486Z",
       "version": 1
     },
     {
@@ -231,7 +231,7 @@
       "status": "active",
       "difficulty": "intermediate",
       "deadline": "2026-03-30T21:00:00.000Z",
-      "prize": "$0",
+      "prize": "5",
       "tags": [
         "Beginner Friendly",
         "Education",
@@ -245,9 +245,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-16T02:34:52.596Z",
-      "scrapedAt": "2026-02-16T02:32:48.721Z",
-      "lastUpdated": "2026-02-16T02:34:52.596Z",
+      "processedAt": "2026-02-16T13:14:41.491Z",
+      "scrapedAt": "2026-02-16T13:12:38.852Z",
+      "lastUpdated": "2026-02-16T13:14:41.491Z",
       "version": 1
     },
     {
@@ -275,9 +275,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-16T02:34:52.592Z",
-      "scrapedAt": "2026-02-16T02:32:48.722Z",
-      "lastUpdated": "2026-02-16T02:34:52.592Z",
+      "processedAt": "2026-02-16T13:14:41.478Z",
+      "scrapedAt": "2026-02-16T13:12:38.853Z",
+      "lastUpdated": "2026-02-16T13:14:41.478Z",
       "version": 1
     },
     {
@@ -305,15 +305,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-16T02:34:52.594Z",
-      "scrapedAt": "2026-02-16T02:32:48.728Z",
-      "lastUpdated": "2026-02-16T02:34:52.594Z",
+      "processedAt": "2026-02-16T13:14:41.485Z",
+      "scrapedAt": "2026-02-16T13:12:38.854Z",
+      "lastUpdated": "2026-02-16T13:14:41.485Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-02-16T02:35:14.165Z"
+    "lastUpdated": "2026-02-16T13:15:02.128Z"
   }
 }

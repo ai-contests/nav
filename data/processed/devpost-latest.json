@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-02-18T02:34:54.785Z",
+  "timestamp": "2026-02-18T13:15:31.674Z",
   "contestCount": 10,
   "contests": [
     {
@@ -28,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:46.184Z",
-      "scrapedAt": "2026-02-18T02:33:06.732Z",
-      "lastUpdated": "2026-02-18T02:34:46.184Z",
+      "processedAt": "2026-02-18T13:15:23.204Z",
+      "scrapedAt": "2026-02-18T13:13:37.502Z",
+      "lastUpdated": "2026-02-18T13:15:23.204Z",
       "version": 1
     },
     {
@@ -59,39 +59,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:46.185Z",
-      "scrapedAt": "2026-02-18T02:33:06.733Z",
-      "lastUpdated": "2026-02-18T02:34:46.185Z",
-      "version": 1
-    },
-    {
-      "id": "c_ca38b6f9bd47",
-      "title": "DigitalOcean Gradient™ AI Hackathon",
-      "platform": "devpost",
-      "url": "https://digitalocean.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/188/390/datas/original.png",
-      "description": "WELCOME The DigitalOcean Gradient™ AI Hackathon challenges developers, builders, and creators to design and launch new, working AI-powered applications using DigitalOcean Gradient™ AI’s full-stack features. From model training to deployment, this hackathon is about shipping real, production-ready AI — not just prototypes. Whether you’re exploring AI for the first time or scaling advanced machine learning workflows, this is your opportunity to build impactful applications on a developer-first cloud platform designed for speed, simplicity, and scale. Why join? Learn to build and deploy full-stack AI apps with DigitalOcean Gradient™ AI. Experiment with GPU-powered AI infrastructure and production-ready workflows. Compete for cash prizes and build something you can showcase. Get Started Signup for a DigitalOcean account! Check out the DigitalOcean Gradient™ AI documentation Check out DigitalOcean's general documentation About DigitalOcean DigitalOcean is the cloud built for developers. With powerful infrastructure, predictable pricing, and intuitive tools, DigitalOcean makes it easy for startups and growing teams to build, deploy, and scale applications without unnecessary complexity. About DigitalOcean Gradient™ AI DigitalOcean Gradient™ AI is a full-stack AI platform that simplifies the entire machine learning lifecycle. With GPU-backed compute, flexible workflows, and seamless deployment, Gradient AI enables developers to move from idea to production faster all within DigitalOcean’s unified cloud ecosystem. In Partnership with Major League Hacking This hackathon is proudly supported by Major League Hacking (MLH), the global leader in developer hackathons. MLH empowers builders worldwide through inclusive, high-quality events and provides participants with access to resources, tooling, and community to help them succeed.",
-      "summary": "WELCOME The DigitalOcean Gradient™ AI Hackathon challenges developers, builders, and creators to design and launch new, working AI-powered applications using DigitalOcean Gradient™ AI’s full-stack fea...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-03-18T21:00:00.000Z",
-      "prize": "$20,000",
-      "tags": [
-        "Databases",
-        "Open Ended"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:46.251Z",
-      "scrapedAt": "2026-02-18T02:33:06.734Z",
-      "lastUpdated": "2026-02-18T02:34:46.251Z",
+      "processedAt": "2026-02-18T13:15:23.208Z",
+      "scrapedAt": "2026-02-18T13:13:37.503Z",
+      "lastUpdated": "2026-02-18T13:15:23.208Z",
       "version": 1
     },
     {
@@ -119,9 +89,69 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:47.254Z",
-      "scrapedAt": "2026-02-18T02:33:06.734Z",
-      "lastUpdated": "2026-02-18T02:34:47.254Z",
+      "processedAt": "2026-02-18T13:15:23.355Z",
+      "scrapedAt": "2026-02-18T13:13:37.503Z",
+      "lastUpdated": "2026-02-18T13:15:23.355Z",
+      "version": 1
+    },
+    {
+      "id": "c_ca38b6f9bd47",
+      "title": "DigitalOcean Gradient™ AI Hackathon",
+      "platform": "devpost",
+      "url": "https://digitalocean.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/188/390/datas/original.png",
+      "description": "WELCOME The DigitalOcean Gradient™ AI Hackathon challenges developers, builders, and creators to design and launch new, working AI-powered applications using DigitalOcean Gradient™ AI’s full-stack features. From model training to deployment, this hackathon is about shipping real, production-ready AI — not just prototypes. Whether you’re exploring AI for the first time or scaling advanced machine learning workflows, this is your opportunity to build impactful applications on a developer-first cloud platform designed for speed, simplicity, and scale. Why join? Learn to build and deploy full-stack AI apps with DigitalOcean Gradient™ AI. Experiment with GPU-powered AI infrastructure and production-ready workflows. Compete for cash prizes and build something you can showcase. Get Started Signup for a DigitalOcean account! Check out the DigitalOcean Gradient™ AI documentation Check out DigitalOcean's general documentation About DigitalOcean DigitalOcean is the cloud built for developers. With powerful infrastructure, predictable pricing, and intuitive tools, DigitalOcean makes it easy for startups and growing teams to build, deploy, and scale applications without unnecessary complexity. About DigitalOcean Gradient™ AI DigitalOcean Gradient™ AI is a full-stack AI platform that simplifies the entire machine learning lifecycle. With GPU-backed compute, flexible workflows, and seamless deployment, Gradient AI enables developers to move from idea to production faster all within DigitalOcean’s unified cloud ecosystem. In Partnership with Major League Hacking This hackathon is proudly supported by Major League Hacking (MLH), the global leader in developer hackathons. MLH empowers builders worldwide through inclusive, high-quality events and provides participants with access to resources, tooling, and community to help them succeed.",
+      "summary": "WELCOME The DigitalOcean Gradient™ AI Hackathon challenges developers, builders, and creators to design and launch new, working AI-powered applications using DigitalOcean Gradient™ AI’s full-stack fea...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-03-18T21:00:00.000Z",
+      "prize": "$20,000",
+      "tags": [
+        "Databases",
+        "Open Ended"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-02-18T13:15:24.348Z",
+      "scrapedAt": "2026-02-18T13:13:37.504Z",
+      "lastUpdated": "2026-02-18T13:15:24.348Z",
+      "version": 1
+    },
+    {
+      "id": "c_1013e12df6ea",
+      "title": "Gemini Live Agent Challenge",
+      "platform": "devpost",
+      "url": "https://geminiliveagentchallenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/338/662/datas/original.png",
+      "description": "Hey builders! 🛑 Stop typing, and start interacting! We are moving beyond the text box. The future isn't about just chatting with AI—it's about immersive, real-time experiences. To celebrate the power of multimodal AI, we’re challenging you to build the next generation of agents that can help you see 🙈, hear 🙉, speak 🙊, and create in the Gemini Live Agent Challenge.",
+      "summary": "Hey builders! 🛑 Stop typing, and start interacting! We are moving beyond the text box. The future isn't about just chatting with AI—it's about immersive, real-time experiences. To celebrate the power...",
+      "contestType": "text",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-03-17T00:00:00.000Z",
+      "prize": "$80,000",
+      "tags": [
+        "Communication",
+        "Voice skills"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-02-18T13:15:24.330Z",
+      "scrapedAt": "2026-02-18T13:13:37.505Z",
+      "lastUpdated": "2026-02-18T13:15:24.330Z",
       "version": 1
     },
     {
@@ -151,9 +181,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:47.252Z",
-      "scrapedAt": "2026-02-18T02:33:06.735Z",
-      "lastUpdated": "2026-02-18T02:34:47.252Z",
+      "processedAt": "2026-02-18T13:15:24.330Z",
+      "scrapedAt": "2026-02-18T13:13:37.505Z",
+      "lastUpdated": "2026-02-18T13:15:24.330Z",
       "version": 1
     },
     {
@@ -182,39 +212,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:47.259Z",
-      "scrapedAt": "2026-02-18T02:33:06.735Z",
-      "lastUpdated": "2026-02-18T02:34:47.259Z",
-      "version": 1
-    },
-    {
-      "id": "c_1013e12df6ea",
-      "title": "Gemini Live Agent Challenge",
-      "platform": "devpost",
-      "url": "https://geminiliveagentchallenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/338/662/datas/original.png",
-      "description": "Hey builders! 🛑 Stop typing, and start interacting! We are moving beyond the text box. The future isn't about just chatting with AI—it's about immersive, real-time experiences. To celebrate the power of multimodal AI, we’re challenging you to build the next generation of agents that can help you see 🙈, hear 🙉, speak 🙊, and create in the Gemini Live Agent Challenge.",
-      "summary": "Hey builders! 🛑 Stop typing, and start interacting! We are moving beyond the text box. The future isn't about just chatting with AI—it's about immersive, real-time experiences. To celebrate the power...",
-      "contestType": "text",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-17T00:00:00.000Z",
-      "prize": "$80,000",
-      "tags": [
-        "Communication",
-        "Voice skills"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:47.267Z",
-      "scrapedAt": "2026-02-18T02:33:06.736Z",
-      "lastUpdated": "2026-02-18T02:34:47.267Z",
+      "processedAt": "2026-02-18T13:15:24.324Z",
+      "scrapedAt": "2026-02-18T13:13:37.505Z",
+      "lastUpdated": "2026-02-18T13:15:24.324Z",
       "version": 1
     },
     {
@@ -244,9 +244,9 @@
         "before the deadline."
       ],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:47.334Z",
-      "scrapedAt": "2026-02-18T02:33:06.736Z",
-      "lastUpdated": "2026-02-18T02:34:47.334Z",
+      "processedAt": "2026-02-18T13:15:24.373Z",
+      "scrapedAt": "2026-02-18T13:13:37.506Z",
+      "lastUpdated": "2026-02-18T13:15:24.373Z",
       "version": 1
     },
     {
@@ -274,9 +274,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:48.335Z",
-      "scrapedAt": "2026-02-18T02:33:06.737Z",
-      "lastUpdated": "2026-02-18T02:34:48.335Z",
+      "processedAt": "2026-02-18T13:15:25.394Z",
+      "scrapedAt": "2026-02-18T13:13:37.507Z",
+      "lastUpdated": "2026-02-18T13:15:25.394Z",
       "version": 1
     },
     {
@@ -291,7 +291,7 @@
       "status": "active",
       "difficulty": "intermediate",
       "deadline": "2026-03-30T21:00:00.000Z",
-      "prize": "$0",
+      "prize": "5",
       "tags": [
         "Beginner Friendly",
         "Education",
@@ -305,15 +305,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:48.334Z",
-      "scrapedAt": "2026-02-18T02:33:06.737Z",
-      "lastUpdated": "2026-02-18T02:34:48.334Z",
+      "processedAt": "2026-02-18T13:15:25.388Z",
+      "scrapedAt": "2026-02-18T13:13:37.507Z",
+      "lastUpdated": "2026-02-18T13:15:25.388Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-02-18T02:34:54.785Z"
+    "lastUpdated": "2026-02-18T13:15:31.674Z"
   }
 }

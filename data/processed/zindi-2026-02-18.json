@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-02-18T02:34:54.789Z",
+  "timestamp": "2026-02-18T13:15:31.678Z",
   "contestCount": 20,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-03-01T02:33:55.538Z",
+      "deadline": "2026-02-28T13:14:30.311Z",
       "prize": "€8 250 EUR",
       "tags": [
         "ai"
@@ -27,9 +27,36 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:50.481Z",
-      "scrapedAt": "2026-02-18T02:33:55.538Z",
-      "lastUpdated": "2026-02-18T02:34:50.481Z",
+      "processedAt": "2026-02-18T13:15:27.480Z",
+      "scrapedAt": "2026-02-18T13:14:30.311Z",
+      "lastUpdated": "2026-02-18T13:15:27.480Z",
+      "version": 1
+    },
+    {
+      "id": "c_465768240288",
+      "title": "data.org Financial Health Prediction Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/dataorg-financial-health-prediction-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-02-28T13:14:30.311Z",
+      "prize": "$1 500 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-02-18T13:15:27.475Z",
+      "scrapedAt": "2026-02-18T13:14:30.311Z",
+      "lastUpdated": "2026-02-18T13:15:27.475Z",
       "version": 1
     },
     {
@@ -53,36 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:50.476Z",
-      "scrapedAt": "2026-02-18T02:33:55.538Z",
-      "lastUpdated": "2026-02-18T02:34:50.476Z",
-      "version": 1
-    },
-    {
-      "id": "c_465768240288",
-      "title": "data.org Financial Health Prediction Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/dataorg-financial-health-prediction-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-01T02:33:55.538Z",
-      "prize": "$1 500 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:50.555Z",
-      "scrapedAt": "2026-02-18T02:33:55.538Z",
-      "lastUpdated": "2026-02-18T02:34:50.555Z",
+      "processedAt": "2026-02-18T13:15:27.509Z",
+      "scrapedAt": "2026-02-18T13:14:30.312Z",
+      "lastUpdated": "2026-02-18T13:15:27.509Z",
       "version": 1
     },
     {
@@ -96,7 +96,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-03-07T02:33:55.539Z",
+      "deadline": "2026-03-06T13:14:30.312Z",
       "prize": "€8 250 EUR",
       "tags": [],
       "aiTools": [
@@ -107,9 +107,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:51.551Z",
-      "scrapedAt": "2026-02-18T02:33:55.539Z",
-      "lastUpdated": "2026-02-18T02:34:51.551Z",
+      "processedAt": "2026-02-18T13:15:28.521Z",
+      "scrapedAt": "2026-02-18T13:14:30.312Z",
+      "lastUpdated": "2026-02-18T13:15:28.521Z",
       "version": 1
     },
     {
@@ -123,7 +123,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-03-14T02:33:55.539Z",
+      "deadline": "2026-03-13T13:14:30.312Z",
       "prize": "$10 000 USD",
       "tags": [
         "ai"
@@ -136,9 +136,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:51.546Z",
-      "scrapedAt": "2026-02-18T02:33:55.539Z",
-      "lastUpdated": "2026-02-18T02:34:51.546Z",
+      "processedAt": "2026-02-18T13:15:28.540Z",
+      "scrapedAt": "2026-02-18T13:14:30.312Z",
+      "lastUpdated": "2026-02-18T13:15:28.540Z",
       "version": 1
     },
     {
@@ -162,9 +162,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:51.554Z",
-      "scrapedAt": "2026-02-18T02:33:55.539Z",
-      "lastUpdated": "2026-02-18T02:34:51.554Z",
+      "processedAt": "2026-02-18T13:15:28.514Z",
+      "scrapedAt": "2026-02-18T13:14:30.313Z",
+      "lastUpdated": "2026-02-18T13:15:28.514Z",
+      "version": 1
+    },
+    {
+      "id": "c_dfe1d00c89c3",
+      "title": "Barbados Traffic Analysis Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/barbados-traffic-analysis-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$11 000 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-02-18T13:15:28.512Z",
+      "scrapedAt": "2026-02-18T13:14:30.313Z",
+      "lastUpdated": "2026-02-18T13:15:28.512Z",
       "version": 1
     },
     {
@@ -190,35 +216,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:51.545Z",
-      "scrapedAt": "2026-02-18T02:33:55.540Z",
-      "lastUpdated": "2026-02-18T02:34:51.545Z",
-      "version": 1
-    },
-    {
-      "id": "c_dfe1d00c89c3",
-      "title": "Barbados Traffic Analysis Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/barbados-traffic-analysis-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$11 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:51.617Z",
-      "scrapedAt": "2026-02-18T02:33:55.540Z",
-      "lastUpdated": "2026-02-18T02:34:51.617Z",
+      "processedAt": "2026-02-18T13:15:28.587Z",
+      "scrapedAt": "2026-02-18T13:14:30.313Z",
+      "lastUpdated": "2026-02-18T13:15:28.587Z",
       "version": 1
     },
     {
@@ -242,35 +242,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:52.627Z",
-      "scrapedAt": "2026-02-18T02:33:55.540Z",
-      "lastUpdated": "2026-02-18T02:34:52.627Z",
-      "version": 1
-    },
-    {
-      "id": "c_fe16d7763934",
-      "title": "agriBORA Commodity Price Forecasting Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/agribora-commodity-price-forecasting-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "€8 250 EUR",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:52.623Z",
-      "scrapedAt": "2026-02-18T02:33:55.541Z",
-      "lastUpdated": "2026-02-18T02:34:52.623Z",
+      "processedAt": "2026-02-18T13:15:29.575Z",
+      "scrapedAt": "2026-02-18T13:14:30.313Z",
+      "lastUpdated": "2026-02-18T13:15:29.575Z",
       "version": 1
     },
     {
@@ -294,9 +268,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:52.626Z",
-      "scrapedAt": "2026-02-18T02:33:55.541Z",
-      "lastUpdated": "2026-02-18T02:34:52.626Z",
+      "processedAt": "2026-02-18T13:15:29.578Z",
+      "scrapedAt": "2026-02-18T13:14:30.314Z",
+      "lastUpdated": "2026-02-18T13:15:29.578Z",
+      "version": 1
+    },
+    {
+      "id": "c_fe16d7763934",
+      "title": "agriBORA Commodity Price Forecasting Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/agribora-commodity-price-forecasting-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "€8 250 EUR",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-02-18T13:15:29.570Z",
+      "scrapedAt": "2026-02-18T13:14:30.314Z",
+      "lastUpdated": "2026-02-18T13:15:29.570Z",
       "version": 1
     },
     {
@@ -319,9 +319,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:52.621Z",
-      "scrapedAt": "2026-02-18T02:33:55.541Z",
-      "lastUpdated": "2026-02-18T02:34:52.621Z",
+      "processedAt": "2026-02-18T13:15:29.577Z",
+      "scrapedAt": "2026-02-18T13:14:30.314Z",
+      "lastUpdated": "2026-02-18T13:15:29.577Z",
       "version": 1
     },
     {
@@ -345,9 +345,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:52.691Z",
-      "scrapedAt": "2026-02-18T02:33:55.541Z",
-      "lastUpdated": "2026-02-18T02:34:52.691Z",
+      "processedAt": "2026-02-18T13:15:29.602Z",
+      "scrapedAt": "2026-02-18T13:14:30.314Z",
+      "lastUpdated": "2026-02-18T13:15:29.602Z",
       "version": 1
     },
     {
@@ -371,9 +371,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:53.704Z",
-      "scrapedAt": "2026-02-18T02:33:55.542Z",
-      "lastUpdated": "2026-02-18T02:34:53.704Z",
+      "processedAt": "2026-02-18T13:15:30.611Z",
+      "scrapedAt": "2026-02-18T13:14:30.314Z",
+      "lastUpdated": "2026-02-18T13:15:30.611Z",
       "version": 1
     },
     {
@@ -397,9 +397,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:53.688Z",
-      "scrapedAt": "2026-02-18T02:33:55.542Z",
-      "lastUpdated": "2026-02-18T02:34:53.688Z",
+      "processedAt": "2026-02-18T13:15:30.614Z",
+      "scrapedAt": "2026-02-18T13:14:30.314Z",
+      "lastUpdated": "2026-02-18T13:15:30.614Z",
       "version": 1
     },
     {
@@ -425,9 +425,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:53.698Z",
-      "scrapedAt": "2026-02-18T02:33:55.542Z",
-      "lastUpdated": "2026-02-18T02:34:53.698Z",
+      "processedAt": "2026-02-18T13:15:30.615Z",
+      "scrapedAt": "2026-02-18T13:14:30.315Z",
+      "lastUpdated": "2026-02-18T13:15:30.615Z",
       "version": 1
     },
     {
@@ -451,9 +451,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:53.692Z",
-      "scrapedAt": "2026-02-18T02:33:55.543Z",
-      "lastUpdated": "2026-02-18T02:34:53.692Z",
+      "processedAt": "2026-02-18T13:15:30.610Z",
+      "scrapedAt": "2026-02-18T13:14:30.315Z",
+      "lastUpdated": "2026-02-18T13:15:30.610Z",
       "version": 1
     },
     {
@@ -477,9 +477,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:53.770Z",
-      "scrapedAt": "2026-02-18T02:33:55.544Z",
-      "lastUpdated": "2026-02-18T02:34:53.770Z",
+      "processedAt": "2026-02-18T13:15:30.658Z",
+      "scrapedAt": "2026-02-18T13:14:30.315Z",
+      "lastUpdated": "2026-02-18T13:15:30.658Z",
       "version": 1
     },
     {
@@ -503,9 +503,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:54.780Z",
-      "scrapedAt": "2026-02-18T02:33:55.544Z",
-      "lastUpdated": "2026-02-18T02:34:54.780Z",
+      "processedAt": "2026-02-18T13:15:31.646Z",
+      "scrapedAt": "2026-02-18T13:14:30.315Z",
+      "lastUpdated": "2026-02-18T13:15:31.646Z",
       "version": 1
     },
     {
@@ -529,15 +529,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-18T02:34:54.773Z",
-      "scrapedAt": "2026-02-18T02:33:55.544Z",
-      "lastUpdated": "2026-02-18T02:34:54.773Z",
+      "processedAt": "2026-02-18T13:15:31.666Z",
+      "scrapedAt": "2026-02-18T13:14:30.315Z",
+      "lastUpdated": "2026-02-18T13:15:31.666Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-02-18T02:34:54.789Z"
+    "lastUpdated": "2026-02-18T13:15:31.678Z"
   }
 }

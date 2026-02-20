@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-02-20T02:30:05.703Z",
+  "timestamp": "2026-02-20T13:10:05.233Z",
   "contestCount": 10,
   "contests": [
     {
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-20T02:29:57.364Z",
-      "scrapedAt": "2026-02-20T02:28:16.050Z",
-      "lastUpdated": "2026-02-20T02:29:57.364Z",
+      "processedAt": "2026-02-20T13:09:56.936Z",
+      "scrapedAt": "2026-02-20T13:07:33.460Z",
+      "lastUpdated": "2026-02-20T13:09:56.936Z",
       "version": 1
     },
     {
@@ -52,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-20T02:29:57.362Z",
-      "scrapedAt": "2026-02-20T02:28:16.050Z",
-      "lastUpdated": "2026-02-20T02:29:57.362Z",
+      "processedAt": "2026-02-20T13:09:56.942Z",
+      "scrapedAt": "2026-02-20T13:07:33.461Z",
+      "lastUpdated": "2026-02-20T13:09:56.942Z",
       "version": 1
     },
     {
@@ -80,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-20T02:29:57.398Z",
-      "scrapedAt": "2026-02-20T02:28:16.051Z",
-      "lastUpdated": "2026-02-20T02:29:57.398Z",
+      "processedAt": "2026-02-20T13:09:56.958Z",
+      "scrapedAt": "2026-02-20T13:07:33.461Z",
+      "lastUpdated": "2026-02-20T13:09:56.958Z",
       "version": 1
     },
     {
@@ -108,9 +108,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-20T02:29:58.406Z",
-      "scrapedAt": "2026-02-20T02:28:16.052Z",
-      "lastUpdated": "2026-02-20T02:29:58.406Z",
+      "processedAt": "2026-02-20T13:09:57.973Z",
+      "scrapedAt": "2026-02-20T13:07:33.462Z",
+      "lastUpdated": "2026-02-20T13:09:57.973Z",
       "version": 1
     },
     {
@@ -134,9 +134,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-20T02:29:58.407Z",
-      "scrapedAt": "2026-02-20T02:28:16.053Z",
-      "lastUpdated": "2026-02-20T02:29:58.407Z",
+      "processedAt": "2026-02-20T13:09:57.990Z",
+      "scrapedAt": "2026-02-20T13:07:33.463Z",
+      "lastUpdated": "2026-02-20T13:09:57.990Z",
       "version": 1
     },
     {
@@ -160,9 +160,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-20T02:29:58.406Z",
-      "scrapedAt": "2026-02-20T02:28:16.054Z",
-      "lastUpdated": "2026-02-20T02:29:58.406Z",
+      "processedAt": "2026-02-20T13:09:57.974Z",
+      "scrapedAt": "2026-02-20T13:07:33.464Z",
+      "lastUpdated": "2026-02-20T13:09:57.974Z",
       "version": 1
     },
     {
@@ -186,9 +186,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-20T02:29:58.401Z",
-      "scrapedAt": "2026-02-20T02:28:16.054Z",
-      "lastUpdated": "2026-02-20T02:29:58.401Z",
+      "processedAt": "2026-02-20T13:09:57.974Z",
+      "scrapedAt": "2026-02-20T13:07:33.464Z",
+      "lastUpdated": "2026-02-20T13:09:57.974Z",
       "version": 1
     },
     {
@@ -212,9 +212,37 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-20T02:29:58.431Z",
-      "scrapedAt": "2026-02-20T02:28:16.055Z",
-      "lastUpdated": "2026-02-20T02:29:58.431Z",
+      "processedAt": "2026-02-20T13:09:58.017Z",
+      "scrapedAt": "2026-02-20T13:07:33.465Z",
+      "lastUpdated": "2026-02-20T13:09:58.017Z",
+      "version": 1
+    },
+    {
+      "id": "c_fe7ff597598c",
+      "title": "Airia AI Agents Hackathon",
+      "platform": "devpost",
+      "url": "https://airia-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/298/771/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$7,000",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-02-20T13:09:59.021Z",
+      "scrapedAt": "2026-02-20T13:07:33.466Z",
+      "lastUpdated": "2026-02-20T13:09:59.021Z",
       "version": 1
     },
     {
@@ -238,41 +266,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-20T02:29:59.443Z",
-      "scrapedAt": "2026-02-20T02:28:16.055Z",
-      "lastUpdated": "2026-02-20T02:29:59.443Z",
-      "version": 1
-    },
-    {
-      "id": "c_d5bb324c7bcf",
-      "title": "Hackonomics 2026",
-      "platform": "devpost",
-      "url": "https://hackonomics26.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/676/180/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "5",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-20T02:29:59.445Z",
-      "scrapedAt": "2026-02-20T02:28:16.056Z",
-      "lastUpdated": "2026-02-20T02:29:59.445Z",
+      "processedAt": "2026-02-20T13:09:59.019Z",
+      "scrapedAt": "2026-02-20T13:07:33.466Z",
+      "lastUpdated": "2026-02-20T13:09:59.019Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-02-20T02:30:05.703Z"
+    "lastUpdated": "2026-02-20T13:10:05.233Z"
   }
 }

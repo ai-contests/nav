@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-02-22T02:35:02.144Z",
+  "timestamp": "2026-02-22T13:00:50.940Z",
   "contestCount": 10,
   "contests": [
     {
@@ -8,15 +8,17 @@
       "title": "Amazon Nova AI Hackathon",
       "platform": "devpost",
       "url": "https://amazon-nova.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/222/586/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/222/586/datas/original.png",
+      "description": "Welcome to the Amazon Nova AI Hackathon! Amazon Nova is a portfolio of foundation models and services that deliver frontier intelligence and industry-leading price performance. This is your chance to invent with freedom and build with Nova’s capabilities, including advanced reasoning, tool use, multimodal understanding, voice AI, and UI workflow automation. Nova 2 Lite, a fast, cost-effective reasoning model for everyday tasks. Nova 2 Sonic, a speech-to-speech model for conversational AI. Nova Act is a service to build and manage fleets of agents for automating production UI workflows with high reliability. Nova multimodal embeddings: A state-of-the-art multimodal embedding model. Join and build innovative Gen AI applications using Amazon Nova! Why Participate? Innovate with Next-Gen AI. Explore the frontiers of generative AI and apply Nova's differentiated features to solve real-world problems. Real-World Impact. Develop solutions that deliver measurable value for businesses or create meaningful benefits for communities. Compete for Prizes. With a prize pool of $40,000 in cash and $55,000 in AWS credits, your innovative projects could earn significant rewards. Learn and Grow. Access dedicated resources, code examples, technical documentation, virtual workshops, and office hours to support your journey. Showcase Your Skills. Gain recognition for your expertise and show everyone your hard work. Get Started Amazon Nova 2 developer guide for foundation models and for Nova Act Amazon Nova website More Resources to help you!",
+      "summary": "Welcome to the Amazon Nova AI Hackathon! Amazon Nova is a portfolio of foundation models and services that deliver frontier intelligence and industry-leading price performance. This is your chance to ...",
+      "contestType": "audio",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-03-17T00:00:00.000Z",
       "prize": "$40,000",
       "tags": [
-        "ai"
+        "Beginner Friendly",
+        "Social Good"
       ],
       "aiTools": [
         "Python",
@@ -26,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-22T02:34:53.464Z",
-      "scrapedAt": "2026-02-22T02:33:15.220Z",
-      "lastUpdated": "2026-02-22T02:34:53.464Z",
+      "processedAt": "2026-02-22T13:00:42.336Z",
+      "scrapedAt": "2026-02-22T12:58:50.121Z",
+      "lastUpdated": "2026-02-22T13:00:42.336Z",
       "version": 1
     },
     {
@@ -36,14 +38,18 @@
       "title": "Gemini Live Agent Challenge",
       "platform": "devpost",
       "url": "https://geminiliveagentchallenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/338/662/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/338/662/datas/original.png",
+      "description": "Hey builders! 🛑 Stop typing, and start interacting! We are moving beyond the text box. The future isn't about just chatting with AI—it's about immersive, real-time experiences. To celebrate the power of multimodal AI, we’re challenging you to build the next generation of agents that can help you see 🙈, hear 🙉, speak 🙊, and create in the Gemini Live Agent Challenge.",
+      "summary": "Hey builders! 🛑 Stop typing, and start interacting! We are moving beyond the text box. The future isn't about just chatting with AI—it's about immersive, real-time experiences. To celebrate the power...",
+      "contestType": "text",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-03-17T00:00:00.000Z",
       "prize": "$80,000",
-      "tags": [],
+      "tags": [
+        "Communication",
+        "Voice skills"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -52,9 +58,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-22T02:34:53.466Z",
-      "scrapedAt": "2026-02-22T02:33:15.221Z",
-      "lastUpdated": "2026-02-22T02:34:53.466Z",
+      "processedAt": "2026-02-22T13:00:42.336Z",
+      "scrapedAt": "2026-02-22T12:58:50.121Z",
+      "lastUpdated": "2026-02-22T13:00:42.336Z",
       "version": 1
     },
     {
@@ -62,15 +68,17 @@
       "title": "GitLab AI Hackathon",
       "platform": "devpost",
       "url": "https://gitlab.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/188/179/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/188/179/datas/original.png",
+      "description": "AI writes code. That's expected now. The real opportunity? Everything else. Planning. Security. Compliance. Deployments. These are the bottlenecks that slow teams down every day. And they're wide open for automation. We're opening up the GitLab Duo Agent Platform and inviting developers worldwide to build AI agents that help you and your team to build secure software faster. Not chatbots that answer questions. Agents that jump into workflows, respond to events, and take action on your behalf. Think of it as building a digital teammate for every developer using GitLab. Why Join? Be early: Get access to the GitLab Duo Agent Platform for the duration of the hackathon while it’s fresh! Learn it. Build on it. Shape it. Learn how to build agents that assist you with tedious tasks such as creating tests Learn how to build a flow of agents and orchestrate an entire team of purpose-built agents to build & deploy feature requests from creating, testing, security scanning to deployment. Make an impact: Your agent could ship to thousands of GitLab users. This isn't just a side project that sits in a repo. Win $65,000 in prizes. Compete for the Grand Prize or win one of our category prices Get Started Join Discord and get to know each other in #ai-hackathon. Explore GitLab Duo Agent Platform. Request Access to the GitLab AI Hackathon group. Learn how to create GitLab custom Agents. Learn how to create GitLab Flows. Discover what’s possible in our GitLab Duo prompt library.",
+      "summary": "AI writes code. That's expected now. The real opportunity? Everything else. Planning. Security. Compliance. Deployments. These are the bottlenecks that slow teams down every day. And they're wide open...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-03-25T18:00:00.000Z",
       "prize": "$65,000",
       "tags": [
-        "ai"
+        "Databases",
+        "Productivity"
       ],
       "aiTools": [
         "Python",
@@ -80,9 +88,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-22T02:34:53.541Z",
-      "scrapedAt": "2026-02-22T02:33:15.222Z",
-      "lastUpdated": "2026-02-22T02:34:53.541Z",
+      "processedAt": "2026-02-22T13:00:42.414Z",
+      "scrapedAt": "2026-02-22T12:58:50.122Z",
+      "lastUpdated": "2026-02-22T13:00:42.414Z",
       "version": 1
     },
     {
@@ -90,14 +98,19 @@
       "title": "Elasticsearch Agent Builder Hackathon",
       "platform": "devpost",
       "url": "https://elasticsearch.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/156/365/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/156/365/datas/original.jpg",
+      "description": "About the challenge Welcome to the Elasticsearch Agent Builder Hackathon, running from January 22 to February 27, 2026. Build context-driven, multi-step AI agents that combine search, workflows, tools, and reasoning to automate real-world tasks. This isn’t about single prompt answers, it’s about agents that retrieve the most relevant context, select the right tools, and execute tasks across multiple steps. Your mission is to design agents that actually get work done. Compete for a share of $20,000 in prizes, collaborate with Elastic engineers, and get featured on our blog and social channels. We can’t wait to see the agents you develop Why participate ? Build agents for real work: Design agents that reason, use tools, keep context, and actually finish tasks. Level up fast: Practice multi-step reasoning, tool orchestration, and stateful workflows under real constraints. Win and get seen There is $20,000 on the table, plus exposure on blogs and social channels. What's Elasticsearch and Agent Builder Elasticsearch is an open source, distributed search and analytics engine built for speed, scale, and AI applications. As a retrieval platform, it stores structured, unstructured, and vector data in real time. It delivers fast hybrid and vector search, real-time analytics on logs, metrics or events, and enables AI-driven applications with high performance, accuracy, and relevance. Agent Builder is a framework to rapidly create custom agents that connect LLMs to private Elasticsearch data. Tailor tools to query indexes, trigger workflows, or use piped query language for logic, relevance, and personalization. It supports custom agents accessible via Kibana, APIs, MCP, and A2A.",
+      "summary": "About the challenge Welcome to the Elasticsearch Agent Builder Hackathon, running from January 22 to February 27, 2026. Build context-driven, multi-step AI agents that combine search, workflows, tools...",
+      "contestType": "text",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-02-27T18:00:00.000Z",
       "prize": "$20,000",
-      "tags": [],
+      "tags": [
+        "Serverless",
+        "llm",
+        "Databases"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -106,9 +119,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-22T02:34:54.554Z",
-      "scrapedAt": "2026-02-22T02:33:15.223Z",
-      "lastUpdated": "2026-02-22T02:34:54.554Z",
+      "processedAt": "2026-02-22T13:00:43.407Z",
+      "scrapedAt": "2026-02-22T12:58:50.123Z",
+      "lastUpdated": "2026-02-22T13:00:43.407Z",
       "version": 1
     },
     {
@@ -116,15 +129,17 @@
       "title": "DigitalOcean Gradient™ AI Hackathon",
       "platform": "devpost",
       "url": "https://digitalocean.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/188/390/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/188/390/datas/original.png",
+      "description": "WELCOME The DigitalOcean Gradient™ AI Hackathon challenges developers, builders, and creators to design and launch new, working AI-powered applications using DigitalOcean Gradient™ AI’s full-stack features. From model training to deployment, this hackathon is about shipping real, production-ready AI — not just prototypes. Whether you’re exploring AI for the first time or scaling advanced machine learning workflows, this is your opportunity to build impactful applications on a developer-first cloud platform designed for speed, simplicity, and scale. Why join? Learn to build and deploy full-stack AI apps with DigitalOcean Gradient™ AI. Experiment with GPU-powered AI infrastructure and production-ready workflows. Compete for cash prizes and build something you can showcase. Get Started Signup for a DigitalOcean account! Check out the DigitalOcean Gradient™ AI documentation Check out DigitalOcean's general documentation About DigitalOcean DigitalOcean is the cloud built for developers. With powerful infrastructure, predictable pricing, and intuitive tools, DigitalOcean makes it easy for startups and growing teams to build, deploy, and scale applications without unnecessary complexity. About DigitalOcean Gradient™ AI DigitalOcean Gradient™ AI is a full-stack AI platform that simplifies the entire machine learning lifecycle. With GPU-backed compute, flexible workflows, and seamless deployment, Gradient AI enables developers to move from idea to production faster all within DigitalOcean’s unified cloud ecosystem. In Partnership with Major League Hacking This hackathon is proudly supported by Major League Hacking (MLH), the global leader in developer hackathons. MLH empowers builders worldwide through inclusive, high-quality events and provides participants with access to resources, tooling, and community to help them succeed.",
+      "summary": "WELCOME The DigitalOcean Gradient™ AI Hackathon challenges developers, builders, and creators to design and launch new, working AI-powered applications using DigitalOcean Gradient™ AI’s full-stack fea...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-03-18T21:00:00.000Z",
       "prize": "$20,000",
       "tags": [
-        "ai"
+        "Databases",
+        "Open Ended"
       ],
       "aiTools": [
         "Python",
@@ -134,9 +149,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-22T02:34:54.549Z",
-      "scrapedAt": "2026-02-22T02:33:15.223Z",
-      "lastUpdated": "2026-02-22T02:34:54.549Z",
+      "processedAt": "2026-02-22T13:00:43.408Z",
+      "scrapedAt": "2026-02-22T12:58:50.123Z",
+      "lastUpdated": "2026-02-22T13:00:43.408Z",
       "version": 1
     },
     {
@@ -144,14 +159,20 @@
       "title": "DevStudio 2026 by Logitech",
       "platform": "devpost",
       "url": "https://devstudiologitech2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/192/157/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/192/157/datas/original.png",
+      "description": "Welcome to the DevStudio 2026 by Logitech Challenge. Logitech invites all software developers to explore its ecosystem of devices, enabling the creation of innovative interactions, seamless connections between apps and devices, and entirely new ways of working. Why Participate Collaborate with Logitech Experts: Engage with Logitech’s passionate professionals who are dedicated to creating impactful, cutting-edge solutions for user interaction. Global Reach for Your Application: Gain the opportunity to have your application reach 40+ millions of users through the Logitech Marketplace or the Meta App Store—making your work accessible worldwide. Open Doors to Future Opportunities: Kickstart a potential collaboration with Logitech! Whether you’re an individual, a team, or a company, this challenge could be the beginning of something extraordinary.",
+      "summary": "Welcome to the DevStudio 2026 by Logitech Challenge. Logitech invites all software developers to explore its ecosystem of devices, enabling the creation of innovative interactions, seamless connection...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-02-25T16:00:00.000Z",
       "prize": "$20,000",
-      "tags": [],
+      "tags": [
+        "AR",
+        "VR",
+        "Open Ended",
+        "Productivity"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -160,9 +181,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-22T02:34:54.547Z",
-      "scrapedAt": "2026-02-22T02:33:15.224Z",
-      "lastUpdated": "2026-02-22T02:34:54.547Z",
+      "processedAt": "2026-02-22T13:00:43.406Z",
+      "scrapedAt": "2026-02-22T12:58:50.123Z",
+      "lastUpdated": "2026-02-22T13:00:43.406Z",
       "version": 1
     },
     {
@@ -170,25 +191,31 @@
       "title": "Dev_Dash",
       "platform": "devpost",
       "url": "https://devdash.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/196/405/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/196/405/datas/original.png",
+      "description": "DevDash 2026: The Sprint to Solution DevDash 2026 is an intensive global innovation sprint designed to bridge the gap between abstract ideas and deployable technology. Whether you are a solo developer, a designer with a vision, or a startup team, DevDash provides the platform to showcase technical depth and creative problem-solving. This month-long hackathon emphasizes rapid iteration, usability, and impact. We aren't just looking for code; we’re looking for high-performance dashboards, tools, and systems that simplify complexity and drive real-world results. Get Started Register: Sign up on the DevDash portal to join the community. Form a Team: Connect with participants or go solo. Build: Develop your solution between Jan 20 and Feb 20. Submit: Ensure your project meets all technical and video requirements before the deadline.",
+      "summary": "DevDash 2026: The Sprint to Solution DevDash 2026 is an intensive global innovation sprint designed to bridge the gap between abstract ideas and deployable technology. Whether you are a solo developer...",
+      "contestType": "image",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-02-28T22:00:00.000Z",
       "prize": "$10,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
+      "requirements": [
+        "before the deadline."
+      ],
       "qualityScore": 6,
-      "processedAt": "2026-02-22T02:34:54.548Z",
-      "scrapedAt": "2026-02-22T02:33:15.224Z",
-      "lastUpdated": "2026-02-22T02:34:54.548Z",
+      "processedAt": "2026-02-22T13:00:43.407Z",
+      "scrapedAt": "2026-02-22T12:58:50.124Z",
+      "lastUpdated": "2026-02-22T13:00:43.407Z",
       "version": 1
     },
     {
@@ -196,15 +223,17 @@
       "title": "Airia AI Agents Hackathon",
       "platform": "devpost",
       "url": "https://airia-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/298/771/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/298/771/datas/original.png",
+      "description": "🚀 Airia AI Agent Challenge Build the Future of Enterprise AI Join us for an exciting virtual hackathon where you'll create cutting-edge AI agents that transform how people work. Whether you're bringing AI directly into users' daily tools or building sophisticated multi-agent systems, this is your opportunity to showcase innovation that matters. 🎯 Challenge Tracks Track 1: Airia Everywhere Meet users where they already are. Build AI agents that seamlessly integrate into the platforms people use every day. No more context-switching, no more friction—just intelligent assistance exactly when and where it's needed. Target Platforms: 🌐 Browser extensions 📧 Outlook & email inboxes 💬 Chat widgets 💼 Slack & Microsoft Teams 📁 SharePoint 📱 WhatsApp 🔌 Custom APIs for iterative workflows Think: Personal AI assistants that live in your browser, email triaging bots, Slack integrations that automate team workflows, or browser extensions that enhance productivity across any web application. Track 2: Active Agents Orchestrate intelligence across your entire tech stack. Design sophisticated multi-agent workflows that autonomously gather data, make decisions, and perform actions across 2+ systems. Build the autonomous workforce of tomorrow. Key Capabilities: 🤝 Multi-system integrations 👤 Human-in-the-loop (HITL) decision points 📄 Dynamic document generation 🔄 Nested agent architectures ⚡ Automated cross-platform workflows Think: Contract analysis pipelines, automated compliance monitoring systems, intelligent customer onboarding workflows, or research agents that synthesize information from multiple sources.",
+      "summary": "🚀 Airia AI Agent Challenge Build the Future of Enterprise AI Join us for an exciting virtual hackathon where you'll create cutting-edge AI agents that transform how people work. Whether you're bringi...",
+      "contestType": "text",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-03-20T03:45:00.000Z",
       "prize": "$7,000",
       "tags": [
-        "ai"
+        "Beginner Friendly",
+        "Enterprise"
       ],
       "aiTools": [
         "Python",
@@ -214,9 +243,39 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-22T02:34:54.627Z",
-      "scrapedAt": "2026-02-22T02:33:15.231Z",
-      "lastUpdated": "2026-02-22T02:34:54.627Z",
+      "processedAt": "2026-02-22T13:00:43.468Z",
+      "scrapedAt": "2026-02-22T12:58:50.124Z",
+      "lastUpdated": "2026-02-22T13:00:43.468Z",
+      "version": 1
+    },
+    {
+      "id": "c_92a82889f88e",
+      "title": "Hacklytics 2026: Golden Byte",
+      "platform": "devpost",
+      "url": "https://hacklytics-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/157/420/datas/original.png",
+      "description": "About Hacklytics 2026: Golden Byte Step into a world of pure imagination at Hacklytics 2026, where creativity, curiosity, and innovation come together in a factory of endless possibilities. This year’s hackathon invites you to unwrap bold ideas, experiment fearlessly, and turn imaginative concepts into impactful solutions. As you journey through this whimsical factory of innovation, you’ll tackle real-world challenges and blend technical skill with creativity and vision. Whether you’re crafting your first prototype or refining a polished solution, Hacklytics 2026 is your golden ticket to explore, build, and create alongside fellow innovators. Bring your ideas, your skills, and your sense of wonder. Let’s see what you can invent. Find out more about our hackathon at our website! TRACKS Finance Analyze market trends, predict stock movements, and build cutting-edge fintech solutions. This track is perfect for projects focused on financial modeling, risk analysis, fraud detection, trading strategies, or improving access to financial tools using data and machine learning. Sports Analytics Dive into player performance, game strategy, and the future of sports data. Projects in this track may analyze real-time statistics, optimize team decisions, enhance fan engagement, or explore how analytics can redefine athletic performance and competition. Healthcare Innovate in bioinformatics, patient care, and personal health technology. This track encourages solutions that improve health outcomes, enhance medical decision-making, personalize care, or use data and AI to tackle challenges in healthcare accessibility and efficiency. Entertainment See how AI is transforming movies, gaming, and interactive experiences. Build tools or platforms that enhance storytelling, content creation, player engagement, or immersive media experiences across film, gaming, and digital entertainment. Pure Imagination Unleash your creativity, explore unconventional ideas, and use data to build the coolest, most unique project. This track is all about bold thinking-whether your project is experimental, playful, artistic, or completely unexpected, creativity takes center stage here.",
+      "summary": "About Hacklytics 2026: Golden Byte Step into a world of pure imagination at Hacklytics 2026, where creativity, curiosity, and innovation come together in a factory of endless possibilities. This year’...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-02-22T14:00:00.000Z",
+      "prize": "$4,600",
+      "tags": [
+        "Beginner Friendly",
+        "Open Ended"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-02-22T13:00:44.482Z",
+      "scrapedAt": "2026-02-22T12:58:50.125Z",
+      "lastUpdated": "2026-02-22T13:00:44.482Z",
       "version": 1
     },
     {
@@ -224,14 +283,18 @@
       "title": "Byte 2 Beat",
       "platform": "devpost",
       "url": "https://byte2beat.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/045/247/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/045/247/datas/original.png",
+      "description": "Thank you for participating in Byte 2 Beat Important: To be eligible for prizes, you MUST Join our discord: https://discord.com/invite/SZhaZcNh4D. Aditionally, you must be a student (any grade is fine) Dataset: https://drive.google.com/drive/folders/1oTqMR3AM3FGjnAXPZZuqDLH7D4rcOhNbZ* *For 1st Place Projects, we would like you to find a unique dataset for more impactful and innovative projects and results. Cardiovascular Disease remains the leading cause of death globally. In this hackathon, you’ll use real, de-identified biomedical data to build machine learning models that support early detection, progression forecasting, or interpretability of Cardiovascular Disease risk. Our goal: make serious computational health innovation accessible to every motivated high school or undergraduate student, no lab or insider network required. Hack4Health democratizes computational medicine by giving students access to authentic biomedical datasets, pragmatic tooling, and strong mentorship.",
+      "summary": "Thank you for participating in Byte 2 Beat Important: To be eligible for prizes, you MUST Join our discord: https://discord.com/invite/SZhaZcNh4D. Aditionally, you must be a student (any grade is fine...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-02-28T22:00:00.000Z",
       "prize": "$1,500",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Health"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -240,41 +303,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-22T02:34:55.637Z",
-      "scrapedAt": "2026-02-22T02:33:15.232Z",
-      "lastUpdated": "2026-02-22T02:34:55.637Z",
-      "version": 1
-    },
-    {
-      "id": "c_d5bb324c7bcf",
-      "title": "Hackonomics 2026",
-      "platform": "devpost",
-      "url": "https://hackonomics26.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/676/180/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "5",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-22T02:34:55.633Z",
-      "scrapedAt": "2026-02-22T02:33:15.232Z",
-      "lastUpdated": "2026-02-22T02:34:55.633Z",
+      "processedAt": "2026-02-22T13:00:44.485Z",
+      "scrapedAt": "2026-02-22T12:58:50.126Z",
+      "lastUpdated": "2026-02-22T13:00:44.485Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-02-22T02:35:02.144Z"
+    "lastUpdated": "2026-02-22T13:00:50.940Z"
   }
 }

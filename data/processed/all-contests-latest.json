@@ -1,7 +1,7 @@
 {
   "platform": "all",
-  "timestamp": "2026-02-24T02:32:15.343Z",
-  "contestCount": 68,
+  "timestamp": "2026-02-24T13:17:48.674Z",
+  "contestCount": 48,
   "contests": [
     {
       "id": "c_8028e73d2ed6",
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:00.772Z",
-      "scrapedAt": "2026-02-24T02:31:11.344Z",
-      "lastUpdated": "2026-02-24T02:32:00.772Z",
+      "processedAt": "2026-02-24T13:17:38.307Z",
+      "scrapedAt": "2026-02-24T13:16:51.213Z",
+      "lastUpdated": "2026-02-24T13:17:38.307Z",
       "version": 1
     },
     {
@@ -42,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T02:31:11.345Z",
+      "deadline": "2030-08-14T13:16:51.214Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -53,9 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:01.590Z",
-      "scrapedAt": "2026-02-24T02:31:11.345Z",
-      "lastUpdated": "2026-02-24T02:32:01.590Z",
+      "processedAt": "2026-02-24T13:17:39.168Z",
+      "scrapedAt": "2026-02-24T13:16:51.214Z",
+      "lastUpdated": "2026-02-24T13:17:39.168Z",
       "version": 1
     },
     {
@@ -69,7 +69,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T02:31:11.345Z",
+      "deadline": "2045-09-01T13:16:51.214Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -80,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:01.666Z",
-      "scrapedAt": "2026-02-24T02:31:11.345Z",
-      "lastUpdated": "2026-02-24T02:32:01.666Z",
+      "processedAt": "2026-02-24T13:17:39.182Z",
+      "scrapedAt": "2026-02-24T13:16:51.214Z",
+      "lastUpdated": "2026-02-24T13:17:39.182Z",
       "version": 1
     },
     {
@@ -96,7 +96,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T02:31:11.346Z",
+      "deadline": "2030-12-30T13:16:51.221Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -110,9 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:01.709Z",
-      "scrapedAt": "2026-02-24T02:31:11.346Z",
-      "lastUpdated": "2026-02-24T02:32:01.709Z",
+      "processedAt": "2026-02-24T13:17:39.263Z",
+      "scrapedAt": "2026-02-24T13:16:51.221Z",
+      "lastUpdated": "2026-02-24T13:17:39.263Z",
       "version": 1
     },
     {
@@ -138,9 +138,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:01.711Z",
-      "scrapedAt": "2026-02-24T02:31:11.346Z",
-      "lastUpdated": "2026-02-24T02:32:01.711Z",
+      "processedAt": "2026-02-24T13:17:39.202Z",
+      "scrapedAt": "2026-02-24T13:16:51.222Z",
+      "lastUpdated": "2026-02-24T13:17:39.202Z",
       "version": 1
     },
     {
@@ -164,9 +164,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:01.830Z",
-      "scrapedAt": "2026-02-24T02:31:11.347Z",
-      "lastUpdated": "2026-02-24T02:32:01.830Z",
+      "processedAt": "2026-02-24T13:17:39.292Z",
+      "scrapedAt": "2026-02-24T13:16:51.223Z",
+      "lastUpdated": "2026-02-24T13:17:39.293Z",
       "version": 1
     },
     {
@@ -180,7 +180,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
-      "prize": "71615",
+      "prize": "81615",
       "tags": [],
       "aiTools": [
         "Python",
@@ -190,9 +190,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:02.765Z",
-      "scrapedAt": "2026-02-24T02:30:00.930Z",
-      "lastUpdated": "2026-02-24T02:32:02.765Z",
+      "processedAt": "2026-02-24T13:17:40.354Z",
+      "scrapedAt": "2026-02-24T13:15:33.331Z",
+      "lastUpdated": "2026-02-24T13:17:40.354Z",
       "version": 1
     },
     {
@@ -216,9 +216,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:02.757Z",
-      "scrapedAt": "2026-02-24T02:30:00.937Z",
-      "lastUpdated": "2026-02-24T02:32:02.757Z",
+      "processedAt": "2026-02-24T13:17:40.288Z",
+      "scrapedAt": "2026-02-24T13:15:33.337Z",
+      "lastUpdated": "2026-02-24T13:17:40.288Z",
       "version": 1
     },
     {
@@ -242,9 +242,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:02.764Z",
-      "scrapedAt": "2026-02-24T02:30:00.941Z",
-      "lastUpdated": "2026-02-24T02:32:02.764Z",
+      "processedAt": "2026-02-24T13:17:40.287Z",
+      "scrapedAt": "2026-02-24T13:15:33.341Z",
+      "lastUpdated": "2026-02-24T13:17:40.287Z",
       "version": 1
     },
     {
@@ -268,9 +268,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:02.756Z",
-      "scrapedAt": "2026-02-24T02:30:00.945Z",
-      "lastUpdated": "2026-02-24T02:32:02.756Z",
+      "processedAt": "2026-02-24T13:17:40.294Z",
+      "scrapedAt": "2026-02-24T13:15:33.345Z",
+      "lastUpdated": "2026-02-24T13:17:40.294Z",
       "version": 1
     },
     {
@@ -294,9 +294,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:02.819Z",
-      "scrapedAt": "2026-02-24T02:30:00.948Z",
-      "lastUpdated": "2026-02-24T02:32:02.819Z",
+      "processedAt": "2026-02-24T13:17:40.373Z",
+      "scrapedAt": "2026-02-24T13:15:33.348Z",
+      "lastUpdated": "2026-02-24T13:17:40.374Z",
       "version": 1
     },
     {
@@ -320,9 +320,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:03.810Z",
-      "scrapedAt": "2026-02-24T02:30:00.953Z",
-      "lastUpdated": "2026-02-24T02:32:03.810Z",
+      "processedAt": "2026-02-24T13:17:41.382Z",
+      "scrapedAt": "2026-02-24T13:15:33.352Z",
+      "lastUpdated": "2026-02-24T13:17:41.382Z",
       "version": 1
     },
     {
@@ -346,9 +346,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:03.806Z",
-      "scrapedAt": "2026-02-24T02:30:00.956Z",
-      "lastUpdated": "2026-02-24T02:32:03.806Z",
+      "processedAt": "2026-02-24T13:17:41.381Z",
+      "scrapedAt": "2026-02-24T13:15:33.355Z",
+      "lastUpdated": "2026-02-24T13:17:41.381Z",
       "version": 1
     },
     {
@@ -372,9 +372,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:03.815Z",
-      "scrapedAt": "2026-02-24T02:30:00.959Z",
-      "lastUpdated": "2026-02-24T02:32:03.815Z",
+      "processedAt": "2026-02-24T13:17:41.452Z",
+      "scrapedAt": "2026-02-24T13:15:33.369Z",
+      "lastUpdated": "2026-02-24T13:17:41.452Z",
       "version": 1
     },
     {
@@ -398,9 +398,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:03.807Z",
-      "scrapedAt": "2026-02-24T02:30:00.973Z",
-      "lastUpdated": "2026-02-24T02:32:03.807Z",
+      "processedAt": "2026-02-24T13:17:41.386Z",
+      "scrapedAt": "2026-02-24T13:15:33.371Z",
+      "lastUpdated": "2026-02-24T13:17:41.386Z",
       "version": 1
     },
     {
@@ -426,9 +426,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:03.850Z",
-      "scrapedAt": "2026-02-24T02:30:00.976Z",
-      "lastUpdated": "2026-02-24T02:32:03.850Z",
+      "processedAt": "2026-02-24T13:17:41.472Z",
+      "scrapedAt": "2026-02-24T13:15:33.376Z",
+      "lastUpdated": "2026-02-24T13:17:41.472Z",
       "version": 1
     },
     {
@@ -452,9 +452,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:04.866Z",
-      "scrapedAt": "2026-02-24T02:30:00.979Z",
-      "lastUpdated": "2026-02-24T02:32:04.866Z",
+      "processedAt": "2026-02-24T13:17:42.475Z",
+      "scrapedAt": "2026-02-24T13:15:33.380Z",
+      "lastUpdated": "2026-02-24T13:17:42.475Z",
       "version": 1
     },
     {
@@ -478,9 +478,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:04.861Z",
-      "scrapedAt": "2026-02-24T02:30:00.983Z",
-      "lastUpdated": "2026-02-24T02:32:04.861Z",
+      "processedAt": "2026-02-24T13:17:42.489Z",
+      "scrapedAt": "2026-02-24T13:15:33.384Z",
+      "lastUpdated": "2026-02-24T13:17:42.489Z",
       "version": 1
     },
     {
@@ -504,9 +504,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:04.859Z",
-      "scrapedAt": "2026-02-24T02:30:00.988Z",
-      "lastUpdated": "2026-02-24T02:32:04.859Z",
+      "processedAt": "2026-02-24T13:17:42.480Z",
+      "scrapedAt": "2026-02-24T13:15:33.389Z",
+      "lastUpdated": "2026-02-24T13:17:42.480Z",
       "version": 1
     },
     {
@@ -530,9 +530,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:04.856Z",
-      "scrapedAt": "2026-02-24T02:30:00.992Z",
-      "lastUpdated": "2026-02-24T02:32:04.856Z",
+      "processedAt": "2026-02-24T13:17:42.485Z",
+      "scrapedAt": "2026-02-24T13:15:33.393Z",
+      "lastUpdated": "2026-02-24T13:17:42.485Z",
       "version": 1
     },
     {
@@ -556,9 +556,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:04.899Z",
-      "scrapedAt": "2026-02-24T02:30:00.996Z",
-      "lastUpdated": "2026-02-24T02:32:04.899Z",
+      "processedAt": "2026-02-24T13:17:42.502Z",
+      "scrapedAt": "2026-02-24T13:15:33.397Z",
+      "lastUpdated": "2026-02-24T13:17:42.502Z",
       "version": 1
     },
     {
@@ -582,9 +582,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:05.911Z",
-      "scrapedAt": "2026-02-24T02:30:01.000Z",
-      "lastUpdated": "2026-02-24T02:32:05.911Z",
+      "processedAt": "2026-02-24T13:17:43.505Z",
+      "scrapedAt": "2026-02-24T13:15:33.401Z",
+      "lastUpdated": "2026-02-24T13:17:43.505Z",
       "version": 1
     },
     {
@@ -608,9 +608,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:05.901Z",
-      "scrapedAt": "2026-02-24T02:30:01.004Z",
-      "lastUpdated": "2026-02-24T02:32:05.901Z",
+      "processedAt": "2026-02-24T13:17:43.516Z",
+      "scrapedAt": "2026-02-24T13:15:33.405Z",
+      "lastUpdated": "2026-02-24T13:17:43.516Z",
       "version": 1
     },
     {
@@ -636,9 +636,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:05.900Z",
-      "scrapedAt": "2026-02-24T02:30:01.007Z",
-      "lastUpdated": "2026-02-24T02:32:05.900Z",
+      "processedAt": "2026-02-24T13:17:43.513Z",
+      "scrapedAt": "2026-02-24T13:15:33.408Z",
+      "lastUpdated": "2026-02-24T13:17:43.513Z",
       "version": 1
     },
     {
@@ -664,9 +664,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:05.912Z",
-      "scrapedAt": "2026-02-24T02:30:01.011Z",
-      "lastUpdated": "2026-02-24T02:32:05.912Z",
+      "processedAt": "2026-02-24T13:17:43.512Z",
+      "scrapedAt": "2026-02-24T13:15:33.412Z",
+      "lastUpdated": "2026-02-24T13:17:43.512Z",
       "version": 1
     },
     {
@@ -692,9 +692,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:05.951Z",
-      "scrapedAt": "2026-02-24T02:30:01.014Z",
-      "lastUpdated": "2026-02-24T02:32:05.951Z",
+      "processedAt": "2026-02-24T13:17:43.527Z",
+      "scrapedAt": "2026-02-24T13:15:33.416Z",
+      "lastUpdated": "2026-02-24T13:17:43.527Z",
       "version": 1
     },
     {
@@ -718,9 +718,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:06.950Z",
-      "scrapedAt": "2026-02-24T02:30:01.018Z",
-      "lastUpdated": "2026-02-24T02:32:06.950Z",
+      "processedAt": "2026-02-24T13:17:44.533Z",
+      "scrapedAt": "2026-02-24T13:15:33.418Z",
+      "lastUpdated": "2026-02-24T13:17:44.533Z",
       "version": 1
     },
     {
@@ -744,9 +744,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:06.955Z",
-      "scrapedAt": "2026-02-24T02:30:01.022Z",
-      "lastUpdated": "2026-02-24T02:32:06.955Z",
+      "processedAt": "2026-02-24T13:17:44.530Z",
+      "scrapedAt": "2026-02-24T13:15:33.420Z",
+      "lastUpdated": "2026-02-24T13:17:44.530Z",
       "version": 1
     },
     {
@@ -772,9 +772,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:06.949Z",
-      "scrapedAt": "2026-02-24T02:30:27.504Z",
-      "lastUpdated": "2026-02-24T02:32:06.949Z",
+      "processedAt": "2026-02-24T13:17:44.543Z",
+      "scrapedAt": "2026-02-24T13:15:57.424Z",
+      "lastUpdated": "2026-02-24T13:17:44.543Z",
       "version": 1
     },
     {
@@ -798,9 +798,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:06.947Z",
-      "scrapedAt": "2026-02-24T02:30:27.504Z",
-      "lastUpdated": "2026-02-24T02:32:06.947Z",
+      "processedAt": "2026-02-24T13:17:44.532Z",
+      "scrapedAt": "2026-02-24T13:15:57.424Z",
+      "lastUpdated": "2026-02-24T13:17:44.532Z",
       "version": 1
     },
     {
@@ -826,9 +826,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:06.989Z",
-      "scrapedAt": "2026-02-24T02:30:27.505Z",
-      "lastUpdated": "2026-02-24T02:32:06.989Z",
+      "processedAt": "2026-02-24T13:17:44.558Z",
+      "scrapedAt": "2026-02-24T13:15:57.425Z",
+      "lastUpdated": "2026-02-24T13:17:44.558Z",
       "version": 1
     },
     {
@@ -852,9 +852,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:07.997Z",
-      "scrapedAt": "2026-02-24T02:30:27.505Z",
-      "lastUpdated": "2026-02-24T02:32:07.997Z",
+      "processedAt": "2026-02-24T13:17:45.586Z",
+      "scrapedAt": "2026-02-24T13:15:57.426Z",
+      "lastUpdated": "2026-02-24T13:17:45.586Z",
       "version": 1
     },
     {
@@ -880,9 +880,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:08.003Z",
-      "scrapedAt": "2026-02-24T02:30:27.506Z",
-      "lastUpdated": "2026-02-24T02:32:08.003Z",
+      "processedAt": "2026-02-24T13:17:45.573Z",
+      "scrapedAt": "2026-02-24T13:15:57.426Z",
+      "lastUpdated": "2026-02-24T13:17:45.573Z",
       "version": 1
     },
     {
@@ -906,9 +906,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:07.993Z",
-      "scrapedAt": "2026-02-24T02:30:27.506Z",
-      "lastUpdated": "2026-02-24T02:32:07.993Z",
+      "processedAt": "2026-02-24T13:17:45.558Z",
+      "scrapedAt": "2026-02-24T13:15:57.427Z",
+      "lastUpdated": "2026-02-24T13:17:45.558Z",
       "version": 1
     },
     {
@@ -932,9 +932,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:07.990Z",
-      "scrapedAt": "2026-02-24T02:30:27.507Z",
-      "lastUpdated": "2026-02-24T02:32:07.990Z",
+      "processedAt": "2026-02-24T13:17:45.578Z",
+      "scrapedAt": "2026-02-24T13:15:57.428Z",
+      "lastUpdated": "2026-02-24T13:17:45.578Z",
       "version": 1
     },
     {
@@ -958,9 +958,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:08.047Z",
-      "scrapedAt": "2026-02-24T02:30:27.508Z",
-      "lastUpdated": "2026-02-24T02:32:08.047Z",
+      "processedAt": "2026-02-24T13:17:45.605Z",
+      "scrapedAt": "2026-02-24T13:15:57.428Z",
+      "lastUpdated": "2026-02-24T13:17:45.605Z",
       "version": 1
     },
     {
@@ -974,7 +974,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
-      "prize": "$0",
+      "prize": "5",
       "tags": [],
       "aiTools": [
         "Python",
@@ -984,9 +984,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:09.043Z",
-      "scrapedAt": "2026-02-24T02:30:27.509Z",
-      "lastUpdated": "2026-02-24T02:32:09.043Z",
+      "processedAt": "2026-02-24T13:17:46.603Z",
+      "scrapedAt": "2026-02-24T13:15:57.429Z",
+      "lastUpdated": "2026-02-24T13:17:46.603Z",
       "version": 1
     },
     {
@@ -1012,9 +1012,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:09.046Z",
-      "scrapedAt": "2026-02-24T02:30:27.510Z",
-      "lastUpdated": "2026-02-24T02:32:09.046Z",
+      "processedAt": "2026-02-24T13:17:46.602Z",
+      "scrapedAt": "2026-02-24T13:15:57.430Z",
+      "lastUpdated": "2026-02-24T13:17:46.602Z",
       "version": 1
     },
     {
@@ -1048,9 +1048,9 @@
         "请在相关系统中提供队友信息。信息可以重复修改"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:09.051Z",
-      "scrapedAt": "2026-02-24T02:29:48.998Z",
-      "lastUpdated": "2026-02-24T02:32:09.051Z",
+      "processedAt": "2026-02-24T13:17:46.604Z",
+      "scrapedAt": "2026-02-24T13:15:23.609Z",
+      "lastUpdated": "2026-02-24T13:17:46.604Z",
       "version": 1
     },
     {
@@ -1078,9 +1078,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:09.037Z",
-      "scrapedAt": "2026-02-24T02:29:48.998Z",
-      "lastUpdated": "2026-02-24T02:32:09.037Z",
+      "processedAt": "2026-02-24T13:17:46.599Z",
+      "scrapedAt": "2026-02-24T13:15:23.610Z",
+      "lastUpdated": "2026-02-24T13:17:46.599Z",
       "version": 1
     },
     {
@@ -1089,11 +1089,11 @@
       "platform": "modelscope",
       "url": "https://modelscope.cn/competition/189",
       "imageUrl": "",
-      "description": "存算一体（Computing-in-Memory, CIM）作为后摩尔时代提升计算能效的主要技术路径，正在重塑AI时代算力基础层的技术格局与发展方向，为我国AI大模型、智能应用的爆发提供高质增长引擎。 作为国内存算一体先锋企业，知存科技历经两届区域赛事沉淀，2026年正式升级赛事为全国高校挑战赛。联合魔搭社区 与Springer Nature 等权威伙伴，以“以赛促研、以赛遇才”为宗旨，搭建面向全国高校集成电路等相关领域学子的存算一体技术交流平台。\n\n大赛介绍：存算一体（Computing-in-Memory, CIM）作为后摩尔时代提升计算能效的主要技术路径，正在重塑AI时代算力基础层的技术格局与发展方向，为我国AI大模型、智能应用的爆发提供高质增长引擎。作为国内存算一体先锋企业，知存科技历经两届区域赛事沉淀，2026年正式升级赛事为全国高校挑战赛。联合魔搭社区 与Springer Nature 等权威伙伴，以“以赛促研、以赛遇才”为宗旨，搭建面向全国高校集成电路等相关领域学子的存算一体技术交流平台。赛事核心亮点双评委机制，权威护航：创新设置“产业+学术”双评委阵容，汇聚顶级存算研发团队技术工程师与高校资深学者，为参赛选手提供产业落地与学术严谨双重视角辅导。多链路赛题，紧扣产业：围绕存算一体芯片开发链路核心环节，基于真实产业技术难题设计5大赛道、10项赛题。丰厚赛事回报，付出都有意义：除丰厚奖金激励外，优秀参赛作品将刊载于业内首本《存算一体挑战赛创新作品集》，由Springer出版并全球发行。在这里，你将直面产业真实挑战，用技术创新破解存算难题；在这里，你将与全国顶尖学子同台竞技，获得学术与产业双重认可；在这里，你的创意与方案，或将成为推动存算技术落地的关键力量！ 欢迎全国高校学子报名，踊跃步入赛场，共同探索存算技术未来！比赛赛题：5大赛道，10大赛题赛道形式主题仿真设计开放式非命题式研究3D异构集成与系统技术协同优化编译工具链命题式研究存算一体编译器架构设计面向大模型推理的3D异构存算资源调度优化数字设计命题式研究图像特征点检测设计/gemm矩阵乘法设计Attention 硬件加速设计存算设计命题式研究神经网络在模拟存内计算系统的映射基于FET类器件的模拟存内计算设计存算算法命题式研究存算一体芯片中非线性误差对推理精度的影响研究直通估计器在噪声感知训练中的应用招募对象：面向全国学生微电子/计算机/人工智能等相关专业，不限定本科、硕士、博士在读。本赛事为团队赛，单人或组队皆可参与，每支队伍不超过5人。赛题分为开放式非命题式研究与命题式研究两种赛题，可自行选择报名单个或多个赛题。因考虑到实验条件限制，开放式非命题研究不要求完整实验方案，着重于方案创新性。 比赛流程：时间流程内容2026/3/312026/6/30报名期2026/4/12026/6/30赛题解答及高校巡讲期2026/7/30作品以及论文提交截止日2026/7/312026/8/30评委评审期2026/9/15入围名单公布2026/9/30决赛名单公布，入选论文名单公布2026/11/15《存算一体挑战赛创新作品集》发行评委名单获胜权益40W奖金池：设一/二/三等奖及单项创新奖，覆盖多支优秀团队就业绿色通道：入选“天才计划”，享校招终面优先、核心岗实习/正式岗锁定权益学术成果全球发：优秀作品收录Springer数字+实体作品集，全球同步发行多平台联合宣推：通过存算开发者社区、魔搭社区、知存官方专项曝光，提升行业影响力权威荣誉认证：颁发官方获奖证书，认证技术新锐身份长效资源对接：纳入知存人才库，持续获取技术交流、活动邀约等资源 参赛权益：双评委书面反馈：学术+产业双向专业建议，精准指明方案优化方向线下专家一对一答疑：覆盖10大高校，直面行业大咖解疑答惑官方盖章入围证书：主办方联合认证，权威背书技术能力，助力简历升学求职加分直通全国决赛：前60%免复评晋级，锁定40W奖金池及Springer全球出版冲刺资格知存官方周边：入围选手，专属纪念礼品开发者社区优先邀约：高价值行业活动提前参与，拓展技术视野与优质人脉 赛事报名：报名信息：姓名；电话；学校；毕业届别；研究方向；导师； 提交作品：针对每个赛道单独在赛道页设置提交通道，提交作品要求标明：赛道+赛题+团队/个人名，提交内容：一、设计报告：参赛队伍需提交设计报告（doc/docx及pdf文件）， 内容需包含：引言工作原理以及技术原理说明：任务的核心需求详细设计与实现：架构选择以及理由关键挑战：精度控制，动态尺寸支持以及流水线优化性能优化分析总结参考文献和团队介绍二、介绍 PPT：主要工作，创新点，数据对比，结论三、演示视频：提交演示视频一份（MP4格式）时长控制在10分钟内视频主要展示实现的全流程，优化思路以及方案数据前后对比视频讲解清晰完整，演示过程流畅，数据展示清晰 报名成功：跳出社群入群二维码：根据5大赛道搭建企业微信社群，包含各赛道评委与报名学生； 扫码学习：2025存内计算课程完整版链接：通过网盘分享的文件：链接: https://pan.baidu.com/s/188tpQPKqqbPjVXdm4uUoTQ?pwd=5qhx 提取码: 5qhx 备注：报名后的辅导社群搭建-交流通道搭建； Q2高校宣讲会：线下活动信息-时间/地点&社群&支持单位根据站点更新北京大学：清华大学：复旦大学：中国科学院：上海交通大学：浙江大学：南京大学/东南大学：西安交通大学：华中科技大学&武汉大学： 组织机构：发起方：知存科技战略合作伙伴：魔搭社区 Springer 、存算一体开发者社区协办方：清华半导体，清华创协，浙大智海，中国人工智能学会/南京地区协会，四电四邮高校协会（名单更新中）特别合作：知乎科技  开发者社区合作伙伴：CSDN, Gitcode媒体合作伙伴：Aspencore、EETimes、EETC、EEPW 评选规则各个赛题的具体评分规则见赛题页面\n 赛题类别1.1 题目3D异构集成与系统技术协同优化（STCO）1.2 题目背景存内计算技术发展和架构进步推动了计算性能、效率和功能的持续提升。存内计算技术的“存”+“算”结合特性天然与异构3D集成技术相契合，包括Chiplets堆叠、晶圆背面处理、混合键合等技术。这些创新能够将不同的芯片功能（逻辑、内存、电源传输）分配到专门的堆叠层中，这是一种由系统技术协同优化（STCO）驱动的新范式，从而针对各种工作负载优化性能、能耗和面积。随着互连和3D封装等异构集成技术的进步，关注点也在逐步向上转移到系统层面，这决定了异构Chiplets能否高效协作，且在资源访问方面不会出现任何瓶颈。同时，在3D集成中凸显的供电以及散热问题，也亟待创造性的优化方案。赛题研究方向开放性非命题类研究2.1 研究方向面向“存内计算技术”，如何设计设计3D异构集成方案，实现1+1>2的效果，提高计算性能的上限；面向“存内计算技术”，如何通过系统技术协同优化（STCO），解决在3D集成中凸显的供电以及散热问题；2.1.1 基本目标抛开传统的“油改电”套路，回归第一性原理，从基本需求出发，设计“纯电车”；利用维度的扩展与STCO带来的设计灵活性，为“存内计算技术”提供稳定可控的电、热环境；既可以从“整体”出发，改善电、热指标。比如，通过在堆叠中增加interposer DIE（含DTC电容）并结合不同层阵列延迟启动，优化di/dt引起的IR Drop;可以从“局部”出发，利用STCO+异构堆叠解决过程中遇到的问题 。比如，模拟存算技术对Array的空间+时间温差均要求稳定。在实现热管理时，如何利用有限的温度Sensor实现对一个“面”进行温度分布感知；也可以从“调度控制”出发，充分利用3D堆叠扩展的第三维度，进行动态温度（功耗）控制策略或者自适应的温度（功耗）控制策略。将传统2D芯片的动态功耗管理（DPM）以及自适应频率控制（AVFS）思想扩展适配存算+3DIC特征2.1.2 设计误区容易陷入“工程是否可实现的循环” ；立足于当前的工程能力，又要高于当前阶段的能力；容易陷入“具体实现的细节中”；STCO+3D异构堆叠，均是横跨多个领域的工程，可以“抓大放小”，重点放在关键环节上赛题交付3.1 交付需求采用开放性非命题类研究，因此没有标准的答案。但需要搭建一个模型，来说明方案/想法的有效性；既可以是全新想法也可以是对原有方案的改进对于赛题交付的评价标准与研究方向的契合度搭建的模型的完整性、充分性、可验证性要求方案可以完成“MVP”验证，中期评估需要进入“原型验证”阶段3.2 模型说明通过搭建简化模型而非完成产品来说明有效性的方法，常见的有概念验证（Proof of Concept，PoC）、原型（Prototype）和最小可行产品（Minimum Viable Product，MVP），三者核心都是以低成本快速验证核心假设，以下是具体说明：3.2.1 概念验证（PoC）核心目标：验证核心技术或概念的可行性，回答 “能不能做” 的问题，不追求产品形态与用户体验，仅聚焦技术与逻辑层面的有效性证明。典型特点：极度简化，可能只是一个实验脚本、简易硬件组合或核心算法模型，不考虑可扩展性等非核心要素。适用场景：新想法、新技术落地初期，判断技术路径是否可行3.2.2 原型验证（Prototype）核心目标：将抽象概念转化为具象模型，验证功能逻辑、用户交互或设计方案的合理性，回答 “好不好用 / 合不合理” 的问题，典型特点：有基础的交互，形式多样，如纸质原型、数字线框图、简易功能样机等，重点是呈现核心功能与流程，不追求性能与稳定性。适用场景：产品设计阶段，快速迭代优化功能与体验，确保方向符合需求3.2.3 最小可行验证（MVP）核心目标：用极少的资源，把原型验证中的方案进行物理实现，针对识别的关键环节，进行详细实现。其他非必要环节，做等效实现典型特点：具备核心功能，能解决用户核心痛点，不包含非必要功能，用于快速验证需求方案，指导迭代方向。适用场景：创新项目初期，快速试错，降低验证成本 3.3 赛题案例与评判参考3.3.1 案例一选择研究方向研究方向：面向“存内计算技术”，如何通过系统技术协同优化（STCO），解决在3D集成中凸显的供电以及散热问题；定义研究目标模拟存算技术，对Array的空间+时间温差均要求稳定。在实现热管理时，如何利用有限的温度Sensor实现对一个“面”进行温度分布感知提出可能的解决方案想法：利用机器学习方法，把有限Sensor感知的温度，恢复为完整温度分布图把一个时刻的温度分布等效为一张“图片”，把随着时间变化的温度分布等效为一段“视频”有限的温度sensor等效为“马赛克”问题变为，如何把“马赛克”图片或视频，恢复为原始图片；-> 在图像处理领域，有较多的成熟研究，可以将其跨界应用到温度感知方向-> 芯片由确定的功能模块组成，不同模块完成不同的功能，协同完成特定的业务；因此，芯片在行为行为下，有其独特的功耗分布“指纹”实现方案说明阶段阶段目标要求概念验证核心目标：验证核心技术或概念的可行性，回答 “能不能做” 的问题，不追求产品形态与用户体验，仅聚焦技术与逻辑层面的有效性证明。典型特点：极度简化，可能只是一个实验脚本、简易硬件组合或核心算法模型，不考虑可扩展性等非核心要素。做逻辑分析以及概念分析图文并茂，把问题以及解决问题的思路描述清楚完成相关文献检索，输出检索分析报告该问题是否已经有类似的研究，研究进展如何，仍存在哪些问题提出的想法，与过往研究有哪些优势核心方法对比分析原型验证核心目标：将抽象概念转化为具象模型，验证功能逻辑、用户交互或设计方案的合理性，回答 “好不好用 / 合不合理” 的问题，典型特点：有基础的交互，形式多样，如纸质原型、数字线框图、简易功能样机等，重点是呈现核心功能与流程，不追求性能与稳定性。用简化的数学模型，验证“概念方案”的效果以及可行性可以用python/matlab做数学建模使用机器学习方法，需要有足够的训练数据；训练数据可以通过构造来获得可以假设理想",
+      "description": "存算一体（Computing-in-Memory, CIM）作为后摩尔时代提升计算能效的主要技术路径，正在重塑AI时代算力基础层的技术格局与发展方向，为我国AI大模型、智能应用的爆发提供高质增长引擎。 作为国内存算一体先锋企业，知存科技历经两届区域赛事沉淀，2026年正式升级赛事为全国高校挑战赛。联合魔搭社区 与Springer Nature 等权威伙伴，以“以赛促研、以赛遇才”为宗旨，搭建面向全国高校集成电路等相关领域学子的存算一体技术交流平台。\n\n大赛介绍：存算一体（Computing-in-Memory, CIM）作为后摩尔时代提升计算能效的主要技术路径，正在重塑AI时代算力基础层的技术格局与发展方向，为我国AI大模型、智能应用的爆发提供高质增长引擎。作为国内存算一体先锋企业，知存科技历经两届区域赛事沉淀，2026年正式升级赛事为全国高校挑战赛。联合魔搭社区 与Springer Nature 等权威伙伴，以“以赛促研、以赛遇才”为宗旨，搭建面向全国高校集成电路等相关领域学子的存算一体技术交流平台。赛事核心亮点双评委机制，权威护航：创新设置“产业+学术”双评委阵容，汇聚顶级存算研发团队技术工程师与高校资深学者，为参赛选手提供产业落地与学术严谨双重视角辅导。多链路赛题，紧扣产业：围绕存算一体芯片开发链路核心环节，基于真实产业技术难题设计5大赛道、10项赛题。丰厚赛事回报，付出都有意义：除丰厚奖金激励外，优秀参赛作品将刊载于业内首本《存算一体挑战赛创新作品集》，由Springer出版并全球发行。在这里，你将直面产业真实挑战，用技术创新破解存算难题；在这里，你将与全国顶尖学子同台竞技，获得学术与产业双重认可；在这里，你的创意与方案，或将成为推动存算技术落地的关键力量！ 欢迎全国高校学子报名，踊跃步入赛场，共同探索存算技术未来！比赛赛题：5大赛道，10大赛题赛道形式主题仿真设计开放式非命题式研究3D异构集成与系统技术协同优化编译工具链命题式研究存算一体编译器架构设计面向大模型推理的3D异构存算资源调度优化数字设计命题式研究图像特征点检测设计/gemm矩阵乘法设计Attention 硬件加速设计存算设计命题式研究神经网络在模拟存内计算系统的映射基于FET类器件的模拟存内计算设计存算算法命题式研究存算一体芯片中非线性误差对推理精度的影响研究直通估计器在噪声感知训练中的应用招募对象：面向全国学生微电子/计算机/人工智能等相关专业，不限定本科、硕士、博士在读。本赛事为团队赛，单人或组队皆可参与，每支队伍不超过5人。赛题分为开放式非命题式研究与命题式研究两种赛题，可自行选择报名单个或多个赛题。因考虑到实验条件限制，开放式非命题研究不要求完整实验方案，着重于方案创新性。 比赛流程：时间流程内容2026/3/312026/6/30报名期2026/4/12026/6/30赛题解答及高校巡讲期2026/7/30作品以及论文提交截止日2026/7/312026/8/30评委评审期2026/9/15入围名单公布2026/9/30决赛名单公布，入选论文名单公布2026/11/15《存算一体挑战赛创新作品集》发行评委名单研发评委学术评委田豫-工艺工程副总裁，存算科学家上海交通大学-景乃锋-博导清华大学-胡杨-高层次青年人才Felix zhang-编译工具链负责人南京大学-杜力-国家级青年人才计划获得者Andy.Fan-数字设计高级工程师西安电子科技大学-游海龙-教授华中科技大学-李祎-国家高层次青年人才Easton Ling-存算设计高级工程师复旦大学-陈迟晓-基金委青B北京大学-陶耀宇-博导中科院计算所-王颖-研究员Jane.Zhang-存算算法高级工程师浙江大学-赵亮-百人计划研究员获胜权益40W奖金池：设一/二/三等奖及单项创新奖，覆盖多支优秀团队就业绿色通道：入选“天才计划”，享校招终面优先、核心岗实习/正式岗锁定权益学术成果全球发：优秀作品收录Springer数字+实体作品集，全球同步发行多平台联合宣推：通过存算开发者社区、魔搭社区、知存官方专项曝光，提升行业影响力权威荣誉认证：颁发官方获奖证书，认证技术新锐身份长效资源对接：纳入知存人才库，持续获取技术交流、活动邀约等资源 参赛权益：双评委书面反馈：学术+产业双向专业建议，精准指明方案优化方向线下专家一对一答疑：覆盖10大高校，直面行业大咖解疑答惑官方盖章入围证书：主办方联合认证，权威背书技术能力，助力简历升学求职加分直通全国决赛：前60%免复评晋级，锁定40W奖金池及Springer全球出版冲刺资格知存官方周边：入围选手，专属纪念礼品开发者社区优先邀约：高价值行业活动提前参与，拓展技术视野与优质人脉 赛事报名：报名信息：姓名；电话；学校；毕业届别；研究方向；导师； 提交作品：针对每个赛道单独在赛道页设置提交通道，提交作品要求标明：赛道+赛题+团队/个人名，提交内容：设计报告：参赛队伍需提交设计报告（doc/docx及pdf文件）， 内容需包含：引言工作原理以及技术原理说明：任务的核心需求详细设计与实现：架构选择以及理由关键挑战：精度控制，动态尺寸支持以及流水线优化性能优化分析总结参考文献和团队介绍介绍 PPT：主要工作，创新点，数据对比，结论演示视频：提交演示视频一份（MP4格式）时长控制在10分钟内视频主要展示实现的全流程，优化思路以及方案数据前后对比视频讲解清晰完整，演示过程流畅，数据展示清晰 报名成功：跳出社群入群二维码：根据5大赛道搭建企业微信社群，包含各赛道评委与报名学生； 扫码学习：2025存内计算课程完整版链接：通过网盘分享的文件：链接: https://pan.baidu.com/s/188tpQPKqqbPjVXdm4uUoTQ?pwd=5qhx 提取码: 5qhx 备注：报名后的辅导社群搭建-交流通道搭建； Q2高校宣讲会：线下活动信息-时间/地点&社群&支持单位根据站点更新北京大学：清华大学：复旦大学：中国科学院：上海交通大学：浙江大学：南京大学/东南大学：西安交通大学：华中科技大学&武汉大学： 组织机构：发起方：知存科技战略合作伙伴：魔搭社区 Springer 、存算一体开发者社区协办方：清华半导体，清华创协，浙大智海，中国人工智能学会/南京地区协会，四电四邮高校协会（名单更新中）特别合作：知乎科技  开发者社区合作伙伴：CSDN, Gitcode媒体合作伙伴：Aspencore、EETimes、EETC、EEPW 评选规则各个赛题的具体评分规则见赛题页面\n 赛题类别1.1 题目3D异构集成与系统技术协同优化（STCO）1.2 题目背景存内计算技术发展和架构进步推动了计算性能、效率和功能的持续提升。存内计算技术的“存”+“算”结合特性天然与异构3D集成技术相契合，包括Chiplets堆叠、晶圆背面处理、混合键合等技术。这些创新能够将不同的芯片功能（逻辑、内存、电源传输）分配到专门的堆叠层中，这是一种由系统技术协同优化（STCO）驱动的新范式，从而针对各种工作负载优化性能、能耗和面积。随着互连和3D封装等异构集成技术的进步，关注点也在逐步向上转移到系统层面，这决定了异构Chiplets能否高效协作，且在资源访问方面不会出现任何瓶颈。同时，在3D集成中凸显的供电以及散热问题，也亟待创造性的优化方案。赛题研究方向开放性非命题类研究2.1 研究方向面向“存内计算技术”，如何设计设计3D异构集成方案，实现1+1>2的效果，提高计算性能的上限；面向“存内计算技术”，如何通过系统技术协同优化（STCO），解决在3D集成中凸显的供电以及散热问题；2.1.1 基本目标抛开传统的“油改电”套路，回归第一性原理，从基本需求出发，设计“纯电车”；利用维度的扩展与STCO带来的设计灵活性，为“存内计算技术”提供稳定可控的电、热环境；既可以从“整体”出发，改善电、热指标。比如，通过在堆叠中增加interposer DIE（含DTC电容）并结合不同层阵列延迟启动，优化di/dt引起的IR Drop;可以从“局部”出发，利用STCO+异构堆叠解决过程中遇到的问题 。比如，模拟存算技术对Array的空间+时间温差均要求稳定。在实现热管理时，如何利用有限的温度Sensor实现对一个“面”进行温度分布感知；也可以从“调度控制”出发，充分利用3D堆叠扩展的第三维度，进行动态温度（功耗）控制策略或者自适应的温度（功耗）控制策略。将传统2D芯片的动态功耗管理（DPM）以及自适应频率控制（AVFS）思想扩展适配存算+3DIC特征2.1.2 设计误区容易陷入“工程是否可实现的循环” ；立足于当前的工程能力，又要高于当前阶段的能力；容易陷入“具体实现的细节中”；STCO+3D异构堆叠，均是横跨多个领域的工程，可以“抓大放小”，重点放在关键环节上赛题交付3.1 交付需求采用开放性非命题类研究，因此没有标准的答案。但需要搭建一个模型，来说明方案/想法的有效性；既可以是全新想法也可以是对原有方案的改进对于赛题交付的评价标准与研究方向的契合度搭建的模型的完整性、充分性、可验证性要求方案可以完成“MVP”验证，中期评估需要进入“原型验证”阶段3.2 模型说明通过搭建简化模型而非完成产品来说明有效性的方法，常见的有概念验证（Proof of Concept，PoC）、原型（Prototype）和最小可行产品（Minimum Viable Product，MVP），三者核心都是以低成本快速验证核心假设，以下是具体说明：3.2.1 概念验证（PoC）核心目标：验证核心技术或概念的可行性，回答 “能不能做” 的问题，不追求产品形态与用户体验，仅聚焦技术与逻辑层面的有效性证明。典型特点：极度简化，可能只是一个实验脚本、简易硬件组合或核心算法模型，不考虑可扩展性等非核心要素。适用场景：新想法、新技术落地初期，判断技术路径是否可行3.2.2 原型验证（Prototype）核心目标：将抽象概念转化为具象模型，验证功能逻辑、用户交互或设计方案的合理性，回答 “好不好用 / 合不合理” 的问题，典型特点：有基础的交互，形式多样，如纸质原型、数字线框图、简易功能样机等，重点是呈现核心功能与流程，不追求性能与稳定性。适用场景：产品设计阶段，快速迭代优化功能与体验，确保方向符合需求3.2.3 最小可行验证（MVP）核心目标：用极少的资源，把原型验证中的方案进行物理实现，针对识别的关键环节，进行详细实现。其他非必要环节，做等效实现典型特点：具备核心功能，能解决用户核心痛点，不包含非必要功能，用于快速验证需求方案，指导迭代方向。适用场景：创新项目初期，快速试错，降低验证成本 3.3 赛题案例与评判参考3.3.1 案例一选择研究方向研究方向：面向“存内计算技术”，如何通过系统技术协同优化（STCO），解决在3D集成中凸显的供电以及散热问题；定义研究目标模拟存算技术，对Array的空间+时间温差均要求稳定。在实现热管理时，如何利用有限的温度Sensor实现对一个“面”进行温度分布感知提出可能的解决方案想法：利用机器学习方法，把有限Sensor感知的温度，恢复为完整温度分布图把一个时刻的温度分布等效为一张“图片”，把随着时间变化的温度分布等效为一段“视频”有限的温度sensor等效为“马赛克”问题变为，如何把“马赛克”图片或视频，恢复为原始图片；-> 在图像处理领域，有较多的成熟研究，可以将其跨界应用到温度感知方向-> 芯片由确定的功能模块组成，不同模块完成不同的功能，协同完成特定的业务；因此，芯片在行为行为下，有其独特的功耗分布“指纹”实现方案说明阶段阶段目标要求概念验证核心目标：验证核心技术或概念的可行性，回答 “能不能做” 的问题，不追求产品形态与用户体验，仅聚焦技术与逻辑层面的有效性证明。典型特点：极度简化，可能只是一个实验脚本、简易硬件组合或核心算法模型，不考虑可扩展性等非核心要素。做逻辑分析以及概念分析图文并茂，把问题以及解决问题的思路描述清楚完成相关文献检索，输出检索分析报告该问题是否已经有类似的研究，研究进展如何，仍存在哪些问题提",
       "summary": "存算一体（Computing-in-Memory, CIM）作为后摩尔时代提升计算能效的主要技术路径，正在重塑AI时代算力基础层的技术格局与发展方向，为我国AI大模型、智能应用的爆发提供高质增长引擎。 作为国内存算一体先锋企业，知存科技历经两届区域赛事沉淀，2026年正式升级赛事为全国高校挑战赛。联合魔搭社区 与Springer Nature 等权威伙伴，以“以赛促研、以赛遇才”为宗旨，搭建面向全...",
       "contestType": "image",
       "status": "active",
-      "difficulty": "intermediate",
+      "difficulty": "advanced",
       "deadline": "2026-06-30T15:59:00.000Z",
       "prize": "400000",
       "tags": [
@@ -1114,9 +1114,9 @@
         "常见的有概念验证（Proof of Concept"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:09.088Z",
-      "scrapedAt": "2026-02-24T02:29:49.003Z",
-      "lastUpdated": "2026-02-24T02:32:09.088Z",
+      "processedAt": "2026-02-24T13:17:46.623Z",
+      "scrapedAt": "2026-02-24T13:15:23.615Z",
+      "lastUpdated": "2026-02-24T13:17:46.623Z",
       "version": 1
     },
     {
@@ -1145,9 +1145,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:10.102Z",
-      "scrapedAt": "2026-02-24T02:29:49.005Z",
-      "lastUpdated": "2026-02-24T02:32:10.102Z",
+      "processedAt": "2026-02-24T13:17:47.627Z",
+      "scrapedAt": "2026-02-24T13:15:23.619Z",
+      "lastUpdated": "2026-02-24T13:17:47.627Z",
       "version": 1
     },
     {
@@ -1175,9 +1175,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:10.094Z",
-      "scrapedAt": "2026-02-24T02:29:49.005Z",
-      "lastUpdated": "2026-02-24T02:32:10.094Z",
+      "processedAt": "2026-02-24T13:17:47.629Z",
+      "scrapedAt": "2026-02-24T13:15:23.619Z",
+      "lastUpdated": "2026-02-24T13:17:47.629Z",
       "version": 1
     },
     {
@@ -1205,9 +1205,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:10.091Z",
-      "scrapedAt": "2026-02-24T02:29:49.006Z",
-      "lastUpdated": "2026-02-24T02:32:10.091Z",
+      "processedAt": "2026-02-24T13:17:47.622Z",
+      "scrapedAt": "2026-02-24T13:15:23.619Z",
+      "lastUpdated": "2026-02-24T13:17:47.622Z",
       "version": 1
     },
     {
@@ -1235,9 +1235,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:10.086Z",
-      "scrapedAt": "2026-02-24T02:29:49.006Z",
-      "lastUpdated": "2026-02-24T02:32:10.086Z",
+      "processedAt": "2026-02-24T13:17:47.633Z",
+      "scrapedAt": "2026-02-24T13:15:23.619Z",
+      "lastUpdated": "2026-02-24T13:17:47.633Z",
       "version": 1
     },
     {
@@ -1268,9 +1268,9 @@
         "验证插件效果"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:10.136Z",
-      "scrapedAt": "2026-02-24T02:29:49.006Z",
-      "lastUpdated": "2026-02-24T02:32:10.136Z",
+      "processedAt": "2026-02-24T13:17:47.646Z",
+      "scrapedAt": "2026-02-24T13:15:23.619Z",
+      "lastUpdated": "2026-02-24T13:17:47.646Z",
       "version": 1
     },
     {
@@ -1297,9 +1297,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:11.145Z",
-      "scrapedAt": "2026-02-24T02:29:49.006Z",
-      "lastUpdated": "2026-02-24T02:32:11.145Z",
+      "processedAt": "2026-02-24T13:17:48.649Z",
+      "scrapedAt": "2026-02-24T13:15:23.620Z",
+      "lastUpdated": "2026-02-24T13:17:48.649Z",
       "version": 1
     },
     {
@@ -1327,547 +1327,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:11.141Z",
-      "scrapedAt": "2026-02-24T02:29:49.006Z",
-      "lastUpdated": "2026-02-24T02:32:11.141Z",
-      "version": 1
-    },
-    {
-      "id": "c_b8beb8a833ee",
-      "title": "DigiCow Farmer Training Adoption Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/digicow-farmer-training-adoption-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-01T02:31:13.810Z",
-      "prize": "€8 250 EUR",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:11.146Z",
-      "scrapedAt": "2026-02-24T02:31:13.811Z",
-      "lastUpdated": "2026-02-24T02:32:11.146Z",
-      "version": 1
-    },
-    {
-      "id": "c_465768240288",
-      "title": "data.org Financial Health Prediction Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/dataorg-financial-health-prediction-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-01T02:31:13.811Z",
-      "prize": "$1 500 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:11.142Z",
-      "scrapedAt": "2026-02-24T02:31:13.811Z",
-      "lastUpdated": "2026-02-24T02:32:11.142Z",
-      "version": 1
-    },
-    {
-      "id": "c_6f9040f8220a",
-      "title": "Unido AfricaRice App Builder Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/unido-africarice-app-builder-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-01T02:31:13.811Z",
-      "prize": "$5 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:11.185Z",
-      "scrapedAt": "2026-02-24T02:31:13.811Z",
-      "lastUpdated": "2026-02-24T02:32:11.185Z",
-      "version": 1
-    },
-    {
-      "id": "c_79f20a0c7c6f",
-      "title": "Rhea Soil Nutrient Prediction Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/rhea-soil-nutrient-prediction-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-07T02:31:13.812Z",
-      "prize": "€8 250 EUR",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:12.184Z",
-      "scrapedAt": "2026-02-24T02:31:13.812Z",
-      "lastUpdated": "2026-02-24T02:32:12.184Z",
-      "version": 1
-    },
-    {
-      "id": "c_d060d2cfb86f",
-      "title": "2026 EY AI & Data Challenge: Optimizing Clean Water Supply",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/ey-water-quality-forecasting-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-14T02:31:13.812Z",
-      "prize": "$10 000 USD",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:12.189Z",
-      "scrapedAt": "2026-02-24T02:31:13.812Z",
-      "lastUpdated": "2026-02-24T02:32:12.189Z",
-      "version": 1
-    },
-    {
-      "id": "c_dfe1d00c89c3",
-      "title": "Barbados Traffic Analysis Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/barbados-traffic-analysis-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$11 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:12.182Z",
-      "scrapedAt": "2026-02-24T02:31:13.812Z",
-      "lastUpdated": "2026-02-24T02:32:12.182Z",
-      "version": 1
-    },
-    {
-      "id": "c_d22f37bfbffa",
-      "title": "UNIDO AfricaRice Quality Assessment Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/unido-africarice-quality-assessment-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$5 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:12.184Z",
-      "scrapedAt": "2026-02-24T02:31:13.813Z",
-      "lastUpdated": "2026-02-24T02:32:12.184Z",
-      "version": 1
-    },
-    {
-      "id": "c_7c8baf811d7d",
-      "title": "The AI Telco Troubleshooting Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/the-ai-telco-troubleshooting-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "€35 000 EUR",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:12.228Z",
-      "scrapedAt": "2026-02-24T02:31:13.813Z",
-      "lastUpdated": "2026-02-24T02:32:12.228Z",
-      "version": 1
-    },
-    {
-      "id": "c_3a37af2091c9",
-      "title": "Farm to Feed Shopping Basket Recommendation Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/farm-to-feed-shopping-basket-recommendation-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "€8 250 EUR",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:13.232Z",
-      "scrapedAt": "2026-02-24T02:31:13.813Z",
-      "lastUpdated": "2026-02-24T02:32:13.232Z",
-      "version": 1
-    },
-    {
-      "id": "c_8449b1363f90",
-      "title": "EY Urban Heat Island Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/urban-heat-island-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$3 500 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:13.225Z",
-      "scrapedAt": "2026-02-24T02:31:13.814Z",
-      "lastUpdated": "2026-02-24T02:32:13.225Z",
-      "version": 1
-    },
-    {
-      "id": "c_fe16d7763934",
-      "title": "agriBORA Commodity Price Forecasting Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/agribora-commodity-price-forecasting-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "€8 250 EUR",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:13.229Z",
-      "scrapedAt": "2026-02-24T02:31:13.814Z",
-      "lastUpdated": "2026-02-24T02:32:13.229Z",
-      "version": 1
-    },
-    {
-      "id": "c_ba246fff6fbe",
-      "title": "Measuring What Matters Proposal Challenge by ITU",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/measuring-what-matters-proposal-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:13.240Z",
-      "scrapedAt": "2026-02-24T02:31:13.814Z",
-      "lastUpdated": "2026-02-24T02:32:13.240Z",
-      "version": 1
-    },
-    {
-      "id": "c_e289f6a27919",
-      "title": "Adaptation Atlas Data Storytelling Challenge (Track 6): Forest Cover",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/adaptation-atlas-data-storytelling-challenge-track-6-forest-cover",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$1 500 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:13.272Z",
-      "scrapedAt": "2026-02-24T02:31:13.815Z",
-      "lastUpdated": "2026-02-24T02:32:13.272Z",
-      "version": 1
-    },
-    {
-      "id": "c_38988541c055",
-      "title": "Adaptation Atlas Data Storytelling Challenge (Track 2): Crop Pests and Diseases",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/adaptation-atlas-data-storytelling-challenge-track-2-crop-pests-and-diseases",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$1 500 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:14.283Z",
-      "scrapedAt": "2026-02-24T02:31:13.815Z",
-      "lastUpdated": "2026-02-24T02:32:14.283Z",
-      "version": 1
-    },
-    {
-      "id": "c_0b2aa2642ab4",
-      "title": "Adaptation Atlas Data Storytelling Challenge (Track 4): Infectious Diseases",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/adaptation-atlas-data-storytelling-challenge-track-4-infectious-diseases",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$1 500 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:14.287Z",
-      "scrapedAt": "2026-02-24T02:31:13.815Z",
-      "lastUpdated": "2026-02-24T02:32:14.287Z",
-      "version": 1
-    },
-    {
-      "id": "c_cd7217504c45",
-      "title": "Adaptation Atlas Data Storytelling Challenge (Track 3): Soil Health and Food Security",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/adaptation-atlas-data-storytelling-challenge-track-3-soil-health-and-food-security",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$1 500 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:14.283Z",
-      "scrapedAt": "2026-02-24T02:31:13.815Z",
-      "lastUpdated": "2026-02-24T02:32:14.283Z",
-      "version": 1
-    },
-    {
-      "id": "c_09a885f20644",
-      "title": "Adaptation Atlas Data Storytelling Challenge (Track 1): Water Security, Agriculture and Health",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/adaptation-atlas-data-storytelling-challenge-track-1-water-security-agriculture-and-health",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$1 500 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:14.288Z",
-      "scrapedAt": "2026-02-24T02:31:13.816Z",
-      "lastUpdated": "2026-02-24T02:32:14.288Z",
-      "version": 1
-    },
-    {
-      "id": "c_032eef1dd1a4",
-      "title": "Adaptation Atlas Data Storytelling Challenge (Track 5): Rainfall",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/adaptation-atlas-data-storytelling-challenge-track-5-rainfall",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$1 500 USD",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:14.325Z",
-      "scrapedAt": "2026-02-24T02:31:13.816Z",
-      "lastUpdated": "2026-02-24T02:32:14.325Z",
-      "version": 1
-    },
-    {
-      "id": "c_b825a799b34a",
-      "title": "MPEG-G: Decoding the Dialogue",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/mpeg-g-decoding-the-dialogue",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$5 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:15.335Z",
-      "scrapedAt": "2026-02-24T02:31:13.816Z",
-      "lastUpdated": "2026-02-24T02:32:15.335Z",
-      "version": 1
-    },
-    {
-      "id": "c_de434a64b5bb",
-      "title": "Barbados Lands and Surveys Plot Automation Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/barbados-lands-and-surveys-plot-automation-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$10 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-02-24T02:32:15.326Z",
-      "scrapedAt": "2026-02-24T02:31:13.816Z",
-      "lastUpdated": "2026-02-24T02:32:15.326Z",
+      "processedAt": "2026-02-24T13:17:48.662Z",
+      "scrapedAt": "2026-02-24T13:15:23.620Z",
+      "lastUpdated": "2026-02-24T13:17:48.662Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-02-24T02:32:15.343Z"
+    "lastUpdated": "2026-02-24T13:17:48.674Z"
   }
 }

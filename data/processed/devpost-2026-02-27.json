@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-02-27T02:28:38.245Z",
+  "timestamp": "2026-02-27T13:09:42.609Z",
   "contestCount": 10,
   "contests": [
     {
@@ -28,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-27T02:28:29.492Z",
-      "scrapedAt": "2026-02-27T02:26:47.260Z",
-      "lastUpdated": "2026-02-27T02:28:29.492Z",
+      "processedAt": "2026-02-27T13:09:38.485Z",
+      "scrapedAt": "2026-02-27T13:07:57.931Z",
+      "lastUpdated": "2026-02-27T13:09:38.485Z",
       "version": 1
     },
     {
@@ -58,9 +58,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-27T02:28:29.495Z",
-      "scrapedAt": "2026-02-27T02:26:47.260Z",
-      "lastUpdated": "2026-02-27T02:28:29.495Z",
+      "processedAt": "2026-02-27T13:09:38.483Z",
+      "scrapedAt": "2026-02-27T13:07:57.932Z",
+      "lastUpdated": "2026-02-27T13:09:38.483Z",
       "version": 1
     },
     {
@@ -88,9 +88,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-27T02:28:29.572Z",
-      "scrapedAt": "2026-02-27T02:26:47.261Z",
-      "lastUpdated": "2026-02-27T02:28:29.572Z",
+      "processedAt": "2026-02-27T13:09:38.501Z",
+      "scrapedAt": "2026-02-27T13:07:57.933Z",
+      "lastUpdated": "2026-02-27T13:09:38.501Z",
       "version": 1
     },
     {
@@ -119,9 +119,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-27T02:28:30.580Z",
-      "scrapedAt": "2026-02-27T02:26:47.262Z",
-      "lastUpdated": "2026-02-27T02:28:30.580Z",
+      "processedAt": "2026-02-27T13:09:39.524Z",
+      "scrapedAt": "2026-02-27T13:07:57.933Z",
+      "lastUpdated": "2026-02-27T13:09:39.524Z",
       "version": 1
     },
     {
@@ -149,9 +149,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-27T02:28:30.586Z",
-      "scrapedAt": "2026-02-27T02:26:47.262Z",
-      "lastUpdated": "2026-02-27T02:28:30.586Z",
+      "processedAt": "2026-02-27T13:09:39.504Z",
+      "scrapedAt": "2026-02-27T13:07:57.934Z",
+      "lastUpdated": "2026-02-27T13:09:39.504Z",
       "version": 1
     },
     {
@@ -159,25 +159,31 @@
       "title": "Dev_Dash",
       "platform": "devpost",
       "url": "https://devdash.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/196/405/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/196/405/datas/original.png",
+      "description": "DevDash 2026: The Sprint to Solution DevDash 2026 is an intensive global innovation sprint designed to bridge the gap between abstract ideas and deployable technology. Whether you are a solo developer, a designer with a vision, or a startup team, DevDash provides the platform to showcase technical depth and creative problem-solving. This month-long hackathon emphasizes rapid iteration, usability, and impact. We aren't just looking for code; we’re looking for high-performance dashboards, tools, and systems that simplify complexity and drive real-world results. Get Started Register: Sign up on the DevDash portal to join the community. Form a Team: Connect with participants or go solo. Build: Develop your solution between Jan 20 and Feb 20. Submit: Ensure your project meets all technical and video requirements before the deadline.",
+      "summary": "DevDash 2026: The Sprint to Solution DevDash 2026 is an intensive global innovation sprint designed to bridge the gap between abstract ideas and deployable technology. Whether you are a solo developer...",
+      "contestType": "image",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-02-28T22:00:00.000Z",
       "prize": "$10,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
+      "requirements": [
+        "before the deadline."
+      ],
       "qualityScore": 6,
-      "processedAt": "2026-02-27T02:28:30.579Z",
-      "scrapedAt": "2026-02-27T02:26:47.263Z",
-      "lastUpdated": "2026-02-27T02:28:30.579Z",
+      "processedAt": "2026-02-27T13:09:39.505Z",
+      "scrapedAt": "2026-02-27T13:07:57.934Z",
+      "lastUpdated": "2026-02-27T13:09:39.505Z",
       "version": 1
     },
     {
@@ -185,14 +191,18 @@
       "title": "Byte 2 Beat",
       "platform": "devpost",
       "url": "https://byte2beat.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/045/247/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/045/247/datas/original.png",
+      "description": "Thank you for participating in Byte 2 Beat Important: To be eligible for prizes, you MUST Join our discord: https://discord.com/invite/SZhaZcNh4D. Aditionally, you must be a student (any grade is fine) Dataset: https://drive.google.com/drive/folders/1oTqMR3AM3FGjnAXPZZuqDLH7D4rcOhNbZ* *For 1st Place Projects, we would like you to find a unique dataset for more impactful and innovative projects and results. Cardiovascular Disease remains the leading cause of death globally. In this hackathon, you’ll use real, de-identified biomedical data to build machine learning models that support early detection, progression forecasting, or interpretability of Cardiovascular Disease risk. Our goal: make serious computational health innovation accessible to every motivated high school or undergraduate student, no lab or insider network required. Hack4Health democratizes computational medicine by giving students access to authentic biomedical datasets, pragmatic tooling, and strong mentorship.",
+      "summary": "Thank you for participating in Byte 2 Beat Important: To be eligible for prizes, you MUST Join our discord: https://discord.com/invite/SZhaZcNh4D. Aditionally, you must be a student (any grade is fine...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-03-28T21:00:00.000Z",
       "prize": "$1,500",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Health"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -201,9 +211,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-27T02:28:30.582Z",
-      "scrapedAt": "2026-02-27T02:26:47.263Z",
-      "lastUpdated": "2026-02-27T02:28:30.582Z",
+      "processedAt": "2026-02-27T13:09:39.504Z",
+      "scrapedAt": "2026-02-27T13:07:57.934Z",
+      "lastUpdated": "2026-02-27T13:09:39.504Z",
       "version": 1
     },
     {
@@ -211,14 +221,19 @@
       "title": "Hackonomics 2026",
       "platform": "devpost",
       "url": "https://hackonomics26.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/676/180/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/676/180/datas/original.png",
+      "description": "About the Challenge Hackonomics™ 2026 allows individuals passionate about finance, economics, and computer science in our community to fuse the aforementioned principles via projects with the potential to have a positive impact on our community. View our new official website: HereJudge Application View Hackonomics 2025 & Hackonomics 2024 Getting Started Brainstorm project ideas, approaches to outreach, and potential impact. Additionally, join the discord server for more details on the event.",
+      "summary": "About the Challenge Hackonomics™ 2026 allows individuals passionate about finance, economics, and computer science in our community to fuse the aforementioned principles via projects with the potentia...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-03-30T21:00:00.000Z",
       "prize": "5",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Education",
+        "Open Ended"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -227,9 +242,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-27T02:28:30.669Z",
-      "scrapedAt": "2026-02-27T02:26:47.264Z",
-      "lastUpdated": "2026-02-27T02:28:30.669Z",
+      "processedAt": "2026-02-27T13:09:39.553Z",
+      "scrapedAt": "2026-02-27T13:07:57.935Z",
+      "lastUpdated": "2026-02-27T13:09:39.553Z",
       "version": 1
     },
     {
@@ -237,15 +252,17 @@
       "title": "Airia AI Agents Hackathon",
       "platform": "devpost",
       "url": "https://airia-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/298/771/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/298/771/datas/original.png",
+      "description": "🚀 Airia AI Agent Challenge Build the Future of Enterprise AI Join us for an exciting virtual hackathon where you'll create cutting-edge AI agents that transform how people work. Whether you're bringing AI directly into users' daily tools or building sophisticated multi-agent systems, this is your opportunity to showcase innovation that matters. 🎯 Challenge Tracks Track 1: Airia Everywhere Meet users where they already are. Build AI agents that seamlessly integrate into the platforms people use every day. No more context-switching, no more friction—just intelligent assistance exactly when and where it's needed. Target Platforms: 🌐 Browser extensions 📧 Outlook & email inboxes 💬 Chat widgets 💼 Slack & Microsoft Teams 📁 SharePoint 📱 WhatsApp 🔌 Custom APIs for iterative workflows Think: Personal AI assistants that live in your browser, email triaging bots, Slack integrations that automate team workflows, or browser extensions that enhance productivity across any web application. Track 2: Active Agents Orchestrate intelligence across your entire tech stack. Design sophisticated multi-agent workflows that autonomously gather data, make decisions, and perform actions across 2+ systems. Build the autonomous workforce of tomorrow. Key Capabilities: 🤝 Multi-system integrations 👤 Human-in-the-loop (HITL) decision points 📄 Dynamic document generation 🔄 Nested agent architectures ⚡ Automated cross-platform workflows Think: Contract analysis pipelines, automated compliance monitoring systems, intelligent customer onboarding workflows, or research agents that synthesize information from multiple sources.",
+      "summary": "🚀 Airia AI Agent Challenge Build the Future of Enterprise AI Join us for an exciting virtual hackathon where you'll create cutting-edge AI agents that transform how people work. Whether you're bringi...",
+      "contestType": "text",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-03-20T03:45:00.000Z",
       "prize": "$7,000",
       "tags": [
-        "ai"
+        "Beginner Friendly",
+        "Enterprise"
       ],
       "aiTools": [
         "Python",
@@ -255,9 +272,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-27T02:28:31.676Z",
-      "scrapedAt": "2026-02-27T02:26:47.265Z",
-      "lastUpdated": "2026-02-27T02:28:31.676Z",
+      "processedAt": "2026-02-27T13:09:40.545Z",
+      "scrapedAt": "2026-02-27T13:07:57.935Z",
+      "lastUpdated": "2026-02-27T13:09:40.545Z",
       "version": 1
     },
     {
@@ -265,14 +282,18 @@
       "title": "Hack for Humanity | 2026 (participation prizes!)",
       "platform": "devpost",
       "url": "https://hack-for-humanity-26.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/256/448/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/256/448/datas/original.png",
+      "description": "About the challenge Hack for Humanity is a hackathon that brings technologists together in a 1-month event to come up with unique and creative solutions to enviornmental issues. The participants' goal is to use technology to make meaningful changes in humanity by helping save our environment. You may work individually or in teams of 2-4. Prior experience is not required! Participants of any skill level are welcome to participate and work together in this hackathon. Get started Join the Devpost hackathon on this page. This is where you will submit your project. We suggest you join our Discord server to stay updated and engage with the community (once you register). If you know someone else who may be interested, you could send them this URL and ask them to sign up: https://hack-for-humanity-26.devpost.com/. For every participant who joins the event and enters your username in the Discord server's \"referral-raffle\" text channel, your name will be entered into the raffle for the Referral Raffle. Any announcements will be posted on Discord.",
+      "summary": "About the challenge Hack for Humanity is a hackathon that brings technologists together in a 1-month event to come up with unique and creative solutions to enviornmental issues. The participants' goal...",
+      "contestType": "text",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-02-28T18:00:00.000Z",
       "prize": "12",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -281,15 +302,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-02-27T02:28:31.669Z",
-      "scrapedAt": "2026-02-27T02:26:47.265Z",
-      "lastUpdated": "2026-02-27T02:28:31.669Z",
+      "processedAt": "2026-02-27T13:09:40.544Z",
+      "scrapedAt": "2026-02-27T13:07:57.936Z",
+      "lastUpdated": "2026-02-27T13:09:40.544Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-02-27T02:28:38.245Z"
+    "lastUpdated": "2026-02-27T13:09:42.609Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-03-01T02:42:02.671Z",
+  "timestamp": "2026-03-01T12:59:25.021Z",
   "contestCount": 10,
   "contests": [
     {
@@ -8,15 +8,17 @@
       "title": "Amazon Nova AI Hackathon",
       "platform": "devpost",
       "url": "https://amazon-nova.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/222/586/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/222/586/datas/original.png",
+      "description": "Welcome to the Amazon Nova AI Hackathon! Amazon Nova is a portfolio of foundation models and services that deliver frontier intelligence and industry-leading price performance. This is your chance to invent with freedom and build with Nova’s capabilities, including advanced reasoning, tool use, multimodal understanding, voice AI, and UI workflow automation. Nova 2 Lite, a fast, cost-effective reasoning model for everyday tasks. Nova 2 Sonic, a speech-to-speech model for conversational AI. Nova Act is a service to build and manage fleets of agents for automating production UI workflows with high reliability. Nova multimodal embeddings: A state-of-the-art multimodal embedding model. Join and build innovative Gen AI applications using Amazon Nova! Why Participate? Innovate with Next-Gen AI. Explore the frontiers of generative AI and apply Nova's differentiated features to solve real-world problems. Real-World Impact. Develop solutions that deliver measurable value for businesses or create meaningful benefits for communities. Compete for Prizes. With a prize pool of $40,000 in cash and $55,000 in AWS credits, your innovative projects could earn significant rewards. Learn and Grow. Access dedicated resources, code examples, technical documentation, virtual workshops, and office hours to support your journey. Showcase Your Skills. Gain recognition for your expertise and show everyone your hard work. Get Started Amazon Nova 2 developer guide for foundation models and for Nova Act Amazon Nova website More Resources to help you!",
+      "summary": "Welcome to the Amazon Nova AI Hackathon! Amazon Nova is a portfolio of foundation models and services that deliver frontier intelligence and industry-leading price performance. This is your chance to ...",
+      "contestType": "audio",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-03-17T00:00:00.000Z",
       "prize": "$40,000",
       "tags": [
-        "ai"
+        "Beginner Friendly",
+        "Social Good"
       ],
       "aiTools": [
         "Python",
@@ -26,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-01T02:41:54.120Z",
-      "scrapedAt": "2026-03-01T02:40:11.639Z",
-      "lastUpdated": "2026-03-01T02:41:54.120Z",
+      "processedAt": "2026-03-01T12:59:16.308Z",
+      "scrapedAt": "2026-03-01T12:57:13.422Z",
+      "lastUpdated": "2026-03-01T12:59:16.308Z",
       "version": 1
     },
     {
@@ -36,14 +38,18 @@
       "title": "Gemini Live Agent Challenge",
       "platform": "devpost",
       "url": "https://geminiliveagentchallenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/338/662/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/338/662/datas/original.png",
+      "description": "Hey builders! 🛑 Stop typing, and start interacting! We are moving beyond the text box. The future isn't about just chatting with AI—it's about immersive, real-time experiences. To celebrate the power of multimodal AI, we’re challenging you to build the next generation of agents that can help you see 🙈, hear 🙉, speak 🙊, and create in the Gemini Live Agent Challenge.",
+      "summary": "Hey builders! 🛑 Stop typing, and start interacting! We are moving beyond the text box. The future isn't about just chatting with AI—it's about immersive, real-time experiences. To celebrate the power...",
+      "contestType": "text",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-03-17T00:00:00.000Z",
       "prize": "$80,000",
-      "tags": [],
+      "tags": [
+        "Communication",
+        "Voice skills"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -52,9 +58,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-01T02:41:54.113Z",
-      "scrapedAt": "2026-03-01T02:40:11.639Z",
-      "lastUpdated": "2026-03-01T02:41:54.113Z",
+      "processedAt": "2026-03-01T12:59:16.307Z",
+      "scrapedAt": "2026-03-01T12:57:13.423Z",
+      "lastUpdated": "2026-03-01T12:59:16.307Z",
       "version": 1
     },
     {
@@ -62,15 +68,17 @@
       "title": "GitLab AI Hackathon",
       "platform": "devpost",
       "url": "https://gitlab.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/188/179/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/188/179/datas/original.png",
+      "description": "AI writes code. That's expected now. The real opportunity? Everything else. Planning. Security. Compliance. Deployments. These are the bottlenecks that slow teams down every day. And they're wide open for automation. We're opening up the GitLab Duo Agent Platform and inviting developers worldwide to build AI agents that help you and your team to build secure software faster. Not chatbots that answer questions. Agents that jump into workflows, respond to events, and take action on your behalf. Think of it as building a digital teammate for every developer using GitLab. Why Join? Be early: Get access to the GitLab Duo Agent Platform for the duration of the hackathon while it’s fresh! Learn it. Build on it. Shape it. Learn how to build agents that assist you with tedious tasks such as creating tests Learn how to build a flow of agents and orchestrate an entire team of purpose-built agents to build & deploy feature requests from creating, testing, security scanning to deployment. Make an impact: Your agent could ship to thousands of GitLab users. This isn't just a side project that sits in a repo. Win $65,000 in prizes. Compete for the Grand Prize or win one of our category prices Get Started Join Discord and get to know each other in #ai-hackathon. Explore GitLab Duo Agent Platform. Request Access to the GitLab AI Hackathon group. Learn how to create GitLab custom Agents. Learn how to create GitLab Flows. Discover what’s possible in our GitLab Duo prompt library.",
+      "summary": "AI writes code. That's expected now. The real opportunity? Everything else. Planning. Security. Compliance. Deployments. These are the bottlenecks that slow teams down every day. And they're wide open...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-03-25T18:00:00.000Z",
       "prize": "$65,000",
       "tags": [
-        "ai"
+        "Databases",
+        "Productivity"
       ],
       "aiTools": [
         "Python",
@@ -80,9 +88,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-01T02:41:54.180Z",
-      "scrapedAt": "2026-03-01T02:40:11.640Z",
-      "lastUpdated": "2026-03-01T02:41:54.180Z",
+      "processedAt": "2026-03-01T12:59:16.391Z",
+      "scrapedAt": "2026-03-01T12:57:13.423Z",
+      "lastUpdated": "2026-03-01T12:59:16.391Z",
       "version": 1
     },
     {
@@ -90,15 +98,17 @@
       "title": "DigitalOcean Gradient™ AI Hackathon",
       "platform": "devpost",
       "url": "https://digitalocean.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/188/390/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/188/390/datas/original.png",
+      "description": "WELCOME The DigitalOcean Gradient™ AI Hackathon challenges developers, builders, and creators to design and launch new, working AI-powered applications using DigitalOcean Gradient™ AI’s full-stack features. From model training to deployment, this hackathon is about shipping real, production-ready AI — not just prototypes. Whether you’re exploring AI for the first time or scaling advanced machine learning workflows, this is your opportunity to build impactful applications on a developer-first cloud platform designed for speed, simplicity, and scale. Why join? Learn to build and deploy full-stack AI apps with DigitalOcean Gradient™ AI. Experiment with GPU-powered AI infrastructure and production-ready workflows. Compete for cash prizes and build something you can showcase. Get Started Signup for a DigitalOcean account! Check out the DigitalOcean Gradient™ AI documentation Check out DigitalOcean's general documentation About DigitalOcean DigitalOcean is the cloud built for developers. With powerful infrastructure, predictable pricing, and intuitive tools, DigitalOcean makes it easy for startups and growing teams to build, deploy, and scale applications without unnecessary complexity. About DigitalOcean Gradient™ AI DigitalOcean Gradient™ AI is a full-stack AI platform that simplifies the entire machine learning lifecycle. With GPU-backed compute, flexible workflows, and seamless deployment, Gradient AI enables developers to move from idea to production faster all within DigitalOcean’s unified cloud ecosystem. In Partnership with Major League Hacking This hackathon is proudly supported by Major League Hacking (MLH), the global leader in developer hackathons. MLH empowers builders worldwide through inclusive, high-quality events and provides participants with access to resources, tooling, and community to help them succeed.",
+      "summary": "WELCOME The DigitalOcean Gradient™ AI Hackathon challenges developers, builders, and creators to design and launch new, working AI-powered applications using DigitalOcean Gradient™ AI’s full-stack fea...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-03-18T21:00:00.000Z",
       "prize": "$20,000",
       "tags": [
-        "ai"
+        "Databases",
+        "Open Ended"
       ],
       "aiTools": [
         "Python",
@@ -108,9 +118,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-01T02:41:55.188Z",
-      "scrapedAt": "2026-03-01T02:40:11.641Z",
-      "lastUpdated": "2026-03-01T02:41:55.188Z",
+      "processedAt": "2026-03-01T12:59:17.392Z",
+      "scrapedAt": "2026-03-01T12:57:13.436Z",
+      "lastUpdated": "2026-03-01T12:59:17.392Z",
       "version": 1
     },
     {
@@ -118,15 +128,17 @@
       "title": "Airia AI Agents Hackathon",
       "platform": "devpost",
       "url": "https://airia-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/298/771/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/298/771/datas/original.png",
+      "description": "🚀 Airia AI Agent Challenge Build the Future of Enterprise AI Join us for an exciting virtual hackathon where you'll create cutting-edge AI agents that transform how people work. Whether you're bringing AI directly into users' daily tools or building sophisticated multi-agent systems, this is your opportunity to showcase innovation that matters. 🎯 Challenge Tracks Track 1: Airia Everywhere Meet users where they already are. Build AI agents that seamlessly integrate into the platforms people use every day. No more context-switching, no more friction—just intelligent assistance exactly when and where it's needed. Target Platforms: 🌐 Browser extensions 📧 Outlook & email inboxes 💬 Chat widgets 💼 Slack & Microsoft Teams 📁 SharePoint 📱 WhatsApp 🔌 Custom APIs for iterative workflows Think: Personal AI assistants that live in your browser, email triaging bots, Slack integrations that automate team workflows, or browser extensions that enhance productivity across any web application. Track 2: Active Agents Orchestrate intelligence across your entire tech stack. Design sophisticated multi-agent workflows that autonomously gather data, make decisions, and perform actions across 2+ systems. Build the autonomous workforce of tomorrow. Key Capabilities: 🤝 Multi-system integrations 👤 Human-in-the-loop (HITL) decision points 📄 Dynamic document generation 🔄 Nested agent architectures ⚡ Automated cross-platform workflows Think: Contract analysis pipelines, automated compliance monitoring systems, intelligent customer onboarding workflows, or research agents that synthesize information from multiple sources.",
+      "summary": "🚀 Airia AI Agent Challenge Build the Future of Enterprise AI Join us for an exciting virtual hackathon where you'll create cutting-edge AI agents that transform how people work. Whether you're bringi...",
+      "contestType": "text",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-03-20T03:45:00.000Z",
       "prize": "$7,000",
       "tags": [
-        "ai"
+        "Beginner Friendly",
+        "Enterprise"
       ],
       "aiTools": [
         "Python",
@@ -136,9 +148,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-01T02:41:55.189Z",
-      "scrapedAt": "2026-03-01T02:40:11.642Z",
-      "lastUpdated": "2026-03-01T02:41:55.189Z",
+      "processedAt": "2026-03-01T12:59:17.393Z",
+      "scrapedAt": "2026-03-01T12:57:13.437Z",
+      "lastUpdated": "2026-03-01T12:59:17.393Z",
       "version": 1
     },
     {
@@ -146,14 +158,18 @@
       "title": "Byte 2 Beat",
       "platform": "devpost",
       "url": "https://byte2beat.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/045/247/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/045/247/datas/original.png",
+      "description": "Thank you for participating in Byte 2 Beat Important: To be eligible for prizes, you MUST Join our discord: https://discord.com/invite/SZhaZcNh4D. Aditionally, you must be a student (any grade is fine) Dataset: https://drive.google.com/drive/folders/1oTqMR3AM3FGjnAXPZZuqDLH7D4rcOhNbZ* *For 1st Place Projects, we would like you to find a unique dataset for more impactful and innovative projects and results. Cardiovascular Disease remains the leading cause of death globally. In this hackathon, you’ll use real, de-identified biomedical data to build machine learning models that support early detection, progression forecasting, or interpretability of Cardiovascular Disease risk. Our goal: make serious computational health innovation accessible to every motivated high school or undergraduate student, no lab or insider network required. Hack4Health democratizes computational medicine by giving students access to authentic biomedical datasets, pragmatic tooling, and strong mentorship.",
+      "summary": "Thank you for participating in Byte 2 Beat Important: To be eligible for prizes, you MUST Join our discord: https://discord.com/invite/SZhaZcNh4D. Aditionally, you must be a student (any grade is fine...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-03-28T21:00:00.000Z",
       "prize": "$1,500",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Health"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -162,9 +178,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-01T02:41:55.180Z",
-      "scrapedAt": "2026-03-01T02:40:11.643Z",
-      "lastUpdated": "2026-03-01T02:41:55.180Z",
+      "processedAt": "2026-03-01T12:59:17.393Z",
+      "scrapedAt": "2026-03-01T12:57:13.437Z",
+      "lastUpdated": "2026-03-01T12:59:17.393Z",
       "version": 1
     },
     {
@@ -172,14 +188,19 @@
       "title": "Hackonomics 2026",
       "platform": "devpost",
       "url": "https://hackonomics26.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/676/180/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/676/180/datas/original.png",
+      "description": "About the Challenge Hackonomics™ 2026 allows individuals passionate about finance, economics, and computer science in our community to fuse the aforementioned principles via projects with the potential to have a positive impact on our community. View our new official website: HereJudge Application View Hackonomics 2025 & Hackonomics 2024 Getting Started Brainstorm project ideas, approaches to outreach, and potential impact. Additionally, join the discord server for more details on the event.",
+      "summary": "About the Challenge Hackonomics™ 2026 allows individuals passionate about finance, economics, and computer science in our community to fuse the aforementioned principles via projects with the potentia...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
-      "prize": "$0",
-      "tags": [],
+      "deadline": "2026-03-30T21:00:00.000Z",
+      "prize": "5",
+      "tags": [
+        "Beginner Friendly",
+        "Education",
+        "Open Ended"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -188,9 +209,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-01T02:41:55.181Z",
-      "scrapedAt": "2026-03-01T02:40:11.644Z",
-      "lastUpdated": "2026-03-01T02:41:55.181Z",
+      "processedAt": "2026-03-01T12:59:17.386Z",
+      "scrapedAt": "2026-03-01T12:57:13.438Z",
+      "lastUpdated": "2026-03-01T12:59:17.386Z",
       "version": 1
     },
     {
@@ -198,25 +219,32 @@
       "title": "MEGA Hackathon 2026",
       "platform": "devpost",
       "url": "https://mega-hackathon-2026-students.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/797/402/datas/medium_square.jpeg",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/797/402/datas/original.jpeg",
+      "description": "MEGA Hackathon 2026 MEGA is a dynamic and diverse coalition of high school and college students from around the world, attending institutions such as the University of Pennsylvania, UC Berkeley, University of Chicago, Duke University, Georgia Institute of Technology, The University of Glasgow, Rutgers Preparatory School, Milton Academy, The Hun School of Princeton, The Lawrenceville School, and many more. With a shared commitment to fostering sustainable development and promoting global welfare, MEGA is proud to announce its upcoming hackathon, MEGA Hackathon 2026, which is slated to take place online on Saturday, Febuary 28, 2026, and Sunday, March 1st, 2026. The hackathons within the past four years have been significantly successful, with participants submitting innovative projects that tackled some of the world's most pressing issues, including education, climate change, poverty, and inequality. You can check out the projects from all of our hackathons at https://devpost.com/hackathons?organization=MegaHackathonLeague and our website at https://megahack.org/. Time Event February 28th 8:00pm EST Guest Speaker 1: Breaking the Silos: Building Interoperable Multi-Agent Systems with A2A and MCP March 1st 2:00pm EST Guest Speaker 2: Praneetha Kotla March 1st 6pm EST Guest Speaker 3: FIRST Tech Challenge Presentation Purpose The MEGA Hackathon is a unique opportunity for computer science students to showcase their skills and creativity, while also contributing to the United Nations' seventeen sustainable development goals. By infusing computer science competitions with these goals, MEGA aims to raise awareness about pressing global issues and instill passion in the next generation of computer scientists. MEGA's annual hackathon is an event that allows participants to collaborate and compete. This year, MEGA's hackathon will cater to a diverse range of interests and skill sets, with a variety of categories that include web development, data science, machine learning, and more. The hackathon is open to students from all backgrounds, and there are no prerequisites for participation other than an interest in computer science and a desire to make a positive impact on the world. Participants will have the opportunity to work with mentors and industry professionals, as well as to network with other like-minded individuals from around the world. Holistically, MEGA's annual hackathon is an exciting and impactful event that showcases the power of computer science to drive positive change in the world. We encourage all computer science students to join us for this year's event and help us make a difference!",
+      "summary": "MEGA Hackathon 2026 MEGA is a dynamic and diverse coalition of high school and college students from around the world, attending institutions such as the University of Pennsylvania, UC Berkeley, Unive...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-03-02T04:45:00.000Z",
       "prize": "$0",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Social Good",
+        "Open Ended"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
+      "requirements": [
+        "as well as to network with other like-minded individuals from around the world. Holistically"
+      ],
       "qualityScore": 6,
-      "processedAt": "2026-03-01T02:41:55.249Z",
-      "scrapedAt": "2026-03-01T02:40:11.645Z",
-      "lastUpdated": "2026-03-01T02:41:55.249Z",
+      "processedAt": "2026-03-01T12:59:17.477Z",
+      "scrapedAt": "2026-03-01T12:57:13.438Z",
+      "lastUpdated": "2026-03-01T12:59:17.477Z",
       "version": 1
     },
     {
@@ -224,14 +252,18 @@
       "title": "Frostbyte Hackathon",
       "platform": "devpost",
       "url": "https://frostbyte.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/193/166/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/193/166/datas/original.jpg",
+      "description": "Join a global AI and tech competition where innovators, developers, and creators from around the world come together to solve real-world challenges. Whether you’re building AI models, data-driven solutions, blockchain applications, or sustainable tech innovations, Frostbyte Hackathon 2026 is the platform to showcase your skills and make an impact. Why Frostbyte Hackathon is unique: 🌐 Global Reach: Compete alongside participants from around the world 🎓 Expert Mentorship: Learn from top AI, tech, and industry leaders 🏆 Awards & Recognition: Win prizes, swags, and innovation support 📜 Official Certificates: Make your portfolio shine 🤝 Networking & Opportunities: Connect with peers, and tech experts Hackathon Themes Artificial Intelligence & Machine Learning – Build AI-driven solutions, predictive models, or intelligent automation tools. Data Analytics & Big Data – Analyze datasets to generate insights, improve decision-making, or visualize information creatively. FinTech & Blockchain – Innovative applications in finance, crypto, secure transactions, or decentralized systems. Healthcare & BioTech – Solutions for patient care, medical data analysis, wellness apps, or biotechnology innovations. Sustainability & Climate Tech – Projects focused on renewable energy, environment monitoring, or sustainable practices. Business & Management Tools – SaaS platforms, productivity apps, ERP solutions, or workflow optimizations. Cybersecurity & Privacy – Build tools to protect data, secure applications, or prevent digital threats. IoT & Smart Systems – Internet of Things applications, automation, smart devices, and connected solutions.",
+      "summary": "Join a global AI and tech competition where innovators, developers, and creators from around the world come together to solve real-world challenges. Whether you’re building AI models, data-driven solu...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-03-14T21:00:00.000Z",
       "prize": "$5,200",
-      "tags": [],
+      "tags": [
+        "Design",
+        "Health"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -240,9 +272,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-01T02:41:56.259Z",
-      "scrapedAt": "2026-03-01T02:40:11.645Z",
-      "lastUpdated": "2026-03-01T02:41:56.259Z",
+      "processedAt": "2026-03-01T12:59:18.478Z",
+      "scrapedAt": "2026-03-01T12:57:13.439Z",
+      "lastUpdated": "2026-03-01T12:59:18.478Z",
       "version": 1
     },
     {
@@ -250,14 +282,20 @@
       "title": "Student HackPad 2026",
       "platform": "devpost",
       "url": "https://student-hackpad-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/070/148/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/070/148/datas/original.png",
+      "description": "WE'RE BACK WITH SHP 2026 Theme - ORBIT: Build tech beyond Earth - satellite communication, space debris mitigation, systems connecting humanity across the cosmos. This time: Cash prizes, more sponsors, better tools, and a larger, lovelier community. Join the Discord for early updates.",
+      "summary": "WE'RE BACK WITH SHP 2026 Theme - ORBIT: Build tech beyond Earth - satellite communication, space debris mitigation, systems connecting humanity across the cosmos. This time: Cash prizes, more sponsors...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-03-30T17:00:00.000Z",
       "prize": "1",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Low",
+        "No Code",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -266,15 +304,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-01T02:41:56.257Z",
-      "scrapedAt": "2026-03-01T02:40:11.646Z",
-      "lastUpdated": "2026-03-01T02:41:56.257Z",
+      "processedAt": "2026-03-01T12:59:18.475Z",
+      "scrapedAt": "2026-03-01T12:57:13.440Z",
+      "lastUpdated": "2026-03-01T12:59:18.475Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-03-01T02:42:02.671Z"
+    "lastUpdated": "2026-03-01T12:59:25.021Z"
   }
 }

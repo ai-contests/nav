@@ -1,6 +1,6 @@
 {
   "platform": "aicrowd",
-  "timestamp": "2026-03-12T02:31:49.350Z",
+  "timestamp": "2026-03-12T13:11:33.654Z",
   "contestCount": 6,
   "contests": [
     {
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-12T02:31:35.069Z",
-      "scrapedAt": "2026-03-12T02:30:45.927Z",
-      "lastUpdated": "2026-03-12T02:31:35.069Z",
+      "processedAt": "2026-03-12T13:11:19.086Z",
+      "scrapedAt": "2026-03-12T13:10:28.788Z",
+      "lastUpdated": "2026-03-12T13:11:19.086Z",
       "version": 1
     },
     {
@@ -42,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T02:30:45.928Z",
+      "deadline": "2030-08-14T13:10:28.788Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -53,9 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-12T02:31:35.838Z",
-      "scrapedAt": "2026-03-12T02:30:45.928Z",
-      "lastUpdated": "2026-03-12T02:31:35.838Z",
+      "processedAt": "2026-03-12T13:11:19.840Z",
+      "scrapedAt": "2026-03-12T13:10:28.788Z",
+      "lastUpdated": "2026-03-12T13:11:19.840Z",
       "version": 1
     },
     {
@@ -69,7 +69,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T02:30:45.929Z",
+      "deadline": "2045-09-01T13:10:28.788Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -80,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-12T02:31:35.814Z",
-      "scrapedAt": "2026-03-12T02:30:45.929Z",
-      "lastUpdated": "2026-03-12T02:31:35.814Z",
+      "processedAt": "2026-03-12T13:11:19.973Z",
+      "scrapedAt": "2026-03-12T13:10:28.789Z",
+      "lastUpdated": "2026-03-12T13:11:19.973Z",
       "version": 1
     },
     {
@@ -96,7 +96,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T02:30:45.929Z",
+      "deadline": "2030-12-30T13:10:28.789Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -110,9 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-12T02:31:35.873Z",
-      "scrapedAt": "2026-03-12T02:30:45.929Z",
-      "lastUpdated": "2026-03-12T02:31:35.873Z",
+      "processedAt": "2026-03-12T13:11:19.884Z",
+      "scrapedAt": "2026-03-12T13:10:28.789Z",
+      "lastUpdated": "2026-03-12T13:11:19.884Z",
       "version": 1
     },
     {
@@ -138,9 +138,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-12T02:31:35.862Z",
-      "scrapedAt": "2026-03-12T02:30:45.930Z",
-      "lastUpdated": "2026-03-12T02:31:35.862Z",
+      "processedAt": "2026-03-12T13:11:19.983Z",
+      "scrapedAt": "2026-03-12T13:10:28.789Z",
+      "lastUpdated": "2026-03-12T13:11:19.983Z",
       "version": 1
     },
     {
@@ -164,15 +164,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-12T02:31:35.966Z",
-      "scrapedAt": "2026-03-12T02:30:45.931Z",
-      "lastUpdated": "2026-03-12T02:31:35.966Z",
+      "processedAt": "2026-03-12T13:11:20.126Z",
+      "scrapedAt": "2026-03-12T13:10:28.790Z",
+      "lastUpdated": "2026-03-12T13:11:20.126Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-03-12T02:31:49.350Z"
+    "lastUpdated": "2026-03-12T13:11:33.654Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-03-17T02:31:17.527Z",
+  "timestamp": "2026-03-17T13:23:17.639Z",
   "contestCount": 10,
   "contests": [
     {
@@ -28,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-17T02:31:08.819Z",
-      "scrapedAt": "2026-03-17T02:29:31.286Z",
-      "lastUpdated": "2026-03-17T02:31:08.819Z",
+      "processedAt": "2026-03-17T13:23:09.214Z",
+      "scrapedAt": "2026-03-17T13:21:31.538Z",
+      "lastUpdated": "2026-03-17T13:23:09.214Z",
       "version": 1
     },
     {
@@ -58,39 +58,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-17T02:31:08.818Z",
-      "scrapedAt": "2026-03-17T02:29:31.287Z",
-      "lastUpdated": "2026-03-17T02:31:08.818Z",
-      "version": 1
-    },
-    {
-      "id": "c_fe7ff597598c",
-      "title": "Airia AI Agents Hackathon",
-      "platform": "devpost",
-      "url": "https://airia-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/298/771/datas/original.png",
-      "description": "🚀 Airia AI Agent Challenge Build the Future of Enterprise AI Join us for an exciting virtual hackathon where you'll create cutting-edge AI agents that transform how people work. Whether you're bringing AI directly into users' daily tools or building sophisticated multi-agent systems, this is your opportunity to showcase innovation that matters. 🎯 Challenge Tracks Track 1: Airia Everywhere Meet users where they already are. Build AI agents that seamlessly integrate into the platforms people use every day. No more context-switching, no more friction—just intelligent assistance exactly when and where it's needed. Target Platforms: 🌐 Browser extensions 📧 Outlook & email inboxes 💬 Chat widgets 💼 Slack & Microsoft Teams 📁 SharePoint 📱 WhatsApp 🔌 Custom APIs for iterative workflows Think: Personal AI assistants that live in your browser, email triaging bots, Slack integrations that automate team workflows, or browser extensions that enhance productivity across any web application. Track 2: Active Agents Orchestrate intelligence across your entire tech stack. Design sophisticated multi-agent workflows that autonomously gather data, make decisions, and perform actions across 2+ systems. Build the autonomous workforce of tomorrow. Key Capabilities: 🤝 Multi-system integrations 👤 Human-in-the-loop (HITL) decision points 📄 Dynamic document generation 🔄 Nested agent architectures ⚡ Automated cross-platform workflows Think: Contract analysis pipelines, automated compliance monitoring systems, intelligent customer onboarding workflows, or research agents that synthesize information from multiple sources.",
-      "summary": "🚀 Airia AI Agent Challenge Build the Future of Enterprise AI Join us for an exciting virtual hackathon where you'll create cutting-edge AI agents that transform how people work. Whether you're bringi...",
-      "contestType": "text",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-20T03:45:00.000Z",
-      "prize": "$7,000",
-      "tags": [
-        "Beginner Friendly",
-        "Enterprise"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-17T02:31:08.893Z",
-      "scrapedAt": "2026-03-17T02:29:31.288Z",
-      "lastUpdated": "2026-03-17T02:31:08.893Z",
+      "processedAt": "2026-03-17T13:23:09.223Z",
+      "scrapedAt": "2026-03-17T13:21:31.539Z",
+      "lastUpdated": "2026-03-17T13:23:09.223Z",
       "version": 1
     },
     {
@@ -124,27 +94,27 @@
         "examples"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-03-17T02:31:09.901Z",
-      "scrapedAt": "2026-03-17T02:29:31.288Z",
-      "lastUpdated": "2026-03-17T02:31:09.901Z",
+      "processedAt": "2026-03-17T13:23:09.262Z",
+      "scrapedAt": "2026-03-17T13:21:31.539Z",
+      "lastUpdated": "2026-03-17T13:23:09.262Z",
       "version": 1
     },
     {
-      "id": "c_640ffc837ae4",
-      "title": "Agents Assemble - The Healthcare AI Endgame",
+      "id": "c_fe7ff597598c",
+      "title": "Airia AI Agents Hackathon",
       "platform": "devpost",
-      "url": "https://agents-assemble.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/original.png",
-      "description": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. Thank you for your interest and understanding. Agents Assemble: The Healthcare AI Endgame Challenge Build Interoperable Healthcare Agents at the Intersection of MCP, A2A, and FHIR. We have all watched the AI in healthcare trailers - the hype, the theories, and the cool demos. But now, we have entered the Endgame. At Prompt Opinion, we define this phase as \"The Last Mile\" - the critical gap where raw intelligence must be converted into actionable deliverables. To conquer this mile, we cannot work alone. We are proud to launch Agents Assemble, a builder’s competition designed to prove that the power of AI lies in collaboration. Our platform provides the headquarters for this mission, giving you native access to the industry's best tools to build in two distinct ways: you can forge a Superpower (building the MCP tools that fuel the ecosystem), or you can rise up to build a Full Agent (equipping those superpowers to tackle a specific healthcare challenge). The technology is ready. The platform is open. It’s time to assemble. Why Participate? This competition is a launchpad for AI solutions that will power future healthcare workflows. Here is why you should join: Lucrative Cash Prizes: Compete for a total prize pool of $25,000 USD in cash, including a $7,500 Grand Prize. Widespread Visibility: Successful projects will be published in the Prompt Opinion Marketplace, making them discoverable and invokable by organizations across the ecosystem. Develop Skills That Matter: Gain hands-on experience with the Model Context Protocol (MCP) and Agent-to-Agent (A2A) standards for building AI agents. Build Healthcare Ready Solutions: Learn how by using the SHARP extension specs from Prompt Opinion, your tools and agents will seamlessly propagate data context using FHIR through multi-agent call chains. Collaborate and Network: Join a community of like-minded innovators and connect with leaders at Prompt Opinion who are shaping the future of AI infrastructure. Bragging Rights: Beyond the prizes, you will walk away with the pride of having built a functional, standards-compliant AI solution that can integrate directly into a clinician's workspace.",
-      "summary": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. ...",
+      "url": "https://airia-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/298/771/datas/original.png",
+      "description": "🚀 Airia AI Agent Challenge Build the Future of Enterprise AI Join us for an exciting virtual hackathon where you'll create cutting-edge AI agents that transform how people work. Whether you're bringing AI directly into users' daily tools or building sophisticated multi-agent systems, this is your opportunity to showcase innovation that matters. 🎯 Challenge Tracks Track 1: Airia Everywhere Meet users where they already are. Build AI agents that seamlessly integrate into the platforms people use every day. No more context-switching, no more friction—just intelligent assistance exactly when and where it's needed. Target Platforms: 🌐 Browser extensions 📧 Outlook & email inboxes 💬 Chat widgets 💼 Slack & Microsoft Teams 📁 SharePoint 📱 WhatsApp 🔌 Custom APIs for iterative workflows Think: Personal AI assistants that live in your browser, email triaging bots, Slack integrations that automate team workflows, or browser extensions that enhance productivity across any web application. Track 2: Active Agents Orchestrate intelligence across your entire tech stack. Design sophisticated multi-agent workflows that autonomously gather data, make decisions, and perform actions across 2+ systems. Build the autonomous workforce of tomorrow. Key Capabilities: 🤝 Multi-system integrations 👤 Human-in-the-loop (HITL) decision points 📄 Dynamic document generation 🔄 Nested agent architectures ⚡ Automated cross-platform workflows Think: Contract analysis pipelines, automated compliance monitoring systems, intelligent customer onboarding workflows, or research agents that synthesize information from multiple sources.",
+      "summary": "🚀 Airia AI Agent Challenge Build the Future of Enterprise AI Join us for an exciting virtual hackathon where you'll create cutting-edge AI agents that transform how people work. Whether you're bringi...",
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-12T03:00:00.000Z",
-      "prize": "$25,000",
+      "deadline": "2026-03-20T03:45:00.000Z",
+      "prize": "$7,000",
       "tags": [
-        "Health",
-        "Beginner Friendly"
+        "Beginner Friendly",
+        "Enterprise"
       ],
       "aiTools": [
         "Python",
@@ -154,9 +124,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-17T02:31:09.897Z",
-      "scrapedAt": "2026-03-17T02:29:31.289Z",
-      "lastUpdated": "2026-03-17T02:31:09.897Z",
+      "processedAt": "2026-03-17T13:23:10.276Z",
+      "scrapedAt": "2026-03-17T13:21:31.540Z",
+      "lastUpdated": "2026-03-17T13:23:10.276Z",
       "version": 1
     },
     {
@@ -184,9 +154,39 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-17T02:31:09.904Z",
-      "scrapedAt": "2026-03-17T02:29:31.289Z",
-      "lastUpdated": "2026-03-17T02:31:09.904Z",
+      "processedAt": "2026-03-17T13:23:10.275Z",
+      "scrapedAt": "2026-03-17T13:21:31.541Z",
+      "lastUpdated": "2026-03-17T13:23:10.275Z",
+      "version": 1
+    },
+    {
+      "id": "c_640ffc837ae4",
+      "title": "Agents Assemble - The Healthcare AI Endgame",
+      "platform": "devpost",
+      "url": "https://agents-assemble.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/original.png",
+      "description": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. Thank you for your interest and understanding. Agents Assemble: The Healthcare AI Endgame Challenge Build Interoperable Healthcare Agents at the Intersection of MCP, A2A, and FHIR. We have all watched the AI in healthcare trailers - the hype, the theories, and the cool demos. But now, we have entered the Endgame. At Prompt Opinion, we define this phase as \"The Last Mile\" - the critical gap where raw intelligence must be converted into actionable deliverables. To conquer this mile, we cannot work alone. We are proud to launch Agents Assemble, a builder’s competition designed to prove that the power of AI lies in collaboration. Our platform provides the headquarters for this mission, giving you native access to the industry's best tools to build in two distinct ways: you can forge a Superpower (building the MCP tools that fuel the ecosystem), or you can rise up to build a Full Agent (equipping those superpowers to tackle a specific healthcare challenge). The technology is ready. The platform is open. It’s time to assemble. Why Participate? This competition is a launchpad for AI solutions that will power future healthcare workflows. Here is why you should join: Lucrative Cash Prizes: Compete for a total prize pool of $25,000 USD in cash, including a $7,500 Grand Prize. Widespread Visibility: Successful projects will be published in the Prompt Opinion Marketplace, making them discoverable and invokable by organizations across the ecosystem. Develop Skills That Matter: Gain hands-on experience with the Model Context Protocol (MCP) and Agent-to-Agent (A2A) standards for building AI agents. Build Healthcare Ready Solutions: Learn how by using the SHARP extension specs from Prompt Opinion, your tools and agents will seamlessly propagate data context using FHIR through multi-agent call chains. Collaborate and Network: Join a community of like-minded innovators and connect with leaders at Prompt Opinion who are shaping the future of AI infrastructure. Bragging Rights: Beyond the prizes, you will walk away with the pride of having built a functional, standards-compliant AI solution that can integrate directly into a clinician's workspace.",
+      "summary": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. ...",
+      "contestType": "text",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-12T03:00:00.000Z",
+      "prize": "$25,000",
+      "tags": [
+        "Health",
+        "Beginner Friendly"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-17T13:23:10.282Z",
+      "scrapedAt": "2026-03-17T13:21:31.541Z",
+      "lastUpdated": "2026-03-17T13:23:10.282Z",
       "version": 1
     },
     {
@@ -201,7 +201,7 @@
       "status": "active",
       "difficulty": "intermediate",
       "deadline": "2026-03-30T21:00:00.000Z",
-      "prize": "5",
+      "prize": "$0",
       "tags": [
         "Beginner Friendly",
         "Education",
@@ -215,39 +215,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-17T02:31:09.895Z",
-      "scrapedAt": "2026-03-17T02:29:31.290Z",
-      "lastUpdated": "2026-03-17T02:31:09.895Z",
-      "version": 1
-    },
-    {
-      "id": "c_dcdac0c8da39",
-      "title": "Dev Season of Code",
-      "platform": "devpost",
-      "url": "https://dev-season-of-code.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/193/214/datas/original.png",
-      "description": "Dev Season of Code (DSOC) 2026 is a global, professional hackathon designed to encourage innovation, collaboration, and real-world problem solving through technology. The event brings together coders, professionals, and independent developers to build impactful solutions across software engineering, artificial intelligence, data, and emerging technologies. DSOC focuses on practical implementation, open innovation, and hands-on learning, giving participants the opportunity to work on meaningful projects, receive expert feedback, and gain global recognition. Whether you’re exploring new technologies or refining production-ready solutions, Dev Season of Code is a platform to learn by building. For Jury and Sponsorship : devseasonofcode@gmail.com What Makes Dev Season of Code Unique 🌍 Global Participation – Open to developers worldwide 💡 Project-Driven Learning – Emphasis on real, usable solutions 👩‍⚖️ Experienced Jury Panel – Industry professionals and researchers 📜 Official & Verifiable Certificates – Lifetime verification 🤝 Community & Growth – Opportunities for future collaborations and events Hackathon Themes Participants may submit projects under one or more of the following themes: 1. Software Development & Engineering Web applications, mobile apps, APIs, system architecture, developer tools, and scalable platforms. 2. Artificial Intelligence & Machine Learning AI models, automation systems, predictive analytics, natural language processing, and intelligent applications. 3. Data Science & Business Analytics Data pipelines, analytics dashboards, insight generation, and decision-support systems for businesses. 4. AI-Driven Commercial Decision Systems Solutions that use AI or advanced analytics to support business strategy, forecasting, and operational decision-making. 5. Finance & Financial Technology Fintech platforms, digital payments, financial management systems, and investment or accounting tools. 6. Finance & Tax Technology Innovations in tax automation, compliance platforms, financial reporting, and regulatory technology solutions. 7. Sales & Marketing Technology Customer acquisition platforms, marketing analytics tools, CRM systems, sales automation, and growth technologies. 8. Business Management & Consultancy Solutions Enterprise management tools, consulting frameworks, operational strategy platforms, and workflow optimization systems. 9. Business Development & Commercial Platforms Solutions designed to support startup growth, partnerships, market expansion, and commercial strategy. 10. Design & Manufacturing Innovation Projects related to product design, furniture design, digital fabrication, manufacturing optimization, and industrial innovation.",
-      "summary": "Dev Season of Code (DSOC) 2026 is a global, professional hackathon designed to encourage innovation, collaboration, and real-world problem solving through technology. The event brings together coders,...",
-      "contestType": "text",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-03-17T03:45:00.000Z",
-      "prize": "$5,450",
-      "tags": [
-        "Enterprise",
-        "Fintech"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-17T02:31:09.982Z",
-      "scrapedAt": "2026-03-17T02:29:31.290Z",
-      "lastUpdated": "2026-03-17T02:31:09.982Z",
+      "processedAt": "2026-03-17T13:23:10.269Z",
+      "scrapedAt": "2026-03-17T13:21:31.542Z",
+      "lastUpdated": "2026-03-17T13:23:10.269Z",
       "version": 1
     },
     {
@@ -277,9 +247,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-17T02:31:10.985Z",
-      "scrapedAt": "2026-03-17T02:29:31.291Z",
-      "lastUpdated": "2026-03-17T02:31:10.985Z",
+      "processedAt": "2026-03-17T13:23:10.311Z",
+      "scrapedAt": "2026-03-17T13:21:31.542Z",
+      "lastUpdated": "2026-03-17T13:23:10.311Z",
       "version": 1
     },
     {
@@ -308,15 +278,46 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-17T02:31:10.983Z",
-      "scrapedAt": "2026-03-17T02:29:31.291Z",
-      "lastUpdated": "2026-03-17T02:31:10.983Z",
+      "processedAt": "2026-03-17T13:23:11.317Z",
+      "scrapedAt": "2026-03-17T13:21:31.543Z",
+      "lastUpdated": "2026-03-17T13:23:11.317Z",
+      "version": 1
+    },
+    {
+      "id": "c_c976cead2ca2",
+      "title": "CircuitBreak 2025",
+      "platform": "devpost",
+      "url": "https://circuitbreak-2025.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/073/143/datas/original.png",
+      "description": "CircuitBreak 2025 brings together twenty unique themes, each with its own problem statement that pushes participants to think sharply and build boldly. The challenge runs online for an entire month, giving students the freedom to work solo or form teams while competing in a fully open sprint where both software and hardware solutions are allowed. With no mentorship or workshops, participants rely on their creativity, discipline, and technical instincts to carry their ideas from concept to prototype. Every theme features its own judging criteria tailored to the nature of that domain, ensuring that originality, execution, and impact are evaluated in ways that fit each challenge. By the end, participants walk away with strengthened coding skills, deeper problem-solving abilities, and the experience of building something real under competitive pressure in a purely digital arena.",
+      "summary": "CircuitBreak 2025 brings together twenty unique themes, each with its own problem statement that pushes participants to think sharply and build boldly. The challenge runs online for an entire month, g...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-04-01T03:45:00.000Z",
+      "prize": "1",
+      "tags": [
+        "IoT",
+        "Open Ended",
+        "Web"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-17T13:23:11.337Z",
+      "scrapedAt": "2026-03-17T13:21:31.544Z",
+      "lastUpdated": "2026-03-17T13:23:11.337Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-03-17T02:31:17.527Z"
+    "lastUpdated": "2026-03-17T13:23:17.639Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-03-18T02:36:44.033Z",
+  "timestamp": "2026-03-18T13:24:21.345Z",
   "contestCount": 20,
   "contests": [
     {
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:39.677Z",
-      "scrapedAt": "2026-03-18T02:35:43.423Z",
-      "lastUpdated": "2026-03-18T02:36:39.677Z",
+      "processedAt": "2026-03-18T13:24:16.973Z",
+      "scrapedAt": "2026-03-18T13:23:19.579Z",
+      "lastUpdated": "2026-03-18T13:24:16.973Z",
       "version": 1
     },
     {
@@ -42,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-03-28T02:35:43.424Z",
+      "deadline": "2026-03-27T13:23:19.579Z",
       "tags": [
         "ai"
       ],
@@ -54,37 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:39.673Z",
-      "scrapedAt": "2026-03-18T02:35:43.424Z",
-      "lastUpdated": "2026-03-18T02:36:39.673Z",
-      "version": 1
-    },
-    {
-      "id": "c_20d23027ac4a",
-      "title": "AI4EAC Agriculture Practice Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/the-ai4eac-agriculture-practice-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-28T02:35:43.424Z",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:39.759Z",
-      "scrapedAt": "2026-03-18T02:35:43.424Z",
-      "lastUpdated": "2026-03-18T02:36:39.759Z",
+      "processedAt": "2026-03-18T13:24:16.975Z",
+      "scrapedAt": "2026-03-18T13:23:19.579Z",
+      "lastUpdated": "2026-03-18T13:24:16.975Z",
       "version": 1
     },
     {
@@ -98,7 +70,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-03-28T02:35:43.424Z",
+      "deadline": "2026-03-27T13:23:19.579Z",
       "tags": [
         "ai"
       ],
@@ -110,9 +82,37 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:40.769Z",
-      "scrapedAt": "2026-03-18T02:35:43.424Z",
-      "lastUpdated": "2026-03-18T02:36:40.769Z",
+      "processedAt": "2026-03-18T13:24:17.064Z",
+      "scrapedAt": "2026-03-18T13:23:19.579Z",
+      "lastUpdated": "2026-03-18T13:24:17.064Z",
+      "version": 1
+    },
+    {
+      "id": "c_20d23027ac4a",
+      "title": "AI4EAC Agriculture Practice Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/the-ai4eac-agriculture-practice-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-03-27T13:23:19.579Z",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-18T13:24:18.055Z",
+      "scrapedAt": "2026-03-18T13:23:19.579Z",
+      "lastUpdated": "2026-03-18T13:24:18.055Z",
       "version": 1
     },
     {
@@ -126,7 +126,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-03-28T02:35:43.424Z",
+      "deadline": "2026-03-27T13:23:19.580Z",
       "tags": [
         "ai"
       ],
@@ -138,37 +138,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:40.762Z",
-      "scrapedAt": "2026-03-18T02:35:43.424Z",
-      "lastUpdated": "2026-03-18T02:36:40.762Z",
-      "version": 1
-    },
-    {
-      "id": "c_761a17244d94",
-      "title": "AI4EAC Skills2Job Intelligent Career Pathways Challenge [INTERMEDIATE]",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/skills2job-intelligent-career-pathways-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$7 500 USD",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:40.763Z",
-      "scrapedAt": "2026-03-18T02:35:43.425Z",
-      "lastUpdated": "2026-03-18T02:36:40.763Z",
+      "processedAt": "2026-03-18T13:24:18.070Z",
+      "scrapedAt": "2026-03-18T13:23:19.580Z",
+      "lastUpdated": "2026-03-18T13:24:18.070Z",
       "version": 1
     },
     {
@@ -194,22 +166,22 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:40.761Z",
-      "scrapedAt": "2026-03-18T02:35:43.425Z",
-      "lastUpdated": "2026-03-18T02:36:40.761Z",
+      "processedAt": "2026-03-18T13:24:18.065Z",
+      "scrapedAt": "2026-03-18T13:23:19.580Z",
+      "lastUpdated": "2026-03-18T13:24:18.065Z",
       "version": 1
     },
     {
-      "id": "c_fea8230e8771",
-      "title": "AI4EAC Liquidity Stress Early Warning Challenge [BEGINNER]",
+      "id": "c_761a17244d94",
+      "title": "AI4EAC Skills2Job Intelligent Career Pathways Challenge [INTERMEDIATE]",
       "platform": "zindi",
-      "url": "https://zindi.africa/competitions/liquidity-stress-early-warning-challenge",
+      "url": "https://zindi.africa/competitions/skills2job-intelligent-career-pathways-challenge",
       "imageUrl": "",
       "description": "",
       "summary": "undefined...",
       "contestType": "mixed",
       "status": "ended",
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "prize": "$7 500 USD",
       "tags": [
         "ai"
@@ -222,9 +194,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:40.843Z",
-      "scrapedAt": "2026-03-18T02:35:43.425Z",
-      "lastUpdated": "2026-03-18T02:36:40.843Z",
+      "processedAt": "2026-03-18T13:24:18.067Z",
+      "scrapedAt": "2026-03-18T13:23:19.580Z",
+      "lastUpdated": "2026-03-18T13:24:18.067Z",
       "version": 1
     },
     {
@@ -250,9 +222,37 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:41.854Z",
-      "scrapedAt": "2026-03-18T02:35:43.425Z",
-      "lastUpdated": "2026-03-18T02:36:41.854Z",
+      "processedAt": "2026-03-18T13:24:18.156Z",
+      "scrapedAt": "2026-03-18T13:23:19.581Z",
+      "lastUpdated": "2026-03-18T13:24:18.156Z",
+      "version": 1
+    },
+    {
+      "id": "c_fea8230e8771",
+      "title": "AI4EAC Liquidity Stress Early Warning Challenge [BEGINNER]",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/liquidity-stress-early-warning-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "beginner",
+      "prize": "$7 500 USD",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-18T13:24:19.150Z",
+      "scrapedAt": "2026-03-18T13:23:19.581Z",
+      "lastUpdated": "2026-03-18T13:24:19.150Z",
       "version": 1
     },
     {
@@ -275,9 +275,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:41.845Z",
-      "scrapedAt": "2026-03-18T02:35:43.426Z",
-      "lastUpdated": "2026-03-18T02:36:41.845Z",
+      "processedAt": "2026-03-18T13:24:19.154Z",
+      "scrapedAt": "2026-03-18T13:23:19.581Z",
+      "lastUpdated": "2026-03-18T13:24:19.154Z",
       "version": 1
     },
     {
@@ -300,9 +300,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:41.851Z",
-      "scrapedAt": "2026-03-18T02:35:43.426Z",
-      "lastUpdated": "2026-03-18T02:36:41.851Z",
+      "processedAt": "2026-03-18T13:24:19.152Z",
+      "scrapedAt": "2026-03-18T13:23:19.582Z",
+      "lastUpdated": "2026-03-18T13:24:19.152Z",
       "version": 1
     },
     {
@@ -326,9 +326,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:41.841Z",
-      "scrapedAt": "2026-03-18T02:35:43.426Z",
-      "lastUpdated": "2026-03-18T02:36:41.841Z",
+      "processedAt": "2026-03-18T13:24:19.153Z",
+      "scrapedAt": "2026-03-18T13:23:19.582Z",
+      "lastUpdated": "2026-03-18T13:24:19.153Z",
       "version": 1
     },
     {
@@ -354,9 +354,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:41.928Z",
-      "scrapedAt": "2026-03-18T02:35:43.426Z",
-      "lastUpdated": "2026-03-18T02:36:41.928Z",
+      "processedAt": "2026-03-18T13:24:19.231Z",
+      "scrapedAt": "2026-03-18T13:23:19.582Z",
+      "lastUpdated": "2026-03-18T13:24:19.231Z",
       "version": 1
     },
     {
@@ -380,9 +380,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:42.938Z",
-      "scrapedAt": "2026-03-18T02:35:43.427Z",
-      "lastUpdated": "2026-03-18T02:36:42.938Z",
+      "processedAt": "2026-03-18T13:24:20.237Z",
+      "scrapedAt": "2026-03-18T13:23:19.583Z",
+      "lastUpdated": "2026-03-18T13:24:20.237Z",
       "version": 1
     },
     {
@@ -408,9 +408,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:42.931Z",
-      "scrapedAt": "2026-03-18T02:35:43.427Z",
-      "lastUpdated": "2026-03-18T02:36:42.931Z",
+      "processedAt": "2026-03-18T13:24:20.237Z",
+      "scrapedAt": "2026-03-18T13:23:19.583Z",
+      "lastUpdated": "2026-03-18T13:24:20.237Z",
       "version": 1
     },
     {
@@ -434,9 +434,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:42.929Z",
-      "scrapedAt": "2026-03-18T02:35:43.427Z",
-      "lastUpdated": "2026-03-18T02:36:42.929Z",
+      "processedAt": "2026-03-18T13:24:20.242Z",
+      "scrapedAt": "2026-03-18T13:23:19.583Z",
+      "lastUpdated": "2026-03-18T13:24:20.242Z",
       "version": 1
     },
     {
@@ -460,9 +460,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:42.927Z",
-      "scrapedAt": "2026-03-18T02:35:43.427Z",
-      "lastUpdated": "2026-03-18T02:36:42.927Z",
+      "processedAt": "2026-03-18T13:24:20.244Z",
+      "scrapedAt": "2026-03-18T13:23:19.584Z",
+      "lastUpdated": "2026-03-18T13:24:20.244Z",
       "version": 1
     },
     {
@@ -488,9 +488,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:43.015Z",
-      "scrapedAt": "2026-03-18T02:35:43.428Z",
-      "lastUpdated": "2026-03-18T02:36:43.015Z",
+      "processedAt": "2026-03-18T13:24:20.338Z",
+      "scrapedAt": "2026-03-18T13:23:19.584Z",
+      "lastUpdated": "2026-03-18T13:24:20.338Z",
       "version": 1
     },
     {
@@ -514,9 +514,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:44.025Z",
-      "scrapedAt": "2026-03-18T02:35:43.428Z",
-      "lastUpdated": "2026-03-18T02:36:44.025Z",
+      "processedAt": "2026-03-18T13:24:21.330Z",
+      "scrapedAt": "2026-03-18T13:23:19.584Z",
+      "lastUpdated": "2026-03-18T13:24:21.330Z",
       "version": 1
     },
     {
@@ -540,15 +540,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-18T02:36:44.015Z",
-      "scrapedAt": "2026-03-18T02:35:43.428Z",
-      "lastUpdated": "2026-03-18T02:36:44.015Z",
+      "processedAt": "2026-03-18T13:24:21.325Z",
+      "scrapedAt": "2026-03-18T13:23:19.584Z",
+      "lastUpdated": "2026-03-18T13:24:21.325Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-03-18T02:36:44.033Z"
+    "lastUpdated": "2026-03-18T13:24:21.345Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-03-20T02:30:11.253Z",
+  "timestamp": "2026-03-20T13:10:39.353Z",
   "contestCount": 10,
   "contests": [
     {
@@ -8,17 +8,15 @@
       "title": "GitLab AI Hackathon",
       "platform": "devpost",
       "url": "https://gitlab.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/188/179/datas/original.png",
-      "description": "AI writes code. That's expected now. The real opportunity? Everything else. Planning. Security. Compliance. Deployments. These are the bottlenecks that slow teams down every day. And they're wide open for automation. We're opening up the GitLab Duo Agent Platform and inviting developers worldwide to build AI agents that help you and your team to build secure software faster. Not chatbots that answer questions. Agents that jump into workflows, respond to events, and take action on your behalf. Think of it as building a digital teammate for every developer using GitLab. Why Join? Be early: Get access to the GitLab Duo Agent Platform for the duration of the hackathon while it’s fresh! Learn it. Build on it. Shape it. Learn how to build agents that assist you with tedious tasks such as creating tests Learn how to build a flow of agents and orchestrate an entire team of purpose-built agents to build & deploy feature requests from creating, testing, security scanning to deployment. Make an impact: Your agent could ship to thousands of GitLab users. This isn't just a side project that sits in a repo. Win $65,000 in prizes. Compete for the Grand Prize or win one of our category prices Get Started Join Discord and get to know each other in #ai-hackathon. Explore GitLab Duo Agent Platform. Request Access to the GitLab AI Hackathon group. Learn how to create GitLab custom Agents. Learn how to create GitLab Flows. Discover what’s possible in our GitLab Duo prompt library.",
-      "summary": "AI writes code. That's expected now. The real opportunity? Everything else. Planning. Security. Compliance. Deployments. These are the bottlenecks that slow teams down every day. And they're wide open...",
-      "contestType": "code",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/188/179/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-03-25T18:00:00.000Z",
       "prize": "$65,000",
       "tags": [
-        "Databases",
-        "Productivity"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -28,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-20T02:30:02.916Z",
-      "scrapedAt": "2026-03-20T02:28:03.431Z",
-      "lastUpdated": "2026-03-20T02:30:02.916Z",
+      "processedAt": "2026-03-20T13:10:31.105Z",
+      "scrapedAt": "2026-03-20T13:08:49.936Z",
+      "lastUpdated": "2026-03-20T13:10:31.105Z",
       "version": 1
     },
     {
@@ -38,53 +36,15 @@
       "title": "Authorized to Act: Auth0 for AI Agents",
       "platform": "devpost",
       "url": "https://authorizedtoact.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/002/datas/original.png",
-      "description": "Push the boundaries of what AI agents can do and become. As we know, OpenClaw is taking the AI world by storm with sovereign AI that runs locally, and even on browsers and phones. We’re seeing the supply for MacMini’s drying up, since users don’t really want to expose their real machines. What if I told you, now you can more securely keep OpenClaw in restricted mode and let it communicate with your apps in the outside world through an intermediary agent you build? Auth0 for AI Agents provides the identity layer that lets your agents authenticate, authorize, and interact with APIs and services the way humans do. For the Authorized to Act Hackathon, build anything – the only requirement is to build with Token Vault from Auth0 for AI Agents. Let Auth0 handle the OAuth flows, token management, and consent delegation so you can stay focused. Need async auth or step-up authentication? Leave that to Auth0 for AI Agents as well. What will you create? A deeper integration into your users' digital lives that keeps them in control? A continuous agent that spans sub-agents like you’ve got tokens to burn? Dive in and build the future! Why Join This Hackathon? Innovate: Push the boundaries of generative AI and leverage Auth0 for AI Agents Compete: with a prize pool of $10,000 in cash and lots of prizes, you can win monetarily and experientially. Enrich Your Skills: access the dedicated resources, examples, and docs you need to succeed on your mission. Network: Make friends, get recognition, and enhance your portfolio.",
-      "summary": "Push the boundaries of what AI agents can do and become. As we know, OpenClaw is taking the AI world by storm with sovereign AI that runs locally, and even on browsers and phones. We’re seeing the sup...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/002/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-07T06:45:00.000Z",
       "prize": "$10,000",
       "tags": [
-        "Open Ended",
-        "Beginner Friendly"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "is to build with Token Vault from Auth0 for AI Agents. Let Auth0 handle the OAuth flows",
-        "token management",
-        "000 in cash and lots of prizes",
-        "you can win monetarily and experientially. Enrich Your Skills: access the dedicated resources",
-        "examples"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-03-20T02:30:02.917Z",
-      "scrapedAt": "2026-03-20T02:28:03.432Z",
-      "lastUpdated": "2026-03-20T02:30:02.917Z",
-      "version": 1
-    },
-    {
-      "id": "c_fe7ff597598c",
-      "title": "Airia AI Agents Hackathon",
-      "platform": "devpost",
-      "url": "https://airia-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/298/771/datas/original.png",
-      "description": "🚀 Airia AI Agent Challenge Build the Future of Enterprise AI Join us for an exciting virtual hackathon where you'll create cutting-edge AI agents that transform how people work. Whether you're bringing AI directly into users' daily tools or building sophisticated multi-agent systems, this is your opportunity to showcase innovation that matters. 🎯 Challenge Tracks Track 1: Airia Everywhere Meet users where they already are. Build AI agents that seamlessly integrate into the platforms people use every day. No more context-switching, no more friction—just intelligent assistance exactly when and where it's needed. Target Platforms: 🌐 Browser extensions 📧 Outlook & email inboxes 💬 Chat widgets 💼 Slack & Microsoft Teams 📁 SharePoint 📱 WhatsApp 🔌 Custom APIs for iterative workflows Think: Personal AI assistants that live in your browser, email triaging bots, Slack integrations that automate team workflows, or browser extensions that enhance productivity across any web application. Track 2: Active Agents Orchestrate intelligence across your entire tech stack. Design sophisticated multi-agent workflows that autonomously gather data, make decisions, and perform actions across 2+ systems. Build the autonomous workforce of tomorrow. Key Capabilities: 🤝 Multi-system integrations 👤 Human-in-the-loop (HITL) decision points 📄 Dynamic document generation 🔄 Nested agent architectures ⚡ Automated cross-platform workflows Think: Contract analysis pipelines, automated compliance monitoring systems, intelligent customer onboarding workflows, or research agents that synthesize information from multiple sources.",
-      "summary": "🚀 Airia AI Agent Challenge Build the Future of Enterprise AI Join us for an exciting virtual hackathon where you'll create cutting-edge AI agents that transform how people work. Whether you're bringi...",
-      "contestType": "text",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-20T03:45:00.000Z",
-      "prize": "$7,000",
-      "tags": [
-        "Beginner Friendly",
-        "Enterprise"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -94,39 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-20T02:30:02.954Z",
-      "scrapedAt": "2026-03-20T02:28:03.432Z",
-      "lastUpdated": "2026-03-20T02:30:02.954Z",
-      "version": 1
-    },
-    {
-      "id": "c_e7e2c8718bc6",
-      "title": "ZerveHack",
-      "platform": "devpost",
-      "url": "https://zervehack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/278/921/datas/original.png",
-      "description": "What is Zerve? Zerve is an AI-native data science platform. Start with a question, not a blank script. Zerve's agent writes the code, iterates on errors and runs the analysis while you steer. When you're ready, deploy it as an API or app without leaving the platform. The Challenge Use Zerve to build something original. Analyze a dataset, uncover insights, and ship something others can use: an analysis, an app, an API, or all three. No constraints on topic. No prescribed methodology. Bring a question and see how far you can take it. The best submissions will feel like they couldn't have been built the old way. Manual queries, disconnected tools, endless waiting on the data team. Show us what's possible when AI handles the execution and you drive the direction. Getting Started Navigate to the resources tab to signup and get started!",
-      "summary": "What is Zerve? Zerve is an AI-native data science platform. Start with a question, not a blank script. Zerve's agent writes the code, iterates on errors and runs the analysis while you steer. When you...",
-      "contestType": "code",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-04-29T18:00:00.000Z",
-      "prize": "$10,000",
-      "tags": [
-        "Machine Learning",
-        "AI"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-20T02:30:03.965Z",
-      "scrapedAt": "2026-03-20T02:28:03.432Z",
-      "lastUpdated": "2026-03-20T02:30:03.965Z",
+      "processedAt": "2026-03-20T13:10:31.096Z",
+      "scrapedAt": "2026-03-20T13:08:49.936Z",
+      "lastUpdated": "2026-03-20T13:10:31.096Z",
       "version": 1
     },
     {
@@ -134,17 +64,15 @@
       "title": "Agents Assemble - The Healthcare AI Endgame",
       "platform": "devpost",
       "url": "https://agents-assemble.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/original.png",
-      "description": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. Thank you for your interest and understanding. Agents Assemble: The Healthcare AI Endgame Challenge Build Interoperable Healthcare Agents at the Intersection of MCP, A2A, and FHIR. We have all watched the AI in healthcare trailers - the hype, the theories, and the cool demos. But now, we have entered the Endgame. At Prompt Opinion, we define this phase as \"The Last Mile\" - the critical gap where raw intelligence must be converted into actionable deliverables. To conquer this mile, we cannot work alone. We are proud to launch Agents Assemble, a builder’s competition designed to prove that the power of AI lies in collaboration. Our platform provides the headquarters for this mission, giving you native access to the industry's best tools to build in two distinct ways: you can forge a Superpower (building the MCP tools that fuel the ecosystem), or you can rise up to build a Full Agent (equipping those superpowers to tackle a specific healthcare challenge). The technology is ready. The platform is open. It’s time to assemble. Why Participate? This competition is a launchpad for AI solutions that will power future healthcare workflows. Here is why you should join: Lucrative Cash Prizes: Compete for a total prize pool of $25,000 USD in cash, including a $7,500 Grand Prize. Widespread Visibility: Successful projects will be published in the Prompt Opinion Marketplace, making them discoverable and invokable by organizations across the ecosystem. Develop Skills That Matter: Gain hands-on experience with the Model Context Protocol (MCP) and Agent-to-Agent (A2A) standards for building AI agents. Build Healthcare Ready Solutions: Learn how by using the SHARP extension specs from Prompt Opinion, your tools and agents will seamlessly propagate data context using FHIR through multi-agent call chains. Collaborate and Network: Join a community of like-minded innovators and connect with leaders at Prompt Opinion who are shaping the future of AI infrastructure. Bragging Rights: Beyond the prizes, you will walk away with the pride of having built a functional, standards-compliant AI solution that can integrate directly into a clinician's workspace.",
-      "summary": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. ...",
-      "contestType": "text",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-05-12T03:00:00.000Z",
       "prize": "$25,000",
       "tags": [
-        "Health",
-        "Beginner Friendly"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -154,9 +82,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-20T02:30:03.955Z",
-      "scrapedAt": "2026-03-20T02:28:03.433Z",
-      "lastUpdated": "2026-03-20T02:30:03.955Z",
+      "processedAt": "2026-03-20T13:10:31.130Z",
+      "scrapedAt": "2026-03-20T13:08:49.937Z",
+      "lastUpdated": "2026-03-20T13:10:31.130Z",
+      "version": 1
+    },
+    {
+      "id": "c_e7e2c8718bc6",
+      "title": "ZerveHack",
+      "platform": "devpost",
+      "url": "https://zervehack.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/278/921/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$10,000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-20T13:10:32.134Z",
+      "scrapedAt": "2026-03-20T13:08:49.938Z",
+      "lastUpdated": "2026-03-20T13:10:32.134Z",
       "version": 1
     },
     {
@@ -164,19 +118,14 @@
       "title": "Hackonomics 2026",
       "platform": "devpost",
       "url": "https://hackonomics26.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/676/180/datas/original.png",
-      "description": "About the Challenge Hackonomics™ 2026 allows individuals passionate about finance, economics, and computer science in our community to fuse the aforementioned principles via projects with the potential to have a positive impact on our community. View our new official website: HereJudge Application View Hackonomics 2025 & Hackonomics 2024Current Prize Pool Value: $10.5K USD Getting Started Brainstorm project ideas, approaches to outreach, and potential impact. Additionally, join the discord server for more details on the event.",
-      "summary": "About the Challenge Hackonomics™ 2026 allows individuals passionate about finance, economics, and computer science in our community to fuse the aforementioned principles via projects with the potentia...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/676/180/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-03-30T21:00:00.000Z",
       "prize": "5",
-      "tags": [
-        "Beginner Friendly",
-        "Education",
-        "Open Ended"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -185,9 +134,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-20T02:30:03.955Z",
-      "scrapedAt": "2026-03-20T02:28:03.434Z",
-      "lastUpdated": "2026-03-20T02:30:03.955Z",
+      "processedAt": "2026-03-20T13:10:32.128Z",
+      "scrapedAt": "2026-03-20T13:08:49.939Z",
+      "lastUpdated": "2026-03-20T13:10:32.128Z",
       "version": 1
     },
     {
@@ -195,20 +144,14 @@
       "title": "Student HackPad 2026",
       "platform": "devpost",
       "url": "https://student-hackpad-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/070/148/datas/original.png",
-      "description": "WE'RE BACK WITH SHP 2026 Theme - ORBIT: Build tech beyond Earth - satellite communication, space debris mitigation, systems connecting humanity across the cosmos. This time: Cash prizes, more sponsors, better tools, and a larger, lovelier community. Join the Discord for early updates.",
-      "summary": "WE'RE BACK WITH SHP 2026 Theme - ORBIT: Build tech beyond Earth - satellite communication, space debris mitigation, systems connecting humanity across the cosmos. This time: Cash prizes, more sponsors...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/070/148/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-03-30T17:00:00.000Z",
       "prize": "1",
-      "tags": [
-        "Beginner Friendly",
-        "Low",
-        "No Code",
-        "Social Good"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -217,9 +160,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-20T02:30:03.956Z",
-      "scrapedAt": "2026-03-20T02:28:03.434Z",
-      "lastUpdated": "2026-03-20T02:30:03.956Z",
+      "processedAt": "2026-03-20T13:10:32.129Z",
+      "scrapedAt": "2026-03-20T13:08:49.939Z",
+      "lastUpdated": "2026-03-20T13:10:32.129Z",
       "version": 1
     },
     {
@@ -227,18 +170,15 @@
       "title": "AI For Good",
       "platform": "devpost",
       "url": "https://ai-for-good-28231.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/187/966/datas/original.png",
-      "description": "Artificial intelligence is transforming our world and it must do so responsibly. The Changemaker League: AI for Good Hackathon 2026 invites students from every discipline to design AI solutions that help solve real community challenges. You will receive mentorship and structured guidance to turn your ideas into functional prototypes that demonstrate measurable impact. Work directly with stakeholders refine your innovation through field testing and present at a national showcase. Join a platform where technology and social purpose come together to drive change.",
-      "summary": "Artificial intelligence is transforming our world and it must do so responsibly. The Changemaker League: AI for Good Hackathon 2026 invites students from every discipline to design AI solutions that h...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/187/966/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-03-23T11:30:00.000Z",
       "prize": "₹ 60,000",
       "tags": [
-        "Machine Learning",
-        "AI",
-        "Social Good"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -248,9 +188,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-20T02:30:03.994Z",
-      "scrapedAt": "2026-03-20T02:28:03.435Z",
-      "lastUpdated": "2026-03-20T02:30:03.994Z",
+      "processedAt": "2026-03-20T13:10:32.139Z",
+      "scrapedAt": "2026-03-20T13:08:49.940Z",
+      "lastUpdated": "2026-03-20T13:10:32.139Z",
       "version": 1
     },
     {
@@ -258,19 +198,14 @@
       "title": "CircuitBreak 2025",
       "platform": "devpost",
       "url": "https://circuitbreak-2025.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/073/143/datas/original.png",
-      "description": "CircuitBreak 2025 brings together twenty unique themes, each with its own problem statement that pushes participants to think sharply and build boldly. The challenge runs online for an entire month, giving students the freedom to work solo or form teams while competing in a fully open sprint where both software and hardware solutions are allowed. With no mentorship or workshops, participants rely on their creativity, discipline, and technical instincts to carry their ideas from concept to prototype. Every theme features its own judging criteria tailored to the nature of that domain, ensuring that originality, execution, and impact are evaluated in ways that fit each challenge. By the end, participants walk away with strengthened coding skills, deeper problem-solving abilities, and the experience of building something real under competitive pressure in a purely digital arena.",
-      "summary": "CircuitBreak 2025 brings together twenty unique themes, each with its own problem statement that pushes participants to think sharply and build boldly. The challenge runs online for an entire month, g...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/073/143/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-01T03:45:00.000Z",
       "prize": "1",
-      "tags": [
-        "IoT",
-        "Open Ended",
-        "Web"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -279,9 +214,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-20T02:30:05.006Z",
-      "scrapedAt": "2026-03-20T02:28:03.435Z",
-      "lastUpdated": "2026-03-20T02:30:05.006Z",
+      "processedAt": "2026-03-20T13:10:32.157Z",
+      "scrapedAt": "2026-03-20T13:08:49.940Z",
+      "lastUpdated": "2026-03-20T13:10:32.157Z",
       "version": 1
     },
     {
@@ -289,19 +224,15 @@
       "title": "GenAI Dev Hackathon",
       "platform": "devpost",
       "url": "https://genaidevhackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/192/780/datas/original.jpg",
-      "description": "About the challenge The GenAI Devs Hackathon is a call to action for students and developers to harness the power of Generative AI to solve the world's most pressing challenges. We aren't looking for \"cool\" tech for its own sake; we are looking for purpose-driven applications that make a measurable impact on society. From climate change and healthcare accessibility to education and social justice, your mission is to build a functional tool that leaves the world better than you found it.Joining the Discord community is COMPULSORY",
-      "summary": "About the challenge The GenAI Devs Hackathon is a call to action for students and developers to harness the power of Generative AI to solve the world's most pressing challenges. We aren't looking for ...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/192/780/datas/medium_square.jpg",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-03-24T18:30:00.000Z",
       "prize": "$2,000",
       "tags": [
-        "Beginner Friendly",
-        "Low",
-        "No Code",
-        "Social Good"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -311,15 +242,41 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-20T02:30:04.995Z",
-      "scrapedAt": "2026-03-20T02:28:03.436Z",
-      "lastUpdated": "2026-03-20T02:30:04.995Z",
+      "processedAt": "2026-03-20T13:10:33.172Z",
+      "scrapedAt": "2026-03-20T13:08:49.941Z",
+      "lastUpdated": "2026-03-20T13:10:33.172Z",
+      "version": 1
+    },
+    {
+      "id": "c_0122c97ca9d0",
+      "title": "Creator Colosseum Startup Competition: Student Founders. Real Startups.",
+      "platform": "devpost",
+      "url": "https://creatorcolosseumcompetition26.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/399/737/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$575",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-20T13:10:33.170Z",
+      "scrapedAt": "2026-03-20T13:08:49.942Z",
+      "lastUpdated": "2026-03-20T13:10:33.170Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-03-20T02:30:11.253Z"
+    "lastUpdated": "2026-03-20T13:10:39.353Z"
   }
 }

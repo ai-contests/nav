@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-03-23T02:39:05.238Z",
+  "timestamp": "2026-03-23T13:18:36.830Z",
   "contestCount": 20,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-04-20T02:38:10.557Z",
+      "deadline": "2026-04-19T13:17:40.504Z",
       "prize": "$5 000 USD",
       "tags": [
         "llm"
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:01.050Z",
-      "scrapedAt": "2026-03-23T02:38:10.557Z",
-      "lastUpdated": "2026-03-23T02:39:01.050Z",
+      "processedAt": "2026-03-23T13:18:32.691Z",
+      "scrapedAt": "2026-03-23T13:17:40.504Z",
+      "lastUpdated": "2026-03-23T13:18:32.691Z",
       "version": 1
     },
     {
@@ -53,37 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:01.051Z",
-      "scrapedAt": "2026-03-23T02:38:10.558Z",
-      "lastUpdated": "2026-03-23T02:39:01.051Z",
-      "version": 1
-    },
-    {
-      "id": "c_294efb1182cb",
-      "title": "AI4EAC Finance Practice Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/the-ai4eac-finance-practice-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-28T02:38:10.558Z",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:01.138Z",
-      "scrapedAt": "2026-03-23T02:38:10.558Z",
-      "lastUpdated": "2026-03-23T02:39:01.138Z",
+      "processedAt": "2026-03-23T13:18:32.691Z",
+      "scrapedAt": "2026-03-23T13:17:40.504Z",
+      "lastUpdated": "2026-03-23T13:18:32.691Z",
       "version": 1
     },
     {
@@ -97,7 +69,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-03-28T02:38:10.558Z",
+      "deadline": "2026-03-27T13:17:40.504Z",
       "tags": [
         "ai"
       ],
@@ -109,23 +81,23 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:02.147Z",
-      "scrapedAt": "2026-03-23T02:38:10.558Z",
-      "lastUpdated": "2026-03-23T02:39:02.147Z",
+      "processedAt": "2026-03-23T13:18:32.720Z",
+      "scrapedAt": "2026-03-23T13:17:40.504Z",
+      "lastUpdated": "2026-03-23T13:18:32.720Z",
       "version": 1
     },
     {
-      "id": "c_20d23027ac4a",
-      "title": "AI4EAC Agriculture Practice Challenge",
+      "id": "c_294efb1182cb",
+      "title": "AI4EAC Finance Practice Challenge",
       "platform": "zindi",
-      "url": "https://zindi.africa/competitions/the-ai4eac-agriculture-practice-challenge",
+      "url": "https://zindi.africa/competitions/the-ai4eac-finance-practice-challenge",
       "imageUrl": "",
       "description": "",
       "summary": "undefined...",
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-03-28T02:38:10.558Z",
+      "deadline": "2026-03-27T13:17:40.505Z",
       "tags": [
         "ai"
       ],
@@ -137,9 +109,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:02.142Z",
-      "scrapedAt": "2026-03-23T02:38:10.558Z",
-      "lastUpdated": "2026-03-23T02:39:02.142Z",
+      "processedAt": "2026-03-23T13:18:33.730Z",
+      "scrapedAt": "2026-03-23T13:17:40.505Z",
+      "lastUpdated": "2026-03-23T13:18:33.730Z",
       "version": 1
     },
     {
@@ -153,7 +125,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-03-28T02:38:10.558Z",
+      "deadline": "2026-03-27T13:17:40.505Z",
       "tags": [
         "ai"
       ],
@@ -165,23 +137,23 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:02.150Z",
-      "scrapedAt": "2026-03-23T02:38:10.558Z",
-      "lastUpdated": "2026-03-23T02:39:02.150Z",
+      "processedAt": "2026-03-23T13:18:33.714Z",
+      "scrapedAt": "2026-03-23T13:17:40.505Z",
+      "lastUpdated": "2026-03-23T13:18:33.714Z",
       "version": 1
     },
     {
-      "id": "c_37a5635436b2",
-      "title": "AI4EAC Climate & Health Risk Prediction Challenge [BEGINNER]",
+      "id": "c_20d23027ac4a",
+      "title": "AI4EAC Agriculture Practice Challenge",
       "platform": "zindi",
-      "url": "https://zindi.africa/competitions/climate-health-risk-prediction-challenge",
+      "url": "https://zindi.africa/competitions/the-ai4eac-agriculture-practice-challenge",
       "imageUrl": "",
       "description": "",
       "summary": "undefined...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "beginner",
-      "prize": "$7 500 USD",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-03-27T13:17:40.505Z",
       "tags": [
         "ai"
       ],
@@ -193,9 +165,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:02.145Z",
-      "scrapedAt": "2026-03-23T02:38:10.558Z",
-      "lastUpdated": "2026-03-23T02:39:02.145Z",
+      "processedAt": "2026-03-23T13:18:33.722Z",
+      "scrapedAt": "2026-03-23T13:17:40.505Z",
+      "lastUpdated": "2026-03-23T13:18:33.722Z",
       "version": 1
     },
     {
@@ -221,9 +193,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:02.163Z",
-      "scrapedAt": "2026-03-23T02:38:10.559Z",
-      "lastUpdated": "2026-03-23T02:39:02.163Z",
+      "processedAt": "2026-03-23T13:18:33.717Z",
+      "scrapedAt": "2026-03-23T13:17:40.506Z",
+      "lastUpdated": "2026-03-23T13:18:33.717Z",
       "version": 1
     },
     {
@@ -249,9 +221,37 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:03.173Z",
-      "scrapedAt": "2026-03-23T02:38:10.559Z",
-      "lastUpdated": "2026-03-23T02:39:03.173Z",
+      "processedAt": "2026-03-23T13:18:33.744Z",
+      "scrapedAt": "2026-03-23T13:17:40.506Z",
+      "lastUpdated": "2026-03-23T13:18:33.744Z",
+      "version": 1
+    },
+    {
+      "id": "c_37a5635436b2",
+      "title": "AI4EAC Climate & Health Risk Prediction Challenge [BEGINNER]",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/climate-health-risk-prediction-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "beginner",
+      "prize": "$7 500 USD",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-23T13:18:34.757Z",
+      "scrapedAt": "2026-03-23T13:17:40.506Z",
+      "lastUpdated": "2026-03-23T13:18:34.757Z",
       "version": 1
     },
     {
@@ -277,9 +277,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:03.172Z",
-      "scrapedAt": "2026-03-23T02:38:10.559Z",
-      "lastUpdated": "2026-03-23T02:39:03.172Z",
+      "processedAt": "2026-03-23T13:18:34.752Z",
+      "scrapedAt": "2026-03-23T13:17:40.506Z",
+      "lastUpdated": "2026-03-23T13:18:34.752Z",
       "version": 1
     },
     {
@@ -302,9 +302,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:03.166Z",
-      "scrapedAt": "2026-03-23T02:38:10.559Z",
-      "lastUpdated": "2026-03-23T02:39:03.166Z",
+      "processedAt": "2026-03-23T13:18:34.755Z",
+      "scrapedAt": "2026-03-23T13:17:40.506Z",
+      "lastUpdated": "2026-03-23T13:18:34.755Z",
       "version": 1
     },
     {
@@ -327,9 +327,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:03.172Z",
-      "scrapedAt": "2026-03-23T02:38:10.560Z",
-      "lastUpdated": "2026-03-23T02:39:03.172Z",
+      "processedAt": "2026-03-23T13:18:34.750Z",
+      "scrapedAt": "2026-03-23T13:17:40.507Z",
+      "lastUpdated": "2026-03-23T13:18:34.750Z",
       "version": 1
     },
     {
@@ -353,9 +353,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:03.186Z",
-      "scrapedAt": "2026-03-23T02:38:10.560Z",
-      "lastUpdated": "2026-03-23T02:39:03.186Z",
+      "processedAt": "2026-03-23T13:18:34.771Z",
+      "scrapedAt": "2026-03-23T13:17:40.507Z",
+      "lastUpdated": "2026-03-23T13:18:34.771Z",
       "version": 1
     },
     {
@@ -381,9 +381,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:04.198Z",
-      "scrapedAt": "2026-03-23T02:38:10.560Z",
-      "lastUpdated": "2026-03-23T02:39:04.198Z",
+      "processedAt": "2026-03-23T13:18:35.794Z",
+      "scrapedAt": "2026-03-23T13:17:40.507Z",
+      "lastUpdated": "2026-03-23T13:18:35.794Z",
       "version": 1
     },
     {
@@ -407,9 +407,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:04.196Z",
-      "scrapedAt": "2026-03-23T02:38:10.561Z",
-      "lastUpdated": "2026-03-23T02:39:04.196Z",
+      "processedAt": "2026-03-23T13:18:35.779Z",
+      "scrapedAt": "2026-03-23T13:17:40.507Z",
+      "lastUpdated": "2026-03-23T13:18:35.779Z",
+      "version": 1
+    },
+    {
+      "id": "c_6f9040f8220a",
+      "title": "Unido AfricaRice App Builder Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/unido-africarice-app-builder-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$5 000 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-23T13:18:35.776Z",
+      "scrapedAt": "2026-03-23T13:17:40.507Z",
+      "lastUpdated": "2026-03-23T13:18:35.776Z",
       "version": 1
     },
     {
@@ -435,35 +461,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:04.197Z",
-      "scrapedAt": "2026-03-23T02:38:10.561Z",
-      "lastUpdated": "2026-03-23T02:39:04.197Z",
-      "version": 1
-    },
-    {
-      "id": "c_6f9040f8220a",
-      "title": "Unido AfricaRice App Builder Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/unido-africarice-app-builder-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$5 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:04.196Z",
-      "scrapedAt": "2026-03-23T02:38:10.561Z",
-      "lastUpdated": "2026-03-23T02:39:04.196Z",
+      "processedAt": "2026-03-23T13:18:35.782Z",
+      "scrapedAt": "2026-03-23T13:17:40.508Z",
+      "lastUpdated": "2026-03-23T13:18:35.782Z",
       "version": 1
     },
     {
@@ -487,9 +487,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:04.210Z",
-      "scrapedAt": "2026-03-23T02:38:10.561Z",
-      "lastUpdated": "2026-03-23T02:39:04.210Z",
+      "processedAt": "2026-03-23T13:18:35.817Z",
+      "scrapedAt": "2026-03-23T13:17:40.508Z",
+      "lastUpdated": "2026-03-23T13:18:35.817Z",
       "version": 1
     },
     {
@@ -515,9 +515,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:05.229Z",
-      "scrapedAt": "2026-03-23T02:38:10.562Z",
-      "lastUpdated": "2026-03-23T02:39:05.229Z",
+      "processedAt": "2026-03-23T13:18:36.811Z",
+      "scrapedAt": "2026-03-23T13:17:40.508Z",
+      "lastUpdated": "2026-03-23T13:18:36.811Z",
       "version": 1
     },
     {
@@ -541,15 +541,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:05.215Z",
-      "scrapedAt": "2026-03-23T02:38:10.562Z",
-      "lastUpdated": "2026-03-23T02:39:05.215Z",
+      "processedAt": "2026-03-23T13:18:36.819Z",
+      "scrapedAt": "2026-03-23T13:17:40.509Z",
+      "lastUpdated": "2026-03-23T13:18:36.819Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-03-23T02:39:05.238Z"
+    "lastUpdated": "2026-03-23T13:18:36.830Z"
   }
 }

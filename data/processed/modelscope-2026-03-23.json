@@ -1,6 +1,6 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-03-23T02:39:05.230Z",
+  "timestamp": "2026-03-23T13:18:36.822Z",
   "contestCount": 10,
   "contests": [
     {
@@ -28,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:38:59.003Z",
-      "scrapedAt": "2026-03-23T02:36:50.912Z",
-      "lastUpdated": "2026-03-23T02:38:59.003Z",
+      "processedAt": "2026-03-23T13:18:30.639Z",
+      "scrapedAt": "2026-03-23T13:16:39.495Z",
+      "lastUpdated": "2026-03-23T13:18:30.639Z",
       "version": 1
     },
     {
@@ -61,9 +61,9 @@
         "但不作为硬性要求。Q：Skills 封装是必须完成的吗？"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:38:58.992Z",
-      "scrapedAt": "2026-03-23T02:36:50.912Z",
-      "lastUpdated": "2026-03-23T02:38:58.992Z",
+      "processedAt": "2026-03-23T13:18:30.641Z",
+      "scrapedAt": "2026-03-23T13:16:39.495Z",
+      "lastUpdated": "2026-03-23T13:18:30.641Z",
       "version": 1
     },
     {
@@ -72,7 +72,7 @@
       "platform": "modelscope",
       "url": "https://modelscope.cn/competition/195",
       "imageUrl": "",
-      "description": "本次黑客松总奖金池为110 万美元。赛事聚焦 GPU kernel 优化与端到端（E2E）推理加速。参赛者将在真实 LLM 负载上交付可观的性能提升，并展示在AMD GPU 性能工程方面的创新方法。\n\n赛事简介加入由AMD（Advanced Micro Devices, Inc.）赞助的GPU MODE Hackathon，挑战并突破领先开源大语言模型（LLM）在AMD GPU上的推理性能极限。本次比赛面向全球、分两阶段性能优化，邀请开发者、研究人员和团队，展示你们在GPU内核及端到端推理优化领域的专业能力，竞逐总计高达110万美元的现金大奖。 第一阶段：预选赛北美太平洋标准时间2026 年 3 月 6 日4:00 PM-  2026 年 4 月6 日11:59 PM北京时间2026 年 3 月 7 日8:00 AM-  2026 年 4 月 7 日   2:59 PM参赛者需优化三项关键GPU内核，包括MXFP4 MoE、MLA Decode和MXFP4 GEMM。团队将根据官方规则定义的性能指标在公开排行榜上排名，前十名个人或团队将晋级决赛。 第二阶段：决赛北美太平洋标准时间2026 年 4 月 7 日4:00 PM - 2026 年 5 月 15 日11:59 PM北京时间2026 年 4 月 8 日  0:00 AM - 2026 年 5 月 16 日  2:59 PM决赛选手将聚焦于所选LLM任务的端到端推理优化，包括DeepSeek-R1与Kimi K2.5，目标是在AMD InstinctTM GPU上实现标准化LLM推理基准的突破性性能。比赛将于北京时间5月19日举行颁奖典礼，届时AMD高层将出席，并表彰表现优异的团队。 总奖金池110万美元 前 10 名入围者获得的 1 万美元奖金将根据预选赛阶段的成绩发放，退出决赛阶段不会影响参赛者获得该奖项的资格。在完成总额 10 万美元现金奖励的预选赛后，晋级选手将参加决赛，争夺 100 万美元总现金奖励。决赛分为两个相互独立的赛道，每个赛道聚焦于一种特定的模型与推理技术栈。决赛选手可以选择参加一个或两个赛道。前十名决赛入围者（个人或团队，团队视为一个参赛主体）每个队伍将获得 1 万美元奖金，并有机会角逐最终大奖。赛道1：DeepSeek-R1-0528 FP4 + MTP🥇 终极大奖：35万美元赛道2：Kimi K2.5 1T FP4🥇 终极大奖：65万美元获奖者可能被邀请参加特别颁奖典礼，但出席典礼并非获奖的必要条件。 所有奖项、资格要求、评分方法、评估标准及支付条款均受本规则、条款和条件文件约束。参赛者需在提交前仔细阅读相关文件。 参与方式注册：请于北京时间2026年3月31日14:59 前通过Luma页面注册，方可获得参赛资格。资格：对个人及最多三人团队开放。其他资格要求详见活动的规则、条款与条件。选手需加入AMD开发者计划：https://www.amd.com/zh-cn/developer/ai-dev-program.html预选赛阶段参考kernels可在此处获取https://github.com/gpu-mode/reference-kernels 社区与支持：加入GPU MODE Discord社区 https://discord.com/invite/gpumode前往amd-competition频道，或加入AMD中文微信比赛群[BG1] ，获取公告、技术交流、答疑及赛程支持。提交流程：预选赛作品须使用Popcorn CLI按照技术要求和提交指南提交。安装说明见此链接：👉 https://github.com/gpu-mode/popcorn-cli学习资源如需学习资源，请访问并订阅GPU MODE频道，收看机器学习领域顶尖专家每周讲座。 规则第一阶段 – 预选赛作品将根据相对运行时间/速度进行比较，并按照下述评分标准赋分。内核性能高于最佳参考且最接近公布上限者获胜。决赛选手仅在主办方独立复现结果后最终确定。每位参赛者在每个内核问题提交的内核，绝对速度将被测量。根据速度，团队或个人将在排行榜获得排名。每个团队或个人的总分通过以下最高分值计算：MXFP4 MoE：1500分MLA decode：1250分MXFP4 GEMM：1000分 每个内核问题的得分 = 最大分值 × [1 -（排名分值/20）]。排名按顺序所对应分值= 0,1,2,…18,19。 总分为三项内核问题得分之和，采用上述方法。 排行榜评分标准为参赛者提交的内核在大量测试用例上的平均绝对运行时间/速度，我们将提供测试用例的形状信息，输入数据则从随机分布中抽取。仅前20名性能最佳算子可获得计分资格，未入前20者得分为零。未超越基线作品得分为零。所有基准用例取几何平均值，并四舍五入到特定小数位参与排名。如遇平局，以提交时间最早的内核为准。团队在计算总分时视为一名参赛者。若团队有多个作品，仅取每个问题得分最高的内核计入总分。总分最高的前十名团队或个人晋级第二阶段。 问题详情及参考实现将在GPU MODE网站，Discord及微信比赛群内公布。预选赛作品可通过Popcorn CLI提交。安装及提交说明见此链接：👉 https://github.com/gpu-mode/popcorn-cli 第二阶段 – 决赛 以下为第二阶段初步评估方法，具体规则和评分方式将在此阶段开始前更新并补充。 目标：优化两条赛道的完整端到端模型性能 赛道1：DeepSeek-R1-0528 FP4 + MTP 性能将根据下列配置进行评测：AMD提供 单节点8卡云端Instinct GPU，支持的最大配置为 TP/EP = 8。开发者也可以选择更小的 TP 和 EP 配置，只要模型能够正常放入显存，并且仍需满足以下条件。并发度（Concurrency）：4、32、128Input_length = 8k，output_length = 1k tokens推理框架：AMD ATOM 或 SGLang精度要求：GSM8K ≥ 0.93交互性（Interactivity = 1000.0 / median_tpot）vs.每 GPU 总 token 吞吐量要求：conc = 128：交互性 ≥ 48 token/s/用户，且吞吐量 ≥ 6000 token/s/GPUconc = 32：交互性 ≥ 50 token/s/用户，且吞吐量 ≥ 3900 token/s/GPUconc = 4：交互性 ≥ 165 token/s/用户，且吞吐量 ≥ 1500 token/s/GPU端到端延迟（E2E Latency，中位数）vs.每 GPU 总 token 吞吐量要求：conc = 128：E2E 延迟 ≤ 22 秒，且吞吐量 ≥ 6000 token/s/GPUconc = 32：E2E 延迟 ≤ 18 秒，且吞吐量 ≥ 3900 token/s/GPUconc = 4：E2E 延迟 ≤ 5 秒，且吞吐量 ≥ 1500 token/s/GPU 赛道2：Kimi K2.5 1T FP4 性能将按照下列配置进行评测：AMD提供 单节点 8卡云端Instinct      GPU，支持的最大配置为 TP/EP = 8。开发者也可以选择更小的 TP 和 EP 配置，只要模型能够正常放入显存，并且仍需满足以下条件。并发度（Concurrency）：4、32、128Input_length = 8k，output_length = 1k tokens推理框架：AMD      ATOM 或 vLLM精度要求：GSM8K      ≥ 0.9325交互性（Interactivity      = 1000.0 / median_tpot）vs. 每 GPU 总 token 吞吐量要求：conc = 128：交互性 ≥ 35 token/s/用户，且吞吐量 ≥ 5300 token/s/GPUconc = 32：交互性 ≥ 65 token/s/用户，且吞吐量 ≥ 4500token/s/GPUconc = 4：交互性 ≥ 150 token/s/用户，且吞吐量 ≥ 1350 token/s/GPUE2E      Latency，中位数）vs. 每 GPU 总 token 吞吐量要求：conc = 128：E2E 延迟 ≤ 24.5 秒，且吞吐量 ≥ 5300 token/s/GPUconc = 32：E2E 延迟 ≤ 14.0 秒，且吞吐量 ≥ 4500 token/s/GPUconc = 4：E2E 延迟 ≤ 6.0 秒，且吞吐量 ≥ 1350 token/s/GPU 总分结构 共有 3 个并发等级（Concurrency Levels）。对于每一个并发等级，其最高得分（SC）为 1000 分，其中：  GPU      Token 吞吐量（Token Throughput per GPU）最高 600 分交互性（Interactivity）最高 400 分 因此，第二阶段的最高最终得分（Final_Score）为：3 × 1000 = 3000 分 各并发等级下的评分计算方式 在每一个并发等级下，我们会收集所有参赛团队的结果，并基于以下两个指标进行排名：   每 GPU Token 吞吐量（Token Throughput per GPU）计算公式如下：Token Throughput per GPU = concurrency × (input_length + output_length)  / (mean_TTFT + output_length × mean_TPOT)  / num_GPUs_you_used其中num_GPUs_you_used = 1, 2, …, 8  注：AMD提供 单节点 8卡云端Instinct GPU，支持的最大配置为 TP/EP = 8。开发者可以选择更小的 TP 和 EP 配置，只要模型能够正常放入显存。   交互性（Interactivity） 计算公式如下：Interactivity = 1000 / median_TPOT   基于指标排名的子项得分计算 每个团队将根据在各指标中的排名（Sub-rank）获得对应分数。 Token吞吐量子得分 Throughput Points = 600 × (1 − rank / 10), 其中rank = 0, 1, 2, 3, …, 9 交互性子得分 Interactivity Points = 400 × (1 − rank / 10), 其中rank = 0, 1, 2, 3, …, 9    单个并发等级的总得分（SC） 在每一个并发等级下，该等级的得分（SC）计算如下： SC1 = Token 吞吐量得分 + 交互性得分（并发 = 4）SC2 = Token 吞吐量得分 + 交互性得分（并发 = 32）SC3 = Token 吞吐量得分 + 交互性得分（并发 = 128） 第二阶段最终得分与排名 第二阶段的最终得分（Final_Score）为三个并发等级得分之和： Final_Score = SC1 + SC2 + SC3 所有参赛团队将根据Final_Score 进行最终排名。  其他重要评判标准   原创性要求所有提交内容必须为原创工作。   获奖资格要求要具备获奖资格，参赛团队必须同时满足以下所有条件：在所选择的赛道中，在全部并发等级（4、32、128）下均达到性能目标达到规定的精度阈值代码在最终评选后 2–4      周内可以被合并（merge）到 AMD 官方仓库（包括 AMD ATOM / vLLM / SGLang）   代码合并要求（Mergeability）DeepSeek R1 赛道：提交代码必须能够合并至AMD ATOM 或 SGLang赛道：提交代码必须能够合并至AMD ATOM 或 vLLM 在最终阶段（Final Phase），AMD 工程师将与入围决赛的团队紧密合作，就代",
+      "description": "本次黑客松总奖金池为110 万美元。赛事聚焦 GPU kernel 优化与端到端（E2E）推理加速。参赛者将在真实 LLM 负载上交付可观的性能提升，并展示在AMD GPU 性能工程方面的创新方法。\n\n赛事简介加入由AMD（Advanced Micro Devices, Inc.）赞助的GPU MODE Hackathon，挑战并突破领先开源大语言模型（LLM）在AMD GPU上的推理性能极限。本次比赛面向全球、分两阶段性能优化，邀请开发者、研究人员和团队，展示你们在GPU内核及端到端推理优化领域的专业能力，竞逐总计高达110万美元的现金大奖。 第一阶段：预选赛北美太平洋标准时间2026 年 3 月 6 日4:00 PM-  2026 年 4 月6 日11:59 PM北京时间2026 年 3 月 7 日8:00 AM-  2026 年 4 月 7 日   2:59 PM参赛者需优化三项关键GPU内核，包括MXFP4 MoE、MLA Decode和MXFP4 GEMM。团队将根据官方规则定义的性能指标在公开排行榜上排名，前十名个人或团队将晋级决赛。注：请通过PC端报名：点击报名 第二阶段：决赛北美太平洋标准时间2026 年 4 月 7 日4:00 PM - 2026 年 5 月 15 日11:59 PM北京时间2026 年 4 月 8 日  0:00 AM - 2026 年 5 月 16 日  2:59 PM决赛选手将聚焦于所选LLM任务的端到端推理优化，包括DeepSeek-R1与Kimi K2.5，目标是在AMD InstinctTM GPU上实现标准化LLM推理基准的突破性性能。比赛将于北京时间5月19日举行颁奖典礼，届时AMD高层将出席，并表彰表现优异的团队。 总奖金池110万美元 前 10 名入围者获得的 1 万美元奖金将根据预选赛阶段的成绩发放，退出决赛阶段不会影响参赛者获得该奖项的资格。在完成总额 10 万美元现金奖励的预选赛后，晋级选手将参加决赛，争夺 100 万美元总现金奖励。决赛分为两个相互独立的赛道，每个赛道聚焦于一种特定的模型与推理技术栈。决赛选手可以选择参加一个或两个赛道。前十名决赛入围者（个人或团队，团队视为一个参赛主体）每个队伍将获得 1 万美元奖金，并有机会角逐最终大奖。赛道1：DeepSeek-R1-0528 FP4 + MTP🥇 终极大奖：35万美元赛道2：Kimi K2.5 1T FP4🥇 终极大奖：65万美元获奖者可能被邀请参加特别颁奖典礼，但出席典礼并非获奖的必要条件。 所有奖项、资格要求、评分方法、评估标准及支付条款均受本规则、条款和条件文件约束。参赛者需在提交前仔细阅读相关文件。 参与方式注册：请于北京时间 2026 年 4月 7 日14:59 前通过Luma页面注册，方可获得参赛资格。资格：对个人及最多三人团队开放。其他资格要求详见活动的规则、条款与条件。选手需加入AMD开发者计划：https://www.amd.com/zh-cn/developer/ai-dev-program.html预选赛阶段参考kernels可在此处获取https://github.com/gpu-mode/reference-kernels 社区与支持：加入GPU MODE Discord社区 https://discord.com/invite/gpumode前往amd-competition频道，或加入AMD中文微信比赛群[BG1] ，获取公告、技术交流、答疑及赛程支持。提交流程：预选赛作品须使用Popcorn CLI按照技术要求和提交指南提交。安装说明见此链接：👉 https://github.com/gpu-mode/popcorn-cli学习资源如需学习资源，请访问并订阅GPU MODE频道，收看机器学习领域顶尖专家每周讲座。 规则第一阶段 – 预选赛作品将根据相对运行时间/速度进行比较，并按照下述评分标准赋分。内核性能高于最佳参考且最接近公布上限者获胜。决赛选手仅在主办方独立复现结果后最终确定。每位参赛者在每个内核问题提交的内核，绝对速度将被测量。根据速度，团队或个人将在排行榜获得排名。每个团队或个人的总分通过以下最高分值计算：MXFP4 MoE：1500分MLA decode：1250分MXFP4 GEMM：1000分 每个内核问题的得分 = 最大分值 × [1 -（排名分值/20）]。排名按顺序所对应分值= 0,1,2,…18,19。 总分为三项内核问题得分之和，采用上述方法。 排行榜评分标准为参赛者提交的内核在大量测试用例上的平均绝对运行时间/速度，我们将提供测试用例的形状信息，输入数据则从随机分布中抽取。仅前20名性能最佳算子可获得计分资格，未入前20者得分为零。未超越基线作品得分为零。所有基准用例取几何平均值，并四舍五入到特定小数位参与排名。如遇平局，以提交时间最早的内核为准。团队在计算总分时视为一名参赛者。若团队有多个作品，仅取每个问题得分最高的内核计入总分。总分最高的前十名团队或个人晋级第二阶段。 问题详情及参考实现将在GPU MODE网站，Discord及微信比赛群内公布。预选赛作品可通过Popcorn CLI提交。安装及提交说明见此链接：👉 https://github.com/gpu-mode/popcorn-cli 第二阶段 – 决赛 以下为第二阶段初步评估方法，具体规则和评分方式将在此阶段开始前更新并补充。 目标：优化两条赛道的完整端到端模型性能 赛道1：DeepSeek-R1-0528 FP4 + MTP 性能将根据下列配置进行评测：AMD提供 单节点8卡云端Instinct GPU，支持的最大配置为 TP/EP = 8。开发者也可以选择更小的 TP 和 EP 配置，只要模型能够正常放入显存，并且仍需满足以下条件。并发度（Concurrency）：4、32、128Input_length = 8k，output_length = 1k tokens推理框架：AMD ATOM 或 SGLang精度要求：GSM8K ≥ 0.93交互性（Interactivity = 1000.0 / median_tpot）vs.每 GPU 总 token 吞吐量要求：conc = 128：交互性 ≥ 48 token/s/用户，且吞吐量 ≥ 6000 token/s/GPUconc = 32：交互性 ≥ 50 token/s/用户，且吞吐量 ≥ 3900 token/s/GPUconc = 4：交互性 ≥ 165 token/s/用户，且吞吐量 ≥ 1500 token/s/GPU端到端延迟（E2E Latency，中位数）vs.每 GPU 总 token 吞吐量要求：conc = 128：E2E 延迟 ≤ 22 秒，且吞吐量 ≥ 6000 token/s/GPUconc = 32：E2E 延迟 ≤ 18 秒，且吞吐量 ≥ 3900 token/s/GPUconc = 4：E2E 延迟 ≤ 5 秒，且吞吐量 ≥ 1500 token/s/GPU 赛道2：Kimi K2.5 1T FP4 性能将按照下列配置进行评测：AMD提供 单节点 8卡云端Instinct      GPU，支持的最大配置为 TP/EP = 8。开发者也可以选择更小的 TP 和 EP 配置，只要模型能够正常放入显存，并且仍需满足以下条件。并发度（Concurrency）：4、32、128Input_length = 8k，output_length = 1k tokens推理框架：AMD      ATOM 或 vLLM精度要求：GSM8K      ≥ 0.9325交互性（Interactivity      = 1000.0 / median_tpot）vs. 每 GPU 总 token 吞吐量要求：conc = 128：交互性 ≥ 35 token/s/用户，且吞吐量 ≥ 5300 token/s/GPUconc = 32：交互性 ≥ 65 token/s/用户，且吞吐量 ≥ 4500token/s/GPUconc = 4：交互性 ≥ 150 token/s/用户，且吞吐量 ≥ 1350 token/s/GPUE2E      Latency，中位数）vs. 每 GPU 总 token 吞吐量要求：conc = 128：E2E 延迟 ≤ 24.5 秒，且吞吐量 ≥ 5300 token/s/GPUconc = 32：E2E 延迟 ≤ 14.0 秒，且吞吐量 ≥ 4500 token/s/GPUconc = 4：E2E 延迟 ≤ 6.0 秒，且吞吐量 ≥ 1350 token/s/GPU 总分结构 共有 3 个并发等级（Concurrency Levels）。对于每一个并发等级，其最高得分（SC）为 1000 分，其中：  GPU      Token 吞吐量（Token Throughput per GPU）最高 600 分交互性（Interactivity）最高 400 分 因此，第二阶段的最高最终得分（Final_Score）为：3 × 1000 = 3000 分 各并发等级下的评分计算方式 在每一个并发等级下，我们会收集所有参赛团队的结果，并基于以下两个指标进行排名：   每 GPU Token 吞吐量（Token Throughput per GPU）计算公式如下：Token Throughput per GPU = concurrency × (input_length + output_length)  / (mean_TTFT + output_length × mean_TPOT)  / num_GPUs_you_used其中num_GPUs_you_used = 1, 2, …, 8  注：AMD提供 单节点 8卡云端Instinct GPU，支持的最大配置为 TP/EP = 8。开发者可以选择更小的 TP 和 EP 配置，只要模型能够正常放入显存。   交互性（Interactivity） 计算公式如下：Interactivity = 1000 / median_TPOT   基于指标排名的子项得分计算 每个团队将根据在各指标中的排名（Sub-rank）获得对应分数。 Token吞吐量子得分 Throughput Points = 600 × (1 − rank / 10), 其中rank = 0, 1, 2, 3, …, 9 交互性子得分 Interactivity Points = 400 × (1 − rank / 10), 其中rank = 0, 1, 2, 3, …, 9    单个并发等级的总得分（SC） 在每一个并发等级下，该等级的得分（SC）计算如下： SC1 = Token 吞吐量得分 + 交互性得分（并发 = 4）SC2 = Token 吞吐量得分 + 交互性得分（并发 = 32）SC3 = Token 吞吐量得分 + 交互性得分（并发 = 128） 第二阶段最终得分与排名 第二阶段的最终得分（Final_Score）为三个并发等级得分之和： Final_Score = SC1 + SC2 + SC3 所有参赛团队将根据Final_Score 进行最终排名。  其他重要评判标准   原创性要求所有提交内容必须为原创工作。   获奖资格要求要具备获奖资格，参赛团队必须同时满足以下所有条件：在所选择的赛道中，在全部并发等级（4、32、128）下均达到性能目标达到规定的精度阈值代码在最终评选后 2–4      周内可以被合并（merge）到 AMD 官方仓库（包括 AMD ATOM / vLLM / SGLang）   代码合并要求（Mergeability）DeepSeek R1 赛道：提交代码必须能够合并至AMD ATOM 或 SGLang赛道：提交代码必须能够合并至AMD ATOM 或 vLLM 在最终阶段（Final Phase），AMD ",
       "summary": "本次黑客松总奖金池为110 万美元。赛事聚焦 GPU kernel 优化与端到端（E2E）推理加速。参赛者将在真实 LLM 负载上交付可观的性能提升，并展示在AMD GPU 性能工程方面的创新方法。\n\n赛事简介加入由AMD（Advanced Micro Devices, Inc.）赞助的GPU MODE Hackathon，挑战并突破领先开源大语言模型（LLM）在AMD GPU上的推理性能极限。本...",
       "contestType": "code",
       "status": "active",
@@ -91,9 +91,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:38:59.028Z",
-      "scrapedAt": "2026-03-23T02:36:50.913Z",
-      "lastUpdated": "2026-03-23T02:38:59.028Z",
+      "processedAt": "2026-03-23T13:18:30.661Z",
+      "scrapedAt": "2026-03-23T13:16:39.496Z",
+      "lastUpdated": "2026-03-23T13:18:30.661Z",
       "version": 1
     },
     {
@@ -127,9 +127,9 @@
         "进行详细实现。其他非必要环节"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:00.024Z",
-      "scrapedAt": "2026-03-23T02:36:50.916Z",
-      "lastUpdated": "2026-03-23T02:39:00.024Z",
+      "processedAt": "2026-03-23T13:18:31.671Z",
+      "scrapedAt": "2026-03-23T13:16:39.500Z",
+      "lastUpdated": "2026-03-23T13:18:31.671Z",
       "version": 1
     },
     {
@@ -158,9 +158,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:00.025Z",
-      "scrapedAt": "2026-03-23T02:36:50.919Z",
-      "lastUpdated": "2026-03-23T02:39:00.025Z",
+      "processedAt": "2026-03-23T13:18:31.661Z",
+      "scrapedAt": "2026-03-23T13:16:39.503Z",
+      "lastUpdated": "2026-03-23T13:18:31.661Z",
       "version": 1
     },
     {
@@ -188,9 +188,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:00.019Z",
-      "scrapedAt": "2026-03-23T02:36:50.919Z",
-      "lastUpdated": "2026-03-23T02:39:00.019Z",
+      "processedAt": "2026-03-23T13:18:31.662Z",
+      "scrapedAt": "2026-03-23T13:16:39.503Z",
+      "lastUpdated": "2026-03-23T13:18:31.662Z",
       "version": 1
     },
     {
@@ -218,9 +218,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:00.019Z",
-      "scrapedAt": "2026-03-23T02:36:50.920Z",
-      "lastUpdated": "2026-03-23T02:39:00.019Z",
+      "processedAt": "2026-03-23T13:18:31.673Z",
+      "scrapedAt": "2026-03-23T13:16:39.503Z",
+      "lastUpdated": "2026-03-23T13:18:31.673Z",
       "version": 1
     },
     {
@@ -248,9 +248,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:00.039Z",
-      "scrapedAt": "2026-03-23T02:36:50.920Z",
-      "lastUpdated": "2026-03-23T02:39:00.039Z",
+      "processedAt": "2026-03-23T13:18:31.692Z",
+      "scrapedAt": "2026-03-23T13:16:39.503Z",
+      "lastUpdated": "2026-03-23T13:18:31.692Z",
       "version": 1
     },
     {
@@ -277,9 +277,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:01.124Z",
-      "scrapedAt": "2026-03-23T02:36:50.920Z",
-      "lastUpdated": "2026-03-23T02:39:01.124Z",
+      "processedAt": "2026-03-23T13:18:32.696Z",
+      "scrapedAt": "2026-03-23T13:16:39.504Z",
+      "lastUpdated": "2026-03-23T13:18:32.696Z",
       "version": 1
     },
     {
@@ -310,15 +310,15 @@
         "验证插件效果"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-03-23T02:39:01.042Z",
-      "scrapedAt": "2026-03-23T02:36:50.920Z",
-      "lastUpdated": "2026-03-23T02:39:01.042Z",
+      "processedAt": "2026-03-23T13:18:32.693Z",
+      "scrapedAt": "2026-03-23T13:16:39.504Z",
+      "lastUpdated": "2026-03-23T13:18:32.693Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-03-23T02:39:05.230Z"
+    "lastUpdated": "2026-03-23T13:18:36.822Z"
   }
 }

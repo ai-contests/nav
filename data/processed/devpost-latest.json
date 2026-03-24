@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-03-24T02:30:51.483Z",
+  "timestamp": "2026-03-24T13:22:48.206Z",
   "contestCount": 10,
   "contests": [
     {
@@ -28,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-24T02:30:43.038Z",
-      "scrapedAt": "2026-03-24T02:29:25.845Z",
-      "lastUpdated": "2026-03-24T02:30:43.038Z",
+      "processedAt": "2026-03-24T13:22:39.391Z",
+      "scrapedAt": "2026-03-24T13:21:21.057Z",
+      "lastUpdated": "2026-03-24T13:22:39.391Z",
       "version": 1
     },
     {
@@ -64,9 +64,9 @@
         "examples"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-03-24T02:30:43.047Z",
-      "scrapedAt": "2026-03-24T02:29:25.846Z",
-      "lastUpdated": "2026-03-24T02:30:43.047Z",
+      "processedAt": "2026-03-24T13:22:39.283Z",
+      "scrapedAt": "2026-03-24T13:21:21.058Z",
+      "lastUpdated": "2026-03-24T13:22:39.283Z",
       "version": 1
     },
     {
@@ -94,9 +94,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-24T02:30:43.044Z",
-      "scrapedAt": "2026-03-24T02:29:25.847Z",
-      "lastUpdated": "2026-03-24T02:30:43.044Z",
+      "processedAt": "2026-03-24T13:22:39.296Z",
+      "scrapedAt": "2026-03-24T13:21:21.059Z",
+      "lastUpdated": "2026-03-24T13:22:39.296Z",
       "version": 1
     },
     {
@@ -124,9 +124,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-24T02:30:43.090Z",
-      "scrapedAt": "2026-03-24T02:29:25.848Z",
-      "lastUpdated": "2026-03-24T02:30:43.090Z",
+      "processedAt": "2026-03-24T13:22:39.488Z",
+      "scrapedAt": "2026-03-24T13:21:21.060Z",
+      "lastUpdated": "2026-03-24T13:22:39.488Z",
       "version": 1
     },
     {
@@ -155,9 +155,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-24T02:30:44.091Z",
-      "scrapedAt": "2026-03-24T02:29:25.849Z",
-      "lastUpdated": "2026-03-24T02:30:44.091Z",
+      "processedAt": "2026-03-24T13:22:40.506Z",
+      "scrapedAt": "2026-03-24T13:21:21.060Z",
+      "lastUpdated": "2026-03-24T13:22:40.506Z",
       "version": 1
     },
     {
@@ -165,14 +165,20 @@
       "title": "Student HackPad 2026",
       "platform": "devpost",
       "url": "https://student-hackpad-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/070/148/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/070/148/datas/original.png",
+      "description": "WE'RE BACK WITH SHP 2026 Theme - ORBIT: Build tech beyond Earth - satellite communication, space debris mitigation, systems connecting humanity across the cosmos. This time: Cash prizes, more sponsors, better tools, and a larger, lovelier community. Join the Discord for early updates.",
+      "summary": "WE'RE BACK WITH SHP 2026 Theme - ORBIT: Build tech beyond Earth - satellite communication, space debris mitigation, systems connecting humanity across the cosmos. This time: Cash prizes, more sponsors...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-03-30T17:00:00.000Z",
       "prize": "1",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Low",
+        "No Code",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -181,9 +187,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-24T02:30:44.092Z",
-      "scrapedAt": "2026-03-24T02:29:25.852Z",
-      "lastUpdated": "2026-03-24T02:30:44.092Z",
+      "processedAt": "2026-03-24T13:22:40.487Z",
+      "scrapedAt": "2026-03-24T13:21:21.063Z",
+      "lastUpdated": "2026-03-24T13:22:40.487Z",
       "version": 1
     },
     {
@@ -191,14 +197,19 @@
       "title": "CircuitBreak 2025",
       "platform": "devpost",
       "url": "https://circuitbreak-2025.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/073/143/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/073/143/datas/original.png",
+      "description": "CircuitBreak 2025 brings together twenty unique themes, each with its own problem statement that pushes participants to think sharply and build boldly. The challenge runs online for an entire month, giving students the freedom to work solo or form teams while competing in a fully open sprint where both software and hardware solutions are allowed. With no mentorship or workshops, participants rely on their creativity, discipline, and technical instincts to carry their ideas from concept to prototype. Every theme features its own judging criteria tailored to the nature of that domain, ensuring that originality, execution, and impact are evaluated in ways that fit each challenge. By the end, participants walk away with strengthened coding skills, deeper problem-solving abilities, and the experience of building something real under competitive pressure in a purely digital arena.",
+      "summary": "CircuitBreak 2025 brings together twenty unique themes, each with its own problem statement that pushes participants to think sharply and build boldly. The challenge runs online for an entire month, g...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-04-01T03:45:00.000Z",
       "prize": "1",
-      "tags": [],
+      "tags": [
+        "IoT",
+        "Open Ended",
+        "Web"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -207,9 +218,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-24T02:30:44.090Z",
-      "scrapedAt": "2026-03-24T02:29:25.852Z",
-      "lastUpdated": "2026-03-24T02:30:44.090Z",
+      "processedAt": "2026-03-24T13:22:40.486Z",
+      "scrapedAt": "2026-03-24T13:21:21.064Z",
+      "lastUpdated": "2026-03-24T13:22:40.486Z",
       "version": 1
     },
     {
@@ -217,15 +228,19 @@
       "title": "GenAI Dev Hackathon",
       "platform": "devpost",
       "url": "https://genaidevhackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/192/780/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/192/780/datas/original.jpg",
+      "description": "About the challenge The GenAI Devs Hackathon is a call to action for students and developers to harness the power of Generative AI to solve the world's most pressing challenges. We aren't looking for \"cool\" tech for its own sake; we are looking for purpose-driven applications that make a measurable impact on society. From climate change and healthcare accessibility to education and social justice, your mission is to build a functional tool that leaves the world better than you found it.Joining the Discord community is COMPULSORY",
+      "summary": "About the challenge The GenAI Devs Hackathon is a call to action for students and developers to harness the power of Generative AI to solve the world's most pressing challenges. We aren't looking for ...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-03-24T18:30:00.000Z",
       "prize": "8",
       "tags": [
-        "ai"
+        "Beginner Friendly",
+        "Low",
+        "No Code",
+        "Social Good"
       ],
       "aiTools": [
         "Python",
@@ -235,9 +250,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-24T02:30:44.091Z",
-      "scrapedAt": "2026-03-24T02:29:25.853Z",
-      "lastUpdated": "2026-03-24T02:30:44.091Z",
+      "processedAt": "2026-03-24T13:22:40.482Z",
+      "scrapedAt": "2026-03-24T13:21:21.065Z",
+      "lastUpdated": "2026-03-24T13:22:40.482Z",
       "version": 1
     },
     {
@@ -245,14 +260,20 @@
       "title": "Creator Colosseum Startup Competition: Student Founders. Real Startups.",
       "platform": "devpost",
       "url": "https://creatorcolosseumcompetition26.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/399/737/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/399/737/datas/original.png",
+      "description": "The Creator Colosseum Startup Competition is a global, online startup competition for students ages 13–18, organized by Creator Colosseum, a student-founded initiative focused on making entrepreneurship accessible at an early stage. The goal of this competition is to help student founders take real ideas seriously. Participants submit realistic startup concepts that matter to them and their communities, receive professional evaluation, and gain exposure to what it actually takes to move an idea forward. The Creator Colosseum Startup Competition gives you the opportunity to receive meaningful feedback, real-world validation, and mentorship from experienced entrepreneurs. Whether your idea includes code, design, or a business model still being refined, this competition meets you where you are and helps you grow. The competition is entirely virtual, free to enter, and designed to reward clarity, originality, and execution rather than polish alone.",
+      "summary": "The Creator Colosseum Startup Competition is a global, online startup competition for students ages 13–18, organized by Creator Colosseum, a student-founded initiative focused on making entrepreneursh...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-04-24T04:00:00.000Z",
       "prize": "$575",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Low",
+        "No Code",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -261,9 +282,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-24T02:30:44.131Z",
-      "scrapedAt": "2026-03-24T02:29:25.853Z",
-      "lastUpdated": "2026-03-24T02:30:44.131Z",
+      "processedAt": "2026-03-24T13:22:40.616Z",
+      "scrapedAt": "2026-03-24T13:21:21.065Z",
+      "lastUpdated": "2026-03-24T13:22:40.616Z",
       "version": 1
     },
     {
@@ -271,14 +292,18 @@
       "title": "Quantum Sprint",
       "platform": "devpost",
       "url": "https://quantumsprint.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/400/549/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/400/549/datas/original.png",
+      "description": "Quantum Sprint is a month long global build sprint , designed for serious developers, startup founders, and professional innovators who want to ship real, scalable products. This is not a weekend prototype event , it’s a focused execution sprint where participants research, build, refine, and showcase production-ready solutions across high-impact domains like AI, FinTech, SaaS, Web3, and Deep Tech. Open to global professionals and ambitious builders, Quantum Sprint creates a structured environment to turn bold ideas into tangible outcomes. Build with intent. Ship with confidence. Showcase to the world. 🚀",
+      "summary": "Quantum Sprint is a month long global build sprint , designed for serious developers, startup founders, and professional innovators who want to ship real, scalable products. This is not a weekend prot...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-03-30T21:00:00.000Z",
       "prize": "$5,000",
-      "tags": [],
+      "tags": [
+        "Lifehacks",
+        "Quantum"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -287,15 +312,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-24T02:30:45.131Z",
-      "scrapedAt": "2026-03-24T02:29:25.854Z",
-      "lastUpdated": "2026-03-24T02:30:45.131Z",
+      "processedAt": "2026-03-24T13:22:41.591Z",
+      "scrapedAt": "2026-03-24T13:21:21.066Z",
+      "lastUpdated": "2026-03-24T13:22:41.591Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-03-24T02:30:51.483Z"
+    "lastUpdated": "2026-03-24T13:22:48.206Z"
   }
 }

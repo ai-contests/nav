@@ -1,35 +1,8 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-03-25T02:35:13.006Z",
-  "contestCount": 2,
+  "timestamp": "2026-03-25T13:22:01.275Z",
+  "contestCount": 1,
   "contests": [
-    {
-      "id": "c_3509438eff5d",
-      "title": "Image Delivery Issue",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/648",
-      "imageUrl": "",
-      "description": "We’re currently working to resolve an issue with image delivery that may cause some content to appear as red or grey boxes. Thanks for your patience!",
-      "summary": "We’re currently working to resolve an issue with image delivery that may cause some content to appear as red or grey boxes. Thanks for your patience!...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-27T23:59:59.999Z",
-      "prize": "",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:04.578Z",
-      "scrapedAt": "2026-03-25T02:33:31.764Z",
-      "lastUpdated": "2026-03-25T02:35:04.578Z",
-      "version": 1
-    },
     {
       "id": "c_e7d9ae475b7b",
       "title": "New: Buy Buzz with Crypto Deposits!",
@@ -54,15 +27,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:04.567Z",
-      "scrapedAt": "2026-03-25T02:33:31.764Z",
-      "lastUpdated": "2026-03-25T02:35:04.567Z",
+      "processedAt": "2026-03-25T13:21:52.492Z",
+      "scrapedAt": "2026-03-25T13:20:09.071Z",
+      "lastUpdated": "2026-03-25T13:21:52.492Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-03-25T02:35:13.006Z"
+    "lastUpdated": "2026-03-25T13:22:01.275Z"
   }
 }

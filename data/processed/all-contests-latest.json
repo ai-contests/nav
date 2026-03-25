@@ -1,7 +1,7 @@
 {
   "platform": "all",
-  "timestamp": "2026-03-25T02:35:13.010Z",
-  "contestCount": 48,
+  "timestamp": "2026-03-25T13:22:01.282Z",
+  "contestCount": 47,
   "contests": [
     {
       "id": "c_8028e73d2ed6",
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:02.503Z",
-      "scrapedAt": "2026-03-25T02:34:13.357Z",
-      "lastUpdated": "2026-03-25T02:35:02.503Z",
+      "processedAt": "2026-03-25T13:21:50.387Z",
+      "scrapedAt": "2026-03-25T13:21:01.617Z",
+      "lastUpdated": "2026-03-25T13:21:50.387Z",
       "version": 1
     },
     {
@@ -42,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T02:34:13.358Z",
+      "deadline": "2030-08-14T13:21:01.617Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -53,9 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:03.326Z",
-      "scrapedAt": "2026-03-25T02:34:13.358Z",
-      "lastUpdated": "2026-03-25T02:35:03.326Z",
+      "processedAt": "2026-03-25T13:21:51.208Z",
+      "scrapedAt": "2026-03-25T13:21:01.617Z",
+      "lastUpdated": "2026-03-25T13:21:51.208Z",
       "version": 1
     },
     {
@@ -69,7 +69,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T02:34:13.358Z",
+      "deadline": "2045-09-01T13:21:01.618Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -80,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:03.524Z",
-      "scrapedAt": "2026-03-25T02:34:13.358Z",
-      "lastUpdated": "2026-03-25T02:35:03.524Z",
+      "processedAt": "2026-03-25T13:21:51.365Z",
+      "scrapedAt": "2026-03-25T13:21:01.618Z",
+      "lastUpdated": "2026-03-25T13:21:51.365Z",
       "version": 1
     },
     {
@@ -96,7 +96,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T02:34:13.359Z",
+      "deadline": "2030-12-30T13:21:01.618Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -110,9 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:03.357Z",
-      "scrapedAt": "2026-03-25T02:34:13.359Z",
-      "lastUpdated": "2026-03-25T02:35:03.357Z",
+      "processedAt": "2026-03-25T13:21:51.348Z",
+      "scrapedAt": "2026-03-25T13:21:01.618Z",
+      "lastUpdated": "2026-03-25T13:21:51.348Z",
       "version": 1
     },
     {
@@ -138,9 +138,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:03.437Z",
-      "scrapedAt": "2026-03-25T02:34:13.359Z",
-      "lastUpdated": "2026-03-25T02:35:03.437Z",
+      "processedAt": "2026-03-25T13:21:51.367Z",
+      "scrapedAt": "2026-03-25T13:21:01.619Z",
+      "lastUpdated": "2026-03-25T13:21:51.367Z",
       "version": 1
     },
     {
@@ -164,36 +164,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:03.644Z",
-      "scrapedAt": "2026-03-25T02:34:13.361Z",
-      "lastUpdated": "2026-03-25T02:35:03.644Z",
-      "version": 1
-    },
-    {
-      "id": "c_3509438eff5d",
-      "title": "Image Delivery Issue",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/648",
-      "imageUrl": "",
-      "description": "We’re currently working to resolve an issue with image delivery that may cause some content to appear as red or grey boxes. Thanks for your patience!",
-      "summary": "We’re currently working to resolve an issue with image delivery that may cause some content to appear as red or grey boxes. Thanks for your patience!...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-27T23:59:59.999Z",
-      "prize": "",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:04.578Z",
-      "scrapedAt": "2026-03-25T02:33:31.764Z",
-      "lastUpdated": "2026-03-25T02:35:04.578Z",
+      "processedAt": "2026-03-25T13:21:51.475Z",
+      "scrapedAt": "2026-03-25T13:21:01.627Z",
+      "lastUpdated": "2026-03-25T13:21:51.475Z",
       "version": 1
     },
     {
@@ -220,9 +193,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:04.567Z",
-      "scrapedAt": "2026-03-25T02:33:31.764Z",
-      "lastUpdated": "2026-03-25T02:35:04.567Z",
+      "processedAt": "2026-03-25T13:21:52.492Z",
+      "scrapedAt": "2026-03-25T13:20:09.071Z",
+      "lastUpdated": "2026-03-25T13:21:52.492Z",
       "version": 1
     },
     {
@@ -231,7 +204,7 @@
       "platform": "devpost",
       "url": "https://gitlab.devpost.com/?ref_feature=challenge&ref_medium=discover",
       "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/188/179/datas/original.png",
-      "description": "AI writes code. That's expected now. The real opportunity? Everything else. Planning. Security. Compliance. Deployments. These are the bottlenecks that slow teams down every day. And they're wide open for automation. We're opening up the GitLab Duo Agent Platform and inviting developers worldwide to build AI agents that help you and your team to build secure software faster. Not chatbots that answer questions. Agents that jump into workflows, respond to events, and take action on your behalf. Think of it as building a digital teammate for every developer using GitLab. Why Join? Be early: Get access to the GitLab Duo Agent Platform for the duration of the hackathon while it’s fresh! Learn it. Build on it. Shape it. Learn how to build agents that assist you with tedious tasks such as creating tests Learn how to build a flow of agents and orchestrate an entire team of purpose-built agents to build & deploy feature requests from creating, testing, security scanning to deployment. Make an impact: Your agent could ship to thousands of GitLab users. This isn't just a side project that sits in a repo. Win $65,000 in prizes. Compete for the Grand Prize or win one of our category prices Get Started Join Discord and get to know each other in #ai-hackathon. Explore GitLab Duo Agent Platform. Request Access to the GitLab AI Hackathon group. Learn how to create GitLab custom Agents. Learn how to create GitLab Flows. Discover what’s possible in our GitLab Duo prompt library.",
+      "description": "AI writes code. That's expected now. The real opportunity? Everything else. Planning. Security. Compliance. Deployments. These are the bottlenecks that slow teams down every day. And they're wide open for automation. We're opening up the GitLab Duo Agent Platform and inviting developers worldwide to build AI agents that help you and your team to build secure software faster. Not chatbots that answer questions. Agents that jump into workflows, respond to events, and take action on your behalf. Think of it as building a digital teammate for every developer using GitLab. Why Join? Be early: Get access to the GitLab Duo Agent Platform for the duration of the hackathon while it’s fresh! Learn it. Build on it. Shape it. Learn how to build agents that assist you with tedious tasks such as creating tests Learn how to build a flow of agents and orchestrate an entire team of purpose-built agents to build & deploy feature requests from creating, testing, security scanning to deployment. Make an impact: Your agent could ship to thousands of GitLab users. This isn't just a side project that sits in a repo. Win $65,000 in prizes. Compete for the Grand Prize or win one of our category prices Get Started Join Discord and get to know each other in #ai-hackathon. Explore GitLab Duo Agent Platform. Request Access to the GitLab AI Hackathon group. Please note that as of March 25, 9 AM ET we are no longer accepting access requests. Learn how to create GitLab custom Agents. Learn how to create GitLab Flows. Discover what’s possible in our GitLab Duo prompt library.",
       "summary": "AI writes code. That's expected now. The real opportunity? Everything else. Planning. Security. Compliance. Deployments. These are the bottlenecks that slow teams down every day. And they're wide open...",
       "contestType": "code",
       "status": "active",
@@ -250,9 +223,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:04.583Z",
-      "scrapedAt": "2026-03-25T02:33:46.689Z",
-      "lastUpdated": "2026-03-25T02:35:04.583Z",
+      "processedAt": "2026-03-25T13:21:52.462Z",
+      "scrapedAt": "2026-03-25T13:20:35.374Z",
+      "lastUpdated": "2026-03-25T13:21:52.462Z",
       "version": 1
     },
     {
@@ -286,9 +259,9 @@
         "examples"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:04.580Z",
-      "scrapedAt": "2026-03-25T02:33:46.690Z",
-      "lastUpdated": "2026-03-25T02:35:04.580Z",
+      "processedAt": "2026-03-25T13:21:52.480Z",
+      "scrapedAt": "2026-03-25T13:20:35.375Z",
+      "lastUpdated": "2026-03-25T13:21:52.480Z",
       "version": 1
     },
     {
@@ -316,9 +289,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:04.636Z",
-      "scrapedAt": "2026-03-25T02:33:46.691Z",
-      "lastUpdated": "2026-03-25T02:35:04.636Z",
+      "processedAt": "2026-03-25T13:21:52.461Z",
+      "scrapedAt": "2026-03-25T13:20:35.376Z",
+      "lastUpdated": "2026-03-25T13:21:52.461Z",
       "version": 1
     },
     {
@@ -346,9 +319,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:05.634Z",
-      "scrapedAt": "2026-03-25T02:33:46.691Z",
-      "lastUpdated": "2026-03-25T02:35:05.634Z",
+      "processedAt": "2026-03-25T13:21:52.589Z",
+      "scrapedAt": "2026-03-25T13:20:35.377Z",
+      "lastUpdated": "2026-03-25T13:21:52.589Z",
       "version": 1
     },
     {
@@ -377,9 +350,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:05.632Z",
-      "scrapedAt": "2026-03-25T02:33:46.692Z",
-      "lastUpdated": "2026-03-25T02:35:05.632Z",
+      "processedAt": "2026-03-25T13:21:53.587Z",
+      "scrapedAt": "2026-03-25T13:20:35.378Z",
+      "lastUpdated": "2026-03-25T13:21:53.587Z",
       "version": 1
     },
     {
@@ -403,9 +376,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:05.642Z",
-      "scrapedAt": "2026-03-25T02:33:46.693Z",
-      "lastUpdated": "2026-03-25T02:35:05.642Z",
+      "processedAt": "2026-03-25T13:21:53.578Z",
+      "scrapedAt": "2026-03-25T13:20:35.381Z",
+      "lastUpdated": "2026-03-25T13:21:53.578Z",
       "version": 1
     },
     {
@@ -429,9 +402,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:05.629Z",
-      "scrapedAt": "2026-03-25T02:33:46.693Z",
-      "lastUpdated": "2026-03-25T02:35:05.629Z",
+      "processedAt": "2026-03-25T13:21:53.582Z",
+      "scrapedAt": "2026-03-25T13:20:35.382Z",
+      "lastUpdated": "2026-03-25T13:21:53.582Z",
       "version": 1
     },
     {
@@ -455,35 +428,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:05.681Z",
-      "scrapedAt": "2026-03-25T02:33:46.694Z",
-      "lastUpdated": "2026-03-25T02:35:05.681Z",
-      "version": 1
-    },
-    {
-      "id": "c_53e3b1e432cb",
-      "title": "API Innovate 2026",
-      "platform": "devpost",
-      "url": "https://api-innovate-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/321/021/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "₹ 10,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:06.692Z",
-      "scrapedAt": "2026-03-25T02:33:46.694Z",
-      "lastUpdated": "2026-03-25T02:35:06.692Z",
+      "processedAt": "2026-03-25T13:21:53.586Z",
+      "scrapedAt": "2026-03-25T13:20:35.382Z",
+      "lastUpdated": "2026-03-25T13:21:53.586Z",
       "version": 1
     },
     {
@@ -509,28 +456,24 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:06.685Z",
-      "scrapedAt": "2026-03-25T02:33:46.695Z",
-      "lastUpdated": "2026-03-25T02:35:06.685Z",
+      "processedAt": "2026-03-25T13:21:53.669Z",
+      "scrapedAt": "2026-03-25T13:20:35.382Z",
+      "lastUpdated": "2026-03-25T13:21:53.669Z",
       "version": 1
     },
     {
-      "id": "c_5dd121349604",
-      "title": "AI Hackathon Tour 2026 —— 高校联赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/179",
-      "imageUrl": "",
-      "description": "魔搭社区（Modelscope）、Datawhale联合顶尖学府、AMD等合作方，诚邀你加入这场加速进化的旅程—- Al Hackathon Tour 2026。 在这里，不设专业藩篱，不问技术出身。无论你是深耕算法的极客，还是心怀热诚的跨界玩家，只要你相信开源的力量，这里就是你的主场。利用 Al Coding的敏捷开发，快速构建有灵魂的应用。 这是一次逃离舒适区的冒险。去学习AI，去驾驭AI，去把那些疯狂的脑洞变成手边触手可及的Al应用；跳出校园的方寸之地，在更广阔的社区中，与全球开发者并肩竞技。 在这个冬天播种，在下个春天发光。来更大的舞台，展示你的AI作品。\n\n名单公示期：即日起-2026年3月17日23:59如对录取名单有疑问，可联系大赛组委会工作人员申诉，协助复查“是否漏评、错评、统计错误”问题。联系方式：卢水琼：微信号：lsqipaper甘元琦：微信号：13244815186团队名称作品名称所属赛道北京大学熔岩瑜伽岁语「小有可为」公益应用方向DeepSpeak!!!DeepSpeak-AI语音日记助手数字生活与情感体验KiwiGlow拾光数字生活与情感体验绘梦精灵绘梦精灵「小有可为」公益应用方向WisleAIWisle AI行业与生产力变革复旦大学淀山湖组合冰箱-智慧语音贴数字生活与情感体验404 Not FoundersMemoir人生回忆录「小有可为」公益应用方向The Matrix不积洼步「小有可为」公益应用方向Hakki咪“聆光一闪”——专为视障学生设计的AI复习助手「小有可为」公益应用方向所以爱会消失对不队CircuitWiz-AI电路图智能识别与生成一体化工具行业与生产力变革缘旅队缘旅数字生活与情感体验鼹鼠对簿AI (Contract Clarity)行业与生产力变革哈尔滨工业大学对吗不对不队梦境显影机数字生活与情感体验对对队智爱助老-药品说明书翻译器「小有可为」公益应用方向Otter_Knight论文写作管理器数字生活与情感体验企业智讯企业智讯行业与生产力变革南京大学Ai说的不队康药智盒CareBox —— 基于大模型与 AIoT 的北美家庭高端健康管理中枢「小有可为」公益应用方向小豆泥心迹 Vesti数字生活与情感体验地板时光工会孤独症儿童干预辅助系统「小有可为」公益应用方向ycyz word+新高考志愿填报及分流指导系统行业与生产力变革三只小狗中的两只队安心吃：面向中老年慢性病患者的 AI 智能饮食管理小程序「小有可为」公益应用方向南下摘星星的人Welcome to my house—欢迎来到，我的主场数字生活与情感体验清华大学深圳国际研究生院KnowellKnowell「小有可为」公益应用方向AI的供养队ScholarPalette 学术调色板行业与生产力变革研知研知-AI辅助科研知识体系助手行业与生产力变革火山心兑喝一杯数字生活与情感体验原点新途Meetmind 你孩子身边记忆力最好的智能同桌行业与生产力变革上海交通大学碱基互补配对队细胞王国--生物学科普游戏数字生活与情感体验ScholarHunterScholarHunter学海猎手行业与生产力变革Meta-EMomShell「小有可为」公益应用方向Sheep Counters梦语数字生活与情感体验王爷队Moments情感及场景化英语学习APP数字生活与情感体验同济大学AI在心里口难开小A机器人&心理急救箱数字生活与情感体验.5n3yWhat2Eat 今天吃什么数字生活与情感体验WhirlWind Justice（旋风正义）“WhirlWind Justice 法律媒体社工一体式正义平台”「小有可为」公益应用方向吾皇万万岁智评作文——AI智能批改与提升行业与生产力变革西安交通大学We look灵愈AI-基于多模态AI的数字医生抑郁检测与疗愈助手「小有可为」公益应用方向WearVision-穿上想象力WearVision-穿上想象力行业与生产力变革DREAMFIRE鲜椒本科模拟器数字生活与情感体验西迁算法用药AI管家「小有可为」公益应用方向香港大学OR StudioNyx数字生活与情感体验算命老先森天机占卜阁（Divine Your Fate）数字生活与情感体验弘维数字生命卡数字生活与情感体验MoreMore「小有可为」公益应用方向Xixi队metasoul潮灵宇宙数字生活与情感体验青霏哈特软软医笺智识行业与生产力变革浙江大学poco-aiPoco: Your Pocket Coworker行业与生产力变革黑爪党Pawzzle 寻爪「小有可为」公益应用方向ZJU·Geek灵知｜KnowledgeMap行业与生产力变革破烂儿艺术家再生博物馆——从“物质占有”到“数字再生\"数字生活与情感体验JobOS-职通车“JobOS 职通车”——基于AI Agent的小企业智能招聘助手行业与生产力变革混沌守序的DDL推进战队P人救星——自适应日程规划系统数字生活与情感体验中国科学科技大学Echo队silentbridge无声之桥「小有可为」公益应用方向中科大黑客松小队！勿忘我：阿尔兹海默症AI电话预防服务「小有可为」公益应用方向DeepSleepInterReview--ai模拟面试官行业与生产力变革AuraXMindOS行业与生产力变革很队熊出没奇遇数字生活与情感体验\n当中国最大的模型开源社区魔搭社区（ModelScope）遇上中国最大的AI开源学习社区Datawhale，一场代表国内院校高水平的AI应用实验正在发生。这不是一场关起门来的闭门造车，而是 11 所顶尖高校联动，5600+ 开发者加入的开源盛会，我们在 410 份初赛 Demo 中见证了创意的诞生，最终 224 支战队，750 位种子选手杀入复赛，开启新一轮迭代。这一次，我们挖掘出了一大批潜藏在“水下”的硬核团队。他们没有停留在炫技和 Demo 阶段，而是把 AI 应用往“0 到 1”真正推了一步——直面真实场景，接受真实用户的检验。*这组数字背后，是中国聪明的年轻大脑正在通过AI「让创造发生」赛道观察：来自00后创作者， AI 原生应用的三个“进化”趋势通过对 224 个入围复赛的作品穿透分析，我们发现中国高校的 AI 创作正在告别“套壳时代”，呈现出显著的共性特征：从“通用助手”转向“深水区工具”： 选手们不再扎堆做泛化的聊天机器人，而是扎根于垂直壁垒。AI 被塞进了具体的工作流，变成了硬核的生产力小系统：从辅助电路设计的工业软件、工程仿真与数字孪生，到提示词编译器、工单自动化处理。AI 正在从“对话框”走进“生产线”。 “多模态”与“游戏化”成为标配： 纯文字交互已是过去式，全感官智能体成为主流。开发者们利用魔搭社区的开源生态，实现语音、图像、视频与端侧控制的深度融合。更有意思的是，互动叙事正在冒头：从知识编译引擎到交互式小说生成，团队们在尝试用大模型重做“可玩体验”，剧情随选择实时生长，让 AI 变得“好玩且丝滑”。极强的“人本位”产品直觉：这一届开发者非常关注情绪价值与社会微光，把技术向善落在“可靠、真的能用”上。无论是解决 DDL 焦虑的日程决策、沉浸式的职场/求职模拟，还是面向视障学生的学习辅助、中老年膳食健康管理。他们不只是在写代码，而是在用 AI 补齐现实世界的缺憾。碰撞：站在技术与人文的交叉点最优秀的 AI 应用，往往诞生于技术与人文的交叉点。专业不再是围墙，AI 抹平了门槛。 这里的选手从本科生到博士生，甚至跨行业创作者，他们正在打破专业壁垒，用创造力拿到了实实在在的“结果”。陪跑：魔搭 & Datawhale 的长期主义 从想法到产品，这条路很难。在开发者走向“真产品”的路上，魔搭与 Datawhale 提供了最坚实的后盾：*410个初赛作品部署在魔搭创空间，评委依据真实可运行产品demo做出评审打分开源生态： 170,000+开源模型，让创意拥有强大的AI底座。工具箱：提供AI编程工具、免费token、GPU时长、技术工具，做好开发护航。智库支持：17场的大咖分享和脑暴互动，为选手注入不一样的视角当然，我们设置了2大重磅的「陪跑」环节：导师团：不打分的“最强编外队友”这里的导师机制很纯粹：开放专属咨询时间，负责帮选手解决实际问题。他们是技术大拿、产品老兵、商业化专家、专业投资人等。他们将为选手补充市场洞察的另一面，用户视角的盲区、甚至竞品的威胁。在这种 48 小时内的极限反馈中，让作品完成从“稚嫩 Demo”到“成熟产品”的硬核蜕变。导师&评审：陪你完成产品的“成人礼”不是传统路演，来自投资圈、大厂、开源社区及产品一线的顶级智囊走近团队，边体验产品边交流。这里，评委不再审视你，而是你的“产品顾问”。 游客招募：不想看看顶尖高校的聪明脑袋们在用AI做什么吗？这场复赛没有路演，也不适合坐着听，我们将通过游园会的形式，邀请你走进去、聊两句、上手试。你来游园会能看到什么？逛高校AI市集：每个展位都是一个真产品/真场景你有投票权：使用即表达，投票即态度。送你认可的产品进入3.21全国总决赛！*仅限 Day 2 · 游园会开放日，现场更有多种玩法等你解锁！*报名通道 · 扫码进入社群获取更多信息*各赛区复赛时间及地址3.6-3.8浙江大学浙大科技园会议中心2F会议室3.7-3.8南京大学Day1上午：南京大学仙林校区国际会议中心紫金厅Day1下午~Day2：南京大学仙林校区众创空间（十一食堂楼上）3.7-3.8香港大学香港大学主校区LE8 (LE8, Library Extension, Main Campus, HKU)3.14-3.15北京大学北京市海淀区中国技术交易大厦5层3.14复旦大学Day1：复旦大学邯郸校区逸夫楼2楼3.15Day2：复旦大学江湾校区学科交叉二号楼一楼E1006及大厅3.14-3.15哈尔滨工业大学哈尔滨工业大学活动中心101室3.14-3.15清华深圳国际研究生学院清华大学信息楼2楼大报告厅3.14-3.15上海交通大学上海市闵行区东川路800号上海交通大学思源楼3.14-3.15同济大学上海市嘉定区曹安公路4800号同济大学嘉定校区3.14-3.15西安交通大学西安交通大学咸宁西路28号兴庆校区3.14-3.15中国科学技术大学安徽省合肥市复兴路100号中国科学技术大学高新校区特别鸣谢感谢每一位为青年开发者点亮灯塔的人。🔗组织单位🤝 合作伙伴\n别写「简历」，去创造「作品」—— AI Hackathon Tour 2026 高校联赛我们太习惯「计算」了。 算 GPA，算保研率，算实习含金量，算投入产出比...我们把大学过成了一张严丝合缝的 Excel ，每一步都在求「最优解」。但人生不是算出来的，是造出来的。如果把你扔进一个全是代码、咖啡和甚至有点疯狂的周末，抛开那些「是否有用」的顾虑，你真正想做的，到底是什么？📣 只有Hacker，没有「过客」这不是一场那种你见惯了的「PPT 大赛」。 这里没有领导讲话，没有形式主义，没有标准答案。我们只想看跑得通的代码，动人心的设计，那个必须由你讲出来的故事，以及你为之骄傲的亲手打磨的“作品”。时间轴：线上初赛（即日-2月10日）：丰富的课程直播和AI产品实践经验分享，让你边看边做出初步的demo。我们不以简历作为评审依据，唯一的评审标准就是Demo。线下复赛（开学后，请关注你校园内的时间）：在校园内的黑客松，你会经历最硬核的「产品体检」：我们会邀请产品/技术/投资/创作者作为顾问，他们可以指出你逻辑中的断层，用户视角的补充，和市场竞品的提醒等等。你可以采纳或者不采纳这些反馈意见。你会发现，真正的极客精神，不只是「快」，更是对完美的偏执。你会在这有限的时间里，体验到一个产品从「稚嫩」走向「成熟」的完整过程。线下决赛（3月21日）：最终产品发布日，请迎接你的高光时刻。你可以是： 你可以是计算机专业的，也可以是“外行”干翻这个行业的。没关系，在AI时代什么都有可能。我们欢迎所有实干家、理想主义者、野心家甚至白日梦想家。只要你敢，舞台就为你而设。🔥 玩点真的不要为了比赛而比赛，而是以“非凡创",
-      "summary": "魔搭社区（Modelscope）、Datawhale联合顶尖学府、AMD等合作方，诚邀你加入这场加速进化的旅程—- Al Hackathon Tour 2026。 在这里，不设专业藩篱，不问技术出身。无论你是深耕算法的极客，还是心怀热诚的跨界玩家，只要你相信开源的力量，这里就是你的主场。利用 Al Coding的敏捷开发，快速构建有灵魂的应用。 这是一次逃离舒适区的冒险。去学习AI，去驾驭AI，去...",
-      "contestType": "image",
+      "id": "c_4ad384787da4",
+      "title": "INNOSpark Pitch Competition",
+      "platform": "devpost",
+      "url": "https://innospark-competition.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/307/085/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-03-21T15:59:00.000Z",
-      "prize": "15万现金+惊喜实物",
-      "tags": [
-        "应用开发赛",
-        "ai"
-      ],
+      "prize": "$12,400",
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -539,9 +482,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:06.683Z",
-      "scrapedAt": "2026-03-25T02:33:19.278Z",
-      "lastUpdated": "2026-03-25T02:35:06.683Z",
+      "processedAt": "2026-03-25T13:21:54.683Z",
+      "scrapedAt": "2026-03-25T13:20:35.383Z",
+      "lastUpdated": "2026-03-25T13:21:54.683Z",
       "version": 1
     },
     {
@@ -574,9 +517,9 @@
         "并严格遵循以下函数接口组织：class Guardrail:"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:06.682Z",
-      "scrapedAt": "2026-03-25T02:33:19.280Z",
-      "lastUpdated": "2026-03-25T02:35:06.682Z",
+      "processedAt": "2026-03-25T13:21:54.677Z",
+      "scrapedAt": "2026-03-25T13:19:57.262Z",
+      "lastUpdated": "2026-03-25T13:21:54.677Z",
       "version": 1
     },
     {
@@ -607,9 +550,9 @@
         "但不作为硬性要求。Q：Skills 封装是必须完成的吗？"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:06.732Z",
-      "scrapedAt": "2026-03-25T02:33:19.280Z",
-      "lastUpdated": "2026-03-25T02:35:06.732Z",
+      "processedAt": "2026-03-25T13:21:54.680Z",
+      "scrapedAt": "2026-03-25T13:19:57.263Z",
+      "lastUpdated": "2026-03-25T13:21:54.680Z",
       "version": 1
     },
     {
@@ -637,9 +580,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:07.734Z",
-      "scrapedAt": "2026-03-25T02:33:19.282Z",
-      "lastUpdated": "2026-03-25T02:35:07.734Z",
+      "processedAt": "2026-03-25T13:21:54.678Z",
+      "scrapedAt": "2026-03-25T13:19:57.266Z",
+      "lastUpdated": "2026-03-25T13:21:54.678Z",
       "version": 1
     },
     {
@@ -673,9 +616,9 @@
         "进行详细实现。其他非必要环节"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:07.742Z",
-      "scrapedAt": "2026-03-25T02:33:19.286Z",
-      "lastUpdated": "2026-03-25T02:35:07.742Z",
+      "processedAt": "2026-03-25T13:21:54.769Z",
+      "scrapedAt": "2026-03-25T13:19:57.285Z",
+      "lastUpdated": "2026-03-25T13:21:54.769Z",
       "version": 1
     },
     {
@@ -704,9 +647,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:07.748Z",
-      "scrapedAt": "2026-03-25T02:33:19.290Z",
-      "lastUpdated": "2026-03-25T02:35:07.748Z",
+      "processedAt": "2026-03-25T13:21:55.783Z",
+      "scrapedAt": "2026-03-25T13:19:57.292Z",
+      "lastUpdated": "2026-03-25T13:21:55.783Z",
       "version": 1
     },
     {
@@ -734,9 +677,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:07.737Z",
-      "scrapedAt": "2026-03-25T02:33:19.290Z",
-      "lastUpdated": "2026-03-25T02:35:07.737Z",
+      "processedAt": "2026-03-25T13:21:55.777Z",
+      "scrapedAt": "2026-03-25T13:19:57.292Z",
+      "lastUpdated": "2026-03-25T13:21:55.777Z",
       "version": 1
     },
     {
@@ -764,9 +707,39 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:07.780Z",
-      "scrapedAt": "2026-03-25T02:33:19.290Z",
-      "lastUpdated": "2026-03-25T02:35:07.780Z",
+      "processedAt": "2026-03-25T13:21:55.775Z",
+      "scrapedAt": "2026-03-25T13:19:57.293Z",
+      "lastUpdated": "2026-03-25T13:21:55.775Z",
+      "version": 1
+    },
+    {
+      "id": "c_5dd121349604",
+      "title": "AI Hackathon Tour 2026 —— 高校联赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/179",
+      "imageUrl": "",
+      "description": "魔搭社区（Modelscope）、Datawhale联合顶尖学府、AMD等合作方，诚邀你加入这场加速进化的旅程—- Al Hackathon Tour 2026。 在这里，不设专业藩篱，不问技术出身。无论你是深耕算法的极客，还是心怀热诚的跨界玩家，只要你相信开源的力量，这里就是你的主场。利用 Al Coding的敏捷开发，快速构建有灵魂的应用。 这是一次逃离舒适区的冒险。去学习AI，去驾驭AI，去把那些疯狂的脑洞变成手边触手可及的Al应用；跳出校园的方寸之地，在更广阔的社区中，与全球开发者并肩竞技。 在这个冬天播种，在下个春天发光。来更大的舞台，展示你的AI作品。\n\n名单公示期：即日起-2026年3月17日23:59如对录取名单有疑问，可联系大赛组委会工作人员申诉，协助复查“是否漏评、错评、统计错误”问题。联系方式：卢水琼：微信号：lsqipaper甘元琦：微信号：13244815186团队名称作品名称所属赛道北京大学熔岩瑜伽岁语「小有可为」公益应用方向DeepSpeak!!!DeepSpeak-AI语音日记助手数字生活与情感体验KiwiGlow拾光数字生活与情感体验绘梦精灵绘梦精灵「小有可为」公益应用方向WisleAIWisle AI行业与生产力变革复旦大学淀山湖组合冰箱-智慧语音贴数字生活与情感体验404 Not FoundersMemoir人生回忆录「小有可为」公益应用方向The Matrix不积洼步「小有可为」公益应用方向Hakki咪“聆光一闪”——专为视障学生设计的AI复习助手「小有可为」公益应用方向所以爱会消失对不队CircuitWiz-AI电路图智能识别与生成一体化工具行业与生产力变革缘旅队缘旅数字生活与情感体验鼹鼠对簿AI (Contract Clarity)行业与生产力变革哈尔滨工业大学对吗不对不队梦境显影机数字生活与情感体验对对队智爱助老-药品说明书翻译器「小有可为」公益应用方向Otter_Knight论文写作管理器数字生活与情感体验企业智讯企业智讯行业与生产力变革南京大学Ai说的不队康药智盒CareBox —— 基于大模型与 AIoT 的北美家庭高端健康管理中枢「小有可为」公益应用方向小豆泥心迹 Vesti数字生活与情感体验地板时光工会孤独症儿童干预辅助系统「小有可为」公益应用方向ycyz word+新高考志愿填报及分流指导系统行业与生产力变革三只小狗中的两只队安心吃：面向中老年慢性病患者的 AI 智能饮食管理小程序「小有可为」公益应用方向南下摘星星的人Welcome to my house—欢迎来到，我的主场数字生活与情感体验清华大学深圳国际研究生院KnowellKnowell「小有可为」公益应用方向AI的供养队ScholarPalette 学术调色板行业与生产力变革研知研知-AI辅助科研知识体系助手行业与生产力变革火山心兑喝一杯数字生活与情感体验原点新途Meetmind 你孩子身边记忆力最好的智能同桌行业与生产力变革上海交通大学碱基互补配对队细胞王国--生物学科普游戏数字生活与情感体验ScholarHunterScholarHunter学海猎手行业与生产力变革Meta-EMomShell「小有可为」公益应用方向Sheep Counters梦语数字生活与情感体验王爷队Moments情感及场景化英语学习APP数字生活与情感体验同济大学AI在心里口难开小A机器人&心理急救箱数字生活与情感体验.5n3yWhat2Eat 今天吃什么数字生活与情感体验WhirlWind Justice（旋风正义）“WhirlWind Justice 法律媒体社工一体式正义平台”「小有可为」公益应用方向吾皇万万岁智评作文——AI智能批改与提升行业与生产力变革西安交通大学We look灵愈AI-基于多模态AI的数字医生抑郁检测与疗愈助手「小有可为」公益应用方向WearVision-穿上想象力WearVision-穿上想象力行业与生产力变革DREAMFIRE鲜椒本科模拟器数字生活与情感体验西迁算法用药AI管家「小有可为」公益应用方向香港大学OR StudioNyx数字生活与情感体验算命老先森天机占卜阁（Divine Your Fate）数字生活与情感体验弘维数字生命卡数字生活与情感体验MoreMore「小有可为」公益应用方向Xixi队metasoul潮灵宇宙数字生活与情感体验青霏哈特软软医笺智识行业与生产力变革浙江大学poco-aiPoco: Your Pocket Coworker行业与生产力变革黑爪党Pawzzle 寻爪「小有可为」公益应用方向ZJU·Geek灵知｜KnowledgeMap行业与生产力变革破烂儿艺术家再生博物馆——从“物质占有”到“数字再生\"数字生活与情感体验JobOS-职通车“JobOS 职通车”——基于AI Agent的小企业智能招聘助手行业与生产力变革混沌守序的DDL推进战队P人救星——自适应日程规划系统数字生活与情感体验中国科学科技大学Echo队silentbridge无声之桥「小有可为」公益应用方向中科大黑客松小队！勿忘我：阿尔兹海默症AI电话预防服务「小有可为」公益应用方向DeepSleepInterReview--ai模拟面试官行业与生产力变革AuraXMindOS行业与生产力变革很队熊出没奇遇数字生活与情感体验\n当中国最大的模型开源社区魔搭社区（ModelScope）遇上中国最大的AI开源学习社区Datawhale，一场代表国内院校高水平的AI应用实验正在发生。这不是一场关起门来的闭门造车，而是 11 所顶尖高校联动，5600+ 开发者加入的开源盛会，我们在 410 份初赛 Demo 中见证了创意的诞生，最终 224 支战队，750 位种子选手杀入复赛，开启新一轮迭代。这一次，我们挖掘出了一大批潜藏在“水下”的硬核团队。他们没有停留在炫技和 Demo 阶段，而是把 AI 应用往“0 到 1”真正推了一步——直面真实场景，接受真实用户的检验。*这组数字背后，是中国聪明的年轻大脑正在通过AI「让创造发生」赛道观察：来自00后创作者， AI 原生应用的三个“进化”趋势通过对 224 个入围复赛的作品穿透分析，我们发现中国高校的 AI 创作正在告别“套壳时代”，呈现出显著的共性特征：从“通用助手”转向“深水区工具”： 选手们不再扎堆做泛化的聊天机器人，而是扎根于垂直壁垒。AI 被塞进了具体的工作流，变成了硬核的生产力小系统：从辅助电路设计的工业软件、工程仿真与数字孪生，到提示词编译器、工单自动化处理。AI 正在从“对话框”走进“生产线”。 “多模态”与“游戏化”成为标配： 纯文字交互已是过去式，全感官智能体成为主流。开发者们利用魔搭社区的开源生态，实现语音、图像、视频与端侧控制的深度融合。更有意思的是，互动叙事正在冒头：从知识编译引擎到交互式小说生成，团队们在尝试用大模型重做“可玩体验”，剧情随选择实时生长，让 AI 变得“好玩且丝滑”。极强的“人本位”产品直觉：这一届开发者非常关注情绪价值与社会微光，把技术向善落在“可靠、真的能用”上。无论是解决 DDL 焦虑的日程决策、沉浸式的职场/求职模拟，还是面向视障学生的学习辅助、中老年膳食健康管理。他们不只是在写代码，而是在用 AI 补齐现实世界的缺憾。碰撞：站在技术与人文的交叉点最优秀的 AI 应用，往往诞生于技术与人文的交叉点。专业不再是围墙，AI 抹平了门槛。 这里的选手从本科生到博士生，甚至跨行业创作者，他们正在打破专业壁垒，用创造力拿到了实实在在的“结果”。陪跑：魔搭 & Datawhale 的长期主义 从想法到产品，这条路很难。在开发者走向“真产品”的路上，魔搭与 Datawhale 提供了最坚实的后盾：*410个初赛作品部署在魔搭创空间，评委依据真实可运行产品demo做出评审打分开源生态： 170,000+开源模型，让创意拥有强大的AI底座。工具箱：提供AI编程工具、免费token、GPU时长、技术工具，做好开发护航。智库支持：17场的大咖分享和脑暴互动，为选手注入不一样的视角当然，我们设置了2大重磅的「陪跑」环节：导师团：不打分的“最强编外队友”这里的导师机制很纯粹：开放专属咨询时间，负责帮选手解决实际问题。他们是技术大拿、产品老兵、商业化专家、专业投资人等。他们将为选手补充市场洞察的另一面，用户视角的盲区、甚至竞品的威胁。在这种 48 小时内的极限反馈中，让作品完成从“稚嫩 Demo”到“成熟产品”的硬核蜕变。导师&评审：陪你完成产品的“成人礼”不是传统路演，来自投资圈、大厂、开源社区及产品一线的顶级智囊走近团队，边体验产品边交流。这里，评委不再审视你，而是你的“产品顾问”。 游客招募：不想看看顶尖高校的聪明脑袋们在用AI做什么吗？这场复赛没有路演，也不适合坐着听，我们将通过游园会的形式，邀请你走进去、聊两句、上手试。你来游园会能看到什么？逛高校AI市集：每个展位都是一个真产品/真场景你有投票权：使用即表达，投票即态度。送你认可的产品进入3.21全国总决赛！*仅限 Day 2 · 游园会开放日，现场更有多种玩法等你解锁！*报名通道 · 扫码进入社群获取更多信息*各赛区复赛时间及地址3.6-3.8浙江大学浙大科技园会议中心2F会议室3.7-3.8南京大学Day1上午：南京大学仙林校区国际会议中心紫金厅Day1下午~Day2：南京大学仙林校区众创空间（十一食堂楼上）3.7-3.8香港大学香港大学主校区LE8 (LE8, Library Extension, Main Campus, HKU)3.14-3.15北京大学北京市海淀区中国技术交易大厦5层3.14复旦大学Day1：复旦大学邯郸校区逸夫楼2楼3.15Day2：复旦大学江湾校区学科交叉二号楼一楼E1006及大厅3.14-3.15哈尔滨工业大学哈尔滨工业大学活动中心101室3.14-3.15清华深圳国际研究生学院清华大学信息楼2楼大报告厅3.14-3.15上海交通大学上海市闵行区东川路800号上海交通大学思源楼3.14-3.15同济大学上海市嘉定区曹安公路4800号同济大学嘉定校区3.14-3.15西安交通大学西安交通大学咸宁西路28号兴庆校区3.14-3.15中国科学技术大学安徽省合肥市复兴路100号中国科学技术大学高新校区特别鸣谢感谢每一位为青年开发者点亮灯塔的人。🔗组织单位🤝 合作伙伴\n别写「简历」，去创造「作品」—— AI Hackathon Tour 2026 高校联赛我们太习惯「计算」了。 算 GPA，算保研率，算实习含金量，算投入产出比...我们把大学过成了一张严丝合缝的 Excel ，每一步都在求「最优解」。但人生不是算出来的，是造出来的。如果把你扔进一个全是代码、咖啡和甚至有点疯狂的周末，抛开那些「是否有用」的顾虑，你真正想做的，到底是什么？📣 只有Hacker，没有「过客」这不是一场那种你见惯了的「PPT 大赛」。 这里没有领导讲话，没有形式主义，没有标准答案。我们只想看跑得通的代码，动人心的设计，那个必须由你讲出来的故事，以及你为之骄傲的亲手打磨的“作品”。时间轴：线上初赛（即日-2月10日）：丰富的课程直播和AI产品实践经验分享，让你边看边做出初步的demo。我们不以简历作为评审依据，唯一的评审标准就是Demo。线下复赛（开学后，请关注你校园内的时间）：在校园内的黑客松，你会经历最硬核的「产品体检」：我们会邀请产品/技术/投资/创作者作为顾问，他们可以指出你逻辑中的断层，用户视角的补充，和市场竞品的提醒等等。你可以采纳或者不采纳这些反馈意见。你会发现，真正的极客精神，不只是「快」，更是对完美的偏执。你会在这有限的时间里，体验到一个产品从「稚嫩」走向「成熟」的完整过程。线下决赛（3月21日）：最终产品发布日，请迎接你的高光时刻。你可以是： 你可以是计算机专业的，也可以是“外行”干翻这个行业的。没关系，在AI时代什么都有可能。我们欢迎所有实干家、理想主义者、野心家甚至白日梦想家。只要你敢，舞台就为你而设。🔥 玩点真的不要为了比赛而比赛，而是以“非凡创",
+      "summary": "魔搭社区（Modelscope）、Datawhale联合顶尖学府、AMD等合作方，诚邀你加入这场加速进化的旅程—- Al Hackathon Tour 2026。 在这里，不设专业藩篱，不问技术出身。无论你是深耕算法的极客，还是心怀热诚的跨界玩家，只要你相信开源的力量，这里就是你的主场。利用 Al Coding的敏捷开发，快速构建有灵魂的应用。 这是一次逃离舒适区的冒险。去学习AI，去驾驭AI，去...",
+      "contestType": "image",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "deadline": "2026-03-21T15:59:00.000Z",
+      "prize": "15万现金+惊喜实物",
+      "tags": [
+        "应用开发赛",
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-25T13:21:55.768Z",
+      "scrapedAt": "2026-03-25T13:19:57.311Z",
+      "lastUpdated": "2026-03-25T13:21:55.768Z",
       "version": 1
     },
     {
@@ -794,9 +767,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:08.791Z",
-      "scrapedAt": "2026-03-25T02:33:19.290Z",
-      "lastUpdated": "2026-03-25T02:35:08.791Z",
+      "processedAt": "2026-03-25T13:21:55.867Z",
+      "scrapedAt": "2026-03-25T13:19:57.312Z",
+      "lastUpdated": "2026-03-25T13:21:55.867Z",
       "version": 1
     },
     {
@@ -823,9 +796,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:08.797Z",
-      "scrapedAt": "2026-03-25T02:33:19.290Z",
-      "lastUpdated": "2026-03-25T02:35:08.797Z",
+      "processedAt": "2026-03-25T13:21:56.869Z",
+      "scrapedAt": "2026-03-25T13:19:57.312Z",
+      "lastUpdated": "2026-03-25T13:21:56.869Z",
       "version": 1
     },
     {
@@ -839,7 +812,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-04-20T02:34:17.874Z",
+      "deadline": "2026-04-19T13:21:04.317Z",
       "prize": "$5 000 USD",
       "tags": [
         "llm"
@@ -852,9 +825,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:08.794Z",
-      "scrapedAt": "2026-03-25T02:34:17.874Z",
-      "lastUpdated": "2026-03-25T02:35:08.794Z",
+      "processedAt": "2026-03-25T13:21:56.872Z",
+      "scrapedAt": "2026-03-25T13:21:04.317Z",
+      "lastUpdated": "2026-03-25T13:21:56.872Z",
       "version": 1
     },
     {
@@ -878,65 +851,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:08.792Z",
-      "scrapedAt": "2026-03-25T02:34:17.875Z",
-      "lastUpdated": "2026-03-25T02:35:08.792Z",
-      "version": 1
-    },
-    {
-      "id": "c_20d23027ac4a",
-      "title": "AI4EAC Agriculture Practice Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/the-ai4eac-agriculture-practice-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-28T02:34:17.875Z",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:08.834Z",
-      "scrapedAt": "2026-03-25T02:34:17.875Z",
-      "lastUpdated": "2026-03-25T02:35:08.834Z",
-      "version": 1
-    },
-    {
-      "id": "c_3406ce3a5b1e",
-      "title": "AI4EAC Health Practice Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/the-ai4eac-health-practice-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-28T02:34:17.875Z",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:09.846Z",
-      "scrapedAt": "2026-03-25T02:34:17.875Z",
-      "lastUpdated": "2026-03-25T02:35:09.846Z",
+      "processedAt": "2026-03-25T13:21:56.880Z",
+      "scrapedAt": "2026-03-25T13:21:04.318Z",
+      "lastUpdated": "2026-03-25T13:21:56.880Z",
       "version": 1
     },
     {
@@ -950,7 +867,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-03-28T02:34:17.876Z",
+      "deadline": "2026-03-27T13:21:04.318Z",
       "tags": [
         "ai"
       ],
@@ -962,9 +879,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:09.843Z",
-      "scrapedAt": "2026-03-25T02:34:17.876Z",
-      "lastUpdated": "2026-03-25T02:35:09.843Z",
+      "processedAt": "2026-03-25T13:21:56.871Z",
+      "scrapedAt": "2026-03-25T13:21:04.318Z",
+      "lastUpdated": "2026-03-25T13:21:56.871Z",
       "version": 1
     },
     {
@@ -978,7 +895,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-03-28T02:34:17.876Z",
+      "deadline": "2026-03-27T13:21:04.318Z",
       "tags": [
         "ai"
       ],
@@ -990,9 +907,65 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:09.847Z",
-      "scrapedAt": "2026-03-25T02:34:17.876Z",
-      "lastUpdated": "2026-03-25T02:35:09.847Z",
+      "processedAt": "2026-03-25T13:21:56.969Z",
+      "scrapedAt": "2026-03-25T13:21:04.318Z",
+      "lastUpdated": "2026-03-25T13:21:56.969Z",
+      "version": 1
+    },
+    {
+      "id": "c_20d23027ac4a",
+      "title": "AI4EAC Agriculture Practice Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/the-ai4eac-agriculture-practice-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-03-27T13:21:04.319Z",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-25T13:21:57.967Z",
+      "scrapedAt": "2026-03-25T13:21:04.319Z",
+      "lastUpdated": "2026-03-25T13:21:57.967Z",
+      "version": 1
+    },
+    {
+      "id": "c_3406ce3a5b1e",
+      "title": "AI4EAC Health Practice Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/the-ai4eac-health-practice-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-03-27T13:21:04.319Z",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-25T13:21:57.976Z",
+      "scrapedAt": "2026-03-25T13:21:04.319Z",
+      "lastUpdated": "2026-03-25T13:21:57.976Z",
       "version": 1
     },
     {
@@ -1018,37 +991,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:09.838Z",
-      "scrapedAt": "2026-03-25T02:34:17.877Z",
-      "lastUpdated": "2026-03-25T02:35:09.838Z",
-      "version": 1
-    },
-    {
-      "id": "c_fea8230e8771",
-      "title": "AI4EAC Liquidity Stress Early Warning Challenge [BEGINNER]",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/liquidity-stress-early-warning-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "beginner",
-      "prize": "$7 500 USD",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:09.884Z",
-      "scrapedAt": "2026-03-25T02:34:17.877Z",
-      "lastUpdated": "2026-03-25T02:35:09.884Z",
+      "processedAt": "2026-03-25T13:21:57.959Z",
+      "scrapedAt": "2026-03-25T13:21:04.319Z",
+      "lastUpdated": "2026-03-25T13:21:57.959Z",
       "version": 1
     },
     {
@@ -1074,9 +1019,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:10.897Z",
-      "scrapedAt": "2026-03-25T02:34:17.878Z",
-      "lastUpdated": "2026-03-25T02:35:10.897Z",
+      "processedAt": "2026-03-25T13:21:57.974Z",
+      "scrapedAt": "2026-03-25T13:21:04.320Z",
+      "lastUpdated": "2026-03-25T13:21:57.974Z",
       "version": 1
     },
     {
@@ -1102,9 +1047,63 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:10.895Z",
-      "scrapedAt": "2026-03-25T02:34:17.878Z",
-      "lastUpdated": "2026-03-25T02:35:10.895Z",
+      "processedAt": "2026-03-25T13:21:58.074Z",
+      "scrapedAt": "2026-03-25T13:21:04.320Z",
+      "lastUpdated": "2026-03-25T13:21:58.074Z",
+      "version": 1
+    },
+    {
+      "id": "c_fea8230e8771",
+      "title": "AI4EAC Liquidity Stress Early Warning Challenge [BEGINNER]",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/liquidity-stress-early-warning-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "beginner",
+      "prize": "$7 500 USD",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-25T13:21:59.065Z",
+      "scrapedAt": "2026-03-25T13:21:04.320Z",
+      "lastUpdated": "2026-03-25T13:21:59.065Z",
+      "version": 1
+    },
+    {
+      "id": "c_94dbb731bf8e",
+      "title": "University Hackathon by Botho University by Botho University",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/botho-university-hackathon",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "upcoming",
+      "difficulty": "intermediate",
+      "deadline": "2026-04-10T13:21:04.320Z",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-25T13:21:59.073Z",
+      "scrapedAt": "2026-03-25T13:21:04.321Z",
+      "lastUpdated": "2026-03-25T13:21:59.073Z",
       "version": 1
     },
     {
@@ -1118,7 +1117,7 @@
       "contestType": "mixed",
       "status": "upcoming",
       "difficulty": "intermediate",
-      "deadline": "2026-04-18T02:34:17.878Z",
+      "deadline": "2026-04-18T13:21:04.321Z",
       "prize": "2000 USD",
       "tags": [],
       "aiTools": [
@@ -1129,9 +1128,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:10.881Z",
-      "scrapedAt": "2026-03-25T02:34:17.878Z",
-      "lastUpdated": "2026-03-25T02:35:10.881Z",
+      "processedAt": "2026-03-25T13:21:59.068Z",
+      "scrapedAt": "2026-03-25T13:21:04.321Z",
+      "lastUpdated": "2026-03-25T13:21:59.068Z",
       "version": 1
     },
     {
@@ -1154,9 +1153,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:10.886Z",
-      "scrapedAt": "2026-03-25T02:34:17.880Z",
-      "lastUpdated": "2026-03-25T02:35:10.886Z",
+      "processedAt": "2026-03-25T13:21:59.060Z",
+      "scrapedAt": "2026-03-25T13:21:04.321Z",
+      "lastUpdated": "2026-03-25T13:21:59.060Z",
       "version": 1
     },
     {
@@ -1179,9 +1178,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:10.937Z",
-      "scrapedAt": "2026-03-25T02:34:17.880Z",
-      "lastUpdated": "2026-03-25T02:35:10.937Z",
+      "processedAt": "2026-03-25T13:21:59.156Z",
+      "scrapedAt": "2026-03-25T13:21:04.321Z",
+      "lastUpdated": "2026-03-25T13:21:59.156Z",
       "version": 1
     },
     {
@@ -1205,9 +1204,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:11.952Z",
-      "scrapedAt": "2026-03-25T02:34:17.880Z",
-      "lastUpdated": "2026-03-25T02:35:11.952Z",
+      "processedAt": "2026-03-25T13:22:00.167Z",
+      "scrapedAt": "2026-03-25T13:21:04.321Z",
+      "lastUpdated": "2026-03-25T13:22:00.167Z",
       "version": 1
     },
     {
@@ -1233,9 +1232,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:11.946Z",
-      "scrapedAt": "2026-03-25T02:34:17.880Z",
-      "lastUpdated": "2026-03-25T02:35:11.946Z",
+      "processedAt": "2026-03-25T13:22:00.163Z",
+      "scrapedAt": "2026-03-25T13:21:04.322Z",
+      "lastUpdated": "2026-03-25T13:22:00.163Z",
       "version": 1
     },
     {
@@ -1259,9 +1258,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:11.936Z",
-      "scrapedAt": "2026-03-25T02:34:17.881Z",
-      "lastUpdated": "2026-03-25T02:35:11.936Z",
+      "processedAt": "2026-03-25T13:22:00.167Z",
+      "scrapedAt": "2026-03-25T13:21:04.322Z",
+      "lastUpdated": "2026-03-25T13:22:00.167Z",
       "version": 1
     },
     {
@@ -1287,9 +1286,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:11.939Z",
-      "scrapedAt": "2026-03-25T02:34:17.881Z",
-      "lastUpdated": "2026-03-25T02:35:11.939Z",
+      "processedAt": "2026-03-25T13:22:00.161Z",
+      "scrapedAt": "2026-03-25T13:21:04.322Z",
+      "lastUpdated": "2026-03-25T13:22:00.161Z",
       "version": 1
     },
     {
@@ -1313,9 +1312,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:12.000Z",
-      "scrapedAt": "2026-03-25T02:34:17.881Z",
-      "lastUpdated": "2026-03-25T02:35:12.000Z",
+      "processedAt": "2026-03-25T13:22:00.250Z",
+      "scrapedAt": "2026-03-25T13:21:04.322Z",
+      "lastUpdated": "2026-03-25T13:22:00.250Z",
       "version": 1
     },
     {
@@ -1339,43 +1338,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:13.001Z",
-      "scrapedAt": "2026-03-25T02:34:17.882Z",
-      "lastUpdated": "2026-03-25T02:35:13.001Z",
-      "version": 1
-    },
-    {
-      "id": "c_7c8baf811d7d",
-      "title": "The AI Telco Troubleshooting Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/the-ai-telco-troubleshooting-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "€35 000 EUR",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-25T02:35:12.992Z",
-      "scrapedAt": "2026-03-25T02:34:17.882Z",
-      "lastUpdated": "2026-03-25T02:35:12.992Z",
+      "processedAt": "2026-03-25T13:22:01.269Z",
+      "scrapedAt": "2026-03-25T13:21:04.322Z",
+      "lastUpdated": "2026-03-25T13:22:01.269Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-03-25T02:35:13.010Z"
+    "lastUpdated": "2026-03-25T13:22:01.282Z"
   }
 }

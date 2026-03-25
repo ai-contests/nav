@@ -1,8 +1,34 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-03-24T13:22:33.437Z",
-  "contestCount": 1,
+  "timestamp": "2026-03-25T02:34:58.798Z",
+  "contestCount": 2,
   "contests": [
+    {
+      "platform": "civitai",
+      "title": "Image Delivery Issue",
+      "description": "We’re currently working to resolve an issue with image delivery that may cause some content to appear as red or grey boxes. Thanks for your patience!",
+      "url": "https://civitai.com/events/648",
+      "deadline": "2026-03-27T23:59:59.999Z",
+      "prize": "",
+      "rawHtml": "{\"endsAt\":\"2026-03-27T23:59:59.999Z\",\"id\":648,\"title\":\"Image Delivery Issue\",\"content\":\"We’re currently working to resolve an issue with image delivery that may cause some content to appear as red or grey boxes. Thanks for your patience!\",\"color\":\"red\",\"emoji\":null,\"createdAt\":\"2026-03-25T01:05:48.752Z\",\"startsAt\":\"2026-03-25T01:04:04.241Z\",\"metadata\":{\"image\":\"7171bdc6-8007-492c-84ad-f607e4dbd320\",\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-03-25T02:33:31.764Z",
+      "metadata": {
+        "endsAt": "2026-03-27T23:59:59.999Z",
+        "id": 648,
+        "title": "Image Delivery Issue",
+        "content": "We’re currently working to resolve an issue with image delivery that may cause some content to appear as red or grey boxes. Thanks for your patience!",
+        "color": "red",
+        "emoji": null,
+        "createdAt": "2026-03-25T01:05:48.752Z",
+        "startsAt": "2026-03-25T01:04:04.241Z",
+        "metadata": {
+          "image": "7171bdc6-8007-492c-84ad-f607e4dbd320",
+          "colSpan": 6,
+          "dismissible": true,
+          "targetAudience": "all"
+        }
+      }
+    },
     {
       "platform": "civitai",
       "title": "New: Buy Buzz with Crypto Deposits!",
@@ -11,7 +37,7 @@
       "deadline": "2026-03-31T23:59:59.999Z",
       "prize": "171",
       "rawHtml": "{\"endsAt\":\"2026-03-31T23:59:59.999Z\",\"id\":645,\"title\":\"New: Buy Buzz with Crypto Deposits!\",\"content\":\"Send supported cryptocurrencies directly to your Civitai wallet and have them automatically converted into Buzz! Multiple coins and networks supported! [Read more](https://civitai.com/changelog?id=171)!\",\"color\":\"orange\",\"emoji\":null,\"createdAt\":\"2026-03-12T19:17:34.476Z\",\"startsAt\":\"2026-03-19T00:00:00.000Z\",\"metadata\":{\"image\":\"6efd415f-9555-4089-82c6-5c15a5fc7beb\",\"actions\":[{\"link\":\"https://civitai.com/changelog?id=171\",\"type\":\"button\",\"linkText\":\"Read more!\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-03-24T13:20:55.635Z",
+      "scrapedAt": "2026-03-25T02:33:31.764Z",
       "metadata": {
         "endsAt": "2026-03-31T23:59:59.999Z",
         "id": 645,

@@ -1,37 +1,8 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-03-28T02:34:35.175Z",
-  "contestCount": 3,
+  "timestamp": "2026-03-28T13:05:35.175Z",
+  "contestCount": 2,
   "contests": [
-    {
-      "id": "c_55955d551d0e",
-      "title": "🔥 Service Disruption 🔥",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/653",
-      "imageUrl": "",
-      "description": "An upstream partner is currently experiencing an outage which is affecting Generation, LoRA Training, and new content ingestion (rating and tagging uploaded content). We’re working with them to resolve this as quickly as possible. Thanks for your patience!",
-      "summary": "An upstream partner is currently experiencing an outage which is affecting Generation, LoRA Training, and new content ingestion (rating and tagging uploaded content). We’re working with them to resolv...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-04-30T23:59:59.999Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:26.643Z",
-      "scrapedAt": "2026-03-28T02:32:41.681Z",
-      "lastUpdated": "2026-03-28T02:34:26.643Z",
-      "version": 1
-    },
     {
       "id": "c_9adbc502b1e8",
       "title": "Take Control of Your Membership Buzz",
@@ -56,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:26.644Z",
-      "scrapedAt": "2026-03-28T02:32:41.681Z",
-      "lastUpdated": "2026-03-28T02:34:26.644Z",
+      "processedAt": "2026-03-28T13:05:26.847Z",
+      "scrapedAt": "2026-03-28T13:03:44.127Z",
+      "lastUpdated": "2026-03-28T13:05:26.847Z",
       "version": 1
     },
     {
@@ -85,15 +56,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:26.636Z",
-      "scrapedAt": "2026-03-28T02:32:41.681Z",
-      "lastUpdated": "2026-03-28T02:34:26.636Z",
+      "processedAt": "2026-03-28T13:05:26.844Z",
+      "scrapedAt": "2026-03-28T13:03:44.127Z",
+      "lastUpdated": "2026-03-28T13:05:26.844Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-03-28T02:34:35.175Z"
+    "lastUpdated": "2026-03-28T13:05:35.175Z"
   }
 }

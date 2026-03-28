@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-03-28T02:34:35.178Z",
+  "timestamp": "2026-03-28T13:05:35.180Z",
   "contestCount": 20,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-04-20T02:33:37.413Z",
+      "deadline": "2026-04-19T13:04:39.811Z",
       "prize": "$5 000 USD",
       "tags": [
         "llm"
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:30.916Z",
-      "scrapedAt": "2026-03-28T02:33:37.414Z",
-      "lastUpdated": "2026-03-28T02:34:30.916Z",
+      "processedAt": "2026-03-28T13:05:31.004Z",
+      "scrapedAt": "2026-03-28T13:04:39.811Z",
+      "lastUpdated": "2026-03-28T13:05:31.004Z",
       "version": 1
     },
     {
@@ -53,37 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:30.975Z",
-      "scrapedAt": "2026-03-28T02:33:37.414Z",
-      "lastUpdated": "2026-03-28T02:34:30.975Z",
-      "version": 1
-    },
-    {
-      "id": "c_eedf267ccf22",
-      "title": "AI4EAC Bean Flowering Detection Challenge [ADVANCED]",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/bean-flowering-detection-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "advanced",
-      "prize": "$7 500 USD",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:31.977Z",
-      "scrapedAt": "2026-03-28T02:33:37.414Z",
-      "lastUpdated": "2026-03-28T02:34:31.977Z",
+      "processedAt": "2026-03-28T13:05:31.003Z",
+      "scrapedAt": "2026-03-28T13:04:39.812Z",
+      "lastUpdated": "2026-03-28T13:05:31.003Z",
       "version": 1
     },
     {
@@ -109,9 +81,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:31.979Z",
-      "scrapedAt": "2026-03-28T02:33:37.414Z",
-      "lastUpdated": "2026-03-28T02:34:31.979Z",
+      "processedAt": "2026-03-28T13:05:31.097Z",
+      "scrapedAt": "2026-03-28T13:04:39.812Z",
+      "lastUpdated": "2026-03-28T13:05:31.097Z",
       "version": 1
     },
     {
@@ -137,9 +109,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:31.982Z",
-      "scrapedAt": "2026-03-28T02:33:37.414Z",
-      "lastUpdated": "2026-03-28T02:34:31.982Z",
+      "processedAt": "2026-03-28T13:05:32.045Z",
+      "scrapedAt": "2026-03-28T13:04:39.812Z",
+      "lastUpdated": "2026-03-28T13:05:32.045Z",
       "version": 1
     },
     {
@@ -165,9 +137,37 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:31.979Z",
-      "scrapedAt": "2026-03-28T02:33:37.415Z",
-      "lastUpdated": "2026-03-28T02:34:31.979Z",
+      "processedAt": "2026-03-28T13:05:32.043Z",
+      "scrapedAt": "2026-03-28T13:04:39.812Z",
+      "lastUpdated": "2026-03-28T13:05:32.043Z",
+      "version": 1
+    },
+    {
+      "id": "c_eedf267ccf22",
+      "title": "AI4EAC Bean Flowering Detection Challenge [ADVANCED]",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/bean-flowering-detection-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "advanced",
+      "prize": "$7 500 USD",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-28T13:05:32.041Z",
+      "scrapedAt": "2026-03-28T13:04:39.812Z",
+      "lastUpdated": "2026-03-28T13:05:32.041Z",
       "version": 1
     },
     {
@@ -190,9 +190,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:32.043Z",
-      "scrapedAt": "2026-03-28T02:33:37.415Z",
-      "lastUpdated": "2026-03-28T02:34:32.043Z",
+      "processedAt": "2026-03-28T13:05:32.046Z",
+      "scrapedAt": "2026-03-28T13:04:39.812Z",
+      "lastUpdated": "2026-03-28T13:05:32.046Z",
       "version": 1
     },
     {
@@ -206,7 +206,7 @@
       "contestType": "mixed",
       "status": "upcoming",
       "difficulty": "intermediate",
-      "deadline": "2026-04-18T02:33:37.415Z",
+      "deadline": "2026-04-18T13:04:39.813Z",
       "prize": "2000 USD",
       "tags": [],
       "aiTools": [
@@ -217,9 +217,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:33.046Z",
-      "scrapedAt": "2026-03-28T02:33:37.415Z",
-      "lastUpdated": "2026-03-28T02:34:33.046Z",
+      "processedAt": "2026-03-28T13:05:32.074Z",
+      "scrapedAt": "2026-03-28T13:04:39.813Z",
+      "lastUpdated": "2026-03-28T13:05:32.074Z",
       "version": 1
     },
     {
@@ -242,9 +242,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:33.045Z",
-      "scrapedAt": "2026-03-28T02:33:37.415Z",
-      "lastUpdated": "2026-03-28T02:34:33.045Z",
+      "processedAt": "2026-03-28T13:05:33.078Z",
+      "scrapedAt": "2026-03-28T13:04:39.813Z",
+      "lastUpdated": "2026-03-28T13:05:33.078Z",
       "version": 1
     },
     {
@@ -267,9 +267,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:33.045Z",
-      "scrapedAt": "2026-03-28T02:33:37.415Z",
-      "lastUpdated": "2026-03-28T02:34:33.045Z",
+      "processedAt": "2026-03-28T13:05:33.082Z",
+      "scrapedAt": "2026-03-28T13:04:39.813Z",
+      "lastUpdated": "2026-03-28T13:05:33.082Z",
       "version": 1
     },
     {
@@ -293,9 +293,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:33.045Z",
-      "scrapedAt": "2026-03-28T02:33:37.415Z",
-      "lastUpdated": "2026-03-28T02:34:33.045Z",
+      "processedAt": "2026-03-28T13:05:33.089Z",
+      "scrapedAt": "2026-03-28T13:04:39.813Z",
+      "lastUpdated": "2026-03-28T13:05:33.089Z",
       "version": 1
     },
     {
@@ -321,9 +321,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:33.099Z",
-      "scrapedAt": "2026-03-28T02:33:37.416Z",
-      "lastUpdated": "2026-03-28T02:34:33.099Z",
+      "processedAt": "2026-03-28T13:05:33.077Z",
+      "scrapedAt": "2026-03-28T13:04:39.813Z",
+      "lastUpdated": "2026-03-28T13:05:33.077Z",
       "version": 1
     },
     {
@@ -347,9 +347,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:34.103Z",
-      "scrapedAt": "2026-03-28T02:33:37.416Z",
-      "lastUpdated": "2026-03-28T02:34:34.103Z",
+      "processedAt": "2026-03-28T13:05:33.117Z",
+      "scrapedAt": "2026-03-28T13:04:39.814Z",
+      "lastUpdated": "2026-03-28T13:05:33.117Z",
       "version": 1
     },
     {
@@ -375,9 +375,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:34.108Z",
-      "scrapedAt": "2026-03-28T02:33:37.416Z",
-      "lastUpdated": "2026-03-28T02:34:34.108Z",
+      "processedAt": "2026-03-28T13:05:34.131Z",
+      "scrapedAt": "2026-03-28T13:04:39.814Z",
+      "lastUpdated": "2026-03-28T13:05:34.131Z",
       "version": 1
     },
     {
@@ -401,9 +401,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:34.109Z",
-      "scrapedAt": "2026-03-28T02:33:37.416Z",
-      "lastUpdated": "2026-03-28T02:34:34.109Z",
+      "processedAt": "2026-03-28T13:05:34.119Z",
+      "scrapedAt": "2026-03-28T13:04:39.814Z",
+      "lastUpdated": "2026-03-28T13:05:34.119Z",
       "version": 1
     },
     {
@@ -427,9 +427,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:34.108Z",
-      "scrapedAt": "2026-03-28T02:33:37.416Z",
-      "lastUpdated": "2026-03-28T02:34:34.108Z",
+      "processedAt": "2026-03-28T13:05:34.123Z",
+      "scrapedAt": "2026-03-28T13:04:39.815Z",
+      "lastUpdated": "2026-03-28T13:05:34.123Z",
       "version": 1
     },
     {
@@ -455,9 +455,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:34.162Z",
-      "scrapedAt": "2026-03-28T02:33:37.417Z",
-      "lastUpdated": "2026-03-28T02:34:34.162Z",
+      "processedAt": "2026-03-28T13:05:34.122Z",
+      "scrapedAt": "2026-03-28T13:04:39.815Z",
+      "lastUpdated": "2026-03-28T13:05:34.122Z",
       "version": 1
     },
     {
@@ -481,9 +481,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:35.171Z",
-      "scrapedAt": "2026-03-28T02:33:37.417Z",
-      "lastUpdated": "2026-03-28T02:34:35.171Z",
+      "processedAt": "2026-03-28T13:05:34.157Z",
+      "scrapedAt": "2026-03-28T13:04:39.815Z",
+      "lastUpdated": "2026-03-28T13:05:34.157Z",
       "version": 1
     },
     {
@@ -507,9 +507,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:35.171Z",
-      "scrapedAt": "2026-03-28T02:33:37.418Z",
-      "lastUpdated": "2026-03-28T02:34:35.171Z",
+      "processedAt": "2026-03-28T13:05:35.168Z",
+      "scrapedAt": "2026-03-28T13:04:39.816Z",
+      "lastUpdated": "2026-03-28T13:05:35.168Z",
       "version": 1
     },
     {
@@ -533,15 +533,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-28T02:34:35.171Z",
-      "scrapedAt": "2026-03-28T02:33:37.418Z",
-      "lastUpdated": "2026-03-28T02:34:35.171Z",
+      "processedAt": "2026-03-28T13:05:35.162Z",
+      "scrapedAt": "2026-03-28T13:04:39.816Z",
+      "lastUpdated": "2026-03-28T13:05:35.162Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-03-28T02:34:35.178Z"
+    "lastUpdated": "2026-03-28T13:05:35.180Z"
   }
 }

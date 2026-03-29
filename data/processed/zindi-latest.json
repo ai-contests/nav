@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-03-29T02:48:39.307Z",
+  "timestamp": "2026-03-29T13:06:12.762Z",
   "contestCount": 20,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-04-20T02:47:43.915Z",
+      "deadline": "2026-04-19T13:05:17.942Z",
       "prize": "$5 000 USD",
       "tags": [
         "llm"
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:35.203Z",
-      "scrapedAt": "2026-03-29T02:47:43.915Z",
-      "lastUpdated": "2026-03-29T02:48:35.203Z",
+      "processedAt": "2026-03-29T13:06:08.655Z",
+      "scrapedAt": "2026-03-29T13:05:17.942Z",
+      "lastUpdated": "2026-03-29T13:06:08.655Z",
       "version": 1
     },
     {
@@ -53,26 +53,23 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:35.202Z",
-      "scrapedAt": "2026-03-29T02:47:43.915Z",
-      "lastUpdated": "2026-03-29T02:48:35.202Z",
+      "processedAt": "2026-03-29T13:06:08.654Z",
+      "scrapedAt": "2026-03-29T13:05:17.943Z",
+      "lastUpdated": "2026-03-29T13:06:08.654Z",
       "version": 1
     },
     {
-      "id": "c_37a5635436b2",
-      "title": "AI4EAC Climate & Health Risk Prediction Challenge [BEGINNER]",
+      "id": "c_94dbb731bf8e",
+      "title": "University Hackathon by Botho University by Botho University",
       "platform": "zindi",
-      "url": "https://zindi.africa/competitions/climate-health-risk-prediction-challenge",
+      "url": "https://zindi.africa/competitions/botho-university-hackathon",
       "imageUrl": "",
       "description": "",
       "summary": "undefined...",
       "contestType": "mixed",
       "status": "ended",
-      "difficulty": "beginner",
-      "prize": "$7 500 USD",
-      "tags": [
-        "ai"
-      ],
+      "difficulty": "intermediate",
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -81,26 +78,25 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:35.221Z",
-      "scrapedAt": "2026-03-29T02:47:43.915Z",
-      "lastUpdated": "2026-03-29T02:48:35.221Z",
+      "processedAt": "2026-03-29T13:06:08.671Z",
+      "scrapedAt": "2026-03-29T13:05:17.943Z",
+      "lastUpdated": "2026-03-29T13:06:08.671Z",
       "version": 1
     },
     {
-      "id": "c_eedf267ccf22",
-      "title": "AI4EAC Bean Flowering Detection Challenge [ADVANCED]",
+      "id": "c_ffc06e68840c",
+      "title": "2026 Yaoundé Mobility Prediction Hackathon Powered by Yango",
       "platform": "zindi",
-      "url": "https://zindi.africa/competitions/bean-flowering-detection-challenge",
+      "url": "https://zindi.africa/competitions/2026-yaounde-mobility-prediction-hackathon-powered",
       "imageUrl": "",
       "description": "",
       "summary": "undefined...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "advanced",
-      "prize": "$7 500 USD",
-      "tags": [
-        "ai"
-      ],
+      "status": "upcoming",
+      "difficulty": "intermediate",
+      "deadline": "2026-04-18T13:05:17.943Z",
+      "prize": "2000 USD",
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -109,9 +105,59 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:36.226Z",
-      "scrapedAt": "2026-03-29T02:47:43.915Z",
-      "lastUpdated": "2026-03-29T02:48:36.226Z",
+      "processedAt": "2026-03-29T13:06:09.682Z",
+      "scrapedAt": "2026-03-29T13:05:17.943Z",
+      "lastUpdated": "2026-03-29T13:06:09.682Z",
+      "version": 1
+    },
+    {
+      "id": "c_353bc82cb58c",
+      "title": "University Hackathon by Briisp Academy by Briisp Academy",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/university-hackathon-by-briisp-academy",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-29T13:06:09.677Z",
+      "scrapedAt": "2026-03-29T13:05:17.943Z",
+      "lastUpdated": "2026-03-29T13:06:09.677Z",
+      "version": 1
+    },
+    {
+      "id": "c_0ab61e5ab7c2",
+      "title": "University Hackathon by Miva Open University",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/university-hackathons",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-29T13:06:09.676Z",
+      "scrapedAt": "2026-03-29T13:05:17.944Z",
+      "lastUpdated": "2026-03-29T13:06:09.676Z",
       "version": 1
     },
     {
@@ -137,9 +183,37 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:36.234Z",
-      "scrapedAt": "2026-03-29T02:47:43.916Z",
-      "lastUpdated": "2026-03-29T02:48:36.234Z",
+      "processedAt": "2026-03-29T13:06:09.686Z",
+      "scrapedAt": "2026-03-29T13:05:17.944Z",
+      "lastUpdated": "2026-03-29T13:06:09.686Z",
+      "version": 1
+    },
+    {
+      "id": "c_eedf267ccf22",
+      "title": "AI4EAC Bean Flowering Detection Challenge [ADVANCED]",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/bean-flowering-detection-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "advanced",
+      "prize": "$7 500 USD",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-29T13:06:09.696Z",
+      "scrapedAt": "2026-03-29T13:05:17.944Z",
+      "lastUpdated": "2026-03-29T13:06:09.696Z",
       "version": 1
     },
     {
@@ -165,23 +239,26 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:36.225Z",
-      "scrapedAt": "2026-03-29T02:47:43.916Z",
-      "lastUpdated": "2026-03-29T02:48:36.225Z",
+      "processedAt": "2026-03-29T13:06:10.698Z",
+      "scrapedAt": "2026-03-29T13:05:17.945Z",
+      "lastUpdated": "2026-03-29T13:06:10.698Z",
       "version": 1
     },
     {
-      "id": "c_94dbb731bf8e",
-      "title": "University Hackathon by Botho University by Botho University",
+      "id": "c_37a5635436b2",
+      "title": "AI4EAC Climate & Health Risk Prediction Challenge [BEGINNER]",
       "platform": "zindi",
-      "url": "https://zindi.africa/competitions/botho-university-hackathon",
+      "url": "https://zindi.africa/competitions/climate-health-risk-prediction-challenge",
       "imageUrl": "",
       "description": "",
       "summary": "undefined...",
       "contestType": "mixed",
       "status": "ended",
-      "difficulty": "intermediate",
-      "tags": [],
+      "difficulty": "beginner",
+      "prize": "$7 500 USD",
+      "tags": [
+        "ai"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -190,86 +267,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:36.234Z",
-      "scrapedAt": "2026-03-29T02:47:43.916Z",
-      "lastUpdated": "2026-03-29T02:48:36.234Z",
-      "version": 1
-    },
-    {
-      "id": "c_ffc06e68840c",
-      "title": "2026 Yaoundé Mobility Prediction Hackathon Powered by Yango",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/2026-yaounde-mobility-prediction-hackathon-powered",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "upcoming",
-      "difficulty": "intermediate",
-      "deadline": "2026-04-18T02:47:43.916Z",
-      "prize": "2000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:36.246Z",
-      "scrapedAt": "2026-03-29T02:47:43.916Z",
-      "lastUpdated": "2026-03-29T02:48:36.246Z",
-      "version": 1
-    },
-    {
-      "id": "c_353bc82cb58c",
-      "title": "University Hackathon by Briisp Academy by Briisp Academy",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/university-hackathon-by-briisp-academy",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:37.254Z",
-      "scrapedAt": "2026-03-29T02:47:43.916Z",
-      "lastUpdated": "2026-03-29T02:48:37.254Z",
-      "version": 1
-    },
-    {
-      "id": "c_0ab61e5ab7c2",
-      "title": "University Hackathon by Miva Open University",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/university-hackathons",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:37.247Z",
-      "scrapedAt": "2026-03-29T02:47:43.916Z",
-      "lastUpdated": "2026-03-29T02:48:37.247Z",
+      "processedAt": "2026-03-29T13:06:10.705Z",
+      "scrapedAt": "2026-03-29T13:05:17.945Z",
+      "lastUpdated": "2026-03-29T13:06:10.705Z",
       "version": 1
     },
     {
@@ -293,9 +293,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:37.249Z",
-      "scrapedAt": "2026-03-29T02:47:43.917Z",
-      "lastUpdated": "2026-03-29T02:48:37.249Z",
+      "processedAt": "2026-03-29T13:06:10.706Z",
+      "scrapedAt": "2026-03-29T13:05:17.945Z",
+      "lastUpdated": "2026-03-29T13:06:10.706Z",
       "version": 1
     },
     {
@@ -321,9 +321,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:37.247Z",
-      "scrapedAt": "2026-03-29T02:47:43.917Z",
-      "lastUpdated": "2026-03-29T02:48:37.247Z",
+      "processedAt": "2026-03-29T13:06:10.706Z",
+      "scrapedAt": "2026-03-29T13:05:17.946Z",
+      "lastUpdated": "2026-03-29T13:06:10.706Z",
       "version": 1
     },
     {
@@ -347,9 +347,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:37.263Z",
-      "scrapedAt": "2026-03-29T02:47:43.917Z",
-      "lastUpdated": "2026-03-29T02:48:37.263Z",
+      "processedAt": "2026-03-29T13:06:10.716Z",
+      "scrapedAt": "2026-03-29T13:05:17.946Z",
+      "lastUpdated": "2026-03-29T13:06:10.716Z",
+      "version": 1
+    },
+    {
+      "id": "c_6f9040f8220a",
+      "title": "Unido AfricaRice App Builder Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/unido-africarice-app-builder-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$5 000 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-29T13:06:11.729Z",
+      "scrapedAt": "2026-03-29T13:05:17.946Z",
+      "lastUpdated": "2026-03-29T13:06:11.729Z",
       "version": 1
     },
     {
@@ -375,35 +401,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:38.274Z",
-      "scrapedAt": "2026-03-29T02:47:43.918Z",
-      "lastUpdated": "2026-03-29T02:48:38.274Z",
-      "version": 1
-    },
-    {
-      "id": "c_6f9040f8220a",
-      "title": "Unido AfricaRice App Builder Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/unido-africarice-app-builder-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$5 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:38.267Z",
-      "scrapedAt": "2026-03-29T02:47:43.918Z",
-      "lastUpdated": "2026-03-29T02:48:38.267Z",
+      "processedAt": "2026-03-29T13:06:11.730Z",
+      "scrapedAt": "2026-03-29T13:05:17.946Z",
+      "lastUpdated": "2026-03-29T13:06:11.730Z",
       "version": 1
     },
     {
@@ -427,9 +427,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:38.279Z",
-      "scrapedAt": "2026-03-29T02:47:43.918Z",
-      "lastUpdated": "2026-03-29T02:48:38.279Z",
+      "processedAt": "2026-03-29T13:06:11.730Z",
+      "scrapedAt": "2026-03-29T13:05:17.947Z",
+      "lastUpdated": "2026-03-29T13:06:11.730Z",
       "version": 1
     },
     {
@@ -455,9 +455,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:38.267Z",
-      "scrapedAt": "2026-03-29T02:47:43.919Z",
-      "lastUpdated": "2026-03-29T02:48:38.267Z",
+      "processedAt": "2026-03-29T13:06:11.731Z",
+      "scrapedAt": "2026-03-29T13:05:17.947Z",
+      "lastUpdated": "2026-03-29T13:06:11.731Z",
       "version": 1
     },
     {
@@ -481,9 +481,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:38.290Z",
-      "scrapedAt": "2026-03-29T02:47:43.919Z",
-      "lastUpdated": "2026-03-29T02:48:38.290Z",
+      "processedAt": "2026-03-29T13:06:11.739Z",
+      "scrapedAt": "2026-03-29T13:05:17.947Z",
+      "lastUpdated": "2026-03-29T13:06:11.739Z",
       "version": 1
     },
     {
@@ -507,9 +507,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:39.300Z",
-      "scrapedAt": "2026-03-29T02:47:43.919Z",
-      "lastUpdated": "2026-03-29T02:48:39.300Z",
+      "processedAt": "2026-03-29T13:06:12.750Z",
+      "scrapedAt": "2026-03-29T13:05:17.947Z",
+      "lastUpdated": "2026-03-29T13:06:12.750Z",
       "version": 1
     },
     {
@@ -533,15 +533,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:39.300Z",
-      "scrapedAt": "2026-03-29T02:47:43.919Z",
-      "lastUpdated": "2026-03-29T02:48:39.300Z",
+      "processedAt": "2026-03-29T13:06:12.751Z",
+      "scrapedAt": "2026-03-29T13:05:17.948Z",
+      "lastUpdated": "2026-03-29T13:06:12.751Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-03-29T02:48:39.307Z"
+    "lastUpdated": "2026-03-29T13:06:12.762Z"
   }
 }

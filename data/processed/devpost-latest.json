@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-03-29T02:48:39.305Z",
+  "timestamp": "2026-03-29T13:06:12.759Z",
   "contestCount": 10,
   "contests": [
     {
@@ -34,9 +34,9 @@
         "examples"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:31.118Z",
-      "scrapedAt": "2026-03-29T02:47:15.598Z",
-      "lastUpdated": "2026-03-29T02:48:31.118Z",
+      "processedAt": "2026-03-29T13:06:04.563Z",
+      "scrapedAt": "2026-03-29T13:04:49.833Z",
+      "lastUpdated": "2026-03-29T13:06:04.563Z",
       "version": 1
     },
     {
@@ -64,9 +64,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:31.120Z",
-      "scrapedAt": "2026-03-29T02:47:15.599Z",
-      "lastUpdated": "2026-03-29T02:48:31.120Z",
+      "processedAt": "2026-03-29T13:06:04.571Z",
+      "scrapedAt": "2026-03-29T13:04:49.834Z",
+      "lastUpdated": "2026-03-29T13:06:04.571Z",
       "version": 1
     },
     {
@@ -94,9 +94,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:31.143Z",
-      "scrapedAt": "2026-03-29T02:47:15.599Z",
-      "lastUpdated": "2026-03-29T02:48:31.143Z",
+      "processedAt": "2026-03-29T13:06:04.594Z",
+      "scrapedAt": "2026-03-29T13:04:49.835Z",
+      "lastUpdated": "2026-03-29T13:06:04.594Z",
       "version": 1
     },
     {
@@ -125,9 +125,40 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:32.141Z",
-      "scrapedAt": "2026-03-29T02:47:15.600Z",
-      "lastUpdated": "2026-03-29T02:48:32.141Z",
+      "processedAt": "2026-03-29T13:06:05.590Z",
+      "scrapedAt": "2026-03-29T13:04:49.837Z",
+      "lastUpdated": "2026-03-29T13:06:05.590Z",
+      "version": 1
+    },
+    {
+      "id": "c_cb59033a73f2",
+      "title": "ImpactHacks by HackathonForAll",
+      "platform": "devpost",
+      "url": "https://impacthacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/398/421/datas/original.png",
+      "description": "ImpactHacks by HackathonForAll ImpactHacks is a beginner-friendly online hackathon designed to empower students of all experience levels to turn ideas into real-world impact. Our mission is to make coding and project-building accessible to everyone, whether you’re a first-time hacker or an experienced builder. Participants will form teams, brainstorm innovative solutions, and build projects that focus on social good, open-ended creativity, and practical problem-solving. Our goal is to create a supportive environment where everyone can learn, collaborate, and showcase their work. Why ImpactHacks is special: Inclusive for all skill levels: No prior experience? No problem — we provide tutorials, resources, and mentor support throughout the hackathon. Mentorship & guidance: Experienced mentors will be available in Discord to help you overcome technical challenges. Community-first: Join a growing student-led community of builders, share ideas, and network with peers. Exciting prizes: Compete for a $1,300 grand prize and additional prizes. Every participant gains 1 month of free Featherless.ai Premium subscription to help them with their project (worth $25) Learn while you hack: Our hackathon doubles as a learning experience — tutorials, guides, and resources are available for all participants. Whether you’re coding your first project or your fifth, ImpactHacks gives you the tools, guidance, and community to build something meaningful and make your ideas come to life.",
+      "summary": "ImpactHacks by HackathonForAll ImpactHacks is a beginner-friendly online hackathon designed to empower students of all experience levels to turn ideas into real-world impact. Our mission is to make co...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-04-24T06:45:00.000Z",
+      "prize": "$14,025",
+      "tags": [
+        "Beginner Friendly",
+        "Open Ended",
+        "Social Good"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-29T13:06:05.595Z",
+      "scrapedAt": "2026-03-29T13:04:49.838Z",
+      "lastUpdated": "2026-03-29T13:06:05.595Z",
       "version": 1
     },
     {
@@ -157,70 +188,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:32.142Z",
-      "scrapedAt": "2026-03-29T02:47:15.601Z",
-      "lastUpdated": "2026-03-29T02:48:32.142Z",
-      "version": 1
-    },
-    {
-      "id": "c_cb59033a73f2",
-      "title": "ImpactHacks by HackathonForAll",
-      "platform": "devpost",
-      "url": "https://impacthacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/398/421/datas/original.png",
-      "description": "ImpactHacks by HackathonForAll ImpactHacks is a beginner-friendly online hackathon designed to empower students of all experience levels to turn ideas into real-world impact. Our mission is to make coding and project-building accessible to everyone, whether you’re a first-time hacker or an experienced builder. Participants will form teams, brainstorm innovative solutions, and build projects that focus on social good, open-ended creativity, and practical problem-solving. Our goal is to create a supportive environment where everyone can learn, collaborate, and showcase their work. Why ImpactHacks is special: Inclusive for all skill levels: No prior experience? No problem — we provide tutorials, resources, and mentor support throughout the hackathon. Mentorship & guidance: Experienced mentors will be available in Discord to help you overcome technical challenges. Community-first: Join a growing student-led community of builders, share ideas, and network with peers. Exciting prizes: Compete for a $1,300 grand prize and additional prizes. Every participant gains 1 month of free Featherless.ai Premium subscription to help them with their project (worth $25) Learn while you hack: Our hackathon doubles as a learning experience — tutorials, guides, and resources are available for all participants. Whether you’re coding your first project or your fifth, ImpactHacks gives you the tools, guidance, and community to build something meaningful and make your ideas come to life.",
-      "summary": "ImpactHacks by HackathonForAll ImpactHacks is a beginner-friendly online hackathon designed to empower students of all experience levels to turn ideas into real-world impact. Our mission is to make co...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "beginner",
-      "deadline": "2026-04-24T06:45:00.000Z",
-      "prize": "$14,025",
-      "tags": [
-        "Beginner Friendly",
-        "Open Ended",
-        "Social Good"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:32.144Z",
-      "scrapedAt": "2026-03-29T02:47:15.601Z",
-      "lastUpdated": "2026-03-29T02:48:32.144Z",
-      "version": 1
-    },
-    {
-      "id": "c_5592371ef661",
-      "title": "The 2030 AI Challenge",
-      "platform": "devpost",
-      "url": "https://the-2030-ai-challenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/309/632/datas/original.png",
-      "description": "About the challenge The 2030 AI Challenge invites students to design and build an interactive application powered by artificial intelligence that tackles meaningful, real world problems. Your code can be part of the solution. Innovation. Intelligence. Infinite possibilities. This hackathon introduces AI driven development and hackathon participation, giving students practical skills in problem solving, system design, and building intelligent applications; preparing them for more advanced, prestigious competitions. We are excited to partner with Featherless.ai, who are supporting the competition by providing Inference Sponsorship (worth $1000+). Through this partnership, all participants will receive one month of inference access, enabling them to build, test, and deploy AI powered features in their projects. Please look at our updates page for instructions to access the API. Note: As this competition encourages exploration, creativity, and technical growth, participants are strongly encouraged to begin developing their projects as early as possible. Your application does not need to be built exclusively during the hackathon period; starting early allows for deeper refinement, stronger ideas, and higher quality solutions. Dates: March 8 at 2 pm (GMT+8): Hackathon Introduction Briefing + Submissions Open March 29 at 9 pm (GMT+8): Submissions close April 8 at 2 pm (GMT+8): Results released",
-      "summary": "About the challenge The 2030 AI Challenge invites students to design and build an interactive application powered by artificial intelligence that tackles meaningful, real world problems. Your code can...",
-      "contestType": "code",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-03-29T13:00:00.000Z",
-      "prize": "$435",
-      "tags": [
-        "Design",
-        "Social Good"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:32.143Z",
-      "scrapedAt": "2026-03-29T02:47:15.602Z",
-      "lastUpdated": "2026-03-29T02:48:32.143Z",
+      "processedAt": "2026-03-29T13:06:05.589Z",
+      "scrapedAt": "2026-03-29T13:04:49.839Z",
+      "lastUpdated": "2026-03-29T13:06:05.589Z",
       "version": 1
     },
     {
@@ -249,26 +219,26 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:32.162Z",
-      "scrapedAt": "2026-03-29T02:47:15.603Z",
-      "lastUpdated": "2026-03-29T02:48:32.162Z",
+      "processedAt": "2026-03-29T13:06:05.596Z",
+      "scrapedAt": "2026-03-29T13:04:49.839Z",
+      "lastUpdated": "2026-03-29T13:06:05.596Z",
       "version": 1
     },
     {
-      "id": "c_6bf31d6d9e24",
-      "title": "LovHack Season 2",
+      "id": "c_cd220212f443",
+      "title": "YHack Spring 2026",
       "platform": "devpost",
-      "url": "https://lovhack-season2.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/403/348/datas/original.png",
-      "description": "LovHack Season 2 is a 1-week global online hackathon where builders come together to turn ideas into real working products. Developers, designers, students, and makers from around the world will collaborate to build AI-powered apps, developer tools, and creative projects using modern technologies and sponsor platforms. The focus of LovHack is simple: Ship something real. During the event you will have 7 days to design, build, and demo your project. Whether you work solo or with a team, the goal is to move from idea → prototype → working demo. Participants will get access to developer tools, credits, and resources from our sponsor partners to help bring projects to life. LovHack is built for builders who want to: • experiment with new technologies• learn by building• collaborate with other developers• turn ideas into real products At the end of the week, projects will be submitted and reviewed based on creativity, usefulness, design, and execution. If you enjoy building things, learning new tools, and shipping projects quickly, LovHack Season 2 is for you.",
-      "summary": "LovHack Season 2 is a 1-week global online hackathon where builders come together to turn ideas into real working products. Developers, designers, students, and makers from around the world will colla...",
-      "contestType": "mixed",
+      "url": "https://yhack-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/495/690/datas/original.jpg",
+      "description": "YHack is Yale's premier hackathon. This year marks our 12th annual Yale Hackathon! Taking place between March 28-29, we invite all students passionate about innovation, learning, and social impact to code, create, and collaborate on Yale’s campus. Expect a myriad of spectacular rewards, educational workshops, renowned guest speakers, and engaging activities throughout the event. Learn more at https://www.yhack.org/",
+      "summary": "YHack is Yale's premier hackathon. This year marks our 12th annual Yale Hackathon! Taking place between March 28-29, we invite all students passionate about innovation, learning, and social impact to ...",
+      "contestType": "code",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-03-29T13:00:00.000Z",
-      "prize": "$500",
+      "deadline": "2026-03-29T15:00:00.000Z",
+      "prize": "$52,400",
       "tags": [
-        "Productivity",
+        "Social Good",
         "Web"
       ],
       "aiTools": [
@@ -279,9 +249,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:33.166Z",
-      "scrapedAt": "2026-03-29T02:47:15.604Z",
-      "lastUpdated": "2026-03-29T02:48:33.166Z",
+      "processedAt": "2026-03-29T13:06:05.608Z",
+      "scrapedAt": "2026-03-29T13:04:49.839Z",
+      "lastUpdated": "2026-03-29T13:06:05.608Z",
       "version": 1
     },
     {
@@ -310,15 +280,46 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-29T02:48:33.166Z",
-      "scrapedAt": "2026-03-29T02:47:15.604Z",
-      "lastUpdated": "2026-03-29T02:48:33.166Z",
+      "processedAt": "2026-03-29T13:06:06.620Z",
+      "scrapedAt": "2026-03-29T13:04:49.840Z",
+      "lastUpdated": "2026-03-29T13:06:06.620Z",
+      "version": 1
+    },
+    {
+      "id": "c_f078b253f166",
+      "title": "Ideathon 2026",
+      "platform": "devpost",
+      "url": "https://ideathone-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/417/106/datas/original.png",
+      "description": "Hey there! Let's see what happens when we bring creative minds together to solve real-life problems! Here's everything you need to know about this exciting ideathon: ⚠️ MUST use ASI-1 in their idea (even if just planning how ASI-1 would be integrated) ⚠️ MUST complete registration form before starting ⚠️ Document all ASI-1 interactions - show how AI helped shape their idea ⚠️ No offensive or harmful content",
+      "summary": "Hey there! Let's see what happens when we bring creative minds together to solve real-life problems! Here's everything you need to know about this exciting ideathon: ⚠️ MUST use ASI-1 in their idea (e...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-04-25T11:30:00.000Z",
+      "prize": "₹ 45,000",
+      "tags": [
+        "Education",
+        "Lifehacks",
+        "Social Good"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-03-29T13:06:06.618Z",
+      "scrapedAt": "2026-03-29T13:04:49.840Z",
+      "lastUpdated": "2026-03-29T13:06:06.618Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-03-29T02:48:39.305Z"
+    "lastUpdated": "2026-03-29T13:06:12.759Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-03-31T02:44:03.445Z",
+  "timestamp": "2026-03-31T13:30:16.164Z",
   "contestCount": 10,
   "contests": [
     {
@@ -34,9 +34,9 @@
         "examples"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-03-31T02:43:55.209Z",
-      "scrapedAt": "2026-03-31T02:42:40.296Z",
-      "lastUpdated": "2026-03-31T02:43:55.209Z",
+      "processedAt": "2026-03-31T13:30:07.701Z",
+      "scrapedAt": "2026-03-31T13:28:51.941Z",
+      "lastUpdated": "2026-03-31T13:30:07.701Z",
       "version": 1
     },
     {
@@ -64,9 +64,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-31T02:43:55.201Z",
-      "scrapedAt": "2026-03-31T02:42:40.296Z",
-      "lastUpdated": "2026-03-31T02:43:55.201Z",
+      "processedAt": "2026-03-31T13:30:07.698Z",
+      "scrapedAt": "2026-03-31T13:28:51.941Z",
+      "lastUpdated": "2026-03-31T13:30:07.698Z",
       "version": 1
     },
     {
@@ -94,9 +94,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-31T02:43:55.234Z",
-      "scrapedAt": "2026-03-31T02:42:40.297Z",
-      "lastUpdated": "2026-03-31T02:43:55.234Z",
+      "processedAt": "2026-03-31T13:30:07.745Z",
+      "scrapedAt": "2026-03-31T13:28:51.942Z",
+      "lastUpdated": "2026-03-31T13:30:07.745Z",
       "version": 1
     },
     {
@@ -125,9 +125,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-31T02:43:56.235Z",
-      "scrapedAt": "2026-03-31T02:42:40.298Z",
-      "lastUpdated": "2026-03-31T02:43:56.235Z",
+      "processedAt": "2026-03-31T13:30:08.746Z",
+      "scrapedAt": "2026-03-31T13:28:51.942Z",
+      "lastUpdated": "2026-03-31T13:30:08.746Z",
       "version": 1
     },
     {
@@ -157,9 +157,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-31T02:43:56.244Z",
-      "scrapedAt": "2026-03-31T02:42:40.299Z",
-      "lastUpdated": "2026-03-31T02:43:56.244Z",
+      "processedAt": "2026-03-31T13:30:08.748Z",
+      "scrapedAt": "2026-03-31T13:28:51.945Z",
+      "lastUpdated": "2026-03-31T13:30:08.748Z",
       "version": 1
     },
     {
@@ -167,14 +167,19 @@
       "title": "INNOSpark Pitch Competition",
       "platform": "devpost",
       "url": "https://innospark-competition.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/307/085/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/307/085/datas/original.png",
+      "description": "About INNOSpark INNOSpark is a youth-led nonprofit dedicated to equipping the next generation of entrepreneurs with the skills, networks, and opportunities they need to turn ideas into impact. To date, we have mentored 200+ students and hosted 2 pitch competitions. Our Goal Our mission is to make entrepreneurship education accessible to all students worldwide. Most students never get the chance to create something their own because the resources, mentorship, and opportunities simply aren't available to them. INNOSpark exists to close that gap. We bring entrepreneurship education directly to students through workshops, content, and competitions that turn ideas into actual projects. INNOSpark Pitch Competition About the Challenge In April 2026, INNOSpark is hosting the largest student-led pitch competition in the world — a virtual event where high school students from around the world can pitch their business, nonprofit, or passion project, gain exposure to industry mentors, and compete for a $10,000 prize pool. Whether you have a fully-built startup or just a compelling idea, this is your stage. Who Can Participate? High school students worldwide (all grades) Solo founders or teams (up to 4 members) Businesses, nonprofits, social ventures, and passion projects Students with or without an existing startup/business Cost: 100% free to enter. https://www.instagram.com/reel/DVW5VZWDg4e/?igsh=N3NheWtnejFucWFk",
+      "summary": "About INNOSpark INNOSpark is a youth-led nonprofit dedicated to equipping the next generation of entrepreneurs with the skills, networks, and opportunities they need to turn ideas into impact. To date...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-04-05T03:45:00.000Z",
       "prize": "$3,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Education",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -183,9 +188,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-31T02:43:56.240Z",
-      "scrapedAt": "2026-03-31T02:42:40.302Z",
-      "lastUpdated": "2026-03-31T02:43:56.240Z",
+      "processedAt": "2026-03-31T13:30:08.750Z",
+      "scrapedAt": "2026-03-31T13:28:51.945Z",
+      "lastUpdated": "2026-03-31T13:30:08.750Z",
       "version": 1
     },
     {
@@ -193,14 +198,19 @@
       "title": "Hack Trek",
       "platform": "devpost",
       "url": "https://hack-trek.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/336/380/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/336/380/datas/original.png",
+      "description": "🚀 Hackathon Site – Main Description 🤖 AI Automate 2026 – Build the Future with Machine Learning & Automation Welcome to AI Automate 2026, a high-intensity innovation sprint focused on solving real-world problems using Machine Learning, AI Agents, and Intelligent Automation. This hackathon challenges participants to build systems that can think, learn, decide, and act autonomously. Whether it's: 🤖 AI Agents automating workflows 📊 ML models solving real-world prediction problems 🧠 LLM-powered assistants 🔄 RPA + AI integrations 📡 Smart IoT automation 🏦 AI in fintech, healthcare, cybersecurity, or sustainability We want solutions that reduce human effort, improve decision-making, and scale impact.",
+      "summary": "🚀 Hackathon Site – Main Description 🤖 AI Automate 2026 – Build the Future with Machine Learning & Automation Welcome to AI Automate 2026, a high-intensity innovation sprint focused on solving real-w...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-04-17T11:30:00.000Z",
       "prize": "₹ 10,000",
-      "tags": [],
+      "tags": [
+        "llm",
+        "Open Ended",
+        "Web"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -209,9 +219,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-31T02:43:56.245Z",
-      "scrapedAt": "2026-03-31T02:42:40.302Z",
-      "lastUpdated": "2026-03-31T02:43:56.245Z",
+      "processedAt": "2026-03-31T13:30:08.749Z",
+      "scrapedAt": "2026-03-31T13:28:51.946Z",
+      "lastUpdated": "2026-03-31T13:30:08.749Z",
       "version": 1
     },
     {
@@ -219,14 +229,19 @@
       "title": "Ideathon 2026",
       "platform": "devpost",
       "url": "https://ideathone-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/417/106/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/417/106/datas/original.png",
+      "description": "Hey there! Let's see what happens when we bring creative minds together to solve real-life problems! Here's everything you need to know about this exciting ideathon: ⚠️ MUST use ASI-1 in their idea (even if just planning how ASI-1 would be integrated) ⚠️ MUST complete registration form before starting ⚠️ Document all ASI-1 interactions - show how AI helped shape their idea ⚠️ No offensive or harmful content",
+      "summary": "Hey there! Let's see what happens when we bring creative minds together to solve real-life problems! Here's everything you need to know about this exciting ideathon: ⚠️ MUST use ASI-1 in their idea (e...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-04-25T11:30:00.000Z",
       "prize": "₹ 45,000",
-      "tags": [],
+      "tags": [
+        "Education",
+        "Lifehacks",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -235,9 +250,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-31T02:43:56.270Z",
-      "scrapedAt": "2026-03-31T02:42:40.303Z",
-      "lastUpdated": "2026-03-31T02:43:56.270Z",
+      "processedAt": "2026-03-31T13:30:08.780Z",
+      "scrapedAt": "2026-03-31T13:28:51.946Z",
+      "lastUpdated": "2026-03-31T13:30:08.780Z",
       "version": 1
     },
     {
@@ -245,14 +260,19 @@
       "title": "GatewayGS Hackathon",
       "platform": "devpost",
       "url": "https://gateway-hackathon-27996.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/191/495/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/191/495/datas/original.png",
+      "description": "About the challenge This hackathon is an open-ended AI problem-solving challenge. Participants are free to identify a real-world problem of their choosing and design a solution using modern AI tools and techniques. Rather than restricting teams to a narrow theme, the event emphasizes: Creative problem selection Practical, real-world impact Thoughtful use of AI (LLMs, APIs, automation, data, agents, etc.) Clear articulation of why the solution matters Projects can span any domain (healthcare, education, productivity, climate, finance, accessibility, etc.), as long as AI plays a meaningful role in the solution. Teams will be evaluated on problem clarity, technical implementation, innovation, and potential impact. Get started Form a team (or work solo) Identify a problem you care about or have personally observed Design and build an AI-powered solution using any tools or platforms you choose Submit your project with a short explanation of the problem, solution, and AI usagd No prior hackathon experience is required. This event is designed to be welcoming to beginners while still offering depth and challenge for experienced builders.",
+      "summary": "About the challenge This hackathon is an open-ended AI problem-solving challenge. Participants are free to identify a real-world problem of their choosing and design a solution using modern AI tools a...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "1",
-      "tags": [],
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-04-06T03:45:00.000Z",
+      "prize": "$0",
+      "tags": [
+        "llm",
+        "Beginner Friendly",
+        "Open Ended"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -261,9 +281,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-31T02:43:57.271Z",
-      "scrapedAt": "2026-03-31T02:42:40.303Z",
-      "lastUpdated": "2026-03-31T02:43:57.271Z",
+      "processedAt": "2026-03-31T13:30:09.853Z",
+      "scrapedAt": "2026-03-31T13:28:51.947Z",
+      "lastUpdated": "2026-03-31T13:30:09.853Z",
       "version": 1
     },
     {
@@ -271,14 +291,19 @@
       "title": "GNEC Hackathon 2026 Spring - Compete For UN-Affiliated/NGO Internships & Prizes",
       "platform": "devpost",
       "url": "https://gnec-hackathon-2026-spring.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/363/100/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/363/100/datas/original.png",
+      "description": "About the hackathon General The Global NGO Executive Committee (GNEC) and its 1,600 subsidiaries have come together to host our fourth GNEC Hackathon! We encourage those passionate about engineering, technology, and programming to join this event to demonstrate their skills while competing for prizes such as internships and mentorships with our partners. Why Us GNEC is well-connected to the UN and has a global network of NGOs. You can tap into this network during and after this hackathon. Our partners will also host various workshops where they will teach new technological concepts while also offering insight into their mission and the work they have done. The workshops are a great opportunity to explore one’s interests and possible career paths. Theme Through the GNEC Hackathon, we encourage participants to explore sustainability through technology by setting the hackathon's theme as one or two of the United Nations Sustainable Development Goals (UN SDGs). This hackathon's theme will be SDG 3 (Health and Well-being). Get started Join our Discord server (https://discord.gg/n5pcCHcGC6) and meet with everyone else involved in the hackathon. You are welcome to make your own team but if you don't have teammates, our Discord server is a great place to look for a team. The opening ceremony will provide further information regarding the hackathon and the working period will commence shortly after. Be creative, make new friends, and above all, have fun!",
+      "summary": "About the hackathon General The Global NGO Executive Committee (GNEC) and its 1,600 subsidiaries have come together to host our fourth GNEC Hackathon! We encourage those passionate about engineering, ...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-05-03T16:00:00.000Z",
       "prize": "$700",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Health",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -287,15 +312,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-03-31T02:43:57.261Z",
-      "scrapedAt": "2026-03-31T02:42:40.304Z",
-      "lastUpdated": "2026-03-31T02:43:57.261Z",
+      "processedAt": "2026-03-31T13:30:09.791Z",
+      "scrapedAt": "2026-03-31T13:28:51.947Z",
+      "lastUpdated": "2026-03-31T13:30:09.791Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-03-31T02:44:03.445Z"
+    "lastUpdated": "2026-03-31T13:30:16.164Z"
   }
 }

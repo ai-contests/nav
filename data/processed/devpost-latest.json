@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-04-02T02:40:24.030Z",
+  "timestamp": "2026-04-02T13:24:37.849Z",
   "contestCount": 10,
   "contests": [
     {
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-02T02:40:15.825Z",
-      "scrapedAt": "2026-04-02T02:38:59.569Z",
-      "lastUpdated": "2026-04-02T02:40:15.825Z",
+      "processedAt": "2026-04-02T13:24:29.580Z",
+      "scrapedAt": "2026-04-02T13:23:15.376Z",
+      "lastUpdated": "2026-04-02T13:24:29.580Z",
       "version": 1
     },
     {
@@ -54,9 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-02T02:40:15.826Z",
-      "scrapedAt": "2026-04-02T02:38:59.569Z",
-      "lastUpdated": "2026-04-02T02:40:15.826Z",
+      "processedAt": "2026-04-02T13:24:29.576Z",
+      "scrapedAt": "2026-04-02T13:23:15.377Z",
+      "lastUpdated": "2026-04-02T13:24:29.576Z",
       "version": 1
     },
     {
@@ -80,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-02T02:40:15.827Z",
-      "scrapedAt": "2026-04-02T02:38:59.570Z",
-      "lastUpdated": "2026-04-02T02:40:15.827Z",
+      "processedAt": "2026-04-02T13:24:29.575Z",
+      "scrapedAt": "2026-04-02T13:23:15.377Z",
+      "lastUpdated": "2026-04-02T13:24:29.575Z",
       "version": 1
     },
     {
@@ -106,9 +106,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-02T02:40:15.848Z",
-      "scrapedAt": "2026-04-02T02:38:59.570Z",
-      "lastUpdated": "2026-04-02T02:40:15.848Z",
+      "processedAt": "2026-04-02T13:24:29.611Z",
+      "scrapedAt": "2026-04-02T13:23:15.378Z",
+      "lastUpdated": "2026-04-02T13:24:29.611Z",
       "version": 1
     },
     {
@@ -132,9 +132,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-02T02:40:16.850Z",
-      "scrapedAt": "2026-04-02T02:38:59.571Z",
-      "lastUpdated": "2026-04-02T02:40:16.850Z",
+      "processedAt": "2026-04-02T13:24:30.616Z",
+      "scrapedAt": "2026-04-02T13:23:15.381Z",
+      "lastUpdated": "2026-04-02T13:24:30.616Z",
       "version": 1
     },
     {
@@ -158,9 +158,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-02T02:40:16.849Z",
-      "scrapedAt": "2026-04-02T02:38:59.574Z",
-      "lastUpdated": "2026-04-02T02:40:16.849Z",
+      "processedAt": "2026-04-02T13:24:30.615Z",
+      "scrapedAt": "2026-04-02T13:23:15.382Z",
+      "lastUpdated": "2026-04-02T13:24:30.615Z",
       "version": 1
     },
     {
@@ -184,9 +184,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-02T02:40:16.852Z",
-      "scrapedAt": "2026-04-02T02:38:59.575Z",
-      "lastUpdated": "2026-04-02T02:40:16.852Z",
+      "processedAt": "2026-04-02T13:24:30.622Z",
+      "scrapedAt": "2026-04-02T13:23:15.382Z",
+      "lastUpdated": "2026-04-02T13:24:30.622Z",
+      "version": 1
+    },
+    {
+      "id": "c_54049d723b0c",
+      "title": "Learning Hackathon: Spec Driven Development",
+      "platform": "devpost",
+      "url": "https://learn-ai.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/519/494/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "1",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-02T13:24:30.615Z",
+      "scrapedAt": "2026-04-02T13:23:15.383Z",
+      "lastUpdated": "2026-04-02T13:24:30.615Z",
       "version": 1
     },
     {
@@ -210,35 +236,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-02T02:40:16.850Z",
-      "scrapedAt": "2026-04-02T02:38:59.575Z",
-      "lastUpdated": "2026-04-02T02:40:16.850Z",
-      "version": 1
-    },
-    {
-      "id": "c_54049d723b0c",
-      "title": "Learning Hackathon: Spec Driven Development",
-      "platform": "devpost",
-      "url": "https://learn-ai.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/519/494/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$0",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-02T02:40:16.867Z",
-      "scrapedAt": "2026-04-02T02:38:59.576Z",
-      "lastUpdated": "2026-04-02T02:40:16.867Z",
+      "processedAt": "2026-04-02T13:24:30.649Z",
+      "scrapedAt": "2026-04-02T13:23:15.383Z",
+      "lastUpdated": "2026-04-02T13:24:30.649Z",
       "version": 1
     },
     {
@@ -262,15 +262,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-02T02:40:17.873Z",
-      "scrapedAt": "2026-04-02T02:38:59.576Z",
-      "lastUpdated": "2026-04-02T02:40:17.873Z",
+      "processedAt": "2026-04-02T13:24:31.652Z",
+      "scrapedAt": "2026-04-02T13:23:15.384Z",
+      "lastUpdated": "2026-04-02T13:24:31.652Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-04-02T02:40:24.030Z"
+    "lastUpdated": "2026-04-02T13:24:37.849Z"
   }
 }

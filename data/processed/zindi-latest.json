@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-04-03T02:42:46.453Z",
+  "timestamp": "2026-04-03T13:14:06.585Z",
   "contestCount": 20,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-04-20T02:41:51.520Z",
+      "deadline": "2026-04-19T13:13:12.518Z",
       "prize": "$5 000 USD",
       "tags": [
         "llm"
@@ -27,9 +27,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:42.283Z",
-      "scrapedAt": "2026-04-03T02:41:51.520Z",
-      "lastUpdated": "2026-04-03T02:42:42.283Z",
+      "processedAt": "2026-04-03T13:14:02.453Z",
+      "scrapedAt": "2026-04-03T13:13:12.518Z",
+      "lastUpdated": "2026-04-03T13:14:02.453Z",
+      "version": 1
+    },
+    {
+      "id": "c_932eedfeb636",
+      "title": "Nedbank Transaction Volume Forecasting Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/nedbank-transaction-volume-forecasting-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "000 ZAR",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-03T13:14:02.460Z",
+      "scrapedAt": "2026-04-03T13:13:12.518Z",
+      "lastUpdated": "2026-04-03T13:14:02.460Z",
       "version": 1
     },
     {
@@ -43,7 +69,7 @@
       "contestType": "mixed",
       "status": "upcoming",
       "difficulty": "intermediate",
-      "deadline": "2026-04-17T02:41:51.520Z",
+      "deadline": "2026-04-17T13:13:12.518Z",
       "prize": "€40 000 EUR",
       "tags": [],
       "aiTools": [
@@ -54,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:42.278Z",
-      "scrapedAt": "2026-04-03T02:41:51.521Z",
-      "lastUpdated": "2026-04-03T02:42:42.278Z",
+      "processedAt": "2026-04-03T13:14:02.451Z",
+      "scrapedAt": "2026-04-03T13:13:12.519Z",
+      "lastUpdated": "2026-04-03T13:14:02.451Z",
       "version": 1
     },
     {
@@ -80,9 +106,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:42.277Z",
-      "scrapedAt": "2026-04-03T02:41:51.521Z",
-      "lastUpdated": "2026-04-03T02:42:42.277Z",
+      "processedAt": "2026-04-03T13:14:02.480Z",
+      "scrapedAt": "2026-04-03T13:13:12.519Z",
+      "lastUpdated": "2026-04-03T13:14:02.480Z",
       "version": 1
     },
     {
@@ -106,9 +132,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:42.310Z",
-      "scrapedAt": "2026-04-03T02:41:51.521Z",
-      "lastUpdated": "2026-04-03T02:42:42.310Z",
+      "processedAt": "2026-04-03T13:14:03.484Z",
+      "scrapedAt": "2026-04-03T13:13:12.519Z",
+      "lastUpdated": "2026-04-03T13:14:03.484Z",
       "version": 1
     },
     {
@@ -131,9 +157,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:43.329Z",
-      "scrapedAt": "2026-04-03T02:41:51.521Z",
-      "lastUpdated": "2026-04-03T02:42:43.329Z",
+      "processedAt": "2026-04-03T13:14:03.474Z",
+      "scrapedAt": "2026-04-03T13:13:12.519Z",
+      "lastUpdated": "2026-04-03T13:14:03.474Z",
       "version": 1
     },
     {
@@ -147,7 +173,7 @@
       "contestType": "mixed",
       "status": "upcoming",
       "difficulty": "intermediate",
-      "deadline": "2026-04-18T02:41:51.521Z",
+      "deadline": "2026-04-18T13:13:12.519Z",
       "prize": "2000 USD",
       "tags": [],
       "aiTools": [
@@ -158,9 +184,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:43.315Z",
-      "scrapedAt": "2026-04-03T02:41:51.521Z",
-      "lastUpdated": "2026-04-03T02:42:43.315Z",
+      "processedAt": "2026-04-03T13:14:03.473Z",
+      "scrapedAt": "2026-04-03T13:13:12.519Z",
+      "lastUpdated": "2026-04-03T13:14:03.473Z",
       "version": 1
     },
     {
@@ -174,7 +200,7 @@
       "contestType": "mixed",
       "status": "upcoming",
       "difficulty": "intermediate",
-      "deadline": "2026-05-01T02:41:51.521Z",
+      "deadline": "2026-05-01T13:13:12.519Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -184,9 +210,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:43.318Z",
-      "scrapedAt": "2026-04-03T02:41:51.522Z",
-      "lastUpdated": "2026-04-03T02:42:43.318Z",
+      "processedAt": "2026-04-03T13:14:03.475Z",
+      "scrapedAt": "2026-04-03T13:13:12.519Z",
+      "lastUpdated": "2026-04-03T13:14:03.475Z",
       "version": 1
     },
     {
@@ -209,9 +235,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:43.320Z",
-      "scrapedAt": "2026-04-03T02:41:51.522Z",
-      "lastUpdated": "2026-04-03T02:42:43.320Z",
+      "processedAt": "2026-04-03T13:14:03.497Z",
+      "scrapedAt": "2026-04-03T13:13:12.520Z",
+      "lastUpdated": "2026-04-03T13:14:03.497Z",
       "version": 1
     },
     {
@@ -235,9 +261,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:43.364Z",
-      "scrapedAt": "2026-04-03T02:41:51.522Z",
-      "lastUpdated": "2026-04-03T02:42:43.364Z",
+      "processedAt": "2026-04-03T13:14:04.504Z",
+      "scrapedAt": "2026-04-03T13:13:12.520Z",
+      "lastUpdated": "2026-04-03T13:14:04.504Z",
       "version": 1
     },
     {
@@ -263,9 +289,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:44.366Z",
-      "scrapedAt": "2026-04-03T02:41:51.522Z",
-      "lastUpdated": "2026-04-03T02:42:44.366Z",
+      "processedAt": "2026-04-03T13:14:04.509Z",
+      "scrapedAt": "2026-04-03T13:13:12.520Z",
+      "lastUpdated": "2026-04-03T13:14:04.509Z",
       "version": 1
     },
     {
@@ -289,9 +315,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:44.364Z",
-      "scrapedAt": "2026-04-03T02:41:51.522Z",
-      "lastUpdated": "2026-04-03T02:42:44.364Z",
+      "processedAt": "2026-04-03T13:14:04.500Z",
+      "scrapedAt": "2026-04-03T13:13:12.520Z",
+      "lastUpdated": "2026-04-03T13:14:04.500Z",
       "version": 1
     },
     {
@@ -315,9 +341,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:44.359Z",
-      "scrapedAt": "2026-04-03T02:41:51.523Z",
-      "lastUpdated": "2026-04-03T02:42:44.359Z",
+      "processedAt": "2026-04-03T13:14:04.510Z",
+      "scrapedAt": "2026-04-03T13:13:12.521Z",
+      "lastUpdated": "2026-04-03T13:14:04.510Z",
       "version": 1
     },
     {
@@ -343,9 +369,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:44.361Z",
-      "scrapedAt": "2026-04-03T02:41:51.523Z",
-      "lastUpdated": "2026-04-03T02:42:44.361Z",
+      "processedAt": "2026-04-03T13:14:04.522Z",
+      "scrapedAt": "2026-04-03T13:13:12.521Z",
+      "lastUpdated": "2026-04-03T13:14:04.522Z",
       "version": 1
     },
     {
@@ -369,9 +395,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:44.392Z",
-      "scrapedAt": "2026-04-03T02:41:51.523Z",
-      "lastUpdated": "2026-04-03T02:42:44.392Z",
+      "processedAt": "2026-04-03T13:14:05.541Z",
+      "scrapedAt": "2026-04-03T13:13:12.521Z",
+      "lastUpdated": "2026-04-03T13:14:05.541Z",
       "version": 1
     },
     {
@@ -397,9 +423,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:45.402Z",
-      "scrapedAt": "2026-04-03T02:41:51.523Z",
-      "lastUpdated": "2026-04-03T02:42:45.402Z",
+      "processedAt": "2026-04-03T13:14:05.534Z",
+      "scrapedAt": "2026-04-03T13:13:12.521Z",
+      "lastUpdated": "2026-04-03T13:14:05.534Z",
       "version": 1
     },
     {
@@ -423,9 +449,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:45.400Z",
-      "scrapedAt": "2026-04-03T02:41:51.524Z",
-      "lastUpdated": "2026-04-03T02:42:45.400Z",
+      "processedAt": "2026-04-03T13:14:05.535Z",
+      "scrapedAt": "2026-04-03T13:13:12.521Z",
+      "lastUpdated": "2026-04-03T13:14:05.535Z",
       "version": 1
     },
     {
@@ -449,9 +475,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:45.398Z",
-      "scrapedAt": "2026-04-03T02:41:51.524Z",
-      "lastUpdated": "2026-04-03T02:42:45.398Z",
+      "processedAt": "2026-04-03T13:14:05.531Z",
+      "scrapedAt": "2026-04-03T13:13:12.522Z",
+      "lastUpdated": "2026-04-03T13:14:05.531Z",
       "version": 1
     },
     {
@@ -475,9 +501,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:45.399Z",
-      "scrapedAt": "2026-04-03T02:41:51.524Z",
-      "lastUpdated": "2026-04-03T02:42:45.399Z",
+      "processedAt": "2026-04-03T13:14:05.555Z",
+      "scrapedAt": "2026-04-03T13:13:12.523Z",
+      "lastUpdated": "2026-04-03T13:14:05.555Z",
       "version": 1
     },
     {
@@ -501,40 +527,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:45.427Z",
-      "scrapedAt": "2026-04-03T02:41:51.524Z",
-      "lastUpdated": "2026-04-03T02:42:45.427Z",
-      "version": 1
-    },
-    {
-      "id": "c_ba246fff6fbe",
-      "title": "Measuring What Matters Proposal Challenge by ITU",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/measuring-what-matters-proposal-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:46.446Z",
-      "scrapedAt": "2026-04-03T02:41:51.524Z",
-      "lastUpdated": "2026-04-03T02:42:46.446Z",
+      "processedAt": "2026-04-03T13:14:06.574Z",
+      "scrapedAt": "2026-04-03T13:13:12.523Z",
+      "lastUpdated": "2026-04-03T13:14:06.574Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-04-03T02:42:46.453Z"
+    "lastUpdated": "2026-04-03T13:14:06.585Z"
   }
 }

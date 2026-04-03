@@ -1,6 +1,6 @@
 {
   "platform": "all",
-  "timestamp": "2026-04-03T02:42:46.454Z",
+  "timestamp": "2026-04-03T13:14:06.587Z",
   "contestCount": 47,
   "contests": [
     {
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:36.249Z",
-      "scrapedAt": "2026-04-03T02:41:48.801Z",
-      "lastUpdated": "2026-04-03T02:42:36.249Z",
+      "processedAt": "2026-04-03T13:13:56.146Z",
+      "scrapedAt": "2026-04-03T13:13:09.874Z",
+      "lastUpdated": "2026-04-03T13:13:56.146Z",
       "version": 1
     },
     {
@@ -42,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T02:41:48.801Z",
+      "deadline": "2030-08-14T13:13:09.874Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -53,9 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:37.017Z",
-      "scrapedAt": "2026-04-03T02:41:48.801Z",
-      "lastUpdated": "2026-04-03T02:42:37.017Z",
+      "processedAt": "2026-04-03T13:13:57.081Z",
+      "scrapedAt": "2026-04-03T13:13:09.874Z",
+      "lastUpdated": "2026-04-03T13:13:57.081Z",
       "version": 1
     },
     {
@@ -69,7 +69,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T02:41:48.801Z",
+      "deadline": "2045-09-01T13:13:09.875Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -80,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:37.004Z",
-      "scrapedAt": "2026-04-03T02:41:48.801Z",
-      "lastUpdated": "2026-04-03T02:42:37.004Z",
+      "processedAt": "2026-04-03T13:13:57.114Z",
+      "scrapedAt": "2026-04-03T13:13:09.875Z",
+      "lastUpdated": "2026-04-03T13:13:57.114Z",
       "version": 1
     },
     {
@@ -96,7 +96,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T02:41:48.801Z",
+      "deadline": "2030-12-30T13:13:09.875Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -110,9 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:37.057Z",
-      "scrapedAt": "2026-04-03T02:41:48.801Z",
-      "lastUpdated": "2026-04-03T02:42:37.057Z",
+      "processedAt": "2026-04-03T13:13:57.130Z",
+      "scrapedAt": "2026-04-03T13:13:09.875Z",
+      "lastUpdated": "2026-04-03T13:13:57.130Z",
       "version": 1
     },
     {
@@ -138,9 +138,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:37.018Z",
-      "scrapedAt": "2026-04-03T02:41:48.802Z",
-      "lastUpdated": "2026-04-03T02:42:37.018Z",
+      "processedAt": "2026-04-03T13:13:57.120Z",
+      "scrapedAt": "2026-04-03T13:13:09.876Z",
+      "lastUpdated": "2026-04-03T13:13:57.120Z",
       "version": 1
     },
     {
@@ -164,9 +164,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:37.218Z",
-      "scrapedAt": "2026-04-03T02:41:48.802Z",
-      "lastUpdated": "2026-04-03T02:42:37.218Z",
+      "processedAt": "2026-04-03T13:13:57.154Z",
+      "scrapedAt": "2026-04-03T13:13:09.877Z",
+      "lastUpdated": "2026-04-03T13:13:57.154Z",
       "version": 1
     },
     {
@@ -193,9 +193,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:38.105Z",
-      "scrapedAt": "2026-04-03T02:40:56.063Z",
-      "lastUpdated": "2026-04-03T02:42:38.105Z",
+      "processedAt": "2026-04-03T13:13:58.160Z",
+      "scrapedAt": "2026-04-03T13:12:18.101Z",
+      "lastUpdated": "2026-04-03T13:13:58.160Z",
       "version": 1
     },
     {
@@ -203,17 +203,15 @@
       "title": "Authorized to Act: Auth0 for AI Agents",
       "platform": "devpost",
       "url": "https://authorizedtoact.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/002/datas/original.png",
-      "description": "Push the boundaries of what AI agents can do and become. As we know, OpenClaw is taking the AI world by storm with sovereign AI that runs locally, and even on browsers and phones. We’re seeing the supply for MacMini’s drying up, since users don’t really want to expose their real machines. What if I told you, now you can more securely keep OpenClaw in restricted mode and let it communicate with your apps in the outside world through an intermediary agent you build? Auth0 for AI Agents provides the identity layer that lets your agents authenticate, authorize, and interact with APIs and services the way humans do. For the Authorized to Act Hackathon, build anything – the only requirement is to build with Token Vault from Auth0 for AI Agents. Let Auth0 handle the OAuth flows, token management, and consent delegation so you can stay focused. Need async auth or step-up authentication? Leave that to Auth0 for AI Agents as well. What will you create? A deeper integration into your users' digital lives that keeps them in control? A continuous agent that spans sub-agents like you’ve got tokens to burn? Dive in and build the future! Why Join This Hackathon? Innovate: Push the boundaries of generative AI and leverage Auth0 for AI Agents Compete: with a prize pool of $10,000 in cash and lots of prizes, you can win monetarily and experientially. Enrich Your Skills: access the dedicated resources, examples, and docs you need to succeed on your mission. Network: Make friends, get recognition, and enhance your portfolio.",
-      "summary": "Push the boundaries of what AI agents can do and become. As we know, OpenClaw is taking the AI world by storm with sovereign AI that runs locally, and even on browsers and phones. We’re seeing the sup...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/002/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-07T06:45:00.000Z",
       "prize": "$10,000",
       "tags": [
-        "Open Ended",
-        "Beginner Friendly"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -221,17 +219,11 @@
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [
-        "is to build with Token Vault from Auth0 for AI Agents. Let Auth0 handle the OAuth flows",
-        "token management",
-        "000 in cash and lots of prizes",
-        "you can win monetarily and experientially. Enrich Your Skills: access the dedicated resources",
-        "examples"
-      ],
+      "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:38.112Z",
-      "scrapedAt": "2026-04-03T02:41:23.036Z",
-      "lastUpdated": "2026-04-03T02:42:38.112Z",
+      "processedAt": "2026-04-03T13:13:58.154Z",
+      "scrapedAt": "2026-04-03T13:12:44.556Z",
+      "lastUpdated": "2026-04-03T13:13:58.154Z",
       "version": 1
     },
     {
@@ -239,17 +231,15 @@
       "title": "Agents Assemble - The Healthcare AI Endgame",
       "platform": "devpost",
       "url": "https://agents-assemble.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/original.png",
-      "description": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. Thank you for your interest and understanding. Agents Assemble: The Healthcare AI Endgame Challenge Build Interoperable Healthcare Agents at the Intersection of MCP, A2A, and FHIR. We have all watched the AI in healthcare trailers - the hype, the theories, and the cool demos. But now, we have entered the Endgame. At Prompt Opinion, we define this phase as \"The Last Mile\" - the critical gap where raw intelligence must be converted into actionable deliverables. To conquer this mile, we cannot work alone. We are proud to launch Agents Assemble, a builder’s competition designed to prove that the power of AI lies in collaboration. Our platform provides the headquarters for this mission, giving you native access to the industry's best tools to build in two distinct ways: you can forge a Superpower (building the MCP tools that fuel the ecosystem), or you can rise up to build a Full Agent (equipping those superpowers to tackle a specific healthcare challenge). The technology is ready. The platform is open. It’s time to assemble. Why Participate? This competition is a launchpad for AI solutions that will power future healthcare workflows. Here is why you should join: Lucrative Cash Prizes: Compete for a total prize pool of $25,000 USD in cash, including a $7,500 Grand Prize. Widespread Visibility: Successful projects will be published in the Prompt Opinion Marketplace, making them discoverable and invokable by organizations across the ecosystem. Develop Skills That Matter: Gain hands-on experience with the Model Context Protocol (MCP) and Agent-to-Agent (A2A) standards for building AI agents. Build Healthcare Ready Solutions: Learn how by using the SHARP extension specs from Prompt Opinion, your tools and agents will seamlessly propagate data context using FHIR through multi-agent call chains. Collaborate and Network: Join a community of like-minded innovators and connect with leaders at Prompt Opinion who are shaping the future of AI infrastructure. Bragging Rights: Beyond the prizes, you will walk away with the pride of having built a functional, standards-compliant AI solution that can integrate directly into a clinician's workspace.",
-      "summary": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. ...",
-      "contestType": "text",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-05-12T03:00:00.000Z",
       "prize": "$25,000",
       "tags": [
-        "Health",
-        "Beginner Friendly"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -259,9 +249,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:38.100Z",
-      "scrapedAt": "2026-04-03T02:41:23.037Z",
-      "lastUpdated": "2026-04-03T02:42:38.100Z",
+      "processedAt": "2026-04-03T13:13:58.165Z",
+      "scrapedAt": "2026-04-03T13:12:44.557Z",
+      "lastUpdated": "2026-04-03T13:13:58.165Z",
       "version": 1
     },
     {
@@ -269,49 +259,14 @@
       "title": "ZerveHack",
       "platform": "devpost",
       "url": "https://zervehack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/278/921/datas/original.png",
-      "description": "What is Zerve? Zerve is an AI-native data science platform. Start with a question, not a blank script. Zerve's agent writes the code, iterates on errors and runs the analysis while you steer. When you're ready, deploy it as an API or app without leaving the platform. The Challenge Use Zerve to build something original. Analyze a dataset, uncover insights, and ship something others can use: an analysis, an app, an API, or all three. No constraints on topic. No prescribed methodology. Bring a question and see how far you can take it. The best submissions will feel like they couldn't have been built the old way. Manual queries, disconnected tools, endless waiting on the data team. Show us what's possible when AI handles the execution and you drive the direction. Getting Started Navigate to the resources tab to signup and get started!",
-      "summary": "What is Zerve? Zerve is an AI-native data science platform. Start with a question, not a blank script. Zerve's agent writes the code, iterates on errors and runs the analysis while you steer. When you...",
-      "contestType": "code",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-04-29T18:00:00.000Z",
-      "prize": "$10,000",
-      "tags": [
-        "Machine Learning",
-        "AI"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:38.105Z",
-      "scrapedAt": "2026-04-03T02:41:23.038Z",
-      "lastUpdated": "2026-04-03T02:42:38.105Z",
-      "version": 1
-    },
-    {
-      "id": "c_cb59033a73f2",
-      "title": "ImpactHacks by HackathonForAll",
-      "platform": "devpost",
-      "url": "https://impacthacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/398/421/datas/original.png",
-      "description": "ImpactHacks by HackathonForAll ImpactHacks is a beginner-friendly online hackathon designed to empower students of all experience levels to turn ideas into real-world impact. Our mission is to make coding and project-building accessible to everyone, whether you’re a first-time hacker or an experienced builder. Participants will form teams, brainstorm innovative solutions, and build projects that focus on social good, open-ended creativity, and practical problem-solving. Our goal is to create a supportive environment where everyone can learn, collaborate, and showcase their work. Why ImpactHacks is special: Inclusive for all skill levels: No prior experience? No problem — we provide tutorials, resources, and mentor support throughout the hackathon. Mentorship & guidance: Experienced mentors will be available in Discord to help you overcome technical challenges. Community-first: Join a growing student-led community of builders, share ideas, and network with peers. Exciting prizes: Compete for a $1,300 grand prize and additional prizes. Every participant gains 1 month of free Featherless.ai Premium subscription to help them with their project (worth $25) Learn while you hack: Our hackathon doubles as a learning experience — tutorials, guides, and resources are available for all participants. Whether you’re coding your first project or your fifth, ImpactHacks gives you the tools, guidance, and community to build something meaningful and make your ideas come to life.",
-      "summary": "ImpactHacks by HackathonForAll ImpactHacks is a beginner-friendly online hackathon designed to empower students of all experience levels to turn ideas into real-world impact. Our mission is to make co...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/278/921/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
-      "difficulty": "beginner",
-      "deadline": "2026-04-24T06:45:00.000Z",
-      "prize": "$1,000",
-      "tags": [
-        "Beginner Friendly",
-        "Open Ended",
-        "Social Good"
-      ],
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$10,000",
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -320,9 +275,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:38.153Z",
-      "scrapedAt": "2026-04-03T02:41:23.038Z",
-      "lastUpdated": "2026-04-03T02:42:38.153Z",
+      "processedAt": "2026-04-03T13:13:58.158Z",
+      "scrapedAt": "2026-04-03T13:12:44.558Z",
+      "lastUpdated": "2026-04-03T13:13:58.158Z",
       "version": 1
     },
     {
@@ -330,33 +285,51 @@
       "title": "Learning Hackathon: Spec Driven Development",
       "platform": "devpost",
       "url": "https://learn-ai.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/519/494/datas/original.png",
-      "description": "About the challenge Devpost is launching a new kind of hackathon — shorter, built around learning, and the first in a series. You know the drill: you tell an AI to build you an app, and it kind of works, but the code's a mess and you're not sure what half of it does. Then, when you try to make a big improvement, you end up scrapping it and starting over from scratch. That's what happens when you don't know the best practices of building with AI. This hackathon teaches you spec-driven development — a better way to build with AI. Install a plugin inside Claude Code, plan your app with an AI learning partner, build it, and submit. Most people finish in 4–6 hours. No prizes, no judges — just skills you'll actually use (and a new Devpost badge!). Whether you're learning to code or shipping production software, the plugin will meet you where you are. GETTING STARTED Visit our Resources page for full setup instructions & tutorial on using our Claude Code plugin. Here are also some videos on the process: How to vibe code like a pro Learning plugin walkthrough Claude Code and Plugin Installation You can also access the plugin directly on GitHub at: https://github.com/challengepost/devpost-curriculum A Claude Pro or Max subscription — required to use Claude Code. If you're unsure whether you have one, check before you start. This was the #1 setup surprise in our beta. You'll need to use Claude on your computer! WHY PARTICIPATE Learn by Doing: This isn't a course you watch. You plan, build, and ship a real app — and the process teaches you how to do it again on your own. It's interactive. You'll work inside Claude Code with a custom AI learning partner that guides you through each step — from brainstorming to submission. Think of it less like a tutorial and more like a creative riff session with a smart collaborator. Level Playing Field: No experience requirements beyond the tools listed below. The plugin adapts to your level. Keep the Artifacts: Walk away with a scope document, a requirements doc, a technical spec, a build checklist, and a working app. These are real workflows you can reuse — treat them as templates for your future projects. What You'll Learn Spec-driven development — planning with AI before building, so your projects are intentional instead of generic Flipped interaction prompting — making the AI interview you, not the other way around Context management — keeping your AI productive across sessions instead of starting from scratch every time Verification habits — checking your work at each step so you don't get out over your skis",
-      "summary": "About the challenge Devpost is launching a new kind of hackathon — shorter, built around learning, and the first in a series. You know the drill: you tell an AI to build you an app, and it kind of wor...",
-      "contestType": "video",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/519/494/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-29T21:00:00.000Z",
       "prize": "$0",
-      "tags": [
-        "Beginner Friendly",
-        "Open Ended"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [
-        "a requirements doc",
-        "a technical spec",
-        "a build checklist"
-      ],
+      "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:39.153Z",
-      "scrapedAt": "2026-04-03T02:41:23.039Z",
-      "lastUpdated": "2026-04-03T02:42:39.153Z",
+      "processedAt": "2026-04-03T13:13:58.201Z",
+      "scrapedAt": "2026-04-03T13:12:44.559Z",
+      "lastUpdated": "2026-04-03T13:13:58.201Z",
+      "version": 1
+    },
+    {
+      "id": "c_cb59033a73f2",
+      "title": "ImpactHacks by HackathonForAll",
+      "platform": "devpost",
+      "url": "https://impacthacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/398/421/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$1,000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-03T13:13:59.189Z",
+      "scrapedAt": "2026-04-03T13:12:44.563Z",
+      "lastUpdated": "2026-04-03T13:13:59.189Z",
       "version": 1
     },
     {
@@ -364,19 +337,14 @@
       "title": "INNOSpark Pitch Competition",
       "platform": "devpost",
       "url": "https://innospark-competition.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/307/085/datas/original.png",
-      "description": "About INNOSpark INNOSpark is a youth-led nonprofit dedicated to equipping the next generation of entrepreneurs with the skills, networks, and opportunities they need to turn ideas into impact. To date, we have mentored 200+ students and hosted 2 pitch competitions. Our Goal Our mission is to make entrepreneurship education accessible to all students worldwide. Most students never get the chance to create something their own because the resources, mentorship, and opportunities simply aren't available to them. INNOSpark exists to close that gap. We bring entrepreneurship education directly to students through workshops, content, and competitions that turn ideas into actual projects. INNOSpark Pitch Competition About the Challenge In April 2026, INNOSpark is hosting the largest student-led pitch competition in the world — a virtual event where high school students from around the world can pitch their business, nonprofit, or passion project, gain exposure to industry mentors, and compete for a $10,000 prize pool. Whether you have a fully-built startup or just a compelling idea, this is your stage. Who Can Participate? High school students worldwide (all grades) Solo founders or teams (up to 4 members) Businesses, nonprofits, social ventures, and passion projects Students with or without an existing startup/business Cost: 100% free to enter. https://www.instagram.com/reel/DVW5VZWDg4e/?igsh=N3NheWtnejFucWFk",
-      "summary": "About INNOSpark INNOSpark is a youth-led nonprofit dedicated to equipping the next generation of entrepreneurs with the skills, networks, and opportunities they need to turn ideas into impact. To date...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/307/085/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-05T03:45:00.000Z",
       "prize": "$3,000",
-      "tags": [
-        "Beginner Friendly",
-        "Education",
-        "Social Good"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -385,9 +353,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:39.151Z",
-      "scrapedAt": "2026-04-03T02:41:23.042Z",
-      "lastUpdated": "2026-04-03T02:42:39.151Z",
+      "processedAt": "2026-04-03T13:13:59.193Z",
+      "scrapedAt": "2026-04-03T13:12:44.563Z",
+      "lastUpdated": "2026-04-03T13:13:59.193Z",
       "version": 1
     },
     {
@@ -395,20 +363,14 @@
       "title": "Creator Colosseum Startup Competition: Student Founders. Real Startups.",
       "platform": "devpost",
       "url": "https://creatorcolosseumcompetition26.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/399/737/datas/original.png",
-      "description": "The Creator Colosseum Startup Competition is a global, online startup competition for students ages 13–18, organized by Creator Colosseum, a student-founded initiative focused on making entrepreneurship accessible at an early stage. The goal of this competition is to help student founders take real ideas seriously. Participants submit realistic startup concepts that matter to them and their communities, receive professional evaluation, and gain exposure to what it actually takes to move an idea forward. The Creator Colosseum Startup Competition gives you the opportunity to receive meaningful feedback, real-world validation, and mentorship from experienced entrepreneurs. Whether your idea includes code, design, or a business model still being refined, this competition meets you where you are and helps you grow. The competition is entirely virtual, free to enter, and designed to reward clarity, originality, and execution rather than polish alone.",
-      "summary": "The Creator Colosseum Startup Competition is a global, online startup competition for students ages 13–18, organized by Creator Colosseum, a student-founded initiative focused on making entrepreneursh...",
-      "contestType": "code",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/399/737/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-05-05T04:00:00.000Z",
       "prize": "$575",
-      "tags": [
-        "Beginner Friendly",
-        "Low",
-        "No Code",
-        "Social Good"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -417,9 +379,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:39.151Z",
-      "scrapedAt": "2026-04-03T02:41:23.042Z",
-      "lastUpdated": "2026-04-03T02:42:39.151Z",
+      "processedAt": "2026-04-03T13:13:59.189Z",
+      "scrapedAt": "2026-04-03T13:12:44.564Z",
+      "lastUpdated": "2026-04-03T13:13:59.189Z",
       "version": 1
     },
     {
@@ -427,19 +389,14 @@
       "title": "Ideathon 2026",
       "platform": "devpost",
       "url": "https://ideathone-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/417/106/datas/original.png",
-      "description": "Hey there! Let's see what happens when we bring creative minds together to solve real-life problems! Here's everything you need to know about this exciting ideathon: ⚠️ MUST use ASI-1 in their idea (even if just planning how ASI-1 would be integrated) ⚠️ MUST complete registration form before starting ⚠️ Document all ASI-1 interactions - show how AI helped shape their idea ⚠️ No offensive or harmful content",
-      "summary": "Hey there! Let's see what happens when we bring creative minds together to solve real-life problems! Here's everything you need to know about this exciting ideathon: ⚠️ MUST use ASI-1 in their idea (e...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/417/106/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-25T11:30:00.000Z",
       "prize": "₹ 45,000",
-      "tags": [
-        "Education",
-        "Lifehacks",
-        "Social Good"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -448,9 +405,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:39.157Z",
-      "scrapedAt": "2026-04-03T02:41:23.043Z",
-      "lastUpdated": "2026-04-03T02:42:39.157Z",
+      "processedAt": "2026-04-03T13:13:59.196Z",
+      "scrapedAt": "2026-04-03T13:12:44.564Z",
+      "lastUpdated": "2026-04-03T13:13:59.196Z",
       "version": 1
     },
     {
@@ -458,19 +415,14 @@
       "title": "Hack Trek",
       "platform": "devpost",
       "url": "https://hack-trek.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/336/380/datas/original.png",
-      "description": "🚀 Hackathon Site – Main Description 🤖 AI Automate 2026 – Build the Future with Machine Learning & Automation Welcome to AI Automate 2026, a high-intensity innovation sprint focused on solving real-world problems using Machine Learning, AI Agents, and Intelligent Automation. This hackathon challenges participants to build systems that can think, learn, decide, and act autonomously. Whether it's: 🤖 AI Agents automating workflows 📊 ML models solving real-world prediction problems 🧠 LLM-powered assistants 🔄 RPA + AI integrations 📡 Smart IoT automation 🏦 AI in fintech, healthcare, cybersecurity, or sustainability We want solutions that reduce human effort, improve decision-making, and scale impact.",
-      "summary": "🚀 Hackathon Site – Main Description 🤖 AI Automate 2026 – Build the Future with Machine Learning & Automation Welcome to AI Automate 2026, a high-intensity innovation sprint focused on solving real-w...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/336/380/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-17T11:30:00.000Z",
       "prize": "₹ 10,000",
-      "tags": [
-        "llm",
-        "Open Ended",
-        "Web"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -479,9 +431,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:39.186Z",
-      "scrapedAt": "2026-04-03T02:41:23.043Z",
-      "lastUpdated": "2026-04-03T02:42:39.186Z",
+      "processedAt": "2026-04-03T13:13:59.216Z",
+      "scrapedAt": "2026-04-03T13:12:44.565Z",
+      "lastUpdated": "2026-04-03T13:13:59.216Z",
       "version": 1
     },
     {
@@ -489,19 +441,14 @@
       "title": "GatewayGS Hackathon",
       "platform": "devpost",
       "url": "https://gateway-hackathon-27996.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/191/495/datas/original.png",
-      "description": "About the challenge This hackathon is an open-ended AI problem-solving challenge. Participants are free to identify a real-world problem of their choosing and design a solution using modern AI tools and techniques. Rather than restricting teams to a narrow theme, the event emphasizes: Creative problem selection Practical, real-world impact Thoughtful use of AI (LLMs, APIs, automation, data, agents, etc.) Clear articulation of why the solution matters Projects can span any domain (healthcare, education, productivity, climate, finance, accessibility, etc.), as long as AI plays a meaningful role in the solution. Teams will be evaluated on problem clarity, technical implementation, innovation, and potential impact. Get started Form a team (or work solo) Identify a problem you care about or have personally observed Design and build an AI-powered solution using any tools or platforms you choose Submit your project with a short explanation of the problem, solution, and AI usagd No prior hackathon experience is required. This event is designed to be welcoming to beginners while still offering depth and challenge for experienced builders.",
-      "summary": "About the challenge This hackathon is an open-ended AI problem-solving challenge. Participants are free to identify a real-world problem of their choosing and design a solution using modern AI tools a...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/191/495/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
-      "difficulty": "beginner",
-      "deadline": "2026-04-06T03:45:00.000Z",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "1",
-      "tags": [
-        "llm",
-        "Beginner Friendly",
-        "Open Ended"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -510,195 +457,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:40.188Z",
-      "scrapedAt": "2026-04-03T02:41:23.044Z",
-      "lastUpdated": "2026-04-03T02:42:40.188Z",
-      "version": 1
-    },
-    {
-      "id": "c_55b782bf5e48",
-      "title": "XGuard护栏揭榜赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/197",
-      "imageUrl": "",
-      "description": "XGuard护栏揭榜赛是【大模型安全撬壳计划】系列赛事之一。由阿里巴巴集团安全部主办、致力于为广大AI安全爱好者与开发者提供一个开放协作的创意舞台，通过持续的模型测评、衍生二创与安全加固，推动 “XGuard护栏”进入越用越强、越用越广的良性发展轨道。\n\n在2026年，大模型已无处不在，但“安全”之路依旧漫长本次大赛由阿里巴巴集团安全部发起，不仅是一场比赛，更是一次直通阿里核心团队的实战演练我们重磅开源了XGuard安全护栏模型+亿级Token高质语料诚挚邀请AI前线的你，去二创、去衍生、去重构！我们用10万奖金 + 亿级Token语料 + 硬核装备（MAC MINI、MacBook Neo等）+GPU算力全力加持只为寻找下一代AI安全“先行者”！（一键查收：XGuard护栏揭榜赛-赛事说明书）赛事介绍赛事背景XGuard护栏揭榜赛是【大模型安全撬壳计划】系列赛事之一。由阿里巴巴集团安全部主办、致力于为广大AI安全爱好者与开发者提供一个开放协作的创意舞台，通过持续的模型测评、衍生二创与安全加固，推动 “XGuard护栏”进入越用越强、越用越广的良性发展轨道。赛程时间面向人群不设边界，全员开放！无论身处校园还是职场，无论深耕技术还是钻研哲学，只要你对AI感兴趣，这里就是你的绽放舞台！报名流程点击右上方“立即报名”，选择对应身份（学生/在职/科研），填写全部信息即可完成；信息越完整，获奖概率越高比赛玩法：两大热血赛道，小白大神都可玩赛道一：逆袭吧！创二代！🔴适合人群： 算法高手、模型训练专家、想挑战技术高度的极客🔴难度系数： ⭐⭐⭐⭐⭐🔴玩法规则：选手需基于 XGuard 开源数据集（允许扩充新数据），结合 XGuard 模型或其他开源模型（10B 及以下），训练并提交专属的安全护栏模型。具体详见XGuard护栏揭榜赛-赛事说明书🔴赛道奖励：TOP 10 选手直接瓜分 50,000 元现金大奖！赛道二：破圈吧！抓码者！🔴适合人群： 技术博主、创意开发者、自媒体达人、对AI安全感兴趣均可玩🔴难度系数： ⭐⭐（上手容易，获奖率高）（本赛道分两个支线，无需打榜，作品优质就有好礼！）支线A:我是布道师玩法： 撰写深度评测报告，并发布在各大平台（小红书、B站、知乎、公众号、CSDN等）。具体详见XGuard护栏揭榜赛-赛事说明书奖励：标配奖励：发布即得价值500元的福袋（999足金手机贴+电动牙刷+阿里巴巴双肩背包）plus奖励：根据阅读量/播放量水位，瓜分 50,000 元现金奖池！支线B:我是创二代玩法：基于 XGuard护栏模型 或 数据集 进行二次开发、优化或衍生，具体详见XGuard护栏揭榜赛-赛事说明书奖励：标配奖励：发布即得价值1000元的福袋（999足金手机贴+电动牙刷+阿里巴巴双肩背包+SKG颈部按摩仪+星礼卡200元）plus奖励：根据项目下载量/Star数水位，瓜分 50,000 元现金奖池！参赛收益💰真金白银，拒绝画饼50,000元二创奖 + 50,000元破圈奖！不设门槛，只看作品，让你的创意直接折现💰🎁周周有惊喜，欧气不断电MAC MINI、千问眼镜、MacBook Neo... 总价值 5 万的装备库随时掉落！参与每周活动就能抽设备💻算力自由，从参赛开始！参赛即送 20 小时 GPU 算力，更有 100 小时算力盲盒随机空投！TOP 20 选手直接必得100 小时。跑模型不卡顿，灵感才能跑得更快。🚀官方证书，认可度拉满TOP 20 专属阿里巴巴认证的荣誉证书，不仅是荣誉，更是你技术履历上的高光时刻学生专属激励：简历诊断、招聘直通、职位详情，请进赛事群获取相关咨询！（钉钉群号： 168975002855）赛事规则所有评审规则、提交细节、赛事QA等内容，请查收这本参赛的答案之书《XGuard护栏揭榜赛-赛事说明书》加入官方钉群榜单查看、赛事资讯、问题咨询、活动详情都可加赛事官方钉群（一定要加群！！）添加开源小助手+发送“参赛”，邀您进微信群AAIG开源交流群，钉钉群号： 168975002855主办单位",
-      "summary": "XGuard护栏揭榜赛是【大模型安全撬壳计划】系列赛事之一。由阿里巴巴集团安全部主办、致力于为广大AI安全爱好者与开发者提供一个开放协作的创意舞台，通过持续的模型测评、衍生二创与安全加固，推动 “XGuard护栏”进入越用越强、越用越广的良性发展轨道。\n\n在2026年，大模型已无处不在，但“安全”之路依旧漫长本次大赛由阿里巴巴集团安全部发起，不仅是一场比赛，更是一次直通阿里核心团队的实战演练我们重...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-25T15:59:00.000Z",
-      "prize": "10万元奖金+5万元礼品",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:40.206Z",
-      "scrapedAt": "2026-04-03T02:40:45.555Z",
-      "lastUpdated": "2026-04-03T02:42:40.206Z",
-      "version": 1
-    },
-    {
-      "id": "c_51def9b51f43",
-      "title": "第二届“数龙杯”全球AI创新大赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/198",
-      "imageUrl": "",
-      "description": "第二届“数龙杯”全球AI创新大赛由A股上市公司世纪华通（002602.SZ)发起，获中国音数协、上海市浦东区委宣传部、上海市文化创意产业促进会上海市网络游戏行业协会等多方指导，致力于发掘兼具创新灵魂与市场潜力的AI游戏及创新型应用标杆。\n\n一、比赛介绍第二届“数龙杯”全球AI创新大赛由A股上市公司世纪华通（002602.SZ)发起，获中国音数协、上海市浦东区委宣传部、上海市文化创意产业促进会上海市网络游戏行业协会等多方指导，致力于发掘兼具创新灵魂与市场潜力的AI游戏及创新型应用标杆。二、比赛赛道AI游戏、AI应用、AI智能体三、赛程安排1、作品征集4月2日 - 5月31日2、初赛评审与资格核定 6月1日 - 6月15日3、决赛入围 6月16日 - 6月30日4、线下总决赛暨答辩会 7月中旬5、颁奖盛典 7月31日四、参赛须知1、征集对象：全球范围内的游戏开发者、AI开发者、高校学生及相关爱好者。2、参赛要求01：参赛者可选择以个人或团队形式报名，但不得重复报名。报名时需按照组委会要求提交相关证明材料，以便进行身份核实。02：参赛者提交的所有内容，包括但不限于团队及游戏名称、游戏内容等，必须严格遵守国家法律法规、政策规章及公序良俗。严禁出现侵犯第三方知识产权或其他合法权益的内容，禁止涉及政治、暴力、色情、人身攻击（包括但不限于侮辱、诽谤）、反人类、亵渎宗教等内容。一经发现，主办方有权取消参赛资格并收回已发放的奖励。03：参赛者必须遵循公平公正的原则，确保作品的真实性。严禁通过不正当手段参与比赛，例如提供虚假信息、雇佣他人代为参赛等。一旦核实存在此类行为，将立即取消其参赛及获奖资格。3、作品规范01：作品需围绕AI在游戏中的实际使用，海选阶段需要提交作品说明文档及演示视频；复审及线下评审环节需要确保其具有应用性和可演示性。02：作品可融合创新的AI游戏玩法、AI应用场景以及技术实现方式。4、作品提交参与者需点击页面上方的按钮，完成账号注册并成功登录，在规定的截止日期前填写完整的报名信息。在作品征集截止时间前，参赛者可以对已提交的游戏进行多次更新和完善，以截止时间前最终提交结果为准。5、素材版权说明参赛者须确保对作品中使用的软件、素材资源拥有版权或合法使用权。如果使用开源资源，需严格遵守其开源协议。参赛作品的版权归创作团队所有，但参赛即视为同意主办方世纪华通可在其相关网站和线下活动中免费使用提交的作品。世纪华通承诺对参赛者的个人信息及作品信息严格保密，不会在未经参赛者同意的前提下用于本活动以外的任何其他目的。6、其他参赛者提交作品或报名信息后，即视为不可撤销地接受上述参赛须知以及世纪华通不时发布的相关协议和参赛规则。如因不可抗力或其他不可归责于世纪华通的原因导致活动无法正常进行或参赛者无法参与，世纪华通有权暂停或取消活动且无需承担任何责任。在法律法规允许的范围内，世纪华通保留对本次比赛规则进行修改、调整和最终解释的权利。五、奖项设置最佳AI游戏奖聚焦：游戏性与技术融合创新主奖1名，奖金￥50,000提名奖2名，奖金￥20,000最佳AI应用奖聚焦：产品价值、用户体验与技术壁垒主奖1名，奖金￥50,000提名奖2名，奖金￥20,000最具商业价值奖聚焦：数据验证与规模化潜力主奖1名，奖金￥50,000提名奖2名，奖金￥20,000最佳新秀奖聚焦：创意突破与团队潜力（优先大学生团队）主奖1名，奖金￥30,000提名奖2名，奖金￥10,000最佳“养虾”创新奖聚焦：AI智能体实操新标杆主奖1名，奖金￥20,000提名奖2名，奖金￥5,000最佳国际团队奖聚焦：海外团队的创新能力（限海外团队）主奖1名，奖金￥30,000六、评审逻辑：最佳AI游戏奖：是否足够好玩、耐玩？AI是否创造了传统技术无法实现的新玩法、新体验或新内容？最佳AI应用奖：是否精准解决了高价值问题？用户体验是否卓越？是否具备独特的技术或设计护城河，防止被轻易替代？最具商业价值奖：用户增长、留存、付费等核心数据是否健康？商业模式是否清？最佳新秀奖：想法是否具有突破性的原创力和启发性？团队是否独特？项目是否展现出巨大的成长可能性？（本奖项将优先考虑大学生及青年创业团队）最佳国际团队奖：限海外主体报名，海外团队专属奖励。最佳“养虾”创新奖：考察智能体任务执行效率：在目标应用场景中（如工业协作、智能交互、场景运维等），完成任务的效率、精准度，对比常规方案的优化幅度；与人类操作的配合度、交互便捷性，是否能降低人工成本、提升整体工作效率。报名网站：https://aicht.sjhuatong.com/联系我们：ai.cht@digiloong.com",
-      "summary": "第二届“数龙杯”全球AI创新大赛由A股上市公司世纪华通（002602.SZ)发起，获中国音数协、上海市浦东区委宣传部、上海市文化创意产业促进会上海市网络游戏行业协会等多方指导，致力于发掘兼具创新灵魂与市场潜力的AI游戏及创新型应用标杆。\n\n一、比赛介绍第二届“数龙杯”全球AI创新大赛由A股上市公司世纪华通（002602.SZ)发起，获中国音数协、上海市浦东区委宣传部、上海市文化创意产业促进会上海市...",
-      "contestType": "video",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-31T15:59:00.000Z",
-      "prize": "丰厚奖金池+投资孵化",
-      "tags": [
-        "应用开发赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "提交作品说明文档及演示视频",
-        "复审及线下评审环节需要确保其具有应用性和可演示性。02：作品可融合创新的AI游戏玩法、AI应用场景以及技术实现方式。4、作品提交参与者需点击页面上方的按钮",
-        "完成账号注册并成功登录",
-        "在规定的截止日期前填写完整的报名信息。在作品征集截止时间前",
-        "参赛者可以对已提交的游戏进行多次更新和完善"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:40.195Z",
-      "scrapedAt": "2026-04-03T02:40:45.555Z",
-      "lastUpdated": "2026-04-03T02:42:40.195Z",
-      "version": 1
-    },
-    {
-      "id": "c_2ba651f3e5bc",
-      "title": "【“中国云谷”高校训练营暨ROS春季学校2026】闭幕式观众招募",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/210",
-      "imageUrl": "",
-      "description": "4月4日-4月6日举办“中国云谷”高校训练营，闭幕式于4月6日14:00正式开始！\n\n⏰ 时间： 4月6日（周一）14:00-17:30📍 地点： 杭州市西湖区灯彩街1009号云谷中心-A6栋云鸿厅自驾导航：云谷中心5号门打车导航：云谷中心1号门🌟 闭幕式重磅发布本次闭幕式将集中揭晓四大核心内容，打通从校园到产业的成长通道：ROS 暑期学校 2026ROSCon China 2026具身智能系列赛事规划 西湖区企业真实应用场景与人才需求清单🔗 核心机制与参会价值活动创新构建 “技术学习 — 场景认知 — 产业对接” 闭环联动机制。面向有志于深耕机器人与具身智能方向的青年学子，这不仅是一场技术风向的集中发布，更是一次系统了解产业演进路径、明确工程能力要求、精准匹配企业资源的实战型对接窗口。👥 适合人群高校机器人/AI/自动化相关专业本科生及研究生具备基础开发能力、希望向具身智能方向转型的技术爱好者关注产学研合作与高质量实习/就业渠道的青年开发者",
-      "summary": "4月4日-4月6日举办“中国云谷”高校训练营，闭幕式于4月6日14:00正式开始！\n\n⏰ 时间： 4月6日（周一）14:00-17:30📍 地点： 杭州市西湖区灯彩街1009号云谷中心-A6栋云鸿厅自驾导航：云谷中心5号门打车导航：云谷中心1号门🌟 闭幕式重磅发布本次闭幕式将集中揭晓四大核心内容，打通从校园到产业的成长通道：ROS 暑期学校 2026ROSCon China 2026具身智能系...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-04-06T02:00:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:40.189Z",
-      "scrapedAt": "2026-04-03T02:40:45.555Z",
-      "lastUpdated": "2026-04-03T02:42:40.189Z",
-      "version": 1
-    },
-    {
-      "id": "c_c9c244b8738e",
-      "title": "人工智能蛋白质组学系列竞赛（AIPC）- 利用人工智能揭示蛋白质组学的“暗物质”",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/204",
-      "imageUrl": "",
-      "description": "AIPC 首届挑战赛聚焦于肽谱-谱图匹配重打分任务，这是确保蛋白质鉴定、定量分析和功能注释可靠性的关键环节。通过引入先进的人工智能算法对搜索引擎生成的PSMs进行重评分，可显著提升匹配的准确性与鉴定深度，从而为下游蛋白质组学研究提供更高质量、更具信度的数据支撑。\n\n90,000奖金+实习推荐+百万算力支持！AIPC蛋白质组国际竞赛等你来！用AI解锁蛋白质 “暗物质”，全球挑战等你加入！西湖大学蛋白质组复杂科学实验室联合发起的AI蛋白质组学竞赛火热进行中💥 赛事向全球开放，设立双赛道及9万奖金池。我们尤其鼓励算力有限的学生与初创团队参与，并提供一定的算力支持。欢迎你以任何方式宣传我们的竞赛。去年秋天，西湖大学蛋白质组复杂科学实验室联合北京科学智能研究院等共同发起了“人工智能蛋白质组学系列赛”（AI Proteomics Competition, AIPC），旨在推动人工智能技术在多肽鉴定、定量分析、蛋白功能预测及人工智能虚拟细胞（AI Virtual Cell, AIVC） 构建等关键环节的创新与发展。竞赛仍在持续进行中。AIPC首届挑战赛聚焦于肽谱-谱图匹配（Peptide–Spectrum Matches, PSMs）重打分任务。该任务旨在在严格错误率控制框架下优化匹配判别能力，是提升蛋白质鉴定灵敏度与特异性的关键环节。在本次比赛中，参赛选手需对搜索引擎输出的PSMs进行重评分，并在满足假阳性发现率（FDR）< 1%和假阳性比例（FDP）< 1%的严格控制条件下，筛选高置信度PSMs。最终成绩将基于符合上述阈值的PSMs所对应的 unique peptide 数量进行统计与排名。在 “算力即资源” 的时代，许多优秀的年轻人和初创团队常因硬件条件受限而难以参与大型国际竞赛。AIPC希望传递一个不同的信号：真正决定胜负的，是算法思想与问题理解，而不仅是算力规模。本次竞赛面向全球开放，并设置双赛道：基础赛道（约45 million PSMs）和高级赛道（约300 million PSMs）。参赛者可以任意选择参加其中一个赛道，每个赛道单独设置奖项。我们特别鼓励学生、初级科研人员及AI初创团队参与，对于算力资源受限但表现突出的队伍，组委会将提供专项算力支持（总支持算力达百万元），助力优秀方案充分发挥潜力。只要方法扎实、思路创新，实力就能被看见！赛事总奖金池 ¥ 90,000（税前）！优秀选手还可获得相关机构的推荐实习机会，享受丰富研究资源的同时，与交叉学科领域的优秀伙伴一同学习成长。我们期待你的参与！大赛设立2个独立赛道，每个赛道均评选：一等奖（1个）：奖金 ¥ 30,000二等奖（1个）：奖金 ¥ 10,000三等奖（1个）：奖金 ¥ 5,000赛事详情请戳👇https://www.bohrium.com/competitions/9813928053?tab=introduce我们也将持续更新，请关注guomics公众号获取赛事资讯。对于赛事有任何问题请私信/留言/邮件告知我们（公众号留言时可注明留言是否愿意公开）。📮 联系邮箱ajun@westlake.edu.cnzhangxiaofan@westlake.edu.cnwangyudan@westlake.edu.cn扫描二维码报名参赛",
-      "summary": "AIPC 首届挑战赛聚焦于肽谱-谱图匹配重打分任务，这是确保蛋白质鉴定、定量分析和功能注释可靠性的关键环节。通过引入先进的人工智能算法对搜索引擎生成的PSMs进行重评分，可显著提升匹配的准确性与鉴定深度，从而为下游蛋白质组学研究提供更高质量、更具信度的数据支撑。\n\n90,000奖金+实习推荐+百万算力支持！AIPC蛋白质组国际竞赛等你来！用AI解锁蛋白质 “暗物质”，全球挑战等你加入！西湖大学蛋白...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "beginner",
-      "deadline": "2026-04-09T15:59:00.000Z",
-      "prize": "9万元",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:40.235Z",
-      "scrapedAt": "2026-04-03T02:40:45.555Z",
-      "lastUpdated": "2026-04-03T02:42:40.235Z",
-      "version": 1
-    },
-    {
-      "id": "c_b225eabbb759",
-      "title": "Intel AI PC创新应用征文&OpenClaw技能挑战赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/196",
-      "imageUrl": "",
-      "description": "本次活动由 Intel 发起，大赛旨在鼓励开发者利用 OpenVINO 技术，在普通 Intel CPU 设备上实现大模型的创新应用（涵盖视觉、语音、图像生成等场景）。\n\n一、比赛时间活动时间：2026年3月22日 – 4月30日发布平台：魔搭社区ModelScope · 研习社二、征文主题「Intel AI PC创新应用征文&OpenClaw技能挑战赛」征文方向（不限于以下应用场景示例）可选取以下 Baseline 任一或组合方向展开，也可基于 OpenVINO Notebook 示例自由发挥，不限于下列场景。Baseline 方向参考应用场景视觉理解（VLM）智能商品识别、证件 OCR、工业质检、医学影像辅助分析等语音识别智能会议纪要、语音指令控制、无障碍实时字幕、语音搜索等语音合成（TTS）有声日记、多语种播报、有声绘本、智能客服语音回复等图像生成营销海报生成、教育插画创作、游戏素材生产、风格化头像等参考资源官方 Baseline 灵感流：https://www.modelscope.cn/profile/snake7gun?tab=galleryBaseline 示例：https://github.com/openvino-dev-samples/modelscope-workshopOpenVINO Notebook：https://github.com/openvinotoolkit/openvino_notebooks扫码访问英特尔 AI PC 专区，获取更多开发工具、技术文档与实战案例，助力您的 AI 应用开发之旅添加 OpenVINO 小助手，加入赛事互助群，技术专家在线答疑三、参与步骤Step 1：获取 Baseline 并完成运行\n前往魔搭社区下载官方灵感流，在本地或端侧设备上完成任意一个或多个 Baseline 的运行。Step 2：场景创新与代码提交\n在 Baseline 基础上进行应用场景拓展或创意改造，将完整代码提交至魔搭社区灵感流（须有所创新，不可与官方 Baseline 完全一致）。Step 3：撰写并发布技术文章\n将实践过程、踩坑经验与应用创意整理成文，发布至魔搭社区研习社。Step 4：【加分项】技能封装\n将应用封装为 OpenClaw Skill，并在魔搭社区 Copaw 创空间中完整跑通。此步骤为可选加分项，不影响参与奖资格，但将显著提升最佳实践奖评分。四、作品提交要求参与本次活动需提交 两项内容，缺一不可：提交项平台地址灵感流魔搭社区 Galleryhttps://modelscope.cn/gallery技术文章魔搭社区研习社https://modelscope.cn/learn4.1 灵感流提交内容须在官方 Baseline 基础上进行创新，不可与 Baseline 完全一致代码需可正常运行，他人可基于你的灵感流独立复现 4.2 技术文章提交要求标题格式：《【Intel AI PC创新应用征文】+ 自定义标题》内容结构（须包含以下全部模块）模块具体要求环境配置硬件规格、操作系统、OpenVINO 版本、依赖安装步骤应用场景说明你的创新方向是什么、解决了什么实际问题、面向哪类用户应用运行展示应用运行结果截图（必须）；完整 Demo 视频（可选）Skills 运行展示封装后的 Skill 在 Copaw 创空间中的运行截图或视频总结与展望端侧部署心得、当前局限、优化方向及未来规划Baseline 跑通过程、踩坑记录等可作为补充内容穿插在正文中，有助于提升文章的参考价值与评分。4.3【加分项】Skills 运行展示如已完成技能封装，可在文章中附上 Skill 在 Copaw 创空间中的运行截图或视频，评审时将视为加分项。第一步，创建一个基于你应用的Agent Skill，示例如下：第二步，参考以下过程建立你的 Copaw 创空间：https://modelscope.cn/learn/5814第三步，为你的 Copaw 创空间注入Skill：第四步：在Copaw中使用你的Skill：五、奖项设置 💡 温馨提示：奖励可叠加！所有获奖者将额外获得 Intel OpenVINO 官方认证电子证书奖项获奖名额奖励内容提交参与奖前50名价值200元的社区定制周边最佳实践奖前10名1000元现金奖金精美周边示例图最佳实践奖评审标准评分维度占比说明完整性与可复现性30%环境配置清晰、代码可复现、步骤完整创新性与应用价值30%场景新颖、解决实际问题、具备落地潜力文章质量20%图文并茂、逻辑清晰、表达流畅社区影响力20%阅读量、点赞数、评论互动评审委员会：由 Intel OpenVINO 团队与魔搭社区联合组成，对所有有效提交进行综合评定。六、常见问题Q：我的电脑配置不高，可以参加吗？\nA：可以。OpenVINO 的核心优势正是让大模型在普通 Intel CPU 上也能高效运行，官方 Baseline 已针对端侧设备进行优化，无需高端硬件即可跑通。Q：必须跑通全部 4 个 Baseline 吗？\nA：不需要，跑通任意一个即可参与。多场景的综合实践在评审中会有更高评价，但不作为硬性要求。Q：Skills 封装是必须完成的吗？\nA：不是必须项。Skills 封装为加分项，完成后可在文章中附上运行截图，评审时将作为额外加分。未完成也不影响参与奖和最佳实践奖的基本资格。Q：可以组队参加吗？\nA：本次活动以个人参与为主，每篇文章对应一位作者。团队成员可分别提交不同方向的实践文章，各自独立参与评奖。",
-      "summary": "本次活动由 Intel 发起，大赛旨在鼓励开发者利用 OpenVINO 技术，在普通 Intel CPU 设备上实现大模型的创新应用（涵盖视觉、语音、图像生成等场景）。\n\n一、比赛时间活动时间：2026年3月22日 – 4月30日发布平台：魔搭社区ModelScope · 研习社二、征文主题「Intel AI PC创新应用征文&OpenClaw技能挑战赛」征文方向（不限于以下应用场景示例）可选取以...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-04-30T15:59:00.000Z",
-      "prize": "10000现金+10000礼品",
-      "tags": [
-        "应用开发赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "跑通任意一个即可参与。多场景的综合实践在评审中会有更高评价",
-        "但不作为硬性要求。Q：Skills 封装是必须完成的吗？"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:41.237Z",
-      "scrapedAt": "2026-04-03T02:40:45.556Z",
-      "lastUpdated": "2026-04-03T02:42:41.237Z",
-      "version": 1
-    },
-    {
-      "id": "c_571ecdfdca1a",
-      "title": "AMD X「GPU MODE E2E SpeedRun」线上黑客松挑战赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/195",
-      "imageUrl": "",
-      "description": "本次黑客松总奖金池为110 万美元。赛事聚焦 GPU kernel 优化与端到端（E2E）推理加速。参赛者将在真实 LLM 负载上交付可观的性能提升，并展示在AMD GPU 性能工程方面的创新方法。\n\n赛事简介加入由AMD（Advanced Micro Devices, Inc.）赞助的GPU MODE Hackathon，挑战并突破领先开源大语言模型（LLM）在AMD GPU上的推理性能极限。本次比赛面向全球、分两阶段性能优化，邀请开发者、研究人员和团队，展示你们在GPU内核及端到端推理优化领域的专业能力，竞逐总计高达110万美元的现金大奖。 第一阶段：预选赛北美太平洋标准时间2026 年 3 月 6 日4:00 PM-  2026 年 4 月6 日11:59 PM北京时间2026 年 3 月 7 日8:00 AM-  2026 年 4 月 7 日   2:59 PM参赛者需优化三项关键GPU内核，包括MXFP4 MoE、MLA Decode和MXFP4 GEMM。团队将根据官方规则定义的性能指标在公开排行榜上排名，前十名个人或团队将晋级决赛。注：请通过PC端报名：点击报名 第二阶段：决赛北美太平洋标准时间2026 年 4 月 7 日4:00 PM - 2026 年 5 月 15 日11:59 PM北京时间2026 年 4 月 8 日  0:00 AM - 2026 年 5 月 16 日  2:59 PM决赛选手将聚焦于所选LLM任务的端到端推理优化，包括DeepSeek-R1与Kimi K2.5，目标是在AMD InstinctTM GPU上实现标准化LLM推理基准的突破性性能。比赛将于北京时间5月19日举行颁奖典礼，届时AMD高层将出席，并表彰表现优异的团队。 总奖金池110万美元 前 10 名入围者获得的 1 万美元奖金将根据预选赛阶段的成绩发放，退出决赛阶段不会影响参赛者获得该奖项的资格。在完成总额 10 万美元现金奖励的预选赛后，晋级选手将参加决赛，争夺 100 万美元总现金奖励。决赛分为两个相互独立的赛道，每个赛道聚焦于一种特定的模型与推理技术栈。决赛选手可以选择参加一个或两个赛道。前十名决赛入围者（个人或团队，团队视为一个参赛主体）每个队伍将获得 1 万美元奖金，并有机会角逐最终大奖。赛道1：DeepSeek-R1-0528 FP4 + MTP🥇 终极大奖：35万美元赛道2：Kimi K2.5 1T FP4🥇 终极大奖：65万美元获奖者可能被邀请参加特别颁奖典礼，但出席典礼并非获奖的必要条件。 所有奖项、资格要求、评分方法、评估标准及支付条款均受本规则、条款和条件文件约束。参赛者需在提交前仔细阅读相关文件。 参与方式注册：请于北京时间 2026 年 4月 7 日14:59 前通过Luma页面注册，方可获得参赛资格。资格：对个人及最多三人团队开放。其他资格要求详见活动的规则、条款与条件。选手需加入AMD开发者计划：https://www.amd.com/zh-cn/developer/ai-dev-program.html预选赛阶段参考kernels可在此处获取https://github.com/gpu-mode/reference-kernels 社区与支持：加入GPU MODE Discord社区 https://discord.com/invite/gpumode前往amd-competition频道，或加入AMD中文微信比赛群[BG1] ，获取公告、技术交流、答疑及赛程支持。提交流程：预选赛作品须使用Popcorn CLI按照技术要求和提交指南提交。安装说明见此链接：👉 https://github.com/gpu-mode/popcorn-cli学习资源如需学习资源，请访问并订阅GPU MODE频道，收看机器学习领域顶尖专家每周讲座。 规则第一阶段 – 预选赛作品将根据相对运行时间/速度进行比较，并按照下述评分标准赋分。内核性能高于最佳参考且最接近公布上限者获胜。决赛选手仅在主办方独立复现结果后最终确定。每位参赛者在每个内核问题提交的内核，绝对速度将被测量。根据速度，团队或个人将在排行榜获得排名。每个团队或个人的总分通过以下最高分值计算：MXFP4 MoE：1500分MLA decode：1250分MXFP4 GEMM：1000分 每个内核问题的得分 = 最大分值 × [1 -（排名分值/20）]。排名按顺序所对应分值= 0,1,2,…18,19。 总分为三项内核问题得分之和，采用上述方法。 排行榜评分标准为参赛者提交的内核在大量测试用例上的平均绝对运行时间/速度，我们将提供测试用例的形状信息，输入数据则从随机分布中抽取。仅前20名性能最佳算子可获得计分资格，未入前20者得分为零。未超越基线作品得分为零。所有基准用例取几何平均值，并四舍五入到特定小数位参与排名。如遇平局，以提交时间最早的内核为准。团队在计算总分时视为一名参赛者。若团队有多个作品，仅取每个问题得分最高的内核计入总分。总分最高的前十名团队或个人晋级第二阶段。 问题详情及参考实现将在GPU MODE网站，Discord及微信比赛群内公布。预选赛作品可通过Popcorn CLI提交。安装及提交说明见此链接：👉 https://github.com/gpu-mode/popcorn-cli 第二阶段 – 决赛 以下为第二阶段初步评估方法，具体规则和评分方式将在此阶段开始前更新并补充。 目标：优化两条赛道的完整端到端模型性能 赛道1：DeepSeek-R1-0528 FP4 + MTP 性能将根据下列配置进行评测：AMD提供 单节点8卡云端Instinct GPU，支持的最大配置为 TP/EP = 8。开发者也可以选择更小的 TP 和 EP 配置，只要模型能够正常放入显存，并且仍需满足以下条件。并发度（Concurrency）：4、32、128Input_length = 8k，output_length = 1k tokens推理框架：AMD ATOM 或 SGLang精度要求：GSM8K ≥ 0.93交互性（Interactivity = 1000.0 / median_tpot）vs.每 GPU 总 token 吞吐量要求：conc = 128：交互性 ≥ 48 token/s/用户，且吞吐量 ≥ 6000 token/s/GPUconc = 32：交互性 ≥ 50 token/s/用户，且吞吐量 ≥ 3900 token/s/GPUconc = 4：交互性 ≥ 165 token/s/用户，且吞吐量 ≥ 1500 token/s/GPU端到端延迟（E2E Latency，中位数）vs.每 GPU 总 token 吞吐量要求：conc = 128：E2E 延迟 ≤ 22 秒，且吞吐量 ≥ 6000 token/s/GPUconc = 32：E2E 延迟 ≤ 18 秒，且吞吐量 ≥ 3900 token/s/GPUconc = 4：E2E 延迟 ≤ 5 秒，且吞吐量 ≥ 1500 token/s/GPU 赛道2：Kimi K2.5 1T FP4 性能将按照下列配置进行评测：AMD提供 单节点 8卡云端Instinct      GPU，支持的最大配置为 TP/EP = 8。开发者也可以选择更小的 TP 和 EP 配置，只要模型能够正常放入显存，并且仍需满足以下条件。并发度（Concurrency）：4、32、128Input_length = 8k，output_length = 1k tokens推理框架：AMD      ATOM 或 vLLM精度要求：GSM8K      ≥ 0.9325交互性（Interactivity      = 1000.0 / median_tpot）vs. 每 GPU 总 token 吞吐量要求：conc = 128：交互性 ≥ 35 token/s/用户，且吞吐量 ≥ 5300 token/s/GPUconc = 32：交互性 ≥ 65 token/s/用户，且吞吐量 ≥ 4500token/s/GPUconc = 4：交互性 ≥ 150 token/s/用户，且吞吐量 ≥ 1350 token/s/GPUE2E      Latency，中位数）vs. 每 GPU 总 token 吞吐量要求：conc = 128：E2E 延迟 ≤ 24.5 秒，且吞吐量 ≥ 5300 token/s/GPUconc = 32：E2E 延迟 ≤ 14.0 秒，且吞吐量 ≥ 4500 token/s/GPUconc = 4：E2E 延迟 ≤ 6.0 秒，且吞吐量 ≥ 1350 token/s/GPU 总分结构 共有 3 个并发等级（Concurrency Levels）。对于每一个并发等级，其最高得分（SC）为 1000 分，其中：  GPU      Token 吞吐量（Token Throughput per GPU）最高 600 分交互性（Interactivity）最高 400 分 因此，第二阶段的最高最终得分（Final_Score）为：3 × 1000 = 3000 分 各并发等级下的评分计算方式 在每一个并发等级下，我们会收集所有参赛团队的结果，并基于以下两个指标进行排名：   每 GPU Token 吞吐量（Token Throughput per GPU）计算公式如下：Token Throughput per GPU = concurrency × (input_length + output_length)  / (mean_TTFT + output_length × mean_TPOT)  / num_GPUs_you_used其中num_GPUs_you_used = 1, 2, …, 8  注：AMD提供 单节点 8卡云端Instinct GPU，支持的最大配置为 TP/EP = 8。开发者可以选择更小的 TP 和 EP 配置，只要模型能够正常放入显存。   交互性（Interactivity） 计算公式如下：Interactivity = 1000 / median_TPOT   基于指标排名的子项得分计算 每个团队将根据在各指标中的排名（Sub-rank）获得对应分数。 Token吞吐量子得分 Throughput Points = 600 × (1 − rank / 10), 其中rank = 0, 1, 2, 3, …, 9 交互性子得分 Interactivity Points = 400 × (1 − rank / 10), 其中rank = 0, 1, 2, 3, …, 9    单个并发等级的总得分（SC） 在每一个并发等级下，该等级的得分（SC）计算如下： SC1 = Token 吞吐量得分 + 交互性得分（并发 = 4）SC2 = Token 吞吐量得分 + 交互性得分（并发 = 32）SC3 = Token 吞吐量得分 + 交互性得分（并发 = 128） 第二阶段最终得分与排名 第二阶段的最终得分（Final_Score）为三个并发等级得分之和： Final_Score = SC1 + SC2 + SC3 所有参赛团队将根据Final_Score 进行最终排名。  其他重要评判标准   原创性要求所有提交内容必须为原创工作。   获奖资格要求要具备获奖资格，参赛团队必须同时满足以下所有条件：在所选择的赛道中，在全部并发等级（4、32、128）下均达到性能目标达到规定的精度阈值代码在最终评选后 2–4      周内可以被合并（merge）到 AMD 官方仓库（包括 AMD ATOM / vLLM / SGLang）   代码合并要求（Mergeability）DeepSeek R1 赛道：提交代码必须能够合并至AMD ATOM 或 SGLang赛道：提交代码必须能够合并至AMD ATOM 或 vLLM 在最终阶段（Final Phase），AMD ",
-      "summary": "本次黑客松总奖金池为110 万美元。赛事聚焦 GPU kernel 优化与端到端（E2E）推理加速。参赛者将在真实 LLM 负载上交付可观的性能提升，并展示在AMD GPU 性能工程方面的创新方法。\n\n赛事简介加入由AMD（Advanced Micro Devices, Inc.）赞助的GPU MODE Hackathon，挑战并突破领先开源大语言模型（LLM）在AMD GPU上的推理性能极限。本...",
-      "contestType": "code",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-04-06T18:59:00.000Z",
-      "prize": "110万美元",
-      "tags": [
-        "llm",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:41.243Z",
-      "scrapedAt": "2026-04-03T02:40:45.557Z",
-      "lastUpdated": "2026-04-03T02:42:41.243Z",
+      "processedAt": "2026-04-03T13:14:00.224Z",
+      "scrapedAt": "2026-04-03T13:12:44.565Z",
+      "lastUpdated": "2026-04-03T13:14:00.224Z",
       "version": 1
     },
     {
@@ -732,9 +493,224 @@
         "进行详细实现。其他非必要环节"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:41.242Z",
-      "scrapedAt": "2026-04-03T02:40:45.560Z",
-      "lastUpdated": "2026-04-03T02:42:41.242Z",
+      "processedAt": "2026-04-03T13:14:00.215Z",
+      "scrapedAt": "2026-04-03T13:12:07.331Z",
+      "lastUpdated": "2026-04-03T13:14:00.215Z",
+      "version": 1
+    },
+    {
+      "id": "c_9239fd8c0a69",
+      "title": "AI产品测评游园会—「蚂上加速器专场」",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/214",
+      "imageUrl": "",
+      "description": "AI产品测评游园会，pick你的心头好——「蚂上加速器专场」 时间：4月17日 地点：上海张江 适合人群： Al产品技术专家：拥有产品技术实战经验与独特洞察力 Al种子用户爱好者：乐于第一时间使用新产品，做世界先行者 AI行业投资人：关注AI早期项目，愿意花时间真正了解产品本身",
+      "summary": "AI产品测评游园会，pick你的心头好——「蚂上加速器专场」 时间：4月17日 地点：上海张江 适合人群： Al产品技术专家：拥有产品技术实战经验与独特洞察力 Al种子用户爱好者：乐于第一时间使用新产品，做世界先行者 AI行业投资人：关注AI早期项目，愿意花时间真正了解产品本身...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-04-16T15:59:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-03T13:14:00.223Z",
+      "scrapedAt": "2026-04-03T13:12:07.331Z",
+      "lastUpdated": "2026-04-03T13:14:00.223Z",
+      "version": 1
+    },
+    {
+      "id": "c_55b782bf5e48",
+      "title": "XGuard护栏揭榜赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/197",
+      "imageUrl": "",
+      "description": "XGuard护栏揭榜赛是【大模型安全撬壳计划】系列赛事之一。由阿里巴巴集团安全部主办、致力于为广大AI安全爱好者与开发者提供一个开放协作的创意舞台，通过持续的模型测评、衍生二创与安全加固，推动 “XGuard护栏”进入越用越强、越用越广的良性发展轨道。\n\n在2026年，大模型已无处不在，但“安全”之路依旧漫长本次大赛由阿里巴巴集团安全部发起，不仅是一场比赛，更是一次直通阿里核心团队的实战演练我们重磅开源了XGuard安全护栏模型+亿级Token高质语料诚挚邀请AI前线的你，去二创、去衍生、去重构！我们用10万奖金 + 亿级Token语料 + 硬核装备（MAC MINI、MacBook Neo等）+GPU算力全力加持只为寻找下一代AI安全“先行者”！（一键查收：XGuard护栏揭榜赛-赛事说明书）赛事介绍赛事背景XGuard护栏揭榜赛是【大模型安全撬壳计划】系列赛事之一。由阿里巴巴集团安全部主办、致力于为广大AI安全爱好者与开发者提供一个开放协作的创意舞台，通过持续的模型测评、衍生二创与安全加固，推动 “XGuard护栏”进入越用越强、越用越广的良性发展轨道。赛程时间面向人群不设边界，全员开放！无论身处校园还是职场，无论深耕技术还是钻研哲学，只要你对AI感兴趣，这里就是你的绽放舞台！报名流程点击右上方“立即报名”，选择对应身份（学生/在职/科研），填写全部信息即可完成；信息越完整，获奖概率越高比赛玩法：两大热血赛道，小白大神都可玩赛道一：逆袭吧！创二代！🔴适合人群： 算法高手、模型训练专家、想挑战技术高度的极客🔴难度系数： ⭐⭐⭐⭐⭐🔴玩法规则：选手需基于 XGuard 开源数据集（允许扩充新数据），结合 XGuard 模型或其他开源模型（10B 及以下），训练并提交专属的安全护栏模型。具体详见XGuard护栏揭榜赛-赛事说明书🔴赛道奖励：TOP 10 选手直接瓜分 50,000 元现金大奖！赛道二：破圈吧！抓码者！🔴适合人群： 技术博主、创意开发者、自媒体达人、对AI安全感兴趣均可玩🔴难度系数： ⭐⭐（上手容易，获奖率高）（本赛道分两个支线，无需打榜，作品优质就有好礼！）支线A:我是布道师玩法： 撰写深度评测报告，并发布在各大平台（小红书、B站、知乎、公众号、CSDN等）。具体详见XGuard护栏揭榜赛-赛事说明书奖励：标配奖励：发布即得价值500元的福袋（999足金手机贴+电动牙刷+阿里巴巴双肩背包）plus奖励：根据阅读量/播放量水位，瓜分 50,000 元现金奖池！支线B:我是创二代玩法：基于 XGuard护栏模型 或 数据集 进行二次开发、优化或衍生，具体详见XGuard护栏揭榜赛-赛事说明书奖励：标配奖励：发布即得价值1000元的福袋（999足金手机贴+电动牙刷+阿里巴巴双肩背包+SKG颈部按摩仪+星礼卡200元）plus奖励：根据项目下载量/Star数水位，瓜分 50,000 元现金奖池！参赛收益💰真金白银，拒绝画饼50,000元二创奖 + 50,000元破圈奖！不设门槛，只看作品，让你的创意直接折现💰🎁周周有惊喜，欧气不断电MAC MINI、千问眼镜、MacBook Neo... 总价值 5 万的装备库随时掉落！参与每周活动就能抽设备💻算力自由，从参赛开始！参赛即送 20 小时 GPU 算力，更有 100 小时算力盲盒随机空投！TOP 20 选手直接必得100 小时。跑模型不卡顿，灵感才能跑得更快。🚀官方证书，认可度拉满TOP 20 专属阿里巴巴认证的荣誉证书，不仅是荣誉，更是你技术履历上的高光时刻学生专属激励：简历诊断、招聘直通、职位详情，请进赛事群获取相关咨询！（钉钉群号： 168975002855）赛事规则所有评审规则、提交细节、赛事QA等内容，请查收这本参赛的答案之书《XGuard护栏揭榜赛-赛事说明书》加入官方钉群榜单查看、赛事资讯、问题咨询、活动详情都可加赛事官方钉群（一定要加群！！）添加开源小助手+发送“参赛”，邀您进微信群AAIG开源交流群，钉钉群号： 168975002855主办单位",
+      "summary": "XGuard护栏揭榜赛是【大模型安全撬壳计划】系列赛事之一。由阿里巴巴集团安全部主办、致力于为广大AI安全爱好者与开发者提供一个开放协作的创意舞台，通过持续的模型测评、衍生二创与安全加固，推动 “XGuard护栏”进入越用越强、越用越广的良性发展轨道。\n\n在2026年，大模型已无处不在，但“安全”之路依旧漫长本次大赛由阿里巴巴集团安全部发起，不仅是一场比赛，更是一次直通阿里核心团队的实战演练我们重...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-25T15:59:00.000Z",
+      "prize": "10万元奖金+5万元礼品",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-03T13:14:00.299Z",
+      "scrapedAt": "2026-04-03T13:12:07.332Z",
+      "lastUpdated": "2026-04-03T13:14:00.299Z",
+      "version": 1
+    },
+    {
+      "id": "c_51def9b51f43",
+      "title": "第二届“数龙杯”全球AI创新大赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/198",
+      "imageUrl": "",
+      "description": "第二届“数龙杯”全球AI创新大赛由A股上市公司世纪华通（002602.SZ)发起，获中国音数协、上海市浦东区委宣传部、上海市文化创意产业促进会上海市网络游戏行业协会等多方指导，致力于发掘兼具创新灵魂与市场潜力的AI游戏及创新型应用标杆。\n\n一、比赛介绍第二届“数龙杯”全球AI创新大赛由A股上市公司世纪华通（002602.SZ)发起，获中国音数协、上海市浦东区委宣传部、上海市文化创意产业促进会上海市网络游戏行业协会等多方指导，致力于发掘兼具创新灵魂与市场潜力的AI游戏及创新型应用标杆。二、比赛赛道AI游戏、AI应用、AI智能体三、赛程安排1、作品征集4月2日 - 5月31日2、初赛评审与资格核定 6月1日 - 6月15日3、决赛入围 6月16日 - 6月30日4、线下总决赛暨答辩会 7月中旬5、颁奖盛典 7月31日四、参赛须知1、征集对象：全球范围内的游戏开发者、AI开发者、高校学生及相关爱好者。2、参赛要求01：参赛者可选择以个人或团队形式报名，但不得重复报名。报名时需按照组委会要求提交相关证明材料，以便进行身份核实。02：参赛者提交的所有内容，包括但不限于团队及游戏名称、游戏内容等，必须严格遵守国家法律法规、政策规章及公序良俗。严禁出现侵犯第三方知识产权或其他合法权益的内容，禁止涉及政治、暴力、色情、人身攻击（包括但不限于侮辱、诽谤）、反人类、亵渎宗教等内容。一经发现，主办方有权取消参赛资格并收回已发放的奖励。03：参赛者必须遵循公平公正的原则，确保作品的真实性。严禁通过不正当手段参与比赛，例如提供虚假信息、雇佣他人代为参赛等。一旦核实存在此类行为，将立即取消其参赛及获奖资格。3、作品规范01：作品需围绕AI在游戏中的实际使用，海选阶段需要提交作品说明文档及演示视频；复审及线下评审环节需要确保其具有应用性和可演示性。02：作品可融合创新的AI游戏玩法、AI应用场景以及技术实现方式。4、作品提交参与者需点击页面上方的按钮，完成账号注册并成功登录，在规定的截止日期前填写完整的报名信息。在作品征集截止时间前，参赛者可以对已提交的游戏进行多次更新和完善，以截止时间前最终提交结果为准。5、素材版权说明参赛者须确保对作品中使用的软件、素材资源拥有版权或合法使用权。如果使用开源资源，需严格遵守其开源协议。参赛作品的版权归创作团队所有，但参赛即视为同意主办方世纪华通可在其相关网站和线下活动中免费使用提交的作品。世纪华通承诺对参赛者的个人信息及作品信息严格保密，不会在未经参赛者同意的前提下用于本活动以外的任何其他目的。6、其他参赛者提交作品或报名信息后，即视为不可撤销地接受上述参赛须知以及世纪华通不时发布的相关协议和参赛规则。如因不可抗力或其他不可归责于世纪华通的原因导致活动无法正常进行或参赛者无法参与，世纪华通有权暂停或取消活动且无需承担任何责任。在法律法规允许的范围内，世纪华通保留对本次比赛规则进行修改、调整和最终解释的权利。五、奖项设置最佳AI游戏奖聚焦：游戏性与技术融合创新主奖1名，奖金￥50,000提名奖2名，奖金￥20,000最佳AI应用奖聚焦：产品价值、用户体验与技术壁垒主奖1名，奖金￥50,000提名奖2名，奖金￥20,000最具商业价值奖聚焦：数据验证与规模化潜力主奖1名，奖金￥50,000提名奖2名，奖金￥20,000最佳新秀奖聚焦：创意突破与团队潜力（优先大学生团队）主奖1名，奖金￥30,000提名奖2名，奖金￥10,000最佳“养虾”创新奖聚焦：AI智能体实操新标杆主奖1名，奖金￥20,000提名奖2名，奖金￥5,000最佳国际团队奖聚焦：海外团队的创新能力（限海外团队）主奖1名，奖金￥30,000六、评审逻辑：最佳AI游戏奖：是否足够好玩、耐玩？AI是否创造了传统技术无法实现的新玩法、新体验或新内容？最佳AI应用奖：是否精准解决了高价值问题？用户体验是否卓越？是否具备独特的技术或设计护城河，防止被轻易替代？最具商业价值奖：用户增长、留存、付费等核心数据是否健康？商业模式是否清？最佳新秀奖：想法是否具有突破性的原创力和启发性？团队是否独特？项目是否展现出巨大的成长可能性？（本奖项将优先考虑大学生及青年创业团队）最佳国际团队奖：限海外主体报名，海外团队专属奖励。最佳“养虾”创新奖：考察智能体任务执行效率：在目标应用场景中（如工业协作、智能交互、场景运维等），完成任务的效率、精准度，对比常规方案的优化幅度；与人类操作的配合度、交互便捷性，是否能降低人工成本、提升整体工作效率。报名网站：https://aicht.sjhuatong.com/联系我们：ai.cht@digiloong.com",
+      "summary": "第二届“数龙杯”全球AI创新大赛由A股上市公司世纪华通（002602.SZ)发起，获中国音数协、上海市浦东区委宣传部、上海市文化创意产业促进会上海市网络游戏行业协会等多方指导，致力于发掘兼具创新灵魂与市场潜力的AI游戏及创新型应用标杆。\n\n一、比赛介绍第二届“数龙杯”全球AI创新大赛由A股上市公司世纪华通（002602.SZ)发起，获中国音数协、上海市浦东区委宣传部、上海市文化创意产业促进会上海市...",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-31T15:59:00.000Z",
+      "prize": "丰厚奖金池+投资孵化",
+      "tags": [
+        "应用开发赛",
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "提交作品说明文档及演示视频",
+        "复审及线下评审环节需要确保其具有应用性和可演示性。02：作品可融合创新的AI游戏玩法、AI应用场景以及技术实现方式。4、作品提交参与者需点击页面上方的按钮",
+        "完成账号注册并成功登录",
+        "在规定的截止日期前填写完整的报名信息。在作品征集截止时间前",
+        "参赛者可以对已提交的游戏进行多次更新和完善"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2026-04-03T13:14:00.315Z",
+      "scrapedAt": "2026-04-03T13:12:07.332Z",
+      "lastUpdated": "2026-04-03T13:14:00.315Z",
+      "version": 1
+    },
+    {
+      "id": "c_2ba651f3e5bc",
+      "title": "【“中国云谷”高校训练营暨ROS春季学校2026】闭幕式观众招募",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/210",
+      "imageUrl": "",
+      "description": "4月4日-4月6日举办“中国云谷”高校训练营，闭幕式于4月6日14:00正式开始！\n\n⏰ 时间： 4月6日（周一）14:00-17:30📍 地点： 杭州市西湖区灯彩街1009号云谷中心-A6栋云鸿厅自驾导航：云谷中心5号门打车导航：云谷中心1号门🌟 闭幕式重磅发布本次闭幕式将集中揭晓四大核心内容，打通从校园到产业的成长通道：ROS 暑期学校 2026ROSCon China 2026具身智能系列赛事规划 西湖区企业真实应用场景与人才需求清单🔗 核心机制与参会价值活动创新构建 “技术学习 — 场景认知 — 产业对接” 闭环联动机制。面向有志于深耕机器人与具身智能方向的青年学子，这不仅是一场技术风向的集中发布，更是一次系统了解产业演进路径、明确工程能力要求、精准匹配企业资源的实战型对接窗口。👥 适合人群高校机器人/AI/自动化相关专业本科生及研究生具备基础开发能力、希望向具身智能方向转型的技术爱好者关注产学研合作与高质量实习/就业渠道的青年开发者",
+      "summary": "4月4日-4月6日举办“中国云谷”高校训练营，闭幕式于4月6日14:00正式开始！\n\n⏰ 时间： 4月6日（周一）14:00-17:30📍 地点： 杭州市西湖区灯彩街1009号云谷中心-A6栋云鸿厅自驾导航：云谷中心5号门打车导航：云谷中心1号门🌟 闭幕式重磅发布本次闭幕式将集中揭晓四大核心内容，打通从校园到产业的成长通道：ROS 暑期学校 2026ROSCon China 2026具身智能系...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-04-06T02:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-03T13:14:01.340Z",
+      "scrapedAt": "2026-04-03T13:12:07.332Z",
+      "lastUpdated": "2026-04-03T13:14:01.340Z",
+      "version": 1
+    },
+    {
+      "id": "c_c9c244b8738e",
+      "title": "人工智能蛋白质组学系列竞赛（AIPC）- 利用人工智能揭示蛋白质组学的“暗物质”",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/204",
+      "imageUrl": "",
+      "description": "AIPC 首届挑战赛聚焦于肽谱-谱图匹配重打分任务，这是确保蛋白质鉴定、定量分析和功能注释可靠性的关键环节。通过引入先进的人工智能算法对搜索引擎生成的PSMs进行重评分，可显著提升匹配的准确性与鉴定深度，从而为下游蛋白质组学研究提供更高质量、更具信度的数据支撑。\n\n90,000奖金+实习推荐+百万算力支持！AIPC蛋白质组国际竞赛等你来！用AI解锁蛋白质 “暗物质”，全球挑战等你加入！西湖大学蛋白质组复杂科学实验室联合发起的AI蛋白质组学竞赛火热进行中💥 赛事向全球开放，设立双赛道及9万奖金池。我们尤其鼓励算力有限的学生与初创团队参与，并提供一定的算力支持。欢迎你以任何方式宣传我们的竞赛。去年秋天，西湖大学蛋白质组复杂科学实验室联合北京科学智能研究院等共同发起了“人工智能蛋白质组学系列赛”（AI Proteomics Competition, AIPC），旨在推动人工智能技术在多肽鉴定、定量分析、蛋白功能预测及人工智能虚拟细胞（AI Virtual Cell, AIVC） 构建等关键环节的创新与发展。竞赛仍在持续进行中。AIPC首届挑战赛聚焦于肽谱-谱图匹配（Peptide–Spectrum Matches, PSMs）重打分任务。该任务旨在在严格错误率控制框架下优化匹配判别能力，是提升蛋白质鉴定灵敏度与特异性的关键环节。在本次比赛中，参赛选手需对搜索引擎输出的PSMs进行重评分，并在满足假阳性发现率（FDR）< 1%和假阳性比例（FDP）< 1%的严格控制条件下，筛选高置信度PSMs。最终成绩将基于符合上述阈值的PSMs所对应的 unique peptide 数量进行统计与排名。在 “算力即资源” 的时代，许多优秀的年轻人和初创团队常因硬件条件受限而难以参与大型国际竞赛。AIPC希望传递一个不同的信号：真正决定胜负的，是算法思想与问题理解，而不仅是算力规模。本次竞赛面向全球开放，并设置双赛道：基础赛道（约45 million PSMs）和高级赛道（约300 million PSMs）。参赛者可以任意选择参加其中一个赛道，每个赛道单独设置奖项。我们特别鼓励学生、初级科研人员及AI初创团队参与，对于算力资源受限但表现突出的队伍，组委会将提供专项算力支持（总支持算力达百万元），助力优秀方案充分发挥潜力。只要方法扎实、思路创新，实力就能被看见！赛事总奖金池 ¥ 90,000（税前）！优秀选手还可获得相关机构的推荐实习机会，享受丰富研究资源的同时，与交叉学科领域的优秀伙伴一同学习成长。我们期待你的参与！大赛设立2个独立赛道，每个赛道均评选：一等奖（1个）：奖金 ¥ 30,000二等奖（1个）：奖金 ¥ 10,000三等奖（1个）：奖金 ¥ 5,000赛事详情请戳👇https://www.bohrium.com/competitions/9813928053?tab=introduce我们也将持续更新，请关注guomics公众号获取赛事资讯。对于赛事有任何问题请私信/留言/邮件告知我们（公众号留言时可注明留言是否愿意公开）。📮 联系邮箱ajun@westlake.edu.cnzhangxiaofan@westlake.edu.cnwangyudan@westlake.edu.cn扫描二维码报名参赛",
+      "summary": "AIPC 首届挑战赛聚焦于肽谱-谱图匹配重打分任务，这是确保蛋白质鉴定、定量分析和功能注释可靠性的关键环节。通过引入先进的人工智能算法对搜索引擎生成的PSMs进行重评分，可显著提升匹配的准确性与鉴定深度，从而为下游蛋白质组学研究提供更高质量、更具信度的数据支撑。\n\n90,000奖金+实习推荐+百万算力支持！AIPC蛋白质组国际竞赛等你来！用AI解锁蛋白质 “暗物质”，全球挑战等你加入！西湖大学蛋白...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-04-09T15:59:00.000Z",
+      "prize": "9万元",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-03T13:14:01.433Z",
+      "scrapedAt": "2026-04-03T13:12:07.332Z",
+      "lastUpdated": "2026-04-03T13:14:01.433Z",
+      "version": 1
+    },
+    {
+      "id": "c_b225eabbb759",
+      "title": "Intel AI PC创新应用征文&OpenClaw技能挑战赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/196",
+      "imageUrl": "",
+      "description": "本次活动由 Intel 发起，大赛旨在鼓励开发者利用 OpenVINO 技术，在普通 Intel CPU 设备上实现大模型的创新应用（涵盖视觉、语音、图像生成等场景）。\n\n一、比赛时间活动时间：2026年3月22日 – 4月30日发布平台：魔搭社区ModelScope · 研习社二、征文主题「Intel AI PC创新应用征文&OpenClaw技能挑战赛」征文方向（不限于以下应用场景示例）可选取以下 Baseline 任一或组合方向展开，也可基于 OpenVINO Notebook 示例自由发挥，不限于下列场景。Baseline 方向参考应用场景视觉理解（VLM）智能商品识别、证件 OCR、工业质检、医学影像辅助分析等语音识别智能会议纪要、语音指令控制、无障碍实时字幕、语音搜索等语音合成（TTS）有声日记、多语种播报、有声绘本、智能客服语音回复等图像生成营销海报生成、教育插画创作、游戏素材生产、风格化头像等参考资源官方 Baseline 灵感流：https://www.modelscope.cn/profile/snake7gun?tab=galleryBaseline 示例：https://github.com/openvino-dev-samples/modelscope-workshopOpenVINO Notebook：https://github.com/openvinotoolkit/openvino_notebooks扫码访问英特尔 AI PC 专区，获取更多开发工具、技术文档与实战案例，助力您的 AI 应用开发之旅添加 OpenVINO 小助手，加入赛事互助群，技术专家在线答疑三、参与步骤Step 1：获取 Baseline 并完成运行\n前往魔搭社区下载官方灵感流，在本地或端侧设备上完成任意一个或多个 Baseline 的运行。Step 2：场景创新与代码提交\n在 Baseline 基础上进行应用场景拓展或创意改造，将完整代码提交至魔搭社区灵感流（须有所创新，不可与官方 Baseline 完全一致）。Step 3：撰写并发布技术文章\n将实践过程、踩坑经验与应用创意整理成文，发布至魔搭社区研习社。Step 4：【加分项】技能封装\n将应用封装为 OpenClaw Skill，并在魔搭社区 Copaw 创空间中完整跑通。此步骤为可选加分项，不影响参与奖资格，但将显著提升最佳实践奖评分。四、作品提交要求参与本次活动需提交 两项内容，缺一不可：提交项平台地址灵感流魔搭社区 Galleryhttps://modelscope.cn/gallery技术文章魔搭社区研习社https://modelscope.cn/learn4.1 灵感流提交内容须在官方 Baseline 基础上进行创新，不可与 Baseline 完全一致代码需可正常运行，他人可基于你的灵感流独立复现 4.2 技术文章提交要求标题格式：《【Intel AI PC创新应用征文】+ 自定义标题》内容结构（须包含以下全部模块）模块具体要求环境配置硬件规格、操作系统、OpenVINO 版本、依赖安装步骤应用场景说明你的创新方向是什么、解决了什么实际问题、面向哪类用户应用运行展示应用运行结果截图（必须）；完整 Demo 视频（可选）Skills 运行展示封装后的 Skill 在 Copaw 创空间中的运行截图或视频总结与展望端侧部署心得、当前局限、优化方向及未来规划Baseline 跑通过程、踩坑记录等可作为补充内容穿插在正文中，有助于提升文章的参考价值与评分。4.3【加分项】Skills 运行展示如已完成技能封装，可在文章中附上 Skill 在 Copaw 创空间中的运行截图或视频，评审时将视为加分项。第一步，创建一个基于你应用的Agent Skill，示例如下：第二步，参考以下过程建立你的 Copaw 创空间：https://modelscope.cn/learn/5814第三步，为你的 Copaw 创空间注入Skill：第四步：在Copaw中使用你的Skill：五、奖项设置 💡 温馨提示：奖励可叠加！所有获奖者将额外获得 Intel OpenVINO 官方认证电子证书奖项获奖名额奖励内容提交参与奖前50名价值200元的社区定制周边最佳实践奖前10名1000元现金奖金精美周边示例图最佳实践奖评审标准评分维度占比说明完整性与可复现性30%环境配置清晰、代码可复现、步骤完整创新性与应用价值30%场景新颖、解决实际问题、具备落地潜力文章质量20%图文并茂、逻辑清晰、表达流畅社区影响力20%阅读量、点赞数、评论互动评审委员会：由 Intel OpenVINO 团队与魔搭社区联合组成，对所有有效提交进行综合评定。六、常见问题Q：我的电脑配置不高，可以参加吗？\nA：可以。OpenVINO 的核心优势正是让大模型在普通 Intel CPU 上也能高效运行，官方 Baseline 已针对端侧设备进行优化，无需高端硬件即可跑通。Q：必须跑通全部 4 个 Baseline 吗？\nA：不需要，跑通任意一个即可参与。多场景的综合实践在评审中会有更高评价，但不作为硬性要求。Q：Skills 封装是必须完成的吗？\nA：不是必须项。Skills 封装为加分项，完成后可在文章中附上运行截图，评审时将作为额外加分。未完成也不影响参与奖和最佳实践奖的基本资格。Q：可以组队参加吗？\nA：本次活动以个人参与为主，每篇文章对应一位作者。团队成员可分别提交不同方向的实践文章，各自独立参与评奖。",
+      "summary": "本次活动由 Intel 发起，大赛旨在鼓励开发者利用 OpenVINO 技术，在普通 Intel CPU 设备上实现大模型的创新应用（涵盖视觉、语音、图像生成等场景）。\n\n一、比赛时间活动时间：2026年3月22日 – 4月30日发布平台：魔搭社区ModelScope · 研习社二、征文主题「Intel AI PC创新应用征文&OpenClaw技能挑战赛」征文方向（不限于以下应用场景示例）可选取以...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-04-30T15:59:00.000Z",
+      "prize": "10000现金+10000礼品",
+      "tags": [
+        "应用开发赛",
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "跑通任意一个即可参与。多场景的综合实践在评审中会有更高评价",
+        "但不作为硬性要求。Q：Skills 封装是必须完成的吗？"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2026-04-03T13:14:01.325Z",
+      "scrapedAt": "2026-04-03T13:12:07.333Z",
+      "lastUpdated": "2026-04-03T13:14:01.325Z",
+      "version": 1
+    },
+    {
+      "id": "c_571ecdfdca1a",
+      "title": "AMD X「GPU MODE E2E SpeedRun」线上黑客松挑战赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/195",
+      "imageUrl": "",
+      "description": "本次黑客松总奖金池为110 万美元。赛事聚焦 GPU kernel 优化与端到端（E2E）推理加速。参赛者将在真实 LLM 负载上交付可观的性能提升，并展示在AMD GPU 性能工程方面的创新方法。\n\n赛事简介加入由AMD（Advanced Micro Devices, Inc.）赞助的GPU MODE Hackathon，挑战并突破领先开源大语言模型（LLM）在AMD GPU上的推理性能极限。本次比赛面向全球、分两阶段性能优化，邀请开发者、研究人员和团队，展示你们在GPU内核及端到端推理优化领域的专业能力，竞逐总计高达110万美元的现金大奖。 第一阶段：预选赛北美太平洋标准时间2026 年 3 月 6 日4:00 PM-  2026 年 4 月6 日11:59 PM北京时间2026 年 3 月 7 日8:00 AM-  2026 年 4 月 7 日   2:59 PM参赛者需优化三项关键GPU内核，包括MXFP4 MoE、MLA Decode和MXFP4 GEMM。团队将根据官方规则定义的性能指标在公开排行榜上排名，前十名个人或团队将晋级决赛。注：请通过PC端报名：点击报名 第二阶段：决赛北美太平洋标准时间2026 年 4 月 7 日4:00 PM - 2026 年 5 月 15 日11:59 PM北京时间2026 年 4 月 8 日  0:00 AM - 2026 年 5 月 16 日  2:59 PM决赛选手将聚焦于所选LLM任务的端到端推理优化，包括DeepSeek-R1与Kimi K2.5，目标是在AMD InstinctTM GPU上实现标准化LLM推理基准的突破性性能。比赛将于北京时间5月19日举行颁奖典礼，届时AMD高层将出席，并表彰表现优异的团队。 总奖金池110万美元 前 10 名入围者获得的 1 万美元奖金将根据预选赛阶段的成绩发放，退出决赛阶段不会影响参赛者获得该奖项的资格。在完成总额 10 万美元现金奖励的预选赛后，晋级选手将参加决赛，争夺 100 万美元总现金奖励。决赛分为两个相互独立的赛道，每个赛道聚焦于一种特定的模型与推理技术栈。决赛选手可以选择参加一个或两个赛道。前十名决赛入围者（个人或团队，团队视为一个参赛主体）每个队伍将获得 1 万美元奖金，并有机会角逐最终大奖。赛道1：DeepSeek-R1-0528 FP4 + MTP🥇 终极大奖：35万美元赛道2：Kimi K2.5 1T FP4🥇 终极大奖：65万美元获奖者可能被邀请参加特别颁奖典礼，但出席典礼并非获奖的必要条件。 所有奖项、资格要求、评分方法、评估标准及支付条款均受本规则、条款和条件文件约束。参赛者需在提交前仔细阅读相关文件。 参与方式注册：请于北京时间 2026 年 4月 7 日14:59 前通过Luma页面注册，方可获得参赛资格。资格：对个人及最多三人团队开放。其他资格要求详见活动的规则、条款与条件。选手需加入AMD开发者计划：https://www.amd.com/zh-cn/developer/ai-dev-program.html预选赛阶段参考kernels可在此处获取https://github.com/gpu-mode/reference-kernels 社区与支持：加入GPU MODE Discord社区 https://discord.com/invite/gpumode前往amd-competition频道，或加入AMD中文微信比赛群[BG1] ，获取公告、技术交流、答疑及赛程支持。提交流程：预选赛作品须使用Popcorn CLI按照技术要求和提交指南提交。安装说明见此链接：👉 https://github.com/gpu-mode/popcorn-cli学习资源如需学习资源，请访问并订阅GPU MODE频道，收看机器学习领域顶尖专家每周讲座。 规则第一阶段 – 预选赛作品将根据相对运行时间/速度进行比较，并按照下述评分标准赋分。内核性能高于最佳参考且最接近公布上限者获胜。决赛选手仅在主办方独立复现结果后最终确定。每位参赛者在每个内核问题提交的内核，绝对速度将被测量。根据速度，团队或个人将在排行榜获得排名。每个团队或个人的总分通过以下最高分值计算：MXFP4 MoE：1500分MLA decode：1250分MXFP4 GEMM：1000分 每个内核问题的得分 = 最大分值 × [1 -（排名分值/20）]。排名按顺序所对应分值= 0,1,2,…18,19。 总分为三项内核问题得分之和，采用上述方法。 排行榜评分标准为参赛者提交的内核在大量测试用例上的平均绝对运行时间/速度，我们将提供测试用例的形状信息，输入数据则从随机分布中抽取。仅前20名性能最佳算子可获得计分资格，未入前20者得分为零。未超越基线作品得分为零。所有基准用例取几何平均值，并四舍五入到特定小数位参与排名。如遇平局，以提交时间最早的内核为准。团队在计算总分时视为一名参赛者。若团队有多个作品，仅取每个问题得分最高的内核计入总分。总分最高的前十名团队或个人晋级第二阶段。 问题详情及参考实现将在GPU MODE网站，Discord及微信比赛群内公布。预选赛作品可通过Popcorn CLI提交。安装及提交说明见此链接：👉 https://github.com/gpu-mode/popcorn-cli 第二阶段 – 决赛 以下为第二阶段初步评估方法，具体规则和评分方式将在此阶段开始前更新并补充。 目标：优化两条赛道的完整端到端模型性能 赛道1：DeepSeek-R1-0528 FP4 + MTP 性能将根据下列配置进行评测：AMD提供 单节点8卡云端Instinct GPU，支持的最大配置为 TP/EP = 8。开发者也可以选择更小的 TP 和 EP 配置，只要模型能够正常放入显存，并且仍需满足以下条件。并发度（Concurrency）：4、32、128Input_length = 8k，output_length = 1k tokens推理框架：AMD ATOM 或 SGLang精度要求：GSM8K ≥ 0.93交互性（Interactivity = 1000.0 / median_tpot）vs.每 GPU 总 token 吞吐量要求：conc = 128：交互性 ≥ 48 token/s/用户，且吞吐量 ≥ 6000 token/s/GPUconc = 32：交互性 ≥ 50 token/s/用户，且吞吐量 ≥ 3900 token/s/GPUconc = 4：交互性 ≥ 165 token/s/用户，且吞吐量 ≥ 1500 token/s/GPU端到端延迟（E2E Latency，中位数）vs.每 GPU 总 token 吞吐量要求：conc = 128：E2E 延迟 ≤ 22 秒，且吞吐量 ≥ 6000 token/s/GPUconc = 32：E2E 延迟 ≤ 18 秒，且吞吐量 ≥ 3900 token/s/GPUconc = 4：E2E 延迟 ≤ 5 秒，且吞吐量 ≥ 1500 token/s/GPU 赛道2：Kimi K2.5 1T FP4 性能将按照下列配置进行评测：AMD提供 单节点 8卡云端Instinct      GPU，支持的最大配置为 TP/EP = 8。开发者也可以选择更小的 TP 和 EP 配置，只要模型能够正常放入显存，并且仍需满足以下条件。并发度（Concurrency）：4、32、128Input_length = 8k，output_length = 1k tokens推理框架：AMD      ATOM 或 vLLM精度要求：GSM8K      ≥ 0.9325交互性（Interactivity      = 1000.0 / median_tpot）vs. 每 GPU 总 token 吞吐量要求：conc = 128：交互性 ≥ 35 token/s/用户，且吞吐量 ≥ 5300 token/s/GPUconc = 32：交互性 ≥ 65 token/s/用户，且吞吐量 ≥ 4500token/s/GPUconc = 4：交互性 ≥ 150 token/s/用户，且吞吐量 ≥ 1350 token/s/GPUE2E      Latency，中位数）vs. 每 GPU 总 token 吞吐量要求：conc = 128：E2E 延迟 ≤ 24.5 秒，且吞吐量 ≥ 5300 token/s/GPUconc = 32：E2E 延迟 ≤ 14.0 秒，且吞吐量 ≥ 4500 token/s/GPUconc = 4：E2E 延迟 ≤ 6.0 秒，且吞吐量 ≥ 1350 token/s/GPU 总分结构 共有 3 个并发等级（Concurrency Levels）。对于每一个并发等级，其最高得分（SC）为 1000 分，其中：  GPU      Token 吞吐量（Token Throughput per GPU）最高 600 分交互性（Interactivity）最高 400 分 因此，第二阶段的最高最终得分（Final_Score）为：3 × 1000 = 3000 分 各并发等级下的评分计算方式 在每一个并发等级下，我们会收集所有参赛团队的结果，并基于以下两个指标进行排名：   每 GPU Token 吞吐量（Token Throughput per GPU）计算公式如下：Token Throughput per GPU = concurrency × (input_length + output_length)  / (mean_TTFT + output_length × mean_TPOT)  / num_GPUs_you_used其中num_GPUs_you_used = 1, 2, …, 8  注：AMD提供 单节点 8卡云端Instinct GPU，支持的最大配置为 TP/EP = 8。开发者可以选择更小的 TP 和 EP 配置，只要模型能够正常放入显存。   交互性（Interactivity） 计算公式如下：Interactivity = 1000 / median_TPOT   基于指标排名的子项得分计算 每个团队将根据在各指标中的排名（Sub-rank）获得对应分数。 Token吞吐量子得分 Throughput Points = 600 × (1 − rank / 10), 其中rank = 0, 1, 2, 3, …, 9 交互性子得分 Interactivity Points = 400 × (1 − rank / 10), 其中rank = 0, 1, 2, 3, …, 9    单个并发等级的总得分（SC） 在每一个并发等级下，该等级的得分（SC）计算如下： SC1 = Token 吞吐量得分 + 交互性得分（并发 = 4）SC2 = Token 吞吐量得分 + 交互性得分（并发 = 32）SC3 = Token 吞吐量得分 + 交互性得分（并发 = 128） 第二阶段最终得分与排名 第二阶段的最终得分（Final_Score）为三个并发等级得分之和： Final_Score = SC1 + SC2 + SC3 所有参赛团队将根据Final_Score 进行最终排名。  其他重要评判标准   原创性要求所有提交内容必须为原创工作。   获奖资格要求要具备获奖资格，参赛团队必须同时满足以下所有条件：在所选择的赛道中，在全部并发等级（4、32、128）下均达到性能目标达到规定的精度阈值代码在最终评选后 2–4      周内可以被合并（merge）到 AMD 官方仓库（包括 AMD ATOM / vLLM / SGLang）   代码合并要求（Mergeability）DeepSeek R1 赛道：提交代码必须能够合并至AMD ATOM 或 SGLang赛道：提交代码必须能够合并至AMD ATOM 或 vLLM 在最终阶段（Final Phase），AMD ",
+      "summary": "本次黑客松总奖金池为110 万美元。赛事聚焦 GPU kernel 优化与端到端（E2E）推理加速。参赛者将在真实 LLM 负载上交付可观的性能提升，并展示在AMD GPU 性能工程方面的创新方法。\n\n赛事简介加入由AMD（Advanced Micro Devices, Inc.）赞助的GPU MODE Hackathon，挑战并突破领先开源大语言模型（LLM）在AMD GPU上的推理性能极限。本...",
+      "contestType": "code",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-04-06T18:59:00.000Z",
+      "prize": "110万美元",
+      "tags": [
+        "llm",
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-03T13:14:01.319Z",
+      "scrapedAt": "2026-04-03T13:12:07.333Z",
+      "lastUpdated": "2026-04-03T13:14:01.319Z",
       "version": 1
     },
     {
@@ -763,9 +739,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:41.240Z",
-      "scrapedAt": "2026-04-03T02:40:45.565Z",
-      "lastUpdated": "2026-04-03T02:42:41.240Z",
+      "processedAt": "2026-04-03T13:14:01.446Z",
+      "scrapedAt": "2026-04-03T13:12:07.336Z",
+      "lastUpdated": "2026-04-03T13:14:01.446Z",
       "version": 1
     },
     {
@@ -793,45 +769,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:41.268Z",
-      "scrapedAt": "2026-04-03T02:40:45.565Z",
-      "lastUpdated": "2026-04-03T02:42:41.268Z",
-      "version": 1
-    },
-    {
-      "id": "c_5dd121349604",
-      "title": "AI Hackathon Tour 2026 —— 高校联赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/179",
-      "imageUrl": "",
-      "description": "魔搭社区（Modelscope）、Datawhale联合顶尖学府、AMD等合作方，诚邀你加入这场加速进化的旅程—- Al Hackathon Tour 2026。 在这里，不设专业藩篱，不问技术出身。无论你是深耕算法的极客，还是心怀热诚的跨界玩家，只要你相信开源的力量，这里就是你的主场。利用 Al Coding的敏捷开发，快速构建有灵魂的应用。 这是一次逃离舒适区的冒险。去学习AI，去驾驭AI，去把那些疯狂的脑洞变成手边触手可及的Al应用；跳出校园的方寸之地，在更广阔的社区中，与全球开发者并肩竞技。 在这个冬天播种，在下个春天发光。来更大的舞台，展示你的AI作品。\n\n100 Days. 11 Universities. 5600+ Minds.\n当多数人还在讨论 AI 的边界时，有一群年轻人已经翻过了围墙。由 AI 模型开源社区 魔搭社区 (ModelScope) 与 AI 开源学习社区 Datawhale 联合发起这场横跨全国的 AI 实验历时 100 余天，穿梭 11 所顶尖学府（北京大学、复旦大学、哈尔滨工业大学、南京大学、清华大学深圳国际研究生院、上海交通大学、同济大学、西安交通大学、香港大学、浙江大学、中国科学技术大学），于3月21日在南京落下帷幕。这组简单的数字，却是中国新一代 Builder 正在涌现的最佳证明：旅程的开启，5600+ 开发者集结；410 个 初赛Demo 提交；57 个 具备“0 到 1”生命力的作品，232人杀入全国总决赛；1400+ 线下观众作为“观察者”涌入现场有获奖团队隔天就拿到了百万投资额中国科学院院士王怀民先生、周志华先生、魔搭社区发起人周靖人先生亲临现场为金奖选手颁奖。见证一种新的生产力范式，在年轻一代手中完成破茧。（第一排左起为魔搭社区发起人周靖人先生、行业与生产力变革金奖获奖选手、中国科学院院士王怀民先生、数字生活与情感体验赛道金奖获奖选手、中国科学院院士周志华先生、「小有可为」公益赛道金奖获奖选手）*决赛获奖名单洞察：新一代AI Builder的独特视角在总决赛现场，我们与评委共同捕捉到了关于 AI 创造的最新信号：从这批获奖作品里，能看到一个比“AI 应用很多元”更具体的趋势：高校里的 AI 项目，正在从模型能力展示，转向“把复杂能力包进一个清晰产品里”。行业与生产力赛道里，WearVision、CircuitWiz、Poco、ScholarPalette、ScholarHunter 这类项目，明显都不是停留在“调用一个模型做个功能”，而是在往更完整的工作流走：有的在做从创意到生产可落地的定制引擎，有的在把电路识别、理解和生成整合成专业工具，有的则直接切入个人协作、学习研究等高频场景。这说明学生团队已经开始理解，真正的产品竞争力不只来自模型本身，而来自是否把 AI 嵌进一个具体、连续、可复用的任务流程里。\n\n数字生活与情感体验赛道则呈现出另一条很有意思的路径：AI 不只是效率工具，也开始被做成长期陪伴的“轻产品”。像 NYX，它不是简单的情绪聊天应用，而是把“数字孪生”“健康/精神状态映射”“像素动画生成”“语音输入结构化提取”这些能力组合在一起，做成一个“重新养育自己”的陪伴型产品；它的重点不只是回答问题，而是通过状态变化、成长记录和游戏化机制，建立长期使用理由。心迹 Vesti、冰箱-智慧语音贴这类作品，也都能看出类似倾向：学生团队开始关注 AI 如何进入真实生活的细小接口——情绪表达、家庭语音入口、生活记录、轻陪伴 。\n\n公益赛道的成熟度也比想象中高，而且不是“把公益当题材”，而是在认真找高价值但低效率、低覆盖的人群服务场景。比如“勿忘我”切的是阿尔兹海默症的无感电话筛查，“安心吃”切的是中老年慢性病患者的饮食管理，“WhirlWind Justice”切的是法律、媒体、社工协同，“聆光一闪”切的是视障学生学习辅助，CareBox 则把大模型和 AIoT 放进家庭健康管理中枢。这些项目在试图让 AI 去接住那些原本信息不对称、服务成本高、专业资源稀缺的场景。1、十倍速时代，以开放心态拥抱开源AMD大中华区市场营销副总裁：纪朝晖“我们处于 AI 十倍速变化的时刻，开发者是这个时代的奠基者。引用 AMD CEO 丽萨·苏博士的观点：开放的、以开发者为先的生态，才能汇聚行业力量。”2、拒绝“市场伪命题”，回归真诚驱动魔搭社区产品&技术负责人：颖达“市场展望有时是伪命题。盲目追逐 ChatGPT 式的热门方向若缺乏真实热情，难以脱颖而出。每个人都是独特的，投身于你真正认同的垂直痛点，才能形成不可替代的产品特质。”3、警惕“为了 AI 而 AI”，重构自我造血能力罕见疾病公益领域的社会创新者，Khub罕见病开源社区创始人，FSHD患者：艾力亚尔·艾克排尔（Ailiyier Aikepai Er）“并非所有创新都需要 AI 驱动。尤其在公益赛道，要寻找用户、市场与技术的交汇点。单纯依赖捐赠无法长久，产品必须思考如何‘靠什么活着’，建立自我造血的生存路径。”4、从“为人设计”转向“为 AI Agent 设计”Dify联合创始人：延君晨“AI 已从聊天 Bot 演进为具备执行力的个人助理。未来的交互逻辑将不再以 GUI（图形界面）为中心。开发者应思考如何打造对 AI 更友好的接口（Skills/Agent-friendly），这可能获得更大的流量入口。”5、捕捉“Niche 视角”，共建国产 Agent 生态StepFun 阶跃星辰开发者产品和生态负责人：滕爱龄（小狼）“学生项目展现了成人世界少见的情绪感受和独特的 niche 视角。中国公司在开发者生态和技术积累上已有深厚沉淀，我们需要共同行动，支持每一个 Agent Builder，走出比全球路径更具竞争力的路径。”现场：那些令人动容的「非凡热忱」与掩饰不住的「勃勃野心」观众回声：来自社交媒体的共鸣他们说：“在复旦大学做AI Hackathon Tour评委，被震撼到了”“别给自己设限，你们的想象力配得上任何野心！”“世界就是这样，一群人日日夜夜耕耘，而另一群人一觉醒来发现世界又变了”“别纠结「我是学什么」的，而要思考「我能解决什么问题」”“清醒时为了更诚实地面对自己，看见恐惧才能选择勇敢，预演代价才能心甘情愿”“原来很多事情不是「等我准备好了再去做」，而是「先去做，才会慢慢准备好」”“每一行代码、每一次迭代，都是向更好的自己靠近”初心：让年轻人从“围观 AI”变成“创造 AI”， 让“听说开源”变成“贡献开源”我们发起 AI Hackathon Tour，不止于一场比赛——来自魔搭社区运营负责人的石洪竺的分享：魔搭不是一个人的魔搭，是所有人的魔搭。在魔搭，26%的开发者是高校的学生，这些学生开发者是魔搭的重要建设力量。我们希望，当你在校园里有一个想法的时候，你不是只能把它停在脑子里、停在课堂作业里。你应该有机会把它做出来，跑起来，被别人真的用一次，听到真实反馈，认识一起做事的人，甚至让它继续长成一个项目、一个产品、一段更长的经历。这才是我们想在校园里做的事。\n\n我们看到很多同学其实非常强。会写代码、会调模型、会做产品、会讲故事，甚至已经能把 AI 放进真实场景里。但很多时候，大家缺的不是灵感，也不是努力，缺的是一个更真实的场景：一个能试、能做、能展示、能被看见、也能继续被支持的场景。\n\n所以魔搭走进校园，不是为了做热闹，不是为了做一次性活动。而是希望让更多年轻人的创造力，有地方发生，有机会沉淀，有社区接住。我们发起 AI Hackathon Tour，也不只是想办一场高校联赛，而是想做一件更长期的事——孵化。孵化学生的作品，孵化项目，孵化产品，也孵化一批真正能在开源社区里持续成长的年轻 Builder、让年轻人从“围观 AI”变成“创造 AI”， 让“听说开源”变成“贡献开源”。正如贯穿比赛的那句最响亮的 Slogan：“别写简历，去创造作品。”下一站：未完待续\nAI Hackathon Tour 仍在征途，我们寻找下一场有趣活动的联合组织者！👇立即扫码加入组织者阵营无论名次，每一位坚持热爱的开发者，都是这场 AI 变革的奠基者。我们，下一站见。特别致谢：\n*致谢所有评委老师的深度陪伴，致谢 AMD 及合作伙伴对中国青年开发者生态的鼎力支持\n名单公示期：即日起-2026年3月17日23:59如对录取名单有疑问，可联系大赛组委会工作人员申诉，协助复查“是否漏评、错评、统计错误”问题。联系方式：卢水琼：微信号：lsqipaper甘元琦：微信号：13244815186团队名称作品名称所属赛道北京大学熔岩瑜伽岁语「小有可为」公益应用方向DeepSpeak!!!DeepSpeak-AI语音日记助手数字生活与情感体验KiwiGlow拾光数字生活与情感体验绘梦精灵绘梦精灵「小有可为」公益应用方向WisleAIWisle AI行业与生产力变革复旦大学淀山湖组合冰箱-智慧语音贴数字生活与情感体验404 Not FoundersMemoir人生回忆录「小有可为」公益应用方向The Matrix不积洼步「小有可为」公益应用方向Hakki咪“聆光一闪”——专为视障学生设计的AI复习助手「小有可为」公益应用方向所以爱会消失对不队CircuitWiz-AI电路图智能识别与生成一体化工具行业与生产力变革缘旅队缘旅数字生活与情感体验鼹鼠对簿AI (Contract Clarity)行业与生产力变革哈尔滨工业大学对吗不对不队梦境显影机数字生活与情感体验对对队智爱助老-药品说明书翻译器「小有可为」公益应用方向Otter_Knight论文写作管理器数字生活与情感体验企业智讯企业智讯行业与生产力变革南京大学Ai说的不队康药智盒CareBox —— 基于大模型与 AIoT 的北美家庭高端健康管理中枢「小有可为」公益应用方向小豆泥心迹 Vesti数字生活与情感体验地板时光工会孤独症儿童干预辅助系统「小有可为」公益应用方向ycyz word+新高考志愿填报及分流指导系统行业与生产力变革三只小狗中的两只队安心吃：面向中老年慢性病患者的 AI 智能饮食管理小程序「小有可为」公益应用方向南下摘星星的人Welcome to my house—欢迎来到，我的主场数字生活与情感体验清华大学深圳国际研究生院KnowellKnowell「小有可为」公益应用方向AI的供养队ScholarPalette 学术调色板行业与生产力变革研知研知-AI辅助科研知识体系助手行业与生产力变革火山心兑喝一杯数字生活与情感体验原点新途Meetmind 你孩子身边记忆力最好的智能同桌行业与生产力变革上海交通大学碱基互补配对队细胞王国--生物学科普游戏数字生活与情感体验ScholarHunterScholarHunter学海猎手行业与生产力变革Meta-EMomShell「小有可为」公益应用方向Sheep Counters梦语数字生活与情感体验王爷队Moments情感及场景化英语学习APP数字生活与情感体验同济大学AI在心里口难开小A机器人&心理急救箱数字生活与情感体验.5n3yWhat2Eat 今天吃什么数字生活与情感体验WhirlWind Justice（旋风正义）“WhirlWind Justice 法律媒体社工一体式正义平台”「小有可为」公益应用方向吾皇万万岁智评作文——AI智能批改与提升行业与生产力变革西安交通大学We look灵愈AI-基于多模态AI的数字医生抑郁检测与疗愈助手「小有可为」公益应用方向WearVision-穿上想象力WearVision-穿上想象力行业与生产力变革DREAMFIRE鲜椒本科模拟器数字生活与情感体验西迁算法用药AI管家「小有可为」公益应用方向香港大学OR StudioNyx数字生活与情感体验算命老先森天机占卜阁（Divine Your Fate）数字生活与情感体验弘维数字生命卡数字生活与情感体验MoreMore「小有可为」公益应用方向Xixi队metasoul潮灵宇宙数字生活与情感体验青霏哈特软软医笺智识行业与生产力变革浙江大学poco-aiPoco:",
-      "summary": "魔搭社区（Modelscope）、Datawhale联合顶尖学府、AMD等合作方，诚邀你加入这场加速进化的旅程—- Al Hackathon Tour 2026。 在这里，不设专业藩篱，不问技术出身。无论你是深耕算法的极客，还是心怀热诚的跨界玩家，只要你相信开源的力量，这里就是你的主场。利用 Al Coding的敏捷开发，快速构建有灵魂的应用。 这是一次逃离舒适区的冒险。去学习AI，去驾驭AI，去...",
-      "contestType": "image",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-03-21T15:59:00.000Z",
-      "prize": "15万现金+惊喜实物",
-      "tags": [
-        "应用开发赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "AI 驱动。尤其在公益赛道",
-        "要寻找用户、市场与技术的交汇点。单纯依赖捐赠无法长久",
-        "产品必须思考如何‘靠什么活着’",
-        "这可能获得更大的流量入口。”5、捕捉“Niche 视角”",
-        "共建国产 Agent 生态StepFun 阶跃星辰开发者产品和生态负责人：滕爱龄（小狼）“学生项目展现了成人世界少见的情绪感受和独特的 niche 视角。中国公司在开发者生态和技术积累上已有深厚沉淀"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:42.276Z",
-      "scrapedAt": "2026-04-03T02:40:45.571Z",
-      "lastUpdated": "2026-04-03T02:42:42.276Z",
+      "processedAt": "2026-04-03T13:14:02.460Z",
+      "scrapedAt": "2026-04-03T13:12:07.336Z",
+      "lastUpdated": "2026-04-03T13:14:02.460Z",
       "version": 1
     },
     {
@@ -845,7 +785,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-04-20T02:41:51.520Z",
+      "deadline": "2026-04-19T13:13:12.518Z",
       "prize": "$5 000 USD",
       "tags": [
         "llm"
@@ -858,9 +798,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:42.283Z",
-      "scrapedAt": "2026-04-03T02:41:51.520Z",
-      "lastUpdated": "2026-04-03T02:42:42.283Z",
+      "processedAt": "2026-04-03T13:14:02.453Z",
+      "scrapedAt": "2026-04-03T13:13:12.518Z",
+      "lastUpdated": "2026-04-03T13:14:02.453Z",
+      "version": 1
+    },
+    {
+      "id": "c_932eedfeb636",
+      "title": "Nedbank Transaction Volume Forecasting Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/nedbank-transaction-volume-forecasting-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "000 ZAR",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-03T13:14:02.460Z",
+      "scrapedAt": "2026-04-03T13:13:12.518Z",
+      "lastUpdated": "2026-04-03T13:14:02.460Z",
       "version": 1
     },
     {
@@ -874,7 +840,7 @@
       "contestType": "mixed",
       "status": "upcoming",
       "difficulty": "intermediate",
-      "deadline": "2026-04-17T02:41:51.520Z",
+      "deadline": "2026-04-17T13:13:12.518Z",
       "prize": "€40 000 EUR",
       "tags": [],
       "aiTools": [
@@ -885,9 +851,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:42.278Z",
-      "scrapedAt": "2026-04-03T02:41:51.521Z",
-      "lastUpdated": "2026-04-03T02:42:42.278Z",
+      "processedAt": "2026-04-03T13:14:02.451Z",
+      "scrapedAt": "2026-04-03T13:13:12.519Z",
+      "lastUpdated": "2026-04-03T13:14:02.451Z",
       "version": 1
     },
     {
@@ -911,9 +877,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:42.277Z",
-      "scrapedAt": "2026-04-03T02:41:51.521Z",
-      "lastUpdated": "2026-04-03T02:42:42.277Z",
+      "processedAt": "2026-04-03T13:14:02.480Z",
+      "scrapedAt": "2026-04-03T13:13:12.519Z",
+      "lastUpdated": "2026-04-03T13:14:02.480Z",
       "version": 1
     },
     {
@@ -937,9 +903,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:42.310Z",
-      "scrapedAt": "2026-04-03T02:41:51.521Z",
-      "lastUpdated": "2026-04-03T02:42:42.310Z",
+      "processedAt": "2026-04-03T13:14:03.484Z",
+      "scrapedAt": "2026-04-03T13:13:12.519Z",
+      "lastUpdated": "2026-04-03T13:14:03.484Z",
       "version": 1
     },
     {
@@ -962,9 +928,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:43.329Z",
-      "scrapedAt": "2026-04-03T02:41:51.521Z",
-      "lastUpdated": "2026-04-03T02:42:43.329Z",
+      "processedAt": "2026-04-03T13:14:03.474Z",
+      "scrapedAt": "2026-04-03T13:13:12.519Z",
+      "lastUpdated": "2026-04-03T13:14:03.474Z",
       "version": 1
     },
     {
@@ -978,7 +944,7 @@
       "contestType": "mixed",
       "status": "upcoming",
       "difficulty": "intermediate",
-      "deadline": "2026-04-18T02:41:51.521Z",
+      "deadline": "2026-04-18T13:13:12.519Z",
       "prize": "2000 USD",
       "tags": [],
       "aiTools": [
@@ -989,9 +955,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:43.315Z",
-      "scrapedAt": "2026-04-03T02:41:51.521Z",
-      "lastUpdated": "2026-04-03T02:42:43.315Z",
+      "processedAt": "2026-04-03T13:14:03.473Z",
+      "scrapedAt": "2026-04-03T13:13:12.519Z",
+      "lastUpdated": "2026-04-03T13:14:03.473Z",
       "version": 1
     },
     {
@@ -1005,7 +971,7 @@
       "contestType": "mixed",
       "status": "upcoming",
       "difficulty": "intermediate",
-      "deadline": "2026-05-01T02:41:51.521Z",
+      "deadline": "2026-05-01T13:13:12.519Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -1015,9 +981,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:43.318Z",
-      "scrapedAt": "2026-04-03T02:41:51.522Z",
-      "lastUpdated": "2026-04-03T02:42:43.318Z",
+      "processedAt": "2026-04-03T13:14:03.475Z",
+      "scrapedAt": "2026-04-03T13:13:12.519Z",
+      "lastUpdated": "2026-04-03T13:14:03.475Z",
       "version": 1
     },
     {
@@ -1040,9 +1006,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:43.320Z",
-      "scrapedAt": "2026-04-03T02:41:51.522Z",
-      "lastUpdated": "2026-04-03T02:42:43.320Z",
+      "processedAt": "2026-04-03T13:14:03.497Z",
+      "scrapedAt": "2026-04-03T13:13:12.520Z",
+      "lastUpdated": "2026-04-03T13:14:03.497Z",
       "version": 1
     },
     {
@@ -1066,9 +1032,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:43.364Z",
-      "scrapedAt": "2026-04-03T02:41:51.522Z",
-      "lastUpdated": "2026-04-03T02:42:43.364Z",
+      "processedAt": "2026-04-03T13:14:04.504Z",
+      "scrapedAt": "2026-04-03T13:13:12.520Z",
+      "lastUpdated": "2026-04-03T13:14:04.504Z",
       "version": 1
     },
     {
@@ -1094,9 +1060,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:44.366Z",
-      "scrapedAt": "2026-04-03T02:41:51.522Z",
-      "lastUpdated": "2026-04-03T02:42:44.366Z",
+      "processedAt": "2026-04-03T13:14:04.509Z",
+      "scrapedAt": "2026-04-03T13:13:12.520Z",
+      "lastUpdated": "2026-04-03T13:14:04.509Z",
       "version": 1
     },
     {
@@ -1120,9 +1086,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:44.364Z",
-      "scrapedAt": "2026-04-03T02:41:51.522Z",
-      "lastUpdated": "2026-04-03T02:42:44.364Z",
+      "processedAt": "2026-04-03T13:14:04.500Z",
+      "scrapedAt": "2026-04-03T13:13:12.520Z",
+      "lastUpdated": "2026-04-03T13:14:04.500Z",
       "version": 1
     },
     {
@@ -1146,9 +1112,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:44.359Z",
-      "scrapedAt": "2026-04-03T02:41:51.523Z",
-      "lastUpdated": "2026-04-03T02:42:44.359Z",
+      "processedAt": "2026-04-03T13:14:04.510Z",
+      "scrapedAt": "2026-04-03T13:13:12.521Z",
+      "lastUpdated": "2026-04-03T13:14:04.510Z",
       "version": 1
     },
     {
@@ -1174,9 +1140,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:44.361Z",
-      "scrapedAt": "2026-04-03T02:41:51.523Z",
-      "lastUpdated": "2026-04-03T02:42:44.361Z",
+      "processedAt": "2026-04-03T13:14:04.522Z",
+      "scrapedAt": "2026-04-03T13:13:12.521Z",
+      "lastUpdated": "2026-04-03T13:14:04.522Z",
       "version": 1
     },
     {
@@ -1200,9 +1166,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:44.392Z",
-      "scrapedAt": "2026-04-03T02:41:51.523Z",
-      "lastUpdated": "2026-04-03T02:42:44.392Z",
+      "processedAt": "2026-04-03T13:14:05.541Z",
+      "scrapedAt": "2026-04-03T13:13:12.521Z",
+      "lastUpdated": "2026-04-03T13:14:05.541Z",
       "version": 1
     },
     {
@@ -1228,9 +1194,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:45.402Z",
-      "scrapedAt": "2026-04-03T02:41:51.523Z",
-      "lastUpdated": "2026-04-03T02:42:45.402Z",
+      "processedAt": "2026-04-03T13:14:05.534Z",
+      "scrapedAt": "2026-04-03T13:13:12.521Z",
+      "lastUpdated": "2026-04-03T13:14:05.534Z",
       "version": 1
     },
     {
@@ -1254,9 +1220,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:45.400Z",
-      "scrapedAt": "2026-04-03T02:41:51.524Z",
-      "lastUpdated": "2026-04-03T02:42:45.400Z",
+      "processedAt": "2026-04-03T13:14:05.535Z",
+      "scrapedAt": "2026-04-03T13:13:12.521Z",
+      "lastUpdated": "2026-04-03T13:14:05.535Z",
       "version": 1
     },
     {
@@ -1280,9 +1246,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:45.398Z",
-      "scrapedAt": "2026-04-03T02:41:51.524Z",
-      "lastUpdated": "2026-04-03T02:42:45.398Z",
+      "processedAt": "2026-04-03T13:14:05.531Z",
+      "scrapedAt": "2026-04-03T13:13:12.522Z",
+      "lastUpdated": "2026-04-03T13:14:05.531Z",
       "version": 1
     },
     {
@@ -1306,9 +1272,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:45.399Z",
-      "scrapedAt": "2026-04-03T02:41:51.524Z",
-      "lastUpdated": "2026-04-03T02:42:45.399Z",
+      "processedAt": "2026-04-03T13:14:05.555Z",
+      "scrapedAt": "2026-04-03T13:13:12.523Z",
+      "lastUpdated": "2026-04-03T13:14:05.555Z",
       "version": 1
     },
     {
@@ -1332,40 +1298,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:45.427Z",
-      "scrapedAt": "2026-04-03T02:41:51.524Z",
-      "lastUpdated": "2026-04-03T02:42:45.427Z",
-      "version": 1
-    },
-    {
-      "id": "c_ba246fff6fbe",
-      "title": "Measuring What Matters Proposal Challenge by ITU",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/measuring-what-matters-proposal-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-03T02:42:46.446Z",
-      "scrapedAt": "2026-04-03T02:41:51.524Z",
-      "lastUpdated": "2026-04-03T02:42:46.446Z",
+      "processedAt": "2026-04-03T13:14:06.574Z",
+      "scrapedAt": "2026-04-03T13:13:12.523Z",
+      "lastUpdated": "2026-04-03T13:14:06.574Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-04-03T02:42:46.454Z"
+    "lastUpdated": "2026-04-03T13:14:06.587Z"
   }
 }

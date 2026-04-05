@@ -1,22 +1,24 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-04-05T02:51:18.681Z",
-  "contestCount": 10,
+  "timestamp": "2026-04-05T13:08:08.236Z",
+  "contestCount": 9,
   "contests": [
     {
       "id": "c_d10f70644c31",
       "title": "Authorized to Act: Auth0 for AI Agents",
       "platform": "devpost",
       "url": "https://authorizedtoact.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/002/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/002/datas/original.png",
+      "description": "Push the boundaries of what AI agents can do and become. As we know, OpenClaw is taking the AI world by storm with sovereign AI that runs locally, and even on browsers and phones. We’re seeing the supply for MacMini’s drying up, since users don’t really want to expose their real machines. What if I told you, now you can more securely keep OpenClaw in restricted mode and let it communicate with your apps in the outside world through an intermediary agent you build? Auth0 for AI Agents provides the identity layer that lets your agents authenticate, authorize, and interact with APIs and services the way humans do. For the Authorized to Act Hackathon, build anything – the only requirement is to build with Token Vault from Auth0 for AI Agents. Let Auth0 handle the OAuth flows, token management, and consent delegation so you can stay focused. Need async auth or step-up authentication? Leave that to Auth0 for AI Agents as well. What will you create? A deeper integration into your users' digital lives that keeps them in control? A continuous agent that spans sub-agents like you’ve got tokens to burn? Dive in and build the future! Why Join This Hackathon? Innovate: Push the boundaries of generative AI and leverage Auth0 for AI Agents Compete: with a prize pool of $10,000 in cash and lots of prizes, you can win monetarily and experientially. Enrich Your Skills: access the dedicated resources, examples, and docs you need to succeed on your mission. Network: Make friends, get recognition, and enhance your portfolio.",
+      "summary": "Push the boundaries of what AI agents can do and become. As we know, OpenClaw is taking the AI world by storm with sovereign AI that runs locally, and even on browsers and phones. We’re seeing the sup...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-04-07T06:45:00.000Z",
       "prize": "$10,000",
       "tags": [
-        "ai"
+        "Open Ended",
+        "Beginner Friendly"
       ],
       "aiTools": [
         "Python",
@@ -24,11 +26,17 @@
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
+      "requirements": [
+        "is to build with Token Vault from Auth0 for AI Agents. Let Auth0 handle the OAuth flows",
+        "token management",
+        "000 in cash and lots of prizes",
+        "you can win monetarily and experientially. Enrich Your Skills: access the dedicated resources",
+        "examples"
+      ],
       "qualityScore": 6,
-      "processedAt": "2026-04-05T02:51:09.975Z",
-      "scrapedAt": "2026-04-05T02:49:40.172Z",
-      "lastUpdated": "2026-04-05T02:51:09.975Z",
+      "processedAt": "2026-04-05T13:08:00.588Z",
+      "scrapedAt": "2026-04-05T13:06:24.391Z",
+      "lastUpdated": "2026-04-05T13:08:00.588Z",
       "version": 1
     },
     {
@@ -36,15 +44,17 @@
       "title": "Agents Assemble - The Healthcare AI Endgame",
       "platform": "devpost",
       "url": "https://agents-assemble.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/original.png",
+      "description": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. Thank you for your interest and understanding. Agents Assemble: The Healthcare AI Endgame Challenge Build Interoperable Healthcare Agents at the Intersection of MCP, A2A, and FHIR. We have all watched the AI in healthcare trailers - the hype, the theories, and the cool demos. But now, we have entered the Endgame. At Prompt Opinion, we define this phase as \"The Last Mile\" - the critical gap where raw intelligence must be converted into actionable deliverables. To conquer this mile, we cannot work alone. We are proud to launch Agents Assemble, a builder’s competition designed to prove that the power of AI lies in collaboration. Our platform provides the headquarters for this mission, giving you native access to the industry's best tools to build in two distinct ways: you can forge a Superpower (building the MCP tools that fuel the ecosystem), or you can rise up to build a Full Agent (equipping those superpowers to tackle a specific healthcare challenge). The technology is ready. The platform is open. It’s time to assemble. Why Participate? This competition is a launchpad for AI solutions that will power future healthcare workflows. Here is why you should join: Lucrative Cash Prizes: Compete for a total prize pool of $25,000 USD in cash, including a $7,500 Grand Prize. Widespread Visibility: Successful projects will be published in the Prompt Opinion Marketplace, making them discoverable and invokable by organizations across the ecosystem. Develop Skills That Matter: Gain hands-on experience with the Model Context Protocol (MCP) and Agent-to-Agent (A2A) standards for building AI agents. Build Healthcare Ready Solutions: Learn how by using the SHARP extension specs from Prompt Opinion, your tools and agents will seamlessly propagate data context using FHIR through multi-agent call chains. Collaborate and Network: Join a community of like-minded innovators and connect with leaders at Prompt Opinion who are shaping the future of AI infrastructure. Bragging Rights: Beyond the prizes, you will walk away with the pride of having built a functional, standards-compliant AI solution that can integrate directly into a clinician's workspace.",
+      "summary": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. ...",
+      "contestType": "text",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-05-12T03:00:00.000Z",
       "prize": "$25,000",
       "tags": [
-        "ai"
+        "Health",
+        "Beginner Friendly"
       ],
       "aiTools": [
         "Python",
@@ -54,9 +64,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-05T02:51:09.978Z",
-      "scrapedAt": "2026-04-05T02:49:40.173Z",
-      "lastUpdated": "2026-04-05T02:51:09.978Z",
+      "processedAt": "2026-04-05T13:08:00.591Z",
+      "scrapedAt": "2026-04-05T13:06:24.391Z",
+      "lastUpdated": "2026-04-05T13:08:00.591Z",
       "version": 1
     },
     {
@@ -64,14 +74,18 @@
       "title": "ZerveHack",
       "platform": "devpost",
       "url": "https://zervehack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/278/921/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/278/921/datas/original.png",
+      "description": "What is Zerve? Zerve is an AI-native data science platform. Start with a question, not a blank script. Zerve's agent writes the code, iterates on errors and runs the analysis while you steer. When you're ready, deploy it as an API or app without leaving the platform. The Challenge Use Zerve to build something original. Analyze a dataset, uncover insights, and ship something others can use: an analysis, an app, an API, or all three. No constraints on topic. No prescribed methodology. Bring a question and see how far you can take it. The best submissions will feel like they couldn't have been built the old way. Manual queries, disconnected tools, endless waiting on the data team. Show us what's possible when AI handles the execution and you drive the direction. Getting Started Navigate to the resources tab to signup and get started!",
+      "summary": "What is Zerve? Zerve is an AI-native data science platform. Start with a question, not a blank script. Zerve's agent writes the code, iterates on errors and runs the analysis while you steer. When you...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-04-29T18:00:00.000Z",
       "prize": "$10,000",
-      "tags": [],
+      "tags": [
+        "Machine Learning",
+        "AI"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -80,9 +94,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-05T02:51:09.985Z",
-      "scrapedAt": "2026-04-05T02:49:40.174Z",
-      "lastUpdated": "2026-04-05T02:51:09.985Z",
+      "processedAt": "2026-04-05T13:08:00.589Z",
+      "scrapedAt": "2026-04-05T13:06:24.392Z",
+      "lastUpdated": "2026-04-05T13:08:00.589Z",
       "version": 1
     },
     {
@@ -90,25 +104,33 @@
       "title": "Learning Hackathon: Spec Driven Development",
       "platform": "devpost",
       "url": "https://learn-ai.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/519/494/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/519/494/datas/original.png",
+      "description": "About the challenge Devpost is launching a new kind of hackathon — shorter, built around learning, and the first in a series. You know the drill: you tell an AI to build you an app, and it kind of works, but the code's a mess and you're not sure what half of it does. Then, when you try to make a big improvement, you end up scrapping it and starting over from scratch. That's what happens when you don't know the best practices of building with AI. This hackathon teaches you spec-driven development — a better way to build with AI. Install a plugin inside Claude Code, plan your app with an AI learning partner, build it, and submit. Most people finish in 4–6 hours. No prizes, no judges — just skills you'll actually use (and a new Devpost badge!). Whether you're learning to code or shipping production software, the plugin will meet you where you are. GETTING STARTED Visit our Resources page for full setup instructions & tutorial on using our Claude Code plugin. Here are also some videos on the process: How to vibe code like a pro Learning plugin walkthrough Claude Code and Plugin Installation You can also access the plugin directly on GitHub at: https://github.com/challengepost/devpost-curriculum A Claude Pro or Max subscription — required to use Claude Code. If you're unsure whether you have one, check before you start. This was the #1 setup surprise in our beta. You'll need to use Claude on your computer! WHY PARTICIPATE Learn by Doing: This isn't a course you watch. You plan, build, and ship a real app — and the process teaches you how to do it again on your own. It's interactive. You'll work inside Claude Code with a custom AI learning partner that guides you through each step — from brainstorming to submission. Think of it less like a tutorial and more like a creative riff session with a smart collaborator. Level Playing Field: No experience requirements beyond the tools listed below. The plugin adapts to your level. Keep the Artifacts: Walk away with a scope document, a requirements doc, a technical spec, a build checklist, and a working app. These are real workflows you can reuse — treat them as templates for your future projects. What You'll Learn Spec-driven development — planning with AI before building, so your projects are intentional instead of generic Flipped interaction prompting — making the AI interview you, not the other way around Context management — keeping your AI productive across sessions instead of starting from scratch every time Verification habits — checking your work at each step so you don't get out over your skis",
+      "summary": "About the challenge Devpost is launching a new kind of hackathon — shorter, built around learning, and the first in a series. You know the drill: you tell an AI to build you an app, and it kind of wor...",
+      "contestType": "video",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-04-29T21:00:00.000Z",
       "prize": "$0",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Open Ended"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
+      "requirements": [
+        "a requirements doc",
+        "a technical spec",
+        "a build checklist"
+      ],
       "qualityScore": 6,
-      "processedAt": "2026-04-05T02:51:10.074Z",
-      "scrapedAt": "2026-04-05T02:49:40.175Z",
-      "lastUpdated": "2026-04-05T02:51:10.074Z",
+      "processedAt": "2026-04-05T13:08:00.670Z",
+      "scrapedAt": "2026-04-05T13:06:24.392Z",
+      "lastUpdated": "2026-04-05T13:08:00.670Z",
       "version": 1
     },
     {
@@ -116,14 +138,19 @@
       "title": "ImpactHacks by HackathonForAll",
       "platform": "devpost",
       "url": "https://impacthacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/398/421/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/398/421/datas/original.png",
+      "description": "ImpactHacks by HackathonForAll ImpactHacks is a beginner-friendly online hackathon designed to empower students of all experience levels to turn ideas into real-world impact. Our mission is to make coding and project-building accessible to everyone, whether you’re a first-time hacker or an experienced builder. Participants will form teams, brainstorm innovative solutions, and build projects that focus on social good, open-ended creativity, and practical problem-solving. Our goal is to create a supportive environment where everyone can learn, collaborate, and showcase their work. Why ImpactHacks is special: Inclusive for all skill levels: No prior experience? No problem — we provide tutorials, resources, and mentor support throughout the hackathon. Mentorship & guidance: Experienced mentors will be available in Discord to help you overcome technical challenges. Community-first: Join a growing student-led community of builders, share ideas, and network with peers. Exciting prizes: Compete for a $1,300 grand prize and additional prizes. Every participant gains 1 month of free Featherless.ai Premium subscription to help them with their project (worth $25) Learn while you hack: Our hackathon doubles as a learning experience — tutorials, guides, and resources are available for all participants. Whether you’re coding your first project or your fifth, ImpactHacks gives you the tools, guidance, and community to build something meaningful and make your ideas come to life.",
+      "summary": "ImpactHacks by HackathonForAll ImpactHacks is a beginner-friendly online hackathon designed to empower students of all experience levels to turn ideas into real-world impact. Our mission is to make co...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-04-24T06:45:00.000Z",
       "prize": "$1,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Open Ended",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -132,61 +159,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-05T02:51:11.075Z",
-      "scrapedAt": "2026-04-05T02:49:40.175Z",
-      "lastUpdated": "2026-04-05T02:51:11.075Z",
-      "version": 1
-    },
-    {
-      "id": "c_4ad384787da4",
-      "title": "INNOSpark Pitch Competition",
-      "platform": "devpost",
-      "url": "https://innospark-competition.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/307/085/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$3,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-05T02:51:11.075Z",
-      "scrapedAt": "2026-04-05T02:49:40.176Z",
-      "lastUpdated": "2026-04-05T02:51:11.075Z",
-      "version": 1
-    },
-    {
-      "id": "c_0122c97ca9d0",
-      "title": "Creator Colosseum Startup Competition: Student Founders. Real Startups.",
-      "platform": "devpost",
-      "url": "https://creatorcolosseumcompetition26.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/399/737/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$575",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-05T02:51:11.070Z",
-      "scrapedAt": "2026-04-05T02:49:40.176Z",
-      "lastUpdated": "2026-04-05T02:51:11.070Z",
+      "processedAt": "2026-04-05T13:08:01.672Z",
+      "scrapedAt": "2026-04-05T13:06:24.399Z",
+      "lastUpdated": "2026-04-05T13:08:01.672Z",
       "version": 1
     },
     {
@@ -210,9 +185,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-05T02:51:11.071Z",
-      "scrapedAt": "2026-04-05T02:49:40.177Z",
-      "lastUpdated": "2026-04-05T02:51:11.071Z",
+      "processedAt": "2026-04-05T13:08:01.670Z",
+      "scrapedAt": "2026-04-05T13:06:24.400Z",
+      "lastUpdated": "2026-04-05T13:08:01.670Z",
+      "version": 1
+    },
+    {
+      "id": "c_0122c97ca9d0",
+      "title": "Creator Colosseum Startup Competition: Student Founders. Real Startups.",
+      "platform": "devpost",
+      "url": "https://creatorcolosseumcompetition26.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/399/737/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$575",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-05T13:08:01.674Z",
+      "scrapedAt": "2026-04-05T13:06:24.400Z",
+      "lastUpdated": "2026-04-05T13:08:01.674Z",
       "version": 1
     },
     {
@@ -236,9 +237,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-05T02:51:11.163Z",
-      "scrapedAt": "2026-04-05T02:49:40.178Z",
-      "lastUpdated": "2026-04-05T02:51:11.163Z",
+      "processedAt": "2026-04-05T13:08:01.670Z",
+      "scrapedAt": "2026-04-05T13:06:24.401Z",
+      "lastUpdated": "2026-04-05T13:08:01.670Z",
       "version": 1
     },
     {
@@ -262,15 +263,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-05T02:51:12.156Z",
-      "scrapedAt": "2026-04-05T02:49:40.179Z",
-      "lastUpdated": "2026-04-05T02:51:12.156Z",
+      "processedAt": "2026-04-05T13:08:01.758Z",
+      "scrapedAt": "2026-04-05T13:06:24.402Z",
+      "lastUpdated": "2026-04-05T13:08:01.758Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-04-05T02:51:18.681Z"
+    "lastUpdated": "2026-04-05T13:08:08.236Z"
   }
 }

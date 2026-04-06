@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-04-06T02:52:30.082Z",
+  "timestamp": "2026-04-06T13:21:26.842Z",
   "contestCount": 10,
   "contests": [
     {
@@ -34,9 +34,9 @@
         "examples"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-06T02:52:21.499Z",
-      "scrapedAt": "2026-04-06T02:51:04.587Z",
-      "lastUpdated": "2026-04-06T02:52:21.499Z",
+      "processedAt": "2026-04-06T13:21:18.498Z",
+      "scrapedAt": "2026-04-06T13:20:03.148Z",
+      "lastUpdated": "2026-04-06T13:21:18.498Z",
       "version": 1
     },
     {
@@ -64,9 +64,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-06T02:52:21.495Z",
-      "scrapedAt": "2026-04-06T02:51:04.588Z",
-      "lastUpdated": "2026-04-06T02:52:21.495Z",
+      "processedAt": "2026-04-06T13:21:18.520Z",
+      "scrapedAt": "2026-04-06T13:20:03.149Z",
+      "lastUpdated": "2026-04-06T13:21:18.520Z",
       "version": 1
     },
     {
@@ -94,9 +94,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-06T02:52:21.498Z",
-      "scrapedAt": "2026-04-06T02:51:04.589Z",
-      "lastUpdated": "2026-04-06T02:52:21.498Z",
+      "processedAt": "2026-04-06T13:21:18.500Z",
+      "scrapedAt": "2026-04-06T13:20:03.150Z",
+      "lastUpdated": "2026-04-06T13:21:18.500Z",
       "version": 1
     },
     {
@@ -111,7 +111,7 @@
       "status": "active",
       "difficulty": "intermediate",
       "deadline": "2026-04-29T21:00:00.000Z",
-      "prize": "$0",
+      "prize": "1",
       "tags": [
         "Beginner Friendly",
         "Open Ended"
@@ -128,9 +128,9 @@
         "a build checklist"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-06T02:52:21.655Z",
-      "scrapedAt": "2026-04-06T02:51:04.590Z",
-      "lastUpdated": "2026-04-06T02:52:21.655Z",
+      "processedAt": "2026-04-06T13:21:18.582Z",
+      "scrapedAt": "2026-04-06T13:20:03.151Z",
+      "lastUpdated": "2026-04-06T13:21:18.582Z",
       "version": 1
     },
     {
@@ -159,9 +159,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-06T02:52:22.569Z",
-      "scrapedAt": "2026-04-06T02:51:04.591Z",
-      "lastUpdated": "2026-04-06T02:52:22.569Z",
+      "processedAt": "2026-04-06T13:21:19.595Z",
+      "scrapedAt": "2026-04-06T13:20:03.154Z",
+      "lastUpdated": "2026-04-06T13:21:19.595Z",
       "version": 1
     },
     {
@@ -169,20 +169,14 @@
       "title": "Creator Colosseum Startup Competition: Student Founders. Real Startups.",
       "platform": "devpost",
       "url": "https://creatorcolosseumcompetition26.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/399/737/datas/original.png",
-      "description": "The Creator Colosseum Startup Competition is a global, online startup competition for students ages 13–18, organized by Creator Colosseum, a student-founded initiative focused on making entrepreneurship accessible at an early stage. The goal of this competition is to help student founders take real ideas seriously. Participants submit realistic startup concepts that matter to them and their communities, receive professional evaluation, and gain exposure to what it actually takes to move an idea forward. The Creator Colosseum Startup Competition gives you the opportunity to receive meaningful feedback, real-world validation, and mentorship from experienced entrepreneurs. Whether your idea includes code, design, or a business model still being refined, this competition meets you where you are and helps you grow. The competition is entirely virtual, free to enter, and designed to reward clarity, originality, and execution rather than polish alone.",
-      "summary": "The Creator Colosseum Startup Competition is a global, online startup competition for students ages 13–18, organized by Creator Colosseum, a student-founded initiative focused on making entrepreneursh...",
-      "contestType": "code",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/399/737/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-05-05T04:00:00.000Z",
       "prize": "$575",
-      "tags": [
-        "Beginner Friendly",
-        "Low",
-        "No Code",
-        "Social Good"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -191,9 +185,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-06T02:52:22.570Z",
-      "scrapedAt": "2026-04-06T02:51:04.591Z",
-      "lastUpdated": "2026-04-06T02:52:22.570Z",
+      "processedAt": "2026-04-06T13:21:19.585Z",
+      "scrapedAt": "2026-04-06T13:20:03.154Z",
+      "lastUpdated": "2026-04-06T13:21:19.585Z",
       "version": 1
     },
     {
@@ -201,19 +195,14 @@
       "title": "Ideathon 2026",
       "platform": "devpost",
       "url": "https://ideathone-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/417/106/datas/original.png",
-      "description": "Hey there! Let's see what happens when we bring creative minds together to solve real-life problems! Here's everything you need to know about this exciting ideathon: ⚠️ MUST use ASI-1 in their idea (even if just planning how ASI-1 would be integrated) ⚠️ MUST complete registration form before starting ⚠️ Document all ASI-1 interactions - show how AI helped shape their idea ⚠️ No offensive or harmful content",
-      "summary": "Hey there! Let's see what happens when we bring creative minds together to solve real-life problems! Here's everything you need to know about this exciting ideathon: ⚠️ MUST use ASI-1 in their idea (e...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/417/106/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-25T11:30:00.000Z",
       "prize": "₹ 45,000",
-      "tags": [
-        "Education",
-        "Lifehacks",
-        "Social Good"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -222,9 +211,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-06T02:52:22.573Z",
-      "scrapedAt": "2026-04-06T02:51:04.592Z",
-      "lastUpdated": "2026-04-06T02:52:22.573Z",
+      "processedAt": "2026-04-06T13:21:19.583Z",
+      "scrapedAt": "2026-04-06T13:20:03.155Z",
+      "lastUpdated": "2026-04-06T13:21:19.583Z",
       "version": 1
     },
     {
@@ -232,19 +221,14 @@
       "title": "Hack Trek",
       "platform": "devpost",
       "url": "https://hack-trek.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/336/380/datas/original.png",
-      "description": "🚀 Hackathon Site – Main Description 🤖 AI Automate 2026 – Build the Future with Machine Learning & Automation Welcome to AI Automate 2026, a high-intensity innovation sprint focused on solving real-world problems using Machine Learning, AI Agents, and Intelligent Automation. This hackathon challenges participants to build systems that can think, learn, decide, and act autonomously. Whether it's: 🤖 AI Agents automating workflows 📊 ML models solving real-world prediction problems 🧠 LLM-powered assistants 🔄 RPA + AI integrations 📡 Smart IoT automation 🏦 AI in fintech, healthcare, cybersecurity, or sustainability We want solutions that reduce human effort, improve decision-making, and scale impact.",
-      "summary": "🚀 Hackathon Site – Main Description 🤖 AI Automate 2026 – Build the Future with Machine Learning & Automation Welcome to AI Automate 2026, a high-intensity innovation sprint focused on solving real-w...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/336/380/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-17T11:30:00.000Z",
       "prize": "₹ 10,000",
-      "tags": [
-        "llm",
-        "Open Ended",
-        "Web"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -253,40 +237,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-06T02:52:22.576Z",
-      "scrapedAt": "2026-04-06T02:51:04.593Z",
-      "lastUpdated": "2026-04-06T02:52:22.576Z",
-      "version": 1
-    },
-    {
-      "id": "c_53dfbc3b9641",
-      "title": "GatewayGS Hackathon",
-      "platform": "devpost",
-      "url": "https://gateway-hackathon-27996.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/191/495/datas/original.png",
-      "description": "About the challenge This hackathon is an open-ended AI problem-solving challenge. Participants are free to identify a real-world problem of their choosing and design a solution using modern AI tools and techniques. Rather than restricting teams to a narrow theme, the event emphasizes: Creative problem selection Practical, real-world impact Thoughtful use of AI (LLMs, APIs, automation, data, agents, etc.) Clear articulation of why the solution matters Projects can span any domain (healthcare, education, productivity, climate, finance, accessibility, etc.), as long as AI plays a meaningful role in the solution. Teams will be evaluated on problem clarity, technical implementation, innovation, and potential impact. Get started Form a team (or work solo) Identify a problem you care about or have personally observed Design and build an AI-powered solution using any tools or platforms you choose Submit your project with a short explanation of the problem, solution, and AI usagd No prior hackathon experience is required. This event is designed to be welcoming to beginners while still offering depth and challenge for experienced builders.",
-      "summary": "About the challenge This hackathon is an open-ended AI problem-solving challenge. Participants are free to identify a real-world problem of their choosing and design a solution using modern AI tools a...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "beginner",
-      "deadline": "2026-04-06T03:45:00.000Z",
-      "prize": "1",
-      "tags": [
-        "llm",
-        "Beginner Friendly",
-        "Open Ended"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-06T02:52:22.645Z",
-      "scrapedAt": "2026-04-06T02:51:04.593Z",
-      "lastUpdated": "2026-04-06T02:52:22.645Z",
+      "processedAt": "2026-04-06T13:21:19.582Z",
+      "scrapedAt": "2026-04-06T13:20:03.155Z",
+      "lastUpdated": "2026-04-06T13:21:19.582Z",
       "version": 1
     },
     {
@@ -294,18 +247,14 @@
       "title": "DevHouse Global Hackathon 2026",
       "platform": "devpost",
       "url": "https://devhouse.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/501/470/datas/original.png",
-      "description": "DevHouse Global Hackathon 2026 is a global product-focused hackathon built for developers, designers, and builders who want to create real, usable products with real-world impact. As part of the CortexX Global Hackathon Series 2026, DevHouse is designed to go beyond ideas and prototypes. Participants are encouraged to build end-to-end solutions, launch MVPs, and focus on delivering products that solve meaningful problems and can be used by actual users. This hackathon emphasizes execution, usability, and product thinking. From SaaS platforms and developer tools to fintech applications and productivity solutions, DevHouse challenges participants to build scalable, practical, and high-quality products. With a global prize pool of $5,000, participation from experienced industry judges, and opportunities for internships, mentorship, and potential pre-placement offers, DevHouse provides a pathway from idea to real-world opportunity. Participants are encouraged to focus on user experience, performance, and product-market fit while building solutions across industries such as fintech, healthcare, education, enterprise tools, and consumer applications. DevHouse Global Hackathon 2026 is open to students, professionals, and independent builders who are passionate about shipping real products and competing at a global level.",
-      "summary": "DevHouse Global Hackathon 2026 is a global product-focused hackathon built for developers, designers, and builders who want to create real, usable products with real-world impact. As part of the Corte...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/501/470/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-11T21:00:00.000Z",
       "prize": "$3,799",
-      "tags": [
-        "Enterprise",
-        "Productivity"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -314,15 +263,41 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-06T02:52:23.645Z",
-      "scrapedAt": "2026-04-06T02:51:04.594Z",
-      "lastUpdated": "2026-04-06T02:52:23.645Z",
+      "processedAt": "2026-04-06T13:21:19.610Z",
+      "scrapedAt": "2026-04-06T13:20:03.156Z",
+      "lastUpdated": "2026-04-06T13:21:19.610Z",
+      "version": 1
+    },
+    {
+      "id": "c_646898a9b0a7",
+      "title": "GNEC Hackathon 2026 Spring - Compete For UN-Affiliated/NGO Internships & Prizes",
+      "platform": "devpost",
+      "url": "https://gnec-hackathon-2026-spring.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/363/100/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$700",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-06T13:21:20.635Z",
+      "scrapedAt": "2026-04-06T13:20:03.156Z",
+      "lastUpdated": "2026-04-06T13:21:20.635Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-04-06T02:52:30.082Z"
+    "lastUpdated": "2026-04-06T13:21:26.842Z"
   }
 }

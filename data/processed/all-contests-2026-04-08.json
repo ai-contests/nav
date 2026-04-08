@@ -1,6 +1,6 @@
 {
   "platform": "all",
-  "timestamp": "2026-04-08T02:46:45.602Z",
+  "timestamp": "2026-04-08T13:29:42.683Z",
   "contestCount": 47,
   "contests": [
     {
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:34.833Z",
-      "scrapedAt": "2026-04-08T02:45:46.302Z",
-      "lastUpdated": "2026-04-08T02:46:34.833Z",
+      "processedAt": "2026-04-08T13:29:32.188Z",
+      "scrapedAt": "2026-04-08T13:28:15.669Z",
+      "lastUpdated": "2026-04-08T13:29:32.188Z",
       "version": 1
     },
     {
@@ -42,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T02:45:46.302Z",
+      "deadline": "2030-08-14T13:28:15.670Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -53,9 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:35.691Z",
-      "scrapedAt": "2026-04-08T02:45:46.302Z",
-      "lastUpdated": "2026-04-08T02:46:35.691Z",
+      "processedAt": "2026-04-08T13:29:33.028Z",
+      "scrapedAt": "2026-04-08T13:28:15.670Z",
+      "lastUpdated": "2026-04-08T13:29:33.028Z",
       "version": 1
     },
     {
@@ -69,7 +69,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T02:45:46.302Z",
+      "deadline": "2045-09-01T13:28:15.670Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -80,14 +80,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:35.734Z",
-      "scrapedAt": "2026-04-08T02:45:46.302Z",
-      "lastUpdated": "2026-04-08T02:46:35.734Z",
+      "processedAt": "2026-04-08T13:29:33.153Z",
+      "scrapedAt": "2026-04-08T13:28:15.670Z",
+      "lastUpdated": "2026-04-08T13:29:33.153Z",
       "version": 1
     },
     {
       "id": "c_03552b946309",
-      "title": "MEDIQA 2021 - Question Summarization (QS)",
+      "title": "Post Challenge Round: 1727 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/mediqa-2021-question-summarization-qs",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/644/MEDIQA-Background.jpg",
@@ -96,11 +96,10 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T02:45:46.303Z",
+      "deadline": "2030-12-30T13:28:15.670Z",
       "prize": "TBD",
       "tags": [
-        "nlp",
-        "Weight: 1.0"
+        "nlp"
       ],
       "aiTools": [
         "Python",
@@ -110,9 +109,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:35.726Z",
-      "scrapedAt": "2026-04-08T02:45:46.303Z",
-      "lastUpdated": "2026-04-08T02:46:35.726Z",
+      "processedAt": "2026-04-08T13:29:33.119Z",
+      "scrapedAt": "2026-04-08T13:28:15.670Z",
+      "lastUpdated": "2026-04-08T13:29:33.119Z",
       "version": 1
     },
     {
@@ -138,9 +137,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:35.747Z",
-      "scrapedAt": "2026-04-08T02:45:46.303Z",
-      "lastUpdated": "2026-04-08T02:46:35.747Z",
+      "processedAt": "2026-04-08T13:29:33.155Z",
+      "scrapedAt": "2026-04-08T13:28:15.671Z",
+      "lastUpdated": "2026-04-08T13:29:33.155Z",
       "version": 1
     },
     {
@@ -164,9 +163,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:35.834Z",
-      "scrapedAt": "2026-04-08T02:45:46.304Z",
-      "lastUpdated": "2026-04-08T02:46:35.834Z",
+      "processedAt": "2026-04-08T13:29:33.182Z",
+      "scrapedAt": "2026-04-08T13:28:15.672Z",
+      "lastUpdated": "2026-04-08T13:29:33.182Z",
       "version": 1
     },
     {
@@ -193,9 +192,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:36.836Z",
-      "scrapedAt": "2026-04-08T02:44:45.664Z",
-      "lastUpdated": "2026-04-08T02:46:36.836Z",
+      "processedAt": "2026-04-08T13:29:34.180Z",
+      "scrapedAt": "2026-04-08T13:27:16.825Z",
+      "lastUpdated": "2026-04-08T13:29:34.180Z",
       "version": 1
     },
     {
@@ -203,18 +202,14 @@
       "title": "ZerveHack",
       "platform": "devpost",
       "url": "https://zervehack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/278/921/datas/original.png",
-      "description": "What is Zerve? Zerve is an AI-native data science platform. Start with a question, not a blank script. Zerve's agent writes the code, iterates on errors and runs the analysis while you steer. When you're ready, deploy it as an API or app without leaving the platform. The Challenge Use Zerve to build something original. Analyze a dataset, uncover insights, and ship something others can use: an analysis, an app, an API, or all three. No constraints on topic. No prescribed methodology. Bring a question and see how far you can take it. The best submissions will feel like they couldn't have been built the old way. Manual queries, disconnected tools, endless waiting on the data team. Show us what's possible when AI handles the execution and you drive the direction. Getting Started Navigate to the resources tab to signup and get started!",
-      "summary": "What is Zerve? Zerve is an AI-native data science platform. Start with a question, not a blank script. Zerve's agent writes the code, iterates on errors and runs the analysis while you steer. When you...",
-      "contestType": "code",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/278/921/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-29T18:00:00.000Z",
       "prize": "$10,000",
-      "tags": [
-        "Machine Learning",
-        "AI"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -223,9 +218,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:36.835Z",
-      "scrapedAt": "2026-04-08T02:45:19.901Z",
-      "lastUpdated": "2026-04-08T02:46:36.835Z",
+      "processedAt": "2026-04-08T13:29:34.198Z",
+      "scrapedAt": "2026-04-08T13:27:42.264Z",
+      "lastUpdated": "2026-04-08T13:29:34.198Z",
       "version": 1
     },
     {
@@ -233,17 +228,15 @@
       "title": "Agents Assemble - The Healthcare AI Endgame",
       "platform": "devpost",
       "url": "https://agents-assemble.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/original.png",
-      "description": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. Thank you for your interest and understanding. Agents Assemble: The Healthcare AI Endgame Challenge Build Interoperable Healthcare Agents at the Intersection of MCP, A2A, and FHIR. We have all watched the AI in healthcare trailers - the hype, the theories, and the cool demos. But now, we have entered the Endgame. At Prompt Opinion, we define this phase as \"The Last Mile\" - the critical gap where raw intelligence must be converted into actionable deliverables. To conquer this mile, we cannot work alone. We are proud to launch Agents Assemble, a builder’s competition designed to prove that the power of AI lies in collaboration. Our platform provides the headquarters for this mission, giving you native access to the industry's best tools to build in two distinct ways: you can forge a Superpower (building the MCP tools that fuel the ecosystem), or you can rise up to build a Full Agent (equipping those superpowers to tackle a specific healthcare challenge). The technology is ready. The platform is open. It’s time to assemble. Why Participate? This competition is a launchpad for AI solutions that will power future healthcare workflows. Here is why you should join: Lucrative Cash Prizes: Compete for a total prize pool of $25,000 USD in cash, including a $7,500 Grand Prize. Widespread Visibility: Successful projects will be published in the Prompt Opinion Marketplace, making them discoverable and invokable by organizations across the ecosystem. Develop Skills That Matter: Gain hands-on experience with the Model Context Protocol (MCP) and Agent-to-Agent (A2A) standards for building AI agents. Build Healthcare Ready Solutions: Learn how by using the SHARP extension specs from Prompt Opinion, your tools and agents will seamlessly propagate data context using FHIR through multi-agent call chains. Collaborate and Network: Join a community of like-minded innovators and connect with leaders at Prompt Opinion who are shaping the future of AI infrastructure. Bragging Rights: Beyond the prizes, you will walk away with the pride of having built a functional, standards-compliant AI solution that can integrate directly into a clinician's workspace.",
-      "summary": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. ...",
-      "contestType": "text",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-05-12T03:00:00.000Z",
       "prize": "$25,000",
       "tags": [
-        "Health",
-        "Beginner Friendly"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -253,9 +246,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:36.833Z",
-      "scrapedAt": "2026-04-08T02:45:19.901Z",
-      "lastUpdated": "2026-04-08T02:46:36.833Z",
+      "processedAt": "2026-04-08T13:29:34.182Z",
+      "scrapedAt": "2026-04-08T13:27:42.265Z",
+      "lastUpdated": "2026-04-08T13:29:34.182Z",
       "version": 1
     },
     {
@@ -263,33 +256,25 @@
       "title": "Learning Hackathon: Spec Driven Development",
       "platform": "devpost",
       "url": "https://learn-ai.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/519/494/datas/original.png",
-      "description": "About the challenge Devpost is launching a new kind of hackathon — shorter, built around learning, and the first in a series. You know the drill: you tell an AI to build you an app, and it kind of works, but the code's a mess and you're not sure what half of it does. Then, when you try to make a big improvement, you end up scrapping it and starting over from scratch. That's what happens when you don't know the best practices of building with AI. This hackathon teaches you spec-driven development — a better way to build with AI. Install a plugin inside Claude Code, plan your app with an AI learning partner, build it, and submit. Most people finish in 4–6 hours. No prizes, no judges — just skills you'll actually use (and a new Devpost badge!). Whether you're learning to code or shipping production software, the plugin will meet you where you are. GETTING STARTED Visit our Resources page for full setup instructions & tutorial on using our Claude Code plugin. Here are also some videos on the process: How to vibe code like a pro Learning plugin walkthrough Claude Code and Plugin Installation You can also access the plugin directly on GitHub at: https://github.com/challengepost/devpost-curriculum A Claude Pro or Max subscription — required to use Claude Code. If you're unsure whether you have one, check before you start. This was the #1 setup surprise in our beta. You'll need to use Claude on your computer! WHY PARTICIPATE Learn by Doing: This isn't a course you watch. You plan, build, and ship a real app — and the process teaches you how to do it again on your own. It's interactive. You'll work inside Claude Code with a custom AI learning partner that guides you through each step — from brainstorming to submission. Think of it less like a tutorial and more like a creative riff session with a smart collaborator. Level Playing Field: No experience requirements beyond the tools listed below. The plugin adapts to your level. Keep the Artifacts: Walk away with a scope document, a requirements doc, a technical spec, a build checklist, and a working app. These are real workflows you can reuse — treat them as templates for your future projects. What You'll Learn Spec-driven development — planning with AI before building, so your projects are intentional instead of generic Flipped interaction prompting — making the AI interview you, not the other way around Context management — keeping your AI productive across sessions instead of starting from scratch every time Verification habits — checking your work at each step so you don't get out over your skis",
-      "summary": "About the challenge Devpost is launching a new kind of hackathon — shorter, built around learning, and the first in a series. You know the drill: you tell an AI to build you an app, and it kind of wor...",
-      "contestType": "video",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/519/494/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-29T21:00:00.000Z",
       "prize": "$0",
-      "tags": [
-        "Beginner Friendly",
-        "Open Ended"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [
-        "a requirements doc",
-        "a technical spec",
-        "a build checklist"
-      ],
+      "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:36.834Z",
-      "scrapedAt": "2026-04-08T02:45:19.902Z",
-      "lastUpdated": "2026-04-08T02:46:36.834Z",
+      "processedAt": "2026-04-08T13:29:34.192Z",
+      "scrapedAt": "2026-04-08T13:27:42.266Z",
+      "lastUpdated": "2026-04-08T13:29:34.192Z",
       "version": 1
     },
     {
@@ -297,20 +282,14 @@
       "title": "Creator Colosseum Startup Competition: Student Founders. Real Startups.",
       "platform": "devpost",
       "url": "https://creatorcolosseumcompetition26.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/399/737/datas/original.png",
-      "description": "The Creator Colosseum Startup Competition is a global, online startup competition for students ages 13–18, organized by Creator Colosseum, a student-founded initiative focused on making entrepreneurship accessible at an early stage. The goal of this competition is to help student founders take real ideas seriously. Participants submit realistic startup concepts that matter to them and their communities, receive professional evaluation, and gain exposure to what it actually takes to move an idea forward. The Creator Colosseum Startup Competition gives you the opportunity to receive meaningful feedback, real-world validation, and mentorship from experienced entrepreneurs. Whether your idea includes code, design, or a business model still being refined, this competition meets you where you are and helps you grow. The competition is entirely virtual, free to enter, and designed to reward clarity, originality, and execution rather than polish alone.",
-      "summary": "The Creator Colosseum Startup Competition is a global, online startup competition for students ages 13–18, organized by Creator Colosseum, a student-founded initiative focused on making entrepreneursh...",
-      "contestType": "code",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/399/737/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-05-05T04:00:00.000Z",
       "prize": "$575",
-      "tags": [
-        "Beginner Friendly",
-        "Low",
-        "No Code",
-        "Social Good"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -319,9 +298,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:36.923Z",
-      "scrapedAt": "2026-04-08T02:45:19.903Z",
-      "lastUpdated": "2026-04-08T02:46:36.923Z",
+      "processedAt": "2026-04-08T13:29:34.234Z",
+      "scrapedAt": "2026-04-08T13:27:42.267Z",
+      "lastUpdated": "2026-04-08T13:29:34.234Z",
       "version": 1
     },
     {
@@ -329,19 +308,14 @@
       "title": "Ideathon 2026",
       "platform": "devpost",
       "url": "https://ideathone-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/417/106/datas/original.png",
-      "description": "Hey there! Let's see what happens when we bring creative minds together to solve real-life problems! Here's everything you need to know about this exciting ideathon: ⚠️ MUST use ASI-1 in their idea (even if just planning how ASI-1 would be integrated) ⚠️ MUST complete registration form before starting ⚠️ Document all ASI-1 interactions - show how AI helped shape their idea ⚠️ No offensive or harmful content",
-      "summary": "Hey there! Let's see what happens when we bring creative minds together to solve real-life problems! Here's everything you need to know about this exciting ideathon: ⚠️ MUST use ASI-1 in their idea (e...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/417/106/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-25T11:30:00.000Z",
       "prize": "₹ 45,000",
-      "tags": [
-        "Education",
-        "Lifehacks",
-        "Social Good"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -350,9 +324,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:37.992Z",
-      "scrapedAt": "2026-04-08T02:45:19.904Z",
-      "lastUpdated": "2026-04-08T02:46:37.992Z",
+      "processedAt": "2026-04-08T13:29:35.364Z",
+      "scrapedAt": "2026-04-08T13:27:42.270Z",
+      "lastUpdated": "2026-04-08T13:29:35.364Z",
       "version": 1
     },
     {
@@ -360,19 +334,14 @@
       "title": "Hack Trek",
       "platform": "devpost",
       "url": "https://hack-trek.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/336/380/datas/original.png",
-      "description": "🚀 Hackathon Site – Main Description 🤖 AI Automate 2026 – Build the Future with Machine Learning & Automation Welcome to AI Automate 2026, a high-intensity innovation sprint focused on solving real-world problems using Machine Learning, AI Agents, and Intelligent Automation. This hackathon challenges participants to build systems that can think, learn, decide, and act autonomously. Whether it's: 🤖 AI Agents automating workflows 📊 ML models solving real-world prediction problems 🧠 LLM-powered assistants 🔄 RPA + AI integrations 📡 Smart IoT automation 🏦 AI in fintech, healthcare, cybersecurity, or sustainability We want solutions that reduce human effort, improve decision-making, and scale impact.",
-      "summary": "🚀 Hackathon Site – Main Description 🤖 AI Automate 2026 – Build the Future with Machine Learning & Automation Welcome to AI Automate 2026, a high-intensity innovation sprint focused on solving real-w...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/336/380/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-17T11:30:00.000Z",
       "prize": "₹ 10,000",
-      "tags": [
-        "llm",
-        "Open Ended",
-        "Web"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -381,9 +350,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:37.919Z",
-      "scrapedAt": "2026-04-08T02:45:19.906Z",
-      "lastUpdated": "2026-04-08T02:46:37.919Z",
+      "processedAt": "2026-04-08T13:29:35.225Z",
+      "scrapedAt": "2026-04-08T13:27:42.271Z",
+      "lastUpdated": "2026-04-08T13:29:35.225Z",
       "version": 1
     },
     {
@@ -391,18 +360,14 @@
       "title": "Global Fusion hackathon",
       "platform": "devpost",
       "url": "https://globalfusionhackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/477/293/datas/original.png",
-      "description": "🔥 About Global Fusion Hackathon (https://globalfusionhackathon.com/) Global Fusion Hackathon is an international innovation challenge bringing together developers, designers, and problem-solvers from across the globe to build impactful AI-powered solutions. Participants will collaborate across borders to solve real-world problems in domains like Healthcare, FinTech, AgriTech, and more. email to judge- contact@globalfusionhackathon.com 🌐 Why Join? Work on real-world global problems Collaborate with participants from multiple countries Get mentorship from industry experts Win exciting prizes and global recognition Showcase your skills to recruiters & startups 🎯 Themes / Tracks 🤖 Artificial Intelligence 💰 FinTech 🏥 HealthTech 🌾 AgriTech 🌍 Open Innovation 🗓️ Timeline Registration Opens: April 1, 2026 Hackathon Starts: April 10, 2026 Hackathon Ends: April 26, 2026 Submission Deadline: April 15, 2026 Winners Announcement: April 30, 2026 🧑‍💻 Who Can Participate? Students (all years) Developers & Engineers Designers & Product Thinkers Startups & Innovators",
-      "summary": "🔥 About Global Fusion Hackathon (https://globalfusionhackathon.com/) Global Fusion Hackathon is an international innovation challenge bringing together developers, designers, and problem-solvers from...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/477/293/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-04-13T21:00:00.000Z",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$1,750",
-      "tags": [
-        "Fintech",
-        "Health"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -411,9 +376,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:37.918Z",
-      "scrapedAt": "2026-04-08T02:45:19.907Z",
-      "lastUpdated": "2026-04-08T02:46:37.918Z",
+      "processedAt": "2026-04-08T13:29:35.309Z",
+      "scrapedAt": "2026-04-08T13:27:42.271Z",
+      "lastUpdated": "2026-04-08T13:29:35.309Z",
       "version": 1
     },
     {
@@ -421,19 +386,14 @@
       "title": "GNEC Hackathon 2026 Spring - Compete For UN-Affiliated/NGO Internships & Prizes",
       "platform": "devpost",
       "url": "https://gnec-hackathon-2026-spring.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/363/100/datas/original.png",
-      "description": "About the hackathon General The Global NGO Executive Committee (GNEC) and its 1,600 subsidiaries have come together to host our fourth GNEC Hackathon! We encourage those passionate about engineering, technology, and programming to join this event to demonstrate their skills while competing for prizes such as internships and mentorships with our partners. Why Us GNEC is well-connected to the UN and has a global network of NGOs. You can tap into this network during and after this hackathon. Our partners will also host various workshops where they will teach new technological concepts while also offering insight into their mission and the work they have done. The workshops are a great opportunity to explore one’s interests and possible career paths. Theme Through the GNEC Hackathon, we encourage participants to explore sustainability through technology by setting the hackathon's theme as one or two of the United Nations Sustainable Development Goals (UN SDGs). This hackathon's theme will be SDG 3 (Health and Well-being). Get started Join our Discord server (https://discord.gg/n5pcCHcGC6) and meet with everyone else involved in the hackathon. You are welcome to make your own team but if you don't have teammates, our Discord server is a great place to look for a team. The opening ceremony will provide further information regarding the hackathon and the working period will commence shortly after. Be creative, make new friends, and above all, have fun!",
-      "summary": "About the hackathon General The Global NGO Executive Committee (GNEC) and its 1,600 subsidiaries have come together to host our fourth GNEC Hackathon! We encourage those passionate about engineering, ...",
-      "contestType": "code",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/363/100/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-05-03T16:00:00.000Z",
       "prize": "$700",
-      "tags": [
-        "Beginner Friendly",
-        "Health",
-        "Social Good"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -442,9 +402,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:37.921Z",
-      "scrapedAt": "2026-04-08T02:45:19.907Z",
-      "lastUpdated": "2026-04-08T02:46:37.921Z",
+      "processedAt": "2026-04-08T13:29:35.242Z",
+      "scrapedAt": "2026-04-08T13:27:42.272Z",
+      "lastUpdated": "2026-04-08T13:29:35.242Z",
       "version": 1
     },
     {
@@ -452,18 +412,14 @@
       "title": "DSH Hacks V1",
       "platform": "devpost",
       "url": "https://dsh-hacks-v1.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/466/363/datas/original.png",
-      "description": "About the Challenge DSH Hacks V1 is a global student competition open to students aged 13+ hosted collaboratively by three youth-led organizations: DeltaForge Hacks, NextHorizon, and STEMise. Theme: AI x STEM Education This event brings together young innovators from around the world to reimagine the future of STEM education through artificial intelligence. Participants will work individually or in teams to design and develop a meaningful technical product that leverages AI to improve, enhance, or expand STEM education. Projects may range from machine learning tools that personalize learning pathways to computer vision systems for laboratory simulations, to AI-driven platforms that increase accessibility for underrepresented communities. Creativity, feasibility, technical depth, and real-world impact will be central to evaluation. The theme of this competition is to create tools that help students learn STEM more effectively, interactively, and accessibly. These tools can be an app, a website, a simulation, a system, or an algorithm. Participants are allowed to use AI to encourage them to build a meaningful solution in the realm of STEM education and to lower the technical barrier that imposes challenges for beginners with ambitious project ideas. Get Started Ask around and form a team! We highly recommend finding like-minded individuals around you to help make your ideas a reality! Please join these Discord servers: DeltaForge Hacks & STEMise! You may very well find your new team!",
-      "summary": "About the Challenge DSH Hacks V1 is a global student competition open to students aged 13+ hosted collaboratively by three youth-led organizations: DeltaForge Hacks, NextHorizon, and STEMise. Theme: A...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "beginner",
-      "deadline": "2026-06-02T04:45:00.000Z",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/466/363/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "4",
-      "tags": [
-        "Beginner Friendly",
-        "Social Good"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -472,9 +428,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:38.139Z",
-      "scrapedAt": "2026-04-08T02:45:19.908Z",
-      "lastUpdated": "2026-04-08T02:46:38.139Z",
+      "processedAt": "2026-04-08T13:29:35.391Z",
+      "scrapedAt": "2026-04-08T13:27:42.272Z",
+      "lastUpdated": "2026-04-08T13:29:35.391Z",
       "version": 1
     },
     {
@@ -482,19 +438,14 @@
       "title": "EnviroCast Global Engineering Outlook: From Insight to Impact Hackathon",
       "platform": "devpost",
       "url": "https://from-insight-to-impact.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/191/451/datas/original.png",
-      "description": "About the challenge EnviroCast GEO: From Insight to Impact Hackathon is an international, student-led online hackathon that invites participants to innovate, build, and solve real-world problems to shape the future. Whether you’re creating a web app, mobile tool, hardware prototype, AI solution, or entirely new technology, this hackathon is open-ended — your ideas are the limit. Theme: From Insight to Impact Explore bold engineering solutions Experiment with creative technology Design projects that have real-world impact Ensure projects are efficient and transparent Participants may use Featherless inference credits during the hackathon. Featherless is providing inference access for all participants for the full duration of the hackathon. For a detailed guide on accessing these credits, refer to the Resources section of this hackathon page. All participants will receive 300 credits for MeDo.dev, with technical support and Q&A information through the Discord server. For a detailed guide on accessing these credits, refer to the Resouces section of this hackathon page. Hackathon Highlights: Fully virtual and international Winners announced live during the EnviroCast GEO: Furthering the Future Conference @ http://geo.envirocast.org/ (May 24, Day 2) Winners will also be announced on Devpost If you desire to be a speaker at the GEO international conference, apply at the link provided to be a speaker. Free to enter, open to all eligible students About our Sponsors: Featherless is an inference provider and AI research lab that hosts over 20,000+ open-weight models. Featherless optimizes inference and architecture so models run faster, cheaper, and reliably in production. MeDo is an affordable yet powerful way to turn ideas into life fast, with no code, no setup, no limits. MeDo uses agentic AI to build production‑ready full‑stack apps — frontend, backend, database and integrations — in minutes. Everything is automated through natural language. TruthInTech is a global policy initative advocating for integrity in AI systems through youth-led policy frameworks, global education, and evidence-based governance. Get ready to build, innovate, and showcase your ideas to the world!",
-      "summary": "About the challenge EnviroCast GEO: From Insight to Impact Hackathon is an international, student-led online hackathon that invites participants to innovate, build, and solve real-world problems to sh...",
-      "contestType": "text",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/191/451/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-05-21T05:00:00.000Z",
       "prize": "$625",
-      "tags": [
-        "Open Ended",
-        "Productivity",
-        "Social Good"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -503,9 +454,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:39.072Z",
-      "scrapedAt": "2026-04-08T02:45:19.908Z",
-      "lastUpdated": "2026-04-08T02:46:39.072Z",
+      "processedAt": "2026-04-08T13:29:36.383Z",
+      "scrapedAt": "2026-04-08T13:27:42.273Z",
+      "lastUpdated": "2026-04-08T13:29:36.383Z",
       "version": 1
     },
     {
@@ -520,7 +471,7 @@
       "status": "active",
       "difficulty": "intermediate",
       "deadline": "2026-06-30T15:59:00.000Z",
-      "prize": "400000",
+      "prize": "40万元奖金+SSP offer",
       "tags": [
         "应用开发赛",
         "ai"
@@ -539,9 +490,9 @@
         "进行详细实现。其他非必要环节"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:39.075Z",
-      "scrapedAt": "2026-04-08T02:44:35.780Z",
-      "lastUpdated": "2026-04-08T02:46:39.075Z",
+      "processedAt": "2026-04-08T13:29:36.391Z",
+      "scrapedAt": "2026-04-08T13:27:09.241Z",
+      "lastUpdated": "2026-04-08T13:29:36.391Z",
       "version": 1
     },
     {
@@ -568,9 +519,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:39.076Z",
-      "scrapedAt": "2026-04-08T02:44:35.780Z",
-      "lastUpdated": "2026-04-08T02:46:39.076Z",
+      "processedAt": "2026-04-08T13:29:36.389Z",
+      "scrapedAt": "2026-04-08T13:27:09.241Z",
+      "lastUpdated": "2026-04-08T13:29:36.389Z",
       "version": 1
     },
     {
@@ -597,9 +548,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:39.075Z",
-      "scrapedAt": "2026-04-08T02:44:35.781Z",
-      "lastUpdated": "2026-04-08T02:46:39.075Z",
+      "processedAt": "2026-04-08T13:29:36.385Z",
+      "scrapedAt": "2026-04-08T13:27:09.241Z",
+      "lastUpdated": "2026-04-08T13:29:36.385Z",
       "version": 1
     },
     {
@@ -633,9 +584,68 @@
         "参赛者可以对已提交的游戏进行多次更新和完善"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:39.155Z",
-      "scrapedAt": "2026-04-08T02:44:35.781Z",
-      "lastUpdated": "2026-04-08T02:46:39.155Z",
+      "processedAt": "2026-04-08T13:29:36.403Z",
+      "scrapedAt": "2026-04-08T13:27:09.241Z",
+      "lastUpdated": "2026-04-08T13:29:36.403Z",
+      "version": 1
+    },
+    {
+      "id": "c_566393fd7fb5",
+      "title": "AMD 锐龙 AI 智能体创新应用大赛邀你定义 AI 新未来",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/216",
+      "imageUrl": "",
+      "description": "当算力走出云端，智能在终端觉醒，端侧 AI 正成为人工智能向个人化、实时化、隐私化演进的核心方向。AMD 携手 36 氪联合发起锐龙 AI 端侧智能体创新开发大赛，以锐龙 AI Max + 系列笔记本为核心载体，面向全球开发者、创作者、科创爱好者发出邀约，邀各界力量用本地超强算力打破网络束缚、守护数据隐私、释放创意想象，重新定义端侧 AI 的形态与边界。 本次大赛立足端侧 AI 技术落地与场景创新，挖掘兼具技术实力与落地价值的端侧智能体应用，搭建端侧 AI 生态交流与孵化平台，助力优秀创意从 0 到 1 落地。我们将开放 4 大赛题方向、招募 200 支参赛队伍、孵化 20 个优质应用，不仅寻",
+      "summary": "当算力走出云端，智能在终端觉醒，端侧 AI 正成为人工智能向个人化、实时化、隐私化演进的核心方向。AMD 携手 36 氪联合发起锐龙 AI 端侧智能体创新开发大赛，以锐龙 AI Max + 系列笔记本为核心载体，面向全球开发者、创作者、科创爱好者发出邀约，邀各界力量用本地超强算力打破网络束缚、守护数据隐私、释放创意想象，重新定义端侧 AI 的形态与边界。 本次大赛立足端侧 AI 技术落地与场景创新...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-04-16T15:59:00.000Z",
+      "prize": "￥141969元现金池&AMD锐龙AI笔记本硬件大奖+开发者资源加持",
+      "tags": [
+        "应用开发赛",
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-08T13:29:37.494Z",
+      "scrapedAt": "2026-04-08T13:27:09.242Z",
+      "lastUpdated": "2026-04-08T13:29:37.494Z",
+      "version": 1
+    },
+    {
+      "id": "c_5f96dffa2221",
+      "title": "大模型多标签分类任务学习赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/215",
+      "imageUrl": "",
+      "description": "此次比赛是西安电子科技大学人工智能学院的学习赛，非全网公开赛，仅限人工智能学院学生参与。",
+      "summary": "此次比赛是西安电子科技大学人工智能学院的学习赛，非全网公开赛，仅限人工智能学院学生参与。...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-18T15:59:00.000Z",
+      "prize": "0",
+      "tags": [
+        "算法竞赛"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-08T13:29:37.416Z",
+      "scrapedAt": "2026-04-08T13:27:09.242Z",
+      "lastUpdated": "2026-04-08T13:29:37.416Z",
       "version": 1
     },
     {
@@ -644,9 +654,9 @@
       "platform": "modelscope",
       "url": "https://modelscope.cn/competition/210",
       "imageUrl": "",
-      "description": "4月4日-4月6日举办“中国云谷”高校训练营，闭幕式于4月6日14:00正式开始！\n\n⏰ 时间： 4月6日（周一）14:00-17:30📍 地点： 杭州市西湖区灯彩街1009号云谷中心-A6栋云鸿厅自驾导航：云谷中心5号门打车导航：云谷中心1号门🌟 闭幕式重磅发布本次闭幕式将集中揭晓四大核心内容，打通从校园到产业的成长通道：ROS 暑期学校 2026ROSCon China 2026具身智能系列赛事规划 西湖区企业真实应用场景与人才需求清单🔗 核心机制与参会价值活动创新构建 “技术学习 — 场景认知 — 产业对接” 闭环联动机制。面向有志于深耕机器人与具身智能方向的青年学子，这不仅是一场技术风向的集中发布，更是一次系统了解产业演进路径、明确工程能力要求、精准匹配企业资源的实战型对接窗口。👥 适合人群高校机器人/AI/自动化相关专业本科生及研究生具备基础开发能力、希望向具身智能方向转型的技术爱好者关注产学研合作与高质量实习/就业渠道的青年开发者",
-      "summary": "4月4日-4月6日举办“中国云谷”高校训练营，闭幕式于4月6日14:00正式开始！\n\n⏰ 时间： 4月6日（周一）14:00-17:30📍 地点： 杭州市西湖区灯彩街1009号云谷中心-A6栋云鸿厅自驾导航：云谷中心5号门打车导航：云谷中心1号门🌟 闭幕式重磅发布本次闭幕式将集中揭晓四大核心内容，打通从校园到产业的成长通道：ROS 暑期学校 2026ROSCon China 2026具身智能系...",
-      "contestType": "mixed",
+      "description": "4月4日-4月6日举办“中国云谷”高校训练营，闭幕式于4月6日14:00正式开始！\n\n活动回顾4月6日，随着训练营结业仪式圆满结束，为期三天的“中国云谷”高校训练营暨ROS春季学校在云谷中心正式落下帷幕。本次活动由机器人操作系统（ROS）教育基金会主办，萝卜园具身智能生态社区、云谷中心、魔搭社区承办，汇聚云深处科技、智元机器人、智谷未来等企业力量，聚焦具身智能主题，为来自全国的100名高校学子打造了一场集“工业级平台+真实场景+系统级工程”于一体的沉浸式学习体验。本次训练营见证了学生们对具身智能的学习热情，也感受到“从课堂到产业”这条人才培养新路径正在一步步走深走实。 亲手“操练”机器狗与人形机器人，告别具身智能“纸上谈兵”此次训练营引入云深处科技的四足机器人（机器狗）和智元机器人的灵犀X2双足机器人（人形机器人）等平台，让平时难以接触高端实体机器人的高校学生，亲手体验操作、调试设备的感受。在课程设计上，训练营设置了“四足机器人系统实训”与“人形机器人系统实训”两大模块。从传统运动控制到强化学习实操，从ROS2系统搭建到二次开发实践，全部基于行业真实工程任务。学员们在导师指导下，完成了现场导师设置的各项场景化考核，真正实现了从“算法设计”到“实体机器人运行”的全流程跨越。  云深处科技、智元机器人、智谷未来等企业专家授课，3天掌握具身智能实战技能本次训练营采用“小班制+导师制”，由云深处科技、智元机器人、智谷未来等企业的技术专家全程授课。在四足机器人课程中，学员们从基础操作入手，逐步掌握二次开发接口使用，强化学习模型部署、感知系统调试等核心技能；在双足机器人课程中，学员们从机器人操作系统（ROS）入手，重点学习了机器人操作系统的结构与运作逻辑，并且结合大模型进行基于仿真系统的实践；随后，学员们围绕灵犀X2的架构解析、二次开发接口使用、运动控制与感知决策协同等内容展开实践，最终通过小组协作完成复杂任务。这种“动手+实用”的实战模式，让学员们在短短三天内，不仅掌握了ROS2系统开发的核心技能，更建立了团队协作与工程思维。  结业不落幕，“中国云谷”高校训练营将继续交出科产教融合新答卷训练营结业仪式上，杭州紫金港科技城管理委员会党工委副书记、主任徐东旭和机器人操作系统（ROS）教育基金会主席张新宇教授为本次训练营的学生授予结业证书。西湖大学赵世钰教授、杭州云深处科技教育行业副总监徐刘玉、智元机器人技术生态专家韩俊带来的行业前沿报告，让学员们真切感受到了产业发展的强劲脉搏。这不仅是一次技能集训，更是一次技术、产业与人才的深度对接，从课堂到产业，从技术到生态——“中国云谷”高校训练营，正在为AI未来蓄力。期待更多AI新生力量的加入，共筑AI产业生态。     “中国云谷”高校训练营是云谷中心和紫金港科技城共同打造的 AI 科产教融合发展标杆项目，链接高校学生、产业生态、政策扶持，构建“技术学习—场景认知—产业对接”的产业联动机制，推进人才链、产业链、创新链深度融合，为 AI 生态引育未来力量。今年云谷中心和魔搭社区将继续推进“中国云谷”高校训练营，持续推出更多AI专题课程，魔搭社区作为全国最大的开源模型平台，将为训练营提供丰富的前沿大模型资源、低代码开发工具及算力支持，助力学员降低 AI 开发门槛，实现从理论到应用的快速转化，打造开放协同的 AI 创新实践基地。欢迎高校学生、AI爱好者、AI教育企业持续关注，一起加入这场从课堂到产业的实战之旅。⏰ 时间： 4月6日（周一）14:00-17:30📍 地点： 杭州市西湖区灯彩街1009号云谷中心-A6栋云鸿厅自驾导航：云谷中心5号门打车导航：云谷中心1号门🌟 闭幕式重磅发布本次闭幕式将集中揭晓四大核心内容，打通从校园到产业的成长通道：ROS 暑期学校 2026ROSCon China 2026具身智能系列赛事规划 西湖区企业真实应用场景与人才需求清单🔗 核心机制与参会价值活动创新构建 “技术学习 — 场景认知 — 产业对接” 闭环联动机制。面向有志于深耕机器人与具身智能方向的青年学子，这不仅是一场技术风向的集中发布，更是一次系统了解产业演进路径、明确工程能力要求、精准匹配企业资源的实战型对接窗口。👥 适合人群高校机器人/AI/自动化相关专业本科生及研究生具备基础开发能力、希望向具身智能方向转型的技术爱好者关注产学研合作与高质量实习/就业渠道的青年开发者",
+      "summary": "4月4日-4月6日举办“中国云谷”高校训练营，闭幕式于4月6日14:00正式开始！\n\n活动回顾4月6日，随着训练营结业仪式圆满结束，为期三天的“中国云谷”高校训练营暨ROS春季学校在云谷中心正式落下帷幕。本次活动由机器人操作系统（ROS）教育基金会主办，萝卜园具身智能生态社区、云谷中心、魔搭社区承办，汇聚云深处科技、智元机器人、智谷未来等企业力量，聚焦具身智能主题，为来自全国的100名高校学子打造...",
+      "contestType": "code",
       "status": "ended",
       "difficulty": "intermediate",
       "deadline": "2026-04-06T02:00:00.000Z",
@@ -662,9 +672,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:40.152Z",
-      "scrapedAt": "2026-04-08T02:44:35.781Z",
-      "lastUpdated": "2026-04-08T02:46:40.152Z",
+      "processedAt": "2026-04-08T13:29:37.427Z",
+      "scrapedAt": "2026-04-08T13:27:09.242Z",
+      "lastUpdated": "2026-04-08T13:29:37.427Z",
       "version": 1
     },
     {
@@ -691,9 +701,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:40.161Z",
-      "scrapedAt": "2026-04-08T02:44:35.782Z",
-      "lastUpdated": "2026-04-08T02:46:40.161Z",
+      "processedAt": "2026-04-08T13:29:37.406Z",
+      "scrapedAt": "2026-04-08T13:27:09.242Z",
+      "lastUpdated": "2026-04-08T13:29:37.406Z",
       "version": 1
     },
     {
@@ -724,9 +734,9 @@
         "但不作为硬性要求。Q：Skills 封装是必须完成的吗？"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:40.159Z",
-      "scrapedAt": "2026-04-08T02:44:35.782Z",
-      "lastUpdated": "2026-04-08T02:46:40.159Z",
+      "processedAt": "2026-04-08T13:29:37.510Z",
+      "scrapedAt": "2026-04-08T13:27:09.243Z",
+      "lastUpdated": "2026-04-08T13:29:37.510Z",
       "version": 1
     },
     {
@@ -754,70 +764,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:40.162Z",
-      "scrapedAt": "2026-04-08T02:44:35.783Z",
-      "lastUpdated": "2026-04-08T02:46:40.162Z",
-      "version": 1
-    },
-    {
-      "id": "c_7962bd5d5189",
-      "title": "FlagOS开放计算全球挑战赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/180",
-      "imageUrl": "",
-      "description": "“FlagOS开放计算全球挑战赛”是众智FlagOS社区、北京智源人工智能研究院、CCF ODTC联合主办的综合性大赛，设置算子开发、大模型推理优化、自动数据标注三大核心赛道，旨在深度优化大模型性能与效率。\n\n“FlagOS开放计算全球挑战赛”是众智FlagOS社区、北京智源人工智能研究院、CCF ODTC联合主办的一项多赛季、综合性赛事。大赛鼓励开发者基于统一AI系统软件栈FlagOS的能力进行创作实战和创新探索，促进AI开发者能力提升。赛事总奖金池高达200万元，优胜者将共享奖金并获得主办方颁发的荣誉证书。诚邀AI算法与系统工程师、硬件与编译器开发者，以及所有致力于突破AI芯片编程复杂性的技术实践者与梦想家参与挑战，共同推进开放计算生态的蓬勃发展。赛季一将于2026年1月9日启动注册，2026年6月上旬公布最终结果。本赛季聚焦算子开发、大模型推理优化、自动数据标注三大核心赛道，以深度优化大模型性能与运行效率，推动技术落地与行业创新。S1 挑战概览 本赛季挑战赛设三大赛道，分别聚焦不同维度的开发能力：赛道一考察算子底层实现与跨平台深度优化能力；赛道二考察全栈推理性能的极致挖掘与系统调优能力；赛道三考察长上下文场景中模型自动数据标注能力。赛道一：基于FlagOS能力，开发大模型算子并提升算子性能本赛道围绕FlagOS体系下通用算子库FlagGems的实际应用需求设计了20道赛题任务，核心考察参赛者的算子实现和性能极致优化能力。组委会将从 “功能正确性、性能竞争力、开源适配性、跨平台兼容性、测例完整度、代码可读性” 六个纬度对提交作品进行量化评分。8 道简单算子题（基础数学 / 通用基础算子）8 道中等算子题（经典深度学习算子）4 道困难算子题（前沿复杂场景算子）赛道二：基于FlagOS体系下大模型多芯片框架，对大模型推理吞吐性能优化本赛道重点考察参赛者/队伍对大模型推理性能的优化能力，要求参赛者在严格保持模型精度与不显著增加时延的前提下，对Qwen3-4B进行极限推理吞吐优化。参赛者需综合利用并行策略、显存管理、计算内核及采样算法等全栈技术，在指定框架与硬件上挖掘最大性能潜力。指定的大模型推理框架 vllm-plugin-FL：https://github.com/flagos-ai/vllm-plugin-FL指定的高性能算子库FlagGems：https://github.com/FlagOpen/FlagGems指定的Qwen3-4B模型赛道三：长上下文场景中大模型自动数据标注本赛道重点考察参赛者的模型应用能力，要求每个参赛者/队伍基于Qwen3-4B模型，使用组委会提供的统一数据集，设计有效的ICL方案进行自动数据标注，并在统一评测数据集上进行推理验证。最终，组委会将以标准化榜单形式统计各参赛者/队伍的评测分数和排行榜。赛事奖金赛道一赛道二赛道三简单算子任务：1000 RMB/个中等算子任务：2000 RMB/个困难算子任务：3000 RMB/个Prize 1: 30000 RMBPrize 2: 20000 RMBPrize 3: 10000 RMBPrize 1: 30000 RMBPrize 2: 20000 RMBPrize 3: 10000 RMB赛程安排赛道一赛道二赛道三报名阶段：1月9日-5月20日开发阶段：2月24日-5月20日评审阶段：“实时评审”，详见赛题一时间安排结果发布：6月上旬报名阶段：1月9日-5月20日 算力申请阶段：1月9日-3月11日官方算力评审及发放：3月12日-3月19日开发阶段：3月20日-5月20日评审阶段：5月21日-6月4日结果发布：6月上旬报名阶段：1月9日-5月20日算力申请阶段：1月9日-3月11日官方算力评审及发放：3月12日-3月23日开发阶段：3月24日-5月20日评审阶段：5月21日-6月4日技术报告与代码开源：5月21日-5月31日结果发布：6月上旬赛事须知1.参赛资格和方式参赛对象：欢迎所有对赛事主题感兴趣的个人或团队报名参与。参赛形式：可以个人名义参赛，也可以团队形式参赛，每支团队人数不得超过3人。团队报名时，仅需由一名成员代表填写完整的团队及作品信息即可，切勿多名成员重复提交。每人或每队在整个赛期内仅能拥有一个参赛身份，不得重复报名。参赛者报名前必须填写【报名信息表】：jwolpxeehx.feishu.cn，确保报名信息真实、准确、有效，否则会被取消参赛资格及激励。2.赛道规则每位参赛者（个人或团队）只能选择其中一个赛道提交作品。在任一赛道提交作品后，即视为确认参赛赛道，不可更改。在不同赛道重复提交将被视为无效参赛，主办方有权取消其参赛资格。3.作品提交要求内容规范：参赛作品必须必须遵守普遍认可的国际准则与公序良俗。严禁作品内容包含或涉及安全、色情、民族歧视、宗教歧视、侵犯个人隐私等；赛事主办方有权认定并处理其他任何不适宜在全球公开场合展示或传播的内容。如有骚扰、歧视或其他不当行为将被取消参赛资格，FlagOS社区保留全权取消任何参赛者或参赛团队资格的权利。原创性与版权：参赛作品必须是参赛者（个人或团队）的原创成果，拥有完整的知识产权。严禁任何形式的剽窃、抄袭、盗用他人作品或创意。一经发现核实，将立即取消参赛及获奖资格，并由参赛者承担全部法律责任。作品如使用第三方素材（如开源代码等），须在提交时明确标注出处，并确保已获得合法授权，不侵犯任何第三方的合法权益。组委会提供算力使用要求：专用于比赛相关实验，禁止用于转借、挖矿等与比赛无关任务提交格式与方式：请严格按照官方发布的【每个赛道的具体提交格式】要求准备作品。在规定的提交截止日期前，通过官方指定的通道进行提交。逾期提交或未按格式要求提交的作品，将无法进入评审环节。4.评审和奖项评审将基于各赛道公布的评审标准进行。奖项设置将根据各赛道参赛情况独立评定，具体奖项及奖励发放办法详见后续公告。5.其他注意事项参赛作品一经提交，即视为参赛者同意主办方及其授权单位拥有对作品进行宣传、展示、出版等无偿使用权。参赛者须保证所提交信息的真实性。如有虚假，主办方有权取消其资格。赛事主办方拥有对本次赛事规则及安排的最终解释权。如有任何争议，以主办方解释为准。请各位参赛者仔细阅读以上规则，祝您参赛顺利，取得佳绩！如有疑问，请联系：contact@flagos.io添加小助手+发送“参赛”discord 频道赛事主办方众智FlagOS社区、北京智源人工智能研究院、CCF ODTC\n1. 赛题综述随着大模型的发展，算子性能已经成为影响模型吞吐与延迟的关键因素。Triton 作为一种开源的 GPU 编程语言及编译器，兼具跨硬件适配能力与良好的易用性，正逐渐成为产业界与学术界编写自定义算子的主流选择之一。FlagGems 作为聚焦 Triton 生态的开源算子库，旨在为大模型训练推理提供高效、通用、可扩展的算子解决方案，构建活跃且有竞争力的开源生态。本次算子开发赛道以 “赋能开源生态，吸纳核心贡献者” 为核心宗旨，面向开发者搭建技术交流与能力展示平台。本赛道围绕实际开源需求设有20 道不同难度算子开发赛题，覆盖基础数学运算、深度学习高频算子、前沿复杂场景算子三大类，既为新手开发者提供低门槛的开源入门路径，也为资深技术专家预留突破技术边界的探索空间。所有参赛方案将经过社区严格评审，获奖作品将直接纳入 FlagGems 开源库，参赛者同步成为社区正式贡献者，享受贡献者专属权益（如生态 roadmap 参与权、技术资源倾斜等）。本赛道希望通过以赛促建的方式，汇聚全球开发者智慧，丰富算子库的功能覆盖、提升核心性能、强化跨平台适配能力，推动 FlagGems 成为 AI 领域极具影响力的开源算子生态。2. 赛题概览本赛道共设有20 道赛题，按难度与技术考察维度划分，适配不同技术水平的开发者，力求更多开发者加入比赛。难度分布：8 道初级算子题（基础数学 / 通用基础算子）、8 道中级算子题（经典深度学习算子）、4 道高级算子题（前沿复杂场景算子）；设计逻辑：以 “基础实现→性能优化→创新突破” 为核心脉络，从基础数学算子的功能实现，到深度学习高频算子的性能调优与反向传播适配，再到前沿复杂算子的算法创新与场景落地，形成完整的能力考察体系；核心导向：所有赛题均源于 Flaggems 开源生态的实际需求与技术缺口，聚焦通用数学计算、计算机视觉、语音识别、深度学习框架适配等核心场景，确保参赛成果具备直接的开源应用价值；考察维度：兼顾 “功能正确性、性能竞争力、开源适配性、跨平台兼容性、测例完整度、代码可读性多个维度，既重视工程落地能力，也鼓励技术创新探索。3. 时间安排报名阶段：1月9日-5月20日开发阶段：自备算力和开发环境：1月9日-5月20日使用主办方提供的算力和开发环境：2月24日-5月20日评审阶段：采用“实时评审”规则，评委一旦收到符合要求的PR，立即review并对符合要求的PR进行merge。PR一经合入采用，表明对应的算子任务结束且对应奖金被领走，组委会将及时加入新的算子任务进行任务补充。结果发布：6月上旬4. 赛题详情 20道赛题列表如下：算子编号算子名称难度schema算子分类Torch API1log10初级log10(Tensor self) -> Tensorlog10_(Tensor(a!) self) -> Tensor(a!)log10.out(Tensor self, *, Tensor(a!) out) -> Tensor(a!)pointwisehttps://docs.pytorch.org/docs/stable/generated/torch.log10.html2logaddexp初级logaddexp(Tensor self, Tensor other) -> Tensorlogaddexp.out(Tensor self, Tensor other, *, Tensor(a!) out) -> Tensor(a!)pointwisehttps://docs.pytorch.org/docs/stable/generated/torch.logaddexp.html3cosh初级cosh(Tensor self) -> Tensorpointwisehttps://docs.pytorch.org/docs/stable/generated/torch.cosh.html4gcd初级gcd(Tensor self, Tensor other) -> Tensorpointwisehttps://docs.pytorch.org/docs/stable/generated/torch.gcd.html5tril初级tril(input, diagonal=0, *, out=None) → Tensorpointwisehttps://docs.pytorch.org/docs/stable/generated/torch.tril.html6roll初级torch.roll(input, shifts, dims=None)layouthttps://docs.pytorch.org/docs/stable/generated/torch.roll.html#torch.roll7leaky reLU初级torch.nn.LeakyReLU(negative_slope=0.01, inplace=False) → Tensorpointwisehttps://docs.pytorch.org/docs/stable/generated/torch.nn.LeakyReLU.html#torch.nn.LeakyReLU8asinh初级asinh(input: Tensor, *, out: Optional[Tensor]) → Tensorpointwisehttps://docs.pytorch.org/docs/stable/generated/torch.asinh.html",
-      "summary": "“FlagOS开放计算全球挑战赛”是众智FlagOS社区、北京智源人工智能研究院、CCF ODTC联合主办的综合性大赛，设置算子开发、大模型推理优化、自动数据标注三大核心赛道，旨在深度优化大模型性能与效率。\n\n“FlagOS开放计算全球挑战赛”是众智FlagOS社区、北京智源人工智能研究院、CCF ODTC联合主办的一项多赛季、综合性赛事。大赛鼓励开发者基于统一AI系统软件栈FlagOS的能力进行...",
-      "contestType": "code",
-      "status": "active",
-      "difficulty": "beginner",
-      "deadline": "2026-05-20T15:59:00.000Z",
-      "prize": "¥200W",
-      "tags": [
-        "llm",
-        "应用开发赛",
-        "pytorch"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:40.241Z",
-      "scrapedAt": "2026-04-08T02:44:35.785Z",
-      "lastUpdated": "2026-04-08T02:46:40.241Z",
-      "version": 1
-    },
-    {
-      "id": "c_cea6bb207d15",
-      "title": "阿里云米兰冬奥会AIGC全球大赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/176",
-      "imageUrl": "",
-      "description": "呼应本届米兰冬奥会官方主张为“IT'S YOUR VIBE”（意展你风采）与国际奥委会革新奥运粉丝参与运动方式的诉求，奥林匹克官方云服务合作伙伴阿里云，携手IOC与米兰-科尔蒂纳2026冬奥组委，共同发起全球首个官方奥运粉丝AIGC互动项目。妙语生万相，「意」展你风采！来通义万相创作AI视频参与创作，用创意点燃冰雪，不仅有机会将作品收录到奥运博物馆，更能赢取米兰冬奥会现场门票！\n\n赛事介绍呼应本届冬奥会“IT'S YOUR VIBE”（意展你风采）的主张，奥运官方云服务合作伙伴阿里云，携手国际奥委会与米兰-科尔蒂纳2026冬奥组委，共同发起全球首个官方奥运粉丝AIGC互动项目。全球奥运粉丝都可以使用阿里云通义万相，对花样滑冰、短道速滑、高山滑雪、单板滑雪四项运动任选其一，进行AI视频创作并投稿参赛，组委会将选取参赛作品中的100幅优秀作品，汇聚成奥运历史上首个AIGC数字艺术作品《YOUR EPIC VIBE》，并收集为奥林匹克博物馆馆藏作品。《YOUR EPIC VIBE》将在2026年2月6日起进行全球多地联展。征稿主题YOUR EPIC VIBE —— Powered by Alibaba Cloud AI Technology “意”展你风采大赛流程全球同步 大赛开启：1月6日赛事结束 投稿截止：1月26日TOP100 获奖揭晓：2月4日获奖作品 全球放映：2月7日奖项设置全球奖项：所有作品会在世界超级地标和全球社媒矩阵重点转发与展示奖项数量奖励评审规则全球TOP100最佳花样滑冰作品25名TOP100电子奖牌创作激励奖金作品纳入奥林匹克博物馆馆藏表彰在四个赛道中最具表现力的作品最佳短道速滑作品25名最佳高山滑雪作品25名最佳单板滑雪作品25名最佳Vibe风采从TOP100中选出5名5名米兰冬奥会门票创作激励奖金及米兰之行基金最佳风采数字奖牌表彰在故事原创性与情感深度上展现非凡叙事能力的作品。最佳视觉呈现从TOP100中选出5名5名米兰冬奥会门票创作激励奖金及米兰之行基金最佳视觉呈现数字奖牌表彰在动态表现、设计美学与视觉构图方面具有杰出表现的作品。一位参赛者仅可有一部作品入围，但一部作品可获得多个奖项。社群奖项：由社群主理人、社群Ai技术专家和赛事组委会共同评选产生，可兼得全球与社群奖项TOP3TOP10TOP30冬奥典藏摩卡壶套装米兰冬奥主题香薰米兰冬奥主题徽章组委会保留根据作品整体质量决定是否颁授提名奖项的权利。参赛规则参赛对象：全球创作者，包括但不限于个人创作者、创意团队或组织（请中国大陆参赛者登陆：aliyun.aigcchampionship.com 提交作品）参赛内容：创作基于花样滑冰、短道速滑、高山滑雪、单板滑雪四项冬奥赛事运动的AI视频内容，选择一项运动进行AI视频创作提交作品要求时长5s～10秒，视频为横板16:9 参赛者需使用通义万相作为主要创作工具，以下两种作品形式皆可参与AI生成视频，60%以上时长内容由AI大模型生成，参赛者可以进入通义万相官网或在阿里云百炼、魔搭AIGC专区进行创作通义万相：https://tongyi.aliyun.com/wan/explore/?bd_vid=11262196419895029948魔搭AIGC专区：https://modelscope.cn/aigc/videoGeneration阿里云百炼：https://bailian.console.aliyun.com/?tab=model#/efm/model_experience_center/vision?currentTab=videoGenerate跨媒介创作：如插画、雕塑、时尚、行为或装置艺术等非影像艺术创作者，需在作品中充分运用WAN模型，赋予作品全新生命力并以视频形式提交最终作品提交方式：在完成创作之后在社交媒体（微博、抖音、小红书）带话题#阿里云米兰冬奥会AIGC全球大赛#（必带）#阿里云AI支撑米兰冬奥会 #阿里巴巴（选带） 并保存作品发布链接在报名表页面提交对应社交媒体链接，视为参赛成功报名提交地址：https://summit.aliyun.com/aigcchampionship/submit?formId=7043",
-      "summary": "呼应本届米兰冬奥会官方主张为“IT'S YOUR VIBE”（意展你风采）与国际奥委会革新奥运粉丝参与运动方式的诉求，奥林匹克官方云服务合作伙伴阿里云，携手IOC与米兰-科尔蒂纳2026冬奥组委，共同发起全球首个官方奥运粉丝AIGC互动项目。妙语生万相，「意」展你风采！来通义万相创作AI视频参与创作，用创意点燃冰雪，不仅有机会将作品收录到奥运博物馆，更能赢取米兰冬奥会现场门票！\n\n赛事介绍呼应本届...",
-      "contestType": "image",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-01-26T15:59:00.000Z",
-      "prize": "米兰冬奥会门票+创作激励奖金+独家电子奖牌",
-      "tags": [
-        "图片生成",
-        "视频生成赛"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:41.243Z",
-      "scrapedAt": "2026-04-08T02:44:35.785Z",
-      "lastUpdated": "2026-04-08T02:46:41.243Z",
+      "processedAt": "2026-04-08T13:29:38.514Z",
+      "scrapedAt": "2026-04-08T13:27:09.243Z",
+      "lastUpdated": "2026-04-08T13:29:38.514Z",
       "version": 1
     },
     {
@@ -831,7 +780,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-04-20T02:45:49.241Z",
+      "deadline": "2026-04-19T13:28:10.321Z",
       "prize": "$5 000 USD",
       "tags": [
         "llm"
@@ -844,9 +793,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:41.244Z",
-      "scrapedAt": "2026-04-08T02:45:49.241Z",
-      "lastUpdated": "2026-04-08T02:46:41.244Z",
+      "processedAt": "2026-04-08T13:29:38.511Z",
+      "scrapedAt": "2026-04-08T13:28:10.322Z",
+      "lastUpdated": "2026-04-08T13:29:38.511Z",
       "version": 1
     },
     {
@@ -860,7 +809,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-04T02:45:49.242Z",
+      "deadline": "2026-05-03T13:28:10.322Z",
       "prize": "000 ZAR",
       "tags": [],
       "aiTools": [
@@ -871,9 +820,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:41.243Z",
-      "scrapedAt": "2026-04-08T02:45:49.242Z",
-      "lastUpdated": "2026-04-08T02:46:41.243Z",
+      "processedAt": "2026-04-08T13:29:38.518Z",
+      "scrapedAt": "2026-04-08T13:28:10.322Z",
+      "lastUpdated": "2026-04-08T13:29:38.518Z",
       "version": 1
     },
     {
@@ -897,9 +846,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:41.245Z",
-      "scrapedAt": "2026-04-08T02:45:49.242Z",
-      "lastUpdated": "2026-04-08T02:46:41.245Z",
+      "processedAt": "2026-04-08T13:29:38.520Z",
+      "scrapedAt": "2026-04-08T13:28:10.322Z",
+      "lastUpdated": "2026-04-08T13:29:38.520Z",
       "version": 1
     },
     {
@@ -923,9 +872,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:41.324Z",
-      "scrapedAt": "2026-04-08T02:45:49.242Z",
-      "lastUpdated": "2026-04-08T02:46:41.324Z",
+      "processedAt": "2026-04-08T13:29:38.532Z",
+      "scrapedAt": "2026-04-08T13:28:10.323Z",
+      "lastUpdated": "2026-04-08T13:29:38.532Z",
       "version": 1
     },
     {
@@ -949,9 +898,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:42.331Z",
-      "scrapedAt": "2026-04-08T02:45:49.243Z",
-      "lastUpdated": "2026-04-08T02:46:42.331Z",
+      "processedAt": "2026-04-08T13:29:39.548Z",
+      "scrapedAt": "2026-04-08T13:28:10.323Z",
+      "lastUpdated": "2026-04-08T13:29:39.548Z",
       "version": 1
     },
     {
@@ -974,9 +923,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:42.322Z",
-      "scrapedAt": "2026-04-08T02:45:49.243Z",
-      "lastUpdated": "2026-04-08T02:46:42.322Z",
+      "processedAt": "2026-04-08T13:29:39.541Z",
+      "scrapedAt": "2026-04-08T13:28:10.323Z",
+      "lastUpdated": "2026-04-08T13:29:39.541Z",
       "version": 1
     },
     {
@@ -1000,9 +949,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:42.326Z",
-      "scrapedAt": "2026-04-08T02:45:49.243Z",
-      "lastUpdated": "2026-04-08T02:46:42.326Z",
+      "processedAt": "2026-04-08T13:29:39.541Z",
+      "scrapedAt": "2026-04-08T13:28:10.323Z",
+      "lastUpdated": "2026-04-08T13:29:39.541Z",
       "version": 1
     },
     {
@@ -1016,7 +965,7 @@
       "contestType": "mixed",
       "status": "upcoming",
       "difficulty": "intermediate",
-      "deadline": "2026-05-01T02:45:49.243Z",
+      "deadline": "2026-05-01T13:28:10.324Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -1026,9 +975,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:42.334Z",
-      "scrapedAt": "2026-04-08T02:45:49.253Z",
-      "lastUpdated": "2026-04-08T02:46:42.334Z",
+      "processedAt": "2026-04-08T13:29:39.536Z",
+      "scrapedAt": "2026-04-08T13:28:10.324Z",
+      "lastUpdated": "2026-04-08T13:29:39.536Z",
       "version": 1
     },
     {
@@ -1051,35 +1000,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:42.411Z",
-      "scrapedAt": "2026-04-08T02:45:49.253Z",
-      "lastUpdated": "2026-04-08T02:46:42.411Z",
-      "version": 1
-    },
-    {
-      "id": "c_465768240288",
-      "title": "data.org Financial Health Prediction Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/dataorg-financial-health-prediction-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$1 500 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:43.416Z",
-      "scrapedAt": "2026-04-08T02:45:49.253Z",
-      "lastUpdated": "2026-04-08T02:46:43.416Z",
+      "processedAt": "2026-04-08T13:29:39.561Z",
+      "scrapedAt": "2026-04-08T13:28:10.324Z",
+      "lastUpdated": "2026-04-08T13:29:39.561Z",
       "version": 1
     },
     {
@@ -1105,9 +1028,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:43.417Z",
-      "scrapedAt": "2026-04-08T02:45:49.253Z",
-      "lastUpdated": "2026-04-08T02:46:43.417Z",
+      "processedAt": "2026-04-08T13:29:40.572Z",
+      "scrapedAt": "2026-04-08T13:28:10.324Z",
+      "lastUpdated": "2026-04-08T13:29:40.572Z",
+      "version": 1
+    },
+    {
+      "id": "c_465768240288",
+      "title": "data.org Financial Health Prediction Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/dataorg-financial-health-prediction-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$1 500 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-08T13:29:40.563Z",
+      "scrapedAt": "2026-04-08T13:28:10.325Z",
+      "lastUpdated": "2026-04-08T13:29:40.563Z",
       "version": 1
     },
     {
@@ -1131,9 +1080,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:43.415Z",
-      "scrapedAt": "2026-04-08T02:45:49.254Z",
-      "lastUpdated": "2026-04-08T02:46:43.415Z",
+      "processedAt": "2026-04-08T13:29:40.563Z",
+      "scrapedAt": "2026-04-08T13:28:10.325Z",
+      "lastUpdated": "2026-04-08T13:29:40.563Z",
       "version": 1
     },
     {
@@ -1157,9 +1106,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:43.415Z",
-      "scrapedAt": "2026-04-08T02:45:49.254Z",
-      "lastUpdated": "2026-04-08T02:46:43.415Z",
+      "processedAt": "2026-04-08T13:29:40.571Z",
+      "scrapedAt": "2026-04-08T13:28:10.325Z",
+      "lastUpdated": "2026-04-08T13:29:40.571Z",
       "version": 1
     },
     {
@@ -1185,9 +1134,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:43.497Z",
-      "scrapedAt": "2026-04-08T02:45:49.254Z",
-      "lastUpdated": "2026-04-08T02:46:43.497Z",
+      "processedAt": "2026-04-08T13:29:40.588Z",
+      "scrapedAt": "2026-04-08T13:28:10.326Z",
+      "lastUpdated": "2026-04-08T13:29:40.588Z",
       "version": 1
     },
     {
@@ -1211,9 +1160,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:44.500Z",
-      "scrapedAt": "2026-04-08T02:45:49.254Z",
-      "lastUpdated": "2026-04-08T02:46:44.500Z",
+      "processedAt": "2026-04-08T13:29:41.602Z",
+      "scrapedAt": "2026-04-08T13:28:10.326Z",
+      "lastUpdated": "2026-04-08T13:29:41.602Z",
       "version": 1
     },
     {
@@ -1239,9 +1188,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:44.506Z",
-      "scrapedAt": "2026-04-08T02:45:49.254Z",
-      "lastUpdated": "2026-04-08T02:46:44.506Z",
+      "processedAt": "2026-04-08T13:29:41.608Z",
+      "scrapedAt": "2026-04-08T13:28:10.326Z",
+      "lastUpdated": "2026-04-08T13:29:41.608Z",
       "version": 1
     },
     {
@@ -1265,9 +1214,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:44.499Z",
-      "scrapedAt": "2026-04-08T02:45:49.255Z",
-      "lastUpdated": "2026-04-08T02:46:44.499Z",
+      "processedAt": "2026-04-08T13:29:41.589Z",
+      "scrapedAt": "2026-04-08T13:28:10.327Z",
+      "lastUpdated": "2026-04-08T13:29:41.589Z",
       "version": 1
     },
     {
@@ -1291,9 +1240,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:44.499Z",
-      "scrapedAt": "2026-04-08T02:45:49.255Z",
-      "lastUpdated": "2026-04-08T02:46:44.499Z",
+      "processedAt": "2026-04-08T13:29:41.630Z",
+      "scrapedAt": "2026-04-08T13:28:10.327Z",
+      "lastUpdated": "2026-04-08T13:29:41.630Z",
       "version": 1
     },
     {
@@ -1317,9 +1266,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:44.584Z",
-      "scrapedAt": "2026-04-08T02:45:49.255Z",
-      "lastUpdated": "2026-04-08T02:46:44.584Z",
+      "processedAt": "2026-04-08T13:29:41.647Z",
+      "scrapedAt": "2026-04-08T13:28:10.327Z",
+      "lastUpdated": "2026-04-08T13:29:41.647Z",
       "version": 1
     },
     {
@@ -1343,15 +1292,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:45.593Z",
-      "scrapedAt": "2026-04-08T02:45:49.255Z",
-      "lastUpdated": "2026-04-08T02:46:45.593Z",
+      "processedAt": "2026-04-08T13:29:42.670Z",
+      "scrapedAt": "2026-04-08T13:28:10.327Z",
+      "lastUpdated": "2026-04-08T13:29:42.670Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-04-08T02:46:45.602Z"
+    "lastUpdated": "2026-04-08T13:29:42.683Z"
   }
 }

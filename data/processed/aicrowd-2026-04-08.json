@@ -1,6 +1,6 @@
 {
   "platform": "aicrowd",
-  "timestamp": "2026-04-08T02:46:45.600Z",
+  "timestamp": "2026-04-08T13:29:42.680Z",
   "contestCount": 6,
   "contests": [
     {
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:34.833Z",
-      "scrapedAt": "2026-04-08T02:45:46.302Z",
-      "lastUpdated": "2026-04-08T02:46:34.833Z",
+      "processedAt": "2026-04-08T13:29:32.188Z",
+      "scrapedAt": "2026-04-08T13:28:15.669Z",
+      "lastUpdated": "2026-04-08T13:29:32.188Z",
       "version": 1
     },
     {
@@ -42,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T02:45:46.302Z",
+      "deadline": "2030-08-14T13:28:15.670Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -53,9 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:35.691Z",
-      "scrapedAt": "2026-04-08T02:45:46.302Z",
-      "lastUpdated": "2026-04-08T02:46:35.691Z",
+      "processedAt": "2026-04-08T13:29:33.028Z",
+      "scrapedAt": "2026-04-08T13:28:15.670Z",
+      "lastUpdated": "2026-04-08T13:29:33.028Z",
       "version": 1
     },
     {
@@ -69,7 +69,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T02:45:46.302Z",
+      "deadline": "2045-09-01T13:28:15.670Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -80,14 +80,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:35.734Z",
-      "scrapedAt": "2026-04-08T02:45:46.302Z",
-      "lastUpdated": "2026-04-08T02:46:35.734Z",
+      "processedAt": "2026-04-08T13:29:33.153Z",
+      "scrapedAt": "2026-04-08T13:28:15.670Z",
+      "lastUpdated": "2026-04-08T13:29:33.153Z",
       "version": 1
     },
     {
       "id": "c_03552b946309",
-      "title": "MEDIQA 2021 - Question Summarization (QS)",
+      "title": "Post Challenge Round: 1727 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/mediqa-2021-question-summarization-qs",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/644/MEDIQA-Background.jpg",
@@ -96,11 +96,10 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T02:45:46.303Z",
+      "deadline": "2030-12-30T13:28:15.670Z",
       "prize": "TBD",
       "tags": [
-        "nlp",
-        "Weight: 1.0"
+        "nlp"
       ],
       "aiTools": [
         "Python",
@@ -110,9 +109,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:35.726Z",
-      "scrapedAt": "2026-04-08T02:45:46.303Z",
-      "lastUpdated": "2026-04-08T02:46:35.726Z",
+      "processedAt": "2026-04-08T13:29:33.119Z",
+      "scrapedAt": "2026-04-08T13:28:15.670Z",
+      "lastUpdated": "2026-04-08T13:29:33.119Z",
       "version": 1
     },
     {
@@ -138,9 +137,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:35.747Z",
-      "scrapedAt": "2026-04-08T02:45:46.303Z",
-      "lastUpdated": "2026-04-08T02:46:35.747Z",
+      "processedAt": "2026-04-08T13:29:33.155Z",
+      "scrapedAt": "2026-04-08T13:28:15.671Z",
+      "lastUpdated": "2026-04-08T13:29:33.155Z",
       "version": 1
     },
     {
@@ -164,15 +163,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-08T02:46:35.834Z",
-      "scrapedAt": "2026-04-08T02:45:46.304Z",
-      "lastUpdated": "2026-04-08T02:46:35.834Z",
+      "processedAt": "2026-04-08T13:29:33.182Z",
+      "scrapedAt": "2026-04-08T13:28:15.672Z",
+      "lastUpdated": "2026-04-08T13:29:33.182Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-04-08T02:46:45.600Z"
+    "lastUpdated": "2026-04-08T13:29:42.680Z"
   }
 }

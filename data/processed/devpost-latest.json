@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-04-13T03:01:07.258Z",
+  "timestamp": "2026-04-13T13:49:21.036Z",
   "contestCount": 10,
   "contests": [
     {
@@ -24,9 +24,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-13T03:00:58.987Z",
-      "scrapedAt": "2026-04-13T02:59:44.615Z",
-      "lastUpdated": "2026-04-13T03:00:58.987Z",
+      "processedAt": "2026-04-13T13:49:12.689Z",
+      "scrapedAt": "2026-04-13T13:47:59.638Z",
+      "lastUpdated": "2026-04-13T13:49:12.689Z",
       "version": 1
     },
     {
@@ -52,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-13T03:00:58.989Z",
-      "scrapedAt": "2026-04-13T02:59:44.616Z",
-      "lastUpdated": "2026-04-13T03:00:58.989Z",
+      "processedAt": "2026-04-13T13:49:12.627Z",
+      "scrapedAt": "2026-04-13T13:47:59.638Z",
+      "lastUpdated": "2026-04-13T13:49:12.627Z",
       "version": 1
     },
     {
@@ -68,7 +68,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
-      "prize": "$0",
+      "prize": "1",
       "tags": [],
       "aiTools": [
         "Python",
@@ -78,9 +78,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-13T03:00:59.016Z",
-      "scrapedAt": "2026-04-13T02:59:44.617Z",
-      "lastUpdated": "2026-04-13T03:00:59.016Z",
+      "processedAt": "2026-04-13T13:49:12.727Z",
+      "scrapedAt": "2026-04-13T13:47:59.639Z",
+      "lastUpdated": "2026-04-13T13:49:12.727Z",
       "version": 1
     },
     {
@@ -104,35 +104,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-13T03:01:00.038Z",
-      "scrapedAt": "2026-04-13T02:59:44.618Z",
-      "lastUpdated": "2026-04-13T03:01:00.038Z",
-      "version": 1
-    },
-    {
-      "id": "c_6f11c8197833",
-      "title": "Frostbyte Hackathon",
-      "platform": "devpost",
-      "url": "https://frostbyte-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/520/990/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$5,450",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-13T03:01:00.021Z",
-      "scrapedAt": "2026-04-13T02:59:44.621Z",
-      "lastUpdated": "2026-04-13T03:01:00.021Z",
+      "processedAt": "2026-04-13T13:49:13.726Z",
+      "scrapedAt": "2026-04-13T13:47:59.639Z",
+      "lastUpdated": "2026-04-13T13:49:13.726Z",
       "version": 1
     },
     {
@@ -156,35 +130,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-13T03:01:00.022Z",
-      "scrapedAt": "2026-04-13T02:59:44.621Z",
-      "lastUpdated": "2026-04-13T03:01:00.022Z",
-      "version": 1
-    },
-    {
-      "id": "c_5cfbf7ca76eb",
-      "title": "AlgoFest Hackathon 2026",
-      "platform": "devpost",
-      "url": "https://algofest-hackathon26.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/170/174/datas/medium_square.gif",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$5,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-13T03:01:00.029Z",
-      "scrapedAt": "2026-04-13T02:59:44.622Z",
-      "lastUpdated": "2026-04-13T03:01:00.029Z",
+      "processedAt": "2026-04-13T13:49:13.729Z",
+      "scrapedAt": "2026-04-13T13:47:59.640Z",
+      "lastUpdated": "2026-04-13T13:49:13.729Z",
       "version": 1
     },
     {
@@ -208,9 +156,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-13T03:01:00.053Z",
-      "scrapedAt": "2026-04-13T02:59:44.623Z",
-      "lastUpdated": "2026-04-13T03:01:00.053Z",
+      "processedAt": "2026-04-13T13:49:13.726Z",
+      "scrapedAt": "2026-04-13T13:47:59.644Z",
+      "lastUpdated": "2026-04-13T13:49:13.726Z",
       "version": 1
     },
     {
@@ -234,9 +182,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-13T03:01:01.060Z",
-      "scrapedAt": "2026-04-13T02:59:44.623Z",
-      "lastUpdated": "2026-04-13T03:01:01.060Z",
+      "processedAt": "2026-04-13T13:49:13.720Z",
+      "scrapedAt": "2026-04-13T13:47:59.644Z",
+      "lastUpdated": "2026-04-13T13:49:13.720Z",
       "version": 1
     },
     {
@@ -260,15 +208,67 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-13T03:01:01.069Z",
-      "scrapedAt": "2026-04-13T02:59:44.624Z",
-      "lastUpdated": "2026-04-13T03:01:01.069Z",
+      "processedAt": "2026-04-13T13:49:13.746Z",
+      "scrapedAt": "2026-04-13T13:47:59.644Z",
+      "lastUpdated": "2026-04-13T13:49:13.746Z",
+      "version": 1
+    },
+    {
+      "id": "c_dac977070807",
+      "title": "DSH Hacks V1",
+      "platform": "devpost",
+      "url": "https://dsh-hacks-v1.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/466/363/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$2,318",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-13T13:49:14.760Z",
+      "scrapedAt": "2026-04-13T13:47:59.645Z",
+      "lastUpdated": "2026-04-13T13:49:14.760Z",
+      "version": 1
+    },
+    {
+      "id": "c_1e430bb0c58c",
+      "title": "UWB Hacks: The Future!",
+      "platform": "devpost",
+      "url": "https://uwb-hacks-the-future.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/239/724/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "1",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-13T13:49:14.746Z",
+      "scrapedAt": "2026-04-13T13:47:59.645Z",
+      "lastUpdated": "2026-04-13T13:49:14.746Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-04-13T03:01:07.258Z"
+    "lastUpdated": "2026-04-13T13:49:21.036Z"
   }
 }

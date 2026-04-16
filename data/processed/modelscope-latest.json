@@ -1,8 +1,37 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-04-16T02:58:50.233Z",
+  "timestamp": "2026-04-16T13:57:16.934Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_52327f8544a6",
+      "title": "招银数智创新Meetup | 大模型推理技术创新及金融领域实践",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/221",
+      "imageUrl": "",
+      "description": "4月25日，成都招行数智Meetup聚焦大模型推理创新与金融实践，vLLM、SGLang等技术干货+企业案例分享",
+      "summary": "4月25日，成都招行数智Meetup聚焦大模型推理创新与金融实践，vLLM、SGLang等技术干货+企业案例分享...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-04-23T16:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "llm"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-16T13:57:10.602Z",
+      "scrapedAt": "2026-04-16T13:55:16.597Z",
+      "lastUpdated": "2026-04-16T13:57:10.603Z",
+      "version": 1
+    },
     {
       "id": "c_9b98d1a5d9cc",
       "title": "AMD AI 开发者日 2026",
@@ -27,9 +56,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-16T02:58:44.049Z",
-      "scrapedAt": "2026-04-16T02:56:51.200Z",
-      "lastUpdated": "2026-04-16T02:58:44.049Z",
+      "processedAt": "2026-04-16T13:57:10.612Z",
+      "scrapedAt": "2026-04-16T13:55:16.597Z",
+      "lastUpdated": "2026-04-16T13:57:10.612Z",
       "version": 1
     },
     {
@@ -56,9 +85,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-16T02:58:44.050Z",
-      "scrapedAt": "2026-04-16T02:56:51.200Z",
-      "lastUpdated": "2026-04-16T02:58:44.050Z",
+      "processedAt": "2026-04-16T13:57:10.631Z",
+      "scrapedAt": "2026-04-16T13:55:16.598Z",
+      "lastUpdated": "2026-04-16T13:57:10.631Z",
       "version": 1
     },
     {
@@ -85,9 +114,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-16T02:58:44.043Z",
-      "scrapedAt": "2026-04-16T02:56:51.200Z",
-      "lastUpdated": "2026-04-16T02:58:44.043Z",
+      "processedAt": "2026-04-16T13:57:10.642Z",
+      "scrapedAt": "2026-04-16T13:55:16.598Z",
+      "lastUpdated": "2026-04-16T13:57:10.642Z",
       "version": 1
     },
     {
@@ -121,9 +150,9 @@
         "进行详细实现。其他非必要环节"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-16T02:58:44.066Z",
-      "scrapedAt": "2026-04-16T02:56:51.205Z",
-      "lastUpdated": "2026-04-16T02:58:44.066Z",
+      "processedAt": "2026-04-16T13:57:11.673Z",
+      "scrapedAt": "2026-04-16T13:55:16.609Z",
+      "lastUpdated": "2026-04-16T13:57:11.673Z",
       "version": 1
     },
     {
@@ -154,9 +183,9 @@
         "但不作为硬性要求。Q：Skills 封装是必须完成的吗？"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-16T02:58:45.083Z",
-      "scrapedAt": "2026-04-16T02:56:51.206Z",
-      "lastUpdated": "2026-04-16T02:58:45.083Z",
+      "processedAt": "2026-04-16T13:57:11.675Z",
+      "scrapedAt": "2026-04-16T13:55:16.611Z",
+      "lastUpdated": "2026-04-16T13:57:11.675Z",
       "version": 1
     },
     {
@@ -183,9 +212,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-16T02:58:45.082Z",
-      "scrapedAt": "2026-04-16T02:56:51.206Z",
-      "lastUpdated": "2026-04-16T02:58:45.082Z",
+      "processedAt": "2026-04-16T13:57:11.659Z",
+      "scrapedAt": "2026-04-16T13:55:16.611Z",
+      "lastUpdated": "2026-04-16T13:57:11.659Z",
       "version": 1
     },
     {
@@ -212,9 +241,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-16T02:58:45.081Z",
-      "scrapedAt": "2026-04-16T02:56:51.207Z",
-      "lastUpdated": "2026-04-16T02:58:45.081Z",
+      "processedAt": "2026-04-16T13:57:11.667Z",
+      "scrapedAt": "2026-04-16T13:55:16.612Z",
+      "lastUpdated": "2026-04-16T13:57:11.667Z",
       "version": 1
     },
     {
@@ -248,9 +277,9 @@
         "参赛者可以对已提交的游戏进行多次更新和完善"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-16T02:58:45.087Z",
-      "scrapedAt": "2026-04-16T02:56:51.207Z",
-      "lastUpdated": "2026-04-16T02:58:45.087Z",
+      "processedAt": "2026-04-16T13:57:11.781Z",
+      "scrapedAt": "2026-04-16T13:55:16.612Z",
+      "lastUpdated": "2026-04-16T13:57:11.781Z",
       "version": 1
     },
     {
@@ -277,45 +306,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-16T02:58:45.105Z",
-      "scrapedAt": "2026-04-16T02:56:51.207Z",
-      "lastUpdated": "2026-04-16T02:58:45.105Z",
-      "version": 1
-    },
-    {
-      "id": "c_566393fd7fb5",
-      "title": "AMD 锐龙 AI 智能体创新应用大赛邀你定义 AI 新未来",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/216",
-      "imageUrl": "",
-      "description": "当算力走出云端，智能在终端觉醒，端侧 AI 正成为人工智能向个人化、实时化、隐私化演进的核心方向。AMD 携手 36 氪联合发起锐龙 AI 端侧智能体创新开发大赛，以锐龙 AI Max + 系列笔记本为核心载体，面向全球开发者、创作者、科创爱好者发出邀约，邀各界力量用本地超强算力打破网络束缚、守护数据隐私、释放创意想象，重新定义端侧 AI 的形态与边界。 本次大赛立足端侧 AI 技术落地与场景创新，挖掘兼具技术实力与落地价值的端侧智能体应用，搭建端侧 AI 生态交流与孵化平台，助力优秀创意从 0 到 1 落地。我们将开放 4 大赛题方向、招募 200 支参赛队伍、孵化 20 个优质应用，不仅寻",
-      "summary": "当算力走出云端，智能在终端觉醒，端侧 AI 正成为人工智能向个人化、实时化、隐私化演进的核心方向。AMD 携手 36 氪联合发起锐龙 AI 端侧智能体创新开发大赛，以锐龙 AI Max + 系列笔记本为核心载体，面向全球开发者、创作者、科创爱好者发出邀约，邀各界力量用本地超强算力打破网络束缚、守护数据隐私、释放创意想象，重新定义端侧 AI 的形态与边界。 本次大赛立足端侧 AI 技术落地与场景创新...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-04-16T15:59:00.000Z",
-      "prize": "￥141969元现金池&AMD锐龙AI笔记本硬件大奖+开发者资源加持",
-      "tags": [
-        "应用开发赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-16T02:58:46.110Z",
-      "scrapedAt": "2026-04-16T02:56:51.207Z",
-      "lastUpdated": "2026-04-16T02:58:46.110Z",
+      "processedAt": "2026-04-16T13:57:12.705Z",
+      "scrapedAt": "2026-04-16T13:55:16.613Z",
+      "lastUpdated": "2026-04-16T13:57:12.705Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-04-16T02:58:50.233Z"
+    "lastUpdated": "2026-04-16T13:57:16.934Z"
   }
 }

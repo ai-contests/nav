@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-04-17T02:55:16.151Z",
+  "timestamp": "2026-04-17T13:30:00.886Z",
   "contestCount": 20,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-04-20T02:54:19.979Z",
+      "deadline": "2026-04-19T13:29:03.003Z",
       "prize": "$5 000 USD",
       "tags": [
         "llm"
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:11.923Z",
-      "scrapedAt": "2026-04-17T02:54:19.979Z",
-      "lastUpdated": "2026-04-17T02:55:11.923Z",
+      "processedAt": "2026-04-17T13:29:56.523Z",
+      "scrapedAt": "2026-04-17T13:29:03.003Z",
+      "lastUpdated": "2026-04-17T13:29:56.523Z",
       "version": 1
     },
     {
@@ -43,7 +43,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-04T02:54:19.979Z",
+      "deadline": "2026-05-03T13:29:03.003Z",
       "prize": "000 ZAR",
       "tags": [],
       "aiTools": [
@@ -54,9 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:11.924Z",
-      "scrapedAt": "2026-04-17T02:54:19.979Z",
-      "lastUpdated": "2026-04-17T02:55:11.924Z",
+      "processedAt": "2026-04-17T13:29:56.518Z",
+      "scrapedAt": "2026-04-17T13:29:03.003Z",
+      "lastUpdated": "2026-04-17T13:29:56.518Z",
       "version": 1
     },
     {
@@ -80,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:11.919Z",
-      "scrapedAt": "2026-04-17T02:54:19.980Z",
-      "lastUpdated": "2026-04-17T02:55:11.919Z",
+      "processedAt": "2026-04-17T13:29:56.535Z",
+      "scrapedAt": "2026-04-17T13:29:03.004Z",
+      "lastUpdated": "2026-04-17T13:29:56.535Z",
       "version": 1
     },
     {
@@ -106,9 +106,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:11.963Z",
-      "scrapedAt": "2026-04-17T02:54:19.980Z",
-      "lastUpdated": "2026-04-17T02:55:11.963Z",
+      "processedAt": "2026-04-17T13:29:56.605Z",
+      "scrapedAt": "2026-04-17T13:29:03.004Z",
+      "lastUpdated": "2026-04-17T13:29:56.605Z",
       "version": 1
     },
     {
@@ -132,9 +132,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:12.974Z",
-      "scrapedAt": "2026-04-17T02:54:19.980Z",
-      "lastUpdated": "2026-04-17T02:55:12.974Z",
+      "processedAt": "2026-04-17T13:29:57.614Z",
+      "scrapedAt": "2026-04-17T13:29:03.004Z",
+      "lastUpdated": "2026-04-17T13:29:57.614Z",
       "version": 1
     },
     {
@@ -158,9 +158,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:12.972Z",
-      "scrapedAt": "2026-04-17T02:54:19.980Z",
-      "lastUpdated": "2026-04-17T02:55:12.972Z",
+      "processedAt": "2026-04-17T13:29:57.600Z",
+      "scrapedAt": "2026-04-17T13:29:03.005Z",
+      "lastUpdated": "2026-04-17T13:29:57.600Z",
       "version": 1
     },
     {
@@ -174,7 +174,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-04-26T02:54:19.981Z",
+      "deadline": "2026-04-25T13:29:03.005Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -184,9 +184,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:12.984Z",
-      "scrapedAt": "2026-04-17T02:54:19.981Z",
-      "lastUpdated": "2026-04-17T02:55:12.984Z",
+      "processedAt": "2026-04-17T13:29:57.607Z",
+      "scrapedAt": "2026-04-17T13:29:03.005Z",
+      "lastUpdated": "2026-04-17T13:29:57.607Z",
+      "version": 1
+    },
+    {
+      "id": "c_db4806d6b7a7",
+      "title": "Benin National Olympiad for Artificial Intelligence | Phase 1",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/benin-national-olympiad-for-artificial-intelligence-phase-1",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-01T13:29:03.005Z",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-17T13:29:57.613Z",
+      "scrapedAt": "2026-04-17T13:29:03.005Z",
+      "lastUpdated": "2026-04-17T13:29:57.613Z",
       "version": 1
     },
     {
@@ -200,7 +226,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-09T02:54:19.981Z",
+      "deadline": "2026-05-08T13:29:03.005Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -210,9 +236,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:12.980Z",
-      "scrapedAt": "2026-04-17T02:54:19.981Z",
-      "lastUpdated": "2026-04-17T02:55:12.980Z",
+      "processedAt": "2026-04-17T13:29:57.690Z",
+      "scrapedAt": "2026-04-17T13:29:03.005Z",
+      "lastUpdated": "2026-04-17T13:29:57.690Z",
       "version": 1
     },
     {
@@ -226,7 +252,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-16T02:54:19.981Z",
+      "deadline": "2026-05-15T13:29:03.006Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -236,9 +262,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:13.033Z",
-      "scrapedAt": "2026-04-17T02:54:19.981Z",
-      "lastUpdated": "2026-04-17T02:55:13.033Z",
+      "processedAt": "2026-04-17T13:29:58.696Z",
+      "scrapedAt": "2026-04-17T13:29:03.006Z",
+      "lastUpdated": "2026-04-17T13:29:58.696Z",
       "version": 1
     },
     {
@@ -261,9 +287,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:14.023Z",
-      "scrapedAt": "2026-04-17T02:54:19.982Z",
-      "lastUpdated": "2026-04-17T02:55:14.023Z",
+      "processedAt": "2026-04-17T13:29:58.707Z",
+      "scrapedAt": "2026-04-17T13:29:03.006Z",
+      "lastUpdated": "2026-04-17T13:29:58.707Z",
       "version": 1
     },
     {
@@ -289,9 +315,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:14.025Z",
-      "scrapedAt": "2026-04-17T02:54:19.982Z",
-      "lastUpdated": "2026-04-17T02:55:14.025Z",
+      "processedAt": "2026-04-17T13:29:58.699Z",
+      "scrapedAt": "2026-04-17T13:29:03.006Z",
+      "lastUpdated": "2026-04-17T13:29:58.699Z",
       "version": 1
     },
     {
@@ -315,9 +341,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:14.032Z",
-      "scrapedAt": "2026-04-17T02:54:19.982Z",
-      "lastUpdated": "2026-04-17T02:55:14.032Z",
+      "processedAt": "2026-04-17T13:29:58.683Z",
+      "scrapedAt": "2026-04-17T13:29:03.007Z",
+      "lastUpdated": "2026-04-17T13:29:58.683Z",
       "version": 1
     },
     {
@@ -341,9 +367,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:14.026Z",
-      "scrapedAt": "2026-04-17T02:54:19.983Z",
-      "lastUpdated": "2026-04-17T02:55:14.026Z",
+      "processedAt": "2026-04-17T13:29:58.780Z",
+      "scrapedAt": "2026-04-17T13:29:03.007Z",
+      "lastUpdated": "2026-04-17T13:29:58.780Z",
       "version": 1
     },
     {
@@ -369,9 +395,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:14.069Z",
-      "scrapedAt": "2026-04-17T02:54:19.983Z",
-      "lastUpdated": "2026-04-17T02:55:14.069Z",
+      "processedAt": "2026-04-17T13:29:59.793Z",
+      "scrapedAt": "2026-04-17T13:29:03.007Z",
+      "lastUpdated": "2026-04-17T13:29:59.793Z",
       "version": 1
     },
     {
@@ -395,9 +421,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:15.084Z",
-      "scrapedAt": "2026-04-17T02:54:19.983Z",
-      "lastUpdated": "2026-04-17T02:55:15.084Z",
+      "processedAt": "2026-04-17T13:29:59.792Z",
+      "scrapedAt": "2026-04-17T13:29:03.007Z",
+      "lastUpdated": "2026-04-17T13:29:59.792Z",
       "version": 1
     },
     {
@@ -421,9 +447,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:15.079Z",
-      "scrapedAt": "2026-04-17T02:54:19.984Z",
-      "lastUpdated": "2026-04-17T02:55:15.079Z",
+      "processedAt": "2026-04-17T13:29:59.781Z",
+      "scrapedAt": "2026-04-17T13:29:03.007Z",
+      "lastUpdated": "2026-04-17T13:29:59.781Z",
       "version": 1
     },
     {
@@ -449,9 +475,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:15.075Z",
-      "scrapedAt": "2026-04-17T02:54:19.984Z",
-      "lastUpdated": "2026-04-17T02:55:15.075Z",
+      "processedAt": "2026-04-17T13:29:59.774Z",
+      "scrapedAt": "2026-04-17T13:29:03.007Z",
+      "lastUpdated": "2026-04-17T13:29:59.774Z",
       "version": 1
     },
     {
@@ -475,9 +501,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:15.092Z",
-      "scrapedAt": "2026-04-17T02:54:19.984Z",
-      "lastUpdated": "2026-04-17T02:55:15.092Z",
+      "processedAt": "2026-04-17T13:29:59.862Z",
+      "scrapedAt": "2026-04-17T13:29:03.008Z",
+      "lastUpdated": "2026-04-17T13:29:59.862Z",
       "version": 1
     },
     {
@@ -501,41 +527,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:15.127Z",
-      "scrapedAt": "2026-04-17T02:54:19.984Z",
-      "lastUpdated": "2026-04-17T02:55:15.127Z",
-      "version": 1
-    },
-    {
-      "id": "c_8449b1363f90",
-      "title": "EY Urban Heat Island Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/urban-heat-island-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$3 500 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:16.143Z",
-      "scrapedAt": "2026-04-17T02:54:19.985Z",
-      "lastUpdated": "2026-04-17T02:55:16.143Z",
+      "processedAt": "2026-04-17T13:30:00.875Z",
+      "scrapedAt": "2026-04-17T13:29:03.008Z",
+      "lastUpdated": "2026-04-17T13:30:00.875Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-04-17T02:55:16.151Z"
+    "lastUpdated": "2026-04-17T13:30:00.886Z"
   }
 }

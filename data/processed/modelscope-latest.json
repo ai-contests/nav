@@ -1,8 +1,37 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-04-17T02:55:16.144Z",
+  "timestamp": "2026-04-17T13:30:00.878Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_d7210945906e",
+      "title": "聊聊 Context Awareness 和 Visual Agent，Physical AI Camp 杭州站",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/222",
+      "imageUrl": "",
+      "description": "Context Awareness 和 Visual Agent，Physical AI Camp 杭州站，4 月 25 日周六下午，杭州云谷中心。 和蚂蚁百灵大模型、声网、Chance AI、声绘未来、湃启科技、Rokid与 Cerul.ai 的开发者和创始人，一起聊聊当 Visual Agent 看见 Vibes 时，Context Awareness 的畅想与现实。\n\n4 月 25 日（周六）下午，RTE Meetup 落地杭州。如果一个 Agent 不仅能看清眼前画面，更能瞬间捕捉你忽略的周边细节与上下文，会发生什么？从桌面端的屏幕理解到可穿戴设备，能够 Always on 且实时捕获环境数据的 Visual Agent（视觉智能体） 正成为人机共同体感知物理世界的关键。随着多模态模型的发展，获取真实世界的 Context（如视觉、音频或意图）已不再是技术瓶颈。但拿到海量 Context 之后呢？多模态感知不等于真实需求。如何让 Context 与产品和市场真正契合？在哪些场景下，看懂 Vibes 才是不可替代的刚需？这才是决定下一代交互成败的必答题。我们邀请了蚂蚁百灵大模型、声网、Chance AI、声绘未来、湃启科技、Rokid 与 Cerul.ai 的技术专家及创始人，一起聊聊当 Agent 看得见 Vibes 时，Context Awareness 的畅想与现实。关于 Physical AI Camp·超音速计划 2026RTE Meetup 议程13:30 - 14:00 丨 签到与自由交流14:00 - 14:10 丨 Intro：超音速计划 2026·Physical AI Camp 介绍14:10 - 15:10 丨 Keynote 分享Visual Agent：从看得见到看得懂，还差什么？吴晓凡，Chance AI CTO让 Agent 走出象牙塔，做那些用户觉得「很简单」的事孙思宁，声绘未来 & 浙江湃启科技联合创始人迈向人机共生的交互终端杨天翼，Rokid AI 产品经理Teach Your AI Agents to SeeJiaxi Cui（Panda），Cerul.ai Founder15:10 - 15:40 丨 圆桌讨论一：Building the Context ——Agent 视觉与感知技术底座嘉宾彭晗，蚂蚁集团高级算法专家，百灵多模态大模型后训练算法负责人张乾泽，Agora Agent Platform Lead孙思宁，声绘未来 & 浙江湃启科技联合创始人主持人：杨慧 Cynthia Yang，RTE 开发者社区发起人15:40 - 16:10 丨 圆桌讨论二：Context-Product Fit —— 寻找多模态交互的真实场景嘉宾吴晓凡，Chance AI CTO杨天翼，Rokid AI 产品经理Jiaxi Cui（Panda），Cerul.ai Founder主持人： 傅丰元，RTE 开发者社区负责人16:10 - 16:30 丨 Lightning Demo，带上你的软/硬件现场展示介绍16:30丨 自由交流活动信息活动时间： 2026 年 4 月 25 日（周六） 14:00 - 16:30（13:30 开始签到）活动地点： 杭州西湖区灯彩街云谷中心参与方式： 点击‘立即报名’报名参与主办方：RTE 开发者社区、超音速计划合作伙伴： 魔搭社区、云谷中心社区伙伴： S 创、脑放电波、Bonjour!、Research AI+、小红书科技、WAIC UP！、启师傅 AI 客厅、分子分母、机智流",
+      "summary": "Context Awareness 和 Visual Agent，Physical AI Camp 杭州站，4 月 25 日周六下午，杭州云谷中心。 和蚂蚁百灵大模型、声网、Chance AI、声绘未来、湃启科技、Rokid与 Cerul.ai 的开发者和创始人，一起聊聊当 Visual Agent 看见 Vibes 时，Context Awareness 的畅想与现实。\n\n4 月 25 日（周六...",
+      "contestType": "audio",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-04-23T16:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-17T13:29:54.342Z",
+      "scrapedAt": "2026-04-17T13:27:55.597Z",
+      "lastUpdated": "2026-04-17T13:29:54.342Z",
+      "version": 1
+    },
     {
       "id": "c_52327f8544a6",
       "title": "招银数智创新Meetup | 大模型推理技术创新及金融领域实践",
@@ -27,9 +56,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:09.820Z",
-      "scrapedAt": "2026-04-17T02:53:23.117Z",
-      "lastUpdated": "2026-04-17T02:55:09.820Z",
+      "processedAt": "2026-04-17T13:29:54.356Z",
+      "scrapedAt": "2026-04-17T13:27:55.597Z",
+      "lastUpdated": "2026-04-17T13:29:54.356Z",
       "version": 1
     },
     {
@@ -56,9 +85,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:09.812Z",
-      "scrapedAt": "2026-04-17T02:53:23.117Z",
-      "lastUpdated": "2026-04-17T02:55:09.812Z",
+      "processedAt": "2026-04-17T13:29:54.341Z",
+      "scrapedAt": "2026-04-17T13:27:55.597Z",
+      "lastUpdated": "2026-04-17T13:29:54.341Z",
       "version": 1
     },
     {
@@ -85,9 +114,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:09.816Z",
-      "scrapedAt": "2026-04-17T02:53:23.117Z",
-      "lastUpdated": "2026-04-17T02:55:09.816Z",
+      "processedAt": "2026-04-17T13:29:54.425Z",
+      "scrapedAt": "2026-04-17T13:27:55.597Z",
+      "lastUpdated": "2026-04-17T13:29:54.425Z",
       "version": 1
     },
     {
@@ -114,9 +143,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:09.871Z",
-      "scrapedAt": "2026-04-17T02:53:23.117Z",
-      "lastUpdated": "2026-04-17T02:55:09.871Z",
+      "processedAt": "2026-04-17T13:29:55.434Z",
+      "scrapedAt": "2026-04-17T13:27:55.597Z",
+      "lastUpdated": "2026-04-17T13:29:55.434Z",
       "version": 1
     },
     {
@@ -150,9 +179,9 @@
         "进行详细实现。其他非必要环节"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:10.865Z",
-      "scrapedAt": "2026-04-17T02:53:23.121Z",
-      "lastUpdated": "2026-04-17T02:55:10.865Z",
+      "processedAt": "2026-04-17T13:29:55.446Z",
+      "scrapedAt": "2026-04-17T13:27:55.602Z",
+      "lastUpdated": "2026-04-17T13:29:55.446Z",
       "version": 1
     },
     {
@@ -183,9 +212,9 @@
         "但不作为硬性要求。Q：Skills 封装是必须完成的吗？"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:10.872Z",
-      "scrapedAt": "2026-04-17T02:53:23.121Z",
-      "lastUpdated": "2026-04-17T02:55:10.872Z",
+      "processedAt": "2026-04-17T13:29:55.435Z",
+      "scrapedAt": "2026-04-17T13:27:55.603Z",
+      "lastUpdated": "2026-04-17T13:29:55.435Z",
       "version": 1
     },
     {
@@ -212,9 +241,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:10.862Z",
-      "scrapedAt": "2026-04-17T02:53:23.122Z",
-      "lastUpdated": "2026-04-17T02:55:10.862Z",
+      "processedAt": "2026-04-17T13:29:55.435Z",
+      "scrapedAt": "2026-04-17T13:27:55.603Z",
+      "lastUpdated": "2026-04-17T13:29:55.435Z",
       "version": 1
     },
     {
@@ -241,9 +270,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:10.874Z",
-      "scrapedAt": "2026-04-17T02:53:23.122Z",
-      "lastUpdated": "2026-04-17T02:55:10.874Z",
+      "processedAt": "2026-04-17T13:29:55.517Z",
+      "scrapedAt": "2026-04-17T13:27:55.603Z",
+      "lastUpdated": "2026-04-17T13:29:55.517Z",
       "version": 1
     },
     {
@@ -277,44 +306,15 @@
         "参赛者可以对已提交的游戏进行多次更新和完善"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:10.915Z",
-      "scrapedAt": "2026-04-17T02:53:23.122Z",
-      "lastUpdated": "2026-04-17T02:55:10.915Z",
-      "version": 1
-    },
-    {
-      "id": "c_2a2e21eb0ba3",
-      "title": "大模型多标签分类任务学习赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/217",
-      "imageUrl": "",
-      "description": "此次比赛是西安电子科技大学人工智能学院的学习赛，非全网公开赛，仅限人工智能学院学生参与。",
-      "summary": "此次比赛是西安电子科技大学人工智能学院的学习赛，非全网公开赛，仅限人工智能学院学生参与。...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-18T15:59:00.000Z",
-      "prize": "0",
-      "tags": [
-        "算法竞赛"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-17T02:55:11.927Z",
-      "scrapedAt": "2026-04-17T02:53:23.122Z",
-      "lastUpdated": "2026-04-17T02:55:11.927Z",
+      "processedAt": "2026-04-17T13:29:56.522Z",
+      "scrapedAt": "2026-04-17T13:27:55.604Z",
+      "lastUpdated": "2026-04-17T13:29:56.522Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-04-17T02:55:16.144Z"
+    "lastUpdated": "2026-04-17T13:30:00.878Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "platform": "all",
-  "timestamp": "2026-04-20T03:22:55.781Z",
+  "timestamp": "2026-04-20T13:52:59.990Z",
   "contestCount": 48,
   "contests": [
     {
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:44.911Z",
-      "scrapedAt": "2026-04-20T03:21:56.240Z",
-      "lastUpdated": "2026-04-20T03:22:44.911Z",
+      "processedAt": "2026-04-20T13:52:49.174Z",
+      "scrapedAt": "2026-04-20T13:51:59.318Z",
+      "lastUpdated": "2026-04-20T13:52:49.174Z",
       "version": 1
     },
     {
@@ -42,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T03:21:56.241Z",
+      "deadline": "2030-08-14T13:51:59.319Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -53,9 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:45.669Z",
-      "scrapedAt": "2026-04-20T03:21:56.241Z",
-      "lastUpdated": "2026-04-20T03:22:45.669Z",
+      "processedAt": "2026-04-20T13:52:49.755Z",
+      "scrapedAt": "2026-04-20T13:51:59.319Z",
+      "lastUpdated": "2026-04-20T13:52:49.755Z",
       "version": 1
     },
     {
@@ -69,7 +69,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T03:21:56.241Z",
+      "deadline": "2045-09-01T13:51:59.320Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -80,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:45.851Z",
-      "scrapedAt": "2026-04-20T03:21:56.241Z",
-      "lastUpdated": "2026-04-20T03:22:45.851Z",
+      "processedAt": "2026-04-20T13:52:49.910Z",
+      "scrapedAt": "2026-04-20T13:51:59.320Z",
+      "lastUpdated": "2026-04-20T13:52:49.910Z",
       "version": 1
     },
     {
@@ -96,7 +96,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T03:21:56.241Z",
+      "deadline": "2030-12-30T13:51:59.320Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -110,9 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:45.806Z",
-      "scrapedAt": "2026-04-20T03:21:56.241Z",
-      "lastUpdated": "2026-04-20T03:22:45.806Z",
+      "processedAt": "2026-04-20T13:52:49.972Z",
+      "scrapedAt": "2026-04-20T13:51:59.320Z",
+      "lastUpdated": "2026-04-20T13:52:49.972Z",
       "version": 1
     },
     {
@@ -138,9 +138,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:45.898Z",
-      "scrapedAt": "2026-04-20T03:21:56.242Z",
-      "lastUpdated": "2026-04-20T03:22:45.898Z",
+      "processedAt": "2026-04-20T13:52:49.828Z",
+      "scrapedAt": "2026-04-20T13:51:59.321Z",
+      "lastUpdated": "2026-04-20T13:52:49.828Z",
       "version": 1
     },
     {
@@ -164,9 +164,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:46.043Z",
-      "scrapedAt": "2026-04-20T03:21:56.243Z",
-      "lastUpdated": "2026-04-20T03:22:46.043Z",
+      "processedAt": "2026-04-20T13:52:50.062Z",
+      "scrapedAt": "2026-04-20T13:51:59.322Z",
+      "lastUpdated": "2026-04-20T13:52:50.062Z",
       "version": 1
     },
     {
@@ -191,9 +191,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:46.996Z",
-      "scrapedAt": "2026-04-20T03:21:02.893Z",
-      "lastUpdated": "2026-04-20T03:22:46.996Z",
+      "processedAt": "2026-04-20T13:52:51.120Z",
+      "scrapedAt": "2026-04-20T13:51:06.003Z",
+      "lastUpdated": "2026-04-20T13:52:51.120Z",
       "version": 1
     },
     {
@@ -219,9 +219,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:46.985Z",
-      "scrapedAt": "2026-04-20T03:21:02.893Z",
-      "lastUpdated": "2026-04-20T03:22:46.985Z",
+      "processedAt": "2026-04-20T13:52:51.141Z",
+      "scrapedAt": "2026-04-20T13:51:06.003Z",
+      "lastUpdated": "2026-04-20T13:52:51.141Z",
       "version": 1
     },
     {
@@ -229,14 +229,19 @@
       "title": "Build with MeDo Hackathon",
       "platform": "devpost",
       "url": "https://medo.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/516/528/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/516/528/datas/original.png",
+      "description": "Welcome to the Build with MeDo Hackathon！ Whether you’re a developer or a creator, MeDo lets you turn conversations into fully functional applications – from brainstorming to deployment. With MeDo, you can: Build full‑stack apps just by describing them in natural language. Iterate quickly via multi‑turn chat or visual editor. Integrate plugins and APIs effortlessly. Deploy with one click to a public URL. Pick one of our themed tracks or go freestyle. Show us what you can create when AI handles the heavy lifting! Get Started Register with this invite link to get 300 bonus credits! Join our Discord community to connect with other participants, find teammates, and win a $500 community exclusive prize! Community Voting (April 9, 9AM – June 4, 10AM): Post your project in the #showcase channel on Discord. Community members vote for their favorite projects. The 5 projects with the most votes each win $500. More Resources to help you build!",
+      "summary": "Welcome to the Build with MeDo Hackathon！ Whether you’re a developer or a creator, MeDo lets you turn conversations into fully functional applications – from brainstorming to deployment. With MeDo, yo...",
+      "contestType": "text",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-05-20T13:00:00.000Z",
       "prize": "$50,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Low",
+        "No Code"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -245,9 +250,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:47.053Z",
-      "scrapedAt": "2026-04-20T03:21:30.299Z",
-      "lastUpdated": "2026-04-20T03:22:47.053Z",
+      "processedAt": "2026-04-20T13:52:51.038Z",
+      "scrapedAt": "2026-04-20T13:51:33.151Z",
+      "lastUpdated": "2026-04-20T13:52:51.038Z",
       "version": 1
     },
     {
@@ -255,14 +260,18 @@
       "title": "ZerveHack",
       "platform": "devpost",
       "url": "https://zervehack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/278/921/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/278/921/datas/original.png",
+      "description": "What is Zerve? Zerve is an AI-native data science platform. Start with a question, not a blank script. Zerve's agent writes the code, iterates on errors and runs the analysis while you steer. When you're ready, deploy it as an API or app without leaving the platform. The Challenge Use Zerve to build something original. Analyze a dataset, uncover insights, and ship something others can use: an analysis, an app, an API, or all three. No constraints on topic. No prescribed methodology. Bring a question and see how far you can take it. The best submissions will feel like they couldn't have been built the old way. Manual queries, disconnected tools, endless waiting on the data team. Show us what's possible when AI handles the execution and you drive the direction. Getting Started Navigate to the resources tab to signup and get started!",
+      "summary": "What is Zerve? Zerve is an AI-native data science platform. Start with a question, not a blank script. Zerve's agent writes the code, iterates on errors and runs the analysis while you steer. When you...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-04-29T18:00:00.000Z",
       "prize": "$10,000",
-      "tags": [],
+      "tags": [
+        "Machine Learning",
+        "AI"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -271,9 +280,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:46.997Z",
-      "scrapedAt": "2026-04-20T03:21:30.299Z",
-      "lastUpdated": "2026-04-20T03:22:46.997Z",
+      "processedAt": "2026-04-20T13:52:51.073Z",
+      "scrapedAt": "2026-04-20T13:51:33.152Z",
+      "lastUpdated": "2026-04-20T13:52:51.073Z",
       "version": 1
     },
     {
@@ -281,13 +290,292 @@
       "title": "Agents Assemble - The Healthcare AI Endgame",
       "platform": "devpost",
       "url": "https://agents-assemble.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/original.png",
+      "description": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. Thank you for your interest and understanding. Agents Assemble: The Healthcare AI Endgame Challenge Build Interoperable Healthcare Agents at the Intersection of MCP, A2A, and FHIR. We have all watched the AI in healthcare trailers - the hype, the theories, and the cool demos. But now, we have entered the Endgame. At Prompt Opinion, we define this phase as \"The Last Mile\" - the critical gap where raw intelligence must be converted into actionable deliverables. To conquer this mile, we cannot work alone. We are proud to launch Agents Assemble, a builder’s competition designed to prove that the power of AI lies in collaboration. Our platform provides the headquarters for this mission, giving you native access to the industry's best tools to build in two distinct ways: you can forge a Superpower (building the MCP tools that fuel the ecosystem), or you can rise up to build a Full Agent (equipping those superpowers to tackle a specific healthcare challenge). The technology is ready. The platform is open. It’s time to assemble. Why Participate? This competition is a launchpad for AI solutions that will power future healthcare workflows. Here is why you should join: Lucrative Cash Prizes: Compete for a total prize pool of $25,000 USD in cash, including a $7,500 Grand Prize. Widespread Visibility: Successful projects will be published in the Prompt Opinion Marketplace, making them discoverable and invokable by organizations across the ecosystem. Develop Skills That Matter: Gain hands-on experience with the Model Context Protocol (MCP) and Agent-to-Agent (A2A) standards for building AI agents. Build Healthcare Ready Solutions: Learn how by using the SHARP extension specs from Prompt Opinion, your tools and agents will seamlessly propagate data context using FHIR through multi-agent call chains. Collaborate and Network: Join a community of like-minded innovators and connect with leaders at Prompt Opinion who are shaping the future of AI infrastructure. Bragging Rights: Beyond the prizes, you will walk away with the pride of having built a functional, standards-compliant AI solution that can integrate directly into a clinician's workspace.",
+      "summary": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. ...",
+      "contestType": "text",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-05-12T03:00:00.000Z",
       "prize": "$25,000",
+      "tags": [
+        "Health",
+        "Beginner Friendly"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-20T13:52:51.224Z",
+      "scrapedAt": "2026-04-20T13:51:33.153Z",
+      "lastUpdated": "2026-04-20T13:52:51.224Z",
+      "version": 1
+    },
+    {
+      "id": "c_b504bf47c47e",
+      "title": "FIND EVIL!",
+      "platform": "devpost",
+      "url": "https://findevil.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/521/059/datas/original.png",
+      "description": "The Speed Problem An AI-powered adversary can go from initial access to full domain control in under 8 minutes. CrowdStrike's fastest observed breakout time: 7 minutes. Horizon3's autonomous agent: 60 seconds to full privilege escalation. MIT's 2024 research: AI-driven attack workflows running 47 times faster than human operators. Meanwhile, a human incident responder is still pulling up their toolkit. That gap is the most dangerous problem in cybersecurity. Find Evil! challenges you to close it. The Mission You'll build autonomous AI agents on the SANS SIFT Workstation --- 200+ incident response tools on a single platform, 18 years of community development, 60K+ annual downloads. Protocol SIFT, the proof-of-concept framework that connects AI agents to those tools through Model Context Protocol (MCP). Protocol SIFT works. It also hallucinates more than we'd like. (That's exactly why this hackathon exists.) Unlike offensive teams that operate with three or four people in secret, we're putting the entire practitioner community on this problem simultaneously. Your job: teach an AI agent to think like a senior analyst --- how to sequence its approach, recognize when something doesn't add up, and self-correct when it gets it wrong. Who Should Join You don't need to be an incident response expert. The SIFT Workstation handles the domain tooling. You need curiosity and building skills. IR/Security professionals: You've been finding evil manually for years. Build the AI partner you wish you had at 3 AM during an active incident. AI/ML engineers: Apply your skills to a domain where speed determines whether attackers win. Real case data, real tools, no toy datasets. Students and early-career builders: No IR background required. The SIFT Workstation is your on-ramp to the most in-demand intersection in tech. Open-source contributors: Every submission lives on as a community tool. Build something thousands of responders will use. Four supported architectural approaches: Direct Agent Extension (Claude Code or OpenClaw), Custom MCP Server, Multi-Agent Frameworks (AutoGen, CrewAI, LangGraph), or Alternative Agentic IDEs (Cursor, Cline, Aider). Teams up to 5. Solo permitted. April 15 -- June 15, 2026. $22,000+ in prizes. About the Challenge Why this exists In November 2025, Anthropic's security team published findings on GTG-1002 --- a Chinese state-sponsored operation where attackers used Claude Code to run autonomous reconnaissance, exploitation, and lateral movement at 80-90% autonomy. The AI handled everything at request rates Anthropic described as \"physically impossible\" for human operators. That was the offensive side. The SIFT Workstation is the defensive platform. Protocol SIFT demonstrated what's possible when you connect AI agents to that platform through MCP. This hackathon is how the community makes it real. The DFIR community built the SIFT Workstation 18 years ago to give every practitioner access to professional-grade tools. Find Evil! extends that mission: give every responder an AI co-pilot that can triage incidents at the speed adversaries now operate. The gap we're closing Manual command-line incident response cannot compete with autonomous agents executing thousands of requests. Adversaries move at machine speed. Defenders still look up command-line flags during active incidents. Your goal: build AI systems on the SIFT Workstation that match that velocity --- triaging, correlating, and reporting at the pace the threat demands. This hackathon is how. Get Started Register on Devpost (you're here) Join the Protocol SIFT Slack --- this is where questions get answered, teams form, and mentors hang out - Download the SIFT Workstation from sans.org/tools/sift-workstation Install Protocol SIFT Package to demonstrate automated analysis, To install Protocol SIFT, after you download SIFT OVA, and login, run this command from your terminal:: $ curl -fsSL https://raw.githubusercontent.com/teamdfir/protocol-sift/main/install.sh | bash Review the starter resources: sample case data (hard drives, memory images), example submission. Pick a problem and start building. See \"What to Build\" for project ideas and supported architectural approaches to get past the blank-screen problem.",
+      "summary": "The Speed Problem An AI-powered adversary can go from initial access to full domain control in under 8 minutes. CrowdStrike's fastest observed breakout time: 7 minutes. Horizon3's autonomous agent: 60...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-06-16T03:45:00.000Z",
+      "prize": "$22,000",
+      "tags": [
+        "Cybersecurity",
+        "Beginner Friendly"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-20T13:52:52.222Z",
+      "scrapedAt": "2026-04-20T13:51:33.154Z",
+      "lastUpdated": "2026-04-20T13:52:52.222Z",
+      "version": 1
+    },
+    {
+      "id": "c_54049d723b0c",
+      "title": "Learning Hackathon: Spec Driven Development",
+      "platform": "devpost",
+      "url": "https://learn-ai.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/519/494/datas/original.png",
+      "description": "About the challenge Devpost is launching a new kind of hackathon — shorter, built around learning, and the first in a series. You know the drill: you tell an AI to build you an app, and it kind of works, but the code's a mess and you're not sure what half of it does. Then, when you try to make a big improvement, you end up scrapping it and starting over from scratch. That's what happens when you don't know the best practices of building with AI. This hackathon teaches you spec-driven development — a better way to build with AI. Install a plugin inside Claude Code, plan your app with an AI learning partner, build it, and submit. Most people finish in 4–6 hours. No prizes, no judges — just skills you'll actually use (and a new Devpost badge!). Whether you're learning to code or shipping production software, the plugin will meet you where you are. GETTING STARTED Visit our Resources page for full setup instructions & tutorial on using our Claude Code plugin. Here are also some videos on the process: How to vibe code like a pro Learning plugin walkthrough Claude Code and Plugin Installation You can also access the plugin directly on GitHub at: https://github.com/challengepost/devpost-curriculum A Claude Pro or Max subscription — required to use Claude Code. If you're unsure whether you have one, check before you start. This was the #1 setup surprise in our beta. You'll need to use Claude on your computer! WHY PARTICIPATE Learn by Doing: This isn't a course you watch. You plan, build, and ship a real app — and the process teaches you how to do it again on your own. It's interactive. You'll work inside Claude Code with a custom AI learning partner that guides you through each step — from brainstorming to submission. Think of it less like a tutorial and more like a creative riff session with a smart collaborator. Level Playing Field: No experience requirements beyond the tools listed below. The plugin adapts to your level. Keep the Artifacts: Walk away with a scope document, a requirements doc, a technical spec, a build checklist, and a working app. These are real workflows you can reuse — treat them as templates for your future projects. What You'll Learn Spec-driven development — planning with AI before building, so your projects are intentional instead of generic Flipped interaction prompting — making the AI interview you, not the other way around Context management — keeping your AI productive across sessions instead of starting from scratch every time Verification habits — checking your work at each step so you don't get out over your skis",
+      "summary": "About the challenge Devpost is launching a new kind of hackathon — shorter, built around learning, and the first in a series. You know the drill: you tell an AI to build you an app, and it kind of wor...",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-04-29T21:00:00.000Z",
+      "prize": "1",
+      "tags": [
+        "Beginner Friendly",
+        "Open Ended"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "a requirements doc",
+        "a technical spec",
+        "a build checklist"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2026-04-20T13:52:52.250Z",
+      "scrapedAt": "2026-04-20T13:51:33.154Z",
+      "lastUpdated": "2026-04-20T13:52:52.250Z",
+      "version": 1
+    },
+    {
+      "id": "c_646898a9b0a7",
+      "title": "GNEC Hackathon 2026 Spring - Compete For UN-Affiliated/NGO Internships & Prizes",
+      "platform": "devpost",
+      "url": "https://gnec-hackathon-2026-spring.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/363/100/datas/original.png",
+      "description": "About the hackathon General The Global NGO Executive Committee (GNEC) and its 1,600 subsidiaries have come together to host our fourth GNEC Hackathon! We encourage those passionate about engineering, technology, and programming to join this event to demonstrate their skills while competing for prizes such as internships and mentorships with our partners. Why Us GNEC is well-connected to the UN and has a global network of NGOs. You can tap into this network during and after this hackathon. Our partners will also host various workshops where they will teach new technological concepts while also offering insight into their mission and the work they have done. The workshops are a great opportunity to explore one’s interests and possible career paths. Theme Through the GNEC Hackathon, we encourage participants to explore sustainability through technology by setting the hackathon's theme as one or two of the United Nations Sustainable Development Goals (UN SDGs). This hackathon's theme will be SDG 3 (Health and Well-being). Get started Join our Discord server (https://discord.gg/n5pcCHcGC6) and meet with everyone else involved in the hackathon. You are welcome to make your own team but if you don't have teammates, our Discord server is a great place to look for a team. The opening ceremony will provide further information regarding the hackathon and the working period will commence shortly after. Be creative, make new friends, and above all, have fun!",
+      "summary": "About the hackathon General The Global NGO Executive Committee (GNEC) and its 1,600 subsidiaries have come together to host our fourth GNEC Hackathon! We encourage those passionate about engineering, ...",
+      "contestType": "code",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-03T16:00:00.000Z",
+      "prize": "$700",
+      "tags": [
+        "Beginner Friendly",
+        "Health",
+        "Social Good"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-20T13:52:52.328Z",
+      "scrapedAt": "2026-04-20T13:51:33.157Z",
+      "lastUpdated": "2026-04-20T13:52:52.328Z",
+      "version": 1
+    },
+    {
+      "id": "c_2a3e6414dc27",
+      "title": "EnviroCast Global Engineering Outlook: From Insight to Impact Hackathon",
+      "platform": "devpost",
+      "url": "https://from-insight-to-impact.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/191/451/datas/original.png",
+      "description": "About the challenge EnviroCast GEO: From Insight to Impact Hackathon is an international, student-led online hackathon that invites participants to innovate, build, and solve real-world problems to shape the future. Whether you’re creating a web app, mobile tool, hardware prototype, AI solution, or entirely new technology, this hackathon is open-ended — your ideas are the limit. Theme: From Insight to Impact Explore bold engineering solutions Experiment with creative technology Design projects that have real-world impact Ensure projects are efficient and transparent Participants may use Featherless inference credits during the hackathon. Featherless is providing inference access for all participants for the full duration of the hackathon. For a detailed guide on accessing these credits, refer to the Resources section of this hackathon page. All participants will receive 300 credits for MeDo.dev, with technical support and Q&A information through the Discord server. For a detailed guide on accessing these credits, refer to the Resouces section of this hackathon page. Hackathon Highlights: Fully virtual and international Winners announced live during the EnviroCast GEO: Furthering the Future Conference @ http://geo.envirocast.org/ (May 24, Day 2) Winners will also be announced on Devpost If you desire to be a speaker at the GEO international conference, apply at the link provided to be a speaker. Free to enter, open to all eligible students About our Sponsors: Featherless is an inference provider and AI research lab that hosts over 20,000+ open-weight models. Featherless optimizes inference and architecture so models run faster, cheaper, and reliably in production. MeDo is an affordable yet powerful way to turn ideas into life fast, with no code, no setup, no limits. MeDo uses agentic AI to build production‑ready full‑stack apps — frontend, backend, database and integrations — in minutes. Everything is automated through natural language. TruthInTech is a global policy initative advocating for integrity in AI systems through youth-led policy frameworks, global education, and evidence-based governance. Get ready to build, innovate, and showcase your ideas to the world!",
+      "summary": "About the challenge EnviroCast GEO: From Insight to Impact Hackathon is an international, student-led online hackathon that invites participants to innovate, build, and solve real-world problems to sh...",
+      "contestType": "text",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-21T05:00:00.000Z",
+      "prize": "$625",
+      "tags": [
+        "Open Ended",
+        "Productivity",
+        "Social Good"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-20T13:52:52.232Z",
+      "scrapedAt": "2026-04-20T13:51:33.157Z",
+      "lastUpdated": "2026-04-20T13:52:52.232Z",
+      "version": 1
+    },
+    {
+      "id": "c_7497e0dc2803",
+      "title": "HackAmerica",
+      "platform": "devpost",
+      "url": "https://hackamerica.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/620/523/datas/original.png",
+      "description": "About the challenge Next spring, HackAmerica is encouraging high school students nationwide to participate in one of the largest student-led hackathons in the United States. Over a week, students will immerse themselves in the dynamic, ongoing, social-environmental issues that exist in this country and others around the world, choosing a focus of their choice. Whether solo or in a team of up to four, your mission is to build something that matters. Feel free to use any tools or tech, as there are no limits—only one rule: your project must be submitted before time’s up to be judged by our panel. This isn’t just about coding—it’s about bold ideas, smart collaboration, and sparking a real difference. Beginners, experts, and everyone in between are welcome. Come build with us, and show the world what students can do when we lead the way. Get started Whether you’re going solo or collaborating with up to 3 fellow hackers, HackAmerica is still your place to design: from within anywhere in the nation. We will give you a full liberty of any programming languages, tools, or platforms (yes, ChatGPT is allowed) that you like. We won’t restrict your freedom. Construct what you have learned or even experiment with new ones. As HackAmerica is an online event, we will program your creativity for success. There will be lots of virtual workshops, live Q&As, mini-challenges, and community events in the schedule for you to energize your mind, enhance your skills, and get acquainted with other hackers across America. Our Discord server is your home base. Here is where you will find the people who will be working with you, the place to share your ideas, the place to ask questions, and the place to get mentor’s help all along the weekend. If you have a lot of programming experience or if you are just learning the code, you will find a community that will stand with you. No experience in hackathons? The situation is even better. Your only requirements are curiosity, Wi-Fi, and the courage to create something daring.The inception of any great idea starts with one small decision: the decision to start. So go for it – we are ready to see what you’re going to build.",
+      "summary": "About the challenge Next spring, HackAmerica is encouraging high school students nationwide to participate in one of the largest student-led hackathons in the United States. Over a week, students will...",
+      "contestType": "text",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-05-23T18:00:00.000Z",
+      "prize": "$575",
+      "tags": [
+        "Beginner Friendly",
+        "Design",
+        "Social Good"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "are curiosity",
+        "Wi-Fi"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2026-04-20T13:52:52.461Z",
+      "scrapedAt": "2026-04-20T13:51:33.158Z",
+      "lastUpdated": "2026-04-20T13:52:52.461Z",
+      "version": 1
+    },
+    {
+      "id": "c_dac977070807",
+      "title": "DSH Hacks V1",
+      "platform": "devpost",
+      "url": "https://dsh-hacks-v1.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/466/363/datas/original.png",
+      "description": "About the Challenge DSH Hacks V1 is a global student competition open to students aged 13+ hosted collaboratively by three youth-led organizations: DeltaForge Hacks, NextHorizon, and STEMise. Theme: AI x STEM Education This event brings together young innovators from around the world to reimagine the future of STEM education through artificial intelligence. Participants will work individually or in teams to design and develop a meaningful technical product that leverages AI to improve, enhance, or expand STEM education. Projects may range from machine learning tools that personalize learning pathways to computer vision systems for laboratory simulations, to AI-driven platforms that increase accessibility for underrepresented communities. Creativity, feasibility, technical depth, and real-world impact will be central to evaluation. The theme of this competition is to create tools that help students learn STEM more effectively, interactively, and accessibly. These tools can be an app, a website, a simulation, a system, or an algorithm. Participants are allowed to use AI to encourage them to build a meaningful solution in the realm of STEM education and to lower the technical barrier that imposes challenges for beginners with ambitious project ideas. Get Started Ask around and form a team! We highly recommend finding like-minded individuals around you to help make your ideas a reality! Please join these Discord servers: DeltaForge Hacks & STEMise! You may very well find your new team!",
+      "summary": "About the Challenge DSH Hacks V1 is a global student competition open to students aged 13+ hosted collaboratively by three youth-led organizations: DeltaForge Hacks, NextHorizon, and STEMise. Theme: A...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-06-02T04:45:00.000Z",
+      "prize": "$5,096",
+      "tags": [
+        "Beginner Friendly",
+        "Social Good"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-20T13:52:53.397Z",
+      "scrapedAt": "2026-04-20T13:51:33.158Z",
+      "lastUpdated": "2026-04-20T13:52:53.397Z",
+      "version": 1
+    },
+    {
+      "id": "c_1e430bb0c58c",
+      "title": "UWB Hacks: The Future!",
+      "platform": "devpost",
+      "url": "https://uwb-hacks-the-future.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/239/724/datas/original.png",
+      "description": "See www.uwbhacks.com for more information! You MUST register on both Devpost and www.uwbhacks.com/apply. See linktr.ee/uwb_hacks for links to resources. 🚧 Under construction - check back soon for more information! 🚧",
+      "summary": "See www.uwbhacks.com for more information! You MUST register on both Devpost and www.uwbhacks.com/apply. See linktr.ee/uwb_hacks for links to resources. 🚧 Under construction - check back soon for mor...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-04-26T16:00:00.000Z",
+      "prize": "1",
+      "tags": [
+        "Beginner Friendly"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-20T13:52:53.390Z",
+      "scrapedAt": "2026-04-20T13:51:33.158Z",
+      "lastUpdated": "2026-04-20T13:52:53.390Z",
+      "version": 1
+    },
+    {
+      "id": "c_cf321d93ee91",
+      "title": "基于乐云平台和机械臂的日常抓取任务创新挑战赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/227",
+      "imageUrl": "",
+      "description": "2026杭州国际具身机器人场景应用大赛",
+      "summary": "2026杭州国际具身机器人场景应用大赛...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-04-28T15:59:00.000Z",
+      "prize": "最高8000元奖金",
+      "tags": [
+        "应用开发赛"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-20T13:52:53.395Z",
+      "scrapedAt": "2026-04-20T13:50:55.776Z",
+      "lastUpdated": "2026-04-20T13:52:53.395Z",
+      "version": 1
+    },
+    {
+      "id": "c_53f20e56007b",
+      "title": "千问创享日：QWEN DAY",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/223",
+      "imageUrl": "",
+      "description": "本次活动聚焦AI电商深度应用，重磅拆解Wan2.7-Image视觉大模型在视觉内容生产等场景的突破性能力，分享瓴羊“企业级Agent”电商运营落地案。",
+      "summary": "本次活动聚焦AI电商深度应用，重磅拆解Wan2.7-Image视觉大模型在视觉内容生产等场景的突破性能力，分享瓴羊“企业级Agent”电商运营落地案。...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-04-22T16:00:00.000Z",
+      "prize": "",
       "tags": [
         "ai"
       ],
@@ -299,218 +587,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:47.136Z",
-      "scrapedAt": "2026-04-20T03:21:30.300Z",
-      "lastUpdated": "2026-04-20T03:22:47.136Z",
-      "version": 1
-    },
-    {
-      "id": "c_b504bf47c47e",
-      "title": "FIND EVIL!",
-      "platform": "devpost",
-      "url": "https://findevil.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/521/059/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$22,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:48.144Z",
-      "scrapedAt": "2026-04-20T03:21:30.301Z",
-      "lastUpdated": "2026-04-20T03:22:48.144Z",
-      "version": 1
-    },
-    {
-      "id": "c_54049d723b0c",
-      "title": "Learning Hackathon: Spec Driven Development",
-      "platform": "devpost",
-      "url": "https://learn-ai.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/519/494/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$0",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:48.156Z",
-      "scrapedAt": "2026-04-20T03:21:30.304Z",
-      "lastUpdated": "2026-04-20T03:22:48.156Z",
-      "version": 1
-    },
-    {
-      "id": "c_646898a9b0a7",
-      "title": "GNEC Hackathon 2026 Spring - Compete For UN-Affiliated/NGO Internships & Prizes",
-      "platform": "devpost",
-      "url": "https://gnec-hackathon-2026-spring.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/363/100/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$700",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:48.151Z",
-      "scrapedAt": "2026-04-20T03:21:30.305Z",
-      "lastUpdated": "2026-04-20T03:22:48.151Z",
-      "version": 1
-    },
-    {
-      "id": "c_7497e0dc2803",
-      "title": "HackAmerica",
-      "platform": "devpost",
-      "url": "https://hackamerica.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/620/523/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$575",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:48.137Z",
-      "scrapedAt": "2026-04-20T03:21:30.305Z",
-      "lastUpdated": "2026-04-20T03:22:48.137Z",
-      "version": 1
-    },
-    {
-      "id": "c_2a3e6414dc27",
-      "title": "EnviroCast Global Engineering Outlook: From Insight to Impact Hackathon",
-      "platform": "devpost",
-      "url": "https://from-insight-to-impact.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/191/451/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$625",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:48.263Z",
-      "scrapedAt": "2026-04-20T03:21:30.306Z",
-      "lastUpdated": "2026-04-20T03:22:48.263Z",
-      "version": 1
-    },
-    {
-      "id": "c_dac977070807",
-      "title": "DSH Hacks V1",
-      "platform": "devpost",
-      "url": "https://dsh-hacks-v1.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/466/363/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$5,096",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:49.239Z",
-      "scrapedAt": "2026-04-20T03:21:30.306Z",
-      "lastUpdated": "2026-04-20T03:22:49.240Z",
-      "version": 1
-    },
-    {
-      "id": "c_1e430bb0c58c",
-      "title": "UWB Hacks: The Future!",
-      "platform": "devpost",
-      "url": "https://uwb-hacks-the-future.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/239/724/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$0",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:49.243Z",
-      "scrapedAt": "2026-04-20T03:21:30.307Z",
-      "lastUpdated": "2026-04-20T03:22:49.243Z",
-      "version": 1
-    },
-    {
-      "id": "c_53f20e56007b",
-      "title": "千问创享日：QWEN DAY",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/223",
-      "imageUrl": "",
-      "description": "本次活动聚焦A|电商深度应用，重磅拆解Wan2.7-Image视觉大模型在视觉内容生产等场景的突破性能力，分享瓴羊“企业级Agent”电商运营落地案。",
-      "summary": "本次活动聚焦A|电商深度应用，重磅拆解Wan2.7-Image视觉大模型在视觉内容生产等场景的突破性能力，分享瓴羊“企业级Agent”电商运营落地案。...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-04-22T16:00:00.000Z",
-      "prize": "",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:49.243Z",
-      "scrapedAt": "2026-04-20T03:20:52.212Z",
-      "lastUpdated": "2026-04-20T03:22:49.243Z",
+      "processedAt": "2026-04-20T13:52:53.424Z",
+      "scrapedAt": "2026-04-20T13:50:55.776Z",
+      "lastUpdated": "2026-04-20T13:52:53.424Z",
       "version": 1
     },
     {
@@ -537,9 +616,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:49.232Z",
-      "scrapedAt": "2026-04-20T03:20:52.212Z",
-      "lastUpdated": "2026-04-20T03:22:49.232Z",
+      "processedAt": "2026-04-20T13:52:53.562Z",
+      "scrapedAt": "2026-04-20T13:50:55.776Z",
+      "lastUpdated": "2026-04-20T13:52:53.562Z",
       "version": 1
     },
     {
@@ -566,9 +645,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:49.337Z",
-      "scrapedAt": "2026-04-20T03:20:52.212Z",
-      "lastUpdated": "2026-04-20T03:22:49.337Z",
+      "processedAt": "2026-04-20T13:52:54.483Z",
+      "scrapedAt": "2026-04-20T13:50:55.776Z",
+      "lastUpdated": "2026-04-20T13:52:54.483Z",
       "version": 1
     },
     {
@@ -595,9 +674,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:50.332Z",
-      "scrapedAt": "2026-04-20T03:20:52.212Z",
-      "lastUpdated": "2026-04-20T03:22:50.332Z",
+      "processedAt": "2026-04-20T13:52:54.495Z",
+      "scrapedAt": "2026-04-20T13:50:55.776Z",
+      "lastUpdated": "2026-04-20T13:52:54.495Z",
       "version": 1
     },
     {
@@ -624,9 +703,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:50.326Z",
-      "scrapedAt": "2026-04-20T03:20:52.213Z",
-      "lastUpdated": "2026-04-20T03:22:50.326Z",
+      "processedAt": "2026-04-20T13:52:54.513Z",
+      "scrapedAt": "2026-04-20T13:50:55.776Z",
+      "lastUpdated": "2026-04-20T13:52:54.513Z",
       "version": 1
     },
     {
@@ -653,9 +732,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:50.332Z",
-      "scrapedAt": "2026-04-20T03:20:52.213Z",
-      "lastUpdated": "2026-04-20T03:22:50.332Z",
+      "processedAt": "2026-04-20T13:52:54.496Z",
+      "scrapedAt": "2026-04-20T13:50:55.777Z",
+      "lastUpdated": "2026-04-20T13:52:54.496Z",
       "version": 1
     },
     {
@@ -689,9 +768,9 @@
         "进行详细实现。其他非必要环节"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:50.319Z",
-      "scrapedAt": "2026-04-20T03:20:52.217Z",
-      "lastUpdated": "2026-04-20T03:22:50.319Z",
+      "processedAt": "2026-04-20T13:52:54.580Z",
+      "scrapedAt": "2026-04-20T13:50:55.782Z",
+      "lastUpdated": "2026-04-20T13:52:54.580Z",
       "version": 1
     },
     {
@@ -722,38 +801,9 @@
         "但不作为硬性要求。Q：Skills 封装是必须完成的吗？"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:50.414Z",
-      "scrapedAt": "2026-04-20T03:20:52.217Z",
-      "lastUpdated": "2026-04-20T03:22:50.414Z",
-      "version": 1
-    },
-    {
-      "id": "c_9239fd8c0a69",
-      "title": "AI产品测评游园会—「蚂上加速器专场」",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/214",
-      "imageUrl": "",
-      "description": "AI产品测评游园会，pick你的心头好——「蚂上加速器专场」 时间：4月17日 地点：上海张江 适合人群： Al产品技术专家：拥有产品技术实战经验与独特洞察力 Al种子用户爱好者：乐于第一时间使用新产品，做世界先行者 AI行业投资人：关注AI早期项目，愿意花时间真正了解产品本身",
-      "summary": "AI产品测评游园会，pick你的心头好——「蚂上加速器专场」 时间：4月17日 地点：上海张江 适合人群： Al产品技术专家：拥有产品技术实战经验与独特洞察力 Al种子用户爱好者：乐于第一时间使用新产品，做世界先行者 AI行业投资人：关注AI早期项目，愿意花时间真正了解产品本身...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-04-16T15:59:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:51.425Z",
-      "scrapedAt": "2026-04-20T03:20:52.217Z",
-      "lastUpdated": "2026-04-20T03:22:51.425Z",
+      "processedAt": "2026-04-20T13:52:55.600Z",
+      "scrapedAt": "2026-04-20T13:50:55.782Z",
+      "lastUpdated": "2026-04-20T13:52:55.600Z",
       "version": 1
     },
     {
@@ -780,9 +830,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:51.422Z",
-      "scrapedAt": "2026-04-20T03:20:52.218Z",
-      "lastUpdated": "2026-04-20T03:22:51.422Z",
+      "processedAt": "2026-04-20T13:52:55.603Z",
+      "scrapedAt": "2026-04-20T13:50:55.783Z",
+      "lastUpdated": "2026-04-20T13:52:55.603Z",
       "version": 1
     },
     {
@@ -796,7 +846,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-04T03:21:58.768Z",
+      "deadline": "2026-05-03T13:52:01.705Z",
       "prize": "000 ZAR",
       "tags": [],
       "aiTools": [
@@ -807,9 +857,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:51.424Z",
-      "scrapedAt": "2026-04-20T03:21:58.768Z",
-      "lastUpdated": "2026-04-20T03:22:51.424Z",
+      "processedAt": "2026-04-20T13:52:55.588Z",
+      "scrapedAt": "2026-04-20T13:52:01.705Z",
+      "lastUpdated": "2026-04-20T13:52:55.588Z",
       "version": 1
     },
     {
@@ -823,7 +873,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-19T03:21:58.768Z",
+      "deadline": "2026-05-18T13:52:01.706Z",
       "prize": "€40 000 EUR",
       "tags": [],
       "aiTools": [
@@ -834,9 +884,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:51.413Z",
-      "scrapedAt": "2026-04-20T03:21:58.768Z",
-      "lastUpdated": "2026-04-20T03:22:51.413Z",
+      "processedAt": "2026-04-20T13:52:55.591Z",
+      "scrapedAt": "2026-04-20T13:52:01.706Z",
+      "lastUpdated": "2026-04-20T13:52:55.591Z",
       "version": 1
     },
     {
@@ -860,9 +910,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:51.505Z",
-      "scrapedAt": "2026-04-20T03:21:58.768Z",
-      "lastUpdated": "2026-04-20T03:22:51.505Z",
+      "processedAt": "2026-04-20T13:52:55.668Z",
+      "scrapedAt": "2026-04-20T13:52:01.706Z",
+      "lastUpdated": "2026-04-20T13:52:55.668Z",
       "version": 1
     },
     {
@@ -886,9 +936,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:52.506Z",
-      "scrapedAt": "2026-04-20T03:21:58.769Z",
-      "lastUpdated": "2026-04-20T03:22:52.506Z",
+      "processedAt": "2026-04-20T13:52:56.669Z",
+      "scrapedAt": "2026-04-20T13:52:01.706Z",
+      "lastUpdated": "2026-04-20T13:52:56.669Z",
       "version": 1
     },
     {
@@ -912,9 +962,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:52.509Z",
-      "scrapedAt": "2026-04-20T03:21:58.769Z",
-      "lastUpdated": "2026-04-20T03:22:52.509Z",
+      "processedAt": "2026-04-20T13:52:56.675Z",
+      "scrapedAt": "2026-04-20T13:52:01.706Z",
+      "lastUpdated": "2026-04-20T13:52:56.675Z",
       "version": 1
     },
     {
@@ -928,7 +978,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-04-26T03:21:58.769Z",
+      "deadline": "2026-04-25T13:52:01.706Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -938,9 +988,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:52.510Z",
-      "scrapedAt": "2026-04-20T03:21:58.769Z",
-      "lastUpdated": "2026-04-20T03:22:52.510Z",
+      "processedAt": "2026-04-20T13:52:56.658Z",
+      "scrapedAt": "2026-04-20T13:52:01.707Z",
+      "lastUpdated": "2026-04-20T13:52:56.658Z",
       "version": 1
     },
     {
@@ -963,9 +1013,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:52.502Z",
-      "scrapedAt": "2026-04-20T03:21:58.769Z",
-      "lastUpdated": "2026-04-20T03:22:52.502Z",
+      "processedAt": "2026-04-20T13:52:56.710Z",
+      "scrapedAt": "2026-04-20T13:52:01.707Z",
+      "lastUpdated": "2026-04-20T13:52:56.710Z",
       "version": 1
     },
     {
@@ -979,7 +1029,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-02T03:21:58.770Z",
+      "deadline": "2026-05-01T13:52:01.707Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -989,9 +1039,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:52.594Z",
-      "scrapedAt": "2026-04-20T03:21:58.770Z",
-      "lastUpdated": "2026-04-20T03:22:52.594Z",
+      "processedAt": "2026-04-20T13:52:56.775Z",
+      "scrapedAt": "2026-04-20T13:52:01.707Z",
+      "lastUpdated": "2026-04-20T13:52:56.775Z",
       "version": 1
     },
     {
@@ -1014,9 +1064,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:53.591Z",
-      "scrapedAt": "2026-04-20T03:21:58.770Z",
-      "lastUpdated": "2026-04-20T03:22:53.591Z",
+      "processedAt": "2026-04-20T13:52:57.777Z",
+      "scrapedAt": "2026-04-20T13:52:01.707Z",
+      "lastUpdated": "2026-04-20T13:52:57.777Z",
       "version": 1
     },
     {
@@ -1030,7 +1080,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-09T03:21:58.770Z",
+      "deadline": "2026-05-08T13:52:01.707Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -1040,9 +1090,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:53.594Z",
-      "scrapedAt": "2026-04-20T03:21:58.770Z",
-      "lastUpdated": "2026-04-20T03:22:53.594Z",
+      "processedAt": "2026-04-20T13:52:57.782Z",
+      "scrapedAt": "2026-04-20T13:52:01.707Z",
+      "lastUpdated": "2026-04-20T13:52:57.782Z",
       "version": 1
     },
     {
@@ -1056,7 +1106,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-16T03:21:58.771Z",
+      "deadline": "2026-05-15T13:52:01.707Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -1066,9 +1116,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:53.600Z",
-      "scrapedAt": "2026-04-20T03:21:58.771Z",
-      "lastUpdated": "2026-04-20T03:22:53.600Z",
+      "processedAt": "2026-04-20T13:52:57.824Z",
+      "scrapedAt": "2026-04-20T13:52:01.708Z",
+      "lastUpdated": "2026-04-20T13:52:57.824Z",
       "version": 1
     },
     {
@@ -1091,9 +1141,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:53.586Z",
-      "scrapedAt": "2026-04-20T03:21:58.771Z",
-      "lastUpdated": "2026-04-20T03:22:53.586Z",
+      "processedAt": "2026-04-20T13:52:57.809Z",
+      "scrapedAt": "2026-04-20T13:52:01.708Z",
+      "lastUpdated": "2026-04-20T13:52:57.809Z",
       "version": 1
     },
     {
@@ -1119,9 +1169,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:53.686Z",
-      "scrapedAt": "2026-04-20T03:21:58.772Z",
-      "lastUpdated": "2026-04-20T03:22:53.686Z",
+      "processedAt": "2026-04-20T13:52:57.882Z",
+      "scrapedAt": "2026-04-20T13:52:01.708Z",
+      "lastUpdated": "2026-04-20T13:52:57.882Z",
       "version": 1
     },
     {
@@ -1147,9 +1197,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:54.686Z",
-      "scrapedAt": "2026-04-20T03:21:58.772Z",
-      "lastUpdated": "2026-04-20T03:22:54.686Z",
+      "processedAt": "2026-04-20T13:52:58.906Z",
+      "scrapedAt": "2026-04-20T13:52:01.708Z",
+      "lastUpdated": "2026-04-20T13:52:58.906Z",
       "version": 1
     },
     {
@@ -1173,9 +1223,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:54.687Z",
-      "scrapedAt": "2026-04-20T03:21:58.772Z",
-      "lastUpdated": "2026-04-20T03:22:54.687Z",
+      "processedAt": "2026-04-20T13:52:58.896Z",
+      "scrapedAt": "2026-04-20T13:52:01.708Z",
+      "lastUpdated": "2026-04-20T13:52:58.896Z",
       "version": 1
     },
     {
@@ -1199,9 +1249,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:54.684Z",
-      "scrapedAt": "2026-04-20T03:21:58.773Z",
-      "lastUpdated": "2026-04-20T03:22:54.684Z",
+      "processedAt": "2026-04-20T13:52:58.888Z",
+      "scrapedAt": "2026-04-20T13:52:01.708Z",
+      "lastUpdated": "2026-04-20T13:52:58.888Z",
       "version": 1
     },
     {
@@ -1227,9 +1277,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:54.686Z",
-      "scrapedAt": "2026-04-20T03:21:58.773Z",
-      "lastUpdated": "2026-04-20T03:22:54.686Z",
+      "processedAt": "2026-04-20T13:52:58.884Z",
+      "scrapedAt": "2026-04-20T13:52:01.709Z",
+      "lastUpdated": "2026-04-20T13:52:58.884Z",
       "version": 1
     },
     {
@@ -1253,9 +1303,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:54.763Z",
-      "scrapedAt": "2026-04-20T03:21:58.773Z",
-      "lastUpdated": "2026-04-20T03:22:54.763Z",
+      "processedAt": "2026-04-20T13:52:58.973Z",
+      "scrapedAt": "2026-04-20T13:52:01.709Z",
+      "lastUpdated": "2026-04-20T13:52:58.973Z",
       "version": 1
     },
     {
@@ -1279,9 +1329,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:55.773Z",
-      "scrapedAt": "2026-04-20T03:21:58.773Z",
-      "lastUpdated": "2026-04-20T03:22:55.773Z",
+      "processedAt": "2026-04-20T13:52:59.971Z",
+      "scrapedAt": "2026-04-20T13:52:01.709Z",
+      "lastUpdated": "2026-04-20T13:52:59.971Z",
       "version": 1
     },
     {
@@ -1307,15 +1357,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:55.766Z",
-      "scrapedAt": "2026-04-20T03:21:58.774Z",
-      "lastUpdated": "2026-04-20T03:22:55.766Z",
+      "processedAt": "2026-04-20T13:52:59.978Z",
+      "scrapedAt": "2026-04-20T13:52:01.709Z",
+      "lastUpdated": "2026-04-20T13:52:59.978Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-04-20T03:22:55.781Z"
+    "lastUpdated": "2026-04-20T13:52:59.990Z"
   }
 }

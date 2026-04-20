@@ -1,22 +1,24 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-04-20T03:22:55.774Z",
+  "timestamp": "2026-04-20T13:52:59.981Z",
   "contestCount": 10,
   "contests": [
     {
-      "id": "c_53f20e56007b",
-      "title": "千问创享日：QWEN DAY",
+      "id": "c_cf321d93ee91",
+      "title": "基于乐云平台和机械臂的日常抓取任务创新挑战赛",
       "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/223",
+      "url": "https://modelscope.cn/competition/227",
       "imageUrl": "",
-      "description": "本次活动聚焦A|电商深度应用，重磅拆解Wan2.7-Image视觉大模型在视觉内容生产等场景的突破性能力，分享瓴羊“企业级Agent”电商运营落地案。",
-      "summary": "本次活动聚焦A|电商深度应用，重磅拆解Wan2.7-Image视觉大模型在视觉内容生产等场景的突破性能力，分享瓴羊“企业级Agent”电商运营落地案。...",
-      "contestType": "image",
+      "description": "2026杭州国际具身机器人场景应用大赛",
+      "summary": "2026杭州国际具身机器人场景应用大赛...",
+      "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-04-22T16:00:00.000Z",
-      "prize": "",
-      "tags": [],
+      "deadline": "2026-04-28T15:59:00.000Z",
+      "prize": "最高8000元奖金",
+      "tags": [
+        "应用开发赛"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -25,9 +27,38 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:49.243Z",
-      "scrapedAt": "2026-04-20T03:20:52.212Z",
-      "lastUpdated": "2026-04-20T03:22:49.243Z",
+      "processedAt": "2026-04-20T13:52:53.395Z",
+      "scrapedAt": "2026-04-20T13:50:55.776Z",
+      "lastUpdated": "2026-04-20T13:52:53.395Z",
+      "version": 1
+    },
+    {
+      "id": "c_53f20e56007b",
+      "title": "千问创享日：QWEN DAY",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/223",
+      "imageUrl": "",
+      "description": "本次活动聚焦AI电商深度应用，重磅拆解Wan2.7-Image视觉大模型在视觉内容生产等场景的突破性能力，分享瓴羊“企业级Agent”电商运营落地案。",
+      "summary": "本次活动聚焦AI电商深度应用，重磅拆解Wan2.7-Image视觉大模型在视觉内容生产等场景的突破性能力，分享瓴羊“企业级Agent”电商运营落地案。...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-04-22T16:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-20T13:52:53.424Z",
+      "scrapedAt": "2026-04-20T13:50:55.776Z",
+      "lastUpdated": "2026-04-20T13:52:53.424Z",
       "version": 1
     },
     {
@@ -54,9 +85,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:49.232Z",
-      "scrapedAt": "2026-04-20T03:20:52.212Z",
-      "lastUpdated": "2026-04-20T03:22:49.232Z",
+      "processedAt": "2026-04-20T13:52:53.562Z",
+      "scrapedAt": "2026-04-20T13:50:55.776Z",
+      "lastUpdated": "2026-04-20T13:52:53.562Z",
       "version": 1
     },
     {
@@ -83,9 +114,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:49.337Z",
-      "scrapedAt": "2026-04-20T03:20:52.212Z",
-      "lastUpdated": "2026-04-20T03:22:49.337Z",
+      "processedAt": "2026-04-20T13:52:54.483Z",
+      "scrapedAt": "2026-04-20T13:50:55.776Z",
+      "lastUpdated": "2026-04-20T13:52:54.483Z",
       "version": 1
     },
     {
@@ -112,9 +143,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:50.332Z",
-      "scrapedAt": "2026-04-20T03:20:52.212Z",
-      "lastUpdated": "2026-04-20T03:22:50.332Z",
+      "processedAt": "2026-04-20T13:52:54.495Z",
+      "scrapedAt": "2026-04-20T13:50:55.776Z",
+      "lastUpdated": "2026-04-20T13:52:54.495Z",
       "version": 1
     },
     {
@@ -141,9 +172,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:50.326Z",
-      "scrapedAt": "2026-04-20T03:20:52.213Z",
-      "lastUpdated": "2026-04-20T03:22:50.326Z",
+      "processedAt": "2026-04-20T13:52:54.513Z",
+      "scrapedAt": "2026-04-20T13:50:55.776Z",
+      "lastUpdated": "2026-04-20T13:52:54.513Z",
       "version": 1
     },
     {
@@ -170,9 +201,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:50.332Z",
-      "scrapedAt": "2026-04-20T03:20:52.213Z",
-      "lastUpdated": "2026-04-20T03:22:50.332Z",
+      "processedAt": "2026-04-20T13:52:54.496Z",
+      "scrapedAt": "2026-04-20T13:50:55.777Z",
+      "lastUpdated": "2026-04-20T13:52:54.496Z",
       "version": 1
     },
     {
@@ -206,9 +237,9 @@
         "进行详细实现。其他非必要环节"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:50.319Z",
-      "scrapedAt": "2026-04-20T03:20:52.217Z",
-      "lastUpdated": "2026-04-20T03:22:50.319Z",
+      "processedAt": "2026-04-20T13:52:54.580Z",
+      "scrapedAt": "2026-04-20T13:50:55.782Z",
+      "lastUpdated": "2026-04-20T13:52:54.580Z",
       "version": 1
     },
     {
@@ -239,38 +270,9 @@
         "但不作为硬性要求。Q：Skills 封装是必须完成的吗？"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:50.414Z",
-      "scrapedAt": "2026-04-20T03:20:52.217Z",
-      "lastUpdated": "2026-04-20T03:22:50.414Z",
-      "version": 1
-    },
-    {
-      "id": "c_9239fd8c0a69",
-      "title": "AI产品测评游园会—「蚂上加速器专场」",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/214",
-      "imageUrl": "",
-      "description": "AI产品测评游园会，pick你的心头好——「蚂上加速器专场」 时间：4月17日 地点：上海张江 适合人群： Al产品技术专家：拥有产品技术实战经验与独特洞察力 Al种子用户爱好者：乐于第一时间使用新产品，做世界先行者 AI行业投资人：关注AI早期项目，愿意花时间真正了解产品本身",
-      "summary": "AI产品测评游园会，pick你的心头好——「蚂上加速器专场」 时间：4月17日 地点：上海张江 适合人群： Al产品技术专家：拥有产品技术实战经验与独特洞察力 Al种子用户爱好者：乐于第一时间使用新产品，做世界先行者 AI行业投资人：关注AI早期项目，愿意花时间真正了解产品本身...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-04-16T15:59:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:51.425Z",
-      "scrapedAt": "2026-04-20T03:20:52.217Z",
-      "lastUpdated": "2026-04-20T03:22:51.425Z",
+      "processedAt": "2026-04-20T13:52:55.600Z",
+      "scrapedAt": "2026-04-20T13:50:55.782Z",
+      "lastUpdated": "2026-04-20T13:52:55.600Z",
       "version": 1
     },
     {
@@ -297,15 +299,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-20T03:22:51.422Z",
-      "scrapedAt": "2026-04-20T03:20:52.218Z",
-      "lastUpdated": "2026-04-20T03:22:51.422Z",
+      "processedAt": "2026-04-20T13:52:55.603Z",
+      "scrapedAt": "2026-04-20T13:50:55.783Z",
+      "lastUpdated": "2026-04-20T13:52:55.603Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-04-20T03:22:55.774Z"
+    "lastUpdated": "2026-04-20T13:52:59.981Z"
   }
 }

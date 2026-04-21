@@ -1,6 +1,6 @@
 {
   "platform": "all",
-  "timestamp": "2026-04-21T02:56:22.302Z",
+  "timestamp": "2026-04-21T13:53:13.688Z",
   "contestCount": 47,
   "contests": [
     {
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:11.462Z",
-      "scrapedAt": "2026-04-21T02:55:21.138Z",
-      "lastUpdated": "2026-04-21T02:56:11.462Z",
+      "processedAt": "2026-04-21T13:53:03.039Z",
+      "scrapedAt": "2026-04-21T13:52:15.109Z",
+      "lastUpdated": "2026-04-21T13:53:03.039Z",
       "version": 1
     },
     {
@@ -42,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T02:55:21.139Z",
+      "deadline": "2030-08-14T13:52:15.109Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -53,9 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:12.180Z",
-      "scrapedAt": "2026-04-21T02:55:21.139Z",
-      "lastUpdated": "2026-04-21T02:56:12.180Z",
+      "processedAt": "2026-04-21T13:53:03.892Z",
+      "scrapedAt": "2026-04-21T13:52:15.109Z",
+      "lastUpdated": "2026-04-21T13:53:03.892Z",
       "version": 1
     },
     {
@@ -69,7 +69,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T02:55:21.139Z",
+      "deadline": "2045-09-01T13:52:15.110Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -80,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:12.387Z",
-      "scrapedAt": "2026-04-21T02:55:21.139Z",
-      "lastUpdated": "2026-04-21T02:56:12.387Z",
+      "processedAt": "2026-04-21T13:53:03.995Z",
+      "scrapedAt": "2026-04-21T13:52:15.110Z",
+      "lastUpdated": "2026-04-21T13:53:03.995Z",
       "version": 1
     },
     {
@@ -96,7 +96,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T02:55:21.140Z",
+      "deadline": "2030-12-30T13:52:15.110Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -110,9 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:12.404Z",
-      "scrapedAt": "2026-04-21T02:55:21.140Z",
-      "lastUpdated": "2026-04-21T02:56:12.404Z",
+      "processedAt": "2026-04-21T13:53:03.978Z",
+      "scrapedAt": "2026-04-21T13:52:15.110Z",
+      "lastUpdated": "2026-04-21T13:53:03.978Z",
       "version": 1
     },
     {
@@ -138,9 +138,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:12.327Z",
-      "scrapedAt": "2026-04-21T02:55:21.140Z",
-      "lastUpdated": "2026-04-21T02:56:12.327Z",
+      "processedAt": "2026-04-21T13:53:03.991Z",
+      "scrapedAt": "2026-04-21T13:52:15.110Z",
+      "lastUpdated": "2026-04-21T13:53:03.991Z",
       "version": 1
     },
     {
@@ -164,9 +164,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:12.501Z",
-      "scrapedAt": "2026-04-21T02:55:21.142Z",
-      "lastUpdated": "2026-04-21T02:56:12.501Z",
+      "processedAt": "2026-04-21T13:53:04.040Z",
+      "scrapedAt": "2026-04-21T13:52:15.112Z",
+      "lastUpdated": "2026-04-21T13:53:04.040Z",
       "version": 1
     },
     {
@@ -192,9 +192,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:13.490Z",
-      "scrapedAt": "2026-04-21T02:54:27.273Z",
-      "lastUpdated": "2026-04-21T02:56:13.490Z",
+      "processedAt": "2026-04-21T13:53:05.087Z",
+      "scrapedAt": "2026-04-21T13:51:22.261Z",
+      "lastUpdated": "2026-04-21T13:53:05.087Z",
       "version": 1
     },
     {
@@ -202,19 +202,14 @@
       "title": "Build with MeDo Hackathon",
       "platform": "devpost",
       "url": "https://medo.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/516/528/datas/original.png",
-      "description": "Welcome to the Build with MeDo Hackathon！ Whether you’re a developer or a creator, MeDo lets you turn conversations into fully functional applications – from brainstorming to deployment. With MeDo, you can: Build full‑stack apps just by describing them in natural language. Iterate quickly via multi‑turn chat or visual editor. Integrate plugins and APIs effortlessly. Deploy with one click to a public URL. Pick one of our themed tracks or go freestyle. Show us what you can create when AI handles the heavy lifting! Get Started Register with this invite link to get 300 bonus credits! Join our Discord community to connect with other participants, find teammates, and win a $500 community exclusive prize! Community Voting (April 9, 9AM – June 4, 10AM): Post your project in the #showcase channel on Discord. Community members vote for their favorite projects. The 5 projects with the most votes each win $500. More Resources to help you build!",
-      "summary": "Welcome to the Build with MeDo Hackathon！ Whether you’re a developer or a creator, MeDo lets you turn conversations into fully functional applications – from brainstorming to deployment. With MeDo, yo...",
-      "contestType": "text",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/516/528/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-05-20T13:00:00.000Z",
       "prize": "$50,000",
-      "tags": [
-        "Beginner Friendly",
-        "Low",
-        "No Code"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -223,9 +218,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:13.492Z",
-      "scrapedAt": "2026-04-21T02:54:54.681Z",
-      "lastUpdated": "2026-04-21T02:56:13.492Z",
+      "processedAt": "2026-04-21T13:53:05.040Z",
+      "scrapedAt": "2026-04-21T13:51:49.458Z",
+      "lastUpdated": "2026-04-21T13:53:05.040Z",
       "version": 1
     },
     {
@@ -233,18 +228,14 @@
       "title": "ZerveHack",
       "platform": "devpost",
       "url": "https://zervehack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/278/921/datas/original.png",
-      "description": "What is Zerve? Zerve is an AI-native data science platform. Start with a question, not a blank script. Zerve's agent writes the code, iterates on errors and runs the analysis while you steer. When you're ready, deploy it as an API or app without leaving the platform. The Challenge Use Zerve to build something original. Analyze a dataset, uncover insights, and ship something others can use: an analysis, an app, an API, or all three. No constraints on topic. No prescribed methodology. Bring a question and see how far you can take it. The best submissions will feel like they couldn't have been built the old way. Manual queries, disconnected tools, endless waiting on the data team. Show us what's possible when AI handles the execution and you drive the direction. Getting Started Navigate to the resources tab to signup and get started!",
-      "summary": "What is Zerve? Zerve is an AI-native data science platform. Start with a question, not a blank script. Zerve's agent writes the code, iterates on errors and runs the analysis while you steer. When you...",
-      "contestType": "code",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/278/921/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-29T18:00:00.000Z",
       "prize": "$10,000",
-      "tags": [
-        "Machine Learning",
-        "AI"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -253,9 +244,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:13.495Z",
-      "scrapedAt": "2026-04-21T02:54:54.682Z",
-      "lastUpdated": "2026-04-21T02:56:13.495Z",
+      "processedAt": "2026-04-21T13:53:05.036Z",
+      "scrapedAt": "2026-04-21T13:51:49.459Z",
+      "lastUpdated": "2026-04-21T13:53:05.036Z",
       "version": 1
     },
     {
@@ -263,17 +254,15 @@
       "title": "Agents Assemble - The Healthcare AI Endgame",
       "platform": "devpost",
       "url": "https://agents-assemble.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/original.png",
-      "description": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. Thank you for your interest and understanding. Agents Assemble: The Healthcare AI Endgame Challenge Build Interoperable Healthcare Agents at the Intersection of MCP, A2A, and FHIR. We have all watched the AI in healthcare trailers - the hype, the theories, and the cool demos. But now, we have entered the Endgame. At Prompt Opinion, we define this phase as \"The Last Mile\" - the critical gap where raw intelligence must be converted into actionable deliverables. To conquer this mile, we cannot work alone. We are proud to launch Agents Assemble, a builder’s competition designed to prove that the power of AI lies in collaboration. Our platform provides the headquarters for this mission, giving you native access to the industry's best tools to build in two distinct ways: you can forge a Superpower (building the MCP tools that fuel the ecosystem), or you can rise up to build a Full Agent (equipping those superpowers to tackle a specific healthcare challenge). The technology is ready. The platform is open. It’s time to assemble. Why Participate? This competition is a launchpad for AI solutions that will power future healthcare workflows. Here is why you should join: Lucrative Cash Prizes: Compete for a total prize pool of $25,000 USD in cash, including a $7,500 Grand Prize. Widespread Visibility: Successful projects will be published in the Prompt Opinion Marketplace, making them discoverable and invokable by organizations across the ecosystem. Develop Skills That Matter: Gain hands-on experience with the Model Context Protocol (MCP) and Agent-to-Agent (A2A) standards for building AI agents. Build Healthcare Ready Solutions: Learn how by using the SHARP extension specs from Prompt Opinion, your tools and agents will seamlessly propagate data context using FHIR through multi-agent call chains. Collaborate and Network: Join a community of like-minded innovators and connect with leaders at Prompt Opinion who are shaping the future of AI infrastructure. Bragging Rights: Beyond the prizes, you will walk away with the pride of having built a functional, standards-compliant AI solution that can integrate directly into a clinician's workspace.",
-      "summary": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. ...",
-      "contestType": "text",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-05-12T03:00:00.000Z",
       "prize": "$25,000",
       "tags": [
-        "Health",
-        "Beginner Friendly"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -283,9 +272,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:13.489Z",
-      "scrapedAt": "2026-04-21T02:54:54.683Z",
-      "lastUpdated": "2026-04-21T02:56:13.489Z",
+      "processedAt": "2026-04-21T13:53:05.038Z",
+      "scrapedAt": "2026-04-21T13:51:49.460Z",
+      "lastUpdated": "2026-04-21T13:53:05.038Z",
       "version": 1
     },
     {
@@ -293,18 +282,14 @@
       "title": "FIND EVIL!",
       "platform": "devpost",
       "url": "https://findevil.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/521/059/datas/original.png",
-      "description": "The Speed Problem An AI-powered adversary can go from initial access to full domain control in under 8 minutes. CrowdStrike's fastest observed breakout time: 7 minutes. Horizon3's autonomous agent: 60 seconds to full privilege escalation. MIT's 2024 research: AI-driven attack workflows running 47 times faster than human operators. Meanwhile, a human incident responder is still pulling up their toolkit. That gap is the most dangerous problem in cybersecurity. Find Evil! challenges you to close it. The Mission You'll build autonomous AI agents on the SANS SIFT Workstation --- 200+ incident response tools on a single platform, 18 years of community development, 60K+ annual downloads. Protocol SIFT, the proof-of-concept framework that connects AI agents to those tools through Model Context Protocol (MCP). Protocol SIFT works. It also hallucinates more than we'd like. (That's exactly why this hackathon exists.) Unlike offensive teams that operate with three or four people in secret, we're putting the entire practitioner community on this problem simultaneously. Your job: teach an AI agent to think like a senior analyst --- how to sequence its approach, recognize when something doesn't add up, and self-correct when it gets it wrong. Who Should Join You don't need to be an incident response expert. The SIFT Workstation handles the domain tooling. You need curiosity and building skills. IR/Security professionals: You've been finding evil manually for years. Build the AI partner you wish you had at 3 AM during an active incident. AI/ML engineers: Apply your skills to a domain where speed determines whether attackers win. Real case data, real tools, no toy datasets. Students and early-career builders: No IR background required. The SIFT Workstation is your on-ramp to the most in-demand intersection in tech. Open-source contributors: Every submission lives on as a community tool. Build something thousands of responders will use. Four supported architectural approaches: Direct Agent Extension (Claude Code or OpenClaw), Custom MCP Server, Multi-Agent Frameworks (AutoGen, CrewAI, LangGraph), or Alternative Agentic IDEs (Cursor, Cline, Aider). Teams up to 5. Solo permitted. April 15 -- June 15, 2026. $22,000+ in prizes. About the Challenge Why this exists In November 2025, Anthropic's security team published findings on GTG-1002 --- a Chinese state-sponsored operation where attackers used Claude Code to run autonomous reconnaissance, exploitation, and lateral movement at 80-90% autonomy. The AI handled everything at request rates Anthropic described as \"physically impossible\" for human operators. That was the offensive side. The SIFT Workstation is the defensive platform. Protocol SIFT demonstrated what's possible when you connect AI agents to that platform through MCP. This hackathon is how the community makes it real. The DFIR community built the SIFT Workstation 18 years ago to give every practitioner access to professional-grade tools. Find Evil! extends that mission: give every responder an AI co-pilot that can triage incidents at the speed adversaries now operate. The gap we're closing Manual command-line incident response cannot compete with autonomous agents executing thousands of requests. Adversaries move at machine speed. Defenders still look up command-line flags during active incidents. Your goal: build AI systems on the SIFT Workstation that match that velocity --- triaging, correlating, and reporting at the pace the threat demands. This hackathon is how. Get Started Register on Devpost (you're here) Join the Protocol SIFT Slack --- this is where questions get answered, teams form, and mentors hang out - Download the SIFT Workstation from sans.org/tools/sift-workstation Install Protocol SIFT Package to demonstrate automated analysis, To install Protocol SIFT, after you download SIFT OVA, and login, run this command from your terminal:: $ curl -fsSL https://raw.githubusercontent.com/teamdfir/protocol-sift/main/install.sh | bash Review the starter resources: sample case data (hard drives, memory images), example submission. Pick a problem and start building. See \"What to Build\" for project ideas and supported architectural approaches to get past the blank-screen problem.",
-      "summary": "The Speed Problem An AI-powered adversary can go from initial access to full domain control in under 8 minutes. CrowdStrike's fastest observed breakout time: 7 minutes. Horizon3's autonomous agent: 60...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-06-16T03:45:00.000Z",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/521/059/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$22,000",
-      "tags": [
-        "Cybersecurity",
-        "Beginner Friendly"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -313,9 +298,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:13.589Z",
-      "scrapedAt": "2026-04-21T02:54:54.685Z",
-      "lastUpdated": "2026-04-21T02:56:13.589Z",
+      "processedAt": "2026-04-21T13:53:05.124Z",
+      "scrapedAt": "2026-04-21T13:51:49.461Z",
+      "lastUpdated": "2026-04-21T13:53:05.124Z",
       "version": 1
     },
     {
@@ -323,33 +308,25 @@
       "title": "Learning Hackathon: Spec Driven Development",
       "platform": "devpost",
       "url": "https://learn-ai.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/519/494/datas/original.png",
-      "description": "About the challenge Devpost is launching a new kind of hackathon — shorter, built around learning, and the first in a series. You know the drill: you tell an AI to build you an app, and it kind of works, but the code's a mess and you're not sure what half of it does. Then, when you try to make a big improvement, you end up scrapping it and starting over from scratch. That's what happens when you don't know the best practices of building with AI. This hackathon teaches you spec-driven development — a better way to build with AI. Install a plugin inside Claude Code, plan your app with an AI learning partner, build it, and submit. Most people finish in 4–6 hours. No prizes, no judges — just skills you'll actually use (and a new Devpost badge!). Whether you're learning to code or shipping production software, the plugin will meet you where you are. GETTING STARTED Visit our Resources page for full setup instructions & tutorial on using our Claude Code plugin. Here are also some videos on the process: How to vibe code like a pro Learning plugin walkthrough Claude Code and Plugin Installation You can also access the plugin directly on GitHub at: https://github.com/challengepost/devpost-curriculum A Claude Pro or Max subscription — required to use Claude Code. If you're unsure whether you have one, check before you start. This was the #1 setup surprise in our beta. You'll need to use Claude on your computer! WHY PARTICIPATE Learn by Doing: This isn't a course you watch. You plan, build, and ship a real app — and the process teaches you how to do it again on your own. It's interactive. You'll work inside Claude Code with a custom AI learning partner that guides you through each step — from brainstorming to submission. Think of it less like a tutorial and more like a creative riff session with a smart collaborator. Level Playing Field: No experience requirements beyond the tools listed below. The plugin adapts to your level. Keep the Artifacts: Walk away with a scope document, a requirements doc, a technical spec, a build checklist, and a working app. These are real workflows you can reuse — treat them as templates for your future projects. What You'll Learn Spec-driven development — planning with AI before building, so your projects are intentional instead of generic Flipped interaction prompting — making the AI interview you, not the other way around Context management — keeping your AI productive across sessions instead of starting from scratch every time Verification habits — checking your work at each step so you don't get out over your skis",
-      "summary": "About the challenge Devpost is launching a new kind of hackathon — shorter, built around learning, and the first in a series. You know the drill: you tell an AI to build you an app, and it kind of wor...",
-      "contestType": "video",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/519/494/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-04-29T21:00:00.000Z",
       "prize": "$0",
-      "tags": [
-        "Beginner Friendly",
-        "Open Ended"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [
-        "a requirements doc",
-        "a technical spec",
-        "a build checklist"
-      ],
+      "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:14.587Z",
-      "scrapedAt": "2026-04-21T02:54:54.688Z",
-      "lastUpdated": "2026-04-21T02:56:14.587Z",
+      "processedAt": "2026-04-21T13:53:06.121Z",
+      "scrapedAt": "2026-04-21T13:51:49.464Z",
+      "lastUpdated": "2026-04-21T13:53:06.121Z",
       "version": 1
     },
     {
@@ -373,9 +350,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:14.583Z",
-      "scrapedAt": "2026-04-21T02:54:54.688Z",
-      "lastUpdated": "2026-04-21T02:56:14.583Z",
+      "processedAt": "2026-04-21T13:53:06.120Z",
+      "scrapedAt": "2026-04-21T13:51:49.465Z",
+      "lastUpdated": "2026-04-21T13:53:06.120Z",
       "version": 1
     },
     {
@@ -399,9 +376,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:14.583Z",
-      "scrapedAt": "2026-04-21T02:54:54.689Z",
-      "lastUpdated": "2026-04-21T02:56:14.583Z",
+      "processedAt": "2026-04-21T13:53:06.124Z",
+      "scrapedAt": "2026-04-21T13:51:49.465Z",
+      "lastUpdated": "2026-04-21T13:53:06.124Z",
       "version": 1
     },
     {
@@ -425,9 +402,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:14.589Z",
-      "scrapedAt": "2026-04-21T02:54:54.689Z",
-      "lastUpdated": "2026-04-21T02:56:14.589Z",
+      "processedAt": "2026-04-21T13:53:06.171Z",
+      "scrapedAt": "2026-04-21T13:51:49.466Z",
+      "lastUpdated": "2026-04-21T13:53:06.171Z",
       "version": 1
     },
     {
@@ -451,9 +428,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:14.680Z",
-      "scrapedAt": "2026-04-21T02:54:54.690Z",
-      "lastUpdated": "2026-04-21T02:56:14.680Z",
+      "processedAt": "2026-04-21T13:53:06.231Z",
+      "scrapedAt": "2026-04-21T13:51:49.466Z",
+      "lastUpdated": "2026-04-21T13:53:06.231Z",
       "version": 1
     },
     {
@@ -477,9 +454,39 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:15.681Z",
-      "scrapedAt": "2026-04-21T02:54:54.690Z",
-      "lastUpdated": "2026-04-21T02:56:15.681Z",
+      "processedAt": "2026-04-21T13:53:07.266Z",
+      "scrapedAt": "2026-04-21T13:51:49.467Z",
+      "lastUpdated": "2026-04-21T13:53:07.266Z",
+      "version": 1
+    },
+    {
+      "id": "c_60319759a32a",
+      "title": "妙呀 x 魔搭社区 潮玩IP创造营",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/226",
+      "imageUrl": "",
+      "description": "这不只是一场比赛，我们在寻找下一个潮玩爆款IP的创造者。用LoRA训练你的专属风格，或者直接用AI工具设计原创角色。\n\n用AI创造你的第一个潮玩IP——从屏幕走进现实！这不只是一场比赛，我们在寻找下一个潮玩爆款IP的创造者。用LoRA训练你的专属风格，或者直接用AI工具设计原创角色。双赛道、多方向，总有适合你的赛场——其中魔搭IP方向的优秀作品将被收录为魔搭官方IP盲盒，实体化量产发售。一、双赛道总览赛道一 · 魔搭LoRA赛道赛道二 · 妙呀IP设计赛道核心任务训练潮玩手办风格LoRA模型用AI工具设计原创潮玩IP形象面向人群有AI训练基础的技术创作者设计师、艺术生、潮玩爱好者参与平台魔搭社区妙呀平台赛道方向单一方向自由IP方向 + 魔搭IP方向两个赛道可同时参加，分别评审、分别获奖。赛道一提交LoRA模型，赛道二提交IP设计作品，参赛者可同时参与两个赛道。赛道二的魔搭IP方向需融入魔搭品牌元素，优秀作品将作为魔搭官方IP实体化量产。💡 LoRA赛道训练出的模型可以直接用于IP赛道出图，双倍机会双倍奖金。二、活动时间阶段时间说明征集阶段4月22日 - 5月15日开放作品提交，所有数据统计将于5月15日 20:00 截止专家评审5月8日 - 5月20日专业评审团队根据评奖规则完成作品评选与结果确认结果公布5月21日通过妙呀网站和魔搭网站同时发布获选名单奖励发放5月21日起根据最终名单收集信息，按平台流程陆续发放三、比赛玩法赛道一：LoRA模型训练赛（魔搭平台）让AI学会你的潮玩美学——训出你的风格，生成你的IP。参与方式训练并开源你的潮玩手办LoRA模型在魔搭研习社发表创作手记填写官方参赛提交作品问卷，即视为成功参赛作品要求模型要求：模型须发布在魔搭社区并设为公开，封面放置5张以上模型直出图（无后期修图）创作手记要求：标题格式：【妙呀潮玩IP创造营】+ 自定义标题内容包括：你的LoRA是什么、为什么想训练这个风格、训练方法与参数配置、最终效果展示与分析资源与提交入口免费训练/推理模型 👉 前往魔搭社区AIGC专区发表创作手记 👉 前往研习社提交参赛作品 👉 提交作品问卷奖项设置奖项名额现金奖励高阶训练券一等奖1名¥3,00030张二等奖3名¥1,00015张三等奖6名¥5005张评选标准维度权重评分要点模型质量30%出图清晰度、细节还原度、手办质感表现稳定性与可控性20%不同prompt下出图一致性、触发词响应准确性、崩图率风格多样性15%能否生成不同姿态/场景/风格的手办效果创意与美学20%潮玩设计感、IP辨识度、视觉吸引力创作手记15%文档完整度（是否清晰讲述了动机、方法和效果）、技术深度（参数调优、数据处理、问题排查等）赛道二：IP设计赛道（妙呀平台）你的IP不止存在于画面里——自由创作你的原创潮玩，或为魔搭设计官方IP，让你的角色从屏幕走进现实。👉 前往妙呀平台参与IP设计赛道参与方式在妙呀活动页面点按\"去生成\"进入创作页面，或在发布作品时选择添加 #妙呀潮玩IP创造营 标签即可成功参与。作品要求自由IP方向  IP形象展示：提交不少于3张AI生成的IP形象图，包含正面全身、不同角度或不同场景 IP设定说明：提供角色名称、性格特点、故事背景等基础设定（可简要描述）  原创声明：作品须为原创设计，不得抄袭或搬运他人IP魔搭IP方向 在满足以上要求的基础上，作品须融入魔搭品牌元素进行创作，优秀作品将直接作为魔搭官方IP，进入盲盒候选池实体化量产：品牌融入：以魔搭社区吉祥物或品牌形象为基础进行潮玩化再设计，融入魔搭品牌色、logo等视觉元素精神内核：如能体现AI开源社区的精神内核（如协作、开放、探索等）可加分魔搭品牌素材包modelscope-logo图标modelscope英文logomodelscope中英文logo 文字反白版魔搭社区IP魔搭社区表情包demo奖项设置自由IP赛道奖项名额现金奖励产品积分站内资源一等奖1名¥500+6,000分创作者排行榜+feed首屏二等奖3名¥300+2,000分feed 2-3屏三等奖6名¥200+400分feed 4-5屏魔搭IP专项赛道奖项名额现金奖励实物奖励最佳魔搭IP2名500 魔搭「为AI充电」套装入围奖5名300魔搭「出街搭子」套装「为AI充电」套装：定制积木插线板 + 积木拓展坞 + 充电宝 「出街搭子」套装：文化衫 + 棒球帽 + 耳机包所有获奖作品作者均可获得：紫V创作者认证身份标识、IP版权认证引导及费用报销支持、IP签约机会及商品实体化优先权、后续优先体验权及实物纪念奖品。积分有效期至领取后次月月底。评选标准维度权重评分要点 IP完整度30%紧扣\"AI潮玩\"主题，展现潮流感、未来感或文化趣味；需有完整的故事和形象，考察角色形象与原始IP设定的还原精准度与一致性创意20%设计在概念、造型或互动机制上的原创突破性，是否融合巧思与惊喜感，避免同质化商业价值25%目标受众契合度、市场差异化潜力、量产可行性及衍生开发空间艺术性25%造型比例、色彩层次、材质质感与细节雕刻等维度的视觉美感，能否引发情感共鸣注：魔搭IP方向在\"IP完整度\"维度中，将额外考察魔搭品牌元素的融入程度与契合度。四、活动规则每个作者可发布多个作品参与活动（鼓励多多参与），但每位作者在每个赛道/方向中最多1个作品可以获奖。赛道一、赛道二自由IP方向、赛道二魔搭IP方向分别评选，同一作者可在不同赛道/方向各获奖一次。我们将按照评分顺序排名，如某作者已获奖，则顺延至下一位作者。同一个登录账号、手机号、设备，或者提现账户等与作者身份相关的信息，如果有任意一项相同或相似，或者通过特定方式形成了批量信息、非真实有效等情况，我们会统一认定为同一作者，并在本次活动中按同一作者处理。自由IP方向与魔搭IP方向分别评选，同一作者可在两个方向各获奖一次。作品要求：作者应拥有所提交作品全部、完整的权利，且作品未包含任何侵权内容、违法违规内容、暗示性元素。在活动中或活动结束后，如发现获奖作品存在或者被举报存在如下违规行为的，一经我们核实，则视为该作品/该作者自始不符合活动要求。我们亦有权即刻取消其参与活动的资格并要求其退回全部奖励：包含但不限于参加活动报名信息/内容作弊或造假；在活动过程中出现违反相关法律、法规、政策规定的行为；作品涉嫌抄袭或侵犯他人知识产权；提交的作品涉及不健康、淫秽色情、歧视（种族、性别、民族、宗教等）、诽谤骚扰、低俗暴力、令人反感以及侵犯第三方合法权益的内容等。我们不承担因参加活动的作品侵犯第三方权益而产生的任何法律责任，因活动作品导致的法律责任由作者自行负责。作者投稿参与活动即视为同意将作品免费授权我方用于本次活动的宣传展示，包括但不限于在活动页面、宣传推广页、线下展陈、官方社交媒体、社群等场景中使用，活动结束后，我方亦无需删除相关内容。参与魔搭IP方向的作者，投稿即视为同意：如作品被选为魔搭官方IP，作者授权主办方将该作品用于魔搭品牌相关用途，包括但不限于品牌宣传、商品化开发、盲盒实体化生产及线下展陈。具体合作细节（包括署名方式等）将由主办方与作者另行协商签署书面协议。参与魔搭IP方向的作者，其作品中使用的魔搭品牌元素（包括吉祥物、logo、品牌色等）仅限本次活动相关用途使用，未经主办方书面许可不得用于其他商业或公开传播用途。如果你对本活动有任何疑问，或者在参与过程中遇到问题，随时可以通过官方邮箱 miaoyacontact@service.alibaba.com 联系我们，我们会尽快帮你解决。作者投稿参与活动即视为完全接受活动规则条款，在法律允许的范围内，我们将保留本活动的最终解释权。五、加入官方比赛群",
+      "summary": "这不只是一场比赛，我们在寻找下一个潮玩爆款IP的创造者。用LoRA训练你的专属风格，或者直接用AI工具设计原创角色。\n\n用AI创造你的第一个潮玩IP——从屏幕走进现实！这不只是一场比赛，我们在寻找下一个潮玩爆款IP的创造者。用LoRA训练你的专属风格，或者直接用AI工具设计原创角色。双赛道、多方向，总有适合你的赛场——其中魔搭IP方向的优秀作品将被收录为魔搭官方IP盲盒，实体化量产发售。一、双赛道...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-15T15:59:00.000Z",
+      "prize": "现金奖励+实物奖励",
+      "tags": [
+        "LoRA训练赛",
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-21T13:53:07.243Z",
+      "scrapedAt": "2026-04-21T13:51:12.070Z",
+      "lastUpdated": "2026-04-21T13:53:07.243Z",
       "version": 1
     },
     {
@@ -506,9 +513,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:15.682Z",
-      "scrapedAt": "2026-04-21T02:54:16.484Z",
-      "lastUpdated": "2026-04-21T02:56:15.682Z",
+      "processedAt": "2026-04-21T13:53:07.198Z",
+      "scrapedAt": "2026-04-21T13:51:12.070Z",
+      "lastUpdated": "2026-04-21T13:53:07.198Z",
       "version": 1
     },
     {
@@ -535,9 +542,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:15.677Z",
-      "scrapedAt": "2026-04-21T02:54:16.484Z",
-      "lastUpdated": "2026-04-21T02:56:15.677Z",
+      "processedAt": "2026-04-21T13:53:07.198Z",
+      "scrapedAt": "2026-04-21T13:51:12.071Z",
+      "lastUpdated": "2026-04-21T13:53:07.198Z",
       "version": 1
     },
     {
@@ -564,9 +571,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:15.736Z",
-      "scrapedAt": "2026-04-21T02:54:16.485Z",
-      "lastUpdated": "2026-04-21T02:56:15.736Z",
+      "processedAt": "2026-04-21T13:53:07.304Z",
+      "scrapedAt": "2026-04-21T13:51:12.071Z",
+      "lastUpdated": "2026-04-21T13:53:07.304Z",
       "version": 1
     },
     {
@@ -593,9 +600,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:15.813Z",
-      "scrapedAt": "2026-04-21T02:54:16.485Z",
-      "lastUpdated": "2026-04-21T02:56:15.813Z",
+      "processedAt": "2026-04-21T13:53:08.293Z",
+      "scrapedAt": "2026-04-21T13:51:12.071Z",
+      "lastUpdated": "2026-04-21T13:53:08.293Z",
       "version": 1
     },
     {
@@ -622,9 +629,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:16.822Z",
-      "scrapedAt": "2026-04-21T02:54:16.485Z",
-      "lastUpdated": "2026-04-21T02:56:16.822Z",
+      "processedAt": "2026-04-21T13:53:08.298Z",
+      "scrapedAt": "2026-04-21T13:51:12.071Z",
+      "lastUpdated": "2026-04-21T13:53:08.298Z",
       "version": 1
     },
     {
@@ -651,9 +658,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:16.834Z",
-      "scrapedAt": "2026-04-21T02:54:16.485Z",
-      "lastUpdated": "2026-04-21T02:56:16.834Z",
+      "processedAt": "2026-04-21T13:53:08.304Z",
+      "scrapedAt": "2026-04-21T13:51:12.071Z",
+      "lastUpdated": "2026-04-21T13:53:08.304Z",
       "version": 1
     },
     {
@@ -662,7 +669,7 @@
       "platform": "modelscope",
       "url": "https://modelscope.cn/competition/189",
       "imageUrl": "",
-      "description": "存算一体（Computing-in-Memory, CIM）作为后摩尔时代提升计算能效的主要技术路径，正在重塑AI时代算力基础层的技术格局与发展方向，为我国AI大模型、智能应用的爆发提供高质增长引擎。 作为国内存算一体先锋企业，知存科技历经两届区域赛事沉淀，2026年正式升级赛事为全国高校挑战赛。联合魔搭社区 与Springer Nature 等权威伙伴，以“以赛促研、以赛遇才”为宗旨，搭建面向全国高校集成电路等相关领域学子的存算一体技术交流平台。\n\n【5大赛道一键入门指南来袭，快速上手，比起方案完整性更强调创新性，更多问题扫码加入赛道群，大胆提问评委们，收获产业一线专家交流机会 https://iucylxooqp.feishu.cn/docx/IiBId19Mvo6eUIxtKvfcp3jVnvd?from=from_copylink】 赛题类别1.1 题目3D异构集成与系统技术协同优化（STCO）1.2 题目背景存内计算技术发展和架构进步推动了计算性能、效率和功能的持续提升。存内计算技术的“存”+“算”结合特性天然与异构3D集成技术相契合，包括Chiplets堆叠、晶圆背面处理、混合键合等技术。这些创新能够将不同的芯片功能（逻辑、内存、电源传输）分配到专门的堆叠层中，这是一种由系统技术协同优化（STCO）驱动的新范式，从而针对各种工作负载优化性能、能耗和面积。随着互连和3D封装等异构集成技术的进步，关注点也在逐步向上转移到系统层面，这决定了异构Chiplets能否高效协作，且在资源访问方面不会出现任何瓶颈。同时，在3D集成中凸显的供电以及散热问题，也亟待创造性的优化方案。赛题研究方向开放性非命题类研究2.1 研究方向面向“存内计算技术”，如何设计设计3D异构集成方案，实现1+1>2的效果，提高计算性能的上限；面向“存内计算技术”，如何通过系统技术协同优化（STCO），解决在3D集成中凸显的供电以及散热问题；2.1.1 基本目标抛开传统的“油改电”套路，回归第一性原理，从基本需求出发，设计“纯电车”；利用维度的扩展与STCO带来的设计灵活性，为“存内计算技术”提供稳定可控的电、热环境；既可以从“整体”出发，改善电、热指标。比如，通过在堆叠中增加interposer DIE（含DTC电容）并结合不同层阵列延迟启动，优化di/dt引起的IR Drop;可以从“局部”出发，利用STCO+异构堆叠解决过程中遇到的问题 。比如，模拟存算技术对Array的空间+时间温差均要求稳定。在实现热管理时，如何利用有限的温度Sensor实现对一个“面”进行温度分布感知；也可以从“调度控制”出发，充分利用3D堆叠扩展的第三维度，进行动态温度（功耗）控制策略或者自适应的温度（功耗）控制策略。将传统2D芯片的动态功耗管理（DPM）以及自适应频率控制（AVFS）思想扩展适配存算+3DIC特征2.1.2 设计误区容易陷入“工程是否可实现的循环” ；立足于当前的工程能力，又要高于当前阶段的能力；容易陷入“具体实现的细节中”；STCO+3D异构堆叠，均是横跨多个领域的工程，可以“抓大放小”，重点放在关键环节上赛题交付3.1 交付需求设计报告：参赛队伍需提交设计报告（doc/docx及pdf文件）， 内容需包含：  引言  工作原理以及技术原理说明：任务的核心需求  详细设计与实现：架构选择以及理由  关键挑战：精度控制，动态尺寸支持以及流水线优化  性能优化分析  总结  参考文献和团队介绍 介绍 PPT：主要工作，创新点，数据对比，结论3.2 模型说明通过搭建简化模型而非完成产品来说明有效性的方法，常见的有概念验证（Proof of Concept，PoC）、原型（Prototype）和最小可行产品（Minimum Viable Product，MVP），三者核心都是以低成本快速验证核心假设，以下是具体说明：3.2.1 概念验证（PoC）核心目标：验证核心技术或概念的可行性，回答 “能不能做” 的问题，不追求产品形态与用户体验，仅聚焦技术与逻辑层面的有效性证明。典型特点：极度简化，可能只是一个实验脚本、简易硬件组合或核心算法模型，不考虑可扩展性等非核心要素。适用场景：新想法、新技术落地初期，判断技术路径是否可行3.2.2 原型验证（Prototype）核心目标：将抽象概念转化为具象模型，验证功能逻辑、用户交互或设计方案的合理性，回答 “好不好用 / 合不合理” 的问题，典型特点：有基础的交互，形式多样，如纸质原型、数字线框图、简易功能样机等，重点是呈现核心功能与流程，不追求性能与稳定性。适用场景：产品设计阶段，快速迭代优化功能与体验，确保方向符合需求3.2.3 最小可行验证（MVP）核心目标：用极少的资源，把原型验证中的方案进行物理实现，针对识别的关键环节，进行详细实现。其他非必要环节，做等效实现典型特点：具备核心功能，能解决用户核心痛点，不包含非必要功能，用于快速验证需求方案，指导迭代方向。适用场景：创新项目初期，快速试错，降低验证成本3.3 赛题案例与评判参考3.3.1 案例一选择研究方向研究方向：面向“存内计算技术”，如何通过系统技术协同优化（STCO），解决在3D集成中凸显的供电以及散热问题；定义研究目标模拟存算技术，对Array的空间+时间温差均要求稳定。在实现热管理时，如何利用有限的温度Sensor实现对一个“面”进行温度分布感知提出可能的解决方案想法：利用机器学习方法，把有限Sensor感知的温度，恢复为完整温度分布图把一个时刻的温度分布等效为一张“图片”，把随着时间变化的温度分布等效为一段“视频”有限的温度sensor等效为“马赛克”问题变为，如何把“马赛克”图片或视频，恢复为原始图片；-> 在图像处理领域，有较多的成熟研究，可以将其跨界应用到温度感知方向-> 芯片由确定的功能模块组成，不同模块完成不同的功能，协同完成特定的业务；因此，芯片在行为行为下，有其独特的功耗分布“指纹”4. 实现方案说明阶段阶段目标要求概念验证核心目标：验证核心技术或概念的可行性，回答 “能不能做” 的问题，不追求产品形态与用户体验，仅聚焦技术与逻辑层面的有效性证明。典型特点：极度简化，可能只是一个实验脚本、简易硬件组合或核心算法模型，不考虑可扩展性等非核心要素。做逻辑分析以及概念分析图文并茂，把问题以及解决问题的思路描述清楚完成相关文献检索，输出检索分析报告该问题是否已经有类似的研究，研究进展如何，仍存在哪些问题提出的想法，与过往研究有哪些优势核心方法对比分析原型验证核心目标：将抽象概念转化为具象模型，验证功能逻辑、用户交互或设计方案的合理性，回答 “好不好用 / 合不合理” 的问题，典型特点：有基础的交互，形式多样，如纸质原型、数字线框图、简易功能样机等，重点是呈现核心功能与流程，不追求性能与稳定性。用简化的数学模型，验证“概念方案”的效果以及可行性可以用python/matlab做数学建模使用机器学习方法，需要有足够的训练数据；训练数据可以通过构造来获得可以假设理想数据最小可行验证核心目标：用极少的资源，把原型验证中的方案进行物理实现，针对识别的关键环节，进行详细实现。其他非必要环节，做等效实现典型特点：具备核心功能，能解决用户核心痛点，不包含非必要功能，用于快速验证需求方案，指导迭代方增加非理想性情况 附加挑战/加分项芯片上T-sensor感知温度是一个模拟量，是否可以通过对不同模块的功耗感知，恢复芯片温度分布功耗感知是否可以通过对不同区域的利用率统计替代给出芯片实现的方案3.3.2 评分标准本次验证分为概念验证、原型验证、最小可行验证三个核心阶段，附加挑战为加分项，总分按100 分（核心）+20 分（加分） 设定，各阶段分值根据完成难度、核心度梯度分配，评分标准聚焦完成度、科学性、创新性、实操性四大维度，贴合3D异构集成与系统技术协同优化（STCO）阶段评分标准概念验证分值占比：30 分核心目标：验证核心技术逻辑可行性，完成文献支撑与思路论证阶段要求 & 对应评分标准 + 分值1. 逻辑分析及概念分析（15 分）10-15 分：图文并茂（含逻辑框图、技术路线图等），清晰界定芯片温度分布恢复 / 功耗感知 / 利用率统计替代的核心问题、技术痛点，解决思路逻辑闭环，贴合芯片设计，无逻辑漏洞。5-9 分：有图有文，能描述核心问题与解决思路，但痛点界定模糊，或思路存在少量逻辑瑕疵，未完全贴合芯片硬件实现场景。0-4 分：仅文字描述，无相关图示；或问题、思路描述混乱，核心逻辑不成立。2. 相关文献检索及分析报告（15 分）（1）研究现状与现存问题（5 分）5   分：全面梳理相关研究进展，精准提炼当前研究的核心未解决问题；2-4   分：梳理研究进展不全面，仅提炼出部分现存问题，与本研究结合度低；0-1   分：未梳理研究进展，或现存问题提炼错误。（2）本研究想法的优势（5 分）5   分：明确对比过往研究，从技术路线、实现成本、感知精度、芯片适配性等方面提炼本研究的核心优势，且优势具有实际研究价值；2-4   分：能提出本研究优势，但未结合过往研究对比，或优势描述空洞、无实际价值；0-1   分：未分析优势，或优势与过往研究存在明显重复。（3）核心方法对比分析（5 分）5   分：构建对比维度（如算法复杂度、硬件开销、感知效率、适用场景），对本研究核心方法与过往主流方法进行量化 / 定性对比，附对比表 / 图，结论清晰；2-4   分：有对比分析，但对比维度单一，未形成系统的对比框架，结论模糊；0-1   分：未做核心方法对比，或对比内容错误。原型验证分值占比：40 分核心目标：通过数学建模将抽象概念转化为具象模型，验证方案可行性1. 简化数学模型构建与验证（40 分）（1）建模工具与模型设计（10 分）10   分：选用 Python/Matlab 适配建模需求，数学模型贴合设计方案，模型假设合理，变量、参数定义清晰；6-9   分：使用 Python/Matlab 建模，模型基本贴合物理规律，但部分参数定义模糊，假设存在少量不合理性；2-5   分：建模工具选用不当，或模型设计与核心问题脱节，关键参数缺失；0-1   分：未完成数学模型构建。（2）数据准备（10 分）10   分：若使用机器学习方法，构造的训练数据贴合芯片实际工作场景，数据量充足、维度完整，附数据预处理流程；未使用机器学习方法则理想数据假设贴合芯片物理特性，边界条件设定合理；6-9   分：构造的数据维度基本完整，但与芯片实际场景贴合度低；或理想数据假设基本合理，边界条件有少量疏漏；2-5   分：数据量不足、维度缺失，或理想数据假设明显脱离实际，边界条件未设定；0-1   分：未准备训练数据 / 设定理想数据。（3）模型仿真与结果分析（20 分）16-20   分：完成完整的模型仿真实验，仿真流程可复现，输出清晰的仿真结果（如精度曲线、误差分析、功能验证图），结果分析能明确验证方案的可行性与效果，且能提炼模型存在的优化点；10-15   分：完成仿真实验，流程基本可复现，有仿真结果，但结果分析不深入，仅能初步验证方案可行性，未提炼优化点；4-9   分：仿真实验不完整，流程不可复现，结果缺失，仅能验证部分功能逻辑；0-3   分：未完成模型仿真，或仿真结果与验证目标完全无关。最小可行验证分值占比：30 分核心目标：物理实现核心方案，增加非理想性情况验证，验证芯片实际场景下的方案有效性1. 非理想性情况的引入与验证（30 分）（1）非理想性场景设计（10 分）10   分：全面引入芯片实际工作中的非理想性情况（如模拟量噪声、芯片工艺偏差、区域间串扰、负载波动、环境温度变化等），场景设计贴合工业级芯片应用实际，边界条件明确；6-9   分：引入主要的非理想性情况，但场景设计未考虑芯片实际工艺 / 工作特性，部分边界条件模糊；2-5   分：仅引入少量非理想性情况，场景设计单一，与实际脱节；0-1   分：未引入非理想性情况。（2）核心方案的物理实现（10 分）10   分：针",
+      "description": "存算一体（Computing-in-Memory, CIM）作为后摩尔时代提升计算能效的主要技术路径，正在重塑AI时代算力基础层的技术格局与发展方向，为我国AI大模型、智能应用的爆发提供高质增长引擎。 作为国内存算一体先锋企业，知存科技历经两届区域赛事沉淀，2026年正式升级赛事为全国高校挑战赛。联合魔搭社区 与Springer Nature 等权威伙伴，以“以赛促研、以赛遇才”为宗旨，搭建面向全国高校集成电路等相关领域学子的存算一体技术交流平台。\n\n【5大赛道一键入门指南来袭，快速上手，比起方案完整性更强调创新性，更多问题扫码加入赛道群，大胆提问评委们，收获产业一线专家交流机会 https://iucylxooqp.feishu.cn/docx/IiBId19Mvo6eUIxtKvfcp3jVnvd?from=from_copylink】1. 赛题类别1.1 题目3D异构集成与系统技术协同优化（STCO）1.2 题目背景。3D 异构集成是延续摩尔定律、支撑存算一体（CIM）算力需求的必然技术路径，但其电–热耦合矛盾由物理机理决定，无法通过单一先进架构从根本上消除。无论是 GaN 基高压垂直供电网络，还是 IMEC、Intel、TSMC 提出的三类最先进背部供电（BPR+nTSV / Power Via / BSC）架构，均只能在电学性能与热管理能力之间实现局部优化：追求更低 IR Drop、更短供电路径，会加剧热累积与散热恶化；强化散热结构与散热路径，则会牺牲电学密度与供电效率。二者存在天然此消彼长的物理约束。因此，3D 异构集成不存在 “完美单一解”，必须采用系统技术协同优化（STCO）综合策略，在供电效率、温度分布、可靠性、工艺复杂度之间做全局折中与动态平衡，最终实现算力、能效与热预算的相对最优。 2. 赛题研究方向开放性非命题类研究：终极目标：在3D 异构存算一体 (CIM) 系统中，面对严格的热预算约束，通过系统技术协同优化（STCO）寻找算力、能效和温度的相对最优解。 2.1 研究方向方向 A (整体派)：优化全局布局，寻找最优的电-热结构平衡点。热，电，热电协同优化方向 B (局部派)：利用异构集成，对关键发热模块进行“定点清除”优化。热，电，热电协同优化方向 C (策略派)：充分利用3D堆叠扩展的第三维度，进行动态温度（功耗）控制策略或者自适应的温度（功耗）控制策略，将传统2D芯片的动态功耗管理（DPM）以及自适应频率控制（AVFS）思想扩展适配存算+3DIC特征。 2.1.1 基本目标抛开传统的“油改电”套路，回归第一性原理，从基本需求出发，设计“纯电车”；利用维度的扩展与STCO带来的设计灵活性，为“存内计算技术”提供稳定可控的电、热环境；既可以从“整体”出发，改善电、热指标。比如，通过在堆叠中增加interposer DIE（含DTC电容）并结合不同层阵列延迟启动，优化di/dt引起的IR Drop;可以从“局部”出发，利用STCO+异构堆叠解决过程中遇到的问题 。比如，模拟存算技术对Array的空间+时间温差均要求稳定。在实现热管理时，如何利用有限的温度Sensor实现对一个“面”进行温度分布感知；也可以从“调度控制”出发，充分利用3D堆叠扩展的第三维度，进行动态温度（功耗）控制策略或者自适应的温度（功耗）控制策略。将传统2D芯片的动态功耗管理（DPM）以及自适应频率控制（AVFS）思想扩展适配存算+3DIC特征2.1.2 设计误区容易陷入“工程是否可实现的循环” ；立足于当前的工程能力，又要高于当前阶段的能力；容易陷入“具体实现的细节中”；STCO+3D异构堆叠，均是横跨多个领域的工程，可以“抓大放小”，重点放在关键环节上 2.1.3 案例案例一：用于异构 3D 堆叠系统的垂直集成有源功率传输网络GaN 基垂直有源供电网络 3D 异构堆叠面临多层供电路径长、损耗大、电压不匹配、热量集中累积等问题。现有方案采用【GaN 高压传输+逐层降压+散热层】结构，借鉴高压输电思路降低走线损耗，同时抑制温度累积，可将芯片峰值温度降至约 35℃，显著改善 IR Drop 与散热表现。但该方案仍存在不足：GaN 异质集成工艺复杂、成本较高，散热与高压转换会引入额外开销，且无法从根本上消除 3D 堆叠固有的电热耦合，动态温度与供电噪声仍需进一步优化。   案例二：先进节点背部供电电热协同优化分析传统前侧供电（FSPDN）在先进 3D 节点中存在路径长、IR Drop 严重、布线拥挤、热耦合强等瓶颈。当前主流方案采用【IMEC BPR+nTSV、Intel Power Via、TSMC BSC】三类背部供电结构，通过背面供电缩短路径、分离电源与信号，可将 IR Drop 从约 200mV 降至 30mV 以内。但三类结构均存在折中：BPR 成熟但寄生偏大；Power Via 均衡但工艺要求提高；BSC 电学最优，但衬底极薄易翘曲、散热路径缩短导致散热能力下降。先进背部供电仅能实现局部优化，无法彻底解决电热矛盾，需依靠系统协同优化（STCO）实现全局折中。【芯片级电-热协同优化PPA分析】 3. 赛题交付3.1 交付需求采用开放性非命题类研究，因此没有标准的答案。但需要搭建一个模型，来说明方案/想法的有效性；既可以是全新想法也可以是对原有方案的改进对于赛题交付的评价标准与研究方向的契合度搭建的模型的完整性、充分性、可验证性要求方案可以完成“MVP”验证，中期评估需要进入“原型验证”阶段3.2 模型说明通过搭建简化模型而非完成产品来说明有效性的方法，常见的有概念验证（Proof of Concept，PoC）、原型（Prototype）和最小可行产品（Minimum Viable Product，MVP），三者核心都是以低成本快速验证核心假设，以下是具体说明：3.2.1 概念验证（PoC）核心目标：验证核心技术或概念的可行性，回答 “能不能做” 的问题，不追求产品形态与用户体验，仅聚焦技术与逻辑层面的有效性证明。典型特点：极度简化，可能只是一个实验脚本、简易硬件组合或核心算法模型，不考虑可扩展性等非核心要素。适用场景：新想法、新技术落地初期，判断技术路径是否可行3.2.2 原型验证（Prototype）核心目标：将抽象概念转化为具象模型，验证功能逻辑、用户交互或设计方案的合理性，回答 “好不好用 / 合不合理” 的问题，典型特点：有基础的交互，形式多样，如纸质原型、数字线框图、简易功能样机等，重点是呈现核心功能与流程，不追求性能与稳定性。适用场景：产品设计阶段，快速迭代优化功能与体验，确保方向符合需求3.2.3 最小可行验证（MVP）核心目标：用极少的资源，把原型验证中的方案进行物理实现，针对识别的关键环节，进行详细实现。其他非必要环节，做等效实现典型特点：具备核心功能，能解决用户核心痛点，不包含非必要功能，用于快速验证需求方案，指导迭代方向。适用场景：创新项目初期，快速试错，降低验证成本 3.3 赛题案例与评判参考选择研究方向研究方向：面向“存内计算技术”，如何通过系统技术协同优化（STCO），解决在3D集成中凸显的供电以及散热问题；定义研究目标模拟存算技术，对Array的空间+时间温差均要求稳定。在实现热管理时，如何利用有限的温度Sensor实现对一个“面”进行温度分布感知提出可能的解决方案想法：利用机器学习方法，把有限Sensor感知的温度，恢复为完整温度分布图把一个时刻的温度分布等效为一张“图片”，把随着时间变化的温度分布等效为一段“视频”有限的温度sensor等效为“马赛克”问题变为，如何把“马赛克”图片或视频，恢复为原始图片；-> 在图像处理领域，有较多的成熟研究，可以将其跨界应用到温度感知方向-> 芯片由确定的功能模块组成，不同模块完成不同的功能，协同完成特定的业务；因此，芯片在行为行为下，有其独特的功耗分布“指纹” 实现方案说明阶段阶段目标要求概念验证核心目标：验证核心技术或概念的可行性，回答 “能不能做” 的问题，不追求产品形态与用户体验，仅聚焦技术与逻辑层面的有效性证明。典型特点：极度简化，可能只是一个实验脚本、简易硬件组合或核心算法模型，不考虑可扩展性等非核心要素。做逻辑分析以及概念分析图文并茂，把问题以及解决问题的思路描述清楚完成相关文献检索，输出检索分析报告该问题是否已经有类似的研究，研究进展如何，仍存在哪些问题提出的想法，与过往研究有哪些优势核心方法对比分析原型验证核心目标：将抽象概念转化为具象模型，验证功能逻辑、用户交互或设计方案的合理性，回答 “好不好用 / 合不合理” 的问题，典型特点：有基础的交互，形式多样，如纸质原型、数字线框图、简易功能样机等，重点是呈现核心功能与流程，不追求性能与稳定性。用简化的数学模型，验证“概念方案”的效果以及可行性可以用python/matlab做数学建模使用机器学习方法，需要有足够的训练数据；训练数据可以通过构造来获得可以假设理想数据最小可行验证核心目标：用极少的资源，把原型验证中的方案进行物理实现，针对识别的关键环节，进行详细实现。其他非必要环节，做等效实现典型特点：具备核心功能，能解决用户核心痛点，不包含非必要功能，用于快速验证需求方案，指导迭代方增加非理想性情况  附加挑战/加分项芯片上T-sensor感知温度是一个模拟量，是否可以通过对不同模块的功耗感知，恢复芯片温度分布功耗感知是否可以通过对不同区域的利用率统计替代给出芯片实现的方案3.3.2 评分标准本次验证分为概念验证、原型验证、最小可行验证三个核心阶段，附加挑战为加分项，总分按100 分（核心）+20 分（加分） 设定，各阶段分值根据完成难度、核心度梯度分配，评分标准聚焦完成度、科学性、创新性、实操性四大维度，贴合3D异构集成与系统技术协同优化（STCO）阶段评分标准概念验证分值占比：30 分核心目标：验证核心技术逻辑可行性，完成文献支撑与思路论证阶段要求 & 对应评分标准 + 分值1. 逻辑分析及概念分析（15 分）10-15 分：图文并茂（含逻辑框图、技术路线图等），清晰界定芯片温度分布恢复 / 功耗感知 / 利用率统计替代的核心问题、技术痛点，解决思路逻辑闭环，贴合芯片设计，无逻辑漏洞。5-9 分：有图有文，能描述核心问题与解决思路，但痛点界定模糊，或思路存在少量逻辑瑕疵，未完全贴合芯片硬件实现场景。0-4 分：仅文字描述，无相关图示；或问题、思路描述混乱，核心逻辑不成立。2. 相关文献检索及分析报告（15 分）（1）研究现状与现存问题（5 分）5 分：全面梳理相关研究进展，精准提炼当前研究的核心未解决问题；2-4 分：梳理研究进展不全面，仅提炼出部分现存问题，与本研究结合度低；0-1 分：未梳理研究进展，或现存问题提炼错误。（2）本研究想法的优势（5 分）5 分：明确对比过往研究，从技术路线、实现成本、感知精度、芯片适配性等方面提炼本研究的核心优势，且优势具有实际研究价值；2-4 分：能提出本研究优势，但未结合过往研究对比，或优势描述空洞、无实际价值；0-1 分：未分析优势，或优势与过往研究存在明显重复。（3）核心方法对比分析（5 分）5 分：构建对比维度（如算法复杂度、硬件开销、感知效率、适用场景），对本研究核心方法与过往主流方法进行量化 / 定性对比，附对比表 / 图，结论清晰；2-4 分：有对比分析，但对比维度单一，未形成系统的对比框架，结论模糊；0-1 分：未做核心方法对比，或对比内容错误。原型验证分值占比：40 分核心目标：通过数学建模将抽象概念转化为具象模型，验证方案可行性1. 简化数学模型构建与验证（40 分）（1）建模工具与模型设计（10 分）10 分：选用 Python/Matlab 适配建模需求，数学模型贴合设计方案，模型假设合理，变量、参数定义清晰；6-9 分：使用 Python/Matlab 建模，模型基本贴合物理规律，但部分参数定义模糊，假设存在少量不合理性；2-5 分：建模工具选用不当，或模型设计与核心问题脱节，关键参数缺失；0-1 分：未完成",
       "summary": "存算一体（Computing-in-Memory, CIM）作为后摩尔时代提升计算能效的主要技术路径，正在重塑AI时代算力基础层的技术格局与发展方向，为我国AI大模型、智能应用的爆发提供高质增长引擎。 作为国内存算一体先锋企业，知存科技历经两届区域赛事沉淀，2026年正式升级赛事为全国高校挑战赛。联合魔搭社区 与Springer Nature 等权威伙伴，以“以赛促研、以赛遇才”为宗旨，搭建面向全...",
       "contestType": "image",
       "status": "active",
@@ -680,16 +687,16 @@
         "TensorFlow"
       ],
       "requirements": [
-        "有足够的训练数据",
-        "训练数据可以通过构造来获得可以假设理想数据最小可行验证核心目标：用极少的资源",
-        "把原型验证中的方案进行物理实现",
-        "针对识别的关键环节",
-        "进行详细实现。其他非必要环节"
+        "搭建一个模型",
+        "来说明方案/想法的有效性",
+        "既可以是全新想法也可以是对原有方案的改进对于赛题交付的评价标准与研究方向的契合度搭建的模型的完整性、充分性、可验证性要求方案可以完成“MVP”验证",
+        "中期评估需要进入“原型验证”阶段3.2 模型说明通过搭建简化模型而非完成产品来说明有效性的方法",
+        "常见的有概念验证（Proof of Concept"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:16.813Z",
-      "scrapedAt": "2026-04-21T02:54:16.492Z",
-      "lastUpdated": "2026-04-21T02:56:16.813Z",
+      "processedAt": "2026-04-21T13:53:08.364Z",
+      "scrapedAt": "2026-04-21T13:51:12.076Z",
+      "lastUpdated": "2026-04-21T13:53:08.364Z",
       "version": 1
     },
     {
@@ -720,9 +727,9 @@
         "但不作为硬性要求。Q：Skills 封装是必须完成的吗？"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:16.825Z",
-      "scrapedAt": "2026-04-21T02:54:16.494Z",
-      "lastUpdated": "2026-04-21T02:56:16.825Z",
+      "processedAt": "2026-04-21T13:53:08.402Z",
+      "scrapedAt": "2026-04-21T13:51:12.076Z",
+      "lastUpdated": "2026-04-21T13:53:08.402Z",
       "version": 1
     },
     {
@@ -749,45 +756,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:16.911Z",
-      "scrapedAt": "2026-04-21T02:54:16.494Z",
-      "lastUpdated": "2026-04-21T02:56:16.911Z",
-      "version": 1
-    },
-    {
-      "id": "c_51def9b51f43",
-      "title": "第二届“数龙杯”全球AI创新大赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/198",
-      "imageUrl": "",
-      "description": "第二届“数龙杯”全球AI创新大赛由A股上市公司世纪华通（002602.SZ)发起，获中国音数协、上海市浦东区委宣传部、上海市文化创意产业促进会上海市网络游戏行业协会等多方指导，致力于发掘兼具创新灵魂与市场潜力的AI游戏及创新型应用标杆。\n\n一、比赛介绍第二届“数龙杯”全球AI创新大赛由A股上市公司世纪华通（002602.SZ)发起，获中国音数协、上海市浦东区委宣传部、上海市文化创意产业促进会上海市网络游戏行业协会等多方指导，致力于发掘兼具创新灵魂与市场潜力的AI游戏及创新型应用标杆。二、比赛赛道AI游戏、AI应用、AI智能体三、赛程安排1、作品征集4月2日 - 5月31日2、初赛评审与资格核定 6月1日 - 6月15日3、决赛入围 6月16日 - 6月30日4、线下总决赛暨答辩会 7月中旬5、颁奖盛典 7月31日四、参赛须知1、征集对象：全球范围内的游戏开发者、AI开发者、高校学生及相关爱好者。2、参赛要求01：参赛者可选择以个人或团队形式报名，但不得重复报名。报名时需按照组委会要求提交相关证明材料，以便进行身份核实。02：参赛者提交的所有内容，包括但不限于团队及游戏名称、游戏内容等，必须严格遵守国家法律法规、政策规章及公序良俗。严禁出现侵犯第三方知识产权或其他合法权益的内容，禁止涉及政治、暴力、色情、人身攻击（包括但不限于侮辱、诽谤）、反人类、亵渎宗教等内容。一经发现，主办方有权取消参赛资格并收回已发放的奖励。03：参赛者必须遵循公平公正的原则，确保作品的真实性。严禁通过不正当手段参与比赛，例如提供虚假信息、雇佣他人代为参赛等。一旦核实存在此类行为，将立即取消其参赛及获奖资格。3、作品规范01：作品需围绕AI在游戏中的实际使用，海选阶段需要提交作品说明文档及演示视频；复审及线下评审环节需要确保其具有应用性和可演示性。02：作品可融合创新的AI游戏玩法、AI应用场景以及技术实现方式。4、作品提交参与者需点击页面上方的按钮，完成账号注册并成功登录，在规定的截止日期前填写完整的报名信息。在作品征集截止时间前，参赛者可以对已提交的游戏进行多次更新和完善，以截止时间前最终提交结果为准。5、素材版权说明参赛者须确保对作品中使用的软件、素材资源拥有版权或合法使用权。如果使用开源资源，需严格遵守其开源协议。参赛作品的版权归创作团队所有，但参赛即视为同意主办方世纪华通可在其相关网站和线下活动中免费使用提交的作品。世纪华通承诺对参赛者的个人信息及作品信息严格保密，不会在未经参赛者同意的前提下用于本活动以外的任何其他目的。6、其他参赛者提交作品或报名信息后，即视为不可撤销地接受上述参赛须知以及世纪华通不时发布的相关协议和参赛规则。如因不可抗力或其他不可归责于世纪华通的原因导致活动无法正常进行或参赛者无法参与，世纪华通有权暂停或取消活动且无需承担任何责任。在法律法规允许的范围内，世纪华通保留对本次比赛规则进行修改、调整和最终解释的权利。五、奖项设置最佳AI游戏奖聚焦：游戏性与技术融合创新主奖1名，奖金￥50,000提名奖2名，奖金￥20,000最佳AI应用奖聚焦：产品价值、用户体验与技术壁垒主奖1名，奖金￥50,000提名奖2名，奖金￥20,000最具商业价值奖聚焦：数据验证与规模化潜力主奖1名，奖金￥50,000提名奖2名，奖金￥20,000最佳新秀奖聚焦：创意突破与团队潜力（优先大学生团队）主奖1名，奖金￥30,000提名奖2名，奖金￥10,000最佳“养虾”创新奖聚焦：AI智能体实操新标杆主奖1名，奖金￥20,000提名奖2名，奖金￥5,000最佳国际团队奖聚焦：海外团队的创新能力（限海外团队）主奖1名，奖金￥30,000六、评审逻辑：最佳AI游戏奖：是否足够好玩、耐玩？AI是否创造了传统技术无法实现的新玩法、新体验或新内容？最佳AI应用奖：是否精准解决了高价值问题？用户体验是否卓越？是否具备独特的技术或设计护城河，防止被轻易替代？最具商业价值奖：用户增长、留存、付费等核心数据是否健康？商业模式是否清？最佳新秀奖：想法是否具有突破性的原创力和启发性？团队是否独特？项目是否展现出巨大的成长可能性？（本奖项将优先考虑大学生及青年创业团队）最佳国际团队奖：限海外主体报名，海外团队专属奖励。最佳“养虾”创新奖：考察智能体任务执行效率：在目标应用场景中（如工业协作、智能交互、场景运维等），完成任务的效率、精准度，对比常规方案的优化幅度；与人类操作的配合度、交互便捷性，是否能降低人工成本、提升整体工作效率。报名网站：https://aicht.sjhuatong.com/联系我们：ai.cht@digiloong.com",
-      "summary": "第二届“数龙杯”全球AI创新大赛由A股上市公司世纪华通（002602.SZ)发起，获中国音数协、上海市浦东区委宣传部、上海市文化创意产业促进会上海市网络游戏行业协会等多方指导，致力于发掘兼具创新灵魂与市场潜力的AI游戏及创新型应用标杆。\n\n一、比赛介绍第二届“数龙杯”全球AI创新大赛由A股上市公司世纪华通（002602.SZ)发起，获中国音数协、上海市浦东区委宣传部、上海市文化创意产业促进会上海市...",
-      "contestType": "video",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-31T15:59:00.000Z",
-      "prize": "丰厚奖金池+投资孵化",
-      "tags": [
-        "应用开发赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "提交作品说明文档及演示视频",
-        "复审及线下评审环节需要确保其具有应用性和可演示性。02：作品可融合创新的AI游戏玩法、AI应用场景以及技术实现方式。4、作品提交参与者需点击页面上方的按钮",
-        "完成账号注册并成功登录",
-        "在规定的截止日期前填写完整的报名信息。在作品征集截止时间前",
-        "参赛者可以对已提交的游戏进行多次更新和完善"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:17.930Z",
-      "scrapedAt": "2026-04-21T02:54:16.495Z",
-      "lastUpdated": "2026-04-21T02:56:17.930Z",
+      "processedAt": "2026-04-21T13:53:09.403Z",
+      "scrapedAt": "2026-04-21T13:51:12.076Z",
+      "lastUpdated": "2026-04-21T13:53:09.403Z",
       "version": 1
     },
     {
@@ -801,7 +772,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-04T02:55:23.571Z",
+      "deadline": "2026-05-03T13:52:17.757Z",
       "prize": "000 ZAR",
       "tags": [],
       "aiTools": [
@@ -812,9 +783,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:17.914Z",
-      "scrapedAt": "2026-04-21T02:55:23.571Z",
-      "lastUpdated": "2026-04-21T02:56:17.914Z",
+      "processedAt": "2026-04-21T13:53:09.404Z",
+      "scrapedAt": "2026-04-21T13:52:17.757Z",
+      "lastUpdated": "2026-04-21T13:53:09.404Z",
       "version": 1
     },
     {
@@ -828,7 +799,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-19T02:55:23.571Z",
+      "deadline": "2026-05-18T13:52:17.758Z",
       "prize": "€40 000 EUR",
       "tags": [],
       "aiTools": [
@@ -839,9 +810,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:17.927Z",
-      "scrapedAt": "2026-04-21T02:55:23.572Z",
-      "lastUpdated": "2026-04-21T02:56:17.927Z",
+      "processedAt": "2026-04-21T13:53:09.385Z",
+      "scrapedAt": "2026-04-21T13:52:17.758Z",
+      "lastUpdated": "2026-04-21T13:53:09.385Z",
       "version": 1
     },
     {
@@ -865,9 +836,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:17.917Z",
-      "scrapedAt": "2026-04-21T02:55:23.572Z",
-      "lastUpdated": "2026-04-21T02:56:17.917Z",
+      "processedAt": "2026-04-21T13:53:09.468Z",
+      "scrapedAt": "2026-04-21T13:52:17.758Z",
+      "lastUpdated": "2026-04-21T13:53:09.468Z",
       "version": 1
     },
     {
@@ -891,9 +862,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:18.016Z",
-      "scrapedAt": "2026-04-21T02:55:23.572Z",
-      "lastUpdated": "2026-04-21T02:56:18.016Z",
+      "processedAt": "2026-04-21T13:53:09.484Z",
+      "scrapedAt": "2026-04-21T13:52:17.759Z",
+      "lastUpdated": "2026-04-21T13:53:09.484Z",
       "version": 1
     },
     {
@@ -917,9 +888,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:19.013Z",
-      "scrapedAt": "2026-04-21T02:55:23.573Z",
-      "lastUpdated": "2026-04-21T02:56:19.013Z",
+      "processedAt": "2026-04-21T13:53:10.492Z",
+      "scrapedAt": "2026-04-21T13:52:17.759Z",
+      "lastUpdated": "2026-04-21T13:53:10.492Z",
       "version": 1
     },
     {
@@ -933,7 +904,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-04-26T02:55:23.573Z",
+      "deadline": "2026-04-25T13:52:17.759Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -943,9 +914,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:19.013Z",
-      "scrapedAt": "2026-04-21T02:55:23.573Z",
-      "lastUpdated": "2026-04-21T02:56:19.013Z",
+      "processedAt": "2026-04-21T13:53:10.520Z",
+      "scrapedAt": "2026-04-21T13:52:17.759Z",
+      "lastUpdated": "2026-04-21T13:53:10.520Z",
       "version": 1
     },
     {
@@ -968,9 +939,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:19.004Z",
-      "scrapedAt": "2026-04-21T02:55:23.573Z",
-      "lastUpdated": "2026-04-21T02:56:19.004Z",
+      "processedAt": "2026-04-21T13:53:10.497Z",
+      "scrapedAt": "2026-04-21T13:52:17.760Z",
+      "lastUpdated": "2026-04-21T13:53:10.497Z",
       "version": 1
     },
     {
@@ -984,7 +955,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-02T02:55:23.574Z",
+      "deadline": "2026-05-01T13:52:17.760Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -994,9 +965,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:19.017Z",
-      "scrapedAt": "2026-04-21T02:55:23.574Z",
-      "lastUpdated": "2026-04-21T02:56:19.017Z",
+      "processedAt": "2026-04-21T13:53:10.501Z",
+      "scrapedAt": "2026-04-21T13:52:17.760Z",
+      "lastUpdated": "2026-04-21T13:53:10.501Z",
       "version": 1
     },
     {
@@ -1019,9 +990,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:19.101Z",
-      "scrapedAt": "2026-04-21T02:55:23.574Z",
-      "lastUpdated": "2026-04-21T02:56:19.101Z",
+      "processedAt": "2026-04-21T13:53:10.549Z",
+      "scrapedAt": "2026-04-21T13:52:17.760Z",
+      "lastUpdated": "2026-04-21T13:53:10.549Z",
       "version": 1
     },
     {
@@ -1035,7 +1006,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-09T02:55:23.574Z",
+      "deadline": "2026-05-08T13:52:17.760Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -1045,9 +1016,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:20.090Z",
-      "scrapedAt": "2026-04-21T02:55:23.574Z",
-      "lastUpdated": "2026-04-21T02:56:20.090Z",
+      "processedAt": "2026-04-21T13:53:11.552Z",
+      "scrapedAt": "2026-04-21T13:52:17.761Z",
+      "lastUpdated": "2026-04-21T13:53:11.552Z",
       "version": 1
     },
     {
@@ -1061,7 +1032,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-16T02:55:23.575Z",
+      "deadline": "2026-05-15T13:52:17.761Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -1071,9 +1042,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:20.091Z",
-      "scrapedAt": "2026-04-21T02:55:23.575Z",
-      "lastUpdated": "2026-04-21T02:56:20.091Z",
+      "processedAt": "2026-04-21T13:53:11.546Z",
+      "scrapedAt": "2026-04-21T13:52:17.761Z",
+      "lastUpdated": "2026-04-21T13:53:11.546Z",
       "version": 1
     },
     {
@@ -1096,9 +1067,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:20.111Z",
-      "scrapedAt": "2026-04-21T02:55:23.575Z",
-      "lastUpdated": "2026-04-21T02:56:20.111Z",
+      "processedAt": "2026-04-21T13:53:11.550Z",
+      "scrapedAt": "2026-04-21T13:52:17.761Z",
+      "lastUpdated": "2026-04-21T13:53:11.550Z",
       "version": 1
     },
     {
@@ -1124,9 +1095,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:20.095Z",
-      "scrapedAt": "2026-04-21T02:55:23.576Z",
-      "lastUpdated": "2026-04-21T02:56:20.095Z",
+      "processedAt": "2026-04-21T13:53:11.545Z",
+      "scrapedAt": "2026-04-21T13:52:17.762Z",
+      "lastUpdated": "2026-04-21T13:53:11.545Z",
       "version": 1
     },
     {
@@ -1152,9 +1123,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:20.193Z",
-      "scrapedAt": "2026-04-21T02:55:23.576Z",
-      "lastUpdated": "2026-04-21T02:56:20.193Z",
+      "processedAt": "2026-04-21T13:53:11.573Z",
+      "scrapedAt": "2026-04-21T13:52:17.762Z",
+      "lastUpdated": "2026-04-21T13:53:11.573Z",
       "version": 1
     },
     {
@@ -1178,9 +1149,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:21.202Z",
-      "scrapedAt": "2026-04-21T02:55:23.576Z",
-      "lastUpdated": "2026-04-21T02:56:21.202Z",
+      "processedAt": "2026-04-21T13:53:12.582Z",
+      "scrapedAt": "2026-04-21T13:52:17.762Z",
+      "lastUpdated": "2026-04-21T13:53:12.582Z",
       "version": 1
     },
     {
@@ -1204,35 +1175,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:21.186Z",
-      "scrapedAt": "2026-04-21T02:55:23.576Z",
-      "lastUpdated": "2026-04-21T02:56:21.186Z",
-      "version": 1
-    },
-    {
-      "id": "c_6f9040f8220a",
-      "title": "Unido AfricaRice App Builder Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/unido-africarice-app-builder-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$5 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:21.185Z",
-      "scrapedAt": "2026-04-21T02:55:23.576Z",
-      "lastUpdated": "2026-04-21T02:56:21.185Z",
+      "processedAt": "2026-04-21T13:53:12.583Z",
+      "scrapedAt": "2026-04-21T13:52:17.762Z",
+      "lastUpdated": "2026-04-21T13:53:12.583Z",
       "version": 1
     },
     {
@@ -1258,9 +1203,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:21.185Z",
-      "scrapedAt": "2026-04-21T02:55:23.576Z",
-      "lastUpdated": "2026-04-21T02:56:21.185Z",
+      "processedAt": "2026-04-21T13:53:12.572Z",
+      "scrapedAt": "2026-04-21T13:52:17.762Z",
+      "lastUpdated": "2026-04-21T13:53:12.572Z",
+      "version": 1
+    },
+    {
+      "id": "c_6f9040f8220a",
+      "title": "Unido AfricaRice App Builder Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/unido-africarice-app-builder-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$5 000 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-04-21T13:53:12.623Z",
+      "scrapedAt": "2026-04-21T13:52:17.763Z",
+      "lastUpdated": "2026-04-21T13:53:12.623Z",
       "version": 1
     },
     {
@@ -1284,9 +1255,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:21.280Z",
-      "scrapedAt": "2026-04-21T02:55:23.577Z",
-      "lastUpdated": "2026-04-21T02:56:21.280Z",
+      "processedAt": "2026-04-21T13:53:12.638Z",
+      "scrapedAt": "2026-04-21T13:52:17.763Z",
+      "lastUpdated": "2026-04-21T13:53:12.638Z",
       "version": 1
     },
     {
@@ -1312,15 +1283,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-04-21T02:56:22.294Z",
-      "scrapedAt": "2026-04-21T02:55:23.577Z",
-      "lastUpdated": "2026-04-21T02:56:22.294Z",
+      "processedAt": "2026-04-21T13:53:13.673Z",
+      "scrapedAt": "2026-04-21T13:52:17.763Z",
+      "lastUpdated": "2026-04-21T13:53:13.673Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-04-21T02:56:22.302Z"
+    "lastUpdated": "2026-04-21T13:53:13.688Z"
   }
 }

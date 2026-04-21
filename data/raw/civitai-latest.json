@@ -1,34 +1,8 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-04-20T13:52:45.399Z",
-  "contestCount": 2,
+  "timestamp": "2026-04-21T02:56:07.624Z",
+  "contestCount": 1,
   "contests": [
-    {
-      "platform": "civitai",
-      "title": "Ongoing Site Issues",
-      "description": "We’re aware of ongoing site-wide issues affecting core features and causing significant disruption. We understand how frustrating this is, and we’re sorry for the current experience. Our team is working to restore full functionality as quickly as possible, and we appreciate your patience while we work through this!",
-      "url": "https://civitai.com/events/691",
-      "deadline": "2026-04-24T23:59:59.999Z",
-      "prize": "",
-      "rawHtml": "{\"endsAt\":\"2026-04-24T23:59:59.999Z\",\"id\":691,\"title\":\"Ongoing Site Issues\",\"content\":\"We’re aware of ongoing site-wide issues affecting core features and causing significant disruption. We understand how frustrating this is, and we’re sorry for the current experience. Our team is working to restore full functionality as quickly as possible, and we appreciate your patience while we work through this!\",\"color\":\"red\",\"emoji\":null,\"createdAt\":\"2026-04-18T01:35:14.681Z\",\"startsAt\":\"2026-04-18T01:29:43.261Z\",\"metadata\":{\"image\":\"7171bdc6-8007-492c-84ad-f607e4dbd320\",\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-04-20T13:51:06.003Z",
-      "metadata": {
-        "endsAt": "2026-04-24T23:59:59.999Z",
-        "id": 691,
-        "title": "Ongoing Site Issues",
-        "content": "We’re aware of ongoing site-wide issues affecting core features and causing significant disruption. We understand how frustrating this is, and we’re sorry for the current experience. Our team is working to restore full functionality as quickly as possible, and we appreciate your patience while we work through this!",
-        "color": "red",
-        "emoji": null,
-        "createdAt": "2026-04-18T01:35:14.681Z",
-        "startsAt": "2026-04-18T01:29:43.261Z",
-        "metadata": {
-          "image": "7171bdc6-8007-492c-84ad-f607e4dbd320",
-          "colSpan": 6,
-          "dismissible": true,
-          "targetAudience": "all"
-        }
-      }
-    },
     {
       "platform": "civitai",
       "title": "Two Front Doors – Transition in Progress",
@@ -36,7 +10,7 @@
       "url": "https://civitai.com/events/690",
       "prize": "",
       "rawHtml": "{\"endsAt\":null,\"id\":690,\"title\":\"Two Front Doors – Transition in Progress\",\"content\":\"Following our announcement of two distinct Civitai sites, [Civitai.com](https://civitai.com) is now shifting to the PG/PG-13 experience, with existing content moving to [Civitai.red](https://civitai.red). Some disruption is expected during the transition! We appreciate your patience!\",\"color\":\"pink\",\"emoji\":null,\"createdAt\":\"2026-04-15T16:53:34.999Z\",\"startsAt\":\"2026-04-15T16:44:40.040Z\",\"metadata\":{\"image\":\"64d2fd20-3f55-4903-b8f5-69f5f05294a5\",\"actions\":[{\"link\":\"/articles/28369\",\"type\":\"button\",\"linkText\":\"Read more!\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-04-20T13:51:06.003Z",
+      "scrapedAt": "2026-04-21T02:54:27.273Z",
       "metadata": {
         "endsAt": null,
         "id": 690,

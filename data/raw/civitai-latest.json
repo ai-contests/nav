@@ -1,32 +1,33 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-04-22T13:53:42.468Z",
+  "timestamp": "2026-04-25T02:47:46.374Z",
   "contestCount": 1,
   "contests": [
     {
       "platform": "civitai",
-      "title": "Two Front Doors – Transition in Progress",
-      "description": "Following our announcement of two distinct Civitai sites, [Civitai.com](https://civitai.com) is now shifting to the PG/PG-13 experience, with existing content moving to [Civitai.red](https://civitai.red). Some disruption is expected during the transition! We appreciate your patience!",
-      "url": "https://civitai.com/events/690",
+      "title": "2 for 1: Every Generation, Twice the Output",
+      "description": "We just shipped a big generation optimization and we're passing the savings on. On **select models**, you'll now get **two images for the price of one** - same Buzz, double the output.",
+      "url": "https://civitai.com/events/692",
+      "deadline": "2026-05-03T23:59:59.999Z",
       "prize": "",
-      "rawHtml": "{\"endsAt\":null,\"id\":690,\"title\":\"Two Front Doors – Transition in Progress\",\"content\":\"Following our announcement of two distinct Civitai sites, [Civitai.com](https://civitai.com) is now shifting to the PG/PG-13 experience, with existing content moving to [Civitai.red](https://civitai.red). Some disruption is expected during the transition! We appreciate your patience!\",\"color\":\"pink\",\"emoji\":null,\"createdAt\":\"2026-04-15T16:53:34.999Z\",\"startsAt\":\"2026-04-15T16:44:40.040Z\",\"metadata\":{\"image\":\"64d2fd20-3f55-4903-b8f5-69f5f05294a5\",\"actions\":[{\"link\":\"/articles/28369\",\"type\":\"button\",\"linkText\":\"Read more!\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-04-22T13:52:02.659Z",
+      "rawHtml": "{\"endsAt\":\"2026-05-03T23:59:59.999Z\",\"id\":692,\"title\":\"2 for 1: Every Generation, Twice the Output\",\"content\":\"We just shipped a big generation optimization and we're passing the savings on. On **select models**, you'll now get **two images for the price of one** - same Buzz, double the output.\",\"color\":\"yellow\",\"emoji\":null,\"createdAt\":\"2026-04-24T21:42:13.106Z\",\"startsAt\":\"2026-04-24T21:42:00.000Z\",\"metadata\":{\"image\":\"ac5c0d0f-390a-4211-a08e-1cb0cc1d36ab\",\"actions\":[{\"link\":\"/articles/29076\",\"type\":\"button\",\"linkText\":\"See eligible models\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-04-25T02:46:10.233Z",
       "metadata": {
-        "endsAt": null,
-        "id": 690,
-        "title": "Two Front Doors – Transition in Progress",
-        "content": "Following our announcement of two distinct Civitai sites, [Civitai.com](https://civitai.com) is now shifting to the PG/PG-13 experience, with existing content moving to [Civitai.red](https://civitai.red). Some disruption is expected during the transition! We appreciate your patience!",
-        "color": "pink",
+        "endsAt": "2026-05-03T23:59:59.999Z",
+        "id": 692,
+        "title": "2 for 1: Every Generation, Twice the Output",
+        "content": "We just shipped a big generation optimization and we're passing the savings on. On **select models**, you'll now get **two images for the price of one** - same Buzz, double the output.",
+        "color": "yellow",
         "emoji": null,
-        "createdAt": "2026-04-15T16:53:34.999Z",
-        "startsAt": "2026-04-15T16:44:40.040Z",
+        "createdAt": "2026-04-24T21:42:13.106Z",
+        "startsAt": "2026-04-24T21:42:00.000Z",
         "metadata": {
-          "image": "64d2fd20-3f55-4903-b8f5-69f5f05294a5",
+          "image": "ac5c0d0f-390a-4211-a08e-1cb0cc1d36ab",
           "actions": [
             {
-              "link": "/articles/28369",
+              "link": "/articles/29076",
               "type": "button",
-              "linkText": "Read more!"
+              "linkText": "See eligible models"
             }
           ],
           "colSpan": 6,

@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-05-02T03:01:38.705Z",
+  "timestamp": "2026-05-02T13:24:34.045Z",
   "contestCount": 10,
   "contests": [
     {
@@ -8,14 +8,19 @@
       "title": "Build with MeDo Hackathon",
       "platform": "devpost",
       "url": "https://medo.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/516/528/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/516/528/datas/original.png",
+      "description": "Welcome to the Build with MeDo Hackathon！ Whether you’re a developer or a creator, MeDo lets you turn conversations into fully functional applications – from brainstorming to deployment. With MeDo, you can: Build full‑stack apps just by describing them in natural language. Iterate quickly via multi‑turn chat or visual editor. Integrate plugins and APIs effortlessly. Deploy with one click to a public URL. Pick one of our themed tracks or go freestyle. Show us what you can create when AI handles the heavy lifting! Get Started Register with this invite link to get 300 bonus credits! Join our Discord community to connect with other participants, find teammates, and win a $500 community exclusive prize! Community Voting (April 9, 9AM – June 4, 10AM): Post your project in the #showcase channel on Discord. Community members vote for their favorite projects. The 5 projects with the most votes each win $500. More Resources to help you build!",
+      "summary": "Welcome to the Build with MeDo Hackathon！ Whether you’re a developer or a creator, MeDo lets you turn conversations into fully functional applications – from brainstorming to deployment. With MeDo, yo...",
+      "contestType": "text",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-05-20T13:00:00.000Z",
       "prize": "$50,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Low",
+        "No Code"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -24,9 +29,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-02T03:01:30.375Z",
-      "scrapedAt": "2026-05-02T03:00:14.341Z",
-      "lastUpdated": "2026-05-02T03:01:30.375Z",
+      "processedAt": "2026-05-02T13:24:25.572Z",
+      "scrapedAt": "2026-05-02T13:22:48.325Z",
+      "lastUpdated": "2026-05-02T13:24:25.572Z",
       "version": 1
     },
     {
@@ -34,15 +39,17 @@
       "title": "Agents Assemble - The Healthcare AI Endgame",
       "platform": "devpost",
       "url": "https://agents-assemble.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/260/datas/original.png",
+      "description": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. Thank you for your interest and understanding. Agents Assemble: The Healthcare AI Endgame Challenge Build Interoperable Healthcare Agents at the Intersection of MCP, A2A, and FHIR. We have all watched the AI in healthcare trailers - the hype, the theories, and the cool demos. But now, we have entered the Endgame. At Prompt Opinion, we define this phase as \"The Last Mile\" - the critical gap where raw intelligence must be converted into actionable deliverables. To conquer this mile, we cannot work alone. We are proud to launch Agents Assemble, a builder’s competition designed to prove that the power of AI lies in collaboration. Our platform provides the headquarters for this mission, giving you native access to the industry's best tools to build in two distinct ways: you can forge a Superpower (building the MCP tools that fuel the ecosystem), or you can rise up to build a Full Agent (equipping those superpowers to tackle a specific healthcare challenge). The technology is ready. The platform is open. It’s time to assemble. Why Participate? This competition is a launchpad for AI solutions that will power future healthcare workflows. Here is why you should join: Lucrative Cash Prizes: Compete for a total prize pool of $25,000 USD in cash, including a $7,500 Grand Prize. Widespread Visibility: Successful projects will be published in the Prompt Opinion Marketplace, making them discoverable and invokable by organizations across the ecosystem. Develop Skills That Matter: Gain hands-on experience with the Model Context Protocol (MCP) and Agent-to-Agent (A2A) standards for building AI agents. Build Healthcare Ready Solutions: Learn how by using the SHARP extension specs from Prompt Opinion, your tools and agents will seamlessly propagate data context using FHIR through multi-agent call chains. Collaborate and Network: Join a community of like-minded innovators and connect with leaders at Prompt Opinion who are shaping the future of AI infrastructure. Bragging Rights: Beyond the prizes, you will walk away with the pride of having built a functional, standards-compliant AI solution that can integrate directly into a clinician's workspace.",
+      "summary": "NOTE: We are not accepting any additional applications or inquiries for judges at this time. Due to the high volume of requests, we will not be responding to messages regarding judging opportunities. ...",
+      "contestType": "text",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-05-12T03:00:00.000Z",
       "prize": "$25,000",
       "tags": [
-        "ai"
+        "Health",
+        "Beginner Friendly"
       ],
       "aiTools": [
         "Python",
@@ -52,9 +59,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-02T03:01:30.291Z",
-      "scrapedAt": "2026-05-02T03:00:14.342Z",
-      "lastUpdated": "2026-05-02T03:01:30.291Z",
+      "processedAt": "2026-05-02T13:24:25.576Z",
+      "scrapedAt": "2026-05-02T13:22:48.327Z",
+      "lastUpdated": "2026-05-02T13:24:25.576Z",
       "version": 1
     },
     {
@@ -62,14 +69,18 @@
       "title": "FIND EVIL!",
       "platform": "devpost",
       "url": "https://findevil.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/521/059/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/521/059/datas/original.png",
+      "description": "The Speed Problem An AI-powered adversary can go from initial access to full domain control in under 8 minutes. CrowdStrike's fastest observed breakout time: 7 minutes. Horizon3's autonomous agent: 60 seconds to full privilege escalation. MIT's 2024 research: AI-driven attack workflows running 47 times faster than human operators. Meanwhile, a human incident responder is still pulling up their toolkit. That gap is the most dangerous problem in cybersecurity. Find Evil! challenges you to close it. The Mission You'll build autonomous AI agents on the SANS SIFT Workstation --- 200+ incident response tools on a single platform, 18 years of community development, 60K+ annual downloads. Protocol SIFT, the proof-of-concept framework that connects AI agents to those tools through Model Context Protocol (MCP). Protocol SIFT works. It also hallucinates more than we'd like. (That's exactly why this hackathon exists.) Unlike offensive teams that operate with three or four people in secret, we're putting the entire practitioner community on this problem simultaneously. Your job: teach an AI agent to think like a senior analyst --- how to sequence its approach, recognize when something doesn't add up, and self-correct when it gets it wrong. Who Should Join You don't need to be an incident response expert. The SIFT Workstation handles the domain tooling. You need curiosity and building skills. IR/Security professionals: You've been finding evil manually for years. Build the AI partner you wish you had at 3 AM during an active incident. AI/ML engineers: Apply your skills to a domain where speed determines whether attackers win. Real case data, real tools, no toy datasets. Students and early-career builders: No IR background required. The SIFT Workstation is your on-ramp to the most in-demand intersection in tech. Open-source contributors: Every submission lives on as a community tool. Build something thousands of responders will use. Four supported architectural approaches: Direct Agent Extension (Claude Code or OpenClaw), Custom MCP Server, Multi-Agent Frameworks (AutoGen, CrewAI, LangGraph), or Alternative Agentic IDEs (Cursor, Cline, Aider). Teams up to 5. Solo permitted. April 15 -- June 15, 2026. $22,000+ in prizes. About the Challenge Why this exists In November 2025, Anthropic's security team published findings on GTG-1002 --- a Chinese state-sponsored operation where attackers used Claude Code to run autonomous reconnaissance, exploitation, and lateral movement at 80-90% autonomy. The AI handled everything at request rates Anthropic described as \"physically impossible\" for human operators. That was the offensive side. The SIFT Workstation is the defensive platform. Protocol SIFT demonstrated what's possible when you connect AI agents to that platform through MCP. This hackathon is how the community makes it real. The DFIR community built the SIFT Workstation 18 years ago to give every practitioner access to professional-grade tools. Find Evil! extends that mission: give every responder an AI co-pilot that can triage incidents at the speed adversaries now operate. The gap we're closing Manual command-line incident response cannot compete with autonomous agents executing thousands of requests. Adversaries move at machine speed. Defenders still look up command-line flags during active incidents. Your goal: build AI systems on the SIFT Workstation that match that velocity --- triaging, correlating, and reporting at the pace the threat demands. This hackathon is how. Get Started Register on Devpost (you're here) Join the Protocol SIFT Slack --- this is where questions get answered, teams form, and mentors hang out - Download the SIFT Workstation from sans.org/tools/sift-workstation Install Protocol SIFT Package to demonstrate automated analysis, To install Protocol SIFT, after you download SIFT OVA, and login, run this command from your terminal:: $ curl -fsSL https://raw.githubusercontent.com/teamdfir/protocol-sift/main/install.sh | bash Review the starter resources: sample case data (hard drives, memory images), example submission. Pick a problem and start building. See \"What to Build\" for project ideas and supported architectural approaches to get past the blank-screen problem.",
+      "summary": "The Speed Problem An AI-powered adversary can go from initial access to full domain control in under 8 minutes. CrowdStrike's fastest observed breakout time: 7 minutes. Horizon3's autonomous agent: 60...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-06-16T03:45:00.000Z",
       "prize": "$22,000",
-      "tags": [],
+      "tags": [
+        "Cybersecurity",
+        "Beginner Friendly"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -78,9 +89,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-02T03:01:30.292Z",
-      "scrapedAt": "2026-05-02T03:00:14.343Z",
-      "lastUpdated": "2026-05-02T03:01:30.292Z",
+      "processedAt": "2026-05-02T13:24:25.633Z",
+      "scrapedAt": "2026-05-02T13:22:48.328Z",
+      "lastUpdated": "2026-05-02T13:24:25.633Z",
       "version": 1
     },
     {
@@ -88,14 +99,19 @@
       "title": "Reddit Mod Tools and Migrated Apps Hackathon",
       "platform": "devpost",
       "url": "https://mod-tools-migration.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/498/306/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/498/306/datas/original.png",
+      "description": "Overview Reddit is hosting the Mod Tools and Migrated Apps Hackathon from April 29nd to May 27th. We’re offering developers $45,000 in prizes for new tools built to empower moderators, as well as existing mod apps ported from our Data API to Devvit. The challenge: create a utility, automation, or moderation tool that solves existing community pain points using Devvit i.e. Reddit’s Developer Platform. For this hackathon, we have three categories with grand prizes: New Mod Tool Category: Build a brand-new utility or tool designed to make both leading and moderating communities easier. We want to see time savings, utilities for thoughtful engagement, and tools to delight subreddit moderators across the site. Ported Data API App Category: Take a classic Reddit bot (originally built on PRAW or other frameworks) and port it to Devvit. We want to see these essential tools become more stable, faster, and easier for mods to install via the App Directory. We are excited to see individual community tools become generalized for broader mod benefit, as well as bespoke subreddit tools finding a home on Devvit. Moderators Choice: A panel of moderator judges will select one additional grand prize winner, based on the core judging criteria. This moderator panel will review a shortlist of projects from the two other categories that score highly in the first round of judging. What to Build Build a moderation app with Devvit. We are looking for tools that range from automated enforcement, to better queue management, to creative community-building utilities. The best apps reduce moderation load significantly, improve community operation, or serve to incentivize good behavior in the community through innovative utilities. These apps can have a custom post component, or can operate entirely in the background. We want to see evidence that the tool can save significant time or make a measurable impact. Importantly, the tool should also be easy to understand, install, and provide a great user experience for mods installing the tool. The Best New Mod Tool: For the most innovative tool or utility that solves a significant pain point for moderators. This could be easier rule enforcement, moderation workflows, community engagement tools, or anything else that supports moderators in community leadership. It should be unique to the Devvit ecosystem and provide a seamless experience for mod teams. The app should not have been created prior to the content period. The Best Ported App: This award recognizes the most successful migration of an existing Data API moderation bot or tool* to Devvit. The winning submission will maintain the bot’s core utilityand can be generalized to serve many communities through app install. You should be the bot owner, or have written permission to port the bot you are submitting for this event. *Existing Data API bots must have been operating on Reddit prior to March 2026 and support one or more existing communities with 500 or more Weekly Active Users. These can be mod tools, utilities, or anything else that improves the day-to-day functioning of an existing Reddit community. Apps not built with Reddit's Data API do not count towards this category. Requirements Apps must be built on Reddit's Developer Platform and be compliant with our Devvit Rules. For this event we are looking for polish, meaning apps that are as close to launch-ready as possible. We understand that not all projects will reach this threshold, but projects that are well tested and concept-complete will score higher. Getting started Get started with the Devvit documentation for moderation apps. Review our bot porting guide on migrating Data API bots to Devvit. Join us on Discord and r/Devvit for live support and office hours Sustaining Success Successful apps built during the hackathon can become eligible for Reddit Developer Funds, which rewards apps for reaching engagement milestones. Learn more about the program here. Successful ports can also be eligable for a porting bounty via our App Migration Program. Need inspiration? Join our Discord to chat with other developers and get live support from the Reddit team.",
+      "summary": "Overview Reddit is hosting the Mod Tools and Migrated Apps Hackathon from April 29nd to May 27th. We’re offering developers $45,000 in prizes for new tools built to empower moderators, as well as exis...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-05-28T01:00:00.000Z",
       "prize": "$45,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Social Good",
+        "Web"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -104,9 +120,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-02T03:01:30.473Z",
-      "scrapedAt": "2026-05-02T03:00:14.343Z",
-      "lastUpdated": "2026-05-02T03:01:30.473Z",
+      "processedAt": "2026-05-02T13:24:25.728Z",
+      "scrapedAt": "2026-05-02T13:22:48.329Z",
+      "lastUpdated": "2026-05-02T13:24:25.728Z",
       "version": 1
     },
     {
@@ -114,14 +130,19 @@
       "title": "GNEC Hackathon 2026 Spring - Compete For UN-Affiliated/NGO Internships & Prizes",
       "platform": "devpost",
       "url": "https://gnec-hackathon-2026-spring.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/363/100/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/363/100/datas/original.png",
+      "description": "About the hackathon General The Global NGO Executive Committee (GNEC) and its 1,600 subsidiaries have come together to host our fourth GNEC Hackathon! We encourage those passionate about engineering, technology, and programming to join this event to demonstrate their skills while competing for prizes such as internships and mentorships with our partners. Why Us GNEC is well-connected to the UN and has a global network of NGOs. You can tap into this network during and after this hackathon. Our partners will also host various workshops where they will teach new technological concepts while also offering insight into their mission and the work they have done. The workshops are a great opportunity to explore one’s interests and possible career paths. Theme Through the GNEC Hackathon, we encourage participants to explore sustainability through technology by setting the hackathon's theme as one or two of the United Nations Sustainable Development Goals (UN SDGs). This hackathon's theme will be SDG 3 (Health and Well-being). Get started Join our Discord server (https://discord.gg/n5pcCHcGC6) and meet with everyone else involved in the hackathon. You are welcome to make your own team but if you don't have teammates, our Discord server is a great place to look for a team. The opening ceremony will provide further information regarding the hackathon and the working period will commence shortly after. Be creative, make new friends, and above all, have fun!",
+      "summary": "About the hackathon General The Global NGO Executive Committee (GNEC) and its 1,600 subsidiaries have come together to host our fourth GNEC Hackathon! We encourage those passionate about engineering, ...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-05-03T16:00:00.000Z",
       "prize": "$700",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Health",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -130,9 +151,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-02T03:01:31.422Z",
-      "scrapedAt": "2026-05-02T03:00:14.344Z",
-      "lastUpdated": "2026-05-02T03:01:31.422Z",
+      "processedAt": "2026-05-02T13:24:26.761Z",
+      "scrapedAt": "2026-05-02T13:22:48.329Z",
+      "lastUpdated": "2026-05-02T13:24:26.761Z",
       "version": 1
     },
     {
@@ -140,25 +161,36 @@
       "title": "BluePrint 2026 - Hackthon for freshers and Students",
       "platform": "devpost",
       "url": "https://blueprint-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/556/423/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/556/423/datas/original.jpg",
+      "description": "About the challenge BluePrint 2026: Innovation Meets Impact Welcome to BluePrint 2026 — a hackathon designed for freshers and students who want to build solutions that matter, not just code that compiles. Build practical solutions for real-world problems in Healthcare, EdTech, FinTech, AgriTech, Environment & E-Commerce. This isn't about building random projects. It's about solving real problems that impact millions of people across India. 🎯 THE PROBLEM Every day, millions of people face challenges they shouldn't have to: Students struggle with personalized learning at scale Rural patients can't access specialist doctors Farmers get exploited by middlemen Small sellers lose 40% of revenue to logistics Climate issues feel too big to solve individually You can change this. 💡 THE OPPORTUNITY This hackathon gives you 6 domains to choose from. Pick one. Find a real problem. Build a real solution. 🏥 Healthcare Medical accessibility, patient data systems, telehealth solutions Example: Connect rural patients to specialist doctors via video consultation 📚 EdTech Personalized learning, accessibility, affordability Example: AI platform that adapts learning content to each student's pace 💰 FinTech Financial inclusion, payments, investment tools Example: Mobile wallet for migrant workers to send remittances home with zero fees 🌾 AgriTech Farm productivity, market access, sustainability Example: Marketplace connecting farmers directly to buyers, cutting out middlemen 🌍 Environment Climate action, waste management, energy efficiency Example: Mobile app tracking personal carbon footprint with sustainable alternatives 🛍️ E-Commerce Supply chain, logistics, seller tools Example: Logistics optimization tool helping small sellers reduce delivery costs by 40% 🔥 WHY BLUEPRINT 2026? Real Impact — Solutions that can actually change lives Practical Focus — We judge on execution thinking, not just code Student-Centric — Built for freshers & students to shine Recognition — Winners featured on ConnectsBlue platform Prizes — Cash rewards + gift vouchers for top teams Career Boost — Add winning projects to your resume Get started 📋 HOW IT WORKS (4 Simple Steps) Step 1: Choose Your Domain (5 minutes) Pick ONE from the 6 domains above. Which problem excites you most? Step 2: Find Your Problem (1-2 weeks) Talk to real users Understand their pain points Don't assume — validate Document what you learn Step 3: Design Your Solution (2-3 weeks) Sketch out your approach Think through execution Plan how you'd build it Make it practical, not just theoretical Step 4: Submit & Present (Before April 30) Document your findings (2-3 pages max) Submit via ConnectsBlue Selected teams present to judges Winners announced & celebrated ✅ SUBMISSION REQUIREMENTS What to Submit: Your solution in ONE of these formats: 📄 PDF Document (2-3 pages max) 🎬 PowerPoint Presentation (10-15 slides) 🎥 Video Explanation (5-7 minutes) What to Include: Problem Statement — The exact issue you're solving User Research — Who are the users? What do they need? Your Solution — How does it solve the problem? Execution Plan — Step-by-step approach to build it Why It Works — Why is your solution practical & doable? Team Details — Who's on your team? 🏆 JUDGING CRITERIA We evaluate based on: 1. Problem Understanding (20%) Do you truly understand the problem? Is it a real pain point? Have you validated with users? 2. Innovation (20%) Is your solution creative? Is it different from existing solutions? Does it bring a fresh perspective? 3. Practicality (25%) ⭐ Most Important Can this actually be built? Is the execution approach realistic? Have you thought through real-world challenges? Can a fresher/student actually execute this? 4. Impact (20%) Who benefits from your solution? How many people will it help? What's the scale of impact? 5. Clarity (15%) Is your idea clearly communicated? Can judges understand your approach? Is the presentation professional? 💰 PRIZES & REWARDS 🥇 1st Place ₹3000 Cash Prize Featured on ConnectsBlue Platform Case Study Documentation Certificate of Excellence 🥈 2nd Place ₹ 2000 Cash Prize Featured on ConnectsBlue Platform Certificate of Merit 🥉 3rd Place ₹1000 Cash Prize Featured on ConnectsBlue Platform Certificate of Merit 🎁 All Winners Gift Vouchers LinkedIn Recognition ConnectsBlue Community Spotlight 📅 IMPORTANT DATES Event Date Registration Opens [YOUR START DATE] Submission Deadline April 30, 2026, 11:59 PM IST Winners Announced [YOUR DATE] ❓ FREQUENTLY ASKED QUESTIONS Q: Can I participate if I'm not a student? A: This hackathon is exclusively for freshers and current students. Q: What if I don't have a team? A: Individual submissions are welcome! You can also form a team of up to 4 members. Q: Do I need to code to participate? A: Not necessarily. We value problem-solving thinking and practical execution planning — not just code. You can submit a detailed solution design without a working prototype. Q: Can my team members be from different colleges? A: Yes, absolutely. Mixed teams are encouraged. Q: What if my domain doesn't fit perfectly? A: Pick the closest domain. If it's genuinely unique, contact us at mkumar@bluepms.com. Q: Is there a submission format preference? A: No. PDF, PowerPoint, or Video — pick what best explains your idea. Q: When will winners be announced? A: Winners will be announced [YOUR DATE]. All teams will receive feedback. Q: Can I submit after the deadline? A: No. The deadline is firm: April 30, 2026, 11:59 PM IST. Q: How do I submit my project? A: Register & submit on the ConnectsBlue platform (link below). 🔗 REGISTER & SUBMIT 👉 Registration & Submission Link: https://connectsblue.com/competitions/blueprint-2026-6e341 📧 Questions? Contact: mkumar@bluepms.com 🌐 Learn More: Website: https://connectsblue.com/ 💬 FINAL THOUGHTS We're not looking for perfect solutions. We're looking for thoughtful, practical approaches to real problems. Your idea might not be revolutionary. But if it solves a real problem in a practical way, you belong here. Don't wait. Register today. Build something that matters. See you on the other side. BluePrint 2026 — Build. Solve. Impact.",
+      "summary": "About the challenge BluePrint 2026: Innovation Meets Impact Welcome to BluePrint 2026 — a hackathon designed for freshers and students who want to build solutions that matter, not just code that compi...",
+      "contestType": "video",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-05-14T11:30:00.000Z",
       "prize": "₹ 18,000",
-      "tags": [],
+      "tags": [
+        "Low",
+        "No Code",
+        "Productivity",
+        "Web"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
+      "requirements": [
+        "2026",
+        "contact us at mkumar@bluepms.com. Q: Is there a submission format preference? A: No. PDF",
+        "PowerPoint",
+        "2026"
+      ],
       "qualityScore": 6,
-      "processedAt": "2026-05-02T03:01:31.411Z",
-      "scrapedAt": "2026-05-02T03:00:14.346Z",
-      "lastUpdated": "2026-05-02T03:01:31.411Z",
+      "processedAt": "2026-05-02T13:24:26.665Z",
+      "scrapedAt": "2026-05-02T13:22:48.332Z",
+      "lastUpdated": "2026-05-02T13:24:26.665Z",
       "version": 1
     },
     {
@@ -166,14 +198,18 @@
       "title": "DSH Hacks V1",
       "platform": "devpost",
       "url": "https://dsh-hacks-v1.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/466/363/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/466/363/datas/original.png",
+      "description": "About the Challenge DSH Hacks V1 is a global student competition open to students aged 13+ hosted collaboratively by three youth-led organizations: DeltaForge Hacks, NextHorizon, and STEMise. Theme: AI x STEM Education This event brings together young innovators from around the world to reimagine the future of STEM education through artificial intelligence. Participants will work individually or in teams to design and develop a meaningful technical product that leverages AI to improve, enhance, or expand STEM education. Projects may range from machine learning tools that personalize learning pathways to computer vision systems for laboratory simulations, to AI-driven platforms that increase accessibility for underrepresented communities. Creativity, feasibility, technical depth, and real-world impact will be central to evaluation. The theme of this competition is to create tools that help students learn STEM more effectively, interactively, and accessibly. These tools can be an app, a website, a simulation, a system, or an algorithm. Participants are allowed to use AI to encourage them to build a meaningful solution in the realm of STEM education and to lower the technical barrier that imposes challenges for beginners with ambitious project ideas. Get Started Ask around and form a team! We highly recommend finding like-minded individuals around you to help make your ideas a reality! Please join these Discord servers: DeltaForge Hacks & STEMise! You may very well find your new team!",
+      "summary": "About the Challenge DSH Hacks V1 is a global student competition open to students aged 13+ hosted collaboratively by three youth-led organizations: DeltaForge Hacks, NextHorizon, and STEMise. Theme: A...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-06-02T04:45:00.000Z",
       "prize": "$5,096",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -182,35 +218,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-02T03:01:31.414Z",
-      "scrapedAt": "2026-05-02T03:00:14.347Z",
-      "lastUpdated": "2026-05-02T03:01:31.414Z",
-      "version": 1
-    },
-    {
-      "id": "c_7497e0dc2803",
-      "title": "HackAmerica",
-      "platform": "devpost",
-      "url": "https://hackamerica.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/620/523/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$575",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-02T03:01:31.414Z",
-      "scrapedAt": "2026-05-02T03:00:14.347Z",
-      "lastUpdated": "2026-05-02T03:01:31.414Z",
+      "processedAt": "2026-05-02T13:24:26.675Z",
+      "scrapedAt": "2026-05-02T13:22:48.333Z",
+      "lastUpdated": "2026-05-02T13:24:26.675Z",
       "version": 1
     },
     {
@@ -218,14 +228,19 @@
       "title": "Orion Build Challenge",
       "platform": "devpost",
       "url": "https://orion-build-challenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/545/760/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/545/760/datas/original.png",
+      "description": "The Orion Build Challenge 2026 is a global, multi-disciplinary hackathon designed to bring together builders, engineers, designers, researchers, and innovators from across the world to create impactful, scalable, and forward-thinking solutions. Inspired by the Orion constellation, which has historically symbolized exploration, ambition, and navigation into the unknown, this hackathon represents a platform where ideas converge and innovation takes shape. The Orion Build Challenge is built on the principle of open innovation. It is not restricted to a single domain or specialization. Instead, it encourages participants from diverse backgrounds to collaborate, experiment, and develop solutions that address real-world challenges across industries. Whether participants are students, professionals, independent developers, or early-stage founders, the platform is designed to accommodate varying levels of experience and expertise. Unlike traditional hackathons that limit participants to specific themes, Orion Build Challenge adopts a broad and inclusive approach by offering multiple domains under a unified structure. Participants are encouraged to explore intersections between fields such as artificial intelligence, machine learning, financial technology, enterprise systems, data science, cybersecurity, product strategy, sustainability, and open innovation. This cross-domain approach reflects the evolving nature of modern technology, where impactful solutions often emerge at the intersection of disciplines. The challenge is structured to simulate real-world product development environments. Participants are expected not only to build functional prototypes but also to demonstrate problem understanding, scalability, usability, and long-term vision. The emphasis is on creating solutions that are not only technically sound but also practical and deployable. The Orion Build Challenge also serves as a platform for learning and growth. Participants will gain exposure to industry-relevant problems, structured evaluation processes, and peer collaboration. The event aims to bridge the gap between academic learning and industry expectations by encouraging participants to think beyond theoretical implementations and focus on real-world applicability. Key Themes Participants can choose to build solutions across one or more of the following domains: Artificial Intelligence and Machine Learning Data Science and Analytics Financial Technology Enterprise Systems and SaaS Platforms Web and Mobile Development Cybersecurity and Privacy Product Management and Strategy Climate Technology and Sustainability Developer Tools and APIs Open Innovation (cross-domain solutions) These themes are not restrictive. Participants are encouraged to combine multiple domains and propose interdisciplinary solutions. What Makes Orion Build Challenge Unique The Orion Build Challenge distinguishes itself through its emphasis on scale, inclusivity, and impact. It is designed not merely as a competition but as a structured innovation platform. Key differentiators include: Open participation across all domains and experience levels Focus on real-world problem solving rather than theoretical projects Encouragement of cross-domain collaboration Transparent and structured judging process Recognition through formal certification and documentation",
+      "summary": "The Orion Build Challenge 2026 is a global, multi-disciplinary hackathon designed to bring together builders, engineers, designers, researchers, and innovators from across the world to create impactfu...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-05-03T03:45:00.000Z",
       "prize": "$4,250",
-      "tags": [],
+      "tags": [
+        "Education",
+        "Enterprise",
+        "Fintech"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -234,9 +249,43 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-02T03:01:31.456Z",
-      "scrapedAt": "2026-05-02T03:00:14.347Z",
-      "lastUpdated": "2026-05-02T03:01:31.456Z",
+      "processedAt": "2026-05-02T13:24:26.672Z",
+      "scrapedAt": "2026-05-02T13:22:48.333Z",
+      "lastUpdated": "2026-05-02T13:24:26.672Z",
+      "version": 1
+    },
+    {
+      "id": "c_7497e0dc2803",
+      "title": "HackAmerica",
+      "platform": "devpost",
+      "url": "https://hackamerica.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/620/523/datas/original.png",
+      "description": "About the challenge Next spring, HackAmerica is encouraging high school students nationwide to participate in one of the largest student-led hackathons in the United States. Over a week, students will immerse themselves in the dynamic, ongoing, social-environmental issues that exist in this country and others around the world, choosing a focus of their choice. Whether solo or in a team of up to four, your mission is to build something that matters. Feel free to use any tools or tech, as there are no limits—only one rule: your project must be submitted before time’s up to be judged by our panel. This isn’t just about coding—it’s about bold ideas, smart collaboration, and sparking a real difference. Beginners, experts, and everyone in between are welcome. Come build with us, and show the world what students can do when we lead the way. Get started Whether you’re going solo or collaborating with up to 3 fellow hackers, HackAmerica is still your place to design: from within anywhere in the nation. We will give you a full liberty of any programming languages, tools, or platforms (yes, ChatGPT is allowed) that you like. We won’t restrict your freedom. Construct what you have learned or even experiment with new ones. As HackAmerica is an online event, we will program your creativity for success. There will be lots of virtual workshops, live Q&As, mini-challenges, and community events in the schedule for you to energize your mind, enhance your skills, and get acquainted with other hackers across America. Our Discord server is your home base. Here is where you will find the people who will be working with you, the place to share your ideas, the place to ask questions, and the place to get mentor’s help all along the weekend. If you have a lot of programming experience or if you are just learning the code, you will find a community that will stand with you. No experience in hackathons? The situation is even better. Your only requirements are curiosity, Wi-Fi, and the courage to create something daring.The inception of any great idea starts with one small decision: the decision to start. So go for it – we are ready to see what you’re going to build.",
+      "summary": "About the challenge Next spring, HackAmerica is encouraging high school students nationwide to participate in one of the largest student-led hackathons in the United States. Over a week, students will...",
+      "contestType": "text",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-05-23T18:00:00.000Z",
+      "prize": "$575",
+      "tags": [
+        "Beginner Friendly",
+        "Design",
+        "Social Good"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "are curiosity",
+        "Wi-Fi"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2026-05-02T13:24:26.786Z",
+      "scrapedAt": "2026-05-02T13:22:48.333Z",
+      "lastUpdated": "2026-05-02T13:24:26.786Z",
       "version": 1
     },
     {
@@ -244,14 +293,18 @@
       "title": "LUMA Hackathon!",
       "platform": "devpost",
       "url": "https://luma.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/400/471/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/400/471/datas/original.png",
+      "description": "LUMA Hackathon 2026 is a 3-week virtual build competition for high school and middle school students across the US. This is a challenge for creators and coders. Show us what you can build. STUDENTS ONLY Round 1: Project Submission Submit a 5 minute video demonstration covering: The Problem: What specific technical or social challenge are you tackling? The Build: A walkthrough of your codebase, architecture, and the stack used. The Demo: A screen share recording of the project functioning in real time. Scalability: How is this project suited to handle more data or more users? Round 2: Live Finals The top technical projects will advance to a Live Demonstration and Q&A. Finalists will run their code live for a panel of judges and defend their technical logic and architecture in a real time discussion. Prizes 1st Place: $300 cash Top 50: $50 Interview Cake credit All Participants: Subscription bundle Who Can Participate? Any high school or middle schooler student. Teams of 1 to 5.",
+      "summary": "LUMA Hackathon 2026 is a 3-week virtual build competition for high school and middle school students across the US. This is a challenge for creators and coders. Show us what you can build. STUDENTS ON...",
+      "contestType": "video",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-05-03T06:45:00.000Z",
       "prize": "$300",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Open Ended"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -260,15 +313,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-02T03:01:32.463Z",
-      "scrapedAt": "2026-05-02T03:00:14.348Z",
-      "lastUpdated": "2026-05-02T03:01:32.463Z",
+      "processedAt": "2026-05-02T13:24:27.799Z",
+      "scrapedAt": "2026-05-02T13:22:48.334Z",
+      "lastUpdated": "2026-05-02T13:24:27.799Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-05-02T03:01:38.705Z"
+    "lastUpdated": "2026-05-02T13:24:34.045Z"
   }
 }

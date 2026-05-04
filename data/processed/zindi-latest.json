@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-05-04T03:36:53.102Z",
+  "timestamp": "2026-05-04T14:13:49.711Z",
   "contestCount": 20,
   "contests": [
     {
@@ -23,36 +23,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:48.877Z",
-      "scrapedAt": "2026-05-04T03:35:54.081Z",
-      "lastUpdated": "2026-05-04T03:36:48.877Z",
-      "version": 1
-    },
-    {
-      "id": "c_956079b3e48d",
-      "title": "Telco Troubleshooting Agentic Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/telco-troubleshooting-agentic-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-19T03:35:54.081Z",
-      "prize": "€40 000 EUR",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:48.877Z",
-      "scrapedAt": "2026-05-04T03:35:54.082Z",
-      "lastUpdated": "2026-05-04T03:36:48.877Z",
+      "processedAt": "2026-05-04T14:13:45.584Z",
+      "scrapedAt": "2026-05-04T14:12:52.902Z",
+      "lastUpdated": "2026-05-04T14:13:45.584Z",
       "version": 1
     },
     {
@@ -66,7 +39,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-25T03:35:54.082Z",
+      "deadline": "2026-05-24T14:12:52.903Z",
       "prize": "$10 000 USD",
       "tags": [],
       "aiTools": [
@@ -77,9 +50,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:48.878Z",
-      "scrapedAt": "2026-05-04T03:35:54.082Z",
-      "lastUpdated": "2026-05-04T03:36:48.878Z",
+      "processedAt": "2026-05-04T14:13:45.524Z",
+      "scrapedAt": "2026-05-04T14:12:52.903Z",
+      "lastUpdated": "2026-05-04T14:13:45.524Z",
       "version": 1
     },
     {
@@ -93,7 +66,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-25T03:35:54.082Z",
+      "deadline": "2026-05-24T14:12:52.903Z",
       "prize": "$3 500 USD",
       "tags": [],
       "aiTools": [
@@ -104,9 +77,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:48.924Z",
-      "scrapedAt": "2026-05-04T03:35:54.082Z",
-      "lastUpdated": "2026-05-04T03:36:48.924Z",
+      "processedAt": "2026-05-04T14:13:45.525Z",
+      "scrapedAt": "2026-05-04T14:12:52.903Z",
+      "lastUpdated": "2026-05-04T14:13:45.525Z",
       "version": 1
     },
     {
@@ -130,9 +103,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:49.928Z",
-      "scrapedAt": "2026-05-04T03:35:54.082Z",
-      "lastUpdated": "2026-05-04T03:36:49.928Z",
+      "processedAt": "2026-05-04T14:13:45.596Z",
+      "scrapedAt": "2026-05-04T14:12:52.903Z",
+      "lastUpdated": "2026-05-04T14:13:45.596Z",
       "version": 1
     },
     {
@@ -146,7 +119,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-06T03:35:54.082Z",
+      "deadline": "2026-05-06T14:12:52.903Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -156,9 +129,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:49.935Z",
-      "scrapedAt": "2026-05-04T03:35:54.082Z",
-      "lastUpdated": "2026-05-04T03:36:49.935Z",
+      "processedAt": "2026-05-04T14:13:46.614Z",
+      "scrapedAt": "2026-05-04T14:12:52.903Z",
+      "lastUpdated": "2026-05-04T14:13:46.614Z",
       "version": 1
     },
     {
@@ -172,7 +145,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-09T03:35:54.082Z",
+      "deadline": "2026-05-08T14:12:52.903Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -182,9 +155,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:49.927Z",
-      "scrapedAt": "2026-05-04T03:35:54.082Z",
-      "lastUpdated": "2026-05-04T03:36:49.927Z",
+      "processedAt": "2026-05-04T14:13:46.609Z",
+      "scrapedAt": "2026-05-04T14:12:52.903Z",
+      "lastUpdated": "2026-05-04T14:13:46.609Z",
       "version": 1
     },
     {
@@ -198,7 +171,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-11T03:35:54.082Z",
+      "deadline": "2026-05-10T14:12:52.904Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -208,9 +181,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:49.926Z",
-      "scrapedAt": "2026-05-04T03:35:54.082Z",
-      "lastUpdated": "2026-05-04T03:36:49.926Z",
+      "processedAt": "2026-05-04T14:13:46.600Z",
+      "scrapedAt": "2026-05-04T14:12:52.904Z",
+      "lastUpdated": "2026-05-04T14:13:46.600Z",
       "version": 1
     },
     {
@@ -224,7 +197,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-16T03:35:54.083Z",
+      "deadline": "2026-05-15T14:12:52.904Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -234,9 +207,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:49.974Z",
-      "scrapedAt": "2026-05-04T03:35:54.083Z",
-      "lastUpdated": "2026-05-04T03:36:49.974Z",
+      "processedAt": "2026-05-04T14:13:46.609Z",
+      "scrapedAt": "2026-05-04T14:12:52.904Z",
+      "lastUpdated": "2026-05-04T14:13:46.609Z",
       "version": 1
     },
     {
@@ -250,7 +223,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-31T03:35:54.083Z",
+      "deadline": "2026-05-30T14:12:52.904Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -260,9 +233,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:50.983Z",
-      "scrapedAt": "2026-05-04T03:35:54.083Z",
-      "lastUpdated": "2026-05-04T03:36:50.983Z",
+      "processedAt": "2026-05-04T14:13:46.626Z",
+      "scrapedAt": "2026-05-04T14:12:52.904Z",
+      "lastUpdated": "2026-05-04T14:13:46.626Z",
       "version": 1
     },
     {
@@ -286,9 +259,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:50.975Z",
-      "scrapedAt": "2026-05-04T03:35:54.083Z",
-      "lastUpdated": "2026-05-04T03:36:50.975Z",
+      "processedAt": "2026-05-04T14:13:47.642Z",
+      "scrapedAt": "2026-05-04T14:12:52.904Z",
+      "lastUpdated": "2026-05-04T14:13:47.642Z",
       "version": 1
     },
     {
@@ -314,9 +287,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:50.969Z",
-      "scrapedAt": "2026-05-04T03:35:54.083Z",
-      "lastUpdated": "2026-05-04T03:36:50.969Z",
+      "processedAt": "2026-05-04T14:13:47.633Z",
+      "scrapedAt": "2026-05-04T14:12:52.904Z",
+      "lastUpdated": "2026-05-04T14:13:47.633Z",
       "version": 1
     },
     {
@@ -342,9 +315,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:50.979Z",
-      "scrapedAt": "2026-05-04T03:35:54.083Z",
-      "lastUpdated": "2026-05-04T03:36:50.979Z",
+      "processedAt": "2026-05-04T14:13:47.641Z",
+      "scrapedAt": "2026-05-04T14:12:52.905Z",
+      "lastUpdated": "2026-05-04T14:13:47.641Z",
       "version": 1
     },
     {
@@ -368,9 +341,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:51.020Z",
-      "scrapedAt": "2026-05-04T03:35:54.083Z",
-      "lastUpdated": "2026-05-04T03:36:51.020Z",
+      "processedAt": "2026-05-04T14:13:47.635Z",
+      "scrapedAt": "2026-05-04T14:12:52.905Z",
+      "lastUpdated": "2026-05-04T14:13:47.635Z",
       "version": 1
     },
     {
@@ -394,35 +367,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:52.034Z",
-      "scrapedAt": "2026-05-04T03:35:54.084Z",
-      "lastUpdated": "2026-05-04T03:36:52.034Z",
-      "version": 1
-    },
-    {
-      "id": "c_6f9040f8220a",
-      "title": "Unido AfricaRice App Builder Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/unido-africarice-app-builder-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$5 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:52.038Z",
-      "scrapedAt": "2026-05-04T03:35:54.084Z",
-      "lastUpdated": "2026-05-04T03:36:52.038Z",
+      "processedAt": "2026-05-04T14:13:47.665Z",
+      "scrapedAt": "2026-05-04T14:12:52.905Z",
+      "lastUpdated": "2026-05-04T14:13:47.665Z",
       "version": 1
     },
     {
@@ -448,9 +395,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:52.039Z",
-      "scrapedAt": "2026-05-04T03:35:54.084Z",
-      "lastUpdated": "2026-05-04T03:36:52.039Z",
+      "processedAt": "2026-05-04T14:13:48.668Z",
+      "scrapedAt": "2026-05-04T14:12:52.905Z",
+      "lastUpdated": "2026-05-04T14:13:48.668Z",
+      "version": 1
+    },
+    {
+      "id": "c_6f9040f8220a",
+      "title": "Unido AfricaRice App Builder Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/unido-africarice-app-builder-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$5 000 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-05-04T14:13:48.656Z",
+      "scrapedAt": "2026-05-04T14:12:52.905Z",
+      "lastUpdated": "2026-05-04T14:13:48.656Z",
       "version": 1
     },
     {
@@ -474,9 +447,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:52.026Z",
-      "scrapedAt": "2026-05-04T03:35:54.084Z",
-      "lastUpdated": "2026-05-04T03:36:52.026Z",
+      "processedAt": "2026-05-04T14:13:48.656Z",
+      "scrapedAt": "2026-05-04T14:12:52.906Z",
+      "lastUpdated": "2026-05-04T14:13:48.656Z",
       "version": 1
     },
     {
@@ -502,9 +475,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:52.077Z",
-      "scrapedAt": "2026-05-04T03:35:54.084Z",
-      "lastUpdated": "2026-05-04T03:36:52.077Z",
+      "processedAt": "2026-05-04T14:13:48.660Z",
+      "scrapedAt": "2026-05-04T14:12:52.906Z",
+      "lastUpdated": "2026-05-04T14:13:48.660Z",
       "version": 1
     },
     {
@@ -528,15 +501,41 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-04T03:36:53.096Z",
-      "scrapedAt": "2026-05-04T03:35:54.085Z",
-      "lastUpdated": "2026-05-04T03:36:53.096Z",
+      "processedAt": "2026-05-04T14:13:48.695Z",
+      "scrapedAt": "2026-05-04T14:12:52.906Z",
+      "lastUpdated": "2026-05-04T14:13:48.695Z",
+      "version": 1
+    },
+    {
+      "id": "c_3a37af2091c9",
+      "title": "Farm to Feed Shopping Basket Recommendation Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/farm-to-feed-shopping-basket-recommendation-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "€8 250 EUR",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-05-04T14:13:49.699Z",
+      "scrapedAt": "2026-05-04T14:12:52.906Z",
+      "lastUpdated": "2026-05-04T14:13:49.699Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-05-04T03:36:53.102Z"
+    "lastUpdated": "2026-05-04T14:13:49.711Z"
   }
 }

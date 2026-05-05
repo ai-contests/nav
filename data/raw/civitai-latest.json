@@ -1,28 +1,61 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-05-03T13:22:55.814Z",
-  "contestCount": 1,
+  "timestamp": "2026-05-05T03:24:59.334Z",
+  "contestCount": 2,
   "contests": [
     {
       "platform": "civitai",
-      "title": "2 for 1: Every Generation, Twice the Output",
-      "description": "We just shipped a big generation optimization and we're passing the savings on. On **select models**, you'll now get **two images for the price of one** - same Buzz, double the output.",
-      "url": "https://civitai.com/events/692",
-      "deadline": "2026-05-03T23:59:59.999Z",
+      "title": "Refer & Earn",
+      "description": "Share your code. They get 25% bonus Blue Buzz, you get Membership perks and Blue Buzz for each Buzz purchase they make.",
+      "url": "https://civitai.com/events/694",
+      "deadline": "2026-05-17T23:59:59.999Z",
       "prize": "",
-      "rawHtml": "{\"endsAt\":\"2026-05-03T23:59:59.999Z\",\"id\":692,\"title\":\"2 for 1: Every Generation, Twice the Output\",\"content\":\"We just shipped a big generation optimization and we're passing the savings on. On **select models**, you'll now get **two images for the price of one** - same Buzz, double the output.\",\"color\":\"yellow\",\"emoji\":null,\"createdAt\":\"2026-04-24T21:42:13.106Z\",\"startsAt\":\"2026-04-24T21:42:00.000Z\",\"metadata\":{\"image\":\"ac5c0d0f-390a-4211-a08e-1cb0cc1d36ab\",\"actions\":[{\"link\":\"/articles/29076\",\"type\":\"button\",\"linkText\":\"See eligible models\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-05-03T13:21:14.120Z",
+      "rawHtml": "{\"endsAt\":\"2026-05-17T23:59:59.999Z\",\"id\":694,\"title\":\"Refer & Earn\",\"content\":\"Share your code. They get 25% bonus Blue Buzz, you get Membership perks and Blue Buzz for each Buzz purchase they make.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-05-04T19:13:42.504Z\",\"startsAt\":\"2026-05-04T19:13:41.911Z\",\"metadata\":{\"image\":\"c5f46f79-bb40-4167-bd50-cb181e45ac57\",\"actions\":[{\"link\":\"/articles/29485\",\"type\":\"button\",\"linkText\":\"Read more!\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-05-05T03:23:18.762Z",
       "metadata": {
-        "endsAt": "2026-05-03T23:59:59.999Z",
-        "id": 692,
-        "title": "2 for 1: Every Generation, Twice the Output",
-        "content": "We just shipped a big generation optimization and we're passing the savings on. On **select models**, you'll now get **two images for the price of one** - same Buzz, double the output.",
+        "endsAt": "2026-05-17T23:59:59.999Z",
+        "id": 694,
+        "title": "Refer & Earn",
+        "content": "Share your code. They get 25% bonus Blue Buzz, you get Membership perks and Blue Buzz for each Buzz purchase they make.",
+        "color": "violet",
+        "emoji": null,
+        "createdAt": "2026-05-04T19:13:42.504Z",
+        "startsAt": "2026-05-04T19:13:41.911Z",
+        "metadata": {
+          "image": "c5f46f79-bb40-4167-bd50-cb181e45ac57",
+          "actions": [
+            {
+              "link": "/articles/29485",
+              "type": "button",
+              "linkText": "Read more!"
+            }
+          ],
+          "colSpan": 6,
+          "dismissible": true,
+          "targetAudience": "all"
+        }
+      }
+    },
+    {
+      "platform": "civitai",
+      "title": "2 for 1 Generations Extended",
+      "description": "We're extending the event! On **select models**, you'll now get **two images for the price of one** - same Buzz, double the output.",
+      "url": "https://civitai.com/events/693",
+      "deadline": "2026-05-17T23:59:59.999Z",
+      "prize": "",
+      "rawHtml": "{\"endsAt\":\"2026-05-17T23:59:59.999Z\",\"id\":693,\"title\":\"2 for 1 Generations Extended\",\"content\":\"We're extending the event! On **select models**, you'll now get **two images for the price of one** - same Buzz, double the output.\",\"color\":\"yellow\",\"emoji\":null,\"createdAt\":\"2026-05-04T17:43:07.810Z\",\"startsAt\":\"2026-05-04T17:39:08.634Z\",\"metadata\":{\"image\":\"a1adecfa-2dee-49e7-83f3-bead7e34c7fc\",\"actions\":[{\"link\":\"/articles/29076\",\"type\":\"button\",\"linkText\":\"See eligible models\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-05-05T03:23:18.763Z",
+      "metadata": {
+        "endsAt": "2026-05-17T23:59:59.999Z",
+        "id": 693,
+        "title": "2 for 1 Generations Extended",
+        "content": "We're extending the event! On **select models**, you'll now get **two images for the price of one** - same Buzz, double the output.",
         "color": "yellow",
         "emoji": null,
-        "createdAt": "2026-04-24T21:42:13.106Z",
-        "startsAt": "2026-04-24T21:42:00.000Z",
+        "createdAt": "2026-05-04T17:43:07.810Z",
+        "startsAt": "2026-05-04T17:39:08.634Z",
         "metadata": {
-          "image": "ac5c0d0f-390a-4211-a08e-1cb0cc1d36ab",
+          "image": "a1adecfa-2dee-49e7-83f3-bead7e34c7fc",
           "actions": [
             {
               "link": "/articles/29076",

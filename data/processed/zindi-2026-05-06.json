@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-05-06T03:33:44.237Z",
+  "timestamp": "2026-05-06T14:27:00.532Z",
   "contestCount": 20,
   "contests": [
     {
@@ -23,9 +23,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:40.043Z",
-      "scrapedAt": "2026-05-06T03:32:47.702Z",
-      "lastUpdated": "2026-05-06T03:33:40.043Z",
+      "processedAt": "2026-05-06T14:26:56.117Z",
+      "scrapedAt": "2026-05-06T14:26:02.305Z",
+      "lastUpdated": "2026-05-06T14:26:56.117Z",
       "version": 1
     },
     {
@@ -39,7 +39,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-19T03:32:47.702Z",
+      "deadline": "2026-05-18T14:26:02.305Z",
       "prize": "€40 000 EUR",
       "tags": [],
       "aiTools": [
@@ -50,9 +50,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:40.044Z",
-      "scrapedAt": "2026-05-06T03:32:47.702Z",
-      "lastUpdated": "2026-05-06T03:33:40.044Z",
+      "processedAt": "2026-05-06T14:26:56.122Z",
+      "scrapedAt": "2026-05-06T14:26:02.306Z",
+      "lastUpdated": "2026-05-06T14:26:56.122Z",
       "version": 1
     },
     {
@@ -66,7 +66,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-25T03:32:47.702Z",
+      "deadline": "2026-05-24T14:26:02.306Z",
       "prize": "$10 000 USD",
       "tags": [],
       "aiTools": [
@@ -77,9 +77,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:40.073Z",
-      "scrapedAt": "2026-05-06T03:32:47.702Z",
-      "lastUpdated": "2026-05-06T03:33:40.073Z",
+      "processedAt": "2026-05-06T14:26:56.213Z",
+      "scrapedAt": "2026-05-06T14:26:02.306Z",
+      "lastUpdated": "2026-05-06T14:26:56.213Z",
       "version": 1
     },
     {
@@ -93,7 +93,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-25T03:32:47.702Z",
+      "deadline": "2026-05-24T14:26:02.306Z",
       "prize": "$3 500 USD",
       "tags": [],
       "aiTools": [
@@ -104,9 +104,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:41.085Z",
-      "scrapedAt": "2026-05-06T03:32:47.702Z",
-      "lastUpdated": "2026-05-06T03:33:41.085Z",
+      "processedAt": "2026-05-06T14:26:57.200Z",
+      "scrapedAt": "2026-05-06T14:26:02.306Z",
+      "lastUpdated": "2026-05-06T14:26:57.200Z",
       "version": 1
     },
     {
@@ -130,9 +130,113 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:41.078Z",
-      "scrapedAt": "2026-05-06T03:32:47.703Z",
-      "lastUpdated": "2026-05-06T03:33:41.078Z",
+      "processedAt": "2026-05-06T14:26:57.193Z",
+      "scrapedAt": "2026-05-06T14:26:02.306Z",
+      "lastUpdated": "2026-05-06T14:26:57.193Z",
+      "version": 1
+    },
+    {
+      "id": "c_353bc82cb58c",
+      "title": "University Hackathon by Briisp Academy by Briisp Academy",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/university-hackathon-by-briisp-academy",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-08T14:26:02.307Z",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-05-06T14:26:57.191Z",
+      "scrapedAt": "2026-05-06T14:26:02.307Z",
+      "lastUpdated": "2026-05-06T14:26:57.191Z",
+      "version": 1
+    },
+    {
+      "id": "c_dfe81821e3e6",
+      "title": "IndabaX 2026 Emission Forecasting Competition – Nigeria",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/indabax-2026-emission-forecasting-competition-nigeria",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-10T14:26:02.307Z",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-05-06T14:26:57.219Z",
+      "scrapedAt": "2026-05-06T14:26:02.307Z",
+      "lastUpdated": "2026-05-06T14:26:57.219Z",
+      "version": 1
+    },
+    {
+      "id": "c_08002e5a684d",
+      "title": "University Hackathon by Olabisi Onabanjo University",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/university-hackathon-by-olabisi-onabanjo-university",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-15T14:26:02.307Z",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-05-06T14:26:57.288Z",
+      "scrapedAt": "2026-05-06T14:26:02.307Z",
+      "lastUpdated": "2026-05-06T14:26:57.288Z",
+      "version": 1
+    },
+    {
+      "id": "c_0ab61e5ab7c2",
+      "title": "University Hackathon by Miva Open University",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/university-hackathons",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-30T14:26:02.307Z",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-05-06T14:26:58.299Z",
+      "scrapedAt": "2026-05-06T14:26:02.308Z",
+      "lastUpdated": "2026-05-06T14:26:58.299Z",
       "version": 1
     },
     {
@@ -155,113 +259,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:41.091Z",
-      "scrapedAt": "2026-05-06T03:32:47.703Z",
-      "lastUpdated": "2026-05-06T03:33:41.091Z",
-      "version": 1
-    },
-    {
-      "id": "c_353bc82cb58c",
-      "title": "University Hackathon by Briisp Academy by Briisp Academy",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/university-hackathon-by-briisp-academy",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-09T03:32:47.703Z",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:41.078Z",
-      "scrapedAt": "2026-05-06T03:32:47.703Z",
-      "lastUpdated": "2026-05-06T03:33:41.078Z",
-      "version": 1
-    },
-    {
-      "id": "c_dfe81821e3e6",
-      "title": "IndabaX 2026 Emission Forecasting Competition – Nigeria",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/indabax-2026-emission-forecasting-competition-nigeria",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-11T03:32:47.703Z",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:41.119Z",
-      "scrapedAt": "2026-05-06T03:32:47.703Z",
-      "lastUpdated": "2026-05-06T03:33:41.119Z",
-      "version": 1
-    },
-    {
-      "id": "c_08002e5a684d",
-      "title": "University Hackathon by Olabisi Onabanjo University",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/university-hackathon-by-olabisi-onabanjo-university",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-16T03:32:47.704Z",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:42.133Z",
-      "scrapedAt": "2026-05-06T03:32:47.704Z",
-      "lastUpdated": "2026-05-06T03:33:42.133Z",
-      "version": 1
-    },
-    {
-      "id": "c_0ab61e5ab7c2",
-      "title": "University Hackathon by Miva Open University",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/university-hackathons",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-31T03:32:47.704Z",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:42.130Z",
-      "scrapedAt": "2026-05-06T03:32:47.704Z",
-      "lastUpdated": "2026-05-06T03:33:42.130Z",
+      "processedAt": "2026-05-06T14:26:58.284Z",
+      "scrapedAt": "2026-05-06T14:26:02.308Z",
+      "lastUpdated": "2026-05-06T14:26:58.284Z",
       "version": 1
     },
     {
@@ -285,9 +285,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:42.136Z",
-      "scrapedAt": "2026-05-06T03:32:47.704Z",
-      "lastUpdated": "2026-05-06T03:33:42.136Z",
+      "processedAt": "2026-05-06T14:26:58.311Z",
+      "scrapedAt": "2026-05-06T14:26:02.308Z",
+      "lastUpdated": "2026-05-06T14:26:58.311Z",
       "version": 1
     },
     {
@@ -313,9 +313,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:42.119Z",
-      "scrapedAt": "2026-05-06T03:32:47.705Z",
-      "lastUpdated": "2026-05-06T03:33:42.119Z",
+      "processedAt": "2026-05-06T14:26:58.293Z",
+      "scrapedAt": "2026-05-06T14:26:02.308Z",
+      "lastUpdated": "2026-05-06T14:26:58.293Z",
       "version": 1
     },
     {
@@ -341,9 +341,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:42.166Z",
-      "scrapedAt": "2026-05-06T03:32:47.705Z",
-      "lastUpdated": "2026-05-06T03:33:42.166Z",
+      "processedAt": "2026-05-06T14:26:58.390Z",
+      "scrapedAt": "2026-05-06T14:26:02.308Z",
+      "lastUpdated": "2026-05-06T14:26:58.390Z",
       "version": 1
     },
     {
@@ -367,9 +367,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:43.186Z",
-      "scrapedAt": "2026-05-06T03:32:47.705Z",
-      "lastUpdated": "2026-05-06T03:33:43.186Z",
+      "processedAt": "2026-05-06T14:26:59.388Z",
+      "scrapedAt": "2026-05-06T14:26:02.308Z",
+      "lastUpdated": "2026-05-06T14:26:59.388Z",
       "version": 1
     },
     {
@@ -393,9 +393,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:43.180Z",
-      "scrapedAt": "2026-05-06T03:32:47.705Z",
-      "lastUpdated": "2026-05-06T03:33:43.180Z",
+      "processedAt": "2026-05-06T14:26:59.388Z",
+      "scrapedAt": "2026-05-06T14:26:02.309Z",
+      "lastUpdated": "2026-05-06T14:26:59.388Z",
       "version": 1
     },
     {
@@ -421,9 +421,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:43.164Z",
-      "scrapedAt": "2026-05-06T03:32:47.705Z",
-      "lastUpdated": "2026-05-06T03:33:43.164Z",
+      "processedAt": "2026-05-06T14:26:59.373Z",
+      "scrapedAt": "2026-05-06T14:26:02.309Z",
+      "lastUpdated": "2026-05-06T14:26:59.373Z",
       "version": 1
     },
     {
@@ -447,9 +447,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:43.165Z",
-      "scrapedAt": "2026-05-06T03:32:47.706Z",
-      "lastUpdated": "2026-05-06T03:33:43.165Z",
+      "processedAt": "2026-05-06T14:26:59.404Z",
+      "scrapedAt": "2026-05-06T14:26:02.309Z",
+      "lastUpdated": "2026-05-06T14:26:59.404Z",
       "version": 1
     },
     {
@@ -473,9 +473,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:43.214Z",
-      "scrapedAt": "2026-05-06T03:32:47.706Z",
-      "lastUpdated": "2026-05-06T03:33:43.214Z",
+      "processedAt": "2026-05-06T14:26:59.458Z",
+      "scrapedAt": "2026-05-06T14:26:02.309Z",
+      "lastUpdated": "2026-05-06T14:26:59.458Z",
       "version": 1
     },
     {
@@ -501,9 +501,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:44.231Z",
-      "scrapedAt": "2026-05-06T03:32:47.706Z",
-      "lastUpdated": "2026-05-06T03:33:44.231Z",
+      "processedAt": "2026-05-06T14:27:00.471Z",
+      "scrapedAt": "2026-05-06T14:26:02.309Z",
+      "lastUpdated": "2026-05-06T14:27:00.471Z",
       "version": 1
     },
     {
@@ -527,15 +527,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-06T03:33:44.228Z",
-      "scrapedAt": "2026-05-06T03:32:47.706Z",
-      "lastUpdated": "2026-05-06T03:33:44.228Z",
+      "processedAt": "2026-05-06T14:27:00.520Z",
+      "scrapedAt": "2026-05-06T14:26:02.309Z",
+      "lastUpdated": "2026-05-06T14:27:00.520Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-05-06T03:33:44.237Z"
+    "lastUpdated": "2026-05-06T14:27:00.532Z"
   }
 }

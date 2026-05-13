@@ -1,6 +1,6 @@
 {
   "platform": "all",
-  "timestamp": "2026-05-13T03:47:05.061Z",
+  "timestamp": "2026-05-13T14:46:52.433Z",
   "contestCount": 48,
   "contests": [
     {
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:54.636Z",
-      "scrapedAt": "2026-05-13T03:46:05.681Z",
-      "lastUpdated": "2026-05-13T03:46:54.636Z",
+      "processedAt": "2026-05-13T14:46:41.922Z",
+      "scrapedAt": "2026-05-13T14:45:54.159Z",
+      "lastUpdated": "2026-05-13T14:46:41.922Z",
       "version": 1
     },
     {
@@ -42,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T03:46:05.682Z",
+      "deadline": "2030-08-14T14:45:54.160Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -53,9 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:55.449Z",
-      "scrapedAt": "2026-05-13T03:46:05.682Z",
-      "lastUpdated": "2026-05-13T03:46:55.449Z",
+      "processedAt": "2026-05-13T14:46:42.837Z",
+      "scrapedAt": "2026-05-13T14:45:54.160Z",
+      "lastUpdated": "2026-05-13T14:46:42.837Z",
       "version": 1
     },
     {
@@ -69,7 +69,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T03:46:05.682Z",
+      "deadline": "2045-08-31T14:45:54.160Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -80,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:55.544Z",
-      "scrapedAt": "2026-05-13T03:46:05.682Z",
-      "lastUpdated": "2026-05-13T03:46:55.544Z",
+      "processedAt": "2026-05-13T14:46:42.935Z",
+      "scrapedAt": "2026-05-13T14:45:54.160Z",
+      "lastUpdated": "2026-05-13T14:46:42.935Z",
       "version": 1
     },
     {
@@ -96,7 +96,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T03:46:05.682Z",
+      "deadline": "2030-12-30T14:45:54.160Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -110,9 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:55.599Z",
-      "scrapedAt": "2026-05-13T03:46:05.682Z",
-      "lastUpdated": "2026-05-13T03:46:55.599Z",
+      "processedAt": "2026-05-13T14:46:42.956Z",
+      "scrapedAt": "2026-05-13T14:45:54.160Z",
+      "lastUpdated": "2026-05-13T14:46:42.956Z",
       "version": 1
     },
     {
@@ -138,9 +138,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:55.599Z",
-      "scrapedAt": "2026-05-13T03:46:05.683Z",
-      "lastUpdated": "2026-05-13T03:46:55.599Z",
+      "processedAt": "2026-05-13T14:46:42.887Z",
+      "scrapedAt": "2026-05-13T14:45:54.161Z",
+      "lastUpdated": "2026-05-13T14:46:42.887Z",
       "version": 1
     },
     {
@@ -164,9 +164,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:55.646Z",
-      "scrapedAt": "2026-05-13T03:46:05.684Z",
-      "lastUpdated": "2026-05-13T03:46:55.646Z",
+      "processedAt": "2026-05-13T14:46:43.013Z",
+      "scrapedAt": "2026-05-13T14:45:54.162Z",
+      "lastUpdated": "2026-05-13T14:46:43.013Z",
       "version": 1
     },
     {
@@ -191,9 +191,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:56.648Z",
-      "scrapedAt": "2026-05-13T03:45:03.555Z",
-      "lastUpdated": "2026-05-13T03:46:56.648Z",
+      "processedAt": "2026-05-13T14:46:44.018Z",
+      "scrapedAt": "2026-05-13T14:44:56.756Z",
+      "lastUpdated": "2026-05-13T14:46:44.018Z",
       "version": 1
     },
     {
@@ -218,9 +218,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:56.647Z",
-      "scrapedAt": "2026-05-13T03:45:03.555Z",
-      "lastUpdated": "2026-05-13T03:46:56.647Z",
+      "processedAt": "2026-05-13T14:46:44.031Z",
+      "scrapedAt": "2026-05-13T14:44:56.757Z",
+      "lastUpdated": "2026-05-13T14:46:44.031Z",
       "version": 1
     },
     {
@@ -228,19 +228,14 @@
       "title": "Build with MeDo Hackathon",
       "platform": "devpost",
       "url": "https://medo.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/516/528/datas/original.png",
-      "description": "Welcome to the Build with MeDo Hackathon！ Whether you’re a developer or a creator, MeDo lets you turn conversations into fully functional applications – from brainstorming to deployment. With MeDo, you can: Build full‑stack apps just by describing them in natural language. Iterate quickly via multi‑turn chat or visual editor. Integrate plugins and APIs effortlessly. Deploy with one click to a public URL. Pick one of our themed tracks or go freestyle. Show us what you can create when AI handles the heavy lifting! Get Started Register with this invite link to get 300 bonus credits! Join our Discord community to connect with other participants, find teammates, and win a $500 community exclusive prize! Community Voting (April 9, 9AM – June 4, 10AM): Post your project in the #showcase channel on Discord. Community members vote for their favorite projects. The 5 projects with the most votes each win $500. More Resources to help you build!",
-      "summary": "Welcome to the Build with MeDo Hackathon！ Whether you’re a developer or a creator, MeDo lets you turn conversations into fully functional applications – from brainstorming to deployment. With MeDo, yo...",
-      "contestType": "text",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/516/528/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-05-20T13:00:00.000Z",
       "prize": "$50,000",
-      "tags": [
-        "Beginner Friendly",
-        "Low",
-        "No Code"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -249,9 +244,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:56.651Z",
-      "scrapedAt": "2026-05-13T03:45:31.068Z",
-      "lastUpdated": "2026-05-13T03:46:56.651Z",
+      "processedAt": "2026-05-13T14:46:44.008Z",
+      "scrapedAt": "2026-05-13T14:45:23.888Z",
+      "lastUpdated": "2026-05-13T14:46:44.008Z",
       "version": 1
     },
     {
@@ -259,18 +254,14 @@
       "title": "Google Cloud Rapid Agent Hackathon",
       "platform": "devpost",
       "url": "https://rapid-agent.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/623/datas/original.jpg",
-      "description": "About the challenge AI that doesn't just provide answers—it helps you take action. Building Agents for Real-World Challenges is your opportunity to move beyond the chatbot and into the world of agents that accomplish tasks for you. This hackathon is designed for every level of technical builder: whether you are writing your first script or architecting complex systems, this is your chance to build an agent that can reason, plan, and execute tasks under your oversight. Built with Gemini’s advanced reasoning and our technology partners' solutions, you will create agents that help people get more done. You provide the logic; Gemini provides the brain; our partners provide the superpowers. Turn your ideas into agents that solve real-world problems. Partners Six partner tracks are now live. Pick one and build with their MCP server: Arize Elastic Fivetran GitLab MongoDB Dynatrace The \"Partner Bucket\" System There are three identical prize buckets—one for each of our featured partner tracks. Instead of everyone competing for one giant pile of money, you are competing within the specific \"bucket\" of the partner technology you used. Prize Tier Amount (Per Partner Bucket):🥇 1st Place $5,000🥈 2nd Place $3,000🥉 3rd Place $2,000 How to Qualify Pick a Partner: Choose the partner technology that best fits the mission you want to accomplish. Build Your Agent: Create your agent—built with Gemini 3—using Google Cloud Agent Builder. Integrate the partner’s Model Context Protocol (MCP) server to give your agent the superpowers to finish the job. Win Your Track: You’ll be judged specifically against other builders within that same partner category.",
-      "summary": "About the challenge AI that doesn't just provide answers—it helps you take action. Building Agents for Real-World Challenges is your opportunity to move beyond the chatbot and into the world of agents...",
-      "contestType": "text",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-06-11T21:00:00.000Z",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/623/datas/medium_square.jpg",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$60,000",
-      "tags": [
-        "Databases",
-        "Open Ended"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -279,9 +270,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:56.654Z",
-      "scrapedAt": "2026-05-13T03:45:31.069Z",
-      "lastUpdated": "2026-05-13T03:46:56.654Z",
+      "processedAt": "2026-05-13T14:46:44.003Z",
+      "scrapedAt": "2026-05-13T14:45:23.888Z",
+      "lastUpdated": "2026-05-13T14:46:44.003Z",
       "version": 1
     },
     {
@@ -289,18 +280,14 @@
       "title": "FIND EVIL!",
       "platform": "devpost",
       "url": "https://findevil.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/521/059/datas/original.png",
-      "description": "The Speed Problem An AI-powered adversary can go from initial access to full domain control in under 8 minutes. CrowdStrike's fastest observed breakout time: 7 minutes. Horizon3's autonomous agent: 60 seconds to full privilege escalation. MIT's 2024 research: AI-driven attack workflows running 47 times faster than human operators. Meanwhile, a human incident responder is still pulling up their toolkit. That gap is the most dangerous problem in cybersecurity. Find Evil! challenges you to close it. The Mission You'll build autonomous AI agents on the SANS SIFT Workstation --- 200+ incident response tools on a single platform, 18 years of community development, 60K+ annual downloads. Protocol SIFT, the proof-of-concept framework that connects AI agents to those tools through Model Context Protocol (MCP). Protocol SIFT works. It also hallucinates more than we'd like. (That's exactly why this hackathon exists.) Unlike offensive teams that operate with three or four people in secret, we're putting the entire practitioner community on this problem simultaneously. Your job: teach an AI agent to think like a senior analyst --- how to sequence its approach, recognize when something doesn't add up, and self-correct when it gets it wrong. Who Should Join You don't need to be an incident response expert. The SIFT Workstation handles the domain tooling. You need curiosity and building skills. IR/Security professionals: You've been finding evil manually for years. Build the AI partner you wish you had at 3 AM during an active incident. AI/ML engineers: Apply your skills to a domain where speed determines whether attackers win. Real case data, real tools, no toy datasets. Students and early-career builders: No IR background required. The SIFT Workstation is your on-ramp to the most in-demand intersection in tech. Open-source contributors: Every submission lives on as a community tool. Build something thousands of responders will use. Four supported architectural approaches: Direct Agent Extension (Claude Code or OpenClaw), Custom MCP Server, Multi-Agent Frameworks (AutoGen, CrewAI, LangGraph), or Alternative Agentic IDEs (Cursor, Cline, Aider). Teams up to 5. Solo permitted. April 15 -- June 15, 2026. $22,000+ in prizes. About the Challenge Why this exists In November 2025, Anthropic's security team published findings on GTG-1002 --- a Chinese state-sponsored operation where attackers used Claude Code to run autonomous reconnaissance, exploitation, and lateral movement at 80-90% autonomy. The AI handled everything at request rates Anthropic described as \"physically impossible\" for human operators. That was the offensive side. The SIFT Workstation is the defensive platform. Protocol SIFT demonstrated what's possible when you connect AI agents to that platform through MCP. This hackathon is how the community makes it real. The DFIR community built the SIFT Workstation 18 years ago to give every practitioner access to professional-grade tools. Find Evil! extends that mission: give every responder an AI co-pilot that can triage incidents at the speed adversaries now operate. The gap we're closing Manual command-line incident response cannot compete with autonomous agents executing thousands of requests. Adversaries move at machine speed. Defenders still look up command-line flags during active incidents. Your goal: build AI systems on the SIFT Workstation that match that velocity --- triaging, correlating, and reporting at the pace the threat demands. This hackathon is how. Get Started Register on Devpost (you're here) Join the Protocol SIFT Slack --- this is where questions get answered, teams form, and mentors hang out - Download the SIFT Workstation from sans.org/tools/sift-workstation Install Protocol SIFT Package to demonstrate automated analysis, To install Protocol SIFT, after you download SIFT OVA, and login, run this command from your terminal:: $ curl -fsSL https://raw.githubusercontent.com/teamdfir/protocol-sift/main/install.sh | bash Review the starter resources: sample case data (hard drives, memory images), example submission. Pick a problem and start building. See \"What to Build\" for project ideas and supported architectural approaches to get past the blank-screen problem.",
-      "summary": "The Speed Problem An AI-powered adversary can go from initial access to full domain control in under 8 minutes. CrowdStrike's fastest observed breakout time: 7 minutes. Horizon3's autonomous agent: 60...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-06-16T03:45:00.000Z",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/521/059/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$22,000",
-      "tags": [
-        "Cybersecurity",
-        "Beginner Friendly"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -309,9 +296,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:56.758Z",
-      "scrapedAt": "2026-05-13T03:45:31.070Z",
-      "lastUpdated": "2026-05-13T03:46:56.758Z",
+      "processedAt": "2026-05-13T14:46:44.079Z",
+      "scrapedAt": "2026-05-13T14:45:23.889Z",
+      "lastUpdated": "2026-05-13T14:46:44.079Z",
       "version": 1
     },
     {
@@ -319,19 +306,14 @@
       "title": "Reddit Mod Tools and Migrated Apps Hackathon",
       "platform": "devpost",
       "url": "https://mod-tools-migration.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/498/306/datas/original.png",
-      "description": "Overview Reddit is hosting the Mod Tools and Migrated Apps Hackathon from April 29nd to May 27th. We’re offering developers $45,000 in prizes for new tools built to empower moderators, as well as existing mod apps ported from our Data API to Devvit. The challenge: create a utility, automation, or moderation tool that solves existing community pain points using Devvit i.e. Reddit’s Developer Platform. For this hackathon, we have three categories with grand prizes: New Mod Tool Category: Build a brand-new utility or tool designed to make both leading and moderating communities easier. We want to see time savings, utilities for thoughtful engagement, and tools to delight subreddit moderators across the site. Ported Data API App Category: Take a classic Reddit bot (originally built on PRAW or other frameworks) and port it to Devvit. We want to see these essential tools become more stable, faster, and easier for mods to install via the App Directory. We are excited to see individual community tools become generalized for broader mod benefit, as well as bespoke subreddit tools finding a home on Devvit. Moderators Choice: A panel of moderator judges will select one additional grand prize winner, based on the core judging criteria. This moderator panel will review a shortlist of projects from the two other categories that score highly in the first round of judging. What to Build Build a moderation app with Devvit. We are looking for tools that range from automated enforcement, to better queue management, to creative community-building utilities. The best apps reduce moderation load significantly, improve community operation, or serve to incentivize good behavior in the community through innovative utilities. These apps can have a custom post component, or can operate entirely in the background. We want to see evidence that the tool can save significant time or make a measurable impact. Importantly, the tool should also be easy to understand, install, and provide a great user experience for mods installing the tool. The Best New Mod Tool: For the most innovative tool or utility that solves a significant pain point for moderators. This could be easier rule enforcement, moderation workflows, community engagement tools, or anything else that supports moderators in community leadership. It should be unique to the Devvit ecosystem and provide a seamless experience for mod teams. The app should not have been created prior to the content period. The Best Ported App: This award recognizes the most successful migration of an existing Data API moderation bot or tool* to Devvit. The winning submission will maintain the bot’s core utilityand can be generalized to serve many communities through app install. You should be the bot owner, or have written permission to port the bot you are submitting for this event. *Existing Data API bots must have been operating on Reddit prior to March 2026 and support one or more existing communities with 500 or more Weekly Active Users. These can be mod tools, utilities, or anything else that improves the day-to-day functioning of an existing Reddit community. Apps not built with Reddit's Data API do not count towards this category. Requirements Apps must be built on Reddit's Developer Platform and be compliant with our Devvit Rules. For this event we are looking for polish, meaning apps that are as close to launch-ready as possible. We understand that not all projects will reach this threshold, but projects that are well tested and concept-complete will score higher. Getting started Get started with the Devvit documentation for moderation apps. Review our bot porting guide on migrating Data API bots to Devvit. Join us on Discord and r/Devvit for live support and office hours Sustaining Success Successful apps built during the hackathon can become eligible for Reddit Developer Funds, which rewards apps for reaching engagement milestones. Learn more about the program here. Successful ports can also be eligable for a porting bounty via our App Migration Program. Need inspiration? Join our Discord to chat with other developers and get live support from the Reddit team.",
-      "summary": "Overview Reddit is hosting the Mod Tools and Migrated Apps Hackathon from April 29nd to May 27th. We’re offering developers $45,000 in prizes for new tools built to empower moderators, as well as exis...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/498/306/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-05-28T01:00:00.000Z",
       "prize": "$45,000",
-      "tags": [
-        "Beginner Friendly",
-        "Social Good",
-        "Web"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -340,9 +322,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:57.709Z",
-      "scrapedAt": "2026-05-13T03:45:31.070Z",
-      "lastUpdated": "2026-05-13T03:46:57.709Z",
+      "processedAt": "2026-05-13T14:46:45.105Z",
+      "scrapedAt": "2026-05-13T14:45:23.890Z",
+      "lastUpdated": "2026-05-13T14:46:45.105Z",
       "version": 1
     },
     {
@@ -350,36 +332,25 @@
       "title": "BluePrint 2026 - Hackthon for freshers and Students",
       "platform": "devpost",
       "url": "https://blueprint-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/556/423/datas/original.jpg",
-      "description": "About the challenge BluePrint 2026: Innovation Meets Impact Welcome to BluePrint 2026 — a hackathon designed for freshers and students who want to build solutions that matter, not just code that compiles. Build practical solutions for real-world problems in Healthcare, EdTech, FinTech, AgriTech, Environment & E-Commerce. This isn't about building random projects. It's about solving real problems that impact millions of people across India. 🎯 THE PROBLEM Every day, millions of people face challenges they shouldn't have to: Students struggle with personalized learning at scale Rural patients can't access specialist doctors Farmers get exploited by middlemen Small sellers lose 40% of revenue to logistics Climate issues feel too big to solve individually You can change this. 💡 THE OPPORTUNITY This hackathon gives you 6 domains to choose from. Pick one. Find a real problem. Build a real solution. 🏥 Healthcare Medical accessibility, patient data systems, telehealth solutions Example: Connect rural patients to specialist doctors via video consultation 📚 EdTech Personalized learning, accessibility, affordability Example: AI platform that adapts learning content to each student's pace 💰 FinTech Financial inclusion, payments, investment tools Example: Mobile wallet for migrant workers to send remittances home with zero fees 🌾 AgriTech Farm productivity, market access, sustainability Example: Marketplace connecting farmers directly to buyers, cutting out middlemen 🌍 Environment Climate action, waste management, energy efficiency Example: Mobile app tracking personal carbon footprint with sustainable alternatives 🛍️ E-Commerce Supply chain, logistics, seller tools Example: Logistics optimization tool helping small sellers reduce delivery costs by 40% 🔥 WHY BLUEPRINT 2026? Real Impact — Solutions that can actually change lives Practical Focus — We judge on execution thinking, not just code Student-Centric — Built for freshers & students to shine Recognition — Winners featured on ConnectsBlue platform Prizes — Cash rewards + gift vouchers for top teams Career Boost — Add winning projects to your resume Get started 📋 HOW IT WORKS (4 Simple Steps) Step 1: Choose Your Domain (5 minutes) Pick ONE from the 6 domains above. Which problem excites you most? Step 2: Find Your Problem (1-2 weeks) Talk to real users Understand their pain points Don't assume — validate Document what you learn Step 3: Design Your Solution (2-3 weeks) Sketch out your approach Think through execution Plan how you'd build it Make it practical, not just theoretical Step 4: Submit & Present (Before April 30) Document your findings (2-3 pages max) Submit via ConnectsBlue Selected teams present to judges Winners announced & celebrated ✅ SUBMISSION REQUIREMENTS What to Submit: Your solution in ONE of these formats: 📄 PDF Document (2-3 pages max) 🎬 PowerPoint Presentation (10-15 slides) 🎥 Video Explanation (5-7 minutes) What to Include: Problem Statement — The exact issue you're solving User Research — Who are the users? What do they need? Your Solution — How does it solve the problem? Execution Plan — Step-by-step approach to build it Why It Works — Why is your solution practical & doable? Team Details — Who's on your team? 🏆 JUDGING CRITERIA We evaluate based on: 1. Problem Understanding (20%) Do you truly understand the problem? Is it a real pain point? Have you validated with users? 2. Innovation (20%) Is your solution creative? Is it different from existing solutions? Does it bring a fresh perspective? 3. Practicality (25%) ⭐ Most Important Can this actually be built? Is the execution approach realistic? Have you thought through real-world challenges? Can a fresher/student actually execute this? 4. Impact (20%) Who benefits from your solution? How many people will it help? What's the scale of impact? 5. Clarity (15%) Is your idea clearly communicated? Can judges understand your approach? Is the presentation professional? 💰 PRIZES & REWARDS 🥇 1st Place ₹3000 Cash Prize Featured on ConnectsBlue Platform Case Study Documentation Certificate of Excellence 🥈 2nd Place ₹ 2000 Cash Prize Featured on ConnectsBlue Platform Certificate of Merit 🥉 3rd Place ₹1000 Cash Prize Featured on ConnectsBlue Platform Certificate of Merit 🎁 All Winners Gift Vouchers LinkedIn Recognition ConnectsBlue Community Spotlight 📅 IMPORTANT DATES Event Date Registration Opens [YOUR START DATE] Submission Deadline April 30, 2026, 11:59 PM IST Winners Announced [YOUR DATE] ❓ FREQUENTLY ASKED QUESTIONS Q: Can I participate if I'm not a student? A: This hackathon is exclusively for freshers and current students. Q: What if I don't have a team? A: Individual submissions are welcome! You can also form a team of up to 4 members. Q: Do I need to code to participate? A: Not necessarily. We value problem-solving thinking and practical execution planning — not just code. You can submit a detailed solution design without a working prototype. Q: Can my team members be from different colleges? A: Yes, absolutely. Mixed teams are encouraged. Q: What if my domain doesn't fit perfectly? A: Pick the closest domain. If it's genuinely unique, contact us at mkumar@bluepms.com. Q: Is there a submission format preference? A: No. PDF, PowerPoint, or Video — pick what best explains your idea. Q: When will winners be announced? A: Winners will be announced [YOUR DATE]. All teams will receive feedback. Q: Can I submit after the deadline? A: No. The deadline is firm: April 30, 2026, 11:59 PM IST. Q: How do I submit my project? A: Register & submit on the ConnectsBlue platform (link below). 🔗 REGISTER & SUBMIT 👉 Registration & Submission Link: https://connectsblue.com/competitions/blueprint-2026-6e341 📧 Questions? Contact: mkumar@bluepms.com 🌐 Learn More: Website: https://connectsblue.com/ 💬 FINAL THOUGHTS We're not looking for perfect solutions. We're looking for thoughtful, practical approaches to real problems. Your idea might not be revolutionary. But if it solves a real problem in a practical way, you belong here. Don't wait. Register today. Build something that matters. See you on the other side. BluePrint 2026 — Build. Solve. Impact.",
-      "summary": "About the challenge BluePrint 2026: Innovation Meets Impact Welcome to BluePrint 2026 — a hackathon designed for freshers and students who want to build solutions that matter, not just code that compi...",
-      "contestType": "video",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/556/423/datas/medium_square.jpg",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-05-14T11:30:00.000Z",
       "prize": "₹ 18,000",
-      "tags": [
-        "Low",
-        "No Code",
-        "Productivity",
-        "Web"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [
-        "2026",
-        "contact us at mkumar@bluepms.com. Q: Is there a submission format preference? A: No. PDF",
-        "PowerPoint",
-        "2026"
-      ],
+      "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:57.699Z",
-      "scrapedAt": "2026-05-13T03:45:31.073Z",
-      "lastUpdated": "2026-05-13T03:46:57.699Z",
+      "processedAt": "2026-05-13T14:46:45.096Z",
+      "scrapedAt": "2026-05-13T14:45:23.893Z",
+      "lastUpdated": "2026-05-13T14:46:45.096Z",
       "version": 1
     },
     {
@@ -387,17 +358,15 @@
       "title": "DevNetwork [AI + ML] Hackathon 2026",
       "platform": "devpost",
       "url": "https://devnetwork-ai-ml-hack-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/474/092/datas/original.jpg",
-      "description": "Join the nation's largest challenge-driven hackathon @ AI DevSummit 2026! DevNetwork [AI + ML] Hackathon 2026 Join the largest challenge-driven in-person & online hackathon, co-located with AI DevSummit 2026! Our hackathons regularly attract over 300+ participants -- and we are inviting the international developer community to converge in-person & online this year for the DevNetwork [AI + ML] Hackathon 2026! In Person & Awards - South San Francisco Conference Center - May 27-28, 2026 Online - May 11 - May 28, 2026 1. Create a DevPost account and click Register on the DevPost DevNetwork [AI + ML] Hackathon 2026 page. 2. DevNetwork Hackathon: AI/ML 2026 Hackathon Kicks off May 11, 2026! Join the Kick Off Call here 3. Review full Hackathon Instructions here!",
-      "summary": "Join the nation's largest challenge-driven hackathon @ AI DevSummit 2026! DevNetwork [AI + ML] Hackathon 2026 Join the largest challenge-driven in-person & online hackathon, co-located with AI DevSumm...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/474/092/datas/medium_square.jpg",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-05-28T17:00:00.000Z",
       "prize": "$8,000",
       "tags": [
-        "DevOps",
-        "Enterprise"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -407,9 +376,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:57.715Z",
-      "scrapedAt": "2026-05-13T03:45:31.074Z",
-      "lastUpdated": "2026-05-13T03:46:57.715Z",
+      "processedAt": "2026-05-13T14:46:45.067Z",
+      "scrapedAt": "2026-05-13T14:45:23.894Z",
+      "lastUpdated": "2026-05-13T14:46:45.067Z",
       "version": 1
     },
     {
@@ -417,18 +386,14 @@
       "title": "DSH Hacks V1",
       "platform": "devpost",
       "url": "https://dsh-hacks-v1.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/466/363/datas/original.png",
-      "description": "About the Challenge DSH Hacks V1 is a global student competition open to students aged 13+ hosted collaboratively by three youth-led organizations: DeltaForge Hacks, NextHorizon, and STEMise. Theme: AI x STEM Education This event brings together young innovators from around the world to reimagine the future of STEM education through artificial intelligence. Participants will work individually or in teams to design and develop a meaningful technical product that leverages AI to improve, enhance, or expand STEM education. Projects may range from machine learning tools that personalize learning pathways to computer vision systems for laboratory simulations, to AI-driven platforms that increase accessibility for underrepresented communities. Creativity, feasibility, technical depth, and real-world impact will be central to evaluation. The theme of this competition is to create tools that help students learn STEM more effectively, interactively, and accessibly. These tools can be an app, a website, a simulation, a system, or an algorithm. Participants are allowed to use AI to encourage them to build a meaningful solution in the realm of STEM education and to lower the technical barrier that imposes challenges for beginners with ambitious project ideas. Get Started Ask around and form a team! We highly recommend finding like-minded individuals around you to help make your ideas a reality! Please join these Discord servers: DeltaForge Hacks & STEMise! You may very well find your new team!",
-      "summary": "About the Challenge DSH Hacks V1 is a global student competition open to students aged 13+ hosted collaboratively by three youth-led organizations: DeltaForge Hacks, NextHorizon, and STEMise. Theme: A...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "beginner",
-      "deadline": "2026-06-02T04:45:00.000Z",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/466/363/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$5,096",
-      "tags": [
-        "Beginner Friendly",
-        "Social Good"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -437,9 +402,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:57.702Z",
-      "scrapedAt": "2026-05-13T03:45:31.075Z",
-      "lastUpdated": "2026-05-13T03:46:57.702Z",
+      "processedAt": "2026-05-13T14:46:45.080Z",
+      "scrapedAt": "2026-05-13T14:45:23.894Z",
+      "lastUpdated": "2026-05-13T14:46:45.080Z",
       "version": 1
     },
     {
@@ -447,33 +412,25 @@
       "title": "HackAmerica",
       "platform": "devpost",
       "url": "https://hackamerica.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/620/523/datas/original.png",
-      "description": "About the challenge Next spring, HackAmerica is encouraging high school students nationwide to participate in one of the largest student-led hackathons in the United States. Over a week, students will immerse themselves in the dynamic, ongoing, social-environmental issues that exist in this country and others around the world, choosing a focus of their choice. Whether solo or in a team of up to four, your mission is to build something that matters. Feel free to use any tools or tech, as there are no limits—only one rule: your project must be submitted before time’s up to be judged by our panel. This isn’t just about coding—it’s about bold ideas, smart collaboration, and sparking a real difference. Beginners, experts, and everyone in between are welcome. Come build with us, and show the world what students can do when we lead the way. Get started Whether you’re going solo or collaborating with up to 3 fellow hackers, HackAmerica is still your place to design: from within anywhere in the nation. We will give you a full liberty of any programming languages, tools, or platforms (yes, ChatGPT is allowed) that you like. We won’t restrict your freedom. Construct what you have learned or even experiment with new ones. As HackAmerica is an online event, we will program your creativity for success. There will be lots of virtual workshops, live Q&As, mini-challenges, and community events in the schedule for you to energize your mind, enhance your skills, and get acquainted with other hackers across America. Our Discord server is your home base. Here is where you will find the people who will be working with you, the place to share your ideas, the place to ask questions, and the place to get mentor’s help all along the weekend. If you have a lot of programming experience or if you are just learning the code, you will find a community that will stand with you. No experience in hackathons? The situation is even better. Your only requirements are curiosity, Wi-Fi, and the courage to create something daring.The inception of any great idea starts with one small decision: the decision to start. So go for it – we are ready to see what you’re going to build.",
-      "summary": "About the challenge Next spring, HackAmerica is encouraging high school students nationwide to participate in one of the largest student-led hackathons in the United States. Over a week, students will...",
-      "contestType": "text",
-      "status": "active",
-      "difficulty": "beginner",
-      "deadline": "2026-05-23T18:00:00.000Z",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/620/523/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$575",
-      "tags": [
-        "Beginner Friendly",
-        "Design",
-        "Social Good"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [
-        "are curiosity",
-        "Wi-Fi"
-      ],
+      "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:57.763Z",
-      "scrapedAt": "2026-05-13T03:45:31.076Z",
-      "lastUpdated": "2026-05-13T03:46:57.763Z",
+      "processedAt": "2026-05-13T14:46:45.168Z",
+      "scrapedAt": "2026-05-13T14:45:23.894Z",
+      "lastUpdated": "2026-05-13T14:46:45.168Z",
       "version": 1
     },
     {
@@ -482,17 +439,13 @@
       "platform": "devpost",
       "url": "https://luma-hackathon-500.devpost.com/?ref_feature=challenge&ref_medium=discover",
       "imageUrl": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-      "description": "What is a Hackathon? A hackathon is a technical sprint. You will execute a functional project like an app, website, or software tool that solves a real world problem through code. Round 1: Project Submission Submit a 5 minute video demonstration covering: The Problem: What specific technical or social challenge are you tackling? The Build: A walkthrough of your codebase, architecture, and the stack used. The Demo: A screen share recording of the project functioning in real time. Scalability: How is this project suited to handle more data or more users? Round 2: Live Finals The top technical projects will advance to a Live Demonstration and Q&A. Finalists will run their code live for a panel of judges and defend their technical logic and architecture in a real time discussion. Prizes 1st Place: $250 cash All Participants: Subscription bundle Who Can Participate? Any high school or middle schooler student. Teams of 1 to 5.",
-      "summary": "What is a Hackathon? A hackathon is a technical sprint. You will execute a functional project like an app, website, or software tool that solves a real world problem through code. Round 1: Project Sub...",
-      "contestType": "video",
-      "status": "active",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-06-20T03:45:00.000Z",
       "prize": "1",
-      "tags": [
-        "Beginner Friendly",
-        "Open Ended"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -501,9 +454,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:58.762Z",
-      "scrapedAt": "2026-05-13T03:45:31.076Z",
-      "lastUpdated": "2026-05-13T03:46:58.762Z",
+      "processedAt": "2026-05-13T14:46:46.137Z",
+      "scrapedAt": "2026-05-13T14:45:23.895Z",
+      "lastUpdated": "2026-05-13T14:46:46.137Z",
       "version": 1
     },
     {
@@ -511,19 +464,14 @@
       "title": "NextGenHacks",
       "platform": "devpost",
       "url": "https://nextgenhacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/596/347/datas/original.png",
-      "description": "NextGenHacks is a beginner-friendly online hackathon designed to bring together the next generation of builders, creators, and innovators. Whether you're just starting out or already experienced, this is your chance to turn ideas into real projects. This is an open-ended hackathon, meaning you can build anything you want—apps, tools, platforms, games, or completely new ideas. The goal is simple: create something meaningful, creative, or useful. Participants can work solo or in teams to brainstorm ideas, collaborate, and build projects that showcase their skills and creativity. Why NextGenHacks is special: Open to all skill levels: Beginners welcome, no prior experience needed Build anything: No strict theme—your creativity sets the direction Learn by doing: Gain hands-on experience while building real projects Community-driven: Connect with other students, share ideas, and collaborate Mentorship & support: Get guidance and help throughout the hackathon Exciting prizes & recognition Whether you’re building your first project or your tenth, NextGenHacks is your opportunity to learn, create, and innovate.",
-      "summary": "NextGenHacks is a beginner-friendly online hackathon designed to bring together the next generation of builders, creators, and innovators. Whether you're just starting out or already experienced, this...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/596/347/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
-      "difficulty": "beginner",
-      "deadline": "2026-06-02T06:45:00.000Z",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$1,000",
-      "tags": [
-        "Beginner Friendly",
-        "Open Ended",
-        "Social Good"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -532,55 +480,26 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:58.770Z",
-      "scrapedAt": "2026-05-13T03:45:31.077Z",
-      "lastUpdated": "2026-05-13T03:46:58.770Z",
+      "processedAt": "2026-05-13T14:46:46.138Z",
+      "scrapedAt": "2026-05-13T14:45:23.895Z",
+      "lastUpdated": "2026-05-13T14:46:46.138Z",
       "version": 1
     },
     {
-      "id": "c_a8c0f087a795",
-      "title": "全球AI开发者与“一人公司”黑客松大赛",
+      "id": "c_60319759a32a",
+      "title": "妙呀 x 魔搭社区 潮玩IP创造营",
       "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/245",
+      "url": "https://modelscope.cn/competition/226",
       "imageUrl": "",
-      "description": "无论你是拥有硬核技术的开发者、充满创意的内容创作者，还是独自创业的 “一人公司”，这里都是你将创意转化为现实的超级跳板。\n\n一、 赛事背景：AI 创新进入数实共生新纪元当前，全球 AI 创新正从「云端算法」走向「数实共生」的全新阶段，AI 技术与硬件工程、内容创作、场景落地的深度融合正在重塑各个行业。然而，大量优秀的创意和技术仍被困在实验室和个人电脑中，缺乏通往产品化与商业化的有效路径。作为亚洲最大的科技创新和生态博览会BEYOND Expo的核心赛事之一，BEYOND HACK DAY应运而生。我们致力于打造一个连接全球开发者、创作者、创业者与产业资本的开放平台，打破创新壁垒，让每一个好想法都有机会被验证、被落地、被看见。无论你是拥有硬核技术的开发者、充满创意的内容创作者，还是独自创业的 \"一人公司\"，这里都是你将创意转化为现实的超级跳板。二、 赛事主题本次大赛以“AI：数实共生”为核心主题，面向全球开发者、创作者、创业者与高校团队开放招募，汇聚全球 AI 创新力量。我们为每一份优质创意与硬核项目提供直通产业、资本与市场的核心机会，让 AI 创新从构想走向落地，让每一份创新实力都能被看见、被赋能。三、 四大赛道：覆盖 AI 技术落地全场景打破传统黑客松单一技术赛道局限，四大核心赛道全面覆盖 AI 技术与产业融合的各个方向，无论你是硬核极客还是创意达人，都能找到属于你的舞台。赛道名称核心方向场景示例具身智能 (Physical AI)AI 与实体世界交互创新，具身智能技术真实场景落地机器人学习、智能操作、策略迁移、具身智能部署、家庭服务机器人、工业协作机器人AI 创新硬件AI 核心驱动的新一代智能硬件产品创新消费级智能设备、工业智能装备、可穿戴设备、AIoT   产品、边缘计算硬件视频创意AI 驱动视频内容创作与生产工具创新AI 原生短视频创作、智能剪辑工具、数字人短视频、垂类内容 AI 化、沉浸式交互视频、短视频商业化 SaaS创新・创意不限身份与技术背景，用 AI 解决真实场景痛点行业解决方案、生活服务创新、教育医疗应用、公益科技项目、任何有价值的 AI 创意四、 参赛流程：五阶段成长体系我们打造了从报名到长期孵化的完整成长体系，助力优秀项目实现从 0 到 1 再到 N 的跨越。全球报名（即日起 - 5 月 20 日）登录官方赛事平台完成报名，提交团队信息与项目初步方案。不同赛道截止时间略有差异，请以平台通知为准。线上评审与入围筛选（5 月 11 日 - 5 月 24 日）由行业专家、技术大咖与投资人组成的评审团对报名项目进行线上评审，筛选出全球顶尖选手晋级澳门线下决赛。线下极限开发（5 月 28 日 - 5 月 29 日）晋级团队齐聚澳门威尼斯人金光会展中心，参与 48 小时极限黑客松，现场完成项目开发与原型打磨。组委会将提供必要的技术支持与硬件资源。路演与颁奖典礼（5 月 30 日）各团队进行公开路演展示，评审团现场打分并公布获奖名单，颁发丰厚奖励与荣誉证书。长期产业孵化（6 月 1 日起）优秀项目将进入赛后孵化阶段，获得专属投资顾问、客服与陪跑团队支持，持续对接政策、产业、资本与市场资源。五、 评审标准本次大赛各赛道采用差异化评审体系，结合不同赛道的技术特点与应用场景设置针对性评分维度。创新性、技术可行性、商业价值为所有赛道的核心考核要素，确保评审公平专业。六、 四大超级激励：丰厚权益赋能创新我们不仅提供丰厚的物质奖励，更致力于为参赛者搭建通往成功的桥梁，提供全维度的资源支持与长期价值连接。丰厚赛事激励全赛道均配备多元丰厚激励与专属荣誉证书；具身智能、AI 创新硬件赛道优质项目，可直推嘉立创 \"星火\" 创新大赛决赛阶段，角逐超百万元奖金。政策孵化通道直通政府产业政策支持体系，一站式对接算力补贴、人才奖励、办公空间、创业资金与全维度产业配套资源。全球资源对接现场触达 1200 + 展商、30,000 + 专业观众；超百家顶级投资机构一对一精准对接；链接全球产业龙头合作机会；获得海内外顶级媒体矩阵曝光。全周期成长赋能行业顶尖导师全程陪跑指导；提供免费打样额度、算力支持等硬核资源；硬件打样绿色通道与量产产能优先保障；最长 12 个月免费孵化空间。七、 报名方式 官方报名链接：https://beyond.mxgent.cn/如有任何疑问，欢迎扫码添加官方客服咨询，获取最新赛事资讯与技术支持。不管你是经验丰富的开发者、充满激情的创作者、怀揣梦想的学生，还是独自前行的 \"一人公司\" 创业者，这都可能是你把一个想法变成产品、甚至变成一家公司的最快路径。BEYOND HACK DAY，期待与你一起，用 AI 定义未来！",
-      "summary": "无论你是拥有硬核技术的开发者、充满创意的内容创作者，还是独自创业的 “一人公司”，这里都是你将创意转化为现实的超级跳板。\n\n一、 赛事背景：AI 创新进入数实共生新纪元当前，全球 AI 创新正从「云端算法」走向「数实共生」的全新阶段，AI 技术与硬件工程、内容创作、场景落地的深度融合正在重塑各个行业。然而，大量优秀的创意和技术仍被困在实验室和个人电脑中，缺乏通往产品化与商业化的有效路径。作为亚洲最...",
-      "contestType": "video",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-19T16:00:00.000Z",
-      "prize": "超百万现金奖金池",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:58.773Z",
-      "scrapedAt": "2026-05-13T03:44:54.620Z",
-      "lastUpdated": "2026-05-13T03:46:58.773Z",
-      "version": 1
-    },
-    {
-      "id": "c_d3172b72a139",
-      "title": "Agentic AI 时代的推理加速框架",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/244",
-      "imageUrl": "",
-      "description": "Agentic AI时代的推理加速框架 - vLLM Meetup 杭州 活动时间： 2026 年 5 月 23日周六，13:30 -17:55 活动地点：杭州市西湖区灯彩街1009号云谷中心B1栋2F魔搭社区（杭州）开发者中心-路演区，限 120 席 温馨提醒：报名需审核，请以“红帽支持与服务”微信服务号的确认通知为准",
-      "summary": "Agentic AI时代的推理加速框架 - vLLM Meetup 杭州 活动时间： 2026 年 5 月 23日周六，13:30 -17:55 活动地点：杭州市西湖区灯彩街1009号云谷中心B1栋2F魔搭社区（杭州）开发者中心-路演区，限 120 席 温馨提醒：报名需审核，请以“红帽支持与服务”微信服务号的确认通知为准...",
+      "description": "这不只是一场比赛，我们在寻找下一个潮玩爆款IP的创造者。用LoRA训练你的专属风格，或者直接用AI工具设计原创角色。\n\n用AI创造你的第一个潮玩IP——从屏幕走进现实！这不只是一场比赛，我们在寻找下一个潮玩爆款IP的创造者。用LoRA训练你的专属风格，或者直接用AI工具设计原创角色。双赛道、多方向，总有适合你的赛场——其中魔搭IP方向的优秀作品将被收录为魔搭官方IP盲盒，实体化量产发售。一、双赛道总览赛道一 · 魔搭LoRA赛道赛道二 · 妙呀IP设计赛道核心任务训练潮玩手办风格LoRA模型用AI工具设计原创潮玩IP形象面向人群有AI训练基础的技术创作者设计师、艺术生、潮玩爱好者参与平台魔搭社区妙呀平台赛道方向单一方向自由IP方向 + 魔搭IP方向两个赛道可同时参加，分别评审、分别获奖。赛道一提交LoRA模型，赛道二提交IP设计作品，参赛者可同时参与两个赛道。赛道二的魔搭IP方向需融入魔搭品牌元素，优秀作品将作为魔搭官方IP实体化量产。💡 LoRA赛道训练出的模型可以直接用于IP赛道出图，双倍机会双倍奖金。二、活动时间阶段赛道时间说明征集阶段赛道一4月22日 - 5月 31 日开放作品提交，所有数据统计将于5月31日 23:59 截止赛道二4月22日 - 5月15日开放作品提交，所有数据统计将于5月15日 20:00 截止专家评审赛道一5月8日 - 6月7日专业评审团队根据评奖规则完成作品评选与结果确认赛道二5月8日 - 5月20日结果公布赛道一6月8日通过魔搭网站发布获选名单赛道二5月21日通过妙呀网站和魔搭网站同时发布获选名单奖励发放赛道一6月8日起根据最终名单收集信息，按平台流程陆续发放赛道二5月21日起三、比赛玩法赛道一：LoRA模型训练赛（魔搭平台）让AI学会你的潮玩美学——训出你的风格，生成你的IP。参与方式训练并开源你的潮玩手办LoRA模型在魔搭研习社发表创作手记填写官方参赛提交作品问卷，即视为成功参赛作品要求模型要求：模型须发布在魔搭社区并设为公开，封面放置5张以上模型直出图（无后期修图），并把模型直出图分享到模型作品区创作手记要求：标题格式：【妙呀潮玩IP创造营】+ 自定义标题内容包括：你的LoRA是什么、为什么想训练这个风格、训练方法与参数配置、最终效果展示与分析资源与提交入口免费训练/推理模型 👉 前往魔搭社区AIGC专区发表创作手记 👉 前往研习社提交参赛作品 👉 提交作品问卷奖项设置奖项名额现金奖励高阶训练券一等奖1名¥3,00030张二等奖3名¥1,00015张三等奖6名¥5005张评选标准维度权重评分要点模型质量30%出图清晰度、细节还原度、手办质感表现稳定性与可控性20%不同prompt下出图一致性、触发词响应准确性、崩图率风格多样性15%能否生成不同姿态/场景/风格的手办效果创意与美学20%潮玩设计感、IP辨识度、视觉吸引力创作手记15%文档完整度（是否清晰讲述了动机、方法和效果）、技术深度（参数调优、数据处理、问题排查等）赛道二：IP设计赛道（妙呀平台）你的IP不止存在于画面里——自由创作你的原创潮玩，或为魔搭设计官方IP，让你的角色从屏幕走进现实。👉 前往妙呀平台参与IP设计赛道参与方式在妙呀活动页面点按\"去生成\"进入创作页面，或在发布作品时选择添加 #妙呀潮玩IP创造营 标签即可成功参与。作品要求自由IP方向  IP形象展示：提交不少于3张AI生成的IP形象图，包含正面全身、不同角度或不同场景 IP设定说明：提供角色名称、性格特点、故事背景等基础设定（可简要描述）  原创声明：作品须为原创设计，不得抄袭或搬运他人IP魔搭IP方向 在满足以上要求的基础上，作品须融入魔搭品牌元素进行创作，优秀作品将直接作为魔搭官方IP，进入盲盒候选池实体化量产：品牌融入：以魔搭社区吉祥物或品牌形象为基础进行潮玩化再设计，融入魔搭品牌色、logo等视觉元素精神内核：如能体现AI开源社区的精神内核（如协作、开放、探索等）可加分魔搭品牌素材包modelscope-logo图标modelscope英文logomodelscope中英文logo 文字反白版魔搭社区IP魔搭社区表情包demo奖项设置自由IP赛道奖项名额现金奖励产品积分站内资源一等奖1名¥500+6,000分创作者排行榜+feed首屏二等奖3名¥300+2,000分feed 2-3屏三等奖6名¥200+400分feed 4-5屏魔搭IP专项赛道奖项名额现金奖励实物奖励最佳魔搭IP2名500 魔搭「为AI充电」套装入围奖5名300魔搭「出街搭子」套装「为AI充电」套装：定制积木插线板 + 积木拓展坞 + 充电宝 「出街搭子」套装：文化衫 + 棒球帽 + 耳机包所有获奖作品作者均可获得：紫V创作者认证身份标识、IP版权认证引导及费用报销支持、IP签约机会及商品实体化优先权、后续优先体验权及实物纪念奖品。积分有效期至领取后次月月底。评选标准维度权重评分要点 IP完整度30%紧扣\"AI潮玩\"主题，展现潮流感、未来感或文化趣味；需有完整的故事和形象，考察角色形象与原始IP设定的还原精准度与一致性创意20%设计在概念、造型或互动机制上的原创突破性，是否融合巧思与惊喜感，避免同质化商业价值25%目标受众契合度、市场差异化潜力、量产可行性及衍生开发空间艺术性25%造型比例、色彩层次、材质质感与细节雕刻等维度的视觉美感，能否引发情感共鸣注：魔搭IP方向在\"IP完整度\"维度中，将额外考察魔搭品牌元素的融入程度与契合度。四、活动规则每个作者可发布多个作品参与活动（鼓励多多参与），但每位作者在每个赛道/方向中最多1个作品可以获奖。赛道一、赛道二自由IP方向、赛道二魔搭IP方向分别评选，同一作者可在不同赛道/方向各获奖一次。我们将按照评分顺序排名，如某作者已获奖，则顺延至下一位作者。同一个登录账号、手机号、设备，或者提现账户等与作者身份相关的信息，如果有任意一项相同或相似，或者通过特定方式形成了批量信息、非真实有效等情况，我们会统一认定为同一作者，并在本次活动中按同一作者处理。自由IP方向与魔搭IP方向分别评选，同一作者可在两个方向各获奖一次。作品要求：作者应拥有所提交作品全部、完整的权利，且作品未包含任何侵权内容、违法违规内容、暗示性元素。在活动中或活动结束后，如发现获奖作品存在或者被举报存在如下违规行为的，一经我们核实，则视为该作品/该作者自始不符合活动要求。我们亦有权即刻取消其参与活动的资格并要求其退回全部奖励：包含但不限于参加活动报名信息/内容作弊或造假；在活动过程中出现违反相关法律、法规、政策规定的行为；作品涉嫌抄袭或侵犯他人知识产权；提交的作品涉及不健康、淫秽色情、歧视（种族、性别、民族、宗教等）、诽谤骚扰、低俗暴力、令人反感以及侵犯第三方合法权益的内容等。我们不承担因参加活动的作品侵犯第三方权益而产生的任何法律责任，因活动作品导致的法律责任由作者自行负责。作者投稿参与活动即视为同意将作品免费授权我方用于本次活动的宣传展示，包括但不限于在活动页面、宣传推广页、线下展陈、官方社交媒体、社群等场景中使用，活动结束后，我方亦无需删除相关内容。参与魔搭IP方向的作者，投稿即视为同意：如作品被选为魔搭官方IP，作者授权主办方将该作品用于魔搭品牌相关用途，包括但不限于品牌宣传、商品化开发、盲盒实体化生产及线下展陈。具体合作细节（包括署名方式等）将由主办方与作者另行协商签署书面协议。参与魔搭IP方向的作者，其作品中使用的魔搭品牌元素（包括吉祥物、logo、品牌色等）仅限本次活动相关用途使用，未经主办方书面许可不得用于其他商业或公开传播用途。如果你对本活动有任何疑问，或者在参与过程中遇到问题，随时可以通过官方邮箱 miaoyacontact@service.alibaba.com 联系我们，我们会尽快帮你解决。作者投稿参与活动即视为完全接受活动规则条款，在法律允许的范围内，我们将保留本活动的最终解释权。五、加入官方比赛群",
+      "summary": "这不只是一场比赛，我们在寻找下一个潮玩爆款IP的创造者。用LoRA训练你的专属风格，或者直接用AI工具设计原创角色。\n\n用AI创造你的第一个潮玩IP——从屏幕走进现实！这不只是一场比赛，我们在寻找下一个潮玩爆款IP的创造者。用LoRA训练你的专属风格，或者直接用AI工具设计原创角色。双赛道、多方向，总有适合你的赛场——其中魔搭IP方向的优秀作品将被收录为魔搭官方IP盲盒，实体化量产发售。一、双赛道...",
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-23T00:00:00.000Z",
-      "prize": "",
+      "deadline": "2026-05-31T15:59:00.000Z",
+      "prize": "现金奖励+实物奖励",
       "tags": [
-        "llm",
+        "LoRA训练赛",
         "ai"
       ],
       "aiTools": [
@@ -591,9 +510,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:58.759Z",
-      "scrapedAt": "2026-05-13T03:44:54.621Z",
-      "lastUpdated": "2026-05-13T03:46:58.759Z",
+      "processedAt": "2026-05-13T14:46:46.145Z",
+      "scrapedAt": "2026-05-13T14:44:46.375Z",
+      "lastUpdated": "2026-05-13T14:46:46.145Z",
       "version": 1
     },
     {
@@ -627,9 +546,68 @@
         "更能确保用户隐私数据“不出机”。本次活动重点鼓励开发者探索如何利用 Intel 酷睿™ Ultra 处理器（如最新的 Panther Lake 架构）的 GPU、NPU 加速能力"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:58.803Z",
-      "scrapedAt": "2026-05-13T03:44:54.622Z",
-      "lastUpdated": "2026-05-13T03:46:58.803Z",
+      "processedAt": "2026-05-13T14:46:46.127Z",
+      "scrapedAt": "2026-05-13T14:44:46.376Z",
+      "lastUpdated": "2026-05-13T14:46:46.127Z",
+      "version": 1
+    },
+    {
+      "id": "c_a8c0f087a795",
+      "title": "全球AI开发者与“一人公司”黑客松大赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/245",
+      "imageUrl": "",
+      "description": "无论你是拥有硬核技术的开发者、充满创意的内容创作者，还是独自创业的 “一人公司”，这里都是你将创意转化为现实的超级跳板。\n\n一、 赛事背景：AI 创新进入数实共生新纪元当前，全球 AI 创新正从「云端算法」走向「数实共生」的全新阶段，AI 技术与硬件工程、内容创作、场景落地的深度融合正在重塑各个行业。然而，大量优秀的创意和技术仍被困在实验室和个人电脑中，缺乏通往产品化与商业化的有效路径。作为亚洲最大的科技创新和生态博览会BEYOND Expo的核心赛事之一，BEYOND HACK DAY应运而生。我们致力于打造一个连接全球开发者、创作者、创业者与产业资本的开放平台，打破创新壁垒，让每一个好想法都有机会被验证、被落地、被看见。无论你是拥有硬核技术的开发者、充满创意的内容创作者，还是独自创业的 \"一人公司\"，这里都是你将创意转化为现实的超级跳板。二、 赛事主题本次大赛以“AI：数实共生”为核心主题，面向全球开发者、创作者、创业者与高校团队开放招募，汇聚全球 AI 创新力量。我们为每一份优质创意与硬核项目提供直通产业、资本与市场的核心机会，让 AI 创新从构想走向落地，让每一份创新实力都能被看见、被赋能。三、 四大赛道：覆盖 AI 技术落地全场景打破传统黑客松单一技术赛道局限，四大核心赛道全面覆盖 AI 技术与产业融合的各个方向，无论你是硬核极客还是创意达人，都能找到属于你的舞台。赛道名称核心方向场景示例具身智能 (Physical AI)AI 与实体世界交互创新，具身智能技术真实场景落地机器人学习、智能操作、策略迁移、具身智能部署、家庭服务机器人、工业协作机器人AI 创新硬件AI 核心驱动的新一代智能硬件产品创新消费级智能设备、工业智能装备、可穿戴设备、AIoT   产品、边缘计算硬件视频创意AI 驱动视频内容创作与生产工具创新AI 原生短视频创作、智能剪辑工具、数字人短视频、垂类内容 AI 化、沉浸式交互视频、短视频商业化 SaaS创新・创意不限身份与技术背景，用 AI 解决真实场景痛点行业解决方案、生活服务创新、教育医疗应用、公益科技项目、任何有价值的 AI 创意四、 参赛流程：五阶段成长体系我们打造了从报名到长期孵化的完整成长体系，助力优秀项目实现从 0 到 1 再到 N 的跨越。全球报名（即日起 - 5 月 20 日）登录官方赛事平台完成报名，提交团队信息与项目初步方案。不同赛道截止时间略有差异，请以平台通知为准。线上评审与入围筛选（5 月 11 日 - 5 月 24 日）由行业专家、技术大咖与投资人组成的评审团对报名项目进行线上评审，筛选出全球顶尖选手晋级澳门线下决赛。线下极限开发（5 月 28 日 - 5 月 29 日）晋级团队齐聚澳门威尼斯人金光会展中心，参与 48 小时极限黑客松，现场完成项目开发与原型打磨。组委会将提供必要的技术支持与硬件资源。路演与颁奖典礼（5 月 30 日）各团队进行公开路演展示，评审团现场打分并公布获奖名单，颁发丰厚奖励与荣誉证书。长期产业孵化（6 月 1 日起）优秀项目将进入赛后孵化阶段，获得专属投资顾问、客服与陪跑团队支持，持续对接政策、产业、资本与市场资源。五、 评审标准本次大赛各赛道采用差异化评审体系，结合不同赛道的技术特点与应用场景设置针对性评分维度。创新性、技术可行性、商业价值为所有赛道的核心考核要素，确保评审公平专业。六、 四大超级激励：丰厚权益赋能创新我们不仅提供丰厚的物质奖励，更致力于为参赛者搭建通往成功的桥梁，提供全维度的资源支持与长期价值连接。丰厚赛事激励全赛道均配备多元丰厚激励与专属荣誉证书；具身智能、AI 创新硬件赛道优质项目，可直推嘉立创 \"星火\" 创新大赛决赛阶段，角逐超百万元奖金。政策孵化通道直通政府产业政策支持体系，一站式对接算力补贴、人才奖励、办公空间、创业资金与全维度产业配套资源。全球资源对接现场触达 1200 + 展商、30,000 + 专业观众；超百家顶级投资机构一对一精准对接；链接全球产业龙头合作机会；获得海内外顶级媒体矩阵曝光。全周期成长赋能行业顶尖导师全程陪跑指导；提供免费打样额度、算力支持等硬核资源；硬件打样绿色通道与量产产能优先保障；最长 12 个月免费孵化空间。七、 报名方式 官方报名链接：https://beyond.mxgent.cn/如有任何疑问，欢迎扫码添加官方客服咨询，获取最新赛事资讯与技术支持。不管你是经验丰富的开发者、充满激情的创作者、怀揣梦想的学生，还是独自前行的 \"一人公司\" 创业者，这都可能是你把一个想法变成产品、甚至变成一家公司的最快路径。BEYOND HACK DAY，期待与你一起，用 AI 定义未来！",
+      "summary": "无论你是拥有硬核技术的开发者、充满创意的内容创作者，还是独自创业的 “一人公司”，这里都是你将创意转化为现实的超级跳板。\n\n一、 赛事背景：AI 创新进入数实共生新纪元当前，全球 AI 创新正从「云端算法」走向「数实共生」的全新阶段，AI 技术与硬件工程、内容创作、场景落地的深度融合正在重塑各个行业。然而，大量优秀的创意和技术仍被困在实验室和个人电脑中，缺乏通往产品化与商业化的有效路径。作为亚洲最...",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-19T16:00:00.000Z",
+      "prize": "超百万现金奖金池",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-05-13T14:46:46.162Z",
+      "scrapedAt": "2026-05-13T14:44:46.377Z",
+      "lastUpdated": "2026-05-13T14:46:46.162Z",
+      "version": 1
+    },
+    {
+      "id": "c_d3172b72a139",
+      "title": "Agentic AI 时代的推理加速框架",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/244",
+      "imageUrl": "",
+      "description": "Agentic AI时代的推理加速框架 - vLLM Meetup 杭州 活动时间： 2026 年 5 月 23日周六，13:30 -17:55 活动地点：杭州市西湖区灯彩街1009号云谷中心B1栋2F魔搭社区（杭州）开发者中心-路演区，限 120 席 温馨提醒：报名需审核，请以“红帽支持与服务”微信服务号的确认通知为准",
+      "summary": "Agentic AI时代的推理加速框架 - vLLM Meetup 杭州 活动时间： 2026 年 5 月 23日周六，13:30 -17:55 活动地点：杭州市西湖区灯彩街1009号云谷中心B1栋2F魔搭社区（杭州）开发者中心-路演区，限 120 席 温馨提醒：报名需审核，请以“红帽支持与服务”微信服务号的确认通知为准...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-23T00:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "llm",
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-05-13T14:46:47.184Z",
+      "scrapedAt": "2026-05-13T14:44:46.377Z",
+      "lastUpdated": "2026-05-13T14:46:47.184Z",
       "version": 1
     },
     {
@@ -657,9 +635,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:59.805Z",
-      "scrapedAt": "2026-05-13T03:44:54.623Z",
-      "lastUpdated": "2026-05-13T03:46:59.805Z",
+      "processedAt": "2026-05-13T14:46:47.171Z",
+      "scrapedAt": "2026-05-13T14:44:46.377Z",
+      "lastUpdated": "2026-05-13T14:46:47.171Z",
       "version": 1
     },
     {
@@ -693,9 +671,9 @@
         "正是当前人工智能从“感知智能”迈向“决策智能”的关键一步。"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:59.806Z",
-      "scrapedAt": "2026-05-13T03:44:54.623Z",
-      "lastUpdated": "2026-05-13T03:46:59.806Z",
+      "processedAt": "2026-05-13T14:46:47.170Z",
+      "scrapedAt": "2026-05-13T14:44:46.377Z",
+      "lastUpdated": "2026-05-13T14:46:47.170Z",
       "version": 1
     },
     {
@@ -722,39 +700,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:59.806Z",
-      "scrapedAt": "2026-05-13T03:44:54.623Z",
-      "lastUpdated": "2026-05-13T03:46:59.806Z",
-      "version": 1
-    },
-    {
-      "id": "c_60319759a32a",
-      "title": "妙呀 x 魔搭社区 潮玩IP创造营",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/226",
-      "imageUrl": "",
-      "description": "这不只是一场比赛，我们在寻找下一个潮玩爆款IP的创造者。用LoRA训练你的专属风格，或者直接用AI工具设计原创角色。\n\n用AI创造你的第一个潮玩IP——从屏幕走进现实！这不只是一场比赛，我们在寻找下一个潮玩爆款IP的创造者。用LoRA训练你的专属风格，或者直接用AI工具设计原创角色。双赛道、多方向，总有适合你的赛场——其中魔搭IP方向的优秀作品将被收录为魔搭官方IP盲盒，实体化量产发售。一、双赛道总览赛道一 · 魔搭LoRA赛道赛道二 · 妙呀IP设计赛道核心任务训练潮玩手办风格LoRA模型用AI工具设计原创潮玩IP形象面向人群有AI训练基础的技术创作者设计师、艺术生、潮玩爱好者参与平台魔搭社区妙呀平台赛道方向单一方向自由IP方向 + 魔搭IP方向两个赛道可同时参加，分别评审、分别获奖。赛道一提交LoRA模型，赛道二提交IP设计作品，参赛者可同时参与两个赛道。赛道二的魔搭IP方向需融入魔搭品牌元素，优秀作品将作为魔搭官方IP实体化量产。💡 LoRA赛道训练出的模型可以直接用于IP赛道出图，双倍机会双倍奖金。二、活动时间阶段时间说明征集阶段4月22日 - 5月15日开放作品提交，所有数据统计将于5月15日 20:00 截止专家评审5月8日 - 5月20日专业评审团队根据评奖规则完成作品评选与结果确认结果公布5月21日通过妙呀网站和魔搭网站同时发布获选名单奖励发放5月21日起根据最终名单收集信息，按平台流程陆续发放三、比赛玩法赛道一：LoRA模型训练赛（魔搭平台）让AI学会你的潮玩美学——训出你的风格，生成你的IP。参与方式训练并开源你的潮玩手办LoRA模型在魔搭研习社发表创作手记填写官方参赛提交作品问卷，即视为成功参赛作品要求模型要求：模型须发布在魔搭社区并设为公开，封面放置5张以上模型直出图（无后期修图），并把模型直出图分享到模型作品区创作手记要求：标题格式：【妙呀潮玩IP创造营】+ 自定义标题内容包括：你的LoRA是什么、为什么想训练这个风格、训练方法与参数配置、最终效果展示与分析资源与提交入口免费训练/推理模型 👉 前往魔搭社区AIGC专区发表创作手记 👉 前往研习社提交参赛作品 👉 提交作品问卷奖项设置奖项名额现金奖励高阶训练券一等奖1名¥3,00030张二等奖3名¥1,00015张三等奖6名¥5005张评选标准维度权重评分要点模型质量30%出图清晰度、细节还原度、手办质感表现稳定性与可控性20%不同prompt下出图一致性、触发词响应准确性、崩图率风格多样性15%能否生成不同姿态/场景/风格的手办效果创意与美学20%潮玩设计感、IP辨识度、视觉吸引力创作手记15%文档完整度（是否清晰讲述了动机、方法和效果）、技术深度（参数调优、数据处理、问题排查等）赛道二：IP设计赛道（妙呀平台）你的IP不止存在于画面里——自由创作你的原创潮玩，或为魔搭设计官方IP，让你的角色从屏幕走进现实。👉 前往妙呀平台参与IP设计赛道参与方式在妙呀活动页面点按\"去生成\"进入创作页面，或在发布作品时选择添加 #妙呀潮玩IP创造营 标签即可成功参与。作品要求自由IP方向  IP形象展示：提交不少于3张AI生成的IP形象图，包含正面全身、不同角度或不同场景 IP设定说明：提供角色名称、性格特点、故事背景等基础设定（可简要描述）  原创声明：作品须为原创设计，不得抄袭或搬运他人IP魔搭IP方向 在满足以上要求的基础上，作品须融入魔搭品牌元素进行创作，优秀作品将直接作为魔搭官方IP，进入盲盒候选池实体化量产：品牌融入：以魔搭社区吉祥物或品牌形象为基础进行潮玩化再设计，融入魔搭品牌色、logo等视觉元素精神内核：如能体现AI开源社区的精神内核（如协作、开放、探索等）可加分魔搭品牌素材包modelscope-logo图标modelscope英文logomodelscope中英文logo 文字反白版魔搭社区IP魔搭社区表情包demo奖项设置自由IP赛道奖项名额现金奖励产品积分站内资源一等奖1名¥500+6,000分创作者排行榜+feed首屏二等奖3名¥300+2,000分feed 2-3屏三等奖6名¥200+400分feed 4-5屏魔搭IP专项赛道奖项名额现金奖励实物奖励最佳魔搭IP2名500 魔搭「为AI充电」套装入围奖5名300魔搭「出街搭子」套装「为AI充电」套装：定制积木插线板 + 积木拓展坞 + 充电宝 「出街搭子」套装：文化衫 + 棒球帽 + 耳机包所有获奖作品作者均可获得：紫V创作者认证身份标识、IP版权认证引导及费用报销支持、IP签约机会及商品实体化优先权、后续优先体验权及实物纪念奖品。积分有效期至领取后次月月底。评选标准维度权重评分要点 IP完整度30%紧扣\"AI潮玩\"主题，展现潮流感、未来感或文化趣味；需有完整的故事和形象，考察角色形象与原始IP设定的还原精准度与一致性创意20%设计在概念、造型或互动机制上的原创突破性，是否融合巧思与惊喜感，避免同质化商业价值25%目标受众契合度、市场差异化潜力、量产可行性及衍生开发空间艺术性25%造型比例、色彩层次、材质质感与细节雕刻等维度的视觉美感，能否引发情感共鸣注：魔搭IP方向在\"IP完整度\"维度中，将额外考察魔搭品牌元素的融入程度与契合度。四、活动规则每个作者可发布多个作品参与活动（鼓励多多参与），但每位作者在每个赛道/方向中最多1个作品可以获奖。赛道一、赛道二自由IP方向、赛道二魔搭IP方向分别评选，同一作者可在不同赛道/方向各获奖一次。我们将按照评分顺序排名，如某作者已获奖，则顺延至下一位作者。同一个登录账号、手机号、设备，或者提现账户等与作者身份相关的信息，如果有任意一项相同或相似，或者通过特定方式形成了批量信息、非真实有效等情况，我们会统一认定为同一作者，并在本次活动中按同一作者处理。自由IP方向与魔搭IP方向分别评选，同一作者可在两个方向各获奖一次。作品要求：作者应拥有所提交作品全部、完整的权利，且作品未包含任何侵权内容、违法违规内容、暗示性元素。在活动中或活动结束后，如发现获奖作品存在或者被举报存在如下违规行为的，一经我们核实，则视为该作品/该作者自始不符合活动要求。我们亦有权即刻取消其参与活动的资格并要求其退回全部奖励：包含但不限于参加活动报名信息/内容作弊或造假；在活动过程中出现违反相关法律、法规、政策规定的行为；作品涉嫌抄袭或侵犯他人知识产权；提交的作品涉及不健康、淫秽色情、歧视（种族、性别、民族、宗教等）、诽谤骚扰、低俗暴力、令人反感以及侵犯第三方合法权益的内容等。我们不承担因参加活动的作品侵犯第三方权益而产生的任何法律责任，因活动作品导致的法律责任由作者自行负责。作者投稿参与活动即视为同意将作品免费授权我方用于本次活动的宣传展示，包括但不限于在活动页面、宣传推广页、线下展陈、官方社交媒体、社群等场景中使用，活动结束后，我方亦无需删除相关内容。参与魔搭IP方向的作者，投稿即视为同意：如作品被选为魔搭官方IP，作者授权主办方将该作品用于魔搭品牌相关用途，包括但不限于品牌宣传、商品化开发、盲盒实体化生产及线下展陈。具体合作细节（包括署名方式等）将由主办方与作者另行协商签署书面协议。参与魔搭IP方向的作者，其作品中使用的魔搭品牌元素（包括吉祥物、logo、品牌色等）仅限本次活动相关用途使用，未经主办方书面许可不得用于其他商业或公开传播用途。如果你对本活动有任何疑问，或者在参与过程中遇到问题，随时可以通过官方邮箱 miaoyacontact@service.alibaba.com 联系我们，我们会尽快帮你解决。作者投稿参与活动即视为完全接受活动规则条款，在法律允许的范围内，我们将保留本活动的最终解释权。五、加入官方比赛群",
-      "summary": "这不只是一场比赛，我们在寻找下一个潮玩爆款IP的创造者。用LoRA训练你的专属风格，或者直接用AI工具设计原创角色。\n\n用AI创造你的第一个潮玩IP——从屏幕走进现实！这不只是一场比赛，我们在寻找下一个潮玩爆款IP的创造者。用LoRA训练你的专属风格，或者直接用AI工具设计原创角色。双赛道、多方向，总有适合你的赛场——其中魔搭IP方向的优秀作品将被收录为魔搭官方IP盲盒，实体化量产发售。一、双赛道...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-15T12:00:00.000Z",
-      "prize": "现金奖励+实物奖励",
-      "tags": [
-        "LoRA训练赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:59.812Z",
-      "scrapedAt": "2026-05-13T03:44:54.627Z",
-      "lastUpdated": "2026-05-13T03:46:59.812Z",
+      "processedAt": "2026-05-13T14:46:47.198Z",
+      "scrapedAt": "2026-05-13T14:44:46.377Z",
+      "lastUpdated": "2026-05-13T14:46:47.198Z",
       "version": 1
     },
     {
@@ -781,9 +729,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:46:59.845Z",
-      "scrapedAt": "2026-05-13T03:44:54.628Z",
-      "lastUpdated": "2026-05-13T03:46:59.845Z",
+      "processedAt": "2026-05-13T14:46:47.215Z",
+      "scrapedAt": "2026-05-13T14:44:46.377Z",
+      "lastUpdated": "2026-05-13T14:46:47.215Z",
       "version": 1
     },
     {
@@ -810,9 +758,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:00.863Z",
-      "scrapedAt": "2026-05-13T03:44:54.629Z",
-      "lastUpdated": "2026-05-13T03:47:00.863Z",
+      "processedAt": "2026-05-13T14:46:48.234Z",
+      "scrapedAt": "2026-05-13T14:44:46.378Z",
+      "lastUpdated": "2026-05-13T14:46:48.234Z",
       "version": 1
     },
     {
@@ -837,9 +785,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:00.846Z",
-      "scrapedAt": "2026-05-13T03:44:54.629Z",
-      "lastUpdated": "2026-05-13T03:47:00.846Z",
+      "processedAt": "2026-05-13T14:46:48.246Z",
+      "scrapedAt": "2026-05-13T14:44:46.378Z",
+      "lastUpdated": "2026-05-13T14:46:48.246Z",
       "version": 1
     },
     {
@@ -853,7 +801,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-16T03:46:08.680Z",
+      "deadline": "2026-05-15T14:45:56.791Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -863,9 +811,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:00.845Z",
-      "scrapedAt": "2026-05-13T03:46:08.681Z",
-      "lastUpdated": "2026-05-13T03:47:00.845Z",
+      "processedAt": "2026-05-13T14:46:48.234Z",
+      "scrapedAt": "2026-05-13T14:45:56.791Z",
+      "lastUpdated": "2026-05-13T14:46:48.234Z",
       "version": 1
     },
     {
@@ -879,7 +827,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-19T03:46:08.681Z",
+      "deadline": "2026-05-18T14:45:56.791Z",
       "prize": "€40 000 EUR",
       "tags": [],
       "aiTools": [
@@ -890,9 +838,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:00.848Z",
-      "scrapedAt": "2026-05-13T03:46:08.681Z",
-      "lastUpdated": "2026-05-13T03:47:00.848Z",
+      "processedAt": "2026-05-13T14:46:48.251Z",
+      "scrapedAt": "2026-05-13T14:45:56.791Z",
+      "lastUpdated": "2026-05-13T14:46:48.251Z",
       "version": 1
     },
     {
@@ -906,7 +854,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-25T03:46:08.681Z",
+      "deadline": "2026-05-24T14:45:56.792Z",
       "prize": "$10 000 USD",
       "tags": [],
       "aiTools": [
@@ -917,9 +865,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:00.890Z",
-      "scrapedAt": "2026-05-13T03:46:08.681Z",
-      "lastUpdated": "2026-05-13T03:47:00.890Z",
+      "processedAt": "2026-05-13T14:46:48.278Z",
+      "scrapedAt": "2026-05-13T14:45:56.792Z",
+      "lastUpdated": "2026-05-13T14:46:48.278Z",
       "version": 1
     },
     {
@@ -933,7 +881,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-25T03:46:08.681Z",
+      "deadline": "2026-05-24T14:45:56.792Z",
       "prize": "$3 500 USD",
       "tags": [],
       "aiTools": [
@@ -944,9 +892,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:01.901Z",
-      "scrapedAt": "2026-05-13T03:46:08.681Z",
-      "lastUpdated": "2026-05-13T03:47:01.901Z",
+      "processedAt": "2026-05-13T14:46:49.272Z",
+      "scrapedAt": "2026-05-13T14:45:56.792Z",
+      "lastUpdated": "2026-05-13T14:46:49.272Z",
       "version": 1
     },
     {
@@ -970,9 +918,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:01.895Z",
-      "scrapedAt": "2026-05-13T03:46:08.681Z",
-      "lastUpdated": "2026-05-13T03:47:01.895Z",
+      "processedAt": "2026-05-13T14:46:49.277Z",
+      "scrapedAt": "2026-05-13T14:45:56.792Z",
+      "lastUpdated": "2026-05-13T14:46:49.277Z",
       "version": 1
     },
     {
@@ -986,7 +934,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-15T03:46:08.681Z",
+      "deadline": "2026-05-14T14:45:56.792Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -996,9 +944,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:01.907Z",
-      "scrapedAt": "2026-05-13T03:46:08.681Z",
-      "lastUpdated": "2026-05-13T03:47:01.907Z",
+      "processedAt": "2026-05-13T14:46:49.295Z",
+      "scrapedAt": "2026-05-13T14:45:56.792Z",
+      "lastUpdated": "2026-05-13T14:46:49.295Z",
       "version": 1
     },
     {
@@ -1012,7 +960,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-16T03:46:08.682Z",
+      "deadline": "2026-05-15T14:45:56.792Z",
       "tags": [
         "ai"
       ],
@@ -1024,9 +972,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:01.896Z",
-      "scrapedAt": "2026-05-13T03:46:08.682Z",
-      "lastUpdated": "2026-05-13T03:47:01.896Z",
+      "processedAt": "2026-05-13T14:46:49.279Z",
+      "scrapedAt": "2026-05-13T14:45:56.792Z",
+      "lastUpdated": "2026-05-13T14:46:49.279Z",
       "version": 1
     },
     {
@@ -1040,7 +988,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-31T03:46:08.682Z",
+      "deadline": "2026-05-30T14:45:56.792Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -1050,9 +998,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:01.938Z",
-      "scrapedAt": "2026-05-13T03:46:08.682Z",
-      "lastUpdated": "2026-05-13T03:47:01.938Z",
+      "processedAt": "2026-05-13T14:46:49.315Z",
+      "scrapedAt": "2026-05-13T14:45:56.792Z",
+      "lastUpdated": "2026-05-13T14:46:49.315Z",
       "version": 1
     },
     {
@@ -1077,9 +1025,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:02.941Z",
-      "scrapedAt": "2026-05-13T03:46:08.682Z",
-      "lastUpdated": "2026-05-13T03:47:02.941Z",
+      "processedAt": "2026-05-13T14:46:50.338Z",
+      "scrapedAt": "2026-05-13T14:45:56.793Z",
+      "lastUpdated": "2026-05-13T14:46:50.338Z",
       "version": 1
     },
     {
@@ -1103,9 +1051,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:02.954Z",
-      "scrapedAt": "2026-05-13T03:46:08.682Z",
-      "lastUpdated": "2026-05-13T03:47:02.954Z",
+      "processedAt": "2026-05-13T14:46:50.313Z",
+      "scrapedAt": "2026-05-13T14:45:56.793Z",
+      "lastUpdated": "2026-05-13T14:46:50.313Z",
       "version": 1
     },
     {
@@ -1131,9 +1079,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:02.937Z",
-      "scrapedAt": "2026-05-13T03:46:08.682Z",
-      "lastUpdated": "2026-05-13T03:47:02.937Z",
+      "processedAt": "2026-05-13T14:46:50.313Z",
+      "scrapedAt": "2026-05-13T14:45:56.793Z",
+      "lastUpdated": "2026-05-13T14:46:50.313Z",
       "version": 1
     },
     {
@@ -1159,9 +1107,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:02.949Z",
-      "scrapedAt": "2026-05-13T03:46:08.682Z",
-      "lastUpdated": "2026-05-13T03:47:02.949Z",
+      "processedAt": "2026-05-13T14:46:50.319Z",
+      "scrapedAt": "2026-05-13T14:45:56.793Z",
+      "lastUpdated": "2026-05-13T14:46:50.319Z",
       "version": 1
     },
     {
@@ -1185,9 +1133,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:02.983Z",
-      "scrapedAt": "2026-05-13T03:46:08.683Z",
-      "lastUpdated": "2026-05-13T03:47:02.983Z",
+      "processedAt": "2026-05-13T14:46:50.360Z",
+      "scrapedAt": "2026-05-13T14:45:56.793Z",
+      "lastUpdated": "2026-05-13T14:46:50.360Z",
       "version": 1
     },
     {
@@ -1211,9 +1159,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:04.008Z",
-      "scrapedAt": "2026-05-13T03:46:08.683Z",
-      "lastUpdated": "2026-05-13T03:47:04.008Z",
+      "processedAt": "2026-05-13T14:46:51.365Z",
+      "scrapedAt": "2026-05-13T14:45:56.793Z",
+      "lastUpdated": "2026-05-13T14:46:51.365Z",
       "version": 1
     },
     {
@@ -1237,9 +1185,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:03.989Z",
-      "scrapedAt": "2026-05-13T03:46:08.683Z",
-      "lastUpdated": "2026-05-13T03:47:03.989Z",
+      "processedAt": "2026-05-13T14:46:51.377Z",
+      "scrapedAt": "2026-05-13T14:45:56.794Z",
+      "lastUpdated": "2026-05-13T14:46:51.377Z",
       "version": 1
     },
     {
@@ -1265,9 +1213,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:04.004Z",
-      "scrapedAt": "2026-05-13T03:46:08.684Z",
-      "lastUpdated": "2026-05-13T03:47:04.004Z",
+      "processedAt": "2026-05-13T14:46:51.366Z",
+      "scrapedAt": "2026-05-13T14:45:56.794Z",
+      "lastUpdated": "2026-05-13T14:46:51.366Z",
       "version": 1
     },
     {
@@ -1291,9 +1239,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:04.008Z",
-      "scrapedAt": "2026-05-13T03:46:08.684Z",
-      "lastUpdated": "2026-05-13T03:47:04.008Z",
+      "processedAt": "2026-05-13T14:46:51.378Z",
+      "scrapedAt": "2026-05-13T14:45:56.794Z",
+      "lastUpdated": "2026-05-13T14:46:51.378Z",
       "version": 1
     },
     {
@@ -1319,9 +1267,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:04.061Z",
-      "scrapedAt": "2026-05-13T03:46:08.684Z",
-      "lastUpdated": "2026-05-13T03:47:04.061Z",
+      "processedAt": "2026-05-13T14:46:51.399Z",
+      "scrapedAt": "2026-05-13T14:45:56.794Z",
+      "lastUpdated": "2026-05-13T14:46:51.399Z",
       "version": 1
     },
     {
@@ -1345,9 +1293,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:05.053Z",
-      "scrapedAt": "2026-05-13T03:46:08.684Z",
-      "lastUpdated": "2026-05-13T03:47:05.053Z",
+      "processedAt": "2026-05-13T14:46:52.406Z",
+      "scrapedAt": "2026-05-13T14:45:56.794Z",
+      "lastUpdated": "2026-05-13T14:46:52.406Z",
       "version": 1
     },
     {
@@ -1371,15 +1319,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-13T03:47:05.042Z",
-      "scrapedAt": "2026-05-13T03:46:08.684Z",
-      "lastUpdated": "2026-05-13T03:47:05.042Z",
+      "processedAt": "2026-05-13T14:46:52.420Z",
+      "scrapedAt": "2026-05-13T14:45:56.795Z",
+      "lastUpdated": "2026-05-13T14:46:52.420Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-05-13T03:47:05.061Z"
+    "lastUpdated": "2026-05-13T14:46:52.433Z"
   }
 }

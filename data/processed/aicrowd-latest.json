@@ -1,6 +1,6 @@
 {
   "platform": "aicrowd",
-  "timestamp": "2026-05-18T04:03:39.578Z",
+  "timestamp": "2026-05-18T15:44:06.560Z",
   "contestCount": 6,
   "contests": [
     {
@@ -12,12 +12,11 @@
       "description": "Spotify Million Playlist Dataset Challenge\n              \n                A dataset and open-ended challenge for music recommendation research\n          A dataset and open-ended challenge for music recommendation research",
       "summary": "Spotify Million Playlist Dataset Challenge\n              \n                A dataset and open-ended challenge for music recommendation research\n          A dataset and open-ended challenge for music re...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2100-11-01T15:43:09.474Z",
       "prize": "TBD",
-      "tags": [
-        "Benchmark Challenge: Running"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -26,9 +25,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:28.654Z",
-      "scrapedAt": "2026-05-18T04:02:37.970Z",
-      "lastUpdated": "2026-05-18T04:03:28.654Z",
+      "processedAt": "2026-05-18T15:43:57.801Z",
+      "scrapedAt": "2026-05-18T15:43:09.474Z",
+      "lastUpdated": "2026-05-18T15:43:57.801Z",
       "version": 1
     },
     {
@@ -42,7 +41,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T04:02:37.971Z",
+      "deadline": "2030-08-14T15:43:09.474Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -53,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:29.387Z",
-      "scrapedAt": "2026-05-18T04:02:37.971Z",
-      "lastUpdated": "2026-05-18T04:03:29.387Z",
+      "processedAt": "2026-05-18T15:43:58.610Z",
+      "scrapedAt": "2026-05-18T15:43:09.474Z",
+      "lastUpdated": "2026-05-18T15:43:58.610Z",
       "version": 1
     },
     {
@@ -69,7 +68,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T04:02:37.971Z",
+      "deadline": "2045-08-31T15:43:09.474Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -80,9 +79,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:29.611Z",
-      "scrapedAt": "2026-05-18T04:02:37.971Z",
-      "lastUpdated": "2026-05-18T04:03:29.611Z",
+      "processedAt": "2026-05-18T15:43:58.702Z",
+      "scrapedAt": "2026-05-18T15:43:09.474Z",
+      "lastUpdated": "2026-05-18T15:43:58.702Z",
       "version": 1
     },
     {
@@ -96,7 +95,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T04:02:37.971Z",
+      "deadline": "2030-12-30T15:43:09.475Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -110,9 +109,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:29.616Z",
-      "scrapedAt": "2026-05-18T04:02:37.971Z",
-      "lastUpdated": "2026-05-18T04:03:29.616Z",
+      "processedAt": "2026-05-18T15:43:58.731Z",
+      "scrapedAt": "2026-05-18T15:43:09.475Z",
+      "lastUpdated": "2026-05-18T15:43:58.731Z",
       "version": 1
     },
     {
@@ -138,9 +137,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:29.559Z",
-      "scrapedAt": "2026-05-18T04:02:37.972Z",
-      "lastUpdated": "2026-05-18T04:03:29.559Z",
+      "processedAt": "2026-05-18T15:43:58.733Z",
+      "scrapedAt": "2026-05-18T15:43:09.475Z",
+      "lastUpdated": "2026-05-18T15:43:58.733Z",
       "version": 1
     },
     {
@@ -164,15 +163,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:29.716Z",
-      "scrapedAt": "2026-05-18T04:02:37.973Z",
-      "lastUpdated": "2026-05-18T04:03:29.716Z",
+      "processedAt": "2026-05-18T15:43:58.829Z",
+      "scrapedAt": "2026-05-18T15:43:09.476Z",
+      "lastUpdated": "2026-05-18T15:43:58.829Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-05-18T04:03:39.578Z"
+    "lastUpdated": "2026-05-18T15:44:06.560Z"
   }
 }

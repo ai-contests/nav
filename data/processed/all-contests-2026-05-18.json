@@ -1,7 +1,7 @@
 {
   "platform": "all",
-  "timestamp": "2026-05-18T04:03:39.580Z",
-  "contestCount": 48,
+  "timestamp": "2026-05-18T15:44:06.564Z",
+  "contestCount": 38,
   "contests": [
     {
       "id": "c_8028e73d2ed6",
@@ -12,12 +12,11 @@
       "description": "Spotify Million Playlist Dataset Challenge\n              \n                A dataset and open-ended challenge for music recommendation research\n          A dataset and open-ended challenge for music recommendation research",
       "summary": "Spotify Million Playlist Dataset Challenge\n              \n                A dataset and open-ended challenge for music recommendation research\n          A dataset and open-ended challenge for music re...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2100-11-01T15:43:09.474Z",
       "prize": "TBD",
-      "tags": [
-        "Benchmark Challenge: Running"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -26,9 +25,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:28.654Z",
-      "scrapedAt": "2026-05-18T04:02:37.970Z",
-      "lastUpdated": "2026-05-18T04:03:28.654Z",
+      "processedAt": "2026-05-18T15:43:57.801Z",
+      "scrapedAt": "2026-05-18T15:43:09.474Z",
+      "lastUpdated": "2026-05-18T15:43:57.801Z",
       "version": 1
     },
     {
@@ -42,7 +41,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T04:02:37.971Z",
+      "deadline": "2030-08-14T15:43:09.474Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -53,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:29.387Z",
-      "scrapedAt": "2026-05-18T04:02:37.971Z",
-      "lastUpdated": "2026-05-18T04:03:29.387Z",
+      "processedAt": "2026-05-18T15:43:58.610Z",
+      "scrapedAt": "2026-05-18T15:43:09.474Z",
+      "lastUpdated": "2026-05-18T15:43:58.610Z",
       "version": 1
     },
     {
@@ -69,7 +68,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T04:02:37.971Z",
+      "deadline": "2045-08-31T15:43:09.474Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -80,9 +79,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:29.611Z",
-      "scrapedAt": "2026-05-18T04:02:37.971Z",
-      "lastUpdated": "2026-05-18T04:03:29.611Z",
+      "processedAt": "2026-05-18T15:43:58.702Z",
+      "scrapedAt": "2026-05-18T15:43:09.474Z",
+      "lastUpdated": "2026-05-18T15:43:58.702Z",
       "version": 1
     },
     {
@@ -96,7 +95,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T04:02:37.971Z",
+      "deadline": "2030-12-30T15:43:09.475Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -110,9 +109,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:29.616Z",
-      "scrapedAt": "2026-05-18T04:02:37.971Z",
-      "lastUpdated": "2026-05-18T04:03:29.616Z",
+      "processedAt": "2026-05-18T15:43:58.731Z",
+      "scrapedAt": "2026-05-18T15:43:09.475Z",
+      "lastUpdated": "2026-05-18T15:43:58.731Z",
       "version": 1
     },
     {
@@ -138,9 +137,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:29.559Z",
-      "scrapedAt": "2026-05-18T04:02:37.972Z",
-      "lastUpdated": "2026-05-18T04:03:29.559Z",
+      "processedAt": "2026-05-18T15:43:58.733Z",
+      "scrapedAt": "2026-05-18T15:43:09.475Z",
+      "lastUpdated": "2026-05-18T15:43:58.733Z",
       "version": 1
     },
     {
@@ -164,9 +163,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:29.716Z",
-      "scrapedAt": "2026-05-18T04:02:37.973Z",
-      "lastUpdated": "2026-05-18T04:03:29.716Z",
+      "processedAt": "2026-05-18T15:43:58.829Z",
+      "scrapedAt": "2026-05-18T15:43:09.476Z",
+      "lastUpdated": "2026-05-18T15:43:58.829Z",
       "version": 1
     },
     {
@@ -191,9 +190,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:30.707Z",
+      "processedAt": "2026-05-18T15:43:59.835Z",
       "scrapedAt": "2026-05-17T13:29:53.808Z",
-      "lastUpdated": "2026-05-18T04:03:30.707Z",
+      "lastUpdated": "2026-05-18T15:43:59.835Z",
       "version": 1
     },
     {
@@ -218,128 +217,26 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:30.724Z",
+      "processedAt": "2026-05-18T15:43:59.842Z",
       "scrapedAt": "2026-05-17T13:29:53.808Z",
-      "lastUpdated": "2026-05-18T04:03:30.724Z",
+      "lastUpdated": "2026-05-18T15:43:59.842Z",
       "version": 1
     },
     {
-      "id": "c_519ac00e91f6",
-      "title": "Google Cloud Rapid Agent Hackathon",
-      "platform": "devpost",
-      "url": "https://rapid-agent.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/623/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "id": "c_7a44ac7a848e",
+      "title": "AMD x 魔搭社区 联合开发者激励计划 - GPU资源获取指南",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/247",
+      "imageUrl": "",
+      "description": "本计划由 AMD 与魔搭社区联合发起，旨在激励开发者基于 AMD GPU 进行 AI 开发实践与分享。开发者可通过魔搭社区三大内容平台——研习社、灵感流、创空间——获取免费 GPU 算力奖励。\n\nAMD x 魔搭社区联合开发者激励计划 — GPU 资源获取指南基于 AMD GPU 的 AI 开发实践，最高可获 1000 小时及以上免费算力一、计划概述本计划由 AMD 与魔搭社区联合发起，旨在激励开发者基于 AMD GPU 进行 AI 开发实践与分享。开发者可通过魔搭社区三大内容平台——研习社、灵感流、创空间——获取免费 GPU 算力奖励。核心机制三条独立路径：发研习社文章 / 传灵感流 Notebook / 做创空间应用，可单选可多选奖励可叠加：全部完成可获 1000 小时或更多按需分配：创空间根据应用质量按需分配 700 小时或更多二、奖励总览下表展示了三种参与路径的奖励规则，奖励可累计叠加：参与路径内容要求单次奖励路径上限前置注册完成 AMD 开发者计划注册+100 小时+100 小时路径一：研习社发布原创技术文章+25 小时/篇+50 小时路径二：灵感流发布 Notebook 代码实践+50 小时/篇+150 小时路径三：创空间部署应用并通过审核按需分配700+ 小时提示：三条路径完全独立，无须按顺序完成，可任选其一或全部参与。三、如何获取参与前提 — 完成 AMD 开发者计划注册无论选择哪条路径，均需先完成 AMD 开发者计划注册。注册完成即可获得 100 小时 GPU 算力，同时解锁后续全部参与资格。操作流程登录魔搭社区，进入「我的 Notebook」页面，点击活动页面入口；进入 AMD AI 开发者计划网站：授权使用魔搭账号登录，并完善个人资料，成为 AMD 开发者计划成员；完善资料后，开发者可于 AMD 开发者计划站内获得算力券奖励；回到魔搭「我的 Notebook」页面，即可看到 AMD GPU 入口及剩余额度。✅ 完成注册后，即可解锁以下三种参与路径的全部资格。路径一：研习社发文在魔搭社区「研习社」板块发布与 AMD GPU 相关的原创技术文章，每篇通过审核可获 25 小时 GPU 算力，本路径最高可获 50 小时。操作流程在魔搭社区「研习社」板块发布原创技术文章；发布时携带指定标签“AMD GPU激励计划”；提交后等待社区审核（预计 5 个工作日）；审核通过后，系统自动发放对应 GPU 时长奖励。审核维度原创度：文章内容是否为原创技术相关性：是否与 AMD GPU / ROCm 相关完整性：代码、数据、结果是否完整内容建议ROCm 安装与配置经验AMD GPU 大模型部署手记Ryzen AI 开发初体验AMD GPU 推理优化技巧路径二：灵感流 Notebook 代码实践在魔搭社区「Gallery」板块发布基于 AMD GPU 的 Notebook 代码实践，每篇通过审核可获 50 小时 GPU 算力，本路径最高可获 150 小时。操作流程在魔搭社区「Gallery」板块发布基于 AMD GPU 的 Notebook 代码实践；发布时携带指定标签“AMD GPU激励计划”；提交后等待社区审核（预计 5 个工作日）；审核通过后，根据内容质量获得相应 GPU 时长奖励。审核维度自动化运行测试：全部 Cell 执行通过，无报错代码注释完整性：关键步骤有中文/英文注释环境配置说明：requirements.txt 或安装指令完整技术相关性：与 AMD GPU / ROCm 相关内容建议Stable Diffusion 部署LLM 微调或部署搭建 Skill Agent推理优化实践Agent 构建路径三：创空间应用部署在魔搭社区「创空间」部署基于 AMD GPU 的应用，审核通过后可按需获得 700 小时或更多 GPU 算力。这是获取最大资源量的路径。前置条件已完成 AMD 开发者计划注册已加入魔搭社区“AMD开发者中心”组织优先分配：已发布至少 1 篇通过审核的 AMD 技术文章或 1 个高质量 Notebook操作流程进入「AMD 专属创空间 GPU 资源组织」页面：https://www.modelscope.cn/organization/AMD_Dev点击申请加入，并在申请理由中附上满足条件的证明材料：必选：AMD 开发者账号 ID可选：其他符合要求的 Notebook / 创空间作品链接审核通过后即可成为组织成员，后续在「创空间」创建或配置应用时可选择 AMD 专属 GPU 资源；选择 AMD MI308X 及对应镜像部署创空间应用。如何获取 AMD 开发者账号 ID：可在 AMD 开发者计划 网站 → 个人资料处获取。创空间开发示例：创空间审核机制创空间应用审核分为三个阶段：第一阶段：机审（自动）安全扫描：无恶意代码、无敏感信息泄露、无外部异常调用基础功能检测：应用可启动、核心页面可访问资源合规：GPU 显存使用在合理范围内第二阶段：功能评审（人工，3–5 个工作日）功能完整性：核心功能可正常使用用户体验：有清晰的使用说明，交互合理AMD 技术相关性：使用 AMD GPU 或 ROCm 相关技术创新性：独特功能或创新应用场景第三阶段：综合评定（人工，3–5 个工作日）代码质量审查与 AMD 品牌调性一致最终评定是否通过审核评审权重评审维度权重安全性25%功能完整性25%AMD 技术相关性20%用户体验15%创新性15%四、常见问题 (FAQ)Q1：AMD GPU 资源在使用上有哪些限制？每人最高并发创空间数量为 1 个；每人最高并发执行 Notebook 数量为 1 个。Q2：申请加入专属组织被拒绝，通常是什么原因？常见原因包括：提交的证明材料链接失效、未完成 AMD 官网注册等。请确认材料完整后重新提交。Q3：三种参与方式必须按顺序完成吗？不需要。三条路径完全独立，可任选其一、其二或全部参与，奖励可累计叠加。唯一的前提是必须先完成 AMD 开发者计划注册。Q4：可以只做路径三（创空间）吗？可以。只要完成注册（100h）+ 加入 AMD 组织 + 发布应用并通过审核，即可获得 700h 或更多。但在资源有限的情况下，已发布优质研习社文章或灵感流 Notebook 的开发者将优先获得分配。Q5：创空间“按需分配”是什么意思？根据应用质量评定额度，由 AMD 团队终审决定具体分配数量。五、开发者激励计划群本方案为 AMD 与魔搭社区联合推广计划，最终解释权归 AMD 团队所有。",
+      "summary": "本计划由 AMD 与魔搭社区联合发起，旨在激励开发者基于 AMD GPU 进行 AI 开发实践与分享。开发者可通过魔搭社区三大内容平台——研习社、灵感流、创空间——获取免费 GPU 算力奖励。\n\nAMD x 魔搭社区联合开发者激励计划 — GPU 资源获取指南基于 AMD GPU 的 AI 开发实践，最高可获 1000 小时及以上免费算力一、计划概述本计划由 AMD 与魔搭社区联合发起，旨在激励开...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
-      "prize": "$60,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:30.777Z",
-      "scrapedAt": "2026-05-18T04:02:12.023Z",
-      "lastUpdated": "2026-05-18T04:03:30.777Z",
-      "version": 1
-    },
-    {
-      "id": "c_57463ac53db5",
-      "title": "Build with MeDo Hackathon",
-      "platform": "devpost",
-      "url": "https://medo.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/516/528/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$50,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:30.715Z",
-      "scrapedAt": "2026-05-18T04:02:12.024Z",
-      "lastUpdated": "2026-05-18T04:03:30.715Z",
-      "version": 1
-    },
-    {
-      "id": "c_b504bf47c47e",
-      "title": "FIND EVIL!",
-      "platform": "devpost",
-      "url": "https://findevil.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/521/059/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$22,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:30.875Z",
-      "scrapedAt": "2026-05-18T04:02:12.025Z",
-      "lastUpdated": "2026-05-18T04:03:30.875Z",
-      "version": 1
-    },
-    {
-      "id": "c_0b1481c7a616",
-      "title": "Reddit Mod Tools and Migrated Apps Hackathon",
-      "platform": "devpost",
-      "url": "https://mod-tools-migration.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/498/306/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$45,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:31.883Z",
-      "scrapedAt": "2026-05-18T04:02:12.026Z",
-      "lastUpdated": "2026-05-18T04:03:31.883Z",
-      "version": 1
-    },
-    {
-      "id": "c_c1f102bfc4f1",
-      "title": "DevNetwork [AI + ML] Hackathon 2026",
-      "platform": "devpost",
-      "url": "https://devnetwork-ai-ml-hack-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/474/092/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$8,000",
+      "deadline": "2026-12-31T15:59:00.000Z",
+      "prize": "",
       "tags": [
+        "llm",
         "ai"
       ],
       "aiTools": [
@@ -348,141 +245,17 @@
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:31.881Z",
-      "scrapedAt": "2026-05-18T04:02:12.027Z",
-      "lastUpdated": "2026-05-18T04:03:31.881Z",
-      "version": 1
-    },
-    {
-      "id": "c_3da41543eb1e",
-      "title": "UiPath AgentHack",
-      "platform": "devpost",
-      "url": "https://uipath-agenthack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/624/515/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$50,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
+      "requirements": [
+        "并在申请理由中附上满足条件的证明材料：必选：AMD 开发者账号 ID可选：其他符合要求的 Notebook / 创空间作品链接审核通过后即可成为组织成员",
+        "后续在「创空间」创建或配置应用时可选择 AMD 专属 GPU 资源",
+        "3–5 个工作日）功能完整性：核心功能可正常使用用户体验：有清晰的使用说明",
+        "交互合理AMD 技术相关性：使用 AMD GPU 或 ROCm 相关技术创新性：独特功能或创新应用场景第三阶段：综合评定（人工",
+        "每人最高并发执行 Notebook 数量为 1 个。Q2：申请加入专属组织被拒绝"
       ],
-      "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:31.860Z",
-      "scrapedAt": "2026-05-18T04:02:12.030Z",
-      "lastUpdated": "2026-05-18T04:03:31.860Z",
-      "version": 1
-    },
-    {
-      "id": "c_7497e0dc2803",
-      "title": "HackAmerica",
-      "platform": "devpost",
-      "url": "https://hackamerica.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/620/523/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$575",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:31.881Z",
-      "scrapedAt": "2026-05-18T04:02:12.031Z",
-      "lastUpdated": "2026-05-18T04:03:31.881Z",
-      "version": 1
-    },
-    {
-      "id": "c_5faed94aaeb1",
-      "title": "NextGenHacks",
-      "platform": "devpost",
-      "url": "https://nextgenhacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/596/347/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$1,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:31.966Z",
-      "scrapedAt": "2026-05-18T04:02:12.031Z",
-      "lastUpdated": "2026-05-18T04:03:31.966Z",
-      "version": 1
-    },
-    {
-      "id": "c_f0c227795bfb",
-      "title": "LUMA Hackathon: Pitch your idea, win up to $500",
-      "platform": "devpost",
-      "url": "https://luma-hackathon-500.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "1",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:32.965Z",
-      "scrapedAt": "2026-05-18T04:02:12.032Z",
-      "lastUpdated": "2026-05-18T04:03:32.965Z",
-      "version": 1
-    },
-    {
-      "id": "c_fe494fad1d9a",
-      "title": "ML Empowerment Build Challenge",
-      "platform": "devpost",
-      "url": "https://ml-empowerment-build-challenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/542/613/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "13",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:32.983Z",
-      "scrapedAt": "2026-05-18T04:02:12.032Z",
-      "lastUpdated": "2026-05-18T04:03:32.983Z",
+      "processedAt": "2026-05-18T15:43:59.851Z",
+      "scrapedAt": "2026-05-18T15:41:49.683Z",
+      "lastUpdated": "2026-05-18T15:43:59.851Z",
       "version": 1
     },
     {
@@ -509,9 +282,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:32.967Z",
-      "scrapedAt": "2026-05-18T04:01:34.940Z",
-      "lastUpdated": "2026-05-18T04:03:32.967Z",
+      "processedAt": "2026-05-18T15:43:59.838Z",
+      "scrapedAt": "2026-05-18T15:41:49.683Z",
+      "lastUpdated": "2026-05-18T15:43:59.838Z",
       "version": 1
     },
     {
@@ -539,9 +312,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:32.964Z",
-      "scrapedAt": "2026-05-18T04:01:34.943Z",
-      "lastUpdated": "2026-05-18T04:03:32.964Z",
+      "processedAt": "2026-05-18T15:43:59.967Z",
+      "scrapedAt": "2026-05-18T15:41:49.685Z",
+      "lastUpdated": "2026-05-18T15:43:59.967Z",
       "version": 1
     },
     {
@@ -575,9 +348,9 @@
         "更能确保用户隐私数据“不出机”。本次活动重点鼓励开发者探索如何利用 Intel 酷睿™ Ultra 处理器（如最新的 Panther Lake 架构）的 GPU、NPU 加速能力"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:33.077Z",
-      "scrapedAt": "2026-05-18T04:01:34.945Z",
-      "lastUpdated": "2026-05-18T04:03:33.077Z",
+      "processedAt": "2026-05-18T15:44:00.960Z",
+      "scrapedAt": "2026-05-18T15:41:49.685Z",
+      "lastUpdated": "2026-05-18T15:44:00.960Z",
       "version": 1
     },
     {
@@ -604,9 +377,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:34.076Z",
-      "scrapedAt": "2026-05-18T04:01:34.946Z",
-      "lastUpdated": "2026-05-18T04:03:34.076Z",
+      "processedAt": "2026-05-18T15:44:01.031Z",
+      "scrapedAt": "2026-05-18T15:41:49.685Z",
+      "lastUpdated": "2026-05-18T15:44:01.031Z",
       "version": 1
     },
     {
@@ -634,9 +407,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:34.083Z",
-      "scrapedAt": "2026-05-18T04:01:34.946Z",
-      "lastUpdated": "2026-05-18T04:03:34.083Z",
+      "processedAt": "2026-05-18T15:44:01.012Z",
+      "scrapedAt": "2026-05-18T15:41:49.686Z",
+      "lastUpdated": "2026-05-18T15:44:01.012Z",
       "version": 1
     },
     {
@@ -664,9 +437,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:34.069Z",
-      "scrapedAt": "2026-05-18T04:01:34.947Z",
-      "lastUpdated": "2026-05-18T04:03:34.069Z",
+      "processedAt": "2026-05-18T15:44:00.976Z",
+      "scrapedAt": "2026-05-18T15:41:49.686Z",
+      "lastUpdated": "2026-05-18T15:44:00.976Z",
       "version": 1
     },
     {
@@ -700,9 +473,9 @@
         "正是当前人工智能从“感知智能”迈向“决策智能”的关键一步。"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:34.064Z",
-      "scrapedAt": "2026-05-18T04:01:34.947Z",
-      "lastUpdated": "2026-05-18T04:03:34.064Z",
+      "processedAt": "2026-05-18T15:44:01.159Z",
+      "scrapedAt": "2026-05-18T15:41:49.686Z",
+      "lastUpdated": "2026-05-18T15:44:01.159Z",
       "version": 1
     },
     {
@@ -729,9 +502,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:34.170Z",
-      "scrapedAt": "2026-05-18T04:01:34.947Z",
-      "lastUpdated": "2026-05-18T04:03:34.170Z",
+      "processedAt": "2026-05-18T15:44:02.132Z",
+      "scrapedAt": "2026-05-18T15:41:49.686Z",
+      "lastUpdated": "2026-05-18T15:44:02.132Z",
       "version": 1
     },
     {
@@ -758,38 +531,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:35.168Z",
-      "scrapedAt": "2026-05-18T04:01:34.947Z",
-      "lastUpdated": "2026-05-18T04:03:35.168Z",
-      "version": 1
-    },
-    {
-      "id": "c_55b782bf5e48",
-      "title": "XGuard护栏揭榜赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/197",
-      "imageUrl": "",
-      "description": "XGuard护栏揭榜赛是【大模型安全撬壳计划】系列赛事之一。由阿里巴巴集团安全部主办、致力于为广大AI安全爱好者与开发者提供一个开放协作的创意舞台，通过持续的模型测评、衍生二创与安全加固，推动 “XGuard护栏”进入越用越强、越用越广的良性发展轨道。\n\n在2026年，大模型已无处不在，但“安全”之路依旧漫长本次大赛由阿里巴巴集团安全部发起，不仅是一场比赛，更是一次直通阿里核心团队的实战演练我们重磅开源了XGuard安全护栏模型+亿级Token高质语料诚挚邀请AI前线的你，去二创、去衍生、去重构！我们用10万奖金 + 亿级Token语料 + 硬核装备（MAC MINI、MacBook Neo等）+GPU算力全力加持只为寻找下一代AI安全“先行者”！（一键查收：XGuard护栏揭榜赛-赛事说明书）赛事介绍赛事背景XGuard护栏揭榜赛是【大模型安全撬壳计划】系列赛事之一。由阿里巴巴集团安全部主办、致力于为广大AI安全爱好者与开发者提供一个开放协作的创意舞台，通过持续的模型测评、衍生二创与安全加固，推动 “XGuard护栏”进入越用越强、越用越广的良性发展轨道。赛程时间面向人群不设边界，全员开放！无论身处校园还是职场，无论深耕技术还是钻研哲学，只要你对AI感兴趣，这里就是你的绽放舞台！报名流程点击右上方“立即报名”，选择对应身份（学生/在职/科研），填写全部信息即可完成；信息越完整，获奖概率越高比赛玩法：两大热血赛道，小白大神都可玩赛道一：逆袭吧！创二代！🔴适合人群： 算法高手、模型训练专家、想挑战技术高度的极客🔴难度系数： ⭐⭐⭐⭐⭐🔴玩法规则：选手需基于 XGuard 开源数据集（允许扩充新数据），结合 XGuard 模型或其他开源模型（10B 及以下），训练并提交专属的安全护栏模型。具体详见XGuard护栏揭榜赛-赛事说明书🔴赛道奖励：TOP 10 选手直接瓜分 50,000 元现金大奖！赛道二：破圈吧！抓码者！🔴适合人群： 技术博主、创意开发者、自媒体达人、对AI安全感兴趣均可玩🔴难度系数： ⭐⭐（上手容易，获奖率高）（本赛道分两个支线，无需打榜，作品优质就有好礼！）支线A:我是布道师玩法： 撰写深度评测报告，并发布在各大平台（小红书、B站、知乎、公众号、CSDN等）。具体详见XGuard护栏揭榜赛-赛事说明书奖励：标配奖励：发布即得价值500元的福袋（999足金手机贴+电动牙刷+阿里巴巴双肩背包）plus奖励：根据阅读量/播放量水位，瓜分 50,000 元现金奖池！支线B:我是创二代玩法：基于 XGuard护栏模型 或 数据集 进行二次开发、优化或衍生，具体详见XGuard护栏揭榜赛-赛事说明书奖励：标配奖励：发布即得价值1000元的福袋（999足金手机贴+电动牙刷+阿里巴巴双肩背包+SKG颈部按摩仪+星礼卡200元）plus奖励：根据项目下载量/Star数水位，瓜分 50,000 元现金奖池！参赛收益💰真金白银，拒绝画饼50,000元二创奖 + 50,000元破圈奖！不设门槛，只看作品，让你的创意直接折现💰🎁周周有惊喜，欧气不断电MAC MINI、千问眼镜、MacBook Neo... 总价值 5 万的装备库随时掉落！参与每周活动就能抽设备💻算力自由，从参赛开始！参赛即送 20 小时 GPU 算力，更有 100 小时算力盲盒随机空投！TOP 20 选手直接必得100 小时。跑模型不卡顿，灵感才能跑得更快。🚀官方证书，认可度拉满TOP 20 专属阿里巴巴认证的荣誉证书，不仅是荣誉，更是你技术履历上的高光时刻学生专属激励：简历诊断、招聘直通、职位详情，请进赛事群获取相关咨询！（钉钉群号： 168975002855）赛事规则所有评审规则、提交细节、赛事QA等内容，请查收这本参赛的答案之书《XGuard护栏揭榜赛-赛事说明书》加入官方钉群榜单查看、赛事资讯、问题咨询、活动详情都可加赛事官方钉群（一定要加群！！）添加开源小助手+发送“参赛”，邀您进微信群AAIG开源交流群，钉钉群号： 168975002855主办单位",
-      "summary": "XGuard护栏揭榜赛是【大模型安全撬壳计划】系列赛事之一。由阿里巴巴集团安全部主办、致力于为广大AI安全爱好者与开发者提供一个开放协作的创意舞台，通过持续的模型测评、衍生二创与安全加固，推动 “XGuard护栏”进入越用越强、越用越广的良性发展轨道。\n\n在2026年，大模型已无处不在，但“安全”之路依旧漫长本次大赛由阿里巴巴集团安全部发起，不仅是一场比赛，更是一次直通阿里核心团队的实战演练我们重...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-25T15:59:00.000Z",
-      "prize": "10万元奖金+5万元礼品",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:35.180Z",
-      "scrapedAt": "2026-05-18T04:01:34.947Z",
-      "lastUpdated": "2026-05-18T04:03:35.180Z",
+      "processedAt": "2026-05-18T15:44:02.128Z",
+      "scrapedAt": "2026-05-18T15:41:49.686Z",
+      "lastUpdated": "2026-05-18T15:44:02.129Z",
       "version": 1
     },
     {
@@ -813,9 +557,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:35.166Z",
-      "scrapedAt": "2026-05-18T04:02:40.908Z",
-      "lastUpdated": "2026-05-18T04:03:35.166Z",
+      "processedAt": "2026-05-18T15:44:02.114Z",
+      "scrapedAt": "2026-05-18T15:42:49.609Z",
+      "lastUpdated": "2026-05-18T15:44:02.114Z",
       "version": 1
     },
     {
@@ -829,7 +573,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-25T04:02:40.908Z",
+      "deadline": "2026-05-24T15:42:49.609Z",
       "prize": "$10 000 USD",
       "tags": [],
       "aiTools": [
@@ -840,9 +584,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:35.167Z",
-      "scrapedAt": "2026-05-18T04:02:40.908Z",
-      "lastUpdated": "2026-05-18T04:03:35.167Z",
+      "processedAt": "2026-05-18T15:44:02.119Z",
+      "scrapedAt": "2026-05-18T15:42:49.609Z",
+      "lastUpdated": "2026-05-18T15:44:02.119Z",
       "version": 1
     },
     {
@@ -856,7 +600,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-25T04:02:40.908Z",
+      "deadline": "2026-05-24T15:42:49.609Z",
       "prize": "$3 500 USD",
       "tags": [],
       "aiTools": [
@@ -867,9 +611,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:35.260Z",
-      "scrapedAt": "2026-05-18T04:02:40.908Z",
-      "lastUpdated": "2026-05-18T04:03:35.260Z",
+      "processedAt": "2026-05-18T15:44:02.219Z",
+      "scrapedAt": "2026-05-18T15:42:49.609Z",
+      "lastUpdated": "2026-05-18T15:44:02.219Z",
       "version": 1
     },
     {
@@ -893,9 +637,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:36.283Z",
-      "scrapedAt": "2026-05-18T04:02:40.909Z",
-      "lastUpdated": "2026-05-18T04:03:36.283Z",
+      "processedAt": "2026-05-18T15:44:03.233Z",
+      "scrapedAt": "2026-05-18T15:42:49.609Z",
+      "lastUpdated": "2026-05-18T15:44:03.233Z",
       "version": 1
     },
     {
@@ -909,7 +653,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-29T04:02:40.909Z",
+      "deadline": "2026-05-28T15:42:49.610Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -919,9 +663,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:36.263Z",
-      "scrapedAt": "2026-05-18T04:02:40.909Z",
-      "lastUpdated": "2026-05-18T04:03:36.263Z",
+      "processedAt": "2026-05-18T15:44:03.237Z",
+      "scrapedAt": "2026-05-18T15:42:49.610Z",
+      "lastUpdated": "2026-05-18T15:44:03.237Z",
       "version": 1
     },
     {
@@ -935,7 +679,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-31T04:02:40.909Z",
+      "deadline": "2026-05-30T15:42:49.610Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -945,9 +689,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:36.264Z",
-      "scrapedAt": "2026-05-18T04:02:40.909Z",
-      "lastUpdated": "2026-05-18T04:03:36.264Z",
+      "processedAt": "2026-05-18T15:44:03.220Z",
+      "scrapedAt": "2026-05-18T15:42:49.610Z",
+      "lastUpdated": "2026-05-18T15:44:03.220Z",
       "version": 1
     },
     {
@@ -961,7 +705,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-31T04:02:40.909Z",
+      "deadline": "2026-05-31T15:42:49.610Z",
       "tags": [
         "ai"
       ],
@@ -973,9 +717,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:36.268Z",
-      "scrapedAt": "2026-05-18T04:02:40.909Z",
-      "lastUpdated": "2026-05-18T04:03:36.268Z",
+      "processedAt": "2026-05-18T15:44:03.238Z",
+      "scrapedAt": "2026-05-18T15:42:49.610Z",
+      "lastUpdated": "2026-05-18T15:44:03.238Z",
       "version": 1
     },
     {
@@ -998,35 +742,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:36.362Z",
-      "scrapedAt": "2026-05-18T04:02:40.909Z",
-      "lastUpdated": "2026-05-18T04:03:36.362Z",
-      "version": 1
-    },
-    {
-      "id": "c_932eedfeb636",
-      "title": "Nedbank Transaction Volume Forecasting Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/nedbank-transaction-volume-forecasting-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "000 ZAR",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:37.377Z",
-      "scrapedAt": "2026-05-18T04:02:40.909Z",
-      "lastUpdated": "2026-05-18T04:03:37.377Z",
+      "processedAt": "2026-05-18T15:44:03.324Z",
+      "scrapedAt": "2026-05-18T15:42:49.610Z",
+      "lastUpdated": "2026-05-18T15:44:03.324Z",
       "version": 1
     },
     {
@@ -1052,26 +770,24 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:37.372Z",
-      "scrapedAt": "2026-05-18T04:02:40.909Z",
-      "lastUpdated": "2026-05-18T04:03:37.372Z",
+      "processedAt": "2026-05-18T15:44:04.330Z",
+      "scrapedAt": "2026-05-18T15:42:49.610Z",
+      "lastUpdated": "2026-05-18T15:44:04.330Z",
       "version": 1
     },
     {
-      "id": "c_d060d2cfb86f",
-      "title": "2026 EY AI & Data Challenge: Optimizing Clean Water Supply",
+      "id": "c_932eedfeb636",
+      "title": "Nedbank Transaction Volume Forecasting Challenge",
       "platform": "zindi",
-      "url": "https://zindi.africa/competitions/ey-water-quality-forecasting-challenge",
+      "url": "https://zindi.africa/competitions/nedbank-transaction-volume-forecasting-challenge",
       "imageUrl": "",
       "description": "",
       "summary": "undefined...",
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
-      "prize": "$10 000 USD",
-      "tags": [
-        "ai"
-      ],
+      "prize": "000 ZAR",
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -1080,9 +796,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:37.361Z",
-      "scrapedAt": "2026-05-18T04:02:40.910Z",
-      "lastUpdated": "2026-05-18T04:03:37.361Z",
+      "processedAt": "2026-05-18T15:44:04.350Z",
+      "scrapedAt": "2026-05-18T15:42:49.611Z",
+      "lastUpdated": "2026-05-18T15:44:04.350Z",
       "version": 1
     },
     {
@@ -1106,9 +822,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:37.367Z",
-      "scrapedAt": "2026-05-18T04:02:40.910Z",
-      "lastUpdated": "2026-05-18T04:03:37.367Z",
+      "processedAt": "2026-05-18T15:44:04.327Z",
+      "scrapedAt": "2026-05-18T15:42:49.611Z",
+      "lastUpdated": "2026-05-18T15:44:04.327Z",
       "version": 1
     },
     {
@@ -1132,9 +848,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:37.458Z",
-      "scrapedAt": "2026-05-18T04:02:40.911Z",
-      "lastUpdated": "2026-05-18T04:03:37.458Z",
+      "processedAt": "2026-05-18T15:44:04.323Z",
+      "scrapedAt": "2026-05-18T15:42:49.611Z",
+      "lastUpdated": "2026-05-18T15:44:04.323Z",
       "version": 1
     },
     {
@@ -1158,9 +874,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:38.472Z",
-      "scrapedAt": "2026-05-18T04:02:40.911Z",
-      "lastUpdated": "2026-05-18T04:03:38.472Z",
+      "processedAt": "2026-05-18T15:44:04.432Z",
+      "scrapedAt": "2026-05-18T15:42:49.611Z",
+      "lastUpdated": "2026-05-18T15:44:04.432Z",
       "version": 1
     },
     {
@@ -1186,9 +902,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:38.461Z",
-      "scrapedAt": "2026-05-18T04:02:40.911Z",
-      "lastUpdated": "2026-05-18T04:03:38.461Z",
+      "processedAt": "2026-05-18T15:44:05.447Z",
+      "scrapedAt": "2026-05-18T15:42:49.611Z",
+      "lastUpdated": "2026-05-18T15:44:05.447Z",
       "version": 1
     },
     {
@@ -1212,9 +928,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:38.461Z",
-      "scrapedAt": "2026-05-18T04:02:40.912Z",
-      "lastUpdated": "2026-05-18T04:03:38.461Z",
+      "processedAt": "2026-05-18T15:44:05.447Z",
+      "scrapedAt": "2026-05-18T15:42:49.612Z",
+      "lastUpdated": "2026-05-18T15:44:05.447Z",
       "version": 1
     },
     {
@@ -1240,9 +956,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:38.460Z",
-      "scrapedAt": "2026-05-18T04:02:40.912Z",
-      "lastUpdated": "2026-05-18T04:03:38.460Z",
+      "processedAt": "2026-05-18T15:44:05.437Z",
+      "scrapedAt": "2026-05-18T15:42:49.612Z",
+      "lastUpdated": "2026-05-18T15:44:05.437Z",
       "version": 1
     },
     {
@@ -1266,9 +982,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:38.550Z",
-      "scrapedAt": "2026-05-18T04:02:40.912Z",
-      "lastUpdated": "2026-05-18T04:03:38.550Z",
+      "processedAt": "2026-05-18T15:44:05.443Z",
+      "scrapedAt": "2026-05-18T15:42:49.612Z",
+      "lastUpdated": "2026-05-18T15:44:05.443Z",
       "version": 1
     },
     {
@@ -1292,9 +1008,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:39.572Z",
-      "scrapedAt": "2026-05-18T04:02:40.912Z",
-      "lastUpdated": "2026-05-18T04:03:39.572Z",
+      "processedAt": "2026-05-18T15:44:05.553Z",
+      "scrapedAt": "2026-05-18T15:42:49.613Z",
+      "lastUpdated": "2026-05-18T15:44:05.553Z",
       "version": 1
     },
     {
@@ -1318,15 +1034,41 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-18T04:03:39.557Z",
-      "scrapedAt": "2026-05-18T04:02:40.913Z",
-      "lastUpdated": "2026-05-18T04:03:39.557Z",
+      "processedAt": "2026-05-18T15:44:06.529Z",
+      "scrapedAt": "2026-05-18T15:42:49.613Z",
+      "lastUpdated": "2026-05-18T15:44:06.529Z",
+      "version": 1
+    },
+    {
+      "id": "c_fe16d7763934",
+      "title": "agriBORA Commodity Price Forecasting Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/agribora-commodity-price-forecasting-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "€8 250 EUR",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-05-18T15:44:06.552Z",
+      "scrapedAt": "2026-05-18T15:42:49.613Z",
+      "lastUpdated": "2026-05-18T15:44:06.552Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-05-18T04:03:39.580Z"
+    "lastUpdated": "2026-05-18T15:44:06.564Z"
   }
 }

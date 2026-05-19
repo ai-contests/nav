@@ -1,6 +1,6 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-05-19T03:57:54.552Z",
+  "timestamp": "2026-05-19T15:36:11.086Z",
   "contestCount": 10,
   "contests": [
     {
@@ -34,9 +34,39 @@
         "每人最高并发执行 Notebook 数量为 1 个。Q2：申请加入专属组织被拒绝"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-05-19T03:57:48.239Z",
-      "scrapedAt": "2026-05-19T03:55:51.874Z",
-      "lastUpdated": "2026-05-19T03:57:48.239Z",
+      "processedAt": "2026-05-19T15:36:04.746Z",
+      "scrapedAt": "2026-05-19T15:34:12.008Z",
+      "lastUpdated": "2026-05-19T15:36:04.746Z",
+      "version": 1
+    },
+    {
+      "id": "c_dbc5fafb581e",
+      "title": "手机上的创意 AI 挑战赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/248",
+      "imageUrl": "",
+      "description": "在手机上开发一款创意 AI 应用，至少选用一款 Qwen 系列模型（云端 API 可协同），推荐在 MNN 框架下针对 Arm SME2 指令集进行推理加速与性能调优，让手机算力真正释放。",
+      "summary": "在手机上开发一款创意 AI 应用，至少选用一款 Qwen 系列模型（云端 API 可协同），推荐在 MNN 框架下针对 Arm SME2 指令集进行推理加速与性能调优，让手机算力真正释放。...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-06-22T15:59:00.000Z",
+      "prize": "30万元",
+      "tags": [
+        "应用开发赛",
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-05-19T15:36:04.754Z",
+      "scrapedAt": "2026-05-19T15:34:12.008Z",
+      "lastUpdated": "2026-05-19T15:36:04.754Z",
       "version": 1
     },
     {
@@ -63,9 +93,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-19T03:57:48.269Z",
-      "scrapedAt": "2026-05-19T03:55:51.874Z",
-      "lastUpdated": "2026-05-19T03:57:48.269Z",
+      "processedAt": "2026-05-19T15:36:04.803Z",
+      "scrapedAt": "2026-05-19T15:34:12.008Z",
+      "lastUpdated": "2026-05-19T15:36:04.803Z",
       "version": 1
     },
     {
@@ -93,9 +123,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-19T03:57:48.280Z",
-      "scrapedAt": "2026-05-19T03:55:51.876Z",
-      "lastUpdated": "2026-05-19T03:57:48.280Z",
+      "processedAt": "2026-05-19T15:36:05.838Z",
+      "scrapedAt": "2026-05-19T15:34:12.010Z",
+      "lastUpdated": "2026-05-19T15:36:05.838Z",
       "version": 1
     },
     {
@@ -129,9 +159,9 @@
         "更能确保用户隐私数据“不出机”。本次活动重点鼓励开发者探索如何利用 Intel 酷睿™ Ultra 处理器（如最新的 Panther Lake 架构）的 GPU、NPU 加速能力"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-05-19T03:57:49.294Z",
-      "scrapedAt": "2026-05-19T03:55:51.876Z",
-      "lastUpdated": "2026-05-19T03:57:49.295Z",
+      "processedAt": "2026-05-19T15:36:05.852Z",
+      "scrapedAt": "2026-05-19T15:34:12.011Z",
+      "lastUpdated": "2026-05-19T15:36:05.852Z",
       "version": 1
     },
     {
@@ -158,9 +188,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-19T03:57:49.306Z",
-      "scrapedAt": "2026-05-19T03:55:51.876Z",
-      "lastUpdated": "2026-05-19T03:57:49.306Z",
+      "processedAt": "2026-05-19T15:36:05.799Z",
+      "scrapedAt": "2026-05-19T15:34:12.011Z",
+      "lastUpdated": "2026-05-19T15:36:05.799Z",
       "version": 1
     },
     {
@@ -188,9 +218,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-19T03:57:49.307Z",
-      "scrapedAt": "2026-05-19T03:55:51.876Z",
-      "lastUpdated": "2026-05-19T03:57:49.307Z",
+      "processedAt": "2026-05-19T15:36:05.803Z",
+      "scrapedAt": "2026-05-19T15:34:12.011Z",
+      "lastUpdated": "2026-05-19T15:36:05.803Z",
       "version": 1
     },
     {
@@ -218,9 +248,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-19T03:57:49.288Z",
-      "scrapedAt": "2026-05-19T03:55:51.877Z",
-      "lastUpdated": "2026-05-19T03:57:49.288Z",
+      "processedAt": "2026-05-19T15:36:05.871Z",
+      "scrapedAt": "2026-05-19T15:34:12.012Z",
+      "lastUpdated": "2026-05-19T15:36:05.871Z",
       "version": 1
     },
     {
@@ -254,9 +284,9 @@
         "正是当前人工智能从“感知智能”迈向“决策智能”的关键一步。"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-05-19T03:57:49.319Z",
-      "scrapedAt": "2026-05-19T03:55:51.877Z",
-      "lastUpdated": "2026-05-19T03:57:49.319Z",
+      "processedAt": "2026-05-19T15:36:06.891Z",
+      "scrapedAt": "2026-05-19T15:34:12.012Z",
+      "lastUpdated": "2026-05-19T15:36:06.891Z",
       "version": 1
     },
     {
@@ -283,44 +313,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-19T03:57:50.322Z",
-      "scrapedAt": "2026-05-19T03:55:51.877Z",
-      "lastUpdated": "2026-05-19T03:57:50.322Z",
-      "version": 1
-    },
-    {
-      "id": "c_cf321d93ee91",
-      "title": "基于乐云平台和机械臂的日常抓取任务创新挑战赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/227",
-      "imageUrl": "",
-      "description": "2026杭州国际具身机器人场景应用大赛",
-      "summary": "2026杭州国际具身机器人场景应用大赛...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-04-28T15:59:00.000Z",
-      "prize": "最高8000元奖金",
-      "tags": [
-        "应用开发赛"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-19T03:57:50.342Z",
-      "scrapedAt": "2026-05-19T03:55:51.877Z",
-      "lastUpdated": "2026-05-19T03:57:50.342Z",
+      "processedAt": "2026-05-19T15:36:06.883Z",
+      "scrapedAt": "2026-05-19T15:34:12.012Z",
+      "lastUpdated": "2026-05-19T15:36:06.883Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-05-19T03:57:54.552Z"
+    "lastUpdated": "2026-05-19T15:36:11.086Z"
   }
 }

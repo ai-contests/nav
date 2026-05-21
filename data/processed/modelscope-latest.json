@@ -1,6 +1,6 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-05-21T04:06:50.644Z",
+  "timestamp": "2026-05-21T15:40:14.908Z",
   "contestCount": 10,
   "contests": [
     {
@@ -34,9 +34,9 @@
         "每人最高并发执行 Notebook 数量为 1 个。Q2：申请加入专属组织被拒绝"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-05-21T04:06:44.475Z",
-      "scrapedAt": "2026-05-21T04:04:49.083Z",
-      "lastUpdated": "2026-05-21T04:06:44.475Z",
+      "processedAt": "2026-05-21T15:40:08.245Z",
+      "scrapedAt": "2026-05-21T15:38:09.403Z",
+      "lastUpdated": "2026-05-21T15:40:08.245Z",
       "version": 1
     },
     {
@@ -61,9 +61,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-21T04:06:44.474Z",
-      "scrapedAt": "2026-05-21T04:04:49.084Z",
-      "lastUpdated": "2026-05-21T04:06:44.474Z",
+      "processedAt": "2026-05-21T15:40:08.263Z",
+      "scrapedAt": "2026-05-21T15:38:09.403Z",
+      "lastUpdated": "2026-05-21T15:40:08.263Z",
       "version": 1
     },
     {
@@ -91,9 +91,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-21T04:06:44.495Z",
-      "scrapedAt": "2026-05-21T04:04:49.084Z",
-      "lastUpdated": "2026-05-21T04:06:44.495Z",
+      "processedAt": "2026-05-21T15:40:08.344Z",
+      "scrapedAt": "2026-05-21T15:38:09.403Z",
+      "lastUpdated": "2026-05-21T15:40:08.344Z",
       "version": 1
     },
     {
@@ -120,9 +120,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-21T04:06:45.510Z",
-      "scrapedAt": "2026-05-21T04:04:49.084Z",
-      "lastUpdated": "2026-05-21T04:06:45.510Z",
+      "processedAt": "2026-05-21T15:40:09.357Z",
+      "scrapedAt": "2026-05-21T15:38:09.403Z",
+      "lastUpdated": "2026-05-21T15:40:09.357Z",
       "version": 1
     },
     {
@@ -150,9 +150,36 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-21T04:06:45.499Z",
-      "scrapedAt": "2026-05-21T04:04:49.085Z",
-      "lastUpdated": "2026-05-21T04:06:45.499Z",
+      "processedAt": "2026-05-21T15:40:09.352Z",
+      "scrapedAt": "2026-05-21T15:38:09.405Z",
+      "lastUpdated": "2026-05-21T15:40:09.352Z",
+      "version": 1
+    },
+    {
+      "id": "c_212251cdff9e",
+      "title": "Spatial Joy 26 Rokid 全球高校创新挑战赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/251",
+      "imageUrl": "",
+      "description": "在人工智能与增强现实技术加速融合、重塑人机交互范式的时代背景下，Rokid 推出的 “Spatial Joy” 系列赛事，一项旨在推动大型语言模型、空间计算及下一代交互范式交叉探索的旗舰计划。其使命在于：赋能高校学子与行业开发者，突破现有边界，共同定义 Al+AR 的未来图景。",
+      "summary": "在人工智能与增强现实技术加速融合、重塑人机交互范式的时代背景下，Rokid 推出的 “Spatial Joy” 系列赛事，一项旨在推动大型语言模型、空间计算及下一代交互范式交叉探索的旗舰计划。其使命在于：赋能高校学子与行业开发者，突破现有边界，共同定义 Al+AR 的未来图景。...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-06-30T15:59:00.000Z",
+      "prize": "总奖池 66万",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-05-21T15:40:09.366Z",
+      "scrapedAt": "2026-05-21T15:38:09.405Z",
+      "lastUpdated": "2026-05-21T15:40:09.366Z",
       "version": 1
     },
     {
@@ -186,9 +213,9 @@
         "更能确保用户隐私数据“不出机”。本次活动重点鼓励开发者探索如何利用 Intel 酷睿™ Ultra 处理器（如最新的 Panther Lake 架构）的 GPU、NPU 加速能力"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-05-21T04:06:45.512Z",
-      "scrapedAt": "2026-05-21T04:04:49.086Z",
-      "lastUpdated": "2026-05-21T04:06:45.512Z",
+      "processedAt": "2026-05-21T15:40:09.351Z",
+      "scrapedAt": "2026-05-21T15:38:09.405Z",
+      "lastUpdated": "2026-05-21T15:40:09.351Z",
       "version": 1
     },
     {
@@ -216,9 +243,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-21T04:06:45.510Z",
-      "scrapedAt": "2026-05-21T04:04:49.086Z",
-      "lastUpdated": "2026-05-21T04:06:45.510Z",
+      "processedAt": "2026-05-21T15:40:09.437Z",
+      "scrapedAt": "2026-05-21T15:38:09.405Z",
+      "lastUpdated": "2026-05-21T15:40:09.437Z",
       "version": 1
     },
     {
@@ -246,9 +273,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-21T04:06:45.525Z",
-      "scrapedAt": "2026-05-21T04:04:49.086Z",
-      "lastUpdated": "2026-05-21T04:06:45.525Z",
+      "processedAt": "2026-05-21T15:40:10.449Z",
+      "scrapedAt": "2026-05-21T15:38:09.406Z",
+      "lastUpdated": "2026-05-21T15:40:10.449Z",
       "version": 1
     },
     {
@@ -282,44 +309,15 @@
         "正是当前人工智能从“感知智能”迈向“决策智能”的关键一步。"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-05-21T04:06:46.528Z",
-      "scrapedAt": "2026-05-21T04:04:49.086Z",
-      "lastUpdated": "2026-05-21T04:06:46.528Z",
-      "version": 1
-    },
-    {
-      "id": "c_70dd73f5ae73",
-      "title": "第四届世界科学智能大赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/236",
-      "imageUrl": "",
-      "description": "世界科学智能大赛由上海科学智能研究院和复旦大学共同主办，致力于引领人工智能与科学研究的革命性融合，构建生机勃勃的科学智能新生态。",
-      "summary": "世界科学智能大赛由上海科学智能研究院和复旦大学共同主办，致力于引领人工智能与科学研究的革命性融合，构建生机勃勃的科学智能新生态。...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-27T15:59:00.000Z",
-      "prize": "100万元",
-      "tags": [
-        "应用开发赛"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-21T04:06:46.538Z",
-      "scrapedAt": "2026-05-21T04:04:49.086Z",
-      "lastUpdated": "2026-05-21T04:06:46.538Z",
+      "processedAt": "2026-05-21T15:40:10.452Z",
+      "scrapedAt": "2026-05-21T15:38:09.406Z",
+      "lastUpdated": "2026-05-21T15:40:10.452Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-05-21T04:06:50.644Z"
+    "lastUpdated": "2026-05-21T15:40:14.908Z"
   }
 }

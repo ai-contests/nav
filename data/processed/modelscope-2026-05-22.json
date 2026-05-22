@@ -1,8 +1,39 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-05-22T04:02:15.979Z",
+  "timestamp": "2026-05-22T14:50:00.940Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_f897fb82a5c8",
+      "title": "昇腾CANN社区任务【4月】",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/250",
+      "imageUrl": "",
+      "description": "昇腾CANN训练营社区基于真实产业案例设计，完成任务即有机会获得华为三折叠手机、万元笔记本电脑，荣登社区荣誉榜单，任务每月更新，月底截止，多重任务值任务适合各阶段实操开发者。\n\n背景社区任务基于真实产业案例设计，完成任务即有机会获得华为三折叠手机、万元笔记本电脑，荣登社区荣誉榜单，更为您的职业技能注入新动力。具体任务每月月底发放任务，次月30日/31日截止，多重任务值任务适合各阶段实操开发者完成任务赢取新款华为手机、电脑 👇任务值序号任务链接（绿色为Triton算子开发）奖品示例交付时间2200004-1SlidingTileAttention算子开发2026.05.311650004-2IsClose算子开发2026.05.311100004-3Pdist算子开发2026.05.3104-4AngleV2算子开发04-5Polar算子开发04-6Sleep算子开发900004-7Equal算子开发2026.05.3104-8Logit算子开发04-9median算子开发550004-10ForeachAddListV2算子开发2026.05.3104-11ForeachAddScalarV2算子开发04-12ForeachSubListV2算子开发04-13MaxUnpool3d算子开发04-14MaxUnpool2d算子开发04-15Sign算子开发04-16ForeachMulList算子开发04-17foreach_neg算子开发04-18foreach_exp算子开发04-19foreach_expm1算子开发04-20Neg算子开发04-21ForeachRoundOffNumberV2算子开发900003-1Roll算子开发2026.05.31800003-3MaskedScatter算子开发2026.05.3103-23_fwd_kernel_stage1算子开发03-24fused_recurrent_gated_delta_rule_fwd_kernel算子开发600003-8SoftmaxCrossEntropyWithLogits算子开发03-26reshape_and_cache_kernel_flash算子开发500003-11ApplyAdamW算子开发03-12AscendAntiQuantV2算子开发03-13BiasAdd算子开发03-14BnTrainingReduce算子开发03-15L2Loss算子开发03-16MaxPool3D算子开发03-17ScatterAdd算子开发03-18ScatterNd算子开发400003-20ApplyAdagradD算子开发03-21PreluGradReduce算子开发03-28_linear_attn_decode_kernel算子开发03-29chunk_kda_scaled_dot_kkt_fwd_kernel_intra_sub_intra算子开发300002-16ReluGradV2算子开发02-26SyncBatchNormBackwardElemt算子开发03-30_fwd_kernel_stage2算子开发03-31merge_attn_states_kernel算子开发03-32_fwd_kv_reduce算子开发提交方式01任务申请02任务交付（点击了解社区任务最新进展）03任务验收04任务关闭点击报名后1个工作日内联系昇腾小助手获取任务进展更新表开发者承接后需1周内提交设计文档，提交后2个工作日会收到审批反馈开发者承接后3周内需联系昇腾小助手拉群验收；提交验收内容后3个工作日内会收到验收审批反馈提供合入pr参与任务需要先完成以下动作：1、报名26年CANN训练营第一季：报名链接2、认证通过算子开发者认证：认证链接具体任务查看&领取在 CANN 社区 进行：直达链接参与步骤01 任务申请跟帖评论申请任务（参与后任务交付、验收需与报名账号统一，否则无法发放奖品）格式示例：\n【队名】：根本不报错\n【gitcode账号名】：XXXXX\n【是否报名训练营】：是\n【是否通过算子开发者认证】：是/1周内提供\n【任务序号】：任务序号\n【状态】：报名\n【链接】：fork链接【社区任务】开发流程及注意事项：https://gitcode.com/org/cann/discussions/39社区任务常见问题解析：https://gitcode.com/org/cann/discussions/37部分奖品为新品奖品发放会延迟，展示奖品若无货将更换为同等价值奖品",
+      "summary": "昇腾CANN训练营社区基于真实产业案例设计，完成任务即有机会获得华为三折叠手机、万元笔记本电脑，荣登社区荣誉榜单，任务每月更新，月底截止，多重任务值任务适合各阶段实操开发者。\n\n背景社区任务基于真实产业案例设计，完成任务即有机会获得华为三折叠手机、万元笔记本电脑，荣登社区荣誉榜单，更为您的职业技能注入新动力。具体任务每月月底发放任务，次月30日/31日截止，多重任务值任务适合各阶段实操开发者完成任...",
+      "contestType": "code",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-31T15:59:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "否则无法发放奖品）格式示例："
+      ],
+      "qualityScore": 6,
+      "processedAt": "2026-05-22T14:49:54.668Z",
+      "scrapedAt": "2026-05-22T14:48:00.674Z",
+      "lastUpdated": "2026-05-22T14:49:54.668Z",
+      "version": 1
+    },
     {
       "id": "c_7a44ac7a848e",
       "title": "AMD x 魔搭社区 联合开发者激励计划 - GPU资源获取指南",
@@ -34,9 +65,9 @@
         "每人最高并发执行 Notebook 数量为 1 个。Q2：申请加入专属组织被拒绝"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:09.656Z",
-      "scrapedAt": "2026-05-22T04:00:11.093Z",
-      "lastUpdated": "2026-05-22T04:02:09.656Z",
+      "processedAt": "2026-05-22T14:49:54.668Z",
+      "scrapedAt": "2026-05-22T14:48:00.676Z",
+      "lastUpdated": "2026-05-22T14:49:54.668Z",
       "version": 1
     },
     {
@@ -61,9 +92,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:09.645Z",
-      "scrapedAt": "2026-05-22T04:00:11.093Z",
-      "lastUpdated": "2026-05-22T04:02:09.645Z",
+      "processedAt": "2026-05-22T14:49:54.682Z",
+      "scrapedAt": "2026-05-22T14:48:00.676Z",
+      "lastUpdated": "2026-05-22T14:49:54.682Z",
       "version": 1
     },
     {
@@ -91,9 +122,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:09.699Z",
-      "scrapedAt": "2026-05-22T04:00:11.093Z",
-      "lastUpdated": "2026-05-22T04:02:09.699Z",
+      "processedAt": "2026-05-22T14:49:55.686Z",
+      "scrapedAt": "2026-05-22T14:48:00.676Z",
+      "lastUpdated": "2026-05-22T14:49:55.686Z",
       "version": 1
     },
     {
@@ -120,9 +151,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:10.705Z",
-      "scrapedAt": "2026-05-22T04:00:11.093Z",
-      "lastUpdated": "2026-05-22T04:02:10.705Z",
+      "processedAt": "2026-05-22T14:49:55.766Z",
+      "scrapedAt": "2026-05-22T14:48:00.676Z",
+      "lastUpdated": "2026-05-22T14:49:55.766Z",
       "version": 1
     },
     {
@@ -150,9 +181,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:10.696Z",
-      "scrapedAt": "2026-05-22T04:00:11.096Z",
-      "lastUpdated": "2026-05-22T04:02:10.696Z",
+      "processedAt": "2026-05-22T14:49:55.759Z",
+      "scrapedAt": "2026-05-22T14:48:00.678Z",
+      "lastUpdated": "2026-05-22T14:49:55.759Z",
       "version": 1
     },
     {
@@ -177,9 +208,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:10.707Z",
-      "scrapedAt": "2026-05-22T04:00:11.096Z",
-      "lastUpdated": "2026-05-22T04:02:10.707Z",
+      "processedAt": "2026-05-22T14:49:55.696Z",
+      "scrapedAt": "2026-05-22T14:48:00.678Z",
+      "lastUpdated": "2026-05-22T14:49:55.696Z",
       "version": 1
     },
     {
@@ -213,9 +244,9 @@
         "更能确保用户隐私数据“不出机”。本次活动重点鼓励开发者探索如何利用 Intel 酷睿™ Ultra 处理器（如最新的 Panther Lake 架构）的 GPU、NPU 加速能力"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:10.699Z",
-      "scrapedAt": "2026-05-22T04:00:11.096Z",
-      "lastUpdated": "2026-05-22T04:02:10.699Z",
+      "processedAt": "2026-05-22T14:49:55.787Z",
+      "scrapedAt": "2026-05-22T14:48:00.679Z",
+      "lastUpdated": "2026-05-22T14:49:55.787Z",
       "version": 1
     },
     {
@@ -243,9 +274,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:10.743Z",
-      "scrapedAt": "2026-05-22T04:00:11.096Z",
-      "lastUpdated": "2026-05-22T04:02:10.743Z",
+      "processedAt": "2026-05-22T14:49:56.797Z",
+      "scrapedAt": "2026-05-22T14:48:00.679Z",
+      "lastUpdated": "2026-05-22T14:49:56.797Z",
       "version": 1
     },
     {
@@ -273,51 +304,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:11.754Z",
-      "scrapedAt": "2026-05-22T04:00:11.097Z",
-      "lastUpdated": "2026-05-22T04:02:11.754Z",
-      "version": 1
-    },
-    {
-      "id": "c_f218b630f0cd",
-      "title": "满帮集团Agent算法大赛：基于Agentic AI 的卡车司机连续找货决策",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/238",
-      "imageUrl": "",
-      "description": "在真实的货运平台场景中，司机找货与接单并不是一次性的静态匹配问题，而是一个在时间、空间、收益和个人偏好之间不断权衡的动态连续决策过程。一次“完美”的接单，需要综合考虑当前位置、未来货源预期、自身经营状态，在“立即接单”、“休息等待”、“空驶到指定地点”之间做出权衡，以实现更优的长期经营结果。 传统的算法模型往往聚焦于单次“接单率”的预测，难以刻画司机作为经营主体在长周期下的连续决策智慧。这种长期规划与即时响应相结合的能力，正是当前人工智能从“感知智能”迈向“决策智能”的关键一步。",
-      "summary": "在真实的货运平台场景中，司机找货与接单并不是一次性的静态匹配问题，而是一个在时间、空间、收益和个人偏好之间不断权衡的动态连续决策过程。一次“完美”的接单，需要综合考虑当前位置、未来货源预期、自身经营状态，在“立即接单”、“休息等待”、“空驶到指定地点”之间做出权衡，以实现更优的长期经营结果。 传统的算法模型往往聚焦于单次“接单率”的预测，难以刻画司机作为经营主体在长周期下的连续决策智慧。这种长期规...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-06-07T04:00:00.000Z",
-      "prize": "217000元",
-      "tags": [
-        "应用开发赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "综合考虑当前位置、未来货源预期、自身经营状态",
-        "在“立即接单”、“休息等待”、“空驶到指定地点”之间做出权衡",
-        "以实现更优的长期经营结果。 传统的算法模型往往聚焦于单次“接单率”的预测",
-        "难以刻画司机作为经营主体在长周期下的连续决策智慧。这种长期规划与即时响应相结合的能力",
-        "正是当前人工智能从“感知智能”迈向“决策智能”的关键一步。"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:11.744Z",
-      "scrapedAt": "2026-05-22T04:00:11.097Z",
-      "lastUpdated": "2026-05-22T04:02:11.744Z",
+      "processedAt": "2026-05-22T14:49:56.802Z",
+      "scrapedAt": "2026-05-22T14:48:00.679Z",
+      "lastUpdated": "2026-05-22T14:49:56.802Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-05-22T04:02:15.979Z"
+    "lastUpdated": "2026-05-22T14:50:00.940Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-05-22T04:02:15.984Z",
+  "timestamp": "2026-05-22T14:50:00.945Z",
   "contestCount": 10,
   "contests": [
     {
@@ -8,14 +8,18 @@
       "title": "Google Cloud Rapid Agent Hackathon",
       "platform": "devpost",
       "url": "https://rapid-agent.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/623/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/623/datas/original.jpg",
+      "description": "About the challenge AI that doesn't just provide answers—it helps you take action. Building Agents for Real-World Challenges is your opportunity to move beyond the chatbot and into the world of agents that accomplish tasks for you. This hackathon is designed for every level of technical builder: whether you are writing your first script or architecting complex systems, this is your chance to build an agent that can reason, plan, and execute tasks under your oversight. Built with Gemini’s advanced reasoning and our technology partners' solutions, you will create agents that help people get more done. You provide the logic; Gemini provides the brain; our partners provide the superpowers. Turn your ideas into agents that solve real-world problems. Partners Six partner tracks are now live. Pick one and build with their MCP server: Arize Elastic Fivetran GitLab MongoDB Dynatrace The \"Partner Bucket\" System There are three identical prize buckets—one for each of our featured partner tracks. Instead of everyone competing for one giant pile of money, you are competing within the specific \"bucket\" of the partner technology you used. Prize Tier Amount (Per Partner Bucket):🥇 1st Place $5,000🥈 2nd Place $3,000🥉 3rd Place $2,000 How to Qualify Pick a Partner: Choose the partner technology that best fits the mission you want to accomplish. Build Your Agent: Create your agent—built with Gemini 3—using Google Cloud Agent Builder. Integrate the partner’s Model Context Protocol (MCP) server to give your agent the superpowers to finish the job. Win Your Track: You’ll be judged specifically against other builders within that same partner category. Examples of challenges your agent can solve: 2026 World Cup: Build an agent that solves a real-world challenge for the 2026 World Cup! Whether your agent automates fan logistics, assists local businesses in managing tourist surges, or powers a fully automated fantasy league, we want to see how AI can elevate the beautiful game. Financial Services: Build an agent that solves a real-world problem in the financial sector! Whether your agent automates real-time fraud detection, streamlines complex loan workflows, or executes personalized wealth management, we want to see how AI can drive precision and trust in the modern economy. Brick-and-Mortar Retail: Build an agent that solves a real-world challenge for brick-and-mortar malls! Whether your agent provides real-time shopper navigation, automates hyper-local tenant campaigns, or streamlines facility operations, we want to see how AI can bridge the gap between digital convenience and physical retail.",
+      "summary": "About the challenge AI that doesn't just provide answers—it helps you take action. Building Agents for Real-World Challenges is your opportunity to move beyond the chatbot and into the world of agents...",
+      "contestType": "text",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-06-11T21:00:00.000Z",
       "prize": "$60,000",
-      "tags": [],
+      "tags": [
+        "Databases",
+        "Open Ended"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -24,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:07.516Z",
-      "scrapedAt": "2026-05-22T04:00:49.890Z",
-      "lastUpdated": "2026-05-22T04:02:07.516Z",
+      "processedAt": "2026-05-22T14:49:52.548Z",
+      "scrapedAt": "2026-05-22T14:48:38.447Z",
+      "lastUpdated": "2026-05-22T14:49:52.548Z",
       "version": 1
     },
     {
@@ -34,14 +38,18 @@
       "title": "FIND EVIL!",
       "platform": "devpost",
       "url": "https://findevil.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/521/059/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/521/059/datas/original.png",
+      "description": "The Speed Problem An AI-powered adversary can go from initial access to full domain control in under 8 minutes. CrowdStrike's fastest observed breakout time: 7 minutes. Horizon3's autonomous agent: 60 seconds to full privilege escalation. MIT's 2024 research: AI-driven attack workflows running 47 times faster than human operators. Meanwhile, a human incident responder is still pulling up their toolkit. That gap is the most dangerous problem in cybersecurity. Find Evil! challenges you to close it. The Mission You'll build autonomous AI agents on the SANS SIFT Workstation --- 200+ incident response tools on a single platform, 18 years of community development, 60K+ annual downloads. Protocol SIFT, the proof-of-concept framework that connects AI agents to those tools through Model Context Protocol (MCP). Protocol SIFT works. It also hallucinates more than we'd like. (That's exactly why this hackathon exists.) Unlike offensive teams that operate with three or four people in secret, we're putting the entire practitioner community on this problem simultaneously. Your job: teach an AI agent to think like a senior analyst --- how to sequence its approach, recognize when something doesn't add up, and self-correct when it gets it wrong. Who Should Join You don't need to be an incident response expert. The SIFT Workstation handles the domain tooling. You need curiosity and building skills. IR/Security professionals: You've been finding evil manually for years. Build the AI partner you wish you had at 3 AM during an active incident. AI/ML engineers: Apply your skills to a domain where speed determines whether attackers win. Real case data, real tools, no toy datasets. Students and early-career builders: No IR background required. The SIFT Workstation is your on-ramp to the most in-demand intersection in tech. Open-source contributors: Every submission lives on as a community tool. Build something thousands of responders will use. Four supported architectural approaches: Direct Agent Extension (Claude Code or OpenClaw), Custom MCP Server, Multi-Agent Frameworks (AutoGen, CrewAI, LangGraph), or Alternative Agentic IDEs (Cursor, Cline, Aider). Teams up to 5. Solo permitted. April 15 -- June 15, 2026. $22,000+ in prizes. About the Challenge Why this exists In November 2025, Anthropic's security team published findings on GTG-1002 --- a Chinese state-sponsored operation where attackers used Claude Code to run autonomous reconnaissance, exploitation, and lateral movement at 80-90% autonomy. The AI handled everything at request rates Anthropic described as \"physically impossible\" for human operators. That was the offensive side. The SIFT Workstation is the defensive platform. Protocol SIFT demonstrated what's possible when you connect AI agents to that platform through MCP. This hackathon is how the community makes it real. The DFIR community built the SIFT Workstation 18 years ago to give every practitioner access to professional-grade tools. Find Evil! extends that mission: give every responder an AI co-pilot that can triage incidents at the speed adversaries now operate. The gap we're closing Manual command-line incident response cannot compete with autonomous agents executing thousands of requests. Adversaries move at machine speed. Defenders still look up command-line flags during active incidents. Your goal: build AI systems on the SIFT Workstation that match that velocity --- triaging, correlating, and reporting at the pace the threat demands. This hackathon is how. Get Started Register on Devpost (you're here) Join the Protocol SIFT Slack --- this is where questions get answered, teams form, and mentors hang out - Download the SIFT Workstation from sans.org/tools/sift-workstation Install Protocol SIFT Package to demonstrate automated analysis, To install Protocol SIFT, after you download SIFT OVA, and login, run this command from your terminal:: $ curl -fsSL https://raw.githubusercontent.com/teamdfir/protocol-sift/main/install.sh | bash Review the starter resources: sample case data (hard drives, memory images), example submission. Pick a problem and start building. See \"What to Build\" for project ideas and supported architectural approaches to get past the blank-screen problem.",
+      "summary": "The Speed Problem An AI-powered adversary can go from initial access to full domain control in under 8 minutes. CrowdStrike's fastest observed breakout time: 7 minutes. Horizon3's autonomous agent: 60...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-06-16T03:45:00.000Z",
       "prize": "$22,000",
-      "tags": [],
+      "tags": [
+        "Cybersecurity",
+        "Beginner Friendly"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -50,9 +58,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:07.511Z",
-      "scrapedAt": "2026-05-22T04:00:49.890Z",
-      "lastUpdated": "2026-05-22T04:02:07.511Z",
+      "processedAt": "2026-05-22T14:49:52.551Z",
+      "scrapedAt": "2026-05-22T14:48:38.448Z",
+      "lastUpdated": "2026-05-22T14:49:52.551Z",
       "version": 1
     },
     {
@@ -60,14 +68,19 @@
       "title": "Reddit Mod Tools and Migrated Apps Hackathon",
       "platform": "devpost",
       "url": "https://mod-tools-migration.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/498/306/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/498/306/datas/original.png",
+      "description": "Overview Reddit is hosting the Mod Tools and Migrated Apps Hackathon from April 29nd to May 27th. We’re offering developers $45,000 in prizes for new tools built to empower moderators, as well as existing mod apps ported from our Data API to Devvit. The challenge: create a utility, automation, or moderation tool that solves existing community pain points using Devvit i.e. Reddit’s Developer Platform. For this hackathon, we have three categories with grand prizes: New Mod Tool Category: Build a brand-new utility or tool designed to make both leading and moderating communities easier. We want to see time savings, utilities for thoughtful engagement, and tools to delight subreddit moderators across the site. Ported Data API App Category: Take a classic Reddit bot (originally built on PRAW or other frameworks) and port it to Devvit. We want to see these essential tools become more stable, faster, and easier for mods to install via the App Directory. We are excited to see individual community tools become generalized for broader mod benefit, as well as bespoke subreddit tools finding a home on Devvit. Moderators Choice: A panel of moderator judges will select one additional grand prize winner, based on the core judging criteria. This moderator panel will review a shortlist of projects from the two other categories that score highly in the first round of judging. What to Build Build a moderation app with Devvit. We are looking for tools that range from automated enforcement, to better queue management, to creative community-building utilities. The best apps reduce moderation load significantly, improve community operation, or serve to incentivize good behavior in the community through innovative utilities. These apps can have a custom post component, or can operate entirely in the background. We want to see evidence that the tool can save significant time or make a measurable impact. Importantly, the tool should also be easy to understand, install, and provide a great user experience for mods installing the tool. The Best New Mod Tool: For the most innovative tool or utility that solves a significant pain point for moderators. This could be easier rule enforcement, moderation workflows, community engagement tools, or anything else that supports moderators in community leadership. It should be unique to the Devvit ecosystem and provide a seamless experience for mod teams. The app should not have been created prior to the content period. The Best Ported App: This award recognizes the most successful migration of an existing Data API moderation bot or tool* to Devvit. The winning submission will maintain the bot’s core utilityand can be generalized to serve many communities through app install. You should be the bot owner, or have written permission to port the bot you are submitting for this event. *Existing Data API bots must have been operating on Reddit prior to March 2026 and support one or more existing communities with 500 or more Weekly Active Users. These can be mod tools, utilities, or anything else that improves the day-to-day functioning of an existing Reddit community. Apps not built with Reddit's Data API do not count towards this category. Requirements Apps must be built on Reddit's Developer Platform and be compliant with our Devvit Rules. For this event we are looking for polish, meaning apps that are as close to launch-ready as possible. We understand that not all projects will reach this threshold, but projects that are well tested and concept-complete will score higher. Getting started Get started with the Devvit documentation for moderation apps. Review our bot porting guide on migrating Data API bots to Devvit. Join us on Discord and r/Devvit for live support and office hours Sustaining Success Successful apps built during the hackathon can become eligible for Reddit Developer Funds, which rewards apps for reaching engagement milestones. Learn more about the program here. Successful ports can also be eligable for a porting bounty via our App Migration Program. Need inspiration? Join our Discord to chat with other developers and get live support from the Reddit team.",
+      "summary": "Overview Reddit is hosting the Mod Tools and Migrated Apps Hackathon from April 29nd to May 27th. We’re offering developers $45,000 in prizes for new tools built to empower moderators, as well as exis...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-05-28T01:00:00.000Z",
       "prize": "$45,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Social Good",
+        "Web"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -76,9 +89,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:07.610Z",
-      "scrapedAt": "2026-05-22T04:00:49.891Z",
-      "lastUpdated": "2026-05-22T04:02:07.610Z",
+      "processedAt": "2026-05-22T14:49:52.599Z",
+      "scrapedAt": "2026-05-22T14:48:38.448Z",
+      "lastUpdated": "2026-05-22T14:49:52.599Z",
       "version": 1
     },
     {
@@ -86,14 +99,18 @@
       "title": "Build with Gemini XPRIZE",
       "platform": "devpost",
       "url": "https://xprize.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/original.png",
+      "description": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Ship Deploy a business that operates with AI. Real users in production. 04 Sell Market it. Grow it. Show the revenue. AI is transforming everything, including what small teams can build. Operations that used to take entire engineering departments can now be written in plain English and executed by AI agents. By some estimates, the world’s 45 million software developers will grow to over a billion in the next few years. Everyone will be a developer, and we want to start now, with you. So show us: build a real business that makes real impact.",
+      "summary": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Shi...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-17T20:00:00.000Z",
       "prize": "$2,000,000",
-      "tags": [],
+      "tags": [
+        "Education",
+        "Productivity"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -102,9 +119,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:08.607Z",
-      "scrapedAt": "2026-05-22T04:00:49.892Z",
-      "lastUpdated": "2026-05-22T04:02:08.607Z",
+      "processedAt": "2026-05-22T14:49:53.635Z",
+      "scrapedAt": "2026-05-22T14:48:38.449Z",
+      "lastUpdated": "2026-05-22T14:49:53.635Z",
       "version": 1
     },
     {
@@ -112,14 +129,18 @@
       "title": "Splunk Agentic Ops Hackathon",
       "platform": "devpost",
       "url": "https://splunk.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/522/819/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/522/819/datas/original.png",
+      "description": "About the challenge The Splunk Agentic Ops Hackathon invites developers, security, IT and network engineers, and all AI-forward builders to create innovative solutions that combine AI with the power of Splunk. Participants will build intelligent applications that enhance observability, security/network operations and developer productivity using the latest Splunk AI capabilities. During the hackathon, teams will develop projects across three core tracks: Observability, Security, and Platform, while leveraging cutting-edge capabilities such as AI agents for Splunk apps, Splunk MCP Server, Splunk hosted models, AI Assistant, and AI-powered app development tools. Whether you're building AI-powered incident investigation tools, intelligent security workflows, or next-generation developer experiences for Splunk apps, this hackathon is an opportunity to experiment, innovate, and showcase what’s possible when AI meets operational data. With $20,000 and .conf26 passes in prizes, participants will compete to build the most impactful solutions that help organizations monitor systems smarter, detect threats faster, and unlock new ways to build on the Splunk platform. Get Started Create a free Splunk account Download Splunk Enterprise free trial (which will be valid for 60 days from the time of install). Request for a Developer License through the developer program and apply the Developer License to your free trial, where the agreement changes to developer use cases (Developer License will be valid for 6 months)Note: If you already have a Splunk Enterprise or Splunk Cloud License (either free trial or non-free trial version), you can just simply request for a Developer License through the Splunk Developer Program and apply the Developer License to your Splunk instance. The submission period opens May 18th!",
+      "summary": "About the challenge The Splunk Agentic Ops Hackathon invites developers, security, IT and network engineers, and all AI-forward builders to create innovative solutions that combine AI with the power o...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-06-15T16:00:00.000Z",
       "prize": "$20,000",
-      "tags": [],
+      "tags": [
+        "Cybersecurity",
+        "Enterprise"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -128,9 +149,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:08.606Z",
-      "scrapedAt": "2026-05-22T04:00:49.894Z",
-      "lastUpdated": "2026-05-22T04:02:08.606Z",
+      "processedAt": "2026-05-22T14:49:53.599Z",
+      "scrapedAt": "2026-05-22T14:48:38.450Z",
+      "lastUpdated": "2026-05-22T14:49:53.599Z",
       "version": 1
     },
     {
@@ -138,25 +159,36 @@
       "title": "UiPath AgentHack",
       "platform": "devpost",
       "url": "https://uipath-agenthack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/624/515/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/624/515/datas/original.jpg",
+      "description": "UiPath AgentHack is the UiPath Community global online hackathon for developers, automation engineers, data scientists, AI engineers, students, and professionals who want to go beyond basic automation and build agentic solutions that work in enterprise environments. Over 7 weeks, you'll design and ship a real, working solution on the UiPath Platform™. Not a concept, nor a slide deck, but a working solution that handles complexity, survives interruptions, keeps humans in the loop, and solves something that matters. Uipath AgentHack challenges you to build, run, and orchestrate real agentic solutions on the UiPath Platform, the single enterprise control plane that coordinates AI agents, automations, people, and applications end to end. Whether you build with UiPath's native capabilities or combine them with frameworks like LangChain, CrewAI, or AutoGen, your solution must use UiPath as the execution and orchestration layer. We have $50,000 in cash prizes and three challenge tracks built around the most critical capabilities in enterprise agentic AI. Pick the track that best fits your project and submit: Track 1: UiPath Maestro Case Track 2: UiPath Maestro BPMN Track 3: UiPath Test Cloud About the challenge Coding agents have redefined how we build and the real value now lies in how we operate and govern agents at scale, bridging the gap between a prototype on a laptop and software running in production. UiPath AgentHack is built around that challenge. At the center of this hackathon is UiPath for Coding Agents, a platform-wide capability that enables developers to use coding agents (Claude Code, Codex, Cursor, and Gemini CLI, etc) to build, test, deploy, operate, and govern enterprise automations. Using natural language, you'll design AI agents that drive tangible business value, with full support for external frameworks such as LangChain, CrewAI, and AutoGen. The three challenge tracks are built around real-world enterprise problems that require coordination, adaptability, and orchestration at scale: structured process orchestration with Maestro BPMN, agentic case management for dynamic and exception-heavy work, and agentic software testing for AI-driven automations. Throughout the 7-week hacking period, UiPath will host community meetups, office hours, and will offer enablement resources to help you get up to speed with the platform and refine your solution. Track 1: UiPath Maestro Case. Build a solution that orchestrates dynamic, exception-heavy business processes using UiPath case management capabilities. Your solution should move work through stages, involve handoffs between agents, robots, and people, and keep humans in charge at key decision points. Agents within your case flow can be built on UiPath or an external framework; the platform handles coordination regardless of where the agents come from. Think about scenarios like: insurance claims processing where cases move through intake, investigation, and settlement stages; patient care coordination where agents manage referrals, scheduling, and follow-ups across providers; HR onboarding workflows where each new hire case progresses through document collection, system provisioning, and training assignment. Track 2: UiPath Maestro BPMN. Build a solution that models and runs an end-to-end business process using BPMN 2.0 in UiPath Maestro. Your process should orchestrate humans, robots, agents, and APIs through a defined flow with clear tasks, decisions, and handoffs. Agents within the process can be built with UiPath Agent Builder, coding agents, or external frameworks like LangChain, CrewAI, AutoGen, or any other agent platform. We want to see processes that move work cleanly from start to finish, with the right actor doing the right task at the right time. Think about scenarios like: An order-to-cash workflow where RPA pulls orders from email, EDI, and portals, an agent normalizes line items and flags pricing exceptions, and Maestro BPMN orchestrates credit checks, inventory allocation, fulfillment, and invoicing across ERP and CRM in a defined sequence. A collections agent monitors aging invoices and escalates disputes to finance for review. Or a procure-to-pay process where agents parse requisition intent, recommend vendors, and route approvals based on budget thresholds and category rules, RPA handles PO creation and invoice ingestion across ERP and AP systems, and an invoice agent reconciles discrepancies between PO, receipt, and invoice, escalating only true exceptions to AP for human review. Maestro BPMN keeps the full flow coordinated from requisition to payment Track 3: UiPath Test Cloud. Create agents that use UiPath Test Cloud to reimagine how software testing is designed, automated, executed, and managed across modern enterprise environments. Your goal is to show how agentic software testing can improve quality across AI-driven automations, enterprise applications, and connected business workflows. These agents should help you move faster with more confidence by increasing coverage, improving reliability, and reducing the manual effort required to validate complex systems. Think of building agents that can: evaluate requirements and turn them into meaningful test scenarios, identify fragile or outdated tests before they slow down a release, recommend fixes when automation breaks, or help orchestrate the right tests at the right time based on risk, coverage, and change impact. You might also explore how agents can validate AI-infused workflows, including third-party agents or AI services that participate in a UiPath-orchestrated process. All solutions must run on the UiPath Automation Cloud. You can include Agent Builder, Maestro, API Workflows, coding agents, and RPA where needed. You're welcome to bring in agents built on external frameworks and LLMs, in fact, we encourage it. The point is that UiPath is the orchestration and governance layer that ties everything together. Tip: If your process has unpredictable paths that emerge as the work unfolds, choose Track 1 - UiPath Maestro Case. If your process has a predictable sequence you can map in advance, choose Track 2 - UiPath Maestro BPMN. Bonus: solutions that use coding agents through UiPath for Coding Agents (Claude Code, Codex, Cursor, Gemini CLI, etc) will receive additional points during judging. We're especially interested in seeing how participants combine coding agents with low-code components, or blend UiPath-native agents with external agents, to solve complex problems You can't submit the same project to multiple tracks, and your solution needs to clearly align with whichever track you choose, both in how it's built and how it's described. Get started Register on Devpost for UiPath AgentHack. Form or join a team of 1 to 4 people and pick your track. Ask for access on UiPath Labs here: Teams must designate a representative to complete the access form on behalf of the group. Within 3 business days of asking for access, you'll receive a separate email with your UiPath Labs access link and credentials. UiPath Labs come fully equipped with agentic and AI units, so you can build without constraints.",
+      "summary": "UiPath AgentHack is the UiPath Community global online hackathon for developers, automation engineers, data scientists, AI engineers, students, and professionals who want to go beyond basic automation...",
+      "contestType": "image",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-06-30T06:45:00.000Z",
       "prize": "$50,000",
-      "tags": [],
+      "tags": [
+        "llm",
+        "Enterprise",
+        "Robotic Process Automation"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
+      "requirements": [
+        "and turn them into meaningful test scenarios",
+        "identify fragile or outdated tests before they slow down a release",
+        "recommend fixes when automation breaks",
+        "or help orchestrate the right tests at the right time based on risk",
+        "coverage"
+      ],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:08.609Z",
-      "scrapedAt": "2026-05-22T04:00:49.895Z",
-      "lastUpdated": "2026-05-22T04:02:08.609Z",
+      "processedAt": "2026-05-22T14:49:53.596Z",
+      "scrapedAt": "2026-05-22T14:48:38.450Z",
+      "lastUpdated": "2026-05-22T14:49:53.596Z",
       "version": 1
     },
     {
@@ -164,15 +196,17 @@
       "title": "DevNetwork [AI + ML] Hackathon 2026",
       "platform": "devpost",
       "url": "https://devnetwork-ai-ml-hack-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/474/092/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/474/092/datas/original.jpg",
+      "description": "Join the nation's largest challenge-driven hackathon @ AI DevSummit 2026! DevNetwork [AI + ML] Hackathon 2026 Join the largest challenge-driven in-person & online hackathon, co-located with AI DevSummit 2026! Our hackathons regularly attract over 300+ participants -- and we are inviting the international developer community to converge in-person & online this year for the DevNetwork [AI + ML] Hackathon 2026! In Person & Awards - South San Francisco Conference Center - May 27-28, 2026 Online - May 11 - May 28, 2026 1. Create a DevPost account and click Register on the DevPost DevNetwork [AI + ML] Hackathon 2026 page. 2. DevNetwork Hackathon: AI/ML 2026 Hackathon Kicks off May 11, 2026! Join the Kick Off Call here 3. Review full Hackathon Instructions here!",
+      "summary": "Join the nation's largest challenge-driven hackathon @ AI DevSummit 2026! DevNetwork [AI + ML] Hackathon 2026 Join the largest challenge-driven in-person & online hackathon, co-located with AI DevSumm...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-05-28T17:00:00.000Z",
       "prize": "$8,000",
       "tags": [
-        "ai"
+        "DevOps",
+        "Enterprise"
       ],
       "aiTools": [
         "Python",
@@ -182,9 +216,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:08.608Z",
-      "scrapedAt": "2026-05-22T04:00:49.895Z",
-      "lastUpdated": "2026-05-22T04:02:08.608Z",
+      "processedAt": "2026-05-22T14:49:53.593Z",
+      "scrapedAt": "2026-05-22T14:48:38.451Z",
+      "lastUpdated": "2026-05-22T14:49:53.593Z",
       "version": 1
     },
     {
@@ -192,14 +226,18 @@
       "title": "DSH Hacks V1",
       "platform": "devpost",
       "url": "https://dsh-hacks-v1.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/466/363/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/466/363/datas/original.png",
+      "description": "About the Challenge DSH Hacks V1 is a global student competition open to students aged 13+ hosted collaboratively by three youth-led organizations: DeltaForge Hacks, NextHorizon, and STEMise. Theme: AI x STEM Education This event brings together young innovators from around the world to reimagine the future of STEM education through artificial intelligence. Participants will work individually or in teams to design and develop a meaningful technical product that leverages AI to improve, enhance, or expand STEM education. Projects may range from machine learning tools that personalize learning pathways to computer vision systems for laboratory simulations, to AI-driven platforms that increase accessibility for underrepresented communities. Creativity, feasibility, technical depth, and real-world impact will be central to evaluation. The theme of this competition is to create tools that help students learn STEM more effectively, interactively, and accessibly. These tools can be an app, a website, a simulation, a system, or an algorithm. Participants are allowed to use AI to encourage them to build a meaningful solution in the realm of STEM education and to lower the technical barrier that imposes challenges for beginners with ambitious project ideas. Get Started Ask around and form a team! We highly recommend finding like-minded individuals around you to help make your ideas a reality! Please join these Discord servers: DeltaForge Hacks & STEMise! You may very well find your new team!",
+      "summary": "About the Challenge DSH Hacks V1 is a global student competition open to students aged 13+ hosted collaboratively by three youth-led organizations: DeltaForge Hacks, NextHorizon, and STEMise. Theme: A...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-06-15T04:45:00.000Z",
       "prize": "$5,096",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -208,9 +246,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:08.643Z",
-      "scrapedAt": "2026-05-22T04:00:49.896Z",
-      "lastUpdated": "2026-05-22T04:02:08.643Z",
+      "processedAt": "2026-05-22T14:49:53.669Z",
+      "scrapedAt": "2026-05-22T14:48:38.451Z",
+      "lastUpdated": "2026-05-22T14:49:53.669Z",
       "version": 1
     },
     {
@@ -218,14 +256,19 @@
       "title": "NextGenHacks",
       "platform": "devpost",
       "url": "https://nextgenhacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/596/347/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/596/347/datas/original.png",
+      "description": "NextGenHacks is a beginner-friendly online hackathon designed to bring together the next generation of builders, creators, and innovators. Whether you're just starting out or already experienced, this is your chance to turn ideas into real projects. This is an open-ended hackathon, meaning you can build anything you want—apps, tools, platforms, games, or completely new ideas. The goal is simple: create something meaningful, creative, or useful. Participants can work solo or in teams to brainstorm ideas, collaborate, and build projects that showcase their skills and creativity. Why NextGenHacks is special: Open to all skill levels: Beginners welcome, no prior experience needed Build anything: No strict theme—your creativity sets the direction Learn by doing: Gain hands-on experience while building real projects Community-driven: Connect with other students, share ideas, and collaborate Mentorship & support: Get guidance and help throughout the hackathon Exciting prizes & recognition Whether you’re building your first project or your tenth, NextGenHacks is your opportunity to learn, create, and innovate.",
+      "summary": "NextGenHacks is a beginner-friendly online hackathon designed to bring together the next generation of builders, creators, and innovators. Whether you're just starting out or already experienced, this...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-06-02T06:45:00.000Z",
       "prize": "$1,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Open Ended",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -234,9 +277,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:09.658Z",
-      "scrapedAt": "2026-05-22T04:00:49.896Z",
-      "lastUpdated": "2026-05-22T04:02:09.658Z",
+      "processedAt": "2026-05-22T14:49:54.657Z",
+      "scrapedAt": "2026-05-22T14:48:38.451Z",
+      "lastUpdated": "2026-05-22T14:49:54.657Z",
       "version": 1
     },
     {
@@ -244,31 +287,39 @@
       "title": "HackAmerica",
       "platform": "devpost",
       "url": "https://hackamerica.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/620/523/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/620/523/datas/original.png",
+      "description": "About the challenge Next spring, HackAmerica is encouraging high school students nationwide to participate in one of the largest student-led hackathons in the United States. Over a week, students will immerse themselves in the dynamic, ongoing, social-environmental issues that exist in this country and others around the world, choosing a focus of their choice. Whether solo or in a team of up to four, your mission is to build something that matters. Feel free to use any tools or tech, as there are no limits—only one rule: your project must be submitted before time’s up to be judged by our panel. This isn’t just about coding—it’s about bold ideas, smart collaboration, and sparking a real difference. Beginners, experts, and everyone in between are welcome. Come build with us, and show the world what students can do when we lead the way. Get started Whether you’re going solo or collaborating with up to 3 fellow hackers, HackAmerica is still your place to design: from within anywhere in the nation. We will give you a full liberty of any programming languages, tools, or platforms (yes, ChatGPT is allowed) that you like. We won’t restrict your freedom. Construct what you have learned or even experiment with new ones. As HackAmerica is an online event, we will program your creativity for success. There will be lots of virtual workshops, live Q&As, mini-challenges, and community events in the schedule for you to energize your mind, enhance your skills, and get acquainted with other hackers across America. Our Discord server is your home base. Here is where you will find the people who will be working with you, the place to share your ideas, the place to ask questions, and the place to get mentor’s help all along the weekend. If you have a lot of programming experience or if you are just learning the code, you will find a community that will stand with you. No experience in hackathons? The situation is even better. Your only requirements are curiosity, Wi-Fi, and the courage to create something daring.The inception of any great idea starts with one small decision: the decision to start. So go for it – we are ready to see what you’re going to build.",
+      "summary": "About the challenge Next spring, HackAmerica is encouraging high school students nationwide to participate in one of the largest student-led hackathons in the United States. Over a week, students will...",
+      "contestType": "text",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-05-23T18:00:00.000Z",
       "prize": "$575",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Design",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
+      "requirements": [
+        "are curiosity",
+        "Wi-Fi"
+      ],
       "qualityScore": 6,
-      "processedAt": "2026-05-22T04:02:09.656Z",
-      "scrapedAt": "2026-05-22T04:00:49.897Z",
-      "lastUpdated": "2026-05-22T04:02:09.656Z",
+      "processedAt": "2026-05-22T14:49:54.657Z",
+      "scrapedAt": "2026-05-22T14:48:38.452Z",
+      "lastUpdated": "2026-05-22T14:49:54.657Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-05-22T04:02:15.984Z"
+    "lastUpdated": "2026-05-22T14:50:00.945Z"
   }
 }

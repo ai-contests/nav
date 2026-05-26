@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-05-26T03:57:12.601Z",
+  "timestamp": "2026-05-26T15:45:42.546Z",
   "contestCount": 10,
   "contests": [
     {
@@ -24,9 +24,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-26T03:57:03.829Z",
-      "scrapedAt": "2026-05-26T03:55:48.248Z",
-      "lastUpdated": "2026-05-26T03:57:03.829Z",
+      "processedAt": "2026-05-26T15:45:33.638Z",
+      "scrapedAt": "2026-05-26T15:44:16.591Z",
+      "lastUpdated": "2026-05-26T15:45:33.638Z",
       "version": 1
     },
     {
@@ -50,35 +50,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-26T03:57:03.819Z",
-      "scrapedAt": "2026-05-26T03:55:48.249Z",
-      "lastUpdated": "2026-05-26T03:57:03.819Z",
-      "version": 1
-    },
-    {
-      "id": "c_0b1481c7a616",
-      "title": "Reddit Mod Tools and Migrated Apps Hackathon",
-      "platform": "devpost",
-      "url": "https://mod-tools-migration.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/498/306/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$45,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-26T03:57:03.923Z",
-      "scrapedAt": "2026-05-26T03:55:48.249Z",
-      "lastUpdated": "2026-05-26T03:57:03.923Z",
+      "processedAt": "2026-05-26T15:45:33.645Z",
+      "scrapedAt": "2026-05-26T15:44:16.592Z",
+      "lastUpdated": "2026-05-26T15:45:33.645Z",
       "version": 1
     },
     {
@@ -102,23 +76,23 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-26T03:57:04.943Z",
-      "scrapedAt": "2026-05-26T03:55:48.250Z",
-      "lastUpdated": "2026-05-26T03:57:04.943Z",
+      "processedAt": "2026-05-26T15:45:33.807Z",
+      "scrapedAt": "2026-05-26T15:44:16.593Z",
+      "lastUpdated": "2026-05-26T15:45:33.807Z",
       "version": 1
     },
     {
-      "id": "c_3da41543eb1e",
-      "title": "UiPath AgentHack",
+      "id": "c_0b1481c7a616",
+      "title": "Reddit Mod Tools and Migrated Apps Hackathon",
       "platform": "devpost",
-      "url": "https://uipath-agenthack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/624/515/datas/medium_square.jpg",
+      "url": "https://mod-tools-migration.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/498/306/datas/medium_square.png",
       "description": "",
       "summary": "...",
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
-      "prize": "$50,000",
+      "prize": "$45,000",
       "tags": [],
       "aiTools": [
         "Python",
@@ -128,9 +102,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-26T03:57:04.925Z",
-      "scrapedAt": "2026-05-26T03:55:48.252Z",
-      "lastUpdated": "2026-05-26T03:57:04.925Z",
+      "processedAt": "2026-05-26T15:45:34.813Z",
+      "scrapedAt": "2026-05-26T15:44:16.594Z",
+      "lastUpdated": "2026-05-26T15:45:34.813Z",
       "version": 1
     },
     {
@@ -154,9 +128,61 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-26T03:57:04.926Z",
-      "scrapedAt": "2026-05-26T03:55:48.253Z",
-      "lastUpdated": "2026-05-26T03:57:04.926Z",
+      "processedAt": "2026-05-26T15:45:34.822Z",
+      "scrapedAt": "2026-05-26T15:44:16.597Z",
+      "lastUpdated": "2026-05-26T15:45:34.822Z",
+      "version": 1
+    },
+    {
+      "id": "c_3da41543eb1e",
+      "title": "UiPath AgentHack",
+      "platform": "devpost",
+      "url": "https://uipath-agenthack.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/624/515/datas/medium_square.jpg",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$50,000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-05-26T15:45:34.831Z",
+      "scrapedAt": "2026-05-26T15:44:16.598Z",
+      "lastUpdated": "2026-05-26T15:45:34.831Z",
+      "version": 1
+    },
+    {
+      "id": "c_b12d3af7e8f2",
+      "title": "Slack Agent Builder Challenge",
+      "platform": "devpost",
+      "url": "https://slackhack.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/685/418/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$42,000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-05-26T15:45:34.809Z",
+      "scrapedAt": "2026-05-26T15:44:16.598Z",
+      "lastUpdated": "2026-05-26T15:45:34.809Z",
       "version": 1
     },
     {
@@ -182,35 +208,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-26T03:57:04.923Z",
-      "scrapedAt": "2026-05-26T03:55:48.253Z",
-      "lastUpdated": "2026-05-26T03:57:04.923Z",
-      "version": 1
-    },
-    {
-      "id": "c_b12d3af7e8f2",
-      "title": "Slack Agent Builder Challenge",
-      "platform": "devpost",
-      "url": "https://slackhack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/685/418/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$42,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-26T03:57:05.031Z",
-      "scrapedAt": "2026-05-26T03:55:48.254Z",
-      "lastUpdated": "2026-05-26T03:57:05.031Z",
+      "processedAt": "2026-05-26T15:45:34.943Z",
+      "scrapedAt": "2026-05-26T15:44:16.599Z",
+      "lastUpdated": "2026-05-26T15:45:34.943Z",
       "version": 1
     },
     {
@@ -234,9 +234,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-26T03:57:06.034Z",
-      "scrapedAt": "2026-05-26T03:55:48.254Z",
-      "lastUpdated": "2026-05-26T03:57:06.034Z",
+      "processedAt": "2026-05-26T15:45:35.938Z",
+      "scrapedAt": "2026-05-26T15:44:16.599Z",
+      "lastUpdated": "2026-05-26T15:45:35.938Z",
       "version": 1
     },
     {
@@ -260,15 +260,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-26T03:57:06.033Z",
-      "scrapedAt": "2026-05-26T03:55:48.254Z",
-      "lastUpdated": "2026-05-26T03:57:06.033Z",
+      "processedAt": "2026-05-26T15:45:35.944Z",
+      "scrapedAt": "2026-05-26T15:44:16.600Z",
+      "lastUpdated": "2026-05-26T15:45:35.944Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-05-26T03:57:12.601Z"
+    "lastUpdated": "2026-05-26T15:45:42.546Z"
   }
 }

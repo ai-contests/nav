@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-05-28T04:00:17.017Z",
+  "timestamp": "2026-05-28T16:10:29.104Z",
   "contestCount": 10,
   "contests": [
     {
@@ -28,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-28T04:00:07.973Z",
-      "scrapedAt": "2026-05-28T03:58:51.023Z",
-      "lastUpdated": "2026-05-28T04:00:07.973Z",
+      "processedAt": "2026-05-28T16:10:20.655Z",
+      "scrapedAt": "2026-05-28T16:09:06.420Z",
+      "lastUpdated": "2026-05-28T16:10:20.655Z",
       "version": 1
     },
     {
@@ -58,9 +58,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-28T04:00:08.046Z",
-      "scrapedAt": "2026-05-28T03:58:51.024Z",
-      "lastUpdated": "2026-05-28T04:00:08.046Z",
+      "processedAt": "2026-05-28T16:10:20.748Z",
+      "scrapedAt": "2026-05-28T16:09:06.421Z",
+      "lastUpdated": "2026-05-28T16:10:20.748Z",
       "version": 1
     },
     {
@@ -88,9 +88,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-28T04:00:08.142Z",
-      "scrapedAt": "2026-05-28T03:58:51.025Z",
-      "lastUpdated": "2026-05-28T04:00:08.142Z",
+      "processedAt": "2026-05-28T16:10:20.783Z",
+      "scrapedAt": "2026-05-28T16:09:06.422Z",
+      "lastUpdated": "2026-05-28T16:10:20.783Z",
       "version": 1
     },
     {
@@ -125,9 +125,9 @@
         "coverage"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-05-28T04:00:09.140Z",
-      "scrapedAt": "2026-05-28T03:58:51.026Z",
-      "lastUpdated": "2026-05-28T04:00:09.140Z",
+      "processedAt": "2026-05-28T16:10:21.780Z",
+      "scrapedAt": "2026-05-28T16:09:06.423Z",
+      "lastUpdated": "2026-05-28T16:10:21.780Z",
       "version": 1
     },
     {
@@ -135,14 +135,18 @@
       "title": "Splunk Agentic Ops Hackathon",
       "platform": "devpost",
       "url": "https://splunk.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/522/819/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/522/819/datas/original.png",
+      "description": "About the challenge The Splunk Agentic Ops Hackathon invites developers, security, IT and network engineers, and all AI-forward builders to create innovative solutions that combine AI with the power of Splunk. Participants will build intelligent applications that enhance observability, security/network operations and developer productivity using the latest Splunk AI capabilities. During the hackathon, teams will develop projects across three core tracks: Observability, Security, and Platform, while leveraging cutting-edge capabilities such as AI agents for Splunk apps, Splunk MCP Server, Splunk hosted models, AI Assistant, and AI-powered app development tools. Whether you're building AI-powered incident investigation tools, intelligent security workflows, or next-generation developer experiences for Splunk apps, this hackathon is an opportunity to experiment, innovate, and showcase what’s possible when AI meets operational data. With $20,000 and .conf26 passes in prizes, participants will compete to build the most impactful solutions that help organizations monitor systems smarter, detect threats faster, and unlock new ways to build on the Splunk platform. Get Started Create a free Splunk account Download Splunk Enterprise free trial (which will be valid for 60 days from the time of install). Request for a Developer License through the developer program and apply the Developer License to your free trial, where the agreement changes to developer use cases (Developer License will be valid for 6 months)Note: If you already have a Splunk Enterprise or Splunk Cloud License (either free trial or non-free trial version), you can just simply request for a Developer License through the Splunk Developer Program and apply the Developer License to your Splunk instance. The submission period opens May 18th!",
+      "summary": "About the challenge The Splunk Agentic Ops Hackathon invites developers, security, IT and network engineers, and all AI-forward builders to create innovative solutions that combine AI with the power o...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-06-15T16:00:00.000Z",
       "prize": "$20,000",
-      "tags": [],
+      "tags": [
+        "Cybersecurity",
+        "Enterprise"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -151,9 +155,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-28T04:00:09.141Z",
-      "scrapedAt": "2026-05-28T03:58:51.029Z",
-      "lastUpdated": "2026-05-28T04:00:09.141Z",
+      "processedAt": "2026-05-28T16:10:21.821Z",
+      "scrapedAt": "2026-05-28T16:09:06.424Z",
+      "lastUpdated": "2026-05-28T16:10:21.821Z",
       "version": 1
     },
     {
@@ -177,9 +181,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-28T04:00:09.142Z",
-      "scrapedAt": "2026-05-28T03:58:51.029Z",
-      "lastUpdated": "2026-05-28T04:00:09.142Z",
+      "processedAt": "2026-05-28T16:10:21.788Z",
+      "scrapedAt": "2026-05-28T16:09:06.424Z",
+      "lastUpdated": "2026-05-28T16:10:21.788Z",
       "version": 1
     },
     {
@@ -205,9 +209,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-28T04:00:09.142Z",
-      "scrapedAt": "2026-05-28T03:58:51.030Z",
-      "lastUpdated": "2026-05-28T04:00:09.142Z",
+      "processedAt": "2026-05-28T16:10:21.782Z",
+      "scrapedAt": "2026-05-28T16:09:06.425Z",
+      "lastUpdated": "2026-05-28T16:10:21.782Z",
       "version": 1
     },
     {
@@ -231,35 +235,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-28T04:00:09.217Z",
-      "scrapedAt": "2026-05-28T03:58:51.030Z",
-      "lastUpdated": "2026-05-28T04:00:09.217Z",
-      "version": 1
-    },
-    {
-      "id": "c_5faed94aaeb1",
-      "title": "NextGenHacks",
-      "platform": "devpost",
-      "url": "https://nextgenhacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/596/347/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$1,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-05-28T04:00:10.231Z",
-      "scrapedAt": "2026-05-28T03:58:51.030Z",
-      "lastUpdated": "2026-05-28T04:00:10.231Z",
+      "processedAt": "2026-05-28T16:10:21.836Z",
+      "scrapedAt": "2026-05-28T16:09:06.425Z",
+      "lastUpdated": "2026-05-28T16:10:21.836Z",
       "version": 1
     },
     {
@@ -285,15 +263,41 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-28T04:00:10.222Z",
-      "scrapedAt": "2026-05-28T03:58:51.031Z",
-      "lastUpdated": "2026-05-28T04:00:10.222Z",
+      "processedAt": "2026-05-28T16:10:22.857Z",
+      "scrapedAt": "2026-05-28T16:09:06.435Z",
+      "lastUpdated": "2026-05-28T16:10:22.857Z",
+      "version": 1
+    },
+    {
+      "id": "c_5faed94aaeb1",
+      "title": "NextGenHacks",
+      "platform": "devpost",
+      "url": "https://nextgenhacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/596/347/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$1,000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-05-28T16:10:22.844Z",
+      "scrapedAt": "2026-05-28T16:09:06.436Z",
+      "lastUpdated": "2026-05-28T16:10:22.844Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-05-28T04:00:17.017Z"
+    "lastUpdated": "2026-05-28T16:10:29.104Z"
   }
 }

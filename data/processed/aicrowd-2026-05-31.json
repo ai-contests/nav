@@ -1,7 +1,7 @@
 {
   "platform": "aicrowd",
-  "timestamp": "2026-05-31T04:13:03.526Z",
-  "contestCount": 6,
+  "timestamp": "2026-05-31T13:55:33.199Z",
+  "contestCount": 7,
   "contests": [
     {
       "id": "c_8028e73d2ed6",
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-31T04:12:52.592Z",
-      "scrapedAt": "2026-05-31T04:11:59.812Z",
-      "lastUpdated": "2026-05-31T04:12:52.592Z",
+      "processedAt": "2026-05-31T13:55:23.045Z",
+      "scrapedAt": "2026-05-31T13:54:30.372Z",
+      "lastUpdated": "2026-05-31T13:55:23.045Z",
       "version": 1
     },
     {
@@ -42,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T04:11:59.813Z",
+      "deadline": "2030-08-14T13:54:30.373Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -53,9 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-31T04:12:53.396Z",
-      "scrapedAt": "2026-05-31T04:11:59.813Z",
-      "lastUpdated": "2026-05-31T04:12:53.396Z",
+      "processedAt": "2026-05-31T13:55:23.837Z",
+      "scrapedAt": "2026-05-31T13:54:30.373Z",
+      "lastUpdated": "2026-05-31T13:55:23.837Z",
       "version": 1
     },
     {
@@ -69,7 +69,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T04:11:59.813Z",
+      "deadline": "2045-09-01T13:54:30.373Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -80,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-31T04:12:53.483Z",
-      "scrapedAt": "2026-05-31T04:11:59.813Z",
-      "lastUpdated": "2026-05-31T04:12:53.483Z",
+      "processedAt": "2026-05-31T13:55:23.872Z",
+      "scrapedAt": "2026-05-31T13:54:30.373Z",
+      "lastUpdated": "2026-05-31T13:55:23.872Z",
       "version": 1
     },
     {
@@ -96,7 +96,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T04:11:59.814Z",
+      "deadline": "2030-12-30T13:54:30.373Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -110,9 +110,38 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-31T04:12:53.479Z",
-      "scrapedAt": "2026-05-31T04:11:59.814Z",
-      "lastUpdated": "2026-05-31T04:12:53.479Z",
+      "processedAt": "2026-05-31T13:55:23.878Z",
+      "scrapedAt": "2026-05-31T13:54:30.373Z",
+      "lastUpdated": "2026-05-31T13:55:23.878Z",
+      "version": 1
+    },
+    {
+      "id": "c_fb27b7f32e54",
+      "title": "Test P",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/test-p",
+      "imageUrl": "https://www.aicrowd.com/assets/images/challenges/AIcrowd-ProblemStatements-1.jpeg",
+      "description": "Test P\n              \n                Predict Wine Quality\n          Predict Wine Quality",
+      "summary": "Test P\n              \n                Predict Wine Quality\n          Predict Wine Quality...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2027-06-16T13:54:30.374Z",
+      "prize": "TBD",
+      "tags": [
+        "#classroom"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-05-31T13:55:23.850Z",
+      "scrapedAt": "2026-05-31T13:54:30.374Z",
+      "lastUpdated": "2026-05-31T13:55:23.850Z",
       "version": 1
     },
     {
@@ -138,9 +167,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-31T04:12:53.564Z",
-      "scrapedAt": "2026-05-31T04:11:59.814Z",
-      "lastUpdated": "2026-05-31T04:12:53.564Z",
+      "processedAt": "2026-05-31T13:55:23.905Z",
+      "scrapedAt": "2026-05-31T13:54:30.374Z",
+      "lastUpdated": "2026-05-31T13:55:23.905Z",
       "version": 1
     },
     {
@@ -164,15 +193,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-05-31T04:12:53.655Z",
-      "scrapedAt": "2026-05-31T04:11:59.815Z",
-      "lastUpdated": "2026-05-31T04:12:53.655Z",
+      "processedAt": "2026-05-31T13:55:24.909Z",
+      "scrapedAt": "2026-05-31T13:54:30.376Z",
+      "lastUpdated": "2026-05-31T13:55:24.909Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-05-31T04:13:03.526Z"
+    "lastUpdated": "2026-05-31T13:55:33.199Z"
   }
 }

@@ -1,20 +1,20 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-06-01T04:27:43.464Z",
-  "contestCount": 2,
+  "timestamp": "2026-06-01T17:52:02.404Z",
+  "contestCount": 1,
   "contests": [
     {
-      "id": "c_d5056edba70f",
-      "title": "Build on Civitai (Open Call)",
+      "id": "c_049f2de91029",
+      "title": "Generator & LoRA Trainer Outage",
       "platform": "civitai",
-      "url": "https://civitai.com/events/699",
+      "url": "https://civitai.com/events/646",
       "imageUrl": "",
-      "description": "Civitai Apps is coming. We're picking ~10 indie devs and creative builders to ship the first wave.",
-      "summary": "Civitai Apps is coming. We're picking ~10 indie devs and creative builders to ship the first wave....",
+      "description": "We're currently experiencing issues with the Generator and LoRA Trainer. The Development team is investigating! Our apologies for the disruption!",
+      "summary": "We're currently experiencing issues with the Generator and LoRA Trainer. The Development team is investigating! Our apologies for the disruption!...",
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-31T23:59:59.999Z",
+      "deadline": "2026-06-01T23:59:59.999Z",
       "prize": "",
       "tags": [
         "ai"
@@ -27,44 +27,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:34.711Z",
-      "scrapedAt": "2026-05-31T13:53:37.015Z",
-      "lastUpdated": "2026-06-01T04:27:34.711Z",
-      "version": 1
-    },
-    {
-      "id": "c_d11d755117b6",
-      "title": "Civitai Radio (Beta)",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/698",
-      "imageUrl": "",
-      "description": "Civitai Radio is live in beta. Tune into community stations, spin up your own, pick a DJ voice. [Start listening](https://radio.civitai.com)",
-      "summary": "Civitai Radio is live in beta. Tune into community stations, spin up your own, pick a DJ voice. [Start listening](https://radio.civitai.com)...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-31T23:59:59.999Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:34.724Z",
-      "scrapedAt": "2026-05-31T13:53:37.015Z",
-      "lastUpdated": "2026-06-01T04:27:34.724Z",
+      "processedAt": "2026-06-01T17:51:53.857Z",
+      "scrapedAt": "2026-06-01T17:49:41.177Z",
+      "lastUpdated": "2026-06-01T17:51:53.857Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-01T04:27:43.464Z"
+    "lastUpdated": "2026-06-01T17:52:02.404Z"
   }
 }

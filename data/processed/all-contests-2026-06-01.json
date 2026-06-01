@@ -1,6 +1,6 @@
 {
   "platform": "all",
-  "timestamp": "2026-06-01T04:27:43.469Z",
+  "timestamp": "2026-06-01T17:52:02.414Z",
   "contestCount": 49,
   "contests": [
     {
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:32.656Z",
-      "scrapedAt": "2026-06-01T04:26:37.020Z",
-      "lastUpdated": "2026-06-01T04:27:32.656Z",
+      "processedAt": "2026-06-01T17:51:51.838Z",
+      "scrapedAt": "2026-06-01T17:50:35.756Z",
+      "lastUpdated": "2026-06-01T17:51:51.838Z",
       "version": 1
     },
     {
@@ -42,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T04:26:37.020Z",
+      "deadline": "2030-08-14T17:50:35.756Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -53,9 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:33.477Z",
-      "scrapedAt": "2026-06-01T04:26:37.020Z",
-      "lastUpdated": "2026-06-01T04:27:33.477Z",
+      "processedAt": "2026-06-01T17:51:52.715Z",
+      "scrapedAt": "2026-06-01T17:50:35.756Z",
+      "lastUpdated": "2026-06-01T17:51:52.715Z",
       "version": 1
     },
     {
@@ -69,7 +69,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T04:26:37.021Z",
+      "deadline": "2045-08-31T17:50:35.757Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -80,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:33.543Z",
-      "scrapedAt": "2026-06-01T04:26:37.021Z",
-      "lastUpdated": "2026-06-01T04:27:33.543Z",
+      "processedAt": "2026-06-01T17:51:52.653Z",
+      "scrapedAt": "2026-06-01T17:50:35.757Z",
+      "lastUpdated": "2026-06-01T17:51:52.653Z",
       "version": 1
     },
     {
@@ -96,7 +96,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T04:26:37.021Z",
+      "deadline": "2030-12-30T17:50:35.757Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -110,9 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:33.619Z",
-      "scrapedAt": "2026-06-01T04:26:37.021Z",
-      "lastUpdated": "2026-06-01T04:27:33.619Z",
+      "processedAt": "2026-06-01T17:51:52.679Z",
+      "scrapedAt": "2026-06-01T17:50:35.757Z",
+      "lastUpdated": "2026-06-01T17:51:52.679Z",
       "version": 1
     },
     {
@@ -126,7 +126,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2027-06-17T04:26:37.021Z",
+      "deadline": "2027-06-16T17:50:35.757Z",
       "prize": "TBD",
       "tags": [
         "#classroom"
@@ -139,9 +139,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:33.560Z",
-      "scrapedAt": "2026-06-01T04:26:37.021Z",
-      "lastUpdated": "2026-06-01T04:27:33.560Z",
+      "processedAt": "2026-06-01T17:51:52.658Z",
+      "scrapedAt": "2026-06-01T17:50:35.758Z",
+      "lastUpdated": "2026-06-01T17:51:52.658Z",
       "version": 1
     },
     {
@@ -167,9 +167,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:33.780Z",
-      "scrapedAt": "2026-06-01T04:26:37.021Z",
-      "lastUpdated": "2026-06-01T04:27:33.781Z",
+      "processedAt": "2026-06-01T17:51:52.764Z",
+      "scrapedAt": "2026-06-01T17:50:35.758Z",
+      "lastUpdated": "2026-06-01T17:51:52.764Z",
       "version": 1
     },
     {
@@ -193,23 +193,65 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:34.706Z",
-      "scrapedAt": "2026-06-01T04:26:37.023Z",
-      "lastUpdated": "2026-06-01T04:27:34.706Z",
+      "processedAt": "2026-06-01T17:51:53.842Z",
+      "scrapedAt": "2026-06-01T17:50:35.759Z",
+      "lastUpdated": "2026-06-01T17:51:53.842Z",
       "version": 1
     },
     {
-      "id": "c_d5056edba70f",
-      "title": "Build on Civitai (Open Call)",
+      "id": "c_6ff5e2789077",
+      "title": "ARC White-Box Estimation Challenge 2026",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/arc-white-box-estimation-challenge-2026",
+      "imageUrl": "https://images.aicrowd.com/raw_images/challenges/social_media_image_file/1174/754b2c1f0950214d8b10.jpg",
+      "description": "00Overview01Why random02The task03Compute04Evaluation05Participate06Rules07Prizes08Timeline09ResourcesWhestBench 2026ARC × AIcrowdSubmissions openWhen can we know what a neural network does without running it?The ARC White-Box Estimation Challenge is a contest in compute-efficient mechanistic estimation. Given the weights of a neural network, can you predict its expected per-neuron activations more accurately than running it many times?The obvious way to learn how a model behaves is to run it many times and average what you observe. That works well when the behavior is common, cheap to elicit, and easy to sample. But when the behavior is rare, high-variance, or unlikely to appear in obvious test cases, brute-force testing can become an expensive way to learn very little.The ARC White-Box Estimation Challenge turns that question into a controlled benchmark. Participants receive randomly initialized ReLU MLPs and build executable estimators that predict each neuron's expected post-ReLU activation under standard-normal inputs.The goal is simple to state: beat comparable black-box sampling under a shared compute budget by using the network's weights. The strongest submissions may be Monte Carlo, white-box, hybrid, LLM-assisted, or something unexpected—the leaderboard will decide.TaskExecutable estimatorInputWeights + budgetOutputExpected activationsMetricFinal-layer MSEOfficial factsPrize pool$100,000 USD ARV$50K / $20K / $10K places · $20K algorithmic contributionSubmissions openMay 28, 2026 · 00:00 UTCPhase 2 closesSep 19, 2026 · 23:59 UTCDaily limit50 entries per team · per UTC day, each phaseGraderCPU-only 16 vCPU · 64 GB RAM · no networkHard cap60 s per MLPFinal rankingFresh private rerun of each team's designated Phase 2 submissionFig. 1\n  \n  \n\n  < !-- Header -- >\n  CHALLENGE · ESTIMATE THE EXPECTATION\n  \n    \n      .katex-display{margin:0 !important;}\n      Y^L,j≈EX∼N(0,In) ⁣[hj(L)(X)]\\hat Y_{L,j} \\approx \\mathbb{E}_{X\\sim\\mathcal{N}(0,I_n)}\\!\\left[h^{(L)}_{j}(X)\\right]Y^L,j​≈EX∼N(0,In​)​[hj(L)​(X)]\n    \n  \n\n  < !-- Column labels -- >\n  INPUT\n  NETWORK · RANDOM ReLU MLP\n  OUTPUT · Ê[ h⁽ᶽ⁾₃(X) ]\n\n  < !-- Input PDF -- >\n  \n    \n    \n      \n      \n      \n    \n    \n      +2\n      0\n      −2\n    \n    xᵢ\n    \n    \n    \n    \n    \n      \n      -0.21\n    \n  \n\n  < !-- Network -- >\n  \n    \n    \n    \n    \n    \n    h⁽ᶽ⁾₃\n    \n    \n    \n  \n\n  < !-- Output axis -- >\n  \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      7.5\n      8.0\n      8.5\n      9.0\n      9.5\n    \n    h⁽ᶽ⁾₃(X) · ×10⁻³\n    \n    \n    \n    Ê 8.5\n    \n    \n    µ̂ 8.3\n    Δ 3×10⁻⁴ERROR≈3.5% rel\n  \n\n  < !-- Method legend -- >\n  \n  \n    \n    MONTE CARLOBLACK-BOX · SAMPLE & AVERAGE\n    SAMPLING…\n    \n  \n  \n    \n    ANALYTICALWHITE-BOX · PROPAGATE THE DISTRIBUTION\n    PROPAGATING…\n    \n  \n\n  < !-- Cost band -- >\n  ← the contest lives here\n  \n    \n    \n    \n    \n    ≈ 15,000×\n  \n\n  YOUR BUDGET\n  \n  6.8×10¹⁰ FLOPs / MLP\n\n  \n  MONTE CARLO REFERENCE\n  10¹⁵ FLOPs / MLP\n\n  \n  \n    \n    \n    \n    \n    \n    \n  \n  \n    10¹⁰\n    10¹¹\n    10¹²\n    10¹³\n    10¹⁴\n    10¹⁵\n  \n  FLOPs (log₁₀ scale)\n\n  < !-- The question -- >\n  \n    \n    Can you beat sampling?\n  \n\n  < !-- Replay -- >\n  \n    \n    \n      \n      \n    \n    REPLAY\n  \nFigure 1The estimation problem, as a distributional computation. A generated ReLU MLP receives Gaussian inputs X∼N(0,In)X \\sim \\mathcal{N}(0, I_n)X∼N(0,In​), applies h(ℓ)=ReLU ⁣(W(ℓ)h(ℓ−1))h^{(\\ell)} = \\mathrm{ReLU}\\!\\left(W^{(\\ell)}h^{(\\ell-1)}\\right)h(ℓ)=ReLU(W(ℓ)h(ℓ−1)), and the submission must estimate E ⁣[hi(ℓ)(X)]\\mathbb{E}\\!\\left[h^{(\\ell)}_i(X)\\right]E[hi(ℓ)​(X)] for every hidden-layer neuron.Read the animation as two ways to estimate the same activation-mean matrix. The black-box path samples inputs, runs the network, and averages observed activations until the Monte Carlo mean stabilizes. The white-box path inspects W(1),…,W(L)W^{(1)}, \\dots, W^{(L)}W(1),…,W(L) and propagates enough distributional information to predict the same means under the participant budget. In the initial configuration, the target is an organizers' high-budget Monte Carlo reference of approximately 101510^{15}1015 FLOPs, compared with a participant budget of approximately 6.8×10106.8 \\times 10^{10}6.8×1010 FLOPs per MLP—roughly a 15,000×15{,}000\\times15,000× compute gap.Prizes$100K+Cash PrizesPrediction shape8 × 256hidden activationsBudget / MLP6.8e10FLOPs · initial configPhase 2 closesSep 192026 · 23:59 UTC01Why this starts with random networksThe benchmark isolates one hard part of white-box estimation: tracking how distributions move through nonlinear layers.White-box estimation for trained networks is the destination, not the starting line. Trained models introduce many confounders at once: data, optimization, learned structure, task semantics, and evaluation ambiguity. WhestBench begins with randomly initialized networks so participants can focus on the estimation problem itself.The networks are synthetic, but the question is real. Given access to the weights, can an algorithm reason about the distribution of hidden activations more efficiently than repeatedly sampling inputs and averaging outputs?Random ReLU MLPs still contain the central difficulty: each layer transforms a distribution, the ReLU nonlinearity reshapes it, and approximation error can accumulate with depth. The first challenge is to develop methods that work in this controlled setting; later work can ask how those methods adapt as networks acquire structure during training.The benchmark is controlled, but not trivial: the expected activation has no closed form for the full network, and sampling improves only slowly with more compute.Why not trained models first?Random networks remove dataset and labeling questions, making compute-efficient estimation the thing being measured.02The taskFor each MLP, return a matrix of expected post-ReLU activation means.For each evaluation network MθM_\\thetaMθ​, your estimator receives the MLP weights and a compute budget. It must return an L×nL \\times nL×n matrix Y^\\hat{Y}Y^. Entry (ℓ,i)(\\ell, i)(ℓ,i) should estimate the expected post-ReLU activation of neuron iii in hidden layer ℓ\\ellℓ when inputs are drawn from a standard Gaussian distribution.h(0)=X,h(ℓ)=ReLU(W(ℓ)h(ℓ−1)),ℓ=1,…,Lh^{(0)} = X, \\qquad h^{(\\ell)} = \\mathrm{ReLU}\\left(W^{(\\ell)}h^{(\\ell-1)}\\right), \\quad \\ell = 1, \\dots, Lh(0)=X,h(ℓ)=ReLU(W(ℓ)h(ℓ−1)),ℓ=1,…,L1Y^ℓ,i≈EX∼N(0,In)[hi(ℓ)(X)]\\hat{Y}_{\\ell,i} \\approx \\mathbb{E}_{X \\sim \\mathcal{N}(0, I_n)}\\left[h^{(\\ell)}_i(X)\\right]Y^ℓ,i​≈EX∼N(0,In​)​[hi(ℓ)​(X)]2The reference target is estimated by the organizers with a much larger Monte Carlo budget than participants receive. Your job is to match that reference as closely as possible under the participant budget.Evaluation network · per MLPWidth nnn256256256Hidden layers LLL888Weight initializationHe-Gaussian · variance 2/n2/n2/nInput distributionX∼N(0,In)X \\sim \\mathcal{N}(0, I_n)X∼N(0,In​)Prediction shape8×2568 \\times 2568×256 matrixPrimary metricFinal-layer MSE vs. a high-budget Monte Carlo referenceImportantThe submission is executable code, not a prediction file. The grader runs your estimator against held-out MLPs and scores the returned activation matrix.03Compute model and constraintsThe competition is budgeted by analytical FLOPs, not by who owns the fastest machine.The accounting library is flopscope, a NumPy-compatible interface that counts floating-point operations for instrumented operations. Code written through flopscope.numpy is charged analytically. Uninstrumented computation is allowed, but residual wall-clock time is converted back into FLOPs at an unfavorable rate.Cm=Fm+λRmC_m = F_m + \\lambda R_mCm​=Fm​+λRm​3Here FmF_mFm​ is the analytical FLOP count for MLP mmm, RmR_mRm​ is residual wall-clock time outside instrumented operations, and λ\\lambdaλ is the conversion rate published in the starter kit.import flopscope as flops\nimport flopscope.numpy as fnp\n\ndef predict(mlp, budget):\n    mus = []\n    mu = fnp.zeros(mlp.width)\n    var = fnp.ones(mlp.width)\n\n    for w in mlp.weights:\n        mu_pre = w.T @ mu\n        var_pre = (w * w).T @ var\n        sigma_pre = fnp.sqrt(fnp.maximum(var_pre, 1e-12))\n        alpha = mu_pre / sigma_pre\n        mu = mu_pre * flops.stats.norm.cdf(alpha) + sigma_pre * flops.stats.norm.pdf(alpha)\n        mus.append(mu)\n\n    return fnp.stack(mus)Budget ruleStay within the per-MLP budget on every network. Over-budget runs, exceptions, invalid shapes, non-finite values, memory failures, or wall-clock guard failures receive the zero-prediction fallback for that MLP.Grader environmentSubmissions run CPU-only with 16 vCPUs, 64 GB RAM, disabled network access, and a 60-second hard wall-clock cap per MLP.Fig. 2Monte Carlo MSE ∝ 1/NBₘ — per-MLP budget (MC-equiv. samples)0110¹10³10⁵10⁷10⁹10⁰10⁻³10⁻⁶10⁻⁹10⁻¹²Black-box sample count N (forward passes per MLP, symlog scale) →Random6 × 10⁻¹Mean propagation7.5 × 10⁻⁴Covariance propagation3.7 × 10⁻⁵source · 100 MLPs · ARC warm-up dataBlack-box baselineThe samplingfrontier.Monte Carlo on 100 randomMLPs. Red bands showvariation across networks;the solid line is mean MSE,the dashed line is median.White-box points below theband beat sampling atcomparable compute.Figure 2The sampling frontier. Pure Monte Carlo estimates the final-layer activation mean by buying more forward passes; on mean squared error, that baseline improves at roughly a 1/N1/N1/N rate.The red bands summarize Monte Carlo error across 100 random MLPs as the black-box sample count NNN increases. The solid red line is the mean across MLPs; the dashed line is the median; nested bands show between-MLP spread. The vertical marker converts the per-MLP budget Bm≈6.8×1010B_m \\approx 6.8 \\times 10^{10}Bm​≈6.8×1010 FLOPs into an equivalent number of black-box forward-pass samples, about 6.4×1046.4 \\times 10^{4}6.4×104 samples in the current figure data. Baseline white-box methods such as mean propagation and covariance propagation appear as points because they spend compute inspecting weights and propagating distributional statistics rather than only sampling inputs. The challenge is to move below the red sampling frontier under the same effective-compute budget: lower final-layer MSE, without exceeding Cm≤BmC_m \\le B_mCm​≤Bm​.04Evaluation and scoringThe live leaderboard is useful feedback; the final ranking comes from a fresh private rerun.For each evaluation MLP, the grader computes the final-layer mean squared error between your prediction and the Monte Carlo reference:MSEfinal,m=1n∑i(Y^L,i−YL,i)2\\mathrm{MSE}_{\\mathrm{final},m} = \\frac{1}{n}\\sum_i \\left(\\hat{Y}_{L,i} - Y_{L,i}\\right)^2MSEfinal,m​=n1​i∑​(Y^L,i​−YL,i​)24The per-MLP leaderboard score multiplies this by a compute-usage factor. Staying under the budget can help, but the improvement is capped so that an extremely cheap but inaccurate estimator cannot dominate by spending little compute.sm=MSEfinal,m⋅max⁡(0.1,;Cm/Bm)s_m = \\mathrm{MSE}_{\\mathrm{final},m} \\cdot \\max\\left(0.1,; C_m / B_m\\right)sm​=MSEfinal,m​⋅max(0.1,;Cm​/Bm​)5The overall leaderboard score is the average of sms_msm​ across the evaluation suite. Lower is better.All-layer MSE, averaged across all L×nL \\times nL×n hidden activations, is reported as a secondary diagnostic. It helps reveal where approximation error accumulates across layers, but the primary score is the final-layer score.During each official phase, the grader evaluates submissions on a private suite of 100 randomly generated MLPs. Fifty contribute to live public feedback, while fifty are withheld until the phase closes. This keeps the leaderboard informative without making it too easy to overfit to visible scores.After Phase 2 closes, each team's designated final submission is rerun on a separate fresh private test suite. Prize ranking is decided exclusively from this final private rerun, not from the best public-leaderboard score observed during the competition.If leading submissions are statistically indistinguishable after the Private Re-evaluation, the Rules allow the Sponsor to generate additional MLPs from the same distribution for statistical disambiguation. If submissions remain tied after that, the tied ranks share the combined prize amounts for those positions.Public score vs. final prize rankThe public board helps you iterate. The final private rerun decides prize ranking.Failed-run fallbackIf a submission exceeds the budget, raises an exception, returns invalid shapes or non-finite values, exhausts memory, or trips an operational guard on a given MLP, the grader substitutes a zero prediction for that MLP and continues. No compute discount is applied to the fallback.Do not overfit the public boardThe final private suite uses different random MLPs. Strong submissions should generalize across the published generative distribution, not exploit visible leaderboard instances.05How to participateStart locally, validate the estimator contract, then submit a packaged tarball through AIcrowd.git clone https://github.com/AIcrowd/whest-starterkit.git\ncd whest-starterkit\nuv sync\nuv run python estimator.pyThe starter kit is structured as a staged ladder. A good first milestone is one valid end-to-end submission, even before you have a strong score.1Iterate locallyuv run python estimator.pyCheck the math against a local Monte Carlo harness.2Validate contractuv run whest validate --estimator estimator.pyCatch shape, type, and packaging issues early.3Run locallyuv run whest run --estimator estimator.py --runner localReal scoring in a debuggable process.4Subprocess runneruv run whest run --estimator estimator.py --runner subprocessTest isolation closer to the grader.5Docker runneruv run whest run --estimator estimator.py --runner dockerThe production-equivalent grader environment.6Package and submituv run whest package -o submission.tar.gzuv run whest loginuv run whest submit submission.tar.gzBuild the tarball, authenticate, and upload your submission to AIcrowd.First milestoneYour first goal should be one valid end-to-end submission. Once the contract, packaging, and grader path work, you can improve the estimator.Open starter kitMake a submission06Rules that matter for first submissionThis is not a substitute for the Rules page, but it covers the constraints most likely to affect your first estimator.Submission formatSubmit executable code, including an estimator.py that follows the starter-kit contract. Do not submit prediction files.Submission capEach team may submit up to 50 entries per UTC day during each official Phase. The UTC-day counter resets at 00:00 UTC.TeamsUp to five eligible individuals per team, finalized by July 31, 2026, 23:59 UTC.HardwareCPU-only on the grader's standard instance: 16 vCPUs, 64 GB RAM, disabled network, and a 60-second hard wall-clock cap per MLP.Network accessNetwork access is disabled during evaluation. Bundle any allowed weights, lookup tables, dependencies, or precomputed artifacts in the submission tarball.Do not tamperDo not modify flopscope, read private seeds, access grader internals, or otherwise circumvent budget enforcement.LLM & autoresearchLLM-assisted and agentic development is welcome. You remain responsible for compliance, attribution, reproducibility, and any technical-writeup disclosures required by the Rules.Final submissionBefore Phase 2 ends (Sep 19, 2026, 23:59 UTC), designate one valid Phase 2 submission for the final private rerun. With no designation, Sponsor uses your best-scoring valid Phase 2 submission.Prize rankingDecided exclusively by the final private leaderboard from the fresh Private Re-evaluation suite. The public leaderboard is for iteration and does not determine prizes.Rules governIf anything on this Overview page conflicts with the official Rules or current starter kit, follow the Rules and starter kit.Autoresearch is welcomeUse LLMs, code agents, public resources, and metric-driven iteration if they help you discover better estimators.The one boundary is rule evasion: don't automate registration or mass uploads, tamper with flopscope, read private grader materials, or submit work you can't verify.Read the official policy →07Prizes and recognitionWhestBench rewards both leaderboard performance and algorithmic contribution.At launch, WhestBench has USD 100,000+ in prizes and recognition planned. The current Rules specify $100,000 USD in total place-prize ARV across score-based and algorithmic contribution prizes. Sponsor may increase prize amounts or offer additional prizes, and any changes will be announced on the Competition Site.Score-based placesFinal private leaderboard ranking1st place$50,0002nd place$20,0003rd place$10,000Beyond rankAlgorithmic contributionBest technical contribution to mechanistic estimation — judged on score, algorithmic ideas, and writeup quality.$20,000Community contributionDiscretionary recognition for helpful competition contributions.$500–5,000All amounts in USD · ARV.The algorithmic contribution prize is the official version of the draft's \"best technical explanation\" idea. Participants competing for it should be prepared to submit a concise technical writeup that explains the method well enough for an independent practitioner to reproduce the prize-determining results.Recognition beyond rankStrong submissions may be valuable even when they are not first on the leaderboard. Clear explanations, useful algorithmic ideas, helpful bug reports, and community contributions may be recognized according to the Rules and any later announcements on the Competition Site.Winning place-prize submissions are subject to verification and open-source release requirements described in the Rules. The current Rules require place-prize winners to release the prize-determining solution code and required artifacts under an OSI-approved open-source license within 30 days of winner notification, and to keep the release publicly accessible for at least three years.08TimelineNowMay 28Jun 18Aug 1Sep 19Oct 1Warm-upsubmissions openPhase 1public boardPhase 2final submissionsDeadlinesubmissions closeWinnersTimelineFrom warm-up to tentative winners. The strip gives the shape of the schedule at a glance; the table below is the source for exact dates and times.Warm-upMay 28 – Jun 17May 28 · 00:00Resources released; submissions openJun 17 · 23:59Warm-up round endsPhase 1 · public leaderboardJun 18 – Jul 31Jun 18 · 00:00Public leaderboard opensJul 31 · 23:59Phase 1 ends; registration and team freezePhase 2 · final submissionsAug 1 – Sep 19Aug 1 · 00:00Final submission period opensSep 19 · 23:59Phase 2 ends; submissions closeEvaluation & resultsSep 20 – Oct 1Sep 20–30Private re-evaluation on a fresh held-out suite≈ Oct 1Tentative winner announcementAll times are UTC.09Resources and contactUse the starter kit for implementation details, the Rules page for official constraints, and the forum for public questions.CompeteParticipate on AIcrowdRegister, form a team, and submit through the platform.Challenge RulesOfficial constraints, eligibility, and prize terms.BuildWhestBench starter kitClone, implement your estimator, validate, and package a submission.flopscopeThe NumPy-compatible FLOP-accounting library the grader uses.WhestBench ExplorerInspect generated MLPs and their activation statistics.Community & supportDiscussion forumPublic questions, clarifications, and announcements.GitHub IssuesReport bugs in the starter kit or flopscope.arc-whestbench@aicrowd.comPrivate or administrative matters.ResearchCompanion paperThe research behind the benchmark — arXiv:2605.05179.ARC announcementThe Alignment Research Center research post.If you use WhestBench in academic work, cite the companion paper:Wilson Wu, Victor Lecomte, Michael Winer, George Robinson, Jacob Hilton, and Paul Christiano. \"Estimating the expected output of wide random MLPs more efficiently than sampling.\" arXiv:2605.05179, 2026.The challenge is organized by Alignment Research Center in partnership with AIcrowd.Ready to submit your first estimator?Start with the starter kit, validate locally, then submit through AIcrowd. The first useful milestone is not leaderboard rank—it is one valid end-to-end submission.Make a submissionOpen starter kitRead the Rules",
+      "summary": "00Overview01Why random02The task03Compute04Evaluation05Participate06Rules07Prizes08Timeline09ResourcesWhestBench 2026ARC × AIcrowdSubmissions openWhen can we know what a neural network does without ru...",
+      "contestType": "code",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-07-18T17:50:35.760Z",
+      "prize": "$100,000",
+      "tags": [
+        "llm",
+        "Overview",
+        "Why random",
+        "The task",
+        "Compute",
+        "Evaluation",
+        "Participate",
+        "Rules"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "the Rules page for official constraints",
+        "and the forum for public questions.CompeteParticipate on AIcrowdRegister",
+        "form a team",
+        "and submit through the platform.Challenge RulesOfficial constraints",
+        "eligibility"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2026-06-01T17:51:53.784Z",
+      "scrapedAt": "2026-06-01T17:50:35.760Z",
+      "lastUpdated": "2026-06-01T17:51:53.784Z",
+      "version": 1
+    },
+    {
+      "id": "c_049f2de91029",
+      "title": "Generator & LoRA Trainer Outage",
       "platform": "civitai",
-      "url": "https://civitai.com/events/699",
+      "url": "https://civitai.com/events/646",
       "imageUrl": "",
-      "description": "Civitai Apps is coming. We're picking ~10 indie devs and creative builders to ship the first wave.",
-      "summary": "Civitai Apps is coming. We're picking ~10 indie devs and creative builders to ship the first wave....",
+      "description": "We're currently experiencing issues with the Generator and LoRA Trainer. The Development team is investigating! Our apologies for the disruption!",
+      "summary": "We're currently experiencing issues with the Generator and LoRA Trainer. The Development team is investigating! Our apologies for the disruption!...",
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-05-31T23:59:59.999Z",
+      "deadline": "2026-06-01T23:59:59.999Z",
       "prize": "",
       "tags": [
         "ai"
@@ -222,38 +264,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:34.711Z",
-      "scrapedAt": "2026-05-31T13:53:37.015Z",
-      "lastUpdated": "2026-06-01T04:27:34.711Z",
-      "version": 1
-    },
-    {
-      "id": "c_d11d755117b6",
-      "title": "Civitai Radio (Beta)",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/698",
-      "imageUrl": "",
-      "description": "Civitai Radio is live in beta. Tune into community stations, spin up your own, pick a DJ voice. [Start listening](https://radio.civitai.com)",
-      "summary": "Civitai Radio is live in beta. Tune into community stations, spin up your own, pick a DJ voice. [Start listening](https://radio.civitai.com)...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-31T23:59:59.999Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:34.724Z",
-      "scrapedAt": "2026-05-31T13:53:37.015Z",
-      "lastUpdated": "2026-06-01T04:27:34.724Z",
+      "processedAt": "2026-06-01T17:51:53.857Z",
+      "scrapedAt": "2026-06-01T17:49:41.177Z",
+      "lastUpdated": "2026-06-01T17:51:53.857Z",
       "version": 1
     },
     {
@@ -281,9 +294,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:34.721Z",
-      "scrapedAt": "2026-06-01T04:26:09.667Z",
-      "lastUpdated": "2026-06-01T04:27:34.721Z",
+      "processedAt": "2026-06-01T17:51:53.913Z",
+      "scrapedAt": "2026-06-01T17:50:08.989Z",
+      "lastUpdated": "2026-06-01T17:51:53.913Z",
       "version": 1
     },
     {
@@ -311,9 +324,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:34.807Z",
-      "scrapedAt": "2026-06-01T04:26:09.669Z",
-      "lastUpdated": "2026-06-01T04:27:34.807Z",
+      "processedAt": "2026-06-01T17:51:53.959Z",
+      "scrapedAt": "2026-06-01T17:50:08.990Z",
+      "lastUpdated": "2026-06-01T17:51:53.959Z",
       "version": 1
     },
     {
@@ -341,9 +354,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:35.810Z",
-      "scrapedAt": "2026-06-01T04:26:09.669Z",
-      "lastUpdated": "2026-06-01T04:27:35.810Z",
+      "processedAt": "2026-06-01T17:51:54.971Z",
+      "scrapedAt": "2026-06-01T17:50:08.991Z",
+      "lastUpdated": "2026-06-01T17:51:54.971Z",
       "version": 1
     },
     {
@@ -378,9 +391,9 @@
         "coverage"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:35.813Z",
-      "scrapedAt": "2026-06-01T04:26:09.673Z",
-      "lastUpdated": "2026-06-01T04:27:35.813Z",
+      "processedAt": "2026-06-01T17:51:54.970Z",
+      "scrapedAt": "2026-06-01T17:50:08.992Z",
+      "lastUpdated": "2026-06-01T17:51:54.970Z",
       "version": 1
     },
     {
@@ -408,9 +421,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:35.826Z",
-      "scrapedAt": "2026-06-01T04:26:09.673Z",
-      "lastUpdated": "2026-06-01T04:27:35.826Z",
+      "processedAt": "2026-06-01T17:51:54.969Z",
+      "scrapedAt": "2026-06-01T17:50:08.996Z",
+      "lastUpdated": "2026-06-01T17:51:54.969Z",
       "version": 1
     },
     {
@@ -439,9 +452,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:35.814Z",
-      "scrapedAt": "2026-06-01T04:26:09.674Z",
-      "lastUpdated": "2026-06-01T04:27:35.814Z",
+      "processedAt": "2026-06-01T17:51:54.995Z",
+      "scrapedAt": "2026-06-01T17:50:08.996Z",
+      "lastUpdated": "2026-06-01T17:51:54.995Z",
       "version": 1
     },
     {
@@ -471,9 +484,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:35.906Z",
-      "scrapedAt": "2026-06-01T04:26:09.674Z",
-      "lastUpdated": "2026-06-01T04:27:35.906Z",
+      "processedAt": "2026-06-01T17:51:55.042Z",
+      "scrapedAt": "2026-06-01T17:50:08.997Z",
+      "lastUpdated": "2026-06-01T17:51:55.042Z",
       "version": 1
     },
     {
@@ -501,9 +514,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:36.915Z",
-      "scrapedAt": "2026-06-01T04:26:09.675Z",
-      "lastUpdated": "2026-06-01T04:27:36.915Z",
+      "processedAt": "2026-06-01T17:51:56.063Z",
+      "scrapedAt": "2026-06-01T17:50:08.998Z",
+      "lastUpdated": "2026-06-01T17:51:56.063Z",
       "version": 1
     },
     {
@@ -531,9 +544,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:36.903Z",
-      "scrapedAt": "2026-06-01T04:26:09.675Z",
-      "lastUpdated": "2026-06-01T04:27:36.903Z",
+      "processedAt": "2026-06-01T17:51:56.038Z",
+      "scrapedAt": "2026-06-01T17:50:08.998Z",
+      "lastUpdated": "2026-06-01T17:51:56.038Z",
       "version": 1
     },
     {
@@ -562,9 +575,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:36.904Z",
-      "scrapedAt": "2026-06-01T04:26:09.676Z",
-      "lastUpdated": "2026-06-01T04:27:36.904Z",
+      "processedAt": "2026-06-01T17:51:56.039Z",
+      "scrapedAt": "2026-06-01T17:50:08.999Z",
+      "lastUpdated": "2026-06-01T17:51:56.039Z",
       "version": 1
     },
     {
@@ -593,9 +606,9 @@
         "否则无法发放奖品）格式示例："
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:36.905Z",
-      "scrapedAt": "2026-06-01T04:25:31.804Z",
-      "lastUpdated": "2026-06-01T04:27:36.905Z",
+      "processedAt": "2026-06-01T17:51:56.037Z",
+      "scrapedAt": "2026-06-01T17:49:31.027Z",
+      "lastUpdated": "2026-06-01T17:51:56.037Z",
       "version": 1
     },
     {
@@ -604,7 +617,7 @@
       "platform": "modelscope",
       "url": "https://modelscope.cn/competition/247",
       "imageUrl": "",
-      "description": "本计划由 AMD 与魔搭社区联合发起，旨在激励开发者基于 AMD GPU 进行 AI 开发实践与分享。开发者可通过魔搭社区三大内容平台——研习社、灵感流、创空间——获取免费 GPU 算力奖励。\n\nAMD x 魔搭社区联合开发者激励计划 — GPU 资源获取指南基于 AMD GPU 的 AI 开发实践，最高可获 1000 小时及以上免费算力一、计划概述本计划由 AMD 与魔搭社区联合发起，旨在激励开发者基于 AMD GPU 进行 AI 开发实践与分享。开发者可通过魔搭社区三大内容平台——研习社、灵感流、创空间——获取免费 GPU 算力奖励。核心机制三条独立路径：发研习社文章 / 传灵感流 Notebook / 做创空间应用，可单选可多选奖励可叠加：全部完成可获 1000 小时或更多按需分配：创空间根据应用质量按需分配 700 小时或更多二、奖励总览下表展示了三种参与路径的奖励规则，奖励可累计叠加：参与路径内容要求单次奖励路径上限前置注册完成 AMD 开发者计划注册+100 小时+100 小时路径一：研习社发布原创技术文章+25 小时/篇+50 小时路径二：灵感流发布 Notebook 代码实践+50 小时/篇+150 小时路径三：创空间部署应用并通过审核按需分配700+ 小时提示：三条路径完全独立，无须按顺序完成，可任选其一或全部参与。三、如何获取参与前提 — 完成 AMD 开发者计划注册无论选择哪条路径，均需先完成 AMD 开发者计划注册。注册完成即可获得 100 小时 GPU 算力，同时解锁后续全部参与资格。操作流程登录魔搭社区，进入「我的 Notebook」页面，点击活动页面入口；进入 AMD AI 开发者计划网站：授权使用魔搭账号登录，并完善个人资料，成为 AMD 开发者计划成员；完善资料后，开发者可于 AMD 开发者计划站内获得算力券奖励；回到魔搭「我的 Notebook」页面，即可看到 AMD GPU 入口及剩余额度。✅ 完成注册后，即可解锁以下三种参与路径的全部资格。路径一：研习社发文在魔搭社区「研习社」板块发布与 AMD GPU 相关的原创技术文章，每篇通过审核可获 25 小时 GPU 算力，本路径最高可获 50 小时。操作流程在魔搭社区「研习社」板块发布原创技术文章；发布时携带指定标签“AMD GPU激励计划”；提交后等待社区审核（预计 5 个工作日）；审核通过后，系统自动发放对应 GPU 时长奖励。审核维度原创度：文章内容是否为原创技术相关性：是否与 AMD GPU / ROCm 相关完整性：代码、数据、结果是否完整内容建议ROCm 安装与配置经验AMD GPU 大模型部署手记Ryzen AI 开发初体验AMD GPU 推理优化技巧路径二：灵感流 Notebook 代码实践在魔搭社区「Gallery」板块发布基于 AMD GPU 的 Notebook 代码实践，每篇通过审核可获 50 小时 GPU 算力，本路径最高可获 150 小时。操作流程在魔搭社区「Gallery」板块发布基于 AMD GPU 的 Notebook 代码实践；发布时携带指定标签“AMD GPU激励计划”；提交后等待社区审核（预计 5 个工作日）；审核通过后，根据内容质量获得相应 GPU 时长奖励。审核维度自动化运行测试：全部 Cell 执行通过，无报错代码注释完整性：关键步骤有中文/英文注释环境配置说明：requirements.txt 或安装指令完整技术相关性：与 AMD GPU / ROCm 相关内容建议Stable Diffusion 部署LLM 微调或部署搭建 Skill Agent推理优化实践Agent 构建路径三：创空间应用部署在魔搭社区「创空间」部署基于 AMD GPU 的应用，审核通过后可按需获得 700 小时或更多 GPU 算力。这是获取最大资源量的路径。前置条件已完成 AMD 开发者计划注册已加入魔搭社区“AMD开发者中心”组织优先分配：已发布至少 1 篇通过审核的 AMD 技术文章或 1 个高质量 Notebook操作流程进入「AMD 专属创空间 GPU 资源组织」页面：https://www.modelscope.cn/organization/AMD_Dev点击申请加入，并在申请理由中附上满足条件的证明材料：必选：AMD 开发者账号 ID可选：其他符合要求的 Notebook / 创空间作品链接审核通过后即可成为组织成员，后续在「创空间」创建或配置应用时可选择 AMD 专属 GPU 资源；选择 AMD MI308X 及对应镜像部署创空间应用。如何获取 AMD 开发者账号 ID：可在 AMD 开发者计划 网站 → 个人资料处获取。创空间开发示例：创空间审核机制创空间应用审核分为三个阶段：第一阶段：机审（自动）安全扫描：无恶意代码、无敏感信息泄露、无外部异常调用基础功能检测：应用可启动、核心页面可访问资源合规：GPU 显存使用在合理范围内第二阶段：功能评审（人工，3–5 个工作日）功能完整性：核心功能可正常使用用户体验：有清晰的使用说明，交互合理AMD 技术相关性：使用 AMD GPU 或 ROCm 相关技术创新性：独特功能或创新应用场景第三阶段：综合评定（人工，3–5 个工作日）代码质量审查与 AMD 品牌调性一致最终评定是否通过审核评审权重评审维度权重安全性25%功能完整性25%AMD 技术相关性20%用户体验15%创新性15%四、常见问题 (FAQ)Q1：AMD GPU 资源在使用上有哪些限制？每人最高并发创空间数量为 1 个；每人最高并发执行 Notebook 数量为 1 个。Q2：申请加入专属组织被拒绝，通常是什么原因？常见原因包括：提交的证明材料链接失效、未完成 AMD 官网注册等。请确认材料完整后重新提交。Q3：三种参与方式必须按顺序完成吗？不需要。三条路径完全独立，可任选其一、其二或全部参与，奖励可累计叠加。唯一的前提是必须先完成 AMD 开发者计划注册。Q4：可以只做路径三（创空间）吗？可以。只要完成注册（100h）+ 加入 AMD 组织 + 发布应用并通过审核，即可获得 700h 或更多。但在资源有限的情况下，已发布优质研习社文章或灵感流 Notebook 的开发者将优先获得分配。Q5：创空间“按需分配”是什么意思？根据应用质量评定额度，由 AMD 团队终审决定具体分配数量。五、开发者激励计划群本方案为 AMD 与魔搭社区联合推广计划，最终解释权归 AMD 团队所有。",
+      "description": "本计划由 AMD 与魔搭社区联合发起，旨在激励开发者基于 AMD GPU 进行 AI 开发实践与分享。开发者可通过魔搭社区三大内容平台——研习社、灵感流、创空间——获取免费 GPU 算力奖励。\n\nAMD x 魔搭社区联合开发者激励计划 — GPU 资源获取指南基于 AMD GPU 的 AI 开发实践，最高可获 1000 小时及以上免费算力一、计划概述本计划由 AMD 与魔搭社区联合发起，旨在激励开发者基于 AMD GPU 进行 AI 开发实践与分享。开发者可通过魔搭社区三大内容平台——研习社、灵感流、创空间——获取免费 GPU 算力奖励。核心机制三条独立路径：发研习社文章 / 传灵感流 Notebook / 做创空间应用，可单选可多选奖励可叠加：全部完成可获 1000 小时或更多按需分配：创空间根据应用质量按需分配 700 小时或更多二、奖励总览下表展示了三种参与路径的奖励规则，奖励可累计叠加：参与路径内容要求单次奖励路径上限前置注册完成 AMD 开发者计划注册+100 小时+100 小时路径一：研习社发布原创技术文章+25 小时/篇+50 小时路径二：灵感流发布 Notebook 代码实践+50 小时/篇+150 小时路径三：创空间部署应用并通过审核按需分配700+ 小时提示：三条路径完全独立，无须按顺序完成，可任选其一或全部参与。三、如何获取参与前提 — 完成 AMD 开发者计划注册无论选择哪条路径，均需先完成 AMD 开发者计划注册。注册完成即可获得 100 小时 GPU 算力，同时解锁后续全部参与资格。操作流程登录魔搭社区，进入「我的 Notebook」页面，点击活动页面入口；进入 AMD AI 开发者计划网站：授权使用魔搭账号登录，并完善个人资料，成为 AMD 开发者计划成员；完善资料后，开发者可于 AMD 开发者计划站内获得算力券奖励；回到魔搭「我的 Notebook」页面，即可看到 AMD GPU 入口及剩余额度。✅ 完成注册后，即可解锁以下三种参与路径的全部资格。路径一：研习社发文在魔搭社区「研习社」板块发布与 AMD GPU 相关的原创技术文章，每篇通过审核可获 25 小时 GPU 算力，本路径最高可获 50 小时。操作流程在魔搭社区「研习社」板块发布原创技术文章；发布时携带指定标签“AMD GPU激励计划”；提交后等待社区审核（预计 5 个工作日）；审核通过后，系统自动发放对应 GPU 时长奖励。审核维度原创度：文章内容是否为原创技术相关性：是否与 AMD GPU / ROCm 相关完整性：代码、数据、结果是否完整内容建议ROCm 安装与配置经验AMD GPU 大模型部署手记Ryzen AI 开发初体验AMD GPU 推理优化技巧路径二：灵感流 Notebook 代码实践在魔搭社区「Gallery」板块发布基于 AMD GPU 的 Notebook 代码实践，每篇通过审核可获 50 小时 GPU 算力，本路径最高可获 150 小时。操作流程在魔搭社区「Gallery」板块发布基于 AMD GPU 的 Notebook 代码实践；发布时携带指定标签“AMD GPU激励计划”；提交后等待社区审核（预计 5 个工作日）；审核通过后，根据内容质量获得相应 GPU 时长奖励。审核维度自动化运行测试：全部 Cell 执行通过，无报错代码注释完整性：关键步骤有中文/英文注释环境配置说明：requirements.txt 或安装指令完整技术相关性：与 AMD GPU / ROCm 相关内容建议Stable Diffusion 部署LLM 微调或部署搭建 Skill Agent推理优化实践Agent 构建路径三：创空间应用部署在魔搭社区「创空间」部署基于 AMD GPU 的应用，审核通过后可按需获得 700 小时或更多 GPU 算力。这是获取最大资源量的路径。前置条件已完成 AMD 开发者计划注册已加入魔搭社区“AMD开发者中心”组织优先分配：已发布至少 1 篇通过审核的 AMD 技术文章或 1 个高质量 Notebook操作流程进入「AMD 专属创空间 GPU 资源组织」页面：https://www.modelscope.cn/organization/AMD_Dev点击申请加入，并在申请理由中附上满足条件的证明材料：必选：AMD 开发者账号 ID可选：其他符合要求的 Notebook / 创空间作品链接审核通过后即可成为组织成员，后续在「创空间」创建或配置应用时可选择 AMD 专属 GPU 资源；选择 AMD MI308X 及对应镜像部署创空间应用。如何获取 AMD 开发者账号 ID：可在 AMD 开发者计划 网站 → 个人资料处获取。创空间开发示例：创空间审核机制创空间应用审核分为三个阶段：第一阶段：机审（自动）安全扫描：无恶意代码、无敏感信息泄露、无外部异常调用基础功能检测：应用可启动、核心页面可访问资源合规：GPU 显存使用在合理范围内第二阶段：功能评审（人工，3–5 个工作日）功能完整性：核心功能可正常使用用户体验：有清晰的使用说明，交互合理AMD 技术相关性：使用 AMD GPU 或 ROCm 相关技术创新性：独特功能或创新应用场景第三阶段：综合评定（人工，3–5 个工作日）代码质量审查与 AMD 品牌调性一致最终评定是否通过审核评审权重评审维度权重安全性25%功能完整性25%AMD 技术相关性20%用户体验15%创新性15%四、常见问题 (FAQ)Q1：AMD GPU 资源在使用上有哪些限制？每人最高并发创空间数量为 1 个；每人最高并发执行 Notebook 数量为 1 个。Q2：申请加入专属组织被拒绝，通常是什么原因？常见原因包括：提交的证明材料链接失效、未完成 AMD 官网注册等。请确认材料完整后重新提交。Q3：三种参与方式必须按顺序完成吗？不需要。三条路径完全独立，可任选其一、其二或全部参与，奖励可累计叠加。唯一的前提是必须先完成 AMD 开发者计划注册。Q4：可以只做路径三（创空间）吗？可以。只要完成注册（100h）+ 加入 AMD 组织 + 发布应用并通过审核，即可获得 700h 或更多。但在资源有限的情况下，已发布优质研习社文章或灵感流 Notebook 的开发者将优先获得分配。Q5：创空间“按需分配”是什么意思？根据应用质量评定额度，由 AMD 团队终审决定具体分配数量。五、开发者激励计划群本方案为 AMD 与魔搭社区联合推广计划，最终解释权归 AMD 团队所有。\n第一批次｜截止5.23日前过审作品的GPU时长奖励清单魔搭用户名获取路径+GPU时长作品链接本次合计新增时长ACCC1380💻 灵感流 Notebook 代码实践 +50小时🔗在Modelscope中的AMD环境Stable Diffusion Webui (reForge) 部署+50小时catbohe📝研习社发文+25 小时🔗AMD-ROCm-Qwen3.5模型微调+50小时📝研习社发文+25 小时🔗 AMD显卡不是摆设，0.8B小模型也能玩出花，弱智吧数据竟有奇效！ChenZhenghao💻 灵感流 Notebook 代码实践 +50小时🔗使用AMD GPU 探索 Gemma4 MTP 推理加速+50小时Devilworld💻 灵感流 Notebook 代码实践 +50 小时🔗基于DiffSynth-Studio的anima lora一键训练脚本+75 小时📝研习社发文+25 小时🔗AMD GPU实战｜Anima二次元模型LoRA全流程训练指南（免费100h算力+数据集处理+推理）Dooooooo📝研习社发文+25 小时🔗使用ms-swift框架通过AMD GPU服务器微调自己的大模型+25 小时gsym236998📝研习社发文+25小时🔗AMD GPU 大模型推理优化实战：从部署到性能调优+25小时Haluki📝研习社发文+25 小时🔗AMD ROCm 6.0 安装与配置实战指南：从零开始搭建 AMD GPU 开发环境+200小时📝研习社发文+25 小时🔗  AMD GPU 大模型微调实战：基于 Qwen2.5 的 LoRA 微调指南💻 灵感流 Notebook 代码实践+50 小时🔗 AMD GPU 上部署 Stable Diffusion 推理实战💻 灵感流 Notebook 代码实践+50 小时🔗AMD GPU 上 Qwen2.5 大模型对话推理实战💻 灵感流 Notebook 代码实践+50 小时🔗 AMD GPU 上部署 ModelScope Skill Agent 智能体实战hui0ms📝研习社发文+25小时🔗Ubuntu上安装ROCm的后置操作（适用于Ryzen系列 AMD Ryzen AI Max+ 395 ）+50小时📝研习社发文+25小时🔗 安装PyTorch基于Ubuntu+ROCm（适用于Ryzen系列 AMD Ryzen AI Max+ 395 ）kakusun📝研习社发文+25小时🔗魔搭社区赠送的AMD GPU性能探究+25小时langzhenxin💻 灵感流 Notebook 代码实践 +50小时🔗AMD 大显存 GPU 上运行 Qwen2.5-7B-Instruct：从环境检查到批量推理的完整闭环+50小时lingluo121📝研习社发文 +25 小时🔗魔搭 MI300X 实战：Qwen3.5-9B 全参 SFT 从环境到训练闭环+50小时📝研习社发文+25 小时🔗 从 Galgame 剧本到 Qwen3.5 SFT 数据集：结构化 JSON 对话数据工程实践liweitest01💻 灵感流 Notebook 代码实践 +50小时🔗基于AMD GPU微调Qwen3.5_copy+50小时lovewormcn📝研习社发文+25小时🔗ROCm 生态的奇迹：社区容器方案让 MI50 突破界限，畅享 32B 大模型+25小时Mrsnail📝研习社发文+25小时🔗AMD GPU：从图形渲染到通用计算的架构演进+25小时nullskymc💻 灵感流 Notebook 代码实践 +50 小时🔗在AMD上构建Qwen3.6 Agent Workflow+75 小时📝研习社发文+25 小时🔗AMD GPU 部署Qwen 3.6 35B手记tianjun7777💻 灵感流 Notebook 代码实践 +50小时🔗基于AMD GPU微调Qwen3.5_copy+50小时wanhejia💻 灵感流 Notebook 代码实践 +50 小时🔗MiniMind 大模型从零训练 - AMD GPU 实践+100 小时📝研习社发文+25 小时🔗MiniMind 大模型从零训练完整教程📝研习社发文+25 小时🔗vLLM 部署 Qwen3 模型教程YCYCYC666💻 灵感流 Notebook 代码实践 +50小时🔗AMD ROCm PyTorch 环境自检 Notebook+50小时yunchong💻 灵感流 Notebook 代码实践 +50小时🔗 deepseek-ocr infernece notebook instance+50小时💡获取小提示1️⃣ 研习社发文/灵感流 Notebook 发布时，请携带指定标签“AMD GPU激励计划”2️⃣ 申请加入「AMD开发者中心」组织时，需先注册AMD开发者计划 ，并在申请理由中填写 AMD 开发者账号 ID（高频漏填！）",
       "summary": "本计划由 AMD 与魔搭社区联合发起，旨在激励开发者基于 AMD GPU 进行 AI 开发实践与分享。开发者可通过魔搭社区三大内容平台——研习社、灵感流、创空间——获取免费 GPU 算力奖励。\n\nAMD x 魔搭社区联合开发者激励计划 — GPU 资源获取指南基于 AMD GPU 的 AI 开发实践，最高可获 1000 小时及以上免费算力一、计划概述本计划由 AMD 与魔搭社区联合发起，旨在激励开...",
       "contestType": "code",
       "status": "active",
@@ -613,7 +626,7 @@
       "prize": "",
       "tags": [
         "llm",
-        "ai"
+        "pytorch"
       ],
       "aiTools": [
         "Python",
@@ -629,9 +642,9 @@
         "每人最高并发执行 Notebook 数量为 1 个。Q2：申请加入专属组织被拒绝"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:36.993Z",
-      "scrapedAt": "2026-06-01T04:25:31.805Z",
-      "lastUpdated": "2026-06-01T04:27:36.993Z",
+      "processedAt": "2026-06-01T17:51:56.100Z",
+      "scrapedAt": "2026-06-01T17:49:31.032Z",
+      "lastUpdated": "2026-06-01T17:51:56.100Z",
       "version": 1
     },
     {
@@ -659,38 +672,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:38.012Z",
-      "scrapedAt": "2026-06-01T04:25:31.805Z",
-      "lastUpdated": "2026-06-01T04:27:38.012Z",
-      "version": 1
-    },
-    {
-      "id": "c_ee8412c3b1a8",
-      "title": "“中国云谷”高校训练营暨 TuyaOpen AIoT 春季学校（公益免费）",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/246",
-      "imageUrl": "",
-      "description": "2026年5月30日至5月31日，一场专为高校学子打造的创客实战——“中国云谷”高校训练营暨 TuyaOpen AIoT 春季学校，将在杭州云谷中心展开，现正式启动报名！",
-      "summary": "2026年5月30日至5月31日，一场专为高校学子打造的创客实战——“中国云谷”高校训练营暨 TuyaOpen AIoT 春季学校，将在杭州云谷中心展开，现正式启动报名！...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-24T15:59:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:37.990Z",
-      "scrapedAt": "2026-06-01T04:25:31.805Z",
-      "lastUpdated": "2026-06-01T04:27:37.990Z",
+      "processedAt": "2026-06-01T17:51:57.102Z",
+      "scrapedAt": "2026-06-01T17:49:31.032Z",
+      "lastUpdated": "2026-06-01T17:51:57.102Z",
       "version": 1
     },
     {
@@ -718,9 +702,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:37.990Z",
-      "scrapedAt": "2026-06-01T04:25:31.809Z",
-      "lastUpdated": "2026-06-01T04:27:37.990Z",
+      "processedAt": "2026-06-01T17:51:57.103Z",
+      "scrapedAt": "2026-06-01T17:49:31.035Z",
+      "lastUpdated": "2026-06-01T17:51:57.103Z",
       "version": 1
     },
     {
@@ -745,9 +729,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:37.993Z",
-      "scrapedAt": "2026-06-01T04:25:31.809Z",
-      "lastUpdated": "2026-06-01T04:27:37.993Z",
+      "processedAt": "2026-06-01T17:51:57.110Z",
+      "scrapedAt": "2026-06-01T17:49:31.035Z",
+      "lastUpdated": "2026-06-01T17:51:57.110Z",
       "version": 1
     },
     {
@@ -781,45 +765,9 @@
         "更能确保用户隐私数据“不出机”。本次活动重点鼓励开发者探索如何利用 Intel 酷睿™ Ultra 处理器（如最新的 Panther Lake 架构）的 GPU、NPU 加速能力"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:38.101Z",
-      "scrapedAt": "2026-06-01T04:25:31.809Z",
-      "lastUpdated": "2026-06-01T04:27:38.101Z",
-      "version": 1
-    },
-    {
-      "id": "c_d3172b72a139",
-      "title": "Agentic AI 时代的推理加速框架",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/244",
-      "imageUrl": "",
-      "description": "Agentic AI时代的推理加速框架 - vLLM Meetup 杭州 活动时间： 2026 年 5 月 23日周六，13:30 -17:55 活动地点：杭州市西湖区灯彩街1009号云谷中心B1栋2F魔搭社区（杭州）开发者中心-路演区，限 120 席 温馨提醒：报名需审核，请以“红帽支持与服务”微信服务号的确认通知为准\n\nAgentic AI时代的推理加速框架 - vLLM Meetup 杭州活动时间： 2026 年 5 月 23日周六，13:30 -17:55活动地点：杭州市西湖区灯彩街1009号云谷中心B1栋2F魔搭社区（杭州）开发者中心·路演区，限120席。温馨提醒：报名需审核，请以“红帽支持与服务”微信服务号的确认通知为准\n5月23日，在智能体（Agentic AI）AI技术狂飙突进的浪潮下，由vLLM社区、红帽、NVIDIA 和魔搭社区（ModelScope）联合主办，云谷中心与Datawhale协办的“Agentic AI时代的推理加速框架·vLLM Meetup杭州站”活动圆满落下帷幕。本次大会汇聚了全球顶尖的AI基础设施专家、大模型开发者及开源社区贡献者，共同探讨在更长上下文、更复杂推理逻辑的智能体AI时代，如何突破大模型推理的性能与规模瓶颈。作为本次大会的核心主办方，红帽直击大模型落地的“规模化（Scale Out）”挑战。通过推动Kubernetes原生调度框架，红帽将vLLM卓越的单机推理能力成功跃升为高可用的分布式集群服务。这一实践将前沿AI技术与企业级生产环境无缝对接，让“开源创新”真正转化为坚实的“生产力底座”，为vLLM生态注入了强大的商业落地价值。开源基因共振：红帽筑基，引领vLLM社区向企业级演进在大会的开场致辞环节，魔搭社区研发与产品负责人陈颖达，NVIDIA开发与技术部门开发经理姚佳杰，以及红帽大中华区CTO张家驹共同为大会定下了开源、开放、共创的基调。从左到右：魔搭社区研发与产品负责人陈颖达，红帽大中华区CTO张家驹，NVIDIA开发与技术部门开发经理姚佳杰群星闪耀：前沿探索与最佳实践的碰撞本次大会的议程紧凑且干货满满，来自一线大厂与顶级AI初创公司的技术大咖们，围绕Day-0模型支持、混合架构缓存、分布式集群调度、底层算子与通信融合等硬核议题展开了深度分享。Inferact联合创始人/vLLM核心维护者游凯超首先登场，介绍了vLLM如何Day-0支持新模型。他系统回顾了vLLM对新模型支持的三个时代演进：从早期依托高校实验室（Sky Lab）的“小作坊”模式，到依靠开源社区抢机器测试的社区协作模式，再到如今以Inferact为代表的专业化、企业级（NDA+专用资源）全链路支撑模式。以全面支持DeepSeek-V4为例，Day-0支持已不仅是跑通参考代码，而是需要深入到底层算子（如FusedMoE）、集群级验证、前端解析对接以及Benchmark精准对齐的系统工程。Inferact联合创始人/vLLM核心维护者游凯超阿里巴巴大模型推理研发工程师、千问推理优化团队ATH-通义大模型事业部黄浩岩作了《千问混合注意力模型在vLLM上的高效Prefix Caching》演讲。针对当前长上下文和混合模式（如基于Linear Attention的Qwen3-Next/GDN、Mamba架构等）的趋势，他深入剖析了传统KV-Cache在处理Linear States时的不兼容痛点。阿里团队创新性地提出了Mamba Prefix-Cache align mode，通过三大核心设计：Block-aligned Scheduling（块对齐调度）、Sparse Block Allocation（稀疏块分配）以及Model-transparent State Update（模型无感状态更新），成功实现了块级别的状态缓存与重用。该方案在真实工况下实现了60%-80%的缓存命中率，大幅降低了长序列请求的首token延迟（TTFT）。阿里巴巴大模型推理研发工程师、千问推理优化团队ATH-通义大模型事业部黄浩岩红帽高级AI工程师/llm-d核心贡献者Greg Pereira携手趋境科技技术专家/Mooncake核心贡献者卢佳豪共同展示了llm-d + Mooncake大规模Agentic AI推理实践。Greg Pereira指出，单点强大的vLLM不足以应对多Pod集群中的负载均衡与缓存本地性（Cache Locality）丧失问题。为此，由红帽联合Google、Hugging Face等发起的K8s原生分布式推理框架llm-d应运而生。llm-d引入了缓存感知的智能调度（Intelligent Inference Scheduling），将命中率提升数十倍。红帽高级AI工程师/llm-d核心贡献者Greg Pereira卢佳豪介绍了KVCache中心化架构 Mooncake（已开源）。通过整合llm-d的分布式调度与Mooncake的高性能SSD卸载（Offloading）及下一代面向异构存储互联系统的传输引擎（TENT），双方联合打造了成本极优、高吞吐的智能体AI推理集群解决方案。趋境科技技术专家/Mooncake核心贡献者卢佳豪NVIDIA加速计算专家姜名扬和常嘉涵介绍了vLLM关键模型性能优化最佳实践。NVIDIA专家团队以DeepSeek-R1（GB200优化）和MiniMax M2系列模型为例，分享了教科书级别的Day-0性能优化方法论。在DeepSeek-R1中，通过NVFP4 All Gather调度优化、MLA Concat内存布局优化及RoPE+Quant写入融合，实现了数倍加速。针对MiniMax，团队强调了“不要凭直觉写Kernel，而是从Nsys瓶颈分析开始”的最佳实践。通过MoE后端路由切换、Q/K RMSNorm多算子融合以及引入FlashInfer一阶段低延迟小AllReduce，将Decode通信延迟大幅压缩。NVIDIA加速计算专家姜名扬和常嘉涵月之暗面工程师黎哲明作了K2.6 调度优化实战分享。他分享了支撑Kimi海量用户的调度经验。面对业务潮汐与频繁扩缩容，Kimi团队通过Preshard Loader（提前切分权重落盘）、多节点Batch启动以及使用Zero-copy及大页内存（RDMA mmap）优化Pin Memory，将引擎拉起时间从10分钟压缩至3分钟。此外，在Agentic时代，他探讨了长前缀场景下的Prefill挑战，并提出了 PrfaaS（Prefill as a Service）架构：通过跨数据中心的软硬解耦，让专用的远端高性能集群处理长文本Prefill，本地集群处理Decode，实现算力资源的极致调配。月之暗面工程师黎哲明NVIDIA首席软件架构师温柯与NVIDIA加速计算专家强宜澄介绍了对称内存 + NCCL Device APIs: 迈向多GPU融合算子的新路径。左：NVIDIA首席软件架构师温柯 右：NVIDIA加速计算专家强宜澄两位专家为与会者展示了极致通信优化的未来：传统分布式推理中，计算与通信分离往往带来FIFO Buffer的开销与延迟。通过PyTorch支持的对称内存（Symmetric Memory）与最新的 NCCL Device APIs（包括LSA与GIN），开发者能够直接在CUDA Kernel内部发起并完成网络通信（GPU-Initiated Networking）。以Ulysses并行的All2All通信为例，彻底的计算与通信融合（Zero SM）掩盖了通信延迟，最终使性能实现了高达45%的飞跃。开源共赴，Agentic AI推理的星辰大海从底层通信原语的重构，到单机算子的融合压榨，再到上层集群的缓存调度与PD分离架构，本次杭州vLLM Meetup完整勾勒出了一幅Agentic AI时代的算力加速全景图。正如大会所传递的核心理念：模型的演进、硬件的迭代与引擎架构的重塑，正以超乎想象的速度交织狂奔。在这样的时代背景下，没有任何一家公司可以闭门造车。红帽作为开源领域的执牛耳者，与vLLM社区、NVIDIA及广大开源贡献者紧密站在一起。凭借其在企业级Kubernetes基础设施中的统治级地位，红帽发起的llm-d等开源项目，不仅为繁杂的底层技术披上了标准化、易扩展的铠甲，更让每一家企业都能公平地享受到大模型推理的技术红利。未来，红帽将继续秉持开放混合云与开源协作的DNA，在vLLM等核心生态中发挥“连接器”与“放大器”的价值，携手全行业开发者，共同驶向Agentic AI浩瀚无垠的星辰大海。活动视频回放扫码加入【魔搭社区开发者中心活动交流群】，一手掌握开发者前沿动态！每日精选日报：技术热点、行业趋势，每天几分钟尽在掌握。独家活动福利：线上黑客松、技术直播，优先报名权等你拿。杭州线下聚会：直面大牛，拓展人脉，就在魔搭开发者中心。",
-      "summary": "Agentic AI时代的推理加速框架 - vLLM Meetup 杭州 活动时间： 2026 年 5 月 23日周六，13:30 -17:55 活动地点：杭州市西湖区灯彩街1009号云谷中心B1栋2F魔搭社区（杭州）开发者中心-路演区，限 120 席 温馨提醒：报名需审核，请以“红帽支持与服务”微信服务号的确认通知为准\n\nAgentic AI时代的推理加速框架 - vLLM Meetup 杭州活...",
-      "contestType": "video",
-      "status": "ended",
-      "difficulty": "advanced",
-      "deadline": "2026-05-23T00:00:00.000Z",
-      "prize": "",
-      "tags": [
-        "llm",
-        "pytorch"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "他深入剖析了传统KV-Cache在处理Linear States时的不兼容痛点。阿里团队创新性地提出了Mamba Prefix-Cache align mode",
-        "成功实现了块级别的状态缓存与重用。该方案在真实工况下实现了60%-80%的缓存命中率",
-        "单点强大的vLLM不足以应对多Pod集群中的负载均衡与缓存本地性（Cache Locality）丧失问题。为此",
-        "分享了教科书级别的Day-0性能优化方法论。在DeepSeek-R1中",
-        "通过NVFP4 All Gather调度优化、MLA Concat内存布局优化及RoPE+Quant写入融合"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:39.104Z",
-      "scrapedAt": "2026-06-01T04:25:31.810Z",
-      "lastUpdated": "2026-06-01T04:27:39.104Z",
+      "processedAt": "2026-06-01T17:51:57.102Z",
+      "scrapedAt": "2026-06-01T17:49:31.036Z",
+      "lastUpdated": "2026-06-01T17:51:57.102Z",
       "version": 1
     },
     {
@@ -847,9 +795,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:39.089Z",
-      "scrapedAt": "2026-06-01T04:25:31.811Z",
-      "lastUpdated": "2026-06-01T04:27:39.089Z",
+      "processedAt": "2026-06-01T17:51:57.141Z",
+      "scrapedAt": "2026-06-01T17:49:31.037Z",
+      "lastUpdated": "2026-06-01T17:51:57.141Z",
       "version": 1
     },
     {
@@ -883,9 +831,67 @@
         "正是当前人工智能从“感知智能”迈向“决策智能”的关键一步。"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:39.090Z",
-      "scrapedAt": "2026-06-01T04:25:31.811Z",
-      "lastUpdated": "2026-06-01T04:27:39.090Z",
+      "processedAt": "2026-06-01T17:51:58.153Z",
+      "scrapedAt": "2026-06-01T17:49:31.037Z",
+      "lastUpdated": "2026-06-01T17:51:58.153Z",
+      "version": 1
+    },
+    {
+      "id": "c_70dd73f5ae73",
+      "title": "第四届世界科学智能大赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/236",
+      "imageUrl": "",
+      "description": "世界科学智能大赛由上海科学智能研究院和复旦大学共同主办，致力于引领人工智能与科学研究的革命性融合，构建生机勃勃的科学智能新生态。",
+      "summary": "世界科学智能大赛由上海科学智能研究院和复旦大学共同主办，致力于引领人工智能与科学研究的革命性融合，构建生机勃勃的科学智能新生态。...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-27T15:59:00.000Z",
+      "prize": "100万元",
+      "tags": [
+        "应用开发赛"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-01T17:51:58.141Z",
+      "scrapedAt": "2026-06-01T17:49:31.037Z",
+      "lastUpdated": "2026-06-01T17:51:58.141Z",
+      "version": 1
+    },
+    {
+      "id": "c_55b782bf5e48",
+      "title": "XGuard护栏揭榜赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/197",
+      "imageUrl": "",
+      "description": "XGuard护栏揭榜赛是【大模型安全撬壳计划】系列赛事之一。由阿里巴巴集团安全部主办、致力于为广大AI安全爱好者与开发者提供一个开放协作的创意舞台，通过持续的模型测评、衍生二创与安全加固，推动 “XGuard护栏”进入越用越强、越用越广的良性发展轨道。\n\n在2026年，大模型已无处不在，但“安全”之路依旧漫长本次大赛由阿里巴巴集团安全部发起，不仅是一场比赛，更是一次直通阿里核心团队的实战演练我们重磅开源了XGuard安全护栏模型+亿级Token高质语料诚挚邀请AI前线的你，去二创、去衍生、去重构！我们用10万奖金 + 亿级Token语料 + 硬核装备（MAC MINI、MacBook Neo等）+GPU算力全力加持只为寻找下一代AI安全“先行者”！（一键查收：XGuard护栏揭榜赛-赛事说明书）赛事介绍赛事背景XGuard护栏揭榜赛是【大模型安全撬壳计划】系列赛事之一。由阿里巴巴集团安全部主办、致力于为广大AI安全爱好者与开发者提供一个开放协作的创意舞台，通过持续的模型测评、衍生二创与安全加固，推动 “XGuard护栏”进入越用越强、越用越广的良性发展轨道。赛程时间面向人群不设边界，全员开放！无论身处校园还是职场，无论深耕技术还是钻研哲学，只要你对AI感兴趣，这里就是你的绽放舞台！报名流程点击右上方“立即报名”，选择对应身份（学生/在职/科研），填写全部信息即可完成；信息越完整，获奖概率越高比赛玩法：两大热血赛道，小白大神都可玩赛道一：逆袭吧！创二代！🔴适合人群： 算法高手、模型训练专家、想挑战技术高度的极客🔴难度系数： ⭐⭐⭐⭐⭐🔴玩法规则：选手需基于 XGuard 开源数据集（允许扩充新数据），结合 XGuard 模型或其他开源模型（10B 及以下），训练并提交专属的安全护栏模型。具体详见XGuard护栏揭榜赛-赛事说明书🔴赛道奖励：TOP 10 选手直接瓜分 50,000 元现金大奖！赛道二：破圈吧！抓码者！🔴适合人群： 技术博主、创意开发者、自媒体达人、对AI安全感兴趣均可玩🔴难度系数： ⭐⭐（上手容易，获奖率高）（本赛道分两个支线，无需打榜，作品优质就有好礼！）支线A:我是布道师玩法： 撰写深度评测报告，并发布在各大平台（小红书、B站、知乎、公众号、CSDN等）。具体详见XGuard护栏揭榜赛-赛事说明书奖励：标配奖励：发布即得价值500元的福袋（999足金手机贴+电动牙刷+阿里巴巴双肩背包）plus奖励：根据阅读量/播放量水位，瓜分 50,000 元现金奖池！支线B:我是创二代玩法：基于 XGuard护栏模型 或 数据集 进行二次开发、优化或衍生，具体详见XGuard护栏揭榜赛-赛事说明书奖励：标配奖励：发布即得价值1000元的福袋（999足金手机贴+电动牙刷+阿里巴巴双肩背包+SKG颈部按摩仪+星礼卡200元）plus奖励：根据项目下载量/Star数水位，瓜分 50,000 元现金奖池！参赛收益💰真金白银，拒绝画饼50,000元二创奖 + 50,000元破圈奖！不设门槛，只看作品，让你的创意直接折现💰🎁周周有惊喜，欧气不断电MAC MINI、千问眼镜、MacBook Neo... 总价值 5 万的装备库随时掉落！参与每周活动就能抽设备💻算力自由，从参赛开始！参赛即送 20 小时 GPU 算力，更有 100 小时算力盲盒随机空投！TOP 20 选手直接必得100 小时。跑模型不卡顿，灵感才能跑得更快。🚀官方证书，认可度拉满TOP 20 专属阿里巴巴认证的荣誉证书，不仅是荣誉，更是你技术履历上的高光时刻学生专属激励：简历诊断、招聘直通、职位详情，请进赛事群获取相关咨询！（钉钉群号： 168975002855）赛事规则所有评审规则、提交细节、赛事QA等内容，请查收这本参赛的答案之书《XGuard护栏揭榜赛-赛事说明书》加入官方钉群榜单查看、赛事资讯、问题咨询、活动详情都可加赛事官方钉群（一定要加群！！）添加开源小助手+发送“参赛”，邀您进微信群AAIG开源交流群，钉钉群号： 168975002855主办单位",
+      "summary": "XGuard护栏揭榜赛是【大模型安全撬壳计划】系列赛事之一。由阿里巴巴集团安全部主办、致力于为广大AI安全爱好者与开发者提供一个开放协作的创意舞台，通过持续的模型测评、衍生二创与安全加固，推动 “XGuard护栏”进入越用越强、越用越广的良性发展轨道。\n\n在2026年，大模型已无处不在，但“安全”之路依旧漫长本次大赛由阿里巴巴集团安全部发起，不仅是一场比赛，更是一次直通阿里核心团队的实战演练我们重...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "deadline": "2026-05-25T15:59:00.000Z",
+      "prize": "10万元奖金+5万元礼品",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-01T17:51:58.146Z",
+      "scrapedAt": "2026-06-01T17:49:31.037Z",
+      "lastUpdated": "2026-06-01T17:51:58.146Z",
       "version": 1
     },
     {
@@ -899,7 +905,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-06-22T04:26:39.272Z",
+      "deadline": "2026-06-21T17:50:37.880Z",
       "prize": "$5 000 USD",
       "tags": [],
       "aiTools": [
@@ -910,9 +916,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:39.089Z",
-      "scrapedAt": "2026-06-01T04:26:39.272Z",
-      "lastUpdated": "2026-06-01T04:27:39.089Z",
+      "processedAt": "2026-06-01T17:51:58.165Z",
+      "scrapedAt": "2026-06-01T17:50:37.881Z",
+      "lastUpdated": "2026-06-01T17:51:58.165Z",
       "version": 1
     },
     {
@@ -926,7 +932,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-06-13T04:26:39.273Z",
+      "deadline": "2026-06-12T17:50:37.881Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -936,9 +942,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:39.186Z",
-      "scrapedAt": "2026-06-01T04:26:39.273Z",
-      "lastUpdated": "2026-06-01T04:27:39.186Z",
+      "processedAt": "2026-06-01T17:51:58.194Z",
+      "scrapedAt": "2026-06-01T17:50:37.881Z",
+      "lastUpdated": "2026-06-01T17:51:58.194Z",
       "version": 1
     },
     {
@@ -962,9 +968,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:40.191Z",
-      "scrapedAt": "2026-06-01T04:26:39.273Z",
-      "lastUpdated": "2026-06-01T04:27:40.191Z",
+      "processedAt": "2026-06-01T17:51:59.205Z",
+      "scrapedAt": "2026-06-01T17:50:37.881Z",
+      "lastUpdated": "2026-06-01T17:51:59.205Z",
       "version": 1
     },
     {
@@ -988,9 +994,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:40.189Z",
-      "scrapedAt": "2026-06-01T04:26:39.273Z",
-      "lastUpdated": "2026-06-01T04:27:40.189Z",
+      "processedAt": "2026-06-01T17:51:59.195Z",
+      "scrapedAt": "2026-06-01T17:50:37.882Z",
+      "lastUpdated": "2026-06-01T17:51:59.195Z",
       "version": 1
     },
     {
@@ -1014,9 +1020,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:40.189Z",
-      "scrapedAt": "2026-06-01T04:26:39.274Z",
-      "lastUpdated": "2026-06-01T04:27:40.189Z",
+      "processedAt": "2026-06-01T17:51:59.255Z",
+      "scrapedAt": "2026-06-01T17:50:37.882Z",
+      "lastUpdated": "2026-06-01T17:51:59.255Z",
       "version": 1
     },
     {
@@ -1042,9 +1048,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:40.192Z",
-      "scrapedAt": "2026-06-01T04:26:39.274Z",
-      "lastUpdated": "2026-06-01T04:27:40.192Z",
+      "processedAt": "2026-06-01T17:51:59.207Z",
+      "scrapedAt": "2026-06-01T17:50:37.882Z",
+      "lastUpdated": "2026-06-01T17:51:59.207Z",
       "version": 1
     },
     {
@@ -1067,9 +1073,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:40.268Z",
-      "scrapedAt": "2026-06-01T04:26:39.274Z",
-      "lastUpdated": "2026-06-01T04:27:40.268Z",
+      "processedAt": "2026-06-01T17:51:59.293Z",
+      "scrapedAt": "2026-06-01T17:50:37.883Z",
+      "lastUpdated": "2026-06-01T17:51:59.293Z",
       "version": 1
     },
     {
@@ -1093,9 +1099,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:41.270Z",
-      "scrapedAt": "2026-06-01T04:26:39.274Z",
-      "lastUpdated": "2026-06-01T04:27:41.270Z",
+      "processedAt": "2026-06-01T17:52:00.302Z",
+      "scrapedAt": "2026-06-01T17:50:37.883Z",
+      "lastUpdated": "2026-06-01T17:52:00.302Z",
       "version": 1
     },
     {
@@ -1119,9 +1125,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:41.281Z",
-      "scrapedAt": "2026-06-01T04:26:39.275Z",
-      "lastUpdated": "2026-06-01T04:27:41.281Z",
+      "processedAt": "2026-06-01T17:52:00.300Z",
+      "scrapedAt": "2026-06-01T17:50:37.883Z",
+      "lastUpdated": "2026-06-01T17:52:00.300Z",
       "version": 1
     },
     {
@@ -1145,9 +1151,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:41.266Z",
-      "scrapedAt": "2026-06-01T04:26:39.275Z",
-      "lastUpdated": "2026-06-01T04:27:41.266Z",
+      "processedAt": "2026-06-01T17:52:00.285Z",
+      "scrapedAt": "2026-06-01T17:50:37.884Z",
+      "lastUpdated": "2026-06-01T17:52:00.285Z",
       "version": 1
     },
     {
@@ -1171,9 +1177,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:41.266Z",
-      "scrapedAt": "2026-06-01T04:26:39.275Z",
-      "lastUpdated": "2026-06-01T04:27:41.266Z",
+      "processedAt": "2026-06-01T17:52:00.284Z",
+      "scrapedAt": "2026-06-01T17:50:37.884Z",
+      "lastUpdated": "2026-06-01T17:52:00.284Z",
       "version": 1
     },
     {
@@ -1199,9 +1205,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:41.360Z",
-      "scrapedAt": "2026-06-01T04:26:39.275Z",
-      "lastUpdated": "2026-06-01T04:27:41.360Z",
+      "processedAt": "2026-06-01T17:52:00.341Z",
+      "scrapedAt": "2026-06-01T17:50:37.884Z",
+      "lastUpdated": "2026-06-01T17:52:00.341Z",
       "version": 1
     },
     {
@@ -1225,9 +1231,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:42.373Z",
-      "scrapedAt": "2026-06-01T04:26:39.276Z",
-      "lastUpdated": "2026-06-01T04:27:42.373Z",
+      "processedAt": "2026-06-01T17:52:01.336Z",
+      "scrapedAt": "2026-06-01T17:50:37.885Z",
+      "lastUpdated": "2026-06-01T17:52:01.336Z",
       "version": 1
     },
     {
@@ -1253,9 +1259,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:42.357Z",
-      "scrapedAt": "2026-06-01T04:26:39.276Z",
-      "lastUpdated": "2026-06-01T04:27:42.357Z",
+      "processedAt": "2026-06-01T17:52:01.337Z",
+      "scrapedAt": "2026-06-01T17:50:37.885Z",
+      "lastUpdated": "2026-06-01T17:52:01.337Z",
       "version": 1
     },
     {
@@ -1279,9 +1285,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:42.357Z",
-      "scrapedAt": "2026-06-01T04:26:39.276Z",
-      "lastUpdated": "2026-06-01T04:27:42.357Z",
+      "processedAt": "2026-06-01T17:52:01.347Z",
+      "scrapedAt": "2026-06-01T17:50:37.885Z",
+      "lastUpdated": "2026-06-01T17:52:01.347Z",
       "version": 1
     },
     {
@@ -1305,9 +1311,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:42.359Z",
-      "scrapedAt": "2026-06-01T04:26:39.276Z",
-      "lastUpdated": "2026-06-01T04:27:42.359Z",
+      "processedAt": "2026-06-01T17:52:01.345Z",
+      "scrapedAt": "2026-06-01T17:50:37.885Z",
+      "lastUpdated": "2026-06-01T17:52:01.345Z",
       "version": 1
     },
     {
@@ -1331,9 +1337,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:42.450Z",
-      "scrapedAt": "2026-06-01T04:26:39.276Z",
-      "lastUpdated": "2026-06-01T04:27:42.450Z",
+      "processedAt": "2026-06-01T17:52:01.417Z",
+      "scrapedAt": "2026-06-01T17:50:37.886Z",
+      "lastUpdated": "2026-06-01T17:52:01.417Z",
       "version": 1
     },
     {
@@ -1357,9 +1363,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:43.460Z",
-      "scrapedAt": "2026-06-01T04:26:39.276Z",
-      "lastUpdated": "2026-06-01T04:27:43.460Z",
+      "processedAt": "2026-06-01T17:52:02.390Z",
+      "scrapedAt": "2026-06-01T17:50:37.886Z",
+      "lastUpdated": "2026-06-01T17:52:02.390Z",
       "version": 1
     },
     {
@@ -1382,9 +1388,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:43.446Z",
-      "scrapedAt": "2026-06-01T04:26:39.277Z",
-      "lastUpdated": "2026-06-01T04:27:43.446Z",
+      "processedAt": "2026-06-01T17:52:02.398Z",
+      "scrapedAt": "2026-06-01T17:50:37.886Z",
+      "lastUpdated": "2026-06-01T17:52:02.398Z",
       "version": 1
     },
     {
@@ -1408,15 +1414,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-01T04:27:43.446Z",
-      "scrapedAt": "2026-06-01T04:26:39.277Z",
-      "lastUpdated": "2026-06-01T04:27:43.446Z",
+      "processedAt": "2026-06-01T17:52:02.389Z",
+      "scrapedAt": "2026-06-01T17:50:37.886Z",
+      "lastUpdated": "2026-06-01T17:52:02.389Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-01T04:27:43.469Z"
+    "lastUpdated": "2026-06-01T17:52:02.414Z"
   }
 }

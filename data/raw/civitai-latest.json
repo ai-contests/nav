@@ -1,68 +1,28 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-05-31T13:55:19.420Z",
-  "contestCount": 2,
+  "timestamp": "2026-06-01T17:51:48.061Z",
+  "contestCount": 1,
   "contests": [
     {
       "platform": "civitai",
-      "title": "Build on Civitai (Open Call)",
-      "description": "Civitai Apps is coming. We're picking ~10 indie devs and creative builders to ship the first wave.",
-      "url": "https://civitai.com/events/699",
-      "deadline": "2026-05-31T23:59:59.999Z",
+      "title": "Generator & LoRA Trainer Outage",
+      "description": "We're currently experiencing issues with the Generator and LoRA Trainer. The Development team is investigating! Our apologies for the disruption!",
+      "url": "https://civitai.com/events/646",
+      "deadline": "2026-06-01T23:59:59.999Z",
       "prize": "",
-      "rawHtml": "{\"endsAt\":\"2026-05-31T23:59:59.999Z\",\"id\":699,\"title\":\"Build on Civitai (Open Call)\",\"content\":\"Civitai Apps is coming. We're picking ~10 indie devs and creative builders to ship the first wave.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-05-22T21:19:31.827Z\",\"startsAt\":\"2026-05-22T21:19:31.281Z\",\"metadata\":{\"image\":\"9f2595c5-82ff-43f2-bb71-c9b7e0c055eb\",\"actions\":[{\"link\":\"/articles/30470\",\"type\":\"button\",\"linkText\":\"Learn More\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-05-31T13:53:37.015Z",
+      "rawHtml": "{\"endsAt\":\"2026-06-01T23:59:59.999Z\",\"id\":646,\"title\":\"Generator & LoRA Trainer Outage\",\"content\":\"We're currently experiencing issues with the Generator and LoRA Trainer. The Development team is investigating! Our apologies for the disruption!\",\"color\":\"red\",\"emoji\":null,\"createdAt\":\"2026-03-14T13:13:45.258Z\",\"startsAt\":\"2026-06-01T16:05:13.753Z\",\"metadata\":{\"image\":\"7171bdc6-8007-492c-84ad-f607e4dbd320\",\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-06-01T17:49:41.177Z",
       "metadata": {
-        "endsAt": "2026-05-31T23:59:59.999Z",
-        "id": 699,
-        "title": "Build on Civitai (Open Call)",
-        "content": "Civitai Apps is coming. We're picking ~10 indie devs and creative builders to ship the first wave.",
-        "color": "violet",
+        "endsAt": "2026-06-01T23:59:59.999Z",
+        "id": 646,
+        "title": "Generator & LoRA Trainer Outage",
+        "content": "We're currently experiencing issues with the Generator and LoRA Trainer. The Development team is investigating! Our apologies for the disruption!",
+        "color": "red",
         "emoji": null,
-        "createdAt": "2026-05-22T21:19:31.827Z",
-        "startsAt": "2026-05-22T21:19:31.281Z",
+        "createdAt": "2026-03-14T13:13:45.258Z",
+        "startsAt": "2026-06-01T16:05:13.753Z",
         "metadata": {
-          "image": "9f2595c5-82ff-43f2-bb71-c9b7e0c055eb",
-          "actions": [
-            {
-              "link": "/articles/30470",
-              "type": "button",
-              "linkText": "Learn More"
-            }
-          ],
-          "colSpan": 6,
-          "dismissible": true,
-          "targetAudience": "all"
-        }
-      }
-    },
-    {
-      "platform": "civitai",
-      "title": "Civitai Radio (Beta)",
-      "description": "Civitai Radio is live in beta. Tune into community stations, spin up your own, pick a DJ voice. [Start listening](https://radio.civitai.com)",
-      "url": "https://civitai.com/events/698",
-      "deadline": "2026-05-31T23:59:59.999Z",
-      "prize": "",
-      "rawHtml": "{\"endsAt\":\"2026-05-31T23:59:59.999Z\",\"id\":698,\"title\":\"Civitai Radio (Beta)\",\"content\":\"Civitai Radio is live in beta. Tune into community stations, spin up your own, pick a DJ voice. [Start listening](https://radio.civitai.com)\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-05-21T19:12:09.031Z\",\"startsAt\":\"2026-05-21T00:00:00.000Z\",\"metadata\":{\"image\":\"8943807e-2e29-4334-9e03-876b2edbc353\",\"actions\":[{\"link\":\"/articles/30426\",\"type\":\"button\",\"linkText\":\"Learn More\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-05-31T13:53:37.015Z",
-      "metadata": {
-        "endsAt": "2026-05-31T23:59:59.999Z",
-        "id": 698,
-        "title": "Civitai Radio (Beta)",
-        "content": "Civitai Radio is live in beta. Tune into community stations, spin up your own, pick a DJ voice. [Start listening](https://radio.civitai.com)",
-        "color": "violet",
-        "emoji": null,
-        "createdAt": "2026-05-21T19:12:09.031Z",
-        "startsAt": "2026-05-21T00:00:00.000Z",
-        "metadata": {
-          "image": "8943807e-2e29-4334-9e03-876b2edbc353",
-          "actions": [
-            {
-              "link": "/articles/30426",
-              "type": "button",
-              "linkText": "Learn More"
-            }
-          ],
+          "image": "7171bdc6-8007-492c-84ad-f607e4dbd320",
           "colSpan": 6,
           "dismissible": true,
           "targetAudience": "all"

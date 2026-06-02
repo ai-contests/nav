@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-06-02T04:21:21.341Z",
+  "timestamp": "2026-06-02T16:44:14.632Z",
   "contestCount": 10,
   "contests": [
     {
@@ -28,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-02T04:21:12.903Z",
-      "scrapedAt": "2026-06-02T04:19:25.689Z",
-      "lastUpdated": "2026-06-02T04:21:12.903Z",
+      "processedAt": "2026-06-02T16:44:06.164Z",
+      "scrapedAt": "2026-06-02T16:42:20.173Z",
+      "lastUpdated": "2026-06-02T16:44:06.164Z",
       "version": 1
     },
     {
@@ -58,9 +58,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-02T04:21:12.949Z",
-      "scrapedAt": "2026-06-02T04:19:25.690Z",
-      "lastUpdated": "2026-06-02T04:21:12.949Z",
+      "processedAt": "2026-06-02T16:44:06.209Z",
+      "scrapedAt": "2026-06-02T16:42:20.174Z",
+      "lastUpdated": "2026-06-02T16:44:06.209Z",
       "version": 1
     },
     {
@@ -88,9 +88,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-02T04:21:13.956Z",
-      "scrapedAt": "2026-06-02T04:19:25.691Z",
-      "lastUpdated": "2026-06-02T04:21:13.956Z",
+      "processedAt": "2026-06-02T16:44:07.222Z",
+      "scrapedAt": "2026-06-02T16:42:20.175Z",
+      "lastUpdated": "2026-06-02T16:44:07.222Z",
       "version": 1
     },
     {
@@ -119,9 +119,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-02T04:21:13.949Z",
-      "scrapedAt": "2026-06-02T04:19:25.692Z",
-      "lastUpdated": "2026-06-02T04:21:13.949Z",
+      "processedAt": "2026-06-02T16:44:07.214Z",
+      "scrapedAt": "2026-06-02T16:42:20.175Z",
+      "lastUpdated": "2026-06-02T16:44:07.214Z",
       "version": 1
     },
     {
@@ -156,9 +156,9 @@
         "coverage"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-02T04:21:13.957Z",
-      "scrapedAt": "2026-06-02T04:19:25.694Z",
-      "lastUpdated": "2026-06-02T04:21:13.957Z",
+      "processedAt": "2026-06-02T16:44:07.204Z",
+      "scrapedAt": "2026-06-02T16:42:20.178Z",
+      "lastUpdated": "2026-06-02T16:44:07.204Z",
       "version": 1
     },
     {
@@ -186,9 +186,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-02T04:21:13.953Z",
-      "scrapedAt": "2026-06-02T04:19:25.695Z",
-      "lastUpdated": "2026-06-02T04:21:13.953Z",
+      "processedAt": "2026-06-02T16:44:07.227Z",
+      "scrapedAt": "2026-06-02T16:42:20.179Z",
+      "lastUpdated": "2026-06-02T16:44:07.227Z",
       "version": 1
     },
     {
@@ -217,9 +217,39 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-02T04:21:14.003Z",
-      "scrapedAt": "2026-06-02T04:19:25.695Z",
-      "lastUpdated": "2026-06-02T04:21:14.003Z",
+      "processedAt": "2026-06-02T16:44:07.245Z",
+      "scrapedAt": "2026-06-02T16:42:20.179Z",
+      "lastUpdated": "2026-06-02T16:44:07.245Z",
+      "version": 1
+    },
+    {
+      "id": "c_598b355b6a96",
+      "title": "Global AI Hackathon Series with Qwen Cloud",
+      "platform": "devpost",
+      "url": "https://qwencloud-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/706/870/datas/original.png",
+      "description": "Build production-ready agents on Qwen — and show the world what an agent can do. The Global AI Hackathon with Qwen Cloud invites professional developers, AI/ML engineers, and builders to design and ship sophisticated multi-agent systems, complex AI workflows, and production-grade applications using Qwen and other flagship models available on Qwen Cloud infrastructure. With advanced reasoning and multimodal capabilities, QwenCloud is built for builders who care about architectural depth and engineering excellence. Pick a track and build something real. Compete for total $70,000+ in cash and cloud credits, get featured on the Qwen Cloud blog, and earn an invite to join the AI Catalyst program. Why Join Build with Qwen Cloud. Access Qwen and other flagship models with advanced reasoning and multimodal understanding — all on Qwen Cloud infrastructure purpose-built for production AI. Get free Qwen Cloud credits to build, deploy, and scale your agent. Win a total of $70,000+ in cash and cloud credits plus blog features, swag, and an invite to the AI Catalyst program for standout teams. Get started Register on Devpost (2 minutes) Sign up for Qwen Cloud. Click here to Sign up for your free trial and request your free hackathon credits via our coupon form. To learn more about the hackathon you can check here.(5 minutes) Join the Qwen Cloud Discord (2 minutes) Pick your track, review the sample projects and reference architecture in the Resources and start building. (30 minutes to first run)",
+      "summary": "Build production-ready agents on Qwen — and show the world what an agent can do. The Global AI Hackathon with Qwen Cloud invites professional developers, AI/ML engineers, and builders to design and sh...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-07-09T21:00:00.000Z",
+      "prize": "$45,000",
+      "tags": [
+        "Design",
+        "Productivity"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-02T16:44:08.257Z",
+      "scrapedAt": "2026-06-02T16:42:20.180Z",
+      "lastUpdated": "2026-06-02T16:44:08.257Z",
       "version": 1
     },
     {
@@ -249,39 +279,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-02T04:21:15.002Z",
-      "scrapedAt": "2026-06-02T04:19:25.696Z",
-      "lastUpdated": "2026-06-02T04:21:15.002Z",
-      "version": 1
-    },
-    {
-      "id": "c_598b355b6a96",
-      "title": "Global AI Hackathon Series with Qwen Cloud",
-      "platform": "devpost",
-      "url": "https://qwencloud-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/706/870/datas/original.png",
-      "description": "Build production-ready agents on Qwen — and show the world what an agent can do. The Global AI Hackathon with Qwen Cloud invites professional developers, AI/ML engineers, and builders to design and ship sophisticated multi-agent systems, complex AI workflows, and production-grade applications using Qwen and other flagship models available on Qwen Cloud infrastructure. With advanced reasoning and multimodal capabilities, QwenCloud is built for builders who care about architectural depth and engineering excellence. Pick a track and build something real. Compete for total $70,000+ in cash and cloud credits, get featured on the Qwen Cloud blog, and earn an invite to join the AI Catalyst program. Why Join Build with Qwen Cloud. Access Qwen and other flagship models with advanced reasoning and multimodal understanding — all on Qwen Cloud infrastructure purpose-built for production AI. Get free Qwen Cloud credits to build, deploy, and scale your agent. Win a total of $70,000+ in cash and cloud credits plus blog features, swag, and an invite to the AI Catalyst program for standout teams. Get started Register on Devpost (2 minutes) Sign up for Qwen Cloud. Click here to Sign up for your free trial and request your free hackathon credits via our coupon form. To learn more about the hackathon you can check here.(5 minutes) Join the Qwen Cloud Discord (2 minutes) Pick your track, review the sample projects and reference architecture in the Resources and start building. (30 minutes to first run)",
-      "summary": "Build production-ready agents on Qwen — and show the world what an agent can do. The Global AI Hackathon with Qwen Cloud invites professional developers, AI/ML engineers, and builders to design and sh...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-07-09T21:00:00.000Z",
-      "prize": "$45,000",
-      "tags": [
-        "Design",
-        "Productivity"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-06-02T04:21:14.996Z",
-      "scrapedAt": "2026-06-02T04:19:25.696Z",
-      "lastUpdated": "2026-06-02T04:21:14.996Z",
+      "processedAt": "2026-06-02T16:44:08.252Z",
+      "scrapedAt": "2026-06-02T16:42:20.180Z",
+      "lastUpdated": "2026-06-02T16:44:08.252Z",
       "version": 1
     },
     {
@@ -309,15 +309,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-02T04:21:15.006Z",
-      "scrapedAt": "2026-06-02T04:19:25.696Z",
-      "lastUpdated": "2026-06-02T04:21:15.006Z",
+      "processedAt": "2026-06-02T16:44:08.266Z",
+      "scrapedAt": "2026-06-02T16:42:20.180Z",
+      "lastUpdated": "2026-06-02T16:44:08.266Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-02T04:21:21.341Z"
+    "lastUpdated": "2026-06-02T16:44:14.632Z"
   }
 }

@@ -1,20 +1,20 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-06-02T04:21:21.340Z",
+  "timestamp": "2026-06-02T16:44:14.630Z",
   "contestCount": 1,
   "contests": [
     {
-      "id": "c_049f2de91029",
-      "title": "Generator & LoRA Trainer Outage",
+      "id": "c_a4afbf217442",
+      "title": "Site Disruption",
       "platform": "civitai",
-      "url": "https://civitai.com/events/646",
+      "url": "https://civitai.com/events/700",
       "imageUrl": "",
-      "description": "We're currently experiencing issues with the Generator and LoRA Trainer. The Development team is investigating! Our apologies for the disruption!",
-      "summary": "We're currently experiencing issues with the Generator and LoRA Trainer. The Development team is investigating! Our apologies for the disruption!...",
+      "description": "Civitans! We're battling some pretty bad server lag and our scanners haven't been doing their job, and we know it's frustrating! Our team is on it, working hard to get things running smoothly again, but you may experience some inconsistent site behavior in the meantime. Thanks for your patience!",
+      "summary": "Civitans! We're battling some pretty bad server lag and our scanners haven't been doing their job, and we know it's frustrating! Our team is on it, working hard to get things running smoothly again, b...",
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-06-01T23:59:59.999Z",
+      "deadline": "2026-06-03T23:59:59.999Z",
       "prize": "",
       "tags": [
         "ai"
@@ -27,15 +27,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-02T04:21:12.811Z",
-      "scrapedAt": "2026-06-01T17:49:41.177Z",
-      "lastUpdated": "2026-06-02T04:21:12.811Z",
+      "processedAt": "2026-06-02T16:44:06.151Z",
+      "scrapedAt": "2026-06-02T16:41:52.870Z",
+      "lastUpdated": "2026-06-02T16:44:06.151Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-02T04:21:21.340Z"
+    "lastUpdated": "2026-06-02T16:44:14.630Z"
   }
 }

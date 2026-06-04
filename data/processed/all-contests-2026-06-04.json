@@ -1,6 +1,6 @@
 {
   "platform": "all",
-  "timestamp": "2026-06-04T04:25:53.802Z",
+  "timestamp": "2026-06-04T15:27:58.150Z",
   "contestCount": 49,
   "contests": [
     {
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:43.419Z",
-      "scrapedAt": "2026-06-04T04:24:27.233Z",
-      "lastUpdated": "2026-06-04T04:25:43.419Z",
+      "processedAt": "2026-06-04T15:27:47.637Z",
+      "scrapedAt": "2026-06-04T15:26:32.341Z",
+      "lastUpdated": "2026-06-04T15:27:47.637Z",
       "version": 1
     },
     {
@@ -42,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T04:24:27.233Z",
+      "deadline": "2030-08-14T15:26:32.342Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -53,9 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:44.209Z",
-      "scrapedAt": "2026-06-04T04:24:27.233Z",
-      "lastUpdated": "2026-06-04T04:25:44.209Z",
+      "processedAt": "2026-06-04T15:27:48.565Z",
+      "scrapedAt": "2026-06-04T15:26:32.342Z",
+      "lastUpdated": "2026-06-04T15:27:48.565Z",
       "version": 1
     },
     {
@@ -69,7 +69,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T04:24:27.233Z",
+      "deadline": "2045-08-31T15:26:32.342Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -80,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:44.291Z",
-      "scrapedAt": "2026-06-04T04:24:27.233Z",
-      "lastUpdated": "2026-06-04T04:25:44.291Z",
+      "processedAt": "2026-06-04T15:27:48.548Z",
+      "scrapedAt": "2026-06-04T15:26:32.342Z",
+      "lastUpdated": "2026-06-04T15:27:48.548Z",
       "version": 1
     },
     {
@@ -96,7 +96,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T04:24:27.234Z",
+      "deadline": "2030-12-30T15:26:32.342Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -110,9 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:44.277Z",
-      "scrapedAt": "2026-06-04T04:24:27.234Z",
-      "lastUpdated": "2026-06-04T04:25:44.277Z",
+      "processedAt": "2026-06-04T15:27:48.564Z",
+      "scrapedAt": "2026-06-04T15:26:32.342Z",
+      "lastUpdated": "2026-06-04T15:27:48.564Z",
       "version": 1
     },
     {
@@ -126,7 +126,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2027-06-17T04:24:27.234Z",
+      "deadline": "2027-06-16T15:26:32.343Z",
       "prize": "TBD",
       "tags": [
         "#classroom"
@@ -139,9 +139,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:44.306Z",
-      "scrapedAt": "2026-06-04T04:24:27.234Z",
-      "lastUpdated": "2026-06-04T04:25:44.306Z",
+      "processedAt": "2026-06-04T15:27:48.607Z",
+      "scrapedAt": "2026-06-04T15:26:32.343Z",
+      "lastUpdated": "2026-06-04T15:27:48.607Z",
       "version": 1
     },
     {
@@ -167,9 +167,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:44.352Z",
-      "scrapedAt": "2026-06-04T04:24:27.235Z",
-      "lastUpdated": "2026-06-04T04:25:44.352Z",
+      "processedAt": "2026-06-04T15:27:48.666Z",
+      "scrapedAt": "2026-06-04T15:26:32.343Z",
+      "lastUpdated": "2026-06-04T15:27:48.666Z",
       "version": 1
     },
     {
@@ -193,9 +193,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:45.359Z",
-      "scrapedAt": "2026-06-04T04:24:27.236Z",
-      "lastUpdated": "2026-06-04T04:25:45.359Z",
+      "processedAt": "2026-06-04T15:27:49.749Z",
+      "scrapedAt": "2026-06-04T15:26:32.344Z",
+      "lastUpdated": "2026-06-04T15:27:49.749Z",
       "version": 1
     },
     {
@@ -209,7 +209,7 @@
       "contestType": "code",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-07-18T04:24:27.236Z",
+      "deadline": "2026-07-18T15:26:32.345Z",
       "prize": "$100,000",
       "tags": [
         "llm",
@@ -235,9 +235,9 @@
         "eligibility"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:45.358Z",
-      "scrapedAt": "2026-06-04T04:24:27.236Z",
-      "lastUpdated": "2026-06-04T04:25:45.358Z",
+      "processedAt": "2026-06-04T15:27:49.657Z",
+      "scrapedAt": "2026-06-04T15:26:32.345Z",
+      "lastUpdated": "2026-06-04T15:27:49.657Z",
       "version": 1
     },
     {
@@ -264,9 +264,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:45.361Z",
+      "processedAt": "2026-06-04T15:27:49.644Z",
       "scrapedAt": "2026-06-03T16:57:40.261Z",
-      "lastUpdated": "2026-06-04T04:25:45.361Z",
+      "lastUpdated": "2026-06-04T15:27:49.644Z",
       "version": 1
     },
     {
@@ -274,14 +274,18 @@
       "title": "Google Cloud Rapid Agent Hackathon",
       "platform": "devpost",
       "url": "https://rapid-agent.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/623/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/623/datas/original.jpg",
+      "description": "About the challenge AI that doesn't just provide answers—it helps you take action. Building Agents for Real-World Challenges is your opportunity to move beyond the chatbot and into the world of agents that accomplish tasks for you. This hackathon is designed for every level of technical builder: whether you are writing your first script or architecting complex systems, this is your chance to build an agent that can reason, plan, and execute tasks under your oversight. Built with Gemini’s advanced reasoning and our technology partners' solutions, you will create agents that help people get more done. You provide the logic; Gemini provides the brain; our partners provide the superpowers. Turn your ideas into agents that solve real-world problems. Partners Six partner tracks are now live. Pick one and build with their MCP server: Arize Elastic Fivetran GitLab MongoDB Dynatrace The \"Partner Bucket\" System There are three identical prize buckets—one for each of our featured partner tracks. Instead of everyone competing for one giant pile of money, you are competing within the specific \"bucket\" of the partner technology you used. Prize Tier Amount (Per Partner Bucket):🥇 1st Place $5,000🥈 2nd Place $3,000🥉 3rd Place $2,000 How to Qualify Pick a Partner: Choose the partner technology that best fits the mission you want to accomplish. Build Your Agent: Create your agent—built with Gemini 3—using Google Cloud Agent Builder. Integrate the partner’s Model Context Protocol (MCP) server to give your agent the superpowers to finish the job. Win Your Track: You’ll be judged specifically against other builders within that same partner category. Examples of challenges your agent can solve: 2026 World Cup: Build an agent that solves a real-world challenge for the 2026 World Cup! Whether your agent automates fan logistics, assists local businesses in managing tourist surges, or powers a fully automated fantasy league, we want to see how AI can elevate the beautiful game. Financial Services: Build an agent that solves a real-world problem in the financial sector! Whether your agent automates real-time fraud detection, streamlines complex loan workflows, or executes personalized wealth management, we want to see how AI can drive precision and trust in the modern economy. Brick-and-Mortar Retail: Build an agent that solves a real-world challenge for brick-and-mortar malls! Whether your agent provides real-time shopper navigation, automates hyper-local tenant campaigns, or streamlines facility operations, we want to see how AI can bridge the gap between digital convenience and physical retail.",
+      "summary": "About the challenge AI that doesn't just provide answers—it helps you take action. Building Agents for Real-World Challenges is your opportunity to move beyond the chatbot and into the world of agents...",
+      "contestType": "text",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-06-11T21:00:00.000Z",
       "prize": "$60,000",
-      "tags": [],
+      "tags": [
+        "Databases",
+        "Open Ended"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -290,9 +294,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:45.368Z",
-      "scrapedAt": "2026-06-04T04:24:00.235Z",
-      "lastUpdated": "2026-06-04T04:25:45.368Z",
+      "processedAt": "2026-06-04T15:27:49.732Z",
+      "scrapedAt": "2026-06-04T15:26:06.506Z",
+      "lastUpdated": "2026-06-04T15:27:49.732Z",
       "version": 1
     },
     {
@@ -300,14 +304,18 @@
       "title": "Build with Gemini XPRIZE",
       "platform": "devpost",
       "url": "https://xprize.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/original.png",
+      "description": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Ship Deploy a business that operates with AI. Real users in production. 04 Sell Market it. Grow it. Show the revenue. AI is transforming everything, including what small teams can build. Operations that used to take entire engineering departments can now be written in plain English and executed by AI agents. By some estimates, the world’s 45 million software developers will grow to over a billion in the next few years. Everyone will be a developer, and we want to start now, with you. So show us: build a real business that makes real impact.",
+      "summary": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Shi...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-17T20:00:00.000Z",
       "prize": "$2,000,000",
-      "tags": [],
+      "tags": [
+        "Education",
+        "Productivity"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -316,9 +324,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:45.422Z",
-      "scrapedAt": "2026-06-04T04:24:00.236Z",
-      "lastUpdated": "2026-06-04T04:25:45.422Z",
+      "processedAt": "2026-06-04T15:27:49.795Z",
+      "scrapedAt": "2026-06-04T15:26:06.507Z",
+      "lastUpdated": "2026-06-04T15:27:49.795Z",
       "version": 1
     },
     {
@@ -326,14 +334,18 @@
       "title": "FIND EVIL!",
       "platform": "devpost",
       "url": "https://findevil.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/521/059/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/521/059/datas/original.png",
+      "description": "The Speed Problem An AI-powered adversary can go from initial access to full domain control in under 8 minutes. CrowdStrike's fastest observed breakout time: 7 minutes. Horizon3's autonomous agent: 60 seconds to full privilege escalation. MIT's 2024 research: AI-driven attack workflows running 47 times faster than human operators. Meanwhile, a human incident responder is still pulling up their toolkit. That gap is the most dangerous problem in cybersecurity. Find Evil! challenges you to close it. The Mission You'll build autonomous AI agents on the SANS SIFT Workstation --- 200+ incident response tools on a single platform, 18 years of community development, 60K+ annual downloads. Protocol SIFT, the proof-of-concept framework that connects AI agents to those tools through Model Context Protocol (MCP). Protocol SIFT works. It also hallucinates more than we'd like. (That's exactly why this hackathon exists.) Unlike offensive teams that operate with three or four people in secret, we're putting the entire practitioner community on this problem simultaneously. Your job: teach an AI agent to think like a senior analyst --- how to sequence its approach, recognize when something doesn't add up, and self-correct when it gets it wrong. Who Should Join You don't need to be an incident response expert. The SIFT Workstation handles the domain tooling. You need curiosity and building skills. IR/Security professionals: You've been finding evil manually for years. Build the AI partner you wish you had at 3 AM during an active incident. AI/ML engineers: Apply your skills to a domain where speed determines whether attackers win. Real case data, real tools, no toy datasets. Students and early-career builders: No IR background required. The SIFT Workstation is your on-ramp to the most in-demand intersection in tech. Open-source contributors: Every submission lives on as a community tool. Build something thousands of responders will use. Four supported architectural approaches: Direct Agent Extension (Claude Code or OpenClaw), Custom MCP Server, Multi-Agent Frameworks (AutoGen, CrewAI, LangGraph), or Alternative Agentic IDEs (Cursor, Cline, Aider). Teams up to 5. Solo permitted. April 15 -- June 15, 2026. $22,000+ in prizes. About the Challenge Why this exists In November 2025, Anthropic's security team published findings on GTG-1002 --- a Chinese state-sponsored operation where attackers used Claude Code to run autonomous reconnaissance, exploitation, and lateral movement at 80-90% autonomy. The AI handled everything at request rates Anthropic described as \"physically impossible\" for human operators. That was the offensive side. The SIFT Workstation is the defensive platform. Protocol SIFT demonstrated what's possible when you connect AI agents to that platform through MCP. This hackathon is how the community makes it real. The DFIR community built the SIFT Workstation 18 years ago to give every practitioner access to professional-grade tools. Find Evil! extends that mission: give every responder an AI co-pilot that can triage incidents at the speed adversaries now operate. The gap we're closing Manual command-line incident response cannot compete with autonomous agents executing thousands of requests. Adversaries move at machine speed. Defenders still look up command-line flags during active incidents. Your goal: build AI systems on the SIFT Workstation that match that velocity --- triaging, correlating, and reporting at the pace the threat demands. This hackathon is how. Get Started Register on Devpost (you're here) Join the Protocol SIFT Slack --- this is where questions get answered, teams form, and mentors hang out - Download the SIFT Workstation from sans.org/tools/sift-workstation Install Protocol SIFT Package to demonstrate automated analysis, To install Protocol SIFT, after you download SIFT OVA, and login, run this command from your terminal:: $ curl -fsSL https://raw.githubusercontent.com/teamdfir/protocol-sift/main/install.sh | bash Review the starter resources: sample case data (hard drives, memory images), example submission. Pick a problem and start building. See \"What to Build\" for project ideas and supported architectural approaches to get past the blank-screen problem.",
+      "summary": "The Speed Problem An AI-powered adversary can go from initial access to full domain control in under 8 minutes. CrowdStrike's fastest observed breakout time: 7 minutes. Horizon3's autonomous agent: 60...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-06-16T03:45:00.000Z",
       "prize": "$22,000",
-      "tags": [],
+      "tags": [
+        "Cybersecurity",
+        "Beginner Friendly"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -342,9 +354,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:46.420Z",
-      "scrapedAt": "2026-06-04T04:24:00.236Z",
-      "lastUpdated": "2026-06-04T04:25:46.420Z",
+      "processedAt": "2026-06-04T15:27:50.792Z",
+      "scrapedAt": "2026-06-04T15:26:06.508Z",
+      "lastUpdated": "2026-06-04T15:27:50.792Z",
       "version": 1
     },
     {
@@ -352,14 +364,19 @@
       "title": "H0: Hack the Zero Stack with Vercel v0 and AWS Databases",
       "platform": "devpost",
       "url": "https://h01.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/189/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/189/datas/original.png",
+      "description": "You no longer need to choose between shipping quickly and using data infrastructure that will hold up in real-world traffic and scale. With the integration between AWS Databases and Vercel, the application you prototype over a weekend can run on the same data foundation that startups and enterprises use for production deployment. You can focus on building and iterating on your product quickly on an operationally proven database from day one. Use Vercel’s v0 to scaffold a production-ready Next.js frontend and connect it to one of three AWS Databases: Amazon Aurora PostgreSQL Aurora DSQL, or DynamoDB. Build a full-stack application that could actually go to production in minutes. Why join? $80,000 in cash prizes and an additional $80,000 in AWS credits! Get hands-on with a production stack: AWS Databases and Vercel Build something real – judges are looking for shippable software, not just demos Get Started Sign up for a v0.app account if you don’t already have one Fill out the request form to get AWS & v0 Credits Choose and provision your AWS Databases Build. Ship. Submit!",
+      "summary": "You no longer need to choose between shipping quickly and using data infrastructure that will hold up in real-world traffic and scale. With the integration between AWS Databases and Vercel, the applic...",
+      "contestType": "image",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-06-30T00:00:00.000Z",
       "prize": "$80,000",
-      "tags": [],
+      "tags": [
+        "Databases",
+        "Open Ended",
+        "Web"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -368,9 +385,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:46.421Z",
-      "scrapedAt": "2026-06-04T04:24:00.239Z",
-      "lastUpdated": "2026-06-04T04:25:46.421Z",
+      "processedAt": "2026-06-04T15:27:50.800Z",
+      "scrapedAt": "2026-06-04T15:26:06.511Z",
+      "lastUpdated": "2026-06-04T15:27:50.800Z",
       "version": 1
     },
     {
@@ -378,25 +395,36 @@
       "title": "UiPath AgentHack",
       "platform": "devpost",
       "url": "https://uipath-agenthack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/624/515/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/624/515/datas/original.jpg",
+      "description": "UiPath AgentHack is the UiPath Community global online hackathon for developers, automation engineers, data scientists, AI engineers, students, and professionals who want to go beyond basic automation and build agentic solutions that work in enterprise environments. Over 7 weeks, you'll design and ship a real, working solution on the UiPath Platform™. Not a concept, nor a slide deck, but a working solution that handles complexity, survives interruptions, keeps humans in the loop, and solves something that matters. UiPath AgentHack challenges you to build, run, and orchestrate real agentic solutions on the UiPath Platform, the single enterprise control plane that coordinates AI agents, automations, people, and applications end to end. Whether you build with UiPath's native capabilities or combine them with frameworks like LangChain, CrewAI, or AutoGen, your solution must use UiPath as the execution and orchestration layer. Check out the Forum thread if you want to connect with fellow participants, see their questions or find a teammate. We have $50,000 in cash prizes and three challenge tracks built around the most critical capabilities in enterprise agentic AI. Pick the track that best fits your project and submit: Track 1: UiPath Maestro Case Track 2: UiPath Maestro BPMN Track 3: UiPath Test Cloud About the challenge Coding agents have redefined how we build and the real value now lies in how we operate and govern agents at scale, bridging the gap between a prototype on a laptop and software running in production. UiPath AgentHack is built around that challenge. At the center of this hackathon is UiPath for Coding Agents, a platform-wide capability that enables developers to use coding agents (Claude Code, Codex, Cursor, and Gemini CLI, etc) to build, test, deploy, operate, and govern enterprise automations. Using natural language, you'll design AI agents that drive tangible business value, with full support for external frameworks such as LangChain, CrewAI, and AutoGen. The three challenge tracks are built around real-world enterprise problems that require coordination, adaptability, and orchestration at scale: structured process orchestration with Maestro BPMN, agentic case management for dynamic and exception-heavy work, and agentic software testing for AI-driven automations. Throughout the 7-week hacking period, UiPath will host community meetups, office hours, and will offer enablement resources to help you get up to speed with the platform and refine your solution. Track 1: UiPath Maestro Case. Build a solution that orchestrates dynamic, exception-heavy business processes using UiPath case management capabilities. Your solution should move work through stages, involve handoffs between agents, robots, and people, and keep humans in charge at key decision points. Agents within your case flow can be built on UiPath or an external framework; the platform handles coordination regardless of where the agents come from. Think about scenarios like: insurance claims processing where cases move through intake, investigation, and settlement stages; patient care coordination where agents manage referrals, scheduling, and follow-ups across providers; HR onboarding workflows where each new hire case progresses through document collection, system provisioning, and training assignment. Track 2: UiPath Maestro BPMN. Build a solution that models and runs an end-to-end business process using BPMN 2.0 in UiPath Maestro. Your process should orchestrate humans, robots, agents, and APIs through a defined flow with clear tasks, decisions, and handoffs. Agents within the process can be built with UiPath Agent Builder, coding agents, or external frameworks like LangChain, CrewAI, AutoGen, or any other agent platform. We want to see processes that move work cleanly from start to finish, with the right actor doing the right task at the right time. Think about scenarios like: An order-to-cash workflow where RPA pulls orders from email, EDI, and portals, an agent normalizes line items and flags pricing exceptions, and Maestro BPMN orchestrates credit checks, inventory allocation, fulfillment, and invoicing across ERP and CRM in a defined sequence. A collections agent monitors aging invoices and escalates disputes to finance for review. Or a procure-to-pay process where agents parse requisition intent, recommend vendors, and route approvals based on budget thresholds and category rules, RPA handles PO creation and invoice ingestion across ERP and AP systems, and an invoice agent reconciles discrepancies between PO, receipt, and invoice, escalating only true exceptions to AP for human review. Maestro BPMN keeps the full flow coordinated from requisition to payment Track 3: UiPath Test Cloud. Create agents that use UiPath Test Cloud to reimagine how software testing is designed, automated, executed, and managed across modern enterprise environments. Your goal is to show how agentic software testing can improve quality across AI-driven automations, enterprise applications, and connected business workflows. These agents should help you move faster with more confidence by increasing coverage, improving reliability, and reducing the manual effort required to validate complex systems. Think of building agents that can: evaluate requirements and turn them into meaningful test scenarios, identify fragile or outdated tests before they slow down a release, recommend fixes when automation breaks, or help orchestrate the right tests at the right time based on risk, coverage, and change impact. You might also explore how agents can validate AI-infused workflows, including third-party agents or AI services that participate in a UiPath-orchestrated process. All solutions must run on the UiPath Automation Cloud. You can include Agent Builder, Maestro, API Workflows, coding agents, and RPA where needed. You're welcome to bring in agents built on external frameworks and LLMs, in fact, we encourage it. The point is that UiPath is the orchestration and governance layer that ties everything together. Tip: If your process has unpredictable paths that emerge as the work unfolds, choose Track 1 - UiPath Maestro Case. If your process has a predictable sequence you can map in advance, choose Track 2 - UiPath Maestro BPMN. Bonus: solutions that use coding agents through UiPath for Coding Agents (Claude Code, Codex, Cursor, Gemini CLI, etc) will receive additional points during judging. We're especially interested in seeing how participants combine coding agents with low-code components, or blend UiPath-native agents with external agents, to solve complex problems You can't submit the same project to multiple tracks, and your solution needs to clearly align with whichever track you choose, both in how it's built and how it's described. Get started Register on Devpost for UiPath AgentHack. Form or join a team of 1 to 4 people and pick your track. Ask for access on UiPath Labs here: Teams must designate a representative to complete the access form on behalf of the group. Within 3 business days of asking for access, you'll receive a separate email with your UiPath Labs access link and credentials. UiPath Labs come fully equipped with agentic and AI units, so you can build without constraints.",
+      "summary": "UiPath AgentHack is the UiPath Community global online hackathon for developers, automation engineers, data scientists, AI engineers, students, and professionals who want to go beyond basic automation...",
+      "contestType": "image",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-06-30T06:45:00.000Z",
       "prize": "$50,000",
-      "tags": [],
+      "tags": [
+        "llm",
+        "Enterprise",
+        "Robotic Process Automation"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
+      "requirements": [
+        "and turn them into meaningful test scenarios",
+        "identify fragile or outdated tests before they slow down a release",
+        "recommend fixes when automation breaks",
+        "or help orchestrate the right tests at the right time based on risk",
+        "coverage"
+      ],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:46.421Z",
-      "scrapedAt": "2026-06-04T04:24:00.239Z",
-      "lastUpdated": "2026-06-04T04:25:46.421Z",
+      "processedAt": "2026-06-04T15:27:50.804Z",
+      "scrapedAt": "2026-06-04T15:26:06.512Z",
+      "lastUpdated": "2026-06-04T15:27:50.804Z",
       "version": 1
     },
     {
@@ -420,35 +448,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:46.421Z",
-      "scrapedAt": "2026-06-04T04:24:00.240Z",
-      "lastUpdated": "2026-06-04T04:25:46.421Z",
-      "version": 1
-    },
-    {
-      "id": "c_6e052de4bd13",
-      "title": "Mind the Product presents World Product Day: Everyone Ships Now",
-      "platform": "devpost",
-      "url": "https://mindtheproduct.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/365/datas/medium_square.jpeg",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$10,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:46.472Z",
-      "scrapedAt": "2026-06-04T04:24:00.241Z",
-      "lastUpdated": "2026-06-04T04:25:46.472Z",
+      "processedAt": "2026-06-04T15:27:50.800Z",
+      "scrapedAt": "2026-06-04T15:26:06.512Z",
+      "lastUpdated": "2026-06-04T15:27:50.800Z",
       "version": 1
     },
     {
@@ -474,9 +476,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:47.474Z",
-      "scrapedAt": "2026-06-04T04:24:00.241Z",
-      "lastUpdated": "2026-06-04T04:25:47.474Z",
+      "processedAt": "2026-06-04T15:27:50.829Z",
+      "scrapedAt": "2026-06-04T15:26:06.513Z",
+      "lastUpdated": "2026-06-04T15:27:50.829Z",
+      "version": 1
+    },
+    {
+      "id": "c_6e052de4bd13",
+      "title": "Mind the Product presents World Product Day: Everyone Ships Now",
+      "platform": "devpost",
+      "url": "https://mindtheproduct.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/365/datas/medium_square.jpeg",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$10,000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-04T15:27:51.839Z",
+      "scrapedAt": "2026-06-04T15:26:06.513Z",
+      "lastUpdated": "2026-06-04T15:27:51.839Z",
       "version": 1
     },
     {
@@ -500,9 +528,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:47.483Z",
-      "scrapedAt": "2026-06-04T04:24:00.241Z",
-      "lastUpdated": "2026-06-04T04:25:47.483Z",
+      "processedAt": "2026-06-04T15:27:51.850Z",
+      "scrapedAt": "2026-06-04T15:26:06.514Z",
+      "lastUpdated": "2026-06-04T15:27:51.850Z",
       "version": 1
     },
     {
@@ -526,9 +554,74 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:47.473Z",
-      "scrapedAt": "2026-06-04T04:24:00.242Z",
-      "lastUpdated": "2026-06-04T04:25:47.473Z",
+      "processedAt": "2026-06-04T15:27:51.849Z",
+      "scrapedAt": "2026-06-04T15:26:06.514Z",
+      "lastUpdated": "2026-06-04T15:27:51.849Z",
+      "version": 1
+    },
+    {
+      "id": "c_05a75202b2ef",
+      "title": "“中国云谷”高校训练营暨乐奇AI眼镜AIUI智能体开发实战",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/258",
+      "imageUrl": "",
+      "description": "本次训练营由云谷中心、魔搭社区、乐奇Rokid联合主办，我们诚邀具备 JavaScript 前端开发基础、大模型 API 调用、 Agent 开发经验的高校学生加入。让我们共同探索如何将Agent植入 Rokid AI 眼镜，打破传统屏幕限制，在空间交互中重构前端逻辑。用两天时间，从代码调试到眼镜端侧部署，带你体验一场酣畅淋漓的“AI Agent + 智能硬件”实战课，亲手打造你的第一款空间智能应用！\n\n2天时间，让你的智能体戴上眼镜，走进真实世界当AI从屏幕中走出来，戴上眼镜，它会看到什么？世界已经变了。IDC将2026年定义为 “智能眼镜AI生态元年” ——AI眼镜的出货量预计首次突破1000万台，5年复合增长率高达47%。从“看见”到“思考”，人机交互正在经历一场静默而深刻的变革。乐奇Rokid，正是这场变革的先行者。本次训练营由云谷中心、魔搭社区、乐奇Rokid联合主办，我们诚邀具备 JavaScript 前端开发基础、大模型 API 调用、 Agent 开发经验的高校学生加入。让我们共同探索如何将Agent植入 Rokid AI 眼镜，打破传统屏幕限制，在空间交互中重构前端逻辑。用两天时间，从代码调试到眼镜端侧部署，带你体验一场酣畅淋漓的“AI Agent + 智能硬件”实战课，亲手打造你的第一款空间智能应用！01 为什么是AIUI？智能体的“下一站”如今的AI Agent已经不再满足于“会聊天”——它们需要看懂世界、听懂指令、主动服务、解放双手。然而，过去的交互方式（GUI）仍是触摸、点击、菜单的逻辑，AI的“大脑”和用户的“手脚”之间总是隔着屏幕。Rokid率先推出的AIUI框架，给出的答案是：让AI适应用户，而非用户适应机器。AIUI是Rokid推出的专为 AI + AR 设计的 AI 原生 GUI（AI-Native UI）本地智能体框架，强调面向智能体的交互与组织方式，整合设备侧本地能力，帮助开发者构建真正可落地的智能体应用。这意味着——从拍摄识别、语音问答到执行复杂任务，开发者可以利用AIUI调用眼镜的全部本地能力，让智能体“长在”眼镜里，而不仅仅是挂在云端。02 实战招募：2天时间，从0到1打造专属AIUI智能体6月13日-6月14日，杭州·云谷中心，「中国云谷·高校训练营」乐奇AI眼镜AIUI智能体开发实战。这是一场为期2天的沉浸式开发体验，专为具备JavaScript开发能力和智能体开发经验的你量身定制。准备好了吗？2天时间，你将亲手打造一个可以在真实乐奇AI眼镜上运行的专属智能体！03 你需要准备什么？✅ JavaScript开发能力——具备基础的前端开发经验✅ 智能体/Agent开发经验——有大模型API调用或Agent开发经验者优先✅ 自带电脑——现场开发、调试全流程需要你的主力设备04 关于AIUI & 灵珠平台：你的开发工具箱AIUI框架提供了完整的开发体系：智能体框架：深入理解AIUI的运行机制，包括配置规范（AGENTS.md、app.json）、页面结构以及WXML/WXSS组件系统组件与API：支持view、scroll-view、image等UI组件，覆盖框架核心API、多媒体API、网络请求及兼容性API开发者工具：CLI与真机调试能力，快速迭代灵珠AI平台则是Rokid面向开发者开放的AI应用创作平台，提供从应用编排到眼镜端部署的完整工具链，核心能力覆盖智能体构建、大模型自定义、工作流编排等多个维度。可以接入的基础大模型，通过灵珠平台提供的低代码开发能力，无需深厚硬件开发经验，即可快速构建垂直领域的智能应用。06 你将收获什么？🎯 一次完整的AIUI智能体开发实战经验——从0到1完成可交付的智能体作品🎯 Rokid官方技术导师1v1指导——开发中遇到的卡点，现场有人带你破🎯 真机调试机会——让你的智能体真正在乐奇AI眼镜上跑起来🎯 TOP3奖项——赢取Rokid周边大礼包🎯 与全国优秀开发者同行——交流、碰撞、组队、分享07 报名方式⏰ 活动时间：6月13日-6月14日 9:00-18:00📍 活动地点：杭州市西湖区灯彩街1009号 云谷中心 A6栋 云湾厅📝 报名方式：扫描下方海报二维码，填写表单即可报名🎓 主办单位：云谷中心 ｜ 魔搭社区 ｜ 乐奇AI眼镜🤝 协办单位：杭州全球青年人才中心 ｜ Datawhale‼️报名截止时间：2026年6月10日24:00写在最后“我们希望通过AIUI，让用户能够把眼镜用起来，让眼镜深入到真实场景中去。”——Rokid团队从大模型到智能体，从屏幕到眼镜，交互的边界正在不断扩展。这次训练营的意义，不仅仅是教会你用AIUI开发一个智能体——而是让你成为下一代人机交互方式的定义者。6月13日，我们在云谷等你。带上你的电脑、你的创意、你对AI Agent的全部想象。让我们在镜片上，重新想象世界。",
+      "summary": "本次训练营由云谷中心、魔搭社区、乐奇Rokid联合主办，我们诚邀具备 JavaScript 前端开发基础、大模型 API 调用、 Agent 开发经验的高校学生加入。让我们共同探索如何将Agent植入 Rokid AI 眼镜，打破传统屏幕限制，在空间交互中重构前端逻辑。用两天时间，从代码调试到眼镜端侧部署，带你体验一场酣畅淋漓的“AI Agent + 智能硬件”实战课，亲手打造你的第一款空间智能应...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-06-10T15:59:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "看懂世界、听懂指令、主动服务、解放双手。然而",
+        "过去的交互方式（GUI）仍是触摸、点击、菜单的逻辑",
+        "AI的“大脑”和用户的“手脚”之间总是隔着屏幕。Rokid率先推出的AIUI框架",
+        "给出的答案是：让AI适应用户",
+        "而非用户适应机器。AIUI是Rokid推出的专为 AI + AR 设计的 AI 原生 GUI（AI-Native UI）本地智能体框架"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2026-06-04T15:27:51.839Z",
+      "scrapedAt": "2026-06-04T15:25:30.056Z",
+      "lastUpdated": "2026-06-04T15:27:51.839Z",
+      "version": 1
+    },
+    {
+      "id": "c_c46904df45ea",
+      "title": "硅碳 AI 诊疗挑战赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/254",
+      "imageUrl": "",
+      "description": "本次大赛设“硅基智能体 X 碳基医学生”双赛道，基于 OpenHospital 底座，构建高度拟真的全科诊疗 Arena。这里没有标准单选题，只有 12,000 名鲜活的智能体患者与上千种错综复杂的疾病网络，覆盖多发病、罕见病及复杂共病。这是一场让 \"硅基智能体\"与\"碳基医学生\"同台竞技 的临床试炼——评判标准回归医疗本质：问得更准、查得更精、治得更好。\n\n一、赛题背景大模型技术正将医疗 AI 从\"医学百科全书\"推向\"临床决策大脑\"，但一个核心命题亟待回答：\"考场得分高\"的 AI 智能体，真的能接诊现实中的复杂病患吗？传统医疗评测多以静态文本为基础（如 MedQA、USMLE），将鲜活的临床问题降维成考题，掩盖了患者沟通博弈与复杂共病的陷阱，更缺乏对\"问诊 → 开具检查 → 诊断与治疗\"全链路能力的系统性评估。本次大赛基于 OpenHospital 底座，构建高度拟真的全科诊疗 Arena。这里没有标准单选题，只有 12,000 名鲜活的智能体患者与上千种错综复杂的疾病网络，覆盖多发病、罕见病及复杂共病。这是一场让 \"硅基智能体\"与\"碳基医学生\"同台竞技 的临床试炼——评判标准回归医疗本质：问得更准、查得更精、治得更好。二、赛题任务参赛选手需基于给定评测集，完成医生诊疗全链路任务，涵盖三个核心环节：环节任务描述中间输出① 问诊通过多轮自然语言对话，与患者智能体交互收集病史与症状医生对话文本② 开具检查基于问诊信息，合理开具必要检查项目检查项目名称③ 诊断与治疗综合问诊与检查结果，给出明确诊断结论与治疗方案确诊疾病名称、治疗方案文本2.1 双赛道介绍硅基赛道（搭建、调优智能体参赛）参赛对象：面向全国高校在校学生（专科、本科、硕士、博士、在职研究生等高等教育学籍在内的在校学生人群），具备智能体搭建能力的开发者，每队 1–3 人；资源包：训练服务端（包括与训练集的患者智能体对话，获取检查结果，在线评估，提供标准答案）、标准检查项目清单、标准疾病名称清单，初始医生智能体baseline；考察重点：智能体搭建、Skill 构建、Memory 管理；交付物：在魔搭创空间中部署的医生智能体。碳基赛道（在校医学生参赛）参赛对象：面向含医学相关专业的专科生、本科生、硕士及博士研究生，以个人形式参赛；资源包：可视化交互平台（包括与训练集的患者智能体对话，获取检查结果，在线评估，提供标准答案）、标准检查项目清单、标准疾病名称清单；考察重点：临床实践能力、知识储备、经验判断；交付物：在可视化交互平台上在线作答的答题记录。2.2 赛事流程赛事平台：https://www.modelscope.cn/studios/baconroot/virtual_hospital提交报名后，24h 内将通过报名预留邮箱发放 参赛账号，两赛道均在赛事平台进行两赛道均分为 训练阶段 与 评测阶段：训练阶段：模型基座统一限定为 Qwen3.5-Flash，选手可通过 API 或 Web 界面调用患者智能体，完成问诊、检查、诊断、治疗全流程；平台同步提供训练集标准答案供选手参考调优。该阶段所消耗的 token 数将计入最终加权得分，消耗越少得分越优。评测阶段：硅基赛道由选手在创空间中部署开发好的智能体，评测阶段限定用 Qwen3.5-Flash，然后提供创空间名称和Modelscope的Access Token，由系统进行自动化批量评测；碳基赛道由选手登录可视化交互平台在线作答，系统依据标准答案自动判分。2.3 提交规则赛道提交方式提交次数硅基-智能体赛道在魔搭创空间中部署的医生智能体，提交到平台+链接&截图每队最多 3 次，取最高分碳基-医学生赛道在可视化交互平台上直接在线作答+链接每人最多 3 次，取最高分2.4 跨赛道衡量机制两赛道独立排名，同时发布 跨赛道综合对比榜 供行业参考。三、赛程总览阶段时间内容报名 & 热身6 月 3 日开放报名，发布 Baseline，熟悉 Arena 平台与提交流程初赛8 月 2 日开放评测集 A 卷（公开卷），排行榜准实时更新；硅基智能体赛道 Top 20 进入复赛，碳基医学生赛道 直接决选 Top 6复赛8 月 31 日开放评测集 B 卷（隐藏卷），难度提升，覆盖更多疑难/罕见病例；B 卷成绩 Top 6 进入决赛决赛9 月初全赛程技术解决方案路演，决选最终一、二、三等奖结果公布9 月初公布最终排行榜并颁奖四、评估维度指标权重评估说明诊断准确率25%预测诊断集合与标准诊断集合的匹配度，要求预测为标准的子集检查精确率25%开具检查项目的精确率，避免过度医疗治疗方案契合度25%综合 安全性、有效性对齐度、个性化程度 三个维度评分（1–5 分），含安全性惩罚机制测试阶段 Token 消耗量得分20%评测阶段 Token 消耗，越少得分越高训练阶段 Token 消耗量得分5%训练阶段 Token 消耗，越少得分越高注：碳基赛道在测试时还会计时，分数相同时，用时越少，排名越高。五、奖金与激励硅基赛道（智能体开发队伍）奖项数量奖金（含税）额外激励🥇 一等奖1¥ 20,000获奖证书🥈 二等奖2¥ 10,000获奖证书🥉 三等奖3¥ 5,000获奖证书碳基赛道（医学生）奖项数量奖金（含税）额外激励🥇 一等奖1¥ 10,000获奖证书🥈 二等奖2¥ 7,000获奖证书🥉 三等奖3¥ 5,000获奖证书六、组织单位主办单位：魔搭社区、浙江大学、浙江工商大学合办单位：浙江大学软件学院、浙江大学医学院、浙江工商大学共同富裕统计监测与智能治理实验室、南京大学智能科学与技术学院协办单位：阿里云百炼七、资源支持7.1 赛题解读与培训形式时间内容赛题解读直播赛前启动平台说明、评分规则详解、Baseline 复现演示、答疑用户手册（见赛事平台右上角）赛前启动硅基：赛事平台使用说明+医生智能体baseline使用说明；碳基：平台使用教程赛中答疑赛程全程官方讨论区与微信答疑群碳硅基问诊表演赛赛程中直播展示双赛道交互效果7.2 Baseline 与平台资源赛事平台：诊疗交互界面、实时排行榜、历史提交记录回看硅基选手在该平台进行测试。碳基选手在该平台进行训练和测试。赛事平台：https://www.modelscope.cn/studios/baconroot/virtual_hospital提供可调优的 Baseline 在创空间中，可以复制进行改进baseline：https://www.modelscope.cn/studios/baconroot/hospital_agent_example7.3 Token 支持● 训练阶段：算力由选手自行准备训练所需算力由选手自行准备。推荐选手优先申领阿里云\"云工开物\"高校学生扶持计划的算力额度，作为训练资源之一。该计划由阿里云独立运营，面向全国高校在读学生开放，符合条件者可申领至多 300 元/人；具体规则与有效期以阿里云官方说明为准。申领额度用完的部分，由选手自行承担；选手也可自行选用其他合规算力资源。「云工开物」的具体申请方式 👉点此查看 领取算力券后，按以下步骤接入指定模型：进入指定模型：通过以下链接跳转到本次参赛指定模型 Qwen3.5-Flash：\nhttps://bailian.console.aliyun.com/cn-beijing#/model-market/detail/qwen3.5-flash?serviceSite=asia-pacific-china获取并填写 API Key：在百炼平台设置并获取 API Key，然后填入参赛平台。计费与抵扣说明：百炼平台采用按量付费模式，每个模型都会先提供一部分免费调用额度。免费额度用完后，将自动使用\"云工开物\"券抵扣后续费用。● 评测阶段：算力由赛事平台统一提供评测采用 T+1 离线评测机制，所需算力由赛事平台统一提供，选手无需自备。7.4 技术支持提供完整的技术支持体系，包括 Baseline 使用文档、常见问题 FAQ、官方答疑群等",
+      "summary": "本次大赛设“硅基智能体 X 碳基医学生”双赛道，基于 OpenHospital 底座，构建高度拟真的全科诊疗 Arena。这里没有标准单选题，只有 12,000 名鲜活的智能体患者与上千种错综复杂的疾病网络，覆盖多发病、罕见病及复杂共病。这是一场让 \"硅基智能体\"与\"碳基医学生\"同台竞技 的临床试炼——评判标准回归医疗本质：问得更准、查得更精、治得更好。\n\n一、赛题背景大模型技术正将医疗 AI 从...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-08-02T15:59:00.000Z",
+      "prize": "10万奖金池+证书",
+      "tags": [
+        "应用开发赛",
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-04T15:27:51.864Z",
+      "scrapedAt": "2026-06-04T15:25:30.057Z",
+      "lastUpdated": "2026-06-04T15:27:51.864Z",
       "version": 1
     },
     {
@@ -555,36 +648,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:47.478Z",
-      "scrapedAt": "2026-06-04T04:23:23.544Z",
-      "lastUpdated": "2026-06-04T04:25:47.478Z",
-      "version": 1
-    },
-    {
-      "id": "c_7f29582149c5",
-      "title": "东南大学IF.Land Hackathon",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/256",
-      "imageUrl": "",
-      "description": "一场可以选择角色的沉浸式Hackathon",
-      "summary": "一场可以选择角色的沉浸式Hackathon...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-06-03T15:59:00.000Z",
-      "prize": "",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:47.521Z",
-      "scrapedAt": "2026-06-04T04:23:23.544Z",
-      "lastUpdated": "2026-06-04T04:25:47.521Z",
+      "processedAt": "2026-06-04T15:27:52.884Z",
+      "scrapedAt": "2026-06-04T15:25:30.057Z",
+      "lastUpdated": "2026-06-04T15:27:52.884Z",
       "version": 1
     },
     {
@@ -613,9 +679,9 @@
         "否则无法发放奖品）格式示例："
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:48.527Z",
-      "scrapedAt": "2026-06-04T04:23:23.547Z",
-      "lastUpdated": "2026-06-04T04:25:48.527Z",
+      "processedAt": "2026-06-04T15:27:52.873Z",
+      "scrapedAt": "2026-06-04T15:25:30.059Z",
+      "lastUpdated": "2026-06-04T15:27:52.873Z",
       "version": 1
     },
     {
@@ -649,9 +715,9 @@
         "每人最高并发执行 Notebook 数量为 1 个。Q2：申请加入专属组织被拒绝"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:48.537Z",
-      "scrapedAt": "2026-06-04T04:23:23.551Z",
-      "lastUpdated": "2026-06-04T04:25:48.537Z",
+      "processedAt": "2026-06-04T15:27:52.874Z",
+      "scrapedAt": "2026-06-04T15:25:30.062Z",
+      "lastUpdated": "2026-06-04T15:27:52.874Z",
       "version": 1
     },
     {
@@ -679,9 +745,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:48.525Z",
-      "scrapedAt": "2026-06-04T04:23:23.551Z",
-      "lastUpdated": "2026-06-04T04:25:48.525Z",
+      "processedAt": "2026-06-04T15:27:52.873Z",
+      "scrapedAt": "2026-06-04T15:25:30.062Z",
+      "lastUpdated": "2026-06-04T15:27:52.873Z",
       "version": 1
     },
     {
@@ -709,9 +775,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:48.522Z",
-      "scrapedAt": "2026-06-04T04:23:23.554Z",
-      "lastUpdated": "2026-06-04T04:25:48.522Z",
+      "processedAt": "2026-06-04T15:27:52.907Z",
+      "scrapedAt": "2026-06-04T15:25:30.065Z",
+      "lastUpdated": "2026-06-04T15:27:52.907Z",
       "version": 1
     },
     {
@@ -736,9 +802,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:48.577Z",
-      "scrapedAt": "2026-06-04T04:23:23.554Z",
-      "lastUpdated": "2026-06-04T04:25:48.577Z",
+      "processedAt": "2026-06-04T15:27:53.914Z",
+      "scrapedAt": "2026-06-04T15:25:30.065Z",
+      "lastUpdated": "2026-06-04T15:27:53.914Z",
       "version": 1
     },
     {
@@ -772,9 +838,9 @@
         "更能确保用户隐私数据“不出机”。本次活动重点鼓励开发者探索如何利用 Intel 酷睿™ Ultra 处理器（如最新的 Panther Lake 架构）的 GPU、NPU 加速能力"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:49.577Z",
-      "scrapedAt": "2026-06-04T04:23:23.554Z",
-      "lastUpdated": "2026-06-04T04:25:49.577Z",
+      "processedAt": "2026-06-04T15:27:53.907Z",
+      "scrapedAt": "2026-06-04T15:25:30.066Z",
+      "lastUpdated": "2026-06-04T15:27:53.907Z",
       "version": 1
     },
     {
@@ -802,45 +868,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:49.584Z",
-      "scrapedAt": "2026-06-04T04:23:23.555Z",
-      "lastUpdated": "2026-06-04T04:25:49.584Z",
-      "version": 1
-    },
-    {
-      "id": "c_f218b630f0cd",
-      "title": "满帮集团Agent算法大赛：基于Agentic AI 的卡车司机连续找货决策",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/238",
-      "imageUrl": "",
-      "description": "在真实的货运平台场景中，司机找货与接单并不是一次性的静态匹配问题，而是一个在时间、空间、收益和个人偏好之间不断权衡的动态连续决策过程。一次“完美”的接单，需要综合考虑当前位置、未来货源预期、自身经营状态，在“立即接单”、“休息等待”、“空驶到指定地点”之间做出权衡，以实现更优的长期经营结果。 传统的算法模型往往聚焦于单次“接单率”的预测，难以刻画司机作为经营主体在长周期下的连续决策智慧。这种长期规划与即时响应相结合的能力，正是当前人工智能从“感知智能”迈向“决策智能”的关键一步。",
-      "summary": "在真实的货运平台场景中，司机找货与接单并不是一次性的静态匹配问题，而是一个在时间、空间、收益和个人偏好之间不断权衡的动态连续决策过程。一次“完美”的接单，需要综合考虑当前位置、未来货源预期、自身经营状态，在“立即接单”、“休息等待”、“空驶到指定地点”之间做出权衡，以实现更优的长期经营结果。 传统的算法模型往往聚焦于单次“接单率”的预测，难以刻画司机作为经营主体在长周期下的连续决策智慧。这种长期规...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-06-07T04:00:00.000Z",
-      "prize": "217000元",
-      "tags": [
-        "应用开发赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "综合考虑当前位置、未来货源预期、自身经营状态",
-        "在“立即接单”、“休息等待”、“空驶到指定地点”之间做出权衡",
-        "以实现更优的长期经营结果。 传统的算法模型往往聚焦于单次“接单率”的预测",
-        "难以刻画司机作为经营主体在长周期下的连续决策智慧。这种长期规划与即时响应相结合的能力",
-        "正是当前人工智能从“感知智能”迈向“决策智能”的关键一步。"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:49.577Z",
-      "scrapedAt": "2026-06-04T04:23:23.555Z",
-      "lastUpdated": "2026-06-04T04:25:49.577Z",
+      "processedAt": "2026-06-04T15:27:53.916Z",
+      "scrapedAt": "2026-06-04T15:25:30.067Z",
+      "lastUpdated": "2026-06-04T15:27:53.916Z",
       "version": 1
     },
     {
@@ -854,7 +884,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-06-22T04:24:29.355Z",
+      "deadline": "2026-06-21T15:26:34.483Z",
       "prize": "$5 000 USD",
       "tags": [],
       "aiTools": [
@@ -865,9 +895,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:49.590Z",
-      "scrapedAt": "2026-06-04T04:24:29.356Z",
-      "lastUpdated": "2026-06-04T04:25:49.590Z",
+      "processedAt": "2026-06-04T15:27:53.914Z",
+      "scrapedAt": "2026-06-04T15:26:34.483Z",
+      "lastUpdated": "2026-06-04T15:27:53.914Z",
       "version": 1
     },
     {
@@ -892,9 +922,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:49.629Z",
-      "scrapedAt": "2026-06-04T04:24:29.356Z",
-      "lastUpdated": "2026-06-04T04:25:49.629Z",
+      "processedAt": "2026-06-04T15:27:53.937Z",
+      "scrapedAt": "2026-06-04T15:26:34.483Z",
+      "lastUpdated": "2026-06-04T15:27:53.937Z",
       "version": 1
     },
     {
@@ -908,7 +938,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-06-07T04:24:29.356Z",
+      "deadline": "2026-06-07T15:26:34.483Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -918,9 +948,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:50.641Z",
-      "scrapedAt": "2026-06-04T04:24:29.356Z",
-      "lastUpdated": "2026-06-04T04:25:50.641Z",
+      "processedAt": "2026-06-04T15:27:54.963Z",
+      "scrapedAt": "2026-06-04T15:26:34.483Z",
+      "lastUpdated": "2026-06-04T15:27:54.963Z",
       "version": 1
     },
     {
@@ -934,7 +964,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-06-13T04:24:29.356Z",
+      "deadline": "2026-06-12T15:26:34.483Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -944,9 +974,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:50.641Z",
-      "scrapedAt": "2026-06-04T04:24:29.356Z",
-      "lastUpdated": "2026-06-04T04:25:50.641Z",
+      "processedAt": "2026-06-04T15:27:54.940Z",
+      "scrapedAt": "2026-06-04T15:26:34.483Z",
+      "lastUpdated": "2026-06-04T15:27:54.940Z",
       "version": 1
     },
     {
@@ -969,9 +999,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:50.632Z",
-      "scrapedAt": "2026-06-04T04:24:29.356Z",
-      "lastUpdated": "2026-06-04T04:25:50.632Z",
+      "processedAt": "2026-06-04T15:27:54.936Z",
+      "scrapedAt": "2026-06-04T15:26:34.483Z",
+      "lastUpdated": "2026-06-04T15:27:54.936Z",
       "version": 1
     },
     {
@@ -995,9 +1025,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:50.637Z",
-      "scrapedAt": "2026-06-04T04:24:29.356Z",
-      "lastUpdated": "2026-06-04T04:25:50.637Z",
+      "processedAt": "2026-06-04T15:27:54.949Z",
+      "scrapedAt": "2026-06-04T15:26:34.484Z",
+      "lastUpdated": "2026-06-04T15:27:54.949Z",
       "version": 1
     },
     {
@@ -1021,9 +1051,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:50.674Z",
-      "scrapedAt": "2026-06-04T04:24:29.356Z",
-      "lastUpdated": "2026-06-04T04:25:50.674Z",
+      "processedAt": "2026-06-04T15:27:54.993Z",
+      "scrapedAt": "2026-06-04T15:26:34.484Z",
+      "lastUpdated": "2026-06-04T15:27:54.993Z",
       "version": 1
     },
     {
@@ -1047,9 +1077,60 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:51.687Z",
-      "scrapedAt": "2026-06-04T04:24:29.357Z",
-      "lastUpdated": "2026-06-04T04:25:51.687Z",
+      "processedAt": "2026-06-04T15:27:56.056Z",
+      "scrapedAt": "2026-06-04T15:26:34.484Z",
+      "lastUpdated": "2026-06-04T15:27:56.056Z",
+      "version": 1
+    },
+    {
+      "id": "c_d93c997a7630",
+      "title": "IndabaX Zimbabwe 2026 Hackathon:  Loan Default Prediction in Zimbabwe’s Banking Sector",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/deep-learning-indabax-zimbabwe-2026-hackathon-ai-for-financial-inclusion-loan-default-prediction-in-zimbabwes-banking-sector",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-04T15:27:55.995Z",
+      "scrapedAt": "2026-06-04T15:26:34.484Z",
+      "lastUpdated": "2026-06-04T15:27:55.995Z",
+      "version": 1
+    },
+    {
+      "id": "c_932eedfeb636",
+      "title": "Nedbank Transaction Volume Forecasting Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/nedbank-transaction-volume-forecasting-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "000 ZAR",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-04T15:27:55.994Z",
+      "scrapedAt": "2026-06-04T15:26:34.484Z",
+      "lastUpdated": "2026-06-04T15:27:55.994Z",
       "version": 1
     },
     {
@@ -1075,60 +1156,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:51.681Z",
-      "scrapedAt": "2026-06-04T04:24:29.357Z",
-      "lastUpdated": "2026-06-04T04:25:51.681Z",
-      "version": 1
-    },
-    {
-      "id": "c_d93c997a7630",
-      "title": "IndabaX Zimbabwe 2026 Hackathon:  Loan Default Prediction in Zimbabwe’s Banking Sector",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/deep-learning-indabax-zimbabwe-2026-hackathon-ai-for-financial-inclusion-loan-default-prediction-in-zimbabwes-banking-sector",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:51.682Z",
-      "scrapedAt": "2026-06-04T04:24:29.357Z",
-      "lastUpdated": "2026-06-04T04:25:51.682Z",
-      "version": 1
-    },
-    {
-      "id": "c_932eedfeb636",
-      "title": "Nedbank Transaction Volume Forecasting Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/nedbank-transaction-volume-forecasting-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "000 ZAR",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:51.681Z",
-      "scrapedAt": "2026-06-04T04:24:29.357Z",
-      "lastUpdated": "2026-06-04T04:25:51.681Z",
+      "processedAt": "2026-06-04T15:27:55.995Z",
+      "scrapedAt": "2026-06-04T15:26:34.484Z",
+      "lastUpdated": "2026-06-04T15:27:55.995Z",
       "version": 1
     },
     {
@@ -1152,9 +1182,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:51.724Z",
-      "scrapedAt": "2026-06-04T04:24:29.357Z",
-      "lastUpdated": "2026-06-04T04:25:51.724Z",
+      "processedAt": "2026-06-04T15:27:56.076Z",
+      "scrapedAt": "2026-06-04T15:26:34.485Z",
+      "lastUpdated": "2026-06-04T15:27:56.076Z",
       "version": 1
     },
     {
@@ -1178,9 +1208,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:52.733Z",
-      "scrapedAt": "2026-06-04T04:24:29.358Z",
-      "lastUpdated": "2026-06-04T04:25:52.733Z",
+      "processedAt": "2026-06-04T15:27:57.096Z",
+      "scrapedAt": "2026-06-04T15:26:34.485Z",
+      "lastUpdated": "2026-06-04T15:27:57.096Z",
       "version": 1
     },
     {
@@ -1206,9 +1236,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:52.727Z",
-      "scrapedAt": "2026-06-04T04:24:29.358Z",
-      "lastUpdated": "2026-06-04T04:25:52.727Z",
+      "processedAt": "2026-06-04T15:27:57.097Z",
+      "scrapedAt": "2026-06-04T15:26:34.485Z",
+      "lastUpdated": "2026-06-04T15:27:57.097Z",
       "version": 1
     },
     {
@@ -1232,9 +1262,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:52.739Z",
-      "scrapedAt": "2026-06-04T04:24:29.358Z",
-      "lastUpdated": "2026-06-04T04:25:52.739Z",
+      "processedAt": "2026-06-04T15:27:57.094Z",
+      "scrapedAt": "2026-06-04T15:26:34.485Z",
+      "lastUpdated": "2026-06-04T15:27:57.094Z",
       "version": 1
     },
     {
@@ -1258,9 +1288,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:52.741Z",
-      "scrapedAt": "2026-06-04T04:24:29.358Z",
-      "lastUpdated": "2026-06-04T04:25:52.741Z",
+      "processedAt": "2026-06-04T15:27:57.086Z",
+      "scrapedAt": "2026-06-04T15:26:34.485Z",
+      "lastUpdated": "2026-06-04T15:27:57.086Z",
       "version": 1
     },
     {
@@ -1286,9 +1316,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:52.778Z",
-      "scrapedAt": "2026-06-04T04:24:29.359Z",
-      "lastUpdated": "2026-06-04T04:25:52.778Z",
+      "processedAt": "2026-06-04T15:27:57.128Z",
+      "scrapedAt": "2026-06-04T15:26:34.485Z",
+      "lastUpdated": "2026-06-04T15:27:57.128Z",
       "version": 1
     },
     {
@@ -1312,9 +1342,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:53.794Z",
-      "scrapedAt": "2026-06-04T04:24:29.359Z",
-      "lastUpdated": "2026-06-04T04:25:53.794Z",
+      "processedAt": "2026-06-04T15:27:58.137Z",
+      "scrapedAt": "2026-06-04T15:26:34.485Z",
+      "lastUpdated": "2026-06-04T15:27:58.137Z",
       "version": 1
     },
     {
@@ -1338,9 +1368,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:53.791Z",
-      "scrapedAt": "2026-06-04T04:24:29.359Z",
-      "lastUpdated": "2026-06-04T04:25:53.791Z",
+      "processedAt": "2026-06-04T15:27:58.125Z",
+      "scrapedAt": "2026-06-04T15:26:34.486Z",
+      "lastUpdated": "2026-06-04T15:27:58.125Z",
       "version": 1
     },
     {
@@ -1364,15 +1394,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-04T04:25:53.791Z",
-      "scrapedAt": "2026-06-04T04:24:29.359Z",
-      "lastUpdated": "2026-06-04T04:25:53.791Z",
+      "processedAt": "2026-06-04T15:27:58.134Z",
+      "scrapedAt": "2026-06-04T15:26:34.486Z",
+      "lastUpdated": "2026-06-04T15:27:58.134Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-04T04:25:53.802Z"
+    "lastUpdated": "2026-06-04T15:27:58.150Z"
   }
 }

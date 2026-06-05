@@ -1,8 +1,37 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-06-05T04:09:23.104Z",
+  "timestamp": "2026-06-05T15:01:37.329Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_3d9e80c9fffa",
+      "title": "阿里云百炼AI生产力【实训营】-CLI实战杭州站",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/259",
+      "imageUrl": "",
+      "description": "阿里云百炼AI生产力【实训营】-CLI实战杭州站\n\n阿里云百炼AI生产力【实训营】-CLI实战杭州站💡一行命令能干嘛？生成电商产品图、做 AI 播客、写短剧分镜、跑 RAG 工作流……全部交给 Agent 自动调度 10+ 模型搞定。🗓️活动预告阿里云百炼 × 观猹 | AI 生产力实训营▶ 不是坐着听PPT的那种▶ 带电脑来，90分钟深度Workshop，现场路演有奖📍6月11日（周四）13:00 我们在杭州·云谷中心等你来！🎯 亮点剧透① 产品全景 + 实战案例，一次讲透👉阿里云百炼产品负责人现场分享，带你快速掌握产品能力与落地路径。② GitHub Skills 生态开放👉从 github.com/modelstudioai 直接调用社区能力，优秀作品可贡献进官方仓库。③ 0 到 1 体验 AI Agent 全新开发范式👉不是旁观，是动手。从需求到上线，完整跑一遍。📋 报名方式ꔷ 名额有限，感兴趣的同学扫海报二维码报名[向下]记得带电脑哟！",
+      "summary": "阿里云百炼AI生产力【实训营】-CLI实战杭州站\n\n阿里云百炼AI生产力【实训营】-CLI实战杭州站💡一行命令能干嘛？生成电商产品图、做 AI 播客、写短剧分镜、跑 RAG 工作流……全部交给 Agent 自动调度 10+ 模型搞定。🗓️活动预告阿里云百炼 × 观猹 | AI 生产力实训营▶ 不是坐着听PPT的那种▶ 带电脑来，90分钟深度Workshop，现场路演有奖📍6月11日（周四）1...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-06-09T16:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-05T15:01:31.897Z",
+      "scrapedAt": "2026-06-05T15:00:27.089Z",
+      "lastUpdated": "2026-06-05T15:01:31.897Z",
+      "version": 1
+    },
     {
       "id": "c_05a75202b2ef",
       "title": "“中国云谷”高校训练营暨乐奇AI眼镜AIUI智能体开发实战",
@@ -33,9 +62,9 @@
         "而非用户适应机器。AIUI是Rokid推出的专为 AI + AR 设计的 AI 原生 GUI（AI-Native UI）本地智能体框架"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-05T04:09:16.530Z",
-      "scrapedAt": "2026-06-05T04:07:00.420Z",
-      "lastUpdated": "2026-06-05T04:09:16.530Z",
+      "processedAt": "2026-06-05T15:01:31.892Z",
+      "scrapedAt": "2026-06-05T15:00:27.089Z",
+      "lastUpdated": "2026-06-05T15:01:31.892Z",
       "version": 1
     },
     {
@@ -63,9 +92,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-05T04:09:16.642Z",
-      "scrapedAt": "2026-06-05T04:07:00.421Z",
-      "lastUpdated": "2026-06-05T04:09:16.642Z",
+      "processedAt": "2026-06-05T15:01:31.892Z",
+      "scrapedAt": "2026-06-05T15:00:27.090Z",
+      "lastUpdated": "2026-06-05T15:01:31.892Z",
       "version": 1
     },
     {
@@ -92,9 +121,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-05T04:09:17.629Z",
-      "scrapedAt": "2026-06-05T04:07:00.421Z",
-      "lastUpdated": "2026-06-05T04:09:17.629Z",
+      "processedAt": "2026-06-05T15:01:31.885Z",
+      "scrapedAt": "2026-06-05T15:00:27.090Z",
+      "lastUpdated": "2026-06-05T15:01:31.885Z",
       "version": 1
     },
     {
@@ -123,9 +152,9 @@
         "否则无法发放奖品）格式示例："
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-05T04:09:17.639Z",
-      "scrapedAt": "2026-06-05T04:07:00.423Z",
-      "lastUpdated": "2026-06-05T04:09:17.639Z",
+      "processedAt": "2026-06-05T15:01:31.959Z",
+      "scrapedAt": "2026-06-05T15:00:27.092Z",
+      "lastUpdated": "2026-06-05T15:01:31.959Z",
       "version": 1
     },
     {
@@ -159,9 +188,9 @@
         "每人最高并发执行 Notebook 数量为 1 个。Q2：申请加入专属组织被拒绝"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-05T04:09:17.634Z",
-      "scrapedAt": "2026-06-05T04:07:00.424Z",
-      "lastUpdated": "2026-06-05T04:09:17.634Z",
+      "processedAt": "2026-06-05T15:01:32.959Z",
+      "scrapedAt": "2026-06-05T15:00:27.093Z",
+      "lastUpdated": "2026-06-05T15:01:32.959Z",
       "version": 1
     },
     {
@@ -189,9 +218,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-05T04:09:17.634Z",
-      "scrapedAt": "2026-06-05T04:07:00.424Z",
-      "lastUpdated": "2026-06-05T04:09:17.634Z",
+      "processedAt": "2026-06-05T15:01:32.968Z",
+      "scrapedAt": "2026-06-05T15:00:27.093Z",
+      "lastUpdated": "2026-06-05T15:01:32.968Z",
       "version": 1
     },
     {
@@ -225,9 +254,9 @@
         "更能确保用户隐私数据“不出机”。本次活动重点鼓励开发者探索如何利用 Intel 酷睿™ Ultra 处理器（如最新的 Panther Lake 架构）的 GPU、NPU 加速能力"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-05T04:09:17.726Z",
-      "scrapedAt": "2026-06-05T04:07:00.425Z",
-      "lastUpdated": "2026-06-05T04:09:17.726Z",
+      "processedAt": "2026-06-05T15:01:32.935Z",
+      "scrapedAt": "2026-06-05T15:00:27.094Z",
+      "lastUpdated": "2026-06-05T15:01:32.935Z",
       "version": 1
     },
     {
@@ -252,9 +281,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-05T04:09:18.727Z",
-      "scrapedAt": "2026-06-05T04:07:00.425Z",
-      "lastUpdated": "2026-06-05T04:09:18.727Z",
+      "processedAt": "2026-06-05T15:01:32.936Z",
+      "scrapedAt": "2026-06-05T15:00:27.094Z",
+      "lastUpdated": "2026-06-05T15:01:32.936Z",
       "version": 1
     },
     {
@@ -282,51 +311,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-05T04:09:18.738Z",
-      "scrapedAt": "2026-06-05T04:07:00.425Z",
-      "lastUpdated": "2026-06-05T04:09:18.738Z",
-      "version": 1
-    },
-    {
-      "id": "c_f218b630f0cd",
-      "title": "满帮集团Agent算法大赛：基于Agentic AI 的卡车司机连续找货决策",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/238",
-      "imageUrl": "",
-      "description": "在真实的货运平台场景中，司机找货与接单并不是一次性的静态匹配问题，而是一个在时间、空间、收益和个人偏好之间不断权衡的动态连续决策过程。一次“完美”的接单，需要综合考虑当前位置、未来货源预期、自身经营状态，在“立即接单”、“休息等待”、“空驶到指定地点”之间做出权衡，以实现更优的长期经营结果。 传统的算法模型往往聚焦于单次“接单率”的预测，难以刻画司机作为经营主体在长周期下的连续决策智慧。这种长期规划与即时响应相结合的能力，正是当前人工智能从“感知智能”迈向“决策智能”的关键一步。",
-      "summary": "在真实的货运平台场景中，司机找货与接单并不是一次性的静态匹配问题，而是一个在时间、空间、收益和个人偏好之间不断权衡的动态连续决策过程。一次“完美”的接单，需要综合考虑当前位置、未来货源预期、自身经营状态，在“立即接单”、“休息等待”、“空驶到指定地点”之间做出权衡，以实现更优的长期经营结果。 传统的算法模型往往聚焦于单次“接单率”的预测，难以刻画司机作为经营主体在长周期下的连续决策智慧。这种长期规...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-06-07T04:00:00.000Z",
-      "prize": "217000元",
-      "tags": [
-        "应用开发赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "综合考虑当前位置、未来货源预期、自身经营状态",
-        "在“立即接单”、“休息等待”、“空驶到指定地点”之间做出权衡",
-        "以实现更优的长期经营结果。 传统的算法模型往往聚焦于单次“接单率”的预测",
-        "难以刻画司机作为经营主体在长周期下的连续决策智慧。这种长期规划与即时响应相结合的能力",
-        "正是当前人工智能从“感知智能”迈向“决策智能”的关键一步。"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-06-05T04:09:18.730Z",
-      "scrapedAt": "2026-06-05T04:07:00.425Z",
-      "lastUpdated": "2026-06-05T04:09:18.730Z",
+      "processedAt": "2026-06-05T15:01:33.010Z",
+      "scrapedAt": "2026-06-05T15:00:27.094Z",
+      "lastUpdated": "2026-06-05T15:01:33.010Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-05T04:09:23.104Z"
+    "lastUpdated": "2026-06-05T15:01:37.329Z"
   }
 }

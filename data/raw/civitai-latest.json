@@ -1,28 +1,35 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-06-03T16:59:46.080Z",
+  "timestamp": "2026-06-05T15:01:25.048Z",
   "contestCount": 1,
   "contests": [
     {
       "platform": "civitai",
-      "title": "Delayed Image Upload Processing",
-      "description": "Civitans! We're battling some pretty bad server lag and our scanners haven't been doing their job, and we know it's frustrating! Our team is on it, working hard to get things running smoothly again, but you may experience some inconsistent behavior in the meantime. Thanks for your patience!",
-      "url": "https://civitai.com/events/700",
-      "deadline": "2026-06-03T23:59:59.999Z",
+      "title": "A GPU Crunch, and Bumpy Days Ahead",
+      "description": "Our primary data center is pulling GPU support to switch to mining, on under 48 hours notice. Generation still works but will be slower while we move. Here is the full picture and what to expect.",
+      "url": "https://civitai.com/events/701",
+      "deadline": "2026-06-16T23:59:59.999Z",
       "prize": "",
-      "rawHtml": "{\"endsAt\":\"2026-06-03T23:59:59.999Z\",\"id\":700,\"title\":\"Delayed Image Upload Processing\",\"content\":\"Civitans! We're battling some pretty bad server lag and our scanners haven't been doing their job, and we know it's frustrating! Our team is on it, working hard to get things running smoothly again, but you may experience some inconsistent behavior in the meantime. Thanks for your patience!\",\"color\":\"red\",\"emoji\":null,\"createdAt\":\"2026-06-02T05:54:11.794Z\",\"startsAt\":\"2026-06-02T06:00:00.000Z\",\"metadata\":{\"image\":\"cbf42b02-2b31-4dcd-b132-d271b7c7bf9d\",\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-06-03T16:57:40.261Z",
+      "rawHtml": "{\"endsAt\":\"2026-06-16T23:59:59.999Z\",\"id\":701,\"title\":\"A GPU Crunch, and Bumpy Days Ahead\",\"content\":\"Our primary data center is pulling GPU support to switch to mining, on under 48 hours notice. Generation still works but will be slower while we move. Here is the full picture and what to expect.\",\"color\":\"red\",\"emoji\":null,\"createdAt\":\"2026-06-04T23:28:34.251Z\",\"startsAt\":\"2026-06-04T00:00:00.000Z\",\"metadata\":{\"image\":\"aa9c9136-6a7c-4b08-b912-78e353465577\",\"actions\":[{\"link\":\"/articles/30980\",\"type\":\"button\",\"linkText\":\"Read the update\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-06-05T15:00:27.236Z",
       "metadata": {
-        "endsAt": "2026-06-03T23:59:59.999Z",
-        "id": 700,
-        "title": "Delayed Image Upload Processing",
-        "content": "Civitans! We're battling some pretty bad server lag and our scanners haven't been doing their job, and we know it's frustrating! Our team is on it, working hard to get things running smoothly again, but you may experience some inconsistent behavior in the meantime. Thanks for your patience!",
+        "endsAt": "2026-06-16T23:59:59.999Z",
+        "id": 701,
+        "title": "A GPU Crunch, and Bumpy Days Ahead",
+        "content": "Our primary data center is pulling GPU support to switch to mining, on under 48 hours notice. Generation still works but will be slower while we move. Here is the full picture and what to expect.",
         "color": "red",
         "emoji": null,
-        "createdAt": "2026-06-02T05:54:11.794Z",
-        "startsAt": "2026-06-02T06:00:00.000Z",
+        "createdAt": "2026-06-04T23:28:34.251Z",
+        "startsAt": "2026-06-04T00:00:00.000Z",
         "metadata": {
-          "image": "cbf42b02-2b31-4dcd-b132-d271b7c7bf9d",
+          "image": "aa9c9136-6a7c-4b08-b912-78e353465577",
+          "actions": [
+            {
+              "link": "/articles/30980",
+              "type": "button",
+              "linkText": "Read the update"
+            }
+          ],
           "colSpan": 6,
           "dismissible": true,
           "targetAudience": "all"

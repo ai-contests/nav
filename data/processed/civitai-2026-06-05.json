@@ -1,24 +1,22 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-06-05T04:09:23.108Z",
+  "timestamp": "2026-06-05T15:01:37.333Z",
   "contestCount": 1,
   "contests": [
     {
-      "id": "c_a4afbf217442",
-      "title": "Delayed Image Upload Processing",
+      "id": "c_a26a1da492f8",
+      "title": "A GPU Crunch, and Bumpy Days Ahead",
       "platform": "civitai",
-      "url": "https://civitai.com/events/700",
+      "url": "https://civitai.com/events/701",
       "imageUrl": "",
-      "description": "Civitans! We're battling some pretty bad server lag and our scanners haven't been doing their job, and we know it's frustrating! Our team is on it, working hard to get things running smoothly again, but you may experience some inconsistent behavior in the meantime. Thanks for your patience!",
-      "summary": "Civitans! We're battling some pretty bad server lag and our scanners haven't been doing their job, and we know it's frustrating! Our team is on it, working hard to get things running smoothly again, b...",
-      "contestType": "image",
+      "description": "Our primary data center is pulling GPU support to switch to mining, on under 48 hours notice. Generation still works but will be slower while we move. Here is the full picture and what to expect.",
+      "summary": "Our primary data center is pulling GPU support to switch to mining, on under 48 hours notice. Generation still works but will be slower while we move. Here is the full picture and what to expect....",
+      "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-06-03T23:59:59.999Z",
+      "deadline": "2026-06-16T23:59:59.999Z",
       "prize": "",
-      "tags": [
-        "ai"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -27,15 +25,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-05T04:09:14.346Z",
-      "scrapedAt": "2026-06-03T16:57:40.261Z",
-      "lastUpdated": "2026-06-05T04:09:14.346Z",
+      "processedAt": "2026-06-05T15:01:28.689Z",
+      "scrapedAt": "2026-06-05T15:00:27.236Z",
+      "lastUpdated": "2026-06-05T15:01:28.689Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-05T04:09:23.108Z"
+    "lastUpdated": "2026-06-05T15:01:37.333Z"
   }
 }

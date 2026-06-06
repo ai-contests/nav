@@ -1,8 +1,66 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-06-06T03:52:52.396Z",
-  "contestCount": 1,
+  "timestamp": "2026-06-06T13:55:37.931Z",
+  "contestCount": 3,
   "contests": [
+    {
+      "id": "c_a69393340b33",
+      "title": "Search Maintenance",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/702",
+      "imageUrl": "",
+      "description": "We are doing maintenance on our search service. It may be unavailable from 7am-3pm UTC.",
+      "summary": "We are doing maintenance on our search service. It may be unavailable from 7am-3pm UTC....",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-06-06T23:59:59.999Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-06T13:55:28.858Z",
+      "scrapedAt": "2026-06-06T13:53:19.454Z",
+      "lastUpdated": "2026-06-06T13:55:28.858Z",
+      "version": 1
+    },
+    {
+      "id": "c_39f5b68e2a2c",
+      "title": "Failed Generations Due to Enhanced Compatibility",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/703",
+      "imageUrl": "",
+      "description": "Generations with enhanced compatibility are causing images to fail and not be automatically refunded. Please make sure it's off! https://civitai.red/issues",
+      "summary": "Generations with enhanced compatibility are causing images to fail and not be automatically refunded. Please make sure it's off! https://civitai.red/issues...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-06-06T23:59:59.999Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-06T13:55:28.856Z",
+      "scrapedAt": "2026-06-06T13:53:19.454Z",
+      "lastUpdated": "2026-06-06T13:55:28.856Z",
+      "version": 1
+    },
     {
       "id": "c_a26a1da492f8",
       "title": "A GPU Crunch, and Bumpy Days Ahead",
@@ -25,15 +83,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-06T03:52:45.681Z",
-      "scrapedAt": "2026-06-06T03:50:36.145Z",
-      "lastUpdated": "2026-06-06T03:52:45.681Z",
+      "processedAt": "2026-06-06T13:55:28.991Z",
+      "scrapedAt": "2026-06-06T13:53:19.454Z",
+      "lastUpdated": "2026-06-06T13:55:28.991Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-06T03:52:52.396Z"
+    "lastUpdated": "2026-06-06T13:55:37.931Z"
   }
 }

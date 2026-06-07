@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-06-07T04:19:29.008Z",
+  "timestamp": "2026-06-07T14:05:23.446Z",
   "contestCount": 20,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-06-22T04:18:07.182Z",
+      "deadline": "2026-06-21T14:03:51.076Z",
       "prize": "$5 000 USD",
       "tags": [],
       "aiTools": [
@@ -25,9 +25,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:24.460Z",
-      "scrapedAt": "2026-06-07T04:18:07.182Z",
-      "lastUpdated": "2026-06-07T04:19:24.460Z",
+      "processedAt": "2026-06-07T14:05:18.977Z",
+      "scrapedAt": "2026-06-07T14:03:51.076Z",
+      "lastUpdated": "2026-06-07T14:05:18.977Z",
       "version": 1
     },
     {
@@ -52,34 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:25.533Z",
-      "scrapedAt": "2026-06-07T04:18:07.182Z",
-      "lastUpdated": "2026-06-07T04:19:25.533Z",
-      "version": 1
-    },
-    {
-      "id": "c_f5bc8414706f",
-      "title": "Bootcamp Challenge by Ngao Labs: Zindi Financial Inclusion in Africa",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/bootcamp-challenge-by-ngao-labs",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:25.526Z",
-      "scrapedAt": "2026-06-07T04:18:07.182Z",
-      "lastUpdated": "2026-06-07T04:19:25.526Z",
+      "processedAt": "2026-06-07T14:05:20.062Z",
+      "scrapedAt": "2026-06-07T14:03:51.076Z",
+      "lastUpdated": "2026-06-07T14:05:20.062Z",
       "version": 1
     },
     {
@@ -93,7 +68,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-06-13T04:18:07.183Z",
+      "deadline": "2026-06-12T14:03:51.076Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -103,9 +78,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:25.457Z",
-      "scrapedAt": "2026-06-07T04:18:07.183Z",
-      "lastUpdated": "2026-06-07T04:19:25.457Z",
+      "processedAt": "2026-06-07T14:05:19.989Z",
+      "scrapedAt": "2026-06-07T14:03:51.076Z",
+      "lastUpdated": "2026-06-07T14:05:19.989Z",
       "version": 1
     },
     {
@@ -128,9 +103,34 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:25.461Z",
-      "scrapedAt": "2026-06-07T04:18:07.183Z",
-      "lastUpdated": "2026-06-07T04:19:25.461Z",
+      "processedAt": "2026-06-07T14:05:19.982Z",
+      "scrapedAt": "2026-06-07T14:03:51.076Z",
+      "lastUpdated": "2026-06-07T14:05:19.982Z",
+      "version": 1
+    },
+    {
+      "id": "c_f5bc8414706f",
+      "title": "Bootcamp Challenge by Ngao Labs: Zindi Financial Inclusion in Africa",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/bootcamp-challenge-by-ngao-labs",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-07T14:05:19.983Z",
+      "scrapedAt": "2026-06-07T14:03:51.076Z",
+      "lastUpdated": "2026-06-07T14:05:19.983Z",
       "version": 1
     },
     {
@@ -154,9 +154,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:25.610Z",
-      "scrapedAt": "2026-06-07T04:18:07.183Z",
-      "lastUpdated": "2026-06-07T04:19:25.610Z",
+      "processedAt": "2026-06-07T14:05:20.229Z",
+      "scrapedAt": "2026-06-07T14:03:51.077Z",
+      "lastUpdated": "2026-06-07T14:05:20.229Z",
       "version": 1
     },
     {
@@ -180,9 +180,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:26.692Z",
-      "scrapedAt": "2026-06-07T04:18:07.183Z",
-      "lastUpdated": "2026-06-07T04:19:26.692Z",
+      "processedAt": "2026-06-07T14:05:21.206Z",
+      "scrapedAt": "2026-06-07T14:03:51.077Z",
+      "lastUpdated": "2026-06-07T14:05:21.206Z",
       "version": 1
     },
     {
@@ -206,9 +206,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:26.620Z",
-      "scrapedAt": "2026-06-07T04:18:07.184Z",
-      "lastUpdated": "2026-06-07T04:19:26.620Z",
+      "processedAt": "2026-06-07T14:05:21.165Z",
+      "scrapedAt": "2026-06-07T14:03:51.077Z",
+      "lastUpdated": "2026-06-07T14:05:21.165Z",
       "version": 1
     },
     {
@@ -231,9 +231,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:26.611Z",
-      "scrapedAt": "2026-06-07T04:18:07.184Z",
-      "lastUpdated": "2026-06-07T04:19:26.611Z",
+      "processedAt": "2026-06-07T14:05:21.099Z",
+      "scrapedAt": "2026-06-07T14:03:51.077Z",
+      "lastUpdated": "2026-06-07T14:05:21.099Z",
       "version": 1
     },
     {
@@ -257,9 +257,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:26.612Z",
-      "scrapedAt": "2026-06-07T04:18:07.184Z",
-      "lastUpdated": "2026-06-07T04:19:26.612Z",
+      "processedAt": "2026-06-07T14:05:21.099Z",
+      "scrapedAt": "2026-06-07T14:03:51.077Z",
+      "lastUpdated": "2026-06-07T14:05:21.099Z",
       "version": 1
     },
     {
@@ -285,9 +285,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:26.770Z",
-      "scrapedAt": "2026-06-07T04:18:07.184Z",
-      "lastUpdated": "2026-06-07T04:19:26.770Z",
+      "processedAt": "2026-06-07T14:05:21.240Z",
+      "scrapedAt": "2026-06-07T14:03:51.077Z",
+      "lastUpdated": "2026-06-07T14:05:21.240Z",
       "version": 1
     },
     {
@@ -311,9 +311,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:27.845Z",
-      "scrapedAt": "2026-06-07T04:18:07.185Z",
-      "lastUpdated": "2026-06-07T04:19:27.845Z",
+      "processedAt": "2026-06-07T14:05:22.333Z",
+      "scrapedAt": "2026-06-07T14:03:51.078Z",
+      "lastUpdated": "2026-06-07T14:05:22.333Z",
       "version": 1
     },
     {
@@ -337,9 +337,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:27.850Z",
-      "scrapedAt": "2026-06-07T04:18:07.185Z",
-      "lastUpdated": "2026-06-07T04:19:27.850Z",
+      "processedAt": "2026-06-07T14:05:22.248Z",
+      "scrapedAt": "2026-06-07T14:03:51.078Z",
+      "lastUpdated": "2026-06-07T14:05:22.248Z",
       "version": 1
     },
     {
@@ -363,9 +363,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:27.779Z",
-      "scrapedAt": "2026-06-07T04:18:07.185Z",
-      "lastUpdated": "2026-06-07T04:19:27.779Z",
+      "processedAt": "2026-06-07T14:05:22.246Z",
+      "scrapedAt": "2026-06-07T14:03:51.079Z",
+      "lastUpdated": "2026-06-07T14:05:22.246Z",
       "version": 1
     },
     {
@@ -391,9 +391,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:27.783Z",
-      "scrapedAt": "2026-06-07T04:18:07.185Z",
-      "lastUpdated": "2026-06-07T04:19:27.783Z",
+      "processedAt": "2026-06-07T14:05:22.247Z",
+      "scrapedAt": "2026-06-07T14:03:51.079Z",
+      "lastUpdated": "2026-06-07T14:05:22.247Z",
       "version": 1
     },
     {
@@ -417,9 +417,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:27.928Z",
-      "scrapedAt": "2026-06-07T04:18:07.185Z",
-      "lastUpdated": "2026-06-07T04:19:27.928Z",
+      "processedAt": "2026-06-07T14:05:22.369Z",
+      "scrapedAt": "2026-06-07T14:03:51.079Z",
+      "lastUpdated": "2026-06-07T14:05:22.369Z",
       "version": 1
     },
     {
@@ -445,9 +445,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:29.000Z",
-      "scrapedAt": "2026-06-07T04:18:07.185Z",
-      "lastUpdated": "2026-06-07T04:19:29.000Z",
+      "processedAt": "2026-06-07T14:05:23.387Z",
+      "scrapedAt": "2026-06-07T14:03:51.079Z",
+      "lastUpdated": "2026-06-07T14:05:23.387Z",
       "version": 1
     },
     {
@@ -471,9 +471,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:28.933Z",
-      "scrapedAt": "2026-06-07T04:18:07.186Z",
-      "lastUpdated": "2026-06-07T04:19:28.933Z",
+      "processedAt": "2026-06-07T14:05:23.438Z",
+      "scrapedAt": "2026-06-07T14:03:51.079Z",
+      "lastUpdated": "2026-06-07T14:05:23.438Z",
       "version": 1
     },
     {
@@ -497,9 +497,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:28.929Z",
-      "scrapedAt": "2026-06-07T04:18:07.186Z",
-      "lastUpdated": "2026-06-07T04:19:28.929Z",
+      "processedAt": "2026-06-07T14:05:23.370Z",
+      "scrapedAt": "2026-06-07T14:03:51.080Z",
+      "lastUpdated": "2026-06-07T14:05:23.370Z",
       "version": 1
     },
     {
@@ -523,15 +523,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-07T04:19:28.929Z",
-      "scrapedAt": "2026-06-07T04:18:07.186Z",
-      "lastUpdated": "2026-06-07T04:19:28.929Z",
+      "processedAt": "2026-06-07T14:05:23.368Z",
+      "scrapedAt": "2026-06-07T14:03:51.080Z",
+      "lastUpdated": "2026-06-07T14:05:23.368Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-07T04:19:29.008Z"
+    "lastUpdated": "2026-06-07T14:05:23.446Z"
   }
 }

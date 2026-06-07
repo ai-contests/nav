@@ -1,48 +1,22 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-06-06T13:55:23.067Z",
-  "contestCount": 3,
+  "timestamp": "2026-06-07T04:19:13.787Z",
+  "contestCount": 2,
   "contests": [
     {
       "platform": "civitai",
-      "title": "Search Maintenance",
-      "description": "We are doing maintenance on our search service. It may be unavailable from 7am-3pm UTC.",
-      "url": "https://civitai.com/events/702",
-      "deadline": "2026-06-06T23:59:59.999Z",
-      "prize": "",
-      "rawHtml": "{\"endsAt\":\"2026-06-06T23:59:59.999Z\",\"id\":702,\"title\":\"Search Maintenance\",\"content\":\"We are doing maintenance on our search service. It may be unavailable from 7am-3pm UTC.\",\"color\":\"pink\",\"emoji\":null,\"createdAt\":\"2026-06-05T21:00:50.460Z\",\"startsAt\":\"2026-06-06T07:00:00.000Z\",\"metadata\":{\"image\":\"443cc5fa-1f99-4d06-aaf5-d8f1a851f4ed\",\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-06-06T13:53:19.454Z",
-      "metadata": {
-        "endsAt": "2026-06-06T23:59:59.999Z",
-        "id": 702,
-        "title": "Search Maintenance",
-        "content": "We are doing maintenance on our search service. It may be unavailable from 7am-3pm UTC.",
-        "color": "pink",
-        "emoji": null,
-        "createdAt": "2026-06-05T21:00:50.460Z",
-        "startsAt": "2026-06-06T07:00:00.000Z",
-        "metadata": {
-          "image": "443cc5fa-1f99-4d06-aaf5-d8f1a851f4ed",
-          "colSpan": 6,
-          "dismissible": true,
-          "targetAudience": "all"
-        }
-      }
-    },
-    {
-      "platform": "civitai",
       "title": "Failed Generations Due to Enhanced Compatibility",
-      "description": "Generations with enhanced compatibility are causing images to fail and not be automatically refunded. Please make sure it's off! https://civitai.red/issues",
+      "description": "Generations with enhanced compatibility are causing images to fail and not be automatically refunded. Please make sure it's off!",
       "url": "https://civitai.com/events/703",
-      "deadline": "2026-06-06T23:59:59.999Z",
+      "deadline": "2026-06-08T23:59:59.999Z",
       "prize": "",
-      "rawHtml": "{\"endsAt\":\"2026-06-06T23:59:59.999Z\",\"id\":703,\"title\":\"Failed Generations Due to Enhanced Compatibility\",\"content\":\"Generations with enhanced compatibility are causing images to fail and not be automatically refunded. Please make sure it's off! https://civitai.red/issues\",\"color\":\"red\",\"emoji\":null,\"createdAt\":\"2026-06-06T06:04:44.888Z\",\"startsAt\":\"2026-06-06T06:02:34.163Z\",\"metadata\":{\"image\":\"7171bdc6-8007-492c-84ad-f607e4dbd320\",\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-06-06T13:53:19.454Z",
+      "rawHtml": "{\"endsAt\":\"2026-06-08T23:59:59.999Z\",\"id\":703,\"title\":\"Failed Generations Due to Enhanced Compatibility\",\"content\":\"Generations with enhanced compatibility are causing images to fail and not be automatically refunded. Please make sure it's off!\",\"color\":\"red\",\"emoji\":null,\"createdAt\":\"2026-06-06T06:04:44.888Z\",\"startsAt\":\"2026-06-06T06:02:34.163Z\",\"metadata\":{\"image\":\"7171bdc6-8007-492c-84ad-f607e4dbd320\",\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-06-07T04:17:09.456Z",
       "metadata": {
-        "endsAt": "2026-06-06T23:59:59.999Z",
+        "endsAt": "2026-06-08T23:59:59.999Z",
         "id": 703,
         "title": "Failed Generations Due to Enhanced Compatibility",
-        "content": "Generations with enhanced compatibility are causing images to fail and not be automatically refunded. Please make sure it's off! https://civitai.red/issues",
+        "content": "Generations with enhanced compatibility are causing images to fail and not be automatically refunded. Please make sure it's off!",
         "color": "red",
         "emoji": null,
         "createdAt": "2026-06-06T06:04:44.888Z",
@@ -63,7 +37,7 @@
       "deadline": "2026-06-16T23:59:59.999Z",
       "prize": "",
       "rawHtml": "{\"endsAt\":\"2026-06-16T23:59:59.999Z\",\"id\":701,\"title\":\"A GPU Crunch, and Bumpy Days Ahead\",\"content\":\"Our primary data center is pulling GPU support to switch to mining, on under 48 hours notice. Generation still works but will be slower while we move. Here is the full picture and what to expect.\",\"color\":\"red\",\"emoji\":null,\"createdAt\":\"2026-06-04T23:28:34.251Z\",\"startsAt\":\"2026-06-04T00:00:00.000Z\",\"metadata\":{\"image\":\"aa9c9136-6a7c-4b08-b912-78e353465577\",\"actions\":[{\"link\":\"/articles/30980\",\"type\":\"button\",\"linkText\":\"Read the update\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-06-06T13:53:19.454Z",
+      "scrapedAt": "2026-06-07T04:17:09.457Z",
       "metadata": {
         "endsAt": "2026-06-16T23:59:59.999Z",
         "id": 701,

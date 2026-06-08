@@ -1,8 +1,70 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-06-08T04:23:54.643Z",
+  "timestamp": "2026-06-08T16:03:31.568Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_f41c2f38e035",
+      "title": "AI生产力会客厅",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/262",
+      "imageUrl": "",
+      "description": "超级创作者 AI生产力先锋 开辟视觉创作新路径",
+      "summary": "超级创作者 AI生产力先锋 开辟视觉创作新路径...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-06-13T15:59:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-08T16:03:24.541Z",
+      "scrapedAt": "2026-06-08T16:01:05.824Z",
+      "lastUpdated": "2026-06-08T16:03:24.541Z",
+      "version": 1
+    },
+    {
+      "id": "c_e911a8bdbbb6",
+      "title": "Agentic 开发实战：用 skill 重构应用形态",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/261",
+      "imageUrl": "",
+      "description": "6月13日，14：00-17：00，魔搭社区联合 Intel OpenVINO 中文社区、Qoder 在杭州云谷中心，共同发起「Agentic 开发实战：用 Skill 重构应用形态」工作坊，要和你一起把它从听说，变成上手。\n\n做出一个能用的 Agent，曾经意味着不低的门槛——算力要够、链路要通、工程要硬，普通开发者很难轻装上路。而现在，这条路上的每一环都在降门槛：能跑起来的 设备 更轻、更普及，搭建的 方法与软件 越来越成熟，可调用的 模型 也越来越容易触达。当这些门槛同时下降，真正被改变的，是\"应用\"本身的形态——你不再需要从零造一个应用，而是用一个个 Skill，把能力拆解、拼装，重构 成自己想要的样子。6月13日，14：00-17：00，魔搭社区联合 Intel OpenVINO™ 中文社区、Qoder 在杭州云谷中心，共同发起「Agentic 开发实战：用 Skill 重构应用形态」工作坊，要和你一起把它从听说，变成上手。我们把分享与实操放进同一个下午：上半场拆解思路与方法，下半场用接近两小时的 Workshop，让你亲手创建一个 应用级Skill 真正跑起来。不只是听明白，而是做出来。这个下午，你会收获用 Skill 重构应用形态 的完整思路：从能力拆解，到组合搭建可复用的 Skill 设计方法与落地经验，把门槛真正降到能上手接近两小时动手实操，现场做出并带走 属于自己的 Agent Skill第三代酷睿Ultra真机上手体验（数量有限），以及参与即发放的 Qoder Desktop Credit活动议程提交报名表单后，将在 6.11 前将陆续通过 短信/微信 通知您是否报名成功，敬请关注！",
+      "summary": "6月13日，14：00-17：00，魔搭社区联合 Intel OpenVINO 中文社区、Qoder 在杭州云谷中心，共同发起「Agentic 开发实战：用 Skill 重构应用形态」工作坊，要和你一起把它从听说，变成上手。\n\n做出一个能用的 Agent，曾经意味着不低的门槛——算力要够、链路要通、工程要硬，普通开发者很难轻装上路。而现在，这条路上的每一环都在降门槛：能跑起来的 设备 更轻、更普及...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-06-12T04:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "从零造一个应用",
+        "而是用一个个 Skill",
+        "把能力拆解、拼装",
+        "重构 成自己想要的样子。6月13日",
+        "14：00-17：00"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2026-06-08T16:03:25.557Z",
+      "scrapedAt": "2026-06-08T16:01:05.825Z",
+      "lastUpdated": "2026-06-08T16:03:25.557Z",
+      "version": 1
+    },
     {
       "id": "c_076a57a5fb49",
       "title": "AFAC2026 金融智能创新大赛",
@@ -27,9 +89,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-08T04:23:48.121Z",
-      "scrapedAt": "2026-06-08T04:21:33.305Z",
-      "lastUpdated": "2026-06-08T04:23:48.121Z",
+      "processedAt": "2026-06-08T16:03:25.557Z",
+      "scrapedAt": "2026-06-08T16:01:05.825Z",
+      "lastUpdated": "2026-06-08T16:03:25.557Z",
       "version": 1
     },
     {
@@ -56,9 +118,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-08T04:23:49.055Z",
-      "scrapedAt": "2026-06-08T04:21:33.305Z",
-      "lastUpdated": "2026-06-08T04:23:49.055Z",
+      "processedAt": "2026-06-08T16:03:25.637Z",
+      "scrapedAt": "2026-06-08T16:01:05.825Z",
+      "lastUpdated": "2026-06-08T16:03:25.637Z",
       "version": 1
     },
     {
@@ -91,9 +153,9 @@
         "而非用户适应机器。AIUI是Rokid推出的专为 AI + AR 设计的 AI 原生 GUI（AI-Native UI）本地智能体框架"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-08T04:23:49.162Z",
-      "scrapedAt": "2026-06-08T04:21:33.306Z",
-      "lastUpdated": "2026-06-08T04:23:49.162Z",
+      "processedAt": "2026-06-08T16:03:25.652Z",
+      "scrapedAt": "2026-06-08T16:01:05.825Z",
+      "lastUpdated": "2026-06-08T16:03:25.652Z",
       "version": 1
     },
     {
@@ -121,9 +183,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-08T04:23:49.058Z",
-      "scrapedAt": "2026-06-08T04:21:33.306Z",
-      "lastUpdated": "2026-06-08T04:23:49.058Z",
+      "processedAt": "2026-06-08T16:03:25.745Z",
+      "scrapedAt": "2026-06-08T16:01:05.826Z",
+      "lastUpdated": "2026-06-08T16:03:25.745Z",
       "version": 1
     },
     {
@@ -150,9 +212,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-08T04:23:49.145Z",
-      "scrapedAt": "2026-06-08T04:21:33.306Z",
-      "lastUpdated": "2026-06-08T04:23:49.145Z",
+      "processedAt": "2026-06-08T16:03:26.752Z",
+      "scrapedAt": "2026-06-08T16:01:05.826Z",
+      "lastUpdated": "2026-06-08T16:03:26.752Z",
       "version": 1
     },
     {
@@ -181,9 +243,9 @@
         "否则无法发放奖品）格式示例："
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-08T04:23:49.172Z",
-      "scrapedAt": "2026-06-08T04:21:33.308Z",
-      "lastUpdated": "2026-06-08T04:23:49.172Z",
+      "processedAt": "2026-06-08T16:03:26.841Z",
+      "scrapedAt": "2026-06-08T16:01:05.830Z",
+      "lastUpdated": "2026-06-08T16:03:26.841Z",
       "version": 1
     },
     {
@@ -217,9 +279,9 @@
         "每人最高并发执行 Notebook 数量为 1 个。Q2：申请加入专属组织被拒绝"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-08T04:23:50.255Z",
-      "scrapedAt": "2026-06-08T04:21:33.311Z",
-      "lastUpdated": "2026-06-08T04:23:50.255Z",
+      "processedAt": "2026-06-08T16:03:26.745Z",
+      "scrapedAt": "2026-06-08T16:01:05.834Z",
+      "lastUpdated": "2026-06-08T16:03:26.745Z",
       "version": 1
     },
     {
@@ -247,78 +309,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-08T04:23:50.247Z",
-      "scrapedAt": "2026-06-08T04:21:33.311Z",
-      "lastUpdated": "2026-06-08T04:23:50.247Z",
-      "version": 1
-    },
-    {
-      "id": "c_e4c38c555706",
-      "title": "AI PC Agent Skills 征文活动",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/242",
-      "imageUrl": "",
-      "description": "本次活动重点鼓励开发者探索如何利用 Intel 酷睿 Ultra 处理器（如最新的 Panther Lake 架构的 GPU、NPU 加速能力），配合 OpenVINO 推理框架，将模型能力转化为可编程、可复用的Skill技能包。这是 AI PC 真正从“硬件概念”走向“生产力工具”的核心跨越。\n\n一、 开启 Agentic AI 与 Hybrid AI 的端侧新纪元在 AI 技术的演进历程中，我们正见证着一个关键的范式转移：AI 不再仅仅是简单的对话机器人，而是正在进化为能够理解意图、自主规划路径并调用外部工具产生实际后果的“智能体”——即 Agentic AI（智能体化 AI）。与此同时，随着端侧算力的爆发，Hybrid AI（混合 AI） 架构已成为大趋势，即通过云端处理超大规模逻辑，而将高频响应、隐私敏感及个性化强的任务下沉至 AI PC 处理。英特尔(Intel)作为 AI PC 时代的领航者，通过异构算力（CPU+GPU+NPU）的深度整合，为 Agentic AI 的落地提供了坚实的物理基础。而魔搭社区（ModelScope）作为开发者生态的摇篮，拥有丰富的模型储备。基于此，英特尔联合魔搭发起本次 Agent Skills 征文大赛，旨在挖掘那些能够运行在本地、能被智能体高效调用的“Skills”，共同定义端侧 AI 的未来。二、 活动背景：从对话式交互到 Agentic 工作流过去，开发者关注的是 Prompt Engineering（提示工程）；现在，我们的重心转向了 Agentic Workflows（智能体工作流）。一个优秀的智能体不仅需要强大的“大脑”（模型），更需要敏捷的“双手”（Skills）。在 Hybrid AI 的愿景下，AI PC 是离用户最近的计算中枢。将逻辑复杂但体积精炼（≤35B）的模型部署在本地，不仅能极大地降低推理成本，更能确保用户隐私数据“不出机”。本次活动重点鼓励开发者探索如何利用 Intel 酷睿™ Ultra 处理器（如最新的 Panther Lake 架构）的 GPU、NPU 加速能力，配合 OpenVINO™ 推理框架，将模型能力转化为可编程、可复用的Skill技能包。这是 AI PC 真正从“硬件概念”走向“生产力工具”的核心跨越。三、 征文主题1. 核心主题用 35B 以下小模型作为Agent大脑，驱动一项 本地AI工具调用(OCR,ASR,TTS…)，满足实际场景需求，最终生成可以被复用的Agent Skill。2. 技术约束模型规格：为了确保Skill的鲁棒性，驱动 Skill 的模型总参数量必须 ≤ 35B。35B 是当前端侧算力处理复杂逻辑与保证响应速度的“平衡点”，推荐qwen3.6系列、openBMB4.5系列；运行环境：Skill 中涉及的AI模型必须支持纯本地运行（Localhost）。推理框架：推荐使用 OpenVINO™（及其生态工具如 Optimum-intel）进行本地AI工具的构建，以充分释放 GPU、NPU 潜力。官方指南：关于 AI PC 大模型的一站式使用指南，请参考：https://modelscope.cn/brand/view/ai_pc验证基准：赛事方统一使用 Ollama + Qwen3.6-35B-A3B + QwenPaw/Trae 作为Skill是否可以被Agent大脑调用的的基准测试环境。  四、 推荐方向与场景参考推荐方向场景示例Agentic / Hybrid 价值办公提效本地会议纪要自动提取、PPT 一键风格改稿、Excel 复杂公式智能填充。零延迟响应，确保企业内部敏感会议数据绝对安全开发辅助本地代码 Review、Git Commit 自动生成、API 文档反向生成。离线状态下的高效编程，保护核心算法不外泄创作创意短视频脚本生成、公众号/小红书文案适配、本地图文自动化排版。端云协同：云端搜集素材，本地利用 35B 模型进行深度二次创作知识管理个人 PDF/笔记库 RAG、研报摘要提取、本地私人知识库智能问答。构建“永不掉线”且完全私有的个人数字第二大脑数据分析CSV 自然语言查询、本地数据可视化分析、系统日志异常自动归因。直接读取本地大容量数据集，规避云端流量成本 参考资源扫描进入比赛群，实时赛事信息同步、技术交流、问题答疑等 扫码访问英特尔 AI PC 专区，获取更多开发工具、技术文档与实战案例，助力您的 AI 应用开发之旅五、 参赛流程：从创意到落地的四步走编写本地 AI 工具：推荐使用 OpenVINO 进行量化与异构加速优化。生成并验证 Skill：在魔搭 Skills 中心规范下封装技能，并在 ≤35B 小模型作为大脑的环境下进行指令测试。发布作品包：在魔搭 Skills 中心发布，并添加 “AIPC” 自定义标签。需含代码、文档及测试用例，skill 提交入口：https://www.modelscope.cn/skills (点击“新建skill” 提交)提交技术文章：在魔搭研习社发表文章，沉淀实践路径、优化心得与 Hybrid AI 的思考，并添加 “Intel AI PC” 自定义标签，文章提交入口：https://www.modelscope.cn/learn (点击“创建文章” 提交)发布小红书（非必要项，会影响部分评分项）：请选手将作品框架截图、流程图或 Skill 任务成果等图文信息，连同魔搭研习社文章链接与 Skill 链接发布至小红书，同时 @OpenVINO中文社区 和 @魔搭ModelScope社区，并加话题 #英特尔 #openvino  #魔搭社区 #modelscope #agentic #skills    六、 评分标准维度权重说明Skill 可用性30%本地验证通过率、稳定性、错误处理场景价值20%解决问题的真实性、用户群体广度技术深度20%模型选型合理性、OpenVINO/GPU/NPU 优化、工程实现质量文章质量15%结构清晰度、可复现性、教学价值、魔搭/小红书社区影响力创新性15%思路新颖度、与已有方案的差异化七、 丰厚激励实物奖励：前50名完整提交作品，即可领取英特尔 AI PC 开发者限量版定制礼品。现金大奖：TOP 10 作品各获得 1000 元（含税）。生态推广：入选《AIPC Skills Collections》，获得魔搭及英特尔官方全渠道流量扶持。合作池入驻：优秀开发者将优先进入“Intel ISV 生态合作伙伴池”。 让 AI 不止于云端，让智能触手可及。英特尔与魔搭社区期待与您共同定义 AI PC 的“灵魂技能”！",
-      "summary": "本次活动重点鼓励开发者探索如何利用 Intel 酷睿 Ultra 处理器（如最新的 Panther Lake 架构的 GPU、NPU 加速能力），配合 OpenVINO 推理框架，将模型能力转化为可编程、可复用的Skill技能包。这是 AI PC 真正从“硬件概念”走向“生产力工具”的核心跨越。\n\n一、 开启 Agentic AI 与 Hybrid AI 的端侧新纪元在 AI 技术的演进历程中，我...",
-      "contestType": "video",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-06-30T15:59:00.000Z",
-      "prize": "10000元奖金+10000元礼品",
-      "tags": [
-        "研习社征文赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "强大的“大脑”（模型）",
-        "更需要敏捷的“双手”（Skills）。在 Hybrid AI 的愿景下",
-        "AI PC 是离用户最近的计算中枢。将逻辑复杂但体积精炼（≤35B）的模型部署在本地",
-        "不仅能极大地降低推理成本",
-        "更能确保用户隐私数据“不出机”。本次活动重点鼓励开发者探索如何利用 Intel 酷睿™ Ultra 处理器（如最新的 Panther Lake 架构）的 GPU、NPU 加速能力"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-06-08T04:23:50.181Z",
-      "scrapedAt": "2026-06-08T04:21:33.311Z",
-      "lastUpdated": "2026-06-08T04:23:50.181Z",
-      "version": 1
-    },
-    {
-      "id": "c_212251cdff9e",
-      "title": "Spatial Joy 26 Rokid 全球高校创新挑战赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/251",
-      "imageUrl": "",
-      "description": "在人工智能与增强现实技术加速融合、重塑人机交互范式的时代背景下，Rokid 推出的 “Spatial Joy” 系列赛事，一项旨在推动大型语言模型、空间计算及下一代交互范式交叉探索的旗舰计划。其使命在于：赋能高校学子与行业开发者，突破现有边界，共同定义 Al+AR 的未来图景。",
-      "summary": "在人工智能与增强现实技术加速融合、重塑人机交互范式的时代背景下，Rokid 推出的 “Spatial Joy” 系列赛事，一项旨在推动大型语言模型、空间计算及下一代交互范式交叉探索的旗舰计划。其使命在于：赋能高校学子与行业开发者，突破现有边界，共同定义 Al+AR 的未来图景。...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-06-30T15:59:00.000Z",
-      "prize": "总奖池 66万",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-06-08T04:23:50.180Z",
-      "scrapedAt": "2026-06-08T04:21:33.311Z",
-      "lastUpdated": "2026-06-08T04:23:50.180Z",
+      "processedAt": "2026-06-08T16:03:26.751Z",
+      "scrapedAt": "2026-06-08T16:01:05.834Z",
+      "lastUpdated": "2026-06-08T16:03:26.751Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-08T04:23:54.643Z"
+    "lastUpdated": "2026-06-08T16:03:31.568Z"
   }
 }

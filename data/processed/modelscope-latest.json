@@ -1,8 +1,38 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-06-10T04:06:20.485Z",
+  "timestamp": "2026-06-10T15:48:15.791Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_5af2404e0874",
+      "title": "2026江苏“创青春”A1+交通创新创业大赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/264",
+      "imageUrl": "",
+      "description": "为全面落实国家\"人工智能+\"行动和交通强国建设战略部署，助力江苏打造全国领先的“AI+交通”融合应用高地，通过举办2026江苏\"创青春\"AI+交通创新创业大赛，汇聚全国青年人才破解行业关键技术、应用难题，加速前沿成果在交通场景的转化落地，以创新赋能江苏交通运输事业高质量发展，培育和发展交通领域新质生产力。\n\n为全面落实国家\"人工智能+\"行动和交通强国建设战略部署，助力江苏打造全国领先的“AI+交通”融合应用高地，通过举办2026江苏\"创青春\"AI+交通创新创业大赛，汇聚全国青年人才破解行业关键技术、应用难题，加速前沿成果在交通场景的转化落地，以创新赋能江苏交通运输事业高质量发展，培育和发展交通领域新质生产力。       访问大赛官网（qczx.jchc.cn）了解详情并报名参赛。",
+      "summary": "为全面落实国家\"人工智能+\"行动和交通强国建设战略部署，助力江苏打造全国领先的“AI+交通”融合应用高地，通过举办2026江苏\"创青春\"AI+交通创新创业大赛，汇聚全国青年人才破解行业关键技术、应用难题，加速前沿成果在交通场景的转化落地，以创新赋能江苏交通运输事业高质量发展，培育和发展交通领域新质生产力。\n\n为全面落实国家\"人工智能+\"行动和交通强国建设战略部署，助力江苏打造全国领先的“AI+交通...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-07-10T15:59:00.000Z",
+      "prize": "300万奖金池，最高单项奖金50万",
+      "tags": [
+        "应用开发赛",
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-10T15:48:08.228Z",
+      "scrapedAt": "2026-06-10T15:45:48.211Z",
+      "lastUpdated": "2026-06-10T15:48:08.228Z",
+      "version": 1
+    },
     {
       "id": "c_f41c2f38e035",
       "title": "AI生产力会客厅",
@@ -27,9 +57,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-10T04:06:13.776Z",
-      "scrapedAt": "2026-06-10T04:03:56.664Z",
-      "lastUpdated": "2026-06-10T04:06:13.776Z",
+      "processedAt": "2026-06-10T15:48:08.458Z",
+      "scrapedAt": "2026-06-10T15:45:48.211Z",
+      "lastUpdated": "2026-06-10T15:48:08.458Z",
       "version": 1
     },
     {
@@ -60,9 +90,9 @@
         "14：00-17：00"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-10T04:06:13.873Z",
-      "scrapedAt": "2026-06-10T04:03:56.664Z",
-      "lastUpdated": "2026-06-10T04:06:13.873Z",
+      "processedAt": "2026-06-10T15:48:09.585Z",
+      "scrapedAt": "2026-06-10T15:45:48.211Z",
+      "lastUpdated": "2026-06-10T15:48:09.585Z",
       "version": 1
     },
     {
@@ -89,9 +119,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-10T04:06:14.954Z",
-      "scrapedAt": "2026-06-10T04:03:56.664Z",
-      "lastUpdated": "2026-06-10T04:06:14.954Z",
+      "processedAt": "2026-06-10T15:48:09.464Z",
+      "scrapedAt": "2026-06-10T15:45:48.212Z",
+      "lastUpdated": "2026-06-10T15:48:09.464Z",
       "version": 1
     },
     {
@@ -118,9 +148,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-10T04:06:14.875Z",
-      "scrapedAt": "2026-06-10T04:03:56.664Z",
-      "lastUpdated": "2026-06-10T04:06:14.875Z",
+      "processedAt": "2026-06-10T15:48:09.473Z",
+      "scrapedAt": "2026-06-10T15:45:48.212Z",
+      "lastUpdated": "2026-06-10T15:48:09.473Z",
       "version": 1
     },
     {
@@ -153,9 +183,9 @@
         "而非用户适应机器。AIUI是Rokid推出的专为 AI + AR 设计的 AI 原生 GUI（AI-Native UI）本地智能体框架"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-10T04:06:14.871Z",
-      "scrapedAt": "2026-06-10T04:03:56.665Z",
-      "lastUpdated": "2026-06-10T04:06:14.871Z",
+      "processedAt": "2026-06-10T15:48:09.456Z",
+      "scrapedAt": "2026-06-10T15:45:48.212Z",
+      "lastUpdated": "2026-06-10T15:48:09.456Z",
       "version": 1
     },
     {
@@ -183,9 +213,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-10T04:06:14.968Z",
-      "scrapedAt": "2026-06-10T04:03:56.666Z",
-      "lastUpdated": "2026-06-10T04:06:14.968Z",
+      "processedAt": "2026-06-10T15:48:09.667Z",
+      "scrapedAt": "2026-06-10T15:45:48.213Z",
+      "lastUpdated": "2026-06-10T15:48:09.667Z",
       "version": 1
     },
     {
@@ -212,9 +242,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-10T04:06:14.981Z",
-      "scrapedAt": "2026-06-10T04:03:56.666Z",
-      "lastUpdated": "2026-06-10T04:06:14.981Z",
+      "processedAt": "2026-06-10T15:48:10.679Z",
+      "scrapedAt": "2026-06-10T15:45:48.214Z",
+      "lastUpdated": "2026-06-10T15:48:10.679Z",
       "version": 1
     },
     {
@@ -243,9 +273,9 @@
         "否则无法发放奖品）格式示例："
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-10T04:06:15.989Z",
-      "scrapedAt": "2026-06-10T04:03:56.670Z",
-      "lastUpdated": "2026-06-10T04:06:15.989Z",
+      "processedAt": "2026-06-10T15:48:10.849Z",
+      "scrapedAt": "2026-06-10T15:45:48.217Z",
+      "lastUpdated": "2026-06-10T15:48:10.849Z",
       "version": 1
     },
     {
@@ -279,45 +309,15 @@
         "每人最高并发执行 Notebook 数量为 1 个。Q2：申请加入专属组织被拒绝"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-10T04:06:16.059Z",
-      "scrapedAt": "2026-06-10T04:03:56.678Z",
-      "lastUpdated": "2026-06-10T04:06:16.059Z",
-      "version": 1
-    },
-    {
-      "id": "c_dbc5fafb581e",
-      "title": "手机上的创意 AI 挑战赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/248",
-      "imageUrl": "",
-      "description": "在手机上开发一款创意 AI 应用，至少选用一款 Qwen 系列模型（云端 API 可协同），推荐在 MNN 框架下针对 Arm SME2 指令集进行推理加速与性能调优，让手机算力真正释放。",
-      "summary": "在手机上开发一款创意 AI 应用，至少选用一款 Qwen 系列模型（云端 API 可协同），推荐在 MNN 框架下针对 Arm SME2 指令集进行推理加速与性能调优，让手机算力真正释放。...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-06-22T15:59:00.000Z",
-      "prize": "30万元",
-      "tags": [
-        "应用开发赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-06-10T04:06:15.982Z",
-      "scrapedAt": "2026-06-10T04:03:56.678Z",
-      "lastUpdated": "2026-06-10T04:06:15.982Z",
+      "processedAt": "2026-06-10T15:48:10.673Z",
+      "scrapedAt": "2026-06-10T15:45:48.223Z",
+      "lastUpdated": "2026-06-10T15:48:10.673Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-10T04:06:20.485Z"
+    "lastUpdated": "2026-06-10T15:48:15.791Z"
   }
 }

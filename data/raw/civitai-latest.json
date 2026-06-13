@@ -1,27 +1,35 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-06-12T15:26:58.839Z",
+  "timestamp": "2026-06-13T04:10:07.105Z",
   "contestCount": 2,
   "contests": [
     {
       "platform": "civitai",
-      "title": "Generations Missing",
-      "description": "Images generated from 1:00 AM UTC- 2:00 AM UTC are gone unfortunately and will be auto-refunded shortly. Images that were made with LyCoris models or Enhanced Compatibility will also be refunded.",
-      "url": "https://civitai.com/events/738",
+      "title": "Agents Welcome",
+      "description": "Your AI agent can use Civitai now: browse, generate, post, and engage through the new MCP server and gen skill.",
+      "url": "https://civitai.com/events/739",
+      "deadline": "2026-06-19T23:59:59.999Z",
       "prize": "",
-      "rawHtml": "{\"endsAt\":null,\"id\":738,\"title\":\"Generations Missing\",\"content\":\"Images generated from 1:00 AM UTC- 2:00 AM UTC are gone unfortunately and will be auto-refunded shortly. Images that were made with LyCoris models or Enhanced Compatibility will also be refunded.\",\"color\":\"yellow\",\"emoji\":null,\"createdAt\":\"2026-06-12T01:51:34.630Z\",\"startsAt\":\"2026-06-12T01:47:47.838Z\",\"metadata\":{\"image\":\"cbf42b02-2b31-4dcd-b132-d271b7c7bf9d\",\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-06-12T15:24:55.425Z",
+      "rawHtml": "{\"endsAt\":\"2026-06-19T23:59:59.999Z\",\"id\":739,\"title\":\"Agents Welcome\",\"content\":\"Your AI agent can use Civitai now: browse, generate, post, and engage through the new MCP server and gen skill.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-06-12T16:13:05.305Z\",\"startsAt\":\"2026-06-12T16:13:05.051Z\",\"metadata\":{\"image\":\"50469f6f-0c99-41a8-83a5-a9e420d5908a\",\"actions\":[{\"link\":\"/articles/31362\",\"type\":\"button\",\"linkText\":\"Read the announcement\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-06-13T04:08:09.285Z",
       "metadata": {
-        "endsAt": null,
-        "id": 738,
-        "title": "Generations Missing",
-        "content": "Images generated from 1:00 AM UTC- 2:00 AM UTC are gone unfortunately and will be auto-refunded shortly. Images that were made with LyCoris models or Enhanced Compatibility will also be refunded.",
-        "color": "yellow",
+        "endsAt": "2026-06-19T23:59:59.999Z",
+        "id": 739,
+        "title": "Agents Welcome",
+        "content": "Your AI agent can use Civitai now: browse, generate, post, and engage through the new MCP server and gen skill.",
+        "color": "violet",
         "emoji": null,
-        "createdAt": "2026-06-12T01:51:34.630Z",
-        "startsAt": "2026-06-12T01:47:47.838Z",
+        "createdAt": "2026-06-12T16:13:05.305Z",
+        "startsAt": "2026-06-12T16:13:05.051Z",
         "metadata": {
-          "image": "cbf42b02-2b31-4dcd-b132-d271b7c7bf9d",
+          "image": "50469f6f-0c99-41a8-83a5-a9e420d5908a",
+          "actions": [
+            {
+              "link": "/articles/31362",
+              "type": "button",
+              "linkText": "Read the announcement"
+            }
+          ],
           "colSpan": 6,
           "dismissible": true,
           "targetAudience": "all"
@@ -36,7 +44,7 @@
       "deadline": "2026-06-16T23:59:59.999Z",
       "prize": "",
       "rawHtml": "{\"endsAt\":\"2026-06-16T23:59:59.999Z\",\"id\":701,\"title\":\"A GPU Crunch, and Bumpy Days Ahead\",\"content\":\"Our primary data center is pulling GPU support to switch to mining, on under 48 hours notice. Generation still works but will be slower while we move. Here is the full picture and what to expect.\",\"color\":\"red\",\"emoji\":null,\"createdAt\":\"2026-06-04T23:28:34.251Z\",\"startsAt\":\"2026-06-04T00:00:00.000Z\",\"metadata\":{\"image\":\"aa9c9136-6a7c-4b08-b912-78e353465577\",\"actions\":[{\"link\":\"/articles/30980\",\"type\":\"button\",\"linkText\":\"Read the update\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-06-12T15:24:55.426Z",
+      "scrapedAt": "2026-06-13T04:08:09.285Z",
       "metadata": {
         "endsAt": "2026-06-16T23:59:59.999Z",
         "id": 701,

@@ -1,6 +1,6 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-06-16T04:47:56.385Z",
+  "timestamp": "2026-06-16T17:05:14.398Z",
   "contestCount": 3,
   "contests": [
     {
@@ -11,7 +11,7 @@
       "deadline": "2026-06-22T23:59:59.999Z",
       "prize": "",
       "rawHtml": "{\"endsAt\":\"2026-06-22T23:59:59.999Z\",\"id\":736,\"title\":\"Training Updates\",\"content\":\"Smarter defaults, pay-per-step pricing, new sample controls, and a Train Further button.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-06-10T20:10:53.622Z\",\"startsAt\":\"2026-06-15T18:59:19.651Z\",\"metadata\":{\"type\":\"site\",\"image\":\"6febec33-fa18-4dc6-b595-80c99efa310c\",\"actions\":[{\"link\":\"/articles/31288\",\"type\":\"button\",\"linkText\":\"Learn More\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-06-16T04:45:56.490Z",
+      "scrapedAt": "2026-06-16T17:03:16.515Z",
       "metadata": {
         "endsAt": "2026-06-22T23:59:59.999Z",
         "id": 736,
@@ -45,7 +45,7 @@
       "deadline": "2026-06-19T23:59:59.999Z",
       "prize": "",
       "rawHtml": "{\"endsAt\":\"2026-06-19T23:59:59.999Z\",\"id\":739,\"title\":\"Agents Welcome\",\"content\":\"Your AI agent can use Civitai now: browse, generate, post, and engage through the new MCP server and gen skill.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-06-12T16:13:05.305Z\",\"startsAt\":\"2026-06-12T16:13:05.051Z\",\"metadata\":{\"image\":\"50469f6f-0c99-41a8-83a5-a9e420d5908a\",\"actions\":[{\"link\":\"/articles/31362\",\"type\":\"button\",\"linkText\":\"Read the announcement\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-06-16T04:45:56.490Z",
+      "scrapedAt": "2026-06-16T17:03:16.515Z",
       "metadata": {
         "endsAt": "2026-06-19T23:59:59.999Z",
         "id": 739,
@@ -78,7 +78,7 @@
       "deadline": "2026-06-16T23:59:59.999Z",
       "prize": "",
       "rawHtml": "{\"endsAt\":\"2026-06-16T23:59:59.999Z\",\"id\":701,\"title\":\"A GPU Crunch, and Bumpy Days Ahead\",\"content\":\"Our primary data center is pulling GPU support to switch to mining, on under 48 hours notice. Generation still works but will be slower while we move. Here is the full picture and what to expect.\",\"color\":\"red\",\"emoji\":null,\"createdAt\":\"2026-06-04T23:28:34.251Z\",\"startsAt\":\"2026-06-04T00:00:00.000Z\",\"metadata\":{\"image\":\"aa9c9136-6a7c-4b08-b912-78e353465577\",\"actions\":[{\"link\":\"/articles/30980\",\"type\":\"button\",\"linkText\":\"Read the update\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-06-16T04:45:56.490Z",
+      "scrapedAt": "2026-06-16T17:03:16.515Z",
       "metadata": {
         "endsAt": "2026-06-16T23:59:59.999Z",
         "id": 701,

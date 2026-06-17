@@ -1,6 +1,6 @@
 {
   "platform": "all",
-  "timestamp": "2026-06-17T04:28:59.878Z",
+  "timestamp": "2026-06-17T15:45:29.682Z",
   "contestCount": 51,
   "contests": [
     {
@@ -9,7 +9,7 @@
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/arc-white-box-estimation-challenge-2026",
       "imageUrl": "https://images.aicrowd.com/raw_images/challenges/social_media_image_file/1174/754b2c1f0950214d8b10.jpg",
-      "description": "00Overview01Why random02The task03Compute04Evaluation05Participate06Rules07Prizes08Timeline09ResourcesWhestBench 2026ARC × AIcrowdSubmissions openWhen can we know what a neural network does without running it?The ARC White-Box Estimation Challenge is a contest in compute-efficient mechanistic estimation. Given the weights of a neural network, can you predict its expected per-neuron activations more accurately than running it many times?The obvious way to learn how a model behaves is to run it many times and average what you observe. That works well when the behavior is common, cheap to elicit, and easy to sample. But when the behavior is rare, high-variance, or unlikely to appear in obvious test cases, brute-force testing can become an expensive way to learn very little.The ARC White-Box Estimation Challenge turns that question into a controlled benchmark. Participants receive randomly initialized ReLU MLPs and build executable estimators that predict each neuron's expected post-ReLU activation under standard-normal inputs.The goal is simple to state: beat comparable black-box sampling under a shared compute budget by using the network's weights. The strongest submissions may be Monte Carlo, white-box, hybrid, LLM-assisted, or something unexpected—the leaderboard will decide.TaskExecutable estimatorInputWeights + budgetOutputExpected activationsMetricFinal-layer MSEOfficial factsPrize pool$100,000 USD ARV$50K / $20K / $10K places · $20K algorithmic contributionSubmissions openMay 28, 2026 · 00:00 UTCPhase 2 closesSep 19, 2026 · 23:59 UTCDaily limit50 entries per team · per UTC day, each phaseGraderCPU-only 16 vCPU · 64 GB RAM · no networkHard cap60 s per MLPFinal rankingFresh private rerun of each team's designated Phase 2 submissionFig. 1\n  \n  \n\n  < !-- Header -- >\n  CHALLENGE · ESTIMATE THE EXPECTATION\n  \n    \n      .katex-display{margin:0 !important;}\n      Y^L,j≈EX∼N(0,In) ⁣[hj(L)(X)]\\hat Y_{L,j} \\approx \\mathbb{E}_{X\\sim\\mathcal{N}(0,I_n)}\\!\\left[h^{(L)}_{j}(X)\\right]Y^L,j​≈EX∼N(0,In​)​[hj(L)​(X)]\n    \n  \n\n  < !-- Column labels -- >\n  INPUT\n  NETWORK · RANDOM ReLU MLP\n  OUTPUT · Ê[ h⁽ᶽ⁾₃(X) ]\n\n  < !-- Input PDF -- >\n  \n    \n    \n      \n      \n      \n    \n    \n      +2\n      0\n      −2\n    \n    xᵢ\n    \n    \n    \n    \n    \n      \n      +0.71\n    \n  \n\n  < !-- Network -- >\n  \n    \n    \n    \n    \n    \n    h⁽ᶽ⁾₃\n    \n    \n    \n  \n\n  < !-- Output axis -- >\n  \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      7.5\n      8.0\n      8.5\n      9.0\n      9.5\n    \n    h⁽ᶽ⁾₃(X) · ×10⁻³\n    \n    \n    \n    Ê 8.6\n    \n    \n    µ̂ 8.3\n    Δ 3×10⁻⁴ERROR≈3.5% rel\n  \n\n  < !-- Method legend -- >\n  \n  \n    \n    MONTE CARLOBLACK-BOX · SAMPLE & AVERAGE\n    SAMPLING…\n    \n  \n  \n    \n    ANALYTICALWHITE-BOX · PROPAGATE THE DISTRIBUTION\n    PROPAGATING…\n    \n  \n\n  < !-- Cost band -- >\n  ← the contest lives here\n  \n    \n    \n    \n    \n    ≈ 15,000×\n  \n\n  YOUR BUDGET\n  \n  6.8×10¹⁰ FLOPs / MLP\n\n  \n  MONTE CARLO REFERENCE\n  10¹⁵ FLOPs / MLP\n\n  \n  \n    \n    \n    \n    \n    \n    \n  \n  \n    10¹⁰\n    10¹¹\n    10¹²\n    10¹³\n    10¹⁴\n    10¹⁵\n  \n  FLOPs (log₁₀ scale)\n\n  < !-- The question -- >\n  \n    \n    Can you beat sampling?\n  \n\n  < !-- Replay -- >\n  \n    \n    \n      \n      \n    \n    REPLAY\n  \nFigure 1The estimation problem, as a distributional computation. A generated ReLU MLP receives Gaussian inputs X∼N(0,In)X \\sim \\mathcal{N}(0, I_n)X∼N(0,In​), applies h(ℓ)=ReLU ⁣(W(ℓ)h(ℓ−1))h^{(\\ell)} = \\mathrm{ReLU}\\!\\left(W^{(\\ell)}h^{(\\ell-1)}\\right)h(ℓ)=ReLU(W(ℓ)h(ℓ−1)), and the submission must estimate E ⁣[hi(ℓ)(X)]\\mathbb{E}\\!\\left[h^{(\\ell)}_i(X)\\right]E[hi(ℓ)​(X)] for every hidden-layer neuron.Read the animation as two ways to estimate the same activation-mean matrix. The black-box path samples inputs, runs the network, and averages observed activations until the Monte Carlo mean stabilizes. The white-box path inspects W(1),…,W(L)W^{(1)}, \\dots, W^{(L)}W(1),…,W(L) and propagates enough distributional information to predict the same means under the participant budget. In the initial configuration, the target is an organizers' high-budget Monte Carlo reference of approximately 101510^{15}1015 FLOPs, compared with a participant budget of approximately 6.8×10106.8 \\times 10^{10}6.8×1010 FLOPs per MLP—roughly a 15,000×15{,}000\\times15,000× compute gap.Prizes$100K+Cash PrizesPrediction shape8 × 256hidden activationsBudget / MLP6.8e10FLOPs · initial configPhase 2 closesSep 192026 · 23:59 UTC01Why this starts with random networksThe benchmark isolates one hard part of white-box estimation: tracking how distributions move through nonlinear layers.White-box estimation for trained networks is the destination, not the starting line. Trained models introduce many confounders at once: data, optimization, learned structure, task semantics, and evaluation ambiguity. WhestBench begins with randomly initialized networks so participants can focus on the estimation problem in a simplified setting.The networks are synthetic, but the question is real. Given access to the weights, can an algorithm reason about the distribution of hidden activations more efficiently than repeatedly sampling inputs and averaging outputs?Random ReLU MLPs retain the same basic problem structure: each layer transforms a distribution, the ReLU nonlinearity reshapes it, and approximation error can accumulate with depth. The first challenge is to develop methods that work in this controlled setting; later work can ask how those methods adapt as networks acquire structure during training.The benchmark is controlled, but not trivial: the expected activation has no closed form for the full network, and sampling improves only slowly with more compute.Why not trained models first?Random networks offer a simplified setting for compute-efficient estimation while being an important stepping stone towards trained models.02The taskFor each MLP, return a matrix of expected post-ReLU activation means.For each evaluation network MθM_\\thetaMθ​, your estimator receives the MLP weights and a compute budget. It must return an L×nL \\times nL×n matrix Y^\\hat{Y}Y^. Entry (ℓ,i)(\\ell, i)(ℓ,i) should estimate the expected post-ReLU activation of neuron iii in hidden layer ℓ\\ellℓ when inputs are drawn from a standard Gaussian distribution.h(0)=X,h(ℓ)=ReLU(W(ℓ)h(ℓ−1)),ℓ=1,…,Lh^{(0)} = X, \\qquad h^{(\\ell)} = \\mathrm{ReLU}\\left(W^{(\\ell)}h^{(\\ell-1)}\\right), \\quad \\ell = 1, \\dots, Lh(0)=X,h(ℓ)=ReLU(W(ℓ)h(ℓ−1)),ℓ=1,…,L1Y^ℓ,i≈EX∼N(0,In)[hi(ℓ)(X)]\\hat{Y}_{\\ell,i} \\approx \\mathbb{E}_{X \\sim \\mathcal{N}(0, I_n)}\\left[h^{(\\ell)}_i(X)\\right]Y^ℓ,i​≈EX∼N(0,In​)​[hi(ℓ)​(X)]2The reference target is estimated by the organizers with a much larger Monte Carlo budget than participants receive. Your job is to match that reference as closely as possible under the participant budget.Evaluation network · per MLPWidth nnn256256256Hidden layers LLL888Weight initializationHe-Gaussian · variance 2/n2/n2/nInput distributionX∼N(0,In)X \\sim \\mathcal{N}(0, I_n)X∼N(0,In​)Prediction shape8×2568 \\times 2568×256 matrixPrimary metricFinal-layer MSE vs. a high-budget Monte Carlo referenceImportantThe submission is executable code, not a prediction file. The grader runs your estimator against held-out MLPs and scores the returned activation matrix.03Compute model and constraintsThe competition is budgeted by analytical FLOPs, not by who owns the fastest machine.The accounting library is flopscope, a NumPy-compatible interface that counts floating-point operations for instrumented operations. Code written through flopscope.numpy is charged analytically. Uninstrumented computation is allowed, but residual wall-clock time is converted back into FLOPs at an unfavorable rate.Cm=Fm+λRmC_m = F_m + \\lambda R_mCm​=Fm​+λRm​3Here FmF_mFm​ is the analytical FLOP count for MLP mmm, RmR_mRm​ is residual wall-clock time outside instrumented operations, and λ\\lambdaλ is the conversion rate published in the starter kit.import flopscope as flops\nimport flopscope.numpy as fnp\n\ndef predict(mlp, budget):\n    mus = []\n    mu = fnp.zeros(mlp.width)\n    var = fnp.ones(mlp.width)\n\n    for w in mlp.weights:\n        mu_pre = w.T @ mu\n        var_pre = (w * w).T @ var\n        sigma_pre = fnp.sqrt(fnp.maximum(var_pre, 1e-12))\n        alpha = mu_pre / sigma_pre\n        mu = mu_pre * flops.stats.norm.cdf(alpha) + sigma_pre * flops.stats.norm.pdf(alpha)\n        mus.append(mu)\n\n    return fnp.stack(mus)Budget ruleStay within the per-MLP budget on every network. Over-budget runs, exceptions, invalid shapes, non-finite values, memory failures, or wall-clock guard failures receive the zero-prediction fallback for that MLP.Grader environmentSubmissions run CPU-only with 16 vCPUs, 64 GB RAM, disabled network access, and a 60-second hard wall-clock cap per MLP.Fig. 2Bₘ — per-MLP budget (6.8 × 10¹⁰ FLOPs)10⁶10⁹10¹²10¹⁵10⁰10⁻³10⁻⁶10⁻⁹10⁻¹²FLOPs per MLP (log scale) →Mean propagation7.5 × 10⁻⁴Covariance propagation3.7 × 10⁻⁵source · 100 MLPs · ARC warm-up dataBlack-box baselineMonte Carloconvergence.Monte Carlo on 100 randomMLPs. Red bands showvariation across networks;the dashed line is themedian MSE.White-box points below theband beat sampling atcomparable compute.Figure 2Monte Carlo convergence. Pure Monte Carlo estimates the final-layer activation mean by buying more forward passes; plotted against the compute spent, its mean squared error falls steadily as the per-MLP FLOPs budget grows.The red bands summarize Monte Carlo error across 100 random MLPs as the sampling budget — the compute spent on forward-pass sampling per MLP — increases along the horizontal axis, measured in FLOPs (one black-box forward pass ≈1.06×106\\approx 1.06 \\times 10^{6}≈1.06×106 FLOPs). The dashed line is the median final-layer MSE across MLPs; nested bands show between-MLP spread. The vertical marker is the per-MLP budget Bm≈6.8×1010B_m \\approx 6.8 \\times 10^{10}Bm​≈6.8×1010 FLOPs. Baseline white-box methods such as mean propagation and covariance propagation appear as points because they spend compute inspecting weights and propagating distributional statistics rather than only sampling inputs. The challenge is to move below the red convergence curve under the same effective-compute budget: lower final-layer MSE, without exceeding Cm≤BmC_m \\le B_mCm​≤Bm​.04Evaluation and scoringThe live leaderboard is useful feedback; the final ranking comes from a fresh private rerun.For each evaluation MLP, the grader computes the final-layer mean squared error between your prediction and the Monte Carlo reference:MSEfinal,m=1n∑i(Y^L,i−YL,i)2\\mathrm{MSE}_{\\mathrm{final},m} = \\frac{1}{n}\\sum_i \\left(\\hat{Y}_{L,i} - Y_{L,i}\\right)^2MSEfinal,m​=n1​i∑​(Y^L,i​−YL,i​)24The per-MLP leaderboard score multiplies this by a compute-usage factor. Staying under the budget can help, but the improvement is capped so that an extremely cheap but inaccurate estimator cannot dominate by spending little compute.sm=MSEfinal,m⋅max⁡(0.1,  Cm/Bm)s_m = \\mathrm{MSE}_{\\mathrm{final},m} \\cdot \\max\\left(0.1,\\; C_m / B_m\\right)sm​=MSEfinal,m​⋅max(0.1,Cm​/Bm​)5The overall leaderboard score is the average of sms_msm​ across the evaluation suite. Lower is better.All-layer MSE, averaged across all L×nL \\times nL×n hidden activations, is reported as a secondary diagnostic. It helps reveal where approximation error accumulates across layers, but the primary score is the final-layer score.During each official phase, the grader evaluates submissions on a private suite of 100 randomly generated MLPs. Fifty contribute to live public feedback, while fifty are withheld until the phase closes. This keeps the leaderboard informative without making it too easy to overfit to visible scores.After Phase 2 closes, each team's designated final submission is rerun on a separate fresh private test suite. Prize ranking is decided exclusively from this final private rerun, not from the best public-leaderboard score observed during the competition.If leading submissions are statistically indistinguishable after the Private Re-evaluation, the Rules allow the Sponsor to generate additional MLPs from the same distribution for statistical disambiguation. If submissions remain tied after that, the tied ranks share the combined prize amounts for those positions.Public score vs. final prize rankThe public board helps you iterate. The final private rerun decides prize ranking.Failed-run fallbackIf a submission exceeds the budget, raises an exception, returns invalid shapes or non-finite values, exhausts memory, or trips an operational guard on a given MLP, the grader substitutes a zero prediction for that MLP and continues. No compute discount is applied to the fallback.Do not overfit the public boardThe final private suite uses different random MLPs. Strong submissions should generalize across the published generative distribution, not exploit visible leaderboard instances.05How to participateStart locally, validate the estimator contract, then submit a packaged tarball through AIcrowd.git clone https://github.com/AIcrowd/whest-starterkit.git\ncd whest-starterkit\nuv sync\nuv run python estimator.pyThe starter kit is structured as a staged ladder. Point your local runs at the public dataset's Mini split while you iterate. A good first milestone is one valid end-to-end submission, even before you have a strong score.1Iterate locallyuv run python estimator.pyCheck the math against a local Monte Carlo harness.2Validate contractuv run whest validate --estimator estimator.pyCatch shape, type, and packaging issues early.3Run on the public setuv run whest run --estimator estimator.py \\   --dataset hf://aicrowd/arc-whestbench-public-2026 \\   --split mini --runner localReal scoring against the public Mini split in a debuggable process.4Subprocess runneruv run whest run --estimator estimator.py \\   --dataset hf://aicrowd/arc-whestbench-public-2026 \\   --split mini --runner subprocessTest isolation closer to the grader.5Package and submituv run whest package -o submission.tar.gzuv run whest loginuv run whest submit submission.tar.gzBuild the tarball, authenticate, and upload your submission to AIcrowd.First milestoneYour first goal should be one valid end-to-end submission. Once the contract, packaging, and grader path work, you can improve the estimator.Open starter kitMake a submission06Rules that matter for first submissionThis is not a substitute for the Rules page, but it covers the constraints most likely to affect your first estimator.Submission formatSubmit executable code, including an estimator.py that follows the starter-kit contract. Do not submit prediction files.Submission capEach team may submit up to 50 entries per UTC day during each official Phase. The UTC-day counter resets at 00:00 UTC.TeamsUp to five eligible individuals per team, finalized by July 31, 2026, 23:59 UTC.HardwareCPU-only on the grader's standard instance: 16 vCPUs, 64 GB RAM, disabled network, and a 60-second hard wall-clock cap per MLP.Network accessNetwork access is disabled during evaluation. Bundle any allowed weights, lookup tables, dependencies, or precomputed artifacts in the submission tarball.Do not tamperDo not modify flopscope, read private seeds, access grader internals, or otherwise circumvent budget enforcement.LLM & autoresearchLLM-assisted and agentic development is welcome. You remain responsible for compliance, attribution, reproducibility, and any technical-writeup disclosures required by the Rules.Final submissionBefore Phase 2 ends (Sep 19, 2026, 23:59 UTC), designate one valid Phase 2 submission for the final private rerun. With no designation, Sponsor uses your best-scoring valid Phase 2 submission.Prize rankingDecided exclusively by the final private leaderboard from the fresh Private Re-evaluation suite. The public leaderboard is for iteration and does not determine prizes.Rules governIf anything on this Overview page conflicts with the official Rules or current starter kit, follow the Rules and starter kit.Autoresearch is welcomeUse LLMs, code agents, public resources, and metric-driven iteration if they help you discover better estimators.The one boundary is rule evasion: don't automate registration or mass uploads, tamper with flopscope, read private grader materials, or submit work you can't verify.Read the official policy →07Prizes and recognitionWhestBench rewards both leaderboard performance and algorithmic contribution.At launch, WhestBench has USD 100,000+ in prizes and recognition planned. The current Rules specify $100,000 USD in total place-prize ARV across score-based and algorithmic contribution prizes. Sponsor may increase prize amounts or offer additional prizes, and any changes will be announced on the Competition Site.Score-based placesFinal private leaderboard ranking1st place$50,0002nd place$20,0003rd place$10,000Beyond rankAlgorithmic contributionBest technical contribution to mechanistic estimation — judged on score, algorithmic ideas, and writeup quality.$20,000Community contributionDiscretionary recognition for helpful competition contributions.$500–5,000All amounts in USD · ARV.Participants are encouraged to submit a concise technical writeup that explains the method well enough for an independent practitioner to reproduce the prize-determining results. Only submissions with a technical writeup will be eligible for the algorithmic contribution prize.Recognition beyond rankStrong submissions may be valuable even when they are not first on the leaderboard. Clear explanations, useful algorithmic ideas, helpful bug reports, and community contributions may be recognized according to the Rules and any later announcements on the Competition Site.Winning place-prize submissions are subject to verification and open-source release requirements described in the Rules. The current Rules require place-prize winners to release the prize-determining solution code and required artifacts under an OSI-approved open-source license within 30 days of winner notification, and to keep the release publicly accessible for at least three years.08TimelineNowMay 28Jun 18Aug 1Sep 19Oct 1Warm-upsubmissions openPhase 1public boardPhase 2final submissionsDeadlinesubmissions closeWinnersTimelineFrom warm-up to tentative winners. The strip gives the shape of the schedule at a glance; the table below is the source for exact dates and times.Warm-upMay 28 – Jun 17May 28 · 00:00Resources released; submissions openJun 17 · 23:59Warm-up round endsPhase 1 · public leaderboardJun 18 – Jul 31Jun 18 · 00:00Public leaderboard opensJul 31 · 23:59Phase 1 ends; registration and team freezePhase 2 · final submissionsAug 1 – Sep 19Aug 1 · 00:00Final submission period opensSep 19 · 23:59Phase 2 ends; submissions closeEvaluation & resultsSep 20 – Oct 1Sep 20–30Private re-evaluation on a fresh held-out suite≈ Oct 1Tentative winner announcementAll times are UTC.09Resources and contactUse the starter kit for implementation details, the Rules page for official constraints, and the forum for public questions.CompeteParticipate on AIcrowdRegister, form a team, and submit through the platform.Challenge RulesOfficial constraints, eligibility, and prize terms.BuildWhestBench starter kitClone, implement your estimator, validate, and package a submission.Public dataset1,100 random MLPs on Hugging Face · Mini and Full splits.flopscopeThe NumPy-compatible FLOP-accounting library the grader uses.WhestBench ExplorerInspect generated MLPs and their activation statistics.Community & supportDiscussion forumPublic questions, clarifications, and announcements.GitHub IssuesReport bugs in the starter kit or flopscope.arc-whestbench@aicrowd.comPrivate or administrative matters.ResearchCompanion paperThe research behind the benchmark — arXiv:2605.05179.ARC announcementThe Alignment Research Center research post.If you use WhestBench in academic work, cite the companion paper:Wilson Wu, Victor Lecomte, Michael Winer, George Robinson, Jacob Hilton, and Paul Christiano. \"Estimating the expected output of wide random MLPs more efficiently than sampling.\" arXiv:2605.05179, 2026.The challenge is organized by Alignment Research Center in partnership with AIcrowd.Ready to submit your first estimator?Start with the starter kit, validate locally, then submit through AIcrowd. The first useful milestone is not leaderboard rank—it is one valid end-to-end submission.Make a submissionOpen starter kitRead the Rules",
+      "description": "00Overview01Why random02The task03Compute04Evaluation05Participate06Rules07Prizes08Timeline09ResourcesWhestBench 2026ARC × AIcrowdSubmissions openWhen can we know what a neural network does without running it?The ARC White-Box Estimation Challenge is a contest in compute-efficient mechanistic estimation. Given the weights of a neural network, can you predict its expected per-neuron activations more accurately than running it many times?The obvious way to learn how a model behaves is to run it many times and average what you observe. That works well when the behavior is common, cheap to elicit, and easy to sample. But when the behavior is rare, high-variance, or unlikely to appear in obvious test cases, brute-force testing can become an expensive way to learn very little.The ARC White-Box Estimation Challenge turns that question into a controlled benchmark. Participants receive randomly initialized ReLU MLPs and build executable estimators that predict each neuron's expected post-ReLU activation under standard-normal inputs.The goal is simple to state: beat comparable black-box sampling under a shared compute budget by using the network's weights. The strongest submissions may be Monte Carlo, white-box, hybrid, LLM-assisted, or something unexpected—the leaderboard will decide.TaskExecutable estimatorInputWeights + budgetOutputExpected activationsMetricFinal-layer MSEOfficial factsPrize pool$100,000 USD ARV$50K / $20K / $10K places · $20K algorithmic contributionSubmissions openMay 28, 2026 · 00:00 UTCPhase 2 closesSep 19, 2026 · 23:59 UTCDaily limit50 entries per team · per UTC day, each phaseGraderCPU-only 16 vCPU · 64 GB RAM · no networkHard cap60 s per MLPFinal rankingFresh private rerun of each team's designated Phase 2 submissionFig. 1\n  \n  \n\n  < !-- Header -- >\n  CHALLENGE · ESTIMATE THE EXPECTATION\n  \n    \n      .katex-display{margin:0 !important;}\n      Y^L,j≈EX∼N(0,In) ⁣[hj(L)(X)]\\hat Y_{L,j} \\approx \\mathbb{E}_{X\\sim\\mathcal{N}(0,I_n)}\\!\\left[h^{(L)}_{j}(X)\\right]Y^L,j​≈EX∼N(0,In​)​[hj(L)​(X)]\n    \n  \n\n  < !-- Column labels -- >\n  INPUT\n  NETWORK · RANDOM ReLU MLP\n  OUTPUT · Ê[ h⁽ᶽ⁾₃(X) ]\n\n  < !-- Input PDF -- >\n  \n    \n    \n      \n      \n      \n    \n    \n      +2\n      0\n      −2\n    \n    xᵢ\n    \n    \n    \n    \n    \n      \n      +1.51\n    \n  \n\n  < !-- Network -- >\n  \n    \n    \n    \n    \n    \n    h⁽ᶽ⁾₃\n    \n    \n    \n  \n\n  < !-- Output axis -- >\n  \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      7.5\n      8.0\n      8.5\n      9.0\n      9.5\n    \n    h⁽ᶽ⁾₃(X) · ×10⁻³\n    \n    \n    \n    Ê 8.6\n    \n    \n    µ̂ 8.3\n    Δ 3×10⁻⁴ERROR≈3.5% rel\n  \n\n  < !-- Method legend -- >\n  \n  \n    \n    MONTE CARLOBLACK-BOX · SAMPLE & AVERAGE\n    SAMPLING…\n    \n  \n  \n    \n    ANALYTICALWHITE-BOX · PROPAGATE THE DISTRIBUTION\n    PROPAGATING…\n    \n  \n\n  < !-- Cost band -- >\n  ← the contest lives here\n  \n    \n    \n    \n    \n    ≈ 15,000×\n  \n\n  YOUR BUDGET\n  \n  6.8×10¹⁰ FLOPs / MLP\n\n  \n  MONTE CARLO REFERENCE\n  10¹⁵ FLOPs / MLP\n\n  \n  \n    \n    \n    \n    \n    \n    \n  \n  \n    10¹⁰\n    10¹¹\n    10¹²\n    10¹³\n    10¹⁴\n    10¹⁵\n  \n  FLOPs (log₁₀ scale)\n\n  < !-- The question -- >\n  \n    \n    Can you beat sampling?\n  \n\n  < !-- Replay -- >\n  \n    \n    \n      \n      \n    \n    REPLAY\n  \nFigure 1The estimation problem, as a distributional computation. A generated ReLU MLP receives Gaussian inputs X∼N(0,In)X \\sim \\mathcal{N}(0, I_n)X∼N(0,In​), applies h(ℓ)=ReLU ⁣(W(ℓ)h(ℓ−1))h^{(\\ell)} = \\mathrm{ReLU}\\!\\left(W^{(\\ell)}h^{(\\ell-1)}\\right)h(ℓ)=ReLU(W(ℓ)h(ℓ−1)), and the submission must estimate E ⁣[hi(ℓ)(X)]\\mathbb{E}\\!\\left[h^{(\\ell)}_i(X)\\right]E[hi(ℓ)​(X)] for every hidden-layer neuron.Read the animation as two ways to estimate the same activation-mean matrix. The black-box path samples inputs, runs the network, and averages observed activations until the Monte Carlo mean stabilizes. The white-box path inspects W(1),…,W(L)W^{(1)}, \\dots, W^{(L)}W(1),…,W(L) and propagates enough distributional information to predict the same means under the participant budget. In the initial configuration, the target is an organizers' high-budget Monte Carlo reference of approximately 101510^{15}1015 FLOPs, compared with a participant budget of approximately 6.8×10106.8 \\times 10^{10}6.8×1010 FLOPs per MLP—roughly a 15,000×15{,}000\\times15,000× compute gap.Prizes$100K+Cash PrizesPrediction shape8 × 256hidden activationsBudget / MLP6.8e10FLOPs · initial configPhase 2 closesSep 192026 · 23:59 UTC01Why this starts with random networksThe benchmark isolates one hard part of white-box estimation: tracking how distributions move through nonlinear layers.White-box estimation for trained networks is the destination, not the starting line. Trained models introduce many confounders at once: data, optimization, learned structure, task semantics, and evaluation ambiguity. WhestBench begins with randomly initialized networks so participants can focus on the estimation problem in a simplified setting.The networks are synthetic, but the question is real. Given access to the weights, can an algorithm reason about the distribution of hidden activations more efficiently than repeatedly sampling inputs and averaging outputs?Random ReLU MLPs retain the same basic problem structure: each layer transforms a distribution, the ReLU nonlinearity reshapes it, and approximation error can accumulate with depth. The first challenge is to develop methods that work in this controlled setting; later work can ask how those methods adapt as networks acquire structure during training.The benchmark is controlled, but not trivial: the expected activation has no closed form for the full network, and sampling improves only slowly with more compute.Why not trained models first?Random networks offer a simplified setting for compute-efficient estimation while being an important stepping stone towards trained models.02The taskFor each MLP, return a matrix of expected post-ReLU activation means.For each evaluation network MθM_\\thetaMθ​, your estimator receives the MLP weights and a compute budget. It must return an L×nL \\times nL×n matrix Y^\\hat{Y}Y^. Entry (ℓ,i)(\\ell, i)(ℓ,i) should estimate the expected post-ReLU activation of neuron iii in hidden layer ℓ\\ellℓ when inputs are drawn from a standard Gaussian distribution.h(0)=X,h(ℓ)=ReLU(W(ℓ)h(ℓ−1)),ℓ=1,…,Lh^{(0)} = X, \\qquad h^{(\\ell)} = \\mathrm{ReLU}\\left(W^{(\\ell)}h^{(\\ell-1)}\\right), \\quad \\ell = 1, \\dots, Lh(0)=X,h(ℓ)=ReLU(W(ℓ)h(ℓ−1)),ℓ=1,…,L1Y^ℓ,i≈EX∼N(0,In)[hi(ℓ)(X)]\\hat{Y}_{\\ell,i} \\approx \\mathbb{E}_{X \\sim \\mathcal{N}(0, I_n)}\\left[h^{(\\ell)}_i(X)\\right]Y^ℓ,i​≈EX∼N(0,In​)​[hi(ℓ)​(X)]2The reference target is estimated by the organizers with a much larger Monte Carlo budget than participants receive. Your job is to match that reference as closely as possible under the participant budget.Evaluation network · per MLPWidth nnn256256256Hidden layers LLL888Weight initializationHe-Gaussian · variance 2/n2/n2/nInput distributionX∼N(0,In)X \\sim \\mathcal{N}(0, I_n)X∼N(0,In​)Prediction shape8×2568 \\times 2568×256 matrixPrimary metricFinal-layer MSE vs. a high-budget Monte Carlo referenceImportantThe submission is executable code, not a prediction file. The grader runs your estimator against held-out MLPs and scores the returned activation matrix.03Compute model and constraintsThe competition is budgeted by analytical FLOPs, not by who owns the fastest machine.The accounting library is flopscope, a NumPy-compatible interface that counts floating-point operations for instrumented operations. Code written through flopscope.numpy is charged analytically. Uninstrumented computation is allowed, but residual wall-clock time is converted back into FLOPs at an unfavorable rate.Cm=Fm+λRmC_m = F_m + \\lambda R_mCm​=Fm​+λRm​3Here FmF_mFm​ is the analytical FLOP count for MLP mmm, RmR_mRm​ is residual wall-clock time outside instrumented operations, and λ\\lambdaλ is the conversion rate published in the starter kit.import flopscope as flops\nimport flopscope.numpy as fnp\n\ndef predict(mlp, budget):\n    mus = []\n    mu = fnp.zeros(mlp.width)\n    var = fnp.ones(mlp.width)\n\n    for w in mlp.weights:\n        mu_pre = w.T @ mu\n        var_pre = (w * w).T @ var\n        sigma_pre = fnp.sqrt(fnp.maximum(var_pre, 1e-12))\n        alpha = mu_pre / sigma_pre\n        mu = mu_pre * flops.stats.norm.cdf(alpha) + sigma_pre * flops.stats.norm.pdf(alpha)\n        mus.append(mu)\n\n    return fnp.stack(mus)Budget ruleStay within the per-MLP budget on every network. Over-budget runs, exceptions, invalid shapes, non-finite values, memory failures, or wall-clock guard failures receive the zero-prediction fallback for that MLP.Grader environmentSubmissions run CPU-only with 16 vCPUs, 64 GB RAM, disabled network access, and a 60-second hard wall-clock cap per MLP.Fig. 2Bₘ — per-MLP budget (6.8 × 10¹⁰ FLOPs)10⁶10⁹10¹²10¹⁵10⁰10⁻³10⁻⁶10⁻⁹10⁻¹²FLOPs per MLP (log scale) →Mean propagation7.5 × 10⁻⁴Covariance propagation3.7 × 10⁻⁵source · 100 MLPs · ARC warm-up dataBlack-box baselineMonte Carloconvergence.Monte Carlo on 100 randomMLPs. Red bands showvariation across networks;the dashed line is themedian MSE.White-box points below theband beat sampling atcomparable compute.Figure 2Monte Carlo convergence. Pure Monte Carlo estimates the final-layer activation mean by buying more forward passes; plotted against the compute spent, its mean squared error falls steadily as the per-MLP FLOPs budget grows.The red bands summarize Monte Carlo error across 100 random MLPs as the sampling budget — the compute spent on forward-pass sampling per MLP — increases along the horizontal axis, measured in FLOPs (one black-box forward pass ≈1.06×106\\approx 1.06 \\times 10^{6}≈1.06×106 FLOPs). The dashed line is the median final-layer MSE across MLPs; nested bands show between-MLP spread. The vertical marker is the per-MLP budget Bm≈6.8×1010B_m \\approx 6.8 \\times 10^{10}Bm​≈6.8×1010 FLOPs. Baseline white-box methods such as mean propagation and covariance propagation appear as points because they spend compute inspecting weights and propagating distributional statistics rather than only sampling inputs. The challenge is to move below the red convergence curve under the same effective-compute budget: lower final-layer MSE, without exceeding Cm≤BmC_m \\le B_mCm​≤Bm​.04Evaluation and scoringThe live leaderboard is useful feedback; the final ranking comes from a fresh private rerun.For each evaluation MLP, the grader computes the final-layer mean squared error between your prediction and the Monte Carlo reference:MSEfinal,m=1n∑i(Y^L,i−YL,i)2\\mathrm{MSE}_{\\mathrm{final},m} = \\frac{1}{n}\\sum_i \\left(\\hat{Y}_{L,i} - Y_{L,i}\\right)^2MSEfinal,m​=n1​i∑​(Y^L,i​−YL,i​)24The per-MLP leaderboard score multiplies this by a compute-usage factor. Staying under the budget can help, but the improvement is capped so that an extremely cheap but inaccurate estimator cannot dominate by spending little compute.sm=MSEfinal,m⋅max⁡(0.1,  Cm/Bm)s_m = \\mathrm{MSE}_{\\mathrm{final},m} \\cdot \\max\\left(0.1,\\; C_m / B_m\\right)sm​=MSEfinal,m​⋅max(0.1,Cm​/Bm​)5The overall leaderboard score is the average of sms_msm​ across the evaluation suite. Lower is better.All-layer MSE, averaged across all L×nL \\times nL×n hidden activations, is reported as a secondary diagnostic. It helps reveal where approximation error accumulates across layers, but the primary score is the final-layer score.During each official phase, the grader evaluates submissions on a private suite of 100 randomly generated MLPs. Fifty contribute to live public feedback, while fifty are withheld until the phase closes. This keeps the leaderboard informative without making it too easy to overfit to visible scores.After Phase 2 closes, each team's designated final submission is rerun on a separate fresh private test suite. Prize ranking is decided exclusively from this final private rerun, not from the best public-leaderboard score observed during the competition.If leading submissions are statistically indistinguishable after the Private Re-evaluation, the Rules allow the Sponsor to generate additional MLPs from the same distribution for statistical disambiguation. If submissions remain tied after that, the tied ranks share the combined prize amounts for those positions.Public score vs. final prize rankThe public board helps you iterate. The final private rerun decides prize ranking.Failed-run fallbackIf a submission exceeds the budget, raises an exception, returns invalid shapes or non-finite values, exhausts memory, or trips an operational guard on a given MLP, the grader substitutes a zero prediction for that MLP and continues. No compute discount is applied to the fallback.Do not overfit the public boardThe final private suite uses different random MLPs. Strong submissions should generalize across the published generative distribution, not exploit visible leaderboard instances.05How to participateStart locally, validate the estimator contract, then submit a packaged tarball through AIcrowd.git clone https://github.com/AIcrowd/whest-starterkit.git\ncd whest-starterkit\nuv sync\nuv run python estimator.pyThe starter kit is structured as a staged ladder. Point your local runs at the public dataset's Mini split while you iterate. A good first milestone is one valid end-to-end submission, even before you have a strong score.1Iterate locallyuv run python estimator.pyCheck the math against a local Monte Carlo harness.2Validate contractuv run whest validate --estimator estimator.pyCatch shape, type, and packaging issues early.3Run on the public setuv run whest run --estimator estimator.py \\   --dataset hf://aicrowd/arc-whestbench-public-2026 \\   --split mini --runner localReal scoring against the public Mini split in a debuggable process.4Subprocess runneruv run whest run --estimator estimator.py \\   --dataset hf://aicrowd/arc-whestbench-public-2026 \\   --split mini --runner subprocessTest isolation closer to the grader.5Package and submituv run whest package -o submission.tar.gzuv run whest loginuv run whest submit submission.tar.gzBuild the tarball, authenticate, and upload your submission to AIcrowd.First milestoneYour first goal should be one valid end-to-end submission. Once the contract, packaging, and grader path work, you can improve the estimator.Open starter kitMake a submission06Rules that matter for first submissionThis is not a substitute for the Rules page, but it covers the constraints most likely to affect your first estimator.Submission formatSubmit executable code, including an estimator.py that follows the starter-kit contract. Do not submit prediction files.Submission capEach team may submit up to 50 entries per UTC day during each official Phase. The UTC-day counter resets at 00:00 UTC.TeamsUp to five eligible individuals per team, finalized by July 31, 2026, 23:59 UTC.HardwareCPU-only on the grader's standard instance: 16 vCPUs, 64 GB RAM, disabled network, and a 60-second hard wall-clock cap per MLP.Network accessNetwork access is disabled during evaluation. Bundle any allowed weights, lookup tables, dependencies, or precomputed artifacts in the submission tarball.Do not tamperDo not modify flopscope, read private seeds, access grader internals, or otherwise circumvent budget enforcement.LLM & autoresearchLLM-assisted and agentic development is welcome. You remain responsible for compliance, attribution, reproducibility, and any technical-writeup disclosures required by the Rules.Final submissionBefore Phase 2 ends (Sep 19, 2026, 23:59 UTC), designate one valid Phase 2 submission for the final private rerun. With no designation, Sponsor uses your best-scoring valid Phase 2 submission.Prize rankingDecided exclusively by the final private leaderboard from the fresh Private Re-evaluation suite. The public leaderboard is for iteration and does not determine prizes.Rules governIf anything on this Overview page conflicts with the official Rules or current starter kit, follow the Rules and starter kit.Autoresearch is welcomeUse LLMs, code agents, public resources, and metric-driven iteration if they help you discover better estimators.The one boundary is rule evasion: don't automate registration or mass uploads, tamper with flopscope, read private grader materials, or submit work you can't verify.Read the official policy →07Prizes and recognitionWhestBench rewards both leaderboard performance and algorithmic contribution.At launch, WhestBench has USD 100,000+ in prizes and recognition planned. The current Rules specify $100,000 USD in total place-prize ARV across score-based and algorithmic contribution prizes. Sponsor may increase prize amounts or offer additional prizes, and any changes will be announced on the Competition Site.Score-based placesFinal private leaderboard ranking1st place$50,0002nd place$20,0003rd place$10,000Beyond rankAlgorithmic contributionBest technical contribution to mechanistic estimation — judged on score, algorithmic ideas, and writeup quality.$20,000Community contributionDiscretionary recognition for helpful competition contributions.$500–5,000All amounts in USD · ARV.Participants are encouraged to submit a concise technical writeup that explains the method well enough for an independent practitioner to reproduce the prize-determining results. Only submissions with a technical writeup will be eligible for the algorithmic contribution prize.Recognition beyond rankStrong submissions may be valuable even when they are not first on the leaderboard. Clear explanations, useful algorithmic ideas, helpful bug reports, and community contributions may be recognized according to the Rules and any later announcements on the Competition Site.Winning place-prize submissions are subject to verification and open-source release requirements described in the Rules. The current Rules require place-prize winners to release the prize-determining solution code and required artifacts under an OSI-approved open-source license within 30 days of winner notification, and to keep the release publicly accessible for at least three years.08TimelineNowMay 28Jun 18Aug 1Sep 19Oct 1Warm-upsubmissions openPhase 1public boardPhase 2final submissionsDeadlinesubmissions closeWinnersTimelineFrom warm-up to tentative winners. The strip gives the shape of the schedule at a glance; the table below is the source for exact dates and times.Warm-upMay 28 – Jun 17May 28 · 00:00Resources released; submissions openJun 17 · 23:59Warm-up round endsPhase 1 · public leaderboardJun 18 – Jul 31Jun 18 · 00:00Public leaderboard opensJul 31 · 23:59Phase 1 ends; registration and team freezePhase 2 · final submissionsAug 1 – Sep 19Aug 1 · 00:00Final submission period opensSep 19 · 23:59Phase 2 ends; submissions closeEvaluation & resultsSep 20 – Oct 1Sep 20–30Private re-evaluation on a fresh held-out suite≈ Oct 1Tentative winner announcementAll times are UTC.09Resources and contactUse the starter kit for implementation details, the Rules page for official constraints, and the forum for public questions.CompeteParticipate on AIcrowdRegister, form a team, and submit through the platform.Challenge RulesOfficial constraints, eligibility, and prize terms.BuildWhestBench starter kitClone, implement your estimator, validate, and package a submission.Public dataset1,100 random MLPs on Hugging Face · Mini and Full splits.flopscopeThe NumPy-compatible FLOP-accounting library the grader uses.WhestBench ExplorerInspect generated MLPs and their activation statistics.Community & supportDiscussion forumPublic questions, clarifications, and announcements.GitHub IssuesReport bugs in the starter kit or flopscope.arc-whestbench@aicrowd.comPrivate or administrative matters.ResearchCompanion paperThe research behind the benchmark — arXiv:2605.05179.ARC announcementThe Alignment Research Center research post.If you use WhestBench in academic work, cite the companion paper:Wilson Wu, Victor Lecomte, Michael Winer, George Robinson, Jacob Hilton, and Paul Christiano. \"Estimating the expected output of wide random MLPs more efficiently than sampling.\" arXiv:2605.05179, 2026.The challenge is organized by Alignment Research Center in partnership with AIcrowd.Ready to submit your first estimator?Start with the starter kit, validate locally, then submit through AIcrowd. The first useful milestone is not leaderboard rank—it is one valid end-to-end submission.Make a submissionOpen starter kitRead the Rules",
       "summary": "00Overview01Why random02The task03Compute04Evaluation05Participate06Rules07Prizes08Timeline09ResourcesWhestBench 2026ARC × AIcrowdSubmissions openWhen can we know what a neural network does without ru...",
       "contestType": "code",
       "status": "ended",
@@ -39,9 +39,9 @@
         "eligibility"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:48.750Z",
-      "scrapedAt": "2026-06-17T04:27:40.628Z",
-      "lastUpdated": "2026-06-17T04:28:48.750Z",
+      "processedAt": "2026-06-17T15:45:18.053Z",
+      "scrapedAt": "2026-06-17T15:44:07.679Z",
+      "lastUpdated": "2026-06-17T15:45:18.053Z",
       "version": 1
     },
     {
@@ -67,9 +67,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:49.635Z",
-      "scrapedAt": "2026-06-17T04:27:40.628Z",
-      "lastUpdated": "2026-06-17T04:28:49.635Z",
+      "processedAt": "2026-06-17T15:45:18.856Z",
+      "scrapedAt": "2026-06-17T15:44:07.679Z",
+      "lastUpdated": "2026-06-17T15:45:18.856Z",
       "version": 1
     },
     {
@@ -83,7 +83,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T04:27:40.628Z",
+      "deadline": "2030-08-14T15:44:07.680Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -94,9 +94,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:49.720Z",
-      "scrapedAt": "2026-06-17T04:27:40.628Z",
-      "lastUpdated": "2026-06-17T04:28:49.720Z",
+      "processedAt": "2026-06-17T15:45:18.964Z",
+      "scrapedAt": "2026-06-17T15:44:07.680Z",
+      "lastUpdated": "2026-06-17T15:45:18.964Z",
       "version": 1
     },
     {
@@ -110,7 +110,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T04:27:40.629Z",
+      "deadline": "2045-08-31T15:44:07.680Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -121,9 +121,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:49.674Z",
-      "scrapedAt": "2026-06-17T04:27:40.629Z",
-      "lastUpdated": "2026-06-17T04:28:49.674Z",
+      "processedAt": "2026-06-17T15:45:18.978Z",
+      "scrapedAt": "2026-06-17T15:44:07.680Z",
+      "lastUpdated": "2026-06-17T15:45:18.978Z",
       "version": 1
     },
     {
@@ -137,7 +137,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T04:27:40.629Z",
+      "deadline": "2030-12-30T15:44:07.681Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -151,9 +151,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:49.694Z",
-      "scrapedAt": "2026-06-17T04:27:40.629Z",
-      "lastUpdated": "2026-06-17T04:28:49.694Z",
+      "processedAt": "2026-06-17T15:45:18.993Z",
+      "scrapedAt": "2026-06-17T15:44:07.681Z",
+      "lastUpdated": "2026-06-17T15:45:18.993Z",
       "version": 1
     },
     {
@@ -167,7 +167,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2027-06-17T04:27:40.630Z",
+      "deadline": "2027-06-16T15:44:07.682Z",
       "prize": "TBD",
       "tags": [
         "#classroom"
@@ -180,9 +180,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:49.877Z",
-      "scrapedAt": "2026-06-17T04:27:40.630Z",
-      "lastUpdated": "2026-06-17T04:28:49.877Z",
+      "processedAt": "2026-06-17T15:45:19.160Z",
+      "scrapedAt": "2026-06-17T15:44:07.682Z",
+      "lastUpdated": "2026-06-17T15:45:19.160Z",
       "version": 1
     },
     {
@@ -208,9 +208,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:50.835Z",
-      "scrapedAt": "2026-06-17T04:27:40.630Z",
-      "lastUpdated": "2026-06-17T04:28:50.835Z",
+      "processedAt": "2026-06-17T15:45:20.176Z",
+      "scrapedAt": "2026-06-17T15:44:07.691Z",
+      "lastUpdated": "2026-06-17T15:45:20.176Z",
       "version": 1
     },
     {
@@ -234,9 +234,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:50.853Z",
-      "scrapedAt": "2026-06-17T04:27:40.632Z",
-      "lastUpdated": "2026-06-17T04:28:50.853Z",
+      "processedAt": "2026-06-17T15:45:20.180Z",
+      "scrapedAt": "2026-06-17T15:44:07.692Z",
+      "lastUpdated": "2026-06-17T15:45:20.180Z",
       "version": 1
     },
     {
@@ -263,9 +263,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:50.835Z",
-      "scrapedAt": "2026-06-17T04:26:47.354Z",
-      "lastUpdated": "2026-06-17T04:28:50.835Z",
+      "processedAt": "2026-06-17T15:45:20.187Z",
+      "scrapedAt": "2026-06-17T15:43:22.654Z",
+      "lastUpdated": "2026-06-17T15:45:20.187Z",
       "version": 1
     },
     {
@@ -292,9 +292,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:50.869Z",
-      "scrapedAt": "2026-06-17T04:26:47.354Z",
-      "lastUpdated": "2026-06-17T04:28:50.869Z",
+      "processedAt": "2026-06-17T15:45:20.178Z",
+      "scrapedAt": "2026-06-17T15:43:22.654Z",
+      "lastUpdated": "2026-06-17T15:45:20.178Z",
       "version": 1
     },
     {
@@ -321,9 +321,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:50.975Z",
-      "scrapedAt": "2026-06-17T04:26:47.354Z",
-      "lastUpdated": "2026-06-17T04:28:50.975Z",
+      "processedAt": "2026-06-17T15:45:20.402Z",
+      "scrapedAt": "2026-06-17T15:43:22.654Z",
+      "lastUpdated": "2026-06-17T15:45:20.402Z",
       "version": 1
     },
     {
@@ -331,14 +331,18 @@
       "title": "Build with Gemini XPRIZE",
       "platform": "devpost",
       "url": "https://xprize.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/original.png",
+      "description": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Ship Deploy a business that operates with AI. Real users in production. 04 Sell Market it. Grow it. Show the revenue. AI is transforming everything, including what small teams can build. Operations that used to take entire engineering departments can now be written in plain English and executed by AI agents. By some estimates, the world’s 45 million software developers will grow to over a billion in the next few years. Everyone will be a developer, and we want to start now, with you. So show us: build a real business that makes real impact.",
+      "summary": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Shi...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-17T20:00:00.000Z",
       "prize": "$2,000,000",
-      "tags": [],
+      "tags": [
+        "Education",
+        "Productivity"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -347,9 +351,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:51.984Z",
-      "scrapedAt": "2026-06-17T04:27:14.665Z",
-      "lastUpdated": "2026-06-17T04:28:51.984Z",
+      "processedAt": "2026-06-17T15:45:21.412Z",
+      "scrapedAt": "2026-06-17T15:43:23.553Z",
+      "lastUpdated": "2026-06-17T15:45:21.412Z",
       "version": 1
     },
     {
@@ -357,14 +361,19 @@
       "title": "H0: Hack the Zero Stack with Vercel v0 and AWS Databases",
       "platform": "devpost",
       "url": "https://h01.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/189/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/189/datas/original.png",
+      "description": "You no longer need to choose between shipping quickly and using data infrastructure that will hold up in real-world traffic and scale. With the integration between AWS Databases and Vercel, the application you prototype over a weekend can run on the same data foundation that startups and enterprises use for production deployment. You can focus on building and iterating on your product quickly on an operationally proven database from day one. Use Vercel’s v0 to scaffold a production-ready Next.js frontend and connect it to one of three AWS Databases: Amazon Aurora PostgreSQL Aurora DSQL, or DynamoDB. Build a full-stack application that could actually go to production in minutes. Why join? $80,000 in cash prizes and an additional $80,000 in AWS credits! Get hands-on with a production stack: AWS Databases and Vercel Build something real – judges are looking for shippable software, not just demos Get Started Sign up for a v0.app account if you don’t already have one Fill out the request form to get AWS & v0 Credits Choose and provision your AWS Databases Build. Ship. Submit!",
+      "summary": "You no longer need to choose between shipping quickly and using data infrastructure that will hold up in real-world traffic and scale. With the integration between AWS Databases and Vercel, the applic...",
+      "contestType": "image",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-06-30T00:00:00.000Z",
       "prize": "$80,000",
-      "tags": [],
+      "tags": [
+        "Databases",
+        "Open Ended",
+        "Web"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -373,9 +382,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:51.978Z",
-      "scrapedAt": "2026-06-17T04:27:14.666Z",
-      "lastUpdated": "2026-06-17T04:28:51.978Z",
+      "processedAt": "2026-06-17T15:45:21.354Z",
+      "scrapedAt": "2026-06-17T15:43:23.554Z",
+      "lastUpdated": "2026-06-17T15:45:21.354Z",
       "version": 1
     },
     {
@@ -383,15 +392,17 @@
       "title": "USAII® Global AI Hackathon 2026",
       "platform": "devpost",
       "url": "https://usaii-global-ai-hackathon-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/384/098/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/384/098/datas/original.png",
+      "description": "USAII Global AI Hackathon 2026 Registration is Closed (June 6 11:59 pm ET)Hackathon Kickoff June 14 10:00 am ET:USAII_Hackathon_2026_Kickoff.pdfUSAII_Hackathon_2026_Kickoff.pptxhttps://youtu.be/cYA5GDck6zkUSAII_Hackathon_2026_Kickoff_QA.docxA worldwide virtual student innovation program empowering the next generation to build responsible AI solutions for real-world impact. About the Challenge The USAII Global AI Hackathon is designed to scale to tens of thousands of students globally while maintaining quality, fairness, and meaningful outcomes. This isn't just another hackathon—it's a movement where students across continents tackle authentic challenges using public or synthetic data, learning to innovate responsibly from day one. What Makes This Different Two-Phase Quality Design – An AI-powered qualifier ensures teams are ready before building INFORMS-Aligned Evaluation – Projects judged on problem understanding, AI reasoning, and responsible design—not just code Global Accessibility – Fully asynchronous content with support across 3 time zones via Discord community Real-World Challenges – All challenges grounded in actual nonprofit and community needs Responsible AI First – Ethics and human oversight are core to every submission No Paid Tool Advantage – Judges do not favor paid AI tools over free alternatives Two-Phase Structure Phase 1: AI Readiness Qualifier (REQUIRED) - https://qualifier.usaii.org/ Apply between: June 7-10, 2026 Results announced: June 12, 2026To ensure a high-quality and fair competition, all registered teams will complete a short AI Readiness Qualifier one week before the hackathon begins. This will be used to down select teams if registrations exceed judging capacity. It is a scalability and quality safeguard that confirms teams are real and active, ensures teams understands a challenge, can think critically about AI solutions, and are prepared to participate. Teams will answer a series of brief prompts about a hypothetical scenario, including the problem, users, AI approach, and ethical considerations.Responses are automatically evaluated using an AI-assisted scoring rubric that assesses problem understanding, AI thinking, responsible AI awareness, and clarity of communication. The qualifier typically takes 30 minutes to complete and does not require building anything. Based on scoring and capacity limits, the highest-ranked teams will advance to the hackathon. Teams will receive their results and advancement status via email and through the hackathon platform shortly after the qualifier closes.The AI Readiness Qualifier Access is sent via email on June 7, 2026 at 10:00 AM ET and will have until 11:59 PM EST on June 10, 2026 to submit their responses . Qualified teams receive approval codes and advance to Phase 2. Phase 2: Hackathon Build (Qualified Teams Only) June 14-21, 2026 Kickoff: June 14, 10:00 AM ET (livestream and recorded) https://webinar.zoho.in/meeting/register?sessionId=1371179302 Submission deadline: June 21, 11:59 PM ET All qualified teams across all tracks build during the same 1-week window ⚠️ **Devpost registration does NOT guarantee participation. You MUST pass the qualifier to advance.** Three Tracks (Final Briefs shared at Kickoff on June 14 10:00am ET) High School Track (Grades 9-12) AI for Everyday Good Build AI tools that help people find support, understand information, or take environmental action in their local community. Challenge Directions: Community: Help is Hard to Find — Make Support ObviousChallenge_Brief_1_HS_Help_Is_Hard_To_Find.pdf Environment: Make Climate Action Local and RealChallenge_Brief_2_HS_Climate_Action.pdf Undergraduate Track AI for Life & Work Build decision-support tools, navigation systems, or AI assistants that help people manage life, work, and essential services. Challenge Directions: Productivity: Build the \"Second Brain\" for Real LifeChallenge_Brief_3_UG_Second_Brain.pdf Public Services: Fix Systems People Depend OnChallenge_Brief_3_UG_Second_Brain.pdf Graduate Track (Master's & PhD) AI for Systems & Society Build advanced AI systems for risk detection, policy simulation, community readiness assessment, or infrastructure optimization. Challenge Directions: Human Safety & Protection: Build AI Systems That Protect People from HarmChallenge_Brief_5_GRAD_Human_Safety.pdf Public Systems & Policy: Build AI That Helps Communities Make Better DecisionsChallenge_Brief_6_GRAD_Community_AI.pdf Prizes US $15,000 in Cash Prizes + USAII AI Certification Scholarships Each track awards: - 🥇 Grand Prize: US $2,500 + Scholarship - 🥈 Runner Up: US $1,500 + Scholarship - 🥉 Third Place: US $500 + Scholarship - 🌟 Best Responsible AI Design: US $250 + Scholarship - 💡 Best Social Impact: US $250 + Scholarship Prize Distribution Cash prizes are awarded to the team and disbursed to the designated team leader or nominated recipient. Teams are responsible for internal distribution. International payments are processed in USD via wire transfer or a global payment platform. Scholarships & Certificates USAII AI Certification scholarships and certificates are issued individually to every registered team member. Prize Timeline Winners are announced at the Global Awards Showcase on June 27, 2026. Prize disbursement occurs within 30–45 days, pending receipt of all required payment and compliance information. Requirements Winning teams will be asked to provide payment details and required tax documentation (W-9 for U.S. residents; W-8BEN for international participants). For teams with members under 18, a parent or guardian must be the named prize recipient. Questions: aihackathon@usaii.org Get Started Phase 1: Pre-Registration (Now) - Program setup and platform preparation Phase 2: Registration & Team Formation (April 26 - June 6) April 26: Registration opens on Devpost April-June: Form teams (2-5 members), use Discord for matchmaking June 6: Registration closes Phase 3: AI Readiness Qualifier (June 7 10:00 am ET - June 10 11:59 pm ET) All tracks complete qualifier during same 4-day window Scoring and evaluation June 11-12 Phase 4: Qualifier Approval (June 12 11:59 pm ET) Results announced, approval codes sent to qualified teams Phase 5: Hackathon Build (June 14-21) June 14, 10:00 AM ET: Global kickoff livestream (all tracks) June 14-21: Build period June 21, 11:59 PM ET: All submissions due Phase 6: Judging (June 22-25) June 22-23: Validation & screening June 23-25: Judge scoring June 25-26: Panel deliberation Phase 7: Showcase (June 27) June 27, 10:00 AM ET: Global awards ceremony (livestream and recorded) How to Participate Step 1: Register Individually (April 26 - June 6) Sign up on Devpost Answer registration questions about your track, skills, and team status Step 2: Form Your Team (April-June) Create or join a team (2-5 members required) Use Discord #team-formation for matchmaking Team members can be from different schools or countries Teams must compete within the track aligned with their highest education level Mixed teams must register in the highest-level track represented Devpost assigns your Team ID Step 3: Complete Team Qualifier (June 7-10) https://qualifier.usaii.org/ Answer 8 prompts demonstrating AI thinking Takes 30 minutes to complete Receive results June 12 Step 4: Build (If Qualified) Attend kickoff June 14, 10:00 AM ET (recorded) Build during June 14-21 Submit project with qualifier approval code by June 21, 11:59 PM ET Step 5: Judging & Awards Projects judged by industry professionals Winners announced June 27 10:00 am ET Join the Community Discord: https://discord.gg/ePjenJnyh4Connect with participants, find teammates, get mentor support, receive updates Qualifir Email: hackathon.qualifier@usaii.org General questions and support Hackathon Email: aihackathon@usaii.org General questions and support Website: https://aihackathon.usaii.org/ ; Complete program information Questions? See our FAQ page or join Discord #help-desk Ready to build AI for good? Register starting April 26!",
+      "summary": "USAII Global AI Hackathon 2026 Registration is Closed (June 6 11:59 pm ET)Hackathon Kickoff June 14 10:00 am ET:USAII_Hackathon_2026_Kickoff.pdfUSAII_Hackathon_2026_Kickoff.pptxhttps://youtu.be/cYA5GD...",
+      "contestType": "code",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-06-22T03:45:00.000Z",
       "prize": "$15,000",
       "tags": [
-        "ai"
+        "Beginner Friendly",
+        "Social Good"
       ],
       "aiTools": [
         "Python",
@@ -399,11 +410,17 @@
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
+      "requirements": [
+        "W-8BEN for international participants). For teams with members under 18",
+        "approval codes sent to qualified teams Phase 5: Hackathon Build (June 14-21) June 14",
+        "10:00 AM ET: Global kickoff livestream (all tracks) June 14-21: Build period June 21",
+        "skills",
+        "find teammates"
+      ],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:51.984Z",
-      "scrapedAt": "2026-06-17T04:27:14.667Z",
-      "lastUpdated": "2026-06-17T04:28:51.984Z",
+      "processedAt": "2026-06-17T15:45:21.359Z",
+      "scrapedAt": "2026-06-17T15:43:23.555Z",
+      "lastUpdated": "2026-06-17T15:45:21.359Z",
       "version": 1
     },
     {
@@ -411,15 +428,17 @@
       "title": "Global AI Hackathon Series with Qwen Cloud",
       "platform": "devpost",
       "url": "https://qwencloud-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/706/870/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/706/870/datas/original.png",
+      "description": "Build production-ready agents on Qwen — and show the world what an agent can do. The Global AI Hackathon with Qwen Cloud invites professional developers, AI/ML engineers, and builders to design and ship sophisticated multi-agent systems, complex AI workflows, and production-grade applications using Qwen and other flagship models available on Qwen Cloud infrastructure. With advanced reasoning and multimodal capabilities, QwenCloud is built for builders who care about architectural depth and engineering excellence. Pick a track and build something real. Compete for total $70,000+ in cash and cloud credits, get featured on the Qwen Cloud blog, and earn an invite to join the AI Catalyst program. Why Join Build with Qwen Cloud. Access Qwen and other flagship models with advanced reasoning and multimodal understanding — all on Qwen Cloud infrastructure purpose-built for production AI. Get free Qwen Cloud credits to build, deploy, and scale your agent. Win a total of $70,000+ in cash and cloud credits plus blog features, swag, and an invite to the AI Catalyst program for standout teams. Get started Register on Devpost (2 minutes) Sign up for Qwen Cloud. Click here to Sign up for your free trial and request your free hackathon credits via our coupon form. To learn more about the hackathon you can check here.(5 minutes) Join the Qwen Cloud Discord (2 minutes) Pick your track, review the sample projects and reference architecture in the Resources and start building. (30 minutes to first run)",
+      "summary": "Build production-ready agents on Qwen — and show the world what an agent can do. The Global AI Hackathon with Qwen Cloud invites professional developers, AI/ML engineers, and builders to design and sh...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-07-09T21:00:00.000Z",
       "prize": "$45,000",
       "tags": [
-        "ai"
+        "Design",
+        "Productivity"
       ],
       "aiTools": [
         "Python",
@@ -429,9 +448,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:51.992Z",
-      "scrapedAt": "2026-06-17T04:27:14.668Z",
-      "lastUpdated": "2026-06-17T04:28:51.992Z",
+      "processedAt": "2026-06-17T15:45:21.355Z",
+      "scrapedAt": "2026-06-17T15:43:23.556Z",
+      "lastUpdated": "2026-06-17T15:45:21.355Z",
       "version": 1
     },
     {
@@ -439,25 +458,36 @@
       "title": "UiPath AgentHack",
       "platform": "devpost",
       "url": "https://uipath-agenthack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/624/515/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/624/515/datas/original.jpg",
+      "description": "UiPath AgentHack is the UiPath Community global online hackathon for developers, automation engineers, data scientists, AI engineers, students, and professionals who want to go beyond basic automation and build agentic solutions that work in enterprise environments. Over 7 weeks, you'll design and ship a real, working solution on the UiPath Platform™. Not a concept, nor a slide deck, but a working solution that handles complexity, survives interruptions, keeps humans in the loop, and solves something that matters. UiPath AgentHack challenges you to build, run, and orchestrate real agentic solutions on the UiPath Platform, the single enterprise control plane that coordinates AI agents, automations, people, and applications end to end. Whether you build with UiPath's native capabilities or combine them with frameworks like LangChain, CrewAI, or AutoGen, your solution must use UiPath as the execution and orchestration layer. Check out the Forum thread if you want to connect with fellow participants, see their questions or find a teammate. We have $50,000 in cash prizes and three challenge tracks built around the most critical capabilities in enterprise agentic AI. Pick the track that best fits your project and submit: Track 1: UiPath Maestro Case Track 2: UiPath Maestro BPMN Track 3: UiPath Test Cloud About the challenge Coding agents have redefined how we build and the real value now lies in how we operate and govern agents at scale, bridging the gap between a prototype on a laptop and software running in production. UiPath AgentHack is built around that challenge. At the center of this hackathon is UiPath for Coding Agents, a platform-wide capability that enables developers to use coding agents (Claude Code, Codex, Cursor, and Gemini CLI, etc) to build, test, deploy, operate, and govern enterprise automations. Using natural language, you'll design AI agents that drive tangible business value, with full support for external frameworks such as LangChain, CrewAI, and AutoGen. The three challenge tracks are built around real-world enterprise problems that require coordination, adaptability, and orchestration at scale: structured process orchestration with Maestro BPMN, agentic case management for dynamic and exception-heavy work, and agentic software testing for AI-driven automations. Throughout the 7-week hacking period, UiPath will host community meetups, office hours, and will offer enablement resources to help you get up to speed with the platform and refine your solution. Track 1: UiPath Maestro Case. Build a solution that orchestrates dynamic, exception-heavy business processes using UiPath case management capabilities. Your solution should move work through stages, involve handoffs between agents, robots, and people, and keep humans in charge at key decision points. Agents within your case flow can be built on UiPath or an external framework; the platform handles coordination regardless of where the agents come from. Think about scenarios like: insurance claims processing where cases move through intake, investigation, and settlement stages; patient care coordination where agents manage referrals, scheduling, and follow-ups across providers; HR onboarding workflows where each new hire case progresses through document collection, system provisioning, and training assignment. Track 2: UiPath Maestro BPMN. Build a solution that models and runs an end-to-end business process using BPMN 2.0 in UiPath Maestro. Your process should orchestrate humans, robots, agents, and APIs through a defined flow with clear tasks, decisions, and handoffs. Agents within the process can be built with UiPath Agent Builder, coding agents, or external frameworks like LangChain, CrewAI, AutoGen, or any other agent platform. We want to see processes that move work cleanly from start to finish, with the right actor doing the right task at the right time. Think about scenarios like: An order-to-cash workflow where RPA pulls orders from email, EDI, and portals, an agent normalizes line items and flags pricing exceptions, and Maestro BPMN orchestrates credit checks, inventory allocation, fulfillment, and invoicing across ERP and CRM in a defined sequence. A collections agent monitors aging invoices and escalates disputes to finance for review. Or a procure-to-pay process where agents parse requisition intent, recommend vendors, and route approvals based on budget thresholds and category rules, RPA handles PO creation and invoice ingestion across ERP and AP systems, and an invoice agent reconciles discrepancies between PO, receipt, and invoice, escalating only true exceptions to AP for human review. Maestro BPMN keeps the full flow coordinated from requisition to payment Track 3: UiPath Test Cloud. Create agents that use UiPath Test Cloud to reimagine how software testing is designed, automated, executed, and managed across modern enterprise environments. Your goal is to show how agentic software testing can improve quality across AI-driven automations, enterprise applications, and connected business workflows. These agents should help you move faster with more confidence by increasing coverage, improving reliability, and reducing the manual effort required to validate complex systems. Think of building agents that can: evaluate requirements and turn them into meaningful test scenarios, identify fragile or outdated tests before they slow down a release, recommend fixes when automation breaks, or help orchestrate the right tests at the right time based on risk, coverage, and change impact. You might also explore how agents can validate AI-infused workflows, including third-party agents or AI services that participate in a UiPath-orchestrated process. All solutions must run on the UiPath Automation Cloud. You can include Agent Builder, Maestro, API Workflows, coding agents, and RPA where needed. You're welcome to bring in agents built on external frameworks and LLMs, in fact, we encourage it. The point is that UiPath is the orchestration and governance layer that ties everything together. Tip: If your process has unpredictable paths that emerge as the work unfolds, choose Track 1 - UiPath Maestro Case. If your process has a predictable sequence you can map in advance, choose Track 2 - UiPath Maestro BPMN. Bonus: solutions that use coding agents through UiPath for Coding Agents (Claude Code, Codex, Cursor, Gemini CLI, etc) will receive additional points during judging. We're especially interested in seeing how participants combine coding agents with low-code components, or blend UiPath-native agents with external agents, to solve complex problems You can't submit the same project to multiple tracks, and your solution needs to clearly align with whichever track you choose, both in how it's built and how it's described. Get started Register on Devpost for UiPath AgentHack. Form or join a team of 1 to 4 people and pick your track. Ask for access on UiPath Labs here: Teams must designate a representative to complete the access form on behalf of the group. Within 3 business days of asking for access, you'll receive a separate email with your UiPath Labs access link and credentials. UiPath Labs come fully equipped with agentic and AI units, so you can build without constraints.",
+      "summary": "UiPath AgentHack is the UiPath Community global online hackathon for developers, automation engineers, data scientists, AI engineers, students, and professionals who want to go beyond basic automation...",
+      "contestType": "image",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-06-30T03:45:00.000Z",
       "prize": "$50,000",
-      "tags": [],
+      "tags": [
+        "llm",
+        "Enterprise",
+        "Robotic Process Automation"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
+      "requirements": [
+        "and turn them into meaningful test scenarios",
+        "identify fragile or outdated tests before they slow down a release",
+        "recommend fixes when automation breaks",
+        "or help orchestrate the right tests at the right time based on risk",
+        "coverage"
+      ],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:52.100Z",
-      "scrapedAt": "2026-06-17T04:27:14.671Z",
-      "lastUpdated": "2026-06-17T04:28:52.100Z",
+      "processedAt": "2026-06-17T15:45:21.477Z",
+      "scrapedAt": "2026-06-17T15:43:23.556Z",
+      "lastUpdated": "2026-06-17T15:45:21.477Z",
       "version": 1
     },
     {
@@ -465,14 +495,20 @@
       "title": "Slack Agent Builder Challenge",
       "platform": "devpost",
       "url": "https://slackhack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/685/418/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/685/418/datas/original.png",
+      "description": "The next era of productivity is agentic—and it lives in Slack. We’re calling on all builders—from seasoned Slack veterans to \"vibe coders\" picking up the Slack CLI for the first time—to join the Slack Agent Builder Challenge. This is your opportunity to redefine the workplace by building intelligent agents that automate workflows, surface real-time insights, and connect systems in ways we haven’t imagined yet. Whether you’re building a specialized agent for your organization, a tool for social good, or the next viral Slack Marketplace app, we want to see your creativity in action. Leverage the Slack Agent Builder, MCP integrations, and the Real-Time Search (RTS) API to show the world why Slack is the ultimate surface for AI. Why Join? Whether you're a \"vibe coder\" or a seasoned pro, the on-ramp is designed for speed—use the slack create agent command and ready-made templates for HR, IT, and Sales to go from an idea to a running agent in a single afternoon. For those building for organizations, the hackathon serves as a guided path to the Slack Marketplace, giving you a structured deadline to ship your app and gain direct distribution to Slack’s massive enterprise customer base. Compete for a share of the $42,000 cash USD prize pool, a chance to go to Dreamforce 2026, some Slack swag, an invite to an exclusive Slack community gathering and to be featured in the Slack newsletter and social media",
+      "summary": "The next era of productivity is agentic—and it lives in Slack. We’re calling on all builders—from seasoned Slack veterans to \"vibe coders\" picking up the Slack CLI for the first time—to join the Slack...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-07-14T00:00:00.000Z",
       "prize": "$42,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Enterprise",
+        "Low",
+        "No Code"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -481,9 +517,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:53.116Z",
-      "scrapedAt": "2026-06-17T04:27:14.671Z",
-      "lastUpdated": "2026-06-17T04:28:53.116Z",
+      "processedAt": "2026-06-17T15:45:22.484Z",
+      "scrapedAt": "2026-06-17T15:43:23.557Z",
+      "lastUpdated": "2026-06-17T15:45:22.484Z",
       "version": 1
     },
     {
@@ -491,14 +527,19 @@
       "title": "Mind the Product presents World Product Day: Everyone Ships Now",
       "platform": "devpost",
       "url": "https://mindtheproduct.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/365/datas/medium_square.jpeg",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/365/datas/original.jpeg",
+      "description": "About the challenge World Product Day is our annual global celebration of the craft, community, and impact of product people, and this year, we're doing something different. Instead of just talking about shipping, we want to see you ship. Mind the Product is the world's largest community of product professionals, and for over a decade we've championed the idea that great products come from people who are relentlessly curious, resourceful, and willing to build. With AI tooling collapsing the distance between \"I have an idea\" and \"I shipped it,\" there has never been a better moment for our community to put that belief into practice. We're partnering with our friends over at Novus.ai to bring this challenge to you. Novus.ai gives you instant insight into how real users interact with what you've built, so you're not just shipping into the void. They're sponsoring World Product Day because they believe more people should be shipping, and shipping with real feedback from day one. Everyone Ships Now is exactly what it sounds like. You don't need to be an engineer. You don't need a team. You don't need permission. You just need an idea and roughly a month. We'll bring the community, the stage, and the prizes — you bring the thing you've been meaning to build. To be eligible for challenge prizes, your project must: Be new. Work on it must begin on or after May 20. No dusting off last year's side project. Be built with the tool of your choice. Bolt, Lovable, Replit, Cursor, Claude, v0, Figma Make, hand-rolled Next.js — whatever gets you to shipped fastest. We're tool-agnostic. Install Novus.ai before submission. Novus is how you (and we) measure what you've built. Any project submitted without Novus installed is ineligible for prizes. That's it. No themes, no required APIs, no mandatory integrations beyond Novus. Build what you actually want to build. Get started Here's the fastest path from \"I'm in\" to \"I'm building\": Register on this page to lock in your spot and get access to updates. Pick your idea. That thing you've been sketching in the back of a notebook counts. So does the internal tool your team keeps asking for. So does the silly app you think nobody will use. Pick your tool. Use whatever you're fastest in. If you've never shipped before, try one of the AI builders (Bolt, Lovable, Replit Agent, v0) — they're designed for exactly this moment. Build in public, if you can. Post progress with #EveryoneShipsNow and tag @MindThePRoduct. Community momentum is half the fun. Install Novus.ai on your project so you can see how users are interacting with what you built. Submit by June 20, 5:00 PM GMT. Stuck on what to build? Our friends at Vennie.ai can help you go from fuzzy idea to defined scope in minutes.",
+      "summary": "About the challenge World Product Day is our annual global celebration of the craft, community, and impact of product people, and this year, we're doing something different. Instead of just talking ab...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-06-20T16:00:00.000Z",
       "prize": "$10,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Low",
+        "No Code"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -507,9 +548,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:53.101Z",
-      "scrapedAt": "2026-06-17T04:27:14.672Z",
-      "lastUpdated": "2026-06-17T04:28:53.101Z",
+      "processedAt": "2026-06-17T15:45:22.492Z",
+      "scrapedAt": "2026-06-17T15:43:23.558Z",
+      "lastUpdated": "2026-06-17T15:45:22.492Z",
       "version": 1
     },
     {
@@ -517,14 +558,18 @@
       "title": "GitLab Transcend Hackathon",
       "platform": "devpost",
       "url": "https://gitlab-transcend.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/732/516/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/732/516/datas/original.png",
+      "description": "About the challenge Context is everything. The GitLab Transcend Hackathon is a two-week, fully virtual event celebrating the future of AI-native software development, built on top of GitLab Orbit. The structured, queryable representation of your codebase that gives AI the context it needs to actually understand your project. Whether you want to ship code that powers GitLab Orbit itself, or build agents, flows, and skills that put it to work, there's a track for you. Beginners, seasoned contributors, and AI tinkerers are all welcome. Two tracks, one mission: make AI smarter by giving it real context. Contribute Track: Pick up an issue specifically designed for this hackathon and ship a merge request to GitLab Orbit and surrounding tooling. Showcase Track: Build an agent, flow, or skill on the GitLab Duo Agent Platform that uses GitLab Orbit to solve a real developer problem. Publish to the AI Catalog and tell the world about it. Get started Register here on Devpost. Head to the GitLab Contributors Platform transcend hackathon page and choose your track. Find more resources Build, ship, and submit your project on Devpost by June 24, 2026 (2:00 pm Eastern Time).",
+      "summary": "About the challenge Context is everything. The GitLab Transcend Hackathon is a two-week, fully virtual event celebrating the future of AI-native software development, built on top of GitLab Orbit. The...",
+      "contestType": "text",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-06-24T18:00:00.000Z",
       "prize": "$20,000",
-      "tags": [],
+      "tags": [
+        "DevOps",
+        "Productivity"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -533,9 +578,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:53.028Z",
-      "scrapedAt": "2026-06-17T04:27:14.672Z",
-      "lastUpdated": "2026-06-17T04:28:53.028Z",
+      "processedAt": "2026-06-17T15:45:22.569Z",
+      "scrapedAt": "2026-06-17T15:43:23.566Z",
+      "lastUpdated": "2026-06-17T15:45:22.569Z",
       "version": 1
     },
     {
@@ -543,14 +588,19 @@
       "title": "NextGenHacks",
       "platform": "devpost",
       "url": "https://nextgenhacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/596/347/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/596/347/datas/original.png",
+      "description": "NextGenHacks is a beginner-friendly online hackathon designed to bring together the next generation of builders, creators, and innovators. Whether you're just starting out or already experienced, this is your chance to turn ideas into real projects. This is an open-ended hackathon, meaning you can build anything you want—apps, tools, platforms, games, or completely new ideas. The goal is simple: create something meaningful, creative, or useful. Participants can work solo or in teams to brainstorm ideas, collaborate, and build projects that showcase their skills and creativity. Why NextGenHacks is special: Open to all skill levels: Beginners welcome, no prior experience needed Build anything: No strict theme—your creativity sets the direction Learn by doing: Gain hands-on experience while building real projects Community-driven: Connect with other students, share ideas, and collaborate Mentorship & support: Get guidance and help throughout the hackathon Exciting prizes & recognition Whether you’re building your first project or your tenth, NextGenHacks is your opportunity to learn, create, and innovate.",
+      "summary": "NextGenHacks is a beginner-friendly online hackathon designed to bring together the next generation of builders, creators, and innovators. Whether you're just starting out or already experienced, this...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-06-19T06:45:00.000Z",
       "prize": "$1,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Open Ended",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -559,9 +609,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:53.032Z",
-      "scrapedAt": "2026-06-17T04:27:14.672Z",
-      "lastUpdated": "2026-06-17T04:28:53.032Z",
+      "processedAt": "2026-06-17T15:45:22.587Z",
+      "scrapedAt": "2026-06-17T15:43:23.566Z",
+      "lastUpdated": "2026-06-17T15:45:22.587Z",
       "version": 1
     },
     {
@@ -569,15 +619,17 @@
       "title": "Arm Create: AI Optimization Challenge",
       "platform": "devpost",
       "url": "https://arm-ai-optimization-challenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/715/320/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/715/320/datas/original.png",
+      "description": "Welcome to the Arm AI Optimization Challenge 2026. We’re inviting developers to build and submit projects that show how AI can be optimized for Arm-powered platforms across three challenge tracks: Physical AI: Optimize AI for real-world systems, including robotics, embedded devices, sensors, simulation, autonomy, and edge environments. Cloud AI: Optimize AI for scalable infrastructure, including Arm64 cloud, inference performance, frameworks, agents, and production-ready developer workflows. Mobile AI: Optimize AI for on-device constraints, including performance, privacy, latency, battery efficiency, and local AI experiences on Arm-powered phones, tablets, and laptops. Across all tracks, submissions should show clear optimization work and measurable improvements where possible. Optimizations we will look for: Model size: Reduce size on disk or in memory. Model quality: Improve fine-tuning or output quality for a given model size. Model speed: Improve tokens/sec, time to first token, or other relevant latency metrics. Inference server speed: Improve throughput, latency, tokens/sec, or time to first token. Developer experience: Improve tools, workflows, setup, documentation, or usability. Arm-specific optimization: Implement optimizations in an existing framework, library, model, or application to run better on Arm. Developers can use Arm Performix to get exact benchmarks of their Arm based performance and be able to clearly show their results.",
+      "summary": "Welcome to the Arm AI Optimization Challenge 2026. We’re inviting developers to build and submit projects that show how AI can be optimized for Arm-powered platforms across three challenge tracks: Phy...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-14T23:00:00.000Z",
       "prize": "$8,000",
       "tags": [
-        "ai"
+        "Machine Learning",
+        "AI"
       ],
       "aiTools": [
         "Python",
@@ -587,9 +639,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:53.155Z",
-      "scrapedAt": "2026-06-17T04:27:14.673Z",
-      "lastUpdated": "2026-06-17T04:28:53.155Z",
+      "processedAt": "2026-06-17T15:45:22.650Z",
+      "scrapedAt": "2026-06-17T15:43:23.567Z",
+      "lastUpdated": "2026-06-17T15:45:22.650Z",
       "version": 1
     },
     {
@@ -617,9 +669,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:54.146Z",
-      "scrapedAt": "2026-06-17T04:26:39.106Z",
-      "lastUpdated": "2026-06-17T04:28:54.146Z",
+      "processedAt": "2026-06-17T15:45:23.657Z",
+      "scrapedAt": "2026-06-17T15:43:14.257Z",
+      "lastUpdated": "2026-06-17T15:45:23.657Z",
       "version": 1
     },
     {
@@ -646,9 +698,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:54.230Z",
-      "scrapedAt": "2026-06-17T04:26:39.106Z",
-      "lastUpdated": "2026-06-17T04:28:54.230Z",
+      "processedAt": "2026-06-17T15:45:23.676Z",
+      "scrapedAt": "2026-06-17T15:43:14.257Z",
+      "lastUpdated": "2026-06-17T15:45:23.676Z",
       "version": 1
     },
     {
@@ -676,9 +728,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:54.146Z",
-      "scrapedAt": "2026-06-17T04:26:39.107Z",
-      "lastUpdated": "2026-06-17T04:28:54.146Z",
+      "processedAt": "2026-06-17T15:45:23.666Z",
+      "scrapedAt": "2026-06-17T15:43:14.258Z",
+      "lastUpdated": "2026-06-17T15:45:23.666Z",
       "version": 1
     },
     {
@@ -707,9 +759,9 @@
         "否则无法发放奖品）格式示例："
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:54.152Z",
-      "scrapedAt": "2026-06-17T04:26:39.109Z",
-      "lastUpdated": "2026-06-17T04:28:54.152Z",
+      "processedAt": "2026-06-17T15:45:23.750Z",
+      "scrapedAt": "2026-06-17T15:43:14.261Z",
+      "lastUpdated": "2026-06-17T15:45:23.750Z",
       "version": 1
     },
     {
@@ -743,9 +795,9 @@
         "每人最高并发执行 Notebook 数量为 1 个。Q2：申请加入专属组织被拒绝"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:54.259Z",
-      "scrapedAt": "2026-06-17T04:26:39.116Z",
-      "lastUpdated": "2026-06-17T04:28:54.259Z",
+      "processedAt": "2026-06-17T15:45:23.824Z",
+      "scrapedAt": "2026-06-17T15:43:14.264Z",
+      "lastUpdated": "2026-06-17T15:45:23.824Z",
       "version": 1
     },
     {
@@ -773,9 +825,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:55.352Z",
-      "scrapedAt": "2026-06-17T04:26:39.116Z",
-      "lastUpdated": "2026-06-17T04:28:55.352Z",
+      "processedAt": "2026-06-17T15:45:24.848Z",
+      "scrapedAt": "2026-06-17T15:43:14.264Z",
+      "lastUpdated": "2026-06-17T15:45:24.848Z",
       "version": 1
     },
     {
@@ -809,9 +861,9 @@
         "更能确保用户隐私数据“不出机”。本次活动重点鼓励开发者探索如何利用 Intel 酷睿™ Ultra 处理器（如最新的 Panther Lake 架构）的 GPU、NPU 加速能力"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:55.261Z",
-      "scrapedAt": "2026-06-17T04:26:39.117Z",
-      "lastUpdated": "2026-06-17T04:28:55.261Z",
+      "processedAt": "2026-06-17T15:45:24.824Z",
+      "scrapedAt": "2026-06-17T15:43:14.264Z",
+      "lastUpdated": "2026-06-17T15:45:24.824Z",
       "version": 1
     },
     {
@@ -836,9 +888,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:55.349Z",
-      "scrapedAt": "2026-06-17T04:26:39.117Z",
-      "lastUpdated": "2026-06-17T04:28:55.349Z",
+      "processedAt": "2026-06-17T15:45:24.825Z",
+      "scrapedAt": "2026-06-17T15:43:14.264Z",
+      "lastUpdated": "2026-06-17T15:45:24.825Z",
       "version": 1
     },
     {
@@ -866,9 +918,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:55.267Z",
-      "scrapedAt": "2026-06-17T04:26:39.118Z",
-      "lastUpdated": "2026-06-17T04:28:55.267Z",
+      "processedAt": "2026-06-17T15:45:24.913Z",
+      "scrapedAt": "2026-06-17T15:43:14.265Z",
+      "lastUpdated": "2026-06-17T15:45:24.913Z",
       "version": 1
     },
     {
@@ -902,9 +954,9 @@
         "正是当前人工智能从“感知智能”迈向“决策智能”的关键一步。"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:55.378Z",
-      "scrapedAt": "2026-06-17T04:26:39.118Z",
-      "lastUpdated": "2026-06-17T04:28:55.378Z",
+      "processedAt": "2026-06-17T15:45:24.972Z",
+      "scrapedAt": "2026-06-17T15:43:14.265Z",
+      "lastUpdated": "2026-06-17T15:45:24.972Z",
       "version": 1
     },
     {
@@ -918,7 +970,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-06-20T04:27:42.808Z",
+      "deadline": "2026-06-19T15:44:10.784Z",
       "prize": "$1 000 USD",
       "tags": [],
       "aiTools": [
@@ -929,9 +981,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:56.465Z",
-      "scrapedAt": "2026-06-17T04:27:42.808Z",
-      "lastUpdated": "2026-06-17T04:28:56.465Z",
+      "processedAt": "2026-06-17T15:45:26.077Z",
+      "scrapedAt": "2026-06-17T15:44:10.784Z",
+      "lastUpdated": "2026-06-17T15:45:26.077Z",
       "version": 1
     },
     {
@@ -945,7 +997,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-06-22T04:27:42.808Z",
+      "deadline": "2026-06-21T15:44:10.784Z",
       "prize": "$5 000 USD",
       "tags": [],
       "aiTools": [
@@ -956,9 +1008,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:56.476Z",
-      "scrapedAt": "2026-06-17T04:27:42.808Z",
-      "lastUpdated": "2026-06-17T04:28:56.476Z",
+      "processedAt": "2026-06-17T15:45:25.989Z",
+      "scrapedAt": "2026-06-17T15:44:10.784Z",
+      "lastUpdated": "2026-06-17T15:45:25.989Z",
       "version": 1
     },
     {
@@ -983,9 +1035,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:56.422Z",
-      "scrapedAt": "2026-06-17T04:27:42.808Z",
-      "lastUpdated": "2026-06-17T04:28:56.422Z",
+      "processedAt": "2026-06-17T15:45:25.986Z",
+      "scrapedAt": "2026-06-17T15:44:10.785Z",
+      "lastUpdated": "2026-06-17T15:45:25.986Z",
       "version": 1
     },
     {
@@ -999,7 +1051,7 @@
       "contestType": "mixed",
       "status": "upcoming",
       "difficulty": "intermediate",
-      "deadline": "2026-07-07T04:27:42.808Z",
+      "deadline": "2026-07-07T15:44:10.785Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -1009,9 +1061,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:56.464Z",
-      "scrapedAt": "2026-06-17T04:27:42.808Z",
-      "lastUpdated": "2026-06-17T04:28:56.465Z",
+      "processedAt": "2026-06-17T15:45:25.981Z",
+      "scrapedAt": "2026-06-17T15:44:10.785Z",
+      "lastUpdated": "2026-06-17T15:45:25.981Z",
       "version": 1
     },
     {
@@ -1025,7 +1077,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-07-01T04:27:42.808Z",
+      "deadline": "2026-06-30T15:44:10.785Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -1035,9 +1087,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:56.503Z",
-      "scrapedAt": "2026-06-17T04:27:42.809Z",
-      "lastUpdated": "2026-06-17T04:28:56.503Z",
+      "processedAt": "2026-06-17T15:45:26.252Z",
+      "scrapedAt": "2026-06-17T15:44:10.785Z",
+      "lastUpdated": "2026-06-17T15:45:26.252Z",
       "version": 1
     },
     {
@@ -1061,9 +1113,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:57.508Z",
-      "scrapedAt": "2026-06-17T04:27:42.809Z",
-      "lastUpdated": "2026-06-17T04:28:57.508Z",
+      "processedAt": "2026-06-17T15:45:27.246Z",
+      "scrapedAt": "2026-06-17T15:44:10.786Z",
+      "lastUpdated": "2026-06-17T15:45:27.246Z",
       "version": 1
     },
     {
@@ -1087,9 +1139,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:57.507Z",
-      "scrapedAt": "2026-06-17T04:27:42.809Z",
-      "lastUpdated": "2026-06-17T04:28:57.507Z",
+      "processedAt": "2026-06-17T15:45:27.149Z",
+      "scrapedAt": "2026-06-17T15:44:10.786Z",
+      "lastUpdated": "2026-06-17T15:45:27.149Z",
       "version": 1
     },
     {
@@ -1113,9 +1165,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:57.591Z",
-      "scrapedAt": "2026-06-17T04:27:42.809Z",
-      "lastUpdated": "2026-06-17T04:28:57.591Z",
+      "processedAt": "2026-06-17T15:45:27.160Z",
+      "scrapedAt": "2026-06-17T15:44:10.786Z",
+      "lastUpdated": "2026-06-17T15:45:27.160Z",
       "version": 1
     },
     {
@@ -1138,9 +1190,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:57.506Z",
-      "scrapedAt": "2026-06-17T04:27:42.809Z",
-      "lastUpdated": "2026-06-17T04:28:57.506Z",
+      "processedAt": "2026-06-17T15:45:27.149Z",
+      "scrapedAt": "2026-06-17T15:44:10.787Z",
+      "lastUpdated": "2026-06-17T15:45:27.149Z",
       "version": 1
     },
     {
@@ -1164,9 +1216,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:57.617Z",
-      "scrapedAt": "2026-06-17T04:27:42.809Z",
-      "lastUpdated": "2026-06-17T04:28:57.617Z",
+      "processedAt": "2026-06-17T15:45:27.325Z",
+      "scrapedAt": "2026-06-17T15:44:10.787Z",
+      "lastUpdated": "2026-06-17T15:45:27.325Z",
       "version": 1
     },
     {
@@ -1192,9 +1244,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:58.706Z",
-      "scrapedAt": "2026-06-17T04:27:42.810Z",
-      "lastUpdated": "2026-06-17T04:28:58.706Z",
+      "processedAt": "2026-06-17T15:45:28.318Z",
+      "scrapedAt": "2026-06-17T15:44:10.787Z",
+      "lastUpdated": "2026-06-17T15:45:28.318Z",
       "version": 1
     },
     {
@@ -1218,9 +1270,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:58.715Z",
-      "scrapedAt": "2026-06-17T04:27:42.810Z",
-      "lastUpdated": "2026-06-17T04:28:58.716Z",
+      "processedAt": "2026-06-17T15:45:28.318Z",
+      "scrapedAt": "2026-06-17T15:44:10.788Z",
+      "lastUpdated": "2026-06-17T15:45:28.318Z",
       "version": 1
     },
     {
@@ -1244,9 +1296,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:58.627Z",
-      "scrapedAt": "2026-06-17T04:27:42.810Z",
-      "lastUpdated": "2026-06-17T04:28:58.627Z",
+      "processedAt": "2026-06-17T15:45:28.330Z",
+      "scrapedAt": "2026-06-17T15:44:10.788Z",
+      "lastUpdated": "2026-06-17T15:45:28.330Z",
+      "version": 1
+    },
+    {
+      "id": "c_6f9040f8220a",
+      "title": "Unido AfricaRice App Builder Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/unido-africarice-app-builder-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$5 000 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-17T15:45:28.411Z",
+      "scrapedAt": "2026-06-17T15:44:10.788Z",
+      "lastUpdated": "2026-06-17T15:45:28.411Z",
       "version": 1
     },
     {
@@ -1272,35 +1350,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:58.624Z",
-      "scrapedAt": "2026-06-17T04:27:42.810Z",
-      "lastUpdated": "2026-06-17T04:28:58.624Z",
-      "version": 1
-    },
-    {
-      "id": "c_6f9040f8220a",
-      "title": "Unido AfricaRice App Builder Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/unido-africarice-app-builder-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$5 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:58.744Z",
-      "scrapedAt": "2026-06-17T04:27:42.810Z",
-      "lastUpdated": "2026-06-17T04:28:58.744Z",
+      "processedAt": "2026-06-17T15:45:28.482Z",
+      "scrapedAt": "2026-06-17T15:44:10.788Z",
+      "lastUpdated": "2026-06-17T15:45:28.482Z",
       "version": 1
     },
     {
@@ -1324,9 +1376,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:59.745Z",
-      "scrapedAt": "2026-06-17T04:27:42.810Z",
-      "lastUpdated": "2026-06-17T04:28:59.745Z",
+      "processedAt": "2026-06-17T15:45:29.481Z",
+      "scrapedAt": "2026-06-17T15:44:10.789Z",
+      "lastUpdated": "2026-06-17T15:45:29.481Z",
       "version": 1
     },
     {
@@ -1352,9 +1404,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:59.843Z",
-      "scrapedAt": "2026-06-17T04:27:42.810Z",
-      "lastUpdated": "2026-06-17T04:28:59.843Z",
+      "processedAt": "2026-06-17T15:45:29.493Z",
+      "scrapedAt": "2026-06-17T15:44:10.789Z",
+      "lastUpdated": "2026-06-17T15:45:29.493Z",
       "version": 1
     },
     {
@@ -1378,9 +1430,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:59.745Z",
-      "scrapedAt": "2026-06-17T04:27:42.811Z",
-      "lastUpdated": "2026-06-17T04:28:59.745Z",
+      "processedAt": "2026-06-17T15:45:29.592Z",
+      "scrapedAt": "2026-06-17T15:44:10.790Z",
+      "lastUpdated": "2026-06-17T15:45:29.592Z",
       "version": 1
     },
     {
@@ -1404,9 +1456,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:59.834Z",
-      "scrapedAt": "2026-06-17T04:27:42.811Z",
-      "lastUpdated": "2026-06-17T04:28:59.834Z",
+      "processedAt": "2026-06-17T15:45:29.488Z",
+      "scrapedAt": "2026-06-17T15:44:10.790Z",
+      "lastUpdated": "2026-06-17T15:45:29.488Z",
       "version": 1
     },
     {
@@ -1430,15 +1482,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:59.869Z",
-      "scrapedAt": "2026-06-17T04:27:42.811Z",
-      "lastUpdated": "2026-06-17T04:28:59.869Z",
+      "processedAt": "2026-06-17T15:45:29.666Z",
+      "scrapedAt": "2026-06-17T15:44:10.790Z",
+      "lastUpdated": "2026-06-17T15:45:29.666Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-17T04:28:59.878Z"
+    "lastUpdated": "2026-06-17T15:45:29.682Z"
   }
 }

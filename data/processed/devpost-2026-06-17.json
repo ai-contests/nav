@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-06-17T04:28:59.874Z",
+  "timestamp": "2026-06-17T15:45:29.675Z",
   "contestCount": 10,
   "contests": [
     {
@@ -8,14 +8,18 @@
       "title": "Build with Gemini XPRIZE",
       "platform": "devpost",
       "url": "https://xprize.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/original.png",
+      "description": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Ship Deploy a business that operates with AI. Real users in production. 04 Sell Market it. Grow it. Show the revenue. AI is transforming everything, including what small teams can build. Operations that used to take entire engineering departments can now be written in plain English and executed by AI agents. By some estimates, the world’s 45 million software developers will grow to over a billion in the next few years. Everyone will be a developer, and we want to start now, with you. So show us: build a real business that makes real impact.",
+      "summary": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Shi...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-17T20:00:00.000Z",
       "prize": "$2,000,000",
-      "tags": [],
+      "tags": [
+        "Education",
+        "Productivity"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -24,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:51.984Z",
-      "scrapedAt": "2026-06-17T04:27:14.665Z",
-      "lastUpdated": "2026-06-17T04:28:51.984Z",
+      "processedAt": "2026-06-17T15:45:21.412Z",
+      "scrapedAt": "2026-06-17T15:43:23.553Z",
+      "lastUpdated": "2026-06-17T15:45:21.412Z",
       "version": 1
     },
     {
@@ -34,14 +38,19 @@
       "title": "H0: Hack the Zero Stack with Vercel v0 and AWS Databases",
       "platform": "devpost",
       "url": "https://h01.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/189/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/189/datas/original.png",
+      "description": "You no longer need to choose between shipping quickly and using data infrastructure that will hold up in real-world traffic and scale. With the integration between AWS Databases and Vercel, the application you prototype over a weekend can run on the same data foundation that startups and enterprises use for production deployment. You can focus on building and iterating on your product quickly on an operationally proven database from day one. Use Vercel’s v0 to scaffold a production-ready Next.js frontend and connect it to one of three AWS Databases: Amazon Aurora PostgreSQL Aurora DSQL, or DynamoDB. Build a full-stack application that could actually go to production in minutes. Why join? $80,000 in cash prizes and an additional $80,000 in AWS credits! Get hands-on with a production stack: AWS Databases and Vercel Build something real – judges are looking for shippable software, not just demos Get Started Sign up for a v0.app account if you don’t already have one Fill out the request form to get AWS & v0 Credits Choose and provision your AWS Databases Build. Ship. Submit!",
+      "summary": "You no longer need to choose between shipping quickly and using data infrastructure that will hold up in real-world traffic and scale. With the integration between AWS Databases and Vercel, the applic...",
+      "contestType": "image",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-06-30T00:00:00.000Z",
       "prize": "$80,000",
-      "tags": [],
+      "tags": [
+        "Databases",
+        "Open Ended",
+        "Web"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -50,9 +59,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:51.978Z",
-      "scrapedAt": "2026-06-17T04:27:14.666Z",
-      "lastUpdated": "2026-06-17T04:28:51.978Z",
+      "processedAt": "2026-06-17T15:45:21.354Z",
+      "scrapedAt": "2026-06-17T15:43:23.554Z",
+      "lastUpdated": "2026-06-17T15:45:21.354Z",
       "version": 1
     },
     {
@@ -60,15 +69,17 @@
       "title": "USAII® Global AI Hackathon 2026",
       "platform": "devpost",
       "url": "https://usaii-global-ai-hackathon-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/384/098/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/384/098/datas/original.png",
+      "description": "USAII Global AI Hackathon 2026 Registration is Closed (June 6 11:59 pm ET)Hackathon Kickoff June 14 10:00 am ET:USAII_Hackathon_2026_Kickoff.pdfUSAII_Hackathon_2026_Kickoff.pptxhttps://youtu.be/cYA5GDck6zkUSAII_Hackathon_2026_Kickoff_QA.docxA worldwide virtual student innovation program empowering the next generation to build responsible AI solutions for real-world impact. About the Challenge The USAII Global AI Hackathon is designed to scale to tens of thousands of students globally while maintaining quality, fairness, and meaningful outcomes. This isn't just another hackathon—it's a movement where students across continents tackle authentic challenges using public or synthetic data, learning to innovate responsibly from day one. What Makes This Different Two-Phase Quality Design – An AI-powered qualifier ensures teams are ready before building INFORMS-Aligned Evaluation – Projects judged on problem understanding, AI reasoning, and responsible design—not just code Global Accessibility – Fully asynchronous content with support across 3 time zones via Discord community Real-World Challenges – All challenges grounded in actual nonprofit and community needs Responsible AI First – Ethics and human oversight are core to every submission No Paid Tool Advantage – Judges do not favor paid AI tools over free alternatives Two-Phase Structure Phase 1: AI Readiness Qualifier (REQUIRED) - https://qualifier.usaii.org/ Apply between: June 7-10, 2026 Results announced: June 12, 2026To ensure a high-quality and fair competition, all registered teams will complete a short AI Readiness Qualifier one week before the hackathon begins. This will be used to down select teams if registrations exceed judging capacity. It is a scalability and quality safeguard that confirms teams are real and active, ensures teams understands a challenge, can think critically about AI solutions, and are prepared to participate. Teams will answer a series of brief prompts about a hypothetical scenario, including the problem, users, AI approach, and ethical considerations.Responses are automatically evaluated using an AI-assisted scoring rubric that assesses problem understanding, AI thinking, responsible AI awareness, and clarity of communication. The qualifier typically takes 30 minutes to complete and does not require building anything. Based on scoring and capacity limits, the highest-ranked teams will advance to the hackathon. Teams will receive their results and advancement status via email and through the hackathon platform shortly after the qualifier closes.The AI Readiness Qualifier Access is sent via email on June 7, 2026 at 10:00 AM ET and will have until 11:59 PM EST on June 10, 2026 to submit their responses . Qualified teams receive approval codes and advance to Phase 2. Phase 2: Hackathon Build (Qualified Teams Only) June 14-21, 2026 Kickoff: June 14, 10:00 AM ET (livestream and recorded) https://webinar.zoho.in/meeting/register?sessionId=1371179302 Submission deadline: June 21, 11:59 PM ET All qualified teams across all tracks build during the same 1-week window ⚠️ **Devpost registration does NOT guarantee participation. You MUST pass the qualifier to advance.** Three Tracks (Final Briefs shared at Kickoff on June 14 10:00am ET) High School Track (Grades 9-12) AI for Everyday Good Build AI tools that help people find support, understand information, or take environmental action in their local community. Challenge Directions: Community: Help is Hard to Find — Make Support ObviousChallenge_Brief_1_HS_Help_Is_Hard_To_Find.pdf Environment: Make Climate Action Local and RealChallenge_Brief_2_HS_Climate_Action.pdf Undergraduate Track AI for Life & Work Build decision-support tools, navigation systems, or AI assistants that help people manage life, work, and essential services. Challenge Directions: Productivity: Build the \"Second Brain\" for Real LifeChallenge_Brief_3_UG_Second_Brain.pdf Public Services: Fix Systems People Depend OnChallenge_Brief_3_UG_Second_Brain.pdf Graduate Track (Master's & PhD) AI for Systems & Society Build advanced AI systems for risk detection, policy simulation, community readiness assessment, or infrastructure optimization. Challenge Directions: Human Safety & Protection: Build AI Systems That Protect People from HarmChallenge_Brief_5_GRAD_Human_Safety.pdf Public Systems & Policy: Build AI That Helps Communities Make Better DecisionsChallenge_Brief_6_GRAD_Community_AI.pdf Prizes US $15,000 in Cash Prizes + USAII AI Certification Scholarships Each track awards: - 🥇 Grand Prize: US $2,500 + Scholarship - 🥈 Runner Up: US $1,500 + Scholarship - 🥉 Third Place: US $500 + Scholarship - 🌟 Best Responsible AI Design: US $250 + Scholarship - 💡 Best Social Impact: US $250 + Scholarship Prize Distribution Cash prizes are awarded to the team and disbursed to the designated team leader or nominated recipient. Teams are responsible for internal distribution. International payments are processed in USD via wire transfer or a global payment platform. Scholarships & Certificates USAII AI Certification scholarships and certificates are issued individually to every registered team member. Prize Timeline Winners are announced at the Global Awards Showcase on June 27, 2026. Prize disbursement occurs within 30–45 days, pending receipt of all required payment and compliance information. Requirements Winning teams will be asked to provide payment details and required tax documentation (W-9 for U.S. residents; W-8BEN for international participants). For teams with members under 18, a parent or guardian must be the named prize recipient. Questions: aihackathon@usaii.org Get Started Phase 1: Pre-Registration (Now) - Program setup and platform preparation Phase 2: Registration & Team Formation (April 26 - June 6) April 26: Registration opens on Devpost April-June: Form teams (2-5 members), use Discord for matchmaking June 6: Registration closes Phase 3: AI Readiness Qualifier (June 7 10:00 am ET - June 10 11:59 pm ET) All tracks complete qualifier during same 4-day window Scoring and evaluation June 11-12 Phase 4: Qualifier Approval (June 12 11:59 pm ET) Results announced, approval codes sent to qualified teams Phase 5: Hackathon Build (June 14-21) June 14, 10:00 AM ET: Global kickoff livestream (all tracks) June 14-21: Build period June 21, 11:59 PM ET: All submissions due Phase 6: Judging (June 22-25) June 22-23: Validation & screening June 23-25: Judge scoring June 25-26: Panel deliberation Phase 7: Showcase (June 27) June 27, 10:00 AM ET: Global awards ceremony (livestream and recorded) How to Participate Step 1: Register Individually (April 26 - June 6) Sign up on Devpost Answer registration questions about your track, skills, and team status Step 2: Form Your Team (April-June) Create or join a team (2-5 members required) Use Discord #team-formation for matchmaking Team members can be from different schools or countries Teams must compete within the track aligned with their highest education level Mixed teams must register in the highest-level track represented Devpost assigns your Team ID Step 3: Complete Team Qualifier (June 7-10) https://qualifier.usaii.org/ Answer 8 prompts demonstrating AI thinking Takes 30 minutes to complete Receive results June 12 Step 4: Build (If Qualified) Attend kickoff June 14, 10:00 AM ET (recorded) Build during June 14-21 Submit project with qualifier approval code by June 21, 11:59 PM ET Step 5: Judging & Awards Projects judged by industry professionals Winners announced June 27 10:00 am ET Join the Community Discord: https://discord.gg/ePjenJnyh4Connect with participants, find teammates, get mentor support, receive updates Qualifir Email: hackathon.qualifier@usaii.org General questions and support Hackathon Email: aihackathon@usaii.org General questions and support Website: https://aihackathon.usaii.org/ ; Complete program information Questions? See our FAQ page or join Discord #help-desk Ready to build AI for good? Register starting April 26!",
+      "summary": "USAII Global AI Hackathon 2026 Registration is Closed (June 6 11:59 pm ET)Hackathon Kickoff June 14 10:00 am ET:USAII_Hackathon_2026_Kickoff.pdfUSAII_Hackathon_2026_Kickoff.pptxhttps://youtu.be/cYA5GD...",
+      "contestType": "code",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-06-22T03:45:00.000Z",
       "prize": "$15,000",
       "tags": [
-        "ai"
+        "Beginner Friendly",
+        "Social Good"
       ],
       "aiTools": [
         "Python",
@@ -76,11 +87,17 @@
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
+      "requirements": [
+        "W-8BEN for international participants). For teams with members under 18",
+        "approval codes sent to qualified teams Phase 5: Hackathon Build (June 14-21) June 14",
+        "10:00 AM ET: Global kickoff livestream (all tracks) June 14-21: Build period June 21",
+        "skills",
+        "find teammates"
+      ],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:51.984Z",
-      "scrapedAt": "2026-06-17T04:27:14.667Z",
-      "lastUpdated": "2026-06-17T04:28:51.984Z",
+      "processedAt": "2026-06-17T15:45:21.359Z",
+      "scrapedAt": "2026-06-17T15:43:23.555Z",
+      "lastUpdated": "2026-06-17T15:45:21.359Z",
       "version": 1
     },
     {
@@ -88,15 +105,17 @@
       "title": "Global AI Hackathon Series with Qwen Cloud",
       "platform": "devpost",
       "url": "https://qwencloud-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/706/870/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/706/870/datas/original.png",
+      "description": "Build production-ready agents on Qwen — and show the world what an agent can do. The Global AI Hackathon with Qwen Cloud invites professional developers, AI/ML engineers, and builders to design and ship sophisticated multi-agent systems, complex AI workflows, and production-grade applications using Qwen and other flagship models available on Qwen Cloud infrastructure. With advanced reasoning and multimodal capabilities, QwenCloud is built for builders who care about architectural depth and engineering excellence. Pick a track and build something real. Compete for total $70,000+ in cash and cloud credits, get featured on the Qwen Cloud blog, and earn an invite to join the AI Catalyst program. Why Join Build with Qwen Cloud. Access Qwen and other flagship models with advanced reasoning and multimodal understanding — all on Qwen Cloud infrastructure purpose-built for production AI. Get free Qwen Cloud credits to build, deploy, and scale your agent. Win a total of $70,000+ in cash and cloud credits plus blog features, swag, and an invite to the AI Catalyst program for standout teams. Get started Register on Devpost (2 minutes) Sign up for Qwen Cloud. Click here to Sign up for your free trial and request your free hackathon credits via our coupon form. To learn more about the hackathon you can check here.(5 minutes) Join the Qwen Cloud Discord (2 minutes) Pick your track, review the sample projects and reference architecture in the Resources and start building. (30 minutes to first run)",
+      "summary": "Build production-ready agents on Qwen — and show the world what an agent can do. The Global AI Hackathon with Qwen Cloud invites professional developers, AI/ML engineers, and builders to design and sh...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-07-09T21:00:00.000Z",
       "prize": "$45,000",
       "tags": [
-        "ai"
+        "Design",
+        "Productivity"
       ],
       "aiTools": [
         "Python",
@@ -106,9 +125,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:51.992Z",
-      "scrapedAt": "2026-06-17T04:27:14.668Z",
-      "lastUpdated": "2026-06-17T04:28:51.992Z",
+      "processedAt": "2026-06-17T15:45:21.355Z",
+      "scrapedAt": "2026-06-17T15:43:23.556Z",
+      "lastUpdated": "2026-06-17T15:45:21.355Z",
       "version": 1
     },
     {
@@ -116,25 +135,36 @@
       "title": "UiPath AgentHack",
       "platform": "devpost",
       "url": "https://uipath-agenthack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/624/515/datas/medium_square.jpg",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/624/515/datas/original.jpg",
+      "description": "UiPath AgentHack is the UiPath Community global online hackathon for developers, automation engineers, data scientists, AI engineers, students, and professionals who want to go beyond basic automation and build agentic solutions that work in enterprise environments. Over 7 weeks, you'll design and ship a real, working solution on the UiPath Platform™. Not a concept, nor a slide deck, but a working solution that handles complexity, survives interruptions, keeps humans in the loop, and solves something that matters. UiPath AgentHack challenges you to build, run, and orchestrate real agentic solutions on the UiPath Platform, the single enterprise control plane that coordinates AI agents, automations, people, and applications end to end. Whether you build with UiPath's native capabilities or combine them with frameworks like LangChain, CrewAI, or AutoGen, your solution must use UiPath as the execution and orchestration layer. Check out the Forum thread if you want to connect with fellow participants, see their questions or find a teammate. We have $50,000 in cash prizes and three challenge tracks built around the most critical capabilities in enterprise agentic AI. Pick the track that best fits your project and submit: Track 1: UiPath Maestro Case Track 2: UiPath Maestro BPMN Track 3: UiPath Test Cloud About the challenge Coding agents have redefined how we build and the real value now lies in how we operate and govern agents at scale, bridging the gap between a prototype on a laptop and software running in production. UiPath AgentHack is built around that challenge. At the center of this hackathon is UiPath for Coding Agents, a platform-wide capability that enables developers to use coding agents (Claude Code, Codex, Cursor, and Gemini CLI, etc) to build, test, deploy, operate, and govern enterprise automations. Using natural language, you'll design AI agents that drive tangible business value, with full support for external frameworks such as LangChain, CrewAI, and AutoGen. The three challenge tracks are built around real-world enterprise problems that require coordination, adaptability, and orchestration at scale: structured process orchestration with Maestro BPMN, agentic case management for dynamic and exception-heavy work, and agentic software testing for AI-driven automations. Throughout the 7-week hacking period, UiPath will host community meetups, office hours, and will offer enablement resources to help you get up to speed with the platform and refine your solution. Track 1: UiPath Maestro Case. Build a solution that orchestrates dynamic, exception-heavy business processes using UiPath case management capabilities. Your solution should move work through stages, involve handoffs between agents, robots, and people, and keep humans in charge at key decision points. Agents within your case flow can be built on UiPath or an external framework; the platform handles coordination regardless of where the agents come from. Think about scenarios like: insurance claims processing where cases move through intake, investigation, and settlement stages; patient care coordination where agents manage referrals, scheduling, and follow-ups across providers; HR onboarding workflows where each new hire case progresses through document collection, system provisioning, and training assignment. Track 2: UiPath Maestro BPMN. Build a solution that models and runs an end-to-end business process using BPMN 2.0 in UiPath Maestro. Your process should orchestrate humans, robots, agents, and APIs through a defined flow with clear tasks, decisions, and handoffs. Agents within the process can be built with UiPath Agent Builder, coding agents, or external frameworks like LangChain, CrewAI, AutoGen, or any other agent platform. We want to see processes that move work cleanly from start to finish, with the right actor doing the right task at the right time. Think about scenarios like: An order-to-cash workflow where RPA pulls orders from email, EDI, and portals, an agent normalizes line items and flags pricing exceptions, and Maestro BPMN orchestrates credit checks, inventory allocation, fulfillment, and invoicing across ERP and CRM in a defined sequence. A collections agent monitors aging invoices and escalates disputes to finance for review. Or a procure-to-pay process where agents parse requisition intent, recommend vendors, and route approvals based on budget thresholds and category rules, RPA handles PO creation and invoice ingestion across ERP and AP systems, and an invoice agent reconciles discrepancies between PO, receipt, and invoice, escalating only true exceptions to AP for human review. Maestro BPMN keeps the full flow coordinated from requisition to payment Track 3: UiPath Test Cloud. Create agents that use UiPath Test Cloud to reimagine how software testing is designed, automated, executed, and managed across modern enterprise environments. Your goal is to show how agentic software testing can improve quality across AI-driven automations, enterprise applications, and connected business workflows. These agents should help you move faster with more confidence by increasing coverage, improving reliability, and reducing the manual effort required to validate complex systems. Think of building agents that can: evaluate requirements and turn them into meaningful test scenarios, identify fragile or outdated tests before they slow down a release, recommend fixes when automation breaks, or help orchestrate the right tests at the right time based on risk, coverage, and change impact. You might also explore how agents can validate AI-infused workflows, including third-party agents or AI services that participate in a UiPath-orchestrated process. All solutions must run on the UiPath Automation Cloud. You can include Agent Builder, Maestro, API Workflows, coding agents, and RPA where needed. You're welcome to bring in agents built on external frameworks and LLMs, in fact, we encourage it. The point is that UiPath is the orchestration and governance layer that ties everything together. Tip: If your process has unpredictable paths that emerge as the work unfolds, choose Track 1 - UiPath Maestro Case. If your process has a predictable sequence you can map in advance, choose Track 2 - UiPath Maestro BPMN. Bonus: solutions that use coding agents through UiPath for Coding Agents (Claude Code, Codex, Cursor, Gemini CLI, etc) will receive additional points during judging. We're especially interested in seeing how participants combine coding agents with low-code components, or blend UiPath-native agents with external agents, to solve complex problems You can't submit the same project to multiple tracks, and your solution needs to clearly align with whichever track you choose, both in how it's built and how it's described. Get started Register on Devpost for UiPath AgentHack. Form or join a team of 1 to 4 people and pick your track. Ask for access on UiPath Labs here: Teams must designate a representative to complete the access form on behalf of the group. Within 3 business days of asking for access, you'll receive a separate email with your UiPath Labs access link and credentials. UiPath Labs come fully equipped with agentic and AI units, so you can build without constraints.",
+      "summary": "UiPath AgentHack is the UiPath Community global online hackathon for developers, automation engineers, data scientists, AI engineers, students, and professionals who want to go beyond basic automation...",
+      "contestType": "image",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-06-30T03:45:00.000Z",
       "prize": "$50,000",
-      "tags": [],
+      "tags": [
+        "llm",
+        "Enterprise",
+        "Robotic Process Automation"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
+      "requirements": [
+        "and turn them into meaningful test scenarios",
+        "identify fragile or outdated tests before they slow down a release",
+        "recommend fixes when automation breaks",
+        "or help orchestrate the right tests at the right time based on risk",
+        "coverage"
+      ],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:52.100Z",
-      "scrapedAt": "2026-06-17T04:27:14.671Z",
-      "lastUpdated": "2026-06-17T04:28:52.100Z",
+      "processedAt": "2026-06-17T15:45:21.477Z",
+      "scrapedAt": "2026-06-17T15:43:23.556Z",
+      "lastUpdated": "2026-06-17T15:45:21.477Z",
       "version": 1
     },
     {
@@ -142,14 +172,20 @@
       "title": "Slack Agent Builder Challenge",
       "platform": "devpost",
       "url": "https://slackhack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/685/418/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/685/418/datas/original.png",
+      "description": "The next era of productivity is agentic—and it lives in Slack. We’re calling on all builders—from seasoned Slack veterans to \"vibe coders\" picking up the Slack CLI for the first time—to join the Slack Agent Builder Challenge. This is your opportunity to redefine the workplace by building intelligent agents that automate workflows, surface real-time insights, and connect systems in ways we haven’t imagined yet. Whether you’re building a specialized agent for your organization, a tool for social good, or the next viral Slack Marketplace app, we want to see your creativity in action. Leverage the Slack Agent Builder, MCP integrations, and the Real-Time Search (RTS) API to show the world why Slack is the ultimate surface for AI. Why Join? Whether you're a \"vibe coder\" or a seasoned pro, the on-ramp is designed for speed—use the slack create agent command and ready-made templates for HR, IT, and Sales to go from an idea to a running agent in a single afternoon. For those building for organizations, the hackathon serves as a guided path to the Slack Marketplace, giving you a structured deadline to ship your app and gain direct distribution to Slack’s massive enterprise customer base. Compete for a share of the $42,000 cash USD prize pool, a chance to go to Dreamforce 2026, some Slack swag, an invite to an exclusive Slack community gathering and to be featured in the Slack newsletter and social media",
+      "summary": "The next era of productivity is agentic—and it lives in Slack. We’re calling on all builders—from seasoned Slack veterans to \"vibe coders\" picking up the Slack CLI for the first time—to join the Slack...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-07-14T00:00:00.000Z",
       "prize": "$42,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Enterprise",
+        "Low",
+        "No Code"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -158,9 +194,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:53.116Z",
-      "scrapedAt": "2026-06-17T04:27:14.671Z",
-      "lastUpdated": "2026-06-17T04:28:53.116Z",
+      "processedAt": "2026-06-17T15:45:22.484Z",
+      "scrapedAt": "2026-06-17T15:43:23.557Z",
+      "lastUpdated": "2026-06-17T15:45:22.484Z",
       "version": 1
     },
     {
@@ -168,14 +204,19 @@
       "title": "Mind the Product presents World Product Day: Everyone Ships Now",
       "platform": "devpost",
       "url": "https://mindtheproduct.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/365/datas/medium_square.jpeg",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/365/datas/original.jpeg",
+      "description": "About the challenge World Product Day is our annual global celebration of the craft, community, and impact of product people, and this year, we're doing something different. Instead of just talking about shipping, we want to see you ship. Mind the Product is the world's largest community of product professionals, and for over a decade we've championed the idea that great products come from people who are relentlessly curious, resourceful, and willing to build. With AI tooling collapsing the distance between \"I have an idea\" and \"I shipped it,\" there has never been a better moment for our community to put that belief into practice. We're partnering with our friends over at Novus.ai to bring this challenge to you. Novus.ai gives you instant insight into how real users interact with what you've built, so you're not just shipping into the void. They're sponsoring World Product Day because they believe more people should be shipping, and shipping with real feedback from day one. Everyone Ships Now is exactly what it sounds like. You don't need to be an engineer. You don't need a team. You don't need permission. You just need an idea and roughly a month. We'll bring the community, the stage, and the prizes — you bring the thing you've been meaning to build. To be eligible for challenge prizes, your project must: Be new. Work on it must begin on or after May 20. No dusting off last year's side project. Be built with the tool of your choice. Bolt, Lovable, Replit, Cursor, Claude, v0, Figma Make, hand-rolled Next.js — whatever gets you to shipped fastest. We're tool-agnostic. Install Novus.ai before submission. Novus is how you (and we) measure what you've built. Any project submitted without Novus installed is ineligible for prizes. That's it. No themes, no required APIs, no mandatory integrations beyond Novus. Build what you actually want to build. Get started Here's the fastest path from \"I'm in\" to \"I'm building\": Register on this page to lock in your spot and get access to updates. Pick your idea. That thing you've been sketching in the back of a notebook counts. So does the internal tool your team keeps asking for. So does the silly app you think nobody will use. Pick your tool. Use whatever you're fastest in. If you've never shipped before, try one of the AI builders (Bolt, Lovable, Replit Agent, v0) — they're designed for exactly this moment. Build in public, if you can. Post progress with #EveryoneShipsNow and tag @MindThePRoduct. Community momentum is half the fun. Install Novus.ai on your project so you can see how users are interacting with what you built. Submit by June 20, 5:00 PM GMT. Stuck on what to build? Our friends at Vennie.ai can help you go from fuzzy idea to defined scope in minutes.",
+      "summary": "About the challenge World Product Day is our annual global celebration of the craft, community, and impact of product people, and this year, we're doing something different. Instead of just talking ab...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-06-20T16:00:00.000Z",
       "prize": "$10,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Low",
+        "No Code"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -184,9 +225,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:53.101Z",
-      "scrapedAt": "2026-06-17T04:27:14.672Z",
-      "lastUpdated": "2026-06-17T04:28:53.101Z",
+      "processedAt": "2026-06-17T15:45:22.492Z",
+      "scrapedAt": "2026-06-17T15:43:23.558Z",
+      "lastUpdated": "2026-06-17T15:45:22.492Z",
       "version": 1
     },
     {
@@ -194,14 +235,18 @@
       "title": "GitLab Transcend Hackathon",
       "platform": "devpost",
       "url": "https://gitlab-transcend.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/732/516/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/732/516/datas/original.png",
+      "description": "About the challenge Context is everything. The GitLab Transcend Hackathon is a two-week, fully virtual event celebrating the future of AI-native software development, built on top of GitLab Orbit. The structured, queryable representation of your codebase that gives AI the context it needs to actually understand your project. Whether you want to ship code that powers GitLab Orbit itself, or build agents, flows, and skills that put it to work, there's a track for you. Beginners, seasoned contributors, and AI tinkerers are all welcome. Two tracks, one mission: make AI smarter by giving it real context. Contribute Track: Pick up an issue specifically designed for this hackathon and ship a merge request to GitLab Orbit and surrounding tooling. Showcase Track: Build an agent, flow, or skill on the GitLab Duo Agent Platform that uses GitLab Orbit to solve a real developer problem. Publish to the AI Catalog and tell the world about it. Get started Register here on Devpost. Head to the GitLab Contributors Platform transcend hackathon page and choose your track. Find more resources Build, ship, and submit your project on Devpost by June 24, 2026 (2:00 pm Eastern Time).",
+      "summary": "About the challenge Context is everything. The GitLab Transcend Hackathon is a two-week, fully virtual event celebrating the future of AI-native software development, built on top of GitLab Orbit. The...",
+      "contestType": "text",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-06-24T18:00:00.000Z",
       "prize": "$20,000",
-      "tags": [],
+      "tags": [
+        "DevOps",
+        "Productivity"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -210,9 +255,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:53.028Z",
-      "scrapedAt": "2026-06-17T04:27:14.672Z",
-      "lastUpdated": "2026-06-17T04:28:53.028Z",
+      "processedAt": "2026-06-17T15:45:22.569Z",
+      "scrapedAt": "2026-06-17T15:43:23.566Z",
+      "lastUpdated": "2026-06-17T15:45:22.569Z",
       "version": 1
     },
     {
@@ -220,14 +265,19 @@
       "title": "NextGenHacks",
       "platform": "devpost",
       "url": "https://nextgenhacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/596/347/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/596/347/datas/original.png",
+      "description": "NextGenHacks is a beginner-friendly online hackathon designed to bring together the next generation of builders, creators, and innovators. Whether you're just starting out or already experienced, this is your chance to turn ideas into real projects. This is an open-ended hackathon, meaning you can build anything you want—apps, tools, platforms, games, or completely new ideas. The goal is simple: create something meaningful, creative, or useful. Participants can work solo or in teams to brainstorm ideas, collaborate, and build projects that showcase their skills and creativity. Why NextGenHacks is special: Open to all skill levels: Beginners welcome, no prior experience needed Build anything: No strict theme—your creativity sets the direction Learn by doing: Gain hands-on experience while building real projects Community-driven: Connect with other students, share ideas, and collaborate Mentorship & support: Get guidance and help throughout the hackathon Exciting prizes & recognition Whether you’re building your first project or your tenth, NextGenHacks is your opportunity to learn, create, and innovate.",
+      "summary": "NextGenHacks is a beginner-friendly online hackathon designed to bring together the next generation of builders, creators, and innovators. Whether you're just starting out or already experienced, this...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-06-19T06:45:00.000Z",
       "prize": "$1,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Open Ended",
+        "Social Good"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -236,9 +286,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:53.032Z",
-      "scrapedAt": "2026-06-17T04:27:14.672Z",
-      "lastUpdated": "2026-06-17T04:28:53.032Z",
+      "processedAt": "2026-06-17T15:45:22.587Z",
+      "scrapedAt": "2026-06-17T15:43:23.566Z",
+      "lastUpdated": "2026-06-17T15:45:22.587Z",
       "version": 1
     },
     {
@@ -246,15 +296,17 @@
       "title": "Arm Create: AI Optimization Challenge",
       "platform": "devpost",
       "url": "https://arm-ai-optimization-challenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/715/320/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/715/320/datas/original.png",
+      "description": "Welcome to the Arm AI Optimization Challenge 2026. We’re inviting developers to build and submit projects that show how AI can be optimized for Arm-powered platforms across three challenge tracks: Physical AI: Optimize AI for real-world systems, including robotics, embedded devices, sensors, simulation, autonomy, and edge environments. Cloud AI: Optimize AI for scalable infrastructure, including Arm64 cloud, inference performance, frameworks, agents, and production-ready developer workflows. Mobile AI: Optimize AI for on-device constraints, including performance, privacy, latency, battery efficiency, and local AI experiences on Arm-powered phones, tablets, and laptops. Across all tracks, submissions should show clear optimization work and measurable improvements where possible. Optimizations we will look for: Model size: Reduce size on disk or in memory. Model quality: Improve fine-tuning or output quality for a given model size. Model speed: Improve tokens/sec, time to first token, or other relevant latency metrics. Inference server speed: Improve throughput, latency, tokens/sec, or time to first token. Developer experience: Improve tools, workflows, setup, documentation, or usability. Arm-specific optimization: Implement optimizations in an existing framework, library, model, or application to run better on Arm. Developers can use Arm Performix to get exact benchmarks of their Arm based performance and be able to clearly show their results.",
+      "summary": "Welcome to the Arm AI Optimization Challenge 2026. We’re inviting developers to build and submit projects that show how AI can be optimized for Arm-powered platforms across three challenge tracks: Phy...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-14T23:00:00.000Z",
       "prize": "$8,000",
       "tags": [
-        "ai"
+        "Machine Learning",
+        "AI"
       ],
       "aiTools": [
         "Python",
@@ -264,15 +316,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-17T04:28:53.155Z",
-      "scrapedAt": "2026-06-17T04:27:14.673Z",
-      "lastUpdated": "2026-06-17T04:28:53.155Z",
+      "processedAt": "2026-06-17T15:45:22.650Z",
+      "scrapedAt": "2026-06-17T15:43:23.567Z",
+      "lastUpdated": "2026-06-17T15:45:22.650Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-17T04:28:59.874Z"
+    "lastUpdated": "2026-06-17T15:45:29.675Z"
   }
 }

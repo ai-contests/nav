@@ -1,8 +1,73 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-06-18T04:21:57.460Z",
+  "timestamp": "2026-06-18T15:37:36.468Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_ecebced8919f",
+      "title": "2026 小X宝开源医疗社区黑客松",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/265",
+      "imageUrl": "",
+      "description": "2026 小X宝开源医疗社区黑客松 联合 ModelScope 魔搭社区正式拉开帷幕！我们邀请每一位心怀善意的开发者，用 AI 技能（Skills）与 MCP 工具，为生命构筑更多可能。\n\n2026 小X宝开源医疗社区黑客松光已成炬，照亮崎岖 | Light Turns Into Torches, Illuminating the Rugged Path小X宝开源医疗社区 × 魔搭 ModelScope社区 联合主办赛事官方主页：https://hackathon.xiao-x-bao.com.cn/一、竞赛简介在医疗的广阔疆域中，仍有许多崎岖之路——肿瘤的复杂、罕见病的孤独。科技的力量，应当成为照亮这些角落的火炬。2026 小X宝开源医疗社区黑客松联合 ModelScope 魔搭社区正式拉开帷幕！我们邀请每一位心怀善意的开发者，用 AI 技能（Skills）与 MCP 工具，为生命构筑更多可能。本次黑客松由小X宝开源医疗公益社区发起，旨在通过开源技术服务真实医疗需求。无论你是算法极客、医疗 AI 实践者，还是对 Agent 领域充满好奇的新手，这里都有你的舞台。角色名称说明联合主办魔搭 ModelScope 社区中国最大的模型开源社区，提供赛事平台与运营资源合作方KnowS提供医学循证证据检索 API、开发者 Skill 支持与会员权益技术支持Sealos（FastGPT）提供 RAG 能力与相关技术支持，帮助参赛团队构建知识库检索增强应用大模型赞助阶跃星辰 StepFun提供 Flash Pro / Flash Max 大模型套餐权益二、赛题方向与技术方案赛题方向为通用医学 + 生命科学方向，不做更细的限制。核心赛题：聚焦医疗垂直领域，构建可复用的 Skills、MCP 或者是 Agent。赛事特色：不设细分赛道，只要你的应用能解决真实医疗场景问题，即刻出发！作品须满足以下条件：◆ 医疗场景导向：聚焦医疗垂直领域• （如肿瘤、罕见病、诊断辅助、患者管理、医学文献检索等）。◆ 技术形式：形式为 MCP 工具 或 Agent Skill，可独立运行或集成到现有 Agent 框架。或者是，你很强，想独立从头实现一个 Agent Harness，我们欢迎一切的贡献。◆ 平台部署：参赛作品须在魔搭社区完成部署，作为ModelScope 创空间(Studio) 应用项目；最终提交时需提供可访问的项目链接，便于评审体验和查看作品。◆ 选题登记：选题不限细分方向，但需要在开发前在群内或活动页面登记选题，避免重复。三、赛程安排：分阶段冲刺，直通 WAIC本次大赛为期近四周（6月18日 - 7月12日），节奏紧凑，期间设置三个阶段里程碑，每个阶段评选一支代表团队获得Vibecoding 键盘、 WAIC 门票等礼物，最终进行独立总评：阶段时间内容上线 / 报名开始6月18日在魔搭社区完成报名，加入官方交流群，即刻开发阶段 1：选题登记6月18日 - 6月24日登记选题并完成可行性说明；阶段结束评选「最佳选题潜力奖」，发放 1-3张 WAIC 2026 单日票阶段 2：MVP 开发6月25日 - 7月1日提交可运行 MVP 原型；阶段结束评选「最佳 MVP 原型奖」，发放 1 个 Vibecoding 键盘阶段 3：社区共建7月2日 - 7月8日鼓励社区试用、反馈与传播；阶段结束评选「社区影响力奖」，发放 1 个 Vibecoding 键盘最终提交截止7月12日 23:59将完整作品发布至魔搭社区，并填写最终提交表单集中评审7月13日 - 7月14日独立专家六维评分制评审结果公示与颁奖7月15日公布最终获奖名单，发放云资源/API 额度四、评审规则本次评审分为「阶段奖评审」和「最终总评」两部分，确保不同类型的优秀项目都能脱颖而出：阶段奖评审（各阶段独立评审，产生 WAIC 门票获得者）◆ 阶段 1（选题潜力）：重点看选题是否真实、有价值、可在短周期内落地。◆ 阶段 2（MVP 原型）：奖励最早把核心能力跑起来的队伍，必须能演示。◆ 阶段 3（社区影响力）：综合有效调用、收藏、评论质量、传播质量，异常流量剔除。最终总评（7/13-7/14，六维评分制）最终总评采用独立专家六维评分制，社区反馈质量仅占 10%，不直接主导排名：评分维度权重说明技术实现与可运行性25%代码结构清晰、核心功能能跑、部署稳定医疗场景价值与问题定义20%场景真实、目标用户明确、解决方案有意义MCP/Skill 完成度与平台适配20%是否符合魔搭社区提交、运行和展示要求开源质量与文档可复现性15%公开仓库、License、README、部署步骤、示例输入输出安全合规与风险控制10%不使用真实患者数据，不承诺诊断，明确局限性社区反馈质量10%真实用户反馈、Issue、有效讨论，而非单纯调用数五、奖励体系（注：奖励方案中云资源/API 额度的最终金额与形式以与魔搭社区协商结果为准）阶段奖（魔搭阶段礼品）每个阶段产生 1 支代表团队，获奖团队将获得魔搭提供的阶段礼品，并接受官方开发者采访与项目介绍：阶段奖项奖励6/18–6/24🎯 最佳选题潜力奖1-3 张 WAIC 门票 + 开发者采访6/25–7/1⚡ 最佳 MVP 原型奖1 个vibecoding 键盘 + 开发者采访7/2–7/8🌟 社区影响力奖1 个vibecoding 键盘 + 开发者采访最终总评奖项（7月15日公布）奖项名额奖励内容🌟 普惠权益每位参选选手StepFun Flash Pro 月度套餐 1 份，等值 199 元🏆 一等奖Top 3（3名）KnowS 专业版-3 倍积分年度会员（每位有效成员 1 份，等值 2,388 元）；StepFun Flash Max 季度套餐（每位有效成员 1 份，等值 1,889 元）🥈 二等奖Top 4-10（7名）KnowS 专业版-1 倍积分年度会员（每位有效成员 1 份，等值 828 元）；StepFun Flash Pro 季度套餐（每位有效成员 1 份，等值 539 元）🥉 三等奖Top 11-20（10名）StepFun Flash Pro 月度套餐（每位有效成员 1 份，等值 199 元）额外权益：◆ 资源支持：获胜者将赢取丰厚的云资源或 API 额度，助力项目持续演进。◆ 荣誉见证：所有完成提交的参与者均可获得官方电子参与证书。◆ 品牌曝光：优秀作品将上架 GitHub 与魔搭社区，获得全平台流量支持。合作方专项权益◆ KnowS 医学循证证据检索权益： KnowS 将为本次黑客松提供医学循证证据检索 API 与开发者 Skill 支持，开放文献、指南、说明书、临床试验等检索能力，支持参赛团队基于真实医学证据构建 AI 应用。活动期间，通过审核的参赛团队可领取团队独立 API Key，并共同使用总价值 10,000 元的 API 调用额度池，额度自活动开始起生效，至活动结束时截止。◆ KnowS 开发资源： 参赛团队可参考 KnowS 开发者文档（https://developers.nullht.com/）、API Reference（https://developers.nullht.com/api/reference/overview）与 KnowS Evidence Search Skill（https://developers.nullht.com/skills）进行开发。 ◆ KnowS 获奖会员权益： 最终总评一等奖 3 支团队，获奖团队内每位有效成员额外获得 1 份 KnowS 专业版-3 倍积分年度会员，等值 2,388 元；二等奖 7 支团队，获奖团队内每位有效成员额外获得 1 份 KnowS 专业版-1 倍积分年度会员，等值 828 元。每支获奖队伍（队伍人数不超过 3 人）可领取对应会员权益。◆ StepFun 参赛普惠权益： 每位有效参赛选手可获得 1 份 Flash Pro 月度套餐，等值 199 元。参赛者可个人参赛，也可组队参赛；每支队伍最多 3 人，每位参赛选手仅可加入 1 支队伍，并仅可领取 1 份参赛普惠权益。◆ StepFun 获奖套餐权益： 最终总评一等奖 3 支团队，获奖团队内每位有效成员额外获得 1 份 Flash Max 季度套餐，等值 1,889 元；二等奖 7 支团队，获奖团队内每位有效成员额外获得 1 份 Flash Pro 季度套餐，等值 539 元；三等奖 10 支团队，获奖团队内部每位有效成员额外获得 1 份 Flash Pro 月度套餐，等值 199 元。获奖专项权益可与参赛普惠权益叠加。以上 KnowS 与 StepFun 专项权益由对应合作方单独提供，具体 API Key 发放形式、套餐名称、领取方式、有效期与使用规则以合作方最终确认为准。技术支持◆ Sealos（FastGPT）RAG 支持： Sealos（FastGPT）为本次黑客松提供 RAG 能力与相关技术支持，帮助参赛团队搭建医学知识库问答、资料检索增强生成等应用。该支持作为技术生态支持展示，不作为奖品或赞助权益发放。阶段奖与公平性规则◆ 门票归属： WAIC 门票面向获奖团队，最多提供3张单人票。◆ 不可重复：每支队伍在整个比赛期间最多获得 1 次奖励。◆ 后续参赛：已获票团队仍可继续参与后续阶段展示和最终总评，但不再参与后续 vibecoding 键盘奖励阶段奖评选。◆ 顺延机制：若某阶段最高分团队已获票，门票顺延至该阶段下一支未获票且符合资格的队伍。◆ 采访机制：阶段获奖后 24-48 小时内完成 5 个问题的轻量采访，用于公众号/魔搭社区/活动页宣传。◆ 队伍归属：每人只能加入一队；同一核心成员、同一代码库的报名视为同一参赛主体。◆ 历史项目：允许历史项目参赛，但必须披露赛前已有部分，评审重点看比赛期间新增贡献。◆ 反作弊：异常流量（刷量、互刷、机器人行为）将被剔除，情节严重者取消评奖资格。六、作品提交规范参赛者在魔搭活动页填写表单时，必须包含以下三个核心交付物：◆ 魔搭社区作品链接 （作品需以 Skill、MCP 工具或 Agent 应用形式在魔搭社区完成部署， Agent 应用项目需部署在ModelScope 创空间/studio 展示；项目需公开可访问，并提供基础 Demo 或使用说明）◆ 公开代码仓库地址 （如 GitHub、Gitee 等，需含开源 License，推荐 Apache 2.0 或 MIT）◆ 规范 README 文档 （须包含：背景说明、医疗场景解决点、使用方法、部署步骤）提交入口：◆ Skill 提交：https://modelscope.cn/skills/create?template=custom ◆ MCP 提交：https://modelscope.cn/mcp/servers/create ◆ Studio 提交： https://modelscope.cn/studios/create七、仓库设置规范◆ 可见性：仓库必须设置为 Public（公开）。◆ 开源协议：仓库根目录必须包含 LICENSE 文件。建议使用 MIT 或 Apache 2.0 协议，以鼓励社区二次开发。◆ 代码整洁：敏感信息（如 API Keys、个人隐私数据）绝不可硬编码提交，需使用 .env 等方式隔离。◆ 医疗合规：禁止使用真实患者数据，不得做出诊断承诺。八、README.md 模板要求README 是评委了解作品的第一窗口，必须包含以下结构：# [项目名称]\n\n## 1. 项目简介与医疗场景\n\n- 一句话描述：[用一句话说明这是一个什么医疗 Skill/MCP]\n- 解决的痛点：[例如：肿瘤患者随访数据难结构化、罕见病文献检索效率低等]\n- 目标受众：[医生、患者、医学研究员等]\n\n## 2. 功能特性\n\n- [特性 1：如支持基于 PubMed 的自动文献检索]\n- [特性 2：如支持与外部知识图谱联动]\n\n## 3. 魔搭社区运行/部署指南\n\n- 魔搭展示链接：[提供您的 S",
+      "summary": "2026 小X宝开源医疗社区黑客松 联合 ModelScope 魔搭社区正式拉开帷幕！我们邀请每一位心怀善意的开发者，用 AI 技能（Skills）与 MCP 工具，为生命构筑更多可能。\n\n2026 小X宝开源医疗社区黑客松光已成炬，照亮崎岖 | Light Turns Into Torches, Illuminating the Rugged Path小X宝开源医疗社区 × 魔搭 ModelSc...",
+      "contestType": "code",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-07-12T15:59:00.000Z",
+      "prize": "云资源+vibecoding键盘+WAIC 2026 门票",
+      "tags": [
+        "应用开发赛",
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "在开发前在群内或活动页面登记选题",
+        "避免重复。三、赛程安排：分阶段冲刺",
+        "直通 WAIC本次大赛为期近四周（6月18日 - 7月12日）",
+        "节奏紧凑",
+        "期间设置三个阶段里程碑"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2026-06-18T15:37:29.886Z",
+      "scrapedAt": "2026-06-18T15:35:14.036Z",
+      "lastUpdated": "2026-06-18T15:37:29.886Z",
+      "version": 1
+    },
+    {
+      "id": "c_a272b5798283",
+      "title": "探月计划 | Physical AI 黑客松",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/266",
+      "imageUrl": "",
+      "description": "Physical AI 黑客松-最硬核也最 Vibe不是快闪，不是流量工厂，不是形象工程，而是一场赛后仍能生长的实验场。\n\n选手报名：https://afterzero.feishu.cn/share/base/form/shrcnl8tzNnbLjIoFxUDMyqaIOh志愿者报名：https://v.wjx.cn/vm/tU5LvFv.aspx观众报名：https://wj.qq.com/s2/27053120/a309/",
+      "summary": "Physical AI 黑客松-最硬核也最 Vibe不是快闪，不是流量工厂，不是形象工程，而是一场赛后仍能生长的实验场。\n\n选手报名：https://afterzero.feishu.cn/share/base/form/shrcnl8tzNnbLjIoFxUDMyqaIOh志愿者报名：https://v.wjx.cn/vm/tU5LvFv.aspx观众报名：https://wj.qq.com/s...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-07-09T15:59:00.000Z",
+      "prize": "10万奖金",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-18T15:37:30.873Z",
+      "scrapedAt": "2026-06-18T15:35:14.036Z",
+      "lastUpdated": "2026-06-18T15:37:30.873Z",
+      "version": 1
+    },
     {
       "id": "c_5af2404e0874",
       "title": "2026江苏“创青春”AI+交通创新创业大赛",
@@ -28,9 +93,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-18T04:21:50.820Z",
-      "scrapedAt": "2026-06-18T04:20:00.995Z",
-      "lastUpdated": "2026-06-18T04:21:50.820Z",
+      "processedAt": "2026-06-18T15:37:30.872Z",
+      "scrapedAt": "2026-06-18T15:35:14.037Z",
+      "lastUpdated": "2026-06-18T15:37:30.872Z",
       "version": 1
     },
     {
@@ -57,9 +122,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-18T04:21:51.915Z",
-      "scrapedAt": "2026-06-18T04:20:00.995Z",
-      "lastUpdated": "2026-06-18T04:21:51.915Z",
+      "processedAt": "2026-06-18T15:37:30.804Z",
+      "scrapedAt": "2026-06-18T15:35:14.037Z",
+      "lastUpdated": "2026-06-18T15:37:30.804Z",
       "version": 1
     },
     {
@@ -87,9 +152,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-18T04:21:51.922Z",
-      "scrapedAt": "2026-06-18T04:20:00.996Z",
-      "lastUpdated": "2026-06-18T04:21:51.922Z",
+      "processedAt": "2026-06-18T15:37:30.868Z",
+      "scrapedAt": "2026-06-18T15:35:14.038Z",
+      "lastUpdated": "2026-06-18T15:37:30.868Z",
       "version": 1
     },
     {
@@ -118,9 +183,9 @@
         "否则无法发放奖品）格式示例："
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-18T04:21:51.825Z",
-      "scrapedAt": "2026-06-18T04:20:00.998Z",
-      "lastUpdated": "2026-06-18T04:21:51.825Z",
+      "processedAt": "2026-06-18T15:37:30.893Z",
+      "scrapedAt": "2026-06-18T15:35:14.043Z",
+      "lastUpdated": "2026-06-18T15:37:30.893Z",
       "version": 1
     },
     {
@@ -154,9 +219,9 @@
         "每人最高并发执行 Notebook 数量为 1 个。Q2：申请加入专属组织被拒绝"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-18T04:21:51.825Z",
-      "scrapedAt": "2026-06-18T04:20:01.001Z",
-      "lastUpdated": "2026-06-18T04:21:51.825Z",
+      "processedAt": "2026-06-18T15:37:31.899Z",
+      "scrapedAt": "2026-06-18T15:35:14.049Z",
+      "lastUpdated": "2026-06-18T15:37:31.899Z",
       "version": 1
     },
     {
@@ -184,9 +249,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-18T04:21:51.934Z",
-      "scrapedAt": "2026-06-18T04:20:01.001Z",
-      "lastUpdated": "2026-06-18T04:21:51.934Z",
+      "processedAt": "2026-06-18T15:37:31.911Z",
+      "scrapedAt": "2026-06-18T15:35:14.049Z",
+      "lastUpdated": "2026-06-18T15:37:31.911Z",
       "version": 1
     },
     {
@@ -220,9 +285,9 @@
         "更能确保用户隐私数据“不出机”。本次活动重点鼓励开发者探索如何利用 Intel 酷睿™ Ultra 处理器（如最新的 Panther Lake 架构）的 GPU、NPU 加速能力"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-18T04:21:53.023Z",
-      "scrapedAt": "2026-06-18T04:20:01.001Z",
-      "lastUpdated": "2026-06-18T04:21:53.023Z",
+      "processedAt": "2026-06-18T15:37:31.994Z",
+      "scrapedAt": "2026-06-18T15:35:14.049Z",
+      "lastUpdated": "2026-06-18T15:37:31.994Z",
       "version": 1
     },
     {
@@ -247,81 +312,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-18T04:21:52.941Z",
-      "scrapedAt": "2026-06-18T04:20:01.001Z",
-      "lastUpdated": "2026-06-18T04:21:52.941Z",
-      "version": 1
-    },
-    {
-      "id": "c_94f927ded39f",
-      "title": "沐曦股份 x 魔搭社区 开源实战挑战赛第一期",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/240",
-      "imageUrl": "",
-      "description": "在大模型与开源生态加速融合的当下，如何以更低门槛完成环境构建、跑通真实任务，正在成为开发者迈入 AI 实践的第一步。基于此，沐曦股份携手魔搭社区（ModelScope），共同发起「开源环境构建挑战赛」，围绕 Swift 框架 + 沐曦MXMACA 自研软件栈计算生态，打造一场从环境搭建到能力验证的完整实战挑战。",
-      "summary": "在大模型与开源生态加速融合的当下，如何以更低门槛完成环境构建、跑通真实任务，正在成为开发者迈入 AI 实践的第一步。基于此，沐曦股份携手魔搭社区（ModelScope），共同发起「开源环境构建挑战赛」，围绕 Swift 框架 + 沐曦MXMACA 自研软件栈计算生态，打造一场从环境搭建到能力验证的完整实战挑战。...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-05-31T15:50:00.000Z",
-      "prize": "报名赠50元算力券 · 完成基础任务赠100元算力券 · 打榜TOP3赢丰厚算力+周边+现金奖励",
-      "tags": [
-        "算法竞赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-06-18T04:21:53.015Z",
-      "scrapedAt": "2026-06-18T04:20:01.002Z",
-      "lastUpdated": "2026-06-18T04:21:53.015Z",
-      "version": 1
-    },
-    {
-      "id": "c_f218b630f0cd",
-      "title": "满帮集团Agent算法大赛：基于Agentic AI 的卡车司机连续找货决策",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/238",
-      "imageUrl": "",
-      "description": "在真实的货运平台场景中，司机找货与接单并不是一次性的静态匹配问题，而是一个在时间、空间、收益和个人偏好之间不断权衡的动态连续决策过程。一次“完美”的接单，需要综合考虑当前位置、未来货源预期、自身经营状态，在“立即接单”、“休息等待”、“空驶到指定地点”之间做出权衡，以实现更优的长期经营结果。 传统的算法模型往往聚焦于单次“接单率”的预测，难以刻画司机作为经营主体在长周期下的连续决策智慧。这种长期规划与即时响应相结合的能力，正是当前人工智能从“感知智能”迈向“决策智能”的关键一步。",
-      "summary": "在真实的货运平台场景中，司机找货与接单并不是一次性的静态匹配问题，而是一个在时间、空间、收益和个人偏好之间不断权衡的动态连续决策过程。一次“完美”的接单，需要综合考虑当前位置、未来货源预期、自身经营状态，在“立即接单”、“休息等待”、“空驶到指定地点”之间做出权衡，以实现更优的长期经营结果。 传统的算法模型往往聚焦于单次“接单率”的预测，难以刻画司机作为经营主体在长周期下的连续决策智慧。这种长期规...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-06-07T04:00:00.000Z",
-      "prize": "217000元",
-      "tags": [
-        "应用开发赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "综合考虑当前位置、未来货源预期、自身经营状态",
-        "在“立即接单”、“休息等待”、“空驶到指定地点”之间做出权衡",
-        "以实现更优的长期经营结果。 传统的算法模型往往聚焦于单次“接单率”的预测",
-        "难以刻画司机作为经营主体在长周期下的连续决策智慧。这种长期规划与即时响应相结合的能力",
-        "正是当前人工智能从“感知智能”迈向“决策智能”的关键一步。"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-06-18T04:21:52.941Z",
-      "scrapedAt": "2026-06-18T04:20:01.002Z",
-      "lastUpdated": "2026-06-18T04:21:52.941Z",
+      "processedAt": "2026-06-18T15:37:31.892Z",
+      "scrapedAt": "2026-06-18T15:35:14.049Z",
+      "lastUpdated": "2026-06-18T15:37:31.892Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-18T04:21:57.460Z"
+    "lastUpdated": "2026-06-18T15:37:36.468Z"
   }
 }

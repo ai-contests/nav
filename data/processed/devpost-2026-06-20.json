@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-06-20T04:04:07.283Z",
+  "timestamp": "2026-06-20T14:15:46.998Z",
   "contestCount": 10,
   "contests": [
     {
@@ -28,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-20T04:03:58.177Z",
-      "scrapedAt": "2026-06-20T04:02:19.005Z",
-      "lastUpdated": "2026-06-20T04:03:58.177Z",
+      "processedAt": "2026-06-20T14:15:37.814Z",
+      "scrapedAt": "2026-06-20T14:13:59.088Z",
+      "lastUpdated": "2026-06-20T14:15:37.814Z",
       "version": 1
     },
     {
@@ -59,9 +59,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-20T04:03:59.179Z",
-      "scrapedAt": "2026-06-20T04:02:19.006Z",
-      "lastUpdated": "2026-06-20T04:03:59.179Z",
+      "processedAt": "2026-06-20T14:15:38.818Z",
+      "scrapedAt": "2026-06-20T14:13:59.089Z",
+      "lastUpdated": "2026-06-20T14:15:38.818Z",
       "version": 1
     },
     {
@@ -95,9 +95,9 @@
         "find teammates"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-20T04:03:59.187Z",
-      "scrapedAt": "2026-06-20T04:02:19.007Z",
-      "lastUpdated": "2026-06-20T04:03:59.187Z",
+      "processedAt": "2026-06-20T14:15:38.807Z",
+      "scrapedAt": "2026-06-20T14:13:59.090Z",
+      "lastUpdated": "2026-06-20T14:15:38.807Z",
       "version": 1
     },
     {
@@ -125,9 +125,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-20T04:03:59.187Z",
-      "scrapedAt": "2026-06-20T04:02:19.008Z",
-      "lastUpdated": "2026-06-20T04:03:59.187Z",
+      "processedAt": "2026-06-20T14:15:38.855Z",
+      "scrapedAt": "2026-06-20T14:13:59.094Z",
+      "lastUpdated": "2026-06-20T14:15:38.855Z",
       "version": 1
     },
     {
@@ -162,9 +162,9 @@
         "coverage"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-20T04:03:59.186Z",
-      "scrapedAt": "2026-06-20T04:02:19.009Z",
-      "lastUpdated": "2026-06-20T04:03:59.186Z",
+      "processedAt": "2026-06-20T14:15:38.836Z",
+      "scrapedAt": "2026-06-20T14:13:59.094Z",
+      "lastUpdated": "2026-06-20T14:15:38.836Z",
       "version": 1
     },
     {
@@ -172,14 +172,20 @@
       "title": "Slack Agent Builder Challenge",
       "platform": "devpost",
       "url": "https://slackhack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/685/418/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/685/418/datas/original.png",
+      "description": "The next era of productivity is agentic—and it lives in Slack. We’re calling on all builders—from seasoned Slack veterans to \"vibe coders\" picking up the Slack CLI for the first time—to join the Slack Agent Builder Challenge. This is your opportunity to redefine the workplace by building intelligent agents that automate workflows, surface real-time insights, and connect systems in ways we haven’t imagined yet. Whether you’re building a specialized agent for your organization, a tool for social good, or the next viral Slack Marketplace app, we want to see your creativity in action. Leverage the Slack Agent Builder, MCP integrations, and the Real-Time Search (RTS) API to show the world why Slack is the ultimate surface for AI. Why Join? Whether you're a \"vibe coder\" or a seasoned pro, the on-ramp is designed for speed—use the slack create agent command and ready-made templates for HR, IT, and Sales to go from an idea to a running agent in a single afternoon. For those building for organizations, the hackathon serves as a guided path to the Slack Marketplace, giving you a structured deadline to ship your app and gain direct distribution to Slack’s massive enterprise customer base. Compete for a share of the $42,000 cash USD prize pool, a chance to go to Dreamforce 2026, some Slack swag, an invite to an exclusive Slack community gathering and to be featured in the Slack newsletter and social media",
+      "summary": "The next era of productivity is agentic—and it lives in Slack. We’re calling on all builders—from seasoned Slack veterans to \"vibe coders\" picking up the Slack CLI for the first time—to join the Slack...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-07-14T00:00:00.000Z",
       "prize": "$42,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Enterprise",
+        "Low",
+        "No Code"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -188,9 +194,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-20T04:03:59.346Z",
-      "scrapedAt": "2026-06-20T04:02:19.009Z",
-      "lastUpdated": "2026-06-20T04:03:59.346Z",
+      "processedAt": "2026-06-20T14:15:38.930Z",
+      "scrapedAt": "2026-06-20T14:13:59.095Z",
+      "lastUpdated": "2026-06-20T14:15:38.930Z",
       "version": 1
     },
     {
@@ -198,14 +204,19 @@
       "title": "Mind the Product presents World Product Day: Everyone Ships Now",
       "platform": "devpost",
       "url": "https://mindtheproduct.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/365/datas/medium_square.jpeg",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/365/datas/original.jpeg",
+      "description": "About the challenge World Product Day is our annual global celebration of the craft, community, and impact of product people, and this year, we're doing something different. Instead of just talking about shipping, we want to see you ship. Mind the Product is the world's largest community of product professionals, and for over a decade we've championed the idea that great products come from people who are relentlessly curious, resourceful, and willing to build. With AI tooling collapsing the distance between \"I have an idea\" and \"I shipped it,\" there has never been a better moment for our community to put that belief into practice. We're partnering with our friends over at Novus.ai to bring this challenge to you. Novus.ai gives you instant insight into how real users interact with what you've built, so you're not just shipping into the void. They're sponsoring World Product Day because they believe more people should be shipping, and shipping with real feedback from day one. Everyone Ships Now is exactly what it sounds like. You don't need to be an engineer. You don't need a team. You don't need permission. You just need an idea and roughly a month. We'll bring the community, the stage, and the prizes — you bring the thing you've been meaning to build. To be eligible for challenge prizes, your project must: Be new. Work on it must begin on or after May 20. No dusting off last year's side project. Be built with the tool of your choice. Bolt, Lovable, Replit, Cursor, Claude, v0, Figma Make, hand-rolled Next.js — whatever gets you to shipped fastest. We're tool-agnostic. Install Novus.ai before submission. Novus is how you (and we) measure what you've built. Any project submitted without Novus installed is ineligible for prizes. That's it. No themes, no required APIs, no mandatory integrations beyond Novus. Build what you actually want to build. Get started Here's the fastest path from \"I'm in\" to \"I'm building\": Register on this page to lock in your spot and get access to updates. Pick your idea. That thing you've been sketching in the back of a notebook counts. So does the internal tool your team keeps asking for. So does the silly app you think nobody will use. Pick your tool. Use whatever you're fastest in. If you've never shipped before, try one of the AI builders (Bolt, Lovable, Replit Agent, v0) — they're designed for exactly this moment. Build in public, if you can. Post progress with #EveryoneShipsNow and tag @MindThePRoduct. Community momentum is half the fun. Install Novus.ai on your project so you can see how users are interacting with what you built. Submit by June 20, 5:00 PM GMT. Stuck on what to build? Our friends at Vennie.ai can help you go from fuzzy idea to defined scope in minutes.",
+      "summary": "About the challenge World Product Day is our annual global celebration of the craft, community, and impact of product people, and this year, we're doing something different. Instead of just talking ab...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-06-20T16:00:00.000Z",
       "prize": "$10,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Low",
+        "No Code"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -214,9 +225,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-20T04:04:00.254Z",
-      "scrapedAt": "2026-06-20T04:02:19.010Z",
-      "lastUpdated": "2026-06-20T04:04:00.254Z",
+      "processedAt": "2026-06-20T14:15:39.935Z",
+      "scrapedAt": "2026-06-20T14:13:59.096Z",
+      "lastUpdated": "2026-06-20T14:15:39.935Z",
       "version": 1
     },
     {
@@ -224,14 +235,18 @@
       "title": "GitLab Transcend Hackathon",
       "platform": "devpost",
       "url": "https://gitlab-transcend.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/732/516/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/732/516/datas/original.png",
+      "description": "About the challenge Context is everything. The GitLab Transcend Hackathon is a two-week, fully virtual event celebrating the future of AI-native software development, built on top of GitLab Orbit. The structured, queryable representation of your codebase that gives AI the context it needs to actually understand your project. Whether you want to ship code that powers GitLab Orbit itself, or build agents, flows, and skills that put it to work, there's a track for you. Beginners, seasoned contributors, and AI tinkerers are all welcome. Two tracks, one mission: make AI smarter by giving it real context. Contribute Track: Pick up an issue specifically designed for this hackathon and ship a merge request to GitLab Orbit and surrounding tooling. Showcase Track: Build an agent, flow, or skill on the GitLab Duo Agent Platform that uses GitLab Orbit to solve a real developer problem. Publish to the AI Catalog and tell the world about it. Get started Register here on Devpost. Head to the GitLab Contributors Platform transcend hackathon page and choose your track. Find more resources Build, ship, and submit your project on Devpost by June 24, 2026 (2:00 pm Eastern Time).",
+      "summary": "About the challenge Context is everything. The GitLab Transcend Hackathon is a two-week, fully virtual event celebrating the future of AI-native software development, built on top of GitLab Orbit. The...",
+      "contestType": "text",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-06-24T18:00:00.000Z",
       "prize": "$20,000",
-      "tags": [],
+      "tags": [
+        "DevOps",
+        "Productivity"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -240,9 +255,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-20T04:04:00.346Z",
-      "scrapedAt": "2026-06-20T04:02:19.011Z",
-      "lastUpdated": "2026-06-20T04:04:00.346Z",
+      "processedAt": "2026-06-20T14:15:40.015Z",
+      "scrapedAt": "2026-06-20T14:13:59.096Z",
+      "lastUpdated": "2026-06-20T14:15:40.015Z",
       "version": 1
     },
     {
@@ -250,14 +265,19 @@
       "title": "Reddit’s Games with a Hook Hackathon",
       "platform": "devpost",
       "url": "https://redditgameswithahook.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/669/093/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/669/093/datas/original.png",
+      "description": "Overview Reddit is hosting a virtual hackathon from June 17th to July 15th. We’re offering developers $40,000 in prizes for games built to delight users. The challenge: create a new Reddit game for the users of Reddit using Devvit, our Developer Platform. For this hackathon, we're asking developers to use Devvit Web, which allows you to build Devvit apps using web technologies you’re already familiar with (e.g. React, Phaser, three.js), or your favorite game engine (Godot, GameMaker, Unity, etc). Participants will also have access to Phaser to make their game shine. The best app to use Phaser will be eligible for a special award. What to build Build a game on Devvit (Reddit’s Developer Platform) using our Interactive Posts feature that inspires collective joy. The Best Experience That Will Keep People Coming Back: Apps that give redditors a reason to return day after day. This could come from progression, daily challenges, fresh content, meaningful choices, social dynamics, or simply the anticipation of what happens next. We're looking for experiences that create excitement between sessions and leave players wanting to check back tomorrow. The strongest entries make every visit feel worthwhile. Players should have something to work toward, discover, unlock, influence, or look forward to each time they return. The format can vary widely, but the core focus should be creating a compelling loop that builds momentum over time and turns a one-time visitor into a regular player. Examples of games on Reddit that bring users back day over day r/honk, r/colorpuzzlegame, r/bunnytrials, r/alignmentchartFills, r/hotandcold, r/dailyguess, r/bridgedit, r/battlebirds, r/kraw r/LETTERSET What we’re NOT looking for: AI Slop: Did you use AI? Fantastic! But it shouldn’t be obvious the moment we open your app. Fit the UI in the viewport, give your app a unique identity, and make sure you’re thinking of your human players. You can even ask your agentic assistant to help hide their involvement! On the nose Reddit theming: Reddit-y does not mean the game is about Reddit, karma, subreddits, Snoo, etc. Reddit-y means human-first, embracing community, meritocracy, creativity…it’s in the spirit of the app and your use of all the things subreddits have to offer (comments, flair, feeds, community)! While making the app about the topic of Reddit itself is not forbidden, it is also not a hack for making an app “Reddit-y”. Literal interpretations on “Games with a Hook”: While we're not opposed to seeing a fishing game or two, games with a \"hook\" shouldn't be taken literally. We want to see hooky games as in retentive and replayable. Common Ideas: Your game might not score as well if we’ve seen it many times before. We see a lot of: space shooters, clone apps of popular games, simple platformers, collaborative storytelling apps, and trivia apps. If you do make one of these apps, make sure it's extremely unique. Sub-challenges In addition to an excellent retentive experience, we’re looking for standout apps that also achieve the following: Best Use of Phaser: Recognizes the most innovative use of the Phaser game development framework within the Reddit Devvit platform. Best Use of Retention Mechanisms: Reddit apps are discoverable in our users’ feeds. This means that apps that create daily, or recurring, content tend to see better growth and retention. This award will go to the best use of retentive mechanics in a game. Best Use of User Contributions: Apps that enable users to generate content (comments, posts, drawings, puzzles, levels) drive redditor engagement and conversation. This award will go to the app that makes the best use of user-generated content. Games must be built on Devvit Web and be compliant with our Devvit Rules. Read our guide on how to build games for Reddit for more guidance on building for our platform. For this event we are looking for polish, meaning apps that are as close to launch-ready as possible (bonus points for a good mobile experience). We understand that not all projects will reach this threshold, but projects that are well tested and concept-complete will score higher. While we are accepting existing projects for this event, please note the game should be significantly updated during the hackathon period to qualify for this event. Getting started Get started with the Quickstart Browse our Template Library for building with a familiar framework You can use the Phaser Template here View examples of existing games on r/GameOnReddit Join us on Discord for live support and office hours",
+      "summary": "Overview Reddit is hosting a virtual hackathon from June 17th to July 15th. We’re offering developers $40,000 in prizes for games built to delight users. The challenge: create a new Reddit game for th...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-07-16T01:00:00.000Z",
       "prize": "$40,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Gaming",
+        "Web"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -266,9 +286,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-20T04:04:00.347Z",
-      "scrapedAt": "2026-06-20T04:02:19.011Z",
-      "lastUpdated": "2026-06-20T04:04:00.347Z",
+      "processedAt": "2026-06-20T14:15:39.930Z",
+      "scrapedAt": "2026-06-20T14:13:59.097Z",
+      "lastUpdated": "2026-06-20T14:15:39.930Z",
       "version": 1
     },
     {
@@ -276,15 +296,17 @@
       "title": "Arm Create: AI Optimization Challenge",
       "platform": "devpost",
       "url": "https://arm-ai-optimization-challenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/715/320/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/715/320/datas/original.png",
+      "description": "Welcome to the Arm AI Optimization Challenge 2026. We’re inviting developers to build and submit projects that show how AI can be optimized for Arm-powered platforms across three challenge tracks: Physical AI: Optimize AI for real-world systems, including robotics, embedded devices, sensors, simulation, autonomy, and edge environments. Cloud AI: Optimize AI for scalable infrastructure, including Arm64 cloud, inference performance, frameworks, agents, and production-ready developer workflows. Mobile AI: Optimize AI for on-device constraints, including performance, privacy, latency, battery efficiency, and local AI experiences on Arm-powered phones, tablets, and laptops. Across all tracks, submissions should show clear optimization work and measurable improvements where possible. Optimizations we will look for: Model size: Reduce size on disk or in memory. Model quality: Improve fine-tuning or output quality for a given model size. Model speed: Improve tokens/sec, time to first token, or other relevant latency metrics. Inference server speed: Improve throughput, latency, tokens/sec, or time to first token. Developer experience: Improve tools, workflows, setup, documentation, or usability. Arm-specific optimization: Implement optimizations in an existing framework, library, model, or application to run better on Arm. Developers can use Arm Performix to get exact benchmarks of their Arm based performance and be able to clearly show their results.",
+      "summary": "Welcome to the Arm AI Optimization Challenge 2026. We’re inviting developers to build and submit projects that show how AI can be optimized for Arm-powered platforms across three challenge tracks: Phy...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-14T23:00:00.000Z",
       "prize": "$8,000",
       "tags": [
-        "ai"
+        "Machine Learning",
+        "AI"
       ],
       "aiTools": [
         "Python",
@@ -294,15 +316,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-20T04:04:00.335Z",
-      "scrapedAt": "2026-06-20T04:02:19.012Z",
-      "lastUpdated": "2026-06-20T04:04:00.335Z",
+      "processedAt": "2026-06-20T14:15:39.931Z",
+      "scrapedAt": "2026-06-20T14:13:59.097Z",
+      "lastUpdated": "2026-06-20T14:15:39.931Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-20T04:04:07.283Z"
+    "lastUpdated": "2026-06-20T14:15:46.998Z"
   }
 }

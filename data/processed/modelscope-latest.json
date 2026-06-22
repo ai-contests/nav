@@ -1,8 +1,37 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-06-22T04:51:27.502Z",
+  "timestamp": "2026-06-22T17:08:13.742Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_0023432452db",
+      "title": "Hi,Meoo！【AI Bulider 杭州】",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/267",
+      "imageUrl": "",
+      "description": "Hi Meoo.AI Builder.杭州专场，带你用AI生成好看又实用的网页及小程序，让奇思妙想秒落地！6月27日14:00杭州云谷中心，限量周边、积分福利、新功能内测资格，等你来玩！",
+      "summary": "Hi Meoo.AI Builder.杭州专场，带你用AI生成好看又实用的网页及小程序，让奇思妙想秒落地！6月27日14:00杭州云谷中心，限量周边、积分福利、新功能内测资格，等你来玩！...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-06-27T16:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-22T17:08:06.896Z",
+      "scrapedAt": "2026-06-22T17:05:46.638Z",
+      "lastUpdated": "2026-06-22T17:08:06.896Z",
+      "version": 1
+    },
     {
       "id": "c_ecebced8919f",
       "title": "2026 小X宝开源医疗社区黑客松",
@@ -34,9 +63,9 @@
         "期间设置三个阶段里程碑"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-22T04:51:20.578Z",
-      "scrapedAt": "2026-06-22T04:48:58.626Z",
-      "lastUpdated": "2026-06-22T04:51:20.578Z",
+      "processedAt": "2026-06-22T17:08:07.993Z",
+      "scrapedAt": "2026-06-22T17:05:46.639Z",
+      "lastUpdated": "2026-06-22T17:08:07.993Z",
       "version": 1
     },
     {
@@ -63,9 +92,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-22T04:51:21.674Z",
-      "scrapedAt": "2026-06-22T04:48:58.632Z",
-      "lastUpdated": "2026-06-22T04:51:21.674Z",
+      "processedAt": "2026-06-22T17:08:07.900Z",
+      "scrapedAt": "2026-06-22T17:05:46.639Z",
+      "lastUpdated": "2026-06-22T17:08:07.900Z",
       "version": 1
     },
     {
@@ -93,9 +122,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-22T04:51:21.667Z",
-      "scrapedAt": "2026-06-22T04:48:58.632Z",
-      "lastUpdated": "2026-06-22T04:51:21.667Z",
+      "processedAt": "2026-06-22T17:08:07.999Z",
+      "scrapedAt": "2026-06-22T17:05:46.640Z",
+      "lastUpdated": "2026-06-22T17:08:07.999Z",
       "version": 1
     },
     {
@@ -122,9 +151,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-22T04:51:21.666Z",
-      "scrapedAt": "2026-06-22T04:48:58.632Z",
-      "lastUpdated": "2026-06-22T04:51:21.666Z",
+      "processedAt": "2026-06-22T17:08:07.892Z",
+      "scrapedAt": "2026-06-22T17:05:46.640Z",
+      "lastUpdated": "2026-06-22T17:08:07.892Z",
       "version": 1
     },
     {
@@ -152,9 +181,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-22T04:51:21.583Z",
-      "scrapedAt": "2026-06-22T04:48:58.633Z",
-      "lastUpdated": "2026-06-22T04:51:21.583Z",
+      "processedAt": "2026-06-22T17:08:08.177Z",
+      "scrapedAt": "2026-06-22T17:05:46.641Z",
+      "lastUpdated": "2026-06-22T17:08:08.177Z",
       "version": 1
     },
     {
@@ -183,9 +212,9 @@
         "否则无法发放奖品）格式示例："
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-22T04:51:21.738Z",
-      "scrapedAt": "2026-06-22T04:48:58.641Z",
-      "lastUpdated": "2026-06-22T04:51:21.738Z",
+      "processedAt": "2026-06-22T17:08:09.143Z",
+      "scrapedAt": "2026-06-22T17:05:46.643Z",
+      "lastUpdated": "2026-06-22T17:08:09.143Z",
       "version": 1
     },
     {
@@ -219,9 +248,9 @@
         "每人最高并发执行 Notebook 数量为 1 个。Q2：申请加入专属组织被拒绝"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-22T04:51:22.841Z",
-      "scrapedAt": "2026-06-22T04:48:58.654Z",
-      "lastUpdated": "2026-06-22T04:51:22.841Z",
+      "processedAt": "2026-06-22T17:08:09.064Z",
+      "scrapedAt": "2026-06-22T17:05:46.647Z",
+      "lastUpdated": "2026-06-22T17:08:09.064Z",
       "version": 1
     },
     {
@@ -233,7 +262,7 @@
       "description": "在手机上开发一款创意 AI 应用，至少选用一款 Qwen 系列模型（云端 API 可协同），推荐在 MNN 框架下针对 Arm SME2 指令集进行推理加速与性能调优，让手机算力真正释放。",
       "summary": "在手机上开发一款创意 AI 应用，至少选用一款 Qwen 系列模型（云端 API 可协同），推荐在 MNN 框架下针对 Arm SME2 指令集进行推理加速与性能调优，让手机算力真正释放。...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
       "deadline": "2026-06-22T15:59:00.000Z",
       "prize": "30万元",
@@ -249,9 +278,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-22T04:51:22.741Z",
-      "scrapedAt": "2026-06-22T04:48:58.654Z",
-      "lastUpdated": "2026-06-22T04:51:22.741Z",
+      "processedAt": "2026-06-22T17:08:09.058Z",
+      "scrapedAt": "2026-06-22T17:05:46.647Z",
+      "lastUpdated": "2026-06-22T17:08:09.058Z",
       "version": 1
     },
     {
@@ -285,42 +314,15 @@
         "更能确保用户隐私数据“不出机”。本次活动重点鼓励开发者探索如何利用 Intel 酷睿™ Ultra 处理器（如最新的 Panther Lake 架构）的 GPU、NPU 加速能力"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-22T04:51:22.737Z",
-      "scrapedAt": "2026-06-22T04:48:58.654Z",
-      "lastUpdated": "2026-06-22T04:51:22.737Z",
-      "version": 1
-    },
-    {
-      "id": "c_212251cdff9e",
-      "title": "Spatial Joy 26 Rokid 全球高校创新挑战赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/251",
-      "imageUrl": "",
-      "description": "在人工智能与增强现实技术加速融合、重塑人机交互范式的时代背景下，Rokid 推出的 “Spatial Joy” 系列赛事，一项旨在推动大型语言模型、空间计算及下一代交互范式交叉探索的旗舰计划。其使命在于：赋能高校学子与行业开发者，突破现有边界，共同定义 Al+AR 的未来图景。",
-      "summary": "在人工智能与增强现实技术加速融合、重塑人机交互范式的时代背景下，Rokid 推出的 “Spatial Joy” 系列赛事，一项旨在推动大型语言模型、空间计算及下一代交互范式交叉探索的旗舰计划。其使命在于：赋能高校学子与行业开发者，突破现有边界，共同定义 Al+AR 的未来图景。...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-06-30T15:59:00.000Z",
-      "prize": "总奖池 66万",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-06-22T04:51:22.739Z",
-      "scrapedAt": "2026-06-22T04:48:58.655Z",
-      "lastUpdated": "2026-06-22T04:51:22.739Z",
+      "processedAt": "2026-06-22T17:08:09.057Z",
+      "scrapedAt": "2026-06-22T17:05:46.648Z",
+      "lastUpdated": "2026-06-22T17:08:09.057Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-22T04:51:27.502Z"
+    "lastUpdated": "2026-06-22T17:08:13.742Z"
   }
 }

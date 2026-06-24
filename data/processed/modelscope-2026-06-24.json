@@ -1,6 +1,6 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-06-24T03:58:15.930Z",
+  "timestamp": "2026-06-24T14:42:25.817Z",
   "contestCount": 10,
   "contests": [
     {
@@ -28,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-24T03:58:08.850Z",
-      "scrapedAt": "2026-06-24T03:55:50.813Z",
-      "lastUpdated": "2026-06-24T03:58:08.850Z",
+      "processedAt": "2026-06-24T14:42:18.688Z",
+      "scrapedAt": "2026-06-24T14:39:59.872Z",
+      "lastUpdated": "2026-06-24T14:42:18.688Z",
       "version": 1
     },
     {
@@ -57,9 +57,38 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-24T03:58:09.006Z",
-      "scrapedAt": "2026-06-24T03:55:50.813Z",
-      "lastUpdated": "2026-06-24T03:58:09.006Z",
+      "processedAt": "2026-06-24T14:42:18.815Z",
+      "scrapedAt": "2026-06-24T14:39:59.872Z",
+      "lastUpdated": "2026-06-24T14:42:18.815Z",
+      "version": 1
+    },
+    {
+      "id": "c_be77c407e651",
+      "title": "WaytoAGI-AI切磋小会",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/271",
+      "imageUrl": "",
+      "description": "6月28日，来云谷中心参加AI切磋小会——亲子Al，AI教育专场！",
+      "summary": "6月28日，来云谷中心参加AI切磋小会——亲子Al，AI教育专场！...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-06-26T16:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-24T14:42:19.907Z",
+      "scrapedAt": "2026-06-24T14:39:59.872Z",
+      "lastUpdated": "2026-06-24T14:42:19.907Z",
       "version": 1
     },
     {
@@ -84,9 +113,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-24T03:58:09.997Z",
-      "scrapedAt": "2026-06-24T03:55:50.813Z",
-      "lastUpdated": "2026-06-24T03:58:09.997Z",
+      "processedAt": "2026-06-24T14:42:19.816Z",
+      "scrapedAt": "2026-06-24T14:39:59.872Z",
+      "lastUpdated": "2026-06-24T14:42:19.816Z",
       "version": 1
     },
     {
@@ -120,9 +149,9 @@
         "期间设置三个阶段里程碑"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-06-24T03:58:10.087Z",
-      "scrapedAt": "2026-06-24T03:55:50.814Z",
-      "lastUpdated": "2026-06-24T03:58:10.087Z",
+      "processedAt": "2026-06-24T14:42:19.820Z",
+      "scrapedAt": "2026-06-24T14:39:59.873Z",
+      "lastUpdated": "2026-06-24T14:42:19.820Z",
       "version": 1
     },
     {
@@ -149,9 +178,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-24T03:58:10.084Z",
-      "scrapedAt": "2026-06-24T03:55:50.814Z",
-      "lastUpdated": "2026-06-24T03:58:10.084Z",
+      "processedAt": "2026-06-24T14:42:19.821Z",
+      "scrapedAt": "2026-06-24T14:39:59.873Z",
+      "lastUpdated": "2026-06-24T14:42:19.821Z",
       "version": 1
     },
     {
@@ -178,9 +207,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-24T03:58:09.999Z",
-      "scrapedAt": "2026-06-24T03:55:50.814Z",
-      "lastUpdated": "2026-06-24T03:58:09.999Z",
+      "processedAt": "2026-06-24T14:42:20.004Z",
+      "scrapedAt": "2026-06-24T14:39:59.873Z",
+      "lastUpdated": "2026-06-24T14:42:20.004Z",
       "version": 1
     },
     {
@@ -208,9 +237,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-24T03:58:10.232Z",
-      "scrapedAt": "2026-06-24T03:55:50.814Z",
-      "lastUpdated": "2026-06-24T03:58:10.232Z",
+      "processedAt": "2026-06-24T14:42:20.979Z",
+      "scrapedAt": "2026-06-24T14:39:59.873Z",
+      "lastUpdated": "2026-06-24T14:42:20.979Z",
       "version": 1
     },
     {
@@ -237,9 +266,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-24T03:58:11.270Z",
-      "scrapedAt": "2026-06-24T03:55:50.814Z",
-      "lastUpdated": "2026-06-24T03:58:11.270Z",
+      "processedAt": "2026-06-24T14:42:21.052Z",
+      "scrapedAt": "2026-06-24T14:39:59.873Z",
+      "lastUpdated": "2026-06-24T14:42:21.052Z",
       "version": 1
     },
     {
@@ -267,46 +296,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-24T03:58:11.225Z",
-      "scrapedAt": "2026-06-24T03:55:50.814Z",
-      "lastUpdated": "2026-06-24T03:58:11.225Z",
-      "version": 1
-    },
-    {
-      "id": "c_f897fb82a5c8",
-      "title": "昇腾CANN社区任务【6月】",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/250",
-      "imageUrl": "",
-      "description": "昇腾CANN训练营社区基于真实产业案例设计，完成任务即有机会获得华为三折叠手机、万元笔记本电脑，荣登社区荣誉榜单，任务每月更新，月底截止，多重任务值任务适合各阶段实操开发者。\n\n背景社区任务基于真实产业案例设计，完成任务即有机会获得华为三折叠手机、万元笔记本电脑，荣登社区荣誉榜单，更为您的职业技能注入新动力。具体任务每月月底发放任务，次月30日/31日截止，多重任务值任务适合各阶段实操开发者完成任务赢取现金、新款华为手机、电脑 👇🔥 6月社区任务全新升级，现金激励重磅来袭！每个任务参与队伍根据验收时间排序，按任务书要求第一个通过验收的队伍在合入PR后可获得该任务相应奖金序号任务链接含税奖金（人民币）最晚通过验收时间20260529-1AclsolverCheevj 算子开发90415.5元2026.07.3020260529-2三角矩阵求解运算系列算子开发82240.5元2026.07.3020260529-3SPMV 算子开发72430.5元2026.07.3020260529-4Cast&EmbeddingDenseGrad 算子开发69651元2026.07.3020260529-5DynamicMap容器算子开发60985.5元2026.06.3020260529-6MinDim&MaxDim 算子开发58860元2026.06.3020260529-7SyncBatchNormGatherStats 算子开发57715.5元2026.06.3020260529-8Im2col 算子开发50194.5元2026.06.3020260529-9Bincount 算子开发40384.5元2026.06.3020260529-10RightShift算子开发29430元2026.06.3020260529-11FmodTensor&FmodScalar 算子开发25015.5元2026.06.3020260529-12UpsampleNearest3d 算子开发23380.5元2026.06.3020260529-13Logspace 算子开发23380.5元2026.06.3020260529-14UpsampleNearestExact1d&UpsampleNearestExact2d 算子开发23380.5元2026.06.3020260529-15Arange 算子开发22399.5元2026.06.3020260529-16Gcd 算子开发22399.5元2026.06.3020260529-17InplaceRsqrt 算子开发17985元2026.06.3020260529-18Relu算子开发17494.5元2026.06.3020260529-19InplaceSigmoid 算子开发17494.5元2026.06.3020260529-20IndexFillTensor 算子开发16840.5元2026.06.30任务值序号任务链接（绿色为Triton算子开发）奖品示例交付时间2200004-1SlidingTileAttention算子开发2026.05.311650004-2IsClose算子开发2026.05.311100004-3Pdist算子开发2026.05.3104-4AngleV2算子开发04-5Polar算子开发04-6Sleep算子开发900004-7Equal算子开发2026.05.3104-8Logit算子开发04-9median算子开发550004-10ForeachAddListV2算子开发2026.05.3104-11ForeachAddScalarV2算子开发04-12ForeachSubListV2算子开发04-13MaxUnpool3d算子开发04-14MaxUnpool2d算子开发04-15Sign算子开发04-16ForeachMulList算子开发04-17foreach_neg算子开发04-18foreach_exp算子开发04-19foreach_expm1算子开发04-20Neg算子开发04-21ForeachRoundOffNumberV2算子开发900003-1Roll算子开发2026.05.31800003-3MaskedScatter算子开发2026.05.3103-23_fwd_kernel_stage1算子开发03-24fused_recurrent_gated_delta_rule_fwd_kernel算子开发600003-8SoftmaxCrossEntropyWithLogits算子开发03-26reshape_and_cache_kernel_flash算子开发500003-11ApplyAdamW算子开发03-12AscendAntiQuantV2算子开发03-13BiasAdd算子开发03-14BnTrainingReduce算子开发03-15L2Loss算子开发03-16MaxPool3D算子开发03-17ScatterAdd算子开发03-18ScatterNd算子开发400003-20ApplyAdagradD算子开发03-21PreluGradReduce算子开发03-28_linear_attn_decode_kernel算子开发03-29chunk_kda_scaled_dot_kkt_fwd_kernel_intra_sub_intra算子开发300002-16ReluGradV2算子开发02-26SyncBatchNormBackwardElemt算子开发03-30_fwd_kernel_stage2算子开发03-31merge_attn_states_kernel算子开发03-32_fwd_kv_reduce算子开发提交方式01任务申请02任务交付（点击了解社区任务最新进展）03任务验收04验收复核05任务关闭点击报名后1个工作日内联系昇腾小助手获取任务进展更新表开发者承接后需1周内提交设计文档，提交后2个工作日会收到审批反馈开发者承接后3周内需联系昇腾小助手拉群验收；提交验收内容后3个工作日内会收到验收审批反馈第一名验收通过后的队伍需在2个工作日内提交PR，并根据检视意见修改代码，直到PR合入通过验收并合入PR参与任务需要先完成以下动作：1、报名26年CANN训练营第一季：报名链接2、认证通过算子开发者认证：认证链接具体任务查看&领取在 CANN 社区 进行：直达链接参与步骤01 任务申请跟帖评论申请任务（参与后任务交付、验收需与报名账号统一，否则无法发放奖品）格式示例：\n【队名】：根本不报错\n【gitcode账号名】：XXXXX\n【是否报名训练营】：是\n【是否通过算子开发者认证】：是/1周内提供\n【任务序号】：任务序号\n【状态】：报名\n【链接】：fork链接【社区任务】开发流程及注意事项：https://gitcode.com/org/cann/discussions/39社区任务常见问题解析：https://gitcode.com/org/cann/discussions/37部分奖品为新品奖品发放会延迟，展示奖品若无货将更换为同等价值奖品",
-      "summary": "昇腾CANN训练营社区基于真实产业案例设计，完成任务即有机会获得华为三折叠手机、万元笔记本电脑，荣登社区荣誉榜单，任务每月更新，月底截止，多重任务值任务适合各阶段实操开发者。\n\n背景社区任务基于真实产业案例设计，完成任务即有机会获得华为三折叠手机、万元笔记本电脑，荣登社区荣誉榜单，更为您的职业技能注入新动力。具体任务每月月底发放任务，次月30日/31日截止，多重任务值任务适合各阶段实操开发者完成任...",
-      "contestType": "code",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-12-31T15:59:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "否则无法发放奖品）格式示例："
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-06-24T03:58:11.154Z",
-      "scrapedAt": "2026-06-24T03:55:50.816Z",
-      "lastUpdated": "2026-06-24T03:58:11.154Z",
+      "processedAt": "2026-06-24T14:42:20.974Z",
+      "scrapedAt": "2026-06-24T14:39:59.874Z",
+      "lastUpdated": "2026-06-24T14:42:20.974Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-24T03:58:15.930Z"
+    "lastUpdated": "2026-06-24T14:42:25.817Z"
   }
 }

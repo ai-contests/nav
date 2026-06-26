@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-06-26T04:05:26.288Z",
+  "timestamp": "2026-06-26T14:36:25.112Z",
   "contestCount": 10,
   "contests": [
     {
@@ -8,18 +8,14 @@
       "title": "Build with Gemini XPRIZE",
       "platform": "devpost",
       "url": "https://xprize.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/original.png",
-      "description": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Ship Deploy a business that operates with AI. Real users in production. 04 Sell Market it. Grow it. Show the revenue. AI is transforming everything, including what small teams can build. Operations that used to take entire engineering departments can now be written in plain English and executed by AI agents. By some estimates, the world’s 45 million software developers will grow to over a billion in the next few years. Everyone will be a developer, and we want to start now, with you. So show us: build a real business that makes real impact.",
-      "summary": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Shi...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-08-17T20:00:00.000Z",
       "prize": "$2,000,000",
-      "tags": [
-        "Education",
-        "Productivity"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -28,9 +24,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-26T04:05:16.905Z",
-      "scrapedAt": "2026-06-26T04:03:40.348Z",
-      "lastUpdated": "2026-06-26T04:05:16.905Z",
+      "processedAt": "2026-06-26T14:36:16.304Z",
+      "scrapedAt": "2026-06-26T14:34:39.783Z",
+      "lastUpdated": "2026-06-26T14:36:16.304Z",
       "version": 1
     },
     {
@@ -38,19 +34,14 @@
       "title": "H0: Hack the Zero Stack with Vercel v0 and AWS Databases",
       "platform": "devpost",
       "url": "https://h01.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/189/datas/original.png",
-      "description": "You no longer need to choose between shipping quickly and using data infrastructure that will hold up in real-world traffic and scale. With the integration between AWS Databases and Vercel, the application you prototype over a weekend can run on the same data foundation that startups and enterprises use for production deployment. You can focus on building and iterating on your product quickly on an operationally proven database from day one. Use Vercel’s v0 to scaffold a production-ready Next.js frontend and connect it to one of three AWS Databases: Amazon Aurora PostgreSQL Aurora DSQL, or DynamoDB. Build a full-stack application that could actually go to production in minutes. Why join? $80,000 in cash prizes and an additional $80,000 in AWS credits! Get hands-on with a production stack: AWS Databases and Vercel Build something real – judges are looking for shippable software, not just demos Get Started Sign up for a v0.app account if you don’t already have one Fill out the request form to get AWS & v0 Credits Choose and provision your AWS Databases Build. Ship. Submit!",
-      "summary": "You no longer need to choose between shipping quickly and using data infrastructure that will hold up in real-world traffic and scale. With the integration between AWS Databases and Vercel, the applic...",
-      "contestType": "image",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/189/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-06-30T00:00:00.000Z",
       "prize": "$80,000",
-      "tags": [
-        "Databases",
-        "Open Ended",
-        "Web"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -59,9 +50,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-26T04:05:17.017Z",
-      "scrapedAt": "2026-06-26T04:03:40.348Z",
-      "lastUpdated": "2026-06-26T04:05:17.017Z",
+      "processedAt": "2026-06-26T14:36:16.408Z",
+      "scrapedAt": "2026-06-26T14:34:39.784Z",
+      "lastUpdated": "2026-06-26T14:36:16.408Z",
       "version": 1
     },
     {
@@ -69,17 +60,15 @@
       "title": "Global AI Hackathon Series with Qwen Cloud",
       "platform": "devpost",
       "url": "https://qwencloud-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/706/870/datas/original.png",
-      "description": "Build production-ready agents on Qwen — and show the world what an agent can do. The Global AI Hackathon with Qwen Cloud invites professional developers, AI/ML engineers, and builders to design and ship sophisticated multi-agent systems, complex AI workflows, and production-grade applications using Qwen and other flagship models available on Qwen Cloud infrastructure. With advanced reasoning and multimodal capabilities, QwenCloud is built for builders who care about architectural depth and engineering excellence. Pick a track and build something real. Compete for total $70,000+ in cash and cloud credits, get featured on the Qwen Cloud blog, and earn an invite to join the AI Catalyst program. Why Join Build with Qwen Cloud. Access Qwen and other flagship models with advanced reasoning and multimodal understanding — all on Qwen Cloud infrastructure purpose-built for production AI. Get free Qwen Cloud credits to build, deploy, and scale your agent. Win a total of $70,000+ in cash and cloud credits plus blog features, swag, and an invite to the AI Catalyst program for standout teams. Get started Register on Devpost (2 minutes) Sign up for Qwen Cloud. Click here to Sign up for your free trial and request your free hackathon credits via our coupon form. To learn more about the hackathon you can check here.(5 minutes) Join the Qwen Cloud Discord (2 minutes) Pick your track, review the sample projects and reference architecture in the Resources and start building. (30 minutes to first run)",
-      "summary": "Build production-ready agents on Qwen — and show the world what an agent can do. The Global AI Hackathon with Qwen Cloud invites professional developers, AI/ML engineers, and builders to design and sh...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/706/870/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-07-09T21:00:00.000Z",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$45,000",
       "tags": [
-        "Design",
-        "Productivity"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -89,9 +78,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-26T04:05:18.004Z",
-      "scrapedAt": "2026-06-26T04:03:40.349Z",
-      "lastUpdated": "2026-06-26T04:05:18.004Z",
+      "processedAt": "2026-06-26T14:36:17.417Z",
+      "scrapedAt": "2026-06-26T14:34:39.785Z",
+      "lastUpdated": "2026-06-26T14:36:17.417Z",
       "version": 1
     },
     {
@@ -99,57 +88,14 @@
       "title": "UiPath AgentHack",
       "platform": "devpost",
       "url": "https://uipath-agenthack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/624/515/datas/original.jpg",
-      "description": "UiPath AgentHack is the UiPath Community global online hackathon for developers, automation engineers, data scientists, AI engineers, students, and professionals who want to go beyond basic automation and build agentic solutions that work in enterprise environments. Over 7 weeks, you'll design and ship a real, working solution on the UiPath Platform™. Not a concept, nor a slide deck, but a working solution that handles complexity, survives interruptions, keeps humans in the loop, and solves something that matters. UiPath AgentHack challenges you to build, run, and orchestrate real agentic solutions on the UiPath Platform, the single enterprise control plane that coordinates AI agents, automations, people, and applications end to end. Whether you build with UiPath's native capabilities or combine them with frameworks like LangChain, CrewAI, or AutoGen, your solution must use UiPath as the execution and orchestration layer. Check out the Forum thread if you want to connect with fellow participants, see their questions or find a teammate. We have $50,000 in cash prizes and three challenge tracks built around the most critical capabilities in enterprise agentic AI. Pick the track that best fits your project and submit: Track 1: UiPath Maestro Case Track 2: UiPath Maestro BPMN Track 3: UiPath Test Cloud About the challenge Coding agents have redefined how we build and the real value now lies in how we operate and govern agents at scale, bridging the gap between a prototype on a laptop and software running in production. UiPath AgentHack is built around that challenge. At the center of this hackathon is UiPath for Coding Agents, a platform-wide capability that enables developers to use coding agents (Claude Code, Codex, Cursor, and Gemini CLI, etc) to build, test, deploy, operate, and govern enterprise automations. Using natural language, you'll design AI agents that drive tangible business value, with full support for external frameworks such as LangChain, CrewAI, and AutoGen. The three challenge tracks are built around real-world enterprise problems that require coordination, adaptability, and orchestration at scale: structured process orchestration with Maestro BPMN, agentic case management for dynamic and exception-heavy work, and agentic software testing for AI-driven automations. Throughout the 7-week hacking period, UiPath will host community meetups, office hours, and will offer enablement resources to help you get up to speed with the platform and refine your solution. Track 1: UiPath Maestro Case. Build a solution that orchestrates dynamic, exception-heavy business processes using UiPath case management capabilities. Your solution should move work through stages, involve handoffs between agents, robots, and people, and keep humans in charge at key decision points. Agents within your case flow can be built on UiPath or an external framework; the platform handles coordination regardless of where the agents come from. Think about scenarios like: insurance claims processing where cases move through intake, investigation, and settlement stages; patient care coordination where agents manage referrals, scheduling, and follow-ups across providers; HR onboarding workflows where each new hire case progresses through document collection, system provisioning, and training assignment. Track 2: UiPath Maestro BPMN. Build a solution that models and runs an end-to-end business process using BPMN 2.0 in UiPath Maestro. Your process should orchestrate humans, robots, agents, and APIs through a defined flow with clear tasks, decisions, and handoffs. Agents within the process can be built with UiPath Agent Builder, coding agents, or external frameworks like LangChain, CrewAI, AutoGen, or any other agent platform. We want to see processes that move work cleanly from start to finish, with the right actor doing the right task at the right time. Think about scenarios like: An order-to-cash workflow where RPA pulls orders from email, EDI, and portals, an agent normalizes line items and flags pricing exceptions, and Maestro BPMN orchestrates credit checks, inventory allocation, fulfillment, and invoicing across ERP and CRM in a defined sequence. A collections agent monitors aging invoices and escalates disputes to finance for review. Or a procure-to-pay process where agents parse requisition intent, recommend vendors, and route approvals based on budget thresholds and category rules, RPA handles PO creation and invoice ingestion across ERP and AP systems, and an invoice agent reconciles discrepancies between PO, receipt, and invoice, escalating only true exceptions to AP for human review. Maestro BPMN keeps the full flow coordinated from requisition to payment Track 3: UiPath Test Cloud. Create agents that use UiPath Test Cloud to reimagine how software testing is designed, automated, executed, and managed across modern enterprise environments. Your goal is to show how agentic software testing can improve quality across AI-driven automations, enterprise applications, and connected business workflows. These agents should help you move faster with more confidence by increasing coverage, improving reliability, and reducing the manual effort required to validate complex systems. Think of building agents that can: evaluate requirements and turn them into meaningful test scenarios, identify fragile or outdated tests before they slow down a release, recommend fixes when automation breaks, or help orchestrate the right tests at the right time based on risk, coverage, and change impact. You might also explore how agents can validate AI-infused workflows, including third-party agents or AI services that participate in a UiPath-orchestrated process. All solutions must run on the UiPath Automation Cloud. You can include Agent Builder, Maestro, API Workflows, coding agents, and RPA where needed. You're welcome to bring in agents built on external frameworks and LLMs, in fact, we encourage it. The point is that UiPath is the orchestration and governance layer that ties everything together. Tip: If your process has unpredictable paths that emerge as the work unfolds, choose Track 1 - UiPath Maestro Case. If your process has a predictable sequence you can map in advance, choose Track 2 - UiPath Maestro BPMN. Bonus: solutions that use coding agents through UiPath for Coding Agents (Claude Code, Codex, Cursor, Gemini CLI, etc) will receive additional points during judging. We're especially interested in seeing how participants combine coding agents with low-code components, or blend UiPath-native agents with external agents, to solve complex problems You can't submit the same project to multiple tracks, and your solution needs to clearly align with whichever track you choose, both in how it's built and how it's described. Get started Register on Devpost for UiPath AgentHack. Form or join a team of 1 to 4 people and pick your track. Ask for access on UiPath Labs here: Teams must designate a representative to complete the access form on behalf of the group. Within 3 business days of asking for access, you'll receive a separate email with your UiPath Labs access link and credentials. UiPath Labs come fully equipped with agentic and AI units, so you can build without constraints.",
-      "summary": "UiPath AgentHack is the UiPath Community global online hackathon for developers, automation engineers, data scientists, AI engineers, students, and professionals who want to go beyond basic automation...",
-      "contestType": "image",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/624/515/datas/medium_square.jpg",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-06-30T03:45:00.000Z",
       "prize": "$50,000",
-      "tags": [
-        "llm",
-        "Enterprise",
-        "Robotic Process Automation"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "and turn them into meaningful test scenarios",
-        "identify fragile or outdated tests before they slow down a release",
-        "recommend fixes when automation breaks",
-        "or help orchestrate the right tests at the right time based on risk",
-        "coverage"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-06-26T04:05:18.004Z",
-      "scrapedAt": "2026-06-26T04:03:40.353Z",
-      "lastUpdated": "2026-06-26T04:05:18.004Z",
-      "version": 1
-    },
-    {
-      "id": "c_b12d3af7e8f2",
-      "title": "Slack Agent Builder Challenge",
-      "platform": "devpost",
-      "url": "https://slackhack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/685/418/datas/original.png",
-      "description": "The next era of productivity is agentic—and it lives in Slack. We’re calling on all builders—from seasoned Slack veterans to \"vibe coders\" picking up the Slack CLI for the first time—to join the Slack Agent Builder Challenge. This is your opportunity to redefine the workplace by building intelligent agents that automate workflows, surface real-time insights, and connect systems in ways we haven’t imagined yet. Whether you’re building a specialized agent for your organization, a tool for social good, or the next viral Slack Marketplace app, we want to see your creativity in action. Leverage the Slack Agent Builder, MCP integrations, and the Real-Time Search (RTS) API to show the world why Slack is the ultimate surface for AI. Why Join? Whether you're a \"vibe coder\" or a seasoned pro, the on-ramp is designed for speed—use the slack create agent command and ready-made templates for HR, IT, and Sales to go from an idea to a running agent in a single afternoon. For those building for organizations, the hackathon serves as a guided path to the Slack Marketplace, giving you a structured deadline to ship your app and gain direct distribution to Slack’s massive enterprise customer base. Compete for a share of the $42,000 cash USD prize pool, a chance to go to Dreamforce 2026, some Slack swag, an invite to an exclusive Slack community gathering and to be featured in the Slack newsletter and social media",
-      "summary": "The next era of productivity is agentic—and it lives in Slack. We’re calling on all builders—from seasoned Slack veterans to \"vibe coders\" picking up the Slack CLI for the first time—to join the Slack...",
-      "contestType": "code",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-07-14T00:00:00.000Z",
-      "prize": "$42,000",
-      "tags": [
-        "Beginner Friendly",
-        "Enterprise",
-        "Low",
-        "No Code"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -158,9 +104,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-26T04:05:18.002Z",
-      "scrapedAt": "2026-06-26T04:03:40.354Z",
-      "lastUpdated": "2026-06-26T04:05:18.002Z",
+      "processedAt": "2026-06-26T14:36:17.406Z",
+      "scrapedAt": "2026-06-26T14:34:39.786Z",
+      "lastUpdated": "2026-06-26T14:36:17.406Z",
+      "version": 1
+    },
+    {
+      "id": "c_b12d3af7e8f2",
+      "title": "Slack Agent Builder Challenge",
+      "platform": "devpost",
+      "url": "https://slackhack.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/685/418/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$42,000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-06-26T14:36:17.411Z",
+      "scrapedAt": "2026-06-26T14:34:39.789Z",
+      "lastUpdated": "2026-06-26T14:36:17.411Z",
       "version": 1
     },
     {
@@ -184,9 +156,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-26T04:05:18.005Z",
-      "scrapedAt": "2026-06-26T04:03:40.355Z",
-      "lastUpdated": "2026-06-26T04:05:18.005Z",
+      "processedAt": "2026-06-26T14:36:17.447Z",
+      "scrapedAt": "2026-06-26T14:34:39.790Z",
+      "lastUpdated": "2026-06-26T14:36:17.447Z",
       "version": 1
     },
     {
@@ -212,9 +184,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-26T04:05:18.109Z",
-      "scrapedAt": "2026-06-26T04:03:40.355Z",
-      "lastUpdated": "2026-06-26T04:05:18.109Z",
+      "processedAt": "2026-06-26T14:36:17.463Z",
+      "scrapedAt": "2026-06-26T14:34:39.790Z",
+      "lastUpdated": "2026-06-26T14:36:17.463Z",
       "version": 1
     },
     {
@@ -240,9 +212,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-26T04:05:19.103Z",
-      "scrapedAt": "2026-06-26T04:03:40.355Z",
-      "lastUpdated": "2026-06-26T04:05:19.103Z",
+      "processedAt": "2026-06-26T14:36:18.463Z",
+      "scrapedAt": "2026-06-26T14:34:39.791Z",
+      "lastUpdated": "2026-06-26T14:36:18.463Z",
       "version": 1
     },
     {
@@ -266,9 +238,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-26T04:05:19.138Z",
-      "scrapedAt": "2026-06-26T04:03:40.356Z",
-      "lastUpdated": "2026-06-26T04:05:19.138Z",
+      "processedAt": "2026-06-26T14:36:18.542Z",
+      "scrapedAt": "2026-06-26T14:34:39.792Z",
+      "lastUpdated": "2026-06-26T14:36:18.542Z",
       "version": 1
     },
     {
@@ -294,15 +266,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-06-26T04:05:19.106Z",
-      "scrapedAt": "2026-06-26T04:03:40.356Z",
-      "lastUpdated": "2026-06-26T04:05:19.106Z",
+      "processedAt": "2026-06-26T14:36:18.540Z",
+      "scrapedAt": "2026-06-26T14:34:39.792Z",
+      "lastUpdated": "2026-06-26T14:36:18.540Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-06-26T04:05:26.288Z"
+    "lastUpdated": "2026-06-26T14:36:25.112Z"
   }
 }

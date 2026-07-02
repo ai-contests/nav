@@ -1,8 +1,73 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-07-02T03:56:47.026Z",
+  "timestamp": "2026-07-02T14:13:39.127Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_4dc15217dda3",
+      "title": "AI 学术酒吧开张啦！边喝边聊Vibe Research 的舒适体验",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/285",
+      "imageUrl": "",
+      "description": "五个人，五种学科，五条真实跑通的 workflow——从工科到人文社科到生命科学，看看同一波 Agent 工具，在不同实验室里被改造成了什么样子。\n\n上一场我们在北京五道口攒了个局，聊「和 Agent 一起做研究是种什么体验」。social 过于热闹，于是我们打算升级成AI 学术酒吧👏。还是魔搭社区共建者攒的局——接力北京场的中国科学院大学他山协会、清华大学 THUAGI ，这次由浙江大学学生人工智能协会 和西湖大学 AI 交叉科学社接棒。还是不念 PPT、不讲大概念、不分享「用 AI 灌水发论文」那一套，我们继续沿着与 Agent 共事做研究的话题，公开各自在 vibe 时代舒适科研的体验。这次端上吧台的五份 workflow从一个人在魔搭挖宝挖出来的学术名片，讲到通用 AI 科研自动化平台。1 ｜中国科学院空天院 · 地球科学方向 在魔搭\"挖宝\"的日子里，我顺便攒了一张学术名片2 ｜浙江大学计算机学院 · Agent 方向 从空文件夹开始，构建 Agent 原生的文献管理库3 ｜浙江大学计算机科学与技术 · 多模态方向 Research as Workflow：Vibe Coding 如何辅助制作一个 multi-shot 的视频编辑测评 bench4 ｜浙江大学 · 人文社科方向 Evidence-Oriented Agent：人文社科研究中的证据链、知识库与智能体协作5 ｜西湖大学（复旦联培）· 生物学方向 跨学科通用 AI 科研自动化平台 Airalogy 的开发和实践五个人，五种学科，五条真实跑通的 workflow——从工科到人文社科到生命科学，看看同一波 Agent 工具，在不同实验室里被改造成了什么样子。一杯只属于今晚的特调我们安排了一位调酒师入驻吧台。凭你的魔搭个人主页（有开源贡献或论文），就能领一杯「Paper 一投就中」特调。不喝酒的同学放心，等量的无酒精 mocktail 同款配方供应。🍻时间地点时间：7 月 4 日 18:00-21:30地点：杭州·魔搭社区(杭州)开发者中心（浙江省杭州市西湖区灯彩街1009号云谷中心B1栋2楼）谁该来正在用 AI 辅助科研的硕博、青年教师、研究所同学； 好奇别人怎么把 Agent 真正嵌进课题里、而不是停在「写写邮件、改改语法」那一层的人； 想认识同行、交换 skill、找到能一起折腾的人。线下见面本身，就是这场酒吧的一半意义。另一半，在酒里。AI 学术酒吧持续营业，北京、杭州、上海、深圳以及你想要张罗起来的地方，只要有 AI 学术的讨论，就有魔搭和魔搭共建者们的“AI 学术酒吧”持续营业。欢迎投递你的vibe research 实践或你的 paper demo，成为下一位 speaker！（加入社群联系群主即可！）speaker 的真实 workflow，我们都沉淀进 Awesome-Vibe-Research 这个仓库——欢迎 PR / Issue / Star，也欢迎你把自己的 vibe research 实践写进去https://github.com/modelscope/Awesome-Vibe-Research",
+      "summary": "五个人，五种学科，五条真实跑通的 workflow——从工科到人文社科到生命科学，看看同一波 Agent 工具，在不同实验室里被改造成了什么样子。\n\n上一场我们在北京五道口攒了个局，聊「和 Agent 一起做研究是种什么体验」。social 过于热闹，于是我们打算升级成AI 学术酒吧👏。还是魔搭社区共建者攒的局——接力北京场的中国科学院大学他山协会、清华大学 THUAGI ，这次由浙江大学学生人...",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-07-04T10:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-07-02T14:13:32.437Z",
+      "scrapedAt": "2026-07-02T14:11:15.895Z",
+      "lastUpdated": "2026-07-02T14:13:32.437Z",
+      "version": 1
+    },
+    {
+      "id": "c_0adbff0749eb",
+      "title": "Open Source GeoAI Practice Challenge",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/263",
+      "imageUrl": "",
+      "description": "The Open Source GeoAI Practice Challenge at APGARSS 2026 (Qingdao) invites participants to build reproducible, open-source GeoAI artifacts.\n\nOpen Source GeoAI Practice ChallengeThe Open Source GeoAI Practice Challenge is an AP-GARSS 2026 affiliated competition co-hosted with ModelScope and IEEE GRSS Beijing Student Chapter Branch.The challenge invites students, researchers, and developers to build runnable GeoAI artifacts that can be inspected, reused, and extended by the IEEE GRSS community. Unlike conventional leaderboard-only competitions, this challenge emphasizes practical open-source contributions. Participants may submit reproducible jupyter notebooks, deployed interactive applications that demonstrate meaningful value for remote sensing research and applications.ThemeThe Open Source GeoAI Practice Challenge aims to empower participants to develop open-source artifacts that turn papers, models, and datasets into reproducible and reusable resources for geoscience and remote sensing. Through this practice-oriented approach, the competition seeks to transform geospatial data into actionable intelligence for understanding, predicting, and addressing real-world geographic challenges.Suggested topics include:Reproducible GeoAI workflows, benchmarks, and research implementationsEarth foundation model adaptation, fine-tuning, deployment, and comparisonDataset viewers, annotation tools, quality assessment toolsAI-ready data workflows for COG, GeoParquet, TrainingDML-AIGeoAI agents for data discovery, analysis, reporting, or scientific workflow automationApplications for disaster response, agriculture, biodiversity, urban studies, climate risk, and sustainable developmentSubmission FormatParticipants may submit one or more of the following:ModelScope Notebook: reproducible cloud-based jupyter notebooks for experiments, training, fine-tuning, data processing, visualization, or benchmark comparison.ModelScope Studio: interactive web applications for demonstrating a model, dataset tool, AI agent, visual analytics system, or deployed research prototype.All submissions should be hosted on ModelScope and should include documentation for reviewers to inspect and evaluate the work.AP-GARSS Activities on Open Source GeoAI PractiseActivityPurposeCompetitionEvaluates open-source GeoAI artifacts: cloud jupyter notebooks and web applications.Link: https://www.apgarss.com/website/GeoAI-ChallengeSpecial Session SS095Accepts papers and abstracts through the official conference submission system.Link: https://modelscope.cn/learn/434197?lang=en_USTutorial Provides online hands-on tutorials for ModelScope-based GeoAI practice.Link: https://modelscope.cn/learn/434198?lang=en_USCompetition participants are invited to submit papers and abstracts to SS095. Abstracts submitted to the special session will not be published in IEEE Xplore; therefore, submissions of works currently under review or already published are permitted.Important DatesMilestoneDateCompetition Launch2 July 2026Paper/Abstract Submission Deadline10 July 2026Material Submission Deadline14 August 2026Finalists Announced21 August 2026Final Presentation and Awards11-14 October 2026, Qingdao, ChinaContactIf you have any questions, feel free to ask in the Discord Group or join the Competition WeChat Group.\nEligibilityThe competition is open to students, early-career researchers, developers working in geoscience, remote sensing, artificial intelligence, or related fields. Cross-institutional and interdisciplinary teams are encouraged.Each participant may join only one team. Each team may include up to five members and should submit one project as its official competition entry.Submission RequirementsThe team leaders must register and submit materials the submission portal below on behalf their teams. Entries may be revised and resubmitted as needed; however, only the most recent submission will be evaluated.Required materials:Project title and abstract, under 100 wordsLinks to Public ModelScope link to the submitted Notebook, Studio, or bothA link to a ModelScope Learn article that describes the research question, dataset, models, workflow, system design, and evaluation results, along with demo videos (if applicable).Recommended materials:Public links to related models or datasets.ModelScope provides both the Chinese site, www.modelscope.cn, and the international site, www.modelscope.ai. Submissions hosted on either site will be accepted. Competition submissions and Special Session submissions follow separate deadlines, requirements, and review processes.Open-Source and Licensing RequirementsSubmitted code, models, and datasets must be open-source and include clear license information. Datasets, model checkpoints, software packages, and third-party components must be publicly accessible where required, properly cited, and used in compliance with their original licenses.Projects that rely on proprietary or closed-source resources that cannot be independently verified may b",
+      "summary": "The Open Source GeoAI Practice Challenge at APGARSS 2026 (Qingdao) invites participants to build reproducible, open-source GeoAI artifacts.\n\nOpen Source GeoAI Practice ChallengeThe Open Source GeoAI P...",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-08-07T15:59:00.000Z",
+      "prize": "￥30,000 Prize Pool + ModelScope Swag",
+      "tags": [
+        "应用开发赛",
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "however",
+        "only the most recent submission will be evaluated.Required materials:Project title and abstract",
+        "under 100 wordsLinks to Public ModelScope link to the submitted Notebook",
+        "Studio",
+        "or bothA link to a ModelScope Learn article that describes the research question"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2026-07-02T14:13:32.450Z",
+      "scrapedAt": "2026-07-02T14:11:15.896Z",
+      "lastUpdated": "2026-07-02T14:13:32.450Z",
+      "version": 1
+    },
     {
       "id": "c_3ec316c1aec6",
       "title": "Agent来碰头",
@@ -25,9 +90,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-02T03:56:40.111Z",
-      "scrapedAt": "2026-07-02T03:54:20.885Z",
-      "lastUpdated": "2026-07-02T03:56:40.111Z",
+      "processedAt": "2026-07-02T14:13:33.456Z",
+      "scrapedAt": "2026-07-02T14:11:15.897Z",
+      "lastUpdated": "2026-07-02T14:13:33.456Z",
       "version": 1
     },
     {
@@ -55,9 +120,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-02T03:56:40.231Z",
-      "scrapedAt": "2026-07-02T03:54:20.885Z",
-      "lastUpdated": "2026-07-02T03:56:40.231Z",
+      "processedAt": "2026-07-02T14:13:33.457Z",
+      "scrapedAt": "2026-07-02T14:11:15.897Z",
+      "lastUpdated": "2026-07-02T14:13:33.457Z",
       "version": 1
     },
     {
@@ -85,9 +150,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-02T03:56:41.317Z",
-      "scrapedAt": "2026-07-02T03:54:20.885Z",
-      "lastUpdated": "2026-07-02T03:56:41.317Z",
+      "processedAt": "2026-07-02T14:13:33.469Z",
+      "scrapedAt": "2026-07-02T14:11:15.897Z",
+      "lastUpdated": "2026-07-02T14:13:33.469Z",
       "version": 1
     },
     {
@@ -121,9 +186,9 @@
         "期间设置三个阶段里程碑"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-07-02T03:56:41.365Z",
-      "scrapedAt": "2026-07-02T03:54:20.886Z",
-      "lastUpdated": "2026-07-02T03:56:41.365Z",
+      "processedAt": "2026-07-02T14:13:33.542Z",
+      "scrapedAt": "2026-07-02T14:11:15.898Z",
+      "lastUpdated": "2026-07-02T14:13:33.542Z",
       "version": 1
     },
     {
@@ -150,9 +215,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-02T03:56:41.233Z",
-      "scrapedAt": "2026-07-02T03:54:20.886Z",
-      "lastUpdated": "2026-07-02T03:56:41.233Z",
+      "processedAt": "2026-07-02T14:13:33.559Z",
+      "scrapedAt": "2026-07-02T14:11:15.898Z",
+      "lastUpdated": "2026-07-02T14:13:33.559Z",
       "version": 1
     },
     {
@@ -180,9 +245,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-02T03:56:41.235Z",
-      "scrapedAt": "2026-07-02T03:54:20.886Z",
-      "lastUpdated": "2026-07-02T03:56:41.235Z",
+      "processedAt": "2026-07-02T14:13:34.561Z",
+      "scrapedAt": "2026-07-02T14:11:15.898Z",
+      "lastUpdated": "2026-07-02T14:13:34.561Z",
       "version": 1
     },
     {
@@ -209,45 +274,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-02T03:56:41.397Z",
-      "scrapedAt": "2026-07-02T03:54:20.886Z",
-      "lastUpdated": "2026-07-02T03:56:41.397Z",
-      "version": 1
-    },
-    {
-      "id": "c_0adbff0749eb",
-      "title": "Open Source GeoAI Practice Challenge",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/263",
-      "imageUrl": "",
-      "description": "The Open Source GeoAI Practice Challenge at APGARSS 2026 (Qingdao) invites participants to build reproducible, open-source GeoAI artifacts.\n\nOpen Source GeoAI Practice ChallengeThe Open Source GeoAI Practice Challenge is an AP-GARSS 2026 affiliated competition co-hosted with ModelScope and IEEE GRSS Beijing Student Chapter Branch.The challenge invites students, researchers, and developers to build runnable GeoAI artifacts that can be inspected, reused, and extended by the IEEE GRSS community. Unlike conventional leaderboard-only competitions, this challenge emphasizes practical open-source contributions. Participants may submit reproducible jupyter notebooks, deployed interactive applications that demonstrate meaningful value for remote sensing research and applications.ThemeThe Open Source GeoAI Practice Challenge aims to empower participants to develop open-source artifacts that turn papers, models, and datasets into reproducible and reusable resources for geoscience and remote sensing. Through this practice-oriented approach, the competition seeks to transform geospatial data into actionable intelligence for understanding, predicting, and addressing real-world geographic challenges.Suggested topics include:Reproducible GeoAI workflows, benchmarks, and research implementationsEarth foundation model adaptation, fine-tuning, deployment, and comparisonDataset viewers, annotation tools, quality assessment toolsAI-ready data workflows for COG, GeoParquet, TrainingDML-AIGeoAI agents for data discovery, analysis, reporting, or scientific workflow automationApplications for disaster response, agriculture, biodiversity, urban studies, climate risk, and sustainable developmentSubmission FormatParticipants may submit one or more of the following:ModelScope Notebook: reproducible cloud-based jupyter notebooks for experiments, training, fine-tuning, data processing, visualization, or benchmark comparison.ModelScope Studio: interactive web applications for demonstrating a model, dataset tool, AI agent, visual analytics system, or deployed research prototype.All submissions should be hosted on ModelScope and should include documentation for reviewers to inspect and evaluate the work.AP-GARSS Activities on Open Source GeoAI PractiseActivityPurposeCompetitionEvaluates open-source GeoAI artifacts: cloud jupyter notebooks and web applications.Link: https://www.apgarss.com/website/GeoAI-ChallengeSpecial Session SS095Accepts papers and abstracts through the official conference submission system.Link: https://modelscope.cn/learn/434197?lang=en_USTutorial Provides online hands-on tutorials for ModelScope-based GeoAI practice.Link: https://modelscope.cn/learn/434198?lang=en_USCompetition participants are invited to submit papers and abstracts to SS095. Abstracts submitted to the special session will not be published in IEEE Xplore; therefore, submissions of works currently under review or already published are permitted.Important DatesMilestoneDateCompetition Launch2 July 2026Paper/Abstract Submission Deadline10 July 2026Material Submission Deadline14 August 2026Finalists Announced21 August 2026Final Presentation and Awards11-14 October 2026, Qingdao, China\nEligibilityThe competition is open to students, early-career researchers, developers working in geoscience, remote sensing, artificial intelligence, or related fields. Cross-institutional and interdisciplinary teams are encouraged.Each participant may join only one team. Each team may include up to five members and should submit one project as its official competition entry.Submission RequirementsThe team leaders must register and submit materials the submission portal below on behalf their teams. Entries may be revised and resubmitted as needed; however, only the most recent submission will be evaluated.Required materials:Project title and abstract, under 100 wordsLinks to Public ModelScope link to the submitted Notebook, Studio, or bothA link to a ModelScope Learn article that describes the research question, dataset, models, workflow, system design, and evaluation results, along with demo videos (if applicable).Recommended materials:Public links to related models or datasets.ModelScope provides both the Chinese site, www.modelscope.cn, and the international site, www.modelscope.ai. Submissions hosted on either site will be accepted. Competition submissions and Special Session submissions follow separate deadlines, requirements, and review processes.Open-Source and Licensing RequirementsSubmitted code, models, and datasets must be open-source and include clear license information. Datasets, model checkpoints, software packages, and third-party components must be publicly accessible where required, properly cited, and used in compliance with their original licenses.Projects that rely on proprietary or closed-source resources that cannot be independently verified may be considered ineligible.Evaluation CriteriaSubmissions will be evaluated by a review panel comprising domain ",
-      "summary": "The Open Source GeoAI Practice Challenge at APGARSS 2026 (Qingdao) invites participants to build reproducible, open-source GeoAI artifacts.\n\nOpen Source GeoAI Practice ChallengeThe Open Source GeoAI P...",
-      "contestType": "video",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-08-07T15:59:00.000Z",
-      "prize": "0",
-      "tags": [
-        "应用开发赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "however",
-        "only the most recent submission will be evaluated.Required materials:Project title and abstract",
-        "under 100 wordsLinks to Public ModelScope link to the submitted Notebook",
-        "Studio",
-        "or bothA link to a ModelScope Learn article that describes the research question"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-07-02T03:56:42.488Z",
-      "scrapedAt": "2026-07-02T03:54:20.887Z",
-      "lastUpdated": "2026-07-02T03:56:42.488Z",
+      "processedAt": "2026-07-02T14:13:34.652Z",
+      "scrapedAt": "2026-07-02T14:11:15.898Z",
+      "lastUpdated": "2026-07-02T14:13:34.652Z",
       "version": 1
     },
     {
@@ -275,46 +304,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-02T03:56:42.402Z",
-      "scrapedAt": "2026-07-02T03:54:20.887Z",
-      "lastUpdated": "2026-07-02T03:56:42.402Z",
-      "version": 1
-    },
-    {
-      "id": "c_f897fb82a5c8",
-      "title": "昇腾CANN社区任务【6月】",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/250",
-      "imageUrl": "",
-      "description": "昇腾CANN训练营社区基于真实产业案例设计，完成任务即有机会获得华为三折叠手机、万元笔记本电脑，荣登社区荣誉榜单，任务每月更新，月底截止，多重任务值任务适合各阶段实操开发者。\n\n背景社区任务基于真实产业案例设计，完成任务即有机会获得华为三折叠手机、万元笔记本电脑，荣登社区荣誉榜单，更为您的职业技能注入新动力。具体任务每月月底发放任务，次月30日/31日截止，多重任务值任务适合各阶段实操开发者完成任务赢取现金、新款华为手机、电脑 👇🔥 6月社区任务全新升级，现金激励重磅来袭！每个任务参与队伍根据验收时间排序，按任务书要求第一个通过验收的队伍在合入PR后可获得该任务相应奖金序号任务链接含税奖金（人民币）最晚通过验收时间20260529-1AclsolverCheevj 算子开发90415.5元2026.07.3020260529-2三角矩阵求解运算系列算子开发82240.5元2026.07.3020260529-3SPMV 算子开发72430.5元2026.07.3020260529-4Cast&EmbeddingDenseGrad 算子开发69651元2026.07.3020260529-5DynamicMap容器算子开发60985.5元2026.06.3020260529-6MinDim&MaxDim 算子开发58860元2026.06.3020260529-7SyncBatchNormGatherStats 算子开发57715.5元2026.06.3020260529-8Im2col 算子开发50194.5元2026.06.3020260529-9Bincount 算子开发40384.5元2026.06.3020260529-10RightShift算子开发29430元2026.06.3020260529-11FmodTensor&FmodScalar 算子开发25015.5元2026.06.3020260529-12UpsampleNearest3d 算子开发23380.5元2026.06.3020260529-13Logspace 算子开发23380.5元2026.06.3020260529-14UpsampleNearestExact1d&UpsampleNearestExact2d 算子开发23380.5元2026.06.3020260529-15Arange 算子开发22399.5元2026.06.3020260529-16Gcd 算子开发22399.5元2026.06.3020260529-17InplaceRsqrt 算子开发17985元2026.06.3020260529-18Relu算子开发17494.5元2026.06.3020260529-19InplaceSigmoid 算子开发17494.5元2026.06.3020260529-20IndexFillTensor 算子开发16840.5元2026.06.30任务值序号任务链接（绿色为Triton算子开发）奖品示例交付时间2200004-1SlidingTileAttention算子开发2026.05.311650004-2IsClose算子开发2026.05.311100004-3Pdist算子开发2026.05.3104-4AngleV2算子开发04-5Polar算子开发04-6Sleep算子开发900004-7Equal算子开发2026.05.3104-8Logit算子开发04-9median算子开发550004-10ForeachAddListV2算子开发2026.05.3104-11ForeachAddScalarV2算子开发04-12ForeachSubListV2算子开发04-13MaxUnpool3d算子开发04-14MaxUnpool2d算子开发04-15Sign算子开发04-16ForeachMulList算子开发04-17foreach_neg算子开发04-18foreach_exp算子开发04-19foreach_expm1算子开发04-20Neg算子开发04-21ForeachRoundOffNumberV2算子开发900003-1Roll算子开发2026.05.31800003-3MaskedScatter算子开发2026.05.3103-23_fwd_kernel_stage1算子开发03-24fused_recurrent_gated_delta_rule_fwd_kernel算子开发600003-8SoftmaxCrossEntropyWithLogits算子开发03-26reshape_and_cache_kernel_flash算子开发500003-11ApplyAdamW算子开发03-12AscendAntiQuantV2算子开发03-13BiasAdd算子开发03-14BnTrainingReduce算子开发03-15L2Loss算子开发03-16MaxPool3D算子开发03-17ScatterAdd算子开发03-18ScatterNd算子开发400003-20ApplyAdagradD算子开发03-21PreluGradReduce算子开发03-28_linear_attn_decode_kernel算子开发03-29chunk_kda_scaled_dot_kkt_fwd_kernel_intra_sub_intra算子开发300002-16ReluGradV2算子开发02-26SyncBatchNormBackwardElemt算子开发03-30_fwd_kernel_stage2算子开发03-31merge_attn_states_kernel算子开发03-32_fwd_kv_reduce算子开发提交方式01任务申请02任务交付（点击了解社区任务最新进展）03任务验收04验收复核05任务关闭点击报名后1个工作日内联系昇腾小助手获取任务进展更新表开发者承接后需1周内提交设计文档，提交后2个工作日会收到审批反馈开发者承接后3周内需联系昇腾小助手拉群验收；提交验收内容后3个工作日内会收到验收审批反馈第一名验收通过后的队伍需在2个工作日内提交PR，并根据检视意见修改代码，直到PR合入通过验收并合入PR参与任务需要先完成以下动作：1、报名26年CANN训练营第一季：报名链接2、认证通过算子开发者认证：认证链接具体任务查看&领取在 CANN 社区 进行：直达链接参与步骤01 任务申请跟帖评论申请任务（参与后任务交付、验收需与报名账号统一，否则无法发放奖品）格式示例：\n【队名】：根本不报错\n【gitcode账号名】：XXXXX\n【是否报名训练营】：是\n【是否通过算子开发者认证】：是/1周内提供\n【任务序号】：任务序号\n【状态】：报名\n【链接】：fork链接【社区任务】开发流程及注意事项：https://gitcode.com/org/cann/discussions/39社区任务常见问题解析：https://gitcode.com/org/cann/discussions/37部分奖品为新品奖品发放会延迟，展示奖品若无货将更换为同等价值奖品",
-      "summary": "昇腾CANN训练营社区基于真实产业案例设计，完成任务即有机会获得华为三折叠手机、万元笔记本电脑，荣登社区荣誉榜单，任务每月更新，月底截止，多重任务值任务适合各阶段实操开发者。\n\n背景社区任务基于真实产业案例设计，完成任务即有机会获得华为三折叠手机、万元笔记本电脑，荣登社区荣誉榜单，更为您的职业技能注入新动力。具体任务每月月底发放任务，次月30日/31日截止，多重任务值任务适合各阶段实操开发者完成任...",
-      "contestType": "code",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-12-31T15:59:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "否则无法发放奖品）格式示例："
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-07-02T03:56:42.402Z",
-      "scrapedAt": "2026-07-02T03:54:20.889Z",
-      "lastUpdated": "2026-07-02T03:56:42.402Z",
+      "processedAt": "2026-07-02T14:13:34.560Z",
+      "scrapedAt": "2026-07-02T14:11:15.899Z",
+      "lastUpdated": "2026-07-02T14:13:34.560Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-07-02T03:56:47.026Z"
+    "lastUpdated": "2026-07-02T14:13:39.127Z"
   }
 }

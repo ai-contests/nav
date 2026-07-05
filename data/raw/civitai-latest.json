@@ -1,36 +1,28 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-06-23T15:00:42.747Z",
+  "timestamp": "2026-07-05T13:51:24.078Z",
   "contestCount": 1,
   "contests": [
     {
       "platform": "civitai",
-      "title": "Civitai Nodes for ComfyUI",
-      "description": "About 160 Civitai nodes for ComfyUI, image, video, audio, text, and training, with built-in model browsing.",
-      "url": "https://civitai.com/events/740",
-      "deadline": "2026-06-23T23:59:59.999Z",
-      "prize": "160",
-      "rawHtml": "{\"endsAt\":\"2026-06-23T23:59:59.999Z\",\"id\":740,\"title\":\"Civitai Nodes for ComfyUI\",\"content\":\"About 160 Civitai nodes for ComfyUI, image, video, audio, text, and training, with built-in model browsing.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-06-15T19:27:13.573Z\",\"startsAt\":\"2026-06-16T23:30:05.780Z\",\"metadata\":{\"type\":\"site\",\"image\":\"866c5357-8097-462d-967b-b2ff286fe7ea\",\"actions\":[{\"link\":\"/articles/31483\",\"type\":\"button\",\"linkText\":\"Learn More\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-06-23T14:58:40.983Z",
+      "title": "Where'd Everything Go?",
+      "description": "Our activity/stats database is overloaded, so new posts aren't showing up, earned Buzz isn't crediting, and counts are stuck — all three are the same underlying jam.",
+      "url": "https://civitai.com/events/743",
+      "prize": "",
+      "rawHtml": "{\"endsAt\":null,\"id\":743,\"title\":\"Where'd Everything Go?\",\"content\":\"Our activity/stats database is overloaded, so new posts aren't showing up, earned Buzz isn't crediting, and counts are stuck — all three are the same underlying jam.\",\"color\":\"orange\",\"emoji\":null,\"createdAt\":\"2026-07-05T04:24:51.966Z\",\"startsAt\":\"2026-07-05T04:24:18.638Z\",\"metadata\":{\"type\":\"site\",\"image\":\"443cc5fa-1f99-4d06-aaf5-d8f1a851f4ed\",\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-07-05T13:49:18.471Z",
       "metadata": {
-        "endsAt": "2026-06-23T23:59:59.999Z",
-        "id": 740,
-        "title": "Civitai Nodes for ComfyUI",
-        "content": "About 160 Civitai nodes for ComfyUI, image, video, audio, text, and training, with built-in model browsing.",
-        "color": "violet",
+        "endsAt": null,
+        "id": 743,
+        "title": "Where'd Everything Go?",
+        "content": "Our activity/stats database is overloaded, so new posts aren't showing up, earned Buzz isn't crediting, and counts are stuck — all three are the same underlying jam.",
+        "color": "orange",
         "emoji": null,
-        "createdAt": "2026-06-15T19:27:13.573Z",
-        "startsAt": "2026-06-16T23:30:05.780Z",
+        "createdAt": "2026-07-05T04:24:51.966Z",
+        "startsAt": "2026-07-05T04:24:18.638Z",
         "metadata": {
           "type": "site",
-          "image": "866c5357-8097-462d-967b-b2ff286fe7ea",
-          "actions": [
-            {
-              "link": "/articles/31483",
-              "type": "button",
-              "linkText": "Learn More"
-            }
-          ],
+          "image": "443cc5fa-1f99-4d06-aaf5-d8f1a851f4ed",
           "colSpan": 6,
           "dismissible": true,
           "targetAudience": "all"

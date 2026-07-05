@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-07-05T03:47:32.882Z",
+  "timestamp": "2026-07-05T13:51:39.336Z",
   "contestCount": 10,
   "contests": [
     {
@@ -8,14 +8,18 @@
       "title": "Build with Gemini XPRIZE",
       "platform": "devpost",
       "url": "https://xprize.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/original.png",
+      "description": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Ship Deploy a business that operates with AI. Real users in production. 04 Sell Market it. Grow it. Show the revenue. AI is transforming everything, including what small teams can build. Operations that used to take entire engineering departments can now be written in plain English and executed by AI agents. By some estimates, the world’s 45 million software developers will grow to over a billion in the next few years. Everyone will be a developer, and we want to start now, with you. So show us: build a real business that makes real impact.",
+      "summary": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Shi...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-17T20:00:00.000Z",
       "prize": "$2,000,000",
-      "tags": [],
+      "tags": [
+        "Education",
+        "Productivity"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -24,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-05T03:47:23.833Z",
-      "scrapedAt": "2026-07-05T03:45:43.906Z",
-      "lastUpdated": "2026-07-05T03:47:23.833Z",
+      "processedAt": "2026-07-05T13:51:30.054Z",
+      "scrapedAt": "2026-07-05T13:49:46.113Z",
+      "lastUpdated": "2026-07-05T13:51:30.054Z",
       "version": 1
     },
     {
@@ -34,15 +38,17 @@
       "title": "Global AI Hackathon Series with Qwen Cloud",
       "platform": "devpost",
       "url": "https://qwencloud-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/706/870/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/706/870/datas/original.png",
+      "description": "Build production-ready agents on Qwen — and show the world what an agent can do. The Global AI Hackathon with Qwen Cloud invites professional developers, AI/ML engineers, and builders to design and ship sophisticated multi-agent systems, complex AI workflows, and production-grade applications using Qwen and other flagship models available on Qwen Cloud infrastructure. With advanced reasoning and multimodal capabilities, QwenCloud is built for builders who care about architectural depth and engineering excellence. Pick a track and build something real. Compete for total $70,000+ in cash and cloud credits, get featured on the Qwen Cloud blog, and earn an invite to join the AI Catalyst program. Why Join Build with Qwen Cloud. Access Qwen and other flagship models with advanced reasoning and multimodal understanding — all on Qwen Cloud infrastructure purpose-built for production AI. Get free Qwen Cloud credits to build, deploy, and scale your agent. Win a total of $70,000+ in cash and cloud credits plus blog features, swag, and an invite to the AI Catalyst program for standout teams. Get started Register on Devpost (2 minutes) Sign up for Qwen Cloud. Click here to Sign up for your free trial and request your free hackathon credits via our coupon form. To learn more about the hackathon you can check here. (5 minutes) Join the Qwen Cloud Discord (2 minutes) Pick your track, review the sample projects and reference architecture in the Resources and start building. (30 minutes to first run)",
+      "summary": "Build production-ready agents on Qwen — and show the world what an agent can do. The Global AI Hackathon with Qwen Cloud invites professional developers, AI/ML engineers, and builders to design and sh...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-07-09T21:00:00.000Z",
       "prize": "$45,000",
       "tags": [
-        "ai"
+        "Design",
+        "Productivity"
       ],
       "aiTools": [
         "Python",
@@ -52,9 +58,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-05T03:47:23.967Z",
-      "scrapedAt": "2026-07-05T03:45:43.908Z",
-      "lastUpdated": "2026-07-05T03:47:23.967Z",
+      "processedAt": "2026-07-05T13:51:30.240Z",
+      "scrapedAt": "2026-07-05T13:49:46.113Z",
+      "lastUpdated": "2026-07-05T13:51:30.240Z",
       "version": 1
     },
     {
@@ -62,14 +68,20 @@
       "title": "Slack Agent Builder Challenge",
       "platform": "devpost",
       "url": "https://slackhack.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/685/418/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/685/418/datas/original.png",
+      "description": "The next era of productivity is agentic—and it lives in Slack. We’re calling on all builders—from seasoned Slack veterans to \"vibe coders\" picking up the Slack CLI for the first time—to join the Slack Agent Builder Challenge. This is your opportunity to redefine the workplace by building intelligent agents that automate workflows, surface real-time insights, and connect systems in ways we haven’t imagined yet. Whether you’re building a specialized agent for your organization, a tool for social good, or the next viral Slack Marketplace app, we want to see your creativity in action. Leverage the Slack Agent Builder, MCP integrations, and the Real-Time Search (RTS) API to show the world why Slack is the ultimate surface for AI. Why Join? Whether you're a \"vibe coder\" or a seasoned pro, the on-ramp is designed for speed—use the slack create agent command and ready-made templates for HR, IT, and Sales to go from an idea to a running agent in a single afternoon. For those building for organizations, the hackathon serves as a guided path to the Slack Marketplace, giving you a structured deadline to ship your app and gain direct distribution to Slack’s massive enterprise customer base. Compete for a share of the $42,000 cash USD prize pool, a chance to go to Dreamforce 2026, some Slack swag, an invite to an exclusive Slack community gathering and to be featured in the Slack newsletter and social media",
+      "summary": "The next era of productivity is agentic—and it lives in Slack. We’re calling on all builders—from seasoned Slack veterans to \"vibe coders\" picking up the Slack CLI for the first time—to join the Slack...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-07-14T00:00:00.000Z",
       "prize": "$42,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Enterprise",
+        "Low",
+        "No Code"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -78,9 +90,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-05T03:47:24.963Z",
-      "scrapedAt": "2026-07-05T03:45:43.909Z",
-      "lastUpdated": "2026-07-05T03:47:24.963Z",
+      "processedAt": "2026-07-05T13:51:31.268Z",
+      "scrapedAt": "2026-07-05T13:49:46.114Z",
+      "lastUpdated": "2026-07-05T13:51:31.268Z",
       "version": 1
     },
     {
@@ -88,14 +100,19 @@
       "title": "Reddit’s Games with a Hook Hackathon",
       "platform": "devpost",
       "url": "https://redditgameswithahook.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/669/093/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/669/093/datas/original.png",
+      "description": "Overview Reddit is hosting a virtual hackathon from June 17th to July 15th. We’re offering developers $40,000 in prizes for games built to delight users. The challenge: create a new Reddit game for the users of Reddit using Devvit, our Developer Platform. For this hackathon, we're asking developers to use Devvit Web, which allows you to build Devvit apps using web technologies you’re already familiar with (e.g. React, Phaser, three.js), or your favorite game engine (Godot, GameMaker, Unity, etc). Participants will also have access to Phaser to make their game shine. The best app to use Phaser will be eligible for a special award. What to build Build a game on Devvit (Reddit’s Developer Platform) using our Interactive Posts feature that inspires collective joy. The Best Experience That Will Keep People Coming Back: Apps that give redditors a reason to return day after day. This could come from progression, daily challenges, fresh content, meaningful choices, social dynamics, or simply the anticipation of what happens next. We're looking for experiences that create excitement between sessions and leave players wanting to check back tomorrow. The strongest entries make every visit feel worthwhile. Players should have something to work toward, discover, unlock, influence, or look forward to each time they return. The format can vary widely, but the core focus should be creating a compelling loop that builds momentum over time and turns a one-time visitor into a regular player. Examples of games on Reddit that bring users back day over day r/honk, r/colorpuzzlegame, r/bunnytrials, r/alignmentchartFills, r/hotandcold, r/dailyguess, r/bridgedit, r/battlebirds, r/kraw r/LETTERSET What we’re NOT looking for: AI Slop: Did you use AI? Fantastic! But it shouldn’t be obvious the moment we open your app. Fit the UI in the viewport, give your app a unique identity, and make sure you’re thinking of your human players. You can even ask your agentic assistant to help hide their involvement! On the nose Reddit theming: Reddit-y does not mean the game is about Reddit, karma, subreddits, Snoo, etc. Reddit-y means human-first, embracing community, meritocracy, creativity…it’s in the spirit of the app and your use of all the things subreddits have to offer (comments, flair, feeds, community)! While making the app about the topic of Reddit itself is not forbidden, it is also not a hack for making an app “Reddit-y”. Literal interpretations on “Games with a Hook”: While we're not opposed to seeing a fishing game or two, games with a \"hook\" shouldn't be taken literally. We want to see hooky games as in retentive and replayable. Common Ideas: Your game might not score as well if we’ve seen it many times before. We see a lot of: space shooters, clone apps of popular games, simple platformers, collaborative storytelling apps, and trivia apps. If you do make one of these apps, make sure it's extremely unique. Sub-challenges In addition to an excellent retentive experience, we’re looking for standout apps that also achieve the following: Best Use of Phaser: Recognizes the most innovative use of the Phaser game development framework within the Reddit Devvit platform. Best Use of Retention Mechanisms: Reddit apps are discoverable in our users’ feeds. This means that apps that create daily, or recurring, content tend to see better growth and retention. This award will go to the best use of retentive mechanics in a game. Best Use of User Contributions: Apps that enable users to generate content (comments, posts, drawings, puzzles, levels) drive redditor engagement and conversation. This award will go to the app that makes the best use of user-generated content. Games must be built on Devvit Web and be compliant with our Devvit Rules. Read our guide on how to build games for Reddit for more guidance on building for our platform. For this event we are looking for polish, meaning apps that are as close to launch-ready as possible (bonus points for a good mobile experience). We understand that not all projects will reach this threshold, but projects that are well tested and concept-complete will score higher. While we are accepting existing projects for this event, please note the game should be significantly updated during the hackathon period to qualify for this event. Getting started Get started with the Quickstart Browse our Template Library for building with a familiar framework You can use the Phaser Template here View examples of existing games on r/GameOnReddit Join us on Discord for live support and office hours",
+      "summary": "Overview Reddit is hosting a virtual hackathon from June 17th to July 15th. We’re offering developers $40,000 in prizes for games built to delight users. The challenge: create a new Reddit game for th...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-07-16T01:00:00.000Z",
       "prize": "$40,000",
-      "tags": [],
+      "tags": [
+        "Beginner Friendly",
+        "Gaming",
+        "Web"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -104,9 +121,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-05T03:47:24.970Z",
-      "scrapedAt": "2026-07-05T03:45:43.910Z",
-      "lastUpdated": "2026-07-05T03:47:24.970Z",
+      "processedAt": "2026-07-05T13:51:31.264Z",
+      "scrapedAt": "2026-07-05T13:49:46.115Z",
+      "lastUpdated": "2026-07-05T13:51:31.264Z",
       "version": 1
     },
     {
@@ -114,15 +131,17 @@
       "title": "Arm Create: AI Optimization Challenge",
       "platform": "devpost",
       "url": "https://arm-ai-optimization-challenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/715/320/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/715/320/datas/original.png",
+      "description": "Welcome to the Arm AI Optimization Challenge 2026. We’re inviting developers to build and submit projects that show how AI can be optimized for Arm-powered platforms across three challenge tracks: Physical AI: Optimize AI for real-world systems, including robotics, embedded devices, sensors, simulation, autonomy, and edge environments. Cloud AI: Optimize AI for scalable infrastructure, including Arm64 cloud, inference performance, frameworks, agents, and production-ready developer workflows. Mobile AI: Optimize AI for on-device constraints, including performance, privacy, latency, battery efficiency, and local AI experiences on Arm-powered phones, tablets, and laptops. Across all tracks, submissions should show clear optimization work and measurable improvements where possible. Optimizations we will look for: Model size: Reduce size on disk or in memory. Model quality: Improve fine-tuning or output quality for a given model size. Model speed: Improve tokens/sec, time to first token, or other relevant latency metrics. Inference server speed: Improve throughput, latency, tokens/sec, or time to first token. Developer experience: Improve tools, workflows, setup, documentation, or usability. Arm-specific optimization: Implement optimizations in an existing framework, library, model, or application to run better on Arm. Developers can use Arm Performix to get exact benchmarks of their Arm based performance and be able to clearly show their results.",
+      "summary": "Welcome to the Arm AI Optimization Challenge 2026. We’re inviting developers to build and submit projects that show how AI can be optimized for Arm-powered platforms across three challenge tracks: Phy...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-14T23:00:00.000Z",
       "prize": "$8,000",
       "tags": [
-        "ai"
+        "Machine Learning",
+        "AI"
       ],
       "aiTools": [
         "Python",
@@ -132,9 +151,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-05T03:47:24.994Z",
-      "scrapedAt": "2026-07-05T03:45:43.910Z",
-      "lastUpdated": "2026-07-05T03:47:24.994Z",
+      "processedAt": "2026-07-05T13:51:31.253Z",
+      "scrapedAt": "2026-07-05T13:49:46.116Z",
+      "lastUpdated": "2026-07-05T13:51:31.253Z",
       "version": 1
     },
     {
@@ -142,15 +161,17 @@
       "title": "Agentic AI Build Week 2026",
       "platform": "devpost",
       "url": "https://agentic-ai-build-week-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/712/841/datas/medium_square.jpeg",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/712/841/datas/original.jpeg",
+      "description": "Agentic AI Build Week is Southeast Asia's largest on-site AI buildathon — 2,000+ builders, 10 enterprise partners, and the full AI stack in one room for five days in Ho Chi Minh City. This is not a traditional hackathon. Every challenge comes from a real enterprise partner. Every winning solution enters an active deployment conversation on Demo Day. Enterprises aren't here to judge you — they're here to find solutions they can ship. Organised by GenAI Fund — Southeast Asia's builder ecosystem. 📅 Key Dates Date Milestone 23 June Builder onboarding webinar 1 July Problem statements released + Claim your tech/AI perks 10 July, 9:00 PM Deadline to confirm your track on Devpost 11 July On-site Building Day, Ho Chi Minh City 12 July, 9:00 AM Submission deadline on Devpost 12 July Demo Day & Award Ceremony 🏆 Tracks (60 submission slots per track — first come, first served. More tracks to be announced.) Track Powered by 🚗 Mobility Track Tasco 🏙️ Real Estate Track Nova Group 🍔 F&B Track KFC 🎮 Gaming Track VNG Games 🛒 Retail Track Phong Vu ✈️ Aviation Track Galaxy Holdings | Vietjet 💊 Healthcare Retail Track Guardian ☁️ Built with AWS Track Amazon Web Services More tracks coming soon — 🛠️ Builder Experience Track Build an AI-powered tool that makes the builder experience better during Agentic AI Build Week itself. Agentic AI Build Week brings together 2,000+ builders across workshops, venues, mentors, deadlines, perks, and Demo Day. The challenge is simple: create an AI agent, workflow, copilot, or experience that helps builders navigate the week more effectively and get more value from the event. Your solution could help builders: Find teammates and collaborators Discover relevant workshops and resources Navigate venues and schedules Track deadlines and submissions Access perks and support Connect with mentors Stay informed throughout the week Winning projects won't just receive prizes — they'll be considered for deployment during Agentic AI Build Week and used by thousands of builders. Prize 🏆 Winner: $900 USD + official AABW T-shirt 🗳️ People's Choice Award: official AABW T-shirt 🎟️ All valid submissions receive exclusive Discord recognition and event stickers Learn more about the challenge, judging criteria, rules, and submission requirements:https://agenticaibuildweek.genaifund.ai/builder-experience-track Build for builders. Ship something useful. See your product used in the real world. 💡 Technology Partners Builders get access to the full AI stack — hyperscalers, model providers, and developer tools — throughout the week. See the latest confirmed partners and resources at aabw.genaifund.ai. 💰 Prize Pool: $1,000,000+ USD More details will be announced soon 👥 Experts & Mentors Zenda Nguyen — Group CIO, Nova Group Tai Nguyen — CEO, Naiscorp Robotics Dr. Ginel Dorleon — Lecturer in Artificial Intelligence, RMIT Vietnam Alexander Ziehe — Vice President Southeast Asia, Hettich Group Truong Nghe — IT Director & CSO, Generali Vietnam Michael Lin — Chief Operating Officer, Phuc Long Masud Parvez — Chairman, VSHR Pro Academy Hồ Minh Thắng — Vice Director of FPT.AI, FPT Smart Cloud Rizwan Khan — Managing Partner, Acclime Vietnam More experts to be announced Questions? Email general@genaifund.ai or visit aabw.genaifund.ai",
+      "summary": "Agentic AI Build Week is Southeast Asia's largest on-site AI buildathon — 2,000+ builders, 10 enterprise partners, and the full AI stack in one room for five days in Ho Chi Minh City. This is not a tr...",
       "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-07-12T02:00:00.000Z",
       "prize": "13",
       "tags": [
-        "ai"
+        "Machine Learning",
+        "AI"
       ],
       "aiTools": [
         "Python",
@@ -158,11 +179,17 @@
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
+      "requirements": [
+        "model providers",
+        "000",
+        "000+ USD More details will be announced soon 👥 Experts & Mentors Zenda Nguyen — Group CIO",
+        "Nova Group Tai Nguyen — CEO",
+        "Naiscorp Robotics Dr. Ginel Dorleon — Lecturer in Artificial Intelligence"
+      ],
       "qualityScore": 6,
-      "processedAt": "2026-07-05T03:47:24.957Z",
-      "scrapedAt": "2026-07-05T03:45:43.913Z",
-      "lastUpdated": "2026-07-05T03:47:24.957Z",
+      "processedAt": "2026-07-05T13:51:31.233Z",
+      "scrapedAt": "2026-07-05T13:49:46.119Z",
+      "lastUpdated": "2026-07-05T13:51:31.233Z",
       "version": 1
     },
     {
@@ -170,14 +197,18 @@
       "title": "CockroachDB × AWS Hackathon - Build with Agentic Memory",
       "platform": "devpost",
       "url": "https://cockroachdb-ai.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/649/552/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/649/552/datas/original.png",
+      "description": "🪳 CockroachDB × AWS Hackathon: CockroachDB and AWS invite developers, engineers, and AI builders to create the next generation of agentic applications. Harness CockroachDB's distributed AI capabilities, fully managed MCP Server, agent-ready ccloud CLI, open-source Agent Skills Repo, LangChain integrations and Claude/Cursor plugins - all on AWS - to build AI agents with production-grade, persistent memory. Why Agentic Memory? Why Now? AI agents are rapidly moving from experiments into real production workflows, like writing code, running pipelines, diagnosing incidents, and driving more application traffic than any human could. But here's the problem: agents need memory that never goes down. An agent whose memory goes offline doesn't degrade gracefully, it stops. Traditional databases were optimized for human-scale reads and writes. Agentic systems are different: they spawn autonomously, write constantly, and require memory that persists across regions, failures, and scale (with zero data loss and no maintenance windows). CockroachDB was built for exactly this. It is the system of record for agentic memory: globally distributed, always-on, PostgreSQL-compatible, and now natively integrated into the agent toolchain through MCP, cloud, and an open-source skills ecosystem. This hackathon is your invitation to build on that foundation.",
+      "summary": "🪳 CockroachDB × AWS Hackathon: CockroachDB and AWS invite developers, engineers, and AI builders to create the next generation of agentic applications. Harness CockroachDB's distributed AI capabiliti...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-18T21:00:00.000Z",
       "prize": "$8,750",
-      "tags": [],
+      "tags": [
+        "Databases",
+        "DevOps"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -186,9 +217,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-05T03:47:25.114Z",
-      "scrapedAt": "2026-07-05T03:45:43.914Z",
-      "lastUpdated": "2026-07-05T03:47:25.114Z",
+      "processedAt": "2026-07-05T13:51:31.410Z",
+      "scrapedAt": "2026-07-05T13:49:46.119Z",
+      "lastUpdated": "2026-07-05T13:51:31.410Z",
       "version": 1
     },
     {
@@ -196,14 +227,19 @@
       "title": "Backblaze Generative Media Hackathon: Build with Genblaze on B2",
       "platform": "devpost",
       "url": "https://backblaze-generative-media.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/780/573/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/780/573/datas/original.png",
+      "description": "About the challenge Create the next generation of AI media apps. The Backblaze Generative AI Media Hackathon challenges developers to build apps for AI-generated video, images, audio, and multimodal media workflows using Backblaze B2 Cloud Storage and Genblaze. Backblaze B2 is S3-compatible cloud object storage that helps generative media apps store and serve large volumes of generated assets, metadata, provenance records, thumbnails, logs, and application files as part of the media pipeline. Start building for free with 10GB of included B2 storage, then scale as your media workloads grow. Genblaze is an open source Python SDK from Backblaze for orchestrating generative media workflows across generative media providers such as GMI Cloud, OpenAI, Google, Decart, Runway, Luma, ElevenLabs, Stability Audio, NVIDIA NIM, and others. GMI Cloud gives developers easy access to open source generative AI models for image, video, audio, chat, reasoning, and multimodal workflows, making it easier to prototype and build AI media applications. Build something useful, creative, and production-minded. Show how AI-generated media can move from prompt to pipeline to durable storage on Backblaze B2. Get started Create a Backblaze B2 account: Backblaze B2 Signup Create a B2 bucket for your generated media, metadata, and app assets. Use the Genblaze SDK and star ⭐ the Genblaze GitHub Repository for examples, updates, and releases. Create a GMI Cloud account and submit the credits request form, if eligible. Use of GMI Cloud is optional, and other cloud providers may be used. Build and submit your generative AI media app on Devpost before the deadline. The first 270 eligible participants will receive GMI Cloud credits to access generative AI and open source models for image, video, audio, chat, reasoning, and multimodal workflows. To provide feedback on the Genblaze SDK, go to the Issues section of the Genblaze repo, click \"New issue,\" and create a Bug report, Feature request, or start with a Blank issue.",
+      "summary": "About the challenge Create the next generation of AI media apps. The Backblaze Generative AI Media Hackathon challenges developers to build apps for AI-generated video, images, audio, and multimodal m...",
+      "contestType": "image",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-03T21:00:00.000Z",
       "prize": "$10,000",
-      "tags": [],
+      "tags": [
+        "Music",
+        "Art",
+        "Voice skills"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -212,9 +248,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-05T03:47:26.132Z",
-      "scrapedAt": "2026-07-05T03:45:43.914Z",
-      "lastUpdated": "2026-07-05T03:47:26.132Z",
+      "processedAt": "2026-07-05T13:51:32.339Z",
+      "scrapedAt": "2026-07-05T13:49:46.120Z",
+      "lastUpdated": "2026-07-05T13:51:32.339Z",
       "version": 1
     },
     {
@@ -222,25 +258,31 @@
       "title": "Africa Deep Tech Challenge 2026",
       "platform": "devpost",
       "url": "https://adtc-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/739/255/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/739/255/datas/original.png",
+      "description": "About the challenge Africa is not excluded from the language model revolution. The bottleneck is no longer research or raw model availability - it is access economics. Cloud-hosted LLMs require API fees, stable fiber, and sustained electricity. For a university student in Lagos, an extension officer in Arusha, or a small-business owner in Dakar, these are not minor frictions - they are blockers. Africa Deep Tech Challenge 2026 (inspired by the Africa AI XPrize) is an engineering-first competition to make useful language-model applications run well on the computers Africans already own: mid- and low-end commodity laptops. We are not building for exotic edge silicon. We are building for the 8 GB laptop with integrated graphics - the machine sitting on millions of desks, in classrooms, clinics, and corner shops across the continent. You could be the one to democratize access to low cost inference for the continent. This is an applied systems engineering contest. Hitting genuinely useful performance on commodity hardware requires optimization across the full stack: model selection and fine-tuning, quantization and compilation, memory and cache management, retrieval-augmented generation over local corpora, and application UX that makes such a model feel responsive. Get started Register on DevPost for the Africa Deep Tech Challenge 2026 Form or join a team of 1 to 3 people and pick your problem domain Clone the submission template Test your model locally by cloning the model profiler. Ensure your model and submission formats are perfectly compatible with the ADTC evaluation pipeline. The local profiler allows you to run latency, throughput, memory, and CPU checks directly on your target hardware. Apply for up to 5 hours of GPU credits courtesy of Udutech to train your model. Check out the rules and submission requirements, then start building!",
+      "summary": "About the challenge Africa is not excluded from the language model revolution. The bottleneck is no longer research or raw model availability - it is access economics. Cloud-hosted LLMs require API fe...",
+      "contestType": "text",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-25T06:45:00.000Z",
       "prize": "$16,500",
-      "tags": [],
+      "tags": [
+        "llm",
+        "Productivity"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [],
+      "requirements": [
+        "then start building!"
+      ],
       "qualityScore": 6,
-      "processedAt": "2026-07-05T03:47:26.050Z",
-      "scrapedAt": "2026-07-05T03:45:43.915Z",
-      "lastUpdated": "2026-07-05T03:47:26.050Z",
+      "processedAt": "2026-07-05T13:51:32.337Z",
+      "scrapedAt": "2026-07-05T13:49:46.120Z",
+      "lastUpdated": "2026-07-05T13:51:32.337Z",
       "version": 1
     },
     {
@@ -248,15 +290,17 @@
       "title": "Kaya AI IIT India Hackathon 2026",
       "platform": "devpost",
       "url": "https://kaya-ai-iit-hackathon-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/004/742/096/datas/large.png",
+      "description": "About Kaya AI IIT India Hackathon 2026 Kaya AI is the #1 AI-powered Supply Chain Platform in construction, recognized by BuiltWorlds as a Top AI-Driven AEC Solution for 2026. We're bringing together the brightest engineering minds from India's top institutions to solve real, high-stakes problems in the construction industry, one of the world's largest and least digitized sectors. The challenges you'll work on are live problems faced by construction companies managing billions of dollars in materials, logistics, and procurement every day.",
+      "summary": "About Kaya AI IIT India Hackathon 2026 Kaya AI is the #1 AI-powered Supply Chain Platform in construction, recognized by BuiltWorlds as a Top AI-Driven AEC Solution for 2026. We're bringing together t...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-07-11T03:45:00.000Z",
       "prize": "₹ 350,000",
       "tags": [
-        "ai"
+        "IoT",
+        "Enterprise"
       ],
       "aiTools": [
         "Python",
@@ -266,15 +310,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-05T03:47:26.049Z",
-      "scrapedAt": "2026-07-05T03:45:43.915Z",
-      "lastUpdated": "2026-07-05T03:47:26.049Z",
+      "processedAt": "2026-07-05T13:51:32.344Z",
+      "scrapedAt": "2026-07-05T13:49:46.121Z",
+      "lastUpdated": "2026-07-05T13:51:32.344Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-07-05T03:47:32.882Z"
+    "lastUpdated": "2026-07-05T13:51:39.336Z"
   }
 }

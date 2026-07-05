@@ -1,24 +1,21 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-07-05T03:47:32.881Z",
+  "timestamp": "2026-07-05T13:51:39.334Z",
   "contestCount": 1,
   "contests": [
     {
-      "id": "c_67b006676a68",
-      "title": "Civitai Nodes for ComfyUI",
+      "id": "c_89e6c69e4b5c",
+      "title": "Where'd Everything Go?",
       "platform": "civitai",
-      "url": "https://civitai.com/events/740",
+      "url": "https://civitai.com/events/743",
       "imageUrl": "",
-      "description": "About 160 Civitai nodes for ComfyUI, image, video, audio, text, and training, with built-in model browsing.",
-      "summary": "About 160 Civitai nodes for ComfyUI, image, video, audio, text, and training, with built-in model browsing....",
-      "contestType": "image",
-      "status": "active",
+      "description": "Our activity/stats database is overloaded, so new posts aren't showing up, earned Buzz isn't crediting, and counts are stuck — all three are the same underlying jam.",
+      "summary": "Our activity/stats database is overloaded, so new posts aren't showing up, earned Buzz isn't crediting, and counts are stuck — all three are the same underlying jam....",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-06-23T23:59:59.999Z",
-      "prize": "160",
-      "tags": [
-        "ai"
-      ],
+      "prize": "",
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -27,15 +24,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-05T03:47:23.839Z",
-      "scrapedAt": "2026-06-23T14:58:40.983Z",
-      "lastUpdated": "2026-07-05T03:47:23.839Z",
+      "processedAt": "2026-07-05T13:51:30.090Z",
+      "scrapedAt": "2026-07-05T13:49:18.471Z",
+      "lastUpdated": "2026-07-05T13:51:30.090Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-07-05T03:47:32.881Z"
+    "lastUpdated": "2026-07-05T13:51:39.334Z"
   }
 }

@@ -1,28 +1,70 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-07-06T15:44:24.285Z",
-  "contestCount": 1,
+  "timestamp": "2026-07-07T03:46:03.275Z",
+  "contestCount": 2,
   "contests": [
     {
       "platform": "civitai",
-      "title": "Where'd Everything Go?",
-      "description": "Our activity/stats database is overloaded, so new posts aren't showing up, earned Buzz isn't crediting, and counts are stuck — all three are the same underlying jam.",
-      "url": "https://civitai.com/events/743",
+      "title": "Civitai Comfy Cloud",
+      "description": "Full ComfyUI in your browser, no GPU needed. Pay Buzz per second only when you run. Now in preview. [Open Civitai Comfy Cloud](https://comfy.civitai.com)",
+      "url": "https://civitai.com/events/744",
+      "deadline": "2026-07-13T23:59:59.999Z",
       "prize": "",
-      "rawHtml": "{\"endsAt\":null,\"id\":743,\"title\":\"Where'd Everything Go?\",\"content\":\"Our activity/stats database is overloaded, so new posts aren't showing up, earned Buzz isn't crediting, and counts are stuck — all three are the same underlying jam.\",\"color\":\"orange\",\"emoji\":null,\"createdAt\":\"2026-07-05T04:24:51.966Z\",\"startsAt\":\"2026-07-05T04:24:18.638Z\",\"metadata\":{\"type\":\"site\",\"image\":\"443cc5fa-1f99-4d06-aaf5-d8f1a851f4ed\",\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-07-06T15:42:22.407Z",
+      "rawHtml": "{\"endsAt\":\"2026-07-13T23:59:59.999Z\",\"id\":744,\"title\":\"Civitai Comfy Cloud\",\"content\":\"Full ComfyUI in your browser, no GPU needed. Pay Buzz per second only when you run. Now in preview. [Open Civitai Comfy Cloud](https://comfy.civitai.com)\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-07-06T17:41:12.121Z\",\"startsAt\":\"2026-07-06T17:41:11.891Z\",\"metadata\":{\"type\":\"site\",\"image\":\"02730d23-d780-4f94-8edf-5ff9cf9d3975\",\"actions\":[{\"link\":\"/articles/32308\",\"type\":\"button\",\"linkText\":\"Learn More\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-07-07T03:44:02.185Z",
       "metadata": {
-        "endsAt": null,
-        "id": 743,
-        "title": "Where'd Everything Go?",
-        "content": "Our activity/stats database is overloaded, so new posts aren't showing up, earned Buzz isn't crediting, and counts are stuck — all three are the same underlying jam.",
-        "color": "orange",
+        "endsAt": "2026-07-13T23:59:59.999Z",
+        "id": 744,
+        "title": "Civitai Comfy Cloud",
+        "content": "Full ComfyUI in your browser, no GPU needed. Pay Buzz per second only when you run. Now in preview. [Open Civitai Comfy Cloud](https://comfy.civitai.com)",
+        "color": "violet",
         "emoji": null,
-        "createdAt": "2026-07-05T04:24:51.966Z",
-        "startsAt": "2026-07-05T04:24:18.638Z",
+        "createdAt": "2026-07-06T17:41:12.121Z",
+        "startsAt": "2026-07-06T17:41:11.891Z",
         "metadata": {
           "type": "site",
-          "image": "443cc5fa-1f99-4d06-aaf5-d8f1a851f4ed",
+          "image": "02730d23-d780-4f94-8edf-5ff9cf9d3975",
+          "actions": [
+            {
+              "link": "/articles/32308",
+              "type": "button",
+              "linkText": "Learn More"
+            }
+          ],
+          "colSpan": 6,
+          "dismissible": true,
+          "targetAudience": "all"
+        }
+      }
+    },
+    {
+      "platform": "civitai",
+      "title": "3D Models",
+      "description": "Browse, generate, and animate 3D models on Civitai.",
+      "url": "https://civitai.com/events/742",
+      "deadline": "2026-07-10T23:59:59.999Z",
+      "prize": "",
+      "rawHtml": "{\"endsAt\":\"2026-07-10T23:59:59.999Z\",\"id\":742,\"title\":\"3D Models\",\"content\":\"Browse, generate, and animate 3D models on Civitai.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-07-02T18:18:29.409Z\",\"startsAt\":\"2026-07-02T00:00:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"8b876877-a3bd-464f-9a7c-c714658bfaf9\",\"actions\":[{\"link\":\"/articles/32157\",\"type\":\"button\",\"linkText\":\"Learn More\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-07-07T03:44:02.185Z",
+      "metadata": {
+        "endsAt": "2026-07-10T23:59:59.999Z",
+        "id": 742,
+        "title": "3D Models",
+        "content": "Browse, generate, and animate 3D models on Civitai.",
+        "color": "violet",
+        "emoji": null,
+        "createdAt": "2026-07-02T18:18:29.409Z",
+        "startsAt": "2026-07-02T00:00:00.000Z",
+        "metadata": {
+          "type": "site",
+          "image": "8b876877-a3bd-464f-9a7c-c714658bfaf9",
+          "actions": [
+            {
+              "link": "/articles/32157",
+              "type": "button",
+              "linkText": "Learn More"
+            }
+          ],
           "colSpan": 6,
           "dismissible": true,
           "targetAudience": "all"

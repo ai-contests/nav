@@ -1,29 +1,29 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-07-09T15:21:04.971Z",
+  "timestamp": "2026-07-10T03:41:27.634Z",
   "contestCount": 2,
   "contests": [
     {
       "platform": "civitai",
-      "title": "Civitai Comfy Cloud",
-      "description": "Full ComfyUI in your browser, no GPU needed. Pay Buzz per second only when you run. Now in preview. [Open Civitai Comfy Cloud](https://comfy.civitai.com)",
+      "title": "Comfy on Civitai",
+      "description": "Full ComfyUI in your browser, no GPU needed. Pay Buzz per second only when you run. Now in preview. [Open Comfy on Civitai](https://comfy.civitai.com)",
       "url": "https://civitai.com/events/744",
       "deadline": "2026-07-13T23:59:59.999Z",
       "prize": "",
-      "rawHtml": "{\"endsAt\":\"2026-07-13T23:59:59.999Z\",\"id\":744,\"title\":\"Civitai Comfy Cloud\",\"content\":\"Full ComfyUI in your browser, no GPU needed. Pay Buzz per second only when you run. Now in preview. [Open Civitai Comfy Cloud](https://comfy.civitai.com)\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-07-06T17:41:12.121Z\",\"startsAt\":\"2026-07-06T17:41:11.891Z\",\"metadata\":{\"type\":\"site\",\"image\":\"02730d23-d780-4f94-8edf-5ff9cf9d3975\",\"actions\":[{\"link\":\"/articles/32308\",\"type\":\"button\",\"linkText\":\"Learn More\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-07-09T15:19:05.693Z",
+      "rawHtml": "{\"endsAt\":\"2026-07-13T23:59:59.999Z\",\"id\":744,\"title\":\"Comfy on Civitai\",\"content\":\"Full ComfyUI in your browser, no GPU needed. Pay Buzz per second only when you run. Now in preview. [Open Comfy on Civitai](https://comfy.civitai.com)\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-07-06T17:41:12.121Z\",\"startsAt\":\"2026-07-06T17:41:11.891Z\",\"metadata\":{\"type\":\"site\",\"image\":\"1d331431-7374-486a-b162-970a068f53b0\",\"actions\":[{\"link\":\"/articles/32308\",\"type\":\"button\",\"linkText\":\"Learn More\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-07-10T03:39:22.437Z",
       "metadata": {
         "endsAt": "2026-07-13T23:59:59.999Z",
         "id": 744,
-        "title": "Civitai Comfy Cloud",
-        "content": "Full ComfyUI in your browser, no GPU needed. Pay Buzz per second only when you run. Now in preview. [Open Civitai Comfy Cloud](https://comfy.civitai.com)",
+        "title": "Comfy on Civitai",
+        "content": "Full ComfyUI in your browser, no GPU needed. Pay Buzz per second only when you run. Now in preview. [Open Comfy on Civitai](https://comfy.civitai.com)",
         "color": "violet",
         "emoji": null,
         "createdAt": "2026-07-06T17:41:12.121Z",
         "startsAt": "2026-07-06T17:41:11.891Z",
         "metadata": {
           "type": "site",
-          "image": "02730d23-d780-4f94-8edf-5ff9cf9d3975",
+          "image": "1d331431-7374-486a-b162-970a068f53b0",
           "actions": [
             {
               "link": "/articles/32308",
@@ -45,7 +45,7 @@
       "deadline": "2026-07-10T23:59:59.999Z",
       "prize": "",
       "rawHtml": "{\"endsAt\":\"2026-07-10T23:59:59.999Z\",\"id\":742,\"title\":\"3D Models\",\"content\":\"Browse, generate, and animate 3D models on Civitai.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-07-02T18:18:29.409Z\",\"startsAt\":\"2026-07-02T00:00:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"8b876877-a3bd-464f-9a7c-c714658bfaf9\",\"actions\":[{\"link\":\"/articles/32157\",\"type\":\"button\",\"linkText\":\"Learn More\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-07-09T15:19:05.693Z",
+      "scrapedAt": "2026-07-10T03:39:22.437Z",
       "metadata": {
         "endsAt": "2026-07-10T23:59:59.999Z",
         "id": 742,

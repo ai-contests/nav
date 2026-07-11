@@ -1,6 +1,6 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-07-11T02:56:58.511Z",
+  "timestamp": "2026-07-11T13:31:07.543Z",
   "contestCount": 10,
   "contests": [
     {
@@ -27,9 +27,39 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-11T02:56:51.793Z",
-      "scrapedAt": "2026-07-11T02:54:31.294Z",
-      "lastUpdated": "2026-07-11T02:56:51.793Z",
+      "processedAt": "2026-07-11T13:31:05.326Z",
+      "scrapedAt": "2026-07-11T13:28:32.330Z",
+      "lastUpdated": "2026-07-11T13:31:05.326Z",
+      "version": 1
+    },
+    {
+      "id": "c_a6141a643a12",
+      "title": "2026 AMD AI DevMaster 黑客松",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/299",
+      "imageUrl": "",
+      "description": "本次黑客松聚焦前沿 AI 应用创意和高性能 AMD GPU 技术。选择你心仪的赛道！探索 AI 应用的无限可能，借助完全开源的 AMD ROCm 软件栈释放 AMD GPU 的全部计算潜力。让强大的 AMD Radeon GPU 成为你实现创意想法、运行模型的终极引擎！\n\n概述加入由 AMD（Advanced Micro Devices, Inc.）主办的 AMD AI DevMaster 黑客松。本次黑客松聚焦前沿 AI 应用创意和高性能 AMD GPU 技术。选择你心仪的赛道！探索 AI 应用的无限可能，借助完全开源的 AMD ROCm 软件栈释放 AMD GPU 的全部计算潜力。让强大的 AMD Radeon GPU 成为你实现创意想法、运行模型的终极引擎！本次黑客松包含三个赛道，涵盖 AI 创新应用开发的核心方向。无论你擅长将创意转化为实际应用，还是精于底层技术优化，这里都能找到属于你的理想舞台！赛道一：多模态内容创作工具开发基于 AMD Radeon GPU 的计算能力和 ROCm 开源软件栈，开发轻量级、高性能的 AI 多模态内容创作工具。参赛者可自行定义创作风格和应用场景，并构建借助 GPU 计算的有趣应用。例如，对图片、短视频等素材应用智能风格迁移和二次创作，将真实场景、日常拍摄和商业内容转化为具有动漫、赛博朋克、复古质感、极简艺术等自定义风格的视听作品。本赛道聚焦轻量化部署、推理加速、风格定制、画质优化四大核心方向，旨在充分挖掘 AMD GPU 的多模态计算优势，提供实用、高效、个性化的 AI 内容生成方案，适用于个人创作、新媒体运营、商业视觉设计、短视频制作等多种行业场景。赛道二：私有 AI Agent 开发与本地部署采用开源 AI Agent 开发套件，在 AMD Radeon GPU 和 ROCm 平台上完成全流程本地私有化部署，打造高度适配、可定制的专用 AI Agent。参赛者可自由定义应用场景，打破通用 AI 工具的功能局限，创造出具备场景化服务能力的智能体。可用场景包括个人智能助手、办公自动化助手、行业专用服务 Agent、日常生活管理工具等。本赛道重点考察参赛者利用 AMD GPU 算力优化 Agent 推理速度、提升本地部署稳定性以及实现自定义迭代功能的能力，目标在于打造轻量化、高可用、私密化的 AI 智能服务终端。赛道三：Physical AI 挑战——基于 AMD Radeon GPU 和 ROCm 的机器人仿真与应用设计本赛道结合物理仿真技术和 Physical AI 算法，借助 AMD Radeon GPU 的计算能力与 ROCm 开源软件栈，开发面向机器人交互场景的仿真系统与自主控制方案。参赛者可选择机械臂、人形机器人、轮式机器人、四足机器人等机器人形态，完成运动规划、动态平衡、物体交互及自主操作等 Physical AI 任务。支持的应用场景包括智能机械臂精准抓取与放置、移动机器人自主导航与避障、四足机器人动态步态控制、多刚体物理交互控制等任务，不做限制。所有环境执行、模型训练与实时推理必须在单张 AMD Radeon GPU 上完成。参赛者需优化物理仿真步进、动力学求解、AI 策略推理等全流程，提升仿真性能、控制响应速度与任务稳定性。本赛道聚焦物理仿真设计、轻量化 Physical AI 模型与算法开发、GPU 计算调度、端到端延迟优化四大核心领域，旨在充分探索 AMD Radeon GPU 在并行计算、实时仿真和 AI 推理方面的能力，同时交付轻量化、低延迟、可部署的机器人 Physical AI 解决方案。成果可推动物理仿真、机器人控制和嵌入式智能体在个人研发、教学培训、小型智能设备等场景中的应用。奖项设置每个赛道均有机会赢取以下奖项：一等奖：5,000 美元二等奖：3,500 美元三等奖：1,500 美元所有奖项、参赛资格要求、评分方法、评审标准和支付条款均受本规则、条款和条件文件约束。参赛者须在提交前仔细阅读本文件。如何参与报名请通过AMD AI DevMaster Hackathon · Luma注册，方可获得赢取奖项的资格。参赛资格面向个人或最多三（3）人的团队开放。更多资格要求请参见本文件中的规则、条款和条件。必须为 AMD Developer Program 成员，请通过以下链接加入：全球开发者：AMD Developer Program仅限中国大陆开发者：AMD Developer Program China社区与支持全球开发者：加入 AMD Discord，访问频道（https://discord.gg/zt9caur5B3）获取比赛期间的公告、技术讨论、答疑和支持。中国大陆开发者：加入 2026 AMD AI DevMaster 黑客松交流群，获取比赛期间的公告、技术讨论、答疑和支持。提交流程请 fork AMD-DEV-CONTEST/Radeon-hackathon-2026-07: Radeon hackathon on 2026-07 的子仓库，并创建一个包含您提交内容的 Pull Request，以便我们评审您的优秀作品。黑客松赛程报名开放2026 年 7 月 10 日 12:00 AM 北京/新加坡时间 (UTC+8)2026 年 7 月 9 日 06:00 PM CEST2026 年 7 月 9 日 09:00 AM PDT提交入口开放2026 年 7 月 15 日 12:00 AM 北京/新加坡时间 (UTC+8)2026 年 7 月 14 日 06:00 PM CEST2026 年 7 月 14 日 09:00 AM PDT黑客松结束/最终提交截止时间2026 年 8 月 6 日 11:59 PM 北京/新加坡时间 (UTC+8)2026 年 8 月 6 日 05:59 PM CEST2026 年 8 月 6 日 08:59 AM PDT规则赛道一：多模态内容创作工具开发1. 任务描述借助 AMD Radeon GPU 的计算能力和 ROCm 开源软件栈，开发一款实用、轻量级、高性能的 AI 多模态内容创作工具。你的作品需至少支持以下一项核心创作任务：图像风格迁移图像生成 / 图像编辑文生图 / 图生图短视频片段风格化处理图像与视频画质增强视听内容的二次创作与批量处理文生视频图生视频其他参赛者可自行定义创作主题和应用场景，如新媒体内容制作、个人创作、商业视觉设计、短视频制作等。2. 指定技术栈为确保比赛标准统一，规定技术栈如下：（1）硬件与平台要求必须运行在 AMD Radeon GPU 上必须采用 ROCm 软件栈最终作品需可在指定的 AMD 环境中部署和演示（2）推荐框架PyTorch + ROCmComfyUI / Diffusers / Transformers（确保兼容 AMD Radeon GPU）辅助库：OpenCV / FFmpeg / Pillow 等其他符合条件的框架（3）模型要求可采用开源模型进行工程化修改和优化允许使用 LoRA、ControlNet、轻量化推理模型和蒸馏模型不允许核心功能仅依赖闭源在线 API至少一个关键推理过程必须在 AMD Radeon GPU 上本地运行（4）交付形式作品需以至少一种以下可演示形式呈现：Web UI桌面应用插件工具（如创作工作流插件）CLI 工具 + 演示工作流其他有效形式3. 评审标准（总分：100 分）（1）功能完整性与应用价值（80 分）完整的输入-处理-输出工作流：40 分创作场景的创新性和趣味性：20 分实际应用与社会价值：20 分（2）在 AMD Radeon GPU 上的运行表现（20 分）工具输出清晰、稳定且多样化：20 分4. 提交要求（1）项目简介文档（PDF）项目背景目标用户与应用场景系统架构模型与算法介绍AMD Radeon GPU / ROCm 适配说明（2）项目源代码完整源代码仓库README 文件，包含环境配置、启动指南和依赖列表（3）演示视频建议时长：3–5 分钟展示实际操作流程在 AMD Radeon GPU 上的实际执行表现，从命令行/GUI 到最终结果（输出清晰度、稳定性和多样性）（4）补充材料（选择一项）PPT / 海报（突出创意场景和工具的实际应用价值）赛道二：私有 AI Agent 开发与本地部署1. 任务描述基于 AMD Radeon GPU 和 ROCm 平台，结合开源 AI Agent 开发框架，构建完全本地化部署、可定制且具备工具链调用能力的 AI Agent 系统。你的作品应面向特定应用场景，包括但不限于：个人智能助手办公自动化助手行业专用服务 Agent本地知识库问答助手日程 / 文档 / 邮件处理助手生活管理 AI Agent其他自定义场景作品应展示以下能力：在 AMD Radeon GPU 上本地部署场景化任务执行工具调用与工作流编排本地运行环境下的操作稳定性与响应性能2. 指定技术栈（1）平台要求必须运行在 AMD Radeon GPU + ROCm 软件栈上核心推理过程应在 AMD Radeon GPU 上本地执行；核心功能不允许使用远程 API不允许完全依赖闭源 Agent 平台实现核心功能（2）可选框架vLLM / llama.cpp（适配 AMD Radeon GPU）Transformers + PyTorch ROCm推荐 Agent 框架：Dify / LangChain / LlamaIndex / AutoGen / CrewAI / OpenWebUI 等，选择你喜欢的任意框架，但须为中立框架。其他符合条件的框架（3）最低功能要求作品需至少实现以下 5 项能力中的 2 项（更多能力可获得额外加分）：本地知识检索（RAG）工具调用多步骤任务规划本地多轮记忆清晰的权限控制与隐私保护机制3. 评审标准（总分：100 分）（1）AI Agent 功能完整性（60 分）清晰的任务定位与创意应用场景：20 分完整的核心能力，包括任务分解、工具调用、RAG 和记忆管理：20 分流畅的多轮交互体验：20 分（2）AMD Radeon GPU / ROCm 适配与优化（40 分）核心推理运行在 AMD Radeon GPU 上：20 分针对推理速度的定向优化：20 分4. 提交要求（1）项目说明文档应用场景Agent 架构图核心能力介绍模型介绍与本地部署方案AMD Radeon GPU 推理速度优化说明（2）项目源代码完整源代码仓库README 文件，包含环境配置、启动指南和依赖列表（3）演示视频建议时长：3–5 分钟展示实际操作流程在 AMD Radeon GPU 上的实际执行表现，从命令行/GUI 到最终结果（流畅度和功能完整性）（4）补充材料（选择一项）PPT / 海报赛道三：Physical AI 挑战——基于 AMD Radeon GPU 和 ROCm 的机器人仿真与应用设计1. 任务描述基于 AMD Radeon GPU 和 ROCm 平台，设计并开发一套完整的机器人应用流程。机器人形态不作限制，可包括但不限于机械臂、人形机器人、四足机器人、移动机器人或其他机器人系统。所提交方案应展示以下一项或多项能力：仿真能力：能够构建并利用基于物理的仿真环境完成机器人任务。机器人学习能力：能够使用基于学习的方法训练智能机器人策略。泛化与鲁棒性：能够在不同环境、干扰或未见场景下保持稳定表现。闭环控制：能够执行推理驱动的感知-决策-控制闭环，实现机器人操作。GPU 优化能力：能够有效利用 AMD Radeon GPU 和 ROCm 软件栈进行加速与优化。多模态感知融合能力：能够融合来自多种传感模态的信息，增强感知并支持机器人决策。应用领域可包括但不限于：操作：使用机械臂完成可泛化的机器人抓取与操作任务。全身操控：人形机器人完成协调的全身任务。移动导航：移动机器人自主导航与避障。腿足运动与操作：四足机器人的动态运动与任务执行。复杂物理交互：涉及柔性物体、可变形物体或其他挑战性物理现象的交互。多智能体机",
+      "summary": "本次黑客松聚焦前沿 AI 应用创意和高性能 AMD GPU 技术。选择你心仪的赛道！探索 AI 应用的无限可能，借助完全开源的 AMD ROCm 软件栈释放 AMD GPU 的全部计算潜力。让强大的 AMD Radeon GPU 成为你实现创意想法、运行模型的终极引擎！\n\n概述加入由 AMD（Advanced Micro Devices, Inc.）主办的 AMD AI DevMaster 黑客松...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "advanced",
+      "deadline": "2026-08-06T03:59:00.000Z",
+      "prize": "$30,000",
+      "tags": [
+        "llm",
+        "pytorch"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-07-11T13:31:05.343Z",
+      "scrapedAt": "2026-07-11T13:28:32.331Z",
+      "lastUpdated": "2026-07-11T13:31:05.343Z",
       "version": 1
     },
     {
@@ -57,9 +87,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-11T02:56:51.890Z",
-      "scrapedAt": "2026-07-11T02:54:31.294Z",
-      "lastUpdated": "2026-07-11T02:56:51.890Z",
+      "processedAt": "2026-07-11T13:31:06.353Z",
+      "scrapedAt": "2026-07-11T13:28:32.331Z",
+      "lastUpdated": "2026-07-11T13:31:06.353Z",
       "version": 1
     },
     {
@@ -84,9 +114,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-11T02:56:52.899Z",
-      "scrapedAt": "2026-07-11T02:54:31.295Z",
-      "lastUpdated": "2026-07-11T02:56:52.899Z",
+      "processedAt": "2026-07-11T13:31:06.357Z",
+      "scrapedAt": "2026-07-11T13:28:32.332Z",
+      "lastUpdated": "2026-07-11T13:31:06.357Z",
       "version": 1
     },
     {
@@ -120,9 +150,9 @@
         "or bothA link to a ModelScope Learn article that describes the research question"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-07-11T02:56:52.896Z",
-      "scrapedAt": "2026-07-11T02:54:31.297Z",
-      "lastUpdated": "2026-07-11T02:56:52.896Z",
+      "processedAt": "2026-07-11T13:31:06.354Z",
+      "scrapedAt": "2026-07-11T13:28:32.333Z",
+      "lastUpdated": "2026-07-11T13:31:06.354Z",
       "version": 1
     },
     {
@@ -150,9 +180,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-11T02:56:52.896Z",
-      "scrapedAt": "2026-07-11T02:54:31.297Z",
-      "lastUpdated": "2026-07-11T02:56:52.896Z",
+      "processedAt": "2026-07-11T13:31:06.434Z",
+      "scrapedAt": "2026-07-11T13:28:32.333Z",
+      "lastUpdated": "2026-07-11T13:31:06.434Z",
       "version": 1
     },
     {
@@ -180,9 +210,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-11T02:56:52.971Z",
-      "scrapedAt": "2026-07-11T02:54:31.297Z",
-      "lastUpdated": "2026-07-11T02:56:52.971Z",
+      "processedAt": "2026-07-11T13:31:06.443Z",
+      "scrapedAt": "2026-07-11T13:28:32.333Z",
+      "lastUpdated": "2026-07-11T13:31:06.443Z",
       "version": 1
     },
     {
@@ -216,9 +246,9 @@
         "期间设置三个阶段里程碑"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-07-11T02:56:53.003Z",
-      "scrapedAt": "2026-07-11T02:54:31.298Z",
-      "lastUpdated": "2026-07-11T02:56:53.003Z",
+      "processedAt": "2026-07-11T13:31:07.449Z",
+      "scrapedAt": "2026-07-11T13:28:32.334Z",
+      "lastUpdated": "2026-07-11T13:31:07.449Z",
       "version": 1
     },
     {
@@ -245,9 +275,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-11T02:56:54.081Z",
-      "scrapedAt": "2026-07-11T02:54:31.299Z",
-      "lastUpdated": "2026-07-11T02:56:54.081Z",
+      "processedAt": "2026-07-11T13:31:07.539Z",
+      "scrapedAt": "2026-07-11T13:28:32.334Z",
+      "lastUpdated": "2026-07-11T13:31:07.539Z",
       "version": 1
     },
     {
@@ -275,44 +305,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-11T02:56:54.087Z",
-      "scrapedAt": "2026-07-11T02:54:31.299Z",
-      "lastUpdated": "2026-07-11T02:56:54.087Z",
-      "version": 1
-    },
-    {
-      "id": "c_076a57a5fb49",
-      "title": "AFAC2026 金融智能创新大赛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/260",
-      "imageUrl": "",
-      "description": "AFAC金融智能创新大赛由中国计算机学会、北京大学、新加坡南洋理工大学、蚂蚁集团、NVIDIA等近30家组织和机构联合发起。自2023年首届举办以来，AFAC大赛已成长为全国乃至全球顶尖的金融智能赛事，累计吸引超1.5万支队伍、近5万名选手同台竞技，覆盖600余所高校、400余家企业。",
-      "summary": "AFAC金融智能创新大赛由中国计算机学会、北京大学、新加坡南洋理工大学、蚂蚁集团、NVIDIA等近30家组织和机构联合发起。自2023年首届举办以来，AFAC大赛已成长为全国乃至全球顶尖的金融智能赛事，累计吸引超1.5万支队伍、近5万名选手同台竞技，覆盖600余所高校、400余家企业。...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-07-20T04:00:00.000Z",
-      "prize": "百万级奖金池",
-      "tags": [
-        "应用开发赛"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-07-11T02:56:54.086Z",
-      "scrapedAt": "2026-07-11T02:54:31.299Z",
-      "lastUpdated": "2026-07-11T02:56:54.086Z",
+      "processedAt": "2026-07-11T13:31:07.532Z",
+      "scrapedAt": "2026-07-11T13:28:32.334Z",
+      "lastUpdated": "2026-07-11T13:31:07.532Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-07-11T02:56:58.511Z"
+    "lastUpdated": "2026-07-11T13:31:07.543Z"
   }
 }

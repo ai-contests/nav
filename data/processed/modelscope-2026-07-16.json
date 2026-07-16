@@ -1,6 +1,6 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-07-16T02:54:08.913Z",
+  "timestamp": "2026-07-16T14:04:08.619Z",
   "contestCount": 10,
   "contests": [
     {
@@ -28,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-16T02:54:01.895Z",
-      "scrapedAt": "2026-07-16T02:51:41.617Z",
-      "lastUpdated": "2026-07-16T02:54:01.895Z",
+      "processedAt": "2026-07-16T14:04:01.552Z",
+      "scrapedAt": "2026-07-16T14:01:54.876Z",
+      "lastUpdated": "2026-07-16T14:04:01.552Z",
       "version": 1
     },
     {
@@ -39,7 +39,7 @@
       "platform": "modelscope",
       "url": "https://modelscope.cn/competition/289",
       "imageUrl": "",
-      "description": "本期Production AI Skills 大赛，把目标锁定在「生产力」——鼓励开发者面向生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work等）集成本地 Skill，让端侧智能真正嵌入日常的工作流与生产环节，产出可复用、可商用、有真实价值的技能资产。\n\n一、承前启后：第三期，为「生产力」而来Agent Skills 征文大赛已成功举办两期，我们共同见证了端侧 AI 从概念走向实践的跨越：第一期（3.22–4.30，OpenClaw Skills 挑战赛）：聚焦生成式 AI 工具（VLM / 语音识别 / 语音合成 / 图像生成）的本地封装，完成从 0 到 1 的「单点能力封装」。第二期（5.1–6.30，Agent Skills 大赛）：升级为面向本地可用的 Skill 封装，并首次要求「基于本地小模型搭建智能体应用」，推动开发者构建完整的 Agentic 工作流。第三期（本期，Production AI Skills 大赛）：我们再进一步，把目标锁定在「生产力」——鼓励开发者面向生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work等）集成本地 Skill，让端侧智能真正嵌入日常的工作流与生产环节，产出可复用、可商用、有真实价值的技能资产。二、活动背景：Agentic AI 与 Hybrid AI 的端侧生产力新纪元AI 正在经历关键的范式转移：它不再只是对话机器人，而是能够理解意图、自主规划路径、调用外部工具并产生实际后果的「智能体」（Agentic AI）。与此同时，随着端侧算力的爆发，Hybrid AI（混合 AI）架构已成大势——云端处理超大规模逻辑，而将高频响应、隐私敏感与个性化强的任务下沉至 AI PC 处理。英特尔（Intel）作为 AI PC 时代的领航者，通过异构算力（CPU + GPU + NPU）的深度整合，为 Agentic AI 的落地提供坚实的物理基础；魔搭社区（ModelScope）作为开发者生态的摇篮，拥有丰富的模型储备。本期活动，我们希望把这份能力沉淀为「生产力」：将逻辑复杂但体积精炼（≤ 35B）的模型部署在本地，既极大降低推理成本，又确保用户隐私数据「不出机」，并让 Skill 直接服务于真实的生产力场景。三、征文主题与硬性约束1. 核心主题面向生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work等）集成一项本地 AI 工具调用（OCR / ASR / TTS / RAG / 数据分析…），解决真实生产力场景的需求，最终产出可被复用、可商用的 Agent Skill。2. 技术约束部署方式：推荐使用Client/Server的模型服务部署方式，实现skill随时调用。运行环境：Skill 中涉及的 AI 模型必须支持纯本地运行（Localhost）。工具适配：Skill 需适配生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work等），能够被其作为技能稳定调用。推理框架：推荐使用 OpenVINO™（及其生态工具如 Optimum-intel）构建本地 AI 工具，以充分释放 GPU、NPU 潜力。验证基准：需使用 生产力级 AI Agent 工具 （Qoder、WorkBuddy、TRAE Work 等）作为 Skill 是否可被 Agent 大脑稳定调用的基准测试环境。官方指南：关于 AI PC 大模型的一站式使用指南，请参考：https://modelscope.cn/brand/view/ai_pc四、推荐方向与场景参考本期尤其鼓励「面向生产力」的 Skill——能嵌入真实工作流、可持续复用、具备商用潜力的方向：推荐方向生产力场景示例Agentic / Hybrid 价值办公提效本地会议纪要自动提取、PPT 一键风格改稿、Excel 复杂公式智能填充。零延迟响应，确保企业内部敏感会议数据绝对安全。开发辅助本地代码 Review、Git Commit 自动生成、API 文档反向生成（可直接在 Qoder 中执行）。离线状态下的高效编程，保护核心算法不外泄。创作创意短视频脚本生成、公众号/小红书文案适配、本地图文自动化排版。端云协同：云端搜集素材，本地用 35B 模型深度二次创作。知识管理个人 PDF/笔记库 RAG、研报摘要提取、本地私人知识库智能问答。构建「永不掉线」且完全私有的个人数字第二大脑。数据分析CSV 自然语言查询、本地数据可视化分析、系统日志异常自动归因。直接读取本地大容量数据集，规避云端流量成本。参考资源：扫码访问英特尔 AI PC 专区，获取更多开发工具、技术文档与实战案例。扫描进入比赛群，实时赛事信息同步、技术交流、问题答疑等。扫码访问英特尔 AI PC 专区，获取更多开发工具、技术文档与实战案例，助力您的 AI 应用开发之旅五、参赛流程：从创意到生产力落地的四步走编写本地 AI 工具：推荐使用 OpenVINO 进行量化与异构加速优化，充分调动 GPU / NPU。生成并验证 Skill：在魔搭 Skills 中心规范下封装技能，并在生产力工具（ Qoder、WorkBuddy、TRAE Work等）的环境下完成指令测试。发布作品包：在魔搭 Skills 中心发布，添加「AI PC」自定义标签；作品需含代码、文档及测试用例。提交技术文章：在魔搭研习社发表文章，内容必须包括：   1)、结合场景，skill 开发创作实践路径、优化方法和心得；   2)、应用示例，需要录制在 生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work等）中 验证skill可运行的示例视频；   3)、对Hybrid AI 的思考；   4)、添加「Intel AI PC」专题标签。六、评分标准（100%）第三期评分进一步向「生产力价值」倾斜——新增「商用生产力」维度，强调工具的真实使用与场景落地：维度权重说明场景价值30%解决问题的真实性、生产力场景的落地深度、用户群体广度商用生产力30%商用/量产潜力、稳定性与可维护性、能否嵌入真实生产工作流工具使用20%对 Qoder 等生产力 Agent 工具的集成质量、OpenVINO/GPU/NPU   优化、工程实现文章质量10%结构清晰度、可复现性、教学价值创新性10%思路新颖度、与已有方案的差异化传播附加分5%将作品框架截图、流程图或 Skill 成果等图文信息，连同魔搭研习社文章链接、Skill 链接发布至小红书，@OpenVINO中文社区 与 @魔搭ModelScope社区，并加话题 #英特尔 #openvino #魔搭 #agentic #skills 。截止8月31日的阅读量（研习社文章、Skills、小红书累计）超过1000次，得附加分5分。七、丰厚激励实物奖励：前 50 名完整提交作品，即可领取 OpenVINO / 魔搭社区限量周边礼品。现金大奖：TOP 10 作品各获得 1000 元（含税）。生态推广：入选《AI PC Skills Collections》，获得魔搭及英特尔官方全渠道流量扶持。合作池入驻：优秀开发者优先进入「Intel ISV 生态合作伙伴池」，获得后续商业合作与资源对接机会。 让 AI 不止于云端，让智能成为生产力。英特尔与魔搭社区，期待与您共同定义 AI PC 的「生产力灵魂技能」！",
+      "description": "本期Production AI Skills 大赛，把目标锁定在「生产力」——鼓励开发者面向生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work等）集成本地 Skill，让端侧智能真正嵌入日常的工作流与生产环节，产出可复用、可商用、有真实价值的技能资产。\n\n一、承前启后：第三期，为「生产力」而来Agent Skills 征文大赛已成功举办两期，我们共同见证了端侧 AI 从概念走向实践的跨越：第一期（3.22–4.30，OpenClaw Skills 挑战赛）：聚焦生成式 AI 工具（VLM / 语音识别 / 语音合成 / 图像生成）的本地封装，完成从 0 到 1 的「单点能力封装」。第二期（5.1–6.30，Agent Skills 大赛）：升级为面向本地可用的 Skill 封装，并首次要求「基于本地小模型搭建智能体应用」，推动开发者构建完整的 Agentic 工作流。第三期（本期，Production AI Skills 大赛）：我们再进一步，把目标锁定在「生产力」——鼓励开发者面向生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work等）集成本地 Skill，让端侧智能真正嵌入日常的工作流与生产环节，产出可复用、可商用、有真实价值的技能资产。二、活动背景：Agentic AI 与 Hybrid AI 的端侧生产力新纪元AI 正在经历关键的范式转移：它不再只是对话机器人，而是能够理解意图、自主规划路径、调用外部工具并产生实际后果的「智能体」（Agentic AI）。与此同时，随着端侧算力的爆发，Hybrid AI（混合 AI）架构已成大势——云端处理超大规模逻辑，而将高频响应、隐私敏感与个性化强的任务下沉至 AI PC 处理。英特尔（Intel）作为 AI PC 时代的领航者，通过异构算力（CPU + GPU + NPU）的深度整合，为 Agentic AI 的落地提供坚实的物理基础；魔搭社区（ModelScope）作为开发者生态的摇篮，拥有丰富的模型储备。本期活动，我们希望把这份能力沉淀为「生产力」：将逻辑复杂但体积精炼（≤ 35B）的模型部署在本地，既极大降低推理成本，又确保用户隐私数据「不出机」，并让 Skill 直接服务于真实的生产力场景。三、征文主题与硬性约束1. 核心主题面向生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work等）集成一项本地 AI 工具调用（OCR / ASR / TTS / RAG / 数据分析…），解决真实生产力场景的需求，最终产出可被复用、可商用的 Agent Skill。2. 技术约束部署方式：推荐使用Client/Server的模型服务部署方式，实现skill随时调用。运行环境：Skill 中涉及的 AI 模型必须支持纯本地运行（Localhost）。工具适配：Skill 需适配生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work等），能够被其作为技能稳定调用。推理框架：推荐使用 OpenVINO™（及其生态工具如 Optimum-intel）构建本地 AI 工具，以充分释放 GPU、NPU 潜力。验证基准：需使用 生产力级 AI Agent 工具 （Qoder、WorkBuddy、TRAE Work 等）作为 Skill 是否可被 Agent 大脑稳定调用的基准测试环境。官方指南：AIPC local skill参考标准：https://github.com/openvino-dev-samples/local-ai-skill-authoring四、推荐方向与场景参考本期尤其鼓励「面向生产力」的 Skill——能嵌入真实工作流、可持续复用、具备商用潜力的方向：推荐方向生产力场景示例Agentic / Hybrid 价值办公提效本地会议纪要自动提取、PPT 一键风格改稿、Excel 复杂公式智能填充。零延迟响应，确保企业内部敏感会议数据绝对安全。开发辅助本地代码 Review、Git Commit 自动生成、API 文档反向生成（可直接在 Qoder 中执行）。离线状态下的高效编程，保护核心算法不外泄。创作创意短视频脚本生成、公众号/小红书文案适配、本地图文自动化排版。端云协同：云端搜集素材，本地用 35B 模型深度二次创作。知识管理个人 PDF/笔记库 RAG、研报摘要提取、本地私人知识库智能问答。构建「永不掉线」且完全私有的个人数字第二大脑。数据分析CSV 自然语言查询、本地数据可视化分析、系统日志异常自动归因。直接读取本地大容量数据集，规避云端流量成本。参考资源：扫码访问英特尔 AI PC 专区，获取更多开发工具、技术文档与实战案例。扫描进入比赛群，实时赛事信息同步、技术交流、问题答疑等。扫码访问英特尔 AI PC 专区，获取更多开发工具、技术文档与实战案例，助力您的 AI 应用开发之旅五、参赛流程：从创意到生产力落地的四步走编写本地 AI 工具：推荐使用 OpenVINO 进行量化与异构加速优化，充分调动 GPU / NPU。生成并验证 Skill：参考AIPC local skill 标准：https://github.com/openvino-dev-samples/local-ai-skill-authoring，在魔搭 Skills 中心规范下封装技能，并在生产力工具（ Qoder、WorkBuddy、TRAE Work等）的环境下完成指令测试。发布作品包：在魔搭 Skills 中心发布，添加「AI PC」自定义标签；作品需含代码、文档及测试用例。提交技术文章：在魔搭研习社发表文章，内容必须包括：   1)、结合场景，skill 开发创作实践路径、优化方法和心得；   2)、应用示例，需要录制在 生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work等）中 验证skill可运行的示例视频；   3)、对Hybrid AI 的思考；   4)、添加「Intel AI PC」专题标签。六、评分标准（100%）第三期评分进一步向「生产力价值」倾斜——新增「商用生产力」维度，强调工具的真实使用与场景落地：维度权重说明场景价值30%解决问题的真实性、生产力场景的落地深度、用户群体广度商用生产力30%商用/量产潜力、稳定性与可维护性、能否嵌入真实生产工作流工具使用20%对 Qoder 等生产力 Agent 工具的集成质量、OpenVINO/GPU/NPU   优化、工程实现文章质量10%结构清晰度、可复现性、教学价值创新性10%思路新颖度、与已有方案的差异化传播附加分5%将作品框架截图、流程图或 Skill 成果等图文信息，连同魔搭研习社文章链接、Skill 链接发布至小红书，@OpenVINO中文社区 与 @魔搭ModelScope社区，并加话题 #英特尔 #openvino #魔搭 #agentic #skills 。截止8月31日的阅读量（研习社文章、Skills、小红书累计）超过1000次，得附加分5分。七、丰厚激励实物奖励：前 50 名完整提交作品，即可领取 OpenVINO / 魔搭社区限量周边礼品。现金大奖：TOP 10 作品各获得 1000 元（含税）。生态推广：入选《AI PC Skills Collections》，获得魔搭及英特尔官方全渠道流量扶持。合作池入驻：优秀开发者优先进入「Intel ISV 生态合作伙伴池」，获得后续商业合作与资源对接机会。 让 AI 不止于云端，让智能成为生产力。英特尔与魔搭社区，期待与您共同定义 AI PC 的「生产力灵魂技能」！",
       "summary": "本期Production AI Skills 大赛，把目标锁定在「生产力」——鼓励开发者面向生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work等）集成本地 Skill，让端侧智能真正嵌入日常的工作流与生产环节，产出可复用、可商用、有真实价值的技能资产。\n\n一、承前启后：第三期，为「生产力」而来Agent Skills 征文大赛已成功举办两期，我们共同见证了端侧 A...",
       "contestType": "image",
       "status": "active",
@@ -64,9 +64,9 @@
         "@OpenVINO中文社区 与 @魔搭ModelScope社区"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-07-16T02:54:02.119Z",
-      "scrapedAt": "2026-07-16T02:51:41.618Z",
-      "lastUpdated": "2026-07-16T02:54:02.119Z",
+      "processedAt": "2026-07-16T14:04:01.636Z",
+      "scrapedAt": "2026-07-16T14:01:54.877Z",
+      "lastUpdated": "2026-07-16T14:04:01.636Z",
       "version": 1
     },
     {
@@ -99,9 +99,9 @@
         "就是为了解决这个卡点。实战招募：两天"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-07-16T02:54:03.126Z",
-      "scrapedAt": "2026-07-16T02:51:41.619Z",
-      "lastUpdated": "2026-07-16T02:54:03.126Z",
+      "processedAt": "2026-07-16T14:04:02.657Z",
+      "scrapedAt": "2026-07-16T14:01:54.877Z",
+      "lastUpdated": "2026-07-16T14:04:02.657Z",
       "version": 1
     },
     {
@@ -128,9 +128,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-16T02:54:03.119Z",
-      "scrapedAt": "2026-07-16T02:51:41.619Z",
-      "lastUpdated": "2026-07-16T02:54:03.119Z",
+      "processedAt": "2026-07-16T14:04:02.733Z",
+      "scrapedAt": "2026-07-16T14:01:54.877Z",
+      "lastUpdated": "2026-07-16T14:04:02.733Z",
       "version": 1
     },
     {
@@ -158,9 +158,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-16T02:54:03.115Z",
-      "scrapedAt": "2026-07-16T02:51:41.621Z",
-      "lastUpdated": "2026-07-16T02:54:03.115Z",
+      "processedAt": "2026-07-16T14:04:02.643Z",
+      "scrapedAt": "2026-07-16T14:01:54.878Z",
+      "lastUpdated": "2026-07-16T14:04:02.643Z",
       "version": 1
     },
     {
@@ -188,9 +188,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-16T02:54:03.112Z",
-      "scrapedAt": "2026-07-16T02:51:41.621Z",
-      "lastUpdated": "2026-07-16T02:54:03.112Z",
+      "processedAt": "2026-07-16T14:04:02.646Z",
+      "scrapedAt": "2026-07-16T14:01:54.879Z",
+      "lastUpdated": "2026-07-16T14:04:02.646Z",
       "version": 1
     },
     {
@@ -218,9 +218,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-16T02:54:03.207Z",
-      "scrapedAt": "2026-07-16T02:51:41.621Z",
-      "lastUpdated": "2026-07-16T02:54:03.207Z",
+      "processedAt": "2026-07-16T14:04:02.822Z",
+      "scrapedAt": "2026-07-16T14:01:54.879Z",
+      "lastUpdated": "2026-07-16T14:04:02.822Z",
       "version": 1
     },
     {
@@ -245,9 +245,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-16T02:54:04.279Z",
-      "scrapedAt": "2026-07-16T02:51:41.622Z",
-      "lastUpdated": "2026-07-16T02:54:04.279Z",
+      "processedAt": "2026-07-16T14:04:03.925Z",
+      "scrapedAt": "2026-07-16T14:01:54.879Z",
+      "lastUpdated": "2026-07-16T14:04:03.925Z",
       "version": 1
     },
     {
@@ -281,9 +281,9 @@
         "or bothA link to a ModelScope Learn article that describes the research question"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-07-16T02:54:04.213Z",
-      "scrapedAt": "2026-07-16T02:51:41.623Z",
-      "lastUpdated": "2026-07-16T02:54:04.213Z",
+      "processedAt": "2026-07-16T14:04:03.918Z",
+      "scrapedAt": "2026-07-16T14:01:54.880Z",
+      "lastUpdated": "2026-07-16T14:04:03.918Z",
       "version": 1
     },
     {
@@ -311,15 +311,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-16T02:54:04.275Z",
-      "scrapedAt": "2026-07-16T02:51:41.623Z",
-      "lastUpdated": "2026-07-16T02:54:04.275Z",
+      "processedAt": "2026-07-16T14:04:03.820Z",
+      "scrapedAt": "2026-07-16T14:01:54.880Z",
+      "lastUpdated": "2026-07-16T14:04:03.820Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-07-16T02:54:08.913Z"
+    "lastUpdated": "2026-07-16T14:04:08.619Z"
   }
 }

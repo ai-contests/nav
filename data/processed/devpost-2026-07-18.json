@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-07-18T02:48:41.066Z",
+  "timestamp": "2026-07-18T13:27:15.393Z",
   "contestCount": 10,
   "contests": [
     {
@@ -8,17 +8,15 @@
       "title": "OpenAI Build Week",
       "platform": "devpost",
       "url": "https://openai.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/872/093/datas/original.png",
-      "description": "OpenAI Build Week Challenge GPT-5.6 is here, and Codex—the same powerful coding agent—is now available in ChatGPT.OpenAI Build Week is a chance to explore what's possible with GPT-5.6 and Codex. Experiment with new ideas, connect with other builders, and submit a project for a chance to win prizes and recognition. Submissions are due Tuesday, July 21 at 5:00 PM PT. How to participate Read the Official Rules. Review the challenge requirements, eligibility, and submission guidelines. Install the Devpost Hackathons Plugin. Access the challenge details, rules, and submission flow directly from the ChatGPT desktop or mobile app. Get set up with OpenAI. Sign up for an OpenAI account then request your free Codex credits on the Resources tab by Friday, July 17th at 12:00 PM PT. Explore the docs. Learn about GPT-5.6 and Codex with the available quickstart before you begin. Pick your track and build. Find the track that best fits your idea, then submit your project by Tuesday, July 21 at 5:00 PM PT. Meet the Devpost plugin The Devpost Hackathons plugin runs inside ChatGPT and includes everything you need to participate—from challenge requirements and rules to the submission flow. It can help you brainstorm ideas, plan your project, and prepare your submission without leaving Codex.",
-      "summary": "OpenAI Build Week Challenge GPT-5.6 is here, and Codex—the same powerful coding agent—is now available in ChatGPT.OpenAI Build Week is a chance to explore what's possible with GPT-5.6 and Codex. Exper...",
-      "contestType": "code",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/872/093/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-07-22T00:00:00.000Z",
       "prize": "$100,000",
       "tags": [
-        "DevOps",
-        "Productivity"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -26,17 +24,11 @@
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [
-        "eligibility",
-        "and submission guidelines. Install the Devpost Hackathons Plugin. Access the challenge details",
-        "rules",
-        "then submit your project by Tuesday",
-        "plan your project"
-      ],
+      "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-18T02:48:32.118Z",
-      "scrapedAt": "2026-07-18T02:46:51.066Z",
-      "lastUpdated": "2026-07-18T02:48:32.118Z",
+      "processedAt": "2026-07-18T13:27:06.507Z",
+      "scrapedAt": "2026-07-18T13:25:28.614Z",
+      "lastUpdated": "2026-07-18T13:27:06.507Z",
       "version": 1
     },
     {
@@ -44,18 +36,14 @@
       "title": "Build with Gemini XPRIZE",
       "platform": "devpost",
       "url": "https://xprize.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/original.png",
-      "description": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Ship Deploy a business that operates with AI. Real users in production. 04 Sell Market it. Grow it. Show the revenue. AI is transforming everything, including what small teams can build. Operations that used to take entire engineering departments can now be written in plain English and executed by AI agents. By some estimates, the world’s 45 million software developers will grow to over a billion in the next few years. Everyone will be a developer, and we want to start now, with you. So show us: build a real business that makes real impact.",
-      "summary": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Shi...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-08-17T20:00:00.000Z",
       "prize": "$2,000,000",
-      "tags": [
-        "Education",
-        "Productivity"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -64,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-18T02:48:32.215Z",
-      "scrapedAt": "2026-07-18T02:46:51.067Z",
-      "lastUpdated": "2026-07-18T02:48:32.215Z",
+      "processedAt": "2026-07-18T13:27:06.623Z",
+      "scrapedAt": "2026-07-18T13:25:28.615Z",
+      "lastUpdated": "2026-07-18T13:27:06.623Z",
       "version": 1
     },
     {
@@ -74,17 +62,15 @@
       "title": "Global AI Hackathon Series with Qwen Cloud",
       "platform": "devpost",
       "url": "https://qwencloud-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/706/870/datas/original.png",
-      "description": "Build production-ready agents on Qwen — and show the world what an agent can do. The Global AI Hackathon with Qwen Cloud invites professional developers, AI/ML engineers, and builders to design and ship sophisticated multi-agent systems, complex AI workflows, and production-grade applications using Qwen and other flagship models available on Qwen Cloud infrastructure. With advanced reasoning and multimodal capabilities, QwenCloud is built for builders who care about architectural depth and engineering excellence. Pick a track and build something real. Compete for total $70,000+ in cash and cloud credits, get featured on the Qwen Cloud blog, and earn an invite to join the AI Catalyst program. Why Join Build with Qwen Cloud. Access Qwen and other flagship models with advanced reasoning and multimodal understanding — all on Qwen Cloud infrastructure purpose-built for production AI. Get free Qwen Cloud credits to build, deploy, and scale your agent. Win a total of $70,000+ in cash and cloud credits plus blog features, swag, and an invite to the AI Catalyst program for standout teams. Get started Register on Devpost (2 minutes) Sign up for Qwen Cloud. Click here to Sign up for your free trial. To learn more about the hackathon you can check here. (5 minutes) Join the Qwen Cloud Discord (2 minutes) Pick your track, review the sample projects and reference architecture in the Resources and start building. (30 minutes to first run)",
-      "summary": "Build production-ready agents on Qwen — and show the world what an agent can do. The Global AI Hackathon with Qwen Cloud invites professional developers, AI/ML engineers, and builders to design and sh...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/706/870/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-07-20T21:00:00.000Z",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$45,000",
       "tags": [
-        "Design",
-        "Productivity"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -94,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-18T02:48:33.205Z",
-      "scrapedAt": "2026-07-18T02:46:51.068Z",
-      "lastUpdated": "2026-07-18T02:48:33.205Z",
+      "processedAt": "2026-07-18T13:27:07.632Z",
+      "scrapedAt": "2026-07-18T13:25:28.616Z",
+      "lastUpdated": "2026-07-18T13:27:07.632Z",
       "version": 1
     },
     {
@@ -104,18 +90,14 @@
       "title": "CockroachDB × AWS Hackathon - Build with Agentic Memory",
       "platform": "devpost",
       "url": "https://cockroachdb-ai.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/649/552/datas/original.png",
-      "description": "🪳 CockroachDB × AWS Hackathon: CockroachDB and AWS invite developers, engineers, and AI builders to create the next generation of agentic applications. Harness CockroachDB's distributed AI capabilities, fully managed MCP Server, agent-ready ccloud CLI, open-source Agent Skills Repo, LangChain integrations and Claude/Cursor plugins - all on AWS - to build AI agents with production-grade, persistent memory. Why Agentic Memory? Why Now? AI agents are rapidly moving from experiments into real production workflows, like writing code, running pipelines, diagnosing incidents, and driving more application traffic than any human could. But here's the problem: agents need memory that never goes down. An agent whose memory goes offline doesn't degrade gracefully, it stops. Traditional databases were optimized for human-scale reads and writes. Agentic systems are different: they spawn autonomously, write constantly, and require memory that persists across regions, failures, and scale (with zero data loss and no maintenance windows). CockroachDB was built for exactly this. It is the system of record for agentic memory: globally distributed, always-on, PostgreSQL-compatible, and now natively integrated into the agent toolchain through MCP, cloud, and an open-source skills ecosystem. This hackathon is your invitation to build on that foundation.",
-      "summary": "🪳 CockroachDB × AWS Hackathon: CockroachDB and AWS invite developers, engineers, and AI builders to create the next generation of agentic applications. Harness CockroachDB's distributed AI capabiliti...",
-      "contestType": "code",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/649/552/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-08-18T21:00:00.000Z",
       "prize": "$8,750",
-      "tags": [
-        "Databases",
-        "DevOps"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -124,9 +106,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-18T02:48:33.218Z",
-      "scrapedAt": "2026-07-18T02:46:51.072Z",
-      "lastUpdated": "2026-07-18T02:48:33.218Z",
+      "processedAt": "2026-07-18T13:27:07.631Z",
+      "scrapedAt": "2026-07-18T13:25:28.616Z",
+      "lastUpdated": "2026-07-18T13:27:07.631Z",
       "version": 1
     },
     {
@@ -134,17 +116,15 @@
       "title": "Arm Create: AI Optimization Challenge",
       "platform": "devpost",
       "url": "https://arm-ai-optimization-challenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/715/320/datas/original.png",
-      "description": "Welcome to the Arm AI Optimization Challenge 2026. We’re inviting developers to build and submit projects that show how AI can be optimized for Arm-powered platforms across three challenge tracks: Physical AI: Optimize AI for real-world systems, including robotics, embedded devices, sensors, simulation, autonomy, and edge environments. Cloud AI: Optimize AI for scalable infrastructure, including Arm64 cloud, inference performance, frameworks, agents, and production-ready developer workflows. Mobile AI: Optimize AI for on-device constraints, including performance, privacy, latency, battery efficiency, and local AI experiences on Arm-powered phones, tablets, and laptops. Across all tracks, submissions should show clear optimization work and measurable improvements where possible. Optimizations we will look for: Model size: Reduce size on disk or in memory. Model quality: Improve fine-tuning or output quality for a given model size. Model speed: Improve tokens/sec, time to first token, or other relevant latency metrics. Inference server speed: Improve throughput, latency, tokens/sec, or time to first token. Developer experience: Improve tools, workflows, setup, documentation, or usability. Arm-specific optimization: Implement optimizations in an existing framework, library, model, or application to run better on Arm. Developers can use Arm Performix to get exact benchmarks of their Arm based performance and be able to clearly show their results.",
-      "summary": "Welcome to the Arm AI Optimization Challenge 2026. We’re inviting developers to build and submit projects that show how AI can be optimized for Arm-powered platforms across three challenge tracks: Phy...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/715/320/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-08-14T23:00:00.000Z",
       "prize": "$8,000",
       "tags": [
-        "Machine Learning",
-        "AI"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -154,9 +134,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-18T02:48:33.213Z",
-      "scrapedAt": "2026-07-18T02:46:51.072Z",
-      "lastUpdated": "2026-07-18T02:48:33.213Z",
+      "processedAt": "2026-07-18T13:27:07.622Z",
+      "scrapedAt": "2026-07-18T13:25:28.620Z",
+      "lastUpdated": "2026-07-18T13:27:07.622Z",
       "version": 1
     },
     {
@@ -164,18 +144,14 @@
       "title": "Build with DataHub: The Agent Hackathon",
       "platform": "devpost",
       "url": "https://datahub.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/821/843/datas/original.png",
-      "description": "Welcome to The Agent Hackathon! Everyone's building AI agents, but the real magic happens when those agents have complete context to act on organizational data. Without reliable knowledge of schemas, lineage, ownership, ML metadata, and governance, agents hallucinate or get stuck on tasks any data engineer could finish in minutes. That's where DataHub comes in. DataHub is the open-source context platform that gives AI agents a complete understanding of your data stack — from raw tables to ML models. With an MCP Server, end-to-end ML lineage, and DataHub Skills that give agents direct access to catalog workflows, DataHub turns the modern data ecosystem into something agents can actually work with. This hackathon is your invitation to build on that foundation. Whether you're shipping autonomous agents, generating production data code, protecting ML models, or building something entirely new — show us what's possible when agents have context. DataHub powers data stacks at Apple, Pinterest, Netflix, and hundreds of other companies. The most adopted open-source metadata platform — and now the one agents need to do real work. Ready to build agents that actually ship? Check out the Resources tab for docs, SDKs, sample datasets, and starter kits. Then start building.",
-      "summary": "Welcome to The Agent Hackathon! Everyone's building AI agents, but the real magic happens when those agents have complete context to act on organizational data. Without reliable knowledge of schemas, ...",
-      "contestType": "text",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/821/843/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-08-10T21:00:00.000Z",
       "prize": "$20,500",
-      "tags": [
-        "DevOps",
-        "Open Ended"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -184,9 +160,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-18T02:48:33.218Z",
-      "scrapedAt": "2026-07-18T02:46:51.073Z",
-      "lastUpdated": "2026-07-18T02:48:33.218Z",
+      "processedAt": "2026-07-18T13:27:07.678Z",
+      "scrapedAt": "2026-07-18T13:25:28.620Z",
+      "lastUpdated": "2026-07-18T13:27:07.678Z",
       "version": 1
     },
     {
@@ -194,19 +170,14 @@
       "title": "Backblaze Generative Media Hackathon: Build with Genblaze on B2",
       "platform": "devpost",
       "url": "https://backblaze-generative-media.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/780/573/datas/original.png",
-      "description": "About the challenge Create the next generation of AI media apps. The Backblaze Generative AI Media Hackathon challenges developers to build apps for AI-generated video, images, audio, and multimodal media workflows using Backblaze B2 Cloud Storage and Genblaze. Backblaze B2 is S3-compatible cloud object storage that helps generative media apps store and serve large volumes of generated assets, metadata, provenance records, thumbnails, logs, and application files as part of the media pipeline. Start building for free with 10GB of included B2 storage, then scale as your media workloads grow. Genblaze is an open source Python SDK from Backblaze for orchestrating generative media workflows across generative media providers such as GMI Cloud, OpenAI, Google, Decart, Runway, Luma, ElevenLabs, Stability Audio, NVIDIA NIM, and others. GMI Cloud gives developers easy access to open source generative AI models for image, video, audio, chat, reasoning, and multimodal workflows, making it easier to prototype and build AI media applications. Build something useful, creative, and production-minded. Show how AI-generated media can move from prompt to pipeline to durable storage on Backblaze B2. Get started Create a Backblaze B2 account: Backblaze B2 Signup Create a B2 bucket for your generated media, metadata, and app assets. Use the Genblaze SDK and star ⭐ the Genblaze GitHub Repository for examples, updates, and releases. Create a GMI Cloud account and submit the credits request form, if eligible. Use of GMI Cloud is optional, and other cloud providers may be used. Build and submit your generative AI media app on Devpost before the deadline. The first 270 eligible participants will receive GMI Cloud credits to access generative AI and open source models for image, video, audio, chat, reasoning, and multimodal workflows. To provide feedback on the Genblaze SDK, go to the Issues section of the Genblaze repo, click \"New issue,\" and create a Bug report, Feature request, or start with a Blank issue.",
-      "summary": "About the challenge Create the next generation of AI media apps. The Backblaze Generative AI Media Hackathon challenges developers to build apps for AI-generated video, images, audio, and multimodal m...",
-      "contestType": "image",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/780/573/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-08-03T21:00:00.000Z",
       "prize": "$10,000",
-      "tags": [
-        "Music",
-        "Art",
-        "Voice skills"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -215,9 +186,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-18T02:48:33.316Z",
-      "scrapedAt": "2026-07-18T02:46:51.073Z",
-      "lastUpdated": "2026-07-18T02:48:33.316Z",
+      "processedAt": "2026-07-18T13:27:07.757Z",
+      "scrapedAt": "2026-07-18T13:25:28.621Z",
+      "lastUpdated": "2026-07-18T13:27:07.757Z",
       "version": 1
     },
     {
@@ -225,19 +196,15 @@
       "title": "YouCam API Skin AI & Apparel VTO Hackathon",
       "platform": "devpost",
       "url": "https://youcam-api.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/868/331/datas/original.png",
-      "description": "Showcase Your Innovations and Shape the Future of Skincare and Apparel Consumer Experience. Builders, developers, and visionaries: it’s time to design solutions that redefine the next generation of consumer experiences. The YouCam API Skin AI & Apparel VTO Hackathon is your launchpad. We’re opening our most advanced, field-tested AI/AR infrastructure so you can move beyond the sandbox and build real products, including agentic AI workflows. We want you to push innovation to its limits by integrating YouCam APIs into your big idea, whether it’s a self-learning styling AI agent, a personalized skin diagnostic tool, or a solution to real user problems. Bring your boldest architectural concepts—and we’ll back them with serious prize money. About the challenge All solutions must integrate at least one YouCam API and demonstrate clear consumer or retail value. Your solution needs to clearly align with whichever topic you choose, both in how it's built and how it's described. Pick the topic that best fits your project and submit: Skin AI People don't wonder about their skin in the abstract, they wonder right before a purchase, right after a bad breakout, right when they're standing in front of a mirror deciding whether something is working. Build something that meets that moment. Use YouCam's Skin AI, alone or combined with other YouCam APIs, to help someone understand their skin and know what to do next. Apparel Virtual Try-On Most online shopping decisions still come down to a guess, will this fit, will this look right, is it worth the return shipping. Build something that replaces that guess with something closer to certainty. Use YouCam's generative Apparel VTO, alone or paired with other YouCam APIs, to help someone make a buying decision with more confidence. Skin AI + Apparel VTO Beauty and fashion decisions rarely happen in isolation, what someone wears and how their skin looks are part of the same self-image. Build something that brings Skin AI and Apparel VTO together into one experience, rather than treating them as two separate features. We want to see what's possible when both capabilities work as one. Why Join Build with YouCam API. Access AI Skin Analysis and generative Apparel Virtual Try-On, the same models powering 800+ global beauty and fashion brands, on a standard REST API that drops into any stack. Get free API units to build, deploy, and demo. Every registered participant receives 1,000 free API units (a $179 value) just for signing up. Win cash, API credits, and real visibility. $5,000 for 1st place, $1,000 for 2nd, and API units for 3rd-5th, plus a feature on the Perfect Corp. blog for standout teams. Get started Register on Devpost. Get your exclusive redeem code by email (2 minutes) Sign up for YouCam API. Click here to sign up and verify your email. (2 minutes) Claim Your Free 1,000 YouCam API Units. Click here and go to Account > Redeem Code > Enter the redeem code (3 minutes) 1,000 API Units will be added to your account immediately.",
-      "summary": "Showcase Your Innovations and Shape the Future of Skincare and Apparel Consumer Experience. Builders, developers, and visionaries: it’s time to design solutions that redefine the next generation of co...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-08-17T15:45:00.000Z",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/868/331/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$6,000",
       "tags": [
-        "AR",
-        "VR",
-        "E-commerce",
-        "Retail"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -247,9 +214,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-18T02:48:34.343Z",
-      "scrapedAt": "2026-07-18T02:46:51.074Z",
-      "lastUpdated": "2026-07-18T02:48:34.343Z",
+      "processedAt": "2026-07-18T13:27:08.812Z",
+      "scrapedAt": "2026-07-18T13:25:28.621Z",
+      "lastUpdated": "2026-07-18T13:27:08.812Z",
       "version": 1
     },
     {
@@ -257,50 +224,14 @@
       "title": "Africa Deep Tech Challenge 2026",
       "platform": "devpost",
       "url": "https://adtc-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/739/255/datas/original.png",
-      "description": "About the challenge Africa is not excluded from the language model revolution. The bottleneck is no longer research or raw model availability - it is access economics. Cloud-hosted LLMs require API fees, stable fiber, and sustained electricity. For a university student in Lagos, an extension officer in Arusha, or a small-business owner in Dakar, these are not minor frictions - they are blockers. Africa Deep Tech Challenge 2026 (inspired by the Africa AI XPrize) is an engineering-first competition to make useful language-model applications run well on the computers Africans already own: mid- and low-end commodity laptops. We are not building for exotic edge silicon. We are building for the 8 GB laptop with integrated graphics - the machine sitting on millions of desks, in classrooms, clinics, and corner shops across the continent. You could be the one to democratize access to low cost inference for the continent. This is an applied systems engineering contest. Hitting genuinely useful performance on commodity hardware requires optimization across the full stack: model selection and fine-tuning, quantization and compilation, memory and cache management, retrieval-augmented generation over local corpora, and application UX that makes such a model feel responsive. Get started Register on DevPost for the Africa Deep Tech Challenge 2026 Form or join a team of 1 to 3 people and pick your problem domain Clone the submission template Test your model locally by cloning the model profiler. Ensure your model and submission formats are perfectly compatible with the ADTC evaluation pipeline. The local profiler allows you to run latency, throughput, memory, and CPU checks directly on your target hardware. Apply for up to 5 hours of GPU credits courtesy of Udutech to train your model. Check out the rules and submission requirements, then start building!",
-      "summary": "About the challenge Africa is not excluded from the language model revolution. The bottleneck is no longer research or raw model availability - it is access economics. Cloud-hosted LLMs require API fe...",
-      "contestType": "text",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-08-25T06:45:00.000Z",
-      "prize": "$16,500",
-      "tags": [
-        "llm",
-        "Productivity"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "then start building!"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-07-18T02:48:34.235Z",
-      "scrapedAt": "2026-07-18T02:46:51.074Z",
-      "lastUpdated": "2026-07-18T02:48:34.235Z",
-      "version": 1
-    },
-    {
-      "id": "c_ab919cae4ddc",
-      "title": "VoltHacks",
-      "platform": "devpost",
-      "url": "https://volthacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/620/967/datas/original.png",
-      "description": "About the Challenge VoltHacks 2026 is a hackathon focused on building real world solutions using hardware, IoT, and AI. Participants are encouraged to go beyond traditional software projects and create systems that interact with the physical world through sensors, embedded systems, automation, and intelligent devices. Whether you're interested in robotics, smart devices, sustainability, healthcare technology, or open innovation, VoltHacks is designed to push creativity and engineering skills toward solving meaningful problems. Tracks could include: Robotics & Embedded Systems AI + Hardware Integration Smart Health Technology Sustainability & Smart Cities Open Innovation Anything Engineering based with Impact Participants will present their projects to a panel of judges, with awards recognizing innovation, technical complexity, and real world impact. Get Started Register individually or with a team Brainstorm a project idea related to the challenge themes Build your project during the hackathon period Submit your final project on Devpost before the deadline All skill levels are welcome. Whether you're experienced with hardware or just getting started, VoltHacks is meant to be a place to learn, collaborate, and build something meaningful.",
-      "summary": "About the Challenge VoltHacks 2026 is a hackathon focused on building real world solutions using hardware, IoT, and AI. Participants are encouraged to go beyond traditional software projects and creat...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/739/255/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-09-05T21:00:00.000Z",
-      "prize": "$32,585",
-      "tags": [
-        "IoT",
-        "Beginner Friendly"
-      ],
+      "prize": "$16,500",
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -309,15 +240,41 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-18T02:48:34.239Z",
-      "scrapedAt": "2026-07-18T02:46:51.075Z",
-      "lastUpdated": "2026-07-18T02:48:34.239Z",
+      "processedAt": "2026-07-18T13:27:08.771Z",
+      "scrapedAt": "2026-07-18T13:25:28.622Z",
+      "lastUpdated": "2026-07-18T13:27:08.771Z",
+      "version": 1
+    },
+    {
+      "id": "c_ab919cae4ddc",
+      "title": "VoltHacks",
+      "platform": "devpost",
+      "url": "https://volthacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/620/967/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$32,585",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-07-18T13:27:08.768Z",
+      "scrapedAt": "2026-07-18T13:25:28.622Z",
+      "lastUpdated": "2026-07-18T13:27:08.768Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-07-18T02:48:41.066Z"
+    "lastUpdated": "2026-07-18T13:27:15.393Z"
   }
 }

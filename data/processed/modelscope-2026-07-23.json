@@ -1,8 +1,37 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-07-23T03:03:09.551Z",
+  "timestamp": "2026-07-23T14:12:53.341Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_c6e1ae5531a7",
+      "title": "AI4S Future ScienceSkills Hackathon",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/321",
+      "imageUrl": "",
+      "description": "AI4S Future ScienceSkills Hackathon 是一场聚焦 AI for Science 的硬核黑客松，由新研智材发起，面向材料、生物医药、气候地球科学三大领域，致力于让前沿技术真正服务于产业。\n\nAI4S Future ScienceSkills Hackathon 是一场聚焦 AI for Science 的硬核黑客松，由新研智材发起，面向材料、生物医药、气候地球科学三大领域，致力于让前沿技术真正服务于产业。这不是一场常规的黑客松。从 Vibe Coding 到 Verified Skills——我们不只看 demo 有多炫，更看你能否用 AI 构建出可靠、可复现、可验证的科学解决方案，我们只认一件事：问题有没有被真正解决。 本次赛事设置三大挑战赛道：赛道一：AI for Materials（材料） ——加速材料发现、模拟与产业应用赛道二：AI for Biomedicine（生物医药） ——聚焦药物研发、诊断与医疗创新赛道三：AI for Climate and Earth Sciences（气候与地球科学） ——解决气候与自然灾害真实问题 参赛作品需以可独立运行的科学计算模块、SDK 或 Agent Skill 为主要形式，能够被集成、被调用、被二次开发。项目默认开源，需提交至 GitHub，包含完整代码、README 文档及可运行示例。在科学领域，没有可复现的结果等于没有结果。 奖金与权益6万奖金池（70%为现金奖励 + 30%为算力/云资源券 + 媒体曝光资源），获奖选手直通9月AI4S行业峰会，与学界/产业界顶尖大佬面对面交流。前100名报名队伍每队获赠¥100 API算力额度，所有获奖队伍附赠「骡子快跑」+「万镜一刻」各一个月会员。 赛程安排报名周期7/22-8/4，线上作品提交8/5-8/8，评审8/9-8/15，入围公示8/16-8/22，线下路演决赛&颁奖8/23于上海举行。我们寻找这样的你无论你是寻求产业突破的企业研发团队、充满潜力的学生与青年人才，还是任何心怀创新之火的人——只要热爱AI开发、勇于创新，均可组队参赛，不设行业与资历门槛。 AI4S 的未来，不会由某一个团队独自完成。 感谢所有合作伙伴与赞助机构，与你们一起，我们正在把更多真实科研问题，转化为真正可落地的 AI Skills。",
+      "summary": "AI4S Future ScienceSkills Hackathon 是一场聚焦 AI for Science 的硬核黑客松，由新研智材发起，面向材料、生物医药、气候地球科学三大领域，致力于让前沿技术真正服务于产业。\n\nAI4S Future ScienceSkills Hackathon 是一场聚焦 AI for Science 的硬核黑客松，由新研智材发起，面向材料、生物医药、气候地球科学三...",
+      "contestType": "code",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-08-04T15:59:00.000Z",
+      "prize": "6万奖金池（70%为现金奖励 + 30%为算力/云资源券 + 媒体曝光资源）",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-07-23T14:12:46.543Z",
+      "scrapedAt": "2026-07-23T14:10:30.333Z",
+      "lastUpdated": "2026-07-23T14:12:46.543Z",
+      "version": 1
+    },
     {
       "id": "c_ae0a7969b9c4",
       "title": "GOAI 世界人工智能开源大赛",
@@ -28,9 +57,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-23T03:03:02.934Z",
-      "scrapedAt": "2026-07-23T03:00:45.713Z",
-      "lastUpdated": "2026-07-23T03:03:02.934Z",
+      "processedAt": "2026-07-23T14:12:46.674Z",
+      "scrapedAt": "2026-07-23T14:10:30.333Z",
+      "lastUpdated": "2026-07-23T14:12:46.674Z",
       "version": 1
     },
     {
@@ -58,9 +87,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-23T03:03:03.102Z",
-      "scrapedAt": "2026-07-23T03:00:45.713Z",
-      "lastUpdated": "2026-07-23T03:03:03.102Z",
+      "processedAt": "2026-07-23T14:12:47.692Z",
+      "scrapedAt": "2026-07-23T14:10:30.333Z",
+      "lastUpdated": "2026-07-23T14:12:47.692Z",
       "version": 1
     },
     {
@@ -88,9 +117,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-23T03:03:04.095Z",
-      "scrapedAt": "2026-07-23T03:00:45.713Z",
-      "lastUpdated": "2026-07-23T03:03:04.095Z",
+      "processedAt": "2026-07-23T14:12:47.768Z",
+      "scrapedAt": "2026-07-23T14:10:30.334Z",
+      "lastUpdated": "2026-07-23T14:12:47.768Z",
       "version": 1
     },
     {
@@ -117,9 +146,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-23T03:03:04.035Z",
-      "scrapedAt": "2026-07-23T03:00:45.714Z",
-      "lastUpdated": "2026-07-23T03:03:04.035Z",
+      "processedAt": "2026-07-23T14:12:47.676Z",
+      "scrapedAt": "2026-07-23T14:10:30.335Z",
+      "lastUpdated": "2026-07-23T14:12:47.676Z",
       "version": 1
     },
     {
@@ -147,9 +176,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-23T03:03:04.030Z",
-      "scrapedAt": "2026-07-23T03:00:45.715Z",
-      "lastUpdated": "2026-07-23T03:03:04.030Z",
+      "processedAt": "2026-07-23T14:12:47.673Z",
+      "scrapedAt": "2026-07-23T14:10:30.336Z",
+      "lastUpdated": "2026-07-23T14:12:47.673Z",
       "version": 1
     },
     {
@@ -177,9 +206,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-23T03:03:04.029Z",
-      "scrapedAt": "2026-07-23T03:00:45.715Z",
-      "lastUpdated": "2026-07-23T03:03:04.029Z",
+      "processedAt": "2026-07-23T14:12:47.788Z",
+      "scrapedAt": "2026-07-23T14:10:30.337Z",
+      "lastUpdated": "2026-07-23T14:12:47.788Z",
       "version": 1
     },
     {
@@ -207,9 +236,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-23T03:03:04.106Z",
-      "scrapedAt": "2026-07-23T03:00:45.715Z",
-      "lastUpdated": "2026-07-23T03:03:04.106Z",
+      "processedAt": "2026-07-23T14:12:48.874Z",
+      "scrapedAt": "2026-07-23T14:10:30.337Z",
+      "lastUpdated": "2026-07-23T14:12:48.874Z",
       "version": 1
     },
     {
@@ -234,9 +263,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-23T03:03:05.186Z",
-      "scrapedAt": "2026-07-23T03:00:45.715Z",
-      "lastUpdated": "2026-07-23T03:03:05.186Z",
+      "processedAt": "2026-07-23T14:12:48.794Z",
+      "scrapedAt": "2026-07-23T14:10:30.337Z",
+      "lastUpdated": "2026-07-23T14:12:48.794Z",
       "version": 1
     },
     {
@@ -270,45 +299,15 @@
         "or bothA link to a ModelScope Learn article that describes the research question"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-07-23T03:03:05.114Z",
-      "scrapedAt": "2026-07-23T03:00:45.716Z",
-      "lastUpdated": "2026-07-23T03:03:05.114Z",
-      "version": 1
-    },
-    {
-      "id": "c_b0950daeb309",
-      "title": "「亲橙光合」AIGC视频创作大赛作品征集启动！",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/270",
-      "imageUrl": "",
-      "description": "本届大赛由云谷中心主办，呜哩AI、魔搭社区、阿里巴巴亲橙联合主办，并与CDSA国际媒体艺术创意大赛合作。作为亲橙光合青年艺术家计划年度项目，延续\"空间内容供给+生态资源联动\"理念，设\"理想的附近\"\"液态共同体\"双赛道，面向AI创作者及数字艺术爱好者，征集AI视频作品。大赛通过年度盛典与季度打榜持续运营，链接青年创作者，共建AIGC社群生态。\n\n🎨 AI创作者们，准备好了吗？2026「亲橙光合」首届AIGC视频创作大赛正式启动——双赛道：「理想的附近」👣 与「液态共同体」🌊，任你选；双倍福利：投稿即送呜哩AI月卡+30次视频模型体验，获奖再抢5万元总奖池、21个名额，作品登上阿里亲橙商业大屏巡展，还有机会签约「亲橙光合」数字艺术家！本届大赛由云谷中心主办，呜哩AI、魔搭社区、阿里巴巴亲橙联合主办，并与CDSA国际媒体艺术创意大赛合作。作为亲橙光合青年艺术家计划年度项目，延续“空间内容供给+生态资源联动”理念，设“理想的附近”“液态共同体”双赛道，面向AI创作者及数字艺术爱好者，征集AI视频作品。大赛通过年度盛典与季度打榜持续运营，链接青年创作者，共建AIGC社群生态。往下划，一图带你读懂所有参赛细节 👇（包括赛程、奖项、赛道解读、投稿方式、评选标准、参赛权益……全都有）",
-      "summary": "本届大赛由云谷中心主办，呜哩AI、魔搭社区、阿里巴巴亲橙联合主办，并与CDSA国际媒体艺术创意大赛合作。作为亲橙光合青年艺术家计划年度项目，延续\"空间内容供给+生态资源联动\"理念，设\"理想的附近\"\"液态共同体\"双赛道，面向AI创作者及数字艺术爱好者，征集AI视频作品。大赛通过年度盛典与季度打榜持续运营，链接青年创作者，共建AIGC社群生态。\n\n🎨 AI创作者们，准备好了吗？2026「亲橙光合」首...",
-      "contestType": "video",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-08-14T06:00:00.000Z",
-      "prize": "5万元奖池现金奖励+呜哩AI会员+魔搭魔粒值",
-      "tags": [
-        "图片生成",
-        "视频生成赛"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-07-23T03:03:05.111Z",
-      "scrapedAt": "2026-07-23T03:00:45.716Z",
-      "lastUpdated": "2026-07-23T03:03:05.111Z",
+      "processedAt": "2026-07-23T14:12:48.789Z",
+      "scrapedAt": "2026-07-23T14:10:30.339Z",
+      "lastUpdated": "2026-07-23T14:12:48.789Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-07-23T03:03:09.551Z"
+    "lastUpdated": "2026-07-23T14:12:53.341Z"
   }
 }

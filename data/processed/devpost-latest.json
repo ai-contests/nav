@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-07-24T02:58:11.327Z",
+  "timestamp": "2026-07-24T13:55:12.746Z",
   "contestCount": 10,
   "contests": [
     {
@@ -8,14 +8,18 @@
       "title": "Build with Gemini XPRIZE",
       "platform": "devpost",
       "url": "https://xprize.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/original.png",
+      "description": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Ship Deploy a business that operates with AI. Real users in production. 04 Sell Market it. Grow it. Show the revenue. AI is transforming everything, including what small teams can build. Operations that used to take entire engineering departments can now be written in plain English and executed by AI agents. By some estimates, the world’s 45 million software developers will grow to over a billion in the next few years. Everyone will be a developer, and we want to start now, with you. So show us: build a real business that makes real impact.",
+      "summary": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Shi...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-17T20:00:00.000Z",
       "prize": "$2,000,000",
-      "tags": [],
+      "tags": [
+        "Education",
+        "Productivity"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -24,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-24T02:58:02.362Z",
-      "scrapedAt": "2026-07-24T02:56:21.414Z",
-      "lastUpdated": "2026-07-24T02:58:02.362Z",
+      "processedAt": "2026-07-24T13:55:02.936Z",
+      "scrapedAt": "2026-07-24T13:53:03.691Z",
+      "lastUpdated": "2026-07-24T13:55:02.936Z",
       "version": 1
     },
     {
@@ -34,14 +38,18 @@
       "title": "CockroachDB × AWS Hackathon - Build with Agentic Memory",
       "platform": "devpost",
       "url": "https://cockroachdb-ai.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/649/552/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/649/552/datas/original.png",
+      "description": "🪳 CockroachDB × AWS Hackathon: CockroachDB and AWS invite developers, engineers, and AI builders to create the next generation of agentic applications. Harness CockroachDB's distributed AI capabilities, fully managed MCP Server, agent-ready ccloud CLI, open-source Agent Skills Repo, LangChain integrations and Claude/Cursor plugins - all on AWS - to build AI agents with production-grade, persistent memory. Why Agentic Memory? Why Now? AI agents are rapidly moving from experiments into real production workflows, like writing code, running pipelines, diagnosing incidents, and driving more application traffic than any human could. But here's the problem: agents need memory that never goes down. An agent whose memory goes offline doesn't degrade gracefully, it stops. Traditional databases were optimized for human-scale reads and writes. Agentic systems are different: they spawn autonomously, write constantly, and require memory that persists across regions, failures, and scale (with zero data loss and no maintenance windows). CockroachDB was built for exactly this. It is the system of record for agentic memory: globally distributed, always-on, PostgreSQL-compatible, and now natively integrated into the agent toolchain through MCP, cloud, and an open-source skills ecosystem. This hackathon is your invitation to build on that foundation.",
+      "summary": "🪳 CockroachDB × AWS Hackathon: CockroachDB and AWS invite developers, engineers, and AI builders to create the next generation of agentic applications. Harness CockroachDB's distributed AI capabiliti...",
+      "contestType": "code",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-18T21:00:00.000Z",
       "prize": "$8,750",
-      "tags": [],
+      "tags": [
+        "Databases",
+        "DevOps"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -50,9 +58,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-24T02:58:02.504Z",
-      "scrapedAt": "2026-07-24T02:56:21.415Z",
-      "lastUpdated": "2026-07-24T02:58:02.504Z",
+      "processedAt": "2026-07-24T13:55:03.914Z",
+      "scrapedAt": "2026-07-24T13:53:03.692Z",
+      "lastUpdated": "2026-07-24T13:55:03.914Z",
       "version": 1
     },
     {
@@ -60,14 +68,18 @@
       "title": "Build with DataHub: The Agent Hackathon",
       "platform": "devpost",
       "url": "https://datahub.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/821/843/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/821/843/datas/original.png",
+      "description": "Welcome to The Agent Hackathon! Everyone's building AI agents, but the real magic happens when those agents have complete context to act on organizational data. Without reliable knowledge of schemas, lineage, ownership, ML metadata, and governance, agents hallucinate or get stuck on tasks any data engineer could finish in minutes. That's where DataHub comes in. DataHub is the open-source context platform that gives AI agents a complete understanding of your data stack — from raw tables to ML models. With an MCP Server, end-to-end ML lineage, and DataHub Skills that give agents direct access to catalog workflows, DataHub turns the modern data ecosystem into something agents can actually work with. This hackathon is your invitation to build on that foundation. Whether you're shipping autonomous agents, generating production data code, protecting ML models, or building something entirely new — show us what's possible when agents have context. DataHub powers data stacks at Apple, Pinterest, Netflix, and hundreds of other companies. The most adopted open-source metadata platform — and now the one agents need to do real work. Ready to build agents that actually ship? Check out the Resources tab for docs, SDKs, sample datasets, and starter kits. Then start building.",
+      "summary": "Welcome to The Agent Hackathon! Everyone's building AI agents, but the real magic happens when those agents have complete context to act on organizational data. Without reliable knowledge of schemas, ...",
+      "contestType": "text",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-10T21:00:00.000Z",
       "prize": "$20,500",
-      "tags": [],
+      "tags": [
+        "DevOps",
+        "Open Ended"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -76,9 +88,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-24T02:58:03.469Z",
-      "scrapedAt": "2026-07-24T02:56:21.416Z",
-      "lastUpdated": "2026-07-24T02:58:03.469Z",
+      "processedAt": "2026-07-24T13:55:03.808Z",
+      "scrapedAt": "2026-07-24T13:53:03.693Z",
+      "lastUpdated": "2026-07-24T13:55:03.808Z",
       "version": 1
     },
     {
@@ -86,15 +98,17 @@
       "title": "Arm Create: AI Optimization Challenge",
       "platform": "devpost",
       "url": "https://arm-ai-optimization-challenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/715/320/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/715/320/datas/original.png",
+      "description": "Welcome to the Arm AI Optimization Challenge 2026. We’re inviting developers to build and submit projects that show how AI can be optimized for Arm-powered platforms across three challenge tracks: Physical AI: Optimize AI for real-world systems, including robotics, embedded devices, sensors, simulation, autonomy, and edge environments. Cloud AI: Optimize AI for scalable infrastructure, including Arm64 cloud, inference performance, frameworks, agents, and production-ready developer workflows. Mobile AI: Optimize AI for on-device constraints, including performance, privacy, latency, battery efficiency, and local AI experiences on Arm-powered phones, tablets, and laptops. Across all tracks, submissions should show clear optimization work and measurable improvements where possible. Optimizations we will look for: Model size: Reduce size on disk or in memory. Model quality: Improve fine-tuning or output quality for a given model size. Model speed: Improve tokens/sec, time to first token, or other relevant latency metrics. Inference server speed: Improve throughput, latency, tokens/sec, or time to first token. Developer experience: Improve tools, workflows, setup, documentation, or usability. Arm-specific optimization: Implement optimizations in an existing framework, library, model, or application to run better on Arm. Developers can use Arm Performix to get exact benchmarks of their Arm based performance and be able to clearly show their results.",
+      "summary": "Welcome to the Arm AI Optimization Challenge 2026. We’re inviting developers to build and submit projects that show how AI can be optimized for Arm-powered platforms across three challenge tracks: Phy...",
       "contestType": "mixed",
-      "status": "ended",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-14T23:00:00.000Z",
       "prize": "$8,000",
       "tags": [
-        "ai"
+        "Machine Learning",
+        "AI"
       ],
       "aiTools": [
         "Python",
@@ -104,9 +118,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-24T02:58:03.477Z",
-      "scrapedAt": "2026-07-24T02:56:21.416Z",
-      "lastUpdated": "2026-07-24T02:58:03.477Z",
+      "processedAt": "2026-07-24T13:55:03.854Z",
+      "scrapedAt": "2026-07-24T13:53:03.693Z",
+      "lastUpdated": "2026-07-24T13:55:03.854Z",
       "version": 1
     },
     {
@@ -114,14 +128,19 @@
       "title": "Backblaze Generative Media Hackathon: Build with Genblaze on B2",
       "platform": "devpost",
       "url": "https://backblaze-generative-media.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/780/573/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
+      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/780/573/datas/original.png",
+      "description": "About the challenge Create the next generation of AI media apps. The Backblaze Generative AI Media Hackathon challenges developers to build apps for AI-generated video, images, audio, and multimodal media workflows using Backblaze B2 Cloud Storage and Genblaze. Backblaze B2 is S3-compatible cloud object storage that helps generative media apps store and serve large volumes of generated assets, metadata, provenance records, thumbnails, logs, and application files as part of the media pipeline. Start building for free with 10GB of included B2 storage, then scale as your media workloads grow. Genblaze is an open source Python SDK from Backblaze for orchestrating generative media workflows across generative media providers such as GMI Cloud, OpenAI, Google, Decart, Runway, Luma, ElevenLabs, Stability Audio, NVIDIA NIM, and others. GMI Cloud gives developers easy access to open source generative AI models for image, video, audio, chat, reasoning, and multimodal workflows, making it easier to prototype and build AI media applications. Build something useful, creative, and production-minded. Show how AI-generated media can move from prompt to pipeline to durable storage on Backblaze B2. Get started Create a Backblaze B2 account: Backblaze B2 Signup Create a B2 bucket for your generated media, metadata, and app assets. Use the Genblaze SDK and star ⭐ the Genblaze GitHub Repository for examples, updates, and releases. Create a GMI Cloud account and submit the credits request form, if eligible. Use of GMI Cloud is optional, and other cloud providers may be used. Build and submit your generative AI media app on Devpost before the deadline. The first 270 eligible participants will receive GMI Cloud credits to access generative AI and open source models for image, video, audio, chat, reasoning, and multimodal workflows. To provide feedback on the Genblaze SDK, go to the Issues section of the Genblaze repo, click \"New issue,\" and create a Bug report, Feature request, or start with a Blank issue.",
+      "summary": "About the challenge Create the next generation of AI media apps. The Backblaze Generative AI Media Hackathon challenges developers to build apps for AI-generated video, images, audio, and multimodal m...",
+      "contestType": "image",
+      "status": "active",
       "difficulty": "intermediate",
+      "deadline": "2026-08-03T21:00:00.000Z",
       "prize": "$10,000",
-      "tags": [],
+      "tags": [
+        "Music",
+        "Art",
+        "Voice skills"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -130,9 +149,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-24T02:58:03.480Z",
-      "scrapedAt": "2026-07-24T02:56:21.417Z",
-      "lastUpdated": "2026-07-24T02:58:03.480Z",
+      "processedAt": "2026-07-24T13:55:03.841Z",
+      "scrapedAt": "2026-07-24T13:53:03.694Z",
+      "lastUpdated": "2026-07-24T13:55:03.841Z",
       "version": 1
     },
     {
@@ -156,9 +175,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-24T02:58:03.471Z",
-      "scrapedAt": "2026-07-24T02:56:21.420Z",
-      "lastUpdated": "2026-07-24T02:58:03.471Z",
+      "processedAt": "2026-07-24T13:55:04.439Z",
+      "scrapedAt": "2026-07-24T13:53:03.694Z",
+      "lastUpdated": "2026-07-24T13:55:04.439Z",
       "version": 1
     },
     {
@@ -184,9 +203,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-24T02:58:03.524Z",
-      "scrapedAt": "2026-07-24T02:56:21.421Z",
-      "lastUpdated": "2026-07-24T02:58:03.524Z",
+      "processedAt": "2026-07-24T13:55:05.814Z",
+      "scrapedAt": "2026-07-24T13:53:03.695Z",
+      "lastUpdated": "2026-07-24T13:55:05.814Z",
       "version": 1
     },
     {
@@ -210,9 +229,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-24T02:58:04.574Z",
-      "scrapedAt": "2026-07-24T02:56:21.421Z",
-      "lastUpdated": "2026-07-24T02:58:04.574Z",
+      "processedAt": "2026-07-24T13:55:04.989Z",
+      "scrapedAt": "2026-07-24T13:53:03.695Z",
+      "lastUpdated": "2026-07-24T13:55:04.989Z",
       "version": 1
     },
     {
@@ -236,24 +255,26 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-24T02:58:04.510Z",
-      "scrapedAt": "2026-07-24T02:56:21.422Z",
-      "lastUpdated": "2026-07-24T02:58:04.510Z",
+      "processedAt": "2026-07-24T13:55:05.077Z",
+      "scrapedAt": "2026-07-24T13:53:03.696Z",
+      "lastUpdated": "2026-07-24T13:55:05.077Z",
       "version": 1
     },
     {
-      "id": "c_429cc0222ca7",
-      "title": "ML Empowerment Build Challenge 2.0",
+      "id": "c_b58743794ad3",
+      "title": "Prometheus July AI Challenge",
       "platform": "devpost",
-      "url": "https://ml-empowerment-2.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/851/313/datas/medium_square.png",
+      "url": "https://prometheus-july-ai-challenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/829/207/datas/medium_square.png",
       "description": "",
       "summary": "...",
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
-      "prize": "$1,000",
-      "tags": [],
+      "prize": "$1,500",
+      "tags": [
+        "ai"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -262,15 +283,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-24T02:58:04.572Z",
-      "scrapedAt": "2026-07-24T02:56:21.422Z",
-      "lastUpdated": "2026-07-24T02:58:04.572Z",
+      "processedAt": "2026-07-24T13:55:05.013Z",
+      "scrapedAt": "2026-07-24T13:53:03.696Z",
+      "lastUpdated": "2026-07-24T13:55:05.013Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-07-24T02:58:11.327Z"
+    "lastUpdated": "2026-07-24T13:55:12.746Z"
   }
 }

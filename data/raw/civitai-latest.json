@@ -1,8 +1,34 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-07-24T02:57:56.634Z",
-  "contestCount": 1,
+  "timestamp": "2026-07-24T13:54:57.116Z",
+  "contestCount": 2,
   "contests": [
+    {
+      "platform": "civitai",
+      "title": "Ongoing Site Issues",
+      "description": "We’re aware of ongoing site-wide issues affecting core features and causing significant disruption. We understand how frustrating this is, and we’re sorry for the current experience. Currently our image scanner is giving errors so image/video generations and posts will either fail or be invisible to other users. Our team is working to restore full functionality as quickly as possible, and we appreciate your patience while we work through this!",
+      "url": "https://civitai.com/events/747",
+      "prize": "",
+      "rawHtml": "{\"endsAt\":null,\"id\":747,\"title\":\"Ongoing Site Issues\",\"content\":\"We’re aware of ongoing site-wide issues affecting core features and causing significant disruption. We understand how frustrating this is, and we’re sorry for the current experience. Currently our image scanner is giving errors so image/video generations and posts will either fail or be invisible to other users. Our team is working to restore full functionality as quickly as possible, and we appreciate your patience while we work through this!\",\"color\":\"red\",\"emoji\":null,\"createdAt\":\"2026-07-24T05:59:49.660Z\",\"startsAt\":\"2026-07-24T05:57:49.383Z\",\"metadata\":{\"type\":\"site\",\"image\":\"7171bdc6-8007-492c-84ad-f607e4dbd320\",\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-07-24T13:52:40.000Z",
+      "metadata": {
+        "endsAt": null,
+        "id": 747,
+        "title": "Ongoing Site Issues",
+        "content": "We’re aware of ongoing site-wide issues affecting core features and causing significant disruption. We understand how frustrating this is, and we’re sorry for the current experience. Currently our image scanner is giving errors so image/video generations and posts will either fail or be invisible to other users. Our team is working to restore full functionality as quickly as possible, and we appreciate your patience while we work through this!",
+        "color": "red",
+        "emoji": null,
+        "createdAt": "2026-07-24T05:59:49.660Z",
+        "startsAt": "2026-07-24T05:57:49.383Z",
+        "metadata": {
+          "type": "site",
+          "image": "7171bdc6-8007-492c-84ad-f607e4dbd320",
+          "colSpan": 6,
+          "dismissible": true,
+          "targetAudience": "all"
+        }
+      }
+    },
     {
       "platform": "civitai",
       "title": "⚡ Krea 2 Training Contest + 50% Off Training",
@@ -11,7 +37,7 @@
       "deadline": "2026-08-17T23:59:59.999Z",
       "prize": "Enter the Contest",
       "rawHtml": "{\"endsAt\":\"2026-08-17T23:59:59.999Z\",\"id\":746,\"title\":\"⚡ Krea 2 Training Contest + 50% Off Training\",\"content\":\"Krea 2 LoRA training is 50% off, and we're running a Krea 2 Training Contest with 1.8 million Buzz in prizes across four LoRA categories.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-07-23T17:24:52.982Z\",\"startsAt\":\"2026-07-22T00:00:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"5cf63c94-c6eb-4073-b0b2-e31ff831629d\",\"actions\":[{\"link\":\"/articles/32939\",\"type\":\"button\",\"linkText\":\"Enter the Contest\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-07-24T02:55:53.736Z",
+      "scrapedAt": "2026-07-24T13:52:40.000Z",
       "metadata": {
         "endsAt": "2026-08-17T23:59:59.999Z",
         "id": 746,

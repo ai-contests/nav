@@ -1,29 +1,36 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-07-19T03:02:35.208Z",
+  "timestamp": "2026-07-24T02:57:56.634Z",
   "contestCount": 1,
   "contests": [
     {
       "platform": "civitai",
-      "title": "Civitai Red Access Issues",
-      "description": "We're aware of reports affecting access to the civitai.red portion of the platform. We've addressed the core issue but it appears that it's taking longer than expected for the network records to update.",
-      "url": "https://civitai.com/events/745",
-      "deadline": "2026-07-19T23:59:59.999Z",
-      "prize": "",
-      "rawHtml": "{\"endsAt\":\"2026-07-19T23:59:59.999Z\",\"id\":745,\"title\":\"Civitai Red Access Issues\",\"content\":\"We're aware of reports affecting access to the civitai.red portion of the platform. We've addressed the core issue but it appears that it's taking longer than expected for the network records to update.\",\"color\":\"red\",\"emoji\":null,\"createdAt\":\"2026-07-18T16:19:29.051Z\",\"startsAt\":\"2026-07-18T16:17:56.304Z\",\"metadata\":{\"type\":\"site\",\"image\":\"7171bdc6-8007-492c-84ad-f607e4dbd320\",\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-07-19T03:00:35.198Z",
+      "title": "⚡ Krea 2 Training Contest + 50% Off Training",
+      "description": "Krea 2 LoRA training is 50% off, and we're running a Krea 2 Training Contest with 1.8 million Buzz in prizes across four LoRA categories.",
+      "url": "https://civitai.com/events/746",
+      "deadline": "2026-08-17T23:59:59.999Z",
+      "prize": "Enter the Contest",
+      "rawHtml": "{\"endsAt\":\"2026-08-17T23:59:59.999Z\",\"id\":746,\"title\":\"⚡ Krea 2 Training Contest + 50% Off Training\",\"content\":\"Krea 2 LoRA training is 50% off, and we're running a Krea 2 Training Contest with 1.8 million Buzz in prizes across four LoRA categories.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-07-23T17:24:52.982Z\",\"startsAt\":\"2026-07-22T00:00:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"5cf63c94-c6eb-4073-b0b2-e31ff831629d\",\"actions\":[{\"link\":\"/articles/32939\",\"type\":\"button\",\"linkText\":\"Enter the Contest\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-07-24T02:55:53.736Z",
       "metadata": {
-        "endsAt": "2026-07-19T23:59:59.999Z",
-        "id": 745,
-        "title": "Civitai Red Access Issues",
-        "content": "We're aware of reports affecting access to the civitai.red portion of the platform. We've addressed the core issue but it appears that it's taking longer than expected for the network records to update.",
-        "color": "red",
+        "endsAt": "2026-08-17T23:59:59.999Z",
+        "id": 746,
+        "title": "⚡ Krea 2 Training Contest + 50% Off Training",
+        "content": "Krea 2 LoRA training is 50% off, and we're running a Krea 2 Training Contest with 1.8 million Buzz in prizes across four LoRA categories.",
+        "color": "violet",
         "emoji": null,
-        "createdAt": "2026-07-18T16:19:29.051Z",
-        "startsAt": "2026-07-18T16:17:56.304Z",
+        "createdAt": "2026-07-23T17:24:52.982Z",
+        "startsAt": "2026-07-22T00:00:00.000Z",
         "metadata": {
           "type": "site",
-          "image": "7171bdc6-8007-492c-84ad-f607e4dbd320",
+          "image": "5cf63c94-c6eb-4073-b0b2-e31ff831629d",
+          "actions": [
+            {
+              "link": "/articles/32939",
+              "type": "button",
+              "linkText": "Enter the Contest"
+            }
+          ],
           "colSpan": 6,
           "dismissible": true,
           "targetAudience": "all"

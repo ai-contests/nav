@@ -1,6 +1,6 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-07-25T02:56:58.190Z",
+  "timestamp": "2026-07-25T13:45:40.195Z",
   "contestCount": 2,
   "contests": [
     {
@@ -9,8 +9,8 @@
       "platform": "civitai",
       "url": "https://civitai.com/events/748",
       "imageUrl": "",
-      "description": "Civitans! Generation and Training are going to be unstable so we've turned training off and limited some of our ecosystems to members only. Our team is on it, working hard to get things running smoothly again, but you may experience some inconsistent behavior in the meantime. Thanks for your patience!",
-      "summary": "Civitans! Generation and Training are going to be unstable so we've turned training off and limited some of our ecosystems to members only. Our team is on it, working hard to get things running smooth...",
+      "description": "Civitans! Most issues have been resolved! LTX generations and training will have issues, ComfyCloud is also having some issues with outputs. Our team is on it, working hard to get things running smoothly again, but you may experience some inconsistent behavior in the meantime. Thanks for your patience!",
+      "summary": "Civitans! Most issues have been resolved! LTX generations and training will have issues, ComfyCloud is also having some issues with outputs. Our team is on it, working hard to get things running smoot...",
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:49.343Z",
-      "scrapedAt": "2026-07-25T02:54:44.326Z",
-      "lastUpdated": "2026-07-25T02:56:49.343Z",
+      "processedAt": "2026-07-25T13:45:31.326Z",
+      "scrapedAt": "2026-07-25T13:43:24.614Z",
+      "lastUpdated": "2026-07-25T13:45:31.326Z",
       "version": 1
     },
     {
@@ -55,15 +55,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:49.341Z",
-      "scrapedAt": "2026-07-25T02:54:44.326Z",
-      "lastUpdated": "2026-07-25T02:56:49.341Z",
+      "processedAt": "2026-07-25T13:45:31.306Z",
+      "scrapedAt": "2026-07-25T13:43:24.614Z",
+      "lastUpdated": "2026-07-25T13:45:31.306Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-07-25T02:56:58.190Z"
+    "lastUpdated": "2026-07-25T13:45:40.195Z"
   }
 }

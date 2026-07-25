@@ -1,21 +1,21 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-07-25T02:56:43.632Z",
+  "timestamp": "2026-07-25T13:45:25.935Z",
   "contestCount": 2,
   "contests": [
     {
       "platform": "civitai",
       "title": "Generation and Training Limitation",
-      "description": "Civitans! Generation and Training are going to be unstable so we've turned training off and limited some of our ecosystems to members only. Our team is on it, working hard to get things running smoothly again, but you may experience some inconsistent behavior in the meantime. Thanks for your patience!",
+      "description": "Civitans! Most issues have been resolved! LTX generations and training will have issues, ComfyCloud is also having some issues with outputs. Our team is on it, working hard to get things running smoothly again, but you may experience some inconsistent behavior in the meantime. Thanks for your patience!",
       "url": "https://civitai.com/events/748",
       "prize": "",
-      "rawHtml": "{\"endsAt\":null,\"id\":748,\"title\":\"Generation and Training Limitation\",\"content\":\"Civitans! Generation and Training are going to be unstable so we've turned training off and limited some of our ecosystems to members only.  Our team is on it, working hard to get things running smoothly again, but you may experience some inconsistent behavior in the meantime. Thanks for your patience!\",\"color\":\"red\",\"emoji\":null,\"createdAt\":\"2026-07-24T18:40:47.062Z\",\"startsAt\":\"2026-07-24T18:40:43.335Z\",\"metadata\":{\"type\":\"site\",\"image\":\"cbf42b02-2b31-4dcd-b132-d271b7c7bf9d\",\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-07-25T02:54:44.326Z",
+      "rawHtml": "{\"endsAt\":null,\"id\":748,\"title\":\"Generation and Training Limitation\",\"content\":\"Civitans! Most issues have been resolved! LTX generations and training will have issues, ComfyCloud is also having some issues with outputs. Our team is on it, working hard to get things running smoothly again, but you may experience some inconsistent behavior in the meantime. Thanks for your patience!\",\"color\":\"red\",\"emoji\":null,\"createdAt\":\"2026-07-24T18:40:47.062Z\",\"startsAt\":\"2026-07-24T18:40:43.335Z\",\"metadata\":{\"type\":\"site\",\"image\":\"cbf42b02-2b31-4dcd-b132-d271b7c7bf9d\",\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-07-25T13:43:24.614Z",
       "metadata": {
         "endsAt": null,
         "id": 748,
         "title": "Generation and Training Limitation",
-        "content": "Civitans! Generation and Training are going to be unstable so we've turned training off and limited some of our ecosystems to members only.  Our team is on it, working hard to get things running smoothly again, but you may experience some inconsistent behavior in the meantime. Thanks for your patience!",
+        "content": "Civitans! Most issues have been resolved! LTX generations and training will have issues, ComfyCloud is also having some issues with outputs. Our team is on it, working hard to get things running smoothly again, but you may experience some inconsistent behavior in the meantime. Thanks for your patience!",
         "color": "red",
         "emoji": null,
         "createdAt": "2026-07-24T18:40:47.062Z",
@@ -37,7 +37,7 @@
       "deadline": "2026-08-17T23:59:59.999Z",
       "prize": "Enter the Contest",
       "rawHtml": "{\"endsAt\":\"2026-08-17T23:59:59.999Z\",\"id\":746,\"title\":\"⚡ Krea 2 Training Contest + 50% Off Training\",\"content\":\"Krea 2 LoRA training is 50% off, and we're running a Krea 2 Training Contest with 1.8 million Buzz in prizes across four LoRA categories.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-07-23T17:24:52.982Z\",\"startsAt\":\"2026-07-22T00:00:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"5cf63c94-c6eb-4073-b0b2-e31ff831629d\",\"actions\":[{\"link\":\"/articles/32939\",\"type\":\"button\",\"linkText\":\"Enter the Contest\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-07-25T02:54:44.326Z",
+      "scrapedAt": "2026-07-25T13:43:24.614Z",
       "metadata": {
         "endsAt": "2026-08-17T23:59:59.999Z",
         "id": 746,

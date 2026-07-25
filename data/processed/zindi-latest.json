@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-07-25T02:56:58.193Z",
+  "timestamp": "2026-07-25T13:45:40.200Z",
   "contestCount": 20,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-08-03T02:55:39.828Z",
+      "deadline": "2026-08-02T13:44:20.890Z",
       "prize": "$10 000 USD",
       "tags": [],
       "aiTools": [
@@ -25,9 +25,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:53.795Z",
-      "scrapedAt": "2026-07-25T02:55:39.829Z",
-      "lastUpdated": "2026-07-25T02:56:53.795Z",
+      "processedAt": "2026-07-25T13:45:35.799Z",
+      "scrapedAt": "2026-07-25T13:44:20.890Z",
+      "lastUpdated": "2026-07-25T13:45:35.799Z",
       "version": 1
     },
     {
@@ -41,7 +41,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-08-08T02:55:39.829Z",
+      "deadline": "2026-08-07T13:44:20.890Z",
       "tags": [
         "ai"
       ],
@@ -53,9 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:54.892Z",
-      "scrapedAt": "2026-07-25T02:55:39.829Z",
-      "lastUpdated": "2026-07-25T02:56:54.892Z",
+      "processedAt": "2026-07-25T13:45:36.878Z",
+      "scrapedAt": "2026-07-25T13:44:20.890Z",
+      "lastUpdated": "2026-07-25T13:45:36.878Z",
       "version": 1
     },
     {
@@ -79,9 +79,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:54.858Z",
-      "scrapedAt": "2026-07-25T02:55:39.829Z",
-      "lastUpdated": "2026-07-25T02:56:54.858Z",
+      "processedAt": "2026-07-25T13:45:36.804Z",
+      "scrapedAt": "2026-07-25T13:44:20.891Z",
+      "lastUpdated": "2026-07-25T13:45:36.804Z",
       "version": 1
     },
     {
@@ -105,9 +105,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:54.797Z",
-      "scrapedAt": "2026-07-25T02:55:39.830Z",
-      "lastUpdated": "2026-07-25T02:56:54.797Z",
+      "processedAt": "2026-07-25T13:45:36.801Z",
+      "scrapedAt": "2026-07-25T13:44:20.891Z",
+      "lastUpdated": "2026-07-25T13:45:36.801Z",
       "version": 1
     },
     {
@@ -131,9 +131,90 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:54.798Z",
-      "scrapedAt": "2026-07-25T02:55:39.830Z",
-      "lastUpdated": "2026-07-25T02:56:54.798Z",
+      "processedAt": "2026-07-25T13:45:36.799Z",
+      "scrapedAt": "2026-07-25T13:44:20.891Z",
+      "lastUpdated": "2026-07-25T13:45:36.799Z",
+      "version": 1
+    },
+    {
+      "id": "c_d82878c9e72d",
+      "title": "Bootcamp Challenge by Ngao Labs : Recommendation Engine Creation Challenge by Ngao Labs",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/bootcamp-challenge-by-ngao-labs-recommendation-engine-creation-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-07-26T13:44:20.891Z",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-07-25T13:45:36.901Z",
+      "scrapedAt": "2026-07-25T13:44:20.891Z",
+      "lastUpdated": "2026-07-25T13:45:36.901Z",
+      "version": 1
+    },
+    {
+      "id": "c_1168dd98c513",
+      "title": "Cassava AI Root Cause Detective Hackathon",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/cassava-ai-root-cause-detective-hackathon",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-08-01T13:44:20.891Z",
+      "prize": "$2 000 USD",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-07-25T13:45:37.904Z",
+      "scrapedAt": "2026-07-25T13:44:20.891Z",
+      "lastUpdated": "2026-07-25T13:45:37.904Z",
+      "version": 1
+    },
+    {
+      "id": "c_ce80f4cd00a3",
+      "title": "July Study Jam Series: African Credit Scoring Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/july-study-jam-series-african-credit-scoring-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-08-08T13:44:20.891Z",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-07-25T13:45:37.976Z",
+      "scrapedAt": "2026-07-25T13:44:20.891Z",
+      "lastUpdated": "2026-07-25T13:45:37.976Z",
       "version": 1
     },
     {
@@ -156,115 +237,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:54.903Z",
-      "scrapedAt": "2026-07-25T02:55:39.830Z",
-      "lastUpdated": "2026-07-25T02:56:54.903Z",
-      "version": 1
-    },
-    {
-      "id": "c_d82878c9e72d",
-      "title": "Bootcamp Challenge by Ngao Labs : Recommendation Engine Creation Challenge by Ngao Labs",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/bootcamp-challenge-by-ngao-labs-recommendation-engine-creation-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-07-27T02:55:39.830Z",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:55.976Z",
-      "scrapedAt": "2026-07-25T02:55:39.831Z",
-      "lastUpdated": "2026-07-25T02:56:55.976Z",
-      "version": 1
-    },
-    {
-      "id": "c_1168dd98c513",
-      "title": "Cassava AI Root Cause Detective Hackathon",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/cassava-ai-root-cause-detective-hackathon",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-08-02T02:55:39.831Z",
-      "prize": "$2 000 USD",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:55.964Z",
-      "scrapedAt": "2026-07-25T02:55:39.831Z",
-      "lastUpdated": "2026-07-25T02:56:55.964Z",
-      "version": 1
-    },
-    {
-      "id": "c_ce80f4cd00a3",
-      "title": "July Study Jam Series: African Credit Scoring Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/july-study-jam-series-african-credit-scoring-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-08-09T02:55:39.831Z",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:55.907Z",
-      "scrapedAt": "2026-07-25T02:55:39.831Z",
-      "lastUpdated": "2026-07-25T02:56:55.907Z",
-      "version": 1
-    },
-    {
-      "id": "c_45386c4458e0",
-      "title": "Wishlist Hackathon 2026 - Marine Vision Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/wishlist-hackathon-2026-marine-vision-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "image",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:55.991Z",
-      "scrapedAt": "2026-07-25T02:55:39.832Z",
-      "lastUpdated": "2026-07-25T02:56:55.991Z",
+      "processedAt": "2026-07-25T13:45:37.905Z",
+      "scrapedAt": "2026-07-25T13:44:20.891Z",
+      "lastUpdated": "2026-07-25T13:45:37.905Z",
       "version": 1
     },
     {
@@ -288,9 +263,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:56.002Z",
-      "scrapedAt": "2026-07-25T02:55:39.832Z",
-      "lastUpdated": "2026-07-25T02:56:56.002Z",
+      "processedAt": "2026-07-25T13:45:37.963Z",
+      "scrapedAt": "2026-07-25T13:44:20.891Z",
+      "lastUpdated": "2026-07-25T13:45:37.963Z",
       "version": 1
     },
     {
@@ -314,9 +289,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:57.067Z",
-      "scrapedAt": "2026-07-25T02:55:39.832Z",
-      "lastUpdated": "2026-07-25T02:56:57.067Z",
+      "processedAt": "2026-07-25T13:45:38.001Z",
+      "scrapedAt": "2026-07-25T13:44:20.891Z",
+      "lastUpdated": "2026-07-25T13:45:38.001Z",
       "version": 1
     },
     {
@@ -340,9 +315,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:57.059Z",
-      "scrapedAt": "2026-07-25T02:55:39.833Z",
-      "lastUpdated": "2026-07-25T02:56:57.059Z",
+      "processedAt": "2026-07-25T13:45:39.082Z",
+      "scrapedAt": "2026-07-25T13:44:20.892Z",
+      "lastUpdated": "2026-07-25T13:45:39.082Z",
       "version": 1
     },
     {
@@ -366,9 +341,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:57.012Z",
-      "scrapedAt": "2026-07-25T02:55:39.833Z",
-      "lastUpdated": "2026-07-25T02:56:57.012Z",
+      "processedAt": "2026-07-25T13:45:39.081Z",
+      "scrapedAt": "2026-07-25T13:44:20.892Z",
+      "lastUpdated": "2026-07-25T13:45:39.081Z",
       "version": 1
     },
     {
@@ -392,9 +367,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:57.078Z",
-      "scrapedAt": "2026-07-25T02:55:39.833Z",
-      "lastUpdated": "2026-07-25T02:56:57.078Z",
+      "processedAt": "2026-07-25T13:45:39.005Z",
+      "scrapedAt": "2026-07-25T13:44:20.892Z",
+      "lastUpdated": "2026-07-25T13:45:39.005Z",
       "version": 1
     },
     {
@@ -417,9 +392,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:57.088Z",
-      "scrapedAt": "2026-07-25T02:55:39.834Z",
-      "lastUpdated": "2026-07-25T02:56:57.088Z",
+      "processedAt": "2026-07-25T13:45:39.005Z",
+      "scrapedAt": "2026-07-25T13:44:20.892Z",
+      "lastUpdated": "2026-07-25T13:45:39.005Z",
       "version": 1
     },
     {
@@ -443,9 +418,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:58.149Z",
-      "scrapedAt": "2026-07-25T02:55:39.834Z",
-      "lastUpdated": "2026-07-25T02:56:58.149Z",
+      "processedAt": "2026-07-25T13:45:39.191Z",
+      "scrapedAt": "2026-07-25T13:44:20.892Z",
+      "lastUpdated": "2026-07-25T13:45:39.191Z",
       "version": 1
     },
     {
@@ -471,9 +446,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:58.184Z",
-      "scrapedAt": "2026-07-25T02:55:39.834Z",
-      "lastUpdated": "2026-07-25T02:56:58.184Z",
+      "processedAt": "2026-07-25T13:45:40.178Z",
+      "scrapedAt": "2026-07-25T13:44:20.892Z",
+      "lastUpdated": "2026-07-25T13:45:40.178Z",
       "version": 1
     },
     {
@@ -497,9 +472,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:58.090Z",
-      "scrapedAt": "2026-07-25T02:55:39.834Z",
-      "lastUpdated": "2026-07-25T02:56:58.090Z",
+      "processedAt": "2026-07-25T13:45:40.189Z",
+      "scrapedAt": "2026-07-25T13:44:20.892Z",
+      "lastUpdated": "2026-07-25T13:45:40.189Z",
       "version": 1
     },
     {
@@ -523,15 +498,43 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-25T02:56:58.090Z",
-      "scrapedAt": "2026-07-25T02:55:39.835Z",
-      "lastUpdated": "2026-07-25T02:56:58.090Z",
+      "processedAt": "2026-07-25T13:45:40.111Z",
+      "scrapedAt": "2026-07-25T13:44:20.893Z",
+      "lastUpdated": "2026-07-25T13:45:40.111Z",
+      "version": 1
+    },
+    {
+      "id": "c_b8beb8a833ee",
+      "title": "DigiCow Farmer Training Adoption Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/digicow-farmer-training-adoption-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "€8 250 EUR",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-07-25T13:45:40.109Z",
+      "scrapedAt": "2026-07-25T13:44:20.893Z",
+      "lastUpdated": "2026-07-25T13:45:40.109Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-07-25T02:56:58.193Z"
+    "lastUpdated": "2026-07-25T13:45:40.200Z"
   }
 }

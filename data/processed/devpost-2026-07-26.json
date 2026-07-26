@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-07-26T03:21:43.783Z",
+  "timestamp": "2026-07-26T13:34:33.448Z",
   "contestCount": 10,
   "contests": [
     {
@@ -28,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-26T03:21:34.834Z",
-      "scrapedAt": "2026-07-26T03:19:43.455Z",
-      "lastUpdated": "2026-07-26T03:21:34.834Z",
+      "processedAt": "2026-07-26T13:34:24.821Z",
+      "scrapedAt": "2026-07-26T13:32:48.203Z",
+      "lastUpdated": "2026-07-26T13:34:24.821Z",
       "version": 1
     },
     {
@@ -58,9 +58,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-26T03:21:35.838Z",
-      "scrapedAt": "2026-07-26T03:19:43.456Z",
-      "lastUpdated": "2026-07-26T03:21:35.838Z",
+      "processedAt": "2026-07-26T13:34:25.822Z",
+      "scrapedAt": "2026-07-26T13:32:48.204Z",
+      "lastUpdated": "2026-07-26T13:34:25.822Z",
       "version": 1
     },
     {
@@ -88,9 +88,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-26T03:21:35.852Z",
-      "scrapedAt": "2026-07-26T03:19:43.457Z",
-      "lastUpdated": "2026-07-26T03:21:35.852Z",
+      "processedAt": "2026-07-26T13:34:25.819Z",
+      "scrapedAt": "2026-07-26T13:32:48.205Z",
+      "lastUpdated": "2026-07-26T13:34:25.819Z",
       "version": 1
     },
     {
@@ -118,9 +118,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-26T03:21:35.833Z",
-      "scrapedAt": "2026-07-26T03:19:43.458Z",
-      "lastUpdated": "2026-07-26T03:21:35.833Z",
+      "processedAt": "2026-07-26T13:34:25.819Z",
+      "scrapedAt": "2026-07-26T13:32:48.206Z",
+      "lastUpdated": "2026-07-26T13:34:25.819Z",
       "version": 1
     },
     {
@@ -149,9 +149,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-26T03:21:35.764Z",
-      "scrapedAt": "2026-07-26T03:19:43.458Z",
-      "lastUpdated": "2026-07-26T03:21:35.764Z",
+      "processedAt": "2026-07-26T13:34:25.823Z",
+      "scrapedAt": "2026-07-26T13:32:48.207Z",
+      "lastUpdated": "2026-07-26T13:34:25.823Z",
       "version": 1
     },
     {
@@ -159,31 +159,25 @@
       "title": "Africa Deep Tech Challenge 2026",
       "platform": "devpost",
       "url": "https://adtc-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/739/255/datas/original.png",
-      "description": "About the challenge Africa is not excluded from the language model revolution. The bottleneck is no longer research or raw model availability - it is access economics. Cloud-hosted LLMs require API fees, stable fiber, and sustained electricity. For a university student in Lagos, an extension officer in Arusha, or a small-business owner in Dakar, these are not minor frictions - they are blockers. Africa Deep Tech Challenge 2026 (inspired by the Africa AI XPrize) is an engineering-first competition to make useful language-model applications run well on the computers Africans already own: mid- and low-end commodity laptops. We are not building for exotic edge silicon. We are building for the 8 GB laptop with integrated graphics - the machine sitting on millions of desks, in classrooms, clinics, and corner shops across the continent. You could be the one to democratize access to low cost inference for the continent. This is an applied systems engineering contest. Hitting genuinely useful performance on commodity hardware requires optimization across the full stack: model selection and fine-tuning, quantization and compilation, memory and cache management, retrieval-augmented generation over local corpora, and application UX that makes such a model feel responsive. Get started Register on DevPost for the Africa Deep Tech Challenge 2026 Form or join a team of 1 to 3 people and pick your problem domain Clone the submission template Test your model locally by cloning the model profiler. Ensure your model and submission formats are perfectly compatible with the ADTC evaluation pipeline. The local profiler allows you to run latency, throughput, memory, and CPU checks directly on your target hardware. Apply for up to 5 hours of GPU credits courtesy of Udutech to train your model. Check out the rules and submission requirements, then start building!",
-      "summary": "About the challenge Africa is not excluded from the language model revolution. The bottleneck is no longer research or raw model availability - it is access economics. Cloud-hosted LLMs require API fe...",
-      "contestType": "text",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/739/255/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-08-25T06:45:00.000Z",
       "prize": "$16,500",
-      "tags": [
-        "llm",
-        "Productivity"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [
-        "then start building!"
-      ],
+      "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-26T03:21:35.910Z",
-      "scrapedAt": "2026-07-26T03:19:43.459Z",
-      "lastUpdated": "2026-07-26T03:21:35.910Z",
+      "processedAt": "2026-07-26T13:34:25.835Z",
+      "scrapedAt": "2026-07-26T13:32:48.207Z",
+      "lastUpdated": "2026-07-26T13:34:25.835Z",
       "version": 1
     },
     {
@@ -191,19 +185,15 @@
       "title": "YouCam API Skin AI & Apparel VTO Hackathon",
       "platform": "devpost",
       "url": "https://youcam-api.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/868/331/datas/original.png",
-      "description": "Showcase Your Innovations and Shape the Future of Skincare and Apparel Consumer Experience. Builders, developers, and visionaries: it’s time to design solutions that redefine the next generation of consumer experiences. The YouCam API Skin AI & Apparel VTO Hackathon is your launchpad. We’re opening our most advanced, field-tested AI/AR infrastructure so you can move beyond the sandbox and build real products, including agentic AI workflows. We want you to push innovation to its limits by integrating YouCam APIs into your big idea, whether it’s a self-learning styling AI agent, a personalized skin diagnostic tool, or a solution to real user problems. Bring your boldest architectural concepts—and we’ll back them with serious prize money. About the challenge All solutions must integrate at least one YouCam API and demonstrate clear consumer or retail value. Your solution needs to clearly align with whichever topic you choose, both in how it's built and how it's described. Pick the topic that best fits your project and submit: Skin AI People don't wonder about their skin in the abstract, they wonder right before a purchase, right after a bad breakout, right when they're standing in front of a mirror deciding whether something is working. Build something that meets that moment. Use YouCam's Skin AI, alone or combined with other YouCam APIs, to help someone understand their skin and know what to do next. Apparel Virtual Try-On Most online shopping decisions still come down to a guess, will this fit, will this look right, is it worth the return shipping. Build something that replaces that guess with something closer to certainty. Use YouCam's generative Apparel VTO, alone or paired with other YouCam APIs, to help someone make a buying decision with more confidence. Skin AI + Apparel VTO Beauty and fashion decisions rarely happen in isolation, what someone wears and how their skin looks are part of the same self-image. Build something that brings Skin AI and Apparel VTO together into one experience, rather than treating them as two separate features. We want to see what's possible when both capabilities work as one. Why Join Build with YouCam API. Access AI Skin Analysis and generative Apparel Virtual Try-On, the same models powering 800+ global beauty and fashion brands, on a standard REST API that drops into any stack. Get free API units to build, deploy, and demo. Every registered participant receives 1,000 free API units (a $179 value) just for signing up. Win cash, API credits, and real visibility. $5,000 for 1st place, $1,000 for 2nd, and API units for 3rd-5th, plus a feature on the Perfect Corp. blog for standout teams. Get started Register on Devpost. Get your exclusive redeem code by email (2 minutes) Sign up for YouCam API. Click here to sign up and verify your email. (2 minutes) Claim Your Free 1,000 YouCam API Units. Click here and go to Account > Redeem Code > Enter the redeem code (3 minutes) 1,000 API Units will be added to your account immediately.",
-      "summary": "Showcase Your Innovations and Shape the Future of Skincare and Apparel Consumer Experience. Builders, developers, and visionaries: it’s time to design solutions that redefine the next generation of co...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-08-17T15:45:00.000Z",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/868/331/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$6,000",
       "tags": [
-        "AR",
-        "VR",
-        "E-commerce",
-        "Retail"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -213,9 +203,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-26T03:21:36.979Z",
-      "scrapedAt": "2026-07-26T03:19:43.460Z",
-      "lastUpdated": "2026-07-26T03:21:36.979Z",
+      "processedAt": "2026-07-26T13:34:26.904Z",
+      "scrapedAt": "2026-07-26T13:32:48.210Z",
+      "lastUpdated": "2026-07-26T13:34:26.904Z",
       "version": 1
     },
     {
@@ -223,18 +213,14 @@
       "title": "VoltHacks",
       "platform": "devpost",
       "url": "https://volthacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/620/967/datas/original.png",
-      "description": "About the Challenge VoltHacks 2026 is a hackathon focused on building real world solutions using hardware, IoT, and AI. Participants are encouraged to go beyond traditional software projects and create systems that interact with the physical world through sensors, embedded systems, automation, and intelligent devices. Whether you're interested in robotics, smart devices, sustainability, healthcare technology, or open innovation, VoltHacks is designed to push creativity and engineering skills toward solving meaningful problems. Tracks could include: Robotics & Embedded Systems AI + Hardware Integration Smart Health Technology Sustainability & Smart Cities Open Innovation Anything Engineering based with Impact Participants will present their projects to a panel of judges, with awards recognizing innovation, technical complexity, and real world impact. Get Started Register individually or with a team Brainstorm a project idea related to the challenge themes Build your project during the hackathon period Submit your final project on Devpost before the deadline All skill levels are welcome. Whether you're experienced with hardware or just getting started, VoltHacks is meant to be a place to learn, collaborate, and build something meaningful.",
-      "summary": "About the Challenge VoltHacks 2026 is a hackathon focused on building real world solutions using hardware, IoT, and AI. Participants are encouraged to go beyond traditional software projects and creat...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/620/967/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-09-05T21:00:00.000Z",
       "prize": "$32,585",
-      "tags": [
-        "IoT",
-        "Beginner Friendly"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -243,9 +229,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-26T03:21:36.980Z",
-      "scrapedAt": "2026-07-26T03:19:43.460Z",
-      "lastUpdated": "2026-07-26T03:21:36.980Z",
+      "processedAt": "2026-07-26T13:34:26.906Z",
+      "scrapedAt": "2026-07-26T13:32:48.211Z",
+      "lastUpdated": "2026-07-26T13:34:26.906Z",
       "version": 1
     },
     {
@@ -253,19 +239,14 @@
       "title": "3D Websites Hackathon",
       "platform": "devpost",
       "url": "https://3d-websites-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/799/053/datas/original.png",
-      "description": "3D Websites Hackathon Welcome to the 3D Websites Hackathon. This competition is all about creativity, aesthetics, and building unforgettable experiences on the web. Your challenge is to create the most visually stunning, immersive, and imaginative 3D website possible. There are no restrictions on theme, industry, or purpose. Build a futuristic city, a digital art gallery, an interactive story, a sci-fi experience, a fantasy world, a product showcase, a game-like website, or something nobody has ever seen before. This hackathon is beginner-friendly and open to anyone interested in web design, 3D graphics, digital art, UI/UX, creative coding, and interactive experiences. What Makes This Hackathon Different? Most hackathons focus on solving problems. This one focuses on creating wonder. We are looking for projects that make people stop scrolling and say: \"Wow.\" Freedom to Create Participants may use: • AI tools and assistants• Online assets and models• Open-source libraries• Three.js, React Three Fiber, Babylon.js, WebGL, WebGPU, Spline, Blender, and other tools• Tutorials and learning resources The judging is based primarily on creativity, aesthetics, and overall experience. Technical complexity is optional. A beautiful and creative project can outperform a highly technical one.",
-      "summary": "3D Websites Hackathon Welcome to the 3D Websites Hackathon. This competition is all about creativity, aesthetics, and building unforgettable experiences on the web. Your challenge is to create the mos...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/799/053/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
-      "difficulty": "beginner",
-      "deadline": "2026-07-31T22:00:00.000Z",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$55",
-      "tags": [
-        "Design",
-        "Web",
-        "Beginner Friendly"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -274,9 +255,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-26T03:21:36.979Z",
-      "scrapedAt": "2026-07-26T03:19:43.460Z",
-      "lastUpdated": "2026-07-26T03:21:36.979Z",
+      "processedAt": "2026-07-26T13:34:26.839Z",
+      "scrapedAt": "2026-07-26T13:32:48.211Z",
+      "lastUpdated": "2026-07-26T13:34:26.839Z",
       "version": 1
     },
     {
@@ -284,17 +265,15 @@
       "title": "Prometheus July AI Challenge",
       "platform": "devpost",
       "url": "https://prometheus-july-ai-challenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/829/207/datas/original.png",
-      "description": "About the challenge Welcome to the July AI Challenge, a premier virtual hackathon designed for the next generation of innovators, developers, and creators. This month, we are pushing the boundaries of artificial intelligence to solve real-world problems. Whether you are an AI enthusiast, a seasoned data scientist, or a creative designer, this challenge is a great opportunity to build, collaborate, and showcase your skills on a global stage. Get started Step 1: Click the \"Sign Up\" button to create your hacker profile and secure your spot in the challenge. Make sure to fill out this form: https://forms.gle/DL7ye47iHE84rHQ2A Step 2: Browse our official community channels to find teammates, or enter solo if you prefer to build alone. Teams can be up to 4 members. Step 3: You have until July 30th to design, code, and submit a working prototype along with a 2-minute video demonstration.",
-      "summary": "About the challenge Welcome to the July AI Challenge, a premier virtual hackathon designed for the next generation of innovators, developers, and creators. This month, we are pushing the boundaries of...",
-      "contestType": "video",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/829/207/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-07-31T03:45:00.000Z",
       "prize": "$1,500",
       "tags": [
-        "Beginner Friendly",
-        "Design"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -304,15 +283,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-26T03:21:36.916Z",
-      "scrapedAt": "2026-07-26T03:19:43.461Z",
-      "lastUpdated": "2026-07-26T03:21:36.916Z",
+      "processedAt": "2026-07-26T13:34:26.838Z",
+      "scrapedAt": "2026-07-26T13:32:48.212Z",
+      "lastUpdated": "2026-07-26T13:34:26.838Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-07-26T03:21:43.783Z"
+    "lastUpdated": "2026-07-26T13:34:33.448Z"
   }
 }

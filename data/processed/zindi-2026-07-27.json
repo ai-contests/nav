@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-07-27T03:31:31.538Z",
+  "timestamp": "2026-07-27T14:47:05.745Z",
   "contestCount": 20,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-08-03T03:30:13.222Z",
+      "deadline": "2026-08-02T14:45:47.030Z",
       "prize": "$10 000 USD",
       "tags": [],
       "aiTools": [
@@ -25,9 +25,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:27.074Z",
-      "scrapedAt": "2026-07-27T03:30:13.222Z",
-      "lastUpdated": "2026-07-27T03:31:27.074Z",
+      "processedAt": "2026-07-27T14:47:01.217Z",
+      "scrapedAt": "2026-07-27T14:45:47.031Z",
+      "lastUpdated": "2026-07-27T14:47:01.217Z",
       "version": 1
     },
     {
@@ -41,7 +41,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-08-08T03:30:13.222Z",
+      "deadline": "2026-08-07T14:45:47.031Z",
       "tags": [
         "ai"
       ],
@@ -53,9 +53,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:27.152Z",
-      "scrapedAt": "2026-07-27T03:30:13.223Z",
-      "lastUpdated": "2026-07-27T03:31:27.152Z",
+      "processedAt": "2026-07-27T14:47:01.326Z",
+      "scrapedAt": "2026-07-27T14:45:47.031Z",
+      "lastUpdated": "2026-07-27T14:47:01.326Z",
       "version": 1
     },
     {
@@ -79,9 +79,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:28.241Z",
-      "scrapedAt": "2026-07-27T03:30:13.223Z",
-      "lastUpdated": "2026-07-27T03:31:28.241Z",
+      "processedAt": "2026-07-27T14:47:02.410Z",
+      "scrapedAt": "2026-07-27T14:45:47.031Z",
+      "lastUpdated": "2026-07-27T14:47:02.410Z",
       "version": 1
     },
     {
@@ -105,9 +105,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:28.248Z",
-      "scrapedAt": "2026-07-27T03:30:13.223Z",
-      "lastUpdated": "2026-07-27T03:31:28.248Z",
+      "processedAt": "2026-07-27T14:47:02.322Z",
+      "scrapedAt": "2026-07-27T14:45:47.031Z",
+      "lastUpdated": "2026-07-27T14:47:02.322Z",
       "version": 1
     },
     {
@@ -131,9 +131,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:28.154Z",
-      "scrapedAt": "2026-07-27T03:30:13.224Z",
-      "lastUpdated": "2026-07-27T03:31:28.154Z",
+      "processedAt": "2026-07-27T14:47:02.333Z",
+      "scrapedAt": "2026-07-27T14:45:47.032Z",
+      "lastUpdated": "2026-07-27T14:47:02.333Z",
       "version": 1
     },
     {
@@ -147,7 +147,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-08-02T03:30:13.224Z",
+      "deadline": "2026-08-01T14:45:47.032Z",
       "prize": "$2 000 USD",
       "tags": [
         "ai"
@@ -160,9 +160,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:28.155Z",
-      "scrapedAt": "2026-07-27T03:30:13.224Z",
-      "lastUpdated": "2026-07-27T03:31:28.155Z",
+      "processedAt": "2026-07-27T14:47:02.329Z",
+      "scrapedAt": "2026-07-27T14:45:47.032Z",
+      "lastUpdated": "2026-07-27T14:47:02.329Z",
+      "version": 1
+    },
+    {
+      "id": "c_d82878c9e72d",
+      "title": "Bootcamp Challenge by Ngao Labs : Recommendation Engine Creation Challenge by Ngao Labs",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/bootcamp-challenge-by-ngao-labs-recommendation-engine-creation-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-08-02T14:45:47.032Z",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-07-27T14:47:02.437Z",
+      "scrapedAt": "2026-07-27T14:45:47.032Z",
+      "lastUpdated": "2026-07-27T14:47:02.437Z",
       "version": 1
     },
     {
@@ -176,7 +202,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-08-09T03:30:13.224Z",
+      "deadline": "2026-08-08T14:45:47.032Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -186,9 +212,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:28.258Z",
-      "scrapedAt": "2026-07-27T03:30:13.224Z",
-      "lastUpdated": "2026-07-27T03:31:28.258Z",
+      "processedAt": "2026-07-27T14:47:03.511Z",
+      "scrapedAt": "2026-07-27T14:45:47.032Z",
+      "lastUpdated": "2026-07-27T14:47:03.512Z",
       "version": 1
     },
     {
@@ -212,9 +238,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:29.260Z",
-      "scrapedAt": "2026-07-27T03:30:13.224Z",
-      "lastUpdated": "2026-07-27T03:31:29.260Z",
+      "processedAt": "2026-07-27T14:47:03.450Z",
+      "scrapedAt": "2026-07-27T14:45:47.032Z",
+      "lastUpdated": "2026-07-27T14:47:03.450Z",
       "version": 1
     },
     {
@@ -238,9 +264,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:29.260Z",
-      "scrapedAt": "2026-07-27T03:30:13.224Z",
-      "lastUpdated": "2026-07-27T03:31:29.260Z",
+      "processedAt": "2026-07-27T14:47:03.442Z",
+      "scrapedAt": "2026-07-27T14:45:47.033Z",
+      "lastUpdated": "2026-07-27T14:47:03.442Z",
       "version": 1
     },
     {
@@ -264,9 +290,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:29.330Z",
-      "scrapedAt": "2026-07-27T03:30:13.225Z",
-      "lastUpdated": "2026-07-27T03:31:29.330Z",
+      "processedAt": "2026-07-27T14:47:03.448Z",
+      "scrapedAt": "2026-07-27T14:45:47.033Z",
+      "lastUpdated": "2026-07-27T14:47:03.448Z",
       "version": 1
     },
     {
@@ -290,9 +316,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:29.332Z",
-      "scrapedAt": "2026-07-27T03:30:13.225Z",
-      "lastUpdated": "2026-07-27T03:31:29.332Z",
+      "processedAt": "2026-07-27T14:47:03.540Z",
+      "scrapedAt": "2026-07-27T14:45:47.034Z",
+      "lastUpdated": "2026-07-27T14:47:03.540Z",
       "version": 1
     },
     {
@@ -316,9 +342,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:29.344Z",
-      "scrapedAt": "2026-07-27T03:30:13.226Z",
-      "lastUpdated": "2026-07-27T03:31:29.344Z",
+      "processedAt": "2026-07-27T14:47:04.612Z",
+      "scrapedAt": "2026-07-27T14:45:47.034Z",
+      "lastUpdated": "2026-07-27T14:47:04.612Z",
       "version": 1
     },
     {
@@ -341,9 +367,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:30.438Z",
-      "scrapedAt": "2026-07-27T03:30:13.226Z",
-      "lastUpdated": "2026-07-27T03:31:30.438Z",
+      "processedAt": "2026-07-27T14:47:04.581Z",
+      "scrapedAt": "2026-07-27T14:45:47.034Z",
+      "lastUpdated": "2026-07-27T14:47:04.581Z",
       "version": 1
     },
     {
@@ -367,9 +393,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:30.345Z",
-      "scrapedAt": "2026-07-27T03:30:13.226Z",
-      "lastUpdated": "2026-07-27T03:31:30.345Z",
+      "processedAt": "2026-07-27T14:47:04.630Z",
+      "scrapedAt": "2026-07-27T14:45:47.035Z",
+      "lastUpdated": "2026-07-27T14:47:04.630Z",
       "version": 1
     },
     {
@@ -395,9 +421,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:30.426Z",
-      "scrapedAt": "2026-07-27T03:30:13.226Z",
-      "lastUpdated": "2026-07-27T03:31:30.426Z",
+      "processedAt": "2026-07-27T14:47:04.546Z",
+      "scrapedAt": "2026-07-27T14:45:47.035Z",
+      "lastUpdated": "2026-07-27T14:47:04.546Z",
       "version": 1
     },
     {
@@ -421,9 +447,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:30.345Z",
-      "scrapedAt": "2026-07-27T03:30:13.227Z",
-      "lastUpdated": "2026-07-27T03:31:30.345Z",
+      "processedAt": "2026-07-27T14:47:04.658Z",
+      "scrapedAt": "2026-07-27T14:45:47.035Z",
+      "lastUpdated": "2026-07-27T14:47:04.658Z",
       "version": 1
     },
     {
@@ -447,35 +473,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:30.450Z",
-      "scrapedAt": "2026-07-27T03:30:13.227Z",
-      "lastUpdated": "2026-07-27T03:31:30.450Z",
-      "version": 1
-    },
-    {
-      "id": "c_6f9040f8220a",
-      "title": "Unido AfricaRice App Builder Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/unido-africarice-app-builder-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$5 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:31.463Z",
-      "scrapedAt": "2026-07-27T03:30:13.227Z",
-      "lastUpdated": "2026-07-27T03:31:31.463Z",
+      "processedAt": "2026-07-27T14:47:05.687Z",
+      "scrapedAt": "2026-07-27T14:45:47.035Z",
+      "lastUpdated": "2026-07-27T14:47:05.687Z",
       "version": 1
     },
     {
@@ -501,16 +501,16 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:31.531Z",
-      "scrapedAt": "2026-07-27T03:30:13.230Z",
-      "lastUpdated": "2026-07-27T03:31:31.531Z",
+      "processedAt": "2026-07-27T14:47:05.733Z",
+      "scrapedAt": "2026-07-27T14:45:47.036Z",
+      "lastUpdated": "2026-07-27T14:47:05.733Z",
       "version": 1
     },
     {
-      "id": "c_d22f37bfbffa",
-      "title": "UNIDO AfricaRice Quality Assessment Challenge",
+      "id": "c_6f9040f8220a",
+      "title": "Unido AfricaRice App Builder Challenge",
       "platform": "zindi",
-      "url": "https://zindi.africa/competitions/unido-africarice-quality-assessment-challenge",
+      "url": "https://zindi.africa/competitions/unido-africarice-app-builder-challenge",
       "imageUrl": "",
       "description": "",
       "summary": "undefined...",
@@ -527,15 +527,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-27T03:31:31.520Z",
-      "scrapedAt": "2026-07-27T03:30:13.230Z",
-      "lastUpdated": "2026-07-27T03:31:31.520Z",
+      "processedAt": "2026-07-27T14:47:05.665Z",
+      "scrapedAt": "2026-07-27T14:45:47.036Z",
+      "lastUpdated": "2026-07-27T14:47:05.665Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-07-27T03:31:31.538Z"
+    "lastUpdated": "2026-07-27T14:47:05.745Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-07-28T02:49:29.669Z",
+  "timestamp": "2026-07-28T14:18:37.840Z",
   "contestCount": 10,
   "contests": [
     {
@@ -8,18 +8,14 @@
       "title": "Build with Gemini XPRIZE",
       "platform": "devpost",
       "url": "https://xprize.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/original.png",
-      "description": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Ship Deploy a business that operates with AI. Real users in production. 04 Sell Market it. Grow it. Show the revenue. AI is transforming everything, including what small teams can build. Operations that used to take entire engineering departments can now be written in plain English and executed by AI agents. By some estimates, the world’s 45 million software developers will grow to over a billion in the next few years. Everyone will be a developer, and we want to start now, with you. So show us: build a real business that makes real impact.",
-      "summary": "90 days. Ideate. Build. Ship. Grow. Real product. Real revenue. A real business. 01 Ideate Pick a real problem worth solving. AI helps you scope it. 02 Build Build a working prototype using AI. 03 Shi...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/686/462/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-08-17T20:00:00.000Z",
       "prize": "$2,000,000",
-      "tags": [
-        "Education",
-        "Productivity"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -28,9 +24,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-28T02:49:20.486Z",
-      "scrapedAt": "2026-07-28T02:47:38.838Z",
-      "lastUpdated": "2026-07-28T02:49:20.486Z",
+      "processedAt": "2026-07-28T14:18:29.002Z",
+      "scrapedAt": "2026-07-28T14:16:50.877Z",
+      "lastUpdated": "2026-07-28T14:18:29.002Z",
       "version": 1
     },
     {
@@ -38,17 +34,15 @@
       "title": "Arm Create: AI Optimization Challenge",
       "platform": "devpost",
       "url": "https://arm-ai-optimization-challenge.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/715/320/datas/original.png",
-      "description": "Welcome to the Arm AI Optimization Challenge 2026. We’re inviting developers to build and submit projects that show how AI can be optimized for Arm-powered platforms across three challenge tracks: Physical AI: Optimize AI for real-world systems, including robotics, embedded devices, sensors, simulation, autonomy, and edge environments. Cloud AI: Optimize AI for scalable infrastructure, including Arm64 cloud, inference performance, frameworks, agents, and production-ready developer workflows. Mobile AI: Optimize AI for on-device constraints, including performance, privacy, latency, battery efficiency, and local AI experiences on Arm-powered phones, tablets, and laptops. Across all tracks, submissions should show clear optimization work and measurable improvements where possible. Optimizations we will look for: Model size: Reduce size on disk or in memory. Model quality: Improve fine-tuning or output quality for a given model size. Model speed: Improve tokens/sec, time to first token, or other relevant latency metrics. Inference server speed: Improve throughput, latency, tokens/sec, or time to first token. Developer experience: Improve tools, workflows, setup, documentation, or usability. Arm-specific optimization: Implement optimizations in an existing framework, library, model, or application to run better on Arm. Developers can use Arm Performix to get exact benchmarks of their Arm based performance and be able to clearly show their results.",
-      "summary": "Welcome to the Arm AI Optimization Challenge 2026. We’re inviting developers to build and submit projects that show how AI can be optimized for Arm-powered platforms across three challenge tracks: Phy...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/715/320/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-08-14T23:00:00.000Z",
       "prize": "$8,000",
       "tags": [
-        "Machine Learning",
-        "AI"
+        "ai"
       ],
       "aiTools": [
         "Python",
@@ -58,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-28T02:49:21.483Z",
-      "scrapedAt": "2026-07-28T02:47:38.839Z",
-      "lastUpdated": "2026-07-28T02:49:21.483Z",
+      "processedAt": "2026-07-28T14:18:29.992Z",
+      "scrapedAt": "2026-07-28T14:16:50.878Z",
+      "lastUpdated": "2026-07-28T14:18:29.992Z",
       "version": 1
     },
     {
@@ -68,18 +62,14 @@
       "title": "CockroachDB × AWS Hackathon - Build with Agentic Memory",
       "platform": "devpost",
       "url": "https://cockroachdb-ai.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/649/552/datas/original.png",
-      "description": "🪳 CockroachDB × AWS Hackathon: CockroachDB and AWS invite developers, engineers, and AI builders to create the next generation of agentic applications. Harness CockroachDB's distributed AI capabilities, fully managed MCP Server, agent-ready ccloud CLI, open-source Agent Skills Repo, LangChain integrations and Claude/Cursor plugins - all on AWS - to build AI agents with production-grade, persistent memory. Why Agentic Memory? Why Now? AI agents are rapidly moving from experiments into real production workflows, like writing code, running pipelines, diagnosing incidents, and driving more application traffic than any human could. But here's the problem: agents need memory that never goes down. An agent whose memory goes offline doesn't degrade gracefully, it stops. Traditional databases were optimized for human-scale reads and writes. Agentic systems are different: they spawn autonomously, write constantly, and require memory that persists across regions, failures, and scale (with zero data loss and no maintenance windows). CockroachDB was built for exactly this. It is the system of record for agentic memory: globally distributed, always-on, PostgreSQL-compatible, and now natively integrated into the agent toolchain through MCP, cloud, and an open-source skills ecosystem. This hackathon is your invitation to build on that foundation.",
-      "summary": "🪳 CockroachDB × AWS Hackathon: CockroachDB and AWS invite developers, engineers, and AI builders to create the next generation of agentic applications. Harness CockroachDB's distributed AI capabiliti...",
-      "contestType": "code",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/649/552/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-08-18T21:00:00.000Z",
       "prize": "$8,750",
-      "tags": [
-        "Databases",
-        "DevOps"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -88,9 +78,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-28T02:49:21.486Z",
-      "scrapedAt": "2026-07-28T02:47:38.841Z",
-      "lastUpdated": "2026-07-28T02:49:21.486Z",
+      "processedAt": "2026-07-28T14:18:29.994Z",
+      "scrapedAt": "2026-07-28T14:16:50.879Z",
+      "lastUpdated": "2026-07-28T14:18:29.994Z",
       "version": 1
     },
     {
@@ -98,18 +88,14 @@
       "title": "Build with DataHub: The Agent Hackathon",
       "platform": "devpost",
       "url": "https://datahub.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/821/843/datas/original.png",
-      "description": "Welcome to The Agent Hackathon! Everyone's building AI agents, but the real magic happens when those agents have complete context to act on organizational data. Without reliable knowledge of schemas, lineage, ownership, ML metadata, and governance, agents hallucinate or get stuck on tasks any data engineer could finish in minutes. That's where DataHub comes in. DataHub is the open-source context platform that gives AI agents a complete understanding of your data stack — from raw tables to ML models. With an MCP Server, end-to-end ML lineage, and DataHub Skills that give agents direct access to catalog workflows, DataHub turns the modern data ecosystem into something agents can actually work with. This hackathon is your invitation to build on that foundation. Whether you're shipping autonomous agents, generating production data code, protecting ML models, or building something entirely new — show us what's possible when agents have context. DataHub powers data stacks at Apple, Pinterest, Netflix, and hundreds of other companies. The most adopted open-source metadata platform — and now the one agents need to do real work. Ready to build agents that actually ship? Check out the Resources tab for docs, SDKs, sample datasets, and starter kits. Then start building.",
-      "summary": "Welcome to The Agent Hackathon! Everyone's building AI agents, but the real magic happens when those agents have complete context to act on organizational data. Without reliable knowledge of schemas, ...",
-      "contestType": "text",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/821/843/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-08-10T21:00:00.000Z",
       "prize": "$20,500",
-      "tags": [
-        "DevOps",
-        "Open Ended"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -118,9 +104,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-28T02:49:21.471Z",
-      "scrapedAt": "2026-07-28T02:47:38.842Z",
-      "lastUpdated": "2026-07-28T02:49:21.471Z",
+      "processedAt": "2026-07-28T14:18:30.025Z",
+      "scrapedAt": "2026-07-28T14:16:50.880Z",
+      "lastUpdated": "2026-07-28T14:18:30.025Z",
       "version": 1
     },
     {
@@ -128,18 +114,14 @@
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "platform": "devpost",
       "url": "https://agentic-cinema.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/901/608/datas/original.jpg",
-      "description": "🎬 Lights. Camera. Code. Calling all ecosystem architects and autonomous builders! Step onto the studio lot and transform real-world enterprise chaos into a seamless cinematic production with Gemini. Join Google Cloud and our elite, star-studded partner ecosystem for a first-of-its-kind Summer Blockbuster hackathon! In the era of Agentic AI, writing raw lines of code is just the background noise. The real magic happens when you orchestrate the system. Whether you want to play the visionary Director building production-ready autonomous agent networks, the Technical Producer connecting secure data pipelines via managed MCP servers, or the Studio Head enforcing Cloud IAM security and governance across multi-agent workflows—the backlot is yours. Vibe code with Gemini Enterprise and our leading partner technologies to cast the perfect enterprise tech stack and build the next generation of AI applications fit for the big screen. 🌟 Why Join? Direct Your AI Crew: Get hands-on with Gemini Enterprise Agent Platform and cutting-edge partner tools to transition your local ideas into production-scale architectures. Walk the Red Carpet: Pitch your automated production workflows directly to executive judges, enterprise experts, and elite engineering leaders. 🏆 The Box Office Prizes There are three identical prize buckets—one for each of our featured partner tracks. Instead of a single, crowded pool, you are competing directly within the specific \"studio track\" of your chosen partner technology. How to Secure the Greenlight: Cast Your Co-Star: Choose the partner platform that holds the data or application workflows your agent needs to interact with. Build with Gemini Enterprise: Build your agentic workflow on Google Cloud using the Gemini Enterprise Agent Platform. Connect to your partner tool using robust enterprise pipelines, API frameworks, or managed protocol adapters. Dominate Your Track: Show off a deterministic, multi-step agent that solves enterprise friction. You will be judged exclusively against other builders inside your chosen partner track.",
-      "summary": "🎬 Lights. Camera. Code. Calling all ecosystem architects and autonomous builders! Step onto the studio lot and transform real-world enterprise chaos into a seamless cinematic production with Gemini. ...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-09-07T21:00:00.000Z",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/901/608/datas/medium_square.jpg",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$10,000",
-      "tags": [
-        "Databases",
-        "Open Ended"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -148,9 +130,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-28T02:49:21.473Z",
-      "scrapedAt": "2026-07-28T02:47:38.842Z",
-      "lastUpdated": "2026-07-28T02:49:21.473Z",
+      "processedAt": "2026-07-28T14:18:30.039Z",
+      "scrapedAt": "2026-07-28T14:16:50.881Z",
+      "lastUpdated": "2026-07-28T14:18:30.039Z",
       "version": 1
     },
     {
@@ -176,9 +158,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-28T02:49:21.564Z",
-      "scrapedAt": "2026-07-28T02:47:38.845Z",
-      "lastUpdated": "2026-07-28T02:49:21.564Z",
+      "processedAt": "2026-07-28T14:18:30.143Z",
+      "scrapedAt": "2026-07-28T14:16:50.884Z",
+      "lastUpdated": "2026-07-28T14:18:30.143Z",
       "version": 1
     },
     {
@@ -202,9 +184,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-28T02:49:22.649Z",
-      "scrapedAt": "2026-07-28T02:47:38.846Z",
-      "lastUpdated": "2026-07-28T02:49:22.649Z",
+      "processedAt": "2026-07-28T14:18:31.161Z",
+      "scrapedAt": "2026-07-28T14:16:50.884Z",
+      "lastUpdated": "2026-07-28T14:18:31.161Z",
       "version": 1
     },
     {
@@ -228,9 +210,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-28T02:49:22.653Z",
-      "scrapedAt": "2026-07-28T02:47:38.846Z",
-      "lastUpdated": "2026-07-28T02:49:22.653Z",
+      "processedAt": "2026-07-28T14:18:31.154Z",
+      "scrapedAt": "2026-07-28T14:16:50.885Z",
+      "lastUpdated": "2026-07-28T14:18:31.154Z",
       "version": 1
     },
     {
@@ -254,9 +236,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-28T02:49:22.572Z",
-      "scrapedAt": "2026-07-28T02:47:38.847Z",
-      "lastUpdated": "2026-07-28T02:49:22.572Z",
+      "processedAt": "2026-07-28T14:18:31.144Z",
+      "scrapedAt": "2026-07-28T14:16:50.885Z",
+      "lastUpdated": "2026-07-28T14:18:31.144Z",
       "version": 1
     },
     {
@@ -280,15 +262,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-07-28T02:49:22.652Z",
-      "scrapedAt": "2026-07-28T02:47:38.847Z",
-      "lastUpdated": "2026-07-28T02:49:22.652Z",
+      "processedAt": "2026-07-28T14:18:31.138Z",
+      "scrapedAt": "2026-07-28T14:16:50.886Z",
+      "lastUpdated": "2026-07-28T14:18:31.138Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-07-28T02:49:29.669Z"
+    "lastUpdated": "2026-07-28T14:18:37.840Z"
   }
 }

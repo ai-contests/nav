@@ -1,35 +1,8 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-07-28T14:18:23.174Z",
-  "contestCount": 2,
+  "timestamp": "2026-07-29T02:56:10.807Z",
+  "contestCount": 1,
   "contests": [
-    {
-      "platform": "civitai",
-      "title": "July 5th Compensation",
-      "description": "We had an outage July 5th where users were not compensated, a fix has gone out.",
-      "url": "https://civitai.com/events/749",
-      "deadline": "2026-07-28T23:59:59.999Z",
-      "prize": "",
-      "rawHtml": "{\"endsAt\":\"2026-07-28T23:59:59.999Z\",\"id\":749,\"title\":\"July 5th Compensation\",\"content\":\"We had an outage July 5th where users were not compensated, a fix has gone out.\",\"color\":\"green\",\"emoji\":null,\"createdAt\":\"2026-07-27T19:42:20.829Z\",\"startsAt\":\"2026-07-27T19:41:04.158Z\",\"metadata\":{\"type\":\"site\",\"image\":\"6efd415f-9555-4089-82c6-5c15a5fc7beb\",\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-07-28T14:16:24.212Z",
-      "metadata": {
-        "endsAt": "2026-07-28T23:59:59.999Z",
-        "id": 749,
-        "title": "July 5th Compensation",
-        "content": "We had an outage July 5th where users were not compensated, a fix has gone out.",
-        "color": "green",
-        "emoji": null,
-        "createdAt": "2026-07-27T19:42:20.829Z",
-        "startsAt": "2026-07-27T19:41:04.158Z",
-        "metadata": {
-          "type": "site",
-          "image": "6efd415f-9555-4089-82c6-5c15a5fc7beb",
-          "colSpan": 6,
-          "dismissible": true,
-          "targetAudience": "all"
-        }
-      }
-    },
     {
       "platform": "civitai",
       "title": "⚡ Krea 2 Training Contest + 50% Off Training",
@@ -38,7 +11,7 @@
       "deadline": "2026-08-17T23:59:59.999Z",
       "prize": "Enter the Contest",
       "rawHtml": "{\"endsAt\":\"2026-08-17T23:59:59.999Z\",\"id\":746,\"title\":\"⚡ Krea 2 Training Contest + 50% Off Training\",\"content\":\"Krea 2 LoRA training is 50% off, and we're running a Krea 2 Training Contest with 1.8 million Buzz in prizes across four LoRA categories.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-07-23T17:24:52.982Z\",\"startsAt\":\"2026-07-22T00:00:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"5cf63c94-c6eb-4073-b0b2-e31ff831629d\",\"actions\":[{\"link\":\"/articles/32939\",\"type\":\"button\",\"linkText\":\"Enter the Contest\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-07-28T14:16:24.212Z",
+      "scrapedAt": "2026-07-29T02:54:09.994Z",
       "metadata": {
         "endsAt": "2026-08-17T23:59:59.999Z",
         "id": 746,

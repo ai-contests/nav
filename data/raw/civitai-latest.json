@@ -1,8 +1,41 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-07-30T14:13:48.297Z",
+  "timestamp": "2026-07-31T03:22:20.110Z",
   "contestCount": 2,
   "contests": [
+    {
+      "platform": "civitai",
+      "title": "The 2026 Creator Program",
+      "description": "Set your own prices, sell access to your models, run your own shop, and see everything you earn in the new Creator Studio. Here's the 2026 Creator Program, in full.",
+      "url": "https://civitai.com/events/751",
+      "prize": "2026",
+      "rawHtml": "{\"endsAt\":null,\"id\":751,\"title\":\"The 2026 Creator Program\",\"content\":\"Set your own prices, sell access to your models, run your own shop, and see everything you earn in the new Creator Studio. Here's the 2026 Creator Program, in full.\",\"color\":\"blue\",\"emoji\":null,\"createdAt\":\"2026-07-30T23:45:54.768Z\",\"startsAt\":\"2026-07-30T23:45:54.310Z\",\"metadata\":{\"type\":\"site\",\"image\":\"741cc846-bb87-403f-bee8-257227cae7c4\",\"actions\":[{\"link\":\"https://civitai.com/articles/33294\",\"type\":\"button\",\"linkText\":\"Read the announcement\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-07-31T03:20:15.564Z",
+      "metadata": {
+        "endsAt": null,
+        "id": 751,
+        "title": "The 2026 Creator Program",
+        "content": "Set your own prices, sell access to your models, run your own shop, and see everything you earn in the new Creator Studio. Here's the 2026 Creator Program, in full.",
+        "color": "blue",
+        "emoji": null,
+        "createdAt": "2026-07-30T23:45:54.768Z",
+        "startsAt": "2026-07-30T23:45:54.310Z",
+        "metadata": {
+          "type": "site",
+          "image": "741cc846-bb87-403f-bee8-257227cae7c4",
+          "actions": [
+            {
+              "link": "https://civitai.com/articles/33294",
+              "type": "button",
+              "linkText": "Read the announcement"
+            }
+          ],
+          "colSpan": 6,
+          "dismissible": true,
+          "targetAudience": "all"
+        }
+      }
+    },
     {
       "platform": "civitai",
       "title": "⚡ Krea 2 Training Contest + 50% Off Training",
@@ -11,7 +44,7 @@
       "deadline": "2026-08-17T23:59:59.999Z",
       "prize": "Enter the Contest",
       "rawHtml": "{\"endsAt\":\"2026-08-17T23:59:59.999Z\",\"id\":746,\"title\":\"⚡ Krea 2 Training Contest + 50% Off Training\",\"content\":\"Krea 2 LoRA training is 50% off, and we're running a Krea 2 Training Contest with 1.8 million Buzz in prizes across four LoRA categories.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-07-23T17:24:52.982Z\",\"startsAt\":\"2026-07-22T00:00:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"5cf63c94-c6eb-4073-b0b2-e31ff831629d\",\"actions\":[{\"link\":\"/articles/32939\",\"type\":\"button\",\"linkText\":\"Enter the Contest\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-07-30T14:11:44.756Z",
+      "scrapedAt": "2026-07-31T03:20:15.565Z",
       "metadata": {
         "endsAt": "2026-08-17T23:59:59.999Z",
         "id": 746,
@@ -29,39 +62,6 @@
               "link": "/articles/32939",
               "type": "button",
               "linkText": "Enter the Contest"
-            }
-          ],
-          "colSpan": 6,
-          "dismissible": true,
-          "targetAudience": "all"
-        }
-      }
-    },
-    {
-      "platform": "civitai",
-      "title": "Creator Release",
-      "description": "Creators can now set the price. We're retiring the flat 25% generation split for creator-set licensing fees, sellable model access, Creator Shops, and a new Creator Studio. [Read what's available](/articles/32087).",
-      "url": "https://civitai.com/events/741",
-      "prize": "2026",
-      "rawHtml": "{\"endsAt\":null,\"id\":741,\"title\":\"Creator Release 2026\",\"content\":\"Creators can now set the price. We're retiring the flat 25% generation split for creator-set licensing fees, sellable model access, Creator Shops, and a new Creator Studio. [Read what's available](/articles/32087).\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-06-30T20:44:37.774Z\",\"startsAt\":\"2026-06-29T00:00:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"be16a10d-fe45-4158-91f1-3957250823e7\",\"actions\":[{\"link\":\"/articles/32087\",\"type\":\"button\",\"linkText\":\"Read what's available\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-07-30T14:11:44.756Z",
-      "metadata": {
-        "endsAt": null,
-        "id": 741,
-        "title": "Creator Release 2026",
-        "content": "Creators can now set the price. We're retiring the flat 25% generation split for creator-set licensing fees, sellable model access, Creator Shops, and a new Creator Studio. [Read what's available](/articles/32087).",
-        "color": "violet",
-        "emoji": null,
-        "createdAt": "2026-06-30T20:44:37.774Z",
-        "startsAt": "2026-06-29T00:00:00.000Z",
-        "metadata": {
-          "type": "site",
-          "image": "be16a10d-fe45-4158-91f1-3957250823e7",
-          "actions": [
-            {
-              "link": "/articles/32087",
-              "type": "button",
-              "linkText": "Read what's available"
             }
           ],
           "colSpan": 6,

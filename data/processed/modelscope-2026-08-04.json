@@ -1,8 +1,41 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-08-04T02:51:59.069Z",
+  "timestamp": "2026-08-04T14:27:27.236Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_20e5f7ce98d0",
+      "title": "Avernet 开源技术沙龙",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/334",
+      "imageUrl": "",
+      "description": "Agent 已经不只是“会聊天”的工具了，它正在变成能理解目标、调用工具、完成任务的执行伙伴。但在真实场景里，一个 Agent 往往还不够：写一篇热点稿可能需要选题、资料整理、撰稿和审核协作；服务一家小微商家，可能涉及经营分析、活动策划、内容生成和用户触达。问题来了：多个 Agent能不能像一个小团队一样，分工、沟通、协作，把一件事真正做完？这正是 Avernet 想和开发者一起探索的方向。本次沙龙不会只讲概念，我们会结合落地Demo，聊聊多 Agent如何被发现、达成共识、高效执行、自我进化，并围绕同 一个目标协同工作。",
+      "summary": "Agent 已经不只是“会聊天”的工具了，它正在变成能理解目标、调用工具、完成任务的执行伙伴。但在真实场景里，一个 Agent 往往还不够：写一篇热点稿可能需要选题、资料整理、撰稿和审核协作；服务一家小微商家，可能涉及经营分析、活动策划、内容生成和用户触达。问题来了：多个 Agent能不能像一个小团队一样，分工、沟通、协作，把一件事真正做完？这正是 Avernet 想和开发者一起探索的方向。本次沙...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-08-14T15:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "选题、资料整理、撰稿和审核协作",
+        "服务一家小微商家",
+        "可能涉及经营分析、活动策划、内容生成和用户触达。问题来了：多个 Agent能不能像一个小团队一样",
+        "分工、沟通、协作",
+        "把一件事真正做完？这正是 Avernet 想和开发者一起探索的方向。本次沙龙不会只讲概念"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2026-08-04T14:27:20.815Z",
+      "scrapedAt": "2026-08-04T14:24:59.910Z",
+      "lastUpdated": "2026-08-04T14:27:20.815Z",
+      "version": 1
+    },
     {
       "id": "c_89acbd85d95b",
       "title": "“中国云谷·高校训练营”Xbotics 具身智能暑期训练营杭州站",
@@ -33,9 +66,9 @@
         "就是在解决这些问题的过程中建立起来的。这次训练营"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-08-04T02:51:52.950Z",
-      "scrapedAt": "2026-08-04T02:49:32.952Z",
-      "lastUpdated": "2026-08-04T02:51:52.950Z",
+      "processedAt": "2026-08-04T14:27:20.809Z",
+      "scrapedAt": "2026-08-04T14:24:59.911Z",
+      "lastUpdated": "2026-08-04T14:27:20.809Z",
       "version": 1
     },
     {
@@ -62,9 +95,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-04T02:51:52.957Z",
-      "scrapedAt": "2026-08-04T02:49:32.952Z",
-      "lastUpdated": "2026-08-04T02:51:52.957Z",
+      "processedAt": "2026-08-04T14:27:20.884Z",
+      "scrapedAt": "2026-08-04T14:24:59.911Z",
+      "lastUpdated": "2026-08-04T14:27:20.884Z",
       "version": 1
     },
     {
@@ -91,9 +124,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-04T02:51:52.970Z",
-      "scrapedAt": "2026-08-04T02:49:32.952Z",
-      "lastUpdated": "2026-08-04T02:51:52.970Z",
+      "processedAt": "2026-08-04T14:27:21.888Z",
+      "scrapedAt": "2026-08-04T14:24:59.911Z",
+      "lastUpdated": "2026-08-04T14:27:21.888Z",
       "version": 1
     },
     {
@@ -121,9 +154,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-04T02:51:53.971Z",
-      "scrapedAt": "2026-08-04T02:49:32.952Z",
-      "lastUpdated": "2026-08-04T02:51:53.971Z",
+      "processedAt": "2026-08-04T14:27:21.884Z",
+      "scrapedAt": "2026-08-04T14:24:59.911Z",
+      "lastUpdated": "2026-08-04T14:27:21.884Z",
       "version": 1
     },
     {
@@ -150,9 +183,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-04T02:51:53.972Z",
-      "scrapedAt": "2026-08-04T02:49:32.952Z",
-      "lastUpdated": "2026-08-04T02:51:53.972Z",
+      "processedAt": "2026-08-04T14:27:21.876Z",
+      "scrapedAt": "2026-08-04T14:24:59.911Z",
+      "lastUpdated": "2026-08-04T14:27:21.876Z",
       "version": 1
     },
     {
@@ -179,9 +212,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-04T02:51:53.973Z",
-      "scrapedAt": "2026-08-04T02:49:32.953Z",
-      "lastUpdated": "2026-08-04T02:51:53.973Z",
+      "processedAt": "2026-08-04T14:27:21.876Z",
+      "scrapedAt": "2026-08-04T14:24:59.912Z",
+      "lastUpdated": "2026-08-04T14:27:21.876Z",
       "version": 1
     },
     {
@@ -209,9 +242,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-04T02:51:53.976Z",
-      "scrapedAt": "2026-08-04T02:49:32.953Z",
-      "lastUpdated": "2026-08-04T02:51:53.976Z",
+      "processedAt": "2026-08-04T14:27:21.956Z",
+      "scrapedAt": "2026-08-04T14:24:59.912Z",
+      "lastUpdated": "2026-08-04T14:27:21.956Z",
       "version": 1
     },
     {
@@ -239,9 +272,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-04T02:51:53.989Z",
-      "scrapedAt": "2026-08-04T02:49:32.953Z",
-      "lastUpdated": "2026-08-04T02:51:53.989Z",
+      "processedAt": "2026-08-04T14:27:22.956Z",
+      "scrapedAt": "2026-08-04T14:24:59.913Z",
+      "lastUpdated": "2026-08-04T14:27:22.956Z",
       "version": 1
     },
     {
@@ -268,44 +301,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-04T02:51:54.991Z",
-      "scrapedAt": "2026-08-04T02:49:32.954Z",
-      "lastUpdated": "2026-08-04T02:51:54.991Z",
-      "version": 1
-    },
-    {
-      "id": "c_d94b74f421d5",
-      "title": "VentureD Vibe Coding黑客松",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/331",
-      "imageUrl": "",
-      "description": "VentureD Hackathon 2026 让每一个看见真实问题的人，都能创造自己的AI智能体。",
-      "summary": "VentureD Hackathon 2026 让每一个看见真实问题的人，都能创造自己的AI智能体。...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-08-23T15:59:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-08-04T02:51:54.990Z",
-      "scrapedAt": "2026-08-04T02:49:32.954Z",
-      "lastUpdated": "2026-08-04T02:51:54.990Z",
+      "processedAt": "2026-08-04T14:27:22.955Z",
+      "scrapedAt": "2026-08-04T14:24:59.913Z",
+      "lastUpdated": "2026-08-04T14:27:22.955Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-08-04T02:51:59.069Z"
+    "lastUpdated": "2026-08-04T14:27:27.236Z"
   }
 }

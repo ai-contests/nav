@@ -1,8 +1,66 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-08-05T02:49:38.676Z",
+  "timestamp": "2026-08-05T14:20:15.047Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_e32a7ccb83b3",
+      "title": "FDE来碰头",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/337",
+      "imageUrl": "",
+      "description": "「AI+X 来碰头」是由 Datawhale、Y/OUR SPACE、云谷中心、魔搭社区联合主办的线下系列活动。每期聚焦一个 AI 垂直方向，汇聚不同技术层与产业视角的从业者破圈交流。\n\n简单！一段话讲完这个活动！「AI+X 来碰头」是由 Datawhale、Y/OUR SPACE、云谷中心、魔搭社区联合主办的线下系列活动。每期聚焦一个 AI 垂直方向，汇聚不同技术层与产业视角的从业者破圈交流。本期活动FDE来碰头，我们希望把正在一线做 AI 交付的 FDE、带团队做商业化的负责人、想引入 FDE 模式的企业方，以及把交付沉淀成产品的创业者，放在一个屋子里。FDE 这件事目前没有标准答案。它和售前、咨询、实施、外包的边界在哪，怎么定价，怎么不把自己做成外包公司，哪些能力该沉淀成产品，这些问题线上讨论了很久，但真正跑通过完整链路的人不多。这一期我们只请跑过的人来讲。话不多说，速来报名👇",
+      "summary": "「AI+X 来碰头」是由 Datawhale、Y/OUR SPACE、云谷中心、魔搭社区联合主办的线下系列活动。每期聚焦一个 AI 垂直方向，汇聚不同技术层与产业视角的从业者破圈交流。\n\n简单！一段话讲完这个活动！「AI+X 来碰头」是由 Datawhale、Y/OUR SPACE、云谷中心、魔搭社区联合主办的线下系列活动。每期聚焦一个 AI 垂直方向，汇聚不同技术层与产业视角的从业者破圈交流。本...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-08-15T15:59:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-08-05T14:20:08.587Z",
+      "scrapedAt": "2026-08-05T14:17:47.923Z",
+      "lastUpdated": "2026-08-05T14:20:08.587Z",
+      "version": 1
+    },
+    {
+      "id": "c_2bdef8c9f8d4",
+      "title": "AI生产力会客厅",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/336",
+      "imageUrl": "",
+      "description": "AI生产力先锋让Agent 7*24h不停工！",
+      "summary": "AI生产力先锋让Agent 7*24h不停工！...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-08-08T12:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-08-05T14:20:08.592Z",
+      "scrapedAt": "2026-08-05T14:17:47.924Z",
+      "lastUpdated": "2026-08-05T14:20:08.592Z",
+      "version": 1
+    },
     {
       "id": "c_20e5f7ce98d0",
       "title": "Avernet 开源技术沙龙",
@@ -31,9 +89,9 @@
         "把一件事真正做完？这正是 Avernet 想和开发者一起探索的方向。本次沙龙不会只讲概念"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-08-05T02:49:32.571Z",
-      "scrapedAt": "2026-08-05T02:47:11.651Z",
-      "lastUpdated": "2026-08-05T02:49:32.571Z",
+      "processedAt": "2026-08-05T14:20:08.687Z",
+      "scrapedAt": "2026-08-05T14:17:47.924Z",
+      "lastUpdated": "2026-08-05T14:20:08.687Z",
       "version": 1
     },
     {
@@ -66,9 +124,9 @@
         "就是在解决这些问题的过程中建立起来的。这次训练营"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-08-05T02:49:32.572Z",
-      "scrapedAt": "2026-08-05T02:47:11.651Z",
-      "lastUpdated": "2026-08-05T02:49:32.572Z",
+      "processedAt": "2026-08-05T14:20:09.685Z",
+      "scrapedAt": "2026-08-05T14:17:47.925Z",
+      "lastUpdated": "2026-08-05T14:20:09.685Z",
       "version": 1
     },
     {
@@ -95,9 +153,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-05T02:49:32.587Z",
-      "scrapedAt": "2026-08-05T02:47:11.651Z",
-      "lastUpdated": "2026-08-05T02:49:32.587Z",
+      "processedAt": "2026-08-05T14:20:09.688Z",
+      "scrapedAt": "2026-08-05T14:17:47.925Z",
+      "lastUpdated": "2026-08-05T14:20:09.688Z",
       "version": 1
     },
     {
@@ -124,9 +182,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-05T02:49:33.593Z",
-      "scrapedAt": "2026-08-05T02:47:11.652Z",
-      "lastUpdated": "2026-08-05T02:49:33.593Z",
+      "processedAt": "2026-08-05T14:20:09.683Z",
+      "scrapedAt": "2026-08-05T14:17:47.926Z",
+      "lastUpdated": "2026-08-05T14:20:09.683Z",
       "version": 1
     },
     {
@@ -154,9 +212,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-05T02:49:33.592Z",
-      "scrapedAt": "2026-08-05T02:47:11.652Z",
-      "lastUpdated": "2026-08-05T02:49:33.592Z",
+      "processedAt": "2026-08-05T14:20:09.687Z",
+      "scrapedAt": "2026-08-05T14:17:47.926Z",
+      "lastUpdated": "2026-08-05T14:20:09.688Z",
       "version": 1
     },
     {
@@ -183,9 +241,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-05T02:49:33.591Z",
-      "scrapedAt": "2026-08-05T02:47:11.652Z",
-      "lastUpdated": "2026-08-05T02:49:33.591Z",
+      "processedAt": "2026-08-05T14:20:09.756Z",
+      "scrapedAt": "2026-08-05T14:17:47.926Z",
+      "lastUpdated": "2026-08-05T14:20:09.756Z",
       "version": 1
     },
     {
@@ -212,9 +270,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-05T02:49:33.592Z",
-      "scrapedAt": "2026-08-05T02:47:11.652Z",
-      "lastUpdated": "2026-08-05T02:49:33.592Z",
+      "processedAt": "2026-08-05T14:20:10.776Z",
+      "scrapedAt": "2026-08-05T14:17:47.926Z",
+      "lastUpdated": "2026-08-05T14:20:10.776Z",
       "version": 1
     },
     {
@@ -242,74 +300,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-05T02:49:33.606Z",
-      "scrapedAt": "2026-08-05T02:47:11.652Z",
-      "lastUpdated": "2026-08-05T02:49:33.606Z",
-      "version": 1
-    },
-    {
-      "id": "c_24102e9b76a0",
-      "title": "Production AI Skills 大赛——从「智能体工作流」迈向「生产力 Skills」",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/289",
-      "imageUrl": "",
-      "description": "第三期（本期，Production AI Skills 大赛）：我们再进一步，把目标锁定在「生产力」——鼓励开发者面向生产力级生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work 等）集成本地 Skill，让端侧智能真正嵌入日常的工作流与生产环节，产出可复用、可商用、有真实价值的技能资产。\n\n一、承前启后：第三期，为「生产力」而来Agent Skills 征文大赛已成功举办两期，我们共同见证了端侧 AI 从概念走向实践的跨越：第一期（3.22–4.30，OpenClaw Skills 挑战赛）：聚焦生成式 AI 工具（VLM / 语音识别 / 语音合成 / 图像生成）的本地封装，完成从 0 到 1 的「单点能力封装」。第二期（5.1–6.30，Agent Skills 大赛）：升级为面向本地可用的 Skill 封装，并首次要求「基于本地小模型搭建智能体应用」，推动开发者构建完整的 Agentic 工作流。第三期（本期，Production AI Skills 大赛）：我们再进一步，把目标锁定在「生产力」——鼓励开发者面向生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work 等）集成本地 Skill，让端侧智能真正嵌入日常的工作流与生产环节，产出可复用、可商用、有真实价值的技能资产。二、活动背景：Agentic AI 与 Hybrid AI 的端侧生产力新纪元AI 正在经历关键的范式转移：它不再只是对话机器人，而是能够理解意图、自主规划路径、调用外部工具并产生实际后果的「智能体」（Agentic AI）。与此同时，随着端侧算力的爆发，Hybrid AI（混合 AI）架构已成大势——云端处理超大规模逻辑，而将高频响应、隐私敏感与个性化强的任务下沉至 AI PC 处理。英特尔（Intel）作为 AI PC 时代的领航者，通过异构算力（CPU + GPU + NPU）的深度整合，为 Agentic AI 的落地提供坚实的物理基础；魔搭社区（ModelScope）作为开发者生态的摇篮，拥有丰富的模型储备。本期活动，我们希望把这份能力沉淀为「生产力」：将逻辑复杂但体积精炼（≤ 35B）的模型部署在本地，既极大降低推理成本，又确保用户隐私数据「不出机」，并让 Skill 直接服务于真实的生产力场景。三、征文主题与硬性约束1. 核心主题面向生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work 等）集成一项本地 AI 工具调用（OCR / ASR / TTS / RAG / 数据分析…），解决真实生产力场景的需求，最终产出可被复用、可商用的 Agent Skill。2. 技术约束部署方式：推荐使用Client/Server的模型服务部署方式，实现skill随时调用。运行环境：Skill 中涉及的 AI 模型必须支持纯本地运行（Localhost）。工具适配：Skill 需适配生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work 等），能够被其作为技能稳定调用。推理框架：推荐使用 OpenVINO™（及其生态工具如 Optimum-intel）构建本地 AI 工具，以充分释放 GPU、NPU 潜力。验证基准：需使用 生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work 等）作为 Skill 是否可被 Agent 大脑稳定调用的基准测试环境。官方指南：AIPC local skill参考标准： https://github.com/openvino-dev-samples/local-ai-skill-authoring四、推荐方向与场景参考本期尤其鼓励「面向生产力」的 Skill——能嵌入真实工作流、可持续复用、具备商用潜力的方向：推荐方向生产力场景示例Agentic / Hybrid 价值办公提效本地会议纪要自动提取、PPT 一键风格改稿、Excel 复杂公式智能填充。零延迟响应，确保企业内部敏感会议数据绝对安全。开发辅助本地代码 Review、Git Commit 自动生成、API 文档反向生成（可直接在 Qoder 中执行）。离线状态下的高效编程，保护核心算法不外泄。创作创意短视频脚本生成、公众号/小红书文案适配、本地图文自动化排版。端云协同：云端搜集素材，本地用 35B 模型深度二次创作。知识管理个人 PDF/笔记库 RAG、研报摘要提取、本地私人知识库智能问答。构建「永不掉线」且完全私有的个人数字第二大脑。数据分析CSV 自然语言查询、本地数据可视化分析、系统日志异常自动归因。直接读取本地大容量数据集，规避云端流量成本。参考资源：扫码访问英特尔 AI PC 专区，获取更多开发工具、技术文档与实战案例。扫描进入比赛群，实时赛事信息同步、技术交流、问题答疑等。扫码访问英特尔 AI PC 专区，获取更多开发工具、技术文档与实战案例，助力您的 AI 应用开发之旅五、参赛流程：从创意到生产力落地的四步走编写本地 AI 工具：推荐使用 OpenVINO 进行量化与异构加速优化，充分调动 GPU / NPU。生成并验证 Skill：在魔搭 Skills 中心规范下封装技能，并在生产力工具（Qoder、WorkBuddy、TRAE Work 等）的环境下完成指令测试。发布作品包：在魔搭 Skills 中心发布，添加「AI PC」自定义标签；作品需含代码、文档及测试用例。提交技术文章：在魔搭研习社发表文章，沉淀实践路径、在生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work 等）跑通skill的完整截图/录屏等形式的记录、优化心得与 Hybrid AI 的思考，并添加「Intel AI PC」专题标签。六、评分标准（100%）第三期评分进一步向「生产力价值」倾斜——新增「商用生产力」维度，强调工具的真实使用与场景落地：维度权重说明场景价值30%解决问题的真实性、生产力场景的落地深度、用户群体广度商用生产力30%商用/量产潜力、稳定性与可维护性、能否嵌入真实生产工作流工具使用20%对 Qoder、WorkBuddy、TRAE Work 等生产力 Agent 工具的集成质量、OpenVINO/GPU/NPU   优化、工程实现文章质量10%结构清晰度、可复现性、教学价值创新性10%思路新颖度、与已有方案的差异化传播附加分5%将作品框架截图、流程图或 Skill 成果等图文信息，连同魔搭研习社文章链接、Skill 链接发布至小红书，@OpenVINO中文社区 与 @魔搭ModelScope社区，并加话题 #英特尔 #openvino #魔搭 #agentic #skills 。截止8月31日的阅读量（研习社文章、Skills、小红书累计）超过1000次，得附加分5分。七、丰厚激励实物奖励：前 50 名完整提交作品，即可领取 OpenVINO / 魔搭社区限量周边礼品。现金大奖：TOP 10 作品各获得 1000 元（含税）。生态推广：入选《AI PC Skills Collections》，获得魔搭及英特尔官方全渠道流量扶持。合作池入驻：优秀开发者优先进入「Intel ISV 生态合作伙伴池」，获得后续商业合作与资源对接机会。 让 AI 不止于云端，让智能成为生产力。英特尔与魔搭社区，期待与您共同定义 AI PC 的「生产力灵魂技能」！",
-      "summary": "第三期（本期，Production AI Skills 大赛）：我们再进一步，把目标锁定在「生产力」——鼓励开发者面向生产力级生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work 等）集成本地 Skill，让端侧智能真正嵌入日常的工作流与生产环节，产出可复用、可商用、有真实价值的技能资产。\n\n一、承前启后：第三期，为「生产力」而来Agent Skills 征文大赛已...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-08-31T15:59:00.000Z",
-      "prize": "10000元奖金+10000元礼品",
-      "tags": [
-        "应用开发赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-08-05T02:49:34.607Z",
-      "scrapedAt": "2026-08-05T02:47:11.654Z",
-      "lastUpdated": "2026-08-05T02:49:34.607Z",
-      "version": 1
-    },
-    {
-      "id": "c_b64fabcdcab2",
-      "title": "「Code Agent 使用情况调研问卷」诚邀一线开发者参与，填写即获 60 元奖励",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/309",
-      "imageUrl": "",
-      "description": "本次调研面向广大一线开发者，围绕标准软件开发生命周期（SDLC）的 8 个阶段，系统收集 Code Agent 在真实工作场景中的使用情况。调研结果将用于构建更贴合开发者实际需求的 Code Agent 评测体系，推动 AI 编程工具从\"排行榜指标\"走向\"真实体感提升\"。\n\n一、活动背景随着 AI 编程工具的快速发展，Code Agent 正在从\"代码补全助手\"进化为能够参与需求理解、方案设计、编码实现、测试调试等全开发流程的智能体。然而，不同行业、不同岗位的开发者对 Code Agent 的实际使用方式、渗透深度和痛点差异，目前仍缺乏系统性的调研数据。本次调研面向广大一线开发者，围绕标准软件开发生命周期（SDLC）的 8 个阶段，系统收集 Code Agent 在真实工作场景中的使用情况。调研结果将用于构建更贴合开发者实际需求的 Code Agent 评测体系，推动 AI 编程工具从\"排行榜指标\"走向\"真实体感提升\"。二、调研对象本次问卷面向 一线开发人员，涵盖以下行业和岗位：行业领域：泛互联网/电商、金融/证券、政企/信创、工业制造、汽车/车联网、通信/运营商、医疗/生物、游戏、教育、安全、航空航天/军工等。岗位角色：后端开发工程师、前端/全栈开发工程师、测试/QA 工程师、架构师/技术负责人、DevOps/SRE/运维工程师、安全工程师、嵌入式/硬件开发工程师、数据工程师/数据科学家、算法/AI 工程师、技术管理者、产品经理（有编码经验）、以及通过 AI 编程的非技术背景开发者。无论您是重度 Code Agent 用户、浅度尝试者、还是试过但放弃的用户，您的真实反馈都具有重要价值。三、问卷内容概览问卷分为四个部分，预计填写时长30~40min左右：第一部分：身份信息了解您的职业信息、技术栈和工具使用情况。第二部分：Code Agent 使用情况（核心部分）按软件开发生命周期的 8 个阶段 逐一调研，每个阶段涵盖使用频率、具体任务、问题严重度、人工干预方式等维度：阶段阶段一：需求理解与方案设计阶段二：编码实现*阶段三：测试阶段四：辅助调试与排错阶段五：代码审查与安全阶段六：部署与运维阶段七：重构与维护第三部分：简短汇总6道题很快搞定第四部分：开放式案例收集收集真实的 Code Agent 使用案例，包括：案例一：描述一次最典型的失败或不满意体验（含任务场景、输入输出、失败根因分析）案例二：设计一个能检验 Code Agent 在您所在领域真实能力的评测用例四、参与方式问卷链接：https://v.wjx.cn/vm/OtjstSX.aspx# 五、激励说明填写奖励：每份有效问卷 60 元（含税），审核通过后发放。有效问卷标准：问卷内容完整、逻辑合理，非敷衍填写。六、时间安排问卷开放周期：即日起至 2026 年 7 月 30 日请在此日期前完成入驻和问卷填写，逾期将不再接收回复。七、数据说明本次调研收集的所有数据仅用于 Code Agent 评测体系的研究与构建。身份信息部分仅用于分层分析，不与个人身份关联。开放式案例中的信息将进行脱敏处理后使用。期待您的参与，让 AI 编程工具真正懂开发者的需求！",
-      "summary": "本次调研面向广大一线开发者，围绕标准软件开发生命周期（SDLC）的 8 个阶段，系统收集 Code Agent 在真实工作场景中的使用情况。调研结果将用于构建更贴合开发者实际需求的 Code Agent 评测体系，推动 AI 编程工具从\"排行榜指标\"走向\"真实体感提升\"。\n\n一、活动背景随着 AI 编程工具的快速发展，Code Agent 正在从\"代码补全助手\"进化为能够参与需求理解、方案设计、编...",
-      "contestType": "code",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-07-30T15:59:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-08-05T02:49:34.608Z",
-      "scrapedAt": "2026-08-05T02:47:11.654Z",
-      "lastUpdated": "2026-08-05T02:49:34.608Z",
+      "processedAt": "2026-08-05T14:20:10.758Z",
+      "scrapedAt": "2026-08-05T14:17:47.926Z",
+      "lastUpdated": "2026-08-05T14:20:10.758Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-08-05T02:49:38.676Z"
+    "lastUpdated": "2026-08-05T14:20:15.047Z"
   }
 }

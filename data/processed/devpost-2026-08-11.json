@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-08-11T02:00:53.223Z",
+  "timestamp": "2026-08-11T13:16:20.201Z",
   "contestCount": 10,
   "contests": [
     {
@@ -24,9 +24,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-11T02:00:44.536Z",
-      "scrapedAt": "2026-08-11T01:59:19.352Z",
-      "lastUpdated": "2026-08-11T02:00:44.536Z",
+      "processedAt": "2026-08-11T13:16:11.996Z",
+      "scrapedAt": "2026-08-11T13:14:50.423Z",
+      "lastUpdated": "2026-08-11T13:16:11.996Z",
       "version": 1
     },
     {
@@ -50,9 +50,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-11T02:00:44.618Z",
-      "scrapedAt": "2026-08-11T01:59:19.352Z",
-      "lastUpdated": "2026-08-11T02:00:44.618Z",
+      "processedAt": "2026-08-11T13:16:12.015Z",
+      "scrapedAt": "2026-08-11T13:14:50.423Z",
+      "lastUpdated": "2026-08-11T13:16:12.015Z",
       "version": 1
     },
     {
@@ -76,9 +76,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-11T02:00:45.620Z",
-      "scrapedAt": "2026-08-11T01:59:19.353Z",
-      "lastUpdated": "2026-08-11T02:00:45.620Z",
+      "processedAt": "2026-08-11T13:16:13.020Z",
+      "scrapedAt": "2026-08-11T13:14:50.424Z",
+      "lastUpdated": "2026-08-11T13:16:13.020Z",
       "version": 1
     },
     {
@@ -102,9 +102,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-11T02:00:45.619Z",
-      "scrapedAt": "2026-08-11T01:59:19.356Z",
-      "lastUpdated": "2026-08-11T02:00:45.619Z",
+      "processedAt": "2026-08-11T13:16:13.021Z",
+      "scrapedAt": "2026-08-11T13:14:50.428Z",
+      "lastUpdated": "2026-08-11T13:16:13.021Z",
       "version": 1
     },
     {
@@ -130,35 +130,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-11T02:00:45.619Z",
-      "scrapedAt": "2026-08-11T01:59:19.357Z",
-      "lastUpdated": "2026-08-11T02:00:45.619Z",
-      "version": 1
-    },
-    {
-      "id": "c_7bbfa2888591",
-      "title": "CALL-E: Your Code Is Calling",
-      "platform": "devpost",
-      "url": "https://call-e.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/977/426/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "code",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$10,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-08-11T02:00:45.614Z",
-      "scrapedAt": "2026-08-11T01:59:19.357Z",
-      "lastUpdated": "2026-08-11T02:00:45.614Z",
+      "processedAt": "2026-08-11T13:16:13.016Z",
+      "scrapedAt": "2026-08-11T13:14:50.428Z",
+      "lastUpdated": "2026-08-11T13:16:13.016Z",
       "version": 1
     },
     {
@@ -182,9 +156,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-11T02:00:45.703Z",
-      "scrapedAt": "2026-08-11T01:59:19.358Z",
-      "lastUpdated": "2026-08-11T02:00:45.703Z",
+      "processedAt": "2026-08-11T13:16:13.017Z",
+      "scrapedAt": "2026-08-11T13:14:50.429Z",
+      "lastUpdated": "2026-08-11T13:16:13.017Z",
+      "version": 1
+    },
+    {
+      "id": "c_7bbfa2888591",
+      "title": "CALL-E: Your Code Is Calling",
+      "platform": "devpost",
+      "url": "https://call-e.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/977/426/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "code",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$10,000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-08-11T13:16:13.049Z",
+      "scrapedAt": "2026-08-11T13:14:50.429Z",
+      "lastUpdated": "2026-08-11T13:16:13.049Z",
       "version": 1
     },
     {
@@ -210,9 +210,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-11T02:00:46.704Z",
-      "scrapedAt": "2026-08-11T01:59:19.358Z",
-      "lastUpdated": "2026-08-11T02:00:46.704Z",
+      "processedAt": "2026-08-11T13:16:14.043Z",
+      "scrapedAt": "2026-08-11T13:14:50.430Z",
+      "lastUpdated": "2026-08-11T13:16:14.043Z",
       "version": 1
     },
     {
@@ -236,9 +236,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-11T02:00:46.699Z",
-      "scrapedAt": "2026-08-11T01:59:19.359Z",
-      "lastUpdated": "2026-08-11T02:00:46.699Z",
+      "processedAt": "2026-08-11T13:16:14.040Z",
+      "scrapedAt": "2026-08-11T13:14:50.430Z",
+      "lastUpdated": "2026-08-11T13:16:14.040Z",
       "version": 1
     },
     {
@@ -262,15 +262,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-11T02:00:46.705Z",
-      "scrapedAt": "2026-08-11T01:59:19.359Z",
-      "lastUpdated": "2026-08-11T02:00:46.705Z",
+      "processedAt": "2026-08-11T13:16:14.042Z",
+      "scrapedAt": "2026-08-11T13:14:50.431Z",
+      "lastUpdated": "2026-08-11T13:16:14.042Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-08-11T02:00:53.223Z"
+    "lastUpdated": "2026-08-11T13:16:20.201Z"
   }
 }

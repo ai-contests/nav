@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-08-14T02:12:55.562Z",
+  "timestamp": "2026-08-14T13:16:30.718Z",
   "contestCount": 20,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-08-17T02:11:53.781Z",
+      "deadline": "2026-08-16T13:15:25.278Z",
       "tags": [
         "ai"
       ],
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:51.429Z",
-      "scrapedAt": "2026-08-14T02:11:53.784Z",
-      "lastUpdated": "2026-08-14T02:12:51.429Z",
+      "processedAt": "2026-08-14T13:16:26.393Z",
+      "scrapedAt": "2026-08-14T13:15:25.278Z",
+      "lastUpdated": "2026-08-14T13:16:26.393Z",
       "version": 1
     },
     {
@@ -42,6 +42,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "€2 000 EUR",
       "tags": [],
       "aiTools": [
         "Python",
@@ -51,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:51.421Z",
-      "scrapedAt": "2026-08-14T02:11:53.785Z",
-      "lastUpdated": "2026-08-14T02:12:51.421Z",
+      "processedAt": "2026-08-14T13:16:26.395Z",
+      "scrapedAt": "2026-08-14T13:15:25.278Z",
+      "lastUpdated": "2026-08-14T13:16:26.395Z",
       "version": 1
     },
     {
@@ -67,6 +68,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "$25 000 USD",
       "tags": [],
       "aiTools": [
         "Python",
@@ -76,9 +78,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:51.453Z",
-      "scrapedAt": "2026-08-14T02:11:53.785Z",
-      "lastUpdated": "2026-08-14T02:12:51.453Z",
+      "processedAt": "2026-08-14T13:16:26.478Z",
+      "scrapedAt": "2026-08-14T13:15:25.278Z",
+      "lastUpdated": "2026-08-14T13:16:26.478Z",
       "version": 1
     },
     {
@@ -92,7 +94,8 @@
       "contestType": "mixed",
       "status": "upcoming",
       "difficulty": "intermediate",
-      "deadline": "2026-08-28T02:11:53.785Z",
+      "deadline": "2026-08-28T13:15:25.278Z",
+      "prize": "$10 000 USD",
       "tags": [],
       "aiTools": [
         "Python",
@@ -102,9 +105,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:52.455Z",
-      "scrapedAt": "2026-08-14T02:11:53.785Z",
-      "lastUpdated": "2026-08-14T02:12:52.455Z",
+      "processedAt": "2026-08-14T13:16:27.476Z",
+      "scrapedAt": "2026-08-14T13:15:25.278Z",
+      "lastUpdated": "2026-08-14T13:16:27.476Z",
       "version": 1
     },
     {
@@ -118,7 +121,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-08-16T02:11:53.785Z",
+      "deadline": "2026-08-15T13:15:25.279Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -128,9 +131,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:52.464Z",
-      "scrapedAt": "2026-08-14T02:11:53.785Z",
-      "lastUpdated": "2026-08-14T02:12:52.464Z",
+      "processedAt": "2026-08-14T13:16:27.457Z",
+      "scrapedAt": "2026-08-14T13:15:25.279Z",
+      "lastUpdated": "2026-08-14T13:16:27.457Z",
       "version": 1
     },
     {
@@ -144,6 +147,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "$10 000 USD",
       "tags": [],
       "aiTools": [
         "Python",
@@ -153,9 +157,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:52.461Z",
-      "scrapedAt": "2026-08-14T02:11:53.785Z",
-      "lastUpdated": "2026-08-14T02:12:52.461Z",
+      "processedAt": "2026-08-14T13:16:27.468Z",
+      "scrapedAt": "2026-08-14T13:15:25.279Z",
+      "lastUpdated": "2026-08-14T13:16:27.468Z",
       "version": 1
     },
     {
@@ -169,6 +173,7 @@
       "contestType": "text",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "$5 000 USD",
       "tags": [],
       "aiTools": [
         "Python",
@@ -178,9 +183,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:52.456Z",
-      "scrapedAt": "2026-08-14T02:11:53.786Z",
-      "lastUpdated": "2026-08-14T02:12:52.456Z",
+      "processedAt": "2026-08-14T13:16:27.462Z",
+      "scrapedAt": "2026-08-14T13:15:25.279Z",
+      "lastUpdated": "2026-08-14T13:16:27.462Z",
       "version": 1
     },
     {
@@ -194,6 +199,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "$1 000 USD",
       "tags": [],
       "aiTools": [
         "Python",
@@ -203,9 +209,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:52.492Z",
-      "scrapedAt": "2026-08-14T02:11:53.786Z",
-      "lastUpdated": "2026-08-14T02:12:52.492Z",
+      "processedAt": "2026-08-14T13:16:27.550Z",
+      "scrapedAt": "2026-08-14T13:15:25.279Z",
+      "lastUpdated": "2026-08-14T13:16:27.550Z",
       "version": 1
     },
     {
@@ -219,6 +225,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "$3 500 USD",
       "tags": [],
       "aiTools": [
         "Python",
@@ -228,9 +235,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:53.492Z",
-      "scrapedAt": "2026-08-14T02:11:53.786Z",
-      "lastUpdated": "2026-08-14T02:12:53.492Z",
+      "processedAt": "2026-08-14T13:16:28.551Z",
+      "scrapedAt": "2026-08-14T13:15:25.279Z",
+      "lastUpdated": "2026-08-14T13:16:28.551Z",
       "version": 1
     },
     {
@@ -244,6 +251,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "$10 000 USD",
       "tags": [],
       "aiTools": [
         "Python",
@@ -253,9 +261,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:53.493Z",
-      "scrapedAt": "2026-08-14T02:11:53.786Z",
-      "lastUpdated": "2026-08-14T02:12:53.493Z",
+      "processedAt": "2026-08-14T13:16:28.546Z",
+      "scrapedAt": "2026-08-14T13:15:25.279Z",
+      "lastUpdated": "2026-08-14T13:16:28.546Z",
       "version": 1
     },
     {
@@ -269,6 +277,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "€40 000 EUR",
       "tags": [],
       "aiTools": [
         "Python",
@@ -278,9 +287,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:53.490Z",
-      "scrapedAt": "2026-08-14T02:11:53.786Z",
-      "lastUpdated": "2026-08-14T02:12:53.490Z",
+      "processedAt": "2026-08-14T13:16:28.543Z",
+      "scrapedAt": "2026-08-14T13:15:25.279Z",
+      "lastUpdated": "2026-08-14T13:16:28.543Z",
       "version": 1
     },
     {
@@ -303,9 +312,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:53.491Z",
-      "scrapedAt": "2026-08-14T02:11:53.789Z",
-      "lastUpdated": "2026-08-14T02:12:53.491Z",
+      "processedAt": "2026-08-14T13:16:28.537Z",
+      "scrapedAt": "2026-08-14T13:15:25.280Z",
+      "lastUpdated": "2026-08-14T13:16:28.537Z",
       "version": 1
     },
     {
@@ -319,6 +328,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "000 ZAR",
       "tags": [],
       "aiTools": [
         "Python",
@@ -328,9 +338,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:53.521Z",
-      "scrapedAt": "2026-08-14T02:11:53.789Z",
-      "lastUpdated": "2026-08-14T02:12:53.521Z",
+      "processedAt": "2026-08-14T13:16:28.621Z",
+      "scrapedAt": "2026-08-14T13:15:25.280Z",
+      "lastUpdated": "2026-08-14T13:16:28.621Z",
       "version": 1
     },
     {
@@ -344,6 +354,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "$5 000 USD",
       "tags": [
         "llm"
       ],
@@ -355,9 +366,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:54.524Z",
-      "scrapedAt": "2026-08-14T02:11:53.789Z",
-      "lastUpdated": "2026-08-14T02:12:54.524Z",
+      "processedAt": "2026-08-14T13:16:29.637Z",
+      "scrapedAt": "2026-08-14T13:15:25.280Z",
+      "lastUpdated": "2026-08-14T13:16:29.637Z",
       "version": 1
     },
     {
@@ -371,6 +382,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "$1 500 USD",
       "tags": [],
       "aiTools": [
         "Python",
@@ -380,9 +392,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:54.524Z",
-      "scrapedAt": "2026-08-14T02:11:53.789Z",
-      "lastUpdated": "2026-08-14T02:12:54.524Z",
+      "processedAt": "2026-08-14T13:16:29.619Z",
+      "scrapedAt": "2026-08-14T13:15:25.280Z",
+      "lastUpdated": "2026-08-14T13:16:29.619Z",
       "version": 1
     },
     {
@@ -396,6 +408,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "€8 250 EUR",
       "tags": [],
       "aiTools": [
         "Python",
@@ -405,9 +418,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:54.520Z",
-      "scrapedAt": "2026-08-14T02:11:53.789Z",
-      "lastUpdated": "2026-08-14T02:12:54.520Z",
+      "processedAt": "2026-08-14T13:16:29.618Z",
+      "scrapedAt": "2026-08-14T13:15:25.280Z",
+      "lastUpdated": "2026-08-14T13:16:29.618Z",
       "version": 1
     },
     {
@@ -421,6 +434,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "€8 250 EUR",
       "tags": [
         "ai"
       ],
@@ -432,9 +446,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:54.520Z",
-      "scrapedAt": "2026-08-14T02:11:53.790Z",
-      "lastUpdated": "2026-08-14T02:12:54.520Z",
+      "processedAt": "2026-08-14T13:16:29.627Z",
+      "scrapedAt": "2026-08-14T13:15:25.280Z",
+      "lastUpdated": "2026-08-14T13:16:29.627Z",
       "version": 1
     },
     {
@@ -448,6 +462,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "$5 000 USD",
       "tags": [],
       "aiTools": [
         "Python",
@@ -457,9 +472,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:54.553Z",
-      "scrapedAt": "2026-08-14T02:11:53.790Z",
-      "lastUpdated": "2026-08-14T02:12:54.553Z",
+      "processedAt": "2026-08-14T13:16:29.707Z",
+      "scrapedAt": "2026-08-14T13:15:25.280Z",
+      "lastUpdated": "2026-08-14T13:16:29.707Z",
       "version": 1
     },
     {
@@ -473,6 +488,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "$5 000 USD",
       "tags": [],
       "aiTools": [
         "Python",
@@ -482,9 +498,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:55.556Z",
-      "scrapedAt": "2026-08-14T02:11:53.790Z",
-      "lastUpdated": "2026-08-14T02:12:55.556Z",
+      "processedAt": "2026-08-14T13:16:30.709Z",
+      "scrapedAt": "2026-08-14T13:15:25.281Z",
+      "lastUpdated": "2026-08-14T13:16:30.709Z",
       "version": 1
     },
     {
@@ -498,6 +514,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
+      "prize": "€35 000 EUR",
       "tags": [
         "ai"
       ],
@@ -509,15 +526,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-14T02:12:55.557Z",
-      "scrapedAt": "2026-08-14T02:11:53.790Z",
-      "lastUpdated": "2026-08-14T02:12:55.557Z",
+      "processedAt": "2026-08-14T13:16:30.708Z",
+      "scrapedAt": "2026-08-14T13:15:25.281Z",
+      "lastUpdated": "2026-08-14T13:16:30.708Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-08-14T02:12:55.562Z"
+    "lastUpdated": "2026-08-14T13:16:30.718Z"
   }
 }

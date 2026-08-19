@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-08-19T01:28:09.030Z",
+  "timestamp": "2026-08-19T12:57:13.494Z",
   "contestCount": 10,
   "contests": [
     {
@@ -31,9 +31,9 @@
         "and we'll keep you updated via the email address you use there. Let's get shipping!"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:28:00.473Z",
-      "scrapedAt": "2026-08-19T01:26:27.705Z",
-      "lastUpdated": "2026-08-19T01:28:00.473Z",
+      "processedAt": "2026-08-19T12:57:05.121Z",
+      "scrapedAt": "2026-08-19T12:55:14.453Z",
+      "lastUpdated": "2026-08-19T12:57:05.121Z",
       "version": 1
     },
     {
@@ -61,9 +61,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:28:00.478Z",
-      "scrapedAt": "2026-08-19T01:26:27.705Z",
-      "lastUpdated": "2026-08-19T01:28:00.478Z",
+      "processedAt": "2026-08-19T12:57:05.120Z",
+      "scrapedAt": "2026-08-19T12:55:14.453Z",
+      "lastUpdated": "2026-08-19T12:57:05.120Z",
       "version": 1
     },
     {
@@ -91,9 +91,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:28:00.544Z",
-      "scrapedAt": "2026-08-19T01:26:27.705Z",
-      "lastUpdated": "2026-08-19T01:28:00.544Z",
+      "processedAt": "2026-08-19T12:57:05.161Z",
+      "scrapedAt": "2026-08-19T12:55:14.454Z",
+      "lastUpdated": "2026-08-19T12:57:05.161Z",
       "version": 1
     },
     {
@@ -121,9 +121,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:28:01.545Z",
-      "scrapedAt": "2026-08-19T01:26:27.706Z",
-      "lastUpdated": "2026-08-19T01:28:01.545Z",
+      "processedAt": "2026-08-19T12:57:06.166Z",
+      "scrapedAt": "2026-08-19T12:55:14.455Z",
+      "lastUpdated": "2026-08-19T12:57:06.166Z",
       "version": 1
     },
     {
@@ -131,18 +131,14 @@
       "title": "CALL-E: Your Code Is Calling",
       "platform": "devpost",
       "url": "https://call-e.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/977/426/datas/original.png",
-      "description": "About the challenge CALL-E is a developer-first platform for building AI agents that make real phone calls and get real-world tasks done. Instead of stopping at text, your agents can plan a call, dial out, hold a natural conversation, adapt in real time, and return structured results you can act on — all through CALL-E's SDK, API, and MCP. In other words: your agents can finally pick up the phone (and actually get something done while they're on the line). ☎️ In CALL-E: Your Code Is Calling, you'll put that to work. Build and deploy a functional application that uses CALL-E to solve a real business or project problem — customer outreach, appointment scheduling, lead qualification, service coordination, workflow automation, or something no one's tried yet. Whether you're an AI engineer, agent builder, or technical founder, this is your chance to push a brand-new platform in directions its makers haven't imagined, share feedback that shapes the roadmap, and compete for a share of $10,000 in prizes. Why join Build something real. Ship an AI agent that completes actual tasks over the phone — not a demo that just generates text. Work with a new platform first. Get hands-on early with CALL-E's SDK, API, MCP, CLI, or SKILL, and help shape what it becomes. Shape the roadmap. Your feedback and bug reports go straight to the CALL-E team, with prizes for the most useful input. Compete for $10,000 in cash prizes, plus meetings with the CALL-E team, blog features, and CALL-E credits. Get started Install CALL-E and sign in (5 min) by following the installation guide. You'll get a CALL-E account with 20 free calls automatically. Need more? Request additional calls via this form. Connect it to your agent via MCP, SDK, API, CLI, or SKILL using the integration guide (~30 min). Browse example skills and apps and brainstorm your build (30 minutes)",
-      "summary": "About the challenge CALL-E is a developer-first platform for building AI agents that make real phone calls and get real-world tasks done. Instead of stopping at text, your agents can plan a call, dial...",
-      "contestType": "text",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/977/426/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "code",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-09-14T15:45:00.000Z",
       "prize": "$10,000",
-      "tags": [
-        "Communication",
-        "Enterprise"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -151,9 +147,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:28:01.554Z",
-      "scrapedAt": "2026-08-19T01:26:27.706Z",
-      "lastUpdated": "2026-08-19T01:28:01.554Z",
+      "processedAt": "2026-08-19T12:57:06.180Z",
+      "scrapedAt": "2026-08-19T12:55:14.455Z",
+      "lastUpdated": "2026-08-19T12:57:06.180Z",
       "version": 1
     },
     {
@@ -177,9 +173,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:28:01.540Z",
-      "scrapedAt": "2026-08-19T01:26:27.706Z",
-      "lastUpdated": "2026-08-19T01:28:01.540Z",
+      "processedAt": "2026-08-19T12:57:06.165Z",
+      "scrapedAt": "2026-08-19T12:55:14.455Z",
+      "lastUpdated": "2026-08-19T12:57:06.165Z",
       "version": 1
     },
     {
@@ -203,9 +199,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:28:01.542Z",
-      "scrapedAt": "2026-08-19T01:26:27.707Z",
-      "lastUpdated": "2026-08-19T01:28:01.542Z",
+      "processedAt": "2026-08-19T12:57:06.163Z",
+      "scrapedAt": "2026-08-19T12:55:14.456Z",
+      "lastUpdated": "2026-08-19T12:57:06.163Z",
       "version": 1
     },
     {
@@ -229,9 +225,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:28:01.616Z",
-      "scrapedAt": "2026-08-19T01:26:27.707Z",
-      "lastUpdated": "2026-08-19T01:28:01.616Z",
+      "processedAt": "2026-08-19T12:57:06.236Z",
+      "scrapedAt": "2026-08-19T12:55:14.456Z",
+      "lastUpdated": "2026-08-19T12:57:06.236Z",
       "version": 1
     },
     {
@@ -255,9 +251,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:28:02.615Z",
-      "scrapedAt": "2026-08-19T01:26:27.707Z",
-      "lastUpdated": "2026-08-19T01:28:02.615Z",
+      "processedAt": "2026-08-19T12:57:07.225Z",
+      "scrapedAt": "2026-08-19T12:55:14.458Z",
+      "lastUpdated": "2026-08-19T12:57:07.225Z",
       "version": 1
     },
     {
@@ -281,15 +277,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:28:02.622Z",
-      "scrapedAt": "2026-08-19T01:26:27.708Z",
-      "lastUpdated": "2026-08-19T01:28:02.622Z",
+      "processedAt": "2026-08-19T12:57:07.220Z",
+      "scrapedAt": "2026-08-19T12:55:14.459Z",
+      "lastUpdated": "2026-08-19T12:57:07.220Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-08-19T01:28:09.030Z"
+    "lastUpdated": "2026-08-19T12:57:13.494Z"
   }
 }

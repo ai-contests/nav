@@ -1,6 +1,6 @@
 {
   "platform": "aicrowd",
-  "timestamp": "2026-08-19T01:28:09.031Z",
+  "timestamp": "2026-08-19T12:57:13.496Z",
   "contestCount": 7,
   "contests": [
     {
@@ -26,9 +26,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:27:58.459Z",
-      "scrapedAt": "2026-08-19T01:26:54.986Z",
-      "lastUpdated": "2026-08-19T01:27:58.459Z",
+      "processedAt": "2026-08-19T12:57:03.157Z",
+      "scrapedAt": "2026-08-19T12:55:51.791Z",
+      "lastUpdated": "2026-08-19T12:57:03.157Z",
       "version": 1
     },
     {
@@ -42,7 +42,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T01:26:54.986Z",
+      "deadline": "2030-08-14T12:55:51.791Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -53,14 +53,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:27:59.287Z",
-      "scrapedAt": "2026-08-19T01:26:54.986Z",
-      "lastUpdated": "2026-08-19T01:27:59.287Z",
+      "processedAt": "2026-08-19T12:57:04.006Z",
+      "scrapedAt": "2026-08-19T12:55:51.791Z",
+      "lastUpdated": "2026-08-19T12:57:04.006Z",
       "version": 1
     },
     {
       "id": "c_ef4f31b33152",
-      "title": "ECCV 2020 Commands 4 Autonomous Vehicles",
+      "title": "Post challenge submissions: 6953 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/eccv-2020-commands-4-autonomous-vehicles",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/382/val_1030.jpg",
@@ -69,7 +69,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T01:26:54.987Z",
+      "deadline": "2045-09-01T12:55:51.799Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -80,14 +80,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:27:59.407Z",
-      "scrapedAt": "2026-08-19T01:26:54.987Z",
-      "lastUpdated": "2026-08-19T01:27:59.407Z",
+      "processedAt": "2026-08-19T12:57:04.074Z",
+      "scrapedAt": "2026-08-19T12:55:51.799Z",
+      "lastUpdated": "2026-08-19T12:57:04.074Z",
       "version": 1
     },
     {
       "id": "c_03552b946309",
-      "title": "MEDIQA 2021 - Question Summarization (QS)",
+      "title": "Post Challenge Round: 1594 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/mediqa-2021-question-summarization-qs",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/644/MEDIQA-Background.jpg",
@@ -96,11 +96,10 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T01:26:54.987Z",
+      "deadline": "2030-12-30T12:55:51.799Z",
       "prize": "TBD",
       "tags": [
-        "nlp",
-        "Weight: 1.0"
+        "nlp"
       ],
       "aiTools": [
         "Python",
@@ -110,14 +109,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:27:59.406Z",
-      "scrapedAt": "2026-08-19T01:26:54.987Z",
-      "lastUpdated": "2026-08-19T01:27:59.406Z",
+      "processedAt": "2026-08-19T12:57:04.081Z",
+      "scrapedAt": "2026-08-19T12:55:51.799Z",
+      "lastUpdated": "2026-08-19T12:57:04.081Z",
       "version": 1
     },
     {
       "id": "c_fb27b7f32e54",
-      "title": "Test P",
+      "title": "Round 1: 301 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/test-p",
       "imageUrl": "https://www.aicrowd.com/assets/images/challenges/AIcrowd-ProblemStatements-1.jpeg",
@@ -126,11 +125,9 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2027-06-17T01:26:54.987Z",
+      "deadline": "2027-06-16T12:55:51.799Z",
       "prize": "TBD",
-      "tags": [
-        "#classroom"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -139,9 +136,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:27:59.409Z",
-      "scrapedAt": "2026-08-19T01:26:54.987Z",
-      "lastUpdated": "2026-08-19T01:27:59.409Z",
+      "processedAt": "2026-08-19T12:57:04.077Z",
+      "scrapedAt": "2026-08-19T12:55:51.799Z",
+      "lastUpdated": "2026-08-19T12:57:04.077Z",
       "version": 1
     },
     {
@@ -167,9 +164,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:27:59.468Z",
-      "scrapedAt": "2026-08-19T01:26:54.988Z",
-      "lastUpdated": "2026-08-19T01:27:59.468Z",
+      "processedAt": "2026-08-19T12:57:04.124Z",
+      "scrapedAt": "2026-08-19T12:55:51.799Z",
+      "lastUpdated": "2026-08-19T12:57:04.124Z",
       "version": 1
     },
     {
@@ -193,15 +190,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-19T01:28:00.470Z",
-      "scrapedAt": "2026-08-19T01:26:54.989Z",
-      "lastUpdated": "2026-08-19T01:28:00.470Z",
+      "processedAt": "2026-08-19T12:57:05.121Z",
+      "scrapedAt": "2026-08-19T12:55:51.800Z",
+      "lastUpdated": "2026-08-19T12:57:05.121Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-08-19T01:28:09.031Z"
+    "lastUpdated": "2026-08-19T12:57:13.496Z"
   }
 }

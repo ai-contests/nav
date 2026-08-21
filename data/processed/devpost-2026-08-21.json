@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-08-21T01:30:27.336Z",
+  "timestamp": "2026-08-21T12:58:27.242Z",
   "contestCount": 10,
   "contests": [
     {
@@ -24,9 +24,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-21T01:30:19.994Z",
-      "scrapedAt": "2026-08-21T01:28:52.781Z",
-      "lastUpdated": "2026-08-21T01:30:19.994Z",
+      "processedAt": "2026-08-21T12:58:20.025Z",
+      "scrapedAt": "2026-08-21T12:56:37.182Z",
+      "lastUpdated": "2026-08-21T12:58:20.025Z",
       "version": 1
     },
     {
@@ -50,9 +50,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-21T01:30:19.982Z",
-      "scrapedAt": "2026-08-21T01:28:52.781Z",
-      "lastUpdated": "2026-08-21T01:30:19.982Z",
+      "processedAt": "2026-08-21T12:58:20.026Z",
+      "scrapedAt": "2026-08-21T12:56:37.183Z",
+      "lastUpdated": "2026-08-21T12:58:20.026Z",
       "version": 1
     },
     {
@@ -76,9 +76,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-21T01:30:19.980Z",
-      "scrapedAt": "2026-08-21T01:28:52.782Z",
-      "lastUpdated": "2026-08-21T01:30:19.980Z",
+      "processedAt": "2026-08-21T12:58:20.029Z",
+      "scrapedAt": "2026-08-21T12:56:37.183Z",
+      "lastUpdated": "2026-08-21T12:58:20.029Z",
       "version": 1
     },
     {
@@ -102,9 +102,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-21T01:30:19.979Z",
-      "scrapedAt": "2026-08-21T01:28:52.782Z",
-      "lastUpdated": "2026-08-21T01:30:19.979Z",
+      "processedAt": "2026-08-21T12:58:20.034Z",
+      "scrapedAt": "2026-08-21T12:56:37.184Z",
+      "lastUpdated": "2026-08-21T12:58:20.034Z",
       "version": 1
     },
     {
@@ -128,9 +128,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-21T01:30:20.037Z",
-      "scrapedAt": "2026-08-21T01:28:52.783Z",
-      "lastUpdated": "2026-08-21T01:30:20.037Z",
+      "processedAt": "2026-08-21T12:58:20.050Z",
+      "scrapedAt": "2026-08-21T12:56:37.185Z",
+      "lastUpdated": "2026-08-21T12:58:20.050Z",
       "version": 1
     },
     {
@@ -154,9 +154,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-21T01:30:21.036Z",
-      "scrapedAt": "2026-08-21T01:28:52.783Z",
-      "lastUpdated": "2026-08-21T01:30:21.036Z",
+      "processedAt": "2026-08-21T12:58:21.058Z",
+      "scrapedAt": "2026-08-21T12:56:37.186Z",
+      "lastUpdated": "2026-08-21T12:58:21.058Z",
       "version": 1
     },
     {
@@ -170,7 +170,7 @@
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
-      "prize": "$2,206,164",
+      "prize": "$2,208,664",
       "tags": [],
       "aiTools": [
         "Python",
@@ -180,9 +180,37 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-21T01:30:21.037Z",
-      "scrapedAt": "2026-08-21T01:28:52.783Z",
-      "lastUpdated": "2026-08-21T01:30:21.037Z",
+      "processedAt": "2026-08-21T12:58:21.054Z",
+      "scrapedAt": "2026-08-21T12:56:37.186Z",
+      "lastUpdated": "2026-08-21T12:58:21.054Z",
+      "version": 1
+    },
+    {
+      "id": "c_dbf8275b7a7e",
+      "title": "AI Builders Hackathon",
+      "platform": "devpost",
+      "url": "https://ai-builders-hackathon-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/783/650/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$33,900",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-08-21T12:58:21.052Z",
+      "scrapedAt": "2026-08-21T12:56:37.187Z",
+      "lastUpdated": "2026-08-21T12:58:21.052Z",
       "version": 1
     },
     {
@@ -206,9 +234,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-21T01:30:21.030Z",
-      "scrapedAt": "2026-08-21T01:28:52.784Z",
-      "lastUpdated": "2026-08-21T01:30:21.030Z",
+      "processedAt": "2026-08-21T12:58:21.055Z",
+      "scrapedAt": "2026-08-21T12:56:37.187Z",
+      "lastUpdated": "2026-08-21T12:58:21.055Z",
       "version": 1
     },
     {
@@ -232,41 +260,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-21T01:30:21.035Z",
-      "scrapedAt": "2026-08-21T01:28:52.784Z",
-      "lastUpdated": "2026-08-21T01:30:21.035Z",
-      "version": 1
-    },
-    {
-      "id": "c_e47153a23e82",
-      "title": "Build Beyond Hackathon",
-      "platform": "devpost",
-      "url": "https://build-beyond-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/785/686/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$500",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-08-21T01:30:21.072Z",
-      "scrapedAt": "2026-08-21T01:28:52.784Z",
-      "lastUpdated": "2026-08-21T01:30:21.072Z",
+      "processedAt": "2026-08-21T12:58:21.073Z",
+      "scrapedAt": "2026-08-21T12:56:37.187Z",
+      "lastUpdated": "2026-08-21T12:58:21.073Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-08-21T01:30:27.336Z"
+    "lastUpdated": "2026-08-21T12:58:27.242Z"
   }
 }

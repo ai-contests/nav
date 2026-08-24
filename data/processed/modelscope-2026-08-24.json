@@ -1,8 +1,94 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-08-24T01:31:56.750Z",
+  "timestamp": "2026-08-24T13:00:58.706Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_b198fd1e5915",
+      "title": "【外滩大会】可信智能体网络论坛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/351",
+      "imageUrl": "",
+      "description": "构建智能体可信协作新范式，实现从互联到互信",
+      "summary": "构建智能体可信协作新范式，实现从互联到互信...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-09-09T16:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-08-24T13:00:52.449Z",
+      "scrapedAt": "2026-08-24T12:58:15.120Z",
+      "lastUpdated": "2026-08-24T13:00:52.449Z",
+      "version": 1
+    },
+    {
+      "id": "c_ef4ae180704a",
+      "title": "AI+♾️ 开发者创作大赛 第二期：用 AI，提前看见未来！",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/347",
+      "imageUrl": "",
+      "description": "AI+∞ 开发者创作大赛由魔搭社区与 Qoder 联合发起。 🕹️第二期聚焦「AI+影视流」——原创AI科幻短片；用AI，提前看见未来！ 本期特别加入由NVIDIA赞助提供的60台 DGX Spark，突破极限，参赛者可以在本地实现图文视频无限生成。 在脑海里无限想象的科幻未来，突然闪现的一个灵感，都可以是一部AI电影大片的起点。 🎮这一次镜头交给你！ 也期待未来能和优秀的你继续搭档，从参赛者变成「运营合伙人」，一起共创接下来的比赛。\n\nAI+∞ 开发者创作大赛由魔搭社区与 Qoder 联合发起。🕹️第二期聚焦「AI+影视流」——原创AI科幻短片；用AI，提前看见未来！本期特别加入由NVIDIA赞助提供的60台 DGX Spark，突破极限，参赛者可以在本地实现图文视频无限生成。在脑海里无限想象的科幻未来，突然闪现的一个灵感，都可以是一部AI电影大片的起点。🎮这一次镜头交给你！也期待未来能和优秀的你继续搭档，从参赛者变成「运营合伙人」，一起共创接下来的比赛。赛事官网：https://modelscope.cn/active/AIstudio",
+      "summary": "AI+∞ 开发者创作大赛由魔搭社区与 Qoder 联合发起。 🕹️第二期聚焦「AI+影视流」——原创AI科幻短片；用AI，提前看见未来！ 本期特别加入由NVIDIA赞助提供的60台 DGX Spark，突破极限，参赛者可以在本地实现图文视频无限生成。 在脑海里无限想象的科幻未来，突然闪现的一个灵感，都可以是一部AI电影大片的起点。 🎮这一次镜头交给你！ 也期待未来能和优秀的你继续搭档，从参赛者...",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-09-14T04:00:00.000Z",
+      "prize": "20,000元奖金+Qoder Credits+魔粒值",
+      "tags": [
+        "图片生成",
+        "视频生成赛"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-08-24T13:00:52.451Z",
+      "scrapedAt": "2026-08-24T12:58:15.120Z",
+      "lastUpdated": "2026-08-24T13:00:52.451Z",
+      "version": 1
+    },
+    {
+      "id": "c_8c81a0714b42",
+      "title": "生产力革命4.0： 前沿科技如何 “上桌\"？",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/350",
+      "imageUrl": "",
+      "description": "在生产力革命4.0的开端，我们邀请了5位一线Founder+蚂蚁战投投资人和大家一起聊一聊新“基建”【AI4S与量子计算】技术的岔路口、发展的关键变量、商业化第一步、融资路上的喜与优……\n\nAI4S+量子计算，前沿科技如何“上桌”？📍 地点：上海·静安📅 时间：8月28日 13:00-16:30本期MSD2D有点硬核！我们聚焦【AI4S+量子计算】方向邀请6位一线Founder+2位投资人轮番上台● 无界量子联合创始人 胡海洋● 新研智材联合创始人&CTO● 复鞍智能CEO 商城● 深度原理副总裁 滕辉● 璇相科技联合创始人&CTO 吴家昊● 蚂蚁战投投资副总监 尹航● 幺正量子副总经理 张洋💡没有PPT式吹牛，只有创业者的真实复盘他们要回答的问题很实在：·当前的项目进展如何？·技术路线的分岔口，为什么选了这条路？·商业化第一公里，踩了哪些坑？·融资路上，哪些经验能少交学费？·未来最关键的3个变量是什么？🎯 面向人群：AI早期创业者 / 技术型创始人 / AI原生科学家/相关赛道投资人📝 报名须知：扫码报名，活动采取审核机制，将提前通过【短信】📩 同步地点🏢 关于我们：蚂上加速器是由蚂蚁集团投资部推出的面向AI早期创业者的“成长加速计划”，我们关注和AI相关的一切，聚焦已完成产品Demo，正在冲刺1-10阶段的创业者，为大家提供创业路上最重要的“3+1”赋能体系——关键资本助力、产品商业洞察、品牌势能传播以及丰富的蚂蚁生态资源，我们希望成为创业者身边的同行伙伴，全方位陪伴从Demo到落地的全链路成长。",
+      "summary": "在生产力革命4.0的开端，我们邀请了5位一线Founder+蚂蚁战投投资人和大家一起聊一聊新“基建”【AI4S与量子计算】技术的岔路口、发展的关键变量、商业化第一步、融资路上的喜与优……\n\nAI4S+量子计算，前沿科技如何“上桌”？📍 地点：上海·静安📅 时间：8月28日 13:00-16:30本期MSD2D有点硬核！我们聚焦【AI4S+量子计算】方向邀请6位一线Founder+2位投资人轮番...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-08-27T15:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-08-24T13:00:52.442Z",
+      "scrapedAt": "2026-08-24T12:58:15.120Z",
+      "lastUpdated": "2026-08-24T13:00:52.442Z",
+      "version": 1
+    },
     {
       "id": "c_4d2d630f665e",
       "title": "【外滩大会】Al驱动新终端新服务见解论坛",
@@ -27,9 +113,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-24T01:31:50.369Z",
-      "scrapedAt": "2026-08-24T01:29:23.062Z",
-      "lastUpdated": "2026-08-24T01:31:50.369Z",
+      "processedAt": "2026-08-24T13:00:52.491Z",
+      "scrapedAt": "2026-08-24T12:58:15.120Z",
+      "lastUpdated": "2026-08-24T13:00:52.491Z",
       "version": 1
     },
     {
@@ -62,39 +148,9 @@
         "而真正棘手的问题往往是行业之外难以看到的。例如"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-08-24T01:31:50.368Z",
-      "scrapedAt": "2026-08-24T01:29:23.062Z",
-      "lastUpdated": "2026-08-24T01:31:50.368Z",
-      "version": 1
-    },
-    {
-      "id": "c_ef4ae180704a",
-      "title": "AI+♾️ 开发者创作大赛 第二期：用 AI，提前看见未来！",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/347",
-      "imageUrl": "",
-      "description": "AI+∞ 开发者创作大赛由魔搭社区与 Qoder 联合发起。 🕹️第二期聚焦「AI+影视流」——原创AI科幻短片；用AI，提前看见未来！ 本期特别加入由NVIDIA赞助提供的60台 DGX Spark，突破极限，参赛者可以在本地实现图文视频无限生成。 在脑海里无限想象的科幻未来，突然闪现的一个灵感，都可以是一部AI电影大片的起点。 🎮这一次镜头交给你！ 也期待未来能和优秀的你继续搭档，从参赛者变成「运营合伙人」，一起共创接下来的比赛。\n\nAI+∞ 开发者创作大赛由魔搭社区与 Qoder 联合发起。🕹️第二期聚焦「AI+影视流」——原创AI科幻短片；用AI，提前看见未来！本期特别加入由NVIDIA赞助提供的60台 DGX Spark，突破极限，参赛者可以在本地实现图文视频无限生成。在脑海里无限想象的科幻未来，突然闪现的一个灵感，都可以是一部AI电影大片的起点。🎮这一次镜头交给你！也期待未来能和优秀的你继续搭档，从参赛者变成「运营合伙人」，一起共创接下来的比赛。赛事官网：https://modelscope.cn/active/AIstudio",
-      "summary": "AI+∞ 开发者创作大赛由魔搭社区与 Qoder 联合发起。 🕹️第二期聚焦「AI+影视流」——原创AI科幻短片；用AI，提前看见未来！ 本期特别加入由NVIDIA赞助提供的60台 DGX Spark，突破极限，参赛者可以在本地实现图文视频无限生成。 在脑海里无限想象的科幻未来，突然闪现的一个灵感，都可以是一部AI电影大片的起点。 🎮这一次镜头交给你！ 也期待未来能和优秀的你继续搭档，从参赛者...",
-      "contestType": "video",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-09-14T04:00:00.000Z",
-      "prize": "20,000元奖金+Qoder Credits+魔粒值",
-      "tags": [
-        "图片生成",
-        "视频生成赛"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-08-24T01:31:50.367Z",
-      "scrapedAt": "2026-08-24T01:29:23.062Z",
-      "lastUpdated": "2026-08-24T01:31:50.367Z",
+      "processedAt": "2026-08-24T13:00:53.488Z",
+      "scrapedAt": "2026-08-24T12:58:15.121Z",
+      "lastUpdated": "2026-08-24T13:00:53.488Z",
       "version": 1
     },
     {
@@ -127,38 +183,9 @@
         "也方便看后续通知。🕐 活动时间8 月 23 日下午"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-08-24T01:31:50.428Z",
-      "scrapedAt": "2026-08-24T01:29:23.063Z",
-      "lastUpdated": "2026-08-24T01:31:50.428Z",
-      "version": 1
-    },
-    {
-      "id": "c_f37bec3b2c74",
-      "title": "FDE轻量级实战工作坊",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/340",
-      "imageUrl": "",
-      "description": "高密度动手 + 真实命题驱动。参考硅谷 AI Agent / FDE 专项工作坊主流形式，强调「Show then Do」，让参与者现场输出可带走的方案原型，同时通过组队建立深度连接。\n\n别再来「听听就好」的meetup了。8月22日（周六）下午，魔搭社区杭州开发者中心。Show → Do → Ship，硅谷FDE工作坊同款玩法。3位一线FDE导师现场带教：悟鸣｜前蚂蚁Agent工程师，连续两年阿里/蚂蚁技术影响力TOP1木水｜礼鲤科技创始人，FDE践行者王梓悦｜前华为/OPPO，企业级AI应用FDE工程师一下午干完这些事：13:00 签到破冰，现场找搭子13:30 嘉宾分享FDE实战心法14:10 真实命题驱动，组队动手干16:15 快闪路演，当场验收原型16:55 自由勾搭，带走一群可以继续共创的人📍 杭州市西湖区灯彩街1009号 云谷中心 魔搭社区2F路演区📅 8月22日（周六）13:00-17:30🎯 适合谁：想亲手做出AI原型的开发者、FDE、产品/技术负责人扫码报名，席位有限，手慢无。 👇",
-      "summary": "高密度动手 + 真实命题驱动。参考硅谷 AI Agent / FDE 专项工作坊主流形式，强调「Show then Do」，让参与者现场输出可带走的方案原型，同时通过组队建立深度连接。\n\n别再来「听听就好」的meetup了。8月22日（周六）下午，魔搭社区杭州开发者中心。Show → Do → Ship，硅谷FDE工作坊同款玩法。3位一线FDE导师现场带教：悟鸣｜前蚂蚁Agent工程师，连续两年阿...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-08-21T15:59:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-08-24T01:31:51.432Z",
-      "scrapedAt": "2026-08-24T01:29:23.063Z",
-      "lastUpdated": "2026-08-24T01:31:51.432Z",
+      "processedAt": "2026-08-24T13:00:53.502Z",
+      "scrapedAt": "2026-08-24T12:58:15.121Z",
+      "lastUpdated": "2026-08-24T13:00:53.502Z",
       "version": 1
     },
     {
@@ -185,9 +212,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-24T01:31:51.432Z",
-      "scrapedAt": "2026-08-24T01:29:23.064Z",
-      "lastUpdated": "2026-08-24T01:31:51.432Z",
+      "processedAt": "2026-08-24T13:00:53.482Z",
+      "scrapedAt": "2026-08-24T12:58:15.122Z",
+      "lastUpdated": "2026-08-24T13:00:53.482Z",
       "version": 1
     },
     {
@@ -215,9 +242,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-24T01:31:51.432Z",
-      "scrapedAt": "2026-08-24T01:29:23.064Z",
-      "lastUpdated": "2026-08-24T01:31:51.432Z",
+      "processedAt": "2026-08-24T13:00:53.483Z",
+      "scrapedAt": "2026-08-24T12:58:15.122Z",
+      "lastUpdated": "2026-08-24T13:00:53.483Z",
       "version": 1
     },
     {
@@ -245,9 +272,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-24T01:31:51.431Z",
-      "scrapedAt": "2026-08-24T01:29:23.064Z",
-      "lastUpdated": "2026-08-24T01:31:51.431Z",
+      "processedAt": "2026-08-24T13:00:53.537Z",
+      "scrapedAt": "2026-08-24T12:58:15.123Z",
+      "lastUpdated": "2026-08-24T13:00:53.537Z",
       "version": 1
     },
     {
@@ -275,45 +302,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-24T01:31:51.493Z",
-      "scrapedAt": "2026-08-24T01:29:23.065Z",
-      "lastUpdated": "2026-08-24T01:31:51.493Z",
-      "version": 1
-    },
-    {
-      "id": "c_b0950daeb309",
-      "title": "「亲橙光合」AIGC视频创作大赛作品征集启动！",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/270",
-      "imageUrl": "",
-      "description": "本届大赛由云谷中心主办，呜哩AI、魔搭社区、阿里巴巴亲橙联合主办，并与CDSA国际媒体艺术创意大赛合作。作为亲橙光合青年艺术家计划年度项目，延续\"空间内容供给+生态资源联动\"理念，设\"理想的附近\"\"液态共同体\"双赛道，面向AI创作者及数字艺术爱好者，征集AI视频作品。大赛通过年度盛典与季度打榜持续运营，链接青年创作者，共建AIGC社群生态。\n\n🎨 AI创作者们，准备好了吗？2026「亲橙光合」首届AIGC视频创作大赛正式启动——双赛道：「理想的附近」👣 与「液态共同体」🌊，任你选；双倍福利：投稿即送呜哩AI月卡+30次视频模型体验，获奖再抢5万元总奖池、21个名额，作品登上阿里亲橙商业大屏巡展，还有机会签约「亲橙光合」数字艺术家！本届大赛由云谷中心主办，呜哩AI、魔搭社区、阿里巴巴亲橙联合主办，并与CDSA国际媒体艺术创意大赛合作。作为亲橙光合青年艺术家计划年度项目，延续“空间内容供给+生态资源联动”理念，设“理想的附近”“液态共同体”双赛道，面向AI创作者及数字艺术爱好者，征集AI视频作品。大赛通过年度盛典与季度打榜持续运营，链接青年创作者，共建AIGC社群生态。往下划，一图带你读懂所有参赛细节 👇（包括赛程、奖项、赛道解读、投稿方式、评选标准、参赛权益……全都有）",
-      "summary": "本届大赛由云谷中心主办，呜哩AI、魔搭社区、阿里巴巴亲橙联合主办，并与CDSA国际媒体艺术创意大赛合作。作为亲橙光合青年艺术家计划年度项目，延续\"空间内容供给+生态资源联动\"理念，设\"理想的附近\"\"液态共同体\"双赛道，面向AI创作者及数字艺术爱好者，征集AI视频作品。大赛通过年度盛典与季度打榜持续运营，链接青年创作者，共建AIGC社群生态。\n\n🎨 AI创作者们，准备好了吗？2026「亲橙光合」首...",
-      "contestType": "video",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-08-14T06:00:00.000Z",
-      "prize": "5万元奖池现金奖励+呜哩AI会员+魔搭魔粒值",
-      "tags": [
-        "图片生成",
-        "视频生成赛"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-08-24T01:31:52.496Z",
-      "scrapedAt": "2026-08-24T01:29:23.065Z",
-      "lastUpdated": "2026-08-24T01:31:52.496Z",
+      "processedAt": "2026-08-24T13:00:54.544Z",
+      "scrapedAt": "2026-08-24T12:58:15.123Z",
+      "lastUpdated": "2026-08-24T13:00:54.544Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-08-24T01:31:56.750Z"
+    "lastUpdated": "2026-08-24T13:00:58.706Z"
   }
 }

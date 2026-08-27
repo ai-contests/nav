@@ -1,7 +1,7 @@
 {
   "platform": "all",
-  "timestamp": "2026-08-27T08:19:34.389Z",
-  "contestCount": 51,
+  "timestamp": "2026-08-27T22:04:28.261Z",
+  "contestCount": 52,
   "contests": [
     {
       "id": "c_6ff5e2789077",
@@ -14,7 +14,7 @@
       "contestType": "image",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-10-17T08:18:13.968Z",
+      "deadline": "2026-10-17T22:03:03.746Z",
       "prize": "$150,000",
       "tags": [
         "llm",
@@ -40,9 +40,9 @@
         "eligibility"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:24.158Z",
-      "scrapedAt": "2026-08-27T08:18:13.968Z",
-      "lastUpdated": "2026-08-27T08:19:24.158Z",
+      "processedAt": "2026-08-27T22:04:16.472Z",
+      "scrapedAt": "2026-08-27T22:03:03.746Z",
+      "lastUpdated": "2026-08-27T22:04:16.472Z",
       "version": 1
     },
     {
@@ -68,9 +68,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:25.080Z",
-      "scrapedAt": "2026-08-27T08:18:13.968Z",
-      "lastUpdated": "2026-08-27T08:19:25.080Z",
+      "processedAt": "2026-08-27T22:04:17.272Z",
+      "scrapedAt": "2026-08-27T22:03:03.747Z",
+      "lastUpdated": "2026-08-27T22:04:17.272Z",
       "version": 1
     },
     {
@@ -84,7 +84,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T08:18:13.968Z",
+      "deadline": "2030-08-14T22:03:03.747Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -95,9 +95,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:25.117Z",
-      "scrapedAt": "2026-08-27T08:18:13.968Z",
-      "lastUpdated": "2026-08-27T08:19:25.117Z",
+      "processedAt": "2026-08-27T22:04:17.413Z",
+      "scrapedAt": "2026-08-27T22:03:03.748Z",
+      "lastUpdated": "2026-08-27T22:04:17.413Z",
       "version": 1
     },
     {
@@ -111,7 +111,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T08:18:13.969Z",
+      "deadline": "2045-08-31T22:03:03.748Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -122,9 +122,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:25.118Z",
-      "scrapedAt": "2026-08-27T08:18:13.969Z",
-      "lastUpdated": "2026-08-27T08:19:25.118Z",
+      "processedAt": "2026-08-27T22:04:17.411Z",
+      "scrapedAt": "2026-08-27T22:03:03.748Z",
+      "lastUpdated": "2026-08-27T22:04:17.411Z",
       "version": 1
     },
     {
@@ -138,7 +138,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T08:18:13.969Z",
+      "deadline": "2030-12-30T22:03:03.749Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -152,9 +152,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:25.123Z",
-      "scrapedAt": "2026-08-27T08:18:13.969Z",
-      "lastUpdated": "2026-08-27T08:19:25.123Z",
+      "processedAt": "2026-08-27T22:04:17.418Z",
+      "scrapedAt": "2026-08-27T22:03:03.749Z",
+      "lastUpdated": "2026-08-27T22:04:17.418Z",
       "version": 1
     },
     {
@@ -168,7 +168,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2027-06-16T08:18:13.969Z",
+      "deadline": "2027-06-16T22:03:03.749Z",
       "prize": "TBD",
       "tags": [
         "#classroom"
@@ -181,9 +181,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:25.146Z",
-      "scrapedAt": "2026-08-27T08:18:13.969Z",
-      "lastUpdated": "2026-08-27T08:19:25.146Z",
+      "processedAt": "2026-08-27T22:04:17.505Z",
+      "scrapedAt": "2026-08-27T22:03:03.749Z",
+      "lastUpdated": "2026-08-27T22:04:17.505Z",
       "version": 1
     },
     {
@@ -209,9 +209,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:26.149Z",
-      "scrapedAt": "2026-08-27T08:18:13.969Z",
-      "lastUpdated": "2026-08-27T08:19:26.149Z",
+      "processedAt": "2026-08-27T22:04:18.496Z",
+      "scrapedAt": "2026-08-27T22:03:03.750Z",
+      "lastUpdated": "2026-08-27T22:04:18.496Z",
       "version": 1
     },
     {
@@ -235,9 +235,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:26.152Z",
-      "scrapedAt": "2026-08-27T08:18:13.970Z",
-      "lastUpdated": "2026-08-27T08:19:26.152Z",
+      "processedAt": "2026-08-27T22:04:18.495Z",
+      "scrapedAt": "2026-08-27T22:03:03.751Z",
+      "lastUpdated": "2026-08-27T22:04:18.495Z",
       "version": 1
     },
     {
@@ -262,9 +262,36 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:26.156Z",
-      "scrapedAt": "2026-08-27T08:17:15.008Z",
-      "lastUpdated": "2026-08-27T08:19:26.156Z",
+      "processedAt": "2026-08-27T22:04:18.495Z",
+      "scrapedAt": "2026-08-27T22:02:09.156Z",
+      "lastUpdated": "2026-08-27T22:04:18.495Z",
+      "version": 1
+    },
+    {
+      "id": "c_2600ab732d76",
+      "title": "Hubs",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/774",
+      "imageUrl": "",
+      "description": "Build your own image feed out of the creators and models you care about. It's a trial, so tell us how it goes.",
+      "summary": "Build your own image feed out of the creators and models you care about. It's a trial, so tell us how it goes....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-09-02T23:59:59.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-08-27T22:04:18.499Z",
+      "scrapedAt": "2026-08-27T22:02:09.156Z",
+      "lastUpdated": "2026-08-27T22:04:18.499Z",
       "version": 1
     },
     {
@@ -289,9 +316,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:26.146Z",
-      "scrapedAt": "2026-08-27T08:17:15.008Z",
-      "lastUpdated": "2026-08-27T08:19:26.146Z",
+      "processedAt": "2026-08-27T22:04:18.575Z",
+      "scrapedAt": "2026-08-27T22:02:09.156Z",
+      "lastUpdated": "2026-08-27T22:04:18.575Z",
       "version": 1
     },
     {
@@ -317,9 +344,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:26.174Z",
-      "scrapedAt": "2026-08-27T08:17:15.008Z",
-      "lastUpdated": "2026-08-27T08:19:26.174Z",
+      "processedAt": "2026-08-27T22:04:19.576Z",
+      "scrapedAt": "2026-08-27T22:02:09.157Z",
+      "lastUpdated": "2026-08-27T22:04:19.576Z",
       "version": 1
     },
     {
@@ -327,32 +354,25 @@
       "title": "RevenueCat Shipaton 2026",
       "platform": "devpost",
       "url": "https://revenuecat-shipaton-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/663/632/datas/original.jpg",
-      "description": "Welcome to the RevenueCat Shipaton — the mobile hackathon that's all about shipping… a ton. At RevenueCat, we're all about supporting developers to build and monetize amazing apps. After the overwhelming success of last year's Shipaton, we're thrilled to announce the return of our global hackathon — and this year, we're going bigger than ever. This August and September, we're inviting builders from all corners of the globe to ship new apps and compete for over $700,000 in cash prizes and truly unique rewards — over $1 million worth of prizes in total. The challenge Ship a brand-new app to the App Store, Google Play Store, or — new this year — the Samsung Galaxy Store, between August 1st and September 30th, 2026. Integrate the RevenueCat SDK to power at least one in-app purchase or serve ads through RevenueCat Ads. Our goal is to give you that final push to ship that project you've had in the back of your mind but never took the time to get started. Note: Updates to previously released apps won't qualify - it's all about bringing something new to life! You can brainstorm, build, and post before August 1st, but your app must be released for the first time during the Shipaton window. Bigger and better Last year's Shipaton blew us away. Hundreds of new apps launched, thousands of #BuildInPublic posts went out, communities from Tokyo to Seoul to London hosted Shipaton IRL events, and winning teams ended up on stage in New York, accepting their Shippy trophies with their apps lighting up a Times Square billboard. Inspired by your amazing contributions, we've upped the ante for 2026: Over $700,000 in cash prizes — and growing as more sponsors join. Winning apps featured on giant billboards in Times Square. Flights to New York City for the Shippies red carpet award ceremony and RevenueCat's App Growth Annual conference. Press coverage for winners on 9to5Mac and 9to5Google. NEW: Investor exposure through the Shipaton Growth Fund. Categories Grand Prize: Goes to the app that gains the most user traction and growth momentum during the event. We want to hear about what you've done post-release to push your app growth to the next level. [NEW] Next Gen Award: A student-only category for the best app submitted by active students — high school, university, bootcamp, campus dev club, anyone learning the craft. Judged on a video submission and open-source code, so no paid Apple or Google developer account is required. Learn more on the Next Gen page. [NEW] Catvertising Award: Celebrates the most creative and effective use of RevenueCat Ads as a monetization method. We're looking for clever placements, smart integration with the rest of the revenue stack, and an experience users don't hate. [NEW] Best Game Award: For the best mobile game shipped during the event. We're looking for great gameplay, art direction, and a monetization fit that suits the genre. #BuildInPublic Award: For developers who share the most interesting development journey on social media. We're looking for compelling lessons learned or clever ideas that came from engaging with the community. HAMM Award (Help Apps Make Money): RevenueCat exists to \"Help Apps Make More Money\". This award goes to the project that designs the most robust and creative monetization strategy. RevenueCat Design Award: For the app that best represents the craft of app development — regardless of business potential. We're looking for innovative ideas and/or beautiful app design and animations. RevenueCat Peace Prize: Awarded to the project that provides the greatest social good. We're looking for apps with big benefits to communities or society at large. Conflict of Interest Award: A special category for RevenueCat employees and sponsors who couldn't resist joining the fun. No cash prizes, but a shot at glory. Influencer Award — Productivity: Christopher LawleyFor a polished productivity app that gives Apple power users one fast, focused place to save and retrieve reusable text snippets, documents, files, and images. Judges will consider product focus, speed, organization, intelligent features, and the quality of the overall design. Influencer Award — Nutrition & Healthy Eating: Abbey’s KitchenFor a flexible nutrition app inspired by Abbey’s Hunger Crushing Combo framework. Judges are looking for a compassionate, practical experience that helps users create more satisfying meals in real-life situations without calorie counting, macro tracking, or restrictive meal plans. Influencer Award — Yoga & Fitness: Simone ShariceFor a personalized wellness companion that answers, “What should I do today?” Judges will consider how effectively the app turns movement, Pilates, recovery, and other wellness needs into a clear, achievable daily plan without creating more information overload. Influencer Award — Career Coaching: Leadership HeatherFor an app that helps new managers practise difficult workplace conversations before the stakes are real. Judges are looking for realistic scenarios, useful feedback, confidence-building experiences, and active practice with situations such as feedback, boundaries, and saying no. Influencer Award — Gaming: Mr Lewis Blogs GamingFor a gaming bucket-list app that makes it easy to save games at the moment of discovery. Judges will consider how effectively users can organize, complete, rate, and share games, along with whether managing a backlog feels enjoyable rather than like another chore. Ship Kotlin Everywhere — JetBrainsRecognizes a creative, polished app built for both iOS and Android using Kotlin Multiplatform, Compose Multiplatform, or both. Judges will consider cross-platform quality, consistency, and effective use of Kotlin. Optional consideration may be given to useful build content and contributions to the Kotlin Multiplatform community. Most Viral App — NoiseAwarded to the app that captures the most attention in its market through high-quality, scalable content that converts into downloads. Judges will consider virality, whether the creative formats can be repeated at scale, and how clearly the content communicates the app’s value and addresses users’ needs. Best App for Galaxy — SamsungRecognizes a high-quality app published on the Galaxy Store and thoughtfully optimized for Samsung Galaxy users. Judges will consider the overall app experience and Galaxy-specific optimization, including foldable-device support, Samsung features, and device performance. Galaxy Store exclusivity may receive bonus consideration but is not required. Replit’s Idea to IncomeRecognizes a project that uses Replit to turn a new idea into a live, monetizing mobile app. Judges will primarily consider consistent week-over-week growth in revenue and transactions, supported by paying-user traction, product craft, visual design, and meaningful community engagement. Keep Them Coming Back Award — OneSignalRecognizes an app that uses OneSignal thoughtfully to bring users back. Judges will consider the quality and stability of the implementation, the value it adds to the user experience, and how creatively the app uses campaigns, push notifications, Journeys, or advanced messaging capabilities. The Growth Loop Award — LayersRecognizes a team that treats growth as a process of testing, measuring, learning, and improving. Judges will consider the clarity of the audience and growth hypothesis, how Layers was used to run and observe a focused experiment, whether the SDK was installed correctly, and what the team learned or would try next. Funnel Vision Award — StripeRecognizes a project that launches a web funnel using RevenueCat Funnels and Stripe. Judges will consider the qualifying web payment volume processed during the measurement period and whether the funnel is thoughtfully designed, functional, and effectively implemented. Prize structure You can find the official details of prizes at the bottom of this page, but here's how it all breaks down: Grand Prize Winner $100,000 Trip to New York City for the Shippies award ceremony and RevenueCat's App Growth Annual conference Custom Shippy trophy (presented live on stage!) App featured on a massive Times Square billboard Media spotlight on 9to5Mac and 9to5Google #BuildInPublic Category 1st Place: $30,000 + custom Shippy trophy + Times Square billboard feature + media spotlight + Trip to New York City for the Shippies award ceremony and RevenueCat's App Growth Annual conference 2nd Place: $20,000 3rd Place: $10,000 OneSignal's Keep Them Coming Back Award winner 1st Place: $25,000 + custom Shippy trophy + Times Square billboard feature + media spotlight 2nd Place: $15,000 3rd Place: $5,000 All Other Categories 1st Place: $20,000 + custom Shippy trophy + Times Square billboard feature + media spotlight 2nd Place: $10,000 3rd Place: $5,000 Supported by the industry This year, our sponsors have shown up big. Huge thanks to Replit, OneSignal, JetBrains, Layers, Noise, Stripe, and Samsung for coming in as category sponsors for Shipaton 2026. And more sponsors are joining the fun all the time, which means bigger cash prizes and more additions to the Ship Kit. Ship Kit is back: Freebies for every Shipaton participant Ship Kit is your bundle of tools, credits, deals, and resources from our sponsors to help you build faster, launch better, and save a lot of money along the way. Some deals are while supplies last, so the sooner you register at the top of this page, the sooner you get access as Ship Kit starts to roll out. The #ShipatonSale If you have an app, tool, service, course, or template that could help Shipaton builders, run a sale for participants and share it with the #ShipatonSale hashtag. Submit it on the Shipaton website and we'll list community sales for everyone to find. Even if you're not competing, there are ways to support the builders who are. Shipaton IRL: Events near you We're excited to take Shipaton directly to developers around the world with Shipaton IRL. Last year, builders gathered in Tokyo, Seoul, London, St. Louis, Barcelona, Delhi, Vancouver, Warsaw, Skopje, and dozens of cities in between. This year, we want even more: kickoff parties, co-working days, weekend build sprints, launch-day meetups, and campus hackathons. Check out the events page regularly, as new events are being added all the time! Want to host a Shipaton event yourself? Apply now - we'd love to support you. Approved hosts get a Meetup-in-a-box with Shipaton swag, food vouchers, and organizer resources, and we'll promote your event to the massive Shipaton audience. Perfect for developer communities, hacker clubs, and student organizers planning campus events. Join the conversation on Discord! Shipaton isn't just about shipping code - it's about community. Whether you're brainstorming your first idea or prepping for launch day, the official Shipaton Discord is the place to connect, collaborate, and share the journey. Inside, you'll find fellow builders from around the world debugging code, running paywall experiments, discussing launch strategies, and more. Looking to form a team? Need quick feedback? Want to hang out with other shippers? You'll find it here. We've also created a dedicated #post-engagement-boost channel where you can share your YouTube videos, posts, and other #BuildInPublic content so other participants can like, comment, or share to help you reach a bigger audience. It's all about creating a positive, encouraging space where we lift each other - and help each other ship. Shipaton Livestreams Throughout the event, we'll host twice-a-week livestreams with expert guests, practical sessions, and live Q&A — so you're never building alone for two months. Come say hi 👋 and make the most of Shipaton! Ready, set, ship! Submissions open on August 1st and close on September 30th. Be sure to carefully review all submission requirements to ensure your app qualifies. We're beyond excited to see what the global builder community creates this year. Register today, and we'll keep you updated via the email address you use there. Let's get shipping!",
-      "summary": "Welcome to the RevenueCat Shipaton — the mobile hackathon that's all about shipping… a ton. At RevenueCat, we're all about supporting developers to build and monetize amazing apps. After the overwhelm...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-10-01T06:45:00.000Z",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/663/632/datas/medium_square.jpg",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$740,000",
-      "tags": [
-        "Design",
-        "Gaming",
-        "Mobile"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [
-        "and we'll keep you updated via the email address you use there. Let's get shipping!"
-      ],
+      "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:27.176Z",
-      "scrapedAt": "2026-08-27T08:17:41.963Z",
-      "lastUpdated": "2026-08-27T08:19:27.176Z",
+      "processedAt": "2026-08-27T22:04:19.583Z",
+      "scrapedAt": "2026-08-27T22:02:36.979Z",
+      "lastUpdated": "2026-08-27T22:04:19.583Z",
       "version": 1
     },
     {
@@ -360,18 +380,14 @@
       "title": "All Things Agentic Hackathon",
       "platform": "devpost",
       "url": "https://allthingsagentichackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/067/604/datas/original.png",
-      "description": "A global hackathon to build next-generation AI agents on Gemini and Google Cloud. All skill levels welcome. Most AI today waits for you to ask. The next generation doesn't. AI agents are systems that can take a goal, make a plan, and actually carry it out — pulling information, making decisions, and completing multi-step tasks on their own, while you do something else. All things agentic hacakthon is a global hackathon that challenges you to build one. Using Gemini, Google's open-source Agent Development Kit (ADK), and Google Cloud, you'll create an agent that takes real action to remove everyday friction — at work, at home, or across an entire enterprise. You don't need to be an AI researcher to take part. Whether you're a seasoned engineer or building your first agent, we give you the tools, starter guides, and $150 in Google Cloud credits to go from idea to working demo. Pick a track, build your agent, and show us what \"autonomous\" really looks like. Whether you're a full-stack engineer, a system architect, or a startup founder, this hackathon hands you the tools to build agents that actively work for everyone. Redefining interaction — from static chatbots to immersive experiences. How to Get Started Follow these steps to go from sign-up to submission in a weekend and lean on the Resources tab, packed with guides, credits, and cost-saving tips to help you win. Get your tools. Sign up for a no-cost Google Cloud trial, then grab your $150 in Google Cloud credits using the credit form on the Resources tab. Learn the basics. New to agents? The beginner guides in Resources walk you through what an agent is and how to build your first one with ADK — no experience required. Pick a track. Choose the one that fits your idea: The Taskmaster, The Collaborative Partner, or The Fortified Enterprise Fleet. Enter any track you like — full track breakdowns are waiting in Resources. Build on Gemini + Google Cloud. Keep your spend low with the cost-saving tips in Resources. Submit before the deadline: a demo video, your code repo, an architecture diagram, and a short write-up. Full checklist below under \"What to Submit.\" Everything you need is one click away — hit View Resources to explore the guides, credits, and track deep-dives. Tips to be successful: solve a real, specific problem you actually have; show your agent doing something, not just talking; keep your demo video tight and show it working live; and document your project so a judge can follow it.",
-      "summary": "A global hackathon to build next-generation AI agents on Gemini and Google Cloud. All skill levels welcome. Most AI today waits for you to ask. The next generation doesn't. AI agents are systems that ...",
-      "contestType": "video",
-      "status": "active",
-      "difficulty": "beginner",
-      "deadline": "2026-09-01T00:00:00.000Z",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/067/604/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$180,000",
-      "tags": [
-        "Enterprise",
-        "Productivity"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -380,9 +396,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:27.179Z",
-      "scrapedAt": "2026-08-27T08:17:41.964Z",
-      "lastUpdated": "2026-08-27T08:19:27.179Z",
+      "processedAt": "2026-08-27T22:04:19.575Z",
+      "scrapedAt": "2026-08-27T22:02:36.980Z",
+      "lastUpdated": "2026-08-27T22:04:19.575Z",
       "version": 1
     },
     {
@@ -390,18 +406,14 @@
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "platform": "devpost",
       "url": "https://agentic-cinema.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/901/608/datas/original.jpg",
-      "description": "🎬 Lights. Camera. Code. Calling all ecosystem architects and autonomous builders! Step onto the studio lot and transform real-world enterprise chaos into a seamless cinematic production with Gemini. Join Google Cloud and our elite, star-studded partner ecosystem for a first-of-its-kind Summer Blockbuster hackathon! In the era of Agentic AI, writing raw lines of code is just the background noise. The real magic happens when you orchestrate the system. Whether you want to play the visionary Director building production-ready autonomous agent networks, the Technical Producer connecting secure data pipelines via managed MCP servers, or the Studio Head enforcing Cloud IAM security and governance across multi-agent workflows—the backlot is yours. Vibe code with Gemini Enterprise and our leading partner technologies to cast the perfect enterprise tech stack and build the next generation of AI applications fit for the big screen. 🌟 Why Join? Direct Your AI Crew: Get hands-on with Gemini Enterprise Agent Platform and cutting-edge partner tools to transition your local ideas into production-scale architectures. Walk the Red Carpet: Pitch your automated production workflows directly to executive judges, enterprise experts, and elite engineering leaders. 🏆 The Box Office Prizes There are three identical prize buckets—one for each of our featured partner tracks. Instead of a single, crowded pool, you are competing directly within the specific \"studio track\" of your chosen partner technology. How to Secure the Greenlight: Cast Your Co-Star: Choose the partner platform that holds the data or application workflows your agent needs to interact with. Build with Gemini Enterprise: Build your agentic workflow on Google Cloud using the Gemini Enterprise Agent Platform. Connect to your partner tool using robust enterprise pipelines, API frameworks, or managed protocol adapters. Dominate Your Track: Show off a deterministic, multi-step agent that solves enterprise friction. You will be judged exclusively against other builders inside your chosen partner track.",
-      "summary": "🎬 Lights. Camera. Code. Calling all ecosystem architects and autonomous builders! Step onto the studio lot and transform real-world enterprise chaos into a seamless cinematic production with Gemini. ...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "advanced",
-      "deadline": "2026-09-09T21:00:00.000Z",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/901/608/datas/medium_square.jpg",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
       "prize": "$75,000",
-      "tags": [
-        "Databases",
-        "Open Ended"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -410,9 +422,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:27.183Z",
-      "scrapedAt": "2026-08-27T08:17:41.965Z",
-      "lastUpdated": "2026-08-27T08:19:27.183Z",
+      "processedAt": "2026-08-27T22:04:19.577Z",
+      "scrapedAt": "2026-08-27T22:02:36.981Z",
+      "lastUpdated": "2026-08-27T22:04:19.577Z",
       "version": 1
     },
     {
@@ -420,18 +432,14 @@
       "title": "Agents for Humans Hackathon",
       "platform": "devpost",
       "url": "https://agentsforhumans.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/064/760/datas/original.jpg",
-      "description": "Every day, people lose hours to small, repetitive tasks like paying bills, scheduling meetings, or filling out the same paperwork again. On their own they're minor, but together they drain real time and attention. AWS wants to help you change that! Build an AI agent with the Strands Agents SDK that handles routine and repetitive tasks in the background. Instead of another app people open and manage, the agent runs autonomously and only surfaces when there's a real decision to make. This theme is open to any part of life, from home and work to health, money, errands, and family. Whatever you want to solve, there's a track for it. Six weeks. One build. We're looking forward to seeing what you create. Why Join? 🏆 Compete for $40,000 in cash prizes across three tracks 🌐 Build with Strands Agents SDK, open source, production ready, built and trusted by teams at AWS🛠️ Solve real problems people actually deal with, from daily chores to professional workloads to community logistics💳 Get $50 in AWS credits to cover your build costs (go to the Resources tab for request form)🌍 Open to developers worldwide, solo or team, new or seasoned📝 Earn bonus points by publishing your build story on builder.aws.com (see rules for details)",
-      "summary": "Every day, people lose hours to small, repetitive tasks like paying bills, scheduling meetings, or filling out the same paperwork again. On their own they're minor, but together they drain real time a...",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/064/760/datas/medium_square.jpg",
+      "description": "",
+      "summary": "...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-09-15T00:00:00.000Z",
       "prize": "$40,000",
-      "tags": [
-        "Beginner Friendly",
-        "Open Ended"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -440,39 +448,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:27.179Z",
-      "scrapedAt": "2026-08-27T08:17:41.965Z",
-      "lastUpdated": "2026-08-27T08:19:27.180Z",
-      "version": 1
-    },
-    {
-      "id": "c_7bbfa2888591",
-      "title": "CALL-E: Your Code Is Calling",
-      "platform": "devpost",
-      "url": "https://call-e.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/977/426/datas/original.png",
-      "description": "About the challenge CALL-E is a developer-first platform for building AI agents that make real phone calls and get real-world tasks done. Instead of stopping at text, your agents can plan a call, dial out, hold a natural conversation, adapt in real time, and return structured results you can act on — all through CALL-E's SDK, API, and MCP. In other words: your agents can finally pick up the phone (and actually get something done while they're on the line). ☎️ In CALL-E: Your Code Is Calling, you'll put that to work. Build and deploy a functional application that uses CALL-E to solve a real business or project problem — customer outreach, appointment scheduling, lead qualification, service coordination, workflow automation, or something no one's tried yet. Whether you're an AI engineer, agent builder, or technical founder, this is your chance to push a brand-new platform in directions its makers haven't imagined, share feedback that shapes the roadmap, and compete for a share of $10,000 in prizes. Why join Build something real. Ship an AI agent that completes actual tasks over the phone — not a demo that just generates text. Work with a new platform first. Get hands-on early with CALL-E's SDK, API, MCP, CLI, or SKILL, and help shape what it becomes. Shape the roadmap. Your feedback and bug reports go straight to the CALL-E team, with prizes for the most useful input. Compete for $10,000 in cash prizes, plus meetings with the CALL-E team, blog features, and CALL-E credits. Get started Install CALL-E and sign in (5 min) by following the installation guide. You'll get a CALL-E account with 20 free calls automatically. Need more? Request additional calls via this form. Connect it to your agent via MCP, SDK, API, CLI, or SKILL using the integration guide (~30 min). Browse example skills and apps and brainstorm your build (30 minutes)",
-      "summary": "About the challenge CALL-E is a developer-first platform for building AI agents that make real phone calls and get real-world tasks done. Instead of stopping at text, your agents can plan a call, dial...",
-      "contestType": "text",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-09-14T15:45:00.000Z",
-      "prize": "$10,000",
-      "tags": [
-        "Communication",
-        "Enterprise"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:27.205Z",
-      "scrapedAt": "2026-08-27T08:17:41.966Z",
-      "lastUpdated": "2026-08-27T08:19:27.205Z",
+      "processedAt": "2026-08-27T22:04:19.661Z",
+      "scrapedAt": "2026-08-27T22:02:36.982Z",
+      "lastUpdated": "2026-08-27T22:04:19.661Z",
       "version": 1
     },
     {
@@ -496,9 +474,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:28.202Z",
-      "scrapedAt": "2026-08-27T08:17:41.966Z",
-      "lastUpdated": "2026-08-27T08:19:28.202Z",
+      "processedAt": "2026-08-27T22:04:20.657Z",
+      "scrapedAt": "2026-08-27T22:02:36.982Z",
+      "lastUpdated": "2026-08-27T22:04:20.657Z",
+      "version": 1
+    },
+    {
+      "id": "c_7bbfa2888591",
+      "title": "CALL-E: Your Code Is Calling",
+      "platform": "devpost",
+      "url": "https://call-e.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/977/426/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "code",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$10,000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-08-27T22:04:20.658Z",
+      "scrapedAt": "2026-08-27T22:02:36.983Z",
+      "lastUpdated": "2026-08-27T22:04:20.658Z",
       "version": 1
     },
     {
@@ -524,9 +528,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:28.203Z",
-      "scrapedAt": "2026-08-27T08:17:41.967Z",
-      "lastUpdated": "2026-08-27T08:19:28.203Z",
+      "processedAt": "2026-08-27T22:04:20.659Z",
+      "scrapedAt": "2026-08-27T22:02:36.983Z",
+      "lastUpdated": "2026-08-27T22:04:20.659Z",
       "version": 1
     },
     {
@@ -550,9 +554,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:28.203Z",
-      "scrapedAt": "2026-08-27T08:17:41.967Z",
-      "lastUpdated": "2026-08-27T08:19:28.203Z",
+      "processedAt": "2026-08-27T22:04:20.661Z",
+      "scrapedAt": "2026-08-27T22:02:36.984Z",
+      "lastUpdated": "2026-08-27T22:04:20.661Z",
       "version": 1
     },
     {
@@ -576,9 +580,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:28.201Z",
-      "scrapedAt": "2026-08-27T08:17:41.968Z",
-      "lastUpdated": "2026-08-27T08:19:28.201Z",
+      "processedAt": "2026-08-27T22:04:20.740Z",
+      "scrapedAt": "2026-08-27T22:02:36.985Z",
+      "lastUpdated": "2026-08-27T22:04:20.740Z",
       "version": 1
     },
     {
@@ -602,9 +606,39 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:28.226Z",
-      "scrapedAt": "2026-08-27T08:17:41.972Z",
-      "lastUpdated": "2026-08-27T08:19:28.226Z",
+      "processedAt": "2026-08-27T22:04:21.742Z",
+      "scrapedAt": "2026-08-27T22:02:36.985Z",
+      "lastUpdated": "2026-08-27T22:04:21.742Z",
+      "version": 1
+    },
+    {
+      "id": "c_1f21f4ef18ad",
+      "title": "分享你的 Qwen3.8-27B 实践经验，瓜分 10,000 元现金奖励",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/357",
+      "imageUrl": "",
+      "description": "我们在社区中发起一个 征集 Qwen3.8-27B 实践经验征集活动，希望通过本次活动，与社区共同建设一个实用、可检索、能复现的 Qwen3.8-27B 知识库。\n\n在部署和使用 Qwen3.8-27B 的过程中，许多开发者已经积累了宝贵的配置方案、测试数据和问题排查经验。我们在社区中发起一个 征集 Qwen3.8-27B 实践经验征集活动，希望通过本次活动，与社区共同建设一个实用、可检索、能复现的 Qwen3.8-27B 知识库。无论你完成了本地部署、测试了不同量化版本、解决了疑难问题，还是基于模型开发了实际应用，都欢迎创建 Issue 分享你的经验。活动时间投稿截止：2026 年 9 月 15 日奖励公布：2026 年 9 月 18 日参与方式请在 Qwen3.8-27B 模型仓库中 单独创建 Issue（点此直达），不要将完整内容直接发布在本活动的评论区。操作步骤123分享内容格式Issue 标题请选择以下格式之一：【经验分享】你的标题xxxx\n【部署教程】你的标题xxxx\n【性能测试】你的标题xxxx\n【问题解决】你的标题xxxx\n【踩坑记录】你的标题xxxx\n【应用案例】你的标题xxxx分享方向内容包括但不限于：\n● 不同硬件环境下的部署配置\n● llama.cpp、vLLM 等框架的运行方法\n● GGUF、AWQ、FP8 等量化格式对比\n● 显存占用、生成速度与并发性能测试\n● 长上下文、Thinking、智能体及工具调用经验\n● 重复生成、无法停止、请求超时等问题排查\n● API 服务部署与性能优化\n● 基于 Qwen3.8-27B 的实际应用案例\n只要是经过实际验证、能够帮助其他开发者少走弯路的内容，都欢迎分享。提交 Issue 链接发布后，请在【问卷】中提交：• Issue 链接• 一句话内容简介奖励设置本次活动设置总额 10,000 元人民币现金奖金池：奖项名额奖金社区周边一等奖1 名3,000 元Qwen卡皮巴拉玩偶（大）+T恤二等奖2 名1,500 元Qwen卡皮巴拉玩偶（大）三等奖6 名500 元Qwen卡皮巴拉玩偶（小）人气奖2 名500 元Qwen、ModelScope 徽章套装一、二、三等奖由专业评审产生，人气奖根据有效投稿的点赞情况评选。人气奖可以与专业评审奖重复获得。参评条件投稿同时满足以下条件，方可进入评审：内容与 Qwen3.8-27B 的部署、使用、测试或应用开发相关；内容为原创，或经过投稿者本人实际验证；包含明确的模型版本、运行环境、关键参数、测试数据或排查过程；对其他开发者具有实际参考价值，并具备一定的可复现性；在活动截止时间前创建 Issue，并通过指定问卷完成登记；不存在抄袭、重复投稿、伪造数据或异常刷赞等行为。仅介绍基础概念、缺少实际验证、内容过于简单，或与 Qwen3.8-27B 无明确关联的投稿，不进入奖励评审。专业评审标准除人气奖外，其他奖项由活动评审组根据以下标准综合评分：评审维度分值评审重点实用价值25 分是否解决真实问题，能否帮助其他开发者少走弯路可复现性25 分环境、版本、参数、代码及操作步骤是否完整技术深度20 分是否包含深入分析、对比测试或有效的问题排查真实性与数据依据20 分是否有日志、截图、测试数据或实际运行结果支撑内容表达10 分结构是否清晰，信息是否准确，阅读是否方便总分100 分社区点赞不计入专业评审分数。人气奖规则人气奖仅从通过资格初审的有效投稿中产生；点赞统计截止时间为 2026 年 9 月 15 日 23:59（北京时间）；活动方将统一记录截止时的点赞数据；如点赞数相同，优先选择专业评审得分较高的投稿；异常账号集中点赞、批量互赞或其他刷赞行为不计入统计，情节严重者将取消参评资格。其他说明由于 Issue 发布后无法直接修改，请在发布前仔细检查并预览内容。少量补充或修正可在原 Issue 下通过评论说明；如存在重大错误或敏感信息，可删除后重新发布，并通过问卷提交新链接。重新发布后，点赞数按新 Issue 统计。评审将综合正文及截止时间前的作者补充评论。获奖名单公示后，活动方将联系获奖者登记身份及收款信息。奖金均为税前金额，预计在信息确认后的 15 个工作日内发放，实际到账金额以依法扣除相关税费后的金额为准。如有效投稿数量不足或质量未达到要求，部分奖项可以空缺。抄袭、伪造数据、泄露敏感信息或异常刷赞者，将被取消参评及获奖资格。引用他人内容时请注明来源，相关问题请在对应 Issue 下讨论。期待大家分享真实、具体、可复现的实践经验，一起完善 Qwen3.8-27B 社区知识库，帮助更多开发者少走弯路！",
+      "summary": "我们在社区中发起一个 征集 Qwen3.8-27B 实践经验征集活动，希望通过本次活动，与社区共同建设一个实用、可检索、能复现的 Qwen3.8-27B 知识库。\n\n在部署和使用 Qwen3.8-27B 的过程中，许多开发者已经积累了宝贵的配置方案、测试数据和问题排查经验。我们在社区中发起一个 征集 Qwen3.8-27B 实践经验征集活动，希望通过本次活动，与社区共同建设一个实用、可检索、能复现...",
+      "contestType": "code",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-09-15T15:59:00.000Z",
+      "prize": "10,000元现金奖励",
+      "tags": [
+        "llm",
+        "研习社征文赛"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-08-27T22:04:21.738Z",
+      "scrapedAt": "2026-08-27T22:01:58.776Z",
+      "lastUpdated": "2026-08-27T22:04:21.738Z",
       "version": 1
     },
     {
@@ -637,9 +671,9 @@
         "主要面向全国希望将人工智能方法应用于科学研究的研究生、青年科研人员"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:29.225Z",
-      "scrapedAt": "2026-08-27T08:17:04.700Z",
-      "lastUpdated": "2026-08-27T08:19:29.225Z",
+      "processedAt": "2026-08-27T22:04:21.738Z",
+      "scrapedAt": "2026-08-27T22:01:58.776Z",
+      "lastUpdated": "2026-08-27T22:04:21.738Z",
       "version": 1
     },
     {
@@ -667,9 +701,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:29.224Z",
-      "scrapedAt": "2026-08-27T08:17:04.700Z",
-      "lastUpdated": "2026-08-27T08:19:29.224Z",
+      "processedAt": "2026-08-27T22:04:21.737Z",
+      "scrapedAt": "2026-08-27T22:01:58.776Z",
+      "lastUpdated": "2026-08-27T22:04:21.737Z",
       "version": 1
     },
     {
@@ -696,9 +730,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:29.230Z",
-      "scrapedAt": "2026-08-27T08:17:04.700Z",
-      "lastUpdated": "2026-08-27T08:19:29.230Z",
+      "processedAt": "2026-08-27T22:04:21.819Z",
+      "scrapedAt": "2026-08-27T22:01:58.776Z",
+      "lastUpdated": "2026-08-27T22:04:21.819Z",
       "version": 1
     },
     {
@@ -725,9 +759,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:29.224Z",
-      "scrapedAt": "2026-08-27T08:17:04.700Z",
-      "lastUpdated": "2026-08-27T08:19:29.224Z",
+      "processedAt": "2026-08-27T22:04:22.822Z",
+      "scrapedAt": "2026-08-27T22:01:58.777Z",
+      "lastUpdated": "2026-08-27T22:04:22.822Z",
       "version": 1
     },
     {
@@ -754,9 +788,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:29.248Z",
-      "scrapedAt": "2026-08-27T08:17:04.703Z",
-      "lastUpdated": "2026-08-27T08:19:29.248Z",
+      "processedAt": "2026-08-27T22:04:22.820Z",
+      "scrapedAt": "2026-08-27T22:01:58.779Z",
+      "lastUpdated": "2026-08-27T22:04:22.820Z",
       "version": 1
     },
     {
@@ -789,9 +823,9 @@
         "纯插件原生能力。踩坑点：Browser 插件默认超时 30s"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:30.251Z",
-      "scrapedAt": "2026-08-27T08:17:04.704Z",
-      "lastUpdated": "2026-08-27T08:19:30.251Z",
+      "processedAt": "2026-08-27T22:04:22.821Z",
+      "scrapedAt": "2026-08-27T22:01:58.779Z",
+      "lastUpdated": "2026-08-27T22:04:22.821Z",
       "version": 1
     },
     {
@@ -824,9 +858,9 @@
         "AI 原型完成后"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:30.250Z",
-      "scrapedAt": "2026-08-27T08:17:04.704Z",
-      "lastUpdated": "2026-08-27T08:19:30.250Z",
+      "processedAt": "2026-08-27T22:04:22.819Z",
+      "scrapedAt": "2026-08-27T22:01:58.779Z",
+      "lastUpdated": "2026-08-27T22:04:22.819Z",
       "version": 1
     },
     {
@@ -851,9 +885,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:30.251Z",
-      "scrapedAt": "2026-08-27T08:17:04.704Z",
-      "lastUpdated": "2026-08-27T08:19:30.251Z",
+      "processedAt": "2026-08-27T22:04:22.895Z",
+      "scrapedAt": "2026-08-27T22:01:58.779Z",
+      "lastUpdated": "2026-08-27T22:04:22.895Z",
       "version": 1
     },
     {
@@ -865,7 +899,7 @@
       "description": "在生产力革命4.0的开端，我们邀请了5位一线Founder+蚂蚁战投投资人和大家一起聊一聊新“基建”【AI4S与量子计算】技术的岔路口、发展的关键变量、商业化第一步、融资路上的喜与优……\n\nAI4S+量子计算，前沿科技如何“上桌”？📍 地点：上海·静安📅 时间：8月28日 13:00-16:30本期MSD2D有点硬核！我们聚焦【AI4S+量子计算】方向邀请6位一线Founder+2位投资人轮番上台● 无界量子联合创始人 胡海洋● 新研智材联合创始人&CTO● 复鞍智能CEO 商城● 深度原理副总裁 滕辉● 璇相科技联合创始人&CTO 吴家昊● 蚂蚁战投投资副总监 尹航● 幺正量子副总经理 张洋💡没有PPT式吹牛，只有创业者的真实复盘他们要回答的问题很实在：·当前的项目进展如何？·技术路线的分岔口，为什么选了这条路？·商业化第一公里，踩了哪些坑？·融资路上，哪些经验能少交学费？·未来最关键的3个变量是什么？🎯 面向人群：AI早期创业者 / 技术型创始人 / AI原生科学家/相关赛道投资人📝 报名须知：扫码报名，活动采取审核机制，将提前通过【短信】📩 同步地点🏢 关于我们：蚂上加速器是由蚂蚁集团投资部推出的面向AI早期创业者的“成长加速计划”，我们关注和AI相关的一切，聚焦已完成产品Demo，正在冲刺1-10阶段的创业者，为大家提供创业路上最重要的“3+1”赋能体系——关键资本助力、产品商业洞察、品牌势能传播以及丰富的蚂蚁生态资源，我们希望成为创业者身边的同行伙伴，全方位陪伴从Demo到落地的全链路成长。",
       "summary": "在生产力革命4.0的开端，我们邀请了5位一线Founder+蚂蚁战投投资人和大家一起聊一聊新“基建”【AI4S与量子计算】技术的岔路口、发展的关键变量、商业化第一步、融资路上的喜与优……\n\nAI4S+量子计算，前沿科技如何“上桌”？📍 地点：上海·静安📅 时间：8月28日 13:00-16:30本期MSD2D有点硬核！我们聚焦【AI4S+量子计算】方向邀请6位一线Founder+2位投资人轮番...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
       "deadline": "2026-08-27T15:00:00.000Z",
       "prize": "",
@@ -880,38 +914,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:30.257Z",
-      "scrapedAt": "2026-08-27T08:17:04.704Z",
-      "lastUpdated": "2026-08-27T08:19:30.257Z",
-      "version": 1
-    },
-    {
-      "id": "c_4d2d630f665e",
-      "title": "【外滩大会】Al驱动新终端新服务见解论坛",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/349",
-      "imageUrl": "",
-      "description": "Al 终端的新答案，9月11日正式揭晓。当AI重新定义交互，当服务从“工具”进化 成“伙伴”，灵影 AOS 带你解锁 AI终端生态的无限可能。重量级嘉宾与行业大咖 已就位，共同见证“系统共建、服务共创、应用共菜、硬件共筑”的生态新范式从 蓝图照进现实，现场还有诸多AI终端品牌新品发布。融合共创，共赢未来--AI终 端未来的关键一跃，等你来一起开启！ 时间：2026年9月11日，09:30-12:00 地点：上海市黄浦区局门路689号黄浦世博园区C1馆",
-      "summary": "Al 终端的新答案，9月11日正式揭晓。当AI重新定义交互，当服务从“工具”进化 成“伙伴”，灵影 AOS 带你解锁 AI终端生态的无限可能。重量级嘉宾与行业大咖 已就位，共同见证“系统共建、服务共创、应用共菜、硬件共筑”的生态新范式从 蓝图照进现实，现场还有诸多AI终端品牌新品发布。融合共创，共赢未来--AI终 端未来的关键一跃，等你来一起开启！ 时间：2026年9月11日，09:30-12:0...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-09-10T02:00:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:30.279Z",
-      "scrapedAt": "2026-08-27T08:17:04.705Z",
-      "lastUpdated": "2026-08-27T08:19:30.279Z",
+      "processedAt": "2026-08-27T22:04:23.897Z",
+      "scrapedAt": "2026-08-27T22:01:58.779Z",
+      "lastUpdated": "2026-08-27T22:04:23.897Z",
       "version": 1
     },
     {
@@ -925,7 +930,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-09-14T08:18:16.895Z",
+      "deadline": "2026-09-13T22:03:07.761Z",
       "prize": "€2 000 EUR",
       "tags": [],
       "aiTools": [
@@ -936,9 +941,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:31.276Z",
-      "scrapedAt": "2026-08-27T08:18:16.895Z",
-      "lastUpdated": "2026-08-27T08:19:31.276Z",
+      "processedAt": "2026-08-27T22:04:23.897Z",
+      "scrapedAt": "2026-08-27T22:03:07.762Z",
+      "lastUpdated": "2026-08-27T22:04:23.897Z",
       "version": 1
     },
     {
@@ -962,9 +967,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:31.276Z",
-      "scrapedAt": "2026-08-27T08:18:16.899Z",
-      "lastUpdated": "2026-08-27T08:19:31.276Z",
+      "processedAt": "2026-08-27T22:04:23.905Z",
+      "scrapedAt": "2026-08-27T22:03:07.762Z",
+      "lastUpdated": "2026-08-27T22:04:23.905Z",
       "version": 1
     },
     {
@@ -988,9 +993,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:31.276Z",
-      "scrapedAt": "2026-08-27T08:18:16.899Z",
-      "lastUpdated": "2026-08-27T08:19:31.276Z",
+      "processedAt": "2026-08-27T22:04:23.900Z",
+      "scrapedAt": "2026-08-27T22:03:07.762Z",
+      "lastUpdated": "2026-08-27T22:04:23.900Z",
       "version": 1
     },
     {
@@ -1014,9 +1019,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:31.282Z",
-      "scrapedAt": "2026-08-27T08:18:16.899Z",
-      "lastUpdated": "2026-08-27T08:19:31.282Z",
+      "processedAt": "2026-08-27T22:04:23.982Z",
+      "scrapedAt": "2026-08-27T22:03:07.763Z",
+      "lastUpdated": "2026-08-27T22:04:23.982Z",
       "version": 1
     },
     {
@@ -1030,7 +1035,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-09-01T08:18:16.899Z",
+      "deadline": "2026-08-31T22:03:07.764Z",
       "tags": [
         "ai"
       ],
@@ -1042,9 +1047,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:31.297Z",
-      "scrapedAt": "2026-08-27T08:18:16.900Z",
-      "lastUpdated": "2026-08-27T08:19:31.297Z",
+      "processedAt": "2026-08-27T22:04:24.983Z",
+      "scrapedAt": "2026-08-27T22:03:07.764Z",
+      "lastUpdated": "2026-08-27T22:04:24.983Z",
       "version": 1
     },
     {
@@ -1069,9 +1074,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:32.302Z",
-      "scrapedAt": "2026-08-27T08:18:16.900Z",
-      "lastUpdated": "2026-08-27T08:19:32.302Z",
+      "processedAt": "2026-08-27T22:04:24.981Z",
+      "scrapedAt": "2026-08-27T22:03:07.764Z",
+      "lastUpdated": "2026-08-27T22:04:24.981Z",
       "version": 1
     },
     {
@@ -1095,9 +1100,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:32.302Z",
-      "scrapedAt": "2026-08-27T08:18:16.900Z",
-      "lastUpdated": "2026-08-27T08:19:32.302Z",
+      "processedAt": "2026-08-27T22:04:24.980Z",
+      "scrapedAt": "2026-08-27T22:03:07.765Z",
+      "lastUpdated": "2026-08-27T22:04:24.980Z",
       "version": 1
     },
     {
@@ -1121,9 +1126,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:32.304Z",
-      "scrapedAt": "2026-08-27T08:18:16.900Z",
-      "lastUpdated": "2026-08-27T08:19:32.304Z",
+      "processedAt": "2026-08-27T22:04:24.980Z",
+      "scrapedAt": "2026-08-27T22:03:07.766Z",
+      "lastUpdated": "2026-08-27T22:04:24.980Z",
       "version": 1
     },
     {
@@ -1147,9 +1152,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:32.308Z",
-      "scrapedAt": "2026-08-27T08:18:16.901Z",
-      "lastUpdated": "2026-08-27T08:19:32.308Z",
+      "processedAt": "2026-08-27T22:04:25.062Z",
+      "scrapedAt": "2026-08-27T22:03:07.766Z",
+      "lastUpdated": "2026-08-27T22:04:25.062Z",
       "version": 1
     },
     {
@@ -1173,9 +1178,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:32.330Z",
-      "scrapedAt": "2026-08-27T08:18:16.901Z",
-      "lastUpdated": "2026-08-27T08:19:32.330Z",
+      "processedAt": "2026-08-27T22:04:26.077Z",
+      "scrapedAt": "2026-08-27T22:03:07.767Z",
+      "lastUpdated": "2026-08-27T22:04:26.077Z",
       "version": 1
     },
     {
@@ -1199,9 +1204,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:33.331Z",
-      "scrapedAt": "2026-08-27T08:18:16.901Z",
-      "lastUpdated": "2026-08-27T08:19:33.331Z",
+      "processedAt": "2026-08-27T22:04:26.058Z",
+      "scrapedAt": "2026-08-27T22:03:07.767Z",
+      "lastUpdated": "2026-08-27T22:04:26.058Z",
       "version": 1
     },
     {
@@ -1225,9 +1230,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:33.330Z",
-      "scrapedAt": "2026-08-27T08:18:16.901Z",
-      "lastUpdated": "2026-08-27T08:19:33.330Z",
+      "processedAt": "2026-08-27T22:04:26.060Z",
+      "scrapedAt": "2026-08-27T22:03:07.768Z",
+      "lastUpdated": "2026-08-27T22:04:26.060Z",
       "version": 1
     },
     {
@@ -1250,9 +1255,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:33.329Z",
-      "scrapedAt": "2026-08-27T08:18:16.902Z",
-      "lastUpdated": "2026-08-27T08:19:33.329Z",
+      "processedAt": "2026-08-27T22:04:26.060Z",
+      "scrapedAt": "2026-08-27T22:03:07.768Z",
+      "lastUpdated": "2026-08-27T22:04:26.060Z",
       "version": 1
     },
     {
@@ -1276,9 +1281,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:33.329Z",
-      "scrapedAt": "2026-08-27T08:18:16.902Z",
-      "lastUpdated": "2026-08-27T08:19:33.329Z",
+      "processedAt": "2026-08-27T22:04:26.152Z",
+      "scrapedAt": "2026-08-27T22:03:07.769Z",
+      "lastUpdated": "2026-08-27T22:04:26.152Z",
       "version": 1
     },
     {
@@ -1304,9 +1309,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:33.348Z",
-      "scrapedAt": "2026-08-27T08:18:16.902Z",
-      "lastUpdated": "2026-08-27T08:19:33.348Z",
+      "processedAt": "2026-08-27T22:04:27.166Z",
+      "scrapedAt": "2026-08-27T22:03:07.769Z",
+      "lastUpdated": "2026-08-27T22:04:27.166Z",
       "version": 1
     },
     {
@@ -1330,9 +1335,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:34.355Z",
-      "scrapedAt": "2026-08-27T08:18:16.902Z",
-      "lastUpdated": "2026-08-27T08:19:34.355Z",
+      "processedAt": "2026-08-27T22:04:27.153Z",
+      "scrapedAt": "2026-08-27T22:03:07.769Z",
+      "lastUpdated": "2026-08-27T22:04:27.153Z",
       "version": 1
     },
     {
@@ -1356,9 +1361,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:34.351Z",
-      "scrapedAt": "2026-08-27T08:18:16.903Z",
-      "lastUpdated": "2026-08-27T08:19:34.351Z",
+      "processedAt": "2026-08-27T22:04:27.162Z",
+      "scrapedAt": "2026-08-27T22:03:07.770Z",
+      "lastUpdated": "2026-08-27T22:04:27.162Z",
       "version": 1
     },
     {
@@ -1384,9 +1389,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:34.351Z",
-      "scrapedAt": "2026-08-27T08:18:16.903Z",
-      "lastUpdated": "2026-08-27T08:19:34.351Z",
+      "processedAt": "2026-08-27T22:04:27.155Z",
+      "scrapedAt": "2026-08-27T22:03:07.770Z",
+      "lastUpdated": "2026-08-27T22:04:27.155Z",
       "version": 1
     },
     {
@@ -1410,9 +1415,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:34.350Z",
-      "scrapedAt": "2026-08-27T08:18:16.903Z",
-      "lastUpdated": "2026-08-27T08:19:34.350Z",
+      "processedAt": "2026-08-27T22:04:27.243Z",
+      "scrapedAt": "2026-08-27T22:03:07.770Z",
+      "lastUpdated": "2026-08-27T22:04:27.243Z",
       "version": 1
     },
     {
@@ -1436,15 +1441,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:34.381Z",
-      "scrapedAt": "2026-08-27T08:18:16.903Z",
-      "lastUpdated": "2026-08-27T08:19:34.381Z",
+      "processedAt": "2026-08-27T22:04:28.244Z",
+      "scrapedAt": "2026-08-27T22:03:07.771Z",
+      "lastUpdated": "2026-08-27T22:04:28.244Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-08-27T08:19:34.389Z"
+    "lastUpdated": "2026-08-27T22:04:28.261Z"
   }
 }

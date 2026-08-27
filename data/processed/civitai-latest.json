@@ -1,7 +1,7 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-08-27T08:19:34.385Z",
-  "contestCount": 3,
+  "timestamp": "2026-08-27T22:04:28.251Z",
+  "contestCount": 4,
   "contests": [
     {
       "id": "c_051becd7aa47",
@@ -25,9 +25,36 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:26.156Z",
-      "scrapedAt": "2026-08-27T08:17:15.008Z",
-      "lastUpdated": "2026-08-27T08:19:26.156Z",
+      "processedAt": "2026-08-27T22:04:18.495Z",
+      "scrapedAt": "2026-08-27T22:02:09.156Z",
+      "lastUpdated": "2026-08-27T22:04:18.495Z",
+      "version": 1
+    },
+    {
+      "id": "c_2600ab732d76",
+      "title": "Hubs",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/774",
+      "imageUrl": "",
+      "description": "Build your own image feed out of the creators and models you care about. It's a trial, so tell us how it goes.",
+      "summary": "Build your own image feed out of the creators and models you care about. It's a trial, so tell us how it goes....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-09-02T23:59:59.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-08-27T22:04:18.499Z",
+      "scrapedAt": "2026-08-27T22:02:09.156Z",
+      "lastUpdated": "2026-08-27T22:04:18.499Z",
       "version": 1
     },
     {
@@ -52,9 +79,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:26.146Z",
-      "scrapedAt": "2026-08-27T08:17:15.008Z",
-      "lastUpdated": "2026-08-27T08:19:26.146Z",
+      "processedAt": "2026-08-27T22:04:18.575Z",
+      "scrapedAt": "2026-08-27T22:02:09.156Z",
+      "lastUpdated": "2026-08-27T22:04:18.575Z",
       "version": 1
     },
     {
@@ -80,15 +107,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-27T08:19:26.174Z",
-      "scrapedAt": "2026-08-27T08:17:15.008Z",
-      "lastUpdated": "2026-08-27T08:19:26.174Z",
+      "processedAt": "2026-08-27T22:04:19.576Z",
+      "scrapedAt": "2026-08-27T22:02:09.157Z",
+      "lastUpdated": "2026-08-27T22:04:19.576Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-08-27T08:19:34.385Z"
+    "lastUpdated": "2026-08-27T22:04:28.251Z"
   }
 }

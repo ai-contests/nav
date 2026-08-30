@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-08-30T04:29:59.139Z",
+  "timestamp": "2026-08-30T16:24:03.398Z",
   "contestCount": 10,
   "contests": [
     {
@@ -31,9 +31,9 @@
         "and we'll keep you updated via the email address you use there. Let's get shipping!"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-08-30T04:29:51.018Z",
-      "scrapedAt": "2026-08-30T04:28:06.093Z",
-      "lastUpdated": "2026-08-30T04:29:51.018Z",
+      "processedAt": "2026-08-30T16:23:55.228Z",
+      "scrapedAt": "2026-08-30T16:22:08.320Z",
+      "lastUpdated": "2026-08-30T16:23:55.228Z",
       "version": 1
     },
     {
@@ -61,9 +61,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-30T04:29:51.017Z",
-      "scrapedAt": "2026-08-30T04:28:06.094Z",
-      "lastUpdated": "2026-08-30T04:29:51.017Z",
+      "processedAt": "2026-08-30T16:23:55.227Z",
+      "scrapedAt": "2026-08-30T16:22:08.321Z",
+      "lastUpdated": "2026-08-30T16:23:55.227Z",
       "version": 1
     },
     {
@@ -91,9 +91,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-30T04:29:51.021Z",
-      "scrapedAt": "2026-08-30T04:28:06.095Z",
-      "lastUpdated": "2026-08-30T04:29:51.021Z",
+      "processedAt": "2026-08-30T16:23:55.228Z",
+      "scrapedAt": "2026-08-30T16:22:08.321Z",
+      "lastUpdated": "2026-08-30T16:23:55.228Z",
       "version": 1
     },
     {
@@ -121,9 +121,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-30T04:29:51.033Z",
-      "scrapedAt": "2026-08-30T04:28:06.096Z",
-      "lastUpdated": "2026-08-30T04:29:51.033Z",
+      "processedAt": "2026-08-30T16:23:55.244Z",
+      "scrapedAt": "2026-08-30T16:22:08.322Z",
+      "lastUpdated": "2026-08-30T16:23:55.244Z",
       "version": 1
     },
     {
@@ -131,34 +131,25 @@
       "title": "The WebMCP Challenge",
       "platform": "devpost",
       "url": "https://webmcp.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/133/267/datas/original.png",
-      "description": "WebMCP is an emerging open standard that lets websites expose structured tools agents can use directly. Instead of leaving agents to guess their way through your UI, you define exactly how they can use your app, so they complete tasks faster, more accurately, and more reliably. The WebMCP Challenge invites you to build something we haven’t seen before: an app that becomes meaningfully better when people and their agents can use it together. Why join Explore what new experiences that become possible when web apps can be built for people and their agents. Help shape an emerging open standard and the future of the agent-native web. The top 10 submissions will each receive $3,000 in cash, one Codex Micro, ChatGPT Pro for one year, OpenAI merch, and additional prizes from challenge supporters, subject to the official rules. Get started Learn what WebMCP enables. Read the WebMCP specification and Chrome’s developer documentation to understand how websites can expose tools to AI agents. Get inspired. Explore the WebMCP Showcase for examples of agent-native apps and ideas for what you could build, and read the WebMCP guide from OpenAI. Build and deploy. Create a new WebMCP-enabled app or add WebMCP support to an existing one. Host it on ChatGPT Sites, Cloudflare, Vercel, Render, Netlify, Shopify, or any deployment platform you choose. Test your app. Open your deployed app in ChatGPT’s in-app browser, which supports WebMCP out of the box. To test in Google Chrome, enable WebMCP using chrome://flags/#enable-webmcp-testing. Meet the Devpost plugin The Devpost Hackathons plugin runs inside Codex and includes everything you need to participate—from challenge requirements and rules to the submission flow. It can help you brainstorm ideas, plan your project, and prepare your submission without leaving Codex.",
-      "summary": "WebMCP is an emerging open standard that lets websites expose structured tools agents can use directly. Instead of leaving agents to guess their way through your UI, you define exactly how they can us...",
-      "contestType": "code",
-      "status": "active",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/133/267/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-09-03T20:00:00.000Z",
       "prize": "$35,000",
-      "tags": [
-        "E-commerce",
-        "Retail",
-        "Web"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
         "PyTorch",
         "TensorFlow"
       ],
-      "requirements": [
-        "and rules to the submission flow. It can help you brainstorm ideas",
-        "plan your project",
-        "and prepare your submission without leaving Codex."
-      ],
+      "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-30T04:29:52.035Z",
-      "scrapedAt": "2026-08-30T04:28:06.099Z",
-      "lastUpdated": "2026-08-30T04:29:52.035Z",
+      "processedAt": "2026-08-30T16:23:56.245Z",
+      "scrapedAt": "2026-08-30T16:22:08.323Z",
+      "lastUpdated": "2026-08-30T16:23:56.245Z",
       "version": 1
     },
     {
@@ -182,9 +173,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-30T04:29:52.035Z",
-      "scrapedAt": "2026-08-30T04:28:06.099Z",
-      "lastUpdated": "2026-08-30T04:29:52.035Z",
+      "processedAt": "2026-08-30T16:23:56.246Z",
+      "scrapedAt": "2026-08-30T16:22:08.323Z",
+      "lastUpdated": "2026-08-30T16:23:56.246Z",
       "version": 1
     },
     {
@@ -208,9 +199,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-30T04:29:52.034Z",
-      "scrapedAt": "2026-08-30T04:28:06.100Z",
-      "lastUpdated": "2026-08-30T04:29:52.034Z",
+      "processedAt": "2026-08-30T16:23:56.245Z",
+      "scrapedAt": "2026-08-30T16:22:08.324Z",
+      "lastUpdated": "2026-08-30T16:23:56.245Z",
       "version": 1
     },
     {
@@ -236,9 +227,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-30T04:29:52.036Z",
-      "scrapedAt": "2026-08-30T04:28:06.101Z",
-      "lastUpdated": "2026-08-30T04:29:52.036Z",
+      "processedAt": "2026-08-30T16:23:56.246Z",
+      "scrapedAt": "2026-08-30T16:22:08.324Z",
+      "lastUpdated": "2026-08-30T16:23:56.246Z",
       "version": 1
     },
     {
@@ -262,24 +253,26 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-30T04:29:52.046Z",
-      "scrapedAt": "2026-08-30T04:28:06.101Z",
-      "lastUpdated": "2026-08-30T04:29:52.046Z",
+      "processedAt": "2026-08-30T16:23:56.261Z",
+      "scrapedAt": "2026-08-30T16:22:08.325Z",
+      "lastUpdated": "2026-08-30T16:23:56.261Z",
       "version": 1
     },
     {
-      "id": "c_732536b4805d",
-      "title": "3D Websites Hackathon",
+      "id": "c_958819630fb0",
+      "title": "Nebius x NVIDIA Global AI Hackathon",
       "platform": "devpost",
-      "url": "https://3d-websites-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/799/053/datas/medium_square.png",
+      "url": "https://nebiusglobalaihackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/173/025/datas/medium_square.png",
       "description": "",
       "summary": "...",
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
-      "prize": "$55",
-      "tags": [],
+      "prize": "$50,000",
+      "tags": [
+        "ai"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -288,15 +281,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-30T04:29:53.050Z",
-      "scrapedAt": "2026-08-30T04:28:06.102Z",
-      "lastUpdated": "2026-08-30T04:29:53.050Z",
+      "processedAt": "2026-08-30T16:23:57.266Z",
+      "scrapedAt": "2026-08-30T16:22:08.326Z",
+      "lastUpdated": "2026-08-30T16:23:57.266Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-08-30T04:29:59.139Z"
+    "lastUpdated": "2026-08-30T16:24:03.398Z"
   }
 }

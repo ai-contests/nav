@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-08-31T04:34:57.905Z",
+  "timestamp": "2026-08-31T19:02:09.320Z",
   "contestCount": 10,
   "contests": [
     {
@@ -24,9 +24,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-31T04:34:49.746Z",
-      "scrapedAt": "2026-08-31T04:32:59.825Z",
-      "lastUpdated": "2026-08-31T04:34:49.746Z",
+      "processedAt": "2026-08-31T19:02:00.848Z",
+      "scrapedAt": "2026-08-31T19:00:19.527Z",
+      "lastUpdated": "2026-08-31T19:02:00.848Z",
       "version": 1
     },
     {
@@ -50,9 +50,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-31T04:34:49.741Z",
-      "scrapedAt": "2026-08-31T04:32:59.825Z",
-      "lastUpdated": "2026-08-31T04:34:49.741Z",
+      "processedAt": "2026-08-31T19:02:00.843Z",
+      "scrapedAt": "2026-08-31T19:00:19.528Z",
+      "lastUpdated": "2026-08-31T19:02:00.843Z",
       "version": 1
     },
     {
@@ -76,9 +76,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-31T04:34:49.742Z",
-      "scrapedAt": "2026-08-31T04:32:59.826Z",
-      "lastUpdated": "2026-08-31T04:34:49.742Z",
+      "processedAt": "2026-08-31T19:02:00.862Z",
+      "scrapedAt": "2026-08-31T19:00:19.528Z",
+      "lastUpdated": "2026-08-31T19:02:00.862Z",
       "version": 1
     },
     {
@@ -102,9 +102,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-31T04:34:49.760Z",
-      "scrapedAt": "2026-08-31T04:32:59.827Z",
-      "lastUpdated": "2026-08-31T04:34:49.760Z",
+      "processedAt": "2026-08-31T19:02:00.909Z",
+      "scrapedAt": "2026-08-31T19:00:19.529Z",
+      "lastUpdated": "2026-08-31T19:02:00.909Z",
       "version": 1
     },
     {
@@ -128,35 +128,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-31T04:34:50.765Z",
-      "scrapedAt": "2026-08-31T04:32:59.831Z",
-      "lastUpdated": "2026-08-31T04:34:50.765Z",
-      "version": 1
-    },
-    {
-      "id": "c_81196e059147",
-      "title": "TikTok TechJam 2026",
-      "platform": "devpost",
-      "url": "https://tiktoktechjam2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/031/051/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$34,500",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-08-31T04:34:50.765Z",
-      "scrapedAt": "2026-08-31T04:32:59.831Z",
-      "lastUpdated": "2026-08-31T04:34:50.765Z",
+      "processedAt": "2026-08-31T19:02:01.910Z",
+      "scrapedAt": "2026-08-31T19:00:19.530Z",
+      "lastUpdated": "2026-08-31T19:02:01.910Z",
       "version": 1
     },
     {
@@ -180,51 +154,23 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-31T04:34:50.763Z",
-      "scrapedAt": "2026-08-31T04:32:59.832Z",
-      "lastUpdated": "2026-08-31T04:34:50.763Z",
+      "processedAt": "2026-08-31T19:02:01.916Z",
+      "scrapedAt": "2026-08-31T19:00:19.530Z",
+      "lastUpdated": "2026-08-31T19:02:01.916Z",
       "version": 1
     },
     {
-      "id": "c_dbf8275b7a7e",
-      "title": "AI Builders Hackathon",
+      "id": "c_81196e059147",
+      "title": "TikTok TechJam 2026",
       "platform": "devpost",
-      "url": "https://ai-builders-hackathon-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/783/650/datas/medium_square.png",
+      "url": "https://tiktoktechjam2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/031/051/datas/medium_square.png",
       "description": "",
       "summary": "...",
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
-      "prize": "$33,900",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-08-31T04:34:50.766Z",
-      "scrapedAt": "2026-08-31T04:32:59.832Z",
-      "lastUpdated": "2026-08-31T04:34:50.766Z",
-      "version": 1
-    },
-    {
-      "id": "c_ab919cae4ddc",
-      "title": "VoltHacks",
-      "platform": "devpost",
-      "url": "https://volthacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/620/967/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$35,785",
+      "prize": "$34,500",
       "tags": [],
       "aiTools": [
         "Python",
@@ -234,9 +180,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-31T04:34:50.788Z",
-      "scrapedAt": "2026-08-31T04:32:59.833Z",
-      "lastUpdated": "2026-08-31T04:34:50.788Z",
+      "processedAt": "2026-08-31T19:02:01.913Z",
+      "scrapedAt": "2026-08-31T19:00:19.531Z",
+      "lastUpdated": "2026-08-31T19:02:01.913Z",
       "version": 1
     },
     {
@@ -262,15 +208,69 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-08-31T04:34:51.784Z",
-      "scrapedAt": "2026-08-31T04:32:59.833Z",
-      "lastUpdated": "2026-08-31T04:34:51.784Z",
+      "processedAt": "2026-08-31T19:02:01.914Z",
+      "scrapedAt": "2026-08-31T19:00:19.531Z",
+      "lastUpdated": "2026-08-31T19:02:01.914Z",
+      "version": 1
+    },
+    {
+      "id": "c_dbf8275b7a7e",
+      "title": "AI Builders Hackathon",
+      "platform": "devpost",
+      "url": "https://ai-builders-hackathon-2026.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/783/650/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$33,900",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-08-31T19:02:01.963Z",
+      "scrapedAt": "2026-08-31T19:00:19.532Z",
+      "lastUpdated": "2026-08-31T19:02:01.963Z",
+      "version": 1
+    },
+    {
+      "id": "c_ab919cae4ddc",
+      "title": "VoltHacks",
+      "platform": "devpost",
+      "url": "https://volthacks.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/620/967/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$35,785",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-08-31T19:02:02.965Z",
+      "scrapedAt": "2026-08-31T19:00:19.533Z",
+      "lastUpdated": "2026-08-31T19:02:02.965Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-08-31T04:34:57.905Z"
+    "lastUpdated": "2026-08-31T19:02:09.320Z"
   }
 }

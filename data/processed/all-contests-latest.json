@@ -1,6 +1,6 @@
 {
   "platform": "all",
-  "timestamp": "2026-09-08T03:46:54.032Z",
+  "timestamp": "2026-09-08T16:21:47.509Z",
   "contestCount": 51,
   "contests": [
     {
@@ -9,12 +9,12 @@
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/arc-white-box-estimation-challenge-2026",
       "imageUrl": "https://images.aicrowd.com/raw_images/challenges/social_media_image_file/1174/11c5b7737c5280d5faaf.jpg",
-      "description": "00Overview01Why random02The task03Compute04Evaluation05Participate06Rules07Prizes08Timeline09ResourcesHighlight my submissions1/10×1×10×100×↑ better↓ worsevs Sampling1× Sampling Parity70× betterWarm-UpPublic Leaderboard35× betterPhase 1Public Leaderboard394× betterPhase 2Public LeaderboardNowLiveMay 28Jun 18Aug 10Aug 22Oct 17Warm-upPhase 1 beginsPhase 1 endsPhase 2 beginsPhase 2 deadlinesubmissions closeEvery dot is a graded submission on the public leaderboard, placed by its error relative to plain Monte-Carlo sampling on that round’s FLOP budget. The board ranks each team’s best; this shows every attempt.Submissions openStarter kitWhestBenchflopscopeHF datasetWhen can we know what a neural network does without running it?The ARC White-Box Estimation Challenge is a contest in compute-efficient mechanistic estimation. Given the weights of a neural network, can you predict its expected per-neuron activations more accurately than running it many times?The obvious way to learn how a model behaves is to run it many times and average what you observe. That works well when the behavior is common, cheap to elicit, and easy to sample. But when the behavior is rare, high-variance, or unlikely to appear in obvious test cases, brute-force testing can become an expensive way to learn very little.The ARC White-Box Estimation Challenge turns that question into a controlled benchmark. Participants receive randomly initialized ReLU MLPs and build executable estimators that predict each neuron's expected post-ReLU activation under standard-normal inputs.The goal is simple to state: beat comparable black-box sampling under a shared compute budget by using the network's weights. The strongest submissions may be Monte Carlo, white-box, hybrid, LLM-assisted, or something unexpected—the leaderboard will decide.TaskExecutable estimatorInputWeights + budgetOutputExpected activationsMetricFinal-layer MSELatestAnnouncementAug 23Phase 2 is live: new code restrictions, wider models, and a larger FLOP budget↗AnnouncementJun 18Phase 1 launched — deeper models, and increased prizes.↗All updates on the forum↗Official factsPrize pool$150,000 USD ARVTwo phases · $50K Phase 1 + $100K Phase 2 · places + algorithmicSubmissions openMay 28, 2026 · 00:00 UTCPhase 2 closesOct 17, 2026 · 23:59 UTCDaily limit10 per team · per UTC day, in Phase 2GraderCPU-only 1 core (2 vCPU) for your code · 7-core flopscope backend · 8 GB for your process · no networkHard cap120 s per MLPFinal rankingFresh private rerun of each team's up to two nominated submissions, per phaseFig. 1\n  \n  \n\n  \n  CHALLENGE · ESTIMATE THE EXPECTATION\n  \n    \n      .katex-display{margin:0 !important;}\n      Y^L,j≈EX∼N(0,In) ⁣[hj(L)(X)]\\hat Y_{L,j} \\approx \\mathbb{E}_{X\\sim\\mathcal{N}(0,I_n)}\\!\\left[h^{(L)}_{j}(X)\\right]Y^L,j​≈EX∼N(0,In​)​[hj(L)​(X)]\n    \n  \n\n  \n  INPUT\n  NETWORK · RANDOM ReLU MLP\n  OUTPUT · Ê[ h⁽ᶽ⁾₃(X) ]\n\n  \n  \n    \n    \n      \n      \n      \n    \n    \n      +2\n      0\n      −2\n    \n    xᵢ\n    \n    \n    \n    \n    \n      \n      +0.71\n    \n  \n\n  \n  \n    \n    \n    \n    \n    \n    h⁽ᶽ⁾₃\n    \n    \n    \n  \n\n  \n  \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      7.5\n      8.0\n      8.5\n      9.0\n      9.5\n    \n    h⁽ᶽ⁾₃(X) · ×10⁻³\n    \n    \n    \n    Ê 8.6\n    \n    \n    µ̂ 8.3\n    Δ 3×10⁻⁴ERROR≈3.5% rel\n  \n\n  \n  \n  \n    \n    MONTE CARLOBLACK-BOX · SAMPLE & AVERAGE\n    SAMPLING…\n    \n  \n  \n    \n    ANALYTICALWHITE-BOX · PROPAGATE THE DISTRIBUTION\n    PROPAGATING…\n    \n  \n\n  \n  ← the contest lives here\n  \n    \n    \n    \n    \n    ≈ 15,000×\n  \n\n  YOUR BUDGET\n  \n  2.20×10¹² FLOPs / MLP\n\n  \n  MONTE CARLO REFERENCE\n  3.36×10¹⁶ FLOPs / MLP\n\n  \n  \n    \n    \n    \n    \n    \n    \n  \n  \n    10¹²\n    10¹³\n    10¹⁴\n    10¹⁵\n    10¹⁶\n    10¹⁷\n  \n  FLOPs (log₁₀ scale)\n\n  \n  \n    \n    Can you beat sampling?\n  \n\n  \n  \n    \n    \n      \n      \n    \n    REPLAY\n  \nFigure 1The estimation problem, as a distributional computation. A generated ReLU MLP receives Gaussian inputs X∼N(0,In)X \\sim \\mathcal{N}(0, I_n)X∼N(0,In​), applies h(ℓ)=ReLU ⁣(W(ℓ)h(ℓ−1))h^{(\\ell)} = \\mathrm{ReLU}\\!\\left(W^{(\\ell)}h^{(\\ell-1)}\\right)h(ℓ)=ReLU(W(ℓ)h(ℓ−1)), and the submission must estimate E ⁣[hi(ℓ)(X)]\\mathbb{E}\\!\\left[h^{(\\ell)}_i(X)\\right]E[hi(ℓ)​(X)] for every hidden-layer neuron.Read the animation as two ways to estimate the same activation-mean matrix. The black-box path samples inputs, runs the network, and averages observed activations until the Monte Carlo mean stabilizes. The white-box path inspects W(1),…,W(L)W^{(1)}, \\dots, W^{(L)}W(1),…,W(L) and propagates enough distributional information to predict the same means under the participant budget. The target is an organizers' high-budget Monte Carlo reference of approximately 3.36×10163.36 \\times 10^{16}3.36×1016 FLOPs, compared with a participant budget of approximately 2.20×10122.20 \\times 10^{12}2.20×1012 FLOPs per MLP—roughly a 15,000×15{,}000\\times15,000× compute gap.Prizes$150K+Cash PrizesPrediction shape16 × 1024layers × width was 32 × 256Budget / MLP2.20e12FLOPsPhase 2 closesOct 172026 · 23:59 UTC01Why this starts with random networksThe benchmark isolates one hard part of white-box estimation: tracking how distributions move through nonlinear layers.White-box estimation for trained networks is the destination, not the starting line. Trained models introduce many confounders at once: data, optimization, learned structure, task semantics, and evaluation ambiguity. WhestBench begins with randomly initialized networks so participants can focus on the estimation problem in a simplified setting.The networks are synthetic, but the question is real — and it is a question about cost rather than possibility. Sampling gets there eventually on any network; what the benchmark measures is what the weights are worth once the budget is fixed.Random ReLU MLPs retain the same basic problem structure: each layer transforms a distribution, the ReLU nonlinearity reshapes it, and approximation error can accumulate with depth. The first challenge is to develop methods that work in this controlled setting; later work can ask how those methods adapt as networks acquire structure during training.The benchmark is controlled, but not trivial: the expected activation has no closed form for the full network, and sampling improves only slowly with more compute.Where the closed form stopsAt the first layer. Its pre-activations are Gaussian, so the ReLU mean is exact. Past it the distribution is a rectified Gaussian, neurons correlate as depth accumulates, and everything downstream is an approximation.02The taskFor each MLP, return a matrix of expected post-ReLU activation means.For each evaluation network MθM_\\thetaMθ​, your estimator receives the MLP weights and a compute budget. It must return an L×nL \\times nL×n matrix Y^\\hat{Y}Y^. Entry (ℓ,i)(\\ell, i)(ℓ,i) should estimate the expected post-ReLU activation of neuron iii in hidden layer ℓ\\ellℓ when inputs are drawn from a standard Gaussian distribution.h(0)=X,h(ℓ)=ReLU(W(ℓ)h(ℓ−1)),ℓ=1,…,Lh^{(0)} = X, \\qquad h^{(\\ell)} = \\mathrm{ReLU}\\left(W^{(\\ell)}h^{(\\ell-1)}\\right), \\quad \\ell = 1, \\dots, Lh(0)=X,h(ℓ)=ReLU(W(ℓ)h(ℓ−1)),ℓ=1,…,L1Y^ℓ,i≈EX∼N(0,In)[hi(ℓ)(X)]\\hat{Y}_{\\ell,i} \\approx \\mathbb{E}_{X \\sim \\mathcal{N}(0, I_n)}\\left[h^{(\\ell)}_i(X)\\right]Y^ℓ,i​≈EX∼N(0,In​)​[hi(ℓ)​(X)]2The reference target is estimated by the organizers with a much larger Monte Carlo budget than participants receive. Your matrix is scored by its mean squared error against that reference, measured on the final layer.Evaluation network · per MLPWidth nnn102410241024Hidden layers LLL161616Weight initializationHe-Gaussian · variance 2/n2/n2/nInput distributionX∼N(0,In)X \\sim \\mathcal{N}(0, I_n)X∼N(0,In​)Prediction shape16×102416 \\times 102416×1024 matrixPrimary metricFinal-layer MSE vs. a high-budget Monte Carlo referenceImportantThe submission is executable code, not a prediction file. The grader runs your estimator against held-out MLPs and scores the returned activation matrix.03Compute model and constraintsThe competition is budgeted by analytical FLOPs, not by who owns the fastest machine.Compute is metered by flopscope, a NumPy-compatible interface that prices each operation analytically from its tensor shapes and operation kind. The count it reports for one network is FmF_mFm​, and this round that is the whole of CmC_mCm​, the cost charged against that network's budget BmB_mBm​.There is no second cost term because there is no computation outside the meter. NumPy is not installed on the grader — import numpy raises ModuleNotFoundError — and compiled kernels, foreign-function calls and subprocesses are prohibited rather than merely expensive. Your Python's job is to decide which flopscope operations to call.Time inside predict() that is not a flopscope operation is residual time: looping, indexing, bookkeeping, assembling arguments. It is capped at 400 ms per network, and crossing the cap fails that network through the zero-prediction fallback. The cap is what keeps the prohibition enforceable — it leaves no window in which meaningful computation could hide.Phase 1 priced residual time rather than prohibiting the computation in it: Cm=Fm+λRmC_m = F_m + \\lambda R_mCm​=Fm​+λRm​ at λ=1011\\lambda = 10^{11}λ=1011 FLOPs per second, so wall time and FLOPs traded against one another and CmC_mCm​ carried two terms. Phase 2 replaces that trade with a rule.import flopscope as flops\nimport flopscope.numpy as fnp\n\ndef predict(mlp, budget):\n    mus = []\n    mu = fnp.zeros(mlp.width)\n    var = fnp.ones(mlp.width)\n\n    for w in mlp.weights:\n        mu_pre = w.T @ mu\n        var_pre = (w * w).T @ var\n        sigma_pre = fnp.sqrt(fnp.maximum(var_pre, 1e-12))\n        alpha = mu_pre / sigma_pre\n        mu = mu_pre * flops.stats.norm.cdf(alpha) + sigma_pre * flops.stats.norm.pdf(alpha)\n        mus.append(mu)\n\n    return fnp.stack(mus)Budget ruleStay within the per-MLP budget on every network. Over-budget runs, exceptions, invalid shapes, non-finite values, memory failures, or wall-clock guard failures receive the zero-prediction fallback for that MLP.Grader environmentYour code runs on one physical core (2 vCPUs); the remaining seven physical cores (14 vCPUs) run the flopscope backend and the evaluation harness. Submissions are CPU-only. Your process gets 8 GB of the instance's 64 GB — the remainder goes to the flopscope backend and the evaluation harness — network access is disabled, and there is a 120-second hard wall-clock cap per MLP.How the rounds differPhase 2currentPhase 1Warm-upGrader · whestbenchMLP shape · w × d1024 × 16256 × 32256 × 8Budget / MLP2.20e122.72e116.80e10Monte Carlo–equivalent samples≈ 65,374≈ 64,151≈ 64,151Effective costC = FC = F + λRC = F + λRResidual wall timecapped · 400 mspriced · λ=1e11priced · λ=1e11Wall-clock cap120 s / MLP60 s / MLP60 s / MLPDataset revisionv2-phase2v1-phase1unpinnedRules · official rulesSubmissions / day10 / team / day50 / team / day—Memory · your process8 GB——Changed from Phase 1: Wider and shallower (256x32 -> 1024x16). Residual PRICING is deprecated: lambda is 0.0 and residual time is capped at 0.4 s instead, so C == F and the FLOP budget means what it says.Fig. 2RoundWarm-upPhase 1Phase 2Public Leaderboard+−↺10% of Bₘ · charging floorBₘ — per-MLP budget (2.20 × 10¹² FLOPs)10⁷10⁹10¹²10¹⁵10⁰10⁻³10⁻⁶10⁻⁹10⁻¹²FLOPs per MLP (log scale) →Mean propagation2.2 × 10⁻⁴Covariance propagation4.1 × 10⁻⁶source · band: 100 MLPs · dots: ARC Phase 2 Public LeaderboardBlack-box baselineMonte Carloconvergence.Monte Carlo on 100 randomMLPs. Red bands showvariation across networks;the dashed line is themean MSE (the scored bar).White-box points sit belowthe dashed line — lower errorthan sampling at equal compute.Grey dots are every gradedsubmission, at the compute itactually spent. Hover for detail.Phase 2 · Public Leaderboard:1,477 graded submissions. 505spent under a tenth of the budget.▲ marks 32 outside the frame. 50submissions failed on some MLPs;their plotted error averages thosefailed MLPs too, each scored asthe zero prediction.Double-click or Ctrl + scroll to zoomFigure 2Monte Carlo convergence. Pure Monte Carlo estimates the final-layer activation mean by buying more forward passes; plotted against the compute spent, its mean squared error falls steadily as the per-MLP FLOPs budget grows.Showing Phase 2 (1024×16); the selector above the figure switches rounds, and every number here follows it. The red bands summarize Monte Carlo error across 100 random MLPs as the sampling budget — the compute spent on forward-pass sampling per MLP — increases along the horizontal axis, measured in FLOPs (one black-box forward pass ≈3.36×107\\approx 3.36 \\times 10^{7}≈3.36×107 FLOPs). The dashed line is the mean final-layer MSE across MLPs — the quantity scored against (E[MSE] = σ²/N), so the Monte Carlo @ Bₘ reference lands on it; nested bands show between-MLP spread (median and percentiles). The vertical marker is the per-MLP budget Bm≈2.2×1012B_m \\approx 2.2 \\times 10^{12}Bm​≈2.2×1012 FLOPs. Baseline white-box methods such as mean propagation and covariance propagation appear as points because they spend compute inspecting weights and propagating distributional statistics rather than only sampling inputs; they are measured on this round’s own network shape. The challenge is to move below the red convergence curve under the same effective-compute budget: lower final-layer MSE, without exceeding Cm≤BmC_m \\le B_mCm​≤Bm​. One caveat on the comparison: the band is the 100-MLP convergence study, while the dots are graded on a 50-MLP split of it. Where per-MLP error is strongly skewed, which half you average over moves the mean, so read a dot’s distance from the band as close, not exact.04Evaluation and scoringThe live leaderboard is useful feedback; the final ranking comes from a fresh private rerun.For each evaluation MLP, the grader computes the final-layer mean squared error between your prediction and the Monte Carlo reference:MSEfinal,m=1n∑i(Y^L,i−YL,i)2\\mathrm{MSE}_{\\mathrm{final},m} = \\frac{1}{n}\\sum_i \\left(\\hat{Y}_{L,i} - Y_{L,i}\\right)^2MSEfinal,m​=n1​i∑​(Y^L,i​−YL,i​)23The per-MLP leaderboard score multiplies this by a compute-usage factor. Staying under the budget can help, but the improvement is capped so that an extremely cheap but inaccurate estimator cannot dominate by spending little compute.sm=MSEfinal,m⋅max⁡(0.1,  CmBm)s_m = \\mathrm{MSE}_{\\mathrm{final},m} \\cdot \\max\\left(0.1,\\; \\frac{C_m}{B_m}\\right)sm​=MSEfinal,m​⋅max(0.1,Bm​Cm​​)4The overall leaderboard score is the average of sms_msm​ across the evaluation suite. Lower is better.All-layer MSE, averaged across all L×nL \\times nL×n hidden activations, is reported as a secondary diagnostic. It helps reveal where approximation error accumulates across layers, but the primary score is the final-layer score.During each official phase, the grader evaluates submissions on a private suite of 100 randomly generated MLPs. Fifty contribute to live public feedback, while fifty are withheld until the phase closes. This keeps the leaderboard informative without making it too easy to overfit to visible scores.After each phase closes, each team's nominated submissions — up to two per phase, or your two highest-ranked public submissions if you nominate none — are rerun on a separate, freshly generated private test suite of new MLPs from the same distribution, using private seeds held out from both phases. Prize ranking is decided exclusively from this private rerun, not from the best public-leaderboard score observed during the competition.If leading submissions are statistically indistinguishable after the Private Re-evaluation, the Rules allow the Sponsor to generate additional MLPs from the same distribution for statistical disambiguation. If submissions remain tied after that, the tied ranks share the combined prize amounts for those positions.Public score vs. final prize rankThe public board helps you iterate. The final private rerun decides prize ranking.Failed-run fallbackIf a submission exceeds the budget, raises an exception, returns invalid shapes or non-finite values, exhausts memory, or trips an operational guard on a given MLP, the grader substitutes a zero prediction for that MLP and continues. No compute discount is applied to the fallback.Do not overfit the public boardThe final private suite uses different random MLPs. Strong submissions should generalize across the published generative distribution, not exploit visible leaderboard instances.05How to participateStart locally, validate the estimator contract, then submit a packaged tarball through AIcrowd.git clone https://github.com/AIcrowd/whest-starterkit.git\ncd whest-starterkit\nuv sync\nuv run python estimator.pyThe starter kit is structured as a staged ladder. Point your local runs at the public dataset's Mini split while you iterate.1Iterate locallyuv run python estimator.pyCheck the math against a local Monte Carlo harness.2Validate contractuv run whest validate --estimator estimator.pyCatch shape, type, and packaging issues early.3Run on the public setuv run whest run --estimator estimator.py \\   --dataset hf://aicrowd/arc-whestbench-public-2026@v2-phase2 \\   --split mini --runner localReal scoring against the public Mini split in a debuggable process.4Subprocess runneruv run whest run --estimator estimator.py \\   --dataset hf://aicrowd/arc-whestbench-public-2026@v2-phase2 \\   --split mini --runner subprocessTest isolation closer to the grader.5Package and submituv run whest package -o submission.tar.gzuv run whest loginuv run whest submit submission.tar.gzBuild the tarball, authenticate, and upload your submission to AIcrowd.First milestoneYour first goal should be one valid end-to-end submission. Once the contract, packaging, and grader path work, you can improve the estimator.Open starter kitMake a submission06Rules that matter for first submissionThis is not a substitute for the Rules page, but it covers the constraints most likely to affect your first estimator.Submission formatSubmit executable code, including an estimator.py that follows the starter-kit contract. Do not submit prediction files.Submission capEach team may submit up to 10 per UTC day in Phase 2 (it was 50 in Phase 1). The UTC-day counter resets at 00:00 UTC.TeamsUp to five eligible individuals per team, finalized by October 2, 2026, 23:59 UTC.HardwareCPU-only. Your code runs on one physical core (2 vCPUs); the remaining seven physical cores (14 vCPUs) run the flopscope backend and the evaluation harness. 8 GB for your process (64 GB instance total), disabled network, and a 120-second hard wall-clock cap per MLP.Network accessNetwork access is disabled during evaluation. Bundle weights, lookup tables, and precomputed data files in the submission tarball; bundled dependencies and compiled code are not permitted in Phase 2.Do not tamperDo not modify flopscope, read private seeds, access grader internals, or otherwise circumvent budget enforcement.LLM & autoresearchLLM-assisted and agentic development is welcome. You remain responsible for compliance, attribution, reproducibility, and any technical-writeup disclosures required by the Rules.Final submissionFor each phase, nominate up to two valid submissions for that phase's private rerun (by the selection deadline published near the end of the phase). With no nomination, Sponsor uses your two highest-ranked valid submissions on that phase's public leaderboard.Prize rankingDecided exclusively by the final private leaderboard from the fresh Private Re-evaluation suite. The public leaderboard is for iteration and does not determine prizes.Rules governIf anything on this Overview page conflicts with the official Rules or current starter kit, follow the Rules and starter kit.Autoresearch is welcomeUse LLMs, code agents, public resources, and metric-driven iteration if they help you discover better estimators.The one boundary is rule evasion: don't automate registration or mass uploads, tamper with flopscope, read private grader materials, or submit work you can't verify.Read the official policy →07Prizes and recognitionWhestBench rewards both leaderboard performance and algorithmic contribution.At launch, WhestBench has USD 150,000+ in prizes and recognition planned across two official phases. The current Rules specify $150,000 USD in total place-prize ARV — $50,000 in Phase 1 and $100,000 in Phase 2 — split across score-based and algorithmic contribution prizes. Sponsor may increase prize amounts or offer additional prizes, and any changes will be announced on the Competition Site.Total prize poolAcross two official phases · USD ARVCombined$150,000+By place & phasePhase 1Phase 21st place$25,000$50,0002nd place$10,000$20,0003rd place$5,000$10,000Algorithmic contributionBest technical contribution to mechanistic estimation — judged on score, algorithmic ideas, and write-up quality.$10,000$20,000Subtotal$50,000$100,000Beyond rankCommunity contributionDiscretionary recognition for helpful competition contributions — awarded per contributor.$500–5,000All amounts in USD · ARV.Algorithmic contributionHow to submit — PDF write-up + submission ID, deadlines — and how ARC judges these prizesHow to submitAn algorithmic contribution prize entry consists of:A PDF technical write-up describing your approach, the core ideas behind it, and the evidence/results supporting it (negative results and ablations are welcome), andExactly one submission ID of a submission that was successfully evaluated by the grader of that phase. The write-up must describe the approach behind that specific submission. No separate code upload is needed — your submission ID already points to your validated code package on our servers.You can submit in either of two ways:Privately, by email to arc-whestbench@aicrowd.com, orPublicly, as a post on the Challenge Discussion Forum. Public write-ups will additionally be considered for Community Contribution Prizes, where applicable.One write-up · one submission IDIn both cases, clearly state the submission ID your write-up refers to. Each write-up maps to exactly one submission that was successfully graded in that phase.Deadlines — write-ups are due within a week of each phase closing:Aug 17 · 23:59Phase 1 algorithmic-contribution write-up deadlineOct 24 · 23:59Phase 2 algorithmic-contribution write-up deadlineAll times are UTC.The extra week is for writing onlyOnce a phase ends, its evaluator closes — you will not be able to make new submissions or re-grade anything for that phase. The submission you reference must already be successfully graded before the phase deadline (August 10 for Phase 1; October 17 for Phase 2).How ARC judgesGuidance from the Alignment Research Center (ARC)These prizes will be awarded at ARC's discretion to the method we think most improves our understanding of white-box estimation for random MLPs. We are most interested in \"mechanistic\" estimation methods, as discussed in our blog posts on competing with sampling and mechanistic estimation for wide random MLPs. We are less interested in methods that rely heavily on sampling, fine-tuned constants, careful performance optimization, and opaque LLM-optimized code (although clever sampling-based methods are of interest if they rely on interesting structural observations, and LLM-written code is of interest providing it can be deciphered).Technical writeups. The chance of a submission receiving an algorithmic contribution prize is greatly increased by the inclusion of a technical writeup explaining the algorithmic approach used and how it was developed. We will likely start by reading the technical writeup for the highest-scoring submissions, and award the prize to the submission where novel \"mechanistic\" ideas made the largest improvement to performance over previously-known methods.LLM usage. We are ultimately interested in the quality of the algorithmic contribution itself, regardless of how it was obtained, and LLM usage is encouraged. However, contestants should be fully transparent about the extent to which LLMs were used to generate code and/or portions of technical writeups. If contestants have significant uncertainty about how and why their code actually works, the relevant portions of the technical writeup should be appropriately hedged and/or labeled as guesswork (for example, \"the LLM gave this explanation, which we did not validate/which we validated by ...\"). If we notice unhedged, dubious claims, then we are likely to be more skeptical about the remaining content and may skip over submissions entirely.This guidance is also posted as ARC's guidelines post on the forum.Recognition beyond rankStrong submissions may be valuable even when they are not first on the leaderboard. Clear explanations, useful algorithmic ideas, helpful bug reports, and community contributions may be recognized according to the Rules and any later announcements on the Competition Site.Winning place-prize submissions are subject to verification and open-source release requirements described in the Rules. The current Rules require place-prize winners to release the prize-determining solution code and required artifacts under an OSI-approved open-source license within 30 days of winner notification — seven days for Phase 1 winners, per §6 of the Rules — and to keep the release publicly accessible for at least three years.08TimelineWarm-upMay 28 – Jun 17May 28 · 00:00Resources released; submissions openJun 17 · 23:59Warm-up round endsPhase 1Jun 18 – Aug 10Jun 18 · 00:00Phase 1 opensAug 10 · 23:59Phase 1 ends; submissions closeAug 17 · 23:59Phase 1 algorithmic-contribution write-up deadline (write-up only; the Phase 1 evaluator is closed)within 3 weeks of Aug 10Phase 1 private re-evaluation on a fresh private suite (up to 2 nominated submissions per team)Phase 2Aug 22 – Oct 17Aug 22 · 00:00Phase 2 opensOct 2 · 23:59Registration and team freezeOct 17 · 23:59Phase 2 ends; submissions closeafter Oct 17Submission selection closes for the Phase 2 private re-evaluation — deadline published on the Competition Site near the end of Phase 2Oct 24 · 23:59Phase 2 algorithmic-contribution write-up deadline (write-up only; the Phase 2 evaluator is closed)Evaluation & resultsOct 17 – Nov 15Oct 17 – Nov 7Private re-evaluation on a fresh held-out suiteNov 15Winner announcementAll times are UTC.09Resources and contactUse the starter kit for implementation details, the Rules page for official constraints, and the forum for public questions.CompeteParticipate on AIcrowdRegister, form a team, and submit through the platform.Challenge RulesOfficial constraints, eligibility, and prize terms.BuildWhestBench starter kitClone, implement your estimator, validate, and package a submission.Public dataset1,100 random MLPs on Hugging Face · Mini and Full splits.flopscopeThe NumPy-compatible FLOP-accounting library the grader uses.WhestBench ExplorerInspect generated MLPs and their activation statistics.Community & supportDiscussion forumPublic questions, clarifications, and announcements.GitHub IssuesReport bugs in the starter kit or flopscope.arc-whestbench@aicrowd.comPrivate or administrative matters.ResearchCompanion paperThe research behind the benchmark — arXiv:2605.05179.ARC announcementThe Alignment Research Center research post.If you use WhestBench in academic work, cite the companion paper:Wilson Wu, Victor Lecomte, Michael Winer, George Robinson, Jacob Hilton, and Paul Christiano. \"Estimating the expected output of wide random MLPs more efficiently than sampling.\" arXiv:2605.05179, 2026.The challenge is organized by Alignment Research Center in partnership with AIcrowd.Ready to submit your first estimator?Clone the starter kit, run the ladder locally, and package a tarball. The grader gives you a score back on the public split within minutes.Make a submissionOpen starter kitRead the Rules",
-      "summary": "00Overview01Why random02The task03Compute04Evaluation05Participate06Rules07Prizes08Timeline09ResourcesHighlight my submissions1/10×1×10×100×↑ better↓ worsevs Sampling1× Sampling Parity70× betterWarm-U...",
+      "description": "00Overview01Why random02The task03Compute04Evaluation05Participate06Rules07Prizes08Timeline09ResourcesHighlight my submissionsLoading score progressNowLiveMay 28Jun 18Aug 10Aug 22Oct 17Warm-upPhase 1 beginsPhase 1 endsPhase 2 beginsPhase 2 deadlinesubmissions closeEvery dot is a graded submission on the public leaderboard, placed by its error relative to plain Monte-Carlo sampling on that round’s FLOP budget. The board ranks each team’s best; this shows every attempt.Submissions openStarter kitWhestBenchflopscopeHF datasetWhen can we know what a neural network does without running it?The ARC White-Box Estimation Challenge is a contest in compute-efficient mechanistic estimation. Given the weights of a neural network, can you predict its expected per-neuron activations more accurately than running it many times?The obvious way to learn how a model behaves is to run it many times and average what you observe. That works well when the behavior is common, cheap to elicit, and easy to sample. But when the behavior is rare, high-variance, or unlikely to appear in obvious test cases, brute-force testing can become an expensive way to learn very little.The ARC White-Box Estimation Challenge turns that question into a controlled benchmark. Participants receive randomly initialized ReLU MLPs and build executable estimators that predict each neuron's expected post-ReLU activation under standard-normal inputs.The goal is simple to state: beat comparable black-box sampling under a shared compute budget by using the network's weights. The strongest submissions may be Monte Carlo, white-box, hybrid, LLM-assisted, or something unexpected—the leaderboard will decide.TaskExecutable estimatorInputWeights + budgetOutputExpected activationsMetricFinal-layer MSELatestAnnouncementAug 23Phase 2 is live: new code restrictions, wider models, and a larger FLOP budget↗AnnouncementJun 18Phase 1 launched — deeper models, and increased prizes.↗All updates on the forum↗Official factsPrize pool$150,000 USD ARVTwo phases · $50K Phase 1 + $100K Phase 2 · places + algorithmicSubmissions openMay 28, 2026 · 00:00 UTCPhase 2 closesOct 17, 2026 · 23:59 UTCDaily limit10 per team · per UTC day, in Phase 2GraderCPU-only 1 core (2 vCPU) for your code · 7-core flopscope backend · 8 GB for your process · no networkHard cap120 s per MLPFinal rankingFresh private rerun of each team's up to two nominated submissions, per phaseFig. 1\n  \n  \n\n  \n  CHALLENGE · ESTIMATE THE EXPECTATION\n  \n    \n      .katex-display{margin:0 !important;}\n      Y^L,j≈EX∼N(0,In) ⁣[hj(L)(X)]\\hat Y_{L,j} \\approx \\mathbb{E}_{X\\sim\\mathcal{N}(0,I_n)}\\!\\left[h^{(L)}_{j}(X)\\right]Y^L,j​≈EX∼N(0,In​)​[hj(L)​(X)]\n    \n  \n\n  \n  INPUT\n  NETWORK · RANDOM ReLU MLP\n  OUTPUT · Ê[ h⁽ᶽ⁾₃(X) ]\n\n  \n  \n    \n    \n      \n      \n      \n    \n    \n      +2\n      0\n      −2\n    \n    xᵢ\n    \n    \n    \n    \n    \n      \n      +0.71\n    \n  \n\n  \n  \n    \n    \n    \n    \n    \n    h⁽ᶽ⁾₃\n    \n    \n    \n  \n\n  \n  \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      7.5\n      8.0\n      8.5\n      9.0\n      9.5\n    \n    h⁽ᶽ⁾₃(X) · ×10⁻³\n    \n    \n    \n    Ê 8.6\n    \n    \n    µ̂ 8.3\n    Δ 3×10⁻⁴ERROR≈3.5% rel\n  \n\n  \n  \n  \n    \n    MONTE CARLOBLACK-BOX · SAMPLE & AVERAGE\n    SAMPLING…\n    \n  \n  \n    \n    ANALYTICALWHITE-BOX · PROPAGATE THE DISTRIBUTION\n    PROPAGATING…\n    \n  \n\n  \n  ← the contest lives here\n  \n    \n    \n    \n    \n    ≈ 15,000×\n  \n\n  YOUR BUDGET\n  \n  2.20×10¹² FLOPs / MLP\n\n  \n  MONTE CARLO REFERENCE\n  3.36×10¹⁶ FLOPs / MLP\n\n  \n  \n    \n    \n    \n    \n    \n    \n  \n  \n    10¹²\n    10¹³\n    10¹⁴\n    10¹⁵\n    10¹⁶\n    10¹⁷\n  \n  FLOPs (log₁₀ scale)\n\n  \n  \n    \n    Can you beat sampling?\n  \n\n  \n  \n    \n    \n      \n      \n    \n    REPLAY\n  \nFigure 1The estimation problem, as a distributional computation. A generated ReLU MLP receives Gaussian inputs X∼N(0,In)X \\sim \\mathcal{N}(0, I_n)X∼N(0,In​), applies h(ℓ)=ReLU ⁣(W(ℓ)h(ℓ−1))h^{(\\ell)} = \\mathrm{ReLU}\\!\\left(W^{(\\ell)}h^{(\\ell-1)}\\right)h(ℓ)=ReLU(W(ℓ)h(ℓ−1)), and the submission must estimate E ⁣[hi(ℓ)(X)]\\mathbb{E}\\!\\left[h^{(\\ell)}_i(X)\\right]E[hi(ℓ)​(X)] for every hidden-layer neuron.Read the animation as two ways to estimate the same activation-mean matrix. The black-box path samples inputs, runs the network, and averages observed activations until the Monte Carlo mean stabilizes. The white-box path inspects W(1),…,W(L)W^{(1)}, \\dots, W^{(L)}W(1),…,W(L) and propagates enough distributional information to predict the same means under the participant budget. The target is an organizers' high-budget Monte Carlo reference of approximately 3.36×10163.36 \\times 10^{16}3.36×1016 FLOPs, compared with a participant budget of approximately 2.20×10122.20 \\times 10^{12}2.20×1012 FLOPs per MLP—roughly a 15,000×15{,}000\\times15,000× compute gap.Prizes$150K+Cash PrizesPrediction shape16 × 1024layers × width was 32 × 256Budget / MLP2.20e12FLOPsPhase 2 closesOct 172026 · 23:59 UTC01Why this starts with random networksThe benchmark isolates one hard part of white-box estimation: tracking how distributions move through nonlinear layers.White-box estimation for trained networks is the destination, not the starting line. Trained models introduce many confounders at once: data, optimization, learned structure, task semantics, and evaluation ambiguity. WhestBench begins with randomly initialized networks so participants can focus on the estimation problem in a simplified setting.The networks are synthetic, but the question is real — and it is a question about cost rather than possibility. Sampling gets there eventually on any network; what the benchmark measures is what the weights are worth once the budget is fixed.Random ReLU MLPs retain the same basic problem structure: each layer transforms a distribution, the ReLU nonlinearity reshapes it, and approximation error can accumulate with depth. The first challenge is to develop methods that work in this controlled setting; later work can ask how those methods adapt as networks acquire structure during training.The benchmark is controlled, but not trivial: the expected activation has no closed form for the full network, and sampling improves only slowly with more compute.Where the closed form stopsAt the first layer. Its pre-activations are Gaussian, so the ReLU mean is exact. Past it the distribution is a rectified Gaussian, neurons correlate as depth accumulates, and everything downstream is an approximation.02The taskFor each MLP, return a matrix of expected post-ReLU activation means.For each evaluation network MθM_\\thetaMθ​, your estimator receives the MLP weights and a compute budget. It must return an L×nL \\times nL×n matrix Y^\\hat{Y}Y^. Entry (ℓ,i)(\\ell, i)(ℓ,i) should estimate the expected post-ReLU activation of neuron iii in hidden layer ℓ\\ellℓ when inputs are drawn from a standard Gaussian distribution.h(0)=X,h(ℓ)=ReLU(W(ℓ)h(ℓ−1)),ℓ=1,…,Lh^{(0)} = X, \\qquad h^{(\\ell)} = \\mathrm{ReLU}\\left(W^{(\\ell)}h^{(\\ell-1)}\\right), \\quad \\ell = 1, \\dots, Lh(0)=X,h(ℓ)=ReLU(W(ℓ)h(ℓ−1)),ℓ=1,…,L1Y^ℓ,i≈EX∼N(0,In)[hi(ℓ)(X)]\\hat{Y}_{\\ell,i} \\approx \\mathbb{E}_{X \\sim \\mathcal{N}(0, I_n)}\\left[h^{(\\ell)}_i(X)\\right]Y^ℓ,i​≈EX∼N(0,In​)​[hi(ℓ)​(X)]2The reference target is estimated by the organizers with a much larger Monte Carlo budget than participants receive. Your matrix is scored by its mean squared error against that reference, measured on the final layer.Evaluation network · per MLPWidth nnn102410241024Hidden layers LLL161616Weight initializationHe-Gaussian · variance 2/n2/n2/nInput distributionX∼N(0,In)X \\sim \\mathcal{N}(0, I_n)X∼N(0,In​)Prediction shape16×102416 \\times 102416×1024 matrixPrimary metricFinal-layer MSE vs. a high-budget Monte Carlo referenceImportantThe submission is executable code, not a prediction file. The grader runs your estimator against held-out MLPs and scores the returned activation matrix.03Compute model and constraintsThe competition is budgeted by analytical FLOPs, not by who owns the fastest machine.Compute is metered by flopscope, a NumPy-compatible interface that prices each operation analytically from its tensor shapes and operation kind. The count it reports for one network is FmF_mFm​, and this round that is the whole of CmC_mCm​, the cost charged against that network's budget BmB_mBm​.There is no second cost term because there is no computation outside the meter. NumPy is not installed on the grader — import numpy raises ModuleNotFoundError — and compiled kernels, foreign-function calls and subprocesses are prohibited rather than merely expensive. Your Python's job is to decide which flopscope operations to call.Time inside predict() that is not a flopscope operation is residual time: looping, indexing, bookkeeping, assembling arguments. It is capped at 400 ms per network, and crossing the cap fails that network through the zero-prediction fallback. The cap is what keeps the prohibition enforceable — it leaves no window in which meaningful computation could hide.Phase 1 priced residual time rather than prohibiting the computation in it: Cm=Fm+λRmC_m = F_m + \\lambda R_mCm​=Fm​+λRm​ at λ=1011\\lambda = 10^{11}λ=1011 FLOPs per second, so wall time and FLOPs traded against one another and CmC_mCm​ carried two terms. Phase 2 replaces that trade with a rule.import flopscope as flops\nimport flopscope.numpy as fnp\n\ndef predict(mlp, budget):\n    mus = []\n    mu = fnp.zeros(mlp.width)\n    var = fnp.ones(mlp.width)\n\n    for w in mlp.weights:\n        mu_pre = w.T @ mu\n        var_pre = (w * w).T @ var\n        sigma_pre = fnp.sqrt(fnp.maximum(var_pre, 1e-12))\n        alpha = mu_pre / sigma_pre\n        mu = mu_pre * flops.stats.norm.cdf(alpha) + sigma_pre * flops.stats.norm.pdf(alpha)\n        mus.append(mu)\n\n    return fnp.stack(mus)Budget ruleStay within the per-MLP budget on every network. Over-budget runs, exceptions, invalid shapes, non-finite values, memory failures, or wall-clock guard failures receive the zero-prediction fallback for that MLP.Grader environmentYour code runs on one physical core (2 vCPUs); the remaining seven physical cores (14 vCPUs) run the flopscope backend and the evaluation harness. Submissions are CPU-only. Your process gets 8 GB of the instance's 64 GB — the remainder goes to the flopscope backend and the evaluation harness — network access is disabled, and there is a 120-second hard wall-clock cap per MLP.How the rounds differPhase 2currentPhase 1Warm-upGrader · whestbenchMLP shape · w × d1024 × 16256 × 32256 × 8Budget / MLP2.20e122.72e116.80e10Monte Carlo–equivalent samples≈ 65,374≈ 64,151≈ 64,151Effective costC = FC = F + λRC = F + λRResidual wall timecapped · 400 mspriced · λ=1e11priced · λ=1e11Wall-clock cap120 s / MLP60 s / MLP60 s / MLPDataset revisionv2-phase2v1-phase1unpinnedRules · official rulesSubmissions / day10 / team / day50 / team / day—Memory · your process8 GB——Changed from Phase 1: Wider and shallower (256x32 -> 1024x16). Residual PRICING is deprecated: lambda is 0.0 and residual time is capped at 0.4 s instead, so C == F and the FLOP budget means what it says.Fig. 2RoundWarm-upPhase 1Phase 2Public Leaderboard+−↺10% of Bₘ · charging floorBₘ — per-MLP budget (2.20 × 10¹² FLOPs)10⁷10⁹10¹²10¹⁵10⁰10⁻³10⁻⁶10⁻⁹10⁻¹²FLOPs per MLP (log scale) →Mean propagation2.2 × 10⁻⁴Covariance propagation4.1 × 10⁻⁶source · band: 100 MLPs · dots: ARC Phase 2 Public LeaderboardBlack-box baselineMonte Carloconvergence.Monte Carlo on 100 randomMLPs. Red bands showvariation across networks;the dashed line is themean MSE (the scored bar).White-box points sit belowthe dashed line — lower errorthan sampling at equal compute.Grey dots are every gradedsubmission, at the compute itactually spent. Hover for detail.Phase 2 · Public Leaderboard:1,526 graded submissions. 517spent under a tenth of the budget.▲ marks 32 outside the frame. 51submissions failed on some MLPs;their plotted error averages thosefailed MLPs too, each scored asthe zero prediction.Double-click or Ctrl + scroll to zoomFigure 2Monte Carlo convergence. Pure Monte Carlo estimates the final-layer activation mean by buying more forward passes; plotted against the compute spent, its mean squared error falls steadily as the per-MLP FLOPs budget grows.Showing Phase 2 (1024×16); the selector above the figure switches rounds, and every number here follows it. The red bands summarize Monte Carlo error across 100 random MLPs as the sampling budget — the compute spent on forward-pass sampling per MLP — increases along the horizontal axis, measured in FLOPs (one black-box forward pass ≈3.36×107\\approx 3.36 \\times 10^{7}≈3.36×107 FLOPs). The dashed line is the mean final-layer MSE across MLPs — the quantity scored against (E[MSE] = σ²/N), so the Monte Carlo @ Bₘ reference lands on it; nested bands show between-MLP spread (median and percentiles). The vertical marker is the per-MLP budget Bm≈2.2×1012B_m \\approx 2.2 \\times 10^{12}Bm​≈2.2×1012 FLOPs. Baseline white-box methods such as mean propagation and covariance propagation appear as points because they spend compute inspecting weights and propagating distributional statistics rather than only sampling inputs; they are measured on this round’s own network shape. The challenge is to move below the red convergence curve under the same effective-compute budget: lower final-layer MSE, without exceeding Cm≤BmC_m \\le B_mCm​≤Bm​. One caveat on the comparison: the band is the 100-MLP convergence study, while the dots are graded on a 50-MLP split of it. Where per-MLP error is strongly skewed, which half you average over moves the mean, so read a dot’s distance from the band as close, not exact.04Evaluation and scoringThe live leaderboard is useful feedback; the final ranking comes from a fresh private rerun.For each evaluation MLP, the grader computes the final-layer mean squared error between your prediction and the Monte Carlo reference:MSEfinal,m=1n∑i(Y^L,i−YL,i)2\\mathrm{MSE}_{\\mathrm{final},m} = \\frac{1}{n}\\sum_i \\left(\\hat{Y}_{L,i} - Y_{L,i}\\right)^2MSEfinal,m​=n1​i∑​(Y^L,i​−YL,i​)23The per-MLP leaderboard score multiplies this by a compute-usage factor. Staying under the budget can help, but the improvement is capped so that an extremely cheap but inaccurate estimator cannot dominate by spending little compute.sm=MSEfinal,m⋅max⁡(0.1,  CmBm)s_m = \\mathrm{MSE}_{\\mathrm{final},m} \\cdot \\max\\left(0.1,\\; \\frac{C_m}{B_m}\\right)sm​=MSEfinal,m​⋅max(0.1,Bm​Cm​​)4The overall leaderboard score is the average of sms_msm​ across the evaluation suite. Lower is better.All-layer MSE, averaged across all L×nL \\times nL×n hidden activations, is reported as a secondary diagnostic. It helps reveal where approximation error accumulates across layers, but the primary score is the final-layer score.During each official phase, the grader evaluates submissions on a private suite of 100 randomly generated MLPs. Fifty contribute to live public feedback, while fifty are withheld until the phase closes. This keeps the leaderboard informative without making it too easy to overfit to visible scores.After each phase closes, each team's nominated submissions — up to two per phase, or your two highest-ranked public submissions if you nominate none — are rerun on a separate, freshly generated private test suite of new MLPs from the same distribution, using private seeds held out from both phases. Prize ranking is decided exclusively from this private rerun, not from the best public-leaderboard score observed during the competition.If leading submissions are statistically indistinguishable after the Private Re-evaluation, the Rules allow the Sponsor to generate additional MLPs from the same distribution for statistical disambiguation. If submissions remain tied after that, the tied ranks share the combined prize amounts for those positions.Public score vs. final prize rankThe public board helps you iterate. The final private rerun decides prize ranking.Failed-run fallbackIf a submission exceeds the budget, raises an exception, returns invalid shapes or non-finite values, exhausts memory, or trips an operational guard on a given MLP, the grader substitutes a zero prediction for that MLP and continues. No compute discount is applied to the fallback.Do not overfit the public boardThe final private suite uses different random MLPs. Strong submissions should generalize across the published generative distribution, not exploit visible leaderboard instances.05How to participateStart locally, validate the estimator contract, then submit a packaged tarball through AIcrowd.git clone https://github.com/AIcrowd/whest-starterkit.git\ncd whest-starterkit\nuv sync\nuv run python estimator.pyThe starter kit is structured as a staged ladder. Point your local runs at the public dataset's Mini split while you iterate.1Iterate locallyuv run python estimator.pyCheck the math against a local Monte Carlo harness.2Validate contractuv run whest validate --estimator estimator.pyCatch shape, type, and packaging issues early.3Run on the public setuv run whest run --estimator estimator.py \\   --dataset hf://aicrowd/arc-whestbench-public-2026@v2-phase2 \\   --split mini --runner localReal scoring against the public Mini split in a debuggable process.4Subprocess runneruv run whest run --estimator estimator.py \\   --dataset hf://aicrowd/arc-whestbench-public-2026@v2-phase2 \\   --split mini --runner subprocessTest isolation closer to the grader.5Package and submituv run whest package -o submission.tar.gzuv run whest loginuv run whest submit submission.tar.gzBuild the tarball, authenticate, and upload your submission to AIcrowd.First milestoneYour first goal should be one valid end-to-end submission. Once the contract, packaging, and grader path work, you can improve the estimator.Open starter kitMake a submission06Rules that matter for first submissionThis is not a substitute for the Rules page, but it covers the constraints most likely to affect your first estimator.Submission formatSubmit executable code, including an estimator.py that follows the starter-kit contract. Do not submit prediction files.Submission capEach team may submit up to 10 per UTC day in Phase 2 (it was 50 in Phase 1). The UTC-day counter resets at 00:00 UTC.TeamsUp to five eligible individuals per team, finalized by October 2, 2026, 23:59 UTC.HardwareCPU-only. Your code runs on one physical core (2 vCPUs); the remaining seven physical cores (14 vCPUs) run the flopscope backend and the evaluation harness. 8 GB for your process (64 GB instance total), disabled network, and a 120-second hard wall-clock cap per MLP.Network accessNetwork access is disabled during evaluation. Bundle weights, lookup tables, and precomputed data files in the submission tarball; bundled dependencies and compiled code are not permitted in Phase 2.Do not tamperDo not modify flopscope, read private seeds, access grader internals, or otherwise circumvent budget enforcement.LLM & autoresearchLLM-assisted and agentic development is welcome. You remain responsible for compliance, attribution, reproducibility, and any technical-writeup disclosures required by the Rules.Final submissionFor each phase, nominate up to two valid submissions for that phase's private rerun (by the selection deadline published near the end of the phase). With no nomination, Sponsor uses your two highest-ranked valid submissions on that phase's public leaderboard.Prize rankingDecided exclusively by the final private leaderboard from the fresh Private Re-evaluation suite. The public leaderboard is for iteration and does not determine prizes.Rules governIf anything on this Overview page conflicts with the official Rules or current starter kit, follow the Rules and starter kit.Autoresearch is welcomeUse LLMs, code agents, public resources, and metric-driven iteration if they help you discover better estimators.The one boundary is rule evasion: don't automate registration or mass uploads, tamper with flopscope, read private grader materials, or submit work you can't verify.Read the official policy →07Prizes and recognitionWhestBench rewards both leaderboard performance and algorithmic contribution.At launch, WhestBench has USD 150,000+ in prizes and recognition planned across two official phases. The current Rules specify $150,000 USD in total place-prize ARV — $50,000 in Phase 1 and $100,000 in Phase 2 — split across score-based and algorithmic contribution prizes. Sponsor may increase prize amounts or offer additional prizes, and any changes will be announced on the Competition Site.Total prize poolAcross two official phases · USD ARVCombined$150,000+By place & phasePhase 1Phase 21st place$25,000$50,0002nd place$10,000$20,0003rd place$5,000$10,000Algorithmic contributionBest technical contribution to mechanistic estimation — judged on score, algorithmic ideas, and write-up quality.$10,000$20,000Subtotal$50,000$100,000Beyond rankCommunity contributionDiscretionary recognition for helpful competition contributions — awarded per contributor.$500–5,000All amounts in USD · ARV.Algorithmic contributionHow to submit — PDF write-up + submission ID, deadlines — and how ARC judges these prizesHow to submitAn algorithmic contribution prize entry consists of:A PDF technical write-up describing your approach, the core ideas behind it, and the evidence/results supporting it (negative results and ablations are welcome), andExactly one submission ID of a submission that was successfully evaluated by the grader of that phase. The write-up must describe the approach behind that specific submission. No separate code upload is needed — your submission ID already points to your validated code package on our servers.You can submit in either of two ways:Privately, by email to arc-whestbench@aicrowd.com, orPublicly, as a post on the Challenge Discussion Forum. Public write-ups will additionally be considered for Community Contribution Prizes, where applicable.One write-up · one submission IDIn both cases, clearly state the submission ID your write-up refers to. Each write-up maps to exactly one submission that was successfully graded in that phase.Deadlines — write-ups are due within a week of each phase closing:Aug 17 · 23:59Phase 1 algorithmic-contribution write-up deadlineOct 24 · 23:59Phase 2 algorithmic-contribution write-up deadlineAll times are UTC.The extra week is for writing onlyOnce a phase ends, its evaluator closes — you will not be able to make new submissions or re-grade anything for that phase. The submission you reference must already be successfully graded before the phase deadline (August 10 for Phase 1; October 17 for Phase 2).How ARC judgesGuidance from the Alignment Research Center (ARC)These prizes will be awarded at ARC's discretion to the method we think most improves our understanding of white-box estimation for random MLPs. We are most interested in \"mechanistic\" estimation methods, as discussed in our blog posts on competing with sampling and mechanistic estimation for wide random MLPs. We are less interested in methods that rely heavily on sampling, fine-tuned constants, careful performance optimization, and opaque LLM-optimized code (although clever sampling-based methods are of interest if they rely on interesting structural observations, and LLM-written code is of interest providing it can be deciphered).Technical writeups. The chance of a submission receiving an algorithmic contribution prize is greatly increased by the inclusion of a technical writeup explaining the algorithmic approach used and how it was developed. We will likely start by reading the technical writeup for the highest-scoring submissions, and award the prize to the submission where novel \"mechanistic\" ideas made the largest improvement to performance over previously-known methods.LLM usage. We are ultimately interested in the quality of the algorithmic contribution itself, regardless of how it was obtained, and LLM usage is encouraged. However, contestants should be fully transparent about the extent to which LLMs were used to generate code and/or portions of technical writeups. If contestants have significant uncertainty about how and why their code actually works, the relevant portions of the technical writeup should be appropriately hedged and/or labeled as guesswork (for example, \"the LLM gave this explanation, which we did not validate/which we validated by ...\"). If we notice unhedged, dubious claims, then we are likely to be more skeptical about the remaining content and may skip over submissions entirely.This guidance is also posted as ARC's guidelines post on the forum.Recognition beyond rankStrong submissions may be valuable even when they are not first on the leaderboard. Clear explanations, useful algorithmic ideas, helpful bug reports, and community contributions may be recognized according to the Rules and any later announcements on the Competition Site.Winning place-prize submissions are subject to verification and open-source release requirements described in the Rules. The current Rules require place-prize winners to release the prize-determining solution code and required artifacts under an OSI-approved open-source license within 30 days of winner notification — seven days for Phase 1 winners, per §6 of the Rules — and to keep the release publicly accessible for at least three years.08TimelineWarm-upMay 28 – Jun 17May 28 · 00:00Resources released; submissions openJun 17 · 23:59Warm-up round endsPhase 1Jun 18 – Aug 10Jun 18 · 00:00Phase 1 opensAug 10 · 23:59Phase 1 ends; submissions closeAug 17 · 23:59Phase 1 algorithmic-contribution write-up deadline (write-up only; the Phase 1 evaluator is closed)within 3 weeks of Aug 10Phase 1 private re-evaluation on a fresh private suite (up to 2 nominated submissions per team)Phase 2Aug 22 – Oct 17Aug 22 · 00:00Phase 2 opensOct 2 · 23:59Registration and team freezeOct 17 · 23:59Phase 2 ends; submissions closeafter Oct 17Submission selection closes for the Phase 2 private re-evaluation — deadline published on the Competition Site near the end of Phase 2Oct 24 · 23:59Phase 2 algorithmic-contribution write-up deadline (write-up only; the Phase 2 evaluator is closed)Evaluation & resultsOct 17 – Nov 15Oct 17 – Nov 7Private re-evaluation on a fresh held-out suiteNov 15Winner announcementAll times are UTC.09Resources and contactUse the starter kit for implementation details, the Rules page for official constraints, and the forum for public questions.CompeteParticipate on AIcrowdRegister, form a team, and submit through the platform.Challenge RulesOfficial constraints, eligibility, and prize terms.BuildWhestBench starter kitClone, implement your estimator, validate, and package a submission.Public dataset1,100 random MLPs on Hugging Face · Mini and Full splits.flopscopeThe NumPy-compatible FLOP-accounting library the grader uses.WhestBench ExplorerInspect generated MLPs and their activation statistics.Community & supportDiscussion forumPublic questions, clarifications, and announcements.GitHub IssuesReport bugs in the starter kit or flopscope.arc-whestbench@aicrowd.comPrivate or administrative matters.ResearchCompanion paperThe research behind the benchmark — arXiv:2605.05179.ARC announcementThe Alignment Research Center research post.If you use WhestBench in academic work, cite the companion paper:Wilson Wu, Victor Lecomte, Michael Winer, George Robinson, Jacob Hilton, and Paul Christiano. \"Estimating the expected output of wide random MLPs more efficiently than sampling.\" arXiv:2605.05179, 2026.The challenge is organized by Alignment Research Center in partnership with AIcrowd.Ready to submit your first estimator?Clone the starter kit, run the ladder locally, and package a tarball. The grader gives you a score back on the public split within minutes.Make a submissionOpen starter kitRead the Rules",
+      "summary": "00Overview01Why random02The task03Compute04Evaluation05Participate06Rules07Prizes08Timeline09ResourcesHighlight my submissionsLoading score progressNowLiveMay 28Jun 18Aug 10Aug 22Oct 17Warm-upPhase 1 ...",
       "contestType": "image",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-10-17T03:45:32.904Z",
+      "deadline": "2026-10-17T16:20:28.143Z",
       "prize": "$150,000",
       "tags": [
         "llm",
@@ -40,9 +40,9 @@
         "and submit through the platform.Challenge RulesOfficial constraints"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:43.660Z",
-      "scrapedAt": "2026-09-08T03:45:32.904Z",
-      "lastUpdated": "2026-09-08T03:46:43.660Z",
+      "processedAt": "2026-09-08T16:21:37.265Z",
+      "scrapedAt": "2026-09-08T16:20:28.143Z",
+      "lastUpdated": "2026-09-08T16:21:37.265Z",
       "version": 1
     },
     {
@@ -56,7 +56,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2100-11-01T03:45:32.904Z",
+      "deadline": "2100-11-01T16:20:28.143Z",
       "prize": "TBD",
       "tags": [
         "Benchmark Challenge: Running"
@@ -69,9 +69,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:44.506Z",
-      "scrapedAt": "2026-09-08T03:45:32.904Z",
-      "lastUpdated": "2026-09-08T03:46:44.506Z",
+      "processedAt": "2026-09-08T16:21:38.201Z",
+      "scrapedAt": "2026-09-08T16:20:28.143Z",
+      "lastUpdated": "2026-09-08T16:21:38.201Z",
       "version": 1
     },
     {
@@ -85,7 +85,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T03:45:32.905Z",
+      "deadline": "2030-08-14T16:20:28.144Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -96,9 +96,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:44.575Z",
-      "scrapedAt": "2026-09-08T03:45:32.905Z",
-      "lastUpdated": "2026-09-08T03:46:44.575Z",
+      "processedAt": "2026-09-08T16:21:38.222Z",
+      "scrapedAt": "2026-09-08T16:20:28.144Z",
+      "lastUpdated": "2026-09-08T16:21:38.222Z",
       "version": 1
     },
     {
@@ -112,7 +112,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T03:45:32.905Z",
+      "deadline": "2045-08-31T16:20:28.144Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -123,9 +123,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:44.589Z",
-      "scrapedAt": "2026-09-08T03:45:32.905Z",
-      "lastUpdated": "2026-09-08T03:46:44.589Z",
+      "processedAt": "2026-09-08T16:21:38.224Z",
+      "scrapedAt": "2026-09-08T16:20:28.144Z",
+      "lastUpdated": "2026-09-08T16:21:38.224Z",
       "version": 1
     },
     {
@@ -139,7 +139,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T03:45:32.906Z",
+      "deadline": "2030-12-30T16:20:28.145Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -153,9 +153,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:44.583Z",
-      "scrapedAt": "2026-09-08T03:45:32.906Z",
-      "lastUpdated": "2026-09-08T03:46:44.583Z",
+      "processedAt": "2026-09-08T16:21:38.279Z",
+      "scrapedAt": "2026-09-08T16:20:28.145Z",
+      "lastUpdated": "2026-09-08T16:21:38.279Z",
       "version": 1
     },
     {
@@ -169,7 +169,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2027-06-17T03:45:32.906Z",
+      "deadline": "2027-06-16T16:20:28.145Z",
       "prize": "TBD",
       "tags": [
         "#classroom"
@@ -182,9 +182,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:44.631Z",
-      "scrapedAt": "2026-09-08T03:45:32.906Z",
-      "lastUpdated": "2026-09-08T03:46:44.631Z",
+      "processedAt": "2026-09-08T16:21:38.303Z",
+      "scrapedAt": "2026-09-08T16:20:28.145Z",
+      "lastUpdated": "2026-09-08T16:21:38.303Z",
       "version": 1
     },
     {
@@ -210,9 +210,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:45.636Z",
-      "scrapedAt": "2026-09-08T03:45:32.906Z",
-      "lastUpdated": "2026-09-08T03:46:45.636Z",
+      "processedAt": "2026-09-08T16:21:39.298Z",
+      "scrapedAt": "2026-09-08T16:20:28.145Z",
+      "lastUpdated": "2026-09-08T16:21:39.298Z",
       "version": 1
     },
     {
@@ -236,9 +236,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:45.629Z",
-      "scrapedAt": "2026-09-08T03:45:32.907Z",
-      "lastUpdated": "2026-09-08T03:46:45.629Z",
+      "processedAt": "2026-09-08T16:21:39.297Z",
+      "scrapedAt": "2026-09-08T16:20:28.147Z",
+      "lastUpdated": "2026-09-08T16:21:39.297Z",
       "version": 1
     },
     {
@@ -263,9 +263,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:45.627Z",
-      "scrapedAt": "2026-09-08T03:44:37.839Z",
-      "lastUpdated": "2026-09-08T03:46:45.627Z",
+      "processedAt": "2026-09-08T16:21:39.299Z",
+      "scrapedAt": "2026-09-08T16:19:26.395Z",
+      "lastUpdated": "2026-09-08T16:21:39.299Z",
       "version": 1
     },
     {
@@ -292,9 +292,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:45.630Z",
-      "scrapedAt": "2026-09-08T03:44:37.839Z",
-      "lastUpdated": "2026-09-08T03:46:45.630Z",
+      "processedAt": "2026-09-08T16:21:39.300Z",
+      "scrapedAt": "2026-09-08T16:19:26.395Z",
+      "lastUpdated": "2026-09-08T16:21:39.300Z",
       "version": 1
     },
     {
@@ -320,9 +320,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:45.680Z",
-      "scrapedAt": "2026-09-08T03:44:37.839Z",
-      "lastUpdated": "2026-09-08T03:46:45.680Z",
+      "processedAt": "2026-09-08T16:21:39.321Z",
+      "scrapedAt": "2026-09-08T16:19:26.395Z",
+      "lastUpdated": "2026-09-08T16:21:39.321Z",
       "version": 1
     },
     {
@@ -346,9 +346,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:46.679Z",
-      "scrapedAt": "2026-09-08T03:45:05.378Z",
-      "lastUpdated": "2026-09-08T03:46:46.679Z",
+      "processedAt": "2026-09-08T16:21:40.331Z",
+      "scrapedAt": "2026-09-08T16:19:53.306Z",
+      "lastUpdated": "2026-09-08T16:21:40.331Z",
       "version": 1
     },
     {
@@ -372,9 +372,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:46.673Z",
-      "scrapedAt": "2026-09-08T03:45:05.378Z",
-      "lastUpdated": "2026-09-08T03:46:46.673Z",
+      "processedAt": "2026-09-08T16:21:40.320Z",
+      "scrapedAt": "2026-09-08T16:19:53.307Z",
+      "lastUpdated": "2026-09-08T16:21:40.320Z",
       "version": 1
     },
     {
@@ -398,35 +398,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:46.678Z",
-      "scrapedAt": "2026-09-08T03:45:05.379Z",
-      "lastUpdated": "2026-09-08T03:46:46.678Z",
-      "version": 1
-    },
-    {
-      "id": "c_7bbfa2888591",
-      "title": "CALL-E: Your Code Is Calling",
-      "platform": "devpost",
-      "url": "https://call-e.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/977/426/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "code",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$10,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:46.678Z",
-      "scrapedAt": "2026-09-08T03:45:05.379Z",
-      "lastUpdated": "2026-09-08T03:46:46.678Z",
+      "processedAt": "2026-09-08T16:21:40.322Z",
+      "scrapedAt": "2026-09-08T16:19:53.308Z",
+      "lastUpdated": "2026-09-08T16:21:40.322Z",
       "version": 1
     },
     {
@@ -452,9 +426,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:46.719Z",
-      "scrapedAt": "2026-09-08T03:45:05.380Z",
-      "lastUpdated": "2026-09-08T03:46:46.719Z",
+      "processedAt": "2026-09-08T16:21:40.319Z",
+      "scrapedAt": "2026-09-08T16:19:53.309Z",
+      "lastUpdated": "2026-09-08T16:21:40.319Z",
+      "version": 1
+    },
+    {
+      "id": "c_7bbfa2888591",
+      "title": "CALL-E: Your Code Is Calling",
+      "platform": "devpost",
+      "url": "https://call-e.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/977/426/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "code",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$10,000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-09-08T16:21:40.351Z",
+      "scrapedAt": "2026-09-08T16:19:53.309Z",
+      "lastUpdated": "2026-09-08T16:21:40.351Z",
       "version": 1
     },
     {
@@ -478,9 +478,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:47.721Z",
-      "scrapedAt": "2026-09-08T03:45:05.380Z",
-      "lastUpdated": "2026-09-08T03:46:47.721Z",
+      "processedAt": "2026-09-08T16:21:41.348Z",
+      "scrapedAt": "2026-09-08T16:19:53.310Z",
+      "lastUpdated": "2026-09-08T16:21:41.348Z",
       "version": 1
     },
     {
@@ -506,9 +506,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:47.720Z",
-      "scrapedAt": "2026-09-08T03:45:05.381Z",
-      "lastUpdated": "2026-09-08T03:46:47.720Z",
+      "processedAt": "2026-09-08T16:21:41.356Z",
+      "scrapedAt": "2026-09-08T16:19:53.311Z",
+      "lastUpdated": "2026-09-08T16:21:41.356Z",
       "version": 1
     },
     {
@@ -532,9 +532,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:47.721Z",
-      "scrapedAt": "2026-09-08T03:45:05.381Z",
-      "lastUpdated": "2026-09-08T03:46:47.721Z",
+      "processedAt": "2026-09-08T16:21:41.349Z",
+      "scrapedAt": "2026-09-08T16:19:53.311Z",
+      "lastUpdated": "2026-09-08T16:21:41.349Z",
       "version": 1
     },
     {
@@ -560,9 +560,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:47.718Z",
-      "scrapedAt": "2026-09-08T03:45:05.382Z",
-      "lastUpdated": "2026-09-08T03:46:47.718Z",
+      "processedAt": "2026-09-08T16:21:41.353Z",
+      "scrapedAt": "2026-09-08T16:19:53.312Z",
+      "lastUpdated": "2026-09-08T16:21:41.353Z",
       "version": 1
     },
     {
@@ -588,9 +588,36 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:47.761Z",
-      "scrapedAt": "2026-09-08T03:45:05.382Z",
-      "lastUpdated": "2026-09-08T03:46:47.761Z",
+      "processedAt": "2026-09-08T16:21:41.371Z",
+      "scrapedAt": "2026-09-08T16:19:53.312Z",
+      "lastUpdated": "2026-09-08T16:21:41.371Z",
+      "version": 1
+    },
+    {
+      "id": "c_9dc700fa82ff",
+      "title": "魔搭社区勋章权益奖励第 6 期申领开启！",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/363",
+      "imageUrl": "",
+      "description": "勋章不仅是一种荣誉标识，也可用于兑换多重权益，包括线下工位、实物奖励及线上专属权益。\n\n你的每一次模型发布、每一份数据贡献、每一个应用创作、每一篇经验文章，都在为社区注入新的能量，也会沉淀为专属于你的勋章成长值 ✨现在，第 6 期魔搭社区勋章权益奖励正式开启申领。快去看看勋章有没有升级，符合条件即可领取本期专属权益！01｜本期可以领取什么？本期权益按照社区贡献勋章等级发放，涵盖 线上权益、线下工位权益、社区周边实物奖励三大类。🥇 Lv3 社区贡献勋章线上权益｜达到等级后自动发放工位权益｜亲橙空间 Y/OUR SPACE 12 个月免费工位实物奖励｜实体勋章 + 魔搭雨伞 + 魔搭不锈钢杯🥈 Lv2 社区贡献勋章线上权益｜达到等级后自动发放工位权益｜亲橙空间 Y/OUR SPACE 6 个月免费工位实物奖励｜实体勋章 + 魔搭颈枕 + 魔搭数据线🥉 Lv1 社区贡献勋章线上权益｜达到等级后自动发放工位权益｜亲橙空间 Y/OUR SPACE 3 个月免费工位实物奖励｜实体勋章 + 魔搭眼罩 + 魔搭帆布袋📣 领取规则每个等级（Lv1 / Lv2 / Lv3）仅限领取一次，奖励不重复、不叠加发放。实物奖励以本期最终库存为准，如有调整将另行通知。02｜工位权益怎么使用？① 固定工位｜杭州限定仅限杭州·云谷中心，具体使用周期以实际合同时间为准。固定工位数量有限，提交申领不代表已锁定工位，请以最终通知为准。如固定工位已满，将视实际情况调整为灵活工位或暂不安排。② 灵活工位｜全国通用全国通卡，支持跨城市预约使用。具体可用情况以各城市工位实际安排为准。本期灵活工位将统一自 【 2026 年 10 月 16 日】 起生效。03｜别错过这两个时间点⏰ 勋章统计截止2026 年 10 月 7 日 23:59截止时间前获得的勋章均计入本期。📝 奖励申领截止2026 年 10 月 7 日 23:59请务必在截止时间前完成申领表提交。04｜如何查看并兑换？第一步｜查看勋章等级进入魔搭个人主页，打开「勋章管理页」查看当前等级。👉 立即查看我的勋章：https://modelscope.cn/profile第二步｜提交权益申领达到任一社区贡献勋章等级后，填写：「第 6 期魔搭社区勋章权益奖励申领表」👉 第三步｜等待资格核验奖励将按照 【 2026 年 10 月 7 日】 前达到的最高勋章等级发放。举个例子：提交申领时为 Lv1，但在统计截止前升级至 Lv2，最终将按 Lv2 对应权益发放。05｜还没有解锁更高等级？勋章会根据你在魔搭社区的贡献自动点亮，包括但不限于：发布模型分享数据集创建应用撰写文章参与其他社区贡献👉 查看勋章达成条件：https://modelscope.cn/brand/view/Medal_Introduction每一次认真创作，都会被看见。现在继续贡献，还有机会在本期统计截止前升级！",
+      "summary": "勋章不仅是一种荣誉标识，也可用于兑换多重权益，包括线下工位、实物奖励及线上专属权益。\n\n你的每一次模型发布、每一份数据贡献、每一个应用创作、每一篇经验文章，都在为社区注入新的能量，也会沉淀为专属于你的勋章成长值 ✨现在，第 6 期魔搭社区勋章权益奖励正式开启申领。快去看看勋章有没有升级，符合条件即可领取本期专属权益！01｜本期可以领取什么？本期权益按照社区贡献勋章等级发放，涵盖 线上权益、线下工位...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-10-07T15:59:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-09-08T16:21:42.374Z",
+      "scrapedAt": "2026-09-08T16:19:15.773Z",
+      "lastUpdated": "2026-09-08T16:21:42.374Z",
       "version": 1
     },
     {
@@ -617,38 +644,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:48.764Z",
-      "scrapedAt": "2026-09-08T03:44:26.885Z",
-      "lastUpdated": "2026-09-08T03:46:48.764Z",
-      "version": 1
-    },
-    {
-      "id": "c_8a67f6caa75a",
-      "title": "硬件来碰头",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/360",
-      "imageUrl": "",
-      "description": "AI 圈不缺线上信息，缺的是线下的真实碰撞。首场「AI 硬件」线下碰头来了！\n\nAI 圈不缺线上信息，缺的是线下的真实碰撞。首场「AI 硬件」线下碰头来了！现场邀请了6位来自硬件开发平台、AIoT、端侧模型、AI硬件创业与投资一线的嘉宾，聊聊 AI 硬件究竟是怎样一步步落地的：1. 一个 AI 硬件想法，如何在72小时内变成实物2. 当 AI 开始参与造物，产品如何走向量产3. AI 硬件如何完成商业化与全球化4. 一款 AI 睡眠灯，从0到1经历了什么5. 端侧智能硬件有哪些新机会，模型生态如何落地6. 站在投资视角，什么样的 AI 硬件才是真正值得下注的信号我们还留出了一个半小时的现场交流时间。在这里，你可以和真正做过产品、模型、量产和商业化的人坐在一起，聊正在推进的项目、遇到的问题，以及那些在公开分享里很少被讲清楚的坑。也许下一位合作伙伴，就坐在同一张桌上。⚡扫码申请（或阅读原文报名）先申请先审核，总共140个名额。我们会优先选择与 AI 硬件相关的从业者和创业者。",
-      "summary": "AI 圈不缺线上信息，缺的是线下的真实碰撞。首场「AI 硬件」线下碰头来了！\n\nAI 圈不缺线上信息，缺的是线下的真实碰撞。首场「AI 硬件」线下碰头来了！现场邀请了6位来自硬件开发平台、AIoT、端侧模型、AI硬件创业与投资一线的嘉宾，聊聊 AI 硬件究竟是怎样一步步落地的：1. 一个 AI 硬件想法，如何在72小时内变成实物2. 当 AI 开始参与造物，产品如何走向量产3. AI 硬件如何完成...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-09-04T16:00:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:48.760Z",
-      "scrapedAt": "2026-09-08T03:44:26.885Z",
-      "lastUpdated": "2026-09-08T03:46:48.760Z",
+      "processedAt": "2026-09-08T16:21:42.372Z",
+      "scrapedAt": "2026-09-08T16:19:15.773Z",
+      "lastUpdated": "2026-09-08T16:21:42.372Z",
       "version": 1
     },
     {
@@ -675,9 +673,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:48.761Z",
-      "scrapedAt": "2026-09-08T03:44:26.886Z",
-      "lastUpdated": "2026-09-08T03:46:48.761Z",
+      "processedAt": "2026-09-08T16:21:42.373Z",
+      "scrapedAt": "2026-09-08T16:19:15.773Z",
+      "lastUpdated": "2026-09-08T16:21:42.373Z",
       "version": 1
     },
     {
@@ -705,9 +703,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:48.760Z",
-      "scrapedAt": "2026-09-08T03:44:26.894Z",
-      "lastUpdated": "2026-09-08T03:46:48.760Z",
+      "processedAt": "2026-09-08T16:21:42.372Z",
+      "scrapedAt": "2026-09-08T16:19:15.774Z",
+      "lastUpdated": "2026-09-08T16:21:42.372Z",
       "version": 1
     },
     {
@@ -740,9 +738,9 @@
         "主要面向全国希望将人工智能方法应用于科学研究的研究生、青年科研人员"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:48.802Z",
-      "scrapedAt": "2026-09-08T03:44:26.894Z",
-      "lastUpdated": "2026-09-08T03:46:48.802Z",
+      "processedAt": "2026-09-08T16:21:42.388Z",
+      "scrapedAt": "2026-09-08T16:19:15.774Z",
+      "lastUpdated": "2026-09-08T16:21:42.388Z",
       "version": 1
     },
     {
@@ -770,9 +768,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:49.809Z",
-      "scrapedAt": "2026-09-08T03:44:26.894Z",
-      "lastUpdated": "2026-09-08T03:46:49.809Z",
+      "processedAt": "2026-09-08T16:21:43.391Z",
+      "scrapedAt": "2026-09-08T16:19:15.774Z",
+      "lastUpdated": "2026-09-08T16:21:43.391Z",
       "version": 1
     },
     {
@@ -799,38 +797,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:49.808Z",
-      "scrapedAt": "2026-09-08T03:44:26.895Z",
-      "lastUpdated": "2026-09-08T03:46:49.808Z",
-      "version": 1
-    },
-    {
-      "id": "c_b2173477d85b",
-      "title": "AIX ORIGIN SUMMIT 2026",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/353",
-      "imageUrl": "",
-      "description": "2026年9月，AIX ORIGIN SUMMIT 将首次把香港和深圳这两座城市的创造者带到同一个场域。\n\n2026年9月，AIX ORIGIN SUMMIT 将首次把香港和深圳这两座城市的创造者带到同一个场域。本次正式披露详细日程、硬件赛道设置与奖项信息。从 9 月 5 日到 9 月 6 日，香港 × 深圳双城赛场全面开启，更多参赛细则，一次看清。▍结语如果你正在寻找一个真正把想法推进到产品、再走向市场的机会，这一次，日程、赛道、奖项都已经更新完整。AIX ORIGIN Summit 2026，期待与你在双城赛场相遇。Trace Origin, Build Together.",
-      "summary": "2026年9月，AIX ORIGIN SUMMIT 将首次把香港和深圳这两座城市的创造者带到同一个场域。\n\n2026年9月，AIX ORIGIN SUMMIT 将首次把香港和深圳这两座城市的创造者带到同一个场域。本次正式披露详细日程、硬件赛道设置与奖项信息。从 9 月 5 日到 9 月 6 日，香港 × 深圳双城赛场全面开启，更多参赛细则，一次看清。▍结语如果你正在寻找一个真正把想法推进到产品、再...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-08-30T15:59:00.000Z",
-      "prize": "现金奖励+约20万元硬件奖品",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:49.802Z",
-      "scrapedAt": "2026-09-08T03:44:26.895Z",
-      "lastUpdated": "2026-09-08T03:46:49.802Z",
+      "processedAt": "2026-09-08T16:21:43.391Z",
+      "scrapedAt": "2026-09-08T16:19:15.775Z",
+      "lastUpdated": "2026-09-08T16:21:43.391Z",
       "version": 1
     },
     {
@@ -857,9 +826,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:49.801Z",
-      "scrapedAt": "2026-09-08T03:44:26.899Z",
-      "lastUpdated": "2026-09-08T03:46:49.801Z",
+      "processedAt": "2026-09-08T16:21:43.396Z",
+      "scrapedAt": "2026-09-08T16:19:15.778Z",
+      "lastUpdated": "2026-09-08T16:21:43.396Z",
       "version": 1
     },
     {
@@ -886,9 +855,44 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:49.860Z",
-      "scrapedAt": "2026-09-08T03:44:26.899Z",
-      "lastUpdated": "2026-09-08T03:46:49.860Z",
+      "processedAt": "2026-09-08T16:21:43.392Z",
+      "scrapedAt": "2026-09-08T16:19:15.778Z",
+      "lastUpdated": "2026-09-08T16:21:43.392Z",
+      "version": 1
+    },
+    {
+      "id": "c_24b8e67be169",
+      "title": "「无影版DeepSeek Harness 改造记录」开发者技术征文",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/356",
+      "imageUrl": "",
+      "description": "a. 无影版DeepSeek Harness 怎么改造，写出来赢 10000 灵豆（无影云电脑使用时长）！无影云电脑已上线 DeepSeek Harness 官方镜像，开机即用、环境预装，省去折腾 Node/Python/npx 的时间。8 月 26 日 - 10 月 8 日，魔搭社区开发者晒出你在无影云电脑上的 Harness 真实玩法：最强插件组合（用最少插件完成最复杂任务）、自定义插件开发、工作流对决（同一任务不同解法对比）、环境踩坑实录，四条赛道任选其一。500-2000 字技术帖 + 至少 3 张配图 + 1 段可直接复用的内容（插件配置 YAML / 自定义插件代码 / 量\n\nDeepSeek Harness 怎么玩，写出来赢 10000 灵豆一、活动信息背景： DeepSeek Harness 最让人兴奋的不是某一个功能，而是它的底层哲学——一切皆插件。Search、Browser、Code、Shell……每一个 Agent 能力都是一块独立积木，你可以自由拼装、替换、重组，搭出完全属于自己的 AI 工作流。但\"自由\"也意味着\"没有标准答案\"：同样是让 Agent 帮你写代码，有人用 3 个插件串联就搞定，有人用 7 个插件做出了带自动测试的完整流水线——到底哪种组合更聪明？我们想看到你的答案。无影云电脑已上线 DeepSeek Harness 官方镜像，开机即用、环境预装，省去折腾 Node/Python/npx 的时间，让你把精力花在真正有意思的事上：设计插件组合、编排 Agent 工作流、甚至自己写一个插件。主题：晒出你在无影云电脑上的 DeepSeek Harness 玩法，最高赢 10000 灵豆时间： 投稿 8 月 26 日 - 10 月 8 日（跨国庆假期，正好有空写稿） · 评选 10 月 12 日 - 10 月 16 日（假期结束后集中评审） · 结果公布 10 月下旬玩法： 投稿得灵豆 + 魔粒。现在免费试用无影云电脑 DeepSeek Harness 镜像，新用户领 300 灵豆，0 成本上手。二、为什么是 Harness？传统 AI 工具是\"给你一个黑盒\"，Harness 是\"给你一盒零件\"。它的设计决定了：可组合：插件之间松耦合，一个任务可以有无数种插件编排方案可替换：不满意某个环节？换一个插件、改一行配置，立刻生效可共享：你的插件配置 YAML 就是你的\"工作流配方\"，别人拿到就能复现可进化：社区每多一个自定义插件，所有人的能力上限都在提高这些特点意味着：最好的\"Harness 教程\"不是操作手册，而是一个个真实的、可复现的、有巧思的插件组合案例。这就是本次征文要征集的东西。三、挑战赛道（选一即可）赛道 A：最强组合——用最少插件完成最复杂任务核心命题： 给定一个任务目标，你能用多精简的插件组合搞定它？示例方向：3 个插件做一个能联网搜索 + 读文档 + 写总结的 Research Agent用 Code + Shell + Browser 三件套实现\"需求描述→代码生成→自动运行→截图验收\"全闭环最小化插件栈完成一次完整的数据采集-清洗-分析-可视化评分加成： 插件数越少、任务越复杂，得分越高。附上你的设计思考（为什么选这几个插件、为什么这样串联）。赛道 B：插件炼金术——自定义插件开发核心命题： Harness 官方插件不够用？自己写一个。示例方向：写一个对接内部 API / 私有知识库的自定义插件开发一个\"质量门禁\"插件：Agent 每次输出都自动跑一轮检查把某个命令行工具包装成 Harness 插件，让 Agent 能直接调用开发一个多模态插件：让 Harness Agent 能\"看图说话\"评分加成： 插件代码开源、有完整 README、其他人可直接安装使用。赛道 C：工作流对决——同一任务，不同解法核心命题： 展示你和\"标准做法\"不一样的思路。示例方向：对比\"单 Agent 多插件\"vs\"多 Agent 各持一个插件\"两种架构处理同一任务的效果差异同一个代码审查任务，分别用 2 种完全不同的插件组合实现，对比响应质量和速度展示一个\"反直觉\"的插件编排：大家以为需要 X 插件，但你发现用 Y+Z 组合效果更好评分加成： 有量化对比数据（响应时间、准确率、token 消耗等）。赛道 D：从踩坑到填坑——Harness 环境实战日志核心命题： 真诚比完美更有价值。把你搭环境、调插件、排错的全过程写出来。示例方向：无影镜像开箱到第一个 Agent 跑通的完整记录（含所有报错和解法）插件配置的\"暗坑地图\"：哪些配置项容易踩雷、怎么排查Windows 镜像 Beta 体验报告：和 Linux 环境的差异点、兼容性问题及 workaround性能调优日志：如何通过调整插件并发、超时、重试策略让 Agent 响应更快评分加成： 报错信息 + 排查思路 + 最终解法，三段式完整呈现。四、投稿要求稿件结构500 - 2000 字技术正文至少 3 张配图（插件配置截图、Agent 对话截图、架构图等均可）1 段可直接复用的内容（插件配置 YAML / 自定义插件代码 / 排错脚本 / 对比数据表）1 句话总结你的核心发现或最佳实践技术深度门槛（满足其一即可）包含完整可复现的插件配置文件或自定义插件代码有真实踩坑 + 解决方案（不是照着文档抄的操作步骤）有量化数据：响应延迟、token 消耗、准确率对比等有架构设计图：插件调用链路、Agent 协作拓扑报名并发布在魔搭社区发布技术帖跳转活动界面点击立即报名，填写表单投稿成功标准： 稿件结构完整 + 满足至少 1 条技术深度门槛 + 完成报名。运营 3 个工作日内审核并私信通知。五、稿件示例示例 1（赛道 A）：《3 个插件搞定全自动竞品监控 Agent》「只用 Browser + Code + Shell 三个插件，我搭了一个每天自动抓取 5 个竞品官网变更、diff 对比、生成日报邮件的 Agent。关键设计：Browser 负责抓页面快照，Code 做文本 diff 和摘要生成，Shell 调 sendmail 发送。不用数据库、不用额外 API，纯插件原生能力。踩坑点：Browser 插件默认超时 30s，竞品官网 JS 渲染慢需要调到 60s。附完整配置 YAML。」示例 2（赛道 B）：《我给 Harness 写了一个\"代码审查门禁\"插件》「Agent 写完代码我总不放心，于是自己写了一个 gate-review 插件：它拦截 Code 插件的输出，自动跑 ESLint + 类型检查 + 单测，只有全部通过才放行到下一步。核心 200 行 TypeScript。开源地址：xxx。安装方式：把 YAML 丢进 plugins 目录即可。附性能影响实测：平均增加 3.2s 延迟，但代码一次通过率从 61% 提升到 89%。」示例 3（赛道 C）：《同一个需求，单 Agent vs 多 Agent 编排效果实测》「任务：根据一篇 PRD 自动生成 API 设计文档 + Mock 数据 + 测试用例。方案 A：单 Agent 挂 5 个插件顺序执行；方案 B：3 个 Agent 各持 2 个插件并行工作再汇总。跑 20 轮对比：方案 A 平均 47s、质量评分 7.2/10；方案 B 平均 31s、质量评分 7.8/10。结论和原因分析见正文。附两套完整配置。」示例 4（赛道 D）：《无影 Harness 镜像开箱 72 小时踩坑全记录》「Day 1：镜像启动顺利但插件目录权限问题导致自定义插件加载失败（解法：chmod 755）。Day 2：多插件并发请求触发 rate limit，摸索出最优并发数为 3（附测试数据）。Day 3：发现 D 盘挂载路径和文档描述不一致，模型缓存目录需手动指定。三天踩的坑比看文档一个月学到的多。附完整报错日志和解决方案清单。」六、奖项设置（Top 10）奖项名额奖励评选标准🥇 最佳改造架构师1 名10000 灵豆 + 2000 魔粒插件编排设计最巧妙 + 可复用性最强🥈 优秀实践奖3 名6000 灵豆 + 1000 魔粒 / 人内容完整 + 数据充分 + 有独特视角🥉 潜力新星奖6 名2000 灵豆 + 500 魔粒 / 人投稿合格 + 社区互动活跃额外彩蛋： 赛道 B 投稿中被社区采纳为\"推荐插件\"的作者，额外获得 3000 灵豆 + 官方推荐位。优质稿件收录进无影官方案例库、Harness 插件文档和社区精选区。七、评选标准（官方评审 80 + 魔搭互动 15 + 朋友圈转发 5）7.1 官方评审（满分 80 分）评分维度满分说明插件编排合理性10插件选择有理有据，调用链路清晰可复现性10读者拿到配置能直接跑通踩坑与解决方案10真实问题 + 真实解法，不是水文量化数据10有对比、有测试、有结论创新性10有别人没想到的思路或用法架构图 / 流程图10让人一眼看懂你的设计内容完整度10从背景到实现到总结，逻辑完整行文质量10读起来流畅，不是流水账7.2 魔搭社区互动（满分 15 分）浏览量排名得分第 1-3 名15第 4-10 名10第 11-20 名5第 20 名开外27.3 朋友圈转发（满分 5 分）转发稿件到朋友圈并保留截图 = 5 分加成（非必选项）。八、注意事项真实性： 必须基于无影云电脑 DeepSeek Harness 镜像的真实使用体验脱敏： 涉及密钥、token、内部数据的，请做脱敏处理上限： 每人最多投 2 篇（可跨赛道）原创性： 抄袭 / AI 全文生成 / 洗稿取消资格版权： 投稿即授权无影官方在宣传素材、案例库中使用引用规范： 引用第三方工具 / 模型 / 库请标注版本号奖励发放： 结果公布后 7 个工作日内发放九、快速开始领灵豆： 点击 免费领取 300 灵豆开镜像： 进入 无影镜像社区，选择 DeepSeek Harness 官方镜像连接： 回到 个人主页 连接云电脑，开机即玩搞事情： 试试你的第一个插件组合，然后写下来投稿Windows 镜像 Beta 已上线，Linux 在路上。跑通了欢迎在评论区晒你的插件配置 YAML～无影云电脑个人版 开发者运营团队",
+      "summary": "a. 无影版DeepSeek Harness 怎么改造，写出来赢 10000 灵豆（无影云电脑使用时长）！无影云电脑已上线 DeepSeek Harness 官方镜像，开机即用、环境预装，省去折腾 Node/Python/npx 的时间。8 月 26 日 - 10 月 8 日，魔搭社区开发者晒出你在无影云电脑上的 Harness 真实玩法：最强插件组合（用最少插件完成最复杂任务）、自定义插件开发、...",
+      "contestType": "code",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-10-08T10:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "X 插件",
+        "我搭了一个每天自动抓取 5 个竞品官网变更、diff 对比、生成日报邮件的 Agent。关键设计：Browser 负责抓页面快照",
+        "Code 做文本 diff 和摘要生成",
+        "Shell 调 sendmail 发送。不用数据库、不用额外 API",
+        "纯插件原生能力。踩坑点：Browser 插件默认超时 30s"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2026-09-08T16:21:43.412Z",
+      "scrapedAt": "2026-09-08T16:19:15.778Z",
+      "lastUpdated": "2026-09-08T16:21:43.412Z",
       "version": 1
     },
     {
@@ -902,7 +906,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-09-14T03:45:38.117Z",
+      "deadline": "2026-09-13T16:20:32.419Z",
       "prize": "€2 000 EUR",
       "tags": [],
       "aiTools": [
@@ -913,9 +917,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:50.859Z",
-      "scrapedAt": "2026-09-08T03:45:38.117Z",
-      "lastUpdated": "2026-09-08T03:46:50.859Z",
+      "processedAt": "2026-09-08T16:21:44.411Z",
+      "scrapedAt": "2026-09-08T16:20:32.419Z",
+      "lastUpdated": "2026-09-08T16:21:44.411Z",
       "version": 1
     },
     {
@@ -929,7 +933,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-10-05T03:45:38.117Z",
+      "deadline": "2026-10-04T16:20:32.420Z",
       "prize": "$25 000 USD",
       "tags": [],
       "aiTools": [
@@ -940,9 +944,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:50.848Z",
-      "scrapedAt": "2026-09-08T03:45:38.117Z",
-      "lastUpdated": "2026-09-08T03:46:50.848Z",
+      "processedAt": "2026-09-08T16:21:44.412Z",
+      "scrapedAt": "2026-09-08T16:20:32.420Z",
+      "lastUpdated": "2026-09-08T16:21:44.412Z",
       "version": 1
     },
     {
@@ -966,9 +970,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:50.849Z",
-      "scrapedAt": "2026-09-08T03:45:38.118Z",
-      "lastUpdated": "2026-09-08T03:46:50.849Z",
+      "processedAt": "2026-09-08T16:21:44.413Z",
+      "scrapedAt": "2026-09-08T16:20:32.420Z",
+      "lastUpdated": "2026-09-08T16:21:44.413Z",
       "version": 1
     },
     {
@@ -992,9 +996,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:50.846Z",
-      "scrapedAt": "2026-09-08T03:45:38.118Z",
-      "lastUpdated": "2026-09-08T03:46:50.846Z",
+      "processedAt": "2026-09-08T16:21:44.412Z",
+      "scrapedAt": "2026-09-08T16:20:32.421Z",
+      "lastUpdated": "2026-09-08T16:21:44.412Z",
       "version": 1
     },
     {
@@ -1008,7 +1012,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-09-12T03:45:38.118Z",
+      "deadline": "2026-09-11T16:20:32.421Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -1018,9 +1022,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:50.898Z",
-      "scrapedAt": "2026-09-08T03:45:38.118Z",
-      "lastUpdated": "2026-09-08T03:46:50.898Z",
+      "processedAt": "2026-09-08T16:21:44.427Z",
+      "scrapedAt": "2026-09-08T16:20:32.421Z",
+      "lastUpdated": "2026-09-08T16:21:44.427Z",
       "version": 1
     },
     {
@@ -1034,7 +1038,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-09-13T03:45:38.118Z",
+      "deadline": "2026-09-12T16:20:32.421Z",
       "tags": [
         "ai"
       ],
@@ -1046,9 +1050,35 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:51.899Z",
-      "scrapedAt": "2026-09-08T03:45:38.118Z",
-      "lastUpdated": "2026-09-08T03:46:51.899Z",
+      "processedAt": "2026-09-08T16:21:45.437Z",
+      "scrapedAt": "2026-09-08T16:20:32.422Z",
+      "lastUpdated": "2026-09-08T16:21:45.437Z",
+      "version": 1
+    },
+    {
+      "id": "c_3031a30109d8",
+      "title": "September Study Jam: Amini Canopy or Crop Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/amini-canopy-or-crop-challenge-september-studyjam",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-09-30T16:20:32.422Z",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-09-08T16:21:45.429Z",
+      "scrapedAt": "2026-09-08T16:20:32.422Z",
+      "lastUpdated": "2026-09-08T16:21:45.429Z",
       "version": 1
     },
     {
@@ -1073,9 +1103,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:51.896Z",
-      "scrapedAt": "2026-09-08T03:45:38.119Z",
-      "lastUpdated": "2026-09-08T03:46:51.896Z",
+      "processedAt": "2026-09-08T16:21:45.436Z",
+      "scrapedAt": "2026-09-08T16:20:32.422Z",
+      "lastUpdated": "2026-09-08T16:21:45.436Z",
       "version": 1
     },
     {
@@ -1099,9 +1129,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:51.896Z",
-      "scrapedAt": "2026-09-08T03:45:38.119Z",
-      "lastUpdated": "2026-09-08T03:46:51.896Z",
+      "processedAt": "2026-09-08T16:21:45.432Z",
+      "scrapedAt": "2026-09-08T16:20:32.423Z",
+      "lastUpdated": "2026-09-08T16:21:45.432Z",
       "version": 1
     },
     {
@@ -1125,9 +1155,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:51.893Z",
-      "scrapedAt": "2026-09-08T03:45:38.119Z",
-      "lastUpdated": "2026-09-08T03:46:51.893Z",
+      "processedAt": "2026-09-08T16:21:45.454Z",
+      "scrapedAt": "2026-09-08T16:20:32.423Z",
+      "lastUpdated": "2026-09-08T16:21:45.454Z",
       "version": 1
     },
     {
@@ -1151,9 +1181,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:51.941Z",
-      "scrapedAt": "2026-09-08T03:45:38.120Z",
-      "lastUpdated": "2026-09-08T03:46:51.941Z",
+      "processedAt": "2026-09-08T16:21:46.452Z",
+      "scrapedAt": "2026-09-08T16:20:32.424Z",
+      "lastUpdated": "2026-09-08T16:21:46.452Z",
       "version": 1
     },
     {
@@ -1177,9 +1207,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:52.939Z",
-      "scrapedAt": "2026-09-08T03:45:38.120Z",
-      "lastUpdated": "2026-09-08T03:46:52.939Z",
+      "processedAt": "2026-09-08T16:21:46.452Z",
+      "scrapedAt": "2026-09-08T16:20:32.424Z",
+      "lastUpdated": "2026-09-08T16:21:46.453Z",
       "version": 1
     },
     {
@@ -1203,9 +1233,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:52.936Z",
-      "scrapedAt": "2026-09-08T03:45:38.120Z",
-      "lastUpdated": "2026-09-08T03:46:52.936Z",
+      "processedAt": "2026-09-08T16:21:46.452Z",
+      "scrapedAt": "2026-09-08T16:20:32.424Z",
+      "lastUpdated": "2026-09-08T16:21:46.452Z",
       "version": 1
     },
     {
@@ -1229,9 +1259,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:52.940Z",
-      "scrapedAt": "2026-09-08T03:45:38.121Z",
-      "lastUpdated": "2026-09-08T03:46:52.940Z",
+      "processedAt": "2026-09-08T16:21:46.457Z",
+      "scrapedAt": "2026-09-08T16:20:32.425Z",
+      "lastUpdated": "2026-09-08T16:21:46.457Z",
       "version": 1
     },
     {
@@ -1254,9 +1284,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:52.934Z",
-      "scrapedAt": "2026-09-08T03:45:38.122Z",
-      "lastUpdated": "2026-09-08T03:46:52.934Z",
+      "processedAt": "2026-09-08T16:21:46.477Z",
+      "scrapedAt": "2026-09-08T16:20:32.425Z",
+      "lastUpdated": "2026-09-08T16:21:46.477Z",
       "version": 1
     },
     {
@@ -1280,9 +1310,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:52.979Z",
-      "scrapedAt": "2026-09-08T03:45:38.122Z",
-      "lastUpdated": "2026-09-08T03:46:52.979Z",
+      "processedAt": "2026-09-08T16:21:47.476Z",
+      "scrapedAt": "2026-09-08T16:20:32.425Z",
+      "lastUpdated": "2026-09-08T16:21:47.476Z",
       "version": 1
     },
     {
@@ -1308,9 +1338,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:53.980Z",
-      "scrapedAt": "2026-09-08T03:45:38.122Z",
-      "lastUpdated": "2026-09-08T03:46:53.980Z",
+      "processedAt": "2026-09-08T16:21:47.475Z",
+      "scrapedAt": "2026-09-08T16:20:32.426Z",
+      "lastUpdated": "2026-09-08T16:21:47.475Z",
       "version": 1
     },
     {
@@ -1334,9 +1364,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:53.982Z",
-      "scrapedAt": "2026-09-08T03:45:38.122Z",
-      "lastUpdated": "2026-09-08T03:46:53.982Z",
+      "processedAt": "2026-09-08T16:21:47.480Z",
+      "scrapedAt": "2026-09-08T16:20:32.426Z",
+      "lastUpdated": "2026-09-08T16:21:47.480Z",
       "version": 1
     },
     {
@@ -1360,9 +1390,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:53.979Z",
-      "scrapedAt": "2026-09-08T03:45:38.122Z",
-      "lastUpdated": "2026-09-08T03:46:53.979Z",
+      "processedAt": "2026-09-08T16:21:47.478Z",
+      "scrapedAt": "2026-09-08T16:20:32.426Z",
+      "lastUpdated": "2026-09-08T16:21:47.478Z",
       "version": 1
     },
     {
@@ -1388,41 +1418,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:53.977Z",
-      "scrapedAt": "2026-09-08T03:45:38.126Z",
-      "lastUpdated": "2026-09-08T03:46:53.977Z",
-      "version": 1
-    },
-    {
-      "id": "c_6f9040f8220a",
-      "title": "Unido AfricaRice App Builder Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/unido-africarice-app-builder-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$5 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-09-08T03:46:54.023Z",
-      "scrapedAt": "2026-09-08T03:45:38.126Z",
-      "lastUpdated": "2026-09-08T03:46:54.023Z",
+      "processedAt": "2026-09-08T16:21:47.495Z",
+      "scrapedAt": "2026-09-08T16:20:32.429Z",
+      "lastUpdated": "2026-09-08T16:21:47.495Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-09-08T03:46:54.032Z"
+    "lastUpdated": "2026-09-08T16:21:47.509Z"
   }
 }

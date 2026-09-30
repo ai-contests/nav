@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-09-30T04:46:46.829Z",
+  "timestamp": "2026-09-30T17:53:19.623Z",
   "contestCount": 10,
   "contests": [
     {
@@ -24,9 +24,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-30T04:46:38.504Z",
-      "scrapedAt": "2026-09-30T04:44:32.096Z",
-      "lastUpdated": "2026-09-30T04:46:38.504Z",
+      "processedAt": "2026-09-30T17:53:10.223Z",
+      "scrapedAt": "2026-09-30T17:51:10.456Z",
+      "lastUpdated": "2026-09-30T17:53:10.223Z",
       "version": 1
     },
     {
@@ -50,9 +50,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-30T04:46:38.502Z",
-      "scrapedAt": "2026-09-30T04:44:32.097Z",
-      "lastUpdated": "2026-09-30T04:46:38.502Z",
+      "processedAt": "2026-09-30T17:53:10.222Z",
+      "scrapedAt": "2026-09-30T17:51:10.457Z",
+      "lastUpdated": "2026-09-30T17:53:10.222Z",
       "version": 1
     },
     {
@@ -78,9 +78,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-30T04:46:38.533Z",
-      "scrapedAt": "2026-09-30T04:44:32.098Z",
-      "lastUpdated": "2026-09-30T04:46:38.533Z",
+      "processedAt": "2026-09-30T17:53:10.389Z",
+      "scrapedAt": "2026-09-30T17:51:10.458Z",
+      "lastUpdated": "2026-09-30T17:53:10.389Z",
       "version": 1
     },
     {
@@ -106,9 +106,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-30T04:46:39.538Z",
-      "scrapedAt": "2026-09-30T04:44:32.098Z",
-      "lastUpdated": "2026-09-30T04:46:39.538Z",
+      "processedAt": "2026-09-30T17:53:11.397Z",
+      "scrapedAt": "2026-09-30T17:51:10.458Z",
+      "lastUpdated": "2026-09-30T17:53:11.397Z",
       "version": 1
     },
     {
@@ -134,9 +134,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-30T04:46:39.537Z",
-      "scrapedAt": "2026-09-30T04:44:32.099Z",
-      "lastUpdated": "2026-09-30T04:46:39.537Z",
+      "processedAt": "2026-09-30T17:53:11.406Z",
+      "scrapedAt": "2026-09-30T17:51:10.459Z",
+      "lastUpdated": "2026-09-30T17:53:11.406Z",
       "version": 1
     },
     {
@@ -160,9 +160,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-30T04:46:39.541Z",
-      "scrapedAt": "2026-09-30T04:44:32.100Z",
-      "lastUpdated": "2026-09-30T04:46:39.541Z",
+      "processedAt": "2026-09-30T17:53:11.395Z",
+      "scrapedAt": "2026-09-30T17:51:10.459Z",
+      "lastUpdated": "2026-09-30T17:53:11.395Z",
       "version": 1
     },
     {
@@ -186,9 +186,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-30T04:46:39.543Z",
-      "scrapedAt": "2026-09-30T04:44:32.100Z",
-      "lastUpdated": "2026-09-30T04:46:39.543Z",
+      "processedAt": "2026-09-30T17:53:11.403Z",
+      "scrapedAt": "2026-09-30T17:51:10.460Z",
+      "lastUpdated": "2026-09-30T17:53:11.403Z",
       "version": 1
     },
     {
@@ -214,24 +214,26 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-30T04:46:39.575Z",
-      "scrapedAt": "2026-09-30T04:44:32.101Z",
-      "lastUpdated": "2026-09-30T04:46:39.575Z",
+      "processedAt": "2026-09-30T17:53:11.565Z",
+      "scrapedAt": "2026-09-30T17:51:10.461Z",
+      "lastUpdated": "2026-09-30T17:53:11.565Z",
       "version": 1
     },
     {
-      "id": "c_fbc7745c371f",
-      "title": "Beginner's Paradise - FirstCommit",
+      "id": "c_7162bffc09b3",
+      "title": "Multimodal AI Hackathon 2026",
       "platform": "devpost",
-      "url": "https://firstcommit.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/152/414/datas/medium_square.png",
+      "url": "https://multimodal-ai-hackathon-2026-7.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/366/176/datas/medium_square.jpg",
       "description": "",
       "summary": "...",
       "contestType": "mixed",
       "status": "ended",
-      "difficulty": "beginner",
-      "prize": "$1,024",
-      "tags": [],
+      "difficulty": "intermediate",
+      "prize": "₹ 100,000",
+      "tags": [
+        "ai"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -240,9 +242,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-30T04:46:40.579Z",
-      "scrapedAt": "2026-09-30T04:44:32.102Z",
-      "lastUpdated": "2026-09-30T04:46:40.579Z",
+      "processedAt": "2026-09-30T17:53:12.574Z",
+      "scrapedAt": "2026-09-30T17:51:10.461Z",
+      "lastUpdated": "2026-09-30T17:53:12.574Z",
       "version": 1
     },
     {
@@ -266,15 +268,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-09-30T04:46:40.576Z",
-      "scrapedAt": "2026-09-30T04:44:32.102Z",
-      "lastUpdated": "2026-09-30T04:46:40.576Z",
+      "processedAt": "2026-09-30T17:53:12.573Z",
+      "scrapedAt": "2026-09-30T17:51:10.462Z",
+      "lastUpdated": "2026-09-30T17:53:12.573Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-09-30T04:46:46.829Z"
+    "lastUpdated": "2026-09-30T17:53:19.623Z"
   }
 }

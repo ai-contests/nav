@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-10-02T04:49:24.131Z",
+  "timestamp": "2026-10-02T17:44:21.914Z",
   "contestCount": 10,
   "contests": [
     {
@@ -24,9 +24,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-02T04:49:15.049Z",
-      "scrapedAt": "2026-10-02T04:47:30.107Z",
-      "lastUpdated": "2026-10-02T04:49:15.049Z",
+      "processedAt": "2026-10-02T17:44:12.395Z",
+      "scrapedAt": "2026-10-02T17:42:27.501Z",
+      "lastUpdated": "2026-10-02T17:44:12.395Z",
       "version": 1
     },
     {
@@ -52,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-02T04:49:16.055Z",
-      "scrapedAt": "2026-10-02T04:47:30.108Z",
-      "lastUpdated": "2026-10-02T04:49:16.055Z",
+      "processedAt": "2026-10-02T17:44:13.396Z",
+      "scrapedAt": "2026-10-02T17:42:27.501Z",
+      "lastUpdated": "2026-10-02T17:44:13.396Z",
       "version": 1
     },
     {
@@ -80,9 +80,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-02T04:49:16.058Z",
-      "scrapedAt": "2026-10-02T04:47:30.109Z",
-      "lastUpdated": "2026-10-02T04:49:16.058Z",
+      "processedAt": "2026-10-02T17:44:13.398Z",
+      "scrapedAt": "2026-10-02T17:42:27.502Z",
+      "lastUpdated": "2026-10-02T17:44:13.398Z",
       "version": 1
     },
     {
@@ -108,9 +108,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-02T04:49:16.065Z",
-      "scrapedAt": "2026-10-02T04:47:30.109Z",
-      "lastUpdated": "2026-10-02T04:49:16.065Z",
+      "processedAt": "2026-10-02T17:44:13.400Z",
+      "scrapedAt": "2026-10-02T17:42:27.502Z",
+      "lastUpdated": "2026-10-02T17:44:13.400Z",
       "version": 1
     },
     {
@@ -134,24 +134,26 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-02T04:49:16.067Z",
-      "scrapedAt": "2026-10-02T04:47:30.110Z",
-      "lastUpdated": "2026-10-02T04:49:16.067Z",
+      "processedAt": "2026-10-02T17:44:13.387Z",
+      "scrapedAt": "2026-10-02T17:42:27.503Z",
+      "lastUpdated": "2026-10-02T17:44:13.387Z",
       "version": 1
     },
     {
-      "id": "c_fae3a6d1eeb2",
-      "title": "Global Innovation Build Challenge V2",
+      "id": "c_50cbb64993cc",
+      "title": "PayPal AI Hackathon",
       "platform": "devpost",
-      "url": "https://gibc-v2.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/835/213/datas/medium_square.png",
+      "url": "https://paypalaihackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/288/985/datas/medium_square.png",
       "description": "",
       "summary": "...",
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
-      "prize": "6",
-      "tags": [],
+      "prize": "$67,500",
+      "tags": [
+        "ai"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -160,9 +162,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-02T04:49:16.196Z",
-      "scrapedAt": "2026-10-02T04:47:30.110Z",
-      "lastUpdated": "2026-10-02T04:49:16.196Z",
+      "processedAt": "2026-10-02T17:44:13.609Z",
+      "scrapedAt": "2026-10-02T17:42:27.504Z",
+      "lastUpdated": "2026-10-02T17:44:13.609Z",
       "version": 1
     },
     {
@@ -188,9 +190,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-02T04:49:17.210Z",
-      "scrapedAt": "2026-10-02T04:47:30.111Z",
-      "lastUpdated": "2026-10-02T04:49:17.210Z",
+      "processedAt": "2026-10-02T17:44:14.612Z",
+      "scrapedAt": "2026-10-02T17:42:27.504Z",
+      "lastUpdated": "2026-10-02T17:44:14.612Z",
       "version": 1
     },
     {
@@ -216,35 +218,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-02T04:49:17.218Z",
-      "scrapedAt": "2026-10-02T04:47:30.112Z",
-      "lastUpdated": "2026-10-02T04:49:17.218Z",
-      "version": 1
-    },
-    {
-      "id": "c_fbc7745c371f",
-      "title": "Beginner's Paradise - FirstCommit",
-      "platform": "devpost",
-      "url": "https://firstcommit.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/152/414/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "beginner",
-      "prize": "$1,024",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-10-02T04:49:17.215Z",
-      "scrapedAt": "2026-10-02T04:47:30.112Z",
-      "lastUpdated": "2026-10-02T04:49:17.215Z",
+      "processedAt": "2026-10-02T17:44:14.603Z",
+      "scrapedAt": "2026-10-02T17:42:27.505Z",
+      "lastUpdated": "2026-10-02T17:44:14.603Z",
       "version": 1
     },
     {
@@ -268,15 +244,41 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-02T04:49:17.210Z",
-      "scrapedAt": "2026-10-02T04:47:30.113Z",
-      "lastUpdated": "2026-10-02T04:49:17.211Z",
+      "processedAt": "2026-10-02T17:44:14.616Z",
+      "scrapedAt": "2026-10-02T17:42:27.505Z",
+      "lastUpdated": "2026-10-02T17:44:14.616Z",
+      "version": 1
+    },
+    {
+      "id": "c_22eeecb28067",
+      "title": "OneAquaHealth IEEE Global Hackathon",
+      "platform": "devpost",
+      "url": "https://oneaquahealth-ieee-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/514/502/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$3,500",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-02T17:44:14.607Z",
+      "scrapedAt": "2026-10-02T17:42:27.506Z",
+      "lastUpdated": "2026-10-02T17:44:14.607Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-02T04:49:24.131Z"
+    "lastUpdated": "2026-10-02T17:44:21.914Z"
   }
 }

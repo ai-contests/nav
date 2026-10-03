@@ -1,6 +1,6 @@
 {
   "platform": "devpost",
-  "timestamp": "2026-10-03T04:31:59.303Z",
+  "timestamp": "2026-10-03T16:02:04.332Z",
   "contestCount": 10,
   "contests": [
     {
@@ -24,9 +24,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-03T04:31:49.641Z",
-      "scrapedAt": "2026-10-03T04:30:02.352Z",
-      "lastUpdated": "2026-10-03T04:31:49.641Z",
+      "processedAt": "2026-10-03T16:01:54.949Z",
+      "scrapedAt": "2026-10-03T16:00:00.976Z",
+      "lastUpdated": "2026-10-03T16:01:54.949Z",
       "version": 1
     },
     {
@@ -52,91 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-03T04:31:49.647Z",
-      "scrapedAt": "2026-10-03T04:30:02.353Z",
-      "lastUpdated": "2026-10-03T04:31:49.647Z",
-      "version": 1
-    },
-    {
-      "id": "c_df11435bf221",
-      "title": "OpenCV AI Competition 2026, powered by AWS",
-      "platform": "devpost",
-      "url": "https://opencv26.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/087/526/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$20,250",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-10-03T04:31:49.653Z",
-      "scrapedAt": "2026-10-03T04:30:02.353Z",
-      "lastUpdated": "2026-10-03T04:31:49.653Z",
-      "version": 1
-    },
-    {
-      "id": "c_475572c13d5a",
-      "title": "Build With AI: Basics",
-      "platform": "devpost",
-      "url": "https://learn-ai-basics.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/366/318/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$2,500",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-10-03T04:31:49.849Z",
-      "scrapedAt": "2026-10-03T04:30:02.354Z",
-      "lastUpdated": "2026-10-03T04:31:49.849Z",
-      "version": 1
-    },
-    {
-      "id": "c_4181e5efd4b2",
-      "title": "Meta VR Start Developer Competition 2026",
-      "platform": "devpost",
-      "url": "https://start-developer-competition-26.devpost.com/?ref_feature=challenge&ref_medium=discover",
-      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/374/843/datas/medium_square.png",
-      "description": "",
-      "summary": "...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "$1,000,000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-10-03T04:31:50.857Z",
-      "scrapedAt": "2026-10-03T04:30:02.354Z",
-      "lastUpdated": "2026-10-03T04:31:50.857Z",
+      "processedAt": "2026-10-03T16:01:54.952Z",
+      "scrapedAt": "2026-10-03T16:00:00.977Z",
+      "lastUpdated": "2026-10-03T16:01:54.952Z",
       "version": 1
     },
     {
@@ -162,9 +80,91 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-03T04:31:50.852Z",
-      "scrapedAt": "2026-10-03T04:30:02.355Z",
-      "lastUpdated": "2026-10-03T04:31:50.852Z",
+      "processedAt": "2026-10-03T16:01:54.948Z",
+      "scrapedAt": "2026-10-03T16:00:00.981Z",
+      "lastUpdated": "2026-10-03T16:01:54.948Z",
+      "version": 1
+    },
+    {
+      "id": "c_df11435bf221",
+      "title": "OpenCV AI Competition 2026, powered by AWS",
+      "platform": "devpost",
+      "url": "https://opencv26.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/087/526/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$20,250",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-03T16:01:55.112Z",
+      "scrapedAt": "2026-10-03T16:00:00.981Z",
+      "lastUpdated": "2026-10-03T16:01:55.112Z",
+      "version": 1
+    },
+    {
+      "id": "c_475572c13d5a",
+      "title": "Build With AI: Basics",
+      "platform": "devpost",
+      "url": "https://learn-ai-basics.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/366/318/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$2,500",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-03T16:01:56.122Z",
+      "scrapedAt": "2026-10-03T16:00:00.982Z",
+      "lastUpdated": "2026-10-03T16:01:56.122Z",
+      "version": 1
+    },
+    {
+      "id": "c_4181e5efd4b2",
+      "title": "Meta VR Start Developer Competition 2026",
+      "platform": "devpost",
+      "url": "https://start-developer-competition-26.devpost.com/?ref_feature=challenge&ref_medium=discover",
+      "imageUrl": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/374/843/datas/medium_square.png",
+      "description": "",
+      "summary": "...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$1,000,000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-03T16:01:56.117Z",
+      "scrapedAt": "2026-10-03T16:00:00.982Z",
+      "lastUpdated": "2026-10-03T16:01:56.117Z",
       "version": 1
     },
     {
@@ -190,9 +190,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-03T04:31:50.862Z",
-      "scrapedAt": "2026-10-03T04:30:02.355Z",
-      "lastUpdated": "2026-10-03T04:31:50.862Z",
+      "processedAt": "2026-10-03T16:01:56.118Z",
+      "scrapedAt": "2026-10-03T16:00:00.982Z",
+      "lastUpdated": "2026-10-03T16:01:56.118Z",
       "version": 1
     },
     {
@@ -218,9 +218,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-03T04:31:50.863Z",
-      "scrapedAt": "2026-10-03T04:30:02.356Z",
-      "lastUpdated": "2026-10-03T04:31:50.863Z",
+      "processedAt": "2026-10-03T16:01:56.120Z",
+      "scrapedAt": "2026-10-03T16:00:00.983Z",
+      "lastUpdated": "2026-10-03T16:01:56.120Z",
       "version": 1
     },
     {
@@ -244,9 +244,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-03T04:31:51.081Z",
-      "scrapedAt": "2026-10-03T04:30:02.356Z",
-      "lastUpdated": "2026-10-03T04:31:51.081Z",
+      "processedAt": "2026-10-03T16:01:56.286Z",
+      "scrapedAt": "2026-10-03T16:00:00.983Z",
+      "lastUpdated": "2026-10-03T16:01:56.286Z",
       "version": 1
     },
     {
@@ -270,15 +270,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-03T04:31:52.072Z",
-      "scrapedAt": "2026-10-03T04:30:02.357Z",
-      "lastUpdated": "2026-10-03T04:31:52.072Z",
+      "processedAt": "2026-10-03T16:01:57.289Z",
+      "scrapedAt": "2026-10-03T16:00:00.984Z",
+      "lastUpdated": "2026-10-03T16:01:57.289Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-03T04:31:59.303Z"
+    "lastUpdated": "2026-10-03T16:02:04.333Z"
   }
 }

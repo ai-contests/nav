@@ -1,8 +1,37 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-10-10T05:04:54.033Z",
+  "timestamp": "2026-10-10T17:13:31.624Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_21c06b005bdd",
+      "title": "支付宝AI付年度黑客松",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/380",
+      "imageUrl": "",
+      "description": "把AI做成一门真实的生意。不只做出 Demo，更要完成从发现、使用到付款、交付的商业闭环。\n\n📌划重点：支付宝 AI 付年度黑客松现已进入作品提交阶段！➡️作品提交入口：https://aipay.alipay.com/community/events/payathon-2026如果你已经有了产品雏形，或正在打磨一个真正能被用户使用、愿意付费的 AI 产品，快来让你的想法生根落地。接下来，大赛还将陆续推出线下 Workshop 和线上直播，围绕产品打磨、AI 付接入及参赛实操展开分享。扫描二维码加入大赛官方交流群，第一时间获取活动安排与赛事动态。赛道信息、报名方式、评选规则和参赛权益，一图看懂👇",
+      "summary": "把AI做成一门真实的生意。不只做出 Demo，更要完成从发现、使用到付款、交付的商业闭环。\n\n📌划重点：支付宝 AI 付年度黑客松现已进入作品提交阶段！➡️作品提交入口：https://aipay.alipay.com/community/events/payathon-2026如果你已经有了产品雏形，或正在打磨一个真正能被用户使用、愿意付费的 AI 产品，快来让你的想法生根落地。接下来，大赛还...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-01T15:59:00.000Z",
+      "prize": "总奖池¥200,000",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-10T17:13:25.044Z",
+      "scrapedAt": "2026-10-10T17:10:50.846Z",
+      "lastUpdated": "2026-10-10T17:13:25.044Z",
+      "version": 1
+    },
     {
       "id": "c_00a27800de4f",
       "title": "第七届设施管理行业大会",
@@ -27,9 +56,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-10T05:04:46.748Z",
-      "scrapedAt": "2026-10-10T05:02:17.515Z",
-      "lastUpdated": "2026-10-10T05:04:46.748Z",
+      "processedAt": "2026-10-10T17:13:25.071Z",
+      "scrapedAt": "2026-10-10T17:10:50.846Z",
+      "lastUpdated": "2026-10-10T17:13:25.071Z",
       "version": 1
     },
     {
@@ -56,9 +85,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-10T05:04:46.752Z",
-      "scrapedAt": "2026-10-10T05:02:17.516Z",
-      "lastUpdated": "2026-10-10T05:04:46.752Z",
+      "processedAt": "2026-10-10T17:13:25.080Z",
+      "scrapedAt": "2026-10-10T17:10:50.846Z",
+      "lastUpdated": "2026-10-10T17:13:25.080Z",
       "version": 1
     },
     {
@@ -83,9 +112,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-10T05:04:46.750Z",
-      "scrapedAt": "2026-10-10T05:02:17.516Z",
-      "lastUpdated": "2026-10-10T05:04:46.750Z",
+      "processedAt": "2026-10-10T17:13:25.147Z",
+      "scrapedAt": "2026-10-10T17:10:50.846Z",
+      "lastUpdated": "2026-10-10T17:13:25.148Z",
       "version": 1
     },
     {
@@ -112,9 +141,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-10T05:04:46.961Z",
-      "scrapedAt": "2026-10-10T05:02:17.523Z",
-      "lastUpdated": "2026-10-10T05:04:46.961Z",
+      "processedAt": "2026-10-10T17:13:26.147Z",
+      "scrapedAt": "2026-10-10T17:10:50.851Z",
+      "lastUpdated": "2026-10-10T17:13:26.147Z",
       "version": 1
     },
     {
@@ -147,9 +176,9 @@
         "纯插件原生能力。踩坑点：Browser 插件默认超时 30s"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-10-10T05:04:47.972Z",
-      "scrapedAt": "2026-10-10T05:02:17.524Z",
-      "lastUpdated": "2026-10-10T05:04:47.972Z",
+      "processedAt": "2026-10-10T17:13:26.159Z",
+      "scrapedAt": "2026-10-10T17:10:50.851Z",
+      "lastUpdated": "2026-10-10T17:13:26.159Z",
       "version": 1
     },
     {
@@ -176,9 +205,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-10T05:04:47.964Z",
-      "scrapedAt": "2026-10-10T05:02:17.525Z",
-      "lastUpdated": "2026-10-10T05:04:47.964Z",
+      "processedAt": "2026-10-10T17:13:26.150Z",
+      "scrapedAt": "2026-10-10T17:10:50.853Z",
+      "lastUpdated": "2026-10-10T17:13:26.150Z",
       "version": 1
     },
     {
@@ -208,9 +237,9 @@
         "最终解释权归 AMD 团队所有。"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-10-10T05:04:47.969Z",
-      "scrapedAt": "2026-10-10T05:02:17.541Z",
-      "lastUpdated": "2026-10-10T05:04:47.969Z",
+      "processedAt": "2026-10-10T17:13:26.160Z",
+      "scrapedAt": "2026-10-10T17:10:50.869Z",
+      "lastUpdated": "2026-10-10T17:13:26.160Z",
       "version": 1
     },
     {
@@ -241,9 +270,9 @@
         "前3名优先承接任务"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-10-10T05:04:47.963Z",
-      "scrapedAt": "2026-10-10T05:02:17.541Z",
-      "lastUpdated": "2026-10-10T05:04:47.963Z",
+      "processedAt": "2026-10-10T17:13:26.237Z",
+      "scrapedAt": "2026-10-10T17:10:50.870Z",
+      "lastUpdated": "2026-10-10T17:13:26.237Z",
       "version": 1
     },
     {
@@ -268,45 +297,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-10T05:04:48.178Z",
-      "scrapedAt": "2026-10-10T05:02:17.542Z",
-      "lastUpdated": "2026-10-10T05:04:48.178Z",
-      "version": 1
-    },
-    {
-      "id": "c_32df85c8cf0b",
-      "title": "西客松｜Shaanxi Hackathon",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/376",
-      "imageUrl": "",
-      "description": "西安首场千人级AI黑客松，重磅启动！",
-      "summary": "西安首场千人级AI黑客松，重磅启动！...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-09-30T15:59:00.000Z",
-      "prize": "45.6万元奖金池",
-      "tags": [
-        "应用开发赛",
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-10-10T05:04:49.182Z",
-      "scrapedAt": "2026-10-10T05:02:17.542Z",
-      "lastUpdated": "2026-10-10T05:04:49.182Z",
+      "processedAt": "2026-10-10T17:13:27.226Z",
+      "scrapedAt": "2026-10-10T17:10:50.870Z",
+      "lastUpdated": "2026-10-10T17:13:27.226Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-10T05:04:54.033Z"
+    "lastUpdated": "2026-10-10T17:13:31.624Z"
   }
 }

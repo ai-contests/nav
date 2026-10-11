@@ -1,35 +1,8 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-10-10T17:13:31.627Z",
-  "contestCount": 3,
+  "timestamp": "2026-10-11T04:52:29.178Z",
+  "contestCount": 2,
   "contests": [
-    {
-      "id": "c_007a6eed1dab",
-      "title": "Crucibles: Let the Community Pick the Winner",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/1455",
-      "imageUrl": "",
-      "description": "A new kind of contest. Entries go head to head, winner moves up the ranks. Win Buzz or start your own.",
-      "summary": "A new kind of contest. Entries go head to head, winner moves up the ranks. Win Buzz or start your own....",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-10-10T23:59:59.999Z",
-      "prize": "",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-10-10T17:13:23.971Z",
-      "scrapedAt": "2026-10-10T17:11:02.150Z",
-      "lastUpdated": "2026-10-10T17:13:23.971Z",
-      "version": 1
-    },
     {
       "id": "c_f1538a5ab231",
       "title": "H3 Content Contest: Six Seconds to Win",
@@ -52,9 +25,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-10T17:13:24.062Z",
-      "scrapedAt": "2026-10-10T17:11:02.151Z",
-      "lastUpdated": "2026-10-10T17:13:24.062Z",
+      "processedAt": "2026-10-11T04:52:21.698Z",
+      "scrapedAt": "2026-10-11T04:50:05.331Z",
+      "lastUpdated": "2026-10-11T04:52:21.698Z",
       "version": 1
     },
     {
@@ -81,15 +54,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-10T17:13:25.046Z",
-      "scrapedAt": "2026-10-10T17:11:02.151Z",
-      "lastUpdated": "2026-10-10T17:13:25.046Z",
+      "processedAt": "2026-10-11T04:52:21.899Z",
+      "scrapedAt": "2026-10-11T04:50:05.331Z",
+      "lastUpdated": "2026-10-11T04:52:21.899Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-10T17:13:31.627Z"
+    "lastUpdated": "2026-10-11T04:52:29.178Z"
   }
 }

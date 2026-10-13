@@ -1,8 +1,37 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-10-13T06:08:14.712Z",
+  "timestamp": "2026-10-13T19:07:36.685Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_09ccb70a8ce0",
+      "title": "2026观猹大会",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/381",
+      "imageUrl": "",
+      "description": "🕐10.23-10.25 🕹️杭州茶叶博览会展中心 一场关于AI产品、创作者与真实用户的线下盛会。 在这里，遇见最值得关注的AI产品、最有创造力的开发者，和一群同样热爱探索的观猹员。\n\n👉🏻魔搭邀你逛AI盛会！这份逛展攻略请收好AI互动展位和分论坛活动等均可免费参与。金猹奖盛典需凭门票入场。🕐10.23-10.25🕹️杭州茶叶博览会展中心一场关于AI产品、创作者与真实用户的线下盛会。在这里，遇见最值得关注的AI产品、最有创造力的开发者，和一群同样热爱探索的观猹员。",
+      "summary": "🕐10.23-10.25 🕹️杭州茶叶博览会展中心 一场关于AI产品、创作者与真实用户的线下盛会。 在这里，遇见最值得关注的AI产品、最有创造力的开发者，和一群同样热爱探索的观猹员。\n\n👉🏻魔搭邀你逛AI盛会！这份逛展攻略请收好AI互动展位和分论坛活动等均可免费参与。金猹奖盛典需凭门票入场。🕐10.23-10.25🕹️杭州茶叶博览会展中心一场关于AI产品、创作者与真实用户的线下盛会。在...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-10-24T16:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-13T19:07:29.625Z",
+      "scrapedAt": "2026-10-13T19:05:07.694Z",
+      "lastUpdated": "2026-10-13T19:07:29.625Z",
+      "version": 1
+    },
     {
       "id": "c_21c06b005bdd",
       "title": "支付宝AI付年度黑客松",
@@ -27,9 +56,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-13T06:08:08.206Z",
-      "scrapedAt": "2026-10-13T06:05:29.634Z",
-      "lastUpdated": "2026-10-13T06:08:08.206Z",
+      "processedAt": "2026-10-13T19:07:29.621Z",
+      "scrapedAt": "2026-10-13T19:05:07.694Z",
+      "lastUpdated": "2026-10-13T19:07:29.621Z",
       "version": 1
     },
     {
@@ -56,9 +85,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-13T06:08:08.195Z",
-      "scrapedAt": "2026-10-13T06:05:29.634Z",
-      "lastUpdated": "2026-10-13T06:08:08.195Z",
+      "processedAt": "2026-10-13T19:07:29.631Z",
+      "scrapedAt": "2026-10-13T19:05:07.694Z",
+      "lastUpdated": "2026-10-13T19:07:29.631Z",
       "version": 1
     },
     {
@@ -85,9 +114,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-13T06:08:08.183Z",
-      "scrapedAt": "2026-10-13T06:05:29.634Z",
-      "lastUpdated": "2026-10-13T06:08:08.183Z",
+      "processedAt": "2026-10-13T19:07:29.796Z",
+      "scrapedAt": "2026-10-13T19:05:07.694Z",
+      "lastUpdated": "2026-10-13T19:07:29.796Z",
       "version": 1
     },
     {
@@ -112,9 +141,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-13T06:08:08.280Z",
-      "scrapedAt": "2026-10-13T06:05:29.634Z",
-      "lastUpdated": "2026-10-13T06:08:08.280Z",
+      "processedAt": "2026-10-13T19:07:30.813Z",
+      "scrapedAt": "2026-10-13T19:05:07.694Z",
+      "lastUpdated": "2026-10-13T19:07:30.813Z",
       "version": 1
     },
     {
@@ -141,9 +170,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-13T06:08:09.283Z",
-      "scrapedAt": "2026-10-13T06:05:29.638Z",
-      "lastUpdated": "2026-10-13T06:08:09.283Z",
+      "processedAt": "2026-10-13T19:07:30.805Z",
+      "scrapedAt": "2026-10-13T19:05:07.696Z",
+      "lastUpdated": "2026-10-13T19:07:30.805Z",
       "version": 1
     },
     {
@@ -176,9 +205,9 @@
         "纯插件原生能力。踩坑点：Browser 插件默认超时 30s"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-10-13T06:08:09.285Z",
-      "scrapedAt": "2026-10-13T06:05:29.639Z",
-      "lastUpdated": "2026-10-13T06:08:09.285Z",
+      "processedAt": "2026-10-13T19:07:30.804Z",
+      "scrapedAt": "2026-10-13T19:05:07.696Z",
+      "lastUpdated": "2026-10-13T19:07:30.804Z",
       "version": 1
     },
     {
@@ -205,9 +234,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-13T06:08:09.288Z",
-      "scrapedAt": "2026-10-13T06:05:29.639Z",
-      "lastUpdated": "2026-10-13T06:08:09.288Z",
+      "processedAt": "2026-10-13T19:07:30.806Z",
+      "scrapedAt": "2026-10-13T19:05:07.697Z",
+      "lastUpdated": "2026-10-13T19:07:30.806Z",
       "version": 1
     },
     {
@@ -237,9 +266,9 @@
         "最终解释权归 AMD 团队所有。"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-10-13T06:08:09.272Z",
-      "scrapedAt": "2026-10-13T06:05:29.658Z",
-      "lastUpdated": "2026-10-13T06:08:09.272Z",
+      "processedAt": "2026-10-13T19:07:30.976Z",
+      "scrapedAt": "2026-10-13T19:05:07.707Z",
+      "lastUpdated": "2026-10-13T19:07:30.976Z",
       "version": 1
     },
     {
@@ -270,42 +299,15 @@
         "前3名优先承接任务"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-10-13T06:08:09.366Z",
-      "scrapedAt": "2026-10-13T06:05:29.658Z",
-      "lastUpdated": "2026-10-13T06:08:09.366Z",
-      "version": 1
-    },
-    {
-      "id": "c_f1632f4fc0c9",
-      "title": "MiniMax开发者沙龙（杭州站）",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/377",
-      "imageUrl": "",
-      "description": "9月27日，MiniMax在杭州和开发者见面啦！",
-      "summary": "9月27日，MiniMax在杭州和开发者见面啦！...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-09-26T16:00:00.000Z",
-      "prize": "",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-10-13T06:08:10.357Z",
-      "scrapedAt": "2026-10-13T06:05:29.659Z",
-      "lastUpdated": "2026-10-13T06:08:10.357Z",
+      "processedAt": "2026-10-13T19:07:31.987Z",
+      "scrapedAt": "2026-10-13T19:05:07.707Z",
+      "lastUpdated": "2026-10-13T19:07:31.987Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-13T06:08:14.712Z"
+    "lastUpdated": "2026-10-13T19:07:36.685Z"
   }
 }

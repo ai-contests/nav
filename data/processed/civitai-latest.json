@@ -1,8 +1,37 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-10-12T21:09:43.974Z",
-  "contestCount": 2,
+  "timestamp": "2026-10-13T06:08:14.716Z",
+  "contestCount": 3,
   "contests": [
+    {
+      "id": "c_5d4c5d139650",
+      "title": "Creator Journey: See How Far You've Come",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1659",
+      "imageUrl": "",
+      "description": "Nine Creator Score tiers, each with its own badge, plus achievements for publishing, reach, sales, judging and wins. Whatever you've already earned is waiting on [your journey page](/creators/journey).",
+      "summary": "Nine Creator Score tiers, each with its own badge, plus achievements for publishing, reach, sales, judging and wins. Whatever you've already earned is waiting on [your journey page](/creators/journey)...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-10-19T23:59:59.999Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-13T06:08:07.077Z",
+      "scrapedAt": "2026-10-13T06:05:40.208Z",
+      "lastUpdated": "2026-10-13T06:08:07.077Z",
+      "version": 1
+    },
     {
       "id": "c_f1538a5ab231",
       "title": "H3 Content Contest: Six Seconds to Win",
@@ -25,9 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:37.660Z",
-      "scrapedAt": "2026-10-12T21:07:27.173Z",
-      "lastUpdated": "2026-10-12T21:09:37.660Z",
+      "processedAt": "2026-10-13T06:08:07.143Z",
+      "scrapedAt": "2026-10-13T06:05:40.208Z",
+      "lastUpdated": "2026-10-13T06:08:07.143Z",
       "version": 1
     },
     {
@@ -54,15 +83,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:37.698Z",
-      "scrapedAt": "2026-10-12T21:07:27.173Z",
-      "lastUpdated": "2026-10-12T21:09:37.698Z",
+      "processedAt": "2026-10-13T06:08:08.196Z",
+      "scrapedAt": "2026-10-13T06:05:40.208Z",
+      "lastUpdated": "2026-10-13T06:08:08.196Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-12T21:09:43.974Z"
+    "lastUpdated": "2026-10-13T06:08:14.716Z"
   }
 }

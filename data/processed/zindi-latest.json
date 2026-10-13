@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-10-12T21:09:43.978Z",
+  "timestamp": "2026-10-13T06:08:14.718Z",
   "contestCount": 20,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-10-18T21:08:30.046Z",
+      "deadline": "2026-10-19T06:06:46.280Z",
       "prize": "$1 000 USD",
       "tags": [],
       "aiTools": [
@@ -25,9 +25,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:40.793Z",
-      "scrapedAt": "2026-10-12T21:08:30.047Z",
-      "lastUpdated": "2026-10-12T21:09:40.793Z",
+      "processedAt": "2026-10-13T06:08:10.371Z",
+      "scrapedAt": "2026-10-13T06:06:46.280Z",
+      "lastUpdated": "2026-10-13T06:08:10.371Z",
       "version": 1
     },
     {
@@ -41,7 +41,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-10-18T21:08:30.047Z",
+      "deadline": "2026-10-19T06:06:46.280Z",
       "prize": "000 ZAR",
       "tags": [],
       "aiTools": [
@@ -52,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:40.796Z",
-      "scrapedAt": "2026-10-12T21:08:30.047Z",
-      "lastUpdated": "2026-10-12T21:09:40.796Z",
+      "processedAt": "2026-10-13T06:08:10.381Z",
+      "scrapedAt": "2026-10-13T06:06:46.280Z",
+      "lastUpdated": "2026-10-13T06:08:10.381Z",
       "version": 1
     },
     {
@@ -68,7 +68,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-10-31T21:08:30.047Z",
+      "deadline": "2026-11-01T06:06:46.280Z",
       "prize": "$10 000 USD",
       "tags": [],
       "aiTools": [
@@ -79,9 +79,34 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:40.797Z",
-      "scrapedAt": "2026-10-12T21:08:30.047Z",
-      "lastUpdated": "2026-10-12T21:09:40.797Z",
+      "processedAt": "2026-10-13T06:08:10.369Z",
+      "scrapedAt": "2026-10-13T06:06:46.281Z",
+      "lastUpdated": "2026-10-13T06:08:10.369Z",
+      "version": 1
+    },
+    {
+      "id": "c_4c848ca3639d",
+      "title": "University Hackathon by Miva Open University: Climate Risk and Health Prediction Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/climate-risk-health-prediction-challenge-miva",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-13T06:08:10.445Z",
+      "scrapedAt": "2026-10-13T06:06:46.281Z",
+      "lastUpdated": "2026-10-13T06:08:10.445Z",
       "version": 1
     },
     {
@@ -95,7 +120,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-10-31T21:08:30.048Z",
+      "deadline": "2026-11-01T06:06:46.281Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -105,9 +130,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:40.806Z",
-      "scrapedAt": "2026-10-12T21:08:30.048Z",
-      "lastUpdated": "2026-10-12T21:09:40.806Z",
+      "processedAt": "2026-10-13T06:08:11.444Z",
+      "scrapedAt": "2026-10-13T06:06:46.281Z",
+      "lastUpdated": "2026-10-13T06:08:11.444Z",
       "version": 1
     },
     {
@@ -121,7 +146,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-10-31T21:08:30.048Z",
+      "deadline": "2026-11-01T06:06:46.281Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -131,9 +156,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:40.835Z",
-      "scrapedAt": "2026-10-12T21:08:30.048Z",
-      "lastUpdated": "2026-10-12T21:09:40.835Z",
+      "processedAt": "2026-10-13T06:08:11.459Z",
+      "scrapedAt": "2026-10-13T06:06:46.281Z",
+      "lastUpdated": "2026-10-13T06:08:11.459Z",
       "version": 1
     },
     {
@@ -157,9 +182,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:41.841Z",
-      "scrapedAt": "2026-10-12T21:08:30.049Z",
-      "lastUpdated": "2026-10-12T21:09:41.841Z",
+      "processedAt": "2026-10-13T06:08:11.464Z",
+      "scrapedAt": "2026-10-13T06:06:46.281Z",
+      "lastUpdated": "2026-10-13T06:08:11.464Z",
       "version": 1
     },
     {
@@ -183,9 +208,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:41.843Z",
-      "scrapedAt": "2026-10-12T21:08:30.049Z",
-      "lastUpdated": "2026-10-12T21:09:41.843Z",
+      "processedAt": "2026-10-13T06:08:11.461Z",
+      "scrapedAt": "2026-10-13T06:06:46.281Z",
+      "lastUpdated": "2026-10-13T06:08:11.461Z",
       "version": 1
     },
     {
@@ -210,9 +235,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:41.845Z",
-      "scrapedAt": "2026-10-12T21:08:30.049Z",
-      "lastUpdated": "2026-10-12T21:09:41.845Z",
+      "processedAt": "2026-10-13T06:08:11.524Z",
+      "scrapedAt": "2026-10-13T06:06:46.282Z",
+      "lastUpdated": "2026-10-13T06:08:11.524Z",
       "version": 1
     },
     {
@@ -236,9 +261,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:41.843Z",
-      "scrapedAt": "2026-10-12T21:08:30.050Z",
-      "lastUpdated": "2026-10-12T21:09:41.843Z",
+      "processedAt": "2026-10-13T06:08:12.539Z",
+      "scrapedAt": "2026-10-13T06:06:46.282Z",
+      "lastUpdated": "2026-10-13T06:08:12.539Z",
       "version": 1
     },
     {
@@ -262,9 +287,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:41.879Z",
-      "scrapedAt": "2026-10-12T21:08:30.050Z",
-      "lastUpdated": "2026-10-12T21:09:41.879Z",
+      "processedAt": "2026-10-13T06:08:12.547Z",
+      "scrapedAt": "2026-10-13T06:06:46.282Z",
+      "lastUpdated": "2026-10-13T06:08:12.547Z",
       "version": 1
     },
     {
@@ -288,9 +313,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:42.882Z",
-      "scrapedAt": "2026-10-12T21:08:30.050Z",
-      "lastUpdated": "2026-10-12T21:09:42.882Z",
+      "processedAt": "2026-10-13T06:08:12.526Z",
+      "scrapedAt": "2026-10-13T06:06:46.282Z",
+      "lastUpdated": "2026-10-13T06:08:12.526Z",
       "version": 1
     },
     {
@@ -314,9 +339,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:42.896Z",
-      "scrapedAt": "2026-10-12T21:08:30.051Z",
-      "lastUpdated": "2026-10-12T21:09:42.896Z",
+      "processedAt": "2026-10-13T06:08:12.528Z",
+      "scrapedAt": "2026-10-13T06:06:46.283Z",
+      "lastUpdated": "2026-10-13T06:08:12.528Z",
       "version": 1
     },
     {
@@ -340,9 +365,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:42.883Z",
-      "scrapedAt": "2026-10-12T21:08:30.051Z",
-      "lastUpdated": "2026-10-12T21:09:42.883Z",
+      "processedAt": "2026-10-13T06:08:12.618Z",
+      "scrapedAt": "2026-10-13T06:06:46.283Z",
+      "lastUpdated": "2026-10-13T06:08:12.618Z",
       "version": 1
     },
     {
@@ -366,9 +391,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:42.884Z",
-      "scrapedAt": "2026-10-12T21:08:30.051Z",
-      "lastUpdated": "2026-10-12T21:09:42.884Z",
+      "processedAt": "2026-10-13T06:08:13.622Z",
+      "scrapedAt": "2026-10-13T06:06:46.283Z",
+      "lastUpdated": "2026-10-13T06:08:13.622Z",
       "version": 1
     },
     {
@@ -391,9 +416,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:42.937Z",
-      "scrapedAt": "2026-10-12T21:08:30.051Z",
-      "lastUpdated": "2026-10-12T21:09:42.937Z",
+      "processedAt": "2026-10-13T06:08:13.614Z",
+      "scrapedAt": "2026-10-13T06:06:46.284Z",
+      "lastUpdated": "2026-10-13T06:08:13.614Z",
       "version": 1
     },
     {
@@ -417,9 +442,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:43.934Z",
-      "scrapedAt": "2026-10-12T21:08:30.051Z",
-      "lastUpdated": "2026-10-12T21:09:43.934Z",
+      "processedAt": "2026-10-13T06:08:13.635Z",
+      "scrapedAt": "2026-10-13T06:06:46.284Z",
+      "lastUpdated": "2026-10-13T06:08:13.635Z",
       "version": 1
     },
     {
@@ -445,9 +470,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:43.930Z",
-      "scrapedAt": "2026-10-12T21:08:30.051Z",
-      "lastUpdated": "2026-10-12T21:09:43.930Z",
+      "processedAt": "2026-10-13T06:08:13.633Z",
+      "scrapedAt": "2026-10-13T06:06:46.284Z",
+      "lastUpdated": "2026-10-13T06:08:13.633Z",
       "version": 1
     },
     {
@@ -471,9 +496,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:43.931Z",
-      "scrapedAt": "2026-10-12T21:08:30.052Z",
-      "lastUpdated": "2026-10-12T21:09:43.931Z",
+      "processedAt": "2026-10-13T06:08:13.704Z",
+      "scrapedAt": "2026-10-13T06:06:46.285Z",
+      "lastUpdated": "2026-10-13T06:08:13.704Z",
       "version": 1
     },
     {
@@ -497,43 +522,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:43.933Z",
-      "scrapedAt": "2026-10-12T21:08:30.052Z",
-      "lastUpdated": "2026-10-12T21:09:43.933Z",
-      "version": 1
-    },
-    {
-      "id": "c_b8beb8a833ee",
-      "title": "DigiCow Farmer Training Adoption Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/digicow-farmer-training-adoption-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "€8 250 EUR",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-10-12T21:09:43.967Z",
-      "scrapedAt": "2026-10-12T21:08:30.052Z",
-      "lastUpdated": "2026-10-12T21:09:43.967Z",
+      "processedAt": "2026-10-13T06:08:14.712Z",
+      "scrapedAt": "2026-10-13T06:06:46.285Z",
+      "lastUpdated": "2026-10-13T06:08:14.712Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-12T21:09:43.978Z"
+    "lastUpdated": "2026-10-13T06:08:14.718Z"
   }
 }

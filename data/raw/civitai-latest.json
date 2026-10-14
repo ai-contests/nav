@@ -1,8 +1,42 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-10-13T19:07:23.322Z",
-  "contestCount": 3,
+  "timestamp": "2026-10-14T04:09:25.588Z",
+  "contestCount": 4,
   "contests": [
+    {
+      "platform": "civitai",
+      "title": "HeyGen Video: Clips That Come With Sound",
+      "description": "HeyGen Video is live in the generator. Text, image or reference to video, 5 to 15 seconds, with dialogue, ambience and effects in every clip. 50% off through October.",
+      "url": "https://civitai.com/events/1673",
+      "deadline": "2026-10-20T23:59:59.999Z",
+      "prize": "",
+      "rawHtml": "{\"endsAt\":\"2026-10-20T23:59:59.999Z\",\"id\":1673,\"title\":\"HeyGen Video: Clips That Come With Sound\",\"content\":\"HeyGen Video is live in the generator. Text, image or reference to video, 5 to 15 seconds, with dialogue, ambience and effects in every clip. 50% off through October.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-10-13T14:56:57.478Z\",\"startsAt\":\"2026-10-13T15:30:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"e3ffc7f6-b115-43ef-8fac-d2d891550b38\",\"actions\":[{\"link\":\"https://civitai.com/articles/36653\",\"type\":\"button\",\"linkText\":\"See how it works\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-10-14T04:07:17.279Z",
+      "metadata": {
+        "endsAt": "2026-10-20T23:59:59.999Z",
+        "id": 1673,
+        "title": "HeyGen Video: Clips That Come With Sound",
+        "content": "HeyGen Video is live in the generator. Text, image or reference to video, 5 to 15 seconds, with dialogue, ambience and effects in every clip. 50% off through October.",
+        "color": "violet",
+        "emoji": null,
+        "createdAt": "2026-10-13T14:56:57.478Z",
+        "startsAt": "2026-10-13T15:30:00.000Z",
+        "metadata": {
+          "type": "site",
+          "image": "e3ffc7f6-b115-43ef-8fac-d2d891550b38",
+          "actions": [
+            {
+              "link": "https://civitai.com/articles/36653",
+              "type": "button",
+              "linkText": "See how it works"
+            }
+          ],
+          "colSpan": 6,
+          "dismissible": true,
+          "targetAudience": "all"
+        }
+      }
+    },
     {
       "platform": "civitai",
       "title": "Creator Journey: See How Far You've Come",
@@ -11,7 +45,7 @@
       "deadline": "2026-10-19T23:59:59.999Z",
       "prize": "",
       "rawHtml": "{\"endsAt\":\"2026-10-19T23:59:59.999Z\",\"id\":1659,\"title\":\"Creator Journey: See How Far You've Come\",\"content\":\"Nine Creator Score tiers, each with its own badge, plus achievements for publishing, reach, sales, judging and wins. Whatever you've already earned is waiting on [your journey page](/creators/journey).\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-10-12T21:10:37.193Z\",\"startsAt\":\"2026-10-12T21:10:36.734Z\",\"metadata\":{\"type\":\"site\",\"image\":\"07323947-827d-4c1a-975f-ea5175918bc3\",\"actions\":[{\"link\":\"/articles/36333\",\"type\":\"button\",\"linkText\":\"See how it works\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-10-13T19:05:18.070Z",
+      "scrapedAt": "2026-10-14T04:07:17.279Z",
       "metadata": {
         "endsAt": "2026-10-19T23:59:59.999Z",
         "id": 1659,
@@ -45,7 +79,7 @@
       "deadline": "2026-10-24T23:59:59.999Z",
       "prize": "900000",
       "rawHtml": "{\"endsAt\":\"2026-10-24T23:59:59.999Z\",\"id\":1456,\"title\":\"H3 Content Contest: Six Seconds to Win\",\"content\":\"The content half of the H3 Contest is open! Make a short video with H3, enter the crucible, the community judges it head-to-head. Over 900k in Buzz up for grabs.\",\"color\":\"grape\",\"emoji\":null,\"createdAt\":\"2026-10-02T21:13:38.575Z\",\"startsAt\":\"2026-10-02T23:01:53.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"884e184f-247a-46eb-81b0-beae914d7b03\",\"actions\":[{\"link\":\"/articles/36055\",\"type\":\"button\",\"linkText\":\"Check it out\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-10-13T19:05:18.070Z",
+      "scrapedAt": "2026-10-14T04:07:17.279Z",
       "metadata": {
         "endsAt": "2026-10-24T23:59:59.999Z",
         "id": 1456,
@@ -79,7 +113,7 @@
       "deadline": "2026-10-23T23:59:59.999Z",
       "prize": "2000000",
       "rawHtml": "{\"endsAt\":\"2026-10-23T23:59:59.999Z\",\"id\":1114,\"title\":\"The Civitai H3 Contest: 2 Million Buzz Up For Grabs\",\"content\":\"A training and content contest with over 2 Million Buzz in prizes and 50% off H3 generation for the duration of the contest.\",\"color\":\"grape\",\"emoji\":null,\"createdAt\":\"2026-09-14T20:41:57.931Z\",\"startsAt\":\"2026-09-16T06:00:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"82534748-97f0-49a4-85c2-550462611d04\",\"actions\":[{\"link\":\"/articles/35315\",\"type\":\"button\",\"linkText\":\"See the contest\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-10-13T19:05:18.070Z",
+      "scrapedAt": "2026-10-14T04:07:17.279Z",
       "metadata": {
         "endsAt": "2026-10-23T23:59:59.999Z",
         "id": 1114,

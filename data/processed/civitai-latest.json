@@ -1,8 +1,35 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-10-13T19:07:36.688Z",
-  "contestCount": 3,
+  "timestamp": "2026-10-14T04:09:37.899Z",
+  "contestCount": 4,
   "contests": [
+    {
+      "id": "c_9055a692e899",
+      "title": "HeyGen Video: Clips That Come With Sound",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1673",
+      "imageUrl": "",
+      "description": "HeyGen Video is live in the generator. Text, image or reference to video, 5 to 15 seconds, with dialogue, ambience and effects in every clip. 50% off through October.",
+      "summary": "HeyGen Video is live in the generator. Text, image or reference to video, 5 to 15 seconds, with dialogue, ambience and effects in every clip. 50% off through October....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-10-20T23:59:59.999Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-14T04:09:30.054Z",
+      "scrapedAt": "2026-10-14T04:07:17.279Z",
+      "lastUpdated": "2026-10-14T04:09:30.054Z",
+      "version": 1
+    },
     {
       "id": "c_5d4c5d139650",
       "title": "Creator Journey: See How Far You've Come",
@@ -27,9 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-13T19:07:28.444Z",
-      "scrapedAt": "2026-10-13T19:05:18.070Z",
-      "lastUpdated": "2026-10-13T19:07:28.444Z",
+      "processedAt": "2026-10-14T04:09:30.169Z",
+      "scrapedAt": "2026-10-14T04:07:17.279Z",
+      "lastUpdated": "2026-10-14T04:09:30.169Z",
       "version": 1
     },
     {
@@ -54,9 +81,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-13T19:07:28.611Z",
-      "scrapedAt": "2026-10-13T19:05:18.070Z",
-      "lastUpdated": "2026-10-13T19:07:28.611Z",
+      "processedAt": "2026-10-14T04:09:31.169Z",
+      "scrapedAt": "2026-10-14T04:07:17.279Z",
+      "lastUpdated": "2026-10-14T04:09:31.169Z",
       "version": 1
     },
     {
@@ -83,15 +110,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-13T19:07:29.619Z",
-      "scrapedAt": "2026-10-13T19:05:18.070Z",
-      "lastUpdated": "2026-10-13T19:07:29.619Z",
+      "processedAt": "2026-10-14T04:09:31.184Z",
+      "scrapedAt": "2026-10-14T04:07:17.279Z",
+      "lastUpdated": "2026-10-14T04:09:31.184Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-13T19:07:36.688Z"
+    "lastUpdated": "2026-10-14T04:09:37.899Z"
   }
 }

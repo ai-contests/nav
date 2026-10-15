@@ -1,8 +1,35 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-10-15T03:53:44.145Z",
-  "contestCount": 4,
+  "timestamp": "2026-10-15T16:38:40.436Z",
+  "contestCount": 5,
   "contests": [
+    {
+      "id": "c_eac8c4aac805",
+      "title": "Krea 3: Edit Any Image With a Sentence",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1715",
+      "imageUrl": "",
+      "description": "Krea 3 is live in the generator. Add up to 6 reference images, describe the change, and pick Instant or Medium. Up to 2K output, from 30 Buzz per image, 33% off during launch week (through Oct 22).",
+      "summary": "Krea 3 is live in the generator. Add up to 6 reference images, describe the change, and pick Instant or Medium. Up to 2K output, from 30 Buzz per image, 33% off during launch week (through Oct 22)....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-10-22T23:59:59.000Z",
+      "prize": "2000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-15T16:38:32.356Z",
+      "scrapedAt": "2026-10-15T16:36:15.190Z",
+      "lastUpdated": "2026-10-15T16:38:32.356Z",
+      "version": 1
+    },
     {
       "id": "c_9055a692e899",
       "title": "HeyGen Video: Clips That Come With Sound",
@@ -25,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-15T03:53:36.509Z",
-      "scrapedAt": "2026-10-15T03:51:26.454Z",
-      "lastUpdated": "2026-10-15T03:53:36.509Z",
+      "processedAt": "2026-10-15T16:38:32.468Z",
+      "scrapedAt": "2026-10-15T16:36:15.191Z",
+      "lastUpdated": "2026-10-15T16:38:32.468Z",
       "version": 1
     },
     {
@@ -54,9 +81,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-15T03:53:36.585Z",
-      "scrapedAt": "2026-10-15T03:51:26.455Z",
-      "lastUpdated": "2026-10-15T03:53:36.585Z",
+      "processedAt": "2026-10-15T16:38:33.486Z",
+      "scrapedAt": "2026-10-15T16:36:15.191Z",
+      "lastUpdated": "2026-10-15T16:38:33.486Z",
       "version": 1
     },
     {
@@ -81,9 +108,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-15T03:53:37.589Z",
-      "scrapedAt": "2026-10-15T03:51:26.455Z",
-      "lastUpdated": "2026-10-15T03:53:37.589Z",
+      "processedAt": "2026-10-15T16:38:33.474Z",
+      "scrapedAt": "2026-10-15T16:36:15.191Z",
+      "lastUpdated": "2026-10-15T16:38:33.474Z",
       "version": 1
     },
     {
@@ -110,15 +137,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-15T03:53:37.599Z",
-      "scrapedAt": "2026-10-15T03:51:26.455Z",
-      "lastUpdated": "2026-10-15T03:53:37.599Z",
+      "processedAt": "2026-10-15T16:38:33.501Z",
+      "scrapedAt": "2026-10-15T16:36:15.191Z",
+      "lastUpdated": "2026-10-15T16:38:33.501Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-15T03:53:44.145Z"
+    "lastUpdated": "2026-10-15T16:38:40.436Z"
   }
 }

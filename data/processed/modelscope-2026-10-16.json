@@ -1,8 +1,37 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-10-16T03:48:36.792Z",
+  "timestamp": "2026-10-16T16:22:58.095Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_06a341c4523c",
+      "title": "天猫 AI 黑客松·高校挑战赛",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/383",
+      "imageUrl": "",
+      "description": "AI 正在成为年轻人面向未来的必备能力。天猫 AI 黑客松，旨在连接高校年轻人与真实技术、品牌及产业场景，邀请每一个敢想敢做的人，把 AI 创想真正做出来，让创造走进现实。",
+      "summary": "AI 正在成为年轻人面向未来的必备能力。天猫 AI 黑客松，旨在连接高校年轻人与真实技术、品牌及产业场景，邀请每一个敢想敢做的人，把 AI 创想真正做出来，让创造走进现实。...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-10-21T15:59:00.000Z",
+      "prize": "¥20万元",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-16T16:22:51.365Z",
+      "scrapedAt": "2026-10-16T16:20:23.593Z",
+      "lastUpdated": "2026-10-16T16:22:51.365Z",
+      "version": 1
+    },
     {
       "id": "c_4efa49f9b7d4",
       "title": "【创投营开启】蚂上加速器第3期",
@@ -27,9 +56,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-16T03:48:29.773Z",
-      "scrapedAt": "2026-10-16T03:46:08.549Z",
-      "lastUpdated": "2026-10-16T03:48:29.773Z",
+      "processedAt": "2026-10-16T16:22:51.461Z",
+      "scrapedAt": "2026-10-16T16:20:23.594Z",
+      "lastUpdated": "2026-10-16T16:22:51.461Z",
       "version": 1
     },
     {
@@ -56,9 +85,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-16T03:48:29.952Z",
-      "scrapedAt": "2026-10-16T03:46:08.549Z",
-      "lastUpdated": "2026-10-16T03:48:29.952Z",
+      "processedAt": "2026-10-16T16:22:52.475Z",
+      "scrapedAt": "2026-10-16T16:20:23.594Z",
+      "lastUpdated": "2026-10-16T16:22:52.475Z",
       "version": 1
     },
     {
@@ -85,9 +114,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-16T03:48:30.943Z",
-      "scrapedAt": "2026-10-16T03:46:08.549Z",
-      "lastUpdated": "2026-10-16T03:48:30.943Z",
+      "processedAt": "2026-10-16T16:22:52.456Z",
+      "scrapedAt": "2026-10-16T16:20:23.594Z",
+      "lastUpdated": "2026-10-16T16:22:52.456Z",
       "version": 1
     },
     {
@@ -114,9 +143,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-16T03:48:30.939Z",
-      "scrapedAt": "2026-10-16T03:46:08.549Z",
-      "lastUpdated": "2026-10-16T03:48:30.939Z",
+      "processedAt": "2026-10-16T16:22:52.461Z",
+      "scrapedAt": "2026-10-16T16:20:23.594Z",
+      "lastUpdated": "2026-10-16T16:22:52.461Z",
       "version": 1
     },
     {
@@ -143,9 +172,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-16T03:48:30.941Z",
-      "scrapedAt": "2026-10-16T03:46:08.549Z",
-      "lastUpdated": "2026-10-16T03:48:30.941Z",
+      "processedAt": "2026-10-16T16:22:52.458Z",
+      "scrapedAt": "2026-10-16T16:20:23.594Z",
+      "lastUpdated": "2026-10-16T16:22:52.458Z",
       "version": 1
     },
     {
@@ -170,9 +199,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-16T03:48:30.941Z",
-      "scrapedAt": "2026-10-16T03:46:08.549Z",
-      "lastUpdated": "2026-10-16T03:48:30.941Z",
+      "processedAt": "2026-10-16T16:22:52.582Z",
+      "scrapedAt": "2026-10-16T16:20:23.594Z",
+      "lastUpdated": "2026-10-16T16:22:52.582Z",
       "version": 1
     },
     {
@@ -199,9 +228,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-16T03:48:31.107Z",
-      "scrapedAt": "2026-10-16T03:46:08.551Z",
-      "lastUpdated": "2026-10-16T03:48:31.107Z",
+      "processedAt": "2026-10-16T16:22:53.571Z",
+      "scrapedAt": "2026-10-16T16:20:23.597Z",
+      "lastUpdated": "2026-10-16T16:22:53.571Z",
       "version": 1
     },
     {
@@ -234,9 +263,9 @@
         "纯插件原生能力。踩坑点：Browser 插件默认超时 30s"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-10-16T03:48:32.116Z",
-      "scrapedAt": "2026-10-16T03:46:08.552Z",
-      "lastUpdated": "2026-10-16T03:48:32.116Z",
+      "processedAt": "2026-10-16T16:22:53.576Z",
+      "scrapedAt": "2026-10-16T16:20:23.598Z",
+      "lastUpdated": "2026-10-16T16:22:53.576Z",
       "version": 1
     },
     {
@@ -263,47 +292,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-16T03:48:32.106Z",
-      "scrapedAt": "2026-10-16T03:46:08.552Z",
-      "lastUpdated": "2026-10-16T03:48:32.106Z",
-      "version": 1
-    },
-    {
-      "id": "c_7a44ac7a848e",
-      "title": "AMD x 魔搭社区 联合开发者激励计划 - GPU资源获取指南",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/247",
-      "imageUrl": "",
-      "description": "本计划由 AMD 与魔搭社区联合发起，旨在激励开发者基于 AMD GPU 进行 AI 开发实践与分享，获取免费 GPU 算力奖励。\n\nAMD x 魔搭社区联合开发者激励计划 — GPU 资源获取指南一、计划概述本计划由 AMD 与魔搭社区联合发起，旨在激励开发者基于 AMD GPU 进行 AI 开发实践与分享，获取免费 GPU 算力奖励。核心机制独立路径：发开发者实践文章 / 传灵感流 Notebook ，可单选可多选奖励可叠加：全部完成可获更多二、奖励总览下表展示了三种参与路径的奖励规则，奖励可累计叠加：参与路径内容要求单次奖励路径上限前置注册完成 AMD 开发者计划注册+100 小时+100 小时路径一：开发者实践发布原创技术文章+25 小时/篇+50 小时路径二：灵感流发布 Notebook 代码实践+50 小时/篇+150 小时提示：三条路径完全独立，无须按顺序完成，可任选其一或全部参与。三、如何获取参与前提 — 完成 AMD 开发者计划注册无论选择哪条路径，均需先完成 AMD 开发者计划注册。注册完成即可获得 100 小时 GPU 算力，同时解锁后续全部参与资格。操作流程登录魔搭社区，进入「我的 Notebook」页面，点击活动页面入口；进入 AMD AI 开发者计划网站：授权使用魔搭账号登录，并完善个人资料，成为 AMD 开发者计划成员；完善资料后，开发者可于 AMD 开发者计划站内获得算力券奖励；回到魔搭「我的 Notebook」页面，即可看到 AMD GPU 入口及剩余额度。✅ 完成注册后，即可解锁以下两种参与路径的全部资格。路径一：开发者实践发文在魔搭社区「开发者实践」板块发布与 AMD GPU 相关的原创技术文章，每篇通过审核可获 25 小时 GPU 算力，本路径最高可获 50 小时。操作流程在魔搭社区「开发者实践」板块发布原创技术文章；发布时携带指定标签“AMD GPU激励计划”；提交后等待社区审核（预计 5 个工作日）；审核通过后，系统自动发放对应 GPU 时长奖励。审核维度原创度：文章内容是否为原创技术相关性：是否与 AMD GPU / ROCm 相关完整性：代码、数据、结果是否完整内容建议ROCm 安装与配置经验AMD GPU 大模型部署手记Ryzen AI 开发初体验AMD GPU 推理优化技巧路径二：灵感流 Notebook 代码实践在魔搭社区「Gallery」板块发布基于 AMD GPU 的 Notebook 代码实践，每篇通过审核可获 50 小时 GPU 算力，本路径最高可获 150 小时。操作流程在魔搭社区「Gallery」板块发布基于 AMD GPU 的 Notebook 代码实践；发布时携带指定标签“AMD GPU激励计划”；提交后等待社区审核（预计 5 个工作日）；审核通过后，根据内容质量获得相应 GPU 时长奖励。审核维度自动化运行测试：全部 Cell 执行通过，无报错代码注释完整性：关键步骤有中文/英文注释环境配置说明：requirements.txt 或安装指令完整技术相关性：与 AMD GPU / ROCm 相关内容建议Stable Diffusion 部署LLM 微调或部署搭建 Skill Agent推理优化实践Agent 构建四、开发者激励计划群本方案为 AMD 与魔搭社区联合推广计划，最终解释权归 AMD 团队所有。\n💡获取小提示1️⃣ 开发者实践发文/灵感流 Notebook 发布时，请携带指定标签“AMD GPU激励计划”2️⃣ 申请加入「AMD开发者中心」组织时，需先注册AMD开发者计划 + 申请时需附上AMD 开发者账号 ID（高频漏填！），如无不予通过第十二批次｜截止 9.08 日前过审作品的GPU时长奖励清单魔搭用户名获取路径+GPU时长作品链接本次合计新增时长a16621388703💻 灵感流 Notebook 代码实践 +50小时🔗AMD GPU 上的 L代码实践 ②：把已有 LoRA 当「新 LoRA 初始化」做跨基座轻续微调+50小时andytl💻 灵感流 Notebook 代码实践 +50小时🔗AMD部署Qwen3.8-27b模型+50小时baimaoshangxian📝研习社发文+25小时🔗基于 AMD GPU 的私有语音模型产线实践：从情绪 LoRA 训练、W8A8-FP 量化到 4060 跨平台部署+25小时bm2410📝研习社发文+25小时🔗AMD GPU / ROCm 技术实践全攻略+25小时cooikesyyds📝研习社发文+25小时🔗Qwen3.8-27B 的 +25小时6K 长上下文怎么调：AMD GPU 双并发与 KV Cache 优化实测+50小时📝研习社发文+25小时🔗AMD 192GB 单卡部署 Qwen3.8-27B：ROCm + vLLM 多模态服务实战DeepLink2025📝研习社发文+25小时🔗Triton第四课：基于对称内存融合 AllGather 与 MatMul，提速1.56倍+25小时dsjadw📝研习社发文+25小时🔗anima训练器部署+25小时duprice💻 灵感流 Notebook 代码实践 +50小时🔗从一张图到一段循环动画 —— 在 AMD MI300X 上部署 MiniMax-H3 图生视频管线+50小时fate01📝研习社发文+25小时🔗MI300X 踩坑实录：ROCm × PyTorch × vLLM 版本兼容避坑指南+25小时guanggan📝研习社发文+25小时🔗在魔搭 AMD MI300X Notebook 部署开源 MiniMax-H3：ROCm 量化、持久化与原生音视频实战+25小时guxingyu88730882📝研习社发文+25小时🔗AMD MI300X 开发者实践：基于 ROCm + vLLM 部署大语言模型+25小时hdkjjjkk📝研习社发文+25小时🔗【实测分享】Qwen3.8-27B 单卡 MI300X（ROCm）vLLM 压测全记录：安全并发 8 路，极限吞吐 ~480 tok/s+25小时Hui10277📝研习社发文+25小时🔗Scail2动作迁移模型，抗劣化与偏色校正，AMD MI300X 192G 显存部署+25小时jackponyan💻 灵感流 Notebook 代码实践 +50小时🔗基于 AMD GPU (ROCm) 的 Qwen2.5-Coder 智能代码工具体 (Skill Agent) 构建与推理优化实践+100小时💻 灵感流 Notebook 代码实践 +50小时🔗基于 AMD GPU (ROCm) 的 Stable Diffusion 图像生成与 DPM-Solver++ 极速推理实践juezai📝研习社发文+25小时🔗192GB 显存真香警告文章中新发现问题进行补充+25小时Kangnaixi📝研习社发文+25小时🔗在 RX 5700 XT 8GB 上跑 Qwen3.8-27B：调优、分叉与一次根因范围收敛+100小时💻 灵感流 Notebook 代码实践 +50小时🔗Qwen3.8-27B 的 FFN 分块：在 AMD GPU 上验证 128 宽切片与无损重组📝研习社发文+25小时🔗在 MI308X 实例中读懂 Qwen3.8-27B 的 FP8 权重kuschzzp📝研习社发文+25小时🔗在 AMD MI300X 192GB 显存服务器上使用 ComfyUI 启动 MiniMax-H3 并生成视频+75小时💻 灵感流 Notebook 代码实践 +50小时🔗使用VLLM部署Qwen3.8-27B 模型实践LDLH666💻 灵感流 Notebook 代码实践 +50小时🔗灵感流代码实践②：在 AMD GPU（ROCm）上从零部署 DiffSynth-Studio 训练栈+150小时💻 灵感流 Notebook 代码实践 +50小时🔗灵感流代码实践：在 AMD Instinct MI300X（ROCm）上训练 Krea-2 12B DiT 双风格 LoRA💻 灵感流 Notebook 代码实践 +50小时🔗灵感流代码实践③：给 AMD GPU 长训练造一个「断点续训运维 Agent」lemonAiModel💻 灵感流 Notebook 代码实践 +50小时🔗comfyui api工作流 简易教程+50小时LFM114📝研习社发文+25小时🔗【实测分享】Qwen3.8-Flash-Next 单卡 MI300X（ROCm）+25小时Lvara123💻 灵感流 Notebook 代码实践 +50小时🔗ComfyUI 魔搭 AMD MI300X 版 (comfyui8)+50小时modelscope_mp_982967993📝研习社发文+25小时🔗从 Kaggle 的 torch 地狱到魔搭 MI300：我用 AMD GPU 打穿了一个多模态视频问答赛+25小时motaThx📝研习社发文+25小时🔗MI300X 实战记录：从带宽到 LoRA 微调+25小时mytaia📝研习社发文+25小时🔗192GB AMD GPU 实战：从零部署 Qwen3.8-27B，并接入 OpenCode 打造本地 Coding Agent+25小时noonshine📝研习社发文+25小时🔗AMD MI300X部署DeepSeek v4 flash+25小时Ryia1417📝研习社发文+25小时🔗在 ModelScope AMD MI300 (192G) 上全速微调 Anima LoRA：从环境优化到极限算力榨干+75小时💻 灵感流 Notebook 代码实践 +50小时🔗【实战】Anima LoRA 炼丹套件：从自动混合打标到 AMD MI300 高性能微调SeanLiu2025💻 灵感流 Notebook 代码实践 +50小时🔗用 Llama-8B 清洗数据_B2_8B 策略实现+175小时💻 灵感流 Notebook 代码实践 +50小时🔗SQuAD 评估与结果分析💻 灵感流 Notebook 代码实践 +50小时🔗QLoRA 微调 Llama-1B 实现多任务断点训练📝研习社发文+25小时🔗在 ModelScope 上用 QLoRA 微调多个大模型：环境配置、踩坑与优化记录shisan00113💻 灵感流 Notebook 代码实践 +50小时🔗【AMD 激励计划】从 N 卡到 MI300X 的“亡命天涯”：ComfyUI 无损迁移与极限榨汁全指南+100小时💻 灵感流 Notebook 代码实践 +50小时🔗先别急着下模型：MI308X / ROCm 环境快检sunson2026📝研习社发文+25小时🔗在 AMD Radeon PRO W7900 上部署 Qwen3.8-27B：SGLang-Radeon 多用户高并发方案+50小时📝研习社发文+25小时🔗在 AMD Radeon PRO W7900 上部署 Qwen3.8-27B：llama.cpp HIP 0.22.0 完整实战Surnamezhang📝研习社发文+25小时🔗魔搭 ModelScope 私有 / 公开模型库，wget 下载模型到 Notebook 实例完整实操文档+25小时tikann📝研习社发文+25小时🔗AMD GPU实战｜魔搭Notebook上使用Lemonade进行端侧AI推理全流程实践（免费算力+模型转换+性能测试）+175小时💻 灵感流 Notebook 代码实践 +50小时🔗AMD GPU实战｜基于ROCm的PyTorch大模型推理入门💻 灵感流 Notebook 代码实践 +50小时🔗AMD GPU 上的 Stable Diffusion 文生图实践💻 灵感流 Notebook 代码实践 +50小时🔗AMD GPU 上的 LoRA 微调训练实践txwdk9📝研习社发文+2",
-      "summary": "本计划由 AMD 与魔搭社区联合发起，旨在激励开发者基于 AMD GPU 进行 AI 开发实践与分享，获取免费 GPU 算力奖励。\n\nAMD x 魔搭社区联合开发者激励计划 — GPU 资源获取指南一、计划概述本计划由 AMD 与魔搭社区联合发起，旨在激励开发者基于 AMD GPU 进行 AI 开发实践与分享，获取免费 GPU 算力奖励。核心机制独立路径：发开发者实践文章 / 传灵感流 Noteb...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "beginner",
-      "deadline": "2026-12-31T15:59:00.000Z",
-      "prize": "",
-      "tags": [
-        "llm",
-        "pytorch"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "最终解释权归 AMD 团队所有。"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-10-16T03:48:32.113Z",
-      "scrapedAt": "2026-10-16T03:46:08.560Z",
-      "lastUpdated": "2026-10-16T03:48:32.113Z",
+      "processedAt": "2026-10-16T16:22:53.590Z",
+      "scrapedAt": "2026-10-16T16:20:23.598Z",
+      "lastUpdated": "2026-10-16T16:22:53.590Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-16T03:48:36.792Z"
+    "lastUpdated": "2026-10-16T16:22:58.095Z"
   }
 }

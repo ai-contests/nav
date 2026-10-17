@@ -1,8 +1,35 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-10-16T16:22:58.097Z",
-  "contestCount": 5,
+  "timestamp": "2026-10-17T03:39:27.682Z",
+  "contestCount": 6,
   "contests": [
+    {
+      "id": "c_a44d898c0af7",
+      "title": "Flux.3 Klein: Edit With 10 References",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1743",
+      "imageUrl": "",
+      "description": "Black Forest Labs' new open-weights image model is in the generator. Text-to-image, plus edits with up to 10 reference images. FLUX 3 Image is here too.",
+      "summary": "Black Forest Labs' new open-weights image model is in the generator. Text-to-image, plus edits with up to 10 reference images. FLUX 3 Image is here too....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-10-23T23:59:59.000Z",
+      "prize": "3000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-17T03:39:20.467Z",
+      "scrapedAt": "2026-10-17T03:37:06.340Z",
+      "lastUpdated": "2026-10-17T03:39:20.467Z",
+      "version": 1
+    },
     {
       "id": "c_eac8c4aac805",
       "title": "Krea 3: Edit Any Image With a Sentence",
@@ -25,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-16T16:22:50.244Z",
-      "scrapedAt": "2026-10-16T16:20:33.499Z",
-      "lastUpdated": "2026-10-16T16:22:50.244Z",
+      "processedAt": "2026-10-17T03:39:20.489Z",
+      "scrapedAt": "2026-10-17T03:37:06.340Z",
+      "lastUpdated": "2026-10-17T03:39:20.489Z",
       "version": 1
     },
     {
@@ -52,9 +79,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-16T16:22:50.377Z",
-      "scrapedAt": "2026-10-16T16:20:33.499Z",
-      "lastUpdated": "2026-10-16T16:22:50.377Z",
+      "processedAt": "2026-10-17T03:39:21.493Z",
+      "scrapedAt": "2026-10-17T03:37:06.340Z",
+      "lastUpdated": "2026-10-17T03:39:21.493Z",
       "version": 1
     },
     {
@@ -81,9 +108,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-16T16:22:51.353Z",
-      "scrapedAt": "2026-10-16T16:20:33.499Z",
-      "lastUpdated": "2026-10-16T16:22:51.353Z",
+      "processedAt": "2026-10-17T03:39:21.494Z",
+      "scrapedAt": "2026-10-17T03:37:06.340Z",
+      "lastUpdated": "2026-10-17T03:39:21.494Z",
       "version": 1
     },
     {
@@ -108,9 +135,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-16T16:22:51.358Z",
-      "scrapedAt": "2026-10-16T16:20:33.499Z",
-      "lastUpdated": "2026-10-16T16:22:51.358Z",
+      "processedAt": "2026-10-17T03:39:21.493Z",
+      "scrapedAt": "2026-10-17T03:37:06.340Z",
+      "lastUpdated": "2026-10-17T03:39:21.493Z",
       "version": 1
     },
     {
@@ -137,15 +164,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-16T16:22:51.362Z",
-      "scrapedAt": "2026-10-16T16:20:33.499Z",
-      "lastUpdated": "2026-10-16T16:22:51.362Z",
+      "processedAt": "2026-10-17T03:39:21.495Z",
+      "scrapedAt": "2026-10-17T03:37:06.340Z",
+      "lastUpdated": "2026-10-17T03:39:21.495Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-16T16:22:58.097Z"
+    "lastUpdated": "2026-10-17T03:39:27.682Z"
   }
 }

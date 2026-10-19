@@ -1,8 +1,37 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-10-18T15:41:11.561Z",
-  "contestCount": 6,
+  "timestamp": "2026-10-19T03:56:04.340Z",
+  "contestCount": 7,
   "contests": [
+    {
+      "id": "c_5af12db8afa4",
+      "title": "MOSS Image: Text That Reads Right",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1752",
+      "imageUrl": "",
+      "description": "OpenMOSS's new open-weights image model is in the generator. Text that reads right, layouts you control, prompts up to 4K tokens. Train your own LoRAs too.",
+      "summary": "OpenMOSS's new open-weights image model is in the generator. Text that reads right, layouts you control, prompts up to 4K tokens. Train your own LoRAs too....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-10-24T23:59:59.000Z",
+      "prize": "4000",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-19T03:55:56.692Z",
+      "scrapedAt": "2026-10-19T03:53:39.444Z",
+      "lastUpdated": "2026-10-19T03:55:56.692Z",
+      "version": 1
+    },
     {
       "id": "c_a44d898c0af7",
       "title": "Flux.3 Klein: Edit With 10 References",
@@ -25,9 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-18T15:41:04.349Z",
-      "scrapedAt": "2026-10-18T15:38:04.636Z",
-      "lastUpdated": "2026-10-18T15:41:04.349Z",
+      "processedAt": "2026-10-19T03:55:56.764Z",
+      "scrapedAt": "2026-10-19T03:53:39.445Z",
+      "lastUpdated": "2026-10-19T03:55:56.764Z",
       "version": 1
     },
     {
@@ -52,9 +81,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-18T15:41:04.372Z",
-      "scrapedAt": "2026-10-18T15:38:04.636Z",
-      "lastUpdated": "2026-10-18T15:41:04.372Z",
+      "processedAt": "2026-10-19T03:55:57.770Z",
+      "scrapedAt": "2026-10-19T03:53:39.445Z",
+      "lastUpdated": "2026-10-19T03:55:57.770Z",
       "version": 1
     },
     {
@@ -79,9 +108,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-18T15:41:05.380Z",
-      "scrapedAt": "2026-10-18T15:38:04.636Z",
-      "lastUpdated": "2026-10-18T15:41:05.380Z",
+      "processedAt": "2026-10-19T03:55:57.772Z",
+      "scrapedAt": "2026-10-19T03:53:39.445Z",
+      "lastUpdated": "2026-10-19T03:55:57.772Z",
       "version": 1
     },
     {
@@ -108,9 +137,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-18T15:41:05.387Z",
-      "scrapedAt": "2026-10-18T15:38:04.636Z",
-      "lastUpdated": "2026-10-18T15:41:05.387Z",
+      "processedAt": "2026-10-19T03:55:57.769Z",
+      "scrapedAt": "2026-10-19T03:53:39.445Z",
+      "lastUpdated": "2026-10-19T03:55:57.769Z",
       "version": 1
     },
     {
@@ -135,9 +164,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-18T15:41:05.384Z",
-      "scrapedAt": "2026-10-18T15:38:04.637Z",
-      "lastUpdated": "2026-10-18T15:41:05.384Z",
+      "processedAt": "2026-10-19T03:55:57.793Z",
+      "scrapedAt": "2026-10-19T03:53:39.445Z",
+      "lastUpdated": "2026-10-19T03:55:57.793Z",
       "version": 1
     },
     {
@@ -164,15 +193,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-18T15:41:05.383Z",
-      "scrapedAt": "2026-10-18T15:38:04.637Z",
-      "lastUpdated": "2026-10-18T15:41:05.383Z",
+      "processedAt": "2026-10-19T03:55:57.858Z",
+      "scrapedAt": "2026-10-19T03:53:39.445Z",
+      "lastUpdated": "2026-10-19T03:55:57.858Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-18T15:41:11.561Z"
+    "lastUpdated": "2026-10-19T03:56:04.340Z"
   }
 }

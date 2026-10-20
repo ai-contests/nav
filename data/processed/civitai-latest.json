@@ -1,7 +1,7 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-10-19T18:35:30.109Z",
-  "contestCount": 7,
+  "timestamp": "2026-10-20T04:07:28.725Z",
+  "contestCount": 6,
   "contests": [
     {
       "id": "c_5af12db8afa4",
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-19T18:35:22.021Z",
-      "scrapedAt": "2026-10-19T18:33:09.091Z",
-      "lastUpdated": "2026-10-19T18:35:22.021Z",
+      "processedAt": "2026-10-20T04:07:21.492Z",
+      "scrapedAt": "2026-10-20T04:05:00.250Z",
+      "lastUpdated": "2026-10-20T04:07:21.492Z",
       "version": 1
     },
     {
@@ -54,9 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-19T18:35:22.122Z",
-      "scrapedAt": "2026-10-19T18:33:09.091Z",
-      "lastUpdated": "2026-10-19T18:35:22.122Z",
+      "processedAt": "2026-10-20T04:07:21.520Z",
+      "scrapedAt": "2026-10-20T04:05:00.250Z",
+      "lastUpdated": "2026-10-20T04:07:21.520Z",
       "version": 1
     },
     {
@@ -81,9 +81,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-19T18:35:23.137Z",
-      "scrapedAt": "2026-10-19T18:33:09.091Z",
-      "lastUpdated": "2026-10-19T18:35:23.137Z",
+      "processedAt": "2026-10-20T04:07:22.525Z",
+      "scrapedAt": "2026-10-20T04:05:00.250Z",
+      "lastUpdated": "2026-10-20T04:07:22.525Z",
       "version": 1
     },
     {
@@ -108,38 +108,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-19T18:35:23.140Z",
-      "scrapedAt": "2026-10-19T18:33:09.091Z",
-      "lastUpdated": "2026-10-19T18:35:23.140Z",
-      "version": 1
-    },
-    {
-      "id": "c_5d4c5d139650",
-      "title": "Creator Journey: See How Far You've Come",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/1659",
-      "imageUrl": "",
-      "description": "Nine Creator Score tiers, each with its own badge, plus achievements for publishing, reach, sales, judging and wins. Whatever you've already earned is waiting on [your journey page](/creators/journey).",
-      "summary": "Nine Creator Score tiers, each with its own badge, plus achievements for publishing, reach, sales, judging and wins. Whatever you've already earned is waiting on [your journey page](/creators/journey)...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-10-19T23:59:59.999Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-10-19T18:35:23.139Z",
-      "scrapedAt": "2026-10-19T18:33:09.091Z",
-      "lastUpdated": "2026-10-19T18:35:23.139Z",
+      "processedAt": "2026-10-20T04:07:22.521Z",
+      "scrapedAt": "2026-10-20T04:05:00.250Z",
+      "lastUpdated": "2026-10-20T04:07:22.521Z",
       "version": 1
     },
     {
@@ -164,9 +135,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-19T18:35:23.144Z",
-      "scrapedAt": "2026-10-19T18:33:09.091Z",
-      "lastUpdated": "2026-10-19T18:35:23.144Z",
+      "processedAt": "2026-10-20T04:07:22.518Z",
+      "scrapedAt": "2026-10-20T04:05:00.250Z",
+      "lastUpdated": "2026-10-20T04:07:22.518Z",
       "version": 1
     },
     {
@@ -193,15 +164,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-19T18:35:23.256Z",
-      "scrapedAt": "2026-10-19T18:33:09.091Z",
-      "lastUpdated": "2026-10-19T18:35:23.256Z",
+      "processedAt": "2026-10-20T04:07:22.522Z",
+      "scrapedAt": "2026-10-20T04:05:00.250Z",
+      "lastUpdated": "2026-10-20T04:07:22.522Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-19T18:35:30.109Z"
+    "lastUpdated": "2026-10-20T04:07:28.725Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-10-21T03:56:26.223Z",
-  "contestCount": 5,
+  "timestamp": "2026-10-21T16:56:34.926Z",
+  "contestCount": 6,
   "contests": [
     {
       "id": "c_5af12db8afa4",
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-21T03:56:17.633Z",
-      "scrapedAt": "2026-10-21T03:54:06.781Z",
-      "lastUpdated": "2026-10-21T03:56:17.633Z",
+      "processedAt": "2026-10-21T16:56:27.111Z",
+      "scrapedAt": "2026-10-21T16:54:11.655Z",
+      "lastUpdated": "2026-10-21T16:56:27.111Z",
       "version": 1
     },
     {
@@ -54,9 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-21T03:56:17.851Z",
-      "scrapedAt": "2026-10-21T03:54:06.781Z",
-      "lastUpdated": "2026-10-21T03:56:17.851Z",
+      "processedAt": "2026-10-21T16:56:27.207Z",
+      "scrapedAt": "2026-10-21T16:54:11.655Z",
+      "lastUpdated": "2026-10-21T16:56:27.207Z",
       "version": 1
     },
     {
@@ -81,9 +81,38 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-21T03:56:18.854Z",
-      "scrapedAt": "2026-10-21T03:54:06.781Z",
-      "lastUpdated": "2026-10-21T03:56:18.854Z",
+      "processedAt": "2026-10-21T16:56:28.216Z",
+      "scrapedAt": "2026-10-21T16:54:11.655Z",
+      "lastUpdated": "2026-10-21T16:56:28.216Z",
+      "version": 1
+    },
+    {
+      "id": "c_9e3e9e1ba041",
+      "title": "Last Call for the H3 Contest",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1115",
+      "imageUrl": "",
+      "description": "Over 2 Million Buzz in prizes, and it all closes at the end of this week. Get your H3 LoRA into the training contest, or make an H3 video for the crucibles.",
+      "summary": "Over 2 Million Buzz in prizes, and it all closes at the end of this week. Get your H3 LoRA into the training contest, or make an H3 video for the crucibles....",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-10-23T23:59:00.000Z",
+      "prize": "2000000",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-21T16:56:28.229Z",
+      "scrapedAt": "2026-10-21T16:54:11.655Z",
+      "lastUpdated": "2026-10-21T16:56:28.229Z",
       "version": 1
     },
     {
@@ -108,9 +137,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-21T03:56:18.865Z",
-      "scrapedAt": "2026-10-21T03:54:06.781Z",
-      "lastUpdated": "2026-10-21T03:56:18.865Z",
+      "processedAt": "2026-10-21T16:56:28.215Z",
+      "scrapedAt": "2026-10-21T16:54:11.655Z",
+      "lastUpdated": "2026-10-21T16:56:28.215Z",
       "version": 1
     },
     {
@@ -137,15 +166,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-21T03:56:18.849Z",
-      "scrapedAt": "2026-10-21T03:54:06.781Z",
-      "lastUpdated": "2026-10-21T03:56:18.849Z",
+      "processedAt": "2026-10-21T16:56:28.209Z",
+      "scrapedAt": "2026-10-21T16:54:11.655Z",
+      "lastUpdated": "2026-10-21T16:56:28.209Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-21T03:56:26.223Z"
+    "lastUpdated": "2026-10-21T16:56:34.926Z"
   }
 }

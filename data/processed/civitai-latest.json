@@ -1,7 +1,7 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-10-20T16:37:54.276Z",
-  "contestCount": 6,
+  "timestamp": "2026-10-21T03:56:26.223Z",
+  "contestCount": 5,
   "contests": [
     {
       "id": "c_5af12db8afa4",
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-20T16:37:45.957Z",
-      "scrapedAt": "2026-10-20T16:35:33.010Z",
-      "lastUpdated": "2026-10-20T16:37:45.957Z",
+      "processedAt": "2026-10-21T03:56:17.633Z",
+      "scrapedAt": "2026-10-21T03:54:06.781Z",
+      "lastUpdated": "2026-10-21T03:56:17.633Z",
       "version": 1
     },
     {
@@ -54,9 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-20T16:37:46.127Z",
-      "scrapedAt": "2026-10-20T16:35:33.010Z",
-      "lastUpdated": "2026-10-20T16:37:46.127Z",
+      "processedAt": "2026-10-21T03:56:17.851Z",
+      "scrapedAt": "2026-10-21T03:54:06.781Z",
+      "lastUpdated": "2026-10-21T03:56:17.851Z",
       "version": 1
     },
     {
@@ -81,36 +81,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-20T16:37:47.127Z",
-      "scrapedAt": "2026-10-20T16:35:33.010Z",
-      "lastUpdated": "2026-10-20T16:37:47.127Z",
-      "version": 1
-    },
-    {
-      "id": "c_9055a692e899",
-      "title": "HeyGen Video: Clips That Come With Sound",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/1673",
-      "imageUrl": "",
-      "description": "HeyGen Video is live in the generator. Text, image or reference to video, 5 to 15 seconds, with dialogue, ambience and effects in every clip. 50% off through October.",
-      "summary": "HeyGen Video is live in the generator. Text, image or reference to video, 5 to 15 seconds, with dialogue, ambience and effects in every clip. 50% off through October....",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-10-20T23:59:59.999Z",
-      "prize": "",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-10-20T16:37:47.128Z",
-      "scrapedAt": "2026-10-20T16:35:33.010Z",
-      "lastUpdated": "2026-10-20T16:37:47.128Z",
+      "processedAt": "2026-10-21T03:56:18.854Z",
+      "scrapedAt": "2026-10-21T03:54:06.781Z",
+      "lastUpdated": "2026-10-21T03:56:18.854Z",
       "version": 1
     },
     {
@@ -135,9 +108,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-20T16:37:47.149Z",
-      "scrapedAt": "2026-10-20T16:35:33.010Z",
-      "lastUpdated": "2026-10-20T16:37:47.149Z",
+      "processedAt": "2026-10-21T03:56:18.865Z",
+      "scrapedAt": "2026-10-21T03:54:06.781Z",
+      "lastUpdated": "2026-10-21T03:56:18.865Z",
       "version": 1
     },
     {
@@ -164,15 +137,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-20T16:37:47.130Z",
-      "scrapedAt": "2026-10-20T16:35:33.010Z",
-      "lastUpdated": "2026-10-20T16:37:47.130Z",
+      "processedAt": "2026-10-21T03:56:18.849Z",
+      "scrapedAt": "2026-10-21T03:54:06.781Z",
+      "lastUpdated": "2026-10-21T03:56:18.849Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-20T16:37:54.276Z"
+    "lastUpdated": "2026-10-21T03:56:26.223Z"
   }
 }

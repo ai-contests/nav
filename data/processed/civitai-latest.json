@@ -1,8 +1,37 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-10-22T16:56:34.662Z",
+  "timestamp": "2026-10-23T04:01:03.481Z",
   "contestCount": 6,
   "contests": [
+    {
+      "id": "c_f6246b6f2c0e",
+      "title": "Halloween on Civitai: The Homepage Belongs to Creators",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1861",
+      "imageUrl": "",
+      "description": "This Halloween, the homepage goes to creators. Our staff are featuring Halloween cosmetics from the Creator Shop and Halloween crucibles from the community. Sell a spooky cosmetic or run a Halloween crucible, and yours could be next.",
+      "summary": "This Halloween, the homepage goes to creators. Our staff are featuring Halloween cosmetics from the Creator Shop and Halloween crucibles from the community. Sell a spooky cosmetic or run a Halloween c...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-01T06:59:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-23T04:00:54.962Z",
+      "scrapedAt": "2026-10-23T03:58:52.568Z",
+      "lastUpdated": "2026-10-23T04:00:54.962Z",
+      "version": 1
+    },
     {
       "id": "c_5af12db8afa4",
       "title": "MOSS Image: Text That Reads Right",
@@ -27,9 +56,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:26.234Z",
-      "scrapedAt": "2026-10-22T16:54:22.804Z",
-      "lastUpdated": "2026-10-22T16:56:26.234Z",
+      "processedAt": "2026-10-23T04:00:54.964Z",
+      "scrapedAt": "2026-10-23T03:58:52.568Z",
+      "lastUpdated": "2026-10-23T04:00:54.964Z",
       "version": 1
     },
     {
@@ -54,36 +83,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:26.235Z",
-      "scrapedAt": "2026-10-22T16:54:22.804Z",
-      "lastUpdated": "2026-10-22T16:56:26.235Z",
-      "version": 1
-    },
-    {
-      "id": "c_eac8c4aac805",
-      "title": "Krea 3: Edit Any Image With a Sentence",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/1715",
-      "imageUrl": "",
-      "description": "Krea 3 is live in the generator. Add up to 6 reference images, describe the change, and pick Instant or Medium. Up to 2K output, from 30 Buzz per image, 33% off during launch week (through Oct 22).",
-      "summary": "Krea 3 is live in the generator. Add up to 6 reference images, describe the change, and pick Instant or Medium. Up to 2K output, from 30 Buzz per image, 33% off during launch week (through Oct 22)....",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-10-22T23:59:59.000Z",
-      "prize": "2000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:26.441Z",
-      "scrapedAt": "2026-10-22T16:54:22.804Z",
-      "lastUpdated": "2026-10-22T16:56:26.441Z",
+      "processedAt": "2026-10-23T04:00:55.180Z",
+      "scrapedAt": "2026-10-23T03:58:52.568Z",
+      "lastUpdated": "2026-10-23T04:00:55.180Z",
       "version": 1
     },
     {
@@ -110,9 +112,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:27.439Z",
-      "scrapedAt": "2026-10-22T16:54:22.804Z",
-      "lastUpdated": "2026-10-22T16:56:27.439Z",
+      "processedAt": "2026-10-23T04:00:56.184Z",
+      "scrapedAt": "2026-10-23T03:58:52.568Z",
+      "lastUpdated": "2026-10-23T04:00:56.184Z",
       "version": 1
     },
     {
@@ -137,9 +139,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:27.441Z",
-      "scrapedAt": "2026-10-22T16:54:22.804Z",
-      "lastUpdated": "2026-10-22T16:56:27.441Z",
+      "processedAt": "2026-10-23T04:00:56.177Z",
+      "scrapedAt": "2026-10-23T03:58:52.568Z",
+      "lastUpdated": "2026-10-23T04:00:56.177Z",
       "version": 1
     },
     {
@@ -166,15 +168,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:27.442Z",
-      "scrapedAt": "2026-10-22T16:54:22.804Z",
-      "lastUpdated": "2026-10-22T16:56:27.442Z",
+      "processedAt": "2026-10-23T04:00:56.174Z",
+      "scrapedAt": "2026-10-23T03:58:52.568Z",
+      "lastUpdated": "2026-10-23T04:00:56.174Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-22T16:56:34.662Z"
+    "lastUpdated": "2026-10-23T04:01:03.481Z"
   }
 }

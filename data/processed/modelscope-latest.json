@@ -1,8 +1,66 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-10-22T16:56:34.660Z",
+  "timestamp": "2026-10-23T04:01:03.477Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_6569b00620c3",
+      "title": "首届机器人嘉年华",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/390",
+      "imageUrl": "",
+      "description": "【探月具身智能社区】首届机器人嘉年华，寻找35个顶级机器人 Demo 团队\n\n🔥探月招募｜首届机器人嘉年华，寻找35个顶级机器人 Demo 团队你的机器人，最近又学会了什么？打牌、打球，还是实验室里刚跑通的新能力？带来北京！每队都有差旅补贴，和顶尖开发者、00 后极客一起切磋。每个展位都是一个可玩关卡，你来出题，全场挑战！🚀招募对象具身二开团队、高校顶尖实验室及前沿科研团队、硬科技初创团队。限35席，筛选入选：有创新、能互动、实机稳定，首秀优先。🏆入选权益· 主舞台路演，直面行业创始人、专家、投资人，聊技术、找团队· 近10万奖金池，获奖团队可获得顶级孵化资源· 官媒、小红书、抖音等传播，冲刺百万级曝光· 外地团队差旅补贴，最高3000元/队⌛北京｜11月13日📅报名截止：10月28日🔗报名链接：https://bcnmv8nkum64.feishu.cn/share/base/form/shrcnDdMLq1CwdEeKUfZO6NTdnePS：此为预招募，后有详细信息将发布在探月公众号。",
+      "summary": "【探月具身智能社区】首届机器人嘉年华，寻找35个顶级机器人 Demo 团队\n\n🔥探月招募｜首届机器人嘉年华，寻找35个顶级机器人 Demo 团队你的机器人，最近又学会了什么？打牌、打球，还是实验室里刚跑通的新能力？带来北京！每队都有差旅补贴，和顶尖开发者、00 后极客一起切磋。每个展位都是一个可玩关卡，你来出题，全场挑战！🚀招募对象具身二开团队、高校顶尖实验室及前沿科研团队、硬科技初创团队。限...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-10-28T15:59:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-23T04:00:56.188Z",
+      "scrapedAt": "2026-10-23T03:58:40.990Z",
+      "lastUpdated": "2026-10-23T04:00:56.188Z",
+      "version": 1
+    },
+    {
+      "id": "c_6056afdf62e3",
+      "title": "一万个回答·AI文化造物黑客松",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/389",
+      "imageUrl": "",
+      "description": "文化的未来，不能只靠传承，更需要有人敢于创造！👋\n\n「魔搭社区 X  杭州 AI 工坊」：文化的未来，不能只靠传承，更需要有人敢于创造！👋每一代人都有自己的使命。这一次，轮到我们用 AI 和硬件，为文化打开新的可能！「AI＋文化＋？」文创黑客松正式招募！6.6万元现金奖金＋7万元Token支持！11月杭州，我们期待更多热爱文化、敢于突破的创造者集结，让文化焕发新生，以新的方式延续！文化的下一个篇章，由我们亲手写下！报名截止10月31日，杭州见！",
+      "summary": "文化的未来，不能只靠传承，更需要有人敢于创造！👋\n\n「魔搭社区 X  杭州 AI 工坊」：文化的未来，不能只靠传承，更需要有人敢于创造！👋每一代人都有自己的使命。这一次，轮到我们用 AI 和硬件，为文化打开新的可能！「AI＋文化＋？」文创黑客松正式招募！6.6万元现金奖金＋7万元Token支持！11月杭州，我们期待更多热爱文化、敢于突破的创造者集结，让文化焕发新生，以新的方式延续！文化的下一个...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-10-31T15:59:00.000Z",
+      "prize": "6.6万元现金奖金＋7万元Token支持",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "有人敢于创造！👋"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2026-10-23T04:00:56.395Z",
+      "scrapedAt": "2026-10-23T03:58:40.990Z",
+      "lastUpdated": "2026-10-23T04:00:56.395Z",
+      "version": 1
+    },
     {
       "id": "c_bc180363d544",
       "title": "ROS秋季学校2026报名冲刺期，来练一身“具身”本领！",
@@ -25,9 +83,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:27.441Z",
-      "scrapedAt": "2026-10-22T16:54:12.176Z",
-      "lastUpdated": "2026-10-22T16:56:27.441Z",
+      "processedAt": "2026-10-23T04:00:57.401Z",
+      "scrapedAt": "2026-10-23T03:58:40.990Z",
+      "lastUpdated": "2026-10-23T04:00:57.401Z",
       "version": 1
     },
     {
@@ -54,9 +112,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:27.641Z",
-      "scrapedAt": "2026-10-22T16:54:12.176Z",
-      "lastUpdated": "2026-10-22T16:56:27.641Z",
+      "processedAt": "2026-10-23T04:00:57.397Z",
+      "scrapedAt": "2026-10-23T03:58:40.990Z",
+      "lastUpdated": "2026-10-23T04:00:57.397Z",
       "version": 1
     },
     {
@@ -83,9 +141,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:28.645Z",
-      "scrapedAt": "2026-10-22T16:54:12.176Z",
-      "lastUpdated": "2026-10-22T16:56:28.645Z",
+      "processedAt": "2026-10-23T04:00:57.400Z",
+      "scrapedAt": "2026-10-23T03:58:40.991Z",
+      "lastUpdated": "2026-10-23T04:00:57.400Z",
       "version": 1
     },
     {
@@ -118,9 +176,9 @@
         "加入我们！如果今年只参加一场实时交互模型和 Voice Agent 大会"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:28.635Z",
-      "scrapedAt": "2026-10-22T16:54:12.177Z",
-      "lastUpdated": "2026-10-22T16:56:28.635Z",
+      "processedAt": "2026-10-23T04:00:57.410Z",
+      "scrapedAt": "2026-10-23T03:58:40.991Z",
+      "lastUpdated": "2026-10-23T04:00:57.410Z",
       "version": 1
     },
     {
@@ -147,9 +205,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:28.639Z",
-      "scrapedAt": "2026-10-22T16:54:12.177Z",
-      "lastUpdated": "2026-10-22T16:56:28.639Z",
+      "processedAt": "2026-10-23T04:00:57.621Z",
+      "scrapedAt": "2026-10-23T03:58:40.991Z",
+      "lastUpdated": "2026-10-23T04:00:57.621Z",
       "version": 1
     },
     {
@@ -176,9 +234,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:28.639Z",
-      "scrapedAt": "2026-10-22T16:54:12.177Z",
-      "lastUpdated": "2026-10-22T16:56:28.639Z",
+      "processedAt": "2026-10-23T04:00:58.618Z",
+      "scrapedAt": "2026-10-23T03:58:40.991Z",
+      "lastUpdated": "2026-10-23T04:00:58.618Z",
       "version": 1
     },
     {
@@ -205,9 +263,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:28.845Z",
-      "scrapedAt": "2026-10-22T16:54:12.177Z",
-      "lastUpdated": "2026-10-22T16:56:28.845Z",
+      "processedAt": "2026-10-23T04:00:58.620Z",
+      "scrapedAt": "2026-10-23T03:58:40.991Z",
+      "lastUpdated": "2026-10-23T04:00:58.620Z",
       "version": 1
     },
     {
@@ -234,73 +292,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:29.849Z",
-      "scrapedAt": "2026-10-22T16:54:12.177Z",
-      "lastUpdated": "2026-10-22T16:56:29.849Z",
-      "version": 1
-    },
-    {
-      "id": "c_21c06b005bdd",
-      "title": "支付宝AI付年度黑客松",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/380",
-      "imageUrl": "",
-      "description": "把AI做成一门真实的生意。不只做出 Demo，更要完成从发现、使用到付款、交付的商业闭环。\n\n📌划重点：支付宝 AI 付年度黑客松现已进入作品提交阶段！➡️作品提交入口：https://aipay.alipay.com/community/events/payathon-2026如果你已经有了产品雏形，或正在打磨一个真正能被用户使用、愿意付费的 AI 产品，快来让你的想法生根落地。接下来，大赛还将陆续推出线下 Workshop 和线上直播，围绕产品打磨、AI 付接入及参赛实操展开分享。扫描二维码加入大赛官方交流群，第一时间获取活动安排与赛事动态。赛道信息、报名方式、评选规则和参赛权益，一图看懂👇",
-      "summary": "把AI做成一门真实的生意。不只做出 Demo，更要完成从发现、使用到付款、交付的商业闭环。\n\n📌划重点：支付宝 AI 付年度黑客松现已进入作品提交阶段！➡️作品提交入口：https://aipay.alipay.com/community/events/payathon-2026如果你已经有了产品雏形，或正在打磨一个真正能被用户使用、愿意付费的 AI 产品，快来让你的想法生根落地。接下来，大赛还...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-12-01T15:59:00.000Z",
-      "prize": "总奖池¥200,000",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:29.843Z",
-      "scrapedAt": "2026-10-22T16:54:12.177Z",
-      "lastUpdated": "2026-10-22T16:56:29.843Z",
-      "version": 1
-    },
-    {
-      "id": "c_00a27800de4f",
-      "title": "第七届设施管理行业大会",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/379",
-      "imageUrl": "",
-      "description": "本届大会以“AI重塑空间未来”为主题，聚焦设施管理标准化、智慧园区与AI应用，邀请行业伙伴交流实践、共话未来。",
-      "summary": "本届大会以“AI重塑空间未来”为主题，聚焦设施管理标准化、智慧园区与AI应用，邀请行业伙伴交流实践、共话未来。...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-10-19T16:00:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-10-22T16:56:29.850Z",
-      "scrapedAt": "2026-10-22T16:54:12.177Z",
-      "lastUpdated": "2026-10-22T16:56:29.850Z",
+      "processedAt": "2026-10-23T04:00:58.622Z",
+      "scrapedAt": "2026-10-23T03:58:40.991Z",
+      "lastUpdated": "2026-10-23T04:00:58.622Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-22T16:56:34.660Z"
+    "lastUpdated": "2026-10-23T04:01:03.477Z"
   }
 }

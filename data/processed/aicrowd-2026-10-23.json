@@ -1,0 +1,235 @@
+{
+  "platform": "aicrowd",
+  "timestamp": "2026-10-23T04:01:03.482Z",
+  "contestCount": 8,
+  "contests": [
+    {
+      "id": "c_8028e73d2ed6",
+      "title": "Spotify Million Playlist Dataset Challenge",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge",
+      "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/277/MPD2.png",
+      "description": "Spotify Million Playlist Dataset Challenge\n              \n                A dataset and open-ended challenge for music recommendation research\n          A dataset and open-ended challenge for music recommendation research",
+      "summary": "Spotify Million Playlist Dataset Challenge\n              \n                A dataset and open-ended challenge for music recommendation research\n          A dataset and open-ended challenge for music re...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2100-11-01T03:59:44.990Z",
+      "prize": "TBD",
+      "tags": [
+        "Benchmark Challenge: Running"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-23T04:00:52.784Z",
+      "scrapedAt": "2026-10-23T03:59:44.991Z",
+      "lastUpdated": "2026-10-23T04:00:52.784Z",
+      "version": 1
+    },
+    {
+      "id": "c_219544c1c5a3",
+      "title": "Trajnet++ (A Trajectory Forecasting Challenge)",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge",
+      "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/13/Pedestrians.jpg",
+      "description": "Trajnet++ (A Trajectory Forecasting Challenge)",
+      "summary": "Trajnet++ (A Trajectory Forecasting Challenge)...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2030-08-15T03:59:44.992Z",
+      "prize": "TBD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-23T04:00:53.747Z",
+      "scrapedAt": "2026-10-23T03:59:44.992Z",
+      "lastUpdated": "2026-10-23T04:00:53.747Z",
+      "version": 1
+    },
+    {
+      "id": "c_96317a054210",
+      "title": "2026: 6 days left",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/epfl-machine-learning-project-1",
+      "imageUrl": "https://images.aicrowd.com/raw_images/challenges/social_media_image_file/66/c69c94492818f584299a.jpg",
+      "description": "EPFL Machine Learning Project 1\n              \n                Predict Heart Disease\n          Predict Heart Disease",
+      "summary": "EPFL Machine Learning Project 1\n              \n                Predict Heart Disease\n          Predict Heart Disease...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-10-29T03:59:44.993Z",
+      "prize": "TBD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-23T04:00:53.736Z",
+      "scrapedAt": "2026-10-23T03:59:44.993Z",
+      "lastUpdated": "2026-10-23T04:00:53.736Z",
+      "version": 1
+    },
+    {
+      "id": "c_ef4f31b33152",
+      "title": "ECCV 2020 Commands 4 Autonomous Vehicles",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/eccv-2020-commands-4-autonomous-vehicles",
+      "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/382/val_1030.jpg",
+      "description": "ECCV 2020 Commands 4 Autonomous Vehicles",
+      "summary": "ECCV 2020 Commands 4 Autonomous Vehicles...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2045-09-01T03:59:44.994Z",
+      "prize": "TBD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-23T04:00:53.746Z",
+      "scrapedAt": "2026-10-23T03:59:44.994Z",
+      "lastUpdated": "2026-10-23T04:00:53.746Z",
+      "version": 1
+    },
+    {
+      "id": "c_03552b946309",
+      "title": "MEDIQA 2021 - Question Summarization (QS)",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/mediqa-2021-question-summarization-qs",
+      "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/644/MEDIQA-Background.jpg",
+      "description": "MEDIQA 2021 - Question Summarization (QS)\n              \n                ACL-BioNLP Shared Task\n          ACL-BioNLP Shared Task",
+      "summary": "MEDIQA 2021 - Question Summarization (QS)\n              \n                ACL-BioNLP Shared Task\n          ACL-BioNLP Shared Task...",
+      "contestType": "text",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2030-12-31T03:59:44.995Z",
+      "prize": "TBD",
+      "tags": [
+        "nlp",
+        "Weight: 1.0"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-23T04:00:53.732Z",
+      "scrapedAt": "2026-10-23T03:59:44.995Z",
+      "lastUpdated": "2026-10-23T04:00:53.732Z",
+      "version": 1
+    },
+    {
+      "id": "c_fb27b7f32e54",
+      "title": "Test P",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/test-p",
+      "imageUrl": "https://www.aicrowd.com/assets/challenges/AIcrowd-ProblemStatements-1.jpeg",
+      "description": "Test P\n              \n                Predict Wine Quality\n          Predict Wine Quality",
+      "summary": "Test P\n              \n                Predict Wine Quality\n          Predict Wine Quality...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2027-06-17T03:59:44.995Z",
+      "prize": "TBD",
+      "tags": [
+        "#classroom"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-23T04:00:53.955Z",
+      "scrapedAt": "2026-10-23T03:59:44.995Z",
+      "lastUpdated": "2026-10-23T04:00:53.955Z",
+      "version": 1
+    },
+    {
+      "id": "c_aa2c7b5cbc46",
+      "title": "Multi-Agent Reinforcement Learning for Iterative Reasoning",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/multi-agent-reinforcement-learning-for-iterative-reasoning",
+      "imageUrl": "https://www.aicrowd.com/assets/challenges/AIcrowd-ProblemStatements-0.jpeg",
+      "description": "Multi-Agent Reinforcement Learning for Iterative Reasoning",
+      "summary": "Multi-Agent Reinforcement Learning for Iterative Reasoning...",
+      "contestType": "mixed",
+      "status": "upcoming",
+      "difficulty": "intermediate",
+      "prize": "TBD",
+      "tags": [
+        "#reinforcement_learning"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-23T04:00:54.958Z",
+      "scrapedAt": "2026-10-23T03:59:44.996Z",
+      "lastUpdated": "2026-10-23T04:00:54.958Z",
+      "version": 1
+    },
+    {
+      "id": "c_614d8c585c62",
+      "title": "Completed",
+      "platform": "aicrowd",
+      "url": "https://www.aicrowd.com/challenges/track-3-combine-performance-with-reasoning",
+      "imageUrl": "https://www.aicrowd.com/assets/challenges/AIcrowd-ProblemStatements-0.jpeg",
+      "description": "Track 3: Combine Performance with Reasoning",
+      "summary": "Track 3: Combine Performance with Reasoning...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "TBD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-23T04:00:54.960Z",
+      "scrapedAt": "2026-10-23T03:59:44.997Z",
+      "lastUpdated": "2026-10-23T04:00:54.960Z",
+      "version": 1
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "dataStructure": "ProcessedContest",
+    "lastUpdated": "2026-10-23T04:01:03.482Z"
+  }
+}

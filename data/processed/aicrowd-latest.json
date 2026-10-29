@@ -1,7 +1,7 @@
 {
   "platform": "aicrowd",
-  "timestamp": "2026-10-29T05:01:19.973Z",
-  "contestCount": 8,
+  "timestamp": "2026-10-29T18:18:21.121Z",
+  "contestCount": 7,
   "contests": [
     {
       "id": "c_8028e73d2ed6",
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2100-11-01T05:00:01.527Z",
+      "deadline": "2100-11-01T18:17:13.831Z",
       "prize": "TBD",
       "tags": [
         "Benchmark Challenge: Running"
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-29T05:01:09.606Z",
-      "scrapedAt": "2026-10-29T05:00:01.527Z",
-      "lastUpdated": "2026-10-29T05:01:09.606Z",
+      "processedAt": "2026-10-29T18:18:10.852Z",
+      "scrapedAt": "2026-10-29T18:17:13.831Z",
+      "lastUpdated": "2026-10-29T18:18:10.852Z",
       "version": 1
     },
     {
@@ -43,7 +43,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T05:00:01.528Z",
+      "deadline": "2030-08-14T18:17:13.832Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -54,35 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-29T05:01:10.548Z",
-      "scrapedAt": "2026-10-29T05:00:01.528Z",
-      "lastUpdated": "2026-10-29T05:01:10.548Z",
-      "version": 1
-    },
-    {
-      "id": "c_96317a054210",
-      "title": "2026: 11 hours left",
-      "platform": "aicrowd",
-      "url": "https://www.aicrowd.com/challenges/epfl-machine-learning-project-1",
-      "imageUrl": "https://images.aicrowd.com/raw_images/challenges/social_media_image_file/66/c69c94492818f584299a.jpg",
-      "description": "EPFL Machine Learning Project 1\n              \n                Predict Heart Disease\n          Predict Heart Disease",
-      "summary": "EPFL Machine Learning Project 1\n              \n                Predict Heart Disease\n          Predict Heart Disease...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "TBD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-10-29T05:01:10.547Z",
-      "scrapedAt": "2026-10-29T05:00:01.528Z",
-      "lastUpdated": "2026-10-29T05:01:10.547Z",
+      "processedAt": "2026-10-29T18:18:11.790Z",
+      "scrapedAt": "2026-10-29T18:17:13.832Z",
+      "lastUpdated": "2026-10-29T18:18:11.790Z",
       "version": 1
     },
     {
@@ -96,7 +70,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T05:00:01.528Z",
+      "deadline": "2045-08-31T18:17:13.832Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -107,9 +81,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-29T05:01:10.545Z",
-      "scrapedAt": "2026-10-29T05:00:01.528Z",
-      "lastUpdated": "2026-10-29T05:01:10.545Z",
+      "processedAt": "2026-10-29T18:18:11.772Z",
+      "scrapedAt": "2026-10-29T18:17:13.832Z",
+      "lastUpdated": "2026-10-29T18:18:11.772Z",
       "version": 1
     },
     {
@@ -123,7 +97,7 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T05:00:01.529Z",
+      "deadline": "2030-12-30T18:17:13.833Z",
       "prize": "TBD",
       "tags": [
         "nlp",
@@ -137,9 +111,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-29T05:01:10.550Z",
-      "scrapedAt": "2026-10-29T05:00:01.529Z",
-      "lastUpdated": "2026-10-29T05:01:10.550Z",
+      "processedAt": "2026-10-29T18:18:11.804Z",
+      "scrapedAt": "2026-10-29T18:17:13.833Z",
+      "lastUpdated": "2026-10-29T18:18:11.804Z",
       "version": 1
     },
     {
@@ -153,7 +127,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2027-06-17T05:00:01.529Z",
+      "deadline": "2027-06-16T18:17:13.833Z",
       "prize": "TBD",
       "tags": [
         "#classroom"
@@ -166,9 +140,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-29T05:01:10.716Z",
-      "scrapedAt": "2026-10-29T05:00:01.529Z",
-      "lastUpdated": "2026-10-29T05:01:10.716Z",
+      "processedAt": "2026-10-29T18:18:11.781Z",
+      "scrapedAt": "2026-10-29T18:17:13.833Z",
+      "lastUpdated": "2026-10-29T18:18:11.781Z",
       "version": 1
     },
     {
@@ -194,9 +168,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-29T05:01:11.741Z",
-      "scrapedAt": "2026-10-29T05:00:01.529Z",
-      "lastUpdated": "2026-10-29T05:01:11.741Z",
+      "processedAt": "2026-10-29T18:18:11.948Z",
+      "scrapedAt": "2026-10-29T18:17:13.834Z",
+      "lastUpdated": "2026-10-29T18:18:11.948Z",
       "version": 1
     },
     {
@@ -220,15 +194,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-29T05:01:11.746Z",
-      "scrapedAt": "2026-10-29T05:00:01.530Z",
-      "lastUpdated": "2026-10-29T05:01:11.746Z",
+      "processedAt": "2026-10-29T18:18:12.969Z",
+      "scrapedAt": "2026-10-29T18:17:13.834Z",
+      "lastUpdated": "2026-10-29T18:18:12.969Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-29T05:01:19.973Z"
+    "lastUpdated": "2026-10-29T18:18:21.121Z"
   }
 }

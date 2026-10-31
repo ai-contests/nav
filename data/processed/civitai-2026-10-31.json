@@ -1,0 +1,70 @@
+{
+  "platform": "civitai",
+  "timestamp": "2026-10-31T04:47:20.420Z",
+  "contestCount": 2,
+  "contests": [
+    {
+      "id": "c_7336d0e252f2",
+      "title": "Storylines: Start a Story, Let Anyone Write What Happens Next",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1965",
+      "imageUrl": "",
+      "description": "Tell a story in posts, chapter by chapter. Anyone can write the next chapter, so stories branch, and the map shows how readers split. Start with [Who Is the Face of Civitai?](/storylines/1)",
+      "summary": "Tell a story in posts, chapter by chapter. Anyone can write the next chapter, so stories branch, and the map shows how readers split. Start with [Who Is the Face of Civitai?](/storylines/1)...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-05T19:21:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-31T04:47:14.154Z",
+      "scrapedAt": "2026-10-31T04:45:17.185Z",
+      "lastUpdated": "2026-10-31T04:47:14.154Z",
+      "version": 1
+    },
+    {
+      "id": "c_f6246b6f2c0e",
+      "title": "Halloween on Civitai: The Homepage Belongs to Creators",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1861",
+      "imageUrl": "",
+      "description": "This Halloween, the homepage goes to creators. Our staff are featuring Halloween cosmetics from the Creator Shop and Halloween crucibles from the community. Sell a spooky cosmetic or run a Halloween crucible, and yours could be next.",
+      "summary": "This Halloween, the homepage goes to creators. Our staff are featuring Halloween cosmetics from the Creator Shop and Halloween crucibles from the community. Sell a spooky cosmetic or run a Halloween c...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-01T06:59:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-10-31T04:47:14.182Z",
+      "scrapedAt": "2026-10-31T04:45:17.185Z",
+      "lastUpdated": "2026-10-31T04:47:14.182Z",
+      "version": 1
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "dataStructure": "ProcessedContest",
+    "lastUpdated": "2026-10-31T04:47:20.420Z"
+  }
+}

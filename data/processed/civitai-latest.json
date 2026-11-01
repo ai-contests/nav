@@ -1,7 +1,7 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-01T05:07:07.305Z",
-  "contestCount": 3,
+  "timestamp": "2026-11-01T17:51:37.204Z",
+  "contestCount": 2,
   "contests": [
     {
       "id": "c_82ba0082758b",
@@ -25,9 +25,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-01T05:07:01.131Z",
-      "scrapedAt": "2026-11-01T05:05:02.065Z",
-      "lastUpdated": "2026-11-01T05:07:01.131Z",
+      "processedAt": "2026-11-01T17:51:30.325Z",
+      "scrapedAt": "2026-11-01T17:49:33.273Z",
+      "lastUpdated": "2026-11-01T17:51:30.325Z",
       "version": 1
     },
     {
@@ -54,44 +54,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-01T05:07:01.134Z",
-      "scrapedAt": "2026-11-01T05:05:02.065Z",
-      "lastUpdated": "2026-11-01T05:07:01.134Z",
-      "version": 1
-    },
-    {
-      "id": "c_f6246b6f2c0e",
-      "title": "Halloween on Civitai: The Homepage Belongs to Creators",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/1861",
-      "imageUrl": "",
-      "description": "This Halloween, the homepage goes to creators. Our staff are featuring Halloween cosmetics from the Creator Shop and Halloween crucibles from the community. Sell a spooky cosmetic or run a Halloween crucible, and yours could be next.",
-      "summary": "This Halloween, the homepage goes to creators. Our staff are featuring Halloween cosmetics from the Creator Shop and Halloween crucibles from the community. Sell a spooky cosmetic or run a Halloween c...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-11-01T06:59:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-01T05:07:01.133Z",
-      "scrapedAt": "2026-11-01T05:05:02.065Z",
-      "lastUpdated": "2026-11-01T05:07:01.133Z",
+      "processedAt": "2026-11-01T17:51:30.320Z",
+      "scrapedAt": "2026-11-01T17:49:33.273Z",
+      "lastUpdated": "2026-11-01T17:51:30.320Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-01T05:07:07.305Z"
+    "lastUpdated": "2026-11-01T17:51:37.204Z"
   }
 }

@@ -1,8 +1,35 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-10-31T17:06:04.475Z",
-  "contestCount": 2,
+  "timestamp": "2026-11-01T05:07:07.305Z",
+  "contestCount": 3,
   "contests": [
+    {
+      "id": "c_82ba0082758b",
+      "title": "Our 4th Birthday Event: Everyone Gets a Hat",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1973",
+      "imageUrl": "",
+      "description": "It's our birthday, so everyone gets a free hat. Join a random color team, put hats on your best work, and win your team the Champion badge. All of November.",
+      "summary": "It's our birthday, so everyone gets a free hat. Join a random color team, put hats on your best work, and win your team the Champion badge. All of November....",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-01T00:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-01T05:07:01.131Z",
+      "scrapedAt": "2026-11-01T05:05:02.065Z",
+      "lastUpdated": "2026-11-01T05:07:01.131Z",
+      "version": 1
+    },
     {
       "id": "c_7336d0e252f2",
       "title": "Storylines: Start a Story, Let Anyone Write What Happens Next",
@@ -27,9 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-31T17:05:57.182Z",
-      "scrapedAt": "2026-10-31T17:03:59.154Z",
-      "lastUpdated": "2026-10-31T17:05:57.182Z",
+      "processedAt": "2026-11-01T05:07:01.134Z",
+      "scrapedAt": "2026-11-01T05:05:02.065Z",
+      "lastUpdated": "2026-11-01T05:07:01.134Z",
       "version": 1
     },
     {
@@ -56,15 +83,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-10-31T17:05:57.186Z",
-      "scrapedAt": "2026-10-31T17:03:59.155Z",
-      "lastUpdated": "2026-10-31T17:05:57.186Z",
+      "processedAt": "2026-11-01T05:07:01.133Z",
+      "scrapedAt": "2026-11-01T05:05:02.065Z",
+      "lastUpdated": "2026-11-01T05:07:01.133Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-10-31T17:06:04.475Z"
+    "lastUpdated": "2026-11-01T05:07:07.305Z"
   }
 }

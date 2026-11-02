@@ -1,8 +1,38 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-11-02T05:07:46.287Z",
+  "timestamp": "2026-11-02T21:36:49.792Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_ce68cae31793",
+      "title": "AI造游戏，人人都是游戏制作人｜AI+∞开发者创作大赛第三期",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/394",
+      "imageUrl": "",
+      "description": "本期以「AI 造游戏」为主题，邀请你用 AI 创作一款原创游戏，发布到魔搭创空间，让大家点开就能玩。\n\nAI+∞ 开发者创作大赛每月围绕一个主题，邀请开发者用 AI 把灵感变成作品，让创意被真实体验与分享。第一期「AI+运营」，我们邀请运营人造自己的工具；第二期「AI+影视流」，我们一起用 AI，提前看见未来。第三期，想邀请大家一起造游戏本期以「AI 造游戏」为主题，由魔搭社区、Qoder 和盛趣游戏联合发起。邀请你用 AI 创作一款原创游戏，发布到魔搭创空间，让大家点开就能玩；也欢迎在创作手记里，聊聊它是怎么从一个想法变成作品的。休闲小游戏、策略解谜、AI NPC……玩法由你探索。这次，除了 Qoder Credits，还有赞奇科技与华硕提供的 DGX Spark 云端算力支持，以及现金、NVIDIA DGX Spark、华硕 ROG 设备等奖励，为你的游戏创作提供支持。从「我想玩」到「我来做」，人人都是游戏制作人。参赛方式、比赛日程与奖项设置，详见下方海报。",
+      "summary": "本期以「AI 造游戏」为主题，邀请你用 AI 创作一款原创游戏，发布到魔搭创空间，让大家点开就能玩。\n\nAI+∞ 开发者创作大赛每月围绕一个主题，邀请开发者用 AI 把灵感变成作品，让创意被真实体验与分享。第一期「AI+运营」，我们邀请运营人造自己的工具；第二期「AI+影视流」，我们一起用 AI，提前看见未来。第三期，想邀请大家一起造游戏本期以「AI 造游戏」为主题，由魔搭社区、Qoder 和盛趣...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-01T10:00:00.000Z",
+      "prize": "万元奖金+硬件大奖",
+      "tags": [
+        "应用开发赛",
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-02T21:36:43.078Z",
+      "scrapedAt": "2026-11-02T21:34:40.206Z",
+      "lastUpdated": "2026-11-02T21:36:43.078Z",
+      "version": 1
+    },
     {
       "id": "c_e71a653089bb",
       "title": "全新升级！第二届具亮计划·全球具身智能黑客松开启报名",
@@ -31,9 +61,9 @@
         "具身智能第一次具备了像大语言模型一样可通过API直接被调用的条件。以这一技术演进为基础"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-11-02T05:07:40.117Z",
-      "scrapedAt": "2026-11-02T05:05:33.027Z",
-      "lastUpdated": "2026-11-02T05:07:40.117Z",
+      "processedAt": "2026-11-02T21:36:43.184Z",
+      "scrapedAt": "2026-11-02T21:34:40.206Z",
+      "lastUpdated": "2026-11-02T21:36:43.184Z",
       "version": 1
     },
     {
@@ -60,9 +90,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-02T05:07:40.140Z",
-      "scrapedAt": "2026-11-02T05:05:33.028Z",
-      "lastUpdated": "2026-11-02T05:07:40.140Z",
+      "processedAt": "2026-11-02T21:36:44.169Z",
+      "scrapedAt": "2026-11-02T21:34:40.206Z",
+      "lastUpdated": "2026-11-02T21:36:44.169Z",
       "version": 1
     },
     {
@@ -87,9 +117,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-02T05:07:41.145Z",
-      "scrapedAt": "2026-11-02T05:05:33.028Z",
-      "lastUpdated": "2026-11-02T05:07:41.145Z",
+      "processedAt": "2026-11-02T21:36:44.182Z",
+      "scrapedAt": "2026-11-02T21:34:40.206Z",
+      "lastUpdated": "2026-11-02T21:36:44.182Z",
       "version": 1
     },
     {
@@ -118,9 +148,9 @@
         "有人敢于创造！👋"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-11-02T05:07:41.144Z",
-      "scrapedAt": "2026-11-02T05:05:33.028Z",
-      "lastUpdated": "2026-11-02T05:07:41.144Z",
+      "processedAt": "2026-11-02T21:36:44.187Z",
+      "scrapedAt": "2026-11-02T21:34:40.206Z",
+      "lastUpdated": "2026-11-02T21:36:44.187Z",
       "version": 1
     },
     {
@@ -145,9 +175,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-02T05:07:41.143Z",
-      "scrapedAt": "2026-11-02T05:05:33.028Z",
-      "lastUpdated": "2026-11-02T05:07:41.143Z",
+      "processedAt": "2026-11-02T21:36:44.207Z",
+      "scrapedAt": "2026-11-02T21:34:40.207Z",
+      "lastUpdated": "2026-11-02T21:36:44.207Z",
       "version": 1
     },
     {
@@ -174,9 +204,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-02T05:07:41.142Z",
-      "scrapedAt": "2026-11-02T05:05:33.028Z",
-      "lastUpdated": "2026-11-02T05:07:41.142Z",
+      "processedAt": "2026-11-02T21:36:44.314Z",
+      "scrapedAt": "2026-11-02T21:34:40.207Z",
+      "lastUpdated": "2026-11-02T21:36:44.314Z",
       "version": 1
     },
     {
@@ -203,9 +233,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-02T05:07:41.164Z",
-      "scrapedAt": "2026-11-02T05:05:33.028Z",
-      "lastUpdated": "2026-11-02T05:07:41.164Z",
+      "processedAt": "2026-11-02T21:36:45.302Z",
+      "scrapedAt": "2026-11-02T21:34:40.207Z",
+      "lastUpdated": "2026-11-02T21:36:45.302Z",
       "version": 1
     },
     {
@@ -232,9 +262,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-02T05:07:42.170Z",
-      "scrapedAt": "2026-11-02T05:05:33.029Z",
-      "lastUpdated": "2026-11-02T05:07:42.170Z",
+      "processedAt": "2026-11-02T21:36:45.317Z",
+      "scrapedAt": "2026-11-02T21:34:40.207Z",
+      "lastUpdated": "2026-11-02T21:36:45.317Z",
       "version": 1
     },
     {
@@ -261,44 +291,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-02T05:07:42.170Z",
-      "scrapedAt": "2026-11-02T05:05:33.029Z",
-      "lastUpdated": "2026-11-02T05:07:42.170Z",
-      "version": 1
-    },
-    {
-      "id": "c_00a27800de4f",
-      "title": "第七届设施管理行业大会",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/379",
-      "imageUrl": "",
-      "description": "本届大会以“AI重塑空间未来”为主题，聚焦设施管理标准化、智慧园区与AI应用，邀请行业伙伴交流实践、共话未来。",
-      "summary": "本届大会以“AI重塑空间未来”为主题，聚焦设施管理标准化、智慧园区与AI应用，邀请行业伙伴交流实践、共话未来。...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-10-19T16:00:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-02T05:07:42.173Z",
-      "scrapedAt": "2026-11-02T05:05:33.029Z",
-      "lastUpdated": "2026-11-02T05:07:42.173Z",
+      "processedAt": "2026-11-02T21:36:45.329Z",
+      "scrapedAt": "2026-11-02T21:34:40.207Z",
+      "lastUpdated": "2026-11-02T21:36:45.329Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-02T05:07:46.287Z"
+    "lastUpdated": "2026-11-02T21:36:49.792Z"
   }
 }

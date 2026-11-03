@@ -1,8 +1,35 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-03T05:54:49.534Z",
-  "contestCount": 2,
+  "timestamp": "2026-11-03T19:19:34.048Z",
+  "contestCount": 3,
   "contests": [
+    {
+      "id": "c_26ffe0474d40",
+      "title": "Make the Launch Video: 3 Songs, 3 Crucibles",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2105",
+      "imageUrl": "",
+      "description": "We wrote the song, you make the video. The best Hat Turf music video becomes the official launch video, and the top three in each Crucible win Buzz plus team points for the birthday event.",
+      "summary": "We wrote the song, you make the video. The best Hat Turf music video becomes the official launch video, and the top three in each Crucible win Buzz plus team points for the birthday event....",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-06T11:15:07.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-03T19:19:27.247Z",
+      "scrapedAt": "2026-11-03T19:17:33.560Z",
+      "lastUpdated": "2026-11-03T19:19:27.247Z",
+      "version": 1
+    },
     {
       "id": "c_82ba0082758b",
       "title": "Our 4th Birthday Event: Everyone Gets a Hat",
@@ -25,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-03T05:54:42.462Z",
-      "scrapedAt": "2026-11-03T05:52:46.994Z",
-      "lastUpdated": "2026-11-03T05:54:42.462Z",
+      "processedAt": "2026-11-03T19:19:27.271Z",
+      "scrapedAt": "2026-11-03T19:17:33.560Z",
+      "lastUpdated": "2026-11-03T19:19:27.271Z",
       "version": 1
     },
     {
@@ -54,15 +81,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-03T05:54:42.463Z",
-      "scrapedAt": "2026-11-03T05:52:46.994Z",
-      "lastUpdated": "2026-11-03T05:54:42.463Z",
+      "processedAt": "2026-11-03T19:19:27.264Z",
+      "scrapedAt": "2026-11-03T19:17:33.560Z",
+      "lastUpdated": "2026-11-03T19:19:27.264Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-03T05:54:49.534Z"
+    "lastUpdated": "2026-11-03T19:19:34.048Z"
   }
 }

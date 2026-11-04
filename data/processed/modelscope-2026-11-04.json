@@ -1,6 +1,6 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-11-04T05:30:14.702Z",
+  "timestamp": "2026-11-04T19:36:56.970Z",
   "contestCount": 10,
   "contests": [
     {
@@ -28,9 +28,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-04T05:30:07.794Z",
-      "scrapedAt": "2026-11-04T05:28:01.049Z",
-      "lastUpdated": "2026-11-04T05:30:07.794Z",
+      "processedAt": "2026-11-04T19:36:50.713Z",
+      "scrapedAt": "2026-11-04T19:34:43.130Z",
+      "lastUpdated": "2026-11-04T19:36:50.713Z",
       "version": 1
     },
     {
@@ -57,9 +57,38 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-04T05:30:08.789Z",
-      "scrapedAt": "2026-11-04T05:28:01.049Z",
-      "lastUpdated": "2026-11-04T05:30:08.789Z",
+      "processedAt": "2026-11-04T19:36:51.755Z",
+      "scrapedAt": "2026-11-04T19:34:43.130Z",
+      "lastUpdated": "2026-11-04T19:36:51.755Z",
+      "version": 1
+    },
+    {
+      "id": "c_bbeeadde7ad9",
+      "title": "群核科技Ahoolo 全球3D AI黑客松",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/386",
+      "imageUrl": "",
+      "description": "本届黑客松，我们不设命题。只需你使用3D生成模型Aholo Lux3D，完成一份3D AI作品或Demo。",
+      "summary": "本届黑客松，我们不设命题。只需你使用3D生成模型Aholo Lux3D，完成一份3D AI作品或Demo。...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-19T15:59:00.000Z",
+      "prize": "¥32万元奖金池",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-04T19:36:51.734Z",
+      "scrapedAt": "2026-11-04T19:34:43.130Z",
+      "lastUpdated": "2026-11-04T19:36:51.734Z",
       "version": 1
     },
     {
@@ -84,9 +113,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-04T05:30:08.789Z",
-      "scrapedAt": "2026-11-04T05:28:01.049Z",
-      "lastUpdated": "2026-11-04T05:30:08.789Z",
+      "processedAt": "2026-11-04T19:36:51.728Z",
+      "scrapedAt": "2026-11-04T19:34:43.130Z",
+      "lastUpdated": "2026-11-04T19:36:51.728Z",
       "version": 1
     },
     {
@@ -117,38 +146,9 @@
         "具身智能第一次具备了像大语言模型一样可通过API直接被调用的条件。以这一技术演进为基础"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-11-04T05:30:08.817Z",
-      "scrapedAt": "2026-11-04T05:28:01.049Z",
-      "lastUpdated": "2026-11-04T05:30:08.817Z",
-      "version": 1
-    },
-    {
-      "id": "c_bbeeadde7ad9",
-      "title": "群核科技Ahoolo 全球3D AI黑客松",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/386",
-      "imageUrl": "",
-      "description": "本届黑客松，我们不设命题。只需你使用3D生成模型Aholo Lux3D，完成一份3D AI作品或Demo。",
-      "summary": "本届黑客松，我们不设命题。只需你使用3D生成模型Aholo Lux3D，完成一份3D AI作品或Demo。...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-11-19T15:59:00.000Z",
-      "prize": "¥32万元奖金池",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-04T05:30:08.795Z",
-      "scrapedAt": "2026-11-04T05:28:01.049Z",
-      "lastUpdated": "2026-11-04T05:30:08.795Z",
+      "processedAt": "2026-11-04T19:36:51.720Z",
+      "scrapedAt": "2026-11-04T19:34:43.131Z",
+      "lastUpdated": "2026-11-04T19:36:51.720Z",
       "version": 1
     },
     {
@@ -175,9 +175,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-04T05:30:08.999Z",
-      "scrapedAt": "2026-11-04T05:28:01.049Z",
-      "lastUpdated": "2026-11-04T05:30:08.999Z",
+      "processedAt": "2026-11-04T19:36:51.789Z",
+      "scrapedAt": "2026-11-04T19:34:43.131Z",
+      "lastUpdated": "2026-11-04T19:36:51.789Z",
       "version": 1
     },
     {
@@ -204,9 +204,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-04T05:30:09.982Z",
-      "scrapedAt": "2026-11-04T05:28:01.049Z",
-      "lastUpdated": "2026-11-04T05:30:09.982Z",
+      "processedAt": "2026-11-04T19:36:52.798Z",
+      "scrapedAt": "2026-11-04T19:34:43.131Z",
+      "lastUpdated": "2026-11-04T19:36:52.798Z",
       "version": 1
     },
     {
@@ -233,9 +233,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-04T05:30:09.984Z",
-      "scrapedAt": "2026-11-04T05:28:01.050Z",
-      "lastUpdated": "2026-11-04T05:30:09.984Z",
+      "processedAt": "2026-11-04T19:36:52.791Z",
+      "scrapedAt": "2026-11-04T19:34:43.131Z",
+      "lastUpdated": "2026-11-04T19:36:52.791Z",
       "version": 1
     },
     {
@@ -260,9 +260,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-04T05:30:09.989Z",
-      "scrapedAt": "2026-11-04T05:28:01.050Z",
-      "lastUpdated": "2026-11-04T05:30:09.989Z",
+      "processedAt": "2026-11-04T19:36:52.797Z",
+      "scrapedAt": "2026-11-04T19:34:43.131Z",
+      "lastUpdated": "2026-11-04T19:36:52.797Z",
       "version": 1
     },
     {
@@ -291,15 +291,15 @@
         "有人敢于创造！👋"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-11-04T05:30:09.986Z",
-      "scrapedAt": "2026-11-04T05:28:01.050Z",
-      "lastUpdated": "2026-11-04T05:30:09.986Z",
+      "processedAt": "2026-11-04T19:36:52.793Z",
+      "scrapedAt": "2026-11-04T19:34:43.131Z",
+      "lastUpdated": "2026-11-04T19:36:52.793Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-04T05:30:14.702Z"
+    "lastUpdated": "2026-11-04T19:36:56.970Z"
   }
 }

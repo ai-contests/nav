@@ -1,0 +1,95 @@
+{
+  "platform": "civitai",
+  "timestamp": "2026-11-04T05:30:14.704Z",
+  "contestCount": 3,
+  "contests": [
+    {
+      "id": "c_26ffe0474d40",
+      "title": "Make the Launch Video: 3 Songs, 3 Crucibles",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2105",
+      "imageUrl": "",
+      "description": "We wrote the song, you make the video. The best Hat Turf music video becomes the official launch video, and the top three in each Crucible win Buzz plus team points for the birthday event.",
+      "summary": "We wrote the song, you make the video. The best Hat Turf music video becomes the official launch video, and the top three in each Crucible win Buzz plus team points for the birthday event....",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-06T11:15:07.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-04T05:30:07.619Z",
+      "scrapedAt": "2026-11-04T05:28:11.286Z",
+      "lastUpdated": "2026-11-04T05:30:07.619Z",
+      "version": 1
+    },
+    {
+      "id": "c_82ba0082758b",
+      "title": "Our 4th Birthday Event: Everyone Gets a Hat",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1973",
+      "imageUrl": "",
+      "description": "It's our birthday, so everyone gets a free hat. Join a random color team, put hats on your best work, and win your team the Champion badge. All of November.",
+      "summary": "It's our birthday, so everyone gets a free hat. Join a random color team, put hats on your best work, and win your team the Champion badge. All of November....",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-01T00:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-04T05:30:07.619Z",
+      "scrapedAt": "2026-11-04T05:28:11.286Z",
+      "lastUpdated": "2026-11-04T05:30:07.619Z",
+      "version": 1
+    },
+    {
+      "id": "c_7336d0e252f2",
+      "title": "Storylines: Start a Story, Let Anyone Write What Happens Next",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1965",
+      "imageUrl": "",
+      "description": "Tell a story in posts, chapter by chapter. Anyone can write the next chapter, so stories branch, and the map shows how readers split. Start with [Who Is the Face of Civitai?](/storylines/1)",
+      "summary": "Tell a story in posts, chapter by chapter. Anyone can write the next chapter, so stories branch, and the map shows how readers split. Start with [Who Is the Face of Civitai?](/storylines/1)...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-05T19:21:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-04T05:30:07.622Z",
+      "scrapedAt": "2026-11-04T05:28:11.286Z",
+      "lastUpdated": "2026-11-04T05:30:07.622Z",
+      "version": 1
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "dataStructure": "ProcessedContest",
+    "lastUpdated": "2026-11-04T05:30:14.704Z"
+  }
+}

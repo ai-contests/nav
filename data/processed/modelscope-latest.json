@@ -1,6 +1,6 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-11-05T05:51:27.466Z",
+  "timestamp": "2026-11-05T19:46:38.142Z",
   "contestCount": 10,
   "contests": [
     {
@@ -28,9 +28,36 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-05T05:51:20.856Z",
-      "scrapedAt": "2026-11-05T05:48:22.970Z",
-      "lastUpdated": "2026-11-05T05:51:20.856Z",
+      "processedAt": "2026-11-05T19:46:31.792Z",
+      "scrapedAt": "2026-11-05T19:44:26.055Z",
+      "lastUpdated": "2026-11-05T19:46:31.792Z",
+      "version": 1
+    },
+    {
+      "id": "c_a3aa18c38dc6",
+      "title": "48H和真实世界碰一碰｜首届地瓜机器人黑客松",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/416",
+      "imageUrl": "",
+      "description": "欢迎来到2026地瓜机器人黑客松，和真实世界碰一碰！",
+      "summary": "欢迎来到2026地瓜机器人黑客松，和真实世界碰一碰！...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-30T15:59:00.000Z",
+      "prize": "30W现金奖池",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-05T19:46:31.791Z",
+      "scrapedAt": "2026-11-05T19:44:26.055Z",
+      "lastUpdated": "2026-11-05T19:46:31.791Z",
       "version": 1
     },
     {
@@ -57,9 +84,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-05T05:51:20.846Z",
-      "scrapedAt": "2026-11-05T05:48:22.971Z",
-      "lastUpdated": "2026-11-05T05:51:20.846Z",
+      "processedAt": "2026-11-05T19:46:31.802Z",
+      "scrapedAt": "2026-11-05T19:44:26.055Z",
+      "lastUpdated": "2026-11-05T19:46:31.802Z",
       "version": 1
     },
     {
@@ -86,9 +113,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-05T05:51:20.853Z",
-      "scrapedAt": "2026-11-05T05:48:22.971Z",
-      "lastUpdated": "2026-11-05T05:51:20.853Z",
+      "processedAt": "2026-11-05T19:46:31.796Z",
+      "scrapedAt": "2026-11-05T19:44:26.055Z",
+      "lastUpdated": "2026-11-05T19:46:31.796Z",
       "version": 1
     },
     {
@@ -113,9 +140,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-05T05:51:20.966Z",
-      "scrapedAt": "2026-11-05T05:48:22.971Z",
-      "lastUpdated": "2026-11-05T05:51:20.966Z",
+      "processedAt": "2026-11-05T19:46:31.998Z",
+      "scrapedAt": "2026-11-05T19:44:26.056Z",
+      "lastUpdated": "2026-11-05T19:46:31.998Z",
       "version": 1
     },
     {
@@ -146,9 +173,9 @@
         "具身智能第一次具备了像大语言模型一样可通过API直接被调用的条件。以这一技术演进为基础"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-11-05T05:51:21.964Z",
-      "scrapedAt": "2026-11-05T05:48:22.971Z",
-      "lastUpdated": "2026-11-05T05:51:21.964Z",
+      "processedAt": "2026-11-05T19:46:33.049Z",
+      "scrapedAt": "2026-11-05T19:44:26.056Z",
+      "lastUpdated": "2026-11-05T19:46:33.049Z",
       "version": 1
     },
     {
@@ -175,9 +202,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-05T05:51:21.942Z",
-      "scrapedAt": "2026-11-05T05:48:22.971Z",
-      "lastUpdated": "2026-11-05T05:51:21.942Z",
+      "processedAt": "2026-11-05T19:46:33.000Z",
+      "scrapedAt": "2026-11-05T19:44:26.056Z",
+      "lastUpdated": "2026-11-05T19:46:33.000Z",
       "version": 1
     },
     {
@@ -204,9 +231,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-05T05:51:21.961Z",
-      "scrapedAt": "2026-11-05T05:48:22.971Z",
-      "lastUpdated": "2026-11-05T05:51:21.961Z",
+      "processedAt": "2026-11-05T19:46:33.016Z",
+      "scrapedAt": "2026-11-05T19:44:26.056Z",
+      "lastUpdated": "2026-11-05T19:46:33.016Z",
       "version": 1
     },
     {
@@ -233,9 +260,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-05T05:51:21.966Z",
-      "scrapedAt": "2026-11-05T05:48:22.971Z",
-      "lastUpdated": "2026-11-05T05:51:21.966Z",
+      "processedAt": "2026-11-05T19:46:32.999Z",
+      "scrapedAt": "2026-11-05T19:44:26.056Z",
+      "lastUpdated": "2026-11-05T19:46:32.999Z",
       "version": 1
     },
     {
@@ -260,46 +287,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-05T05:51:22.061Z",
-      "scrapedAt": "2026-11-05T05:48:22.971Z",
-      "lastUpdated": "2026-11-05T05:51:22.061Z",
-      "version": 1
-    },
-    {
-      "id": "c_6056afdf62e3",
-      "title": "一万个回答·AI文化造物黑客松",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/389",
-      "imageUrl": "",
-      "description": "文化的未来，不能只靠传承，更需要有人敢于创造！👋\n\n「魔搭社区 X  杭州 AI 工坊」：文化的未来，不能只靠传承，更需要有人敢于创造！👋每一代人都有自己的使命。这一次，轮到我们用 AI 和硬件，为文化打开新的可能！「AI＋文化＋？」文创黑客松正式招募！6.6万元现金奖金＋7万元Token支持！11月杭州，我们期待更多热爱文化、敢于突破的创造者集结，让文化焕发新生，以新的方式延续！文化的下一个篇章，由我们亲手写下！报名截止10月31日，杭州见！",
-      "summary": "文化的未来，不能只靠传承，更需要有人敢于创造！👋\n\n「魔搭社区 X  杭州 AI 工坊」：文化的未来，不能只靠传承，更需要有人敢于创造！👋每一代人都有自己的使命。这一次，轮到我们用 AI 和硬件，为文化打开新的可能！「AI＋文化＋？」文创黑客松正式招募！6.6万元现金奖金＋7万元Token支持！11月杭州，我们期待更多热爱文化、敢于突破的创造者集结，让文化焕发新生，以新的方式延续！文化的下一个...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-10-31T15:59:00.000Z",
-      "prize": "6.6万元现金奖金＋7万元Token支持",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "有人敢于创造！👋"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-11-05T05:51:23.054Z",
-      "scrapedAt": "2026-11-05T05:48:22.971Z",
-      "lastUpdated": "2026-11-05T05:51:23.054Z",
+      "processedAt": "2026-11-05T19:46:33.252Z",
+      "scrapedAt": "2026-11-05T19:44:26.056Z",
+      "lastUpdated": "2026-11-05T19:46:33.252Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-05T05:51:27.466Z"
+    "lastUpdated": "2026-11-05T19:46:38.142Z"
   }
 }

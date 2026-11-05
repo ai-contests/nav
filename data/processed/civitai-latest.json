@@ -1,7 +1,7 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-05T05:51:27.469Z",
-  "contestCount": 5,
+  "timestamp": "2026-11-05T19:46:38.146Z",
+  "contestCount": 4,
   "contests": [
     {
       "id": "c_09fc4b51fc99",
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-05T05:51:19.757Z",
-      "scrapedAt": "2026-11-05T05:48:34.027Z",
-      "lastUpdated": "2026-11-05T05:51:19.757Z",
+      "processedAt": "2026-11-05T19:46:30.583Z",
+      "scrapedAt": "2026-11-05T19:44:38.338Z",
+      "lastUpdated": "2026-11-05T19:46:30.583Z",
       "version": 1
     },
     {
@@ -56,9 +56,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-05T05:51:19.757Z",
-      "scrapedAt": "2026-11-05T05:48:34.027Z",
-      "lastUpdated": "2026-11-05T05:51:19.757Z",
+      "processedAt": "2026-11-05T19:46:30.577Z",
+      "scrapedAt": "2026-11-05T19:44:38.338Z",
+      "lastUpdated": "2026-11-05T19:46:30.577Z",
       "version": 1
     },
     {
@@ -83,9 +83,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-05T05:51:19.745Z",
-      "scrapedAt": "2026-11-05T05:48:34.027Z",
-      "lastUpdated": "2026-11-05T05:51:19.745Z",
+      "processedAt": "2026-11-05T19:46:30.595Z",
+      "scrapedAt": "2026-11-05T19:44:38.338Z",
+      "lastUpdated": "2026-11-05T19:46:30.595Z",
       "version": 1
     },
     {
@@ -110,44 +110,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-05T05:51:19.840Z",
-      "scrapedAt": "2026-11-05T05:48:34.027Z",
-      "lastUpdated": "2026-11-05T05:51:19.840Z",
-      "version": 1
-    },
-    {
-      "id": "c_7336d0e252f2",
-      "title": "Storylines: Start a Story, Let Anyone Write What Happens Next",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/1965",
-      "imageUrl": "",
-      "description": "Tell a story in posts, chapter by chapter. Anyone can write the next chapter, so stories branch, and the map shows how readers split. Start with [Who Is the Face of Civitai?](/storylines/1)",
-      "summary": "Tell a story in posts, chapter by chapter. Anyone can write the next chapter, so stories branch, and the map shows how readers split. Start with [Who Is the Face of Civitai?](/storylines/1)...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-11-05T19:21:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-05T05:51:20.852Z",
-      "scrapedAt": "2026-11-05T05:48:34.027Z",
-      "lastUpdated": "2026-11-05T05:51:20.852Z",
+      "processedAt": "2026-11-05T19:46:30.791Z",
+      "scrapedAt": "2026-11-05T19:44:38.338Z",
+      "lastUpdated": "2026-11-05T19:46:30.791Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-05T05:51:27.469Z"
+    "lastUpdated": "2026-11-05T19:46:38.146Z"
   }
 }

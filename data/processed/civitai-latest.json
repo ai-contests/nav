@@ -1,8 +1,66 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-04T19:36:56.973Z",
-  "contestCount": 3,
+  "timestamp": "2026-11-05T05:51:27.469Z",
+  "contestCount": 5,
   "contests": [
+    {
+      "id": "c_09fc4b51fc99",
+      "title": "One Model, Two Storefronts",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2170",
+      "imageUrl": "",
+      "description": "Give your models their own title, description and cover on civitai.com and civitai.red. Same model, same downloads, reviews and stats, all in one place.",
+      "summary": "Give your models their own title, description and cover on civitai.com and civitai.red. Same model, same downloads, reviews and stats, all in one place....",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-11T20:15:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-05T05:51:19.757Z",
+      "scrapedAt": "2026-11-05T05:48:34.027Z",
+      "lastUpdated": "2026-11-05T05:51:19.757Z",
+      "version": 1
+    },
+    {
+      "id": "c_9a550aff7909",
+      "title": "Kling 4: 30-Second Video, Sound Built In",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2172",
+      "imageUrl": "",
+      "description": "Kling 4 is in the generator. Clips up to 30 seconds at 720p or 1080p, with sound in every one. Start from text, a frame, up to 10 references, or a clip to edit. From 1,021 Buzz for 5 seconds. [Read more](https://civitai.com/articles/38070)",
+      "summary": "Kling 4 is in the generator. Clips up to 30 seconds at 720p or 1080p, with sound in every one. Start from text, a frame, up to 10 references, or a clip to edit. From 1,021 Buzz for 5 seconds. [Read mo...",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-12T07:00:00.000Z",
+      "prize": "21",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-05T05:51:19.757Z",
+      "scrapedAt": "2026-11-05T05:48:34.027Z",
+      "lastUpdated": "2026-11-05T05:51:19.757Z",
+      "version": 1
+    },
     {
       "id": "c_26ffe0474d40",
       "title": "Make the Launch Video: 3 Songs, 3 Crucibles",
@@ -25,9 +83,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-04T19:36:50.680Z",
-      "scrapedAt": "2026-11-04T19:34:55.870Z",
-      "lastUpdated": "2026-11-04T19:36:50.680Z",
+      "processedAt": "2026-11-05T05:51:19.745Z",
+      "scrapedAt": "2026-11-05T05:48:34.027Z",
+      "lastUpdated": "2026-11-05T05:51:19.745Z",
       "version": 1
     },
     {
@@ -52,9 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-04T19:36:50.678Z",
-      "scrapedAt": "2026-11-04T19:34:55.870Z",
-      "lastUpdated": "2026-11-04T19:36:50.678Z",
+      "processedAt": "2026-11-05T05:51:19.840Z",
+      "scrapedAt": "2026-11-05T05:48:34.027Z",
+      "lastUpdated": "2026-11-05T05:51:19.840Z",
       "version": 1
     },
     {
@@ -81,15 +139,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-04T19:36:50.675Z",
-      "scrapedAt": "2026-11-04T19:34:55.870Z",
-      "lastUpdated": "2026-11-04T19:36:50.675Z",
+      "processedAt": "2026-11-05T05:51:20.852Z",
+      "scrapedAt": "2026-11-05T05:48:34.027Z",
+      "lastUpdated": "2026-11-05T05:51:20.852Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-04T19:36:56.973Z"
+    "lastUpdated": "2026-11-05T05:51:27.469Z"
   }
 }

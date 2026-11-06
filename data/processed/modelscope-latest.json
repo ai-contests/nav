@@ -1,6 +1,6 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-11-06T05:46:03.873Z",
+  "timestamp": "2026-11-06T19:06:49.260Z",
   "contestCount": 10,
   "contests": [
     {
@@ -28,9 +28,38 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-06T05:45:58.198Z",
-      "scrapedAt": "2026-11-06T05:43:49.127Z",
-      "lastUpdated": "2026-11-06T05:45:58.198Z",
+      "processedAt": "2026-11-06T19:06:42.701Z",
+      "scrapedAt": "2026-11-06T19:04:39.545Z",
+      "lastUpdated": "2026-11-06T19:06:42.701Z",
+      "version": 1
+    },
+    {
+      "id": "c_cdaed5bf8445",
+      "title": "超级反应堆OPC开放季| 魔搭AIGC艺术圆桌",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/419",
+      "imageUrl": "",
+      "description": "超级反应堆魔搭 AIGC 艺术圆桌 前沿技术与创新体验的深度碰撞—— 模型、算力、最会玩 AIGC 的一群人，齐聚南京。 11月18日（周三）13:00—16:30 南京阿里中心 · T5-3F 湖畔会议室",
+      "summary": "超级反应堆魔搭 AIGC 艺术圆桌 前沿技术与创新体验的深度碰撞—— 模型、算力、最会玩 AIGC 的一群人，齐聚南京。 11月18日（周三）13:00—16:30 南京阿里中心 · T5-3F 湖畔会议室...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-18T02:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-06T19:06:43.697Z",
+      "scrapedAt": "2026-11-06T19:04:39.546Z",
+      "lastUpdated": "2026-11-06T19:06:43.697Z",
       "version": 1
     },
     {
@@ -55,9 +84,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-06T05:45:58.205Z",
-      "scrapedAt": "2026-11-06T05:43:49.127Z",
-      "lastUpdated": "2026-11-06T05:45:58.205Z",
+      "processedAt": "2026-11-06T19:06:43.696Z",
+      "scrapedAt": "2026-11-06T19:04:39.546Z",
+      "lastUpdated": "2026-11-06T19:06:43.696Z",
       "version": 1
     },
     {
@@ -84,9 +113,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-06T05:45:58.200Z",
-      "scrapedAt": "2026-11-06T05:43:49.127Z",
-      "lastUpdated": "2026-11-06T05:45:58.200Z",
+      "processedAt": "2026-11-06T19:06:43.701Z",
+      "scrapedAt": "2026-11-06T19:04:39.546Z",
+      "lastUpdated": "2026-11-06T19:06:43.701Z",
       "version": 1
     },
     {
@@ -113,9 +142,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-06T05:45:58.216Z",
-      "scrapedAt": "2026-11-06T05:43:49.127Z",
-      "lastUpdated": "2026-11-06T05:45:58.216Z",
+      "processedAt": "2026-11-06T19:06:43.680Z",
+      "scrapedAt": "2026-11-06T19:04:39.546Z",
+      "lastUpdated": "2026-11-06T19:06:43.680Z",
       "version": 1
     },
     {
@@ -140,9 +169,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-06T05:45:58.321Z",
-      "scrapedAt": "2026-11-06T05:43:49.127Z",
-      "lastUpdated": "2026-11-06T05:45:58.321Z",
+      "processedAt": "2026-11-06T19:06:43.821Z",
+      "scrapedAt": "2026-11-06T19:04:39.546Z",
+      "lastUpdated": "2026-11-06T19:06:43.821Z",
       "version": 1
     },
     {
@@ -173,9 +202,9 @@
         "具身智能第一次具备了像大语言模型一样可通过API直接被调用的条件。以这一技术演进为基础"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-11-06T05:45:59.310Z",
-      "scrapedAt": "2026-11-06T05:43:49.127Z",
-      "lastUpdated": "2026-11-06T05:45:59.310Z",
+      "processedAt": "2026-11-06T19:06:44.812Z",
+      "scrapedAt": "2026-11-06T19:04:39.546Z",
+      "lastUpdated": "2026-11-06T19:06:44.812Z",
       "version": 1
     },
     {
@@ -202,9 +231,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-06T05:45:59.299Z",
-      "scrapedAt": "2026-11-06T05:43:49.127Z",
-      "lastUpdated": "2026-11-06T05:45:59.299Z",
+      "processedAt": "2026-11-06T19:06:44.817Z",
+      "scrapedAt": "2026-11-06T19:04:39.546Z",
+      "lastUpdated": "2026-11-06T19:06:44.817Z",
       "version": 1
     },
     {
@@ -231,9 +260,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-06T05:45:59.320Z",
-      "scrapedAt": "2026-11-06T05:43:49.127Z",
-      "lastUpdated": "2026-11-06T05:45:59.320Z",
+      "processedAt": "2026-11-06T19:06:44.797Z",
+      "scrapedAt": "2026-11-06T19:04:39.546Z",
+      "lastUpdated": "2026-11-06T19:06:44.797Z",
       "version": 1
     },
     {
@@ -260,42 +289,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-06T05:45:59.321Z",
-      "scrapedAt": "2026-11-06T05:43:49.127Z",
-      "lastUpdated": "2026-11-06T05:45:59.321Z",
-      "version": 1
-    },
-    {
-      "id": "c_6569b00620c3",
-      "title": "首届机器人嘉年华",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/390",
-      "imageUrl": "",
-      "description": "【探月具身智能社区】首届机器人嘉年华，寻找35个顶级机器人 Demo 团队\n\n🔥探月招募｜首届机器人嘉年华，寻找35个顶级机器人 Demo 团队你的机器人，最近又学会了什么？打牌、打球，还是实验室里刚跑通的新能力？带来北京！每队都有差旅补贴，和顶尖开发者、00 后极客一起切磋。每个展位都是一个可玩关卡，你来出题，全场挑战！🚀招募对象具身二开团队、高校顶尖实验室及前沿科研团队、硬科技初创团队。限35席，筛选入选：有创新、能互动、实机稳定，首秀优先。🏆入选权益· 主舞台路演，直面行业创始人、专家、投资人，聊技术、找团队· 近10万奖金池，获奖团队可获得顶级孵化资源· 官媒、小红书、抖音等传播，冲刺百万级曝光· 外地团队差旅补贴，最高3000元/队⌛北京｜11月13日📅报名截止：10月28日🔗报名链接：https://bcnmv8nkum64.feishu.cn/share/base/form/shrcnDdMLq1CwdEeKUfZO6NTdnePS：此为预招募，后有详细信息将发布在探月公众号。",
-      "summary": "【探月具身智能社区】首届机器人嘉年华，寻找35个顶级机器人 Demo 团队\n\n🔥探月招募｜首届机器人嘉年华，寻找35个顶级机器人 Demo 团队你的机器人，最近又学会了什么？打牌、打球，还是实验室里刚跑通的新能力？带来北京！每队都有差旅补贴，和顶尖开发者、00 后极客一起切磋。每个展位都是一个可玩关卡，你来出题，全场挑战！🚀招募对象具身二开团队、高校顶尖实验室及前沿科研团队、硬科技初创团队。限...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-10-28T15:59:00.000Z",
-      "prize": "",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-06T05:45:59.424Z",
-      "scrapedAt": "2026-11-06T05:43:49.127Z",
-      "lastUpdated": "2026-11-06T05:45:59.424Z",
+      "processedAt": "2026-11-06T19:06:44.812Z",
+      "scrapedAt": "2026-11-06T19:04:39.546Z",
+      "lastUpdated": "2026-11-06T19:06:44.812Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-06T05:46:03.873Z"
+    "lastUpdated": "2026-11-06T19:06:49.260Z"
   }
 }

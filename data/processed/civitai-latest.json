@@ -1,16 +1,45 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-07T05:17:28.433Z",
-  "contestCount": 4,
+  "timestamp": "2026-11-07T17:42:37.063Z",
+  "contestCount": 5,
   "contests": [
+    {
+      "id": "c_7cd7b95ecf12",
+      "title": "Hat Turf: Claim Images for Your Team",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2210",
+      "imageUrl": "",
+      "description": "Stick your team's hats on images across Civitai. When your team has the most people on one, it scores for you.",
+      "summary": "Stick your team's hats on images across Civitai. When your team has the most people on one, it scores for you....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-14T16:05:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-07T17:42:29.472Z",
+      "scrapedAt": "2026-11-07T17:39:45.235Z",
+      "lastUpdated": "2026-11-07T17:42:29.472Z",
+      "version": 1
+    },
     {
       "id": "c_b4503786752b",
       "title": "Generation and Training Update",
       "platform": "civitai",
       "url": "https://civitai.com/events/2217",
       "imageUrl": "",
-      "description": "Generation with Civitai-hosted models is available to members while we finish restoring GPU capacity. Everyone else can still use external models in the generator. LoRA training is paused while we finish a test. We'll post as soon as both are fully back.",
-      "summary": "Generation with Civitai-hosted models is available to members while we finish restoring GPU capacity. Everyone else can still use external models in the generator. LoRA training is paused while we fin...",
+      "description": "Generation with Civitai-hosted models is back. Free accounts have a limited queue for now while we bring capacity back up. LoRA training is still paused while we finish a test; we'll post as soon as it's back.",
+      "summary": "Generation with Civitai-hosted models is back. Free accounts have a limited queue for now while we bring capacity back up. LoRA training is still paused while we finish a test; we'll post as soon as i...",
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
@@ -26,9 +55,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:21.026Z",
-      "scrapedAt": "2026-11-07T05:15:13.350Z",
-      "lastUpdated": "2026-11-07T05:17:21.026Z",
+      "processedAt": "2026-11-07T17:42:29.496Z",
+      "scrapedAt": "2026-11-07T17:39:45.235Z",
+      "lastUpdated": "2026-11-07T17:42:29.496Z",
       "version": 1
     },
     {
@@ -55,9 +84,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:21.024Z",
-      "scrapedAt": "2026-11-07T05:15:13.350Z",
-      "lastUpdated": "2026-11-07T05:17:21.024Z",
+      "processedAt": "2026-11-07T17:42:29.484Z",
+      "scrapedAt": "2026-11-07T17:39:45.235Z",
+      "lastUpdated": "2026-11-07T17:42:29.484Z",
       "version": 1
     },
     {
@@ -84,9 +113,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:21.028Z",
-      "scrapedAt": "2026-11-07T05:15:13.350Z",
-      "lastUpdated": "2026-11-07T05:17:21.028Z",
+      "processedAt": "2026-11-07T17:42:29.556Z",
+      "scrapedAt": "2026-11-07T17:39:45.235Z",
+      "lastUpdated": "2026-11-07T17:42:29.556Z",
       "version": 1
     },
     {
@@ -111,15 +140,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:21.239Z",
-      "scrapedAt": "2026-11-07T05:15:13.350Z",
-      "lastUpdated": "2026-11-07T05:17:21.239Z",
+      "processedAt": "2026-11-07T17:42:30.561Z",
+      "scrapedAt": "2026-11-07T17:39:45.235Z",
+      "lastUpdated": "2026-11-07T17:42:30.561Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-07T05:17:28.433Z"
+    "lastUpdated": "2026-11-07T17:42:37.063Z"
   }
 }

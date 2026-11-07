@@ -1,11 +1,11 @@
 {
   "platform": "all",
-  "timestamp": "2026-11-07T05:17:28.436Z",
-  "contestCount": 41,
+  "timestamp": "2026-11-07T17:42:37.070Z",
+  "contestCount": 42,
   "contests": [
     {
       "id": "c_8028e73d2ed6",
-      "title": "Spotify Million Playlist Dataset Challenge",
+      "title": "Benchmark Challenge: 27022 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/277/MPD2.png",
@@ -14,11 +14,9 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2100-11-01T05:16:22.381Z",
+      "deadline": "2100-11-01T17:40:45.285Z",
       "prize": "TBD",
-      "tags": [
-        "Benchmark Challenge: Running"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -27,14 +25,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:18.866Z",
-      "scrapedAt": "2026-11-07T05:16:22.381Z",
-      "lastUpdated": "2026-11-07T05:17:18.866Z",
+      "processedAt": "2026-11-07T17:42:27.482Z",
+      "scrapedAt": "2026-11-07T17:40:45.285Z",
+      "lastUpdated": "2026-11-07T17:42:27.482Z",
       "version": 1
     },
     {
       "id": "c_219544c1c5a3",
-      "title": "Trajnet++ (A Trajectory Forecasting Challenge)",
+      "title": "Round 3: 1376 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/13/Pedestrians.jpg",
@@ -43,7 +41,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T05:16:22.382Z",
+      "deadline": "2030-08-14T17:40:45.286Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -54,14 +52,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:19.819Z",
-      "scrapedAt": "2026-11-07T05:16:22.382Z",
-      "lastUpdated": "2026-11-07T05:17:19.819Z",
+      "processedAt": "2026-11-07T17:42:28.404Z",
+      "scrapedAt": "2026-11-07T17:40:45.286Z",
+      "lastUpdated": "2026-11-07T17:42:28.404Z",
       "version": 1
     },
     {
       "id": "c_ef4f31b33152",
-      "title": "ECCV 2020 Commands 4 Autonomous Vehicles",
+      "title": "Post challenge submissions: 6872 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/eccv-2020-commands-4-autonomous-vehicles",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/382/val_1030.jpg",
@@ -70,7 +68,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T05:16:22.382Z",
+      "deadline": "2045-08-31T17:40:45.286Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -81,14 +79,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:19.818Z",
-      "scrapedAt": "2026-11-07T05:16:22.382Z",
-      "lastUpdated": "2026-11-07T05:17:19.818Z",
+      "processedAt": "2026-11-07T17:42:28.390Z",
+      "scrapedAt": "2026-11-07T17:40:45.286Z",
+      "lastUpdated": "2026-11-07T17:42:28.390Z",
       "version": 1
     },
     {
       "id": "c_03552b946309",
-      "title": "MEDIQA 2021 - Question Summarization (QS)",
+      "title": "Post Challenge Round: 1514 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/mediqa-2021-question-summarization-qs",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/644/MEDIQA-Background.jpg",
@@ -97,11 +95,10 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T05:16:22.383Z",
+      "deadline": "2030-12-30T17:40:45.287Z",
       "prize": "TBD",
       "tags": [
-        "nlp",
-        "Weight: 1.0"
+        "nlp"
       ],
       "aiTools": [
         "Python",
@@ -111,14 +108,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:19.822Z",
-      "scrapedAt": "2026-11-07T05:16:22.383Z",
-      "lastUpdated": "2026-11-07T05:17:19.822Z",
+      "processedAt": "2026-11-07T17:42:28.394Z",
+      "scrapedAt": "2026-11-07T17:40:45.287Z",
+      "lastUpdated": "2026-11-07T17:42:28.394Z",
       "version": 1
     },
     {
       "id": "c_fb27b7f32e54",
-      "title": "Test P",
+      "title": "Round 1: 221 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/test-p",
       "imageUrl": "https://www.aicrowd.com/assets/challenges/AIcrowd-ProblemStatements-1.jpeg",
@@ -127,11 +124,9 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2027-06-17T05:16:22.383Z",
+      "deadline": "2027-06-16T17:40:45.287Z",
       "prize": "TBD",
-      "tags": [
-        "#classroom"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -140,14 +135,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:19.826Z",
-      "scrapedAt": "2026-11-07T05:16:22.383Z",
-      "lastUpdated": "2026-11-07T05:17:19.826Z",
+      "processedAt": "2026-11-07T17:42:28.392Z",
+      "scrapedAt": "2026-11-07T17:40:45.288Z",
+      "lastUpdated": "2026-11-07T17:42:28.392Z",
       "version": 1
     },
     {
       "id": "c_aa2c7b5cbc46",
-      "title": "Multi-Agent Reinforcement Learning for Iterative Reasoning",
+      "title": "Round 1: Starting soon",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/multi-agent-reinforcement-learning-for-iterative-reasoning",
       "imageUrl": "https://www.aicrowd.com/assets/challenges/AIcrowd-ProblemStatements-0.jpeg",
@@ -157,9 +152,7 @@
       "status": "upcoming",
       "difficulty": "intermediate",
       "prize": "TBD",
-      "tags": [
-        "#reinforcement_learning"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -168,9 +161,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:20.032Z",
-      "scrapedAt": "2026-11-07T05:16:22.384Z",
-      "lastUpdated": "2026-11-07T05:17:20.032Z",
+      "processedAt": "2026-11-07T17:42:28.470Z",
+      "scrapedAt": "2026-11-07T17:40:45.288Z",
+      "lastUpdated": "2026-11-07T17:42:28.470Z",
       "version": 1
     },
     {
@@ -194,9 +187,38 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:21.024Z",
-      "scrapedAt": "2026-11-07T05:16:22.384Z",
-      "lastUpdated": "2026-11-07T05:17:21.024Z",
+      "processedAt": "2026-11-07T17:42:29.486Z",
+      "scrapedAt": "2026-11-07T17:40:45.289Z",
+      "lastUpdated": "2026-11-07T17:42:29.486Z",
+      "version": 1
+    },
+    {
+      "id": "c_7cd7b95ecf12",
+      "title": "Hat Turf: Claim Images for Your Team",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2210",
+      "imageUrl": "",
+      "description": "Stick your team's hats on images across Civitai. When your team has the most people on one, it scores for you.",
+      "summary": "Stick your team's hats on images across Civitai. When your team has the most people on one, it scores for you....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-14T16:05:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-07T17:42:29.472Z",
+      "scrapedAt": "2026-11-07T17:39:45.235Z",
+      "lastUpdated": "2026-11-07T17:42:29.472Z",
       "version": 1
     },
     {
@@ -205,8 +227,8 @@
       "platform": "civitai",
       "url": "https://civitai.com/events/2217",
       "imageUrl": "",
-      "description": "Generation with Civitai-hosted models is available to members while we finish restoring GPU capacity. Everyone else can still use external models in the generator. LoRA training is paused while we finish a test. We'll post as soon as both are fully back.",
-      "summary": "Generation with Civitai-hosted models is available to members while we finish restoring GPU capacity. Everyone else can still use external models in the generator. LoRA training is paused while we fin...",
+      "description": "Generation with Civitai-hosted models is back. Free accounts have a limited queue for now while we bring capacity back up. LoRA training is still paused while we finish a test; we'll post as soon as it's back.",
+      "summary": "Generation with Civitai-hosted models is back. Free accounts have a limited queue for now while we bring capacity back up. LoRA training is still paused while we finish a test; we'll post as soon as i...",
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
@@ -222,9 +244,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:21.026Z",
-      "scrapedAt": "2026-11-07T05:15:13.350Z",
-      "lastUpdated": "2026-11-07T05:17:21.026Z",
+      "processedAt": "2026-11-07T17:42:29.496Z",
+      "scrapedAt": "2026-11-07T17:39:45.235Z",
+      "lastUpdated": "2026-11-07T17:42:29.496Z",
       "version": 1
     },
     {
@@ -251,9 +273,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:21.024Z",
-      "scrapedAt": "2026-11-07T05:15:13.350Z",
-      "lastUpdated": "2026-11-07T05:17:21.024Z",
+      "processedAt": "2026-11-07T17:42:29.484Z",
+      "scrapedAt": "2026-11-07T17:39:45.235Z",
+      "lastUpdated": "2026-11-07T17:42:29.484Z",
       "version": 1
     },
     {
@@ -280,9 +302,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:21.028Z",
-      "scrapedAt": "2026-11-07T05:15:13.350Z",
-      "lastUpdated": "2026-11-07T05:17:21.028Z",
+      "processedAt": "2026-11-07T17:42:29.556Z",
+      "scrapedAt": "2026-11-07T17:39:45.235Z",
+      "lastUpdated": "2026-11-07T17:42:29.556Z",
       "version": 1
     },
     {
@@ -307,9 +329,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:21.239Z",
-      "scrapedAt": "2026-11-07T05:15:13.350Z",
-      "lastUpdated": "2026-11-07T05:17:21.239Z",
+      "processedAt": "2026-11-07T17:42:30.561Z",
+      "scrapedAt": "2026-11-07T17:39:45.235Z",
+      "lastUpdated": "2026-11-07T17:42:30.561Z",
       "version": 1
     },
     {
@@ -337,9 +359,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:22.225Z",
-      "scrapedAt": "2026-11-07T05:15:01.438Z",
-      "lastUpdated": "2026-11-07T05:17:22.225Z",
+      "processedAt": "2026-11-07T17:42:30.574Z",
+      "scrapedAt": "2026-11-07T17:39:33.269Z",
+      "lastUpdated": "2026-11-07T17:42:30.574Z",
       "version": 1
     },
     {
@@ -366,9 +388,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:22.224Z",
-      "scrapedAt": "2026-11-07T05:15:01.438Z",
-      "lastUpdated": "2026-11-07T05:17:22.224Z",
+      "processedAt": "2026-11-07T17:42:30.564Z",
+      "scrapedAt": "2026-11-07T17:39:33.269Z",
+      "lastUpdated": "2026-11-07T17:42:30.564Z",
       "version": 1
     },
     {
@@ -393,9 +415,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:22.228Z",
-      "scrapedAt": "2026-11-07T05:15:01.438Z",
-      "lastUpdated": "2026-11-07T05:17:22.228Z",
+      "processedAt": "2026-11-07T17:42:30.575Z",
+      "scrapedAt": "2026-11-07T17:39:33.269Z",
+      "lastUpdated": "2026-11-07T17:42:30.575Z",
       "version": 1
     },
     {
@@ -407,7 +429,7 @@
       "description": "AI 正在成为年轻人面向未来的必备能力。天猫 AI 黑客松，旨在连接高校年轻人与真实技术、品牌及产业场景，邀请每一个敢想敢做的人，把 AI 创想真正做出来，让创造走进现实。\n\n#天猫AI黑客松高校挑战赛# 决赛即将开启！当AI技术遇上青年创意，更多创新可能即将解锁。节目单先行公开，精彩环节抢先看，和天猫双11数码新品体验官@拉宏桑 、赛事召集人@庞博pangbobo 一起期待高校开发者们的实力表现，见证AI创新力量的高光时刻！观众报名🔗：报名入口",
       "summary": "AI 正在成为年轻人面向未来的必备能力。天猫 AI 黑客松，旨在连接高校年轻人与真实技术、品牌及产业场景，邀请每一个敢想敢做的人，把 AI 创想真正做出来，让创造走进现实。\n\n#天猫AI黑客松高校挑战赛# 决赛即将开启！当AI技术遇上青年创意，更多创新可能即将解锁。节目单先行公开，精彩环节抢先看，和天猫双11数码新品体验官@拉宏桑 、赛事召集人@庞博pangbobo 一起期待高校开发者们的实力表现...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
       "deadline": "2026-11-07T15:59:00.000Z",
       "prize": "¥20万元",
@@ -422,9 +444,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:22.229Z",
-      "scrapedAt": "2026-11-07T05:15:01.438Z",
-      "lastUpdated": "2026-11-07T05:17:22.229Z",
+      "processedAt": "2026-11-07T17:42:30.636Z",
+      "scrapedAt": "2026-11-07T17:39:33.270Z",
+      "lastUpdated": "2026-11-07T17:42:30.636Z",
       "version": 1
     },
     {
@@ -451,9 +473,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:22.421Z",
-      "scrapedAt": "2026-11-07T05:15:01.438Z",
-      "lastUpdated": "2026-11-07T05:17:22.421Z",
+      "processedAt": "2026-11-07T17:42:31.653Z",
+      "scrapedAt": "2026-11-07T17:39:33.270Z",
+      "lastUpdated": "2026-11-07T17:42:31.653Z",
       "version": 1
     },
     {
@@ -478,9 +500,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:23.428Z",
-      "scrapedAt": "2026-11-07T05:15:01.438Z",
-      "lastUpdated": "2026-11-07T05:17:23.428Z",
+      "processedAt": "2026-11-07T17:42:31.651Z",
+      "scrapedAt": "2026-11-07T17:39:33.270Z",
+      "lastUpdated": "2026-11-07T17:42:31.651Z",
       "version": 1
     },
     {
@@ -511,9 +533,9 @@
         "具身智能第一次具备了像大语言模型一样可通过API直接被调用的条件。以这一技术演进为基础"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:23.428Z",
-      "scrapedAt": "2026-11-07T05:15:01.438Z",
-      "lastUpdated": "2026-11-07T05:17:23.428Z",
+      "processedAt": "2026-11-07T17:42:31.642Z",
+      "scrapedAt": "2026-11-07T17:39:33.270Z",
+      "lastUpdated": "2026-11-07T17:42:31.642Z",
       "version": 1
     },
     {
@@ -540,9 +562,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:23.426Z",
-      "scrapedAt": "2026-11-07T05:15:01.438Z",
-      "lastUpdated": "2026-11-07T05:17:23.426Z",
+      "processedAt": "2026-11-07T17:42:31.640Z",
+      "scrapedAt": "2026-11-07T17:39:33.270Z",
+      "lastUpdated": "2026-11-07T17:42:31.640Z",
       "version": 1
     },
     {
@@ -569,9 +591,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:23.429Z",
-      "scrapedAt": "2026-11-07T05:15:01.439Z",
-      "lastUpdated": "2026-11-07T05:17:23.429Z",
+      "processedAt": "2026-11-07T17:42:31.731Z",
+      "scrapedAt": "2026-11-07T17:39:33.270Z",
+      "lastUpdated": "2026-11-07T17:42:31.731Z",
       "version": 1
     },
     {
@@ -598,9 +620,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:23.621Z",
-      "scrapedAt": "2026-11-07T05:15:01.439Z",
-      "lastUpdated": "2026-11-07T05:17:23.621Z",
+      "processedAt": "2026-11-07T17:42:32.723Z",
+      "scrapedAt": "2026-11-07T17:39:33.270Z",
+      "lastUpdated": "2026-11-07T17:42:32.723Z",
       "version": 1
     },
     {
@@ -626,9 +648,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:24.622Z",
-      "scrapedAt": "2026-11-07T05:16:27.166Z",
-      "lastUpdated": "2026-11-07T05:17:24.622Z",
+      "processedAt": "2026-11-07T17:42:32.732Z",
+      "scrapedAt": "2026-11-07T17:40:46.824Z",
+      "lastUpdated": "2026-11-07T17:42:32.732Z",
       "version": 1
     },
     {
@@ -652,9 +674,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:24.623Z",
-      "scrapedAt": "2026-11-07T05:16:27.167Z",
-      "lastUpdated": "2026-11-07T05:17:24.623Z",
+      "processedAt": "2026-11-07T17:42:32.721Z",
+      "scrapedAt": "2026-11-07T17:40:46.824Z",
+      "lastUpdated": "2026-11-07T17:42:32.721Z",
       "version": 1
     },
     {
@@ -680,9 +702,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:24.629Z",
-      "scrapedAt": "2026-11-07T05:16:27.167Z",
-      "lastUpdated": "2026-11-07T05:17:24.629Z",
+      "processedAt": "2026-11-07T17:42:32.730Z",
+      "scrapedAt": "2026-11-07T17:40:46.825Z",
+      "lastUpdated": "2026-11-07T17:42:32.730Z",
       "version": 1
     },
     {
@@ -706,9 +728,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:24.626Z",
-      "scrapedAt": "2026-11-07T05:16:27.167Z",
-      "lastUpdated": "2026-11-07T05:17:24.626Z",
+      "processedAt": "2026-11-07T17:42:32.793Z",
+      "scrapedAt": "2026-11-07T17:40:46.825Z",
+      "lastUpdated": "2026-11-07T17:42:32.793Z",
       "version": 1
     },
     {
@@ -722,7 +744,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-11-11T05:16:27.167Z",
+      "deadline": "2026-11-10T17:40:46.825Z",
       "prize": "$6 000 USD",
       "tags": [
         "ai"
@@ -735,9 +757,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:24.853Z",
-      "scrapedAt": "2026-11-07T05:16:27.167Z",
-      "lastUpdated": "2026-11-07T05:17:24.853Z",
+      "processedAt": "2026-11-07T17:42:33.809Z",
+      "scrapedAt": "2026-11-07T17:40:46.825Z",
+      "lastUpdated": "2026-11-07T17:42:33.809Z",
       "version": 1
     },
     {
@@ -761,9 +783,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:25.825Z",
-      "scrapedAt": "2026-11-07T05:16:27.168Z",
-      "lastUpdated": "2026-11-07T05:17:25.825Z",
+      "processedAt": "2026-11-07T17:42:33.810Z",
+      "scrapedAt": "2026-11-07T17:40:46.825Z",
+      "lastUpdated": "2026-11-07T17:42:33.810Z",
       "version": 1
     },
     {
@@ -787,9 +809,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:25.823Z",
-      "scrapedAt": "2026-11-07T05:16:27.168Z",
-      "lastUpdated": "2026-11-07T05:17:25.823Z",
+      "processedAt": "2026-11-07T17:42:33.806Z",
+      "scrapedAt": "2026-11-07T17:40:46.825Z",
+      "lastUpdated": "2026-11-07T17:42:33.806Z",
       "version": 1
     },
     {
@@ -813,9 +835,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:25.824Z",
-      "scrapedAt": "2026-11-07T05:16:27.168Z",
-      "lastUpdated": "2026-11-07T05:17:25.824Z",
+      "processedAt": "2026-11-07T17:42:33.796Z",
+      "scrapedAt": "2026-11-07T17:40:46.826Z",
+      "lastUpdated": "2026-11-07T17:42:33.796Z",
       "version": 1
     },
     {
@@ -839,9 +861,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:25.827Z",
-      "scrapedAt": "2026-11-07T05:16:27.168Z",
-      "lastUpdated": "2026-11-07T05:17:25.827Z",
+      "processedAt": "2026-11-07T17:42:33.871Z",
+      "scrapedAt": "2026-11-07T17:40:46.826Z",
+      "lastUpdated": "2026-11-07T17:42:33.871Z",
       "version": 1
     },
     {
@@ -865,9 +887,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:26.020Z",
-      "scrapedAt": "2026-11-07T05:16:27.169Z",
-      "lastUpdated": "2026-11-07T05:17:26.020Z",
+      "processedAt": "2026-11-07T17:42:34.891Z",
+      "scrapedAt": "2026-11-07T17:40:46.826Z",
+      "lastUpdated": "2026-11-07T17:42:34.891Z",
       "version": 1
     },
     {
@@ -892,9 +914,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:27.025Z",
-      "scrapedAt": "2026-11-07T05:16:27.169Z",
-      "lastUpdated": "2026-11-07T05:17:27.025Z",
+      "processedAt": "2026-11-07T17:42:34.875Z",
+      "scrapedAt": "2026-11-07T17:40:46.826Z",
+      "lastUpdated": "2026-11-07T17:42:34.875Z",
       "version": 1
     },
     {
@@ -918,9 +940,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:27.026Z",
-      "scrapedAt": "2026-11-07T05:16:27.169Z",
-      "lastUpdated": "2026-11-07T05:17:27.026Z",
+      "processedAt": "2026-11-07T17:42:34.888Z",
+      "scrapedAt": "2026-11-07T17:40:46.827Z",
+      "lastUpdated": "2026-11-07T17:42:34.888Z",
       "version": 1
     },
     {
@@ -944,9 +966,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:27.024Z",
-      "scrapedAt": "2026-11-07T05:16:27.169Z",
-      "lastUpdated": "2026-11-07T05:17:27.024Z",
+      "processedAt": "2026-11-07T17:42:34.889Z",
+      "scrapedAt": "2026-11-07T17:40:46.827Z",
+      "lastUpdated": "2026-11-07T17:42:34.889Z",
       "version": 1
     },
     {
@@ -970,9 +992,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:27.027Z",
-      "scrapedAt": "2026-11-07T05:16:27.169Z",
-      "lastUpdated": "2026-11-07T05:17:27.027Z",
+      "processedAt": "2026-11-07T17:42:34.980Z",
+      "scrapedAt": "2026-11-07T17:40:46.827Z",
+      "lastUpdated": "2026-11-07T17:42:34.980Z",
       "version": 1
     },
     {
@@ -996,9 +1018,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:27.222Z",
-      "scrapedAt": "2026-11-07T05:16:27.170Z",
-      "lastUpdated": "2026-11-07T05:17:27.222Z",
+      "processedAt": "2026-11-07T17:42:35.953Z",
+      "scrapedAt": "2026-11-07T17:40:46.827Z",
+      "lastUpdated": "2026-11-07T17:42:35.953Z",
       "version": 1
     },
     {
@@ -1022,9 +1044,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:28.220Z",
-      "scrapedAt": "2026-11-07T05:16:27.170Z",
-      "lastUpdated": "2026-11-07T05:17:28.220Z",
+      "processedAt": "2026-11-07T17:42:35.957Z",
+      "scrapedAt": "2026-11-07T17:40:46.827Z",
+      "lastUpdated": "2026-11-07T17:42:35.957Z",
       "version": 1
     },
     {
@@ -1048,9 +1070,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:28.222Z",
-      "scrapedAt": "2026-11-07T05:16:27.170Z",
-      "lastUpdated": "2026-11-07T05:17:28.222Z",
+      "processedAt": "2026-11-07T17:42:35.956Z",
+      "scrapedAt": "2026-11-07T17:40:46.827Z",
+      "lastUpdated": "2026-11-07T17:42:35.956Z",
       "version": 1
     },
     {
@@ -1073,9 +1095,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:28.224Z",
-      "scrapedAt": "2026-11-07T05:16:27.170Z",
-      "lastUpdated": "2026-11-07T05:17:28.224Z",
+      "processedAt": "2026-11-07T17:42:35.982Z",
+      "scrapedAt": "2026-11-07T17:40:46.828Z",
+      "lastUpdated": "2026-11-07T17:42:35.982Z",
       "version": 1
     },
     {
@@ -1099,9 +1121,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:28.223Z",
-      "scrapedAt": "2026-11-07T05:16:27.170Z",
-      "lastUpdated": "2026-11-07T05:17:28.223Z",
+      "processedAt": "2026-11-07T17:42:36.043Z",
+      "scrapedAt": "2026-11-07T17:40:46.828Z",
+      "lastUpdated": "2026-11-07T17:42:36.043Z",
       "version": 1
     },
     {
@@ -1127,15 +1149,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:28.430Z",
-      "scrapedAt": "2026-11-07T05:16:27.170Z",
-      "lastUpdated": "2026-11-07T05:17:28.430Z",
+      "processedAt": "2026-11-07T17:42:37.057Z",
+      "scrapedAt": "2026-11-07T17:40:46.828Z",
+      "lastUpdated": "2026-11-07T17:42:37.057Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-07T05:17:28.436Z"
+    "lastUpdated": "2026-11-07T17:42:37.070Z"
   }
 }

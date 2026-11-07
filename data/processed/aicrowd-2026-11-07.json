@@ -1,11 +1,11 @@
 {
   "platform": "aicrowd",
-  "timestamp": "2026-11-07T05:17:28.434Z",
+  "timestamp": "2026-11-07T17:42:37.066Z",
   "contestCount": 7,
   "contests": [
     {
       "id": "c_8028e73d2ed6",
-      "title": "Spotify Million Playlist Dataset Challenge",
+      "title": "Benchmark Challenge: 27022 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/277/MPD2.png",
@@ -14,11 +14,9 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2100-11-01T05:16:22.381Z",
+      "deadline": "2100-11-01T17:40:45.285Z",
       "prize": "TBD",
-      "tags": [
-        "Benchmark Challenge: Running"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -27,14 +25,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:18.866Z",
-      "scrapedAt": "2026-11-07T05:16:22.381Z",
-      "lastUpdated": "2026-11-07T05:17:18.866Z",
+      "processedAt": "2026-11-07T17:42:27.482Z",
+      "scrapedAt": "2026-11-07T17:40:45.285Z",
+      "lastUpdated": "2026-11-07T17:42:27.482Z",
       "version": 1
     },
     {
       "id": "c_219544c1c5a3",
-      "title": "Trajnet++ (A Trajectory Forecasting Challenge)",
+      "title": "Round 3: 1376 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/13/Pedestrians.jpg",
@@ -43,7 +41,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T05:16:22.382Z",
+      "deadline": "2030-08-14T17:40:45.286Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -54,14 +52,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:19.819Z",
-      "scrapedAt": "2026-11-07T05:16:22.382Z",
-      "lastUpdated": "2026-11-07T05:17:19.819Z",
+      "processedAt": "2026-11-07T17:42:28.404Z",
+      "scrapedAt": "2026-11-07T17:40:45.286Z",
+      "lastUpdated": "2026-11-07T17:42:28.404Z",
       "version": 1
     },
     {
       "id": "c_ef4f31b33152",
-      "title": "ECCV 2020 Commands 4 Autonomous Vehicles",
+      "title": "Post challenge submissions: 6872 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/eccv-2020-commands-4-autonomous-vehicles",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/382/val_1030.jpg",
@@ -70,7 +68,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T05:16:22.382Z",
+      "deadline": "2045-08-31T17:40:45.286Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -81,14 +79,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:19.818Z",
-      "scrapedAt": "2026-11-07T05:16:22.382Z",
-      "lastUpdated": "2026-11-07T05:17:19.818Z",
+      "processedAt": "2026-11-07T17:42:28.390Z",
+      "scrapedAt": "2026-11-07T17:40:45.286Z",
+      "lastUpdated": "2026-11-07T17:42:28.390Z",
       "version": 1
     },
     {
       "id": "c_03552b946309",
-      "title": "MEDIQA 2021 - Question Summarization (QS)",
+      "title": "Post Challenge Round: 1514 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/mediqa-2021-question-summarization-qs",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/644/MEDIQA-Background.jpg",
@@ -97,11 +95,10 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T05:16:22.383Z",
+      "deadline": "2030-12-30T17:40:45.287Z",
       "prize": "TBD",
       "tags": [
-        "nlp",
-        "Weight: 1.0"
+        "nlp"
       ],
       "aiTools": [
         "Python",
@@ -111,14 +108,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:19.822Z",
-      "scrapedAt": "2026-11-07T05:16:22.383Z",
-      "lastUpdated": "2026-11-07T05:17:19.822Z",
+      "processedAt": "2026-11-07T17:42:28.394Z",
+      "scrapedAt": "2026-11-07T17:40:45.287Z",
+      "lastUpdated": "2026-11-07T17:42:28.394Z",
       "version": 1
     },
     {
       "id": "c_fb27b7f32e54",
-      "title": "Test P",
+      "title": "Round 1: 221 days left",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/test-p",
       "imageUrl": "https://www.aicrowd.com/assets/challenges/AIcrowd-ProblemStatements-1.jpeg",
@@ -127,11 +124,9 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2027-06-17T05:16:22.383Z",
+      "deadline": "2027-06-16T17:40:45.287Z",
       "prize": "TBD",
-      "tags": [
-        "#classroom"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -140,14 +135,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:19.826Z",
-      "scrapedAt": "2026-11-07T05:16:22.383Z",
-      "lastUpdated": "2026-11-07T05:17:19.826Z",
+      "processedAt": "2026-11-07T17:42:28.392Z",
+      "scrapedAt": "2026-11-07T17:40:45.288Z",
+      "lastUpdated": "2026-11-07T17:42:28.392Z",
       "version": 1
     },
     {
       "id": "c_aa2c7b5cbc46",
-      "title": "Multi-Agent Reinforcement Learning for Iterative Reasoning",
+      "title": "Round 1: Starting soon",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/multi-agent-reinforcement-learning-for-iterative-reasoning",
       "imageUrl": "https://www.aicrowd.com/assets/challenges/AIcrowd-ProblemStatements-0.jpeg",
@@ -157,9 +152,7 @@
       "status": "upcoming",
       "difficulty": "intermediate",
       "prize": "TBD",
-      "tags": [
-        "#reinforcement_learning"
-      ],
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -168,9 +161,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:20.032Z",
-      "scrapedAt": "2026-11-07T05:16:22.384Z",
-      "lastUpdated": "2026-11-07T05:17:20.032Z",
+      "processedAt": "2026-11-07T17:42:28.470Z",
+      "scrapedAt": "2026-11-07T17:40:45.288Z",
+      "lastUpdated": "2026-11-07T17:42:28.470Z",
       "version": 1
     },
     {
@@ -194,15 +187,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T05:17:21.024Z",
-      "scrapedAt": "2026-11-07T05:16:22.384Z",
-      "lastUpdated": "2026-11-07T05:17:21.024Z",
+      "processedAt": "2026-11-07T17:42:29.486Z",
+      "scrapedAt": "2026-11-07T17:40:45.289Z",
+      "lastUpdated": "2026-11-07T17:42:29.486Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-07T05:17:28.434Z"
+    "lastUpdated": "2026-11-07T17:42:37.066Z"
   }
 }

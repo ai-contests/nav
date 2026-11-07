@@ -1,8 +1,36 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-06T19:06:49.262Z",
-  "contestCount": 3,
+  "timestamp": "2026-11-07T05:17:28.433Z",
+  "contestCount": 4,
   "contests": [
+    {
+      "id": "c_b4503786752b",
+      "title": "Generation and Training Update",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2217",
+      "imageUrl": "",
+      "description": "Generation with Civitai-hosted models is available to members while we finish restoring GPU capacity. Everyone else can still use external models in the generator. LoRA training is paused while we finish a test. We'll post as soon as both are fully back.",
+      "summary": "Generation with Civitai-hosted models is available to members while we finish restoring GPU capacity. Everyone else can still use external models in the generator. LoRA training is paused while we fin...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-07T05:17:21.026Z",
+      "scrapedAt": "2026-11-07T05:15:13.350Z",
+      "lastUpdated": "2026-11-07T05:17:21.026Z",
+      "version": 1
+    },
     {
       "id": "c_09fc4b51fc99",
       "title": "One Model, Two Storefronts",
@@ -27,9 +55,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-06T19:06:42.569Z",
-      "scrapedAt": "2026-11-06T19:04:50.917Z",
-      "lastUpdated": "2026-11-06T19:06:42.569Z",
+      "processedAt": "2026-11-07T05:17:21.024Z",
+      "scrapedAt": "2026-11-07T05:15:13.350Z",
+      "lastUpdated": "2026-11-07T05:17:21.024Z",
       "version": 1
     },
     {
@@ -56,9 +84,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-06T19:06:42.575Z",
-      "scrapedAt": "2026-11-06T19:04:50.917Z",
-      "lastUpdated": "2026-11-06T19:06:42.575Z",
+      "processedAt": "2026-11-07T05:17:21.028Z",
+      "scrapedAt": "2026-11-07T05:15:13.350Z",
+      "lastUpdated": "2026-11-07T05:17:21.028Z",
       "version": 1
     },
     {
@@ -83,15 +111,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-06T19:06:42.579Z",
-      "scrapedAt": "2026-11-06T19:04:50.917Z",
-      "lastUpdated": "2026-11-06T19:06:42.579Z",
+      "processedAt": "2026-11-07T05:17:21.239Z",
+      "scrapedAt": "2026-11-07T05:15:13.350Z",
+      "lastUpdated": "2026-11-07T05:17:21.239Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-06T19:06:49.262Z"
+    "lastUpdated": "2026-11-07T05:17:28.433Z"
   }
 }

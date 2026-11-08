@@ -1,6 +1,6 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-07T17:42:37.063Z",
+  "timestamp": "2026-11-08T05:11:16.080Z",
   "contestCount": 5,
   "contests": [
     {
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T17:42:29.472Z",
-      "scrapedAt": "2026-11-07T17:39:45.235Z",
-      "lastUpdated": "2026-11-07T17:42:29.472Z",
+      "processedAt": "2026-11-08T05:11:08.265Z",
+      "scrapedAt": "2026-11-08T05:09:02.714Z",
+      "lastUpdated": "2026-11-08T05:11:08.265Z",
       "version": 1
     },
     {
@@ -38,8 +38,8 @@
       "platform": "civitai",
       "url": "https://civitai.com/events/2217",
       "imageUrl": "",
-      "description": "Generation with Civitai-hosted models is back. Free accounts have a limited queue for now while we bring capacity back up. LoRA training is still paused while we finish a test; we'll post as soon as it's back.",
-      "summary": "Generation with Civitai-hosted models is back. Free accounts have a limited queue for now while we bring capacity back up. LoRA training is still paused while we finish a test; we'll post as soon as i...",
+      "description": "Generation and LoRA training are back. Things may take longer than usual while we finish restoring capacity, and things may still change. You can follow along on our new status page: <https://status.civitai.com>",
+      "summary": "Generation and LoRA training are back. Things may take longer than usual while we finish restoring capacity, and things may still change. You can follow along on our new status page: <https://status.c...",
       "contestType": "mixed",
       "status": "ended",
       "difficulty": "intermediate",
@@ -55,9 +55,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T17:42:29.496Z",
-      "scrapedAt": "2026-11-07T17:39:45.235Z",
-      "lastUpdated": "2026-11-07T17:42:29.496Z",
+      "processedAt": "2026-11-08T05:11:08.245Z",
+      "scrapedAt": "2026-11-08T05:09:02.714Z",
+      "lastUpdated": "2026-11-08T05:11:08.245Z",
       "version": 1
     },
     {
@@ -84,9 +84,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T17:42:29.484Z",
-      "scrapedAt": "2026-11-07T17:39:45.235Z",
-      "lastUpdated": "2026-11-07T17:42:29.484Z",
+      "processedAt": "2026-11-08T05:11:08.260Z",
+      "scrapedAt": "2026-11-08T05:09:02.714Z",
+      "lastUpdated": "2026-11-08T05:11:08.260Z",
       "version": 1
     },
     {
@@ -113,9 +113,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T17:42:29.556Z",
-      "scrapedAt": "2026-11-07T17:39:45.235Z",
-      "lastUpdated": "2026-11-07T17:42:29.556Z",
+      "processedAt": "2026-11-08T05:11:08.363Z",
+      "scrapedAt": "2026-11-08T05:09:02.714Z",
+      "lastUpdated": "2026-11-08T05:11:08.363Z",
       "version": 1
     },
     {
@@ -140,15 +140,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-07T17:42:30.561Z",
-      "scrapedAt": "2026-11-07T17:39:45.235Z",
-      "lastUpdated": "2026-11-07T17:42:30.561Z",
+      "processedAt": "2026-11-08T05:11:09.410Z",
+      "scrapedAt": "2026-11-08T05:09:02.714Z",
+      "lastUpdated": "2026-11-08T05:11:09.410Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-07T17:42:37.063Z"
+    "lastUpdated": "2026-11-08T05:11:16.080Z"
   }
 }

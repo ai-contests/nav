@@ -1,0 +1,154 @@
+{
+  "platform": "civitai",
+  "timestamp": "2026-11-08T05:11:16.080Z",
+  "contestCount": 5,
+  "contests": [
+    {
+      "id": "c_7cd7b95ecf12",
+      "title": "Hat Turf: Claim Images for Your Team",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2210",
+      "imageUrl": "",
+      "description": "Stick your team's hats on images across Civitai. When your team has the most people on one, it scores for you.",
+      "summary": "Stick your team's hats on images across Civitai. When your team has the most people on one, it scores for you....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-14T16:05:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-08T05:11:08.265Z",
+      "scrapedAt": "2026-11-08T05:09:02.714Z",
+      "lastUpdated": "2026-11-08T05:11:08.265Z",
+      "version": 1
+    },
+    {
+      "id": "c_b4503786752b",
+      "title": "Generation and Training Update",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2217",
+      "imageUrl": "",
+      "description": "Generation and LoRA training are back. Things may take longer than usual while we finish restoring capacity, and things may still change. You can follow along on our new status page: <https://status.civitai.com>",
+      "summary": "Generation and LoRA training are back. Things may take longer than usual while we finish restoring capacity, and things may still change. You can follow along on our new status page: <https://status.c...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-08T05:11:08.245Z",
+      "scrapedAt": "2026-11-08T05:09:02.714Z",
+      "lastUpdated": "2026-11-08T05:11:08.245Z",
+      "version": 1
+    },
+    {
+      "id": "c_09fc4b51fc99",
+      "title": "One Model, Two Storefronts",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2170",
+      "imageUrl": "",
+      "description": "Give your models their own title, description and cover on civitai.com and civitai.red. Same model, same downloads, reviews and stats, all in one place.",
+      "summary": "Give your models their own title, description and cover on civitai.com and civitai.red. Same model, same downloads, reviews and stats, all in one place....",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-11T20:15:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-08T05:11:08.260Z",
+      "scrapedAt": "2026-11-08T05:09:02.714Z",
+      "lastUpdated": "2026-11-08T05:11:08.260Z",
+      "version": 1
+    },
+    {
+      "id": "c_9a550aff7909",
+      "title": "Kling 4: 30-Second Video, Sound Built In",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2172",
+      "imageUrl": "",
+      "description": "Kling 4 is in the generator. Clips up to 30 seconds at 720p or 1080p, with sound in every one. Start from text, a frame, up to 10 references, or a clip to edit. From 1,021 Buzz for 5 seconds. [Read more](https://civitai.com/articles/38070)",
+      "summary": "Kling 4 is in the generator. Clips up to 30 seconds at 720p or 1080p, with sound in every one. Start from text, a frame, up to 10 references, or a clip to edit. From 1,021 Buzz for 5 seconds. [Read mo...",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-12T07:00:00.000Z",
+      "prize": "21",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-08T05:11:08.363Z",
+      "scrapedAt": "2026-11-08T05:09:02.714Z",
+      "lastUpdated": "2026-11-08T05:11:08.363Z",
+      "version": 1
+    },
+    {
+      "id": "c_82ba0082758b",
+      "title": "Our 4th Birthday Event: Everyone Gets a Hat",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1973",
+      "imageUrl": "",
+      "description": "It's our birthday, so everyone gets a free hat. Join a random color team, put hats on your best work, and win your team the Champion badge. All of November.",
+      "summary": "It's our birthday, so everyone gets a free hat. Join a random color team, put hats on your best work, and win your team the Champion badge. All of November....",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-01T00:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-08T05:11:09.410Z",
+      "scrapedAt": "2026-11-08T05:09:02.714Z",
+      "lastUpdated": "2026-11-08T05:11:09.410Z",
+      "version": 1
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "dataStructure": "ProcessedContest",
+    "lastUpdated": "2026-11-08T05:11:16.080Z"
+  }
+}

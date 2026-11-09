@@ -1,36 +1,8 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-09T05:24:48.375Z",
-  "contestCount": 5,
+  "timestamp": "2026-11-09T22:08:10.113Z",
+  "contestCount": 4,
   "contests": [
-    {
-      "id": "c_fcb83e9755ea",
-      "title": "Outage Recovery",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/2257",
-      "imageUrl": "",
-      "description": "We're still recovering from a data center outage. Due to high demand, checkpoint loading is limited to members and paid boosts for now; LoRAs aren't affected. We expect this to improve over the next 2-3 days.",
-      "summary": "We're still recovering from a data center outage. Due to high demand, checkpoint loading is limited to members and paid boosts for now; LoRAs aren't affected. We expect this to improve over the next 2...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-09T05:24:39.936Z",
-      "scrapedAt": "2026-11-09T05:22:41.851Z",
-      "lastUpdated": "2026-11-09T05:24:39.936Z",
-      "version": 1
-    },
     {
       "id": "c_7cd7b95ecf12",
       "title": "Hat Turf: Claim Images for Your Team",
@@ -55,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-09T05:24:39.932Z",
-      "scrapedAt": "2026-11-09T05:22:41.851Z",
-      "lastUpdated": "2026-11-09T05:24:39.932Z",
+      "processedAt": "2026-11-09T22:08:03.231Z",
+      "scrapedAt": "2026-11-09T22:06:16.462Z",
+      "lastUpdated": "2026-11-09T22:08:03.231Z",
       "version": 1
     },
     {
@@ -84,9 +56,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-09T05:24:39.935Z",
-      "scrapedAt": "2026-11-09T05:22:41.851Z",
-      "lastUpdated": "2026-11-09T05:24:39.935Z",
+      "processedAt": "2026-11-09T22:08:03.232Z",
+      "scrapedAt": "2026-11-09T22:06:16.462Z",
+      "lastUpdated": "2026-11-09T22:08:03.232Z",
       "version": 1
     },
     {
@@ -113,9 +85,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-09T05:24:40.139Z",
-      "scrapedAt": "2026-11-09T05:22:41.851Z",
-      "lastUpdated": "2026-11-09T05:24:40.139Z",
+      "processedAt": "2026-11-09T22:08:03.233Z",
+      "scrapedAt": "2026-11-09T22:06:16.462Z",
+      "lastUpdated": "2026-11-09T22:08:03.233Z",
       "version": 1
     },
     {
@@ -140,15 +112,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-09T05:24:41.136Z",
-      "scrapedAt": "2026-11-09T05:22:41.851Z",
-      "lastUpdated": "2026-11-09T05:24:41.136Z",
+      "processedAt": "2026-11-09T22:08:03.335Z",
+      "scrapedAt": "2026-11-09T22:06:16.462Z",
+      "lastUpdated": "2026-11-09T22:08:03.335Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-09T05:24:48.375Z"
+    "lastUpdated": "2026-11-09T22:08:10.113Z"
   }
 }

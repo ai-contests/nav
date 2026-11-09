@@ -1,8 +1,36 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-08T17:51:56.836Z",
+  "timestamp": "2026-11-09T05:24:48.375Z",
   "contestCount": 5,
   "contests": [
+    {
+      "id": "c_fcb83e9755ea",
+      "title": "Outage Recovery",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2257",
+      "imageUrl": "",
+      "description": "We're still recovering from a data center outage. Due to high demand, checkpoint loading is limited to members and paid boosts for now; LoRAs aren't affected. We expect this to improve over the next 2-3 days.",
+      "summary": "We're still recovering from a data center outage. Due to high demand, checkpoint loading is limited to members and paid boosts for now; LoRAs aren't affected. We expect this to improve over the next 2...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-09T05:24:39.936Z",
+      "scrapedAt": "2026-11-09T05:22:41.851Z",
+      "lastUpdated": "2026-11-09T05:24:39.936Z",
+      "version": 1
+    },
     {
       "id": "c_7cd7b95ecf12",
       "title": "Hat Turf: Claim Images for Your Team",
@@ -27,37 +55,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-08T17:51:49.540Z",
-      "scrapedAt": "2026-11-08T17:49:54.691Z",
-      "lastUpdated": "2026-11-08T17:51:49.540Z",
-      "version": 1
-    },
-    {
-      "id": "c_b4503786752b",
-      "title": "Generation and Training Update",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/2217",
-      "imageUrl": "",
-      "description": "Generation and LoRA training are back. Things may take longer than usual while we finish restoring capacity, and things may still change. You can follow along on our new status page: <https://status.civitai.com>",
-      "summary": "Generation and LoRA training are back. Things may take longer than usual while we finish restoring capacity, and things may still change. You can follow along on our new status page: <https://status.c...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-08T17:51:49.541Z",
-      "scrapedAt": "2026-11-08T17:49:54.691Z",
-      "lastUpdated": "2026-11-08T17:51:49.541Z",
+      "processedAt": "2026-11-09T05:24:39.932Z",
+      "scrapedAt": "2026-11-09T05:22:41.851Z",
+      "lastUpdated": "2026-11-09T05:24:39.932Z",
       "version": 1
     },
     {
@@ -84,9 +84,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-08T17:51:49.545Z",
-      "scrapedAt": "2026-11-08T17:49:54.692Z",
-      "lastUpdated": "2026-11-08T17:51:49.545Z",
+      "processedAt": "2026-11-09T05:24:39.935Z",
+      "scrapedAt": "2026-11-09T05:22:41.851Z",
+      "lastUpdated": "2026-11-09T05:24:39.935Z",
       "version": 1
     },
     {
@@ -113,9 +113,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-08T17:51:49.573Z",
-      "scrapedAt": "2026-11-08T17:49:54.692Z",
-      "lastUpdated": "2026-11-08T17:51:49.573Z",
+      "processedAt": "2026-11-09T05:24:40.139Z",
+      "scrapedAt": "2026-11-09T05:22:41.851Z",
+      "lastUpdated": "2026-11-09T05:24:40.139Z",
       "version": 1
     },
     {
@@ -140,15 +140,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-08T17:51:50.588Z",
-      "scrapedAt": "2026-11-08T17:49:54.692Z",
-      "lastUpdated": "2026-11-08T17:51:50.588Z",
+      "processedAt": "2026-11-09T05:24:41.136Z",
+      "scrapedAt": "2026-11-09T05:22:41.851Z",
+      "lastUpdated": "2026-11-09T05:24:41.136Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-08T17:51:56.836Z"
+    "lastUpdated": "2026-11-09T05:24:48.375Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-12T06:27:11.215Z",
-  "contestCount": 3,
+  "timestamp": "2026-11-12T19:46:27.547Z",
+  "contestCount": 2,
   "contests": [
     {
       "id": "c_7cd7b95ecf12",
@@ -27,38 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-12T06:27:02.258Z",
-      "scrapedAt": "2026-11-12T06:25:03.212Z",
-      "lastUpdated": "2026-11-12T06:27:02.258Z",
-      "version": 1
-    },
-    {
-      "id": "c_9a550aff7909",
-      "title": "Kling 4: 30-Second Video, Sound Built In",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/2172",
-      "imageUrl": "",
-      "description": "Kling 4 is in the generator. Clips up to 30 seconds at 720p or 1080p, with sound in every one. Start from text, a frame, up to 10 references, or a clip to edit. From 1,021 Buzz for 5 seconds. [Read more](https://civitai.com/articles/38070)",
-      "summary": "Kling 4 is in the generator. Clips up to 30 seconds at 720p or 1080p, with sound in every one. Start from text, a frame, up to 10 references, or a clip to edit. From 1,021 Buzz for 5 seconds. [Read mo...",
-      "contestType": "video",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-11-12T07:00:00.000Z",
-      "prize": "21",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-12T06:27:02.253Z",
-      "scrapedAt": "2026-11-12T06:25:03.213Z",
-      "lastUpdated": "2026-11-12T06:27:02.253Z",
+      "processedAt": "2026-11-12T19:46:20.227Z",
+      "scrapedAt": "2026-11-12T19:44:30.394Z",
+      "lastUpdated": "2026-11-12T19:46:20.227Z",
       "version": 1
     },
     {
@@ -83,15 +54,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-12T06:27:02.240Z",
-      "scrapedAt": "2026-11-12T06:25:03.213Z",
-      "lastUpdated": "2026-11-12T06:27:02.240Z",
+      "processedAt": "2026-11-12T19:46:20.248Z",
+      "scrapedAt": "2026-11-12T19:44:30.394Z",
+      "lastUpdated": "2026-11-12T19:46:20.248Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-12T06:27:11.215Z"
+    "lastUpdated": "2026-11-12T19:46:27.547Z"
   }
 }

@@ -1,0 +1,97 @@
+{
+  "platform": "civitai",
+  "timestamp": "2026-11-12T06:27:11.215Z",
+  "contestCount": 3,
+  "contests": [
+    {
+      "id": "c_7cd7b95ecf12",
+      "title": "Hat Turf: Claim Images for Your Team",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2210",
+      "imageUrl": "",
+      "description": "Stick your team's hats on images across Civitai. When your team has the most people on one, it scores for you.",
+      "summary": "Stick your team's hats on images across Civitai. When your team has the most people on one, it scores for you....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-14T16:05:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-12T06:27:02.258Z",
+      "scrapedAt": "2026-11-12T06:25:03.212Z",
+      "lastUpdated": "2026-11-12T06:27:02.258Z",
+      "version": 1
+    },
+    {
+      "id": "c_9a550aff7909",
+      "title": "Kling 4: 30-Second Video, Sound Built In",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2172",
+      "imageUrl": "",
+      "description": "Kling 4 is in the generator. Clips up to 30 seconds at 720p or 1080p, with sound in every one. Start from text, a frame, up to 10 references, or a clip to edit. From 1,021 Buzz for 5 seconds. [Read more](https://civitai.com/articles/38070)",
+      "summary": "Kling 4 is in the generator. Clips up to 30 seconds at 720p or 1080p, with sound in every one. Start from text, a frame, up to 10 references, or a clip to edit. From 1,021 Buzz for 5 seconds. [Read mo...",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-12T07:00:00.000Z",
+      "prize": "21",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-12T06:27:02.253Z",
+      "scrapedAt": "2026-11-12T06:25:03.213Z",
+      "lastUpdated": "2026-11-12T06:27:02.253Z",
+      "version": 1
+    },
+    {
+      "id": "c_82ba0082758b",
+      "title": "Our 4th Birthday Event: Everyone Gets a Hat",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1973",
+      "imageUrl": "",
+      "description": "It's our birthday, so everyone gets a free hat. Join a random color team, put hats on your best work, and win your team the Champion badge. All of November.",
+      "summary": "It's our birthday, so everyone gets a free hat. Join a random color team, put hats on your best work, and win your team the Champion badge. All of November....",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-01T00:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-12T06:27:02.240Z",
+      "scrapedAt": "2026-11-12T06:25:03.213Z",
+      "lastUpdated": "2026-11-12T06:27:02.240Z",
+      "version": 1
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "dataStructure": "ProcessedContest",
+    "lastUpdated": "2026-11-12T06:27:11.215Z"
+  }
+}

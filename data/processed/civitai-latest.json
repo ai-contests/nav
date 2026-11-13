@@ -1,8 +1,35 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-12T19:46:27.547Z",
-  "contestCount": 2,
+  "timestamp": "2026-11-13T05:47:02.143Z",
+  "contestCount": 3,
   "contests": [
+    {
+      "id": "c_485fb4a0d3e2",
+      "title": "Make the Flag Race Music Video: 3 Versions, 3 Crucibles",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2383",
+      "imageUrl": "",
+      "description": "We wrote the song, you make the video. The best Flag Race music video opens the Round 3 announcement, and the top three in each Crucible win Buzz plus points for their team.",
+      "summary": "We wrote the song, you make the video. The best Flag Race music video opens the Round 3 announcement, and the top three in each Crucible win Buzz plus points for their team....",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-15T07:40:28.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-13T05:46:54.896Z",
+      "scrapedAt": "2026-11-13T05:44:52.406Z",
+      "lastUpdated": "2026-11-13T05:46:54.896Z",
+      "version": 1
+    },
     {
       "id": "c_7cd7b95ecf12",
       "title": "Hat Turf: Claim Images for Your Team",
@@ -27,9 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-12T19:46:20.227Z",
-      "scrapedAt": "2026-11-12T19:44:30.394Z",
-      "lastUpdated": "2026-11-12T19:46:20.227Z",
+      "processedAt": "2026-11-13T05:46:54.929Z",
+      "scrapedAt": "2026-11-13T05:44:52.406Z",
+      "lastUpdated": "2026-11-13T05:46:54.929Z",
       "version": 1
     },
     {
@@ -54,15 +81,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-12T19:46:20.248Z",
-      "scrapedAt": "2026-11-12T19:44:30.394Z",
-      "lastUpdated": "2026-11-12T19:46:20.248Z",
+      "processedAt": "2026-11-13T05:46:54.898Z",
+      "scrapedAt": "2026-11-13T05:44:52.406Z",
+      "lastUpdated": "2026-11-13T05:46:54.898Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-12T19:46:27.547Z"
+    "lastUpdated": "2026-11-13T05:47:02.143Z"
   }
 }

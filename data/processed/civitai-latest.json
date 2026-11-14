@@ -1,8 +1,62 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-13T19:27:02.525Z",
-  "contestCount": 3,
+  "timestamp": "2026-11-14T05:37:56.880Z",
+  "contestCount": 5,
   "contests": [
+    {
+      "id": "c_eac36fa6ffc3",
+      "title": "MiniMax H3 Image is here",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2412",
+      "imageUrl": "",
+      "description": "2K and 4K images, edits with up to 16 references, from 20 Buzz an image.",
+      "summary": "2K and 4K images, edits with up to 16 references, from 20 Buzz an image....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-27T07:00:00.000Z",
+      "prize": "2000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-14T05:37:48.371Z",
+      "scrapedAt": "2026-11-14T05:35:49.253Z",
+      "lastUpdated": "2026-11-14T05:37:48.371Z",
+      "version": 1
+    },
+    {
+      "id": "c_f03d0c5f5c68",
+      "title": "Knights v2: Judge the Image, Rise in the Order",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2411",
+      "imageUrl": "",
+      "description": "Knights of New Order moves to its own app on Tuesday, November 17th. Your rank comes with you, and gold now goes to a shop for Buzz, cosmetics and membership weeks.",
+      "summary": "Knights of New Order moves to its own app on Tuesday, November 17th. Your rank comes with you, and gold now goes to a shop for Buzz, cosmetics and membership weeks....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-24T00:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-14T05:37:48.368Z",
+      "scrapedAt": "2026-11-14T05:35:49.253Z",
+      "lastUpdated": "2026-11-14T05:37:48.368Z",
+      "version": 1
+    },
     {
       "id": "c_485fb4a0d3e2",
       "title": "Make the Flag Race Music Video: 3 Versions, 3 Crucibles",
@@ -25,9 +79,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-13T19:26:55.756Z",
-      "scrapedAt": "2026-11-13T19:25:06.909Z",
-      "lastUpdated": "2026-11-13T19:26:55.756Z",
+      "processedAt": "2026-11-14T05:37:48.372Z",
+      "scrapedAt": "2026-11-14T05:35:49.253Z",
+      "lastUpdated": "2026-11-14T05:37:48.372Z",
       "version": 1
     },
     {
@@ -54,9 +108,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-13T19:26:55.799Z",
-      "scrapedAt": "2026-11-13T19:25:06.909Z",
-      "lastUpdated": "2026-11-13T19:26:55.799Z",
+      "processedAt": "2026-11-14T05:37:48.575Z",
+      "scrapedAt": "2026-11-14T05:35:49.253Z",
+      "lastUpdated": "2026-11-14T05:37:48.575Z",
       "version": 1
     },
     {
@@ -81,15 +135,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-13T19:26:55.788Z",
-      "scrapedAt": "2026-11-13T19:25:06.909Z",
-      "lastUpdated": "2026-11-13T19:26:55.788Z",
+      "processedAt": "2026-11-14T05:37:49.579Z",
+      "scrapedAt": "2026-11-14T05:35:49.253Z",
+      "lastUpdated": "2026-11-14T05:37:49.579Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-13T19:27:02.525Z"
+    "lastUpdated": "2026-11-14T05:37:56.880Z"
   }
 }

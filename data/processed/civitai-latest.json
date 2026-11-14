@@ -1,7 +1,7 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-14T05:37:56.880Z",
-  "contestCount": 5,
+  "timestamp": "2026-11-14T17:52:50.570Z",
+  "contestCount": 4,
   "contests": [
     {
       "id": "c_eac36fa6ffc3",
@@ -25,9 +25,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-14T05:37:48.371Z",
-      "scrapedAt": "2026-11-14T05:35:49.253Z",
-      "lastUpdated": "2026-11-14T05:37:48.371Z",
+      "processedAt": "2026-11-14T17:52:43.990Z",
+      "scrapedAt": "2026-11-14T17:50:46.527Z",
+      "lastUpdated": "2026-11-14T17:52:43.990Z",
       "version": 1
     },
     {
@@ -52,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-14T05:37:48.368Z",
-      "scrapedAt": "2026-11-14T05:35:49.253Z",
-      "lastUpdated": "2026-11-14T05:37:48.368Z",
+      "processedAt": "2026-11-14T17:52:44.005Z",
+      "scrapedAt": "2026-11-14T17:50:46.527Z",
+      "lastUpdated": "2026-11-14T17:52:44.005Z",
       "version": 1
     },
     {
@@ -79,38 +79,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-14T05:37:48.372Z",
-      "scrapedAt": "2026-11-14T05:35:49.253Z",
-      "lastUpdated": "2026-11-14T05:37:48.372Z",
-      "version": 1
-    },
-    {
-      "id": "c_7cd7b95ecf12",
-      "title": "Hat Turf: Claim Images for Your Team",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/2210",
-      "imageUrl": "",
-      "description": "Stick your team's hats on images across Civitai. When your team has the most people on one, it scores for you.",
-      "summary": "Stick your team's hats on images across Civitai. When your team has the most people on one, it scores for you....",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-11-14T16:05:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-14T05:37:48.575Z",
-      "scrapedAt": "2026-11-14T05:35:49.253Z",
-      "lastUpdated": "2026-11-14T05:37:48.575Z",
+      "processedAt": "2026-11-14T17:52:43.996Z",
+      "scrapedAt": "2026-11-14T17:50:46.527Z",
+      "lastUpdated": "2026-11-14T17:52:43.996Z",
       "version": 1
     },
     {
@@ -135,15 +106,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-14T05:37:49.579Z",
-      "scrapedAt": "2026-11-14T05:35:49.253Z",
-      "lastUpdated": "2026-11-14T05:37:49.579Z",
+      "processedAt": "2026-11-14T17:52:44.080Z",
+      "scrapedAt": "2026-11-14T17:50:46.527Z",
+      "lastUpdated": "2026-11-14T17:52:44.080Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-14T05:37:56.880Z"
+    "lastUpdated": "2026-11-14T17:52:50.570Z"
   }
 }

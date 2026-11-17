@@ -1,24 +1,22 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-16T21:51:30.345Z",
+  "timestamp": "2026-11-17T07:11:23.592Z",
   "contestCount": 4,
   "contests": [
     {
-      "id": "c_4d32236d249d",
-      "title": "Emergency maintenance",
+      "id": "c_e97683a889fb",
+      "title": "Moving Stickers: Make Them Follow the Action",
       "platform": "civitai",
-      "url": "https://civitai.com/events/2460",
+      "url": "https://civitai.com/events/2484",
       "imageUrl": "",
-      "description": "Emergency maintenance at our data center may cause a disruption from <t:1794794400:f> to <t:1794880800:f>.",
-      "summary": "Emergency maintenance at our data center may cause a disruption from <t:1794794400:f> to <t:1794880800:f>....",
-      "contestType": "mixed",
+      "description": "Stickers you place on a video can move now. Switch one to Movement, set a few keys on the timeline, and it follows them as the video plays.",
+      "summary": "Stickers you place on a video can move now. Switch one to Movement, set a few keys on the timeline, and it follows them as the video plays....",
+      "contestType": "video",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-11-17T02:00:00.000Z",
-      "prize": "1794794400",
-      "tags": [
-        "ai"
-      ],
+      "deadline": "2026-11-23T22:30:00.000Z",
+      "prize": "",
+      "tags": [],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -27,9 +25,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-16T21:51:23.802Z",
-      "scrapedAt": "2026-11-16T21:49:32.091Z",
-      "lastUpdated": "2026-11-16T21:51:23.802Z",
+      "processedAt": "2026-11-17T07:11:16.728Z",
+      "scrapedAt": "2026-11-17T07:09:11.533Z",
+      "lastUpdated": "2026-11-17T07:11:16.728Z",
       "version": 1
     },
     {
@@ -54,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-16T21:51:23.814Z",
-      "scrapedAt": "2026-11-16T21:49:32.091Z",
-      "lastUpdated": "2026-11-16T21:51:23.814Z",
+      "processedAt": "2026-11-17T07:11:16.704Z",
+      "scrapedAt": "2026-11-17T07:09:11.534Z",
+      "lastUpdated": "2026-11-17T07:11:16.704Z",
       "version": 1
     },
     {
@@ -81,9 +79,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-16T21:51:23.804Z",
-      "scrapedAt": "2026-11-16T21:49:32.091Z",
-      "lastUpdated": "2026-11-16T21:51:23.804Z",
+      "processedAt": "2026-11-17T07:11:16.719Z",
+      "scrapedAt": "2026-11-17T07:09:11.534Z",
+      "lastUpdated": "2026-11-17T07:11:16.719Z",
       "version": 1
     },
     {
@@ -108,15 +106,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-16T21:51:23.847Z",
-      "scrapedAt": "2026-11-16T21:49:32.091Z",
-      "lastUpdated": "2026-11-16T21:51:23.847Z",
+      "processedAt": "2026-11-17T07:11:16.852Z",
+      "scrapedAt": "2026-11-17T07:09:11.534Z",
+      "lastUpdated": "2026-11-17T07:11:16.852Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-16T21:51:30.345Z"
+    "lastUpdated": "2026-11-17T07:11:23.592Z"
   }
 }

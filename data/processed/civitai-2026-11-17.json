@@ -1,0 +1,120 @@
+{
+  "platform": "civitai",
+  "timestamp": "2026-11-17T07:11:23.592Z",
+  "contestCount": 4,
+  "contests": [
+    {
+      "id": "c_e97683a889fb",
+      "title": "Moving Stickers: Make Them Follow the Action",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2484",
+      "imageUrl": "",
+      "description": "Stickers you place on a video can move now. Switch one to Movement, set a few keys on the timeline, and it follows them as the video plays.",
+      "summary": "Stickers you place on a video can move now. Switch one to Movement, set a few keys on the timeline, and it follows them as the video plays....",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-23T22:30:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-17T07:11:16.728Z",
+      "scrapedAt": "2026-11-17T07:09:11.533Z",
+      "lastUpdated": "2026-11-17T07:11:16.728Z",
+      "version": 1
+    },
+    {
+      "id": "c_eac36fa6ffc3",
+      "title": "MiniMax H3 Image is here",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2412",
+      "imageUrl": "",
+      "description": "2K and 4K images, edits with up to 16 references, from 20 Buzz an image.",
+      "summary": "2K and 4K images, edits with up to 16 references, from 20 Buzz an image....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-27T07:00:00.000Z",
+      "prize": "2000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-17T07:11:16.704Z",
+      "scrapedAt": "2026-11-17T07:09:11.534Z",
+      "lastUpdated": "2026-11-17T07:11:16.704Z",
+      "version": 1
+    },
+    {
+      "id": "c_f03d0c5f5c68",
+      "title": "Knights v2: Judge the Image, Rise in the Order",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2411",
+      "imageUrl": "",
+      "description": "Knights of New Order moves to its own app on Tuesday, November 17th. Your rank comes with you, and gold now goes to a shop for Buzz, cosmetics and membership weeks.",
+      "summary": "Knights of New Order moves to its own app on Tuesday, November 17th. Your rank comes with you, and gold now goes to a shop for Buzz, cosmetics and membership weeks....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-24T00:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-17T07:11:16.719Z",
+      "scrapedAt": "2026-11-17T07:09:11.534Z",
+      "lastUpdated": "2026-11-17T07:11:16.719Z",
+      "version": 1
+    },
+    {
+      "id": "c_82ba0082758b",
+      "title": "Our 4th Birthday Event: Everyone Gets a Hat",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1973",
+      "imageUrl": "",
+      "description": "It's our birthday, so everyone gets a free hat. Join a random color team, put hats on your best work, and win your team the Champion badge. All of November.",
+      "summary": "It's our birthday, so everyone gets a free hat. Join a random color team, put hats on your best work, and win your team the Champion badge. All of November....",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-01T00:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-17T07:11:16.852Z",
+      "scrapedAt": "2026-11-17T07:09:11.534Z",
+      "lastUpdated": "2026-11-17T07:11:16.852Z",
+      "version": 1
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "dataStructure": "ProcessedContest",
+    "lastUpdated": "2026-11-17T07:11:23.592Z"
+  }
+}

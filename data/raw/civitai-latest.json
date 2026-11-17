@@ -1,29 +1,37 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-16T21:51:19.153Z",
+  "timestamp": "2026-11-17T07:11:12.005Z",
   "contestCount": 4,
   "contests": [
     {
       "platform": "civitai",
-      "title": "Emergency maintenance",
-      "description": "Emergency maintenance at our data center may cause a disruption from <t:1794794400:f> to <t:1794880800:f>.",
-      "url": "https://civitai.com/events/2460",
-      "deadline": "2026-11-17T02:00:00.000Z",
-      "prize": "1794794400",
-      "rawHtml": "{\"updatedAt\":\"2026-11-15T20:18:46.404Z\",\"endsAt\":\"2026-11-17T02:00:00.000Z\",\"id\":2460,\"title\":\"Emergency maintenance\",\"content\":\"Emergency maintenance at our data center may cause a disruption from <t:1794794400:f> to <t:1794880800:f>.\",\"color\":\"yellow\",\"emoji\":null,\"createdAt\":\"2026-11-15T20:18:46.404Z\",\"startsAt\":\"2026-11-16T00:00:00.000Z\",\"metadata\":{\"type\":\"site\",\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-16T21:49:32.091Z",
+      "title": "Moving Stickers: Make Them Follow the Action",
+      "description": "Stickers you place on a video can move now. Switch one to Movement, set a few keys on the timeline, and it follows them as the video plays.",
+      "url": "https://civitai.com/events/2484",
+      "deadline": "2026-11-23T22:30:00.000Z",
+      "prize": "",
+      "rawHtml": "{\"updatedAt\":\"2026-11-16T22:32:15.980Z\",\"endsAt\":\"2026-11-23T22:30:00.000Z\",\"id\":2484,\"title\":\"Moving Stickers: Make Them Follow the Action\",\"content\":\"Stickers you place on a video can move now. Switch one to Movement, set a few keys on the timeline, and it follows them as the video plays.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-11-16T22:32:15.980Z\",\"startsAt\":\"2026-11-16T22:32:15.355Z\",\"metadata\":{\"type\":\"site\",\"image\":\"9522323f-110d-4d1d-8070-0b570fc8fb72\",\"actions\":[{\"link\":\"/articles/39017\",\"type\":\"button\",\"linkText\":\"See how it works\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-11-17T07:09:11.533Z",
       "metadata": {
-        "updatedAt": "2026-11-15T20:18:46.404Z",
-        "endsAt": "2026-11-17T02:00:00.000Z",
-        "id": 2460,
-        "title": "Emergency maintenance",
-        "content": "Emergency maintenance at our data center may cause a disruption from <t:1794794400:f> to <t:1794880800:f>.",
-        "color": "yellow",
+        "updatedAt": "2026-11-16T22:32:15.980Z",
+        "endsAt": "2026-11-23T22:30:00.000Z",
+        "id": 2484,
+        "title": "Moving Stickers: Make Them Follow the Action",
+        "content": "Stickers you place on a video can move now. Switch one to Movement, set a few keys on the timeline, and it follows them as the video plays.",
+        "color": "violet",
         "emoji": null,
-        "createdAt": "2026-11-15T20:18:46.404Z",
-        "startsAt": "2026-11-16T00:00:00.000Z",
+        "createdAt": "2026-11-16T22:32:15.980Z",
+        "startsAt": "2026-11-16T22:32:15.355Z",
         "metadata": {
           "type": "site",
+          "image": "9522323f-110d-4d1d-8070-0b570fc8fb72",
+          "actions": [
+            {
+              "link": "/articles/39017",
+              "type": "button",
+              "linkText": "See how it works"
+            }
+          ],
           "colSpan": 6,
           "statusPage": false,
           "dismissible": true,
@@ -39,7 +47,7 @@
       "deadline": "2026-11-27T07:00:00.000Z",
       "prize": "2000",
       "rawHtml": "{\"updatedAt\":\"2026-11-13T20:25:26.347Z\",\"endsAt\":\"2026-11-27T07:00:00.000Z\",\"id\":2412,\"title\":\"MiniMax H3 Image is here\",\"content\":\"2K and 4K images, edits with up to 16 references, from 20 Buzz an image.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-11-13T20:23:30.660Z\",\"startsAt\":\"2026-11-13T20:25:26.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"414f9f6a-e2b3-476a-be38-2aace1490053\",\"actions\":[{\"link\":\"/generate?modelVersionId=3463368\",\"type\":\"button\",\"linkText\":\"Try H3 Image\"},{\"link\":\"/articles/38808\",\"type\":\"button\",\"linkText\":\"Read more\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-16T21:49:32.091Z",
+      "scrapedAt": "2026-11-17T07:09:11.534Z",
       "metadata": {
         "updatedAt": "2026-11-13T20:25:26.347Z",
         "endsAt": "2026-11-27T07:00:00.000Z",
@@ -80,7 +88,7 @@
       "deadline": "2026-11-24T00:00:00.000Z",
       "prize": "",
       "rawHtml": "{\"updatedAt\":\"2026-11-13T19:52:07.286Z\",\"endsAt\":\"2026-11-24T00:00:00.000Z\",\"id\":2411,\"title\":\"Knights v2: Judge the Image, Rise in the Order\",\"content\":\"Knights of New Order moves to its own app on Tuesday, November 17th. Your rank comes with you, and gold now goes to a shop for Buzz, cosmetics and membership weeks.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-11-13T19:47:27.061Z\",\"startsAt\":\"2026-11-13T19:47:26.827Z\",\"metadata\":{\"type\":\"site\",\"image\":\"cdea5867-352f-40b1-9584-abeab5f719ab\",\"actions\":[{\"link\":\"/articles/38647\",\"type\":\"button\",\"linkText\":\"See what's changing\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-16T21:49:32.091Z",
+      "scrapedAt": "2026-11-17T07:09:11.534Z",
       "metadata": {
         "updatedAt": "2026-11-13T19:52:07.286Z",
         "endsAt": "2026-11-24T00:00:00.000Z",
@@ -116,7 +124,7 @@
       "deadline": "2026-12-01T00:00:00.000Z",
       "prize": "",
       "rawHtml": "{\"updatedAt\":\"2026-11-01T00:07:13.753Z\",\"endsAt\":\"2026-12-01T00:00:00.000Z\",\"id\":1973,\"title\":\"Our 4th Birthday Event: Everyone Gets a Hat\",\"content\":\"It's our birthday, so everyone gets a free hat. Join a random color team, put hats on your best work, and win your team the Champion badge. All of November.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-10-28T20:43:33.922Z\",\"startsAt\":\"2026-11-01T00:00:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"1e062869-a904-41b6-8f2a-1cd641352055\",\"actions\":[{\"link\":\"/events/birthday2026\",\"type\":\"button\",\"linkText\":\"Join a team\"},{\"link\":\"/articles/36416\",\"type\":\"button\",\"linkText\":\"How it works\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-16T21:49:32.091Z",
+      "scrapedAt": "2026-11-17T07:09:11.534Z",
       "metadata": {
         "updatedAt": "2026-11-01T00:07:13.753Z",
         "endsAt": "2026-12-01T00:00:00.000Z",

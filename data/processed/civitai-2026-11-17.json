@@ -1,6 +1,6 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-17T07:11:23.592Z",
+  "timestamp": "2026-11-17T20:42:36.748Z",
   "contestCount": 4,
   "contests": [
     {
@@ -25,9 +25,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-17T07:11:16.728Z",
-      "scrapedAt": "2026-11-17T07:09:11.533Z",
-      "lastUpdated": "2026-11-17T07:11:16.728Z",
+      "processedAt": "2026-11-17T20:42:30.507Z",
+      "scrapedAt": "2026-11-17T20:40:35.733Z",
+      "lastUpdated": "2026-11-17T20:42:30.507Z",
       "version": 1
     },
     {
@@ -52,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-17T07:11:16.704Z",
-      "scrapedAt": "2026-11-17T07:09:11.534Z",
-      "lastUpdated": "2026-11-17T07:11:16.704Z",
+      "processedAt": "2026-11-17T20:42:30.508Z",
+      "scrapedAt": "2026-11-17T20:40:35.734Z",
+      "lastUpdated": "2026-11-17T20:42:30.508Z",
       "version": 1
     },
     {
@@ -63,14 +63,16 @@
       "platform": "civitai",
       "url": "https://civitai.com/events/2411",
       "imageUrl": "",
-      "description": "Knights of New Order moves to its own app on Tuesday, November 17th. Your rank comes with you, and gold now goes to a shop for Buzz, cosmetics and membership weeks.",
-      "summary": "Knights of New Order moves to its own app on Tuesday, November 17th. Your rank comes with you, and gold now goes to a shop for Buzz, cosmetics and membership weeks....",
+      "description": "Knights of New Order now has its own app at knights.civitai.com. Your rank came with you, and gold now goes to a shop for Buzz, cosmetics and membership weeks.",
+      "summary": "Knights of New Order now has its own app at knights.civitai.com. Your rank came with you, and gold now goes to a shop for Buzz, cosmetics and membership weeks....",
       "contestType": "image",
       "status": "active",
       "difficulty": "intermediate",
       "deadline": "2026-11-24T00:00:00.000Z",
       "prize": "",
-      "tags": [],
+      "tags": [
+        "ai"
+      ],
       "aiTools": [
         "Python",
         "Jupyter",
@@ -79,9 +81,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-17T07:11:16.719Z",
-      "scrapedAt": "2026-11-17T07:09:11.534Z",
-      "lastUpdated": "2026-11-17T07:11:16.719Z",
+      "processedAt": "2026-11-17T20:42:30.512Z",
+      "scrapedAt": "2026-11-17T20:40:35.734Z",
+      "lastUpdated": "2026-11-17T20:42:30.512Z",
       "version": 1
     },
     {
@@ -106,15 +108,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-17T07:11:16.852Z",
-      "scrapedAt": "2026-11-17T07:09:11.534Z",
-      "lastUpdated": "2026-11-17T07:11:16.852Z",
+      "processedAt": "2026-11-17T20:42:30.532Z",
+      "scrapedAt": "2026-11-17T20:40:35.734Z",
+      "lastUpdated": "2026-11-17T20:42:30.532Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-17T07:11:23.592Z"
+    "lastUpdated": "2026-11-17T20:42:36.748Z"
   }
 }

@@ -1,8 +1,90 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-17T20:42:36.748Z",
-  "contestCount": 4,
+  "timestamp": "2026-11-18T06:36:39.085Z",
+  "contestCount": 7,
   "contests": [
+    {
+      "id": "c_3e0279715b92",
+      "title": "Kohya Is Back: Train It in Training Studio",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2501",
+      "imageUrl": "",
+      "description": "Pick Kohya as the engine in [Training Studio](/training-studio?view=new) to train SD 1.5, SDXL, Flux.1 and Chroma LoRAs. The classic trainer is retired, and your past runs are still there to publish.",
+      "summary": "Pick Kohya as the engine in [Training Studio](/training-studio?view=new) to train SD 1.5, SDXL, Flux.1 and Chroma LoRAs. The classic trainer is retired, and your past runs are still there to publish....",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-25T01:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-18T06:36:30.868Z",
+      "scrapedAt": "2026-11-18T06:34:25.472Z",
+      "lastUpdated": "2026-11-18T06:36:30.868Z",
+      "version": 1
+    },
+    {
+      "id": "c_e95c1e823a3c",
+      "title": "FIBO 2.0 from Bria is in the generator",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2500",
+      "imageUrl": "",
+      "description": "Create with Dev, edit with up to 16 images in Edit Turbo. 36 Buzz an image, safe for work. [Read more](/articles/39099).",
+      "summary": "Create with Dev, edit with up to 16 images in Edit Turbo. 36 Buzz an image, safe for work. [Read more](/articles/39099)....",
+      "contestType": "image",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "39099",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-18T06:36:30.863Z",
+      "scrapedAt": "2026-11-18T06:34:25.473Z",
+      "lastUpdated": "2026-11-18T06:36:30.863Z",
+      "version": 1
+    },
+    {
+      "id": "c_51baa586e39c",
+      "title": "Image Search: Find Images by What They Show",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2498",
+      "imageUrl": "",
+      "description": "Image search is here. Type in the search bar on the [Images](/images) page and the feed shows images that match what you describe, with your filters still working.",
+      "summary": "Image search is here. Type in the search bar on the [Images](/images) page and the feed shows images that match what you describe, with your filters still working....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-24T21:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-18T06:36:30.867Z",
+      "scrapedAt": "2026-11-18T06:34:25.473Z",
+      "lastUpdated": "2026-11-18T06:36:30.867Z",
+      "version": 1
+    },
     {
       "id": "c_e97683a889fb",
       "title": "Moving Stickers: Make Them Follow the Action",
@@ -25,9 +107,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-17T20:42:30.507Z",
-      "scrapedAt": "2026-11-17T20:40:35.733Z",
-      "lastUpdated": "2026-11-17T20:42:30.507Z",
+      "processedAt": "2026-11-18T06:36:31.033Z",
+      "scrapedAt": "2026-11-18T06:34:25.473Z",
+      "lastUpdated": "2026-11-18T06:36:31.033Z",
       "version": 1
     },
     {
@@ -52,9 +134,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-17T20:42:30.508Z",
-      "scrapedAt": "2026-11-17T20:40:35.734Z",
-      "lastUpdated": "2026-11-17T20:42:30.508Z",
+      "processedAt": "2026-11-18T06:36:32.041Z",
+      "scrapedAt": "2026-11-18T06:34:25.473Z",
+      "lastUpdated": "2026-11-18T06:36:32.041Z",
       "version": 1
     },
     {
@@ -81,9 +163,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-17T20:42:30.512Z",
-      "scrapedAt": "2026-11-17T20:40:35.734Z",
-      "lastUpdated": "2026-11-17T20:42:30.512Z",
+      "processedAt": "2026-11-18T06:36:32.038Z",
+      "scrapedAt": "2026-11-18T06:34:25.473Z",
+      "lastUpdated": "2026-11-18T06:36:32.038Z",
       "version": 1
     },
     {
@@ -108,15 +190,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-17T20:42:30.532Z",
-      "scrapedAt": "2026-11-17T20:40:35.734Z",
-      "lastUpdated": "2026-11-17T20:42:30.532Z",
+      "processedAt": "2026-11-18T06:36:32.039Z",
+      "scrapedAt": "2026-11-18T06:34:25.473Z",
+      "lastUpdated": "2026-11-18T06:36:32.039Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-17T20:42:36.748Z"
+    "lastUpdated": "2026-11-18T06:36:39.085Z"
   }
 }

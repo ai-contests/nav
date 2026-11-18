@@ -1,8 +1,44 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-18T06:36:25.838Z",
-  "contestCount": 7,
+  "timestamp": "2026-11-18T20:15:41.807Z",
+  "contestCount": 8,
   "contests": [
+    {
+      "platform": "civitai",
+      "title": "Wan 3.0 Crucibles with Runware",
+      "description": "Five Wan 3.0 video Crucibles over three weeks, sponsored by Runware, with 600,000 Buzz up for grabs in each. Entries are free. The first one, Waifus & Husbandos, is open now.",
+      "url": "https://civitai.com/events/2494",
+      "deadline": "2026-12-09T00:12:00.000Z",
+      "prize": "600",
+      "rawHtml": "{\"updatedAt\":\"2026-11-18T17:03:16.111Z\",\"endsAt\":\"2026-12-09T00:12:00.000Z\",\"id\":2494,\"title\":\"Wan 3.0 Crucibles with Runware\",\"content\":\"Five Wan 3.0 video Crucibles over three weeks, sponsored by Runware, with 600,000 Buzz up for grabs in each. Entries are free. The first one, Waifus & Husbandos, is open now.\",\"color\":\"teal\",\"emoji\":null,\"createdAt\":\"2026-11-17T16:40:11.271Z\",\"startsAt\":\"2026-11-18T17:00:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"3fcb2aaa-488d-4671-a33b-17e84b8643d6\",\"actions\":[{\"link\":\"/articles/39072\",\"type\":\"button\",\"linkText\":\"See the series\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
+      "scrapedAt": "2026-11-18T20:13:57.680Z",
+      "metadata": {
+        "updatedAt": "2026-11-18T17:03:16.111Z",
+        "endsAt": "2026-12-09T00:12:00.000Z",
+        "id": 2494,
+        "title": "Wan 3.0 Crucibles with Runware",
+        "content": "Five Wan 3.0 video Crucibles over three weeks, sponsored by Runware, with 600,000 Buzz up for grabs in each. Entries are free. The first one, Waifus & Husbandos, is open now.",
+        "color": "teal",
+        "emoji": null,
+        "createdAt": "2026-11-17T16:40:11.271Z",
+        "startsAt": "2026-11-18T17:00:00.000Z",
+        "metadata": {
+          "type": "site",
+          "image": "3fcb2aaa-488d-4671-a33b-17e84b8643d6",
+          "actions": [
+            {
+              "link": "/articles/39072",
+              "type": "button",
+              "linkText": "See the series"
+            }
+          ],
+          "colSpan": 6,
+          "statusPage": false,
+          "dismissible": true,
+          "targetAudience": "all"
+        }
+      }
+    },
     {
       "platform": "civitai",
       "title": "Kohya Is Back: Train It in Training Studio",
@@ -11,7 +47,7 @@
       "deadline": "2026-11-25T01:00:00.000Z",
       "prize": "",
       "rawHtml": "{\"updatedAt\":\"2026-11-18T00:42:14.033Z\",\"endsAt\":\"2026-11-25T01:00:00.000Z\",\"id\":2501,\"title\":\"Kohya Is Back: Train It in Training Studio\",\"content\":\"Pick Kohya as the engine in [Training Studio](/training-studio?view=new) to train SD 1.5, SDXL, Flux.1 and Chroma LoRAs. The classic trainer is retired, and your past runs are still there to publish.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-11-18T00:42:14.033Z\",\"startsAt\":\"2026-11-18T00:42:13.646Z\",\"metadata\":{\"type\":\"site\",\"image\":\"251b2a25-ad1f-4238-a725-36e3ccc46f4f\",\"actions\":[{\"link\":\"/articles/39100\",\"type\":\"button\",\"linkText\":\"See how it works\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-18T06:34:25.472Z",
+      "scrapedAt": "2026-11-18T20:13:57.681Z",
       "metadata": {
         "updatedAt": "2026-11-18T00:42:14.033Z",
         "endsAt": "2026-11-25T01:00:00.000Z",
@@ -46,7 +82,7 @@
       "url": "https://civitai.com/events/2500",
       "prize": "39099",
       "rawHtml": "{\"updatedAt\":\"2026-11-18T00:18:04.469Z\",\"endsAt\":null,\"id\":2500,\"title\":\"FIBO 2.0 from Bria is in the generator\",\"content\":\"Create with Dev, edit with up to 16 images in Edit Turbo. 36 Buzz an image, safe for work. [Read more](/articles/39099).\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-11-17T23:16:33.625Z\",\"startsAt\":\"2026-11-18T00:17:56.453Z\",\"metadata\":{\"type\":\"site\",\"image\":\"1c3304fe-a58e-496a-b29b-1d67bd8f64a0\",\"actions\":[{\"link\":\"/generate?modelVersionId=3469179\",\"type\":\"button\",\"linkText\":\"Try FIBO 2.0\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-18T06:34:25.473Z",
+      "scrapedAt": "2026-11-18T20:13:57.681Z",
       "metadata": {
         "updatedAt": "2026-11-18T00:18:04.469Z",
         "endsAt": null,
@@ -82,7 +118,7 @@
       "deadline": "2026-11-24T21:00:00.000Z",
       "prize": "",
       "rawHtml": "{\"updatedAt\":\"2026-11-17T20:58:54.951Z\",\"endsAt\":\"2026-11-24T21:00:00.000Z\",\"id\":2498,\"title\":\"Image Search: Find Images by What They Show\",\"content\":\"Image search is here. Type in the search bar on the [Images](/images) page and the feed shows images that match what you describe, with your filters still working.\\n\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-11-17T20:58:54.951Z\",\"startsAt\":\"2026-11-17T20:58:54.536Z\",\"metadata\":{\"type\":\"site\",\"image\":\"3952c3e0-ba67-4144-8669-166712684a1c\",\"actions\":[{\"link\":\"https://civitai.com/articles/39085\",\"type\":\"button\",\"linkText\":\"See how it works\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-18T06:34:25.473Z",
+      "scrapedAt": "2026-11-18T20:13:57.681Z",
       "metadata": {
         "updatedAt": "2026-11-17T20:58:54.951Z",
         "endsAt": "2026-11-24T21:00:00.000Z",
@@ -118,7 +154,7 @@
       "deadline": "2026-11-23T22:30:00.000Z",
       "prize": "",
       "rawHtml": "{\"updatedAt\":\"2026-11-16T22:32:15.980Z\",\"endsAt\":\"2026-11-23T22:30:00.000Z\",\"id\":2484,\"title\":\"Moving Stickers: Make Them Follow the Action\",\"content\":\"Stickers you place on a video can move now. Switch one to Movement, set a few keys on the timeline, and it follows them as the video plays.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-11-16T22:32:15.980Z\",\"startsAt\":\"2026-11-16T22:32:15.355Z\",\"metadata\":{\"type\":\"site\",\"image\":\"9522323f-110d-4d1d-8070-0b570fc8fb72\",\"actions\":[{\"link\":\"/articles/39017\",\"type\":\"button\",\"linkText\":\"See how it works\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-18T06:34:25.473Z",
+      "scrapedAt": "2026-11-18T20:13:57.681Z",
       "metadata": {
         "updatedAt": "2026-11-16T22:32:15.980Z",
         "endsAt": "2026-11-23T22:30:00.000Z",
@@ -154,7 +190,7 @@
       "deadline": "2026-11-27T07:00:00.000Z",
       "prize": "2000",
       "rawHtml": "{\"updatedAt\":\"2026-11-13T20:25:26.347Z\",\"endsAt\":\"2026-11-27T07:00:00.000Z\",\"id\":2412,\"title\":\"MiniMax H3 Image is here\",\"content\":\"2K and 4K images, edits with up to 16 references, from 20 Buzz an image.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-11-13T20:23:30.660Z\",\"startsAt\":\"2026-11-13T20:25:26.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"414f9f6a-e2b3-476a-be38-2aace1490053\",\"actions\":[{\"link\":\"/generate?modelVersionId=3463368\",\"type\":\"button\",\"linkText\":\"Try H3 Image\"},{\"link\":\"/articles/38808\",\"type\":\"button\",\"linkText\":\"Read more\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-18T06:34:25.473Z",
+      "scrapedAt": "2026-11-18T20:13:57.681Z",
       "metadata": {
         "updatedAt": "2026-11-13T20:25:26.347Z",
         "endsAt": "2026-11-27T07:00:00.000Z",
@@ -195,7 +231,7 @@
       "deadline": "2026-11-24T00:00:00.000Z",
       "prize": "",
       "rawHtml": "{\"updatedAt\":\"2026-11-17T16:08:18.676Z\",\"endsAt\":\"2026-11-24T00:00:00.000Z\",\"id\":2411,\"title\":\"Knights v2: Judge the Image, Rise in the Order\",\"content\":\"Knights of New Order now has its own app at knights.civitai.com. Your rank came with you, and gold now goes to a shop for Buzz, cosmetics and membership weeks.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-11-13T19:47:27.061Z\",\"startsAt\":\"2026-11-13T19:47:26.827Z\",\"metadata\":{\"type\":\"site\",\"image\":\"cdea5867-352f-40b1-9584-abeab5f719ab\",\"actions\":[{\"link\":\"/articles/38647\",\"type\":\"button\",\"linkText\":\"See what's changing\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-18T06:34:25.473Z",
+      "scrapedAt": "2026-11-18T20:13:57.681Z",
       "metadata": {
         "updatedAt": "2026-11-17T16:08:18.676Z",
         "endsAt": "2026-11-24T00:00:00.000Z",
@@ -231,7 +267,7 @@
       "deadline": "2026-12-01T00:00:00.000Z",
       "prize": "",
       "rawHtml": "{\"updatedAt\":\"2026-11-01T00:07:13.753Z\",\"endsAt\":\"2026-12-01T00:00:00.000Z\",\"id\":1973,\"title\":\"Our 4th Birthday Event: Everyone Gets a Hat\",\"content\":\"It's our birthday, so everyone gets a free hat. Join a random color team, put hats on your best work, and win your team the Champion badge. All of November.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-10-28T20:43:33.922Z\",\"startsAt\":\"2026-11-01T00:00:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"1e062869-a904-41b6-8f2a-1cd641352055\",\"actions\":[{\"link\":\"/events/birthday2026\",\"type\":\"button\",\"linkText\":\"Join a team\"},{\"link\":\"/articles/36416\",\"type\":\"button\",\"linkText\":\"How it works\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-18T06:34:25.473Z",
+      "scrapedAt": "2026-11-18T20:13:57.681Z",
       "metadata": {
         "updatedAt": "2026-11-01T00:07:13.753Z",
         "endsAt": "2026-12-01T00:00:00.000Z",

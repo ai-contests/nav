@@ -1,8 +1,37 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-18T06:36:39.085Z",
-  "contestCount": 7,
+  "timestamp": "2026-11-18T20:15:55.359Z",
+  "contestCount": 8,
   "contests": [
+    {
+      "id": "c_1278a09f0c6a",
+      "title": "Wan 3.0 Crucibles with Runware",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2494",
+      "imageUrl": "",
+      "description": "Five Wan 3.0 video Crucibles over three weeks, sponsored by Runware, with 600,000 Buzz up for grabs in each. Entries are free. The first one, Waifus & Husbandos, is open now.",
+      "summary": "Five Wan 3.0 video Crucibles over three weeks, sponsored by Runware, with 600,000 Buzz up for grabs in each. Entries are free. The first one, Waifus & Husbandos, is open now....",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-09T00:12:00.000Z",
+      "prize": "600",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-18T20:15:47.560Z",
+      "scrapedAt": "2026-11-18T20:13:57.680Z",
+      "lastUpdated": "2026-11-18T20:15:47.560Z",
+      "version": 1
+    },
     {
       "id": "c_3e0279715b92",
       "title": "Kohya Is Back: Train It in Training Studio",
@@ -27,9 +56,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-18T06:36:30.868Z",
-      "scrapedAt": "2026-11-18T06:34:25.472Z",
-      "lastUpdated": "2026-11-18T06:36:30.868Z",
+      "processedAt": "2026-11-18T20:15:47.536Z",
+      "scrapedAt": "2026-11-18T20:13:57.681Z",
+      "lastUpdated": "2026-11-18T20:15:47.536Z",
       "version": 1
     },
     {
@@ -53,9 +82,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-18T06:36:30.863Z",
-      "scrapedAt": "2026-11-18T06:34:25.473Z",
-      "lastUpdated": "2026-11-18T06:36:30.863Z",
+      "processedAt": "2026-11-18T20:15:47.552Z",
+      "scrapedAt": "2026-11-18T20:13:57.681Z",
+      "lastUpdated": "2026-11-18T20:15:47.552Z",
       "version": 1
     },
     {
@@ -80,9 +109,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-18T06:36:30.867Z",
-      "scrapedAt": "2026-11-18T06:34:25.473Z",
-      "lastUpdated": "2026-11-18T06:36:30.867Z",
+      "processedAt": "2026-11-18T20:15:47.658Z",
+      "scrapedAt": "2026-11-18T20:13:57.681Z",
+      "lastUpdated": "2026-11-18T20:15:47.658Z",
       "version": 1
     },
     {
@@ -107,9 +136,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-18T06:36:31.033Z",
-      "scrapedAt": "2026-11-18T06:34:25.473Z",
-      "lastUpdated": "2026-11-18T06:36:31.033Z",
+      "processedAt": "2026-11-18T20:15:48.671Z",
+      "scrapedAt": "2026-11-18T20:13:57.681Z",
+      "lastUpdated": "2026-11-18T20:15:48.671Z",
       "version": 1
     },
     {
@@ -134,9 +163,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-18T06:36:32.041Z",
-      "scrapedAt": "2026-11-18T06:34:25.473Z",
-      "lastUpdated": "2026-11-18T06:36:32.041Z",
+      "processedAt": "2026-11-18T20:15:48.660Z",
+      "scrapedAt": "2026-11-18T20:13:57.681Z",
+      "lastUpdated": "2026-11-18T20:15:48.660Z",
       "version": 1
     },
     {
@@ -163,9 +192,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-18T06:36:32.038Z",
-      "scrapedAt": "2026-11-18T06:34:25.473Z",
-      "lastUpdated": "2026-11-18T06:36:32.038Z",
+      "processedAt": "2026-11-18T20:15:48.672Z",
+      "scrapedAt": "2026-11-18T20:13:57.681Z",
+      "lastUpdated": "2026-11-18T20:15:48.672Z",
       "version": 1
     },
     {
@@ -190,15 +219,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-18T06:36:32.039Z",
-      "scrapedAt": "2026-11-18T06:34:25.473Z",
-      "lastUpdated": "2026-11-18T06:36:32.039Z",
+      "processedAt": "2026-11-18T20:15:48.674Z",
+      "scrapedAt": "2026-11-18T20:13:57.681Z",
+      "lastUpdated": "2026-11-18T20:15:48.674Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-18T06:36:39.085Z"
+    "lastUpdated": "2026-11-18T20:15:55.359Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-11-19T06:39:07.543Z",
+  "timestamp": "2026-11-19T20:16:47.748Z",
   "contestCount": 10,
   "contests": [
     {
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-19T06:39:01.812Z",
-      "scrapedAt": "2026-11-19T06:36:50.011Z",
-      "lastUpdated": "2026-11-19T06:39:01.812Z",
+      "processedAt": "2026-11-19T20:16:41.685Z",
+      "scrapedAt": "2026-11-19T20:14:33.807Z",
+      "lastUpdated": "2026-11-19T20:16:41.685Z",
       "version": 1
     },
     {
@@ -56,9 +56,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-19T06:39:01.814Z",
-      "scrapedAt": "2026-11-19T06:36:50.012Z",
-      "lastUpdated": "2026-11-19T06:39:01.814Z",
+      "processedAt": "2026-11-19T20:16:41.690Z",
+      "scrapedAt": "2026-11-19T20:14:33.807Z",
+      "lastUpdated": "2026-11-19T20:16:41.690Z",
       "version": 1
     },
     {
@@ -86,9 +86,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-19T06:39:01.816Z",
-      "scrapedAt": "2026-11-19T06:36:50.012Z",
-      "lastUpdated": "2026-11-19T06:39:01.816Z",
+      "processedAt": "2026-11-19T20:16:41.687Z",
+      "scrapedAt": "2026-11-19T20:14:33.807Z",
+      "lastUpdated": "2026-11-19T20:16:41.687Z",
       "version": 1
     },
     {
@@ -115,9 +115,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-19T06:39:01.813Z",
-      "scrapedAt": "2026-11-19T06:36:50.012Z",
-      "lastUpdated": "2026-11-19T06:39:01.813Z",
+      "processedAt": "2026-11-19T20:16:41.688Z",
+      "scrapedAt": "2026-11-19T20:14:33.807Z",
+      "lastUpdated": "2026-11-19T20:16:41.688Z",
       "version": 1
     },
     {
@@ -144,9 +144,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-19T06:39:01.928Z",
-      "scrapedAt": "2026-11-19T06:36:50.012Z",
-      "lastUpdated": "2026-11-19T06:39:01.928Z",
+      "processedAt": "2026-11-19T20:16:41.853Z",
+      "scrapedAt": "2026-11-19T20:14:33.807Z",
+      "lastUpdated": "2026-11-19T20:16:41.853Z",
       "version": 1
     },
     {
@@ -171,9 +171,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-19T06:39:02.932Z",
-      "scrapedAt": "2026-11-19T06:36:50.012Z",
-      "lastUpdated": "2026-11-19T06:39:02.932Z",
+      "processedAt": "2026-11-19T20:16:42.865Z",
+      "scrapedAt": "2026-11-19T20:14:33.807Z",
+      "lastUpdated": "2026-11-19T20:16:42.865Z",
       "version": 1
     },
     {
@@ -185,7 +185,7 @@
       "description": "本届黑客松，我们不设命题。只需你使用3D生成模型Aholo Lux3D，完成一份3D AI作品或Demo。",
       "summary": "本届黑客松，我们不设命题。只需你使用3D生成模型Aholo Lux3D，完成一份3D AI作品或Demo。...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
       "deadline": "2026-11-19T15:59:00.000Z",
       "prize": "¥32万元奖金池",
@@ -200,9 +200,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-19T06:39:02.934Z",
-      "scrapedAt": "2026-11-19T06:36:50.012Z",
-      "lastUpdated": "2026-11-19T06:39:02.934Z",
+      "processedAt": "2026-11-19T20:16:42.859Z",
+      "scrapedAt": "2026-11-19T20:14:33.807Z",
+      "lastUpdated": "2026-11-19T20:16:42.859Z",
       "version": 1
     },
     {
@@ -227,9 +227,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-19T06:39:02.933Z",
-      "scrapedAt": "2026-11-19T06:36:50.012Z",
-      "lastUpdated": "2026-11-19T06:39:02.933Z",
+      "processedAt": "2026-11-19T20:16:42.864Z",
+      "scrapedAt": "2026-11-19T20:14:33.808Z",
+      "lastUpdated": "2026-11-19T20:16:42.864Z",
       "version": 1
     },
     {
@@ -241,7 +241,7 @@
       "description": "全新升级！第二届具亮计划·全球具身智能黑客松开启报名\n\n2026年3月，自变量发起和举办首届「具亮计划」黑客松，聚焦从数据采集、模型训练到真机部署的全链路实践。彼时，模型的能力仍受限于训练中见过的任务，想让机器人完成一项新任务，往往需要先采集对应数据，再进行针对性训练。如今，这一前提正在被打破。随着具身基础模型已经能够理解物理世界，在陌生任务上实现零样本泛化，具身智能第一次具备了像大语言模型一样可通过API直接被调用的条件。以这一技术演进为基础，2026年11月，自变量将在美国·硅谷与中国·深圳，举办第二届具亮计划·全球具身智能黑客松Embodied Agent Hackathon，本次比赛自变量将直接提供VLA和WAM具身基础模型的API，结合Agent，搭配机器人硬件，大大简化开发流程。以零样本开放世界操作为核心能力，无需任何任务适配，仅凭自然语言指令驱动，即可在全新场景中完成从任意物体抓取放置，到柔性物体操作、双臂协同与工具使用的各类任务。选手无需采集数据、无需微调模型，结合Agent即可开展任务开发，把精力真正投入到长程复杂任务的攻克上。你可以自由选择模型、组合技术、探索不同路径，用真实任务检验自己的设计和想法。从构想操作任务到机器人自主执行，期待你的方案在现场交出答卷！",
       "summary": "全新升级！第二届具亮计划·全球具身智能黑客松开启报名\n\n2026年3月，自变量发起和举办首届「具亮计划」黑客松，聚焦从数据采集、模型训练到真机部署的全链路实践。彼时，模型的能力仍受限于训练中见过的任务，想让机器人完成一项新任务，往往需要先采集对应数据，再进行针对性训练。如今，这一前提正在被打破。随着具身基础模型已经能够理解物理世界，在陌生任务上实现零样本泛化，具身智能第一次具备了像大语言模型一样可...",
       "contestType": "mixed",
-      "status": "active",
+      "status": "ended",
       "difficulty": "intermediate",
       "deadline": "2026-11-19T16:00:00.000Z",
       "prize": "100万奖金池+礼品",
@@ -260,9 +260,9 @@
         "具身智能第一次具备了像大语言模型一样可通过API直接被调用的条件。以这一技术演进为基础"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-11-19T06:39:02.935Z",
-      "scrapedAt": "2026-11-19T06:36:50.012Z",
-      "lastUpdated": "2026-11-19T06:39:02.935Z",
+      "processedAt": "2026-11-19T20:16:42.877Z",
+      "scrapedAt": "2026-11-19T20:14:33.808Z",
+      "lastUpdated": "2026-11-19T20:16:42.877Z",
       "version": 1
     },
     {
@@ -289,15 +289,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-19T06:39:03.059Z",
-      "scrapedAt": "2026-11-19T06:36:50.012Z",
-      "lastUpdated": "2026-11-19T06:39:03.059Z",
+      "processedAt": "2026-11-19T20:16:43.047Z",
+      "scrapedAt": "2026-11-19T20:14:33.808Z",
+      "lastUpdated": "2026-11-19T20:16:43.047Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-19T06:39:07.543Z"
+    "lastUpdated": "2026-11-19T20:16:47.748Z"
   }
 }

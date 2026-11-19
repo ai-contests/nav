@@ -1,8 +1,37 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-18T20:15:55.359Z",
-  "contestCount": 8,
+  "timestamp": "2026-11-19T06:39:07.547Z",
+  "contestCount": 9,
   "contests": [
+    {
+      "id": "c_ac1f34d0103e",
+      "title": "Creator Services: Commission a LoRA, a Music Video, or Whatever You Need",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2531",
+      "imageUrl": "",
+      "description": "Hire a creator to train a LoRA for you or make your music video.",
+      "summary": "Hire a creator to train a LoRA for you or make your music video....",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-25T16:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-19T06:38:59.575Z",
+      "scrapedAt": "2026-11-19T06:37:05.334Z",
+      "lastUpdated": "2026-11-19T06:38:59.575Z",
+      "version": 1
+    },
     {
       "id": "c_1278a09f0c6a",
       "title": "Wan 3.0 Crucibles with Runware",
@@ -27,9 +56,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-18T20:15:47.560Z",
-      "scrapedAt": "2026-11-18T20:13:57.680Z",
-      "lastUpdated": "2026-11-18T20:15:47.560Z",
+      "processedAt": "2026-11-19T06:38:59.567Z",
+      "scrapedAt": "2026-11-19T06:37:05.334Z",
+      "lastUpdated": "2026-11-19T06:38:59.567Z",
       "version": 1
     },
     {
@@ -56,9 +85,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-18T20:15:47.536Z",
-      "scrapedAt": "2026-11-18T20:13:57.681Z",
-      "lastUpdated": "2026-11-18T20:15:47.536Z",
+      "processedAt": "2026-11-19T06:38:59.569Z",
+      "scrapedAt": "2026-11-19T06:37:05.334Z",
+      "lastUpdated": "2026-11-19T06:38:59.569Z",
       "version": 1
     },
     {
@@ -82,9 +111,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-18T20:15:47.552Z",
-      "scrapedAt": "2026-11-18T20:13:57.681Z",
-      "lastUpdated": "2026-11-18T20:15:47.552Z",
+      "processedAt": "2026-11-19T06:38:59.691Z",
+      "scrapedAt": "2026-11-19T06:37:05.334Z",
+      "lastUpdated": "2026-11-19T06:38:59.691Z",
       "version": 1
     },
     {
@@ -109,9 +138,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-18T20:15:47.658Z",
-      "scrapedAt": "2026-11-18T20:13:57.681Z",
-      "lastUpdated": "2026-11-18T20:15:47.658Z",
+      "processedAt": "2026-11-19T06:39:00.691Z",
+      "scrapedAt": "2026-11-19T06:37:05.334Z",
+      "lastUpdated": "2026-11-19T06:39:00.691Z",
       "version": 1
     },
     {
@@ -136,9 +165,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-18T20:15:48.671Z",
-      "scrapedAt": "2026-11-18T20:13:57.681Z",
-      "lastUpdated": "2026-11-18T20:15:48.671Z",
+      "processedAt": "2026-11-19T06:39:00.694Z",
+      "scrapedAt": "2026-11-19T06:37:05.334Z",
+      "lastUpdated": "2026-11-19T06:39:00.694Z",
       "version": 1
     },
     {
@@ -163,9 +192,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-18T20:15:48.660Z",
-      "scrapedAt": "2026-11-18T20:13:57.681Z",
-      "lastUpdated": "2026-11-18T20:15:48.660Z",
+      "processedAt": "2026-11-19T06:39:00.693Z",
+      "scrapedAt": "2026-11-19T06:37:05.334Z",
+      "lastUpdated": "2026-11-19T06:39:00.693Z",
       "version": 1
     },
     {
@@ -192,9 +221,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-18T20:15:48.672Z",
-      "scrapedAt": "2026-11-18T20:13:57.681Z",
-      "lastUpdated": "2026-11-18T20:15:48.672Z",
+      "processedAt": "2026-11-19T06:39:00.695Z",
+      "scrapedAt": "2026-11-19T06:37:05.337Z",
+      "lastUpdated": "2026-11-19T06:39:00.695Z",
       "version": 1
     },
     {
@@ -219,15 +248,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-18T20:15:48.674Z",
-      "scrapedAt": "2026-11-18T20:13:57.681Z",
-      "lastUpdated": "2026-11-18T20:15:48.674Z",
+      "processedAt": "2026-11-19T06:39:00.817Z",
+      "scrapedAt": "2026-11-19T06:37:05.337Z",
+      "lastUpdated": "2026-11-19T06:39:00.817Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-18T20:15:55.359Z"
+    "lastUpdated": "2026-11-19T06:39:07.547Z"
   }
 }

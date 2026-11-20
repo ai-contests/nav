@@ -1,8 +1,37 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-20T06:26:42.659Z",
-  "contestCount": 9,
+  "timestamp": "2026-11-20T19:54:37.575Z",
+  "contestCount": 10,
   "contests": [
+    {
+      "id": "c_4ea325abf883",
+      "title": "Showcase Sections: Pick What Your Profile Shows First",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2598",
+      "imageUrl": "",
+      "description": "Add up to 10 showcases to your profile with your own images, models or articles in your own order, and add any of them straight from its menu. It's the first piece of the [profile facelift](/articles/38570).",
+      "summary": "Add up to 10 showcases to your profile with your own images, models or articles in your own order, and add any of them straight from its menu. It's the first piece of the [profile facelift](/articles/...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-27T08:00:00.000Z",
+      "prize": "38570",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-20T19:54:32.757Z",
+      "scrapedAt": "2026-11-20T19:52:44.685Z",
+      "lastUpdated": "2026-11-20T19:54:32.757Z",
+      "version": 1
+    },
     {
       "id": "c_ac1f34d0103e",
       "title": "Creator Services: Commission a LoRA, a Music Video, or Whatever You Need",
@@ -27,9 +56,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-20T06:26:33.994Z",
-      "scrapedAt": "2026-11-20T06:24:39.603Z",
-      "lastUpdated": "2026-11-20T06:26:33.994Z",
+      "processedAt": "2026-11-20T19:54:32.761Z",
+      "scrapedAt": "2026-11-20T19:52:44.686Z",
+      "lastUpdated": "2026-11-20T19:54:32.761Z",
       "version": 1
     },
     {
@@ -56,9 +85,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-20T06:26:33.992Z",
-      "scrapedAt": "2026-11-20T06:24:39.603Z",
-      "lastUpdated": "2026-11-20T06:26:33.992Z",
+      "processedAt": "2026-11-20T19:54:32.754Z",
+      "scrapedAt": "2026-11-20T19:52:44.686Z",
+      "lastUpdated": "2026-11-20T19:54:32.754Z",
       "version": 1
     },
     {
@@ -85,9 +114,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-20T06:26:34.004Z",
-      "scrapedAt": "2026-11-20T06:24:39.603Z",
-      "lastUpdated": "2026-11-20T06:26:34.004Z",
+      "processedAt": "2026-11-20T19:54:32.954Z",
+      "scrapedAt": "2026-11-20T19:52:44.686Z",
+      "lastUpdated": "2026-11-20T19:54:32.954Z",
       "version": 1
     },
     {
@@ -111,9 +140,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-20T06:26:34.203Z",
-      "scrapedAt": "2026-11-20T06:24:39.603Z",
-      "lastUpdated": "2026-11-20T06:26:34.203Z",
+      "processedAt": "2026-11-20T19:54:33.957Z",
+      "scrapedAt": "2026-11-20T19:52:44.686Z",
+      "lastUpdated": "2026-11-20T19:54:33.957Z",
       "version": 1
     },
     {
@@ -138,9 +167,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-20T06:26:35.200Z",
-      "scrapedAt": "2026-11-20T06:24:39.603Z",
-      "lastUpdated": "2026-11-20T06:26:35.200Z",
+      "processedAt": "2026-11-20T19:54:33.963Z",
+      "scrapedAt": "2026-11-20T19:52:44.686Z",
+      "lastUpdated": "2026-11-20T19:54:33.963Z",
       "version": 1
     },
     {
@@ -165,9 +194,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-20T06:26:35.201Z",
-      "scrapedAt": "2026-11-20T06:24:39.603Z",
-      "lastUpdated": "2026-11-20T06:26:35.201Z",
+      "processedAt": "2026-11-20T19:54:33.958Z",
+      "scrapedAt": "2026-11-20T19:52:44.686Z",
+      "lastUpdated": "2026-11-20T19:54:33.958Z",
       "version": 1
     },
     {
@@ -192,9 +221,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-20T06:26:35.202Z",
-      "scrapedAt": "2026-11-20T06:24:39.603Z",
-      "lastUpdated": "2026-11-20T06:26:35.202Z",
+      "processedAt": "2026-11-20T19:54:33.965Z",
+      "scrapedAt": "2026-11-20T19:52:44.686Z",
+      "lastUpdated": "2026-11-20T19:54:33.965Z",
       "version": 1
     },
     {
@@ -221,9 +250,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-20T06:26:35.205Z",
-      "scrapedAt": "2026-11-20T06:24:39.603Z",
-      "lastUpdated": "2026-11-20T06:26:35.205Z",
+      "processedAt": "2026-11-20T19:54:34.167Z",
+      "scrapedAt": "2026-11-20T19:52:44.686Z",
+      "lastUpdated": "2026-11-20T19:54:34.167Z",
       "version": 1
     },
     {
@@ -248,15 +277,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-20T06:26:35.397Z",
-      "scrapedAt": "2026-11-20T06:24:39.603Z",
-      "lastUpdated": "2026-11-20T06:26:35.397Z",
+      "processedAt": "2026-11-20T19:54:35.163Z",
+      "scrapedAt": "2026-11-20T19:52:44.686Z",
+      "lastUpdated": "2026-11-20T19:54:35.163Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-20T06:26:42.659Z"
+    "lastUpdated": "2026-11-20T19:54:37.575Z"
   }
 }

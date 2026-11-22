@@ -1,0 +1,291 @@
+{
+  "platform": "civitai",
+  "timestamp": "2026-11-22T05:50:50.497Z",
+  "contestCount": 10,
+  "contests": [
+    {
+      "id": "c_4ea325abf883",
+      "title": "Showcase Sections: Pick What Your Profile Shows First",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2598",
+      "imageUrl": "",
+      "description": "Add up to 10 showcases to your profile with your own images, models or articles in your own order, and add any of them straight from its menu. It's the first piece of the [profile facelift](/articles/38570).",
+      "summary": "Add up to 10 showcases to your profile with your own images, models or articles in your own order, and add any of them straight from its menu. It's the first piece of the [profile facelift](/articles/...",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-27T08:00:00.000Z",
+      "prize": "38570",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-22T05:50:42.231Z",
+      "scrapedAt": "2026-11-22T05:48:33.055Z",
+      "lastUpdated": "2026-11-22T05:50:42.231Z",
+      "version": 1
+    },
+    {
+      "id": "c_ac1f34d0103e",
+      "title": "Creator Services: Commission a LoRA, a Music Video, or Whatever You Need",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2531",
+      "imageUrl": "",
+      "description": "Hire a creator to train a LoRA for you or make your music video.",
+      "summary": "Hire a creator to train a LoRA for you or make your music video....",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-25T16:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-22T05:50:42.238Z",
+      "scrapedAt": "2026-11-22T05:48:33.055Z",
+      "lastUpdated": "2026-11-22T05:50:42.238Z",
+      "version": 1
+    },
+    {
+      "id": "c_1278a09f0c6a",
+      "title": "Wan 3.0 Crucibles with Runware",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2494",
+      "imageUrl": "",
+      "description": "Five Wan 3.0 video Crucibles over three weeks, sponsored by Runware, with 600,000 Buzz up for grabs in each. Entries are free. The first one, Waifus & Husbandos, is open now.",
+      "summary": "Five Wan 3.0 video Crucibles over three weeks, sponsored by Runware, with 600,000 Buzz up for grabs in each. Entries are free. The first one, Waifus & Husbandos, is open now....",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-09T00:12:00.000Z",
+      "prize": "600",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-22T05:50:42.243Z",
+      "scrapedAt": "2026-11-22T05:48:33.055Z",
+      "lastUpdated": "2026-11-22T05:50:42.243Z",
+      "version": 1
+    },
+    {
+      "id": "c_3e0279715b92",
+      "title": "Kohya Is Back: Train It in Training Studio",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2501",
+      "imageUrl": "",
+      "description": "Pick Kohya as the engine in [Training Studio](/training-studio?view=new) to train SD 1.5, SDXL, Flux.1 and Chroma LoRAs. The classic trainer is retired, and your past runs are still there to publish.",
+      "summary": "Pick Kohya as the engine in [Training Studio](/training-studio?view=new) to train SD 1.5, SDXL, Flux.1 and Chroma LoRAs. The classic trainer is retired, and your past runs are still there to publish....",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-25T01:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-22T05:50:42.270Z",
+      "scrapedAt": "2026-11-22T05:48:33.055Z",
+      "lastUpdated": "2026-11-22T05:50:42.270Z",
+      "version": 1
+    },
+    {
+      "id": "c_e95c1e823a3c",
+      "title": "FIBO 2.0 from Bria is in the generator",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2500",
+      "imageUrl": "",
+      "description": "Create with Dev, edit with up to 16 images in Edit Turbo. 36 Buzz an image, safe for work. [Read more](/articles/39099).",
+      "summary": "Create with Dev, edit with up to 16 images in Edit Turbo. 36 Buzz an image, safe for work. [Read more](/articles/39099)....",
+      "contestType": "image",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "39099",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-22T05:50:43.272Z",
+      "scrapedAt": "2026-11-22T05:48:33.055Z",
+      "lastUpdated": "2026-11-22T05:50:43.272Z",
+      "version": 1
+    },
+    {
+      "id": "c_51baa586e39c",
+      "title": "Image Search: Find Images by What They Show",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2498",
+      "imageUrl": "",
+      "description": "Image search is here. Type in the search bar on the [Images](/images) page and the feed shows images that match what you describe, with your filters still working.",
+      "summary": "Image search is here. Type in the search bar on the [Images](/images) page and the feed shows images that match what you describe, with your filters still working....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-24T21:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-22T05:50:43.270Z",
+      "scrapedAt": "2026-11-22T05:48:33.056Z",
+      "lastUpdated": "2026-11-22T05:50:43.270Z",
+      "version": 1
+    },
+    {
+      "id": "c_e97683a889fb",
+      "title": "Moving Stickers: Make Them Follow the Action",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2484",
+      "imageUrl": "",
+      "description": "Stickers you place on a video can move now. Switch one to Movement, set a few keys on the timeline, and it follows them as the video plays.",
+      "summary": "Stickers you place on a video can move now. Switch one to Movement, set a few keys on the timeline, and it follows them as the video plays....",
+      "contestType": "video",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-23T22:30:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-22T05:50:43.271Z",
+      "scrapedAt": "2026-11-22T05:48:33.056Z",
+      "lastUpdated": "2026-11-22T05:50:43.271Z",
+      "version": 1
+    },
+    {
+      "id": "c_eac36fa6ffc3",
+      "title": "MiniMax H3 Image is here",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2412",
+      "imageUrl": "",
+      "description": "2K and 4K images, edits with up to 16 references, from 20 Buzz an image.",
+      "summary": "2K and 4K images, edits with up to 16 references, from 20 Buzz an image....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-27T07:00:00.000Z",
+      "prize": "2000",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-22T05:50:43.274Z",
+      "scrapedAt": "2026-11-22T05:48:33.056Z",
+      "lastUpdated": "2026-11-22T05:50:43.274Z",
+      "version": 1
+    },
+    {
+      "id": "c_f03d0c5f5c68",
+      "title": "Knights v2: Judge the Image, Rise in the Order",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2411",
+      "imageUrl": "",
+      "description": "Knights of New Order now has its own app at knights.civitai.com. Your rank came with you, and gold now goes to a shop for Buzz, cosmetics and membership weeks.",
+      "summary": "Knights of New Order now has its own app at knights.civitai.com. Your rank came with you, and gold now goes to a shop for Buzz, cosmetics and membership weeks....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-24T00:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-22T05:50:43.291Z",
+      "scrapedAt": "2026-11-22T05:48:33.056Z",
+      "lastUpdated": "2026-11-22T05:50:43.291Z",
+      "version": 1
+    },
+    {
+      "id": "c_82ba0082758b",
+      "title": "Our 4th Birthday Event: Everyone Gets a Hat",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/1973",
+      "imageUrl": "",
+      "description": "It's our birthday, so everyone gets a free hat. Join a random color team, put hats on your best work, and win your team the Champion badge. All of November.",
+      "summary": "It's our birthday, so everyone gets a free hat. Join a random color team, put hats on your best work, and win your team the Champion badge. All of November....",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-01T00:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-22T05:50:44.324Z",
+      "scrapedAt": "2026-11-22T05:48:33.056Z",
+      "lastUpdated": "2026-11-22T05:50:44.324Z",
+      "version": 1
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "dataStructure": "ProcessedContest",
+    "lastUpdated": "2026-11-22T05:50:50.497Z"
+  }
+}

@@ -1,8 +1,37 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-22T05:50:50.497Z",
+  "timestamp": "2026-11-22T19:18:42.323Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_c8cf8dba5b68",
+      "title": "Train your own H3 Image LoRAs",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2553",
+      "imageUrl": "",
+      "description": "MiniMax H3 Image is in Training Studio now, about 1,450 Buzz for a default run.",
+      "summary": "MiniMax H3 Image is in Training Studio now, about 1,450 Buzz for a default run....",
+      "contestType": "image",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-06T18:40:00.000Z",
+      "prize": "450",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-22T19:18:33.475Z",
+      "scrapedAt": "2026-11-22T19:16:40.305Z",
+      "lastUpdated": "2026-11-22T19:18:33.475Z",
+      "version": 1
+    },
     {
       "id": "c_4ea325abf883",
       "title": "Showcase Sections: Pick What Your Profile Shows First",
@@ -27,9 +56,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T05:50:42.231Z",
-      "scrapedAt": "2026-11-22T05:48:33.055Z",
-      "lastUpdated": "2026-11-22T05:50:42.231Z",
+      "processedAt": "2026-11-22T19:18:33.488Z",
+      "scrapedAt": "2026-11-22T19:16:40.305Z",
+      "lastUpdated": "2026-11-22T19:18:33.488Z",
       "version": 1
     },
     {
@@ -56,9 +85,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T05:50:42.238Z",
-      "scrapedAt": "2026-11-22T05:48:33.055Z",
-      "lastUpdated": "2026-11-22T05:50:42.238Z",
+      "processedAt": "2026-11-22T19:18:33.456Z",
+      "scrapedAt": "2026-11-22T19:16:40.305Z",
+      "lastUpdated": "2026-11-22T19:18:33.456Z",
       "version": 1
     },
     {
@@ -85,9 +114,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T05:50:42.243Z",
-      "scrapedAt": "2026-11-22T05:48:33.055Z",
-      "lastUpdated": "2026-11-22T05:50:42.243Z",
+      "processedAt": "2026-11-22T19:18:33.568Z",
+      "scrapedAt": "2026-11-22T19:16:40.305Z",
+      "lastUpdated": "2026-11-22T19:18:33.568Z",
       "version": 1
     },
     {
@@ -114,9 +143,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T05:50:42.270Z",
-      "scrapedAt": "2026-11-22T05:48:33.055Z",
-      "lastUpdated": "2026-11-22T05:50:42.270Z",
+      "processedAt": "2026-11-22T19:18:34.580Z",
+      "scrapedAt": "2026-11-22T19:16:40.305Z",
+      "lastUpdated": "2026-11-22T19:18:34.580Z",
       "version": 1
     },
     {
@@ -140,9 +169,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T05:50:43.272Z",
-      "scrapedAt": "2026-11-22T05:48:33.055Z",
-      "lastUpdated": "2026-11-22T05:50:43.272Z",
+      "processedAt": "2026-11-22T19:18:34.584Z",
+      "scrapedAt": "2026-11-22T19:16:40.305Z",
+      "lastUpdated": "2026-11-22T19:18:34.584Z",
       "version": 1
     },
     {
@@ -167,9 +196,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T05:50:43.270Z",
-      "scrapedAt": "2026-11-22T05:48:33.056Z",
-      "lastUpdated": "2026-11-22T05:50:43.270Z",
+      "processedAt": "2026-11-22T19:18:34.603Z",
+      "scrapedAt": "2026-11-22T19:16:40.305Z",
+      "lastUpdated": "2026-11-22T19:18:34.603Z",
       "version": 1
     },
     {
@@ -194,36 +223,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T05:50:43.271Z",
-      "scrapedAt": "2026-11-22T05:48:33.056Z",
-      "lastUpdated": "2026-11-22T05:50:43.271Z",
-      "version": 1
-    },
-    {
-      "id": "c_eac36fa6ffc3",
-      "title": "MiniMax H3 Image is here",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/2412",
-      "imageUrl": "",
-      "description": "2K and 4K images, edits with up to 16 references, from 20 Buzz an image.",
-      "summary": "2K and 4K images, edits with up to 16 references, from 20 Buzz an image....",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-11-27T07:00:00.000Z",
-      "prize": "2000",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-22T05:50:43.274Z",
-      "scrapedAt": "2026-11-22T05:48:33.056Z",
-      "lastUpdated": "2026-11-22T05:50:43.274Z",
+      "processedAt": "2026-11-22T19:18:34.575Z",
+      "scrapedAt": "2026-11-22T19:16:40.305Z",
+      "lastUpdated": "2026-11-22T19:18:34.575Z",
       "version": 1
     },
     {
@@ -250,9 +252,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T05:50:43.291Z",
-      "scrapedAt": "2026-11-22T05:48:33.056Z",
-      "lastUpdated": "2026-11-22T05:50:43.291Z",
+      "processedAt": "2026-11-22T19:18:34.701Z",
+      "scrapedAt": "2026-11-22T19:16:40.305Z",
+      "lastUpdated": "2026-11-22T19:18:34.701Z",
       "version": 1
     },
     {
@@ -277,15 +279,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T05:50:44.324Z",
-      "scrapedAt": "2026-11-22T05:48:33.056Z",
-      "lastUpdated": "2026-11-22T05:50:44.324Z",
+      "processedAt": "2026-11-22T19:18:35.706Z",
+      "scrapedAt": "2026-11-22T19:16:40.305Z",
+      "lastUpdated": "2026-11-22T19:18:35.706Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-22T05:50:50.497Z"
+    "lastUpdated": "2026-11-22T19:18:42.323Z"
   }
 }

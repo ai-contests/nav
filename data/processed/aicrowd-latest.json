@@ -1,6 +1,6 @@
 {
   "platform": "aicrowd",
-  "timestamp": "2026-11-22T19:18:42.325Z",
+  "timestamp": "2026-11-23T06:35:45.487Z",
   "contestCount": 7,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2100-11-01T19:17:33.135Z",
+      "deadline": "2100-11-01T06:34:38.644Z",
       "prize": "TBD",
       "tags": [
         "Benchmark Challenge: Running"
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:31.416Z",
-      "scrapedAt": "2026-11-22T19:17:33.135Z",
-      "lastUpdated": "2026-11-22T19:18:31.416Z",
+      "processedAt": "2026-11-23T06:35:35.264Z",
+      "scrapedAt": "2026-11-23T06:34:38.644Z",
+      "lastUpdated": "2026-11-23T06:35:35.264Z",
       "version": 1
     },
     {
@@ -43,7 +43,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-14T19:17:33.135Z",
+      "deadline": "2030-08-15T06:34:38.645Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -54,9 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:32.354Z",
-      "scrapedAt": "2026-11-22T19:17:33.135Z",
-      "lastUpdated": "2026-11-22T19:18:32.354Z",
+      "processedAt": "2026-11-23T06:35:36.213Z",
+      "scrapedAt": "2026-11-23T06:34:38.645Z",
+      "lastUpdated": "2026-11-23T06:35:36.213Z",
       "version": 1
     },
     {
@@ -70,7 +70,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-08-31T19:17:33.136Z",
+      "deadline": "2045-09-01T06:34:38.645Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -81,14 +81,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:32.368Z",
-      "scrapedAt": "2026-11-22T19:17:33.136Z",
-      "lastUpdated": "2026-11-22T19:18:32.368Z",
+      "processedAt": "2026-11-23T06:35:36.212Z",
+      "scrapedAt": "2026-11-23T06:34:38.645Z",
+      "lastUpdated": "2026-11-23T06:35:36.212Z",
       "version": 1
     },
     {
       "id": "c_03552b946309",
-      "title": "MEDIQA 2021 - Question Summarization (QS)",
+      "title": "502 Bad Gateway",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/mediqa-2021-question-summarization-qs",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/644/MEDIQA-Background.jpg",
@@ -97,11 +97,10 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-30T19:17:33.136Z",
+      "deadline": "2030-12-31T06:34:38.646Z",
       "prize": "TBD",
       "tags": [
-        "nlp",
-        "Weight: 1.0"
+        "nlp"
       ],
       "aiTools": [
         "Python",
@@ -111,9 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:32.353Z",
-      "scrapedAt": "2026-11-22T19:17:33.136Z",
-      "lastUpdated": "2026-11-22T19:18:32.353Z",
+      "processedAt": "2026-11-23T06:35:36.214Z",
+      "scrapedAt": "2026-11-23T06:34:38.646Z",
+      "lastUpdated": "2026-11-23T06:35:36.214Z",
       "version": 1
     },
     {
@@ -127,7 +126,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2027-06-16T19:17:33.136Z",
+      "deadline": "2027-06-16T06:34:38.646Z",
       "prize": "TBD",
       "tags": [
         "#classroom"
@@ -140,9 +139,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:32.347Z",
-      "scrapedAt": "2026-11-22T19:17:33.136Z",
-      "lastUpdated": "2026-11-22T19:18:32.347Z",
+      "processedAt": "2026-11-23T06:35:36.211Z",
+      "scrapedAt": "2026-11-23T06:34:38.646Z",
+      "lastUpdated": "2026-11-23T06:35:36.211Z",
       "version": 1
     },
     {
@@ -168,9 +167,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:32.459Z",
-      "scrapedAt": "2026-11-22T19:17:33.137Z",
-      "lastUpdated": "2026-11-22T19:18:32.459Z",
+      "processedAt": "2026-11-23T06:35:36.233Z",
+      "scrapedAt": "2026-11-23T06:34:38.647Z",
+      "lastUpdated": "2026-11-23T06:35:36.233Z",
       "version": 1
     },
     {
@@ -194,15 +193,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:33.461Z",
-      "scrapedAt": "2026-11-22T19:17:33.138Z",
-      "lastUpdated": "2026-11-22T19:18:33.461Z",
+      "processedAt": "2026-11-23T06:35:37.239Z",
+      "scrapedAt": "2026-11-23T06:34:38.648Z",
+      "lastUpdated": "2026-11-23T06:35:37.239Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-22T19:18:42.325Z"
+    "lastUpdated": "2026-11-23T06:35:45.487Z"
   }
 }

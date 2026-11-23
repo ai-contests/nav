@@ -1,6 +1,6 @@
 {
   "platform": "all",
-  "timestamp": "2026-11-22T19:18:42.328Z",
+  "timestamp": "2026-11-23T06:35:45.490Z",
   "contestCount": 47,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2100-11-01T19:17:33.135Z",
+      "deadline": "2100-11-01T06:34:38.644Z",
       "prize": "TBD",
       "tags": [
         "Benchmark Challenge: Running"
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:31.416Z",
-      "scrapedAt": "2026-11-22T19:17:33.135Z",
-      "lastUpdated": "2026-11-22T19:18:31.416Z",
+      "processedAt": "2026-11-23T06:35:35.264Z",
+      "scrapedAt": "2026-11-23T06:34:38.644Z",
+      "lastUpdated": "2026-11-23T06:35:35.264Z",
       "version": 1
     },
     {
@@ -43,7 +43,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-14T19:17:33.135Z",
+      "deadline": "2030-08-15T06:34:38.645Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -54,9 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:32.354Z",
-      "scrapedAt": "2026-11-22T19:17:33.135Z",
-      "lastUpdated": "2026-11-22T19:18:32.354Z",
+      "processedAt": "2026-11-23T06:35:36.213Z",
+      "scrapedAt": "2026-11-23T06:34:38.645Z",
+      "lastUpdated": "2026-11-23T06:35:36.213Z",
       "version": 1
     },
     {
@@ -70,7 +70,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-08-31T19:17:33.136Z",
+      "deadline": "2045-09-01T06:34:38.645Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -81,14 +81,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:32.368Z",
-      "scrapedAt": "2026-11-22T19:17:33.136Z",
-      "lastUpdated": "2026-11-22T19:18:32.368Z",
+      "processedAt": "2026-11-23T06:35:36.212Z",
+      "scrapedAt": "2026-11-23T06:34:38.645Z",
+      "lastUpdated": "2026-11-23T06:35:36.212Z",
       "version": 1
     },
     {
       "id": "c_03552b946309",
-      "title": "MEDIQA 2021 - Question Summarization (QS)",
+      "title": "502 Bad Gateway",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/mediqa-2021-question-summarization-qs",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/644/MEDIQA-Background.jpg",
@@ -97,11 +97,10 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-30T19:17:33.136Z",
+      "deadline": "2030-12-31T06:34:38.646Z",
       "prize": "TBD",
       "tags": [
-        "nlp",
-        "Weight: 1.0"
+        "nlp"
       ],
       "aiTools": [
         "Python",
@@ -111,9 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:32.353Z",
-      "scrapedAt": "2026-11-22T19:17:33.136Z",
-      "lastUpdated": "2026-11-22T19:18:32.353Z",
+      "processedAt": "2026-11-23T06:35:36.214Z",
+      "scrapedAt": "2026-11-23T06:34:38.646Z",
+      "lastUpdated": "2026-11-23T06:35:36.214Z",
       "version": 1
     },
     {
@@ -127,7 +126,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2027-06-16T19:17:33.136Z",
+      "deadline": "2027-06-16T06:34:38.646Z",
       "prize": "TBD",
       "tags": [
         "#classroom"
@@ -140,9 +139,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:32.347Z",
-      "scrapedAt": "2026-11-22T19:17:33.136Z",
-      "lastUpdated": "2026-11-22T19:18:32.347Z",
+      "processedAt": "2026-11-23T06:35:36.211Z",
+      "scrapedAt": "2026-11-23T06:34:38.646Z",
+      "lastUpdated": "2026-11-23T06:35:36.211Z",
       "version": 1
     },
     {
@@ -168,9 +167,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:32.459Z",
-      "scrapedAt": "2026-11-22T19:17:33.137Z",
-      "lastUpdated": "2026-11-22T19:18:32.459Z",
+      "processedAt": "2026-11-23T06:35:36.233Z",
+      "scrapedAt": "2026-11-23T06:34:38.647Z",
+      "lastUpdated": "2026-11-23T06:35:36.233Z",
       "version": 1
     },
     {
@@ -194,9 +193,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:33.461Z",
-      "scrapedAt": "2026-11-22T19:17:33.138Z",
-      "lastUpdated": "2026-11-22T19:18:33.461Z",
+      "processedAt": "2026-11-23T06:35:37.239Z",
+      "scrapedAt": "2026-11-23T06:34:38.648Z",
+      "lastUpdated": "2026-11-23T06:35:37.239Z",
       "version": 1
     },
     {
@@ -223,9 +222,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:33.475Z",
-      "scrapedAt": "2026-11-22T19:16:40.305Z",
-      "lastUpdated": "2026-11-22T19:18:33.475Z",
+      "processedAt": "2026-11-23T06:35:37.240Z",
+      "scrapedAt": "2026-11-23T06:33:39.627Z",
+      "lastUpdated": "2026-11-23T06:35:37.240Z",
       "version": 1
     },
     {
@@ -252,9 +251,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:33.488Z",
-      "scrapedAt": "2026-11-22T19:16:40.305Z",
-      "lastUpdated": "2026-11-22T19:18:33.488Z",
+      "processedAt": "2026-11-23T06:35:37.248Z",
+      "scrapedAt": "2026-11-23T06:33:39.628Z",
+      "lastUpdated": "2026-11-23T06:35:37.248Z",
       "version": 1
     },
     {
@@ -281,9 +280,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:33.456Z",
-      "scrapedAt": "2026-11-22T19:16:40.305Z",
-      "lastUpdated": "2026-11-22T19:18:33.456Z",
+      "processedAt": "2026-11-23T06:35:37.242Z",
+      "scrapedAt": "2026-11-23T06:33:39.628Z",
+      "lastUpdated": "2026-11-23T06:35:37.242Z",
       "version": 1
     },
     {
@@ -310,9 +309,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:33.568Z",
-      "scrapedAt": "2026-11-22T19:16:40.305Z",
-      "lastUpdated": "2026-11-22T19:18:33.568Z",
+      "processedAt": "2026-11-23T06:35:37.271Z",
+      "scrapedAt": "2026-11-23T06:33:39.628Z",
+      "lastUpdated": "2026-11-23T06:35:37.271Z",
       "version": 1
     },
     {
@@ -339,9 +338,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:34.580Z",
-      "scrapedAt": "2026-11-22T19:16:40.305Z",
-      "lastUpdated": "2026-11-22T19:18:34.580Z",
+      "processedAt": "2026-11-23T06:35:38.275Z",
+      "scrapedAt": "2026-11-23T06:33:39.628Z",
+      "lastUpdated": "2026-11-23T06:35:38.275Z",
       "version": 1
     },
     {
@@ -365,9 +364,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:34.584Z",
-      "scrapedAt": "2026-11-22T19:16:40.305Z",
-      "lastUpdated": "2026-11-22T19:18:34.584Z",
+      "processedAt": "2026-11-23T06:35:38.272Z",
+      "scrapedAt": "2026-11-23T06:33:39.628Z",
+      "lastUpdated": "2026-11-23T06:35:38.272Z",
       "version": 1
     },
     {
@@ -392,9 +391,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:34.603Z",
-      "scrapedAt": "2026-11-22T19:16:40.305Z",
-      "lastUpdated": "2026-11-22T19:18:34.603Z",
+      "processedAt": "2026-11-23T06:35:38.276Z",
+      "scrapedAt": "2026-11-23T06:33:39.628Z",
+      "lastUpdated": "2026-11-23T06:35:38.276Z",
       "version": 1
     },
     {
@@ -419,9 +418,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:34.575Z",
-      "scrapedAt": "2026-11-22T19:16:40.305Z",
-      "lastUpdated": "2026-11-22T19:18:34.575Z",
+      "processedAt": "2026-11-23T06:35:38.279Z",
+      "scrapedAt": "2026-11-23T06:33:39.628Z",
+      "lastUpdated": "2026-11-23T06:35:38.279Z",
       "version": 1
     },
     {
@@ -448,9 +447,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:34.701Z",
-      "scrapedAt": "2026-11-22T19:16:40.305Z",
-      "lastUpdated": "2026-11-22T19:18:34.701Z",
+      "processedAt": "2026-11-23T06:35:38.300Z",
+      "scrapedAt": "2026-11-23T06:33:39.628Z",
+      "lastUpdated": "2026-11-23T06:35:38.300Z",
       "version": 1
     },
     {
@@ -475,9 +474,68 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:35.706Z",
-      "scrapedAt": "2026-11-22T19:16:40.305Z",
-      "lastUpdated": "2026-11-22T19:18:35.706Z",
+      "processedAt": "2026-11-23T06:35:39.305Z",
+      "scrapedAt": "2026-11-23T06:33:39.628Z",
+      "lastUpdated": "2026-11-23T06:35:39.305Z",
+      "version": 1
+    },
+    {
+      "id": "c_19eab39b8f8a",
+      "title": "2026魔搭开发者大会",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/437",
+      "imageUrl": "",
+      "description": "2026 魔搭开发者大会将于 12 月 12 日在上海西岸N馆举行，来自全球领先 AI 研发团队、科技企业与开源社区的技术领袖及先锋开发者将齐聚一堂，围绕前沿大模型、AI Agent、多模态技术与产业实践，分享最新技术成果与实战经验，共赴一场全球 AI 开源盛会。",
+      "summary": "2026 魔搭开发者大会将于 12 月 12 日在上海西岸N馆举行，来自全球领先 AI 研发团队、科技企业与开源社区的技术领袖及先锋开发者将齐聚一堂，围绕前沿大模型、AI Agent、多模态技术与产业实践，分享最新技术成果与实战经验，共赴一场全球 AI 开源盛会。...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-10T16:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-23T06:35:39.301Z",
+      "scrapedAt": "2026-11-23T06:33:26.813Z",
+      "lastUpdated": "2026-11-23T06:35:39.301Z",
+      "version": 1
+    },
+    {
+      "id": "c_ad4dc317f30f",
+      "title": "2026 SPARK S全球AI硬件创新大赛正式启动",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/439",
+      "imageUrl": "",
+      "description": "大赛旨在面向全球招募具有技术创新能力、产品基础和成长潜力的AI硬件项目，助力硬科技从概念走向落地。\n\n🚀 做 AI 硬件的朋友，这次值得认真看看！样机做出来了，接下来融资、工程化、量产、找客户、出海……每一步都不容易。2026 SPARK S 全球 AI 硬件创新大赛正式开启全球项目征集！这次，我们希望把真正有价值的资源带给创业团队：💰 资本支持｜年度十强优先对接 200万—3000万元梯度投资机会，符合条件的团队可申报最高 1500万元人才政策资助。🛠️ 深度陪跑｜杭创营创业教练持续支持，链接产品工程化、供应链、PMF验证、品牌增长等资源。🌍 全球市场｜联合涂鸦智能等产业伙伴，对接海外渠道、国际客户及CES等国际科技展会资源。🏠 落地支持｜总决赛约30强可获得技术平台支持，有意来杭州发展的团队还可按条件对接6个月免租空间等服务。有可展示、可验证的AI硬件样机即可参赛，早期项目不要求已有订单或营收。高校科研团队、初创企业都欢迎！🏆 12月中旬全球总决赛，角逐年度「十佳智创先锋奖」。如果你正在认真做一款AI硬件产品，欢迎来SPARK S 2026！也欢迎帮忙推荐身边优秀的硬件创业者。👇 具体权益和报名二维码见长图。投资、政策及相关资源支持以实际评审、适用条件和投资决策为准。",
+      "summary": "大赛旨在面向全球招募具有技术创新能力、产品基础和成长潜力的AI硬件项目，助力硬科技从概念走向落地。\n\n🚀 做 AI 硬件的朋友，这次值得认真看看！样机做出来了，接下来融资、工程化、量产、找客户、出海……每一步都不容易。2026 SPARK S 全球 AI 硬件创新大赛正式开启全球项目征集！这次，我们希望把真正有价值的资源带给创业团队：💰 资本支持｜年度十强优先对接 200万—3000万元梯度投...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-10T15:00:00.000Z",
+      "prize": "0",
+      "tags": [
+        "应用开发赛",
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-23T06:35:39.326Z",
+      "scrapedAt": "2026-11-23T06:33:26.815Z",
+      "lastUpdated": "2026-11-23T06:35:39.327Z",
       "version": 1
     },
     {
@@ -505,9 +563,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:35.689Z",
-      "scrapedAt": "2026-11-22T19:16:29.047Z",
-      "lastUpdated": "2026-11-22T19:18:35.689Z",
+      "processedAt": "2026-11-23T06:35:39.306Z",
+      "scrapedAt": "2026-11-23T06:33:26.815Z",
+      "lastUpdated": "2026-11-23T06:35:39.306Z",
       "version": 1
     },
     {
@@ -534,9 +592,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:35.708Z",
-      "scrapedAt": "2026-11-22T19:16:29.047Z",
-      "lastUpdated": "2026-11-22T19:18:35.708Z",
+      "processedAt": "2026-11-23T06:35:39.346Z",
+      "scrapedAt": "2026-11-23T06:33:26.815Z",
+      "lastUpdated": "2026-11-23T06:35:39.346Z",
       "version": 1
     },
     {
@@ -561,9 +619,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:35.688Z",
-      "scrapedAt": "2026-11-22T19:16:29.047Z",
-      "lastUpdated": "2026-11-22T19:18:35.688Z",
+      "processedAt": "2026-11-23T06:35:40.351Z",
+      "scrapedAt": "2026-11-23T06:33:26.815Z",
+      "lastUpdated": "2026-11-23T06:35:40.351Z",
       "version": 1
     },
     {
@@ -588,9 +646,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:35.808Z",
-      "scrapedAt": "2026-11-22T19:16:29.047Z",
-      "lastUpdated": "2026-11-22T19:18:35.808Z",
+      "processedAt": "2026-11-23T06:35:40.351Z",
+      "scrapedAt": "2026-11-23T06:33:26.815Z",
+      "lastUpdated": "2026-11-23T06:35:40.351Z",
       "version": 1
     },
     {
@@ -617,9 +675,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:36.792Z",
-      "scrapedAt": "2026-11-22T19:16:29.047Z",
-      "lastUpdated": "2026-11-22T19:18:36.792Z",
+      "processedAt": "2026-11-23T06:35:40.355Z",
+      "scrapedAt": "2026-11-23T06:33:26.815Z",
+      "lastUpdated": "2026-11-23T06:35:40.355Z",
       "version": 1
     },
     {
@@ -646,9 +704,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:36.804Z",
-      "scrapedAt": "2026-11-22T19:16:29.047Z",
-      "lastUpdated": "2026-11-22T19:18:36.804Z",
+      "processedAt": "2026-11-23T06:35:40.354Z",
+      "scrapedAt": "2026-11-23T06:33:26.816Z",
+      "lastUpdated": "2026-11-23T06:35:40.354Z",
       "version": 1
     },
     {
@@ -675,9 +733,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:36.814Z",
-      "scrapedAt": "2026-11-22T19:16:29.064Z",
-      "lastUpdated": "2026-11-22T19:18:36.814Z",
+      "processedAt": "2026-11-23T06:35:40.375Z",
+      "scrapedAt": "2026-11-23T06:33:26.820Z",
+      "lastUpdated": "2026-11-23T06:35:40.375Z",
       "version": 1
     },
     {
@@ -708,67 +766,9 @@
         "前3名优先承接任务"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:36.801Z",
-      "scrapedAt": "2026-11-22T19:16:29.065Z",
-      "lastUpdated": "2026-11-22T19:18:36.801Z",
-      "version": 1
-    },
-    {
-      "id": "c_19eab39b8f8a",
-      "title": "2026魔搭开发者大会",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/437",
-      "imageUrl": "",
-      "description": "2026 魔搭开发者大会将于 12 月 12 日在上海西岸举行，来自全球领先 AI 研发团队、科技企业与开源社区的技术领袖及先锋开发者将齐聚一堂，围绕前沿大模型、AI Agent、多模态技术与产业实践，分享最新技术成果与实战经验，共赴一场全球 AI 开源盛会。\n\n2026 魔搭开发者大会将于 12 月 12 日在上海西岸N馆举行，来自全球领先 AI 研发团队、科技企业与开源社区的技术领袖及先锋开发者将齐聚一堂，围绕前沿大模型、AI Agent、多模态技术与产业实践，分享最新技术成果与实战经验，共赴一场全球 AI 开源盛会。",
-      "summary": "2026 魔搭开发者大会将于 12 月 12 日在上海西岸举行，来自全球领先 AI 研发团队、科技企业与开源社区的技术领袖及先锋开发者将齐聚一堂，围绕前沿大模型、AI Agent、多模态技术与产业实践，分享最新技术成果与实战经验，共赴一场全球 AI 开源盛会。\n\n2026 魔搭开发者大会将于 12 月 12 日在上海西岸N馆举行，来自全球领先 AI 研发团队、科技企业与开源社区的技术领袖及先锋开发...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-12-10T16:00:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:36.914Z",
-      "scrapedAt": "2026-11-22T19:16:29.065Z",
-      "lastUpdated": "2026-11-22T19:18:36.914Z",
-      "version": 1
-    },
-    {
-      "id": "c_3797f188f8ba",
-      "title": "魔搭社区 X 虹桥国际科技周黑客松｜选手火热招募🚀",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/432",
-      "imageUrl": "",
-      "description": "✨报名参赛即可领取 1000 元基础算力✨ 确认线下到场参赛，还可解锁额外算力资源！\n\n✨报名参赛即可领取 1000 元基础算力✨确认线下到场参赛，还可解锁额外算力资源！📍上海国家会展中心，直面5 万 + 专业参展观众，你的项目直接曝光给行业人群🎯三大赛道：AI + 出海｜AI+Agent｜AI + 智能硬件💰现金奖金、神秘硬件、DoBeHub 月卡福利🎁魔搭社区十万魔粒值奖金池👥支持个人报名，自行组队；学生、开发者、AI 创意爱好者均可参与⏰报名截止：11 月 15 日 22:00📝作品提交截止：11 月 18 日 22:00🗓线下活动：11.20‑11.22，分赛道游园会 + 路演 + 现场颁奖🚀报名链接：https://qutansuo.cn/e/01a1aa5a-730a-7168-8aba-46b761188e5a?share=Din-xLO0aCThJKJmhFM4hurCGG5dzAge📖完整参赛指南：https://scn11bez11y3.feishu.cn/wiki/JYO4wJr6biNJD1knicUcxk4vnfb?from=from_copylink",
-      "summary": "✨报名参赛即可领取 1000 元基础算力✨ 确认线下到场参赛，还可解锁额外算力资源！\n\n✨报名参赛即可领取 1000 元基础算力✨确认线下到场参赛，还可解锁额外算力资源！📍上海国家会展中心，直面5 万 + 专业参展观众，你的项目直接曝光给行业人群🎯三大赛道：AI + 出海｜AI+Agent｜AI + 智能硬件💰现金奖金、神秘硬件、DoBeHub 月卡福利🎁魔搭社区十万魔粒值奖金池👥支持个...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-11-15T14:00:00.000Z",
-      "prize": "现金奖金、神秘硬件、魔粒值",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:37.898Z",
-      "scrapedAt": "2026-11-22T19:16:29.065Z",
-      "lastUpdated": "2026-11-22T19:18:37.898Z",
+      "processedAt": "2026-11-23T06:35:41.380Z",
+      "scrapedAt": "2026-11-23T06:33:26.821Z",
+      "lastUpdated": "2026-11-23T06:35:41.380Z",
       "version": 1
     },
     {
@@ -782,7 +782,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-12-12T19:17:37.456Z",
+      "deadline": "2026-12-13T06:34:42.238Z",
       "prize": "$40 000 USD",
       "tags": [
         "ai"
@@ -795,36 +795,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:37.897Z",
-      "scrapedAt": "2026-11-22T19:17:37.457Z",
-      "lastUpdated": "2026-11-22T19:18:37.897Z",
-      "version": 1
-    },
-    {
-      "id": "c_d0302f2c6c51",
-      "title": "Underwater Vessel Noise Challenge by the French Embassy in South Africa",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/french-embassy-underwater-vessel-noise-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-12-13T19:17:37.457Z",
-      "prize": "$5 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:37.916Z",
-      "scrapedAt": "2026-11-22T19:17:37.457Z",
-      "lastUpdated": "2026-11-22T19:18:37.916Z",
+      "processedAt": "2026-11-23T06:35:41.379Z",
+      "scrapedAt": "2026-11-23T06:34:42.239Z",
+      "lastUpdated": "2026-11-23T06:35:41.379Z",
       "version": 1
     },
     {
@@ -838,7 +811,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-12-13T19:17:37.457Z",
+      "deadline": "2026-12-13T06:34:42.239Z",
       "prize": "$2 500 USD",
       "tags": [],
       "aiTools": [
@@ -849,9 +822,36 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:37.904Z",
-      "scrapedAt": "2026-11-22T19:17:37.457Z",
-      "lastUpdated": "2026-11-22T19:18:37.904Z",
+      "processedAt": "2026-11-23T06:35:41.381Z",
+      "scrapedAt": "2026-11-23T06:34:42.239Z",
+      "lastUpdated": "2026-11-23T06:35:41.381Z",
+      "version": 1
+    },
+    {
+      "id": "c_d0302f2c6c51",
+      "title": "Underwater Vessel Noise Challenge by the French Embassy in South Africa",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/french-embassy-underwater-vessel-noise-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-13T06:34:42.239Z",
+      "prize": "$5 000 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-23T06:35:41.382Z",
+      "scrapedAt": "2026-11-23T06:34:42.239Z",
+      "lastUpdated": "2026-11-23T06:35:41.382Z",
       "version": 1
     },
     {
@@ -865,7 +865,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-12-13T19:17:37.457Z",
+      "deadline": "2026-12-14T06:34:42.239Z",
       "prize": "$5 000 USD",
       "tags": [],
       "aiTools": [
@@ -876,9 +876,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:38.015Z",
-      "scrapedAt": "2026-11-22T19:17:37.457Z",
-      "lastUpdated": "2026-11-22T19:18:38.015Z",
+      "processedAt": "2026-11-23T06:35:41.401Z",
+      "scrapedAt": "2026-11-23T06:34:42.240Z",
+      "lastUpdated": "2026-11-23T06:35:41.401Z",
       "version": 1
     },
     {
@@ -892,7 +892,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-12-13T19:17:37.457Z",
+      "deadline": "2026-12-14T06:34:42.240Z",
       "prize": "$5 000 USD",
       "tags": [],
       "aiTools": [
@@ -903,9 +903,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:39.001Z",
-      "scrapedAt": "2026-11-22T19:17:37.457Z",
-      "lastUpdated": "2026-11-22T19:18:39.001Z",
+      "processedAt": "2026-11-23T06:35:42.407Z",
+      "scrapedAt": "2026-11-23T06:34:42.240Z",
+      "lastUpdated": "2026-11-23T06:35:42.407Z",
       "version": 1
     },
     {
@@ -929,9 +929,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:39.002Z",
-      "scrapedAt": "2026-11-22T19:17:37.458Z",
-      "lastUpdated": "2026-11-22T19:18:39.002Z",
+      "processedAt": "2026-11-23T06:35:42.407Z",
+      "scrapedAt": "2026-11-23T06:34:42.240Z",
+      "lastUpdated": "2026-11-23T06:35:42.407Z",
       "version": 1
     },
     {
@@ -957,9 +957,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:39.005Z",
-      "scrapedAt": "2026-11-22T19:17:37.458Z",
-      "lastUpdated": "2026-11-22T19:18:39.005Z",
+      "processedAt": "2026-11-23T06:35:42.408Z",
+      "scrapedAt": "2026-11-23T06:34:42.241Z",
+      "lastUpdated": "2026-11-23T06:35:42.408Z",
       "version": 1
     },
     {
@@ -973,7 +973,7 @@
       "contestType": "mixed",
       "status": "upcoming",
       "difficulty": "intermediate",
-      "deadline": "2026-12-11T19:17:37.458Z",
+      "deadline": "2026-12-11T06:34:42.241Z",
       "prize": "$10 000 USD",
       "tags": [],
       "aiTools": [
@@ -984,9 +984,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:38.999Z",
-      "scrapedAt": "2026-11-22T19:17:37.458Z",
-      "lastUpdated": "2026-11-22T19:18:38.999Z",
+      "processedAt": "2026-11-23T06:35:42.410Z",
+      "scrapedAt": "2026-11-23T06:34:42.241Z",
+      "lastUpdated": "2026-11-23T06:35:42.410Z",
       "version": 1
     },
     {
@@ -1012,9 +1012,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:39.107Z",
-      "scrapedAt": "2026-11-22T19:17:37.458Z",
-      "lastUpdated": "2026-11-22T19:18:39.107Z",
+      "processedAt": "2026-11-23T06:35:42.430Z",
+      "scrapedAt": "2026-11-23T06:34:42.241Z",
+      "lastUpdated": "2026-11-23T06:35:42.430Z",
       "version": 1
     },
     {
@@ -1028,7 +1028,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-11-27T19:17:37.458Z",
+      "deadline": "2026-11-27T06:34:42.241Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -1038,9 +1038,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:40.092Z",
-      "scrapedAt": "2026-11-22T19:17:37.459Z",
-      "lastUpdated": "2026-11-22T19:18:40.092Z",
+      "processedAt": "2026-11-23T06:35:43.432Z",
+      "scrapedAt": "2026-11-23T06:34:42.241Z",
+      "lastUpdated": "2026-11-23T06:35:43.432Z",
       "version": 1
     },
     {
@@ -1064,9 +1064,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:40.115Z",
-      "scrapedAt": "2026-11-22T19:17:37.459Z",
-      "lastUpdated": "2026-11-22T19:18:40.115Z",
+      "processedAt": "2026-11-23T06:35:43.431Z",
+      "scrapedAt": "2026-11-23T06:34:42.242Z",
+      "lastUpdated": "2026-11-23T06:35:43.431Z",
       "version": 1
     },
     {
@@ -1090,9 +1090,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:40.092Z",
-      "scrapedAt": "2026-11-22T19:17:37.459Z",
-      "lastUpdated": "2026-11-22T19:18:40.092Z",
+      "processedAt": "2026-11-23T06:35:43.433Z",
+      "scrapedAt": "2026-11-23T06:34:42.242Z",
+      "lastUpdated": "2026-11-23T06:35:43.433Z",
       "version": 1
     },
     {
@@ -1116,9 +1116,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:40.093Z",
-      "scrapedAt": "2026-11-22T19:17:37.459Z",
-      "lastUpdated": "2026-11-22T19:18:40.093Z",
+      "processedAt": "2026-11-23T06:35:43.435Z",
+      "scrapedAt": "2026-11-23T06:34:42.242Z",
+      "lastUpdated": "2026-11-23T06:35:43.435Z",
       "version": 1
     },
     {
@@ -1142,9 +1142,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:40.221Z",
-      "scrapedAt": "2026-11-22T19:17:37.460Z",
-      "lastUpdated": "2026-11-22T19:18:40.221Z",
+      "processedAt": "2026-11-23T06:35:43.454Z",
+      "scrapedAt": "2026-11-23T06:34:42.242Z",
+      "lastUpdated": "2026-11-23T06:35:43.454Z",
       "version": 1
     },
     {
@@ -1168,9 +1168,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:41.199Z",
-      "scrapedAt": "2026-11-22T19:17:37.460Z",
-      "lastUpdated": "2026-11-22T19:18:41.199Z",
+      "processedAt": "2026-11-23T06:35:44.458Z",
+      "scrapedAt": "2026-11-23T06:34:42.243Z",
+      "lastUpdated": "2026-11-23T06:35:44.458Z",
       "version": 1
     },
     {
@@ -1195,9 +1195,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:41.219Z",
-      "scrapedAt": "2026-11-22T19:17:37.460Z",
-      "lastUpdated": "2026-11-22T19:18:41.219Z",
+      "processedAt": "2026-11-23T06:35:44.459Z",
+      "scrapedAt": "2026-11-23T06:34:42.243Z",
+      "lastUpdated": "2026-11-23T06:35:44.459Z",
       "version": 1
     },
     {
@@ -1221,9 +1221,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:41.227Z",
-      "scrapedAt": "2026-11-22T19:17:37.462Z",
-      "lastUpdated": "2026-11-22T19:18:41.227Z",
+      "processedAt": "2026-11-23T06:35:44.459Z",
+      "scrapedAt": "2026-11-23T06:34:42.243Z",
+      "lastUpdated": "2026-11-23T06:35:44.459Z",
       "version": 1
     },
     {
@@ -1247,9 +1247,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:41.197Z",
-      "scrapedAt": "2026-11-22T19:17:37.463Z",
-      "lastUpdated": "2026-11-22T19:18:41.197Z",
+      "processedAt": "2026-11-23T06:35:44.461Z",
+      "scrapedAt": "2026-11-23T06:34:42.244Z",
+      "lastUpdated": "2026-11-23T06:35:44.461Z",
       "version": 1
     },
     {
@@ -1273,9 +1273,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:41.319Z",
-      "scrapedAt": "2026-11-22T19:17:37.463Z",
-      "lastUpdated": "2026-11-22T19:18:41.319Z",
+      "processedAt": "2026-11-23T06:35:44.479Z",
+      "scrapedAt": "2026-11-23T06:34:42.244Z",
+      "lastUpdated": "2026-11-23T06:35:44.479Z",
       "version": 1
     },
     {
@@ -1299,15 +1299,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:42.318Z",
-      "scrapedAt": "2026-11-22T19:17:37.463Z",
-      "lastUpdated": "2026-11-22T19:18:42.318Z",
+      "processedAt": "2026-11-23T06:35:45.482Z",
+      "scrapedAt": "2026-11-23T06:34:42.244Z",
+      "lastUpdated": "2026-11-23T06:35:45.482Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-22T19:18:42.328Z"
+    "lastUpdated": "2026-11-23T06:35:45.490Z"
   }
 }

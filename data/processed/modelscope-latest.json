@@ -1,8 +1,67 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-11-22T19:18:42.320Z",
+  "timestamp": "2026-11-23T06:35:45.483Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_19eab39b8f8a",
+      "title": "2026魔搭开发者大会",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/437",
+      "imageUrl": "",
+      "description": "2026 魔搭开发者大会将于 12 月 12 日在上海西岸N馆举行，来自全球领先 AI 研发团队、科技企业与开源社区的技术领袖及先锋开发者将齐聚一堂，围绕前沿大模型、AI Agent、多模态技术与产业实践，分享最新技术成果与实战经验，共赴一场全球 AI 开源盛会。",
+      "summary": "2026 魔搭开发者大会将于 12 月 12 日在上海西岸N馆举行，来自全球领先 AI 研发团队、科技企业与开源社区的技术领袖及先锋开发者将齐聚一堂，围绕前沿大模型、AI Agent、多模态技术与产业实践，分享最新技术成果与实战经验，共赴一场全球 AI 开源盛会。...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-10T16:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-23T06:35:39.301Z",
+      "scrapedAt": "2026-11-23T06:33:26.813Z",
+      "lastUpdated": "2026-11-23T06:35:39.301Z",
+      "version": 1
+    },
+    {
+      "id": "c_ad4dc317f30f",
+      "title": "2026 SPARK S全球AI硬件创新大赛正式启动",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/439",
+      "imageUrl": "",
+      "description": "大赛旨在面向全球招募具有技术创新能力、产品基础和成长潜力的AI硬件项目，助力硬科技从概念走向落地。\n\n🚀 做 AI 硬件的朋友，这次值得认真看看！样机做出来了，接下来融资、工程化、量产、找客户、出海……每一步都不容易。2026 SPARK S 全球 AI 硬件创新大赛正式开启全球项目征集！这次，我们希望把真正有价值的资源带给创业团队：💰 资本支持｜年度十强优先对接 200万—3000万元梯度投资机会，符合条件的团队可申报最高 1500万元人才政策资助。🛠️ 深度陪跑｜杭创营创业教练持续支持，链接产品工程化、供应链、PMF验证、品牌增长等资源。🌍 全球市场｜联合涂鸦智能等产业伙伴，对接海外渠道、国际客户及CES等国际科技展会资源。🏠 落地支持｜总决赛约30强可获得技术平台支持，有意来杭州发展的团队还可按条件对接6个月免租空间等服务。有可展示、可验证的AI硬件样机即可参赛，早期项目不要求已有订单或营收。高校科研团队、初创企业都欢迎！🏆 12月中旬全球总决赛，角逐年度「十佳智创先锋奖」。如果你正在认真做一款AI硬件产品，欢迎来SPARK S 2026！也欢迎帮忙推荐身边优秀的硬件创业者。👇 具体权益和报名二维码见长图。投资、政策及相关资源支持以实际评审、适用条件和投资决策为准。",
+      "summary": "大赛旨在面向全球招募具有技术创新能力、产品基础和成长潜力的AI硬件项目，助力硬科技从概念走向落地。\n\n🚀 做 AI 硬件的朋友，这次值得认真看看！样机做出来了，接下来融资、工程化、量产、找客户、出海……每一步都不容易。2026 SPARK S 全球 AI 硬件创新大赛正式开启全球项目征集！这次，我们希望把真正有价值的资源带给创业团队：💰 资本支持｜年度十强优先对接 200万—3000万元梯度投...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-10T15:00:00.000Z",
+      "prize": "0",
+      "tags": [
+        "应用开发赛",
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-23T06:35:39.326Z",
+      "scrapedAt": "2026-11-23T06:33:26.815Z",
+      "lastUpdated": "2026-11-23T06:35:39.327Z",
+      "version": 1
+    },
     {
       "id": "c_ce68cae31793",
       "title": "AI造游戏，人人都是游戏制作人｜AI+∞开发者创作大赛第三期",
@@ -28,9 +87,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:35.689Z",
-      "scrapedAt": "2026-11-22T19:16:29.047Z",
-      "lastUpdated": "2026-11-22T19:18:35.689Z",
+      "processedAt": "2026-11-23T06:35:39.306Z",
+      "scrapedAt": "2026-11-23T06:33:26.815Z",
+      "lastUpdated": "2026-11-23T06:35:39.306Z",
       "version": 1
     },
     {
@@ -57,9 +116,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:35.708Z",
-      "scrapedAt": "2026-11-22T19:16:29.047Z",
-      "lastUpdated": "2026-11-22T19:18:35.708Z",
+      "processedAt": "2026-11-23T06:35:39.346Z",
+      "scrapedAt": "2026-11-23T06:33:26.815Z",
+      "lastUpdated": "2026-11-23T06:35:39.346Z",
       "version": 1
     },
     {
@@ -84,9 +143,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:35.688Z",
-      "scrapedAt": "2026-11-22T19:16:29.047Z",
-      "lastUpdated": "2026-11-22T19:18:35.688Z",
+      "processedAt": "2026-11-23T06:35:40.351Z",
+      "scrapedAt": "2026-11-23T06:33:26.815Z",
+      "lastUpdated": "2026-11-23T06:35:40.351Z",
       "version": 1
     },
     {
@@ -111,9 +170,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:35.808Z",
-      "scrapedAt": "2026-11-22T19:16:29.047Z",
-      "lastUpdated": "2026-11-22T19:18:35.808Z",
+      "processedAt": "2026-11-23T06:35:40.351Z",
+      "scrapedAt": "2026-11-23T06:33:26.815Z",
+      "lastUpdated": "2026-11-23T06:35:40.351Z",
       "version": 1
     },
     {
@@ -140,9 +199,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:36.792Z",
-      "scrapedAt": "2026-11-22T19:16:29.047Z",
-      "lastUpdated": "2026-11-22T19:18:36.792Z",
+      "processedAt": "2026-11-23T06:35:40.355Z",
+      "scrapedAt": "2026-11-23T06:33:26.815Z",
+      "lastUpdated": "2026-11-23T06:35:40.355Z",
       "version": 1
     },
     {
@@ -169,9 +228,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:36.804Z",
-      "scrapedAt": "2026-11-22T19:16:29.047Z",
-      "lastUpdated": "2026-11-22T19:18:36.804Z",
+      "processedAt": "2026-11-23T06:35:40.354Z",
+      "scrapedAt": "2026-11-23T06:33:26.816Z",
+      "lastUpdated": "2026-11-23T06:35:40.354Z",
       "version": 1
     },
     {
@@ -198,9 +257,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:36.814Z",
-      "scrapedAt": "2026-11-22T19:16:29.064Z",
-      "lastUpdated": "2026-11-22T19:18:36.814Z",
+      "processedAt": "2026-11-23T06:35:40.375Z",
+      "scrapedAt": "2026-11-23T06:33:26.820Z",
+      "lastUpdated": "2026-11-23T06:35:40.375Z",
       "version": 1
     },
     {
@@ -231,73 +290,15 @@
         "前3名优先承接任务"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:36.801Z",
-      "scrapedAt": "2026-11-22T19:16:29.065Z",
-      "lastUpdated": "2026-11-22T19:18:36.801Z",
-      "version": 1
-    },
-    {
-      "id": "c_19eab39b8f8a",
-      "title": "2026魔搭开发者大会",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/437",
-      "imageUrl": "",
-      "description": "2026 魔搭开发者大会将于 12 月 12 日在上海西岸举行，来自全球领先 AI 研发团队、科技企业与开源社区的技术领袖及先锋开发者将齐聚一堂，围绕前沿大模型、AI Agent、多模态技术与产业实践，分享最新技术成果与实战经验，共赴一场全球 AI 开源盛会。\n\n2026 魔搭开发者大会将于 12 月 12 日在上海西岸N馆举行，来自全球领先 AI 研发团队、科技企业与开源社区的技术领袖及先锋开发者将齐聚一堂，围绕前沿大模型、AI Agent、多模态技术与产业实践，分享最新技术成果与实战经验，共赴一场全球 AI 开源盛会。",
-      "summary": "2026 魔搭开发者大会将于 12 月 12 日在上海西岸举行，来自全球领先 AI 研发团队、科技企业与开源社区的技术领袖及先锋开发者将齐聚一堂，围绕前沿大模型、AI Agent、多模态技术与产业实践，分享最新技术成果与实战经验，共赴一场全球 AI 开源盛会。\n\n2026 魔搭开发者大会将于 12 月 12 日在上海西岸N馆举行，来自全球领先 AI 研发团队、科技企业与开源社区的技术领袖及先锋开发...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-12-10T16:00:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:36.914Z",
-      "scrapedAt": "2026-11-22T19:16:29.065Z",
-      "lastUpdated": "2026-11-22T19:18:36.914Z",
-      "version": 1
-    },
-    {
-      "id": "c_3797f188f8ba",
-      "title": "魔搭社区 X 虹桥国际科技周黑客松｜选手火热招募🚀",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/432",
-      "imageUrl": "",
-      "description": "✨报名参赛即可领取 1000 元基础算力✨ 确认线下到场参赛，还可解锁额外算力资源！\n\n✨报名参赛即可领取 1000 元基础算力✨确认线下到场参赛，还可解锁额外算力资源！📍上海国家会展中心，直面5 万 + 专业参展观众，你的项目直接曝光给行业人群🎯三大赛道：AI + 出海｜AI+Agent｜AI + 智能硬件💰现金奖金、神秘硬件、DoBeHub 月卡福利🎁魔搭社区十万魔粒值奖金池👥支持个人报名，自行组队；学生、开发者、AI 创意爱好者均可参与⏰报名截止：11 月 15 日 22:00📝作品提交截止：11 月 18 日 22:00🗓线下活动：11.20‑11.22，分赛道游园会 + 路演 + 现场颁奖🚀报名链接：https://qutansuo.cn/e/01a1aa5a-730a-7168-8aba-46b761188e5a?share=Din-xLO0aCThJKJmhFM4hurCGG5dzAge📖完整参赛指南：https://scn11bez11y3.feishu.cn/wiki/JYO4wJr6biNJD1knicUcxk4vnfb?from=from_copylink",
-      "summary": "✨报名参赛即可领取 1000 元基础算力✨ 确认线下到场参赛，还可解锁额外算力资源！\n\n✨报名参赛即可领取 1000 元基础算力✨确认线下到场参赛，还可解锁额外算力资源！📍上海国家会展中心，直面5 万 + 专业参展观众，你的项目直接曝光给行业人群🎯三大赛道：AI + 出海｜AI+Agent｜AI + 智能硬件💰现金奖金、神秘硬件、DoBeHub 月卡福利🎁魔搭社区十万魔粒值奖金池👥支持个...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-11-15T14:00:00.000Z",
-      "prize": "现金奖金、神秘硬件、魔粒值",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-22T19:18:37.898Z",
-      "scrapedAt": "2026-11-22T19:16:29.065Z",
-      "lastUpdated": "2026-11-22T19:18:37.898Z",
+      "processedAt": "2026-11-23T06:35:41.380Z",
+      "scrapedAt": "2026-11-23T06:33:26.821Z",
+      "lastUpdated": "2026-11-23T06:35:41.380Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-22T19:18:42.320Z"
+    "lastUpdated": "2026-11-23T06:35:45.483Z"
   }
 }

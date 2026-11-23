@@ -1,6 +1,6 @@
 {
   "platform": "all",
-  "timestamp": "2026-11-23T06:35:45.490Z",
+  "timestamp": "2026-11-23T23:40:49.533Z",
   "contestCount": 47,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2100-11-01T06:34:38.644Z",
+      "deadline": "2100-10-31T23:39:42.728Z",
       "prize": "TBD",
       "tags": [
         "Benchmark Challenge: Running"
@@ -27,9 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:35.264Z",
-      "scrapedAt": "2026-11-23T06:34:38.644Z",
-      "lastUpdated": "2026-11-23T06:35:35.264Z",
+      "processedAt": "2026-11-23T23:40:39.255Z",
+      "scrapedAt": "2026-11-23T23:39:42.728Z",
+      "lastUpdated": "2026-11-23T23:40:39.255Z",
       "version": 1
     },
     {
@@ -43,7 +43,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-08-15T06:34:38.645Z",
+      "deadline": "2030-08-14T23:39:42.729Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -54,9 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:36.213Z",
-      "scrapedAt": "2026-11-23T06:34:38.645Z",
-      "lastUpdated": "2026-11-23T06:35:36.213Z",
+      "processedAt": "2026-11-23T23:40:40.214Z",
+      "scrapedAt": "2026-11-23T23:39:42.729Z",
+      "lastUpdated": "2026-11-23T23:40:40.214Z",
       "version": 1
     },
     {
@@ -70,7 +70,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2045-09-01T06:34:38.645Z",
+      "deadline": "2045-08-31T23:39:42.729Z",
       "prize": "TBD",
       "tags": [],
       "aiTools": [
@@ -81,14 +81,14 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:36.212Z",
-      "scrapedAt": "2026-11-23T06:34:38.645Z",
-      "lastUpdated": "2026-11-23T06:35:36.212Z",
+      "processedAt": "2026-11-23T23:40:40.216Z",
+      "scrapedAt": "2026-11-23T23:39:42.729Z",
+      "lastUpdated": "2026-11-23T23:40:40.216Z",
       "version": 1
     },
     {
       "id": "c_03552b946309",
-      "title": "502 Bad Gateway",
+      "title": "MEDIQA 2021 - Question Summarization (QS)",
       "platform": "aicrowd",
       "url": "https://www.aicrowd.com/challenges/mediqa-2021-question-summarization-qs",
       "imageUrl": "https://images.aicrowd.com/images/challenges/image_file/644/MEDIQA-Background.jpg",
@@ -97,10 +97,11 @@
       "contestType": "text",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2030-12-31T06:34:38.646Z",
+      "deadline": "2030-12-30T23:39:42.730Z",
       "prize": "TBD",
       "tags": [
-        "nlp"
+        "nlp",
+        "Weight: 1.0"
       ],
       "aiTools": [
         "Python",
@@ -110,9 +111,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:36.214Z",
-      "scrapedAt": "2026-11-23T06:34:38.646Z",
-      "lastUpdated": "2026-11-23T06:35:36.214Z",
+      "processedAt": "2026-11-23T23:40:40.218Z",
+      "scrapedAt": "2026-11-23T23:39:42.730Z",
+      "lastUpdated": "2026-11-23T23:40:40.218Z",
       "version": 1
     },
     {
@@ -126,7 +127,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2027-06-16T06:34:38.646Z",
+      "deadline": "2027-06-16T23:39:42.730Z",
       "prize": "TBD",
       "tags": [
         "#classroom"
@@ -139,9 +140,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:36.211Z",
-      "scrapedAt": "2026-11-23T06:34:38.646Z",
-      "lastUpdated": "2026-11-23T06:35:36.211Z",
+      "processedAt": "2026-11-23T23:40:40.216Z",
+      "scrapedAt": "2026-11-23T23:39:42.730Z",
+      "lastUpdated": "2026-11-23T23:40:40.216Z",
       "version": 1
     },
     {
@@ -167,9 +168,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:36.233Z",
-      "scrapedAt": "2026-11-23T06:34:38.647Z",
-      "lastUpdated": "2026-11-23T06:35:36.233Z",
+      "processedAt": "2026-11-23T23:40:40.246Z",
+      "scrapedAt": "2026-11-23T23:39:42.731Z",
+      "lastUpdated": "2026-11-23T23:40:40.246Z",
       "version": 1
     },
     {
@@ -193,9 +194,36 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:37.239Z",
-      "scrapedAt": "2026-11-23T06:34:38.648Z",
-      "lastUpdated": "2026-11-23T06:35:37.239Z",
+      "processedAt": "2026-11-23T23:40:41.261Z",
+      "scrapedAt": "2026-11-23T23:39:42.732Z",
+      "lastUpdated": "2026-11-23T23:40:41.261Z",
+      "version": 1
+    },
+    {
+      "id": "c_aec4b21b02ef",
+      "title": "Last Week to Win: How to Play the Birthday Endgame",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2718",
+      "imageUrl": "",
+      "description": "One week left in the Birthday event. Here's how the strongest teams are playing Hat Turf and Flag Race to finish on top.",
+      "summary": "One week left in the Birthday event. Here's how the strongest teams are playing Hat Turf and Flag Race to finish on top....",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-01T00:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-23T23:40:41.260Z",
+      "scrapedAt": "2026-11-23T23:38:49.576Z",
+      "lastUpdated": "2026-11-23T23:40:41.260Z",
       "version": 1
     },
     {
@@ -222,9 +250,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:37.240Z",
-      "scrapedAt": "2026-11-23T06:33:39.627Z",
-      "lastUpdated": "2026-11-23T06:35:37.240Z",
+      "processedAt": "2026-11-23T23:40:41.279Z",
+      "scrapedAt": "2026-11-23T23:38:49.576Z",
+      "lastUpdated": "2026-11-23T23:40:41.279Z",
       "version": 1
     },
     {
@@ -251,9 +279,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:37.248Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:37.248Z",
+      "processedAt": "2026-11-23T23:40:41.276Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:41.276Z",
       "version": 1
     },
     {
@@ -280,9 +308,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:37.242Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:37.242Z",
+      "processedAt": "2026-11-23T23:40:41.313Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:41.313Z",
       "version": 1
     },
     {
@@ -309,9 +337,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:37.271Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:37.271Z",
+      "processedAt": "2026-11-23T23:40:42.305Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:42.305Z",
       "version": 1
     },
     {
@@ -338,9 +366,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:38.275Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:38.275Z",
+      "processedAt": "2026-11-23T23:40:42.305Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:42.305Z",
       "version": 1
     },
     {
@@ -364,9 +392,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:38.272Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:38.272Z",
+      "processedAt": "2026-11-23T23:40:42.308Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:42.308Z",
       "version": 1
     },
     {
@@ -391,36 +419,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:38.276Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:38.276Z",
-      "version": 1
-    },
-    {
-      "id": "c_e97683a889fb",
-      "title": "Moving Stickers: Make Them Follow the Action",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/2484",
-      "imageUrl": "",
-      "description": "Stickers you place on a video can move now. Switch one to Movement, set a few keys on the timeline, and it follows them as the video plays.",
-      "summary": "Stickers you place on a video can move now. Switch one to Movement, set a few keys on the timeline, and it follows them as the video plays....",
-      "contestType": "video",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-11-23T22:30:00.000Z",
-      "prize": "",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:38.279Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:38.279Z",
+      "processedAt": "2026-11-23T23:40:42.308Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:42.308Z",
       "version": 1
     },
     {
@@ -447,9 +448,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:38.300Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:38.300Z",
+      "processedAt": "2026-11-23T23:40:42.329Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:42.329Z",
       "version": 1
     },
     {
@@ -474,9 +475,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:39.305Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:39.305Z",
+      "processedAt": "2026-11-23T23:40:43.334Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:43.334Z",
       "version": 1
     },
     {
@@ -503,9 +504,44 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:39.301Z",
-      "scrapedAt": "2026-11-23T06:33:26.813Z",
-      "lastUpdated": "2026-11-23T06:35:39.301Z",
+      "processedAt": "2026-11-23T23:40:43.335Z",
+      "scrapedAt": "2026-11-23T23:38:38.228Z",
+      "lastUpdated": "2026-11-23T23:40:43.335Z",
+      "version": 1
+    },
+    {
+      "id": "c_70ac44e954ce",
+      "title": "“中国云谷·高校训练营” 3D互动 AI 游戏创作者专场",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/440",
+      "imageUrl": "",
+      "description": "“中国云谷·高校训练营”第八期 由云谷中心、魔搭社区和杭州涌现互动科技有限公司联合主办，指导单位为杭州城西科创大走廊管理委员会、杭州紫金港科技城管理委员会。本期聚焦 AI 游戏创作与知识互动化的动手实践，邀请一批对 AI、游戏和互动内容感兴趣的同学，用一天时间从一句话或一个知识点出发，做出一款真正能玩、能分享、能上台演示的游戏。\n\n“中国云谷·高校训练营” 3D互动 AI 游戏创作者专场启动招募！当AI能听懂一个想法、写出一套玩法、亲自试玩一遍——做游戏这件事，正在被重新定义。大模型已经学会了写代码、画图、配音，但要把它们组合成一款真正“好玩”的游戏——有玩法、有手感、有关卡、能分享——仍然是一块等待开拓的疆域。AI原生游戏创作正在成为 AIGC 的下一个前沿方向：让 AI 不仅能“生成内容”，还能“做出体验”。一款游戏是体验，也是一堂能“玩”的课。“中国云谷·高校训练营”第八期 由云谷中心、魔搭社区和杭州涌现互动科技有限公司联合主办，指导单位为杭州城西科创大走廊管理委员会、杭州紫金港科技城管理委员会。本期聚焦 AI 游戏创作与知识互动化的动手实践，邀请一批对 AI、游戏和互动内容感兴趣的同学，用一天时间从一句话或一个知识点出发，做出一款真正能玩、能分享、能上台演示的游戏。活动时间：【12月5日（周六）】9:30 – 18:30（签到 9:30–10:00，10:00 正式开始）活动地点：杭州市西湖区灯彩街1009号 · 云谷中心B1栋二楼魔搭开发者中心Part.1为什么是 AI 游戏创作？大模型已经能生成文字、图片和代码，但一款游戏远不止这些。玩法循环、操作手感、难度曲线、画面与音效，任何一环没做好，“能运行”都不等于“好玩”。什么是 AI 原生游戏创作？简单说，就是让 AI 从“写一段代码”走向“做出一个世界”：理解想法、写出玩法、亲自试玩、按反馈迭代。同样的能力也在改变学习。一个物理定律可以变成一局弹射闯关，一段历史可以变成一场能走进去的冒险，一组单词、一首古诗可以变成一轮答题挑战。当知识变成可以动手、可以试错、能即时反馈的互动内容，“学会”就不再只靠背诵。这就是“AI 课本”想做的事。这个方向正在被越来越多的行业关注。游戏、教育、互动营销、文旅数字化、虚拟世界与 UGC 创作平台……都需要门槛更低的互动内容生产方式。但大多数人还停在“让 AI 写个小游戏”的阶段：跑起来就算完成，不知道怎么让它变好玩，也不知道怎么让别人玩到。这次集训营，就是帮你把“一个想法”或“一个知识点”变成“一个能玩的世界”。Part.2 涌现互动与 Lightning涌现互动专注 AI 原生的互动内容创作，希望让每个人都能把一个想法、一段知识，变成一个可以游玩的世界。Lightning 是涌现互动推出的 AI 原生游戏创作平台，口号是“一句话，一个世界”。描述一个想法，比如主角、玩法、画面，几分钟后第一版就可以游玩。之后在创作室里用对话逐句修改，满意后发布到「多元宇宙」，别人打开链接就能玩，还能“做一个类似的”，以你的作品为起点继续创作。Lightning 把 AI 创作智能体、游戏引擎和创作工具链都放进了浏览器：AI 会写出真实可读的游戏脚本，自动构建、自动试玩，每一版都能随时回退。平台内置 可直接游玩的起点，覆盖平台跳跃、塔防、三消、弹幕射击、割草生存，以及 3D 射击、冒险、竞速等类型。做知识类内容时，AI 能联网查找参考资料，并按需调用“答题闯关与益智学习”“物理弹射与搭建破坏”“冒险探索与角色扮演”等技能，把知识点做成能动手、有反馈的互动关卡。答题类作品还会做到答错必讲解、难度随水平自适应。Lightning 不只关心“能不能跑”，更关心“好不好玩”。AI 会分别以新手和老手的视角真实试玩；美术总监、玩法策划、手感体验、技术性能四位 AI 评审独立打分；3D 世界还会做多机位画面检查。还没想好做什么？首页的「今日灵感」每天推荐新点子，点“用这个”就能开始。目前「多元宇宙」已上线《Litecraft》《巷口猫咖》《喜神》《星烬：最后防线》等官方精选世界。这次集训营全程基于 Lightning 平台，开放全部起点、技能、AI 素材生成与发布能力。你可以直接上手创作，不用从引擎和代码搭起。Part.3适合谁来？本期集训营主要面向对 AI 与游戏创作感兴趣的高校学生、开发者与独立游戏爱好者，也欢迎教育技术、师范等方向、想把知识做成互动内容的同学。我们希望你是：■ 对“用 AI 做游戏”有好奇心，想亲手做出一款属于自己的作品■ 愿意在一整天里全身心投入，不只是“听一听”■ 心里有一个想做的游戏，或一个想讲明白的知识点，想把它变成别人能玩到的作品，而不是停在脑子里■ 会编程加分，但零基础也不怕：全程用自然语言对话创作，讲师和助教全程带你不管你是计算机专业，还是设计、数字媒体、教育、动画、商科或其他方向，只要有一个想做的游戏或想讲明白的知识点，都欢迎来报名。Part.4课程亮点■ 涌现互动 Lightning 团队的一线创作者与工程师亲自授课，从玩法设计讲到 AI 创作工作流，带你建立“AI + 游戏创作”的完整认知■ 游戏和知识两个方向任选：除了原创游戏，还能做“AI 互动课本”，把一个知识点变成能动手、能试错、能即时反馈的互动内容；灵感激发工作坊带你从零找到好点子■ 一天跑通“描述—进入—打磨—发布”全流程：上午跟练，下午自己做，傍晚上台路演，离开时带走一款已经发布、可以分享的作品■ 每人 10000 创作点数，AI 试玩、AI 评审、画面检查全程陪跑，每改一版都有反馈、有数据、有建议Part.5你将收获什么？■ 获得涌现互动认证的“AI 游戏创作者”证书，为你的经历添砖加瓦■ 经最终评审选出的最佳玩法设计与最佳游戏作品，将获得涌现互动的推广与上线扶持：协助继续打磨，推广上线 Steam 等游戏平台（具体合作方式由双方另行协商）■ 优秀作品（含 AI 互动课本作品）获得 Lightning「多元宇宙」精选推荐，让更多人玩到■ 创作点数营后可以继续使用；作品、对话和每一个版本都保存在你的账号里，随时可以继续打磨、发布新版本■ 【可选】优秀学员直通涌现互动实习内推绿色通道Part.6一天日程【12月5日（周六）】上午：■ 9:30–10:00　签到入场——领取学员证，登录 Lightning 账号（创作点数已提前到账），打开浏览器即可开始■ 10:00–10:15　开营——主办方致辞，介绍当天安排、两个创作方向、作品提交方式和评审标准（创意、玩法、完成度、现场表现），认识讲师与助教团■ 10:15–10:50　AI 游戏创作概论与产业前沿——梳理 AIGC 如何改变游戏生产，从专业团队开发、UGC 创作平台到 AI 原生创作；解析“理解想法—生成玩法—自动试玩—迭代打磨”四个关键环节，以及从“能运行”到“好玩”之间的距离■ 10:50–11:20　AI 课本：让知识变成可以玩的世界——拆解“知识互动化”的方法：找到知识点里能“动手”的那个动作，把规则变成玩法，把反馈变成理解。结合物理实验、历史场景、语言学习、答题闯关等案例（比如用“引力弹弓”讲万有引力），看 AI 如何把课本内容转换成互动关卡，以及如何核对 AI 给出的知识是否准确■ 11:20–12:10　Lightning 核心能力实操——讲师带教，全员跟练：用一句话或一个起点，几分钟做出第一个可玩世界在创作室里用对话逐句修改，看懂「预览」「世界设定」「代码」「版本」四个页面学会选择通用和高级模型，亲手画一个主角，让 AI 画素材、配语音把一段课文交给 AI，让它联网查找参考、整理知识点，做成一关答题闯关用「自动打磨」让 AI 连续迭代几轮中午：■ 12:10–13:00　午间休息与组队——午餐、自由交流；自由组队，每组 3 人左右（也可单人参赛），在“原创游戏”和“AI 互动课本”两个方向中任选其一下午：■ 13:00–13:40　灵感激发与玩法设计工作坊——先用「今日灵感」随机抽题、“知识点 × 玩法类型”交叉组合等练习打开思路，每组提出 3 个点子，再选定 1 个；然后围绕“玩家的前 30 秒”梳理核心玩法循环、目标与失败条件、操作手感与反馈，把答案写进作品的世界设定■ 13:40–16:30　自行创作——完成玩法实现，打磨画面和音效，把作品做出来（助教全程答疑）：14:40　检查点一：跑通第一个可玩版本，确认核心玩法成立；互动课本方向同步核对知识点是否准确15:40　检查点二：AI 体检。用新手视角的 AI 试玩和四位 AI 评审找出卡点，按“优先修复”逐条改进16:15　检查点三：发布到「多元宇宙」，16:30 前提交作品链接■ 16:30–17:40　成果路演——每组展示作品创意、目标玩家（或要讲明白的知识点）、核心玩法和创作过程，并在大屏上现场试玩，每组 5 分钟（3 分钟展示与试玩 + 2 分钟问答）。作品链接同步给全场，大家边听边玩，为喜欢的作品点亮「喜欢」■ 17:40–18:10　专家点评、问题复盘与后续规划——涌现互动团队与特邀评委逐一点评，复盘创作中的典型问题，分享营后继续打磨、发布新版本的方法■ 18:10–18:30　优秀作品与小组表彰，结营仪式——颁发最佳游戏作品、最佳玩法设计、最佳互动课本、人气作品（按现场「喜欢」数评选）等奖项，最佳游戏作品与最佳玩法设计将获得推广上线 Steam 等平台的扶持；最后全体合影涌现互动派出 Lightning 团队全程参与，讲师和助教团覆盖授课、答疑、创作指导各个环节。每位学员获发 10000 创作点数（营后可继续使用），并可使用 Lightning 全部起点、创作技能、AI 素材生成与发布能力。Part.7营前预习资料入营前我们会发放一套预习资料，帮助大家提前打好认知基础，带着想法来集训。预习内容主要包括：■ Lightning 平台介绍与上手指南——了解平台的创作流程和核心能力，注册账号，用一句话、一个起点或一条「今日灵感」做出你的第一个世界■ AI 游戏创作入门课——核心玩法循环与“前 30 秒”体验、难度曲线、操作手感与反馈，以及 Luau 脚本基础（选修）■ AI 课本与知识互动化案例——如何把物理、历史、语言等学科知识转换成互动玩法，以及如何核对 AI 给出的知识是否准确■ AI 游戏行业资讯——AI 原生游戏与 UGC 创作平台的发展动态、典型案例和创作者生态请在开营前完成预习，带着你最想做的那个游戏，或最想讲明白的那个知识点来到现场。Part.8报名方式与时间安排报名时间：【11月30日前】入选通知：本期集训营限【30】人，主办方将根据报名材料筛选，于12月2日通过短信告知入选情况【扫码报名】群聊二维码：Part.9带上电脑，云谷中心见！【12月5日】，杭州云谷中心。一天，一个目标：从一句话或一个知识点出发，做出一款真正能玩、能分享的作品。最好的那一款，还有机会登上 Steam。请自备电脑，Mac 或 Windows 均可，建议提前装好最新版 Chrome 或 Edge 浏览器。Lightning 全程在浏览器里运行，不用安装其他软件。带上你的电脑，和一个想做的游戏或一个想讲明白的知识点，其余的，我们云谷中心线下见。",
+      "summary": "“中国云谷·高校训练营”第八期 由云谷中心、魔搭社区和杭州涌现互动科技有限公司联合主办，指导单位为杭州城西科创大走廊管理委员会、杭州紫金港科技城管理委员会。本期聚焦 AI 游戏创作与知识互动化的动手实践，邀请一批对 AI、游戏和互动内容感兴趣的同学，用一天时间从一句话或一个知识点出发，做出一款真正能玩、能分享、能上台演示的游戏。\n\n“中国云谷·高校训练营” 3D互动 AI 游戏创作者专场启动招募！...",
+      "contestType": "code",
+      "status": "active",
+      "difficulty": "beginner",
+      "deadline": "2026-11-30T15:59:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [
+        "门槛更低的互动内容生产方式。但大多数人还停在“让 AI 写个小游戏”的阶段：跑起来就算完成",
+        "不知道怎么让它变好玩",
+        "也不知道怎么让别人玩到。这次集训营",
+        "就是帮你把“一个想法”或“一个知识点”变成“一个能玩的世界”。Part.2 涌现互动与 Lightning涌现互动专注 AI 原生的互动内容创作",
+        "希望让每个人都能把一个想法、一段知识"
+      ],
+      "qualityScore": 6,
+      "processedAt": "2026-11-23T23:40:43.336Z",
+      "scrapedAt": "2026-11-23T23:38:38.228Z",
+      "lastUpdated": "2026-11-23T23:40:43.336Z",
       "version": 1
     },
     {
@@ -533,9 +569,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:39.326Z",
-      "scrapedAt": "2026-11-23T06:33:26.815Z",
-      "lastUpdated": "2026-11-23T06:35:39.327Z",
+      "processedAt": "2026-11-23T23:40:43.338Z",
+      "scrapedAt": "2026-11-23T23:38:38.229Z",
+      "lastUpdated": "2026-11-23T23:40:43.338Z",
       "version": 1
     },
     {
@@ -563,9 +599,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:39.306Z",
-      "scrapedAt": "2026-11-23T06:33:26.815Z",
-      "lastUpdated": "2026-11-23T06:35:39.306Z",
+      "processedAt": "2026-11-23T23:40:43.356Z",
+      "scrapedAt": "2026-11-23T23:38:38.229Z",
+      "lastUpdated": "2026-11-23T23:40:43.356Z",
       "version": 1
     },
     {
@@ -592,9 +628,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:39.346Z",
-      "scrapedAt": "2026-11-23T06:33:26.815Z",
-      "lastUpdated": "2026-11-23T06:35:39.346Z",
+      "processedAt": "2026-11-23T23:40:44.365Z",
+      "scrapedAt": "2026-11-23T23:38:38.229Z",
+      "lastUpdated": "2026-11-23T23:40:44.365Z",
       "version": 1
     },
     {
@@ -619,9 +655,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:40.351Z",
-      "scrapedAt": "2026-11-23T06:33:26.815Z",
-      "lastUpdated": "2026-11-23T06:35:40.351Z",
+      "processedAt": "2026-11-23T23:40:44.369Z",
+      "scrapedAt": "2026-11-23T23:38:38.229Z",
+      "lastUpdated": "2026-11-23T23:40:44.369Z",
       "version": 1
     },
     {
@@ -646,9 +682,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:40.351Z",
-      "scrapedAt": "2026-11-23T06:33:26.815Z",
-      "lastUpdated": "2026-11-23T06:35:40.351Z",
+      "processedAt": "2026-11-23T23:40:44.367Z",
+      "scrapedAt": "2026-11-23T23:38:38.229Z",
+      "lastUpdated": "2026-11-23T23:40:44.367Z",
       "version": 1
     },
     {
@@ -675,9 +711,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:40.355Z",
-      "scrapedAt": "2026-11-23T06:33:26.815Z",
-      "lastUpdated": "2026-11-23T06:35:40.355Z",
+      "processedAt": "2026-11-23T23:40:44.366Z",
+      "scrapedAt": "2026-11-23T23:38:38.230Z",
+      "lastUpdated": "2026-11-23T23:40:44.366Z",
       "version": 1
     },
     {
@@ -704,9 +740,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:40.354Z",
-      "scrapedAt": "2026-11-23T06:33:26.816Z",
-      "lastUpdated": "2026-11-23T06:35:40.354Z",
+      "processedAt": "2026-11-23T23:40:44.394Z",
+      "scrapedAt": "2026-11-23T23:38:38.230Z",
+      "lastUpdated": "2026-11-23T23:40:44.394Z",
       "version": 1
     },
     {
@@ -733,42 +769,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:40.375Z",
-      "scrapedAt": "2026-11-23T06:33:26.820Z",
-      "lastUpdated": "2026-11-23T06:35:40.375Z",
-      "version": 1
-    },
-    {
-      "id": "c_f897fb82a5c8",
-      "title": "昇腾CANN社区任务【7月】",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/250",
-      "imageUrl": "",
-      "description": "昇腾CANN训练营社区基于真实产业案例设计，完成任务即有机会获得华为三折叠手机、万元笔记本电脑，荣登社区荣誉榜单，任务每月更新，月底截止，多重任务值任务适合各阶段实操开发者。\n\n背景社区任务基于真实产业案例设计，完成任务即有机会获得现金激励，荣登社区荣誉榜单，更为您的职业技能注入新动力。具体任务任务名称含税奖金（人民币）发布时间任务截止时间（最晚提交验收）7月社区任务-低比特量化算法开发35970元26年7月7日26年8月15日7月社区任务-DualMatmul算子开发28285.5元26年8月10日7月社区任务-MatmulGatherScatter算子开发26160元26年8月10日7月社区任务-MatmulLayerNormMatmul算子开发26160元26年8月10日7月社区任务-MatmulPermute算子开发25015.5元26年8月10日7月社区任务-prims.bessel_i0 API开发22890元26年8月5日7月社区任务-prims.ndtri API开发22890元26年8月5日7月社区任务-BatchedMatmulSoftmax算子开发21745.5元26年8月5日7月社区任务-SpGEMM算子开发21255元26年8月5日7月社区任务-SDDMM算子开发21255元26年8月5日7月社区任务-SpSM算子开发21255元26年8月5日7月社区任务-GaussianBlur算子开发20110.5元26年8月1日二、获奖规则每个任务将按照参与者提交验收材料的先后顺序开展测试，首位通过测试的参与者在完成PR合入后，可领取该任务对应奖金。三、任务参与流程01报名步骤02任务开发03激励申请活动报名领取任务提交设计文档提交验收验收通过且进入【结果公示】的开发者可联系昇腾CANN小助手沟通获奖事项。请点击【CANN社区任务】进行报名，扫码进入活动群组了解活动相关事项。在【任务广场】选择参与的任务，点击【立即报名】并填写报名信息。完成算子设计文档后，点击【更新进展】，填写设计文档PR链接。完成算子开发和功能自验后，点击【提交验收】上传交付件。待后台测试通过后，提交PR并成功合入，验收通过。参与步骤00 前序步骤参与任务需要先完成以下动作：1、报名26年CANN训练营第一季：报名链接2、认证通过算子开发者认证：认证链接具体任务查看&领取在 CANN 社区 进行：直达链接01报名步骤1、报名活动：请点击【CANN社区任务】进行报名，扫码进入活动群组了解活动相关事项。2、选择任务：点击【任务广场】，选择CANN分类；选择本批次状态为进行中的任务进入报名页面。3、报名任务：点击任务页面的【立即报名】，填写并提交个人信息。● 每个任务会根据报名的先后顺序，前3名优先承接任务，其他开发者进入候补队列。● 每个账号同时只能申请1个CANN分类任务。● 参与任务申请、任务开发、激励申请各环节的昇腾社区账号及实名认证信息需一致，否则无法获奖。4、报名成功：报名1个工作日后可在【我的任务】页面查看报名反馈，报名成功的开发者会收到短信通知。02任务开发重要提醒！！！每3天需在gitcode活动帖评论区主动更新任务进度，若超过3个工作日未更新进展，则视为任务自动放弃。gitcode活动帖链接： https://gitcode.com/org/cann/discussions/22对于文档、代码抄袭等疑似异常行为，将由技术专家进行评估，对于认定为异常行为的，将取消所有激励及后续参与资格。1、提交设计文档● 准备设计文档：参考设计文档模板，根据具体任务的工作任务书要求，完成算子设计文档并提交到指定开源仓文件夹中。● 提交设计文档：点击【更新进展】，【设计链接】填写设计文档PR链接，【代码链接】填写“暂无”；设计文档审核通过后，进行代码开发。● 注意：若需修改设计文档内容请在PR中进行，无需重复更新进展（每个任务仅可更新5次进展）。● 审核说明：设计文档将按更新进展先后顺序进行审核，预计2个工作日反馈审核结果，审核通过将在PR中评论“审核通过”。2、提交验收● 完成算子开发和功能自验后，点击【提交验收】上传交付件，预计3个工作日反馈测试结果。待后台测试通过后，提交PR并成功合入，验收通过。● 交付内容：压缩包内需包含测试用例、用例结果自测报告、测试步骤指导文档等任务书要求内容，并在【说明】中按下图填写算子代码的私仓邀请链接、代码仓路径、分支、算子目录。● 交付件要求：只能上传zip格式，且文件最大不超过100M。● 验收说明：提交验收后将无法修改当前进展，审核期间无法更新验收信息；审核人将根据提交验收时间按序验收。3、提交PR并合入● 提交要求：第一个通过测试的开发者在收到通知后2个工作日内联系昇腾CANN小助手提交需求issue和代码PR，并根据检视意见修改代码，直到PR合入。4、任务关闭● 任务通过验收后，该任务关闭。03激励申请● 申请要求：验收通过且进入获奖名单公示的开发者可联系昇腾CANN小助手沟通获奖事项。● 兑奖要求：获奖开发者需在昇腾论坛和gitcode-CANN社区发表实践心得等文章，并提交文章链接至帖子评论区。四、温馨提示1、任务相关技术问题可在对应代码仓中提交issue，issue标题务必添加前缀【社区任务】2、开发流程及注意事项：https://gitcode.com/org/cann/discussions/393、常见问题解析：https://gitcode.com/org/cann/discussions/374、邀请开发者参与问卷填写，希望收集到各位开发者的宝贵意见，同时将有机会获得精美礼品。",
-      "summary": "昇腾CANN训练营社区基于真实产业案例设计，完成任务即有机会获得华为三折叠手机、万元笔记本电脑，荣登社区荣誉榜单，任务每月更新，月底截止，多重任务值任务适合各阶段实操开发者。\n\n背景社区任务基于真实产业案例设计，完成任务即有机会获得现金激励，荣登社区荣誉榜单，更为您的职业技能注入新动力。具体任务任务名称含税奖金（人民币）发布时间任务截止时间（最晚提交验收）7月社区任务-低比特量化算法开发35970...",
-      "contestType": "code",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-12-31T15:59:00.000Z",
-      "prize": "",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [
-        "扫码进入活动群组了解活动相关事项。2、选择任务：点击【任务广场】",
-        "选择CANN分类",
-        "选择本批次状态为进行中的任务进入报名页面。3、报名任务：点击任务页面的【立即报名】",
-        "填写并提交个人信息。● 每个任务会根据报名的先后顺序",
-        "前3名优先承接任务"
-      ],
-      "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:41.380Z",
-      "scrapedAt": "2026-11-23T06:33:26.821Z",
-      "lastUpdated": "2026-11-23T06:35:41.380Z",
+      "processedAt": "2026-11-23T23:40:45.407Z",
+      "scrapedAt": "2026-11-23T23:38:38.235Z",
+      "lastUpdated": "2026-11-23T23:40:45.407Z",
       "version": 1
     },
     {
@@ -782,7 +785,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-12-13T06:34:42.238Z",
+      "deadline": "2026-12-12T23:39:47.002Z",
       "prize": "$40 000 USD",
       "tags": [
         "ai"
@@ -795,9 +798,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:41.379Z",
-      "scrapedAt": "2026-11-23T06:34:42.239Z",
-      "lastUpdated": "2026-11-23T06:35:41.379Z",
+      "processedAt": "2026-11-23T23:40:45.392Z",
+      "scrapedAt": "2026-11-23T23:39:47.003Z",
+      "lastUpdated": "2026-11-23T23:40:45.392Z",
       "version": 1
     },
     {
@@ -811,7 +814,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-12-13T06:34:42.239Z",
+      "deadline": "2026-12-13T23:39:47.003Z",
       "prize": "$2 500 USD",
       "tags": [],
       "aiTools": [
@@ -822,9 +825,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:41.381Z",
-      "scrapedAt": "2026-11-23T06:34:42.239Z",
-      "lastUpdated": "2026-11-23T06:35:41.381Z",
+      "processedAt": "2026-11-23T23:40:45.398Z",
+      "scrapedAt": "2026-11-23T23:39:47.003Z",
+      "lastUpdated": "2026-11-23T23:40:45.398Z",
       "version": 1
     },
     {
@@ -838,7 +841,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-12-13T06:34:42.239Z",
+      "deadline": "2026-12-13T23:39:47.003Z",
       "prize": "$5 000 USD",
       "tags": [],
       "aiTools": [
@@ -849,9 +852,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:41.382Z",
-      "scrapedAt": "2026-11-23T06:34:42.239Z",
-      "lastUpdated": "2026-11-23T06:35:41.382Z",
+      "processedAt": "2026-11-23T23:40:45.395Z",
+      "scrapedAt": "2026-11-23T23:39:47.003Z",
+      "lastUpdated": "2026-11-23T23:40:45.395Z",
       "version": 1
     },
     {
@@ -865,7 +868,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-12-14T06:34:42.239Z",
+      "deadline": "2026-12-13T23:39:47.004Z",
       "prize": "$5 000 USD",
       "tags": [],
       "aiTools": [
@@ -876,9 +879,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:41.401Z",
-      "scrapedAt": "2026-11-23T06:34:42.240Z",
-      "lastUpdated": "2026-11-23T06:35:41.401Z",
+      "processedAt": "2026-11-23T23:40:45.426Z",
+      "scrapedAt": "2026-11-23T23:39:47.004Z",
+      "lastUpdated": "2026-11-23T23:40:45.426Z",
       "version": 1
     },
     {
@@ -892,7 +895,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-12-14T06:34:42.240Z",
+      "deadline": "2026-12-13T23:39:47.004Z",
       "prize": "$5 000 USD",
       "tags": [],
       "aiTools": [
@@ -903,9 +906,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:42.407Z",
-      "scrapedAt": "2026-11-23T06:34:42.240Z",
-      "lastUpdated": "2026-11-23T06:35:42.407Z",
+      "processedAt": "2026-11-23T23:40:46.431Z",
+      "scrapedAt": "2026-11-23T23:39:47.004Z",
+      "lastUpdated": "2026-11-23T23:40:46.431Z",
       "version": 1
     },
     {
@@ -929,9 +932,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:42.407Z",
-      "scrapedAt": "2026-11-23T06:34:42.240Z",
-      "lastUpdated": "2026-11-23T06:35:42.407Z",
+      "processedAt": "2026-11-23T23:40:46.433Z",
+      "scrapedAt": "2026-11-23T23:39:47.005Z",
+      "lastUpdated": "2026-11-23T23:40:46.433Z",
       "version": 1
     },
     {
@@ -957,9 +960,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:42.408Z",
-      "scrapedAt": "2026-11-23T06:34:42.241Z",
-      "lastUpdated": "2026-11-23T06:35:42.408Z",
+      "processedAt": "2026-11-23T23:40:46.432Z",
+      "scrapedAt": "2026-11-23T23:39:47.005Z",
+      "lastUpdated": "2026-11-23T23:40:46.432Z",
       "version": 1
     },
     {
@@ -973,7 +976,7 @@
       "contestType": "mixed",
       "status": "upcoming",
       "difficulty": "intermediate",
-      "deadline": "2026-12-11T06:34:42.241Z",
+      "deadline": "2026-12-11T23:39:47.005Z",
       "prize": "$10 000 USD",
       "tags": [],
       "aiTools": [
@@ -984,9 +987,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:42.410Z",
-      "scrapedAt": "2026-11-23T06:34:42.241Z",
-      "lastUpdated": "2026-11-23T06:35:42.410Z",
+      "processedAt": "2026-11-23T23:40:46.435Z",
+      "scrapedAt": "2026-11-23T23:39:47.006Z",
+      "lastUpdated": "2026-11-23T23:40:46.435Z",
       "version": 1
     },
     {
@@ -1012,9 +1015,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:42.430Z",
-      "scrapedAt": "2026-11-23T06:34:42.241Z",
-      "lastUpdated": "2026-11-23T06:35:42.430Z",
+      "processedAt": "2026-11-23T23:40:46.455Z",
+      "scrapedAt": "2026-11-23T23:39:47.006Z",
+      "lastUpdated": "2026-11-23T23:40:46.455Z",
       "version": 1
     },
     {
@@ -1028,7 +1031,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-11-27T06:34:42.241Z",
+      "deadline": "2026-11-27T23:39:47.007Z",
       "tags": [],
       "aiTools": [
         "Python",
@@ -1038,9 +1041,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:43.432Z",
-      "scrapedAt": "2026-11-23T06:34:42.241Z",
-      "lastUpdated": "2026-11-23T06:35:43.432Z",
+      "processedAt": "2026-11-23T23:40:47.459Z",
+      "scrapedAt": "2026-11-23T23:39:47.007Z",
+      "lastUpdated": "2026-11-23T23:40:47.459Z",
       "version": 1
     },
     {
@@ -1064,9 +1067,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:43.431Z",
-      "scrapedAt": "2026-11-23T06:34:42.242Z",
-      "lastUpdated": "2026-11-23T06:35:43.431Z",
+      "processedAt": "2026-11-23T23:40:47.463Z",
+      "scrapedAt": "2026-11-23T23:39:47.007Z",
+      "lastUpdated": "2026-11-23T23:40:47.463Z",
       "version": 1
     },
     {
@@ -1090,9 +1093,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:43.433Z",
-      "scrapedAt": "2026-11-23T06:34:42.242Z",
-      "lastUpdated": "2026-11-23T06:35:43.433Z",
+      "processedAt": "2026-11-23T23:40:47.468Z",
+      "scrapedAt": "2026-11-23T23:39:47.008Z",
+      "lastUpdated": "2026-11-23T23:40:47.468Z",
       "version": 1
     },
     {
@@ -1116,9 +1119,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:43.435Z",
-      "scrapedAt": "2026-11-23T06:34:42.242Z",
-      "lastUpdated": "2026-11-23T06:35:43.435Z",
+      "processedAt": "2026-11-23T23:40:47.473Z",
+      "scrapedAt": "2026-11-23T23:39:47.008Z",
+      "lastUpdated": "2026-11-23T23:40:47.473Z",
       "version": 1
     },
     {
@@ -1142,9 +1145,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:43.454Z",
-      "scrapedAt": "2026-11-23T06:34:42.242Z",
-      "lastUpdated": "2026-11-23T06:35:43.454Z",
+      "processedAt": "2026-11-23T23:40:47.496Z",
+      "scrapedAt": "2026-11-23T23:39:47.008Z",
+      "lastUpdated": "2026-11-23T23:40:47.496Z",
       "version": 1
     },
     {
@@ -1168,9 +1171,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:44.458Z",
-      "scrapedAt": "2026-11-23T06:34:42.243Z",
-      "lastUpdated": "2026-11-23T06:35:44.458Z",
+      "processedAt": "2026-11-23T23:40:48.498Z",
+      "scrapedAt": "2026-11-23T23:39:47.009Z",
+      "lastUpdated": "2026-11-23T23:40:48.498Z",
       "version": 1
     },
     {
@@ -1195,9 +1198,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:44.459Z",
-      "scrapedAt": "2026-11-23T06:34:42.243Z",
-      "lastUpdated": "2026-11-23T06:35:44.459Z",
+      "processedAt": "2026-11-23T23:40:48.500Z",
+      "scrapedAt": "2026-11-23T23:39:47.009Z",
+      "lastUpdated": "2026-11-23T23:40:48.500Z",
       "version": 1
     },
     {
@@ -1221,9 +1224,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:44.459Z",
-      "scrapedAt": "2026-11-23T06:34:42.243Z",
-      "lastUpdated": "2026-11-23T06:35:44.459Z",
+      "processedAt": "2026-11-23T23:40:48.498Z",
+      "scrapedAt": "2026-11-23T23:39:47.010Z",
+      "lastUpdated": "2026-11-23T23:40:48.498Z",
       "version": 1
     },
     {
@@ -1247,9 +1250,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:44.461Z",
-      "scrapedAt": "2026-11-23T06:34:42.244Z",
-      "lastUpdated": "2026-11-23T06:35:44.461Z",
+      "processedAt": "2026-11-23T23:40:48.500Z",
+      "scrapedAt": "2026-11-23T23:39:47.010Z",
+      "lastUpdated": "2026-11-23T23:40:48.500Z",
       "version": 1
     },
     {
@@ -1273,9 +1276,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:44.479Z",
-      "scrapedAt": "2026-11-23T06:34:42.244Z",
-      "lastUpdated": "2026-11-23T06:35:44.479Z",
+      "processedAt": "2026-11-23T23:40:48.520Z",
+      "scrapedAt": "2026-11-23T23:39:47.010Z",
+      "lastUpdated": "2026-11-23T23:40:48.520Z",
       "version": 1
     },
     {
@@ -1299,15 +1302,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:45.482Z",
-      "scrapedAt": "2026-11-23T06:34:42.244Z",
-      "lastUpdated": "2026-11-23T06:35:45.482Z",
+      "processedAt": "2026-11-23T23:40:49.521Z",
+      "scrapedAt": "2026-11-23T23:39:47.011Z",
+      "lastUpdated": "2026-11-23T23:40:49.521Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-23T06:35:45.490Z"
+    "lastUpdated": "2026-11-23T23:40:49.533Z"
   }
 }

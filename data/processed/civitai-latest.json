@@ -1,8 +1,35 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-23T06:35:45.486Z",
+  "timestamp": "2026-11-23T23:40:49.527Z",
   "contestCount": 10,
   "contests": [
+    {
+      "id": "c_aec4b21b02ef",
+      "title": "Last Week to Win: How to Play the Birthday Endgame",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2718",
+      "imageUrl": "",
+      "description": "One week left in the Birthday event. Here's how the strongest teams are playing Hat Turf and Flag Race to finish on top.",
+      "summary": "One week left in the Birthday event. Here's how the strongest teams are playing Hat Turf and Flag Race to finish on top....",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-01T00:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-23T23:40:41.260Z",
+      "scrapedAt": "2026-11-23T23:38:49.576Z",
+      "lastUpdated": "2026-11-23T23:40:41.260Z",
+      "version": 1
+    },
     {
       "id": "c_c8cf8dba5b68",
       "title": "Train your own H3 Image LoRAs",
@@ -27,9 +54,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:37.240Z",
-      "scrapedAt": "2026-11-23T06:33:39.627Z",
-      "lastUpdated": "2026-11-23T06:35:37.240Z",
+      "processedAt": "2026-11-23T23:40:41.279Z",
+      "scrapedAt": "2026-11-23T23:38:49.576Z",
+      "lastUpdated": "2026-11-23T23:40:41.279Z",
       "version": 1
     },
     {
@@ -56,9 +83,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:37.248Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:37.248Z",
+      "processedAt": "2026-11-23T23:40:41.276Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:41.276Z",
       "version": 1
     },
     {
@@ -85,9 +112,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:37.242Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:37.242Z",
+      "processedAt": "2026-11-23T23:40:41.313Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:41.313Z",
       "version": 1
     },
     {
@@ -114,9 +141,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:37.271Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:37.271Z",
+      "processedAt": "2026-11-23T23:40:42.305Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:42.305Z",
       "version": 1
     },
     {
@@ -143,9 +170,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:38.275Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:38.275Z",
+      "processedAt": "2026-11-23T23:40:42.305Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:42.305Z",
       "version": 1
     },
     {
@@ -169,9 +196,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:38.272Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:38.272Z",
+      "processedAt": "2026-11-23T23:40:42.308Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:42.308Z",
       "version": 1
     },
     {
@@ -196,36 +223,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:38.276Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:38.276Z",
-      "version": 1
-    },
-    {
-      "id": "c_e97683a889fb",
-      "title": "Moving Stickers: Make Them Follow the Action",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/2484",
-      "imageUrl": "",
-      "description": "Stickers you place on a video can move now. Switch one to Movement, set a few keys on the timeline, and it follows them as the video plays.",
-      "summary": "Stickers you place on a video can move now. Switch one to Movement, set a few keys on the timeline, and it follows them as the video plays....",
-      "contestType": "video",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-11-23T22:30:00.000Z",
-      "prize": "",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:38.279Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:38.279Z",
+      "processedAt": "2026-11-23T23:40:42.308Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:42.308Z",
       "version": 1
     },
     {
@@ -252,9 +252,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:38.300Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:38.300Z",
+      "processedAt": "2026-11-23T23:40:42.329Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:42.329Z",
       "version": 1
     },
     {
@@ -279,15 +279,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-23T06:35:39.305Z",
-      "scrapedAt": "2026-11-23T06:33:39.628Z",
-      "lastUpdated": "2026-11-23T06:35:39.305Z",
+      "processedAt": "2026-11-23T23:40:43.334Z",
+      "scrapedAt": "2026-11-23T23:38:49.577Z",
+      "lastUpdated": "2026-11-23T23:40:43.334Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-23T06:35:45.486Z"
+    "lastUpdated": "2026-11-23T23:40:49.527Z"
   }
 }

@@ -1,8 +1,35 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-24T09:04:31.763Z",
+  "timestamp": "2026-11-24T22:08:56.883Z",
   "contestCount": 9,
   "contests": [
+    {
+      "id": "c_932de26629ef",
+      "title": "The Comeback Cup: The Most Improved Team Wins",
+      "platform": "civitai",
+      "url": "https://civitai.com/events/2743",
+      "imageUrl": "",
+      "description": "The final week has a second race. Every team is racing its own earlier pace, so any team can take the Cup and an animated badge for everyone who played.",
+      "summary": "The final week has a second race. Every team is racing its own earlier pace, so any team can take the Cup and an animated badge for everyone who played....",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-01T00:00:00.000Z",
+      "prize": "",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-24T22:08:49.546Z",
+      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "lastUpdated": "2026-11-24T22:08:49.546Z",
+      "version": 1
+    },
     {
       "id": "c_aec4b21b02ef",
       "title": "Last Week to Win: How to Play the Birthday Endgame",
@@ -25,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T09:04:22.738Z",
-      "scrapedAt": "2026-11-24T09:02:27.668Z",
-      "lastUpdated": "2026-11-24T09:04:22.738Z",
+      "processedAt": "2026-11-24T22:08:49.547Z",
+      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "lastUpdated": "2026-11-24T22:08:49.547Z",
       "version": 1
     },
     {
@@ -54,9 +81,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T09:04:22.765Z",
-      "scrapedAt": "2026-11-24T09:02:27.668Z",
-      "lastUpdated": "2026-11-24T09:04:22.765Z",
+      "processedAt": "2026-11-24T22:08:49.555Z",
+      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "lastUpdated": "2026-11-24T22:08:49.555Z",
       "version": 1
     },
     {
@@ -83,9 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T09:04:22.801Z",
-      "scrapedAt": "2026-11-24T09:02:27.668Z",
-      "lastUpdated": "2026-11-24T09:04:22.801Z",
+      "processedAt": "2026-11-24T22:08:49.587Z",
+      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "lastUpdated": "2026-11-24T22:08:49.587Z",
       "version": 1
     },
     {
@@ -112,9 +139,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T09:04:23.040Z",
-      "scrapedAt": "2026-11-24T09:02:27.668Z",
-      "lastUpdated": "2026-11-24T09:04:23.040Z",
+      "processedAt": "2026-11-24T22:08:50.590Z",
+      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "lastUpdated": "2026-11-24T22:08:50.590Z",
       "version": 1
     },
     {
@@ -141,9 +168,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T09:04:24.045Z",
-      "scrapedAt": "2026-11-24T09:02:27.668Z",
-      "lastUpdated": "2026-11-24T09:04:24.045Z",
+      "processedAt": "2026-11-24T22:08:50.596Z",
+      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "lastUpdated": "2026-11-24T22:08:50.596Z",
       "version": 1
     },
     {
@@ -170,9 +197,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T09:04:24.017Z",
-      "scrapedAt": "2026-11-24T09:02:27.668Z",
-      "lastUpdated": "2026-11-24T09:04:24.017Z",
+      "processedAt": "2026-11-24T22:08:50.590Z",
+      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "lastUpdated": "2026-11-24T22:08:50.590Z",
       "version": 1
     },
     {
@@ -196,36 +223,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T09:04:24.016Z",
-      "scrapedAt": "2026-11-24T09:02:27.668Z",
-      "lastUpdated": "2026-11-24T09:04:24.016Z",
-      "version": 1
-    },
-    {
-      "id": "c_51baa586e39c",
-      "title": "Image Search: Find Images by What They Show",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/2498",
-      "imageUrl": "",
-      "description": "Image search is here. Type in the search bar on the [Images](/images) page and the feed shows images that match what you describe, with your filters still working.",
-      "summary": "Image search is here. Type in the search bar on the [Images](/images) page and the feed shows images that match what you describe, with your filters still working....",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-11-24T21:00:00.000Z",
-      "prize": "",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-24T09:04:24.024Z",
-      "scrapedAt": "2026-11-24T09:02:27.668Z",
-      "lastUpdated": "2026-11-24T09:04:24.024Z",
+      "processedAt": "2026-11-24T22:08:50.593Z",
+      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "lastUpdated": "2026-11-24T22:08:50.593Z",
       "version": 1
     },
     {
@@ -250,15 +250,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T09:04:24.308Z",
-      "scrapedAt": "2026-11-24T09:02:27.668Z",
-      "lastUpdated": "2026-11-24T09:04:24.308Z",
+      "processedAt": "2026-11-24T22:08:50.630Z",
+      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "lastUpdated": "2026-11-24T22:08:50.630Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-24T09:04:31.763Z"
+    "lastUpdated": "2026-11-24T22:08:56.883Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-25T07:43:30.176Z",
-  "contestCount": 8,
+  "timestamp": "2026-11-25T21:23:10.055Z",
+  "contestCount": 7,
   "contests": [
     {
       "id": "c_932de26629ef",
@@ -25,9 +25,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T07:43:22.952Z",
-      "scrapedAt": "2026-11-25T07:41:17.362Z",
-      "lastUpdated": "2026-11-25T07:43:22.952Z",
+      "processedAt": "2026-11-25T21:23:02.716Z",
+      "scrapedAt": "2026-11-25T21:21:12.321Z",
+      "lastUpdated": "2026-11-25T21:23:02.716Z",
       "version": 1
     },
     {
@@ -52,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T07:43:22.953Z",
-      "scrapedAt": "2026-11-25T07:41:17.362Z",
-      "lastUpdated": "2026-11-25T07:43:22.953Z",
+      "processedAt": "2026-11-25T21:23:02.720Z",
+      "scrapedAt": "2026-11-25T21:21:12.322Z",
+      "lastUpdated": "2026-11-25T21:23:02.720Z",
       "version": 1
     },
     {
@@ -81,9 +81,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T07:43:22.950Z",
-      "scrapedAt": "2026-11-25T07:41:17.362Z",
-      "lastUpdated": "2026-11-25T07:43:22.950Z",
+      "processedAt": "2026-11-25T21:23:02.717Z",
+      "scrapedAt": "2026-11-25T21:21:12.322Z",
+      "lastUpdated": "2026-11-25T21:23:02.717Z",
       "version": 1
     },
     {
@@ -110,38 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T07:43:22.971Z",
-      "scrapedAt": "2026-11-25T07:41:17.362Z",
-      "lastUpdated": "2026-11-25T07:43:22.971Z",
-      "version": 1
-    },
-    {
-      "id": "c_ac1f34d0103e",
-      "title": "Creator Services: Commission a LoRA, a Music Video, or Whatever You Need",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/2531",
-      "imageUrl": "",
-      "description": "Hire a creator to train a LoRA for you or make your music video.",
-      "summary": "Hire a creator to train a LoRA for you or make your music video....",
-      "contestType": "video",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-11-25T16:00:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-25T07:43:23.977Z",
-      "scrapedAt": "2026-11-25T07:41:17.362Z",
-      "lastUpdated": "2026-11-25T07:43:23.977Z",
+      "processedAt": "2026-11-25T21:23:02.759Z",
+      "scrapedAt": "2026-11-25T21:21:12.322Z",
+      "lastUpdated": "2026-11-25T21:23:02.759Z",
       "version": 1
     },
     {
@@ -168,9 +139,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T07:43:23.975Z",
-      "scrapedAt": "2026-11-25T07:41:17.362Z",
-      "lastUpdated": "2026-11-25T07:43:23.975Z",
+      "processedAt": "2026-11-25T21:23:03.763Z",
+      "scrapedAt": "2026-11-25T21:21:12.322Z",
+      "lastUpdated": "2026-11-25T21:23:03.763Z",
       "version": 1
     },
     {
@@ -194,9 +165,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T07:43:23.986Z",
-      "scrapedAt": "2026-11-25T07:41:17.362Z",
-      "lastUpdated": "2026-11-25T07:43:23.986Z",
+      "processedAt": "2026-11-25T21:23:03.761Z",
+      "scrapedAt": "2026-11-25T21:21:12.322Z",
+      "lastUpdated": "2026-11-25T21:23:03.761Z",
       "version": 1
     },
     {
@@ -221,15 +192,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T07:43:23.992Z",
-      "scrapedAt": "2026-11-25T07:41:17.362Z",
-      "lastUpdated": "2026-11-25T07:43:23.992Z",
+      "processedAt": "2026-11-25T21:23:03.772Z",
+      "scrapedAt": "2026-11-25T21:21:12.322Z",
+      "lastUpdated": "2026-11-25T21:23:03.772Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-25T07:43:30.176Z"
+    "lastUpdated": "2026-11-25T21:23:10.055Z"
   }
 }

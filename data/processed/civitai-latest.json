@@ -1,7 +1,7 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-24T22:08:56.883Z",
-  "contestCount": 9,
+  "timestamp": "2026-11-25T07:43:30.176Z",
+  "contestCount": 8,
   "contests": [
     {
       "id": "c_932de26629ef",
@@ -25,9 +25,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T22:08:49.546Z",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
-      "lastUpdated": "2026-11-24T22:08:49.546Z",
+      "processedAt": "2026-11-25T07:43:22.952Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
+      "lastUpdated": "2026-11-25T07:43:22.952Z",
       "version": 1
     },
     {
@@ -52,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T22:08:49.547Z",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
-      "lastUpdated": "2026-11-24T22:08:49.547Z",
+      "processedAt": "2026-11-25T07:43:22.953Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
+      "lastUpdated": "2026-11-25T07:43:22.953Z",
       "version": 1
     },
     {
@@ -81,9 +81,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T22:08:49.555Z",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
-      "lastUpdated": "2026-11-24T22:08:49.555Z",
+      "processedAt": "2026-11-25T07:43:22.950Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
+      "lastUpdated": "2026-11-25T07:43:22.950Z",
       "version": 1
     },
     {
@@ -110,9 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T22:08:49.587Z",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
-      "lastUpdated": "2026-11-24T22:08:49.587Z",
+      "processedAt": "2026-11-25T07:43:22.971Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
+      "lastUpdated": "2026-11-25T07:43:22.971Z",
       "version": 1
     },
     {
@@ -139,9 +139,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T22:08:50.590Z",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
-      "lastUpdated": "2026-11-24T22:08:50.590Z",
+      "processedAt": "2026-11-25T07:43:23.977Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
+      "lastUpdated": "2026-11-25T07:43:23.977Z",
       "version": 1
     },
     {
@@ -168,38 +168,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T22:08:50.596Z",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
-      "lastUpdated": "2026-11-24T22:08:50.596Z",
-      "version": 1
-    },
-    {
-      "id": "c_3e0279715b92",
-      "title": "Kohya Is Back: Train It in Training Studio",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/2501",
-      "imageUrl": "",
-      "description": "Pick Kohya as the engine in [Training Studio](/training-studio?view=new) to train SD 1.5, SDXL, Flux.1 and Chroma LoRAs. The classic trainer is retired, and your past runs are still there to publish.",
-      "summary": "Pick Kohya as the engine in [Training Studio](/training-studio?view=new) to train SD 1.5, SDXL, Flux.1 and Chroma LoRAs. The classic trainer is retired, and your past runs are still there to publish....",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-11-25T01:00:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-24T22:08:50.590Z",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
-      "lastUpdated": "2026-11-24T22:08:50.590Z",
+      "processedAt": "2026-11-25T07:43:23.975Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
+      "lastUpdated": "2026-11-25T07:43:23.975Z",
       "version": 1
     },
     {
@@ -223,9 +194,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T22:08:50.593Z",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
-      "lastUpdated": "2026-11-24T22:08:50.593Z",
+      "processedAt": "2026-11-25T07:43:23.986Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
+      "lastUpdated": "2026-11-25T07:43:23.986Z",
       "version": 1
     },
     {
@@ -250,15 +221,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-24T22:08:50.630Z",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
-      "lastUpdated": "2026-11-24T22:08:50.630Z",
+      "processedAt": "2026-11-25T07:43:23.992Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
+      "lastUpdated": "2026-11-25T07:43:23.992Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-24T22:08:56.883Z"
+    "lastUpdated": "2026-11-25T07:43:30.176Z"
   }
 }

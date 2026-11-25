@@ -1,7 +1,7 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-24T22:08:44.832Z",
-  "contestCount": 9,
+  "timestamp": "2026-11-25T07:43:17.500Z",
+  "contestCount": 8,
   "contests": [
     {
       "platform": "civitai",
@@ -11,7 +11,7 @@
       "deadline": "2026-12-01T00:00:00.000Z",
       "prize": "",
       "rawHtml": "{\"updatedAt\":\"2026-11-24T21:27:50.056Z\",\"endsAt\":\"2026-12-01T00:00:00.000Z\",\"id\":2743,\"title\":\"The Comeback Cup: The Most Improved Team Wins\",\"content\":\"The final week has a second race. Every team is racing its own earlier pace, so any team can take the Cup and an animated badge for everyone who played.\",\"color\":\"yellow\",\"emoji\":null,\"createdAt\":\"2026-11-24T21:27:50.056Z\",\"startsAt\":\"2026-11-24T21:27:49.562Z\",\"metadata\":{\"type\":\"site\",\"image\":\"1204bfd0-80f0-46fc-a8e4-720f6167f908\",\"actions\":[{\"link\":\"/articles/39738\",\"type\":\"button\",\"linkText\":\"How the Cup works\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
       "metadata": {
         "updatedAt": "2026-11-24T21:27:50.056Z",
         "endsAt": "2026-12-01T00:00:00.000Z",
@@ -47,7 +47,7 @@
       "deadline": "2026-12-01T00:00:00.000Z",
       "prize": "",
       "rawHtml": "{\"updatedAt\":\"2026-11-23T21:40:10.310Z\",\"endsAt\":\"2026-12-01T00:00:00.000Z\",\"id\":2718,\"title\":\"Last Week to Win: How to Play the Birthday Endgame\",\"content\":\"One week left in the Birthday event. Here's how the strongest teams are playing Hat Turf and Flag Race to finish on top.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-11-23T21:40:10.310Z\",\"startsAt\":\"2026-11-23T21:40:09.938Z\",\"metadata\":{\"type\":\"site\",\"image\":\"911fac68-a4ad-4561-94f6-9358ac857caa\",\"actions\":[{\"link\":\"/articles/39576\",\"type\":\"button\",\"linkText\":\"Read the playbook\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
       "metadata": {
         "updatedAt": "2026-11-23T21:40:10.310Z",
         "endsAt": "2026-12-01T00:00:00.000Z",
@@ -83,7 +83,7 @@
       "deadline": "2026-12-06T18:40:00.000Z",
       "prize": "450",
       "rawHtml": "{\"updatedAt\":\"2026-11-22T18:50:06.712Z\",\"endsAt\":\"2026-12-06T18:40:00.000Z\",\"id\":2553,\"title\":\"Train your own H3 Image LoRAs\",\"content\":\"MiniMax H3 Image is in Training Studio now, about 1,450 Buzz for a default run.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-11-20T01:24:38.051Z\",\"startsAt\":\"2026-11-22T18:40:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"1da53ee4-a8de-40ba-9159-8d6edac46ca7\",\"actions\":[{\"link\":\"/training-studio?view=new\",\"type\":\"button\",\"linkText\":\"Open Training Studio\"},{\"link\":\"/articles/38808\",\"type\":\"button\",\"linkText\":\"Read more\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
       "metadata": {
         "updatedAt": "2026-11-22T18:50:06.712Z",
         "endsAt": "2026-12-06T18:40:00.000Z",
@@ -124,7 +124,7 @@
       "deadline": "2026-11-27T08:00:00.000Z",
       "prize": "38570",
       "rawHtml": "{\"updatedAt\":\"2026-11-20T16:58:22.488Z\",\"endsAt\":\"2026-11-27T08:00:00.000Z\",\"id\":2598,\"title\":\"Showcase Sections: Pick What Your Profile Shows First\",\"content\":\"Add up to 10 showcases to your profile with your own images, models or articles in your own order, and add any of them straight from its menu. It's the first piece of the [profile facelift](/articles/38570).\\n\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-11-20T16:58:22.488Z\",\"startsAt\":\"2026-11-20T16:58:21.903Z\",\"metadata\":{\"type\":\"site\",\"image\":\"0a0f203e-7453-49bc-93cd-626d47045f0d\",\"actions\":[{\"link\":\"/articles/39087\",\"type\":\"button\",\"linkText\":\"See how it works\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
       "metadata": {
         "updatedAt": "2026-11-20T16:58:22.488Z",
         "endsAt": "2026-11-27T08:00:00.000Z",
@@ -160,7 +160,7 @@
       "deadline": "2026-11-25T16:00:00.000Z",
       "prize": "",
       "rawHtml": "{\"updatedAt\":\"2026-11-19T00:03:18.177Z\",\"endsAt\":\"2026-11-25T16:00:00.000Z\",\"id\":2531,\"title\":\"Creator Services: Commission a LoRA, a Music Video, or Whatever You Need\",\"content\":\"Hire a creator to train a LoRA for you or make your music video.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-11-19T00:03:18.177Z\",\"startsAt\":\"2026-11-19T00:03:17.673Z\",\"metadata\":{\"type\":\"site\",\"image\":\"c28ac0a1-bb65-4c00-882f-a90054d48f3e\",\"actions\":[{\"link\":\"/articles/38740\",\"type\":\"button\",\"linkText\":\"See how it works\"},{\"link\":\"/services\",\"type\":\"button\",\"linkText\":\"Find a service\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
       "metadata": {
         "updatedAt": "2026-11-19T00:03:18.177Z",
         "endsAt": "2026-11-25T16:00:00.000Z",
@@ -201,7 +201,7 @@
       "deadline": "2026-12-09T00:12:00.000Z",
       "prize": "600",
       "rawHtml": "{\"updatedAt\":\"2026-11-18T17:03:16.111Z\",\"endsAt\":\"2026-12-09T00:12:00.000Z\",\"id\":2494,\"title\":\"Wan 3.0 Crucibles with Runware\",\"content\":\"Five Wan 3.0 video Crucibles over three weeks, sponsored by Runware, with 600,000 Buzz up for grabs in each. Entries are free. The first one, Waifus & Husbandos, is open now.\",\"color\":\"teal\",\"emoji\":null,\"createdAt\":\"2026-11-17T16:40:11.271Z\",\"startsAt\":\"2026-11-18T17:00:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"3fcb2aaa-488d-4671-a33b-17e84b8643d6\",\"actions\":[{\"link\":\"/articles/39072\",\"type\":\"button\",\"linkText\":\"See the series\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
       "metadata": {
         "updatedAt": "2026-11-18T17:03:16.111Z",
         "endsAt": "2026-12-09T00:12:00.000Z",
@@ -231,48 +231,12 @@
     },
     {
       "platform": "civitai",
-      "title": "Kohya Is Back: Train It in Training Studio",
-      "description": "Pick Kohya as the engine in [Training Studio](/training-studio?view=new) to train SD 1.5, SDXL, Flux.1 and Chroma LoRAs. The classic trainer is retired, and your past runs are still there to publish.",
-      "url": "https://civitai.com/events/2501",
-      "deadline": "2026-11-25T01:00:00.000Z",
-      "prize": "",
-      "rawHtml": "{\"updatedAt\":\"2026-11-18T00:42:14.033Z\",\"endsAt\":\"2026-11-25T01:00:00.000Z\",\"id\":2501,\"title\":\"Kohya Is Back: Train It in Training Studio\",\"content\":\"Pick Kohya as the engine in [Training Studio](/training-studio?view=new) to train SD 1.5, SDXL, Flux.1 and Chroma LoRAs. The classic trainer is retired, and your past runs are still there to publish.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-11-18T00:42:14.033Z\",\"startsAt\":\"2026-11-18T00:42:13.646Z\",\"metadata\":{\"type\":\"site\",\"image\":\"251b2a25-ad1f-4238-a725-36e3ccc46f4f\",\"actions\":[{\"link\":\"/articles/39100\",\"type\":\"button\",\"linkText\":\"See how it works\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
-      "metadata": {
-        "updatedAt": "2026-11-18T00:42:14.033Z",
-        "endsAt": "2026-11-25T01:00:00.000Z",
-        "id": 2501,
-        "title": "Kohya Is Back: Train It in Training Studio",
-        "content": "Pick Kohya as the engine in [Training Studio](/training-studio?view=new) to train SD 1.5, SDXL, Flux.1 and Chroma LoRAs. The classic trainer is retired, and your past runs are still there to publish.",
-        "color": "violet",
-        "emoji": null,
-        "createdAt": "2026-11-18T00:42:14.033Z",
-        "startsAt": "2026-11-18T00:42:13.646Z",
-        "metadata": {
-          "type": "site",
-          "image": "251b2a25-ad1f-4238-a725-36e3ccc46f4f",
-          "actions": [
-            {
-              "link": "/articles/39100",
-              "type": "button",
-              "linkText": "See how it works"
-            }
-          ],
-          "colSpan": 6,
-          "statusPage": false,
-          "dismissible": true,
-          "targetAudience": "all"
-        }
-      }
-    },
-    {
-      "platform": "civitai",
       "title": "FIBO 2.0 from Bria is in the generator",
       "description": "Create with Dev, edit with up to 16 images in Edit Turbo. 36 Buzz an image, safe for work. [Read more](/articles/39099).",
       "url": "https://civitai.com/events/2500",
       "prize": "39099",
       "rawHtml": "{\"updatedAt\":\"2026-11-18T00:18:04.469Z\",\"endsAt\":null,\"id\":2500,\"title\":\"FIBO 2.0 from Bria is in the generator\",\"content\":\"Create with Dev, edit with up to 16 images in Edit Turbo. 36 Buzz an image, safe for work. [Read more](/articles/39099).\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-11-17T23:16:33.625Z\",\"startsAt\":\"2026-11-18T00:17:56.453Z\",\"metadata\":{\"type\":\"site\",\"image\":\"1c3304fe-a58e-496a-b29b-1d67bd8f64a0\",\"actions\":[{\"link\":\"/generate?modelVersionId=3469179\",\"type\":\"button\",\"linkText\":\"Try FIBO 2.0\"}],\"colSpan\":6,\"statusPage\":false,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
       "metadata": {
         "updatedAt": "2026-11-18T00:18:04.469Z",
         "endsAt": null,
@@ -308,7 +272,7 @@
       "deadline": "2026-12-01T00:00:00.000Z",
       "prize": "",
       "rawHtml": "{\"updatedAt\":\"2026-11-01T00:07:13.753Z\",\"endsAt\":\"2026-12-01T00:00:00.000Z\",\"id\":1973,\"title\":\"Our 4th Birthday Event: Everyone Gets a Hat\",\"content\":\"It's our birthday, so everyone gets a free hat. Join a random color team, put hats on your best work, and win your team the Champion badge. All of November.\",\"color\":\"violet\",\"emoji\":null,\"createdAt\":\"2026-10-28T20:43:33.922Z\",\"startsAt\":\"2026-11-01T00:00:00.000Z\",\"metadata\":{\"type\":\"site\",\"image\":\"1e062869-a904-41b6-8f2a-1cd641352055\",\"actions\":[{\"link\":\"/events/birthday2026\",\"type\":\"button\",\"linkText\":\"Join a team\"},{\"link\":\"/articles/36416\",\"type\":\"button\",\"linkText\":\"How it works\"}],\"colSpan\":6,\"dismissible\":true,\"targetAudience\":\"all\"}}",
-      "scrapedAt": "2026-11-24T22:06:55.225Z",
+      "scrapedAt": "2026-11-25T07:41:17.362Z",
       "metadata": {
         "updatedAt": "2026-11-01T00:07:13.753Z",
         "endsAt": "2026-12-01T00:00:00.000Z",

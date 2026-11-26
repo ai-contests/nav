@@ -1,6 +1,6 @@
 {
   "platform": "modelscope",
-  "timestamp": "2026-11-25T21:23:10.052Z",
+  "timestamp": "2026-11-26T07:32:16.023Z",
   "contestCount": 10,
   "contests": [
     {
@@ -27,9 +27,38 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T21:23:03.776Z",
-      "scrapedAt": "2026-11-25T21:21:01.510Z",
-      "lastUpdated": "2026-11-25T21:23:03.776Z",
+      "processedAt": "2026-11-26T07:32:08.782Z",
+      "scrapedAt": "2026-11-26T07:29:55.097Z",
+      "lastUpdated": "2026-11-26T07:32:08.782Z",
+      "version": 1
+    },
+    {
+      "id": "c_2695952a9005",
+      "title": "天禧AI生态局×AGI Bar 知识蒸馏 线下局开启！",
+      "platform": "modelscope",
+      "url": "https://modelscope.cn/competition/442",
+      "imageUrl": "",
+      "description": "1 月 27 日晚，来 AGI Bar 跟天禧喝一杯。 不是发布会，不用听课，也不用上台分享。 现场有：一杯天禧特调、一场没有标准答案的讨论。可以只来喝酒，也可以来吐槽，可以来分享分享你的想法。",
+      "summary": "1 月 27 日晚，来 AGI Bar 跟天禧喝一杯。 不是发布会，不用听课，也不用上台分享。 现场有：一杯天禧特调、一场没有标准答案的讨论。可以只来喝酒，也可以来吐槽，可以来分享分享你的想法。...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-11-27T11:00:00.000Z",
+      "prize": "",
+      "tags": [
+        "ai"
+      ],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-26T07:32:08.986Z",
+      "scrapedAt": "2026-11-26T07:29:55.097Z",
+      "lastUpdated": "2026-11-26T07:32:08.986Z",
       "version": 1
     },
     {
@@ -57,9 +86,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T21:23:03.815Z",
-      "scrapedAt": "2026-11-25T21:21:01.511Z",
-      "lastUpdated": "2026-11-25T21:23:03.815Z",
+      "processedAt": "2026-11-26T07:32:09.989Z",
+      "scrapedAt": "2026-11-26T07:29:55.098Z",
+      "lastUpdated": "2026-11-26T07:32:09.989Z",
       "version": 1
     },
     {
@@ -92,9 +121,9 @@
         "希望让每个人都能把一个想法、一段知识"
       ],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T21:23:04.827Z",
-      "scrapedAt": "2026-11-25T21:21:01.511Z",
-      "lastUpdated": "2026-11-25T21:23:04.827Z",
+      "processedAt": "2026-11-26T07:32:09.987Z",
+      "scrapedAt": "2026-11-26T07:29:55.098Z",
+      "lastUpdated": "2026-11-26T07:32:09.987Z",
       "version": 1
     },
     {
@@ -122,9 +151,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T21:23:04.826Z",
-      "scrapedAt": "2026-11-25T21:21:01.511Z",
-      "lastUpdated": "2026-11-25T21:23:04.826Z",
+      "processedAt": "2026-11-26T07:32:09.998Z",
+      "scrapedAt": "2026-11-26T07:29:55.100Z",
+      "lastUpdated": "2026-11-26T07:32:09.998Z",
       "version": 1
     },
     {
@@ -152,9 +181,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T21:23:04.839Z",
-      "scrapedAt": "2026-11-25T21:21:01.511Z",
-      "lastUpdated": "2026-11-25T21:23:04.839Z",
+      "processedAt": "2026-11-26T07:32:09.979Z",
+      "scrapedAt": "2026-11-26T07:29:55.100Z",
+      "lastUpdated": "2026-11-26T07:32:09.979Z",
       "version": 1
     },
     {
@@ -181,9 +210,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T21:23:04.838Z",
-      "scrapedAt": "2026-11-25T21:21:01.512Z",
-      "lastUpdated": "2026-11-25T21:23:04.838Z",
+      "processedAt": "2026-11-26T07:32:10.198Z",
+      "scrapedAt": "2026-11-26T07:29:55.100Z",
+      "lastUpdated": "2026-11-26T07:32:10.198Z",
       "version": 1
     },
     {
@@ -208,9 +237,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T21:23:04.881Z",
-      "scrapedAt": "2026-11-25T21:21:01.512Z",
-      "lastUpdated": "2026-11-25T21:23:04.881Z",
+      "processedAt": "2026-11-26T07:32:11.204Z",
+      "scrapedAt": "2026-11-26T07:29:55.100Z",
+      "lastUpdated": "2026-11-26T07:32:11.204Z",
       "version": 1
     },
     {
@@ -235,9 +264,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T21:23:05.877Z",
-      "scrapedAt": "2026-11-25T21:21:01.512Z",
-      "lastUpdated": "2026-11-25T21:23:05.877Z",
+      "processedAt": "2026-11-26T07:32:11.206Z",
+      "scrapedAt": "2026-11-26T07:29:55.100Z",
+      "lastUpdated": "2026-11-26T07:32:11.206Z",
       "version": 1
     },
     {
@@ -264,44 +293,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-25T21:23:05.875Z",
-      "scrapedAt": "2026-11-25T21:21:01.512Z",
-      "lastUpdated": "2026-11-25T21:23:05.875Z",
-      "version": 1
-    },
-    {
-      "id": "c_df0646df1665",
-      "title": "SEE Conf 2026：创造力复兴，探索 AI 时代的用户体验与工程实践",
-      "platform": "modelscope",
-      "url": "https://modelscope.cn/competition/391",
-      "imageUrl": "",
-      "description": "SEE Conf（蚂蚁终端体验科技大会）由蚂蚁终端技术委员会主办，是一场融合前沿分享、技术展台与沉浸式互动的科技盛会。\n\nSEE Conf（蚂蚁终端体验科技大会）由蚂蚁终端技术委员会主办，是一场融合前沿分享、技术展台与沉浸式互动的科技盛会。SEE 是 Seeking Experience & Engineering 的缩写，意为探索用户体验与卓越工程实践。在这里，我们期待与业界同行共同分享和交流体验科技的最新进展，探讨切磋 AI 时代体验科技的未来发展，共同让生态繁荣共赢。\nSEE Conf 2026：创造力复兴本届是 SEE Conf 的第七届，将会围绕 “创造力复兴，探索 AI时代的用户体验与工程实践” 核心主题，我们希望借助 AI，让更多人突破专业、成本与协作条件的限制，把过去难以实现的构想做出来，催生更丰富的产品、内容、服务与协作方式。“你和我”既是创造者，也是体验者，一个人的创造，也可以成为另一个人的新体验。大会亮点2026 年 11 月 28 日（周六）在杭州蚂蚁 A 空间，大会会议时长为一天，上午主会场，下午将设置 4 个分会场：AI 创新体验、卓越 AI 工程实践、AI 新交互与多端，以及 SEE Next 会场。我们相约一起，讨论如何兼顾质量、效率、成本与人的掌控，让新的创造可靠落地；同时通过开源与开放协作，让能力、方法与经验被更多人获得和共同改进。主题聚焦：「创造力复兴，探索 AI 时代的用户体验与工程实践」全程一天：32+ 场以上演讲，等你来！ 上午主会场业界大佬云集、下午四大专场平行展开：主会场，创造力复兴：以“创造力复兴” 核心主题，阐述 AI 下的一些观点和体验。AI 创新体验：关注 AI 正在催生哪些新的产品、体验与使用方式，以及这些变化如何释放人的创造力。卓越 AI 工程实践：关注 AI 如何改变软件的开发、交付与运行，以及如何把 AI 应用做得可靠、高效、可持续。AI 新交互与多端：关注 AI 时代人与系统交互方式的变化，以及支撑这些体验的终端技术。SEE Next：从技术周期来看，AI 处于发展的早期，许多可能尚是 Undefined，许多习以为常的事物也等待被 Redefine。丰富体验：现场设有 ~20 个技术展台，覆盖技术、产品、体验各个方面，带你近距离交流与产品体验。乐队表演：科技与激情双重碰撞，「996 x 万塘路 18 号 x 无共识」乐队首度联袂表演，带你 High 翻全场！门票信息购票地址：https://seeconf.antgroup.com早鸟票：99元/张（即日起到11月8日）\n售完恢复原价 199元/张售票时间：即日起至 2026 年 11 月 24 日（微信扫码购票）2026 年 11 月 28 日，杭州蚂蚁 A 空间，不见不散！",
-      "summary": "SEE Conf（蚂蚁终端体验科技大会）由蚂蚁终端技术委员会主办，是一场融合前沿分享、技术展台与沉浸式互动的科技盛会。\n\nSEE Conf（蚂蚁终端体验科技大会）由蚂蚁终端技术委员会主办，是一场融合前沿分享、技术展台与沉浸式互动的科技盛会。SEE 是 Seeking Experience & Engineering 的缩写，意为探索用户体验与卓越工程实践。在这里，我们期待与业界同行共同分享和交流体...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "deadline": "2026-11-24T15:59:00.000Z",
-      "prize": "",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-25T21:23:05.880Z",
-      "scrapedAt": "2026-11-25T21:21:01.512Z",
-      "lastUpdated": "2026-11-25T21:23:05.880Z",
+      "processedAt": "2026-11-26T07:32:11.204Z",
+      "scrapedAt": "2026-11-26T07:29:55.100Z",
+      "lastUpdated": "2026-11-26T07:32:11.204Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-25T21:23:10.052Z"
+    "lastUpdated": "2026-11-26T07:32:16.023Z"
   }
 }

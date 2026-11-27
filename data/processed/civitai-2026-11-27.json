@@ -1,7 +1,7 @@
 {
   "platform": "civitai",
-  "timestamp": "2026-11-27T07:29:45.465Z",
-  "contestCount": 7,
+  "timestamp": "2026-11-27T20:56:28.426Z",
+  "contestCount": 6,
   "contests": [
     {
       "id": "c_932de26629ef",
@@ -25,9 +25,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T07:29:38.237Z",
-      "scrapedAt": "2026-11-27T07:27:43.103Z",
-      "lastUpdated": "2026-11-27T07:29:38.237Z",
+      "processedAt": "2026-11-27T20:56:20.618Z",
+      "scrapedAt": "2026-11-27T20:54:31.386Z",
+      "lastUpdated": "2026-11-27T20:56:20.618Z",
       "version": 1
     },
     {
@@ -52,9 +52,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T07:29:38.235Z",
-      "scrapedAt": "2026-11-27T07:27:43.103Z",
-      "lastUpdated": "2026-11-27T07:29:38.235Z",
+      "processedAt": "2026-11-27T20:56:20.629Z",
+      "scrapedAt": "2026-11-27T20:54:31.386Z",
+      "lastUpdated": "2026-11-27T20:56:20.629Z",
       "version": 1
     },
     {
@@ -81,38 +81,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T07:29:38.234Z",
-      "scrapedAt": "2026-11-27T07:27:43.103Z",
-      "lastUpdated": "2026-11-27T07:29:38.234Z",
-      "version": 1
-    },
-    {
-      "id": "c_4ea325abf883",
-      "title": "Showcase Sections: Pick What Your Profile Shows First",
-      "platform": "civitai",
-      "url": "https://civitai.com/events/2598",
-      "imageUrl": "",
-      "description": "Add up to 10 showcases to your profile with your own images, models or articles in your own order, and add any of them straight from its menu. It's the first piece of the [profile facelift](/articles/38570).",
-      "summary": "Add up to 10 showcases to your profile with your own images, models or articles in your own order, and add any of them straight from its menu. It's the first piece of the [profile facelift](/articles/...",
-      "contestType": "image",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-11-27T08:00:00.000Z",
-      "prize": "38570",
-      "tags": [
-        "ai"
-      ],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-27T07:29:38.261Z",
-      "scrapedAt": "2026-11-27T07:27:43.103Z",
-      "lastUpdated": "2026-11-27T07:29:38.261Z",
+      "processedAt": "2026-11-27T20:56:20.626Z",
+      "scrapedAt": "2026-11-27T20:54:31.386Z",
+      "lastUpdated": "2026-11-27T20:56:20.626Z",
       "version": 1
     },
     {
@@ -139,9 +110,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T07:29:39.264Z",
-      "scrapedAt": "2026-11-27T07:27:43.103Z",
-      "lastUpdated": "2026-11-27T07:29:39.264Z",
+      "processedAt": "2026-11-27T20:56:20.725Z",
+      "scrapedAt": "2026-11-27T20:54:31.386Z",
+      "lastUpdated": "2026-11-27T20:56:20.725Z",
       "version": 1
     },
     {
@@ -165,9 +136,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T07:29:39.266Z",
-      "scrapedAt": "2026-11-27T07:27:43.103Z",
-      "lastUpdated": "2026-11-27T07:29:39.266Z",
+      "processedAt": "2026-11-27T20:56:21.749Z",
+      "scrapedAt": "2026-11-27T20:54:31.386Z",
+      "lastUpdated": "2026-11-27T20:56:21.749Z",
       "version": 1
     },
     {
@@ -192,15 +163,15 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T07:29:39.267Z",
-      "scrapedAt": "2026-11-27T07:27:43.103Z",
-      "lastUpdated": "2026-11-27T07:29:39.267Z",
+      "processedAt": "2026-11-27T20:56:21.732Z",
+      "scrapedAt": "2026-11-27T20:54:31.386Z",
+      "lastUpdated": "2026-11-27T20:56:21.732Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-27T07:29:45.465Z"
+    "lastUpdated": "2026-11-27T20:56:28.426Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "platform": "zindi",
-  "timestamp": "2026-11-27T20:56:28.431Z",
+  "timestamp": "2026-11-28T07:00:20.561Z",
   "contestCount": 20,
   "contests": [
     {
@@ -14,7 +14,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-12-12T20:55:27.429Z",
+      "deadline": "2026-12-13T06:59:16.428Z",
       "prize": "$40 000 USD",
       "tags": [
         "ai"
@@ -27,36 +27,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:23.973Z",
-      "scrapedAt": "2026-11-27T20:55:27.429Z",
-      "lastUpdated": "2026-11-27T20:56:23.973Z",
-      "version": 1
-    },
-    {
-      "id": "c_d0302f2c6c51",
-      "title": "Underwater Vessel Noise Challenge by the French Embassy in South Africa",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/french-embassy-underwater-vessel-noise-challenge",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "active",
-      "difficulty": "intermediate",
-      "deadline": "2026-12-13T20:55:27.429Z",
-      "prize": "$5 000 USD",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:23.957Z",
-      "scrapedAt": "2026-11-27T20:55:27.429Z",
-      "lastUpdated": "2026-11-27T20:56:23.957Z",
+      "processedAt": "2026-11-28T07:00:16.055Z",
+      "scrapedAt": "2026-11-28T06:59:16.428Z",
+      "lastUpdated": "2026-11-28T07:00:16.055Z",
       "version": 1
     },
     {
@@ -70,7 +43,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-12-13T20:55:27.429Z",
+      "deadline": "2026-12-13T06:59:16.428Z",
       "prize": "$2 500 USD",
       "tags": [],
       "aiTools": [
@@ -81,9 +54,36 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:24.082Z",
-      "scrapedAt": "2026-11-27T20:55:27.429Z",
-      "lastUpdated": "2026-11-27T20:56:24.082Z",
+      "processedAt": "2026-11-28T07:00:16.088Z",
+      "scrapedAt": "2026-11-28T06:59:16.428Z",
+      "lastUpdated": "2026-11-28T07:00:16.088Z",
+      "version": 1
+    },
+    {
+      "id": "c_d0302f2c6c51",
+      "title": "Underwater Vessel Noise Challenge by the French Embassy in South Africa",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/french-embassy-underwater-vessel-noise-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "active",
+      "difficulty": "intermediate",
+      "deadline": "2026-12-13T06:59:16.428Z",
+      "prize": "$5 000 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-28T07:00:16.184Z",
+      "scrapedAt": "2026-11-28T06:59:16.428Z",
+      "lastUpdated": "2026-11-28T07:00:16.184Z",
       "version": 1
     },
     {
@@ -97,7 +97,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-12-13T20:55:27.429Z",
+      "deadline": "2026-12-14T06:59:16.428Z",
       "prize": "$5 000 USD",
       "tags": [],
       "aiTools": [
@@ -108,9 +108,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:25.074Z",
-      "scrapedAt": "2026-11-27T20:55:27.429Z",
-      "lastUpdated": "2026-11-27T20:56:25.074Z",
+      "processedAt": "2026-11-28T07:00:17.188Z",
+      "scrapedAt": "2026-11-28T06:59:16.429Z",
+      "lastUpdated": "2026-11-28T07:00:17.188Z",
       "version": 1
     },
     {
@@ -124,7 +124,7 @@
       "contestType": "mixed",
       "status": "active",
       "difficulty": "intermediate",
-      "deadline": "2026-12-13T20:55:27.429Z",
+      "deadline": "2026-12-14T06:59:16.429Z",
       "prize": "$5 000 USD",
       "tags": [],
       "aiTools": [
@@ -135,9 +135,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:25.093Z",
-      "scrapedAt": "2026-11-27T20:55:27.430Z",
-      "lastUpdated": "2026-11-27T20:56:25.093Z",
+      "processedAt": "2026-11-28T07:00:17.174Z",
+      "scrapedAt": "2026-11-28T06:59:16.429Z",
+      "lastUpdated": "2026-11-28T07:00:17.174Z",
       "version": 1
     },
     {
@@ -161,9 +161,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:25.107Z",
-      "scrapedAt": "2026-11-27T20:55:27.430Z",
-      "lastUpdated": "2026-11-27T20:56:25.107Z",
+      "processedAt": "2026-11-28T07:00:17.201Z",
+      "scrapedAt": "2026-11-28T06:59:16.429Z",
+      "lastUpdated": "2026-11-28T07:00:17.201Z",
       "version": 1
     },
     {
@@ -189,9 +189,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:25.079Z",
-      "scrapedAt": "2026-11-27T20:55:27.430Z",
-      "lastUpdated": "2026-11-27T20:56:25.079Z",
+      "processedAt": "2026-11-28T07:00:17.194Z",
+      "scrapedAt": "2026-11-28T06:59:16.429Z",
+      "lastUpdated": "2026-11-28T07:00:17.194Z",
       "version": 1
     },
     {
@@ -203,9 +203,8 @@
       "description": "",
       "summary": "undefined...",
       "contestType": "mixed",
-      "status": "upcoming",
+      "status": "ended",
       "difficulty": "intermediate",
-      "deadline": "2026-12-11T20:55:27.430Z",
       "prize": "$10 000 USD",
       "tags": [],
       "aiTools": [
@@ -216,9 +215,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:25.203Z",
-      "scrapedAt": "2026-11-27T20:55:27.430Z",
-      "lastUpdated": "2026-11-27T20:56:25.203Z",
+      "processedAt": "2026-11-28T07:00:17.314Z",
+      "scrapedAt": "2026-11-28T06:59:16.429Z",
+      "lastUpdated": "2026-11-28T07:00:17.314Z",
       "version": 1
     },
     {
@@ -244,9 +243,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:26.203Z",
-      "scrapedAt": "2026-11-27T20:55:27.430Z",
-      "lastUpdated": "2026-11-27T20:56:26.203Z",
+      "processedAt": "2026-11-28T07:00:18.299Z",
+      "scrapedAt": "2026-11-28T06:59:16.430Z",
+      "lastUpdated": "2026-11-28T07:00:18.299Z",
       "version": 1
     },
     {
@@ -270,34 +269,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:26.206Z",
-      "scrapedAt": "2026-11-27T20:55:27.430Z",
-      "lastUpdated": "2026-11-27T20:56:26.206Z",
-      "version": 1
-    },
-    {
-      "id": "c_6a0775806144",
-      "title": "University Hackathon by CMU: Climate Risk and Health Prediction Challenge",
-      "platform": "zindi",
-      "url": "https://zindi.africa/competitions/climate-risk-health-prediction-cmu-hackathon",
-      "imageUrl": "",
-      "description": "",
-      "summary": "undefined...",
-      "contestType": "mixed",
-      "status": "ended",
-      "difficulty": "intermediate",
-      "tags": [],
-      "aiTools": [
-        "Python",
-        "Jupyter",
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "requirements": [],
-      "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:26.224Z",
-      "scrapedAt": "2026-11-27T20:55:27.430Z",
-      "lastUpdated": "2026-11-27T20:56:26.224Z",
+      "processedAt": "2026-11-28T07:00:18.296Z",
+      "scrapedAt": "2026-11-28T06:59:16.430Z",
+      "lastUpdated": "2026-11-28T07:00:18.296Z",
       "version": 1
     },
     {
@@ -321,9 +295,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:26.204Z",
-      "scrapedAt": "2026-11-27T20:55:27.431Z",
-      "lastUpdated": "2026-11-27T20:56:26.204Z",
+      "processedAt": "2026-11-28T07:00:18.315Z",
+      "scrapedAt": "2026-11-28T06:59:16.430Z",
+      "lastUpdated": "2026-11-28T07:00:18.315Z",
       "version": 1
     },
     {
@@ -347,9 +321,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:26.343Z",
-      "scrapedAt": "2026-11-27T20:55:27.431Z",
-      "lastUpdated": "2026-11-27T20:56:26.343Z",
+      "processedAt": "2026-11-28T07:00:18.317Z",
+      "scrapedAt": "2026-11-28T06:59:16.430Z",
+      "lastUpdated": "2026-11-28T07:00:18.317Z",
       "version": 1
     },
     {
@@ -373,9 +347,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:27.331Z",
-      "scrapedAt": "2026-11-27T20:55:27.431Z",
-      "lastUpdated": "2026-11-27T20:56:27.331Z",
+      "processedAt": "2026-11-28T07:00:18.404Z",
+      "scrapedAt": "2026-11-28T06:59:16.430Z",
+      "lastUpdated": "2026-11-28T07:00:18.404Z",
       "version": 1
     },
     {
@@ -399,9 +373,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:27.330Z",
-      "scrapedAt": "2026-11-27T20:55:27.431Z",
-      "lastUpdated": "2026-11-27T20:56:27.330Z",
+      "processedAt": "2026-11-28T07:00:19.418Z",
+      "scrapedAt": "2026-11-28T06:59:16.431Z",
+      "lastUpdated": "2026-11-28T07:00:19.418Z",
       "version": 1
     },
     {
@@ -425,9 +399,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:27.317Z",
-      "scrapedAt": "2026-11-27T20:55:27.431Z",
-      "lastUpdated": "2026-11-27T20:56:27.317Z",
+      "processedAt": "2026-11-28T07:00:19.415Z",
+      "scrapedAt": "2026-11-28T06:59:16.431Z",
+      "lastUpdated": "2026-11-28T07:00:19.415Z",
       "version": 1
     },
     {
@@ -452,9 +426,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:27.321Z",
-      "scrapedAt": "2026-11-27T20:55:27.431Z",
-      "lastUpdated": "2026-11-27T20:56:27.321Z",
+      "processedAt": "2026-11-28T07:00:19.445Z",
+      "scrapedAt": "2026-11-28T06:59:16.431Z",
+      "lastUpdated": "2026-11-28T07:00:19.445Z",
       "version": 1
     },
     {
@@ -478,9 +452,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:27.440Z",
-      "scrapedAt": "2026-11-27T20:55:27.432Z",
-      "lastUpdated": "2026-11-27T20:56:27.440Z",
+      "processedAt": "2026-11-28T07:00:19.437Z",
+      "scrapedAt": "2026-11-28T06:59:16.431Z",
+      "lastUpdated": "2026-11-28T07:00:19.437Z",
       "version": 1
     },
     {
@@ -504,9 +478,9 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:28.420Z",
-      "scrapedAt": "2026-11-27T20:55:27.432Z",
-      "lastUpdated": "2026-11-27T20:56:28.420Z",
+      "processedAt": "2026-11-28T07:00:19.539Z",
+      "scrapedAt": "2026-11-28T06:59:16.431Z",
+      "lastUpdated": "2026-11-28T07:00:19.539Z",
       "version": 1
     },
     {
@@ -530,15 +504,41 @@
       ],
       "requirements": [],
       "qualityScore": 6,
-      "processedAt": "2026-11-27T20:56:28.418Z",
-      "scrapedAt": "2026-11-27T20:55:27.432Z",
-      "lastUpdated": "2026-11-27T20:56:28.418Z",
+      "processedAt": "2026-11-28T07:00:20.555Z",
+      "scrapedAt": "2026-11-28T06:59:16.431Z",
+      "lastUpdated": "2026-11-28T07:00:20.555Z",
+      "version": 1
+    },
+    {
+      "id": "c_e1f6750b0c97",
+      "title": "EY Biodiversity Challenge",
+      "platform": "zindi",
+      "url": "https://zindi.africa/competitions/ey-biodiversity-challenge",
+      "imageUrl": "",
+      "description": "",
+      "summary": "undefined...",
+      "contestType": "mixed",
+      "status": "ended",
+      "difficulty": "intermediate",
+      "prize": "$3 500 USD",
+      "tags": [],
+      "aiTools": [
+        "Python",
+        "Jupyter",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "requirements": [],
+      "qualityScore": 6,
+      "processedAt": "2026-11-28T07:00:20.532Z",
+      "scrapedAt": "2026-11-28T06:59:16.432Z",
+      "lastUpdated": "2026-11-28T07:00:20.532Z",
       "version": 1
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "dataStructure": "ProcessedContest",
-    "lastUpdated": "2026-11-27T20:56:28.431Z"
+    "lastUpdated": "2026-11-28T07:00:20.561Z"
   }
 }
